@@ -328,6 +328,8 @@ OpenXava/generator/WebsphereDbxmiPG.class -text
 OpenXava/generator/WebsphereDbxmiPG.java -text
 OpenXava/generator/WebsphereSchxmiPG.class -text
 OpenXava/generator/WebsphereSchxmiPG.java -text
+OpenXava/generator/WebsphereTblxmiPG.class -text
+OpenXava/generator/WebsphereTblxmiPG.java -text
 OpenXava/generator/aggregateReference.template -text
 OpenXava/generator/aggregateReference.xml -text
 OpenXava/generator/bean.template -text
@@ -348,6 +350,8 @@ OpenXava/generator/websphereDbxmi.template -text
 OpenXava/generator/websphereDbxmi.xml -text
 OpenXava/generator/websphereSchxmi.template -text
 OpenXava/generator/websphereSchxmi.xml -text
+OpenXava/generator/websphereTblxmi.template -text
+OpenXava/generator/websphereTblxmi.xml -text
 OpenXava/hibernate/TabUserPreferences.hbm.xml -text
 OpenXava/hibernate/openxava-hibernate.cfg.xml -text
 OpenXava/history.txt -text
@@ -526,6 +530,7 @@ OpenXava/src/org/openxava/generators/xmlparse/GeneratorsParser.java -text
 OpenXava/src/org/openxava/mapping/AggregateMapping.java -text
 OpenXava/src/org/openxava/mapping/CmpField.java -text
 OpenXava/src/org/openxava/mapping/EntityMapping.java -text
+OpenXava/src/org/openxava/mapping/Mapping.java -text
 OpenXava/src/org/openxava/mapping/ModelMapping.java -text
 OpenXava/src/org/openxava/mapping/PropertyMapping.java -text
 OpenXava/src/org/openxava/mapping/ReferenceMapping.java -text
