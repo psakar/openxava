@@ -330,6 +330,8 @@ OpenXava/generator/WebsphereCodeGenerator.class -text
 OpenXava/generator/WebsphereCodeGenerator.java -text
 OpenXava/generator/WebsphereDbxmiPG.class -text
 OpenXava/generator/WebsphereDbxmiPG.java -text
+OpenXava/generator/WebsphereMapxmiPG.class -text
+OpenXava/generator/WebsphereMapxmiPG.java -text
 OpenXava/generator/WebsphereSchxmiPG.class -text
 OpenXava/generator/WebsphereSchxmiPG.java -text
 OpenXava/generator/WebsphereTblxmiPG.class -text
@@ -354,6 +356,8 @@ OpenXava/generator/property.template -text
 OpenXava/generator/property.xml -text
 OpenXava/generator/websphereDbxmi.template -text
 OpenXava/generator/websphereDbxmi.xml -text
+OpenXava/generator/websphereMapxmi.template -text
+OpenXava/generator/websphereMapxmi.xml -text
 OpenXava/generator/websphereSchxmi.template -text
 OpenXava/generator/websphereSchxmi.xml -text
 OpenXava/generator/websphereTblxmi.template -text
@@ -806,6 +810,7 @@ OpenXava/xdoclet/config/ejb/session-beans.xml -text
 OpenXava/xdoclet/config/jboss/jboss-beans.xml -text
 OpenXava/xdoclet/config/jboss/jboss-resource-managers.xml -text
 OpenXava/xdoclet/config/jboss/jbosscmp-jdbc-typemappings.xml -text
+OpenXava/xdoclet/config/websphere/websphere-beans.xml -text
 OpenXava/xdoclet/lib/commons-collections-2.0.jar -text
 OpenXava/xdoclet/lib/commons-logging.jar -text
 OpenXava/xdoclet/lib/ejb.jar -text
@@ -1319,6 +1324,7 @@ OpenXavaTest/src/org/openxava/test/validators/ExpensiveProductValidator.java -te
 OpenXavaTest/src/org/openxava/test/validators/InvoiceDetailValidator.java -text
 OpenXavaTest/src/org/openxava/test/validators/UnitPriceValidator.java -text
 OpenXavaTest/web/WEB-INF/classes/META-INF/ejb-jar.xml -text
+OpenXavaTest/web/WEB-INF/classes/META-INF/ibm-ejb-jar-bnd.xmi -text svneol=unset#application/octet-stream
 OpenXavaTest/web/WEB-INF/classes/META-INF/jboss.xml -text
 OpenXavaTest/web/WEB-INF/classes/META-INF/jbosscmp-jdbc.xml -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
