@@ -906,6 +906,29 @@ OpenXavaTest/build/ejb/META-INF/ibm-ejb-jar-bnd.xmi -text svneol=unset#applicati
 OpenXavaTest/build/ejb/META-INF/ibm-ejb-jar-ext.xmi -text svneol=unset#application/octet-stream
 OpenXavaTest/build/ejb/META-INF/jboss.xml -text
 OpenXavaTest/build/ejb/META-INF/jbosscmp-jdbc.xml -text
+OpenXavaTest/build/hibernate/Carrier.hbm.xml -text
+OpenXavaTest/build/hibernate/Clerk.hbm.xml -text
+OpenXavaTest/build/hibernate/Customer.hbm.xml -text
+OpenXavaTest/build/hibernate/Delivery.hbm.xml -text
+OpenXavaTest/build/hibernate/DeliveryType.hbm.xml -text
+OpenXavaTest/build/hibernate/DrivingLicence.hbm.xml -text
+OpenXavaTest/build/hibernate/Family2.hbm.xml -text
+OpenXavaTest/build/hibernate/FilterBySubfamily.hbm.xml -text
+OpenXavaTest/build/hibernate/Invoice.hbm.xml -text
+OpenXavaTest/build/hibernate/Office.hbm.xml -text
+OpenXavaTest/build/hibernate/Product.hbm.xml -text
+OpenXavaTest/build/hibernate/Product2.hbm.xml -text
+OpenXavaTest/build/hibernate/Product3.hbm.xml -text
+OpenXavaTest/build/hibernate/Seller.hbm.xml -text
+OpenXavaTest/build/hibernate/SellerLevel.hbm.xml -text
+OpenXavaTest/build/hibernate/Service.hbm.xml -text
+OpenXavaTest/build/hibernate/ServiceType.hbm.xml -text
+OpenXavaTest/build/hibernate/Shipment.hbm.xml -text
+OpenXavaTest/build/hibernate/State.hbm.xml -text
+OpenXavaTest/build/hibernate/Subfamily.hbm.xml -text
+OpenXavaTest/build/hibernate/Subfamily2.hbm.xml -text
+OpenXavaTest/build/hibernate/TransportCharge.hbm.xml -text
+OpenXavaTest/build/hibernate/Warehouse2.hbm.xml -text
 OpenXavaTest/build/j2ee/META-INF/application.xml -text
 OpenXavaTest/components/Carrier.xml -text
 OpenXavaTest/components/Clerk.xml -text
@@ -1275,6 +1298,9 @@ OpenXavaTest/src/org/openxava/test/actions/SearchDeliveryAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SearchInvoiceFromDeliveryAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SetPropertyValueAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ShowListPropertyAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/StateHibernateDeleteAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/StateHibernateSaveAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/StateHibernateSearchAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/TranslateCarrierNameAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/VerifyEditablesProductAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ViewCurrentYearInvoicesAction.java -text
@@ -1359,6 +1385,7 @@ OpenXavaTest/src/org/openxava/test/tests/ProductsWithSectionTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/SellersTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ServicesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ShipmentsTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/StateHibernateTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/Subfamilies2Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/SubfamiliesSelectTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/SubfamiliesTest.java -text
