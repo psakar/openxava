@@ -35,6 +35,9 @@ MiEscuela/gen-src/org/xavax/escuela/model/ProfesorKey.java -text
 MiEscuela/gen-src/org/xavax/escuela/model/ProfesorUtil.java -text
 MiEscuela/gen-src/org/xavax/escuela/model/ProfesorValue.java -text
 MiEscuela/gen-src/org/xavax/escuela/model/xejb/ProfesorCMP.java -text
+MiEscuela/i18n/MiEscuela-labels_ca.properties -text
+MiEscuela/i18n/MiEscuela-labels_en.properties -text
+MiEscuela/i18n/MiEscuela-labels_es.properties -text
 MiEscuela/miescuela.properties -text
 MiEscuela/properties/BeansContext.properties -text
 MiEscuela/properties/LoginContextFactory.properties -text
