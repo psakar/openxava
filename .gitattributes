@@ -308,6 +308,8 @@ OpenXava/generator/BeanPG.class -text
 OpenXava/generator/BeanPG.java -text
 OpenXava/generator/CodeGenerator.class -text
 OpenXava/generator/CodeGenerator.java -text
+OpenXava/generator/EJBCodeGenerator.class -text
+OpenXava/generator/EJBCodeGenerator.java -text
 OpenXava/generator/EJBeanPG.class -text
 OpenXava/generator/EJBeanPG.java -text
 OpenXava/generator/EntityReferencePG.class -text
@@ -320,6 +322,12 @@ OpenXava/generator/PostmodifyPG.class -text
 OpenXava/generator/PostmodifyPG.java -text
 OpenXava/generator/PropertyPG.class -text
 OpenXava/generator/PropertyPG.java -text
+OpenXava/generator/WebsphereCodeGenerator.class -text
+OpenXava/generator/WebsphereCodeGenerator.java -text
+OpenXava/generator/WebsphereDbxmiPG.class -text
+OpenXava/generator/WebsphereDbxmiPG.java -text
+OpenXava/generator/WebsphereSchxmiPG.class -text
+OpenXava/generator/WebsphereSchxmiPG.java -text
 OpenXava/generator/aggregateReference.template -text
 OpenXava/generator/aggregateReference.xml -text
 OpenXava/generator/bean.template -text
@@ -336,6 +344,10 @@ OpenXava/generator/postmodify.template -text
 OpenXava/generator/postmodify.xml -text
 OpenXava/generator/property.template -text
 OpenXava/generator/property.xml -text
+OpenXava/generator/websphereDbxmi.template -text
+OpenXava/generator/websphereDbxmi.xml -text
+OpenXava/generator/websphereSchxmi.template -text
+OpenXava/generator/websphereSchxmi.xml -text
 OpenXava/hibernate/TabUserPreferences.hbm.xml -text
 OpenXava/hibernate/openxava-hibernate.cfg.xml -text
 OpenXava/history.txt -text
@@ -772,7 +784,6 @@ OpenXava/xava/stereotype-type-default.xml -text
 OpenXava/xava/validators.xml -text
 OpenXava/xdoclet/.classpath -text
 OpenXava/xdoclet/.project -text
-OpenXava/xdoclet/build-websphere.xml -text
 OpenXava/xdoclet/build.xml -text
 OpenXava/xdoclet/config/application/.nautilus-metafile.xml -text
 OpenXava/xdoclet/config/application/application.xml -text
@@ -787,6 +798,7 @@ OpenXava/xdoclet/lib/ejb.jar -text
 OpenXava/xdoclet/lib/log4j.jar -text
 OpenXava/xdoclet/lib/xdoclet-1.2.2.jar -text
 OpenXava/xdoclet/lib/xdoclet-ejb-module-1.2.2.jar -text
+OpenXava/xdoclet/lib/xdoclet-ibm-module-1.3-2004-11-14.jar -text
 OpenXava/xdoclet/lib/xdoclet-jboss-module-1.2.2.jar -text
 OpenXava/xdoclet/lib/xdoclet-jmx-module-1.2.2.jar -text
 OpenXava/xdoclet/lib/xdoclet-web-module-1.2.2.jar -text
@@ -825,7 +837,10 @@ OpenXavaTest/.classpath -text
 OpenXavaTest/.project -text
 OpenXavaTest/build.xml -text
 OpenXavaTest/build/ejb/META-INF/MANIFEST.MF -text
+OpenXavaTest/build/ejb/META-INF/Schema.dbxmi -text svneol=unset#application/octet-stream
 OpenXavaTest/build/ejb/META-INF/ejb-jar.xml -text
+OpenXavaTest/build/ejb/META-INF/ibm-ejb-jar-bnd.xmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/ibm-ejb-jar-ext.xmi -text svneol=unset#application/octet-stream
 OpenXavaTest/build/ejb/META-INF/jboss.xml -text
 OpenXavaTest/build/ejb/META-INF/jbosscmp-jdbc.xml -text
 OpenXavaTest/build/j2ee/META-INF/application.xml -text
