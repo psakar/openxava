@@ -1274,8 +1274,10 @@ OpenXavaTest/src/org/openxava/test/filters/NumbersToLettersFilter.java -text
 OpenXavaTest/src/org/openxava/test/formatters/FamilyDescriptionsFormatter.java -text
 OpenXavaTest/src/org/openxava/test/formatters/PersonNameFormatter.java -text
 OpenXavaTest/src/org/openxava/test/formatters/WarehouseKeyFormatter.java -text
-OpenXavaTest/src/org/openxava/test/generators/WarehouseGenerator.java -text
-OpenXavaTest/src/org/openxava/test/generators/warehouse_property.template -text
+OpenXavaTest/src/org/openxava/test/generators/WarehouseEJBGenerator.java -text
+OpenXavaTest/src/org/openxava/test/generators/WarehousePOJOGenerator.java -text
+OpenXavaTest/src/org/openxava/test/generators/warehouse_ejb_property.template -text
+OpenXavaTest/src/org/openxava/test/generators/warehouse_pojo_property.template -text
 OpenXavaTest/src/org/openxava/test/model/Family.java -text
 OpenXavaTest/src/org/openxava/test/tests/CarriersTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ChangeProductsPrice2Test.java -text
