@@ -423,6 +423,7 @@ OpenXava/src/org/openxava/actions/INavigationAction.java -text
 OpenXava/src/org/openxava/actions/IOnChangePropertyAction.java -text
 OpenXava/src/org/openxava/actions/IRemoteAction.java -text
 OpenXava/src/org/openxava/actions/IRequestAction.java -text
+OpenXava/src/org/openxava/actions/InitListAction.java -text
 OpenXava/src/org/openxava/actions/LoadImageAction.java -text
 OpenXava/src/org/openxava/actions/MoveColumnToLeftAction.java -text
 OpenXava/src/org/openxava/actions/MoveColumnToRightAction.java -text
