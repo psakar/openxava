@@ -381,6 +381,7 @@ OpenXava/src/org/openxava/actions/GoListAction.java -text
 OpenXava/src/org/openxava/actions/GoNextPageAction.java -text
 OpenXava/src/org/openxava/actions/GoPageAction.java -text
 OpenXava/src/org/openxava/actions/GoPreviousPageAction.java -text
+OpenXava/src/org/openxava/actions/HibernateBaseAction.java -text
 OpenXava/src/org/openxava/actions/HiddenDetailElementInCollectionAction.java -text
 OpenXava/src/org/openxava/actions/IAction.java -text
 OpenXava/src/org/openxava/actions/IChainAction.java -text
