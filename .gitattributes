@@ -144,3 +144,139 @@ MiEscuela/xavax/dtds/stereotype-type-default.dtd -text
 MiEscuela/xavax/dtds/tipo-estereotipo-defecto.dtd -text
 MiEscuela/xavax/dtds/validadores.dtd -text
 MiEscuela/xavax/dtds/validators.dtd -text
+MySchool/.classpath -text
+MySchool/.project -text
+MySchool/build.xml -text
+MySchool/build/ejb/META-INF/MANIFEST.MF -text
+MySchool/build/ejb/META-INF/ejb-jar.xml -text
+MySchool/build/ejb/META-INF/jboss.xml -text
+MySchool/build/ejb/META-INF/jbosscmp-jdbc.xml -text
+MySchool/build/j2ee/META-INF/application.xml -text
+MySchool/components/Teacher.xml -text
+MySchool/components/dtds/componente.dtd -text svneol=unset#application/octet-stream
+MySchool/components/dtds/xavax-component.dtd -text svneol=unset#application/octet-stream
+MySchool/data/MySchool-db.script -text svneol=unset#application/octet-stream
+MySchool/data/MySchool-ds.xml -text
+MySchool/gen-src-xavax/dnas.properties -text
+MySchool/gen-src-xavax/last.generation.time -text svneol=unset#application/octet-stream
+MySchool/gen-src-xavax/org/xavax/school/model/ITeacher.java -text
+MySchool/gen-src-xavax/org/xavax/school/model/xejb/TeacherBean.java -text
+MySchool/gen-src-xavax/packages.properties -text
+MySchool/gen-src/org/xavax/school/model/Teacher.java -text
+MySchool/gen-src/org/xavax/school/model/TeacherData.java -text
+MySchool/gen-src/org/xavax/school/model/TeacherHome.java -text
+MySchool/gen-src/org/xavax/school/model/TeacherKey.java -text
+MySchool/gen-src/org/xavax/school/model/TeacherUtil.java -text
+MySchool/gen-src/org/xavax/school/model/TeacherValue.java -text
+MySchool/gen-src/org/xavax/school/model/xejb/TeacherCMP.java -text
+MySchool/i18n/MySchools-labels_ca.properties -text
+MySchool/i18n/MySchools-labels_en.properties -text
+MySchool/i18n/MySchools-labels_es.properties -text
+MySchool/myschool.properties -text
+MySchool/properties/BeansContext.properties -text
+MySchool/properties/LoginContextFactory.properties -text
+MySchool/properties/jndi.properties -text
+MySchool/properties/xavax.properties -text
+MySchool/properties/xavaxjunit.properties -text
+MySchool/src/org/xavax/school/tests/TeachersTest.java -text
+MySchool/web/WEB-INF/classes/META-INF/ejb-jar.xml -text
+MySchool/web/WEB-INF/classes/META-INF/jboss.xml -text
+MySchool/web/WEB-INF/classes/META-INF/jbosscmp-jdbc.xml -text
+MySchool/web/WEB-INF/lib/commons-beanutils-1.5.jar -text
+MySchool/web/WEB-INF/lib/commons-collections-2.1.jar -text
+MySchool/web/WEB-INF/lib/commons-digester-1.3.jar -text
+MySchool/web/WEB-INF/lib/commons-fileupload-1.0.jar -text
+MySchool/web/WEB-INF/lib/commons-logging-1.0.2.jar -text
+MySchool/web/WEB-INF/lib/commons-logging-api-1.0.2.jar -text
+MySchool/web/WEB-INF/lib/ehcache.jar -text
+MySchool/web/WEB-INF/lib/hibernate2.jar -text
+MySchool/web/WEB-INF/lib/itext-1.01.jar -text
+MySchool/web/WEB-INF/lib/jasperreports-0.5.3.jar -text
+MySchool/web/WEB-INF/lib/jboss-client.jar -text
+MySchool/web/WEB-INF/lib/jstl.jar -text
+MySchool/web/WEB-INF/lib/poi-2.0-final-20040126.jar -text
+MySchool/web/WEB-INF/lib/standard.jar -text
+MySchool/web/WEB-INF/lib/xavax.jar -text
+MySchool/web/WEB-INF/web.xml -text
+MySchool/web/WEB-INF/xavax.tld -text svneol=unset#application/octet-stream
+MySchool/web/xavax/addColumns.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/buttonBar.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/collection.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/comparatorsBooleanCombo.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/comparatorsCombo.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/comparatorsValidValuesCombo.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/descriptionsList.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/detail.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/editor.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/editors/booleanEditor.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/editors/changeImage.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/editors/descriptionsEditor.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/editors/imageEditor.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/editors/labelEditor.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/editors/moneyEditor.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/editors/notAvailableEditor.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/editors/photoEditor.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/editors/textAreaEditor.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/editors/textEditor.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/editors/validValuesEditor.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/errors.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/htmlTagsEditor.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/images/.xvpics/encontrar.gif -text
+MySchool/web/xavax/images/.xvpics/excel.gif -text svneol=unset#application/octet-stream
+MySchool/web/xavax/images/add.gif -text
+MySchool/web/xavax/images/ascending.gif -text
+MySchool/web/xavax/images/customize.gif -text
+MySchool/web/xavax/images/delete.gif -text
+MySchool/web/xavax/images/descending.gif -text
+MySchool/web/xavax/images/error.gif -text
+MySchool/web/xavax/images/excel.gif -text
+MySchool/web/xavax/images/find.gif -text
+MySchool/web/xavax/images/home.gif -text
+MySchool/web/xavax/images/html/skins/Jetspeed/tableft.gif -text
+MySchool/web/xavax/images/html/skins/Jetspeed/tableft_low.gif -text
+MySchool/web/xavax/images/html/skins/Jetspeed/tabmiddle.gif -text
+MySchool/web/xavax/images/html/skins/Jetspeed/tabmiddle_low.gif -text
+MySchool/web/xavax/images/html/skins/Jetspeed/tabright.gif -text
+MySchool/web/xavax/images/html/skins/Jetspeed/tabright_low.gif -text
+MySchool/web/xavax/images/key.gif -text
+MySchool/web/xavax/images/move-left.gif -text
+MySchool/web/xavax/images/move-right.gif -text
+MySchool/web/xavax/images/new.gif -text
+MySchool/web/xavax/images/next.gif -text
+MySchool/web/xavax/images/next_page.gif -text
+MySchool/web/xavax/images/pdf.gif -text
+MySchool/web/xavax/images/photo.gif -text
+MySchool/web/xavax/images/previous.gif -text
+MySchool/web/xavax/images/previous_page.gif -text
+MySchool/web/xavax/images/remove.gif -text
+MySchool/web/xavax/images/required.gif -text
+MySchool/web/xavax/images/save.gif -text
+MySchool/web/xavax/images/search.gif -text
+MySchool/web/xavax/imports.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/jasperReport.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/languages.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/list.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/messages.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/module.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/referenceSearch.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/sections.jsp -text svneol=unset#application/octet-stream
+MySchool/web/xavax/style/default.css -text svneol=unset#application/octet-stream
+MySchool/web/xavax/style/jetspeed.css -text svneol=unset#application/octet-stream
+MySchool/web/xavax/style/skins.css -text svneol=unset#application/octet-stream
+MySchool/web/xavax/style/swing.css -text svneol=unset#application/octet-stream
+MySchool/web/xavax/style/yahoo.css -text svneol=unset#application/octet-stream
+MySchool/xavax/application.xml -text
+MySchool/xavax/dtds/aplicacion.dtd -text svneol=unset#application/octet-stream
+MySchool/xavax/dtds/application.dtd -text svneol=unset#application/octet-stream
+MySchool/xavax/dtds/code-generators.dtd -text svneol=unset#application/octet-stream
+MySchool/xavax/dtds/controladores.dtd -text svneol=unset#application/octet-stream
+MySchool/xavax/dtds/controllers.dtd -text svneol=unset#application/octet-stream
+MySchool/xavax/dtds/default-size.dtd -text svneol=unset#application/octet-stream
+MySchool/xavax/dtds/editores.dtd -text svneol=unset#application/octet-stream
+MySchool/xavax/dtds/editors.dtd -text svneol=unset#application/octet-stream
+MySchool/xavax/dtds/generadores-codigo.dtd -text svneol=unset#application/octet-stream
+MySchool/xavax/dtds/longitud-defecto.dtd -text svneol=unset#application/octet-stream
+MySchool/xavax/dtds/stereotype-type-default.dtd -text svneol=unset#application/octet-stream
+MySchool/xavax/dtds/tipo-estereotipo-defecto.dtd -text svneol=unset#application/octet-stream
+MySchool/xavax/dtds/validadores.dtd -text svneol=unset#application/octet-stream
+MySchool/xavax/dtds/validators.dtd -text svneol=unset#application/octet-stream
