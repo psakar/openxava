@@ -1041,6 +1041,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/Subfamily.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Subfamily2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/TransportCharge.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Warehouse2.java -text
+OpenXavaTest/gen-src-xava/packages-ejb.properties -text
 OpenXavaTest/gen-src-xava/packages.properties -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/AdditionalDetail.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/AdditionalDetailData.java -text
