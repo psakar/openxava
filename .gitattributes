@@ -1255,6 +1255,7 @@ OpenXavaTest/src/org/openxava/test/calculators/ImportanceCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/IncreasePriceCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/InvoiceDetailOidCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/PercentageCalculator.java -text
+OpenXavaTest/src/org/openxava/test/calculators/SellerInvoiceDiscountCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/TranslateCarrierNameCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/YearInvoiceDiscountCalculator.java -text
 OpenXavaTest/src/org/openxava/test/ejb/IWithCity.java -text
