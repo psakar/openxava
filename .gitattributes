@@ -772,6 +772,7 @@ OpenXava/xava/stereotype-type-default.xml -text
 OpenXava/xava/validators.xml -text
 OpenXava/xdoclet/.classpath -text
 OpenXava/xdoclet/.project -text
+OpenXava/xdoclet/build-websphere.xml -text
 OpenXava/xdoclet/build.xml -text
 OpenXava/xdoclet/config/application/.nautilus-metafile.xml -text
 OpenXava/xdoclet/config/application/application.xml -text
@@ -784,12 +785,12 @@ OpenXava/xdoclet/lib/commons-collections-2.0.jar -text
 OpenXava/xdoclet/lib/commons-logging.jar -text
 OpenXava/xdoclet/lib/ejb.jar -text
 OpenXava/xdoclet/lib/log4j.jar -text
-OpenXava/xdoclet/lib/xdoclet-1.2.1.jar -text
-OpenXava/xdoclet/lib/xdoclet-ejb-module-1.2.1.jar -text
-OpenXava/xdoclet/lib/xdoclet-jboss-module-1.2.1.jar -text
-OpenXava/xdoclet/lib/xdoclet-jmx-module-1.2.1.jar -text
-OpenXava/xdoclet/lib/xdoclet-web-module-1.2.1.jar -text
-OpenXava/xdoclet/lib/xjavadoc-1.0.3.jar -text
+OpenXava/xdoclet/lib/xdoclet-1.2.2.jar -text
+OpenXava/xdoclet/lib/xdoclet-ejb-module-1.2.2.jar -text
+OpenXava/xdoclet/lib/xdoclet-jboss-module-1.2.2.jar -text
+OpenXava/xdoclet/lib/xdoclet-jmx-module-1.2.2.jar -text
+OpenXava/xdoclet/lib/xdoclet-web-module-1.2.2.jar -text
+OpenXava/xdoclet/lib/xjavadoc-1.1.jar -text
 OpenXavaDoc/.project -text
 OpenXavaDoc/.settings/org.eclipse.core.resources.prefs -text svneol=unset#application/octet-stream
 OpenXavaDoc/build.xml -text
