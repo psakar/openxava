@@ -1298,6 +1298,7 @@ OpenXavaTest/src/org/openxava/test/actions/ReturnToInvoiceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SearchDeliveryAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SearchInvoiceFromDeliveryAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SetPropertyValueAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/SetPropertyValueNotifyingAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ShowListPropertyAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/StateHibernateDeleteAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/StateHibernateSaveAction.java -text
