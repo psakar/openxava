@@ -437,6 +437,7 @@ OpenXava/src/org/openxava/actions/SaveNewAction.java -text
 OpenXava/src/org/openxava/actions/SearchAction.java -text
 OpenXava/src/org/openxava/actions/SearchByViewKeyAction.java -text
 OpenXava/src/org/openxava/actions/SetCustomViewAction.java -text
+OpenXava/src/org/openxava/actions/SortColumnsAction.java -text
 OpenXava/src/org/openxava/actions/ViewBaseAction.java -text
 OpenXava/src/org/openxava/actions/ViewDetailAction.java -text
 OpenXava/src/org/openxava/application/meta/MetaApplication.java -text
@@ -760,6 +761,7 @@ OpenXava/web/images/remove.gif -text
 OpenXava/web/images/required.gif -text
 OpenXava/web/images/save.gif -text
 OpenXava/web/images/search.gif -text
+OpenXava/web/images/sort.gif -text
 OpenXava/web/imports.jsp -text
 OpenXava/web/jasperReport.jsp -text
 OpenXava/web/languages.jsp -text
@@ -1393,6 +1395,7 @@ OpenXavaTest/web/xava/images/remove.gif -text
 OpenXavaTest/web/xava/images/required.gif -text
 OpenXavaTest/web/xava/images/save.gif -text
 OpenXavaTest/web/xava/images/search.gif -text
+OpenXavaTest/web/xava/images/sort.gif -text
 OpenXavaTest/web/xava/imports.jsp -text
 OpenXavaTest/web/xava/jasperReport.jsp -text
 OpenXavaTest/web/xava/languages.jsp -text
