@@ -314,8 +314,12 @@ OpenXava/generator/EJBeanPG.class -text
 OpenXava/generator/EJBeanPG.java -text
 OpenXava/generator/EntityReferencePG.class -text
 OpenXava/generator/EntityReferencePG.java -text
+OpenXava/generator/HCodeGenerator.class -text
+OpenXava/generator/HCodeGenerator.java -text
 OpenXava/generator/InterfacePG.class -text
 OpenXava/generator/InterfacePG.java -text
+OpenXava/generator/PojoPG.class -text
+OpenXava/generator/PojoPG.java -text
 OpenXava/generator/PostcreatePG.class -text
 OpenXava/generator/PostcreatePG.java -text
 OpenXava/generator/PostmodifyPG.class -text
@@ -340,6 +344,8 @@ OpenXava/generator/entityReference.template -text
 OpenXava/generator/entityReference.xml -text
 OpenXava/generator/interface.template -text
 OpenXava/generator/interface.xml -text
+OpenXava/generator/pojo.template -text
+OpenXava/generator/pojo.xml -text
 OpenXava/generator/postcreate.template -text
 OpenXava/generator/postcreate.xml -text
 OpenXava/generator/postmodify.template -text
