@@ -317,6 +317,8 @@ OpenXava/generator/EntityReferencePG.class -text
 OpenXava/generator/EntityReferencePG.java -text
 OpenXava/generator/HCodeGenerator.class -text
 OpenXava/generator/HCodeGenerator.java -text
+OpenXava/generator/HibernatePG.class -text
+OpenXava/generator/HibernatePG.java -text
 OpenXava/generator/InterfacePG.class -text
 OpenXava/generator/InterfacePG.java -text
 OpenXava/generator/PojoPG.class -text
@@ -345,6 +347,8 @@ OpenXava/generator/ejbean.template -text
 OpenXava/generator/ejbean.xml -text
 OpenXava/generator/entityReference.template -text
 OpenXava/generator/entityReference.xml -text
+OpenXava/generator/hibernate.template -text
+OpenXava/generator/hibernate.xml -text
 OpenXava/generator/interface.template -text
 OpenXava/generator/interface.xml -text
 OpenXava/generator/pojo.template -text
@@ -551,10 +555,13 @@ OpenXava/src/org/openxava/mapping/PropertyMapping.java -text
 OpenXava/src/org/openxava/mapping/ReferenceMapping.java -text
 OpenXava/src/org/openxava/mapping/ReferenceMappingDetail.java -text
 OpenXava/src/org/openxava/mapping/xmlparse/MappingParser.java -text
+OpenXava/src/org/openxava/model/HibernateMapFacade.java -text
 OpenXava/src/org/openxava/model/MapFacade.java -text
+OpenXava/src/org/openxava/model/impl/HibernateMapFacadeImpl.java -text
 OpenXava/src/org/openxava/model/impl/MapFacadeBean.java -text
 OpenXava/src/org/openxava/model/impl/MapFacadeHome.java -text
 OpenXava/src/org/openxava/model/impl/MapFacadeRemote.java -text
+OpenXava/src/org/openxava/model/impl/POJOReplicable.java -text
 OpenXava/src/org/openxava/model/meta/DefaultSize.java -text
 OpenXava/src/org/openxava/model/meta/IMetaEjb.java -text
 OpenXava/src/org/openxava/model/meta/IMetaModel.java -text
