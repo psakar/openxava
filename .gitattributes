@@ -380,6 +380,7 @@ OpenXava/lib/httpunit.jar -text
 OpenXava/lib/j2ee.jar -text
 OpenXava/lib/js.jar -text
 OpenXava/lib/tl.jar -text
+OpenXava/properties/commons-logging.properties -text
 OpenXava/src/org/openxava/actions/AddColumnsAction.java -text
 OpenXava/src/org/openxava/actions/BaseAction.java -text
 OpenXava/src/org/openxava/actions/CancelAction.java -text
@@ -705,6 +706,7 @@ OpenXava/web/WEB-INF/lib/commons-digester-1.3.jar -text
 OpenXava/web/WEB-INF/lib/commons-fileupload-1.0.jar -text
 OpenXava/web/WEB-INF/lib/commons-logging-1.0.2.jar -text
 OpenXava/web/WEB-INF/lib/commons-logging-api-1.0.2.jar -text
+OpenXava/web/WEB-INF/lib/dom4j.jar -text
 OpenXava/web/WEB-INF/lib/ehcache.jar -text
 OpenXava/web/WEB-INF/lib/hibernate2.jar -text
 OpenXava/web/WEB-INF/lib/itext-1.01.jar -text
@@ -862,6 +864,36 @@ OpenXavaTest/.project -text
 OpenXavaTest/build.xml -text
 OpenXavaTest/build/ejb/META-INF/MANIFEST.MF -text
 OpenXavaTest/build/ejb/META-INF/Schema.dbxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/DB.dbxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/MOCKTABLE.tblxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/Map.mapxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST.schxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST@separator@PRODUCT.tblxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_CARRIER.tblxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_CLERK.tblxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_CUSTOMER.tblxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_DELIVERY.tblxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_DELIVERYPLACE.tblxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_DELIVERYTYPE.tblxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_DRIVINGLICENCE.tblxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_FAMILY.tblxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_INVOICE.tblxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_INVOICEDETAIL.tblxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_MOCKTABLE.tblxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_OFFICE.tblxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_PRODUCT.tblxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_PRODUCT3.tblxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_RECEPTIONIST.tblxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_SELLER.tblxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_SELLERLEVEL.tblxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_SERVICE.tblxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_SERVICEDETAIL.tblxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_SERVICETYPE.tblxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_SHIPMENT.tblxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_STATE.tblxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_SUBFAMILY.tblxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_TRANSPORTCHARGE.tblxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_WAREHOUSE.tblxmi -text svneol=unset#application/octet-stream
 OpenXavaTest/build/ejb/META-INF/ejb-jar.xml -text
 OpenXavaTest/build/ejb/META-INF/ibm-ejb-jar-bnd.xmi -text svneol=unset#application/octet-stream
 OpenXavaTest/build/ejb/META-INF/ibm-ejb-jar-ext.xmi -text svneol=unset#application/octet-stream
@@ -897,7 +929,6 @@ OpenXavaTest/components/dtds/component.dtd -text
 OpenXavaTest/components/dtds/componente.dtd -text
 OpenXavaTest/data/openxava-test-db.script -text
 OpenXavaTest/data/openxava-test-ds.xml -text
-OpenXavaTest/g400.properties -text
 OpenXavaTest/gen-src-xava/dnas.properties -text
 OpenXavaTest/gen-src-xava/last.generation.time -text svneol=unset#application/octet-stream
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/Address.java -text
@@ -1187,6 +1218,7 @@ OpenXavaTest/i18n/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/i18n/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/i18n/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/i18n/OpenXavaTest-messages_es.properties -text
+OpenXavaTest/jboss-hypersonic.properties -text
 OpenXavaTest/properties/BeansContext.properties -text
 OpenXavaTest/properties/LoginContextFactory.properties -text
 OpenXavaTest/properties/jndi.properties -text
@@ -1334,6 +1366,10 @@ OpenXavaTest/src/org/openxava/test/validators/ExpensiveProductValidator.java -te
 OpenXavaTest/src/org/openxava/test/validators/InvoiceDetailValidator.java -text
 OpenXavaTest/src/org/openxava/test/validators/UnitPriceValidator.java -text
 OpenXavaTest/test-images/foto_javi.jpg -text
+OpenXavaTest/web/WEB-INF/classes/META-INF/ejb-jar.xml -text
+OpenXavaTest/web/WEB-INF/classes/META-INF/ibm-ejb-jar-bnd.xmi -text svneol=unset#application/octet-stream
+OpenXavaTest/web/WEB-INF/classes/META-INF/jboss.xml -text
+OpenXavaTest/web/WEB-INF/classes/META-INF/jbosscmp-jdbc.xml -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/datasource.properties -text
@@ -1422,6 +1458,7 @@ OpenXavaTest/web/xava/style/jetspeed.css -text svneol=unset#application/octet-st
 OpenXavaTest/web/xava/style/skins.css -text svneol=unset#application/octet-stream
 OpenXavaTest/web/xava/style/swing.css -text svneol=unset#application/octet-stream
 OpenXavaTest/web/xava/style/yahoo.css -text svneol=unset#application/octet-stream
+OpenXavaTest/websphere-as400.properties -text
 OpenXavaTest/xava/application.xml -text
 OpenXavaTest/xava/code-generators.xml -text
 OpenXavaTest/xava/controllers.xml -text
