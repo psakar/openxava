@@ -561,7 +561,7 @@ OpenXava/src/org/openxava/model/impl/HibernateMapFacadeImpl.java -text
 OpenXava/src/org/openxava/model/impl/MapFacadeBean.java -text
 OpenXava/src/org/openxava/model/impl/MapFacadeHome.java -text
 OpenXava/src/org/openxava/model/impl/MapFacadeRemote.java -text
-OpenXava/src/org/openxava/model/impl/POJOReplicable.java -text
+OpenXava/src/org/openxava/model/impl/POJOPropertiesContainerAdapter.java -text
 OpenXava/src/org/openxava/model/meta/DefaultSize.java -text
 OpenXava/src/org/openxava/model/meta/IMetaEjb.java -text
 OpenXava/src/org/openxava/model/meta/IMetaModel.java -text
@@ -868,6 +868,7 @@ OpenXavaDoc/openxava.xreg -text
 OpenXavaDoc/vinculos.sxd -text
 OpenXavaTest/.classpath -text
 OpenXavaTest/.project -text
+OpenXavaTest/.settings/org.eclipse.core.resources.prefs -text svneol=unset#application/octet-stream
 OpenXavaTest/build.xml -text
 OpenXavaTest/build/ejb/META-INF/MANIFEST.MF -text
 OpenXavaTest/build/ejb/META-INF/Schema.dbxmi -text svneol=unset#application/octet-stream
