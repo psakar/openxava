@@ -1327,6 +1327,7 @@ OpenXavaTest/src/org/openxava/test/validators/ExcludeStringValidator.java -text
 OpenXavaTest/src/org/openxava/test/validators/ExpensiveProductValidator.java -text
 OpenXavaTest/src/org/openxava/test/validators/InvoiceDetailValidator.java -text
 OpenXavaTest/src/org/openxava/test/validators/UnitPriceValidator.java -text
+OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/web/WEB-INF/classes/META-INF/ejb-jar.xml -text
 OpenXavaTest/web/WEB-INF/classes/META-INF/ibm-ejb-jar-bnd.xmi -text svneol=unset#application/octet-stream
 OpenXavaTest/web/WEB-INF/classes/META-INF/jboss.xml -text
