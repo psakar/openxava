@@ -1314,6 +1314,7 @@ OpenXavaTest/src/org/openxava/test/calculators/CarrierRemarksCalculator.java -te
 OpenXavaTest/src/org/openxava/test/calculators/CustomerInvoiceDiscountCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/CustomerTypeInvoiceDiscountCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/DefaultProductPriceCalculator.java -text
+OpenXavaTest/src/org/openxava/test/calculators/DefaultWarehouse2Calculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/DeliveryTransportModeCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/DeliveryTypePostcreateCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/DeliveryTypePostmodifyCalculator.java -text
