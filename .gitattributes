@@ -1115,6 +1115,8 @@ OpenXavaTest/handmadeEJB/META-INF/MANIFEST.MF -text
 OpenXavaTest/handmadeEJB/META-INF/ejb-jar.xml -text
 OpenXavaTest/handmadeEJB/META-INF/jboss.xml -text
 OpenXavaTest/handmadeEJB/META-INF/jbosscmp-jdbc.xml -text
+OpenXavaTest/hibernate/Family.hbm.xml -text
+OpenXavaTest/hibernate/hibernate.cfg.xml -text
 OpenXavaTest/i18n/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/i18n/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/i18n/OpenXavaTest-labels_es.properties -text
@@ -1138,6 +1140,9 @@ OpenXavaTest/src/org/openxava/test/actions/CreateNewWarehouseFromReferenceAction
 OpenXavaTest/src/org/openxava/test/actions/DeactivateReferenceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/DecorateNameAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/EditInvoiceDetailAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/FamilyHibernateDeleteAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/FamilyHibernateSaveAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/FamilyHibernateSearchAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/GenerateDeliveryNumberAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideDeliveryActionsAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideListPropertyAction.java -text
@@ -1209,6 +1214,7 @@ OpenXavaTest/src/org/openxava/test/formatters/PersonNameFormatter.java -text
 OpenXavaTest/src/org/openxava/test/formatters/WarehouseKeyFormatter.java -text
 OpenXavaTest/src/org/openxava/test/generators/WarehouseGenerator.java -text
 OpenXavaTest/src/org/openxava/test/generators/warehouse_property.template -text
+OpenXavaTest/src/org/openxava/test/model/Family.java -text
 OpenXavaTest/src/org/openxava/test/tests/CarriersTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ChangeProductsPrice2Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/ChangeProductsPriceTest.java -text
@@ -1219,6 +1225,7 @@ OpenXavaTest/src/org/openxava/test/tests/CustomersWithSectionTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DeliveriesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DeliveryTypesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/EJBTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/FamiliesHibernateTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/FamiliesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/FamiliesWithInheritanceControllerTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/FamilyProductsReportTest.java -text
@@ -1255,9 +1262,8 @@ OpenXavaTest/src/org/openxava/test/validators/ExcludeStringValidator.java -text
 OpenXavaTest/src/org/openxava/test/validators/ExpensiveProductValidator.java -text
 OpenXavaTest/src/org/openxava/test/validators/InvoiceDetailValidator.java -text
 OpenXavaTest/src/org/openxava/test/validators/UnitPriceValidator.java -text
-OpenXavaTest/web/WEB-INF/classes/META-INF/ejb-jar.xml -text
-OpenXavaTest/web/WEB-INF/classes/META-INF/jboss.xml -text
-OpenXavaTest/web/WEB-INF/classes/META-INF/jbosscmp-jdbc.xml -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/datasource.properties -text
 OpenXavaTest/web/WEB-INF/lib/commons-beanutils-1.5.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-collections-2.1.jar -text
