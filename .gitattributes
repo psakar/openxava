@@ -1224,6 +1224,7 @@ OpenXavaTest/src/org/openxava/test/actions/OnChangeDistanceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeFamilyAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeInvoiceNumberInDeliveryAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangePreferredWarehouseAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/OnChangeProduct3DescriptionAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeProductUnitPriceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeVehicleAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeVoidAction.java -text
