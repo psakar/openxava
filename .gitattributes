@@ -156,8 +156,8 @@ MySchool/build/j2ee/META-INF/application.xml -text
 MySchool/components/Teacher.xml -text
 MySchool/components/dtds/componente.dtd -text svneol=unset#application/octet-stream
 MySchool/components/dtds/xavax-component.dtd -text svneol=unset#application/octet-stream
-MySchool/data/MySchool-db.script -text svneol=unset#application/octet-stream
-MySchool/data/MySchool-ds.xml -text
+MySchool/data/my-school-db.script -text svneol=unset#application/octet-stream
+MySchool/data/my-school-ds.xml -text
 MySchool/gen-src-xavax/dnas.properties -text
 MySchool/gen-src-xavax/last.generation.time -text svneol=unset#application/octet-stream
 MySchool/gen-src-xavax/org/xavax/school/model/ITeacher.java -text
