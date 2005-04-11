@@ -1380,6 +1380,7 @@ OpenXavaTest/src/org/openxava/test/tests/OfficesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/OnlyEditDetailsInvoiceTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/OnlyReadDetailsInvoiceTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/PositiveValidatorTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/Products2ReferenceAndStereotype.java -text
 OpenXavaTest/src/org/openxava/test/tests/Products2Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/Products3Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/Products3WithDescriptionsListTest.java -text
