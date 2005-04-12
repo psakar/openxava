@@ -970,6 +970,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/ejb/ICarrier.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/IClerk.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/ICustomer.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/IDelivery.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/ejb/IDeliveryDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/IDeliveryPlace.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/IDeliveryType.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/IDrivingLicence.java -text
@@ -997,6 +998,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/ejb/xejb/CarrierBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/xejb/ClerkBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/xejb/CustomerBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/xejb/DeliveryBean.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/ejb/xejb/DeliveryDetailBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/xejb/DeliveryPlaceBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/xejb/DeliveryTypeBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/xejb/DrivingLicenceBean.java -text
@@ -1070,6 +1072,12 @@ OpenXavaTest/gen-src/org/openxava/test/ejb/CustomerUtil.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/CustomerValue.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/Delivery.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/DeliveryData.java -text
+OpenXavaTest/gen-src/org/openxava/test/ejb/DeliveryDetail.java -text
+OpenXavaTest/gen-src/org/openxava/test/ejb/DeliveryDetailData.java -text
+OpenXavaTest/gen-src/org/openxava/test/ejb/DeliveryDetailHome.java -text
+OpenXavaTest/gen-src/org/openxava/test/ejb/DeliveryDetailKey.java -text
+OpenXavaTest/gen-src/org/openxava/test/ejb/DeliveryDetailUtil.java -text
+OpenXavaTest/gen-src/org/openxava/test/ejb/DeliveryDetailValue.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/DeliveryHome.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/DeliveryKey.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/DeliveryPlace.java -text
@@ -1216,6 +1224,7 @@ OpenXavaTest/gen-src/org/openxava/test/ejb/xejb/CarrierCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/xejb/ClerkCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/xejb/CustomerCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/xejb/DeliveryCMP.java -text
+OpenXavaTest/gen-src/org/openxava/test/ejb/xejb/DeliveryDetailCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/xejb/DeliveryPlaceCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/xejb/DeliveryTypeCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/xejb/DrivingLicenceCMP.java -text
