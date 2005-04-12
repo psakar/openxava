@@ -876,6 +876,7 @@ OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/DB.dbxmi -text svneol=unset#ap
 OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/MOCKTABLE.tblxmi -text svneol=unset#application/octet-stream
 OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/Map.mapxmi -text svneol=unset#application/octet-stream
 OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST.schxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST@separator@MOCKTABLE.tblxmi -text svneol=unset#application/octet-stream
 OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST@separator@PRODUCT.tblxmi -text svneol=unset#application/octet-stream
 OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_CARRIER.tblxmi -text svneol=unset#application/octet-stream
 OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_CLERK.tblxmi -text svneol=unset#application/octet-stream
@@ -1042,6 +1043,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/Subfamily2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/TransportCharge.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Warehouse2.java -text
 OpenXavaTest/gen-src-xava/packages-ejb.properties -text
+OpenXavaTest/gen-src-xava/packages.properties -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/AdditionalDetail.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/AdditionalDetailData.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/AdditionalDetailHome.java -text
@@ -1373,6 +1375,7 @@ OpenXavaTest/src/org/openxava/test/tests/Invoice20020001Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/Invoices2002Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoicesFromCustomersTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoicesFromDeliveriesTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/InvoicesNoListTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoicesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/MapFacadeTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/NotZeroValidatorTest.java -text
