@@ -1276,9 +1276,6 @@ OpenXavaTest/src/org/openxava/test/actions/CreateNewWarehouseFromReferenceAction
 OpenXavaTest/src/org/openxava/test/actions/DeactivateReferenceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/DecorateNameAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/EditInvoiceDetailAction.java -text
-OpenXavaTest/src/org/openxava/test/actions/FamilyHibernateDeleteAction.java -text
-OpenXavaTest/src/org/openxava/test/actions/FamilyHibernateSaveAction.java -text
-OpenXavaTest/src/org/openxava/test/actions/FamilyHibernateSearchAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/GenerateDeliveryNumberAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideDeliveryActionsAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideListPropertyAction.java -text
@@ -1369,7 +1366,6 @@ OpenXavaTest/src/org/openxava/test/tests/CustomersWithSectionTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DeliveriesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DeliveryTypesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/EJBTest.java -text
-OpenXavaTest/src/org/openxava/test/tests/FamiliesHibernateTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/FamiliesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/FamiliesWithInheritanceControllerTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/FamilyProductsReportTest.java -text
