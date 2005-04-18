@@ -548,12 +548,14 @@ OpenXava/src/org/openxava/generators/IPropertyCodeGenerator.java -text
 OpenXava/src/org/openxava/generators/xmlparse/GeneratorsParser.java -text
 OpenXava/src/org/openxava/mapping/AggregateMapping.java -text
 OpenXava/src/org/openxava/mapping/CmpField.java -text
+OpenXava/src/org/openxava/mapping/DefaultConverter.java -text
 OpenXava/src/org/openxava/mapping/EntityMapping.java -text
 OpenXava/src/org/openxava/mapping/Mapping.java -text
 OpenXava/src/org/openxava/mapping/ModelMapping.java -text
 OpenXava/src/org/openxava/mapping/PropertyMapping.java -text
 OpenXava/src/org/openxava/mapping/ReferenceMapping.java -text
 OpenXava/src/org/openxava/mapping/ReferenceMappingDetail.java -text
+OpenXava/src/org/openxava/mapping/xmlparse/DefaultConverterParser.java -text
 OpenXava/src/org/openxava/mapping/xmlparse/MappingParser.java -text
 OpenXava/src/org/openxava/model/HibernateMapFacade.java -text
 OpenXava/src/org/openxava/model/MapFacade.java -text
@@ -794,6 +796,7 @@ OpenXava/web/style/skins.css -text svneol=unset#application/octet-stream
 OpenXava/web/style/swing.css -text svneol=unset#application/octet-stream
 OpenXava/web/style/yahoo.css -text svneol=unset#application/octet-stream
 OpenXava/xava/controllers.xml -text
+OpenXava/xava/default-converter.xml -text
 OpenXava/xava/default-editors.xml -text
 OpenXava/xava/default-size.xml -text
 OpenXava/xava/dtds/aplicacion.dtd -text
@@ -803,6 +806,8 @@ OpenXava/xava/dtds/component.dtd -text
 OpenXava/xava/dtds/componente.dtd -text
 OpenXava/xava/dtds/controladores.dtd -text
 OpenXava/xava/dtds/controllers.dtd -text
+OpenXava/xava/dtds/conversor-defecto.dtd -text
+OpenXava/xava/dtds/default-converter.dtd -text
 OpenXava/xava/dtds/default-size.dtd -text
 OpenXava/xava/dtds/editores.dtd -text
 OpenXava/xava/dtds/editors.dtd -text
@@ -1047,6 +1052,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/Subfamily2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/TransportCharge.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Warehouse.java -text
 OpenXavaTest/gen-src-xava/packages-ejb.properties -text
+OpenXavaTest/gen-src-xava/packages.properties -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/AdditionalDetail.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/AdditionalDetailData.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/AdditionalDetailHome.java -text
@@ -1539,6 +1545,8 @@ OpenXavaTest/xava/dtds/application.dtd -text
 OpenXavaTest/xava/dtds/code-generators.dtd -text
 OpenXavaTest/xava/dtds/controladores.dtd -text
 OpenXavaTest/xava/dtds/controllers.dtd -text
+OpenXavaTest/xava/dtds/conversor-defecto.dtd -text
+OpenXavaTest/xava/dtds/default-converter.dtd -text
 OpenXavaTest/xava/dtds/default-size.dtd -text
 OpenXavaTest/xava/dtds/editores.dtd -text
 OpenXavaTest/xava/dtds/editors.dtd -text
