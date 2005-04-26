@@ -1473,6 +1473,7 @@ OpenXavaTest/web/WEB-INF/classes/Subfamily2.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/TransportCharge.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/Warehouse.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/datasource.properties -text
+OpenXavaTest/web/WEB-INF/classes/jndi.properties -text
 OpenXavaTest/web/WEB-INF/lib/ehcache.jar -text
 OpenXavaTest/web/WEB-INF/lib/jboss-client.jar -text
 OpenXavaTest/web/WEB-INF/lib/jstl.jar -text
