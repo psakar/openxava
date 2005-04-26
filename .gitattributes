@@ -1321,6 +1321,7 @@ OpenXavaTest/src/org/openxava/test/actions/ViewProductFromInvoiceDetailAction.ja
 OpenXavaTest/src/org/openxava/test/calculators/AdviceCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/AmountsSumCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/CarrierRemarksCalculator.java -text
+OpenXavaTest/src/org/openxava/test/calculators/ConsiderableCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/CustomerInvoiceDiscountCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/CustomerTypeInvoiceDiscountCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/DefaultProductPriceCalculator.java -text
