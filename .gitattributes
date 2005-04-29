@@ -843,6 +843,11 @@ OpenXava/xdoclet/lib/xdoclet-web-module-1.2.2.jar -text
 OpenXava/xdoclet/lib/xjavadoc-1.1.jar -text
 OpenXavaDoc/.project -text
 OpenXavaDoc/.settings/org.eclipse.core.resources.prefs -text svneol=unset#application/octet-stream
+OpenXavaDoc/anagrams/openxava-large.jpg -text
+OpenXavaDoc/anagrams/openxava-small.gif -text
+OpenXavaDoc/anagrams/openxava-small.jpg -text
+OpenXavaDoc/anagrams/openxava.gif -text
+OpenXavaDoc/anagrams/openxava.jpg -text
 OpenXavaDoc/build.xml -text
 OpenXavaDoc/common/snapshot.html -text
 OpenXavaDoc/en/business-component.html -text
