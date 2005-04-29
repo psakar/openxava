@@ -939,6 +939,7 @@ OpenXavaTest/build/hibernate/Subfamily.hbm.xml -text
 OpenXavaTest/build/hibernate/Subfamily2.hbm.xml -text
 OpenXavaTest/build/hibernate/TransportCharge.hbm.xml -text
 OpenXavaTest/build/hibernate/Warehouse.hbm.xml -text
+OpenXavaTest/build/j2ee/META-INF/application-websphere.xml -text
 OpenXavaTest/build/j2ee/META-INF/application.xml -text
 OpenXavaTest/components/Carrier.xml -text
 OpenXavaTest/components/Clerk.xml -text
@@ -1264,8 +1265,13 @@ OpenXavaTest/i18n/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/i18n/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/i18n/OpenXavaTest-messages_es.properties -text
 OpenXavaTest/jboss-hypersonic.properties -text
+OpenXavaTest/orbtrc.29042005.1102.57.txt -text
+OpenXavaTest/orbtrc.29042005.1848.09.txt -text
+OpenXavaTest/orbtrc.29042005.1911.31.txt -text
 OpenXavaTest/properties/BeansContext.properties -text
 OpenXavaTest/properties/LoginContextFactory.properties -text
+OpenXavaTest/properties/jndi-jboss.properties -text
+OpenXavaTest/properties/jndi-websphere.properties -text
 OpenXavaTest/properties/jndi.properties -text
 OpenXavaTest/properties/xava-junit.properties -text
 OpenXavaTest/properties/xava.properties -text
@@ -1419,6 +1425,7 @@ OpenXavaTest/web/WEB-INF/classes/Customer.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/Delivery.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/DeliveryType.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/DrivingLicence.hbm.xml -text
+OpenXavaTest/web/WEB-INF/classes/Family.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/Family2.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/FilterBySubfamily.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/Invoice.hbm.xml -text
@@ -1471,10 +1478,13 @@ OpenXavaTest/web/WEB-INF/classes/Shipment.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/State.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/Subfamily.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/Subfamily2.hbm.xml -text
+OpenXavaTest/web/WEB-INF/classes/TabUserPreferences.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/TransportCharge.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/Warehouse.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/datasource.properties -text
+OpenXavaTest/web/WEB-INF/classes/hibernate.cfg.xml -text
 OpenXavaTest/web/WEB-INF/classes/jndi.properties -text
+OpenXavaTest/web/WEB-INF/classes/openxava-hibernate.cfg.xml -text
 OpenXavaTest/web/WEB-INF/lib/ehcache.jar -text
 OpenXavaTest/web/WEB-INF/lib/jboss-client.jar -text
 OpenXavaTest/web/WEB-INF/lib/jstl.jar -text
