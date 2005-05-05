@@ -902,6 +902,7 @@ OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_INVOICE.tblxmi -text 
 OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_INVOICEDETAIL.tblxmi -text svneol=unset#application/octet-stream
 OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_MOCKTABLE.tblxmi -text svneol=unset#application/octet-stream
 OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_OFFICE.tblxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_OFFICE2.tblxmi -text
 OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_PRODUCT.tblxmi -text svneol=unset#application/octet-stream
 OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_PRODUCT3.tblxmi -text svneol=unset#application/octet-stream
 OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_RECEPTIONIST.tblxmi -text svneol=unset#application/octet-stream
@@ -931,6 +932,7 @@ OpenXavaTest/build/hibernate/Family2.hbm.xml -text
 OpenXavaTest/build/hibernate/FilterBySubfamily.hbm.xml -text
 OpenXavaTest/build/hibernate/Invoice.hbm.xml -text
 OpenXavaTest/build/hibernate/Office.hbm.xml -text
+OpenXavaTest/build/hibernate/Office2.hbm.xml -text
 OpenXavaTest/build/hibernate/Product.hbm.xml -text
 OpenXavaTest/build/hibernate/Product2.hbm.xml -text
 OpenXavaTest/build/hibernate/Product3.hbm.xml -text
@@ -957,6 +959,7 @@ OpenXavaTest/components/Family2.xml -text
 OpenXavaTest/components/FilterBySubfamily.xml -text
 OpenXavaTest/components/Invoice.xml -text
 OpenXavaTest/components/Office.xml -text
+OpenXavaTest/components/Office2.xml -text
 OpenXavaTest/components/Product.xml -text
 OpenXavaTest/components/Product2.xml -text
 OpenXavaTest/components/Product3.xml -text
@@ -992,6 +995,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/ejb/IFilterBySubfamily.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/IInvoice.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/IInvoiceDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/IOffice.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/ejb/IOffice2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/IProduct.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/IProduct2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/IProduct3.java -text
@@ -1019,6 +1023,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/ejb/xejb/Family2Bean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/xejb/FilterBySubfamilyBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/xejb/InvoiceBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/xejb/InvoiceDetailBean.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/ejb/xejb/Office2Bean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/xejb/OfficeBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/xejb/Product2Bean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/xejb/Product3Bean.java -text
@@ -1044,6 +1049,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/Family2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/FilterBySubfamily.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Invoice.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Office.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Office2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Product.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Product2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Product3.java -text
@@ -1143,6 +1149,12 @@ OpenXavaTest/gen-src/org/openxava/test/ejb/InvoiceKey.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/InvoiceUtil.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/InvoiceValue.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/Office.java -text
+OpenXavaTest/gen-src/org/openxava/test/ejb/Office2.java -text
+OpenXavaTest/gen-src/org/openxava/test/ejb/Office2Data.java -text
+OpenXavaTest/gen-src/org/openxava/test/ejb/Office2Home.java -text
+OpenXavaTest/gen-src/org/openxava/test/ejb/Office2Key.java -text
+OpenXavaTest/gen-src/org/openxava/test/ejb/Office2Util.java -text
+OpenXavaTest/gen-src/org/openxava/test/ejb/Office2Value.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/OfficeData.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/OfficeHome.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/OfficeKey.java -text
@@ -1246,6 +1258,7 @@ OpenXavaTest/gen-src/org/openxava/test/ejb/xejb/FamilyCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/xejb/FilterBySubfamilyCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/xejb/InvoiceCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/xejb/InvoiceDetailCMP.java -text
+OpenXavaTest/gen-src/org/openxava/test/ejb/xejb/Office2CMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/xejb/OfficeCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/xejb/Product2CMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/xejb/Product3CMP.java -text
@@ -1448,6 +1461,7 @@ OpenXavaTest/web/WEB-INF/classes/META-INF/backends/OPENXAVA/XAVATEST_INVOICE.tbl
 OpenXavaTest/web/WEB-INF/classes/META-INF/backends/OPENXAVA/XAVATEST_INVOICEDETAIL.tblxmi -text
 OpenXavaTest/web/WEB-INF/classes/META-INF/backends/OPENXAVA/XAVATEST_MOCKTABLE.tblxmi -text
 OpenXavaTest/web/WEB-INF/classes/META-INF/backends/OPENXAVA/XAVATEST_OFFICE.tblxmi -text
+OpenXavaTest/web/WEB-INF/classes/META-INF/backends/OPENXAVA/XAVATEST_OFFICE2.tblxmi -text
 OpenXavaTest/web/WEB-INF/classes/META-INF/backends/OPENXAVA/XAVATEST_PRODUCT.tblxmi -text
 OpenXavaTest/web/WEB-INF/classes/META-INF/backends/OPENXAVA/XAVATEST_PRODUCT3.tblxmi -text
 OpenXavaTest/web/WEB-INF/classes/META-INF/backends/OPENXAVA/XAVATEST_RECEPTIONIST.tblxmi -text
@@ -1467,6 +1481,7 @@ OpenXavaTest/web/WEB-INF/classes/META-INF/ibm-ejb-jar-bnd.xmi -text svneol=unset
 OpenXavaTest/web/WEB-INF/classes/META-INF/jboss.xml -text
 OpenXavaTest/web/WEB-INF/classes/META-INF/jbosscmp-jdbc.xml -text
 OpenXavaTest/web/WEB-INF/classes/Office.hbm.xml -text
+OpenXavaTest/web/WEB-INF/classes/Office2.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/Product.hbm.xml -text
