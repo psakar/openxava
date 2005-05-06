@@ -975,7 +975,6 @@ OpenXavaTest/components/TransportCharge.xml -text
 OpenXavaTest/components/Warehouse.xml -text
 OpenXavaTest/components/dtds/component.dtd -text
 OpenXavaTest/components/dtds/componente.dtd -text
-OpenXavaTest/data/openxava-test-db.script -text
 OpenXavaTest/data/openxava-test-ds.xml -text
 OpenXavaTest/gen-src-xava/dnas.properties -text
 OpenXavaTest/gen-src-xava/last.generation.time -text svneol=unset#application/octet-stream
