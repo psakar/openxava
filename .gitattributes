@@ -557,7 +557,7 @@ OpenXava/src/org/openxava/mapping/ReferenceMapping.java -text
 OpenXava/src/org/openxava/mapping/ReferenceMappingDetail.java -text
 OpenXava/src/org/openxava/mapping/xmlparse/DefaultConverterParser.java -text
 OpenXava/src/org/openxava/mapping/xmlparse/MappingParser.java -text
-OpenXava/src/org/openxava/model/EJBMapFacade.java -text
+OpenXava/src/org/openxava/model/HibernateMapFacade.java -text
 OpenXava/src/org/openxava/model/MapFacade.java -text
 OpenXava/src/org/openxava/model/impl/EJBPersistenceProvider.java -text
 OpenXava/src/org/openxava/model/impl/HibernatePersistenceProvider.java -text
@@ -975,6 +975,7 @@ OpenXavaTest/components/TransportCharge.xml -text
 OpenXavaTest/components/Warehouse.xml -text
 OpenXavaTest/components/dtds/component.dtd -text
 OpenXavaTest/components/dtds/componente.dtd -text
+OpenXavaTest/data/openxava-test-db.script -text
 OpenXavaTest/data/openxava-test-ds.xml -text
 OpenXavaTest/gen-src-xava/dnas.properties -text
 OpenXavaTest/gen-src-xava/last.generation.time -text svneol=unset#application/octet-stream
