@@ -548,14 +548,14 @@ OpenXava/src/org/openxava/generators/IPropertyCodeGenerator.java -text
 OpenXava/src/org/openxava/generators/xmlparse/GeneratorsParser.java -text
 OpenXava/src/org/openxava/mapping/AggregateMapping.java -text
 OpenXava/src/org/openxava/mapping/CmpField.java -text
-OpenXava/src/org/openxava/mapping/DefaultConverter.java -text
+OpenXava/src/org/openxava/mapping/Converters.java -text
 OpenXava/src/org/openxava/mapping/EntityMapping.java -text
 OpenXava/src/org/openxava/mapping/Mapping.java -text
 OpenXava/src/org/openxava/mapping/ModelMapping.java -text
 OpenXava/src/org/openxava/mapping/PropertyMapping.java -text
 OpenXava/src/org/openxava/mapping/ReferenceMapping.java -text
 OpenXava/src/org/openxava/mapping/ReferenceMappingDetail.java -text
-OpenXava/src/org/openxava/mapping/xmlparse/DefaultConverterParser.java -text
+OpenXava/src/org/openxava/mapping/xmlparse/ConvertersParser.java -text
 OpenXava/src/org/openxava/mapping/xmlparse/MappingParser.java -text
 OpenXava/src/org/openxava/model/HibernateMapFacade.java -text
 OpenXava/src/org/openxava/model/MapFacade.java -text
@@ -590,17 +590,12 @@ OpenXava/src/org/openxava/model/meta/xmlparse/ModelParser.java -text
 OpenXava/src/org/openxava/model/meta/xmlparse/StereotypeTypeDefaultParser.java -text
 OpenXava/src/org/openxava/session/Language.java -text
 OpenXava/src/org/openxava/tab/Tab.java -text
-OpenXava/src/org/openxava/tab/impl/ContextTabProvider.java -text
 OpenXava/src/org/openxava/tab/impl/DataChunk.java -text
-OpenXava/src/org/openxava/tab/impl/DefaultTableModel.java -text
-OpenXava/src/org/openxava/tab/impl/EJBTabBase.java -text
-OpenXava/src/org/openxava/tab/impl/EdiTableModel.java -text
 OpenXava/src/org/openxava/tab/impl/EntityTab.java -text
 OpenXava/src/org/openxava/tab/impl/EntityTabBean.java -text
 OpenXava/src/org/openxava/tab/impl/EntityTabDataProvider.java -text
 OpenXava/src/org/openxava/tab/impl/EntityTabFactory.java -text
 OpenXava/src/org/openxava/tab/impl/EntityTabHome.java -text
-OpenXava/src/org/openxava/tab/impl/EntityTabProxy.java -text
 OpenXava/src/org/openxava/tab/impl/EntityTabRemote.java -text
 OpenXava/src/org/openxava/tab/impl/HiddenXTableModel.java -text
 OpenXava/src/org/openxava/tab/impl/IEdiTableModel.java -text
@@ -796,7 +791,7 @@ OpenXava/web/style/skins.css -text svneol=unset#application/octet-stream
 OpenXava/web/style/swing.css -text svneol=unset#application/octet-stream
 OpenXava/web/style/yahoo.css -text svneol=unset#application/octet-stream
 OpenXava/xava/controllers.xml -text
-OpenXava/xava/default-converter.xml -text
+OpenXava/xava/default-converters.xml -text
 OpenXava/xava/default-editors.xml -text
 OpenXava/xava/default-size.xml -text
 OpenXava/xava/dtds/aplicacion.dtd -text
@@ -806,8 +801,8 @@ OpenXava/xava/dtds/component.dtd -text
 OpenXava/xava/dtds/componente.dtd -text
 OpenXava/xava/dtds/controladores.dtd -text
 OpenXava/xava/dtds/controllers.dtd -text
-OpenXava/xava/dtds/conversor-defecto.dtd -text
-OpenXava/xava/dtds/default-converter.dtd -text
+OpenXava/xava/dtds/conversores.dtd -text
+OpenXava/xava/dtds/converters.dtd -text
 OpenXava/xava/dtds/default-size.dtd -text
 OpenXava/xava/dtds/editores.dtd -text
 OpenXava/xava/dtds/editors.dtd -text
@@ -1587,8 +1582,8 @@ OpenXavaTest/xava/dtds/application.dtd -text
 OpenXavaTest/xava/dtds/code-generators.dtd -text
 OpenXavaTest/xava/dtds/controladores.dtd -text
 OpenXavaTest/xava/dtds/controllers.dtd -text
-OpenXavaTest/xava/dtds/conversor-defecto.dtd -text
-OpenXavaTest/xava/dtds/default-converter.dtd -text
+OpenXavaTest/xava/dtds/conversores.dtd -text
+OpenXavaTest/xava/dtds/converters.dtd -text
 OpenXavaTest/xava/dtds/default-size.dtd -text
 OpenXavaTest/xava/dtds/editores.dtd -text
 OpenXavaTest/xava/dtds/editors.dtd -text
