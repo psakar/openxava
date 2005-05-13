@@ -632,6 +632,7 @@ OpenXava/src/org/openxava/util/DataSourceConnectionProvider.java -text
 OpenXava/src/org/openxava/util/Dates.java -text
 OpenXava/src/org/openxava/util/ElementNotFoundException.java -text
 OpenXava/src/org/openxava/util/Factory.java -text
+OpenXava/src/org/openxava/util/FieldComparator.java -text
 OpenXava/src/org/openxava/util/IConnectionProvider.java -text
 OpenXava/src/org/openxava/util/IInit.java -text
 OpenXava/src/org/openxava/util/ILiberate.java -text
