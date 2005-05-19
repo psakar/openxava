@@ -859,6 +859,7 @@ OpenXavaDoc/es/faq.html -text
 OpenXavaDoc/es/futuro.html -text
 OpenXavaDoc/es/migracion.html -text
 OpenXavaDoc/es/tutorial.html -text
+OpenXavaDoc/guia-referencia-capitulos.sxd -text
 OpenXavaDoc/guia-referencia.sxw -text
 OpenXavaDoc/images/arquitectura-openxava.jpg -text
 OpenXavaDoc/images/builder.gif -text
@@ -873,6 +874,7 @@ OpenXavaDoc/images/no-jetspeed02.jpg -text
 OpenXavaDoc/images/openxava-component.jpg -text
 OpenXavaDoc/images/openxava.jpg -text
 OpenXavaDoc/openxava.xreg -text
+OpenXavaDoc/reference-guide.sxw -text
 OpenXavaDoc/vinculos.sxd -text
 OpenXavaTest/.classpath -text
 OpenXavaTest/.project -text
