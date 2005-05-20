@@ -1302,6 +1302,7 @@ OpenXavaTest/src/org/openxava/test/actions/DeactivateReferenceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/DecorateNameAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/EditInvoiceDetailAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/GenerateDeliveryNumberAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/GetNameAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideDeliveryActionsAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideListPropertyAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideShowGroupAction.java -text
