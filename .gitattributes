@@ -557,10 +557,10 @@ OpenXava/src/org/openxava/mapping/ReferenceMapping.java -text
 OpenXava/src/org/openxava/mapping/ReferenceMappingDetail.java -text
 OpenXava/src/org/openxava/mapping/xmlparse/ConvertersParser.java -text
 OpenXava/src/org/openxava/mapping/xmlparse/MappingParser.java -text
-OpenXava/src/org/openxava/model/HibernateMapFacade.java -text
 OpenXava/src/org/openxava/model/MapFacade.java -text
 OpenXava/src/org/openxava/model/impl/EJBPersistenceProvider.java -text
 OpenXava/src/org/openxava/model/impl/HibernatePersistenceProvider.java -text
+OpenXava/src/org/openxava/model/impl/IMapFacadeImpl.java -text
 OpenXava/src/org/openxava/model/impl/IPersistenceProvider.java -text
 OpenXava/src/org/openxava/model/impl/MapFacadeBean.java -text
 OpenXava/src/org/openxava/model/impl/MapFacadeHome.java -text
