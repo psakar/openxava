@@ -1290,6 +1290,7 @@ OpenXavaTest/properties/xava-junit.properties -text
 OpenXavaTest/properties/xava.properties -text
 OpenXavaTest/src/org/openxava/test/actions/ActivateDeactivateSectionAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/AddViewDeliveryInInvoiceAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/ChangeDefaultZoneAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeInvoiceTabAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeLabelAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeListTitleAction.java -text
