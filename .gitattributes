@@ -507,6 +507,7 @@ OpenXava/src/org/openxava/converters/LongBigDecimalConverter.java -text
 OpenXava/src/org/openxava/converters/LongNumberConverter.java -text
 OpenXava/src/org/openxava/converters/NoConversionConverter.java -text
 OpenXava/src/org/openxava/converters/NotNullDateConverter.java -text
+OpenXava/src/org/openxava/converters/NotNullStringConverter.java -text
 OpenXava/src/org/openxava/converters/StringBlobConverter.java -text
 OpenXava/src/org/openxava/converters/TrimStringConverter.java -text
 OpenXava/src/org/openxava/converters/ValidValuesBase0Converter.java -text
