@@ -15,11 +15,16 @@ MiEscuela/.project -text
 MiEscuela/build.xml -text
 MiEscuela/build/ejb/META-INF/MANIFEST.MF -text
 MiEscuela/build/ejb/META-INF/Schema.dbxmi -text svneol=unset#application/octet-stream
+MiEscuela/build/ejb/META-INF/backends/OPENXAVA/DB.dbxmi -text
+MiEscuela/build/ejb/META-INF/backends/OPENXAVA/MYSCHOOL.schxmi -text
+MiEscuela/build/ejb/META-INF/backends/OPENXAVA/MYSCHOOL_TEACHER.tblxmi -text
+MiEscuela/build/ejb/META-INF/backends/OPENXAVA/Map.mapxmi -text
 MiEscuela/build/ejb/META-INF/ejb-jar.xml -text
 MiEscuela/build/ejb/META-INF/ibm-ejb-jar-bnd.xmi -text svneol=unset#application/octet-stream
 MiEscuela/build/ejb/META-INF/ibm-ejb-jar-ext.xmi -text svneol=unset#application/octet-stream
 MiEscuela/build/ejb/META-INF/jboss.xml -text
 MiEscuela/build/ejb/META-INF/jbosscmp-jdbc.xml -text
+MiEscuela/build/j2ee/META-INF/application-websphere.xml -text
 MiEscuela/build/j2ee/META-INF/application.xml -text
 MiEscuela/components/Profesor.xml -text
 MiEscuela/components/dtds/component.dtd -text
@@ -29,6 +34,7 @@ MiEscuela/gen-src-xava/last.generation.time -text svneol=unset#application/octet
 MiEscuela/gen-src-xava/org/openxava/escuela/modelo/IProfesor.java -text
 MiEscuela/gen-src-xava/org/openxava/escuela/modelo/xejb/ProfesorBean.java -text
 MiEscuela/gen-src-xava/packages-ejb.properties -text
+MiEscuela/gen-src-xava/packages.properties -text
 MiEscuela/gen-src/org/openxava/escuela/modelo/Profesor.java -text
 MiEscuela/gen-src/org/openxava/escuela/modelo/ProfesorData.java -text
 MiEscuela/gen-src/org/openxava/escuela/modelo/ProfesorHome.java -text
@@ -39,7 +45,7 @@ MiEscuela/gen-src/org/openxava/escuela/modelo/xejb/ProfesorCMP.java -text
 MiEscuela/i18n/EtiquetasMiEscuela_ca.properties -text
 MiEscuela/i18n/EtiquetasMiEscuela_en.properties -text
 MiEscuela/i18n/EtiquetasMiEscuela_es.properties -text
-MiEscuela/miescuela.properties -text
+MiEscuela/jboss-hypersonic.properties -text
 MiEscuela/properties/BeansContext.properties -text
 MiEscuela/properties/LoginContextFactory.properties -text
 MiEscuela/properties/jndi-jboss.properties -text
@@ -48,6 +54,18 @@ MiEscuela/properties/jndi.properties -text
 MiEscuela/properties/xava-junit.properties -text
 MiEscuela/properties/xava.properties -text
 MiEscuela/src/org/openxava/escuela/pruebas/PruebaProfesores.java -text
+MiEscuela/web/WEB-INF/classes/EtiquetasMiEscuela.properties -text
+MiEscuela/web/WEB-INF/classes/META-INF/backends/OPENXAVA/DB.dbxmi -text
+MiEscuela/web/WEB-INF/classes/META-INF/backends/OPENXAVA/MYSCHOOL.schxmi -text
+MiEscuela/web/WEB-INF/classes/META-INF/backends/OPENXAVA/MYSCHOOL_TEACHER.tblxmi -text
+MiEscuela/web/WEB-INF/classes/META-INF/backends/OPENXAVA/Map.mapxmi -text
+MiEscuela/web/WEB-INF/classes/META-INF/ejb-jar.xml -text
+MiEscuela/web/WEB-INF/classes/META-INF/ibm-ejb-jar-bnd.xmi -text
+MiEscuela/web/WEB-INF/classes/META-INF/jboss.xml -text
+MiEscuela/web/WEB-INF/classes/META-INF/jbosscmp-jdbc.xml -text
+MiEscuela/web/WEB-INF/classes/TabUserPreferences.hbm.xml -text
+MiEscuela/web/WEB-INF/classes/datasource.properties -text
+MiEscuela/web/WEB-INF/classes/openxava-hibernate.cfg.xml -text
 MiEscuela/web/WEB-INF/lib/antlr.jar -text
 MiEscuela/web/WEB-INF/lib/asm.jar -text
 MiEscuela/web/WEB-INF/lib/cglib.jar -text
@@ -134,6 +152,7 @@ MiEscuela/web/xava/style/jetspeed.css -text svneol=unset#application/octet-strea
 MiEscuela/web/xava/style/skins.css -text svneol=unset#application/octet-stream
 MiEscuela/web/xava/style/swing.css -text svneol=unset#application/octet-stream
 MiEscuela/web/xava/style/yahoo.css -text svneol=unset#application/octet-stream
+MiEscuela/websphere-as400.properties -text
 MiEscuela/xava/aplicacion.xml -text
 MiEscuela/xava/dtds/aplicacion.dtd -text
 MiEscuela/xava/dtds/application.dtd -text
@@ -161,11 +180,13 @@ MySchool/build/ejb/META-INF/ibm-ejb-jar-bnd.xmi -text svneol=unset#application/o
 MySchool/build/ejb/META-INF/ibm-ejb-jar-ext.xmi -text svneol=unset#application/octet-stream
 MySchool/build/ejb/META-INF/jboss.xml -text
 MySchool/build/ejb/META-INF/jbosscmp-jdbc.xml -text
+MySchool/build/j2ee/META-INF/application-websphere.xml -text
 MySchool/build/j2ee/META-INF/application.xml -text
 MySchool/components/Teacher.xml -text
 MySchool/components/dtds/component.dtd -text
 MySchool/components/dtds/componente.dtd -text svneol=unset#application/octet-stream
 MySchool/data/my-school-db.script -text svneol=unset#application/octet-stream
+MySchool/data/my-school-db2-400.script -text
 MySchool/data/my-school-ds.xml -text
 MySchool/gen-src-xava/dnas.properties -text
 MySchool/gen-src-xava/last.generation.time -text svneol=unset#application/octet-stream
@@ -182,7 +203,7 @@ MySchool/gen-src/org/openxava/school/model/xejb/TeacherCMP.java -text
 MySchool/i18n/MySchools-labels_ca.properties -text
 MySchool/i18n/MySchools-labels_en.properties -text
 MySchool/i18n/MySchools-labels_es.properties -text
-MySchool/myschool.properties -text
+MySchool/jboss-hypersonic.properties -text
 MySchool/properties/BeansContext.properties -text
 MySchool/properties/LoginContextFactory.properties -text
 MySchool/properties/jndi-jboss.properties -text
@@ -277,6 +298,7 @@ MySchool/web/xava/style/jetspeed.css -text svneol=unset#application/octet-stream
 MySchool/web/xava/style/skins.css -text svneol=unset#application/octet-stream
 MySchool/web/xava/style/swing.css -text svneol=unset#application/octet-stream
 MySchool/web/xava/style/yahoo.css -text svneol=unset#application/octet-stream
+MySchool/websphere-as400.properties -text
 MySchool/xava/application.xml -text
 MySchool/xava/dtds/aplicacion.dtd -text
 MySchool/xava/dtds/application.dtd -text
