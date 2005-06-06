@@ -890,6 +890,7 @@ OpenXavaDoc/en/future.html -text
 OpenXavaDoc/en/migration.html -text
 OpenXavaDoc/en/new.html -text
 OpenXavaDoc/en/tutorial.html -text
+OpenXavaDoc/en/websphere.html -text
 OpenXavaDoc/es/componente-negocio.html -text
 OpenXavaDoc/es/descripcion.html -text
 OpenXavaDoc/es/estrategia-codigo-propio.html -text
@@ -898,6 +899,7 @@ OpenXavaDoc/es/futuro.html -text
 OpenXavaDoc/es/migracion.html -text
 OpenXavaDoc/es/nuevo.html -text
 OpenXavaDoc/es/tutorial.html -text
+OpenXavaDoc/es/websphere.html -text
 OpenXavaDoc/guia-referencia-capitulos.sxd -text
 OpenXavaDoc/guia-referencia.sxw -text
 OpenXavaDoc/images/arquitectura-openxava.jpg -text
@@ -912,6 +914,7 @@ OpenXavaDoc/images/no-jetspeed01.jpg -text
 OpenXavaDoc/images/no-jetspeed02.jpg -text
 OpenXavaDoc/images/openxava-component.jpg -text
 OpenXavaDoc/images/openxava.jpg -text
+OpenXavaDoc/images/run.gif -text
 OpenXavaDoc/openxava.xreg -text
 OpenXavaDoc/reference-guide-chapters.sxd -text
 OpenXavaDoc/reference-guide.sxw -text
