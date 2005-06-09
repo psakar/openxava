@@ -1398,9 +1398,9 @@ OpenXavaTest/properties/xava-junit.properties -text
 OpenXavaTest/properties/xava.properties -text
 OpenXavaTest/src/org/openxava/test/actions/ActivateDeactivateSectionAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/AddViewDeliveryInInvoiceAction.java -text
-OpenXavaTest/src/org/openxava/test/actions/ChangeDefaultZoneAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeInvoiceTabAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeLabelAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/ChangeLimitZoneAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeListTitleAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeToLowerCaseAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeViewAction.java -text
@@ -1480,9 +1480,8 @@ OpenXavaTest/src/org/openxava/test/ejb/ProductException.java -text
 OpenXavaTest/src/org/openxava/test/ejb/xejb/FamilyBean.java -text
 OpenXavaTest/src/org/openxava/test/filters/CurrentYearFilter.java -text
 OpenXavaTest/src/org/openxava/test/filters/DefaultYearFilter.java -text
-OpenXavaTest/src/org/openxava/test/filters/DefaultZoneFilter.java -text
 OpenXavaTest/src/org/openxava/test/filters/Invoice20020001Filter.java -text
-OpenXavaTest/src/org/openxava/test/filters/MockFilter.java -text
+OpenXavaTest/src/org/openxava/test/filters/LimitZoneFilter.java -text
 OpenXavaTest/src/org/openxava/test/filters/NumbersToLettersFilter.java -text
 OpenXavaTest/src/org/openxava/test/formatters/FamilyDescriptionsFormatter.java -text
 OpenXavaTest/src/org/openxava/test/formatters/PersonNameFormatter.java -text
