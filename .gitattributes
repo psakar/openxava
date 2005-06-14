@@ -810,6 +810,7 @@ OpenXava/web/images/pdf.gif -text
 OpenXava/web/images/photo.gif -text
 OpenXava/web/images/previous.gif -text
 OpenXava/web/images/previous_page.gif -text
+OpenXava/web/images/processing.gif -text
 OpenXava/web/images/remove.gif -text
 OpenXava/web/images/required.gif -text
 OpenXava/web/images/save.gif -text
@@ -1412,6 +1413,7 @@ OpenXavaTest/src/org/openxava/test/actions/DecorateNameAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/DeleteAllAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/EditInvoiceDetailAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/GenerateDeliveryNumberAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/GenerateFamilyProductsReportAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/GetNameAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideDeliveryActionsAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideListPropertyAction.java -text
@@ -1628,6 +1630,7 @@ OpenXavaTest/web/WEB-INF/lib/openxava.jar -text
 OpenXavaTest/web/WEB-INF/lib/poi.jar -text
 OpenXavaTest/web/WEB-INF/lib/standard.jar -text
 OpenXavaTest/web/WEB-INF/openxava.tld -text
+OpenXavaTest/web/WEB-INF/portlet.xml -text
 OpenXavaTest/web/WEB-INF/web.xml -text
 OpenXavaTest/web/doYouWishSearch.jsp -text
 OpenXavaTest/web/xava/addColumns.jsp -text
@@ -1678,6 +1681,7 @@ OpenXavaTest/web/xava/images/pdf.gif -text
 OpenXavaTest/web/xava/images/photo.gif -text
 OpenXavaTest/web/xava/images/previous.gif -text
 OpenXavaTest/web/xava/images/previous_page.gif -text
+OpenXavaTest/web/xava/images/processing.gif -text
 OpenXavaTest/web/xava/images/remove.gif -text
 OpenXavaTest/web/xava/images/required.gif -text
 OpenXavaTest/web/xava/images/save.gif -text
