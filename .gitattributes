@@ -511,6 +511,7 @@ OpenXava/src/org/openxava/calculators/IEntityCalculator.java -text
 OpenXava/src/org/openxava/calculators/IJDBCCalculator.java -text
 OpenXava/src/org/openxava/calculators/IOptionalCalculator.java -text
 OpenXava/src/org/openxava/calculators/IntegerCalculator.java -text
+OpenXava/src/org/openxava/calculators/LongCalculator.java -text
 OpenXava/src/org/openxava/calculators/NextIntegerCalculator.java -text
 OpenXava/src/org/openxava/calculators/NullDateCalculator.java -text
 OpenXava/src/org/openxava/calculators/StringCalculator.java -text
