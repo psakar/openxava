@@ -487,6 +487,7 @@ OpenXava/src/org/openxava/actions/SaveElementInCollectionAction.java -text
 OpenXava/src/org/openxava/actions/SaveNewAction.java -text
 OpenXava/src/org/openxava/actions/SearchAction.java -text
 OpenXava/src/org/openxava/actions/SearchByViewKeyAction.java -text
+OpenXava/src/org/openxava/actions/SearchExecutingOnChangeAction.java -text
 OpenXava/src/org/openxava/actions/SetCustomViewAction.java -text
 OpenXava/src/org/openxava/actions/SortColumnsAction.java -text
 OpenXava/src/org/openxava/actions/ViewBaseAction.java -text
@@ -1531,6 +1532,7 @@ OpenXavaTest/src/org/openxava/test/tests/OnlyReadDetailsInvoiceTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/PositiveValidatorTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/Products2ReferenceAndStereotype.java -text
 OpenXavaTest/src/org/openxava/test/tests/Products2Test.java -text
+OpenXavaTest/src/org/openxava/test/tests/Products3ChangeActionsOnSearchTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/Products3Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/Products3WithDescriptionsListTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ProductsTest.java -text
