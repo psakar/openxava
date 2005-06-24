@@ -497,6 +497,7 @@ OpenXava/src/org/openxava/application/meta/MetaApplications.java -text
 OpenXava/src/org/openxava/application/meta/MetaModule.java -text
 OpenXava/src/org/openxava/application/meta/MetaReport.java -text
 OpenXava/src/org/openxava/application/meta/xmlparse/ApplicationParser.java -text
+OpenXava/src/org/openxava/calculators/BigDecimalCalculator.java -text
 OpenXava/src/org/openxava/calculators/ByPassCalculator.java -text
 OpenXava/src/org/openxava/calculators/ConcatCalculator.java -text
 OpenXava/src/org/openxava/calculators/ConcatOidCalculator.java -text
