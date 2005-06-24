@@ -997,7 +997,6 @@ OpenXavaTemplate/xava/dtds/validadores.dtd -text
 OpenXavaTemplate/xava/dtds/validators.dtd -text
 OpenXavaTest/.classpath -text
 OpenXavaTest/.project -text
-OpenXavaTest/.settings/org.eclipse.core.resources.prefs -text svneol=unset#application/octet-stream
 OpenXavaTest/build.xml -text
 OpenXavaTest/build/ejb/META-INF/MANIFEST.MF -text
 OpenXavaTest/build/ejb/META-INF/Schema.dbxmi -text svneol=unset#application/octet-stream
