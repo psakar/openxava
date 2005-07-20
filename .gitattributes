@@ -774,6 +774,94 @@ OpenXava/web/WEB-INF/openxava.tld -text
 OpenXava/web/WEB-INF/web.xml -text
 OpenXava/web/addColumns.jsp -text
 OpenXava/web/buttonBar.jsp -text
+OpenXava/web/calendar/ChangeLog -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/README -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/bugtest-hidden-selects.html -text
+OpenXava/web/calendar/calendar-blue.css -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/calendar-blue2.css -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/calendar-brown.css -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/calendar-green.css -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/calendar-setup.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/calendar-setup_stripped.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/calendar-system.css -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/calendar-tas.css -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/calendar-win2k-1.css -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/calendar-win2k-2.css -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/calendar-win2k-cold-1.css -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/calendar-win2k-cold-2.css -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/calendar.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/calendar.php -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/calendar_stripped.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/dayinfo.html -text
+OpenXava/web/calendar/doc/html/field-button.jpg -text
+OpenXava/web/calendar/doc/html/reference-Z-S.css -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/doc/html/reference.css -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/doc/html/reference.html -text
+OpenXava/web/calendar/doc/reference.pdf -text
+OpenXava/web/calendar/img.gif -text
+OpenXava/web/calendar/index.html -text
+OpenXava/web/calendar/lang/calendar-af.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-al.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-bg.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-big5-utf8.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-big5.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-br.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-ca.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-cs-utf8.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-cs-win.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-da.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-de.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-du.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-el.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-en.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-es.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-fi.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-fr.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-he-utf8.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-hr-utf8.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-hr.js -text
+OpenXava/web/calendar/lang/calendar-hu.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-it.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-jp.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-ko-utf8.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-ko.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-lt-utf8.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-lt.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-lv.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-nl.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-no.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-pl-utf8.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-pl.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-pt.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-ro.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-ru.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-ru_win_.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-si.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-sk.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-sp.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-sv.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-tr.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/calendar-zh.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/lang/cn_utf8.js -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/menuarrow.gif -text
+OpenXava/web/calendar/menuarrow2.gif -text
+OpenXava/web/calendar/multiple-dates.html -text
+OpenXava/web/calendar/release-notes.html -text
+OpenXava/web/calendar/simple-1.html -text
+OpenXava/web/calendar/simple-2.html -text
+OpenXava/web/calendar/simple-3.html -text
+OpenXava/web/calendar/skins/aqua/active-bg.gif -text
+OpenXava/web/calendar/skins/aqua/dark-bg.gif -text
+OpenXava/web/calendar/skins/aqua/hover-bg.gif -text
+OpenXava/web/calendar/skins/aqua/menuarrow.gif -text
+OpenXava/web/calendar/skins/aqua/normal-bg.gif -text
+OpenXava/web/calendar/skins/aqua/rowhover-bg.gif -text
+OpenXava/web/calendar/skins/aqua/status-bg.gif -text
+OpenXava/web/calendar/skins/aqua/theme.css -text svneol=unset#application/octet-stream
+OpenXava/web/calendar/skins/aqua/title-bg.gif -text
+OpenXava/web/calendar/skins/aqua/today-bg.gif -text
+OpenXava/web/calendar/test-position.html -text
+OpenXava/web/calendar/test.php -text svneol=unset#application/octet-stream
 OpenXava/web/collection.jsp -text
 OpenXava/web/comparatorsBooleanCombo.jsp -text
 OpenXava/web/comparatorsCombo.jsp -text
@@ -783,6 +871,7 @@ OpenXava/web/detail.jsp -text
 OpenXava/web/editor.jsp -text
 OpenXava/web/editors/booleanEditor.jsp -text
 OpenXava/web/editors/changeImage.jsp -text
+OpenXava/web/editors/dateCalendarEditor.jsp -text svneol=unset#application/octet-stream
 OpenXava/web/editors/descriptionsEditor.jsp -text
 OpenXava/web/editors/imageEditor.jsp -text
 OpenXava/web/editors/labelEditor.jsp -text
