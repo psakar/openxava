@@ -1047,6 +1047,9 @@ OpenXavaTemplate/build/j2ee/META-INF/application.xml -text
 OpenXavaTemplate/components/MyComponent.xml -text
 OpenXavaTemplate/components/dtds/component.dtd -text
 OpenXavaTemplate/components/dtds/componente.dtd -text
+OpenXavaTemplate/gen-src-xava/gen-src-xava.txt -text
+OpenXavaTemplate/gen-src/gen-src.txt -text
+OpenXavaTemplate/i18n/i18n.txt -text
 OpenXavaTemplate/jboss-hypersonic.properties -text
 OpenXavaTemplate/properties/BeansContext.properties -text
 OpenXavaTemplate/properties/LoginContextFactory.properties -text
@@ -1055,6 +1058,7 @@ OpenXavaTemplate/properties/jndi-websphere.properties -text
 OpenXavaTemplate/properties/jndi.properties -text
 OpenXavaTemplate/properties/xava-junit.properties -text
 OpenXavaTemplate/properties/xava.properties -text
+OpenXavaTemplate/src/src.txt -text
 OpenXavaTemplate/websphere-as400.properties -text
 OpenXavaTemplate/xava/application.xml -text
 OpenXavaTemplate/xava/dtds/aplicacion.dtd -text
