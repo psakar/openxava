@@ -1473,6 +1473,7 @@ OpenXavaTest/gen-src/org/openxava/test/ejb/xejb/SubfamilyCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/xejb/TransportChargeCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/ejb/xejb/WarehouseCMP.java -text
 OpenXavaTest/hibernate/Family.hbm.xml -text
+OpenXavaTest/hibernate/hibernate-junit.cfg.xml -text
 OpenXavaTest/hibernate/hibernate.cfg.xml -text
 OpenXavaTest/i18n/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/i18n/OpenXavaTest-labels_en.properties -text
@@ -1498,7 +1499,6 @@ OpenXavaTest/src/org/openxava/test/actions/ChangeListTitleAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeToLowerCaseAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeViewAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeZoneAction.java -text
-OpenXavaTest/src/org/openxava/test/actions/CreateCarriersAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/CreateNewFamilyAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/CreateNewWarehouseFromReferenceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/DeactivateReferenceAction.java -text
