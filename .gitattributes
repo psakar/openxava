@@ -418,6 +418,7 @@ OpenXava/i18n/XavaResources_ca.properties -text
 OpenXava/i18n/XavaResources_en.properties -text
 OpenXava/i18n/XavaResources_es.properties -text
 OpenXava/lib/Tidy.jar -text
+OpenXava/lib/commons-logging.jar -text
 OpenXava/lib/httpunit.jar -text
 OpenXava/lib/j2ee.jar -text
 OpenXava/lib/js.jar -text
