@@ -446,6 +446,7 @@ OpenXava/src/org/openxava/actions/DeleteSelectedAction.java -text
 OpenXava/src/org/openxava/actions/DeselectRowsAction.java -text
 OpenXava/src/org/openxava/actions/EditElementInCollectionAction.java -text
 OpenXava/src/org/openxava/actions/EmptyAction.java -text
+OpenXava/src/org/openxava/actions/FilterAction.java -text
 OpenXava/src/org/openxava/actions/GenerateReportAction.java -text
 OpenXava/src/org/openxava/actions/GoDetailAction.java -text
 OpenXava/src/org/openxava/actions/GoFirstAction.java -text
@@ -455,6 +456,7 @@ OpenXava/src/org/openxava/actions/GoPageAction.java -text
 OpenXava/src/org/openxava/actions/GoPreviousPageAction.java -text
 OpenXava/src/org/openxava/actions/HibernateBaseAction.java -text
 OpenXava/src/org/openxava/actions/HiddenDetailElementInCollectionAction.java -text
+OpenXava/src/org/openxava/actions/HideRowsAction.java -text
 OpenXava/src/org/openxava/actions/IAction.java -text
 OpenXava/src/org/openxava/actions/IChainAction.java -text
 OpenXava/src/org/openxava/actions/IChangeControllersAction.java -text
@@ -490,6 +492,7 @@ OpenXava/src/org/openxava/actions/SearchAction.java -text
 OpenXava/src/org/openxava/actions/SearchByViewKeyAction.java -text
 OpenXava/src/org/openxava/actions/SearchExecutingOnChangeAction.java -text
 OpenXava/src/org/openxava/actions/SetCustomViewAction.java -text
+OpenXava/src/org/openxava/actions/ShowRowsAction.java -text
 OpenXava/src/org/openxava/actions/SortColumnsAction.java -text
 OpenXava/src/org/openxava/actions/ViewBaseAction.java -text
 OpenXava/src/org/openxava/actions/ViewDetailAction.java -text
