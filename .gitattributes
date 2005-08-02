@@ -437,7 +437,6 @@ OpenXava/src/org/openxava/actions/ChangeSectionAction.java -text
 OpenXava/src/org/openxava/actions/ChooseReferenceAction.java -text
 OpenXava/src/org/openxava/actions/CollectionBaseAction.java -text
 OpenXava/src/org/openxava/actions/CollectionElementViewBaseAction.java -text
-OpenXava/src/org/openxava/actions/ConfirmDeleteAction.java -text
 OpenXava/src/org/openxava/actions/CreateNewElementInCollectionAction.java -text
 OpenXava/src/org/openxava/actions/CreateNewFromReferenceAction.java -text
 OpenXava/src/org/openxava/actions/CustomizeListAction.java -text
@@ -1499,6 +1498,7 @@ OpenXavaTest/src/org/openxava/test/actions/ChangeInvoiceTabAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeLabelAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeLimitZoneAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeListTitleAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/ChangeProductPriceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeToLowerCaseAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeViewAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeZoneAction.java -text
@@ -1536,6 +1536,8 @@ OpenXavaTest/src/org/openxava/test/actions/RemoveViewDeliveryInInvoiceAction.jav
 OpenXavaTest/src/org/openxava/test/actions/ReturnToInvoiceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SearchDeliveryAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SearchInvoiceFromDeliveryAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/SetEditableOffAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/SetEditableOnAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SetPropertyValueAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SetPropertyValueNotifyingAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ShowListPropertyAction.java -text
