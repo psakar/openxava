@@ -1240,11 +1240,13 @@ OpenXavaTest/gen-src-xava/org/openxava/test/ejb/xejb/Subfamily2Bean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/xejb/SubfamilyBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/xejb/TransportChargeBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/xejb/WarehouseBean.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Address.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Carrier.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Clerk.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Customer.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Delivery.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/DeliveryType.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Detail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/DrivingLicence.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Family2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/FilterBySubfamily.java -text
@@ -1832,6 +1834,7 @@ OpenXavaTest/web/xava/images/.xvpics/encontrar.gif -text
 OpenXavaTest/web/xava/images/.xvpics/excel.gif -text svneol=unset#application/octet-stream
 OpenXavaTest/web/xava/images/add.gif -text
 OpenXavaTest/web/xava/images/ascending.gif -text
+OpenXavaTest/web/xava/images/create_new.gif -text
 OpenXavaTest/web/xava/images/customize.gif -text
 OpenXavaTest/web/xava/images/delete.gif -text
 OpenXavaTest/web/xava/images/descending.gif -text
