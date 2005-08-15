@@ -347,6 +347,8 @@ OpenXava/generator/EJBCodeGenerator.class -text
 OpenXava/generator/EJBCodeGenerator.java -text
 OpenXava/generator/EJBeanPG.class -text
 OpenXava/generator/EJBeanPG.java -text
+OpenXava/generator/EntityReferenceEJBPG.class -text
+OpenXava/generator/EntityReferenceEJBPG.java -text
 OpenXava/generator/EntityReferencePG.class -text
 OpenXava/generator/EntityReferencePG.java -text
 OpenXava/generator/HCodeGenerator.class -text
@@ -383,6 +385,8 @@ OpenXava/generator/ejbean.template -text
 OpenXava/generator/ejbean.xml -text
 OpenXava/generator/entityReference.template -text
 OpenXava/generator/entityReference.xml -text
+OpenXava/generator/entityReferenceEJB.template -text
+OpenXava/generator/entityReferenceEJB.xml -text
 OpenXava/generator/hibernate.template -text
 OpenXava/generator/hibernate.xml -text
 OpenXava/generator/interface.template -text
