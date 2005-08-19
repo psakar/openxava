@@ -1607,6 +1607,7 @@ OpenXavaTest/src/org/openxava/test/tests/CustomersNewOnInitTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomersSomeMembersReadOnlyTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomersTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomersTwoSellersInListTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/CustomersTwoSellersNumberInListTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomersWithSectionTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DeliveriesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DeliveryTypesTest.java -text
