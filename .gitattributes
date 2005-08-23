@@ -1604,6 +1604,7 @@ OpenXavaTest/src/org/openxava/test/tests/CarriersTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ChangeProductsPrice2Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/ChangeProductsPriceTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomersNewOnInitTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/CustomersSimpleTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomersSomeMembersReadOnlyTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomersTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomersTwoSellersInListTest.java -text
