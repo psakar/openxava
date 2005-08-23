@@ -1217,6 +1217,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/ejb/ISubfamily.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/ISubfamily2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/ITransportCharge.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/IWarehouse.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/ejb/SubfamilyInfo.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/xejb/AdditionalDetailBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/xejb/CarrierBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/ejb/xejb/ClerkBean.java -text
@@ -1706,6 +1707,7 @@ OpenXavaTest/web/WEB-INF/classes/META-INF/jbosscmp-jdbc.xml -text
 OpenXavaTest/web/WEB-INF/classes/Office.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/Office2.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/Product.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/Product2.hbm.xml -text
