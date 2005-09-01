@@ -357,6 +357,8 @@ OpenXava/generator/HibernatePG.class -text
 OpenXava/generator/HibernatePG.java -text
 OpenXava/generator/InterfacePG.class -text
 OpenXava/generator/InterfacePG.java -text
+OpenXava/generator/MethodsPG.class -text
+OpenXava/generator/MethodsPG.java -text
 OpenXava/generator/PojoPG.class -text
 OpenXava/generator/PojoPG.java -text
 OpenXava/generator/PortletXmlPG.class -text
@@ -391,6 +393,8 @@ OpenXava/generator/hibernate.template -text
 OpenXava/generator/hibernate.xml -text
 OpenXava/generator/interface.template -text
 OpenXava/generator/interface.xml -text
+OpenXava/generator/methods.template -text
+OpenXava/generator/methods.xml -text
 OpenXava/generator/pojo.template -text
 OpenXava/generator/pojo.xml -text
 OpenXava/generator/portletxml.template -text
