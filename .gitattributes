@@ -1528,6 +1528,7 @@ OpenXavaTest/src/org/openxava/test/actions/InitDefaultYearTo2002Action.java -tex
 OpenXavaTest/src/org/openxava/test/actions/ListCustomerInvoicesAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/MoveRelationWithSellerToRemarksAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/MySearchAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/OnChangeAddMessageAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeCarrierInDeliveryAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeCustomerNameAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeDeliveryByAction.java -text
@@ -1610,6 +1611,7 @@ OpenXavaTest/src/org/openxava/test/tests/CustomersTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomersTwoSellersInListTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomersTwoSellersNumberInListTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomersWithSectionTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/DeliveriesGroupsInSectionsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DeliveriesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DeliveryTypesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/EJBTest.java -text
