@@ -1134,20 +1134,25 @@ OpenXavaTest/build/ejb/META-INF/ibm-ejb-jar-bnd.xmi -text svneol=unset#applicati
 OpenXavaTest/build/ejb/META-INF/ibm-ejb-jar-ext.xmi -text svneol=unset#application/octet-stream
 OpenXavaTest/build/ejb/META-INF/jboss.xml -text
 OpenXavaTest/build/ejb/META-INF/jbosscmp-jdbc.xml -text
+OpenXavaTest/build/hibernate/AdditionalDetail.hbm.xml -text
 OpenXavaTest/build/hibernate/Carrier.hbm.xml -text
 OpenXavaTest/build/hibernate/Clerk.hbm.xml -text
 OpenXavaTest/build/hibernate/Customer.hbm.xml -text
 OpenXavaTest/build/hibernate/Delivery.hbm.xml -text
+OpenXavaTest/build/hibernate/DeliveryDetail.hbm.xml -text
+OpenXavaTest/build/hibernate/DeliveryPlace.hbm.xml -text
 OpenXavaTest/build/hibernate/DeliveryType.hbm.xml -text
 OpenXavaTest/build/hibernate/DrivingLicence.hbm.xml -text
 OpenXavaTest/build/hibernate/Family2.hbm.xml -text
 OpenXavaTest/build/hibernate/FilterBySubfamily.hbm.xml -text
 OpenXavaTest/build/hibernate/Invoice.hbm.xml -text
+OpenXavaTest/build/hibernate/InvoiceDetail.hbm.xml -text
 OpenXavaTest/build/hibernate/Office.hbm.xml -text
 OpenXavaTest/build/hibernate/Office2.hbm.xml -text
 OpenXavaTest/build/hibernate/Product.hbm.xml -text
 OpenXavaTest/build/hibernate/Product2.hbm.xml -text
 OpenXavaTest/build/hibernate/Product3.hbm.xml -text
+OpenXavaTest/build/hibernate/Receptionist.hbm.xml -text
 OpenXavaTest/build/hibernate/Seller.hbm.xml -text
 OpenXavaTest/build/hibernate/SellerLevel.hbm.xml -text
 OpenXavaTest/build/hibernate/Service.hbm.xml -text
@@ -1191,11 +1196,14 @@ OpenXavaTest/data/openxava-test-db.script -text
 OpenXavaTest/data/openxava-test-ds.xml -text
 OpenXavaTest/gen-src-xava/dnas.properties -text
 OpenXavaTest/gen-src-xava/last.generation.time -text svneol=unset#application/octet-stream
+OpenXavaTest/gen-src-xava/org/openxava/test/model/AdditionalDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Address.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Carrier.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Clerk.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Customer.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Delivery.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/DeliveryDetail.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/DeliveryPlace.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/DeliveryType.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Detail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/DrivingLicence.java -text
@@ -1231,11 +1239,13 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/ISubfamily2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ITransportCharge.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IWarehouse.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Invoice.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/InvoiceDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Office.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Office2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Product.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Product2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Product3.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Receptionist.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Seller.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/SellerLevel.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Service.java -text
