@@ -1653,6 +1653,7 @@ OpenXavaTest/src/org/openxava/test/tests/Products3Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/Products3WithDescriptionsListTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ProductsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ProductsWithSectionTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/SellersCannotCreateCustomerTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/SellersTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ServicesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ShipmentsTest.java -text
