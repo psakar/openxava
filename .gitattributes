@@ -754,6 +754,8 @@ OpenXava/src/org/openxava/view/meta/MetaSearchAction.java -text
 OpenXava/src/org/openxava/view/meta/MetaView.java -text
 OpenXava/src/org/openxava/view/meta/PropertiesSeparator.java -text
 OpenXava/src/org/openxava/view/meta/xmlparse/ViewParser.java -text
+OpenXava/src/org/openxava/web/JetSpeed2Style.java -text
+OpenXava/src/org/openxava/web/Style.java -text
 OpenXava/src/org/openxava/web/WebEditors.java -text
 OpenXava/src/org/openxava/web/meta/MetaEditor.java -text
 OpenXava/src/org/openxava/web/meta/MetaWebEditors.java -text
@@ -921,9 +923,8 @@ OpenXava/web/script.jsp -text
 OpenXava/web/sections.jsp -text
 OpenXava/web/style/default.css -text
 OpenXava/web/style/jetspeed.css -text svneol=unset#application/octet-stream
+OpenXava/web/style/openxava.css -text
 OpenXava/web/style/skins.css -text svneol=unset#application/octet-stream
-OpenXava/web/style/swing.css -text svneol=unset#application/octet-stream
-OpenXava/web/style/yahoo.css -text svneol=unset#application/octet-stream
 OpenXava/xava/controllers.xml -text
 OpenXava/xava/default-converters.xml -text
 OpenXava/xava/default-editors.xml -text
@@ -1901,6 +1902,7 @@ OpenXavaTest/web/xava/script.jsp -text
 OpenXavaTest/web/xava/sections.jsp -text
 OpenXavaTest/web/xava/style/default.css -text svneol=unset#application/octet-stream
 OpenXavaTest/web/xava/style/jetspeed.css -text svneol=unset#application/octet-stream
+OpenXavaTest/web/xava/style/openxava.css -text
 OpenXavaTest/web/xava/style/skins.css -text svneol=unset#application/octet-stream
 OpenXavaTest/web/xava/style/swing.css -text svneol=unset#application/octet-stream
 OpenXavaTest/web/xava/style/yahoo.css -text svneol=unset#application/octet-stream
