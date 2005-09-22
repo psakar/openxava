@@ -881,10 +881,12 @@ OpenXava/web/htmlTagsEditor.jsp -text
 OpenXava/web/images/.xvpics/encontrar.gif -text
 OpenXava/web/images/.xvpics/excel.gif -text svneol=unset#application/octet-stream
 OpenXava/web/images/add.gif -text
+OpenXava/web/images/ascending-white.gif -text
 OpenXava/web/images/ascending.gif -text
 OpenXava/web/images/create_new.gif -text
 OpenXava/web/images/customize.gif -text
 OpenXava/web/images/delete.gif -text
+OpenXava/web/images/descending-white.gif -text
 OpenXava/web/images/descending.gif -text
 OpenXava/web/images/error.gif -text
 OpenXava/web/images/excel.gif -text
@@ -1897,10 +1899,12 @@ OpenXavaTest/web/xava/htmlTagsEditor.jsp -text
 OpenXavaTest/web/xava/images/.xvpics/encontrar.gif -text
 OpenXavaTest/web/xava/images/.xvpics/excel.gif -text svneol=unset#application/octet-stream
 OpenXavaTest/web/xava/images/add.gif -text
+OpenXavaTest/web/xava/images/ascending-white.gif -text
 OpenXavaTest/web/xava/images/ascending.gif -text
 OpenXavaTest/web/xava/images/create_new.gif -text
 OpenXavaTest/web/xava/images/customize.gif -text
 OpenXavaTest/web/xava/images/delete.gif -text
+OpenXavaTest/web/xava/images/descending-white.gif -text
 OpenXavaTest/web/xava/images/descending.gif -text
 OpenXavaTest/web/xava/images/error.gif -text
 OpenXavaTest/web/xava/images/excel.gif -text
@@ -1936,6 +1940,7 @@ OpenXavaTest/web/xava/messages.jsp -text
 OpenXavaTest/web/xava/module.jsp -text
 OpenXavaTest/web/xava/referenceSearch.jsp -text
 OpenXavaTest/web/xava/script.jsp -text
+OpenXavaTest/web/xava/sections-original.jsp -text
 OpenXavaTest/web/xava/sections.jsp -text
 OpenXavaTest/web/xava/style/default.css -text svneol=unset#application/octet-stream
 OpenXavaTest/web/xava/style/jetspeed.css -text svneol=unset#application/octet-stream
