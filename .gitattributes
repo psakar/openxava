@@ -757,6 +757,7 @@ OpenXava/src/org/openxava/view/meta/xmlparse/ViewParser.java -text
 OpenXava/src/org/openxava/web/JetSpeed2Style.java -text
 OpenXava/src/org/openxava/web/Style.java -text
 OpenXava/src/org/openxava/web/WebEditors.java -text
+OpenXava/src/org/openxava/web/WebSpherePortalStyle.java -text
 OpenXava/src/org/openxava/web/meta/MetaEditor.java -text
 OpenXava/src/org/openxava/web/meta/MetaWebEditors.java -text
 OpenXava/src/org/openxava/web/meta/xmlparse/EditorsParser.java -text
