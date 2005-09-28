@@ -600,6 +600,7 @@ OpenXava/src/org/openxava/formatters/BooleanFormatter.java -text
 OpenXava/src/org/openxava/formatters/DateFormatter.java -text
 OpenXava/src/org/openxava/formatters/IFormatter.java -text
 OpenXava/src/org/openxava/formatters/ImageFormatter.java -text
+OpenXava/src/org/openxava/formatters/TimeFormatter.java -text
 OpenXava/src/org/openxava/formatters/UpperCaseFormatter.java -text
 OpenXava/src/org/openxava/generators/GeneratorFactory.java -text
 OpenXava/src/org/openxava/generators/Generators.java -text
