@@ -755,10 +755,7 @@ OpenXava/src/org/openxava/view/meta/MetaSearchAction.java -text
 OpenXava/src/org/openxava/view/meta/MetaView.java -text
 OpenXava/src/org/openxava/view/meta/PropertiesSeparator.java -text
 OpenXava/src/org/openxava/view/meta/xmlparse/ViewParser.java -text
-OpenXava/src/org/openxava/web/JetSpeed2Style.java -text
-OpenXava/src/org/openxava/web/Style.java -text
 OpenXava/src/org/openxava/web/WebEditors.java -text
-OpenXava/src/org/openxava/web/WebSpherePortalStyle.java -text
 OpenXava/src/org/openxava/web/meta/MetaEditor.java -text
 OpenXava/src/org/openxava/web/meta/MetaWebEditors.java -text
 OpenXava/src/org/openxava/web/meta/xmlparse/EditorsParser.java -text
@@ -766,6 +763,9 @@ OpenXava/src/org/openxava/web/portlets/XavaPortlet.java -text
 OpenXava/src/org/openxava/web/servlets/GenerateReportServlet.java -text
 OpenXava/src/org/openxava/web/servlets/ImagesServlet.java -text
 OpenXava/src/org/openxava/web/servlets/JasperReportServlet.java -text
+OpenXava/src/org/openxava/web/style/JetSpeed2Style.java -text
+OpenXava/src/org/openxava/web/style/Style.java -text
+OpenXava/src/org/openxava/web/style/WebSpherePortalStyle.java -text
 OpenXava/src/org/openxava/web/taglib/ActionTag.java -text
 OpenXava/src/org/openxava/web/taglib/ButtonTag.java -text
 OpenXava/src/org/openxava/web/taglib/IActionTag.java -text
@@ -926,7 +926,6 @@ OpenXava/web/referenceSearch.jsp -text
 OpenXava/web/script.jsp -text
 OpenXava/web/sections.jsp -text
 OpenXava/web/style/default.css -text
-OpenXava/web/style/jetspeed.css -text svneol=unset#application/octet-stream
 OpenXava/web/style/openxava.css -text
 OpenXava/web/style/skins.css -text svneol=unset#application/octet-stream
 OpenXava/xava/controllers.xml -text
