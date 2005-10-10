@@ -433,9 +433,11 @@ OpenXava/history.txt -text
 OpenXava/i18n/Labels_ca.properties -text
 OpenXava/i18n/Labels_en.properties -text
 OpenXava/i18n/Labels_es.properties -text
+OpenXava/i18n/Labels_in.properties -text
 OpenXava/i18n/Messages_ca.properties -text
 OpenXava/i18n/Messages_en.properties -text
 OpenXava/i18n/Messages_es.properties -text
+OpenXava/i18n/Messages_in.properties -text
 OpenXava/i18n/XavaResources_ca.properties -text
 OpenXava/i18n/XavaResources_en.properties -text
 OpenXava/i18n/XavaResources_es.properties -text
