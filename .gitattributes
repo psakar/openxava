@@ -39,6 +39,7 @@ MiEscuela/gen-src/org/openxava/escuela/modelo/Profesor.java -text
 MiEscuela/gen-src/org/openxava/escuela/modelo/ProfesorData.java -text
 MiEscuela/gen-src/org/openxava/escuela/modelo/ProfesorHome.java -text
 MiEscuela/gen-src/org/openxava/escuela/modelo/ProfesorKey.java -text
+MiEscuela/gen-src/org/openxava/escuela/modelo/ProfesorRemote.java -text
 MiEscuela/gen-src/org/openxava/escuela/modelo/ProfesorUtil.java -text
 MiEscuela/gen-src/org/openxava/escuela/modelo/ProfesorValue.java -text
 MiEscuela/gen-src/org/openxava/escuela/modelo/xejb/ProfesorCMP.java -text
@@ -80,6 +81,7 @@ MiEscuela/web/WEB-INF/lib/openxava.jar -text
 MiEscuela/web/WEB-INF/lib/poi.jar -text
 MiEscuela/web/WEB-INF/lib/standard.jar -text
 MiEscuela/web/WEB-INF/openxava.tld -text
+MiEscuela/web/WEB-INF/portlet.xml -text
 MiEscuela/web/WEB-INF/web.xml -text
 MiEscuela/web/xava/addColumns.jsp -text
 MiEscuela/web/xava/buttonBar.jsp -text
@@ -177,9 +179,12 @@ MiEscuela/web/xava/htmlTagsEditor.jsp -text
 MiEscuela/web/xava/images/.xvpics/encontrar.gif -text
 MiEscuela/web/xava/images/.xvpics/excel.gif -text svneol=unset#application/octet-stream
 MiEscuela/web/xava/images/add.gif -text
+MiEscuela/web/xava/images/ascending-white.gif -text
 MiEscuela/web/xava/images/ascending.gif -text
+MiEscuela/web/xava/images/create_new.gif -text
 MiEscuela/web/xava/images/customize.gif -text
 MiEscuela/web/xava/images/delete.gif -text
+MiEscuela/web/xava/images/descending-white.gif -text
 MiEscuela/web/xava/images/descending.gif -text
 MiEscuela/web/xava/images/error.gif -text
 MiEscuela/web/xava/images/excel.gif -text
@@ -201,6 +206,7 @@ MiEscuela/web/xava/images/pdf.gif -text
 MiEscuela/web/xava/images/photo.gif -text
 MiEscuela/web/xava/images/previous.gif -text
 MiEscuela/web/xava/images/previous_page.gif -text
+MiEscuela/web/xava/images/processing.gif -text
 MiEscuela/web/xava/images/remove.gif -text
 MiEscuela/web/xava/images/required.gif -text
 MiEscuela/web/xava/images/save.gif -text
