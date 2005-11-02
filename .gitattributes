@@ -512,8 +512,6 @@ OpenXava/generator/HibernatePG.class -text
 OpenXava/generator/HibernatePG.java -text
 OpenXava/generator/InterfacePG.class -text
 OpenXava/generator/InterfacePG.java -text
-OpenXava/generator/Jetspeed2CodeGenerator.class -text
-OpenXava/generator/Jetspeed2CodeGenerator.java -text
 OpenXava/generator/Jetspeed2DsPG.class -text
 OpenXava/generator/Jetspeed2DsPG.java -text
 OpenXava/generator/Jetspeed2FolderPG.class -text
@@ -524,6 +522,8 @@ OpenXava/generator/MethodsPG.class -text
 OpenXava/generator/MethodsPG.java -text
 OpenXava/generator/PojoPG.class -text
 OpenXava/generator/PojoPG.java -text
+OpenXava/generator/PortletCodeGenerator.class -text
+OpenXava/generator/PortletCodeGenerator.java -text
 OpenXava/generator/PortletXmlPG.class -text
 OpenXava/generator/PortletXmlPG.java -text
 OpenXava/generator/PostcreatePG.class -text
@@ -2648,6 +2648,7 @@ OpenXavaTest/src/org/openxava/test/validators/DeliveryTypeRemoveValidator.java -
 OpenXavaTest/src/org/openxava/test/validators/DeliveryValidator.java -text
 OpenXavaTest/src/org/openxava/test/validators/ExcludeStringValidator.java -text
 OpenXavaTest/src/org/openxava/test/validators/ExpensiveProductValidator.java -text
+OpenXavaTest/src/org/openxava/test/validators/ForbiddenPriceValidator.java -text
 OpenXavaTest/src/org/openxava/test/validators/InvoiceDetailValidator.java -text
 OpenXavaTest/src/org/openxava/test/validators/UnitPriceValidator.java -text
 OpenXavaTest/test-images/foto_javi.jpg -text
