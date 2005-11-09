@@ -776,7 +776,9 @@ OpenXava/src/org/openxava/formatters/BaseFormatter.java -text
 OpenXava/src/org/openxava/formatters/BooleanFormatter.java -text
 OpenXava/src/org/openxava/formatters/DateFormatter.java -text
 OpenXava/src/org/openxava/formatters/IFormatter.java -text
+OpenXava/src/org/openxava/formatters/IMultipleValuesFormatter.java -text
 OpenXava/src/org/openxava/formatters/ImageFormatter.java -text
+OpenXava/src/org/openxava/formatters/MultipleValuesByPassFormatter.java -text
 OpenXava/src/org/openxava/formatters/TimeFormatter.java -text
 OpenXava/src/org/openxava/formatters/UpperCaseFormatter.java -text
 OpenXava/src/org/openxava/generators/GeneratorFactory.java -text
@@ -1318,6 +1320,7 @@ OpenXavaDoc/web/new_en.html -text
 OpenXavaDoc/web/new_es.html -text
 OpenXavaDoc/web/openxava-1.2-guia-referencia.pdf -text
 OpenXavaDoc/web/openxava-1.2-reference-guide.pdf -text
+OpenXavaDoc/web/security_en.html -text
 OpenXavaDoc/web/tutorial_en.html -text
 OpenXavaDoc/web/tutorial_es.html -text
 OpenXavaDoc/web/websphere-portal_en.html -text
@@ -1401,40 +1404,6 @@ OpenXavaTest/.project -text
 OpenXavaTest/build.xml -text
 OpenXavaTest/build/ejb/META-INF/MANIFEST.MF -text
 OpenXavaTest/build/ejb/META-INF/Schema.dbxmi -text svneol=unset#application/octet-stream
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/DB.dbxmi -text svneol=unset#application/octet-stream
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/G4GIPBD.schxmi -text
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/G4GIPBD_ACTIECO.tblxmi -text
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/Map.mapxmi -text svneol=unset#application/octet-stream
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST.schxmi -text svneol=unset#application/octet-stream
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_CARRIER.tblxmi -text svneol=unset#application/octet-stream
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_CLERK.tblxmi -text svneol=unset#application/octet-stream
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_CUSTOMER.tblxmi -text svneol=unset#application/octet-stream
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_DELIVERY.tblxmi -text svneol=unset#application/octet-stream
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_DELIVERYDETAIL.tblxmi -text
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_DELIVERYPLACE.tblxmi -text svneol=unset#application/octet-stream
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_DELIVERYTYPE.tblxmi -text svneol=unset#application/octet-stream
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_DRIVINGLICENCE.tblxmi -text svneol=unset#application/octet-stream
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_FAMILY.tblxmi -text svneol=unset#application/octet-stream
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_FAMILY2.tblxmi -text
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_INVOICE.tblxmi -text svneol=unset#application/octet-stream
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_INVOICEDETAIL.tblxmi -text svneol=unset#application/octet-stream
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_MOCKTABLE.tblxmi -text svneol=unset#application/octet-stream
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_OFFICE.tblxmi -text svneol=unset#application/octet-stream
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_OFFICE2.tblxmi -text
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_PRODUCT.tblxmi -text svneol=unset#application/octet-stream
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_PRODUCT3.tblxmi -text svneol=unset#application/octet-stream
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_RECEPTIONIST.tblxmi -text svneol=unset#application/octet-stream
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_SELLER.tblxmi -text svneol=unset#application/octet-stream
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_SELLERLEVEL.tblxmi -text svneol=unset#application/octet-stream
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_SERVICE.tblxmi -text svneol=unset#application/octet-stream
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_SERVICEDETAIL.tblxmi -text svneol=unset#application/octet-stream
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_SERVICETYPE.tblxmi -text svneol=unset#application/octet-stream
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_SHIPMENT.tblxmi -text svneol=unset#application/octet-stream
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_STATE.tblxmi -text svneol=unset#application/octet-stream
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_SUBFAMILY.tblxmi -text svneol=unset#application/octet-stream
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_SUBFAMILY2.tblxmi -text
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_TRANSPORTCHARGE.tblxmi -text svneol=unset#application/octet-stream
-OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_WAREHOUSE.tblxmi -text svneol=unset#application/octet-stream
 OpenXavaTest/build/ejb/META-INF/ejb-jar.xml -text
 OpenXavaTest/build/ejb/META-INF/ibm-ejb-jar-bnd.xmi -text svneol=unset#application/octet-stream
 OpenXavaTest/build/ejb/META-INF/ibm-ejb-jar-ext.xmi -text svneol=unset#application/octet-stream
@@ -2574,6 +2543,7 @@ OpenXavaTest/src/org/openxava/test/calculators/ShippingAndHandlingCalculator.jav
 OpenXavaTest/src/org/openxava/test/calculators/SubfamilyPureRemarksCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/TranslateCarrierNameCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/YearInvoiceDiscountCalculator.java -text
+OpenXavaTest/src/org/openxava/test/converters/RegionsConverter.java -text
 OpenXavaTest/src/org/openxava/test/filters/CurrentYearFilter.java -text
 OpenXavaTest/src/org/openxava/test/filters/DefaultYearFilter.java -text
 OpenXavaTest/src/org/openxava/test/filters/Invoice20020001Filter.java -text
@@ -3494,6 +3464,7 @@ OpenXavaTest/web/xava/editors/imageEditor.jsp -text
 OpenXavaTest/web/xava/editors/labelEditor.jsp -text
 OpenXavaTest/web/xava/editors/moneyEditor.jsp -text
 OpenXavaTest/web/xava/editors/notAvailableEditor.jsp -text
+OpenXavaTest/web/xava/editors/regionsEditor.jsp -text
 OpenXavaTest/web/xava/editors/textAreaEditor.jsp -text
 OpenXavaTest/web/xava/editors/textEditor.jsp -text
 OpenXavaTest/web/xava/editors/validValuesEditor.jsp -text
@@ -3555,6 +3526,7 @@ OpenXavaTest/websphere-as400.properties -text
 OpenXavaTest/xava/application.xml -text
 OpenXavaTest/xava/code-generators.xml -text
 OpenXavaTest/xava/controllers.xml -text
+OpenXavaTest/xava/converters.xml -text
 OpenXavaTest/xava/default-size.xml -text
 OpenXavaTest/xava/dtds/aplicacion.dtd -text
 OpenXavaTest/xava/dtds/application.dtd -text
