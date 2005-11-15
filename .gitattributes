@@ -872,6 +872,7 @@ OpenXava/src/org/openxava/util/Dates.java -text
 OpenXava/src/org/openxava/util/ElementNotFoundException.java -text
 OpenXava/src/org/openxava/util/Factory.java -text
 OpenXava/src/org/openxava/util/FieldComparator.java -text
+OpenXava/src/org/openxava/util/Files.java -text
 OpenXava/src/org/openxava/util/IConnectionProvider.java -text
 OpenXava/src/org/openxava/util/IInit.java -text
 OpenXava/src/org/openxava/util/ILiberate.java -text
@@ -1256,6 +1257,17 @@ OpenXavaDoc/i18n/New_nl.properties -text
 OpenXavaDoc/i18n/New_pt.properties -text
 OpenXavaDoc/i18n/New_sv.properties -text
 OpenXavaDoc/i18n/New_zh.properties -text
+OpenXavaDoc/i18n/Security_de.properties -text
+OpenXavaDoc/i18n/Security_en.properties -text
+OpenXavaDoc/i18n/Security_es.properties -text
+OpenXavaDoc/i18n/Security_fr.properties -text
+OpenXavaDoc/i18n/Security_it.properties -text
+OpenXavaDoc/i18n/Security_ja.properties -text
+OpenXavaDoc/i18n/Security_ko.properties -text
+OpenXavaDoc/i18n/Security_nl.properties -text
+OpenXavaDoc/i18n/Security_pt.properties -text
+OpenXavaDoc/i18n/Security_sv.properties -text
+OpenXavaDoc/i18n/Security_zh.properties -text
 OpenXavaDoc/i18n/Tutorial_de.properties -text
 OpenXavaDoc/i18n/Tutorial_en.properties -text
 OpenXavaDoc/i18n/Tutorial_es.properties -text
@@ -3405,9 +3417,9 @@ OpenXavaTest/web/WEB-INF/lib/standard.jar -text
 OpenXavaTest/web/WEB-INF/openxava.tld -text
 OpenXavaTest/web/WEB-INF/portlet.xml -text
 OpenXavaTest/web/WEB-INF/web.xml -text
-OpenXavaTest/web/description_en.html -text
-OpenXavaTest/web/description_es.html -text
 OpenXavaTest/web/doYouWishSearch.jsp -text
+OpenXavaTest/web/doc/description_en.html -text
+OpenXavaTest/web/doc/description_es.html -text
 OpenXavaTest/web/xava/addColumns.jsp -text
 OpenXavaTest/web/xava/buttonBar.jsp -text
 OpenXavaTest/web/xava/collection.jsp -text
