@@ -721,6 +721,8 @@ OpenXava/generator/AggregateReferencePG.class -text
 OpenXava/generator/AggregateReferencePG.java -text
 OpenXava/generator/BeanPG.class -text
 OpenXava/generator/BeanPG.java -text
+OpenXava/generator/CalculatorsPG.class -text
+OpenXava/generator/CalculatorsPG.java -text
 OpenXava/generator/CodeGenerator.class -text
 OpenXava/generator/CodeGenerator.java -text
 OpenXava/generator/EJBCodeGenerator.class -text
@@ -751,10 +753,6 @@ OpenXava/generator/PortletCodeGenerator.class -text
 OpenXava/generator/PortletCodeGenerator.java -text
 OpenXava/generator/PortletXmlPG.class -text
 OpenXava/generator/PortletXmlPG.java -text
-OpenXava/generator/PostcreatePG.class -text
-OpenXava/generator/PostcreatePG.java -text
-OpenXava/generator/PostmodifyPG.class -text
-OpenXava/generator/PostmodifyPG.java -text
 OpenXava/generator/PropertyPG.class -text
 OpenXava/generator/PropertyPG.java -text
 OpenXava/generator/WebsphereCodeGenerator.class -text
@@ -771,6 +769,8 @@ OpenXava/generator/aggregateReference.template -text
 OpenXava/generator/aggregateReference.xml -text
 OpenXava/generator/bean.template -text
 OpenXava/generator/bean.xml -text
+OpenXava/generator/calculators.template -text
+OpenXava/generator/calculators.xml -text
 OpenXava/generator/ejbean.template -text
 OpenXava/generator/ejbean.xml -text
 OpenXava/generator/entityReference.template -text
@@ -793,10 +793,6 @@ OpenXava/generator/pojo.template -text
 OpenXava/generator/pojo.xml -text
 OpenXava/generator/portletxml.template -text
 OpenXava/generator/portletxml.xml -text
-OpenXava/generator/postcreate.template -text
-OpenXava/generator/postcreate.xml -text
-OpenXava/generator/postmodify.template -text
-OpenXava/generator/postmodify.xml -text
 OpenXava/generator/property.template -text
 OpenXava/generator/property.xml -text
 OpenXava/generator/websphereDbxmi.template -text
@@ -2621,7 +2617,6 @@ OpenXavaTest/components/dtds/componente.dtd -text
 OpenXavaTest/data/openxava-test-db.script -text
 OpenXavaTest/data/openxava-test-ds.xml -text
 OpenXavaTest/gen-src-xava/dnas.properties -text
-OpenXavaTest/gen-src-xava/last.generation.time -text svneol=unset#application/octet-stream
 OpenXavaTest/gen-src-xava/org/openxava/test/model/AdditionalDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Address.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Carrier.java -text
