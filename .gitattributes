@@ -1048,6 +1048,8 @@ OpenXava/src/org/openxava/model/meta/MetaReference.java -text
 OpenXava/src/org/openxava/model/meta/TypeStereotypeDefault.java -text
 OpenXava/src/org/openxava/model/meta/xmlparse/CalculatorParser.java -text
 OpenXava/src/org/openxava/model/meta/xmlparse/DefaultSizeParser.java -text
+OpenXava/src/org/openxava/model/meta/xmlparse/ImplicitCalculators.java -text
+OpenXava/src/org/openxava/model/meta/xmlparse/ImplicitCalculatorsParser.java -text
 OpenXava/src/org/openxava/model/meta/xmlparse/ModelParser.java -text
 OpenXava/src/org/openxava/model/meta/xmlparse/StereotypeTypeDefaultParser.java -text
 OpenXava/src/org/openxava/session/Language.java -text
@@ -1341,6 +1343,7 @@ OpenXava/xava/default-editors.xml -text
 OpenXava/xava/default-size.xml -text
 OpenXava/xava/dtds/aplicacion.dtd -text
 OpenXava/xava/dtds/application.dtd -text
+OpenXava/xava/dtds/calculadores-implicitos.dtd -text
 OpenXava/xava/dtds/code-generators.dtd -text
 OpenXava/xava/dtds/component.dtd -text
 OpenXava/xava/dtds/componente.dtd -text
@@ -1352,6 +1355,7 @@ OpenXava/xava/dtds/default-size.dtd -text
 OpenXava/xava/dtds/editores.dtd -text
 OpenXava/xava/dtds/editors.dtd -text
 OpenXava/xava/dtds/generadores-codigo.dtd -text
+OpenXava/xava/dtds/implicit-calculators.dtd -text
 OpenXava/xava/dtds/longitud-defecto.dtd -text
 OpenXava/xava/dtds/stereotype-type-default.dtd -text
 OpenXava/xava/dtds/tipo-estereotipo-defecto.dtd -text
@@ -4671,6 +4675,7 @@ OpenXavaTest/xava/converters.xml -text
 OpenXavaTest/xava/default-size.xml -text
 OpenXavaTest/xava/dtds/aplicacion.dtd -text
 OpenXavaTest/xava/dtds/application.dtd -text
+OpenXavaTest/xava/dtds/calculadores-implicitos.dtd -text
 OpenXavaTest/xava/dtds/code-generators.dtd -text
 OpenXavaTest/xava/dtds/controladores.dtd -text
 OpenXavaTest/xava/dtds/controllers.dtd -text
@@ -4680,11 +4685,13 @@ OpenXavaTest/xava/dtds/default-size.dtd -text
 OpenXavaTest/xava/dtds/editores.dtd -text
 OpenXavaTest/xava/dtds/editors.dtd -text
 OpenXavaTest/xava/dtds/generadores-codigo.dtd -text
+OpenXavaTest/xava/dtds/implicit-calculators.dtd -text
 OpenXavaTest/xava/dtds/longitud-defecto.dtd -text
 OpenXavaTest/xava/dtds/stereotype-type-default.dtd -text
 OpenXavaTest/xava/dtds/tipo-estereotipo-defecto.dtd -text
 OpenXavaTest/xava/dtds/validadores.dtd -text
 OpenXavaTest/xava/dtds/validators.dtd -text
 OpenXavaTest/xava/editors.xml -text
+OpenXavaTest/xava/implicit-calculators.xml -text
 OpenXavaTest/xava/stereotype-type-default.xml -text
 OpenXavaTest/xava/validators.xml -text
