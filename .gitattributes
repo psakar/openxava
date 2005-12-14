@@ -967,6 +967,7 @@ OpenXava/src/org/openxava/converters/StringNotNullConverter.java -text
 OpenXava/src/org/openxava/converters/TrimStringConverter.java -text
 OpenXava/src/org/openxava/converters/ValidValuesBase0Converter.java -text
 OpenXava/src/org/openxava/converters/ValidValuesLetterConverter.java -text
+OpenXava/src/org/openxava/converters/ValidValuesStringConverter.java -text
 OpenXava/src/org/openxava/ejbx/BeansContext.java -text
 OpenXava/src/org/openxava/ejbx/BeansContextProviderFactory.java -text
 OpenXava/src/org/openxava/ejbx/EJB11Context.java -text
