@@ -1139,6 +1139,7 @@ OpenXava/src/org/openxava/util/meta/MetaSetsContainer.java -text
 OpenXava/src/org/openxava/util/xmlparse/ParserBase.java -text
 OpenXava/src/org/openxava/util/xmlparse/ParserUtil.java -text
 OpenXava/src/org/openxava/util/xmlparse/XmlElementsNames.java -text
+OpenXava/src/org/openxava/validators/BigDecimalValidator.java -text
 OpenXava/src/org/openxava/validators/ComparatorValidator.java -text
 OpenXava/src/org/openxava/validators/IPropertyValidator.java -text
 OpenXava/src/org/openxava/validators/IRemoveValidator.java -text
