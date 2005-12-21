@@ -807,11 +807,13 @@ OpenXava/hibernate/TabUserPreferences.hbm.xml -text
 OpenXava/hibernate/openxava-hibernate.cfg.xml -text
 OpenXava/history.txt -text
 OpenXava/i18n/Labels_ca.properties -text
+OpenXava/i18n/Labels_de.properties -text
 OpenXava/i18n/Labels_en.properties -text
 OpenXava/i18n/Labels_es.properties -text
 OpenXava/i18n/Labels_fr.properties -text
 OpenXava/i18n/Labels_in.properties -text
 OpenXava/i18n/Messages_ca.properties -text
+OpenXava/i18n/Messages_de.properties -text
 OpenXava/i18n/Messages_en.properties -text
 OpenXava/i18n/Messages_es.properties -text
 OpenXava/i18n/Messages_fr.properties -text
@@ -1047,10 +1049,10 @@ OpenXava/src/org/openxava/model/meta/MetaModel.java -text
 OpenXava/src/org/openxava/model/meta/MetaProperty.java -text
 OpenXava/src/org/openxava/model/meta/MetaReference.java -text
 OpenXava/src/org/openxava/model/meta/TypeStereotypeDefault.java -text
+OpenXava/src/org/openxava/model/meta/xmlparse/Aspects.java -text
+OpenXava/src/org/openxava/model/meta/xmlparse/AspectsParser.java -text
 OpenXava/src/org/openxava/model/meta/xmlparse/CalculatorParser.java -text
 OpenXava/src/org/openxava/model/meta/xmlparse/DefaultSizeParser.java -text
-OpenXava/src/org/openxava/model/meta/xmlparse/ImplicitCalculators.java -text
-OpenXava/src/org/openxava/model/meta/xmlparse/ImplicitCalculatorsParser.java -text
 OpenXava/src/org/openxava/model/meta/xmlparse/ModelParser.java -text
 OpenXava/src/org/openxava/model/meta/xmlparse/StereotypeTypeDefaultParser.java -text
 OpenXava/src/org/openxava/session/Language.java -text
@@ -1121,6 +1123,7 @@ OpenXava/src/org/openxava/util/Resources.java -text
 OpenXava/src/org/openxava/util/Server.java -text
 OpenXava/src/org/openxava/util/Strings.java -text
 OpenXava/src/org/openxava/util/TableModels.java -text
+OpenXava/src/org/openxava/util/Users.java -text
 OpenXava/src/org/openxava/util/XCollections.java -text
 OpenXava/src/org/openxava/util/XSystem.java -text
 OpenXava/src/org/openxava/util/XavaException.java -text
@@ -1344,7 +1347,8 @@ OpenXava/xava/default-editors.xml -text
 OpenXava/xava/default-size.xml -text
 OpenXava/xava/dtds/aplicacion.dtd -text
 OpenXava/xava/dtds/application.dtd -text
-OpenXava/xava/dtds/calculadores-implicitos.dtd -text
+OpenXava/xava/dtds/aspectos.dtd -text
+OpenXava/xava/dtds/aspects.dtd -text
 OpenXava/xava/dtds/code-generators.dtd -text
 OpenXava/xava/dtds/component.dtd -text
 OpenXava/xava/dtds/componente.dtd -text
@@ -1356,7 +1360,6 @@ OpenXava/xava/dtds/default-size.dtd -text
 OpenXava/xava/dtds/editores.dtd -text
 OpenXava/xava/dtds/editors.dtd -text
 OpenXava/xava/dtds/generadores-codigo.dtd -text
-OpenXava/xava/dtds/implicit-calculators.dtd -text
 OpenXava/xava/dtds/longitud-defecto.dtd -text
 OpenXava/xava/dtds/stereotype-type-default.dtd -text
 OpenXava/xava/dtds/tipo-estereotipo-defecto.dtd -text
@@ -3628,6 +3631,9 @@ OpenXavaTest/lib/hsqldb.jar -text
 OpenXavaTest/lib/jbossall-client.jar -text
 OpenXavaTest/properties/BeansContext.properties -text
 OpenXavaTest/properties/LoginContextFactory.properties -text
+OpenXavaTest/properties/jndi-jboss.properties -text
+OpenXavaTest/properties/jndi-websphere.properties -text
+OpenXavaTest/properties/jndi.properties -text
 OpenXavaTest/properties/xava-junit.properties -text
 OpenXavaTest/properties/xava.properties -text
 OpenXavaTest/reports/products.jrxml -text
@@ -3808,6 +3814,10 @@ OpenXavaTest/web/WEB-INF/classes/Family.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/Family2.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/FilterBySubfamily.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/Invoice.hbm.xml -text
+OpenXavaTest/web/WEB-INF/classes/META-INF/ejb-jar.xml -text
+OpenXavaTest/web/WEB-INF/classes/META-INF/ibm-ejb-jar-bnd.xmi -text svneol=unset#application/octet-stream
+OpenXavaTest/web/WEB-INF/classes/META-INF/jboss.xml -text
+OpenXavaTest/web/WEB-INF/classes/META-INF/jbosscmp-jdbc.xml -text
 OpenXavaTest/web/WEB-INF/classes/Office.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/Office2.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
@@ -3829,6 +3839,7 @@ OpenXavaTest/web/WEB-INF/classes/TransportCharge.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/Warehouse.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/datasource.properties -text
 OpenXavaTest/web/WEB-INF/classes/hibernate.cfg.xml -text
+OpenXavaTest/web/WEB-INF/classes/jndi.properties -text
 OpenXavaTest/web/WEB-INF/classes/openxava-hibernate.cfg.xml -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Carriers_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Carriers_de.properties -text
@@ -4505,6 +4516,7 @@ OpenXavaTest/web/WEB-INF/lib/ehcache.jar -text
 OpenXavaTest/web/WEB-INF/lib/hibernate3.jar -text
 OpenXavaTest/web/WEB-INF/lib/itext.jar -text
 OpenXavaTest/web/WEB-INF/lib/jasperreports.jar -text
+OpenXavaTest/web/WEB-INF/lib/jboss-client.jar -text
 OpenXavaTest/web/WEB-INF/lib/jstl.jar -text
 OpenXavaTest/web/WEB-INF/lib/openxava.jar -text
 OpenXavaTest/web/WEB-INF/lib/poi.jar -text
@@ -4662,13 +4674,15 @@ OpenXavaTest/web/xava/style/swing.css -text svneol=unset#application/octet-strea
 OpenXavaTest/web/xava/style/yahoo.css -text svneol=unset#application/octet-stream
 OpenXavaTest/websphere-as400.properties -text
 OpenXavaTest/xava/application.xml -text
+OpenXavaTest/xava/aspects.xml -text
 OpenXavaTest/xava/code-generators.xml -text
 OpenXavaTest/xava/controllers.xml -text
 OpenXavaTest/xava/converters.xml -text
 OpenXavaTest/xava/default-size.xml -text
 OpenXavaTest/xava/dtds/aplicacion.dtd -text
 OpenXavaTest/xava/dtds/application.dtd -text
-OpenXavaTest/xava/dtds/calculadores-implicitos.dtd -text
+OpenXavaTest/xava/dtds/aspectos.dtd -text
+OpenXavaTest/xava/dtds/aspects.dtd -text
 OpenXavaTest/xava/dtds/code-generators.dtd -text
 OpenXavaTest/xava/dtds/controladores.dtd -text
 OpenXavaTest/xava/dtds/controllers.dtd -text
@@ -4678,13 +4692,11 @@ OpenXavaTest/xava/dtds/default-size.dtd -text
 OpenXavaTest/xava/dtds/editores.dtd -text
 OpenXavaTest/xava/dtds/editors.dtd -text
 OpenXavaTest/xava/dtds/generadores-codigo.dtd -text
-OpenXavaTest/xava/dtds/implicit-calculators.dtd -text
 OpenXavaTest/xava/dtds/longitud-defecto.dtd -text
 OpenXavaTest/xava/dtds/stereotype-type-default.dtd -text
 OpenXavaTest/xava/dtds/tipo-estereotipo-defecto.dtd -text
 OpenXavaTest/xava/dtds/validadores.dtd -text
 OpenXavaTest/xava/dtds/validators.dtd -text
 OpenXavaTest/xava/editors.xml -text
-OpenXavaTest/xava/implicit-calculators.xml -text
 OpenXavaTest/xava/stereotype-type-default.xml -text
 OpenXavaTest/xava/validators.xml -text
