@@ -769,6 +769,7 @@ OpenXava/generator/aggregateReference.template -text
 OpenXava/generator/aggregateReference.xml -text
 OpenXava/generator/bean.template -text
 OpenXava/generator/bean.xml -text
+OpenXava/generator/calculatedCollection.template -text
 OpenXava/generator/calculators.template -text
 OpenXava/generator/calculators.xml -text
 OpenXava/generator/ejbean.template -text
@@ -3713,6 +3714,7 @@ OpenXavaTest/src/org/openxava/test/calculators/DetailsCountCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/EurosToPesetasCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/ExportPriceCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/FellowCarriersCalculator.java -text
+OpenXavaTest/src/org/openxava/test/calculators/FellowCarriersEJBCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/ImportanceCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/IncreasePriceCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/InvoiceDetailOidCalculator.java -text
