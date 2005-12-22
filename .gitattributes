@@ -721,6 +721,8 @@ OpenXava/generator/AggregateReferencePG.class -text
 OpenXava/generator/AggregateReferencePG.java -text
 OpenXava/generator/BeanPG.class -text
 OpenXava/generator/BeanPG.java -text
+OpenXava/generator/CalculatedCollectionPG.class -text
+OpenXava/generator/CalculatedCollectionPG.java -text
 OpenXava/generator/CalculatorsPG.class -text
 OpenXava/generator/CalculatorsPG.java -text
 OpenXava/generator/CodeGenerator.class -text
@@ -770,6 +772,7 @@ OpenXava/generator/aggregateReference.xml -text
 OpenXava/generator/bean.template -text
 OpenXava/generator/bean.xml -text
 OpenXava/generator/calculatedCollection.template -text
+OpenXava/generator/calculatedCollection.xml -text
 OpenXava/generator/calculators.template -text
 OpenXava/generator/calculators.xml -text
 OpenXava/generator/ejbean.template -text
