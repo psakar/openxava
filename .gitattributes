@@ -862,7 +862,6 @@ OpenXava/src/org/openxava/actions/GoListAction.java -text
 OpenXava/src/org/openxava/actions/GoNextPageAction.java -text
 OpenXava/src/org/openxava/actions/GoPageAction.java -text
 OpenXava/src/org/openxava/actions/GoPreviousPageAction.java -text
-OpenXava/src/org/openxava/actions/HibernateBaseAction.java -text
 OpenXava/src/org/openxava/actions/HiddenDetailElementInCollectionAction.java -text
 OpenXava/src/org/openxava/actions/HideRowsAction.java -text
 OpenXava/src/org/openxava/actions/IAction.java -text
@@ -1014,6 +1013,7 @@ OpenXava/src/org/openxava/generators/Generators.java -text
 OpenXava/src/org/openxava/generators/IPropertyCodeGenerator.java -text
 OpenXava/src/org/openxava/generators/xmlparse/GeneratorsParser.java -text
 OpenXava/src/org/openxava/hibernate/ReferenceConverterToDBListener.java -text
+OpenXava/src/org/openxava/hibernate/XHibernate.java -text
 OpenXava/src/org/openxava/mapping/AggregateMapping.java -text
 OpenXava/src/org/openxava/mapping/CmpField.java -text
 OpenXava/src/org/openxava/mapping/Converters.java -text
