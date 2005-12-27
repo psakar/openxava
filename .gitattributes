@@ -53,6 +53,19 @@ AccessTracking/web/WEB-INF/classes/hibernate-junit.cfg.xml -text
 AccessTracking/web/WEB-INF/classes/hibernate.cfg.xml -text
 AccessTracking/web/WEB-INF/classes/jndi.properties -text
 AccessTracking/web/WEB-INF/classes/openxava-hibernate.cfg.xml -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_ca.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_de.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_en.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_es.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_fr.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_in.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_it.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_ja.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_ko.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_nl.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_pt.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_sv.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_zh.properties -text
 AccessTracking/web/WEB-INF/lib/antlr.jar -text
 AccessTracking/web/WEB-INF/lib/asm.jar -text
 AccessTracking/web/WEB-INF/lib/cglib.jar -text
@@ -1202,6 +1215,7 @@ OpenXava/src/org/openxava/web/servlets/GenerateReportServlet.java -text
 OpenXava/src/org/openxava/web/servlets/ImagesServlet.java -text
 OpenXava/src/org/openxava/web/servlets/JasperReportServlet.java -text
 OpenXava/src/org/openxava/web/style/JetSpeed2Style.java -text
+OpenXava/src/org/openxava/web/style/LiferayStyle.java -text
 OpenXava/src/org/openxava/web/style/Style.java -text
 OpenXava/src/org/openxava/web/style/WebSpherePortalStyle.java -text
 OpenXava/src/org/openxava/web/taglib/ActionTag.java -text
@@ -3668,6 +3682,7 @@ OpenXavaTest/src/org/openxava/test/actions/ChangeInvoiceTabAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeLabelAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeLimitZoneAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeListTitleAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/ChangePageRowCountAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeProductPriceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeToLowerCaseAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeViewAction.java -text
