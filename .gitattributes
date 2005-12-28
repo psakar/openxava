@@ -1035,6 +1035,7 @@ OpenXava/src/org/openxava/filters/meta/xmlparse/FilterParser.java -text
 OpenXava/src/org/openxava/formatters/BaseFormatter.java -text
 OpenXava/src/org/openxava/formatters/BooleanFormatter.java -text
 OpenXava/src/org/openxava/formatters/DateFormatter.java -text
+OpenXava/src/org/openxava/formatters/DateTimeFormatter.java -text
 OpenXava/src/org/openxava/formatters/IFormatter.java -text
 OpenXava/src/org/openxava/formatters/IMultipleValuesFormatter.java -text
 OpenXava/src/org/openxava/formatters/ImageFormatter.java -text
@@ -1322,6 +1323,7 @@ OpenXava/web/editors/calendar/skins/aqua/title-bg.gif -text
 OpenXava/web/editors/calendar/skins/aqua/today-bg.gif -text
 OpenXava/web/editors/changeImage.jsp -text
 OpenXava/web/editors/dateCalendarEditor.jsp -text svneol=unset#application/octet-stream
+OpenXava/web/editors/dateTimeCalendarEditor.jsp -text
 OpenXava/web/editors/descriptionsEditor.jsp -text
 OpenXava/web/editors/imageEditor.jsp -text
 OpenXava/web/editors/labelEditor.jsp -text
