@@ -1046,6 +1046,7 @@ OpenXava/src/org/openxava/generators/GeneratorFactory.java -text
 OpenXava/src/org/openxava/generators/Generators.java -text
 OpenXava/src/org/openxava/generators/IPropertyCodeGenerator.java -text
 OpenXava/src/org/openxava/generators/xmlparse/GeneratorsParser.java -text
+OpenXava/src/org/openxava/hibernate/FastSizeList.java -text
 OpenXava/src/org/openxava/hibernate/ReferenceConverterToDBListener.java -text
 OpenXava/src/org/openxava/hibernate/XHibernate.java -text
 OpenXava/src/org/openxava/mapping/AggregateMapping.java -text
