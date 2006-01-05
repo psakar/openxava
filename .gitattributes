@@ -1046,6 +1046,7 @@ OpenXava/src/org/openxava/generators/GeneratorFactory.java -text
 OpenXava/src/org/openxava/generators/Generators.java -text
 OpenXava/src/org/openxava/generators/IPropertyCodeGenerator.java -text
 OpenXava/src/org/openxava/generators/xmlparse/GeneratorsParser.java -text
+OpenXava/src/org/openxava/hibernate/DefaultCalculatorsListener.java -text
 OpenXava/src/org/openxava/hibernate/FastSizeList.java -text
 OpenXava/src/org/openxava/hibernate/ReferenceConverterToDBListener.java -text
 OpenXava/src/org/openxava/hibernate/XHibernate.java -text
@@ -1233,6 +1234,7 @@ OpenXava/web/WEB-INF/lib/commons-beanutils.jar -text
 OpenXava/web/WEB-INF/lib/commons-collections.jar -text
 OpenXava/web/WEB-INF/lib/commons-digester.jar -text
 OpenXava/web/WEB-INF/lib/commons-fileupload.jar -text
+OpenXava/web/WEB-INF/lib/commons-io.jar -text
 OpenXava/web/WEB-INF/lib/dom4j.jar -text
 OpenXava/web/WEB-INF/lib/ehcache.jar -text
 OpenXava/web/WEB-INF/lib/hibernate3.jar -text
