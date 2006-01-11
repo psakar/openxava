@@ -1046,10 +1046,11 @@ OpenXava/src/org/openxava/generators/GeneratorFactory.java -text
 OpenXava/src/org/openxava/generators/Generators.java -text
 OpenXava/src/org/openxava/generators/IPropertyCodeGenerator.java -text
 OpenXava/src/org/openxava/generators/xmlparse/GeneratorsParser.java -text
-OpenXava/src/org/openxava/hibernate/DefaultCalculatorsListener.java -text
-OpenXava/src/org/openxava/hibernate/FastSizeList.java -text
-OpenXava/src/org/openxava/hibernate/ReferenceConverterToDBListener.java -text
 OpenXava/src/org/openxava/hibernate/XHibernate.java -text
+OpenXava/src/org/openxava/hibernate/impl/DefaultValueCalculatorsListener.java -text
+OpenXava/src/org/openxava/hibernate/impl/DefaultValueIdentifierGenerator.java -text
+OpenXava/src/org/openxava/hibernate/impl/FastSizeList.java -text
+OpenXava/src/org/openxava/hibernate/impl/ReferenceConverterToDBListener.java -text
 OpenXava/src/org/openxava/mapping/AggregateMapping.java -text
 OpenXava/src/org/openxava/mapping/CmpField.java -text
 OpenXava/src/org/openxava/mapping/Converters.java -text
