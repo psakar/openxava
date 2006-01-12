@@ -73,6 +73,7 @@ AccessTracking/web/WEB-INF/lib/commons-beanutils.jar -text
 AccessTracking/web/WEB-INF/lib/commons-collections.jar -text
 AccessTracking/web/WEB-INF/lib/commons-digester.jar -text
 AccessTracking/web/WEB-INF/lib/commons-fileupload.jar -text
+AccessTracking/web/WEB-INF/lib/commons-io.jar -text
 AccessTracking/web/WEB-INF/lib/dom4j.jar -text
 AccessTracking/web/WEB-INF/lib/ehcache.jar -text
 AccessTracking/web/WEB-INF/lib/hibernate3.jar -text
@@ -168,6 +169,7 @@ AccessTracking/web/xava/editors/calendar/skins/aqua/title-bg.gif -text
 AccessTracking/web/xava/editors/calendar/skins/aqua/today-bg.gif -text
 AccessTracking/web/xava/editors/changeImage.jsp -text
 AccessTracking/web/xava/editors/dateCalendarEditor.jsp -text
+AccessTracking/web/xava/editors/dateTimeCalendarEditor.jsp -text
 AccessTracking/web/xava/editors/descriptionsEditor.jsp -text
 AccessTracking/web/xava/editors/imageEditor.jsp -text
 AccessTracking/web/xava/editors/labelEditor.jsp -text
@@ -910,6 +912,7 @@ OpenXava/src/org/openxava/actions/IModelAction.java -text
 OpenXava/src/org/openxava/actions/IModuleContextAction.java -text
 OpenXava/src/org/openxava/actions/INavigationAction.java -text
 OpenXava/src/org/openxava/actions/IOnChangePropertyAction.java -text
+OpenXava/src/org/openxava/actions/IProcessLoadedFileAction.java -text
 OpenXava/src/org/openxava/actions/IRemoteAction.java -text
 OpenXava/src/org/openxava/actions/IRequestAction.java -text
 OpenXava/src/org/openxava/actions/InitListAction.java -text
