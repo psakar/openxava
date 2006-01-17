@@ -1288,6 +1288,7 @@ OpenXava/web/editors/calendar/lang/calendar-de.js -text
 OpenXava/web/editors/calendar/lang/calendar-du.js -text
 OpenXava/web/editors/calendar/lang/calendar-el.js -text
 OpenXava/web/editors/calendar/lang/calendar-en.js -text
+OpenXava/web/editors/calendar/lang/calendar-es-utf8.js -text
 OpenXava/web/editors/calendar/lang/calendar-es.js -text
 OpenXava/web/editors/calendar/lang/calendar-fi.js -text
 OpenXava/web/editors/calendar/lang/calendar-fr.js -text
@@ -4710,6 +4711,8 @@ OpenXavaTest/web/xava/editors/calendar/lang/calendar-de.js -text
 OpenXavaTest/web/xava/editors/calendar/lang/calendar-du.js -text
 OpenXavaTest/web/xava/editors/calendar/lang/calendar-el.js -text
 OpenXavaTest/web/xava/editors/calendar/lang/calendar-en.js -text
+OpenXavaTest/web/xava/editors/calendar/lang/calendar-es-iso.js -text
+OpenXavaTest/web/xava/editors/calendar/lang/calendar-es-utf8.js -text
 OpenXavaTest/web/xava/editors/calendar/lang/calendar-es.js -text
 OpenXavaTest/web/xava/editors/calendar/lang/calendar-fi.js -text
 OpenXavaTest/web/xava/editors/calendar/lang/calendar-fr.js -text
