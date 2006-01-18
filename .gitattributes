@@ -2674,7 +2674,6 @@ OpenXavaTest/components/dtds/component.dtd -text
 OpenXavaTest/components/dtds/componente.dtd -text
 OpenXavaTest/data/openxava-test-db.script -text
 OpenXavaTest/data/openxava-test-ds.xml -text
-OpenXavaTest/gen-src-xava/dnas.properties -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/AdditionalDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Address.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Carrier.java -text
@@ -3880,10 +3879,6 @@ OpenXavaTest/web/WEB-INF/classes/FilterBySubfamily.xml -text
 OpenXavaTest/web/WEB-INF/classes/Invoice.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/Invoice.xml -text
 OpenXavaTest/web/WEB-INF/classes/InvoiceDetail.hbm.xml -text
-OpenXavaTest/web/WEB-INF/classes/META-INF/ejb-jar.xml -text
-OpenXavaTest/web/WEB-INF/classes/META-INF/ibm-ejb-jar-bnd.xmi -text svneol=unset#application/octet-stream
-OpenXavaTest/web/WEB-INF/classes/META-INF/jboss.xml -text
-OpenXavaTest/web/WEB-INF/classes/META-INF/jbosscmp-jdbc.xml -text
 OpenXavaTest/web/WEB-INF/classes/Office.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/Office.xml -text
 OpenXavaTest/web/WEB-INF/classes/Office2.hbm.xml -text
