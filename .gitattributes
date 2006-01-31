@@ -3795,10 +3795,6 @@ OpenXavaTest/jboss-as400.properties -text
 OpenXavaTest/jboss-hypersonic.properties -text
 OpenXavaTest/lib/hsqldb.jar -text
 OpenXavaTest/lib/jbossall-client.jar -text
-OpenXavaTest/orbtrc.20012006.1926.49.txt -text
-OpenXavaTest/orbtrc.23012006.1635.38.txt -text
-OpenXavaTest/orbtrc.23012006.1735.21.txt -text
-OpenXavaTest/orbtrc.23012006.2033.36.txt -text
 OpenXavaTest/properties/BeansContext.properties -text
 OpenXavaTest/properties/LoginContextFactory.properties -text
 OpenXavaTest/properties/jndi-jboss.properties -text
@@ -3940,6 +3936,7 @@ OpenXavaTest/src/org/openxava/test/tests/Invoices2002Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoicesDeliveriesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoicesFromCustomersTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoicesFromDeliveriesTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/InvoicesNestedSectionsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoicesNoListTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoicesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/MapFacadeTest.java -text
@@ -4000,6 +3997,10 @@ OpenXavaTest/web/WEB-INF/classes/FilterBySubfamily.xml -text
 OpenXavaTest/web/WEB-INF/classes/Invoice.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/Invoice.xml -text
 OpenXavaTest/web/WEB-INF/classes/InvoiceDetail.hbm.xml -text
+OpenXavaTest/web/WEB-INF/classes/META-INF/ejb-jar.xml -text
+OpenXavaTest/web/WEB-INF/classes/META-INF/ibm-ejb-jar-bnd.xmi -text svneol=unset#application/octet-stream
+OpenXavaTest/web/WEB-INF/classes/META-INF/jboss.xml -text
+OpenXavaTest/web/WEB-INF/classes/META-INF/jbosscmp-jdbc.xml -text
 OpenXavaTest/web/WEB-INF/classes/Office.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/Office.xml -text
 OpenXavaTest/web/WEB-INF/classes/Office2.hbm.xml -text
@@ -4797,6 +4798,7 @@ OpenXavaTest/web/xava/comparatorsValidValuesCombo.jsp -text
 OpenXavaTest/web/xava/descriptionsList.jsp -text
 OpenXavaTest/web/xava/detail.jsp -text
 OpenXavaTest/web/xava/editor.jsp -text
+OpenXavaTest/web/xava/editors/boldLabelEditor.jsp -text
 OpenXavaTest/web/xava/editors/booleanEditor.jsp -text
 OpenXavaTest/web/xava/editors/calendar/calendar-blue.css -text
 OpenXavaTest/web/xava/editors/calendar/calendar-blue2.css -text
