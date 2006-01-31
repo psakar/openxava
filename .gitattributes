@@ -1327,6 +1327,7 @@ OpenXava/web/comparatorsValidValuesCombo.jsp -text
 OpenXava/web/descriptionsList.jsp -text
 OpenXava/web/detail.jsp -text
 OpenXava/web/editor.jsp -text
+OpenXava/web/editors/boldLabelEditor.jsp -text
 OpenXava/web/editors/booleanEditor.jsp -text
 OpenXava/web/editors/calendar/calendar-blue.css -text
 OpenXava/web/editors/calendar/calendar-blue2.css -text
