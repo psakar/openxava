@@ -2758,6 +2758,7 @@ OpenXavaTest/build/hibernate/Shipment.hbm.xml -text
 OpenXavaTest/build/hibernate/State.hbm.xml -text
 OpenXavaTest/build/hibernate/Subfamily.hbm.xml -text
 OpenXavaTest/build/hibernate/Subfamily2.hbm.xml -text
+OpenXavaTest/build/hibernate/Task.hbm.xml -text
 OpenXavaTest/build/hibernate/TransportCharge.hbm.xml -text
 OpenXavaTest/build/hibernate/Warehouse.hbm.xml -text
 OpenXavaTest/build/j2ee/META-INF/application-websphere.xml -text
@@ -2785,6 +2786,7 @@ OpenXavaTest/components/Shipment.xml -text
 OpenXavaTest/components/State.xml -text
 OpenXavaTest/components/Subfamily.xml -text
 OpenXavaTest/components/Subfamily2.xml -text
+OpenXavaTest/components/Task.xml -text
 OpenXavaTest/components/TransportCharge.xml -text
 OpenXavaTest/components/Warehouse.xml -text
 OpenXavaTest/components/dtds/component.dtd -text
@@ -2832,6 +2834,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/IShipment.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IState.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ISubfamily.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ISubfamily2.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ITask.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ITransportCharge.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IWarehouse.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Invoice.java -text
@@ -2851,6 +2854,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/State.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Subfamily.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Subfamily2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/SubfamilyInfo.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Task.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/TransportCharge.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Warehouse.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/AdditionalDetailBean.java -text
@@ -2880,6 +2884,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/ShipmentBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/StateBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/Subfamily2Bean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/SubfamilyBean.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/TaskBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/TransportChargeBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/WarehouseBean.java -text
 OpenXavaTest/gen-src-xava/packages.properties -text
@@ -3050,6 +3055,12 @@ OpenXavaTest/gen-src/org/openxava/test/model/SubfamilyKey.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/SubfamilyRemote.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/SubfamilyUtil.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/SubfamilyValue.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/TaskData.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/TaskHome.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/TaskKey.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/TaskRemote.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/TaskUtil.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/TaskValue.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/TransportChargeData.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/TransportChargeHome.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/TransportChargeKey.java -text
@@ -3090,6 +3101,7 @@ OpenXavaTest/gen-src/org/openxava/test/model/xejb/ShipmentCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/StateCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/Subfamily2CMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/SubfamilyCMP.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/xejb/TaskCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/TransportChargeCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/WarehouseCMP.java -text
 OpenXavaTest/hibernate/Family.hbm.xml -text
@@ -3480,6 +3492,19 @@ OpenXavaTest/i18n/portlets/InvoicesFromDeliveries_nl.properties -text
 OpenXavaTest/i18n/portlets/InvoicesFromDeliveries_pt.properties -text
 OpenXavaTest/i18n/portlets/InvoicesFromDeliveries_sv.properties -text
 OpenXavaTest/i18n/portlets/InvoicesFromDeliveries_zh.properties -text
+OpenXavaTest/i18n/portlets/InvoicesNestedSections_ca.properties -text
+OpenXavaTest/i18n/portlets/InvoicesNestedSections_de.properties -text
+OpenXavaTest/i18n/portlets/InvoicesNestedSections_en.properties -text
+OpenXavaTest/i18n/portlets/InvoicesNestedSections_es.properties -text
+OpenXavaTest/i18n/portlets/InvoicesNestedSections_fr.properties -text
+OpenXavaTest/i18n/portlets/InvoicesNestedSections_in.properties -text
+OpenXavaTest/i18n/portlets/InvoicesNestedSections_it.properties -text
+OpenXavaTest/i18n/portlets/InvoicesNestedSections_ja.properties -text
+OpenXavaTest/i18n/portlets/InvoicesNestedSections_ko.properties -text
+OpenXavaTest/i18n/portlets/InvoicesNestedSections_nl.properties -text
+OpenXavaTest/i18n/portlets/InvoicesNestedSections_pt.properties -text
+OpenXavaTest/i18n/portlets/InvoicesNestedSections_sv.properties -text
+OpenXavaTest/i18n/portlets/InvoicesNestedSections_zh.properties -text
 OpenXavaTest/i18n/portlets/InvoicesNoList_ca.properties -text
 OpenXavaTest/i18n/portlets/InvoicesNoList_de.properties -text
 OpenXavaTest/i18n/portlets/InvoicesNoList_en.properties -text
@@ -3766,6 +3791,19 @@ OpenXavaTest/i18n/portlets/Subfamilies_nl.properties -text
 OpenXavaTest/i18n/portlets/Subfamilies_pt.properties -text
 OpenXavaTest/i18n/portlets/Subfamilies_sv.properties -text
 OpenXavaTest/i18n/portlets/Subfamilies_zh.properties -text
+OpenXavaTest/i18n/portlets/Tasks_ca.properties -text
+OpenXavaTest/i18n/portlets/Tasks_de.properties -text
+OpenXavaTest/i18n/portlets/Tasks_en.properties -text
+OpenXavaTest/i18n/portlets/Tasks_es.properties -text
+OpenXavaTest/i18n/portlets/Tasks_fr.properties -text
+OpenXavaTest/i18n/portlets/Tasks_in.properties -text
+OpenXavaTest/i18n/portlets/Tasks_it.properties -text
+OpenXavaTest/i18n/portlets/Tasks_ja.properties -text
+OpenXavaTest/i18n/portlets/Tasks_ko.properties -text
+OpenXavaTest/i18n/portlets/Tasks_nl.properties -text
+OpenXavaTest/i18n/portlets/Tasks_pt.properties -text
+OpenXavaTest/i18n/portlets/Tasks_sv.properties -text
+OpenXavaTest/i18n/portlets/Tasks_zh.properties -text
 OpenXavaTest/i18n/portlets/TransportCharges_ca.properties -text
 OpenXavaTest/i18n/portlets/TransportCharges_de.properties -text
 OpenXavaTest/i18n/portlets/TransportCharges_en.properties -text
@@ -3961,6 +3999,7 @@ OpenXavaTest/src/org/openxava/test/tests/StateHibernateTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/Subfamilies2Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/SubfamiliesSelectTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/SubfamiliesTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/TasksTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/TransportChargesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehousesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/XavaSuite.java -text
@@ -4040,6 +4079,8 @@ OpenXavaTest/web/WEB-INF/classes/Subfamily.xml -text
 OpenXavaTest/web/WEB-INF/classes/Subfamily2.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/Subfamily2.xml -text
 OpenXavaTest/web/WEB-INF/classes/TabUserPreferences.hbm.xml -text
+OpenXavaTest/web/WEB-INF/classes/Task.hbm.xml -text
+OpenXavaTest/web/WEB-INF/classes/Task.xml -text
 OpenXavaTest/web/WEB-INF/classes/TransportCharge.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/TransportCharge.xml -text
 OpenXavaTest/web/WEB-INF/classes/Warehouse.hbm.xml -text
