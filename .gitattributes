@@ -4000,6 +4000,7 @@ OpenXavaTest/src/org/openxava/test/tests/Subfamilies2Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/SubfamiliesSelectTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/SubfamiliesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/TasksTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/TransportCharges2Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/TransportChargesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehousesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/XavaSuite.java -text
