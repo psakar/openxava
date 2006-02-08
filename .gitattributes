@@ -3990,6 +3990,7 @@ OpenXavaTest/src/org/openxava/test/tests/Products2Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/Products3ChangeActionsOnSearchTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/Products3Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/Products3WithDescriptionsListTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/Products3WithGroupTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ProductsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ProductsWithSectionTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/SellersCannotCreateCustomerTest.java -text
