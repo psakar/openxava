@@ -1120,6 +1120,7 @@ OpenXava/src/org/openxava/generators/Generators.java -text
 OpenXava/src/org/openxava/generators/IPropertyCodeGenerator.java -text
 OpenXava/src/org/openxava/generators/xmlparse/GeneratorsParser.java -text
 OpenXava/src/org/openxava/hibernate/XHibernate.java -text
+OpenXava/src/org/openxava/hibernate/impl/CalculatorsListener.java -text
 OpenXava/src/org/openxava/hibernate/impl/DefaultValueCalculatorsListener.java -text
 OpenXava/src/org/openxava/hibernate/impl/DefaultValueIdentifierGenerator.java -text
 OpenXava/src/org/openxava/hibernate/impl/FastSizeList.java -text
