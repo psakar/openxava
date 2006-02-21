@@ -842,6 +842,7 @@ OpenXava/build.xml -text
 OpenXava/build/jboss-app.xml -text
 OpenXava/build/server-properties/BeansContext.properties -text
 OpenXava/build/server-properties/EJBContextFactory.properties -text
+OpenXava/data/images-db.script -text
 OpenXava/data/openxava-db-as400.script -text
 OpenXava/data/openxava-db.script -text
 OpenXava/data/openxava-ds.xml -text
@@ -946,6 +947,7 @@ OpenXava/generator/websphereSchxmi.template -text
 OpenXava/generator/websphereSchxmi.xml -text
 OpenXava/generator/websphereTblxmi.template -text
 OpenXava/generator/websphereTblxmi.xml -text
+OpenXava/hibernate/GalleryImage.hbm.xml -text
 OpenXava/hibernate/TabUserPreferences.hbm.xml -text
 OpenXava/hibernate/openxava-hibernate.cfg.xml -text
 OpenXava/history.txt -text
@@ -974,6 +976,7 @@ OpenXava/lib/portlet-api-1.0.jar -text
 OpenXava/lib/tl.jar -text
 OpenXava/properties/commons-logging.properties -text
 OpenXava/src/org/openxava/actions/AddColumnsAction.java -text
+OpenXava/src/org/openxava/actions/AddImageToGalleryAction.java -text
 OpenXava/src/org/openxava/actions/BaseAction.java -text
 OpenXava/src/org/openxava/actions/CancelAction.java -text
 OpenXava/src/org/openxava/actions/CancelInListAction.java -text
@@ -992,6 +995,7 @@ OpenXava/src/org/openxava/actions/DeleteAction.java -text
 OpenXava/src/org/openxava/actions/DeleteSelectedAction.java -text
 OpenXava/src/org/openxava/actions/DeselectRowsAction.java -text
 OpenXava/src/org/openxava/actions/EditElementInCollectionAction.java -text
+OpenXava/src/org/openxava/actions/EditGalleryAction.java -text
 OpenXava/src/org/openxava/actions/EmptyAction.java -text
 OpenXava/src/org/openxava/actions/FilterAction.java -text
 OpenXava/src/org/openxava/actions/GenerateReportAction.java -text
@@ -1022,6 +1026,9 @@ OpenXava/src/org/openxava/actions/IRequestAction.java -text
 OpenXava/src/org/openxava/actions/InitListAction.java -text
 OpenXava/src/org/openxava/actions/JasperReportBaseAction.java -text
 OpenXava/src/org/openxava/actions/LoadImageAction.java -text
+OpenXava/src/org/openxava/actions/LoadImageIntoGalleryAction.java -text
+OpenXava/src/org/openxava/actions/MaximizeImageAction.java -text
+OpenXava/src/org/openxava/actions/MinimizeImageAction.java -text
 OpenXava/src/org/openxava/actions/MoveColumnToLeftAction.java -text
 OpenXava/src/org/openxava/actions/MoveColumnToRightAction.java -text
 OpenXava/src/org/openxava/actions/NavigationAction.java -text
@@ -1031,6 +1038,7 @@ OpenXava/src/org/openxava/actions/OrderByAction.java -text
 OpenXava/src/org/openxava/actions/ReferenceSearchAction.java -text
 OpenXava/src/org/openxava/actions/RemoveColumnAction.java -text
 OpenXava/src/org/openxava/actions/RemoveElementFromCollectionAction.java -text
+OpenXava/src/org/openxava/actions/RemoveImageFromGalleryAction.java -text
 OpenXava/src/org/openxava/actions/ResetPreviousControllersAction.java -text
 OpenXava/src/org/openxava/actions/RestoreDefaultColumnsAction.java -text
 OpenXava/src/org/openxava/actions/ReturnPreviousModuleAction.java -text
@@ -1205,6 +1213,8 @@ OpenXava/src/org/openxava/model/meta/xmlparse/CalculatorParser.java -text
 OpenXava/src/org/openxava/model/meta/xmlparse/DefaultSizeParser.java -text
 OpenXava/src/org/openxava/model/meta/xmlparse/ModelParser.java -text
 OpenXava/src/org/openxava/model/meta/xmlparse/StereotypeTypeDefaultParser.java -text
+OpenXava/src/org/openxava/session/Gallery.java -text
+OpenXava/src/org/openxava/session/GalleryImage.java -text
 OpenXava/src/org/openxava/session/Language.java -text
 OpenXava/src/org/openxava/tab/Tab.java -text
 OpenXava/src/org/openxava/tab/impl/DataChunk.java -text
@@ -1260,6 +1270,7 @@ OpenXava/src/org/openxava/util/Is.java -text
 OpenXava/src/org/openxava/util/KeyAndDescription.java -text
 OpenXava/src/org/openxava/util/KeyAndDescriptionComparator.java -text
 OpenXava/src/org/openxava/util/Labels.java -text
+OpenXava/src/org/openxava/util/Locales.java -text
 OpenXava/src/org/openxava/util/Maps.java -text
 OpenXava/src/org/openxava/util/Messages.java -text
 OpenXava/src/org/openxava/util/Objects.java -text
@@ -1323,6 +1334,7 @@ OpenXava/src/org/openxava/web/meta/MetaWebEditors.java -text
 OpenXava/src/org/openxava/web/meta/xmlparse/EditorsParser.java -text
 OpenXava/src/org/openxava/web/portlets/HtmlPortlet.java -text
 OpenXava/src/org/openxava/web/portlets/XavaPortlet.java -text
+OpenXava/src/org/openxava/web/servlets/GalleryServlet.java -text
 OpenXava/src/org/openxava/web/servlets/GenerateCustomReportServlet.java -text
 OpenXava/src/org/openxava/web/servlets/GenerateReportServlet.java -text
 OpenXava/src/org/openxava/web/servlets/ImagesServlet.java -text
@@ -1364,6 +1376,7 @@ OpenXava/web/comparatorsValidValuesCombo.jsp -text
 OpenXava/web/descriptionsList.jsp -text
 OpenXava/web/detail.jsp -text
 OpenXava/web/editor.jsp -text
+OpenXava/web/editors/addImages.jsp -text
 OpenXava/web/editors/boldLabelEditor.jsp -text
 OpenXava/web/editors/booleanEditor.jsp -text
 OpenXava/web/editors/calendar/calendar-blue.css -text
@@ -1441,6 +1454,8 @@ OpenXava/web/editors/changeImage.jsp -text
 OpenXava/web/editors/dateCalendarEditor.jsp -text svneol=unset#application/octet-stream
 OpenXava/web/editors/dateTimeCalendarEditor.jsp -text
 OpenXava/web/editors/descriptionsEditor.jsp -text
+OpenXava/web/editors/gallery.jsp -text
+OpenXava/web/editors/galleryEditor.jsp -text
 OpenXava/web/editors/imageEditor.jsp -text
 OpenXava/web/editors/labelEditor.jsp -text
 OpenXava/web/editors/moneyEditor.jsp -text
@@ -1455,6 +1470,7 @@ OpenXava/web/images/.xvpics/excel.gif -text svneol=unset#application/octet-strea
 OpenXava/web/images/add.gif -text
 OpenXava/web/images/ascending-white.gif -text
 OpenXava/web/images/ascending.gif -text
+OpenXava/web/images/back.gif -text
 OpenXava/web/images/create_new.gif -text
 OpenXava/web/images/customize.gif -text
 OpenXava/web/images/delete.gif -text
@@ -1471,6 +1487,8 @@ OpenXava/web/images/html/skins/Jetspeed/tabmiddle_low.gif -text
 OpenXava/web/images/html/skins/Jetspeed/tabright.gif -text
 OpenXava/web/images/html/skins/Jetspeed/tabright_low.gif -text
 OpenXava/web/images/key.gif -text
+OpenXava/web/images/maximize.gif -text
+OpenXava/web/images/minimize.gif -text
 OpenXava/web/images/move-left.gif -text
 OpenXava/web/images/move-right.gif -text
 OpenXava/web/images/new.gif -text
@@ -1483,6 +1501,7 @@ OpenXava/web/images/previous_page.gif -text
 OpenXava/web/images/processing.gif -text
 OpenXava/web/images/remove.gif -text
 OpenXava/web/images/required.gif -text
+OpenXava/web/images/restore.gif -text
 OpenXava/web/images/save.gif -text
 OpenXava/web/images/search.gif -text
 OpenXava/web/images/sort.gif -text
@@ -2850,6 +2869,7 @@ OpenXavaTest/filtered-files/Family2.hbm.xml -text
 OpenXavaTest/filtered-files/Family2.xml -text
 OpenXavaTest/filtered-files/FilterBySubfamily.hbm.xml -text
 OpenXavaTest/filtered-files/FilterBySubfamily.xml -text
+OpenXavaTest/filtered-files/GalleryImage.hbm.xml -text
 OpenXavaTest/filtered-files/Invoice.hbm.xml -text
 OpenXavaTest/filtered-files/Invoice.xml -text
 OpenXavaTest/filtered-files/InvoiceDetail.hbm.xml -text
@@ -2900,6 +2920,7 @@ OpenXavaTest/filtered-files/aspects.xml -text
 OpenXavaTest/filtered-files/code-generators.xml -text
 OpenXavaTest/filtered-files/controllers.xml -text
 OpenXavaTest/filtered-files/converters.xml -text
+OpenXavaTest/filtered-files/datasource.properties -text
 OpenXavaTest/filtered-files/default-size.xml -text
 OpenXavaTest/filtered-files/dtds/aplicacion.dtd -text
 OpenXavaTest/filtered-files/dtds/application.dtd -text
@@ -3769,6 +3790,19 @@ OpenXavaTest/i18n/portlets/Products3WithDescriptionsList_nl.properties -text
 OpenXavaTest/i18n/portlets/Products3WithDescriptionsList_pt.properties -text
 OpenXavaTest/i18n/portlets/Products3WithDescriptionsList_sv.properties -text
 OpenXavaTest/i18n/portlets/Products3WithDescriptionsList_zh.properties -text
+OpenXavaTest/i18n/portlets/Products3WithGroup_ca.properties -text
+OpenXavaTest/i18n/portlets/Products3WithGroup_de.properties -text
+OpenXavaTest/i18n/portlets/Products3WithGroup_en.properties -text
+OpenXavaTest/i18n/portlets/Products3WithGroup_es.properties -text
+OpenXavaTest/i18n/portlets/Products3WithGroup_fr.properties -text
+OpenXavaTest/i18n/portlets/Products3WithGroup_in.properties -text
+OpenXavaTest/i18n/portlets/Products3WithGroup_it.properties -text
+OpenXavaTest/i18n/portlets/Products3WithGroup_ja.properties -text
+OpenXavaTest/i18n/portlets/Products3WithGroup_ko.properties -text
+OpenXavaTest/i18n/portlets/Products3WithGroup_nl.properties -text
+OpenXavaTest/i18n/portlets/Products3WithGroup_pt.properties -text
+OpenXavaTest/i18n/portlets/Products3WithGroup_sv.properties -text
+OpenXavaTest/i18n/portlets/Products3WithGroup_zh.properties -text
 OpenXavaTest/i18n/portlets/Products3_ca.properties -text
 OpenXavaTest/i18n/portlets/Products3_de.properties -text
 OpenXavaTest/i18n/portlets/Products3_en.properties -text
@@ -3938,6 +3972,19 @@ OpenXavaTest/i18n/portlets/Tasks_nl.properties -text
 OpenXavaTest/i18n/portlets/Tasks_pt.properties -text
 OpenXavaTest/i18n/portlets/Tasks_sv.properties -text
 OpenXavaTest/i18n/portlets/Tasks_zh.properties -text
+OpenXavaTest/i18n/portlets/TransportCharges2_ca.properties -text
+OpenXavaTest/i18n/portlets/TransportCharges2_de.properties -text
+OpenXavaTest/i18n/portlets/TransportCharges2_en.properties -text
+OpenXavaTest/i18n/portlets/TransportCharges2_es.properties -text
+OpenXavaTest/i18n/portlets/TransportCharges2_fr.properties -text
+OpenXavaTest/i18n/portlets/TransportCharges2_in.properties -text
+OpenXavaTest/i18n/portlets/TransportCharges2_it.properties -text
+OpenXavaTest/i18n/portlets/TransportCharges2_ja.properties -text
+OpenXavaTest/i18n/portlets/TransportCharges2_ko.properties -text
+OpenXavaTest/i18n/portlets/TransportCharges2_nl.properties -text
+OpenXavaTest/i18n/portlets/TransportCharges2_pt.properties -text
+OpenXavaTest/i18n/portlets/TransportCharges2_sv.properties -text
+OpenXavaTest/i18n/portlets/TransportCharges2_zh.properties -text
 OpenXavaTest/i18n/portlets/TransportCharges_ca.properties -text
 OpenXavaTest/i18n/portlets/TransportCharges_de.properties -text
 OpenXavaTest/i18n/portlets/TransportCharges_en.properties -text
@@ -4773,6 +4820,19 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithDescriptionsList_nl.prope
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithDescriptionsList_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithDescriptionsList_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithDescriptionsList_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithGroup_ca.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithGroup_de.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithGroup_en.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithGroup_es.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithGroup_fr.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithGroup_in.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithGroup_it.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithGroup_ja.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithGroup_ko.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithGroup_nl.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithGroup_pt.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithGroup_sv.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithGroup_zh.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3_en.properties -text
@@ -4942,6 +5002,19 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Tasks_nl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Tasks_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Tasks_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Tasks_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges2_ca.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges2_de.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges2_en.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges2_es.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges2_fr.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges2_in.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges2_it.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges2_ja.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges2_ko.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges2_nl.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges2_pt.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges2_sv.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges2_zh.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges_en.properties -text
@@ -5002,6 +5075,7 @@ OpenXavaTest/web/xava/comparatorsValidValuesCombo.jsp -text
 OpenXavaTest/web/xava/descriptionsList.jsp -text
 OpenXavaTest/web/xava/detail.jsp -text
 OpenXavaTest/web/xava/editor.jsp -text
+OpenXavaTest/web/xava/editors/addImages.jsp -text
 OpenXavaTest/web/xava/editors/boldLabelEditor.jsp -text
 OpenXavaTest/web/xava/editors/booleanEditor.jsp -text
 OpenXavaTest/web/xava/editors/calendar/calendar-blue.css -text
@@ -5080,6 +5154,8 @@ OpenXavaTest/web/xava/editors/changeImage.jsp -text
 OpenXavaTest/web/xava/editors/dateCalendarEditor.jsp -text
 OpenXavaTest/web/xava/editors/dateTimeCalendarEditor.jsp -text
 OpenXavaTest/web/xava/editors/descriptionsEditor.jsp -text
+OpenXavaTest/web/xava/editors/gallery.jsp -text
+OpenXavaTest/web/xava/editors/galleryEditor.jsp -text
 OpenXavaTest/web/xava/editors/imageEditor.jsp -text
 OpenXavaTest/web/xava/editors/labelEditor.jsp -text
 OpenXavaTest/web/xava/editors/moneyEditor.jsp -text
@@ -5095,6 +5171,7 @@ OpenXavaTest/web/xava/images/.xvpics/excel.gif -text svneol=unset#application/oc
 OpenXavaTest/web/xava/images/add.gif -text
 OpenXavaTest/web/xava/images/ascending-white.gif -text
 OpenXavaTest/web/xava/images/ascending.gif -text
+OpenXavaTest/web/xava/images/back.gif -text
 OpenXavaTest/web/xava/images/create_new.gif -text
 OpenXavaTest/web/xava/images/customize.gif -text
 OpenXavaTest/web/xava/images/delete.gif -text
@@ -5111,6 +5188,8 @@ OpenXavaTest/web/xava/images/html/skins/Jetspeed/tabmiddle_low.gif -text
 OpenXavaTest/web/xava/images/html/skins/Jetspeed/tabright.gif -text
 OpenXavaTest/web/xava/images/html/skins/Jetspeed/tabright_low.gif -text
 OpenXavaTest/web/xava/images/key.gif -text
+OpenXavaTest/web/xava/images/maximize.gif -text
+OpenXavaTest/web/xava/images/minimize.gif -text
 OpenXavaTest/web/xava/images/move-left.gif -text
 OpenXavaTest/web/xava/images/move-right.gif -text
 OpenXavaTest/web/xava/images/new.gif -text
@@ -5123,6 +5202,7 @@ OpenXavaTest/web/xava/images/previous_page.gif -text
 OpenXavaTest/web/xava/images/processing.gif -text
 OpenXavaTest/web/xava/images/remove.gif -text
 OpenXavaTest/web/xava/images/required.gif -text
+OpenXavaTest/web/xava/images/restore.gif -text
 OpenXavaTest/web/xava/images/save.gif -text
 OpenXavaTest/web/xava/images/search.gif -text
 OpenXavaTest/web/xava/images/sort.gif -text
