@@ -998,6 +998,8 @@ OpenXava/src/org/openxava/actions/IChangeModeAction.java -text
 OpenXava/src/org/openxava/actions/IChangeModuleAction.java -text
 OpenXava/src/org/openxava/actions/ICustomViewAction.java -text
 OpenXava/src/org/openxava/actions/IForwardAction.java -text
+OpenXava/src/org/openxava/actions/IHideActionAction.java -text
+OpenXava/src/org/openxava/actions/IHideActionsAction.java -text
 OpenXava/src/org/openxava/actions/IJDBCAction.java -text
 OpenXava/src/org/openxava/actions/ILoadFileAction.java -text
 OpenXava/src/org/openxava/actions/IModelAction.java -text
@@ -1007,6 +1009,8 @@ OpenXava/src/org/openxava/actions/IOnChangePropertyAction.java -text
 OpenXava/src/org/openxava/actions/IProcessLoadedFileAction.java -text
 OpenXava/src/org/openxava/actions/IRemoteAction.java -text
 OpenXava/src/org/openxava/actions/IRequestAction.java -text
+OpenXava/src/org/openxava/actions/IShowActionAction.java -text
+OpenXava/src/org/openxava/actions/IShowActionsAction.java -text
 OpenXava/src/org/openxava/actions/InitListAction.java -text
 OpenXava/src/org/openxava/actions/JasperReportBaseAction.java -text
 OpenXava/src/org/openxava/actions/LoadImageAction.java -text
@@ -4027,8 +4031,10 @@ OpenXavaTest/src/org/openxava/test/actions/EditInvoiceDetailAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/FamilyProductsReportAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/GenerateDeliveryNumberAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/GetNameAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/HideDeleteAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideDeliveryActionsAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideListPropertyAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/HideSaveDeleteAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideShowGroupAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideShowPropertyAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/InitChangeProductsPriceAction.java -text
@@ -4057,7 +4063,9 @@ OpenXavaTest/src/org/openxava/test/actions/SetEditableOffAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SetEditableOnAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SetPropertyValueAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SetPropertyValueNotifyingAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/ShowDeleteAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ShowListPropertyAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/ShowSaveDeleteAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/StateHibernateDeleteAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/StateHibernateSaveAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/StateHibernateSearchAction.java -text
