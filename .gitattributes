@@ -4184,6 +4184,7 @@ OpenXavaTest/src/org/openxava/test/tests/InvoicesNoListTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoicesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/MapFacadeTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/NotZeroValidatorTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/Offices2Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/OfficesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/OnlyEditDetailsInvoiceTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/OnlyReadDetailsInvoiceTest.java -text
