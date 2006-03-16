@@ -2815,6 +2815,9 @@ OpenXavaTest/build/hibernate/DeliveryType.hbm.xml -text
 OpenXavaTest/build/hibernate/DrivingLicence.hbm.xml -text
 OpenXavaTest/build/hibernate/Family2.hbm.xml -text
 OpenXavaTest/build/hibernate/FilterBySubfamily.hbm.xml -text
+OpenXavaTest/build/hibernate/Formula.hbm.xml -text
+OpenXavaTest/build/hibernate/FormulaIngredient.hbm.xml -text
+OpenXavaTest/build/hibernate/Ingredient.hbm.xml -text
 OpenXavaTest/build/hibernate/Invoice.hbm.xml -text
 OpenXavaTest/build/hibernate/InvoiceDetail.hbm.xml -text
 OpenXavaTest/build/hibernate/Office.hbm.xml -text
@@ -2845,6 +2848,8 @@ OpenXavaTest/components/DrivingLicence.xml -text
 OpenXavaTest/components/Family.xml -text
 OpenXavaTest/components/Family2.xml -text
 OpenXavaTest/components/FilterBySubfamily.xml -text
+OpenXavaTest/components/Formula.xml -text
+OpenXavaTest/components/Ingredient.xml -text
 OpenXavaTest/components/Invoice.xml -text
 OpenXavaTest/components/Office.xml -text
 OpenXavaTest/components/Office2.xml -text
@@ -2892,7 +2897,12 @@ OpenXavaTest/filtered-files/Family2.xml -text
 OpenXavaTest/filtered-files/FilterBySubfamily.hbm.xml -text
 OpenXavaTest/filtered-files/FilterBySubfamily.xml -text
 OpenXavaTest/filtered-files/FilterBySubfamily.xml.anulado -text
+OpenXavaTest/filtered-files/Formula.hbm.xml -text
+OpenXavaTest/filtered-files/Formula.xml -text
+OpenXavaTest/filtered-files/FormulaIngredient.hbm.xml -text
 OpenXavaTest/filtered-files/GalleryImage.hbm.xml -text
+OpenXavaTest/filtered-files/Ingredient.hbm.xml -text
+OpenXavaTest/filtered-files/Ingredient.xml -text
 OpenXavaTest/filtered-files/Invoice.hbm.xml -text
 OpenXavaTest/filtered-files/Invoice.xml -text
 OpenXavaTest/filtered-files/Invoice.xml.anulado -text
@@ -2994,6 +3004,8 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/Detail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/DrivingLicence.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Family2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/FilterBySubfamily.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Formula.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/FormulaIngredient.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IAdditionalDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ICarrier.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IClerk.java -text
@@ -3005,6 +3017,9 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/IDeliveryType.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IDrivingLicence.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IFamily2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IFilterBySubfamily.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IFormula.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IFormulaIngredient.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IIngredient.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IInvoice.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IInvoiceDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IOffice.java -text
@@ -3024,6 +3039,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/ISubfamily2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ITask.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ITransportCharge.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IWarehouse.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Ingredient.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Invoice.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/InvoiceDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Office.java -text
@@ -4214,6 +4230,7 @@ OpenXavaTest/src/org/openxava/test/tests/FamiliesWithInheritanceControllerTest.j
 OpenXavaTest/src/org/openxava/test/tests/FamilyProductsReportTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/FamilyRangeProductsReportTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/FamilyXProductsReportTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/FormulasTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/HibernateTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/Invoice20020001Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/Invoices2002Test.java -text
