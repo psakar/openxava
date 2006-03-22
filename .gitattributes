@@ -2838,6 +2838,7 @@ OpenXavaTest/build/hibernate/Subfamily.hbm.xml -text
 OpenXavaTest/build/hibernate/Subfamily2.hbm.xml -text
 OpenXavaTest/build/hibernate/Task.hbm.xml -text
 OpenXavaTest/build/hibernate/TransportCharge.hbm.xml -text
+OpenXavaTest/build/hibernate/TransportCharge2.hbm.xml -text
 OpenXavaTest/build/hibernate/Warehouse.hbm.xml -text
 OpenXavaTest/build/j2ee/META-INF/application-websphere.xml -text
 OpenXavaTest/build/j2ee/META-INF/application.xml -text
@@ -2869,6 +2870,7 @@ OpenXavaTest/components/Subfamily.xml -text
 OpenXavaTest/components/Subfamily2.xml -text
 OpenXavaTest/components/Task.xml -text
 OpenXavaTest/components/TransportCharge.xml -text
+OpenXavaTest/components/TransportCharge2.xml -text
 OpenXavaTest/components/Warehouse.xml -text
 OpenXavaTest/components/dtds/component.dtd -text
 OpenXavaTest/components/dtds/componente.dtd -text
@@ -2960,6 +2962,8 @@ OpenXavaTest/filtered-files/Task.xml -text
 OpenXavaTest/filtered-files/TransportCharge.hbm.xml -text
 OpenXavaTest/filtered-files/TransportCharge.xml -text
 OpenXavaTest/filtered-files/TransportCharge.xml.anulado -text
+OpenXavaTest/filtered-files/TransportCharge2.hbm.xml -text
+OpenXavaTest/filtered-files/TransportCharge2.xml -text
 OpenXavaTest/filtered-files/Warehouse.hbm.xml -text
 OpenXavaTest/filtered-files/Warehouse.xml -text
 OpenXavaTest/filtered-files/application.xml -text
@@ -3044,6 +3048,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/ISubfamily.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ISubfamily2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ITask.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ITransportCharge.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ITransportCharge2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IWarehouse.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Ingredient.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Invoice.java -text
@@ -3066,6 +3071,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/Subfamily2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/SubfamilyInfo.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Task.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/TransportCharge.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/TransportCharge2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Warehouse.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/AdditionalDetailBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/CarrierBean.java -text
@@ -3099,6 +3105,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/StateBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/Subfamily2Bean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/SubfamilyBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/TaskBean.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/TransportCharge2Bean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/TransportChargeBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/WarehouseBean.java -text
 OpenXavaTest/gen-src-xava/packages.properties -text
@@ -3299,6 +3306,12 @@ OpenXavaTest/gen-src/org/openxava/test/model/TaskKey.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/TaskRemote.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/TaskUtil.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/TaskValue.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/TransportCharge2Data.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/TransportCharge2Home.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/TransportCharge2Key.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/TransportCharge2Remote.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/TransportCharge2Util.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/TransportCharge2Value.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/TransportChargeData.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/TransportChargeHome.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/TransportChargeKey.java -text
@@ -3344,6 +3357,7 @@ OpenXavaTest/gen-src/org/openxava/test/model/xejb/StateCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/Subfamily2CMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/SubfamilyCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/TaskCMP.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/xejb/TransportCharge2CMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/TransportChargeCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/WarehouseCMP.java -text
 OpenXavaTest/hibernate/Family.hbm.xml -text
@@ -4306,6 +4320,7 @@ OpenXavaTest/src/org/openxava/test/tests/SubfamiliesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/TasksTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/TransportCharges2Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/TransportChargesTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/TransportChargesWithDistanceTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehousesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/XavaSuite.java -text
 OpenXavaTest/src/org/openxava/test/validators/CheapProductValidator.java -text
