@@ -2795,8 +2795,13 @@ OpenXavaTemplate/xava/dtds/tipo-estereotipo-defecto.dtd -text
 OpenXavaTemplate/xava/dtds/validadores.dtd -text
 OpenXavaTemplate/xava/dtds/validators.dtd -text
 OpenXavaTest/.classpath -text
+OpenXavaTest/.externalToolBuilders/OpenXava.launch -text
 OpenXavaTest/.project -text
 OpenXavaTest/.settings/.component -text
+OpenXavaTest/.settings/org.eclipse.jdt.core.prefs -text
+OpenXavaTest/.settings/org.eclipse.jdt.ui.prefs -text
+OpenXavaTest/.settings/org.eclipse.jst.common.project.facet.core.prefs -text
+OpenXavaTest/.settings/org.eclipse.wst.common.project.facet.core.xml -text
 OpenXavaTest/build.xml -text
 OpenXavaTest/build/ejb/META-INF/MANIFEST.MF -text
 OpenXavaTest/build/ejb/META-INF/Schema.dbxmi -text svneol=unset#application/octet-stream
@@ -4320,6 +4325,7 @@ OpenXavaTest/src/org/openxava/test/tests/SubfamiliesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/TasksTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/TransportCharges2Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/TransportChargesTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/TransportChargesTestBase.java -text
 OpenXavaTest/src/org/openxava/test/tests/TransportChargesWithDistanceTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehousesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/XavaSuite.java -text
@@ -4334,6 +4340,7 @@ OpenXavaTest/src/org/openxava/test/validators/UnitPriceValidator.java -text
 OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
+OpenXavaTest/web/META-INF/MANIFEST.MF -text
 OpenXavaTest/web/WEB-INF/classes/AdditionalDetail.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/Carrier.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/Carrier.xml -text
