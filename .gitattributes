@@ -847,6 +847,10 @@ MySchool/xava/dtds/validadores.dtd -text
 MySchool/xava/dtds/validators.dtd -text
 OpenXava/.classpath -text
 OpenXava/.project -text
+OpenXava/.settings/.component -text
+OpenXava/.settings/org.eclipse.jdt.core.prefs -text
+OpenXava/.settings/org.eclipse.jdt.ui.prefs -text
+OpenXava/.settings/org.eclipse.wst.common.project.facet.core.xml -text
 OpenXava/.vcm_meta -text svneol=unset#application/octet-stream
 OpenXava/build.xml -text
 OpenXava/build/jboss-app.xml -text
@@ -1535,6 +1539,7 @@ OpenXava/web/sections.jsp -text
 OpenXava/web/style/default.css -text
 OpenXava/web/style/openxava.css -text
 OpenXava/web/style/skins.css -text svneol=unset#application/octet-stream
+OpenXava/xava/META-INF/MANIFEST.MF -text
 OpenXava/xava/controllers.xml -text
 OpenXava/xava/default-converters.xml -text
 OpenXava/xava/default-editors.xml -text
