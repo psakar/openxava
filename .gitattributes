@@ -1,6 +1,10 @@
 * text=auto !eol
 AccessTracking/.classpath -text
 AccessTracking/.project -text
+AccessTracking/.settings/.component -text
+AccessTracking/.settings/org.eclipse.jdt.core.prefs -text
+AccessTracking/.settings/org.eclipse.jst.common.project.facet.core.prefs -text
+AccessTracking/.settings/org.eclipse.wst.common.project.facet.core.xml -text
 AccessTracking/build.xml -text
 AccessTracking/build/hibernate/Access.hbm.xml -text
 AccessTracking/build/j2ee/META-INF/application-websphere.xml -text
@@ -17,7 +21,6 @@ AccessTracking/filtered-files/AccessTracking-labels_es.properties -text
 AccessTracking/filtered-files/AccessTracking-messages_ca.properties -text
 AccessTracking/filtered-files/AccessTracking-messages_en.properties -text
 AccessTracking/filtered-files/AccessTracking-messages_es.properties -text
-AccessTracking/filtered-files/GalleryImage.hbm.xml -text
 AccessTracking/filtered-files/TabUserPreferences.hbm.xml -text
 AccessTracking/filtered-files/application.xml -text
 AccessTracking/filtered-files/aspects.xml -text
@@ -83,6 +86,7 @@ AccessTracking/properties/xava.properties -text
 AccessTracking/src/org/openxava/tracking/AccessTrackingCalculator.java -text
 AccessTracking/tomcat-as400.properties -text
 AccessTracking/tomcat-hypersonic.properties -text
+AccessTracking/web/META-INF/MANIFEST.MF -text
 AccessTracking/web/WEB-INF/classes/Access.hbm.xml -text
 AccessTracking/web/WEB-INF/classes/Access.xml -text
 AccessTracking/web/WEB-INF/classes/AccessTracking-labels.properties -text
