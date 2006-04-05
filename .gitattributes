@@ -2815,7 +2815,8 @@ OpenXavaPlantilla/components/MiComponente.xml -text
 OpenXavaPlantilla/components/dtds/component.dtd -text
 OpenXavaPlantilla/components/dtds/componente.dtd -text
 OpenXavaPlantilla/gen-src-xava/gen-src-xava.txt -text
-OpenXavaPlantilla/gen-src/gen-src.txt -text
+OpenXavaPlantilla/hibernate/hibernate-junit.cfg.xml -text
+OpenXavaPlantilla/hibernate/hibernate.cfg.xml -text
 OpenXavaPlantilla/i18n/i18n.txt -text
 OpenXavaPlantilla/jboss-hypersonic.properties -text
 OpenXavaPlantilla/properties/BeansContext.properties -text
@@ -2826,6 +2827,7 @@ OpenXavaPlantilla/properties/jndi.properties -text
 OpenXavaPlantilla/properties/xava-junit.properties -text
 OpenXavaPlantilla/properties/xava.properties -text
 OpenXavaPlantilla/src/src.txt -text
+OpenXavaPlantilla/tomcat-hypersonic.properties -text
 OpenXavaPlantilla/websphere-as400.properties -text
 OpenXavaPlantilla/xava/aplicacion.xml -text
 OpenXavaPlantilla/xava/dtds/aplicacion.dtd -text
@@ -2855,7 +2857,8 @@ OpenXavaTemplate/components/MyComponent.xml -text
 OpenXavaTemplate/components/dtds/component.dtd -text
 OpenXavaTemplate/components/dtds/componente.dtd -text
 OpenXavaTemplate/gen-src-xava/gen-src-xava.txt -text
-OpenXavaTemplate/gen-src/gen-src.txt -text
+OpenXavaTemplate/hibernate/hibernate-junit.cfg.xml -text
+OpenXavaTemplate/hibernate/hibernate.cfg.xml -text
 OpenXavaTemplate/i18n/i18n.txt -text
 OpenXavaTemplate/jboss-hypersonic.properties -text
 OpenXavaTemplate/properties/BeansContext.properties -text
@@ -2866,6 +2869,7 @@ OpenXavaTemplate/properties/jndi.properties -text
 OpenXavaTemplate/properties/xava-junit.properties -text
 OpenXavaTemplate/properties/xava.properties -text
 OpenXavaTemplate/src/src.txt -text
+OpenXavaTemplate/tomcat-hypersonic.properties -text
 OpenXavaTemplate/websphere-as400.properties -text
 OpenXavaTemplate/xava/application.xml -text
 OpenXavaTemplate/xava/dtds/aplicacion.dtd -text
