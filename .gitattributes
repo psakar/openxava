@@ -2814,6 +2814,7 @@ OpenXavaPlantilla/build/j2ee/META-INF/application.xml -text
 OpenXavaPlantilla/components/MiComponente.xml -text
 OpenXavaPlantilla/components/dtds/component.dtd -text
 OpenXavaPlantilla/components/dtds/componente.dtd -text
+OpenXavaPlantilla/filtered-files/filtered-files.txt -text
 OpenXavaPlantilla/gen-src-xava/gen-src-xava.txt -text
 OpenXavaPlantilla/hibernate/hibernate-junit.cfg.xml -text
 OpenXavaPlantilla/hibernate/hibernate.cfg.xml -text
@@ -2856,6 +2857,7 @@ OpenXavaTemplate/build/j2ee/META-INF/application.xml -text
 OpenXavaTemplate/components/MyComponent.xml -text
 OpenXavaTemplate/components/dtds/component.dtd -text
 OpenXavaTemplate/components/dtds/componente.dtd -text
+OpenXavaTemplate/filtered-files/filtered-files.txt -text
 OpenXavaTemplate/gen-src-xava/gen-src-xava.txt -text
 OpenXavaTemplate/hibernate/hibernate-junit.cfg.xml -text
 OpenXavaTemplate/hibernate/hibernate.cfg.xml -text
