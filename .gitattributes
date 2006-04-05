@@ -2887,7 +2887,7 @@ OpenXavaTemplate/xava/dtds/tipo-estereotipo-defecto.dtd -text
 OpenXavaTemplate/xava/dtds/validadores.dtd -text
 OpenXavaTemplate/xava/dtds/validators.dtd -text
 OpenXavaTest/.classpath -text
-OpenXavaTest/.externalToolBuilders/OpenXava.launch -text
+OpenXavaTest/.externalToolBuilders/OpenXavaTest.wtpBuild.launch -text
 OpenXavaTest/.project -text
 OpenXavaTest/.settings/.component -text
 OpenXavaTest/.settings/org.eclipse.jdt.core.prefs -text
