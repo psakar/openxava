@@ -2811,6 +2811,7 @@ OpenXavaDoc/web/websphere_en.html -text
 OpenXavaDoc/web/websphere_es.html -text
 OpenXavaPlantilla/.classpath -text
 OpenXavaPlantilla/.project -text
+OpenXavaPlantilla/CrearNuevoProyecto.xml -text
 OpenXavaPlantilla/build.xml -text
 OpenXavaPlantilla/build/ejb/META-INF/MANIFEST.MF -text
 OpenXavaPlantilla/build/j2ee/META-INF/application.xml -text
@@ -2854,6 +2855,7 @@ OpenXavaPlantilla/xava/dtds/validadores.dtd -text
 OpenXavaPlantilla/xava/dtds/validators.dtd -text
 OpenXavaTemplate/.classpath -text
 OpenXavaTemplate/.project -text
+OpenXavaTemplate/CreateNewProject.xml -text
 OpenXavaTemplate/build.xml -text
 OpenXavaTemplate/build/ejb/META-INF/MANIFEST.MF -text
 OpenXavaTemplate/build/j2ee/META-INF/application.xml -text
