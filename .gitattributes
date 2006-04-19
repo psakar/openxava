@@ -1672,7 +1672,7 @@ OpenXavaDoc/anagrams/openxava.jpg -text
 OpenXavaDoc/build.xml -text
 OpenXavaDoc/common/snapshot.html -text
 OpenXavaDoc/guia-referencia-capitulos.sxd -text
-OpenXavaDoc/guia-referencia.sxw -text
+OpenXavaDoc/guia-referencia.odt -text
 OpenXavaDoc/i18n/BusinessComponent_de.properties -text
 OpenXavaDoc/i18n/BusinessComponent_en.properties -text
 OpenXavaDoc/i18n/BusinessComponent_es.properties -text
@@ -1818,7 +1818,7 @@ OpenXavaDoc/i18n/WebSphere_sv.properties -text
 OpenXavaDoc/i18n/WebSphere_zh.properties -text
 OpenXavaDoc/images/openxava.jpg -text
 OpenXavaDoc/reference-guide-chapters.sxd -text
-OpenXavaDoc/reference-guide.sxw -text
+OpenXavaDoc/reference-guide.odt -text
 OpenXavaDoc/src/org/openxava/doc/HtmlPortlet.java -text
 OpenXavaDoc/web/WEB-INF/portlet.xml -text
 OpenXavaDoc/web/WEB-INF/web.xml -text
