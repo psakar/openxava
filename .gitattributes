@@ -1450,6 +1450,7 @@ OpenXava/web/WEB-INF/lib/commons-collections.jar -text
 OpenXava/web/WEB-INF/lib/commons-digester.jar -text
 OpenXava/web/WEB-INF/lib/commons-fileupload.jar -text
 OpenXava/web/WEB-INF/lib/commons-io.jar -text
+OpenXava/web/WEB-INF/lib/commons-javaflow.jar -text
 OpenXava/web/WEB-INF/lib/dom4j.jar -text
 OpenXava/web/WEB-INF/lib/ehcache.jar -text
 OpenXava/web/WEB-INF/lib/hibernate3.jar -text
