@@ -4309,7 +4309,8 @@ OpenXavaTest/properties/jndi-websphere.properties -text
 OpenXavaTest/properties/jndi.properties -text
 OpenXavaTest/properties/xava-junit.properties -text
 OpenXavaTest/properties/xava.properties -text
-OpenXavaTest/reports/products.jrxml -text
+OpenXavaTest/reports/Invoice.jrxml -text
+OpenXavaTest/reports/Products.jrxml -text
 OpenXavaTest/src/org/openxava/test/actions/ActivateDeactivateSectionAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/AddViewDeliveryInInvoiceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeInvoiceTabAction.java -text
@@ -4338,6 +4339,7 @@ OpenXavaTest/src/org/openxava/test/actions/HideShowGroupAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideShowPropertyAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/InitChangeProductsPriceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/InitDefaultYearTo2002Action.java -text
+OpenXavaTest/src/org/openxava/test/actions/InvoiceReportAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ListCustomerInvoicesAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/MoveRelationWithSellerToRemarksAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/MySearchAction.java -text
@@ -4400,6 +4402,7 @@ OpenXavaTest/src/org/openxava/test/calculators/ProductsValuesOfSubfamilyCalculat
 OpenXavaTest/src/org/openxava/test/calculators/SellerInvoiceDiscountCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/ShippingAndHandlingCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/SubfamilyPureRemarksCalculator.java -text
+OpenXavaTest/src/org/openxava/test/calculators/TotalInvoiceCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/TranslateCarrierNameCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/YearInvoiceDiscountCalculator.java -text
 OpenXavaTest/src/org/openxava/test/converters/RegionsConverter.java -text
@@ -4521,10 +4524,6 @@ OpenXavaTest/web/WEB-INF/classes/FilterBySubfamily.xml -text
 OpenXavaTest/web/WEB-INF/classes/Invoice.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/Invoice.xml -text
 OpenXavaTest/web/WEB-INF/classes/InvoiceDetail.hbm.xml -text
-OpenXavaTest/web/WEB-INF/classes/META-INF/ejb-jar.xml -text
-OpenXavaTest/web/WEB-INF/classes/META-INF/ibm-ejb-jar-bnd.xmi -text svneol=unset#application/octet-stream
-OpenXavaTest/web/WEB-INF/classes/META-INF/jboss.xml -text
-OpenXavaTest/web/WEB-INF/classes/META-INF/jbosscmp-jdbc.xml -text
 OpenXavaTest/web/WEB-INF/classes/Office.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/Office.xml -text
 OpenXavaTest/web/WEB-INF/classes/Office2.hbm.xml -text
