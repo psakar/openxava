@@ -146,6 +146,7 @@ AccessTracking/web/WEB-INF/lib/commons-collections.jar -text
 AccessTracking/web/WEB-INF/lib/commons-digester.jar -text
 AccessTracking/web/WEB-INF/lib/commons-fileupload.jar -text
 AccessTracking/web/WEB-INF/lib/commons-io.jar -text
+AccessTracking/web/WEB-INF/lib/commons-javaflow.jar -text
 AccessTracking/web/WEB-INF/lib/dom4j.jar -text
 AccessTracking/web/WEB-INF/lib/ehcache.jar -text
 AccessTracking/web/WEB-INF/lib/hibernate3.jar -text
@@ -4525,6 +4526,10 @@ OpenXavaTest/web/WEB-INF/classes/FilterBySubfamily.xml -text
 OpenXavaTest/web/WEB-INF/classes/Invoice.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/Invoice.xml -text
 OpenXavaTest/web/WEB-INF/classes/InvoiceDetail.hbm.xml -text
+OpenXavaTest/web/WEB-INF/classes/META-INF/ejb-jar.xml -text
+OpenXavaTest/web/WEB-INF/classes/META-INF/ibm-ejb-jar-bnd.xmi -text svneol=unset#application/octet-stream
+OpenXavaTest/web/WEB-INF/classes/META-INF/jboss.xml -text
+OpenXavaTest/web/WEB-INF/classes/META-INF/jbosscmp-jdbc.xml -text
 OpenXavaTest/web/WEB-INF/classes/Office.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/Office.xml -text
 OpenXavaTest/web/WEB-INF/classes/Office2.hbm.xml -text
