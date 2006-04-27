@@ -1793,6 +1793,17 @@ OpenXavaDoc/i18n/Update_nl.properties -text
 OpenXavaDoc/i18n/Update_pt.properties -text
 OpenXavaDoc/i18n/Update_sv.properties -text
 OpenXavaDoc/i18n/Update_zh.properties -text
+OpenXavaDoc/i18n/WTP_de.properties -text
+OpenXavaDoc/i18n/WTP_en.properties -text
+OpenXavaDoc/i18n/WTP_es.properties -text
+OpenXavaDoc/i18n/WTP_fr.properties -text
+OpenXavaDoc/i18n/WTP_it.properties -text
+OpenXavaDoc/i18n/WTP_ja.properties -text
+OpenXavaDoc/i18n/WTP_ko.properties -text
+OpenXavaDoc/i18n/WTP_nl.properties -text
+OpenXavaDoc/i18n/WTP_pt.properties -text
+OpenXavaDoc/i18n/WTP_sv.properties -text
+OpenXavaDoc/i18n/WTP_zh.properties -text
 OpenXavaDoc/i18n/WebSpherePortal_de.properties -text
 OpenXavaDoc/i18n/WebSpherePortal_en.properties -text
 OpenXavaDoc/i18n/WebSpherePortal_es.properties -text
@@ -2825,6 +2836,7 @@ OpenXavaDoc/web/websphere-portal_es.html -text
 OpenXavaDoc/web/websphere_en.html -text
 OpenXavaDoc/web/websphere_es.html -text
 OpenXavaDoc/web/wtp_en.html -text
+OpenXavaDoc/web/wtp_es.html -text
 OpenXavaPlantilla/.classpath -text
 OpenXavaPlantilla/.project -text
 OpenXavaPlantilla/CrearNuevoProyecto.xml -text
