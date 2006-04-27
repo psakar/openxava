@@ -2824,6 +2824,7 @@ OpenXavaDoc/web/websphere-portal_en.html -text
 OpenXavaDoc/web/websphere-portal_es.html -text
 OpenXavaDoc/web/websphere_en.html -text
 OpenXavaDoc/web/websphere_es.html -text
+OpenXavaDoc/web/wtp_en.html -text
 OpenXavaPlantilla/.classpath -text
 OpenXavaPlantilla/.project -text
 OpenXavaPlantilla/CrearNuevoProyecto.xml -text
@@ -4409,6 +4410,7 @@ OpenXavaTest/src/org/openxava/test/calculators/TranslateCarrierNameCalculator.ja
 OpenXavaTest/src/org/openxava/test/calculators/YearInvoiceDiscountCalculator.java -text
 OpenXavaTest/src/org/openxava/test/converters/RegionsConverter.java -text
 OpenXavaTest/src/org/openxava/test/filters/CurrentYearFilter.java -text
+OpenXavaTest/src/org/openxava/test/filters/DefaultYearEnvFilter.java -text
 OpenXavaTest/src/org/openxava/test/filters/DefaultYearFilter.java -text
 OpenXavaTest/src/org/openxava/test/filters/Invoice20020001Filter.java -text
 OpenXavaTest/src/org/openxava/test/filters/LimitZoneFilter.java -text
@@ -4453,6 +4455,7 @@ OpenXavaTest/src/org/openxava/test/tests/FormulasTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/HibernateTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/Invoice20020001Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/Invoices2002Test.java -text
+OpenXavaTest/src/org/openxava/test/tests/Invoices2004Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoicesDeliveriesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoicesFromCustomersTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoicesFromDeliveriesTest.java -text
