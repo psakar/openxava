@@ -1197,6 +1197,7 @@ OpenXava/src/org/openxava/controller/meta/xmlparse/ControllersParser.java -text
 OpenXava/src/org/openxava/converters/ArrayBytesBlobConverter.java -text
 OpenXava/src/org/openxava/converters/ArrayBytesPhotoConverter.java -text
 OpenXava/src/org/openxava/converters/BigDecimalNumberConverter.java -text
+OpenXava/src/org/openxava/converters/BigIntegerNumberConverter.java -text
 OpenXava/src/org/openxava/converters/Boolean01Converter.java -text
 OpenXava/src/org/openxava/converters/BooleanSNConverter.java -text
 OpenXava/src/org/openxava/converters/ConversionException.java -text
@@ -1440,6 +1441,7 @@ OpenXava/src/org/openxava/web/style/Style.java -text
 OpenXava/src/org/openxava/web/style/WebSpherePortalStyle.java -text
 OpenXava/src/org/openxava/web/taglib/ActionTag.java -text
 OpenXava/src/org/openxava/web/taglib/ButtonTag.java -text
+OpenXava/src/org/openxava/web/taglib/EditorTag.java -text
 OpenXava/src/org/openxava/web/taglib/IActionTag.java -text
 OpenXava/src/org/openxava/web/taglib/ImageTag.java -text
 OpenXava/src/org/openxava/web/taglib/LinkTag.java -text
