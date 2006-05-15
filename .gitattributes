@@ -2954,6 +2954,7 @@ OpenXavaTest/build/hibernate/AdditionalDetail.hbm.xml -text
 OpenXavaTest/build/hibernate/Carrier.hbm.xml -text
 OpenXavaTest/build/hibernate/Clerk.hbm.xml -text
 OpenXavaTest/build/hibernate/Customer.hbm.xml -text
+OpenXavaTest/build/hibernate/CustomerState.hbm.xml -text
 OpenXavaTest/build/hibernate/Delivery.hbm.xml -text
 OpenXavaTest/build/hibernate/DeliveryDetail.hbm.xml -text
 OpenXavaTest/build/hibernate/DeliveryPlace.hbm.xml -text
@@ -3028,6 +3029,7 @@ OpenXavaTest/filtered-files/Clerk.hbm.xml -text
 OpenXavaTest/filtered-files/Clerk.xml -text
 OpenXavaTest/filtered-files/Customer.hbm.xml -text
 OpenXavaTest/filtered-files/Customer.xml -text
+OpenXavaTest/filtered-files/CustomerState.hbm.xml -text
 OpenXavaTest/filtered-files/Delivery.hbm.xml -text
 OpenXavaTest/filtered-files/Delivery.xml -text
 OpenXavaTest/filtered-files/DeliveryDetail.hbm.xml -text
@@ -3137,6 +3139,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/Address.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Carrier.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Clerk.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Customer.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/CustomerState.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Delivery.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/DeliveryDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/DeliveryPlace.java -text
@@ -3151,6 +3154,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/IAdditionalDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ICarrier.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IClerk.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ICustomer.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ICustomerState.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IDelivery.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IDeliveryDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IDeliveryPlace.java -text
@@ -3209,6 +3213,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/AdditionalDetailBean.java
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/CarrierBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/ClerkBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/CustomerBean.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/CustomerStateBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/DeliveryBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/DeliveryDetailBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/DeliveryPlaceBean.java -text
@@ -3263,6 +3268,12 @@ OpenXavaTest/gen-src/org/openxava/test/model/CustomerData.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/CustomerHome.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/CustomerKey.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/CustomerRemote.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/CustomerStateData.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/CustomerStateHome.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/CustomerStateKey.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/CustomerStateRemote.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/CustomerStateUtil.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/CustomerStateValue.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/CustomerUtil.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/CustomerValue.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/DeliveryData.java -text
@@ -3460,6 +3471,7 @@ OpenXavaTest/gen-src/org/openxava/test/model/xejb/AdditionalDetailCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/CarrierCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/ClerkCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/CustomerCMP.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/xejb/CustomerStateCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/DeliveryCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/DeliveryDetailCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/DeliveryPlaceCMP.java -text
@@ -4584,12 +4596,10 @@ OpenXavaTest/web/WEB-INF/classes/Office.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/Office.xml -text
 OpenXavaTest/web/WEB-INF/classes/Office2.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/Office2.xml -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
@@ -5626,9 +5636,6 @@ OpenXavaTest/web/xava/editors/textEditor.jsp -text
 OpenXavaTest/web/xava/editors/validValuesEditor.jsp -text
 OpenXavaTest/web/xava/errors.jsp -text
 OpenXavaTest/web/xava/htmlTagsEditor.jsp -text
-OpenXavaTest/web/xava/images/.xvpics/clear.gif -text
-OpenXavaTest/web/xava/images/.xvpics/encontrar.gif -text
-OpenXavaTest/web/xava/images/.xvpics/excel.gif -text svneol=unset#application/octet-stream
 OpenXavaTest/web/xava/images/add.gif -text
 OpenXavaTest/web/xava/images/ascending-white.gif -text
 OpenXavaTest/web/xava/images/ascending.gif -text
