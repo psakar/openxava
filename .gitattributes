@@ -1560,9 +1560,6 @@ OpenXava/web/editors/textEditor.jsp -text
 OpenXava/web/editors/validValuesEditor.jsp -text
 OpenXava/web/errors.jsp -text
 OpenXava/web/htmlTagsEditor.jsp -text
-OpenXava/web/images/.xvpics/clear.gif -text
-OpenXava/web/images/.xvpics/encontrar.gif -text
-OpenXava/web/images/.xvpics/excel.gif -text svneol=unset#application/octet-stream
 OpenXava/web/images/add.gif -text
 OpenXava/web/images/ascending-white.gif -text
 OpenXava/web/images/ascending.gif -text
