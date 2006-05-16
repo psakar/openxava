@@ -1833,6 +1833,8 @@ OpenXavaDoc/images/openxava.jpg -text
 OpenXavaDoc/reference-guide-chapters.sxd -text
 OpenXavaDoc/reference-guide.odt -text
 OpenXavaDoc/src/org/openxava/doc/HtmlPortlet.java -text
+OpenXavaDoc/tutorial-core_en.html -text
+OpenXavaDoc/tutorial-core_es.html -text
 OpenXavaDoc/web/WEB-INF/portlet.xml -text
 OpenXavaDoc/web/WEB-INF/web.xml -text
 OpenXavaDoc/web/apidocs/allclasses-frame.html -text
