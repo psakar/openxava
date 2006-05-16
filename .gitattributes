@@ -650,6 +650,7 @@ MySchool/build/j2ee/META-INF/application.xml -text
 MySchool/components/Teacher.xml -text
 MySchool/components/dtds/component.dtd -text
 MySchool/components/dtds/componente.dtd -text svneol=unset#application/octet-stream
+MySchool/data/my-school-db.properties -text
 MySchool/data/my-school-db.script -text svneol=unset#application/octet-stream
 MySchool/data/my-school-db2-400.script -text
 MySchool/data/my-school-ds.xml -text
@@ -932,6 +933,7 @@ OpenXava/build/server-properties/BeansContext.properties -text
 OpenXava/build/server-properties/EJBContextFactory.properties -text
 OpenXava/data/images-db.script -text
 OpenXava/data/openxava-db-as400.script -text
+OpenXava/data/openxava-db.properties -text
 OpenXava/data/openxava-db.script -text
 OpenXava/data/openxava-ds.xml -text
 OpenXava/doc/license.txt -text
