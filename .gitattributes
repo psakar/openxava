@@ -49,6 +49,7 @@ AccessTracking/filtered-files/dtds/validators.dtd -text
 AccessTracking/filtered-files/hibernate-junit.cfg.xml -text
 AccessTracking/filtered-files/hibernate.cfg.xml -text
 AccessTracking/filtered-files/openxava-hibernate.cfg.xml -text
+AccessTracking/gen-src-xava/dnas-pojo.properties -text
 AccessTracking/gen-src-xava/dnas.properties -text
 AccessTracking/gen-src-xava/last.generation.time -text
 AccessTracking/gen-src-xava/org/openxava/tracking/model/Access.java -text
@@ -2954,6 +2955,7 @@ OpenXavaTest/build/ejb/META-INF/MANIFEST.MF -text
 OpenXavaTest/build/ejb/META-INF/Schema.dbxmi -text svneol=unset#application/octet-stream
 OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/DB.dbxmi -text svneol=unset#application/octet-stream
 OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/Map.mapxmi -text svneol=unset#application/octet-stream
+OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST.schxmi -text svneol=unset#application/octet-stream
 OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_CARRIER.tblxmi -text svneol=unset#application/octet-stream
 OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_CLERK.tblxmi -text svneol=unset#application/octet-stream
 OpenXavaTest/build/ejb/META-INF/backends/OPENXAVA/XAVATEST_CUSTOMER.tblxmi -text svneol=unset#application/octet-stream
@@ -3179,6 +3181,7 @@ OpenXavaTest/filtered-files/stereotype-type-default.xml -text
 OpenXavaTest/filtered-files/validators.xml -text
 OpenXavaTest/gen-src-xava/dnas-ejb.properties -text
 OpenXavaTest/gen-src-xava/dnas-pojo.properties -text
+OpenXavaTest/gen-src-xava/dnas.properties -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/AdditionalDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Address.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Carrier.java -text
@@ -4649,6 +4652,7 @@ OpenXavaTest/web/WEB-INF/classes/Invoice.xml -text
 OpenXavaTest/web/WEB-INF/classes/InvoiceDetail.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/META-INF/backends/OPENXAVA/DB.dbxmi -text
 OpenXavaTest/web/WEB-INF/classes/META-INF/backends/OPENXAVA/Map.mapxmi -text
+OpenXavaTest/web/WEB-INF/classes/META-INF/backends/OPENXAVA/XAVATEST.schxmi -text
 OpenXavaTest/web/WEB-INF/classes/META-INF/backends/OPENXAVA/XAVATEST_CARRIER.tblxmi -text
 OpenXavaTest/web/WEB-INF/classes/META-INF/backends/OPENXAVA/XAVATEST_CLERK.tblxmi -text
 OpenXavaTest/web/WEB-INF/classes/META-INF/backends/OPENXAVA/XAVATEST_CUSTOMER.tblxmi -text
