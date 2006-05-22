@@ -2061,6 +2061,7 @@ OpenXavaDoc/web/apidocs/org/openxava/calculators/IAggregateOidCalculator.html -t
 OpenXavaDoc/web/apidocs/org/openxava/calculators/ICalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/IEntityCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/IJDBCCalculator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/calculators/IModelCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/IOptionalCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/IntegerCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/LongCalculator.html -text
@@ -2088,6 +2089,7 @@ OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/IAggregateOidCalculat
 OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/ICalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/IEntityCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/IJDBCCalculator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/IModelCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/IOptionalCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/IntegerCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/LongCalculator.html -text
@@ -2143,6 +2145,7 @@ OpenXavaDoc/web/apidocs/org/openxava/controller/package-use.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/ArrayBytesBlobConverter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/ArrayBytesPhotoConverter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/BigDecimalNumberConverter.html -text
+OpenXavaDoc/web/apidocs/org/openxava/converters/BigIntegerNumberConverter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/Boolean01Converter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/BooleanSNConverter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/ConversionException.html -text
@@ -2169,6 +2172,7 @@ OpenXavaDoc/web/apidocs/org/openxava/converters/ValidValuesStringConverter.html 
 OpenXavaDoc/web/apidocs/org/openxava/converters/class-use/ArrayBytesBlobConverter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/class-use/ArrayBytesPhotoConverter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/class-use/BigDecimalNumberConverter.html -text
+OpenXavaDoc/web/apidocs/org/openxava/converters/class-use/BigIntegerNumberConverter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/class-use/Boolean01Converter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/class-use/BooleanSNConverter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/class-use/ConversionException.html -text
@@ -2384,8 +2388,11 @@ OpenXavaDoc/web/apidocs/org/openxava/model/meta/IMetaModel.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/meta/MetaAggregate.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/meta/MetaAggregateBean.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/meta/MetaAggregateEjb.html -text
+OpenXavaDoc/web/apidocs/org/openxava/model/meta/MetaAggregateForCollection.html -text
+OpenXavaDoc/web/apidocs/org/openxava/model/meta/MetaAggregateForReference.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/meta/MetaCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/meta/MetaCollection.html -text
+OpenXavaDoc/web/apidocs/org/openxava/model/meta/MetaEJB.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/meta/MetaEjbImpl.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/meta/MetaEntity.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/meta/MetaEntityEjb.html -text
@@ -2402,8 +2409,11 @@ OpenXavaDoc/web/apidocs/org/openxava/model/meta/class-use/IMetaModel.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/meta/class-use/MetaAggregate.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/meta/class-use/MetaAggregateBean.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/meta/class-use/MetaAggregateEjb.html -text
+OpenXavaDoc/web/apidocs/org/openxava/model/meta/class-use/MetaAggregateForCollection.html -text
+OpenXavaDoc/web/apidocs/org/openxava/model/meta/class-use/MetaAggregateForReference.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/meta/class-use/MetaCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/meta/class-use/MetaCollection.html -text
+OpenXavaDoc/web/apidocs/org/openxava/model/meta/class-use/MetaEJB.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/meta/class-use/MetaEjbImpl.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/meta/class-use/MetaEntity.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/meta/class-use/MetaEntityEjb.html -text
@@ -2792,11 +2802,13 @@ OpenXavaDoc/web/apidocs/org/openxava/web/style/package-tree.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/package-use.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/ActionTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/ButtonTag.html -text
+OpenXavaDoc/web/apidocs/org/openxava/web/taglib/EditorTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/IActionTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/ImageTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/LinkTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/ActionTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/ButtonTag.html -text
+OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/EditorTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/IActionTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/ImageTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/LinkTag.html -text
