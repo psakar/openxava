@@ -942,6 +942,8 @@ MySchool/xava/dtds/tipo-estereotipo-defecto.dtd -text
 MySchool/xava/dtds/validadores.dtd -text
 MySchool/xava/dtds/validators.dtd -text
 OpenXava/.classpath -text
+OpenXava/.externalToolBuilders/org.eclipse.wst.common.project.facet.core.builder.launch -text
+OpenXava/.externalToolBuilders/org.eclipse.wst.validation.validationbuilder.launch -text
 OpenXava/.project -text
 OpenXava/.settings/.component -text
 OpenXava/.settings/org.eclipse.jdt.core.prefs -text
