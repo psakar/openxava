@@ -4604,6 +4604,7 @@ OpenXavaTest/src/org/openxava/test/tests/Products3WithGroupTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ProductsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ProductsWithSectionTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/SellersCannotCreateCustomerTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/SellersJSPTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/SellersTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ServicesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ShipmentChargesTest.java -text
@@ -5615,6 +5616,7 @@ OpenXavaTest/web/WEB-INF/openxava.tld -text
 OpenXavaTest/web/WEB-INF/portlet.xml -text
 OpenXavaTest/web/WEB-INF/web.xml -text
 OpenXavaTest/web/custom-jsp/deliveryType.jsp -text
+OpenXavaTest/web/custom-jsp/seller.jsp -text
 OpenXavaTest/web/doc/description_en.html -text
 OpenXavaTest/web/doc/description_es.html -text
 OpenXavaTest/web/xava/addColumns.jsp -text
