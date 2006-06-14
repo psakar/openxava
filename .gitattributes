@@ -3573,6 +3573,7 @@ OpenXavaTest/gen-src/org/openxava/test/model/xejb/TransportChargeCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/WarehouseCMP.java -text
 OpenXavaTest/hibernate/Family.hbm.xml -text
 OpenXavaTest/hibernate/META-INF/persistence.xml -text
+OpenXavaTest/hibernate/hibernate-jpa-junit.cfg.xml -text
 OpenXavaTest/hibernate/hibernate-jpa.cfg.xml -text
 OpenXavaTest/hibernate/hibernate-junit.cfg.xml -text
 OpenXavaTest/hibernate/hibernate.cfg.xml -text
