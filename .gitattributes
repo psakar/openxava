@@ -1742,6 +1742,17 @@ OpenXavaDoc/i18n/Description_nl.properties -text
 OpenXavaDoc/i18n/Description_pt.properties -text
 OpenXavaDoc/i18n/Description_sv.properties -text
 OpenXavaDoc/i18n/Description_zh.properties -text
+OpenXavaDoc/i18n/EJB3_de.properties -text
+OpenXavaDoc/i18n/EJB3_en.properties -text
+OpenXavaDoc/i18n/EJB3_es.properties -text
+OpenXavaDoc/i18n/EJB3_fr.properties -text
+OpenXavaDoc/i18n/EJB3_it.properties -text
+OpenXavaDoc/i18n/EJB3_ja.properties -text
+OpenXavaDoc/i18n/EJB3_ko.properties -text
+OpenXavaDoc/i18n/EJB3_nl.properties -text
+OpenXavaDoc/i18n/EJB3_pt.properties -text
+OpenXavaDoc/i18n/EJB3_sv.properties -text
+OpenXavaDoc/i18n/EJB3_zh.properties -text
 OpenXavaDoc/i18n/FAQ_de.properties -text
 OpenXavaDoc/i18n/FAQ_en.properties -text
 OpenXavaDoc/i18n/FAQ_es.properties -text
@@ -2835,6 +2846,8 @@ OpenXavaDoc/web/custom-code-strategy_en.html -text
 OpenXavaDoc/web/custom-code-strategy_es.html -text
 OpenXavaDoc/web/description_en.html -text
 OpenXavaDoc/web/description_es.html -text
+OpenXavaDoc/web/ejb3_en.html -text
+OpenXavaDoc/web/ejb3_es.html -text
 OpenXavaDoc/web/faq_en.html -text
 OpenXavaDoc/web/faq_es.html -text
 OpenXavaDoc/web/features_en.html -text
