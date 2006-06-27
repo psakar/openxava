@@ -4471,6 +4471,7 @@ OpenXavaTest/reports/Invoice.jrxml -text
 OpenXavaTest/reports/Products.jrxml -text
 OpenXavaTest/src/org/openxava/test/actions/ActivateDeactivateSectionAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/AddViewDeliveryInInvoiceAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/AssertComboDeliveriesAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeInvoiceTabAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeLabelAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeLimitZoneAction.java -text
@@ -4574,7 +4575,6 @@ OpenXavaTest/src/org/openxava/test/filters/DefaultYearFilter.java -text
 OpenXavaTest/src/org/openxava/test/filters/Invoice20020001Filter.java -text
 OpenXavaTest/src/org/openxava/test/filters/LimitZoneFilter.java -text
 OpenXavaTest/src/org/openxava/test/filters/NumbersToLettersFilter.java -text
-OpenXavaTest/src/org/openxava/test/formatters/DeliveryFormatter.java -text
 OpenXavaTest/src/org/openxava/test/formatters/FamilyDescriptionsFormatter.java -text
 OpenXavaTest/src/org/openxava/test/formatters/PersonNameFormatter.java -text
 OpenXavaTest/src/org/openxava/test/formatters/WarehouseFormatter.java -text
