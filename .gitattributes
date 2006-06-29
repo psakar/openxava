@@ -1169,6 +1169,7 @@ OpenXava/src/org/openxava/calculators/FalseCalculator.java -text
 OpenXava/src/org/openxava/calculators/IAggregateOidCalculator.java -text
 OpenXava/src/org/openxava/calculators/ICalculator.java -text
 OpenXava/src/org/openxava/calculators/IEntityCalculator.java -text
+OpenXava/src/org/openxava/calculators/IHibernateIdGeneratorCalculator.java -text
 OpenXava/src/org/openxava/calculators/IJDBCCalculator.java -text
 OpenXava/src/org/openxava/calculators/IModelCalculator.java -text
 OpenXava/src/org/openxava/calculators/IOptionalCalculator.java -text
@@ -1177,6 +1178,7 @@ OpenXava/src/org/openxava/calculators/LongCalculator.java -text
 OpenXava/src/org/openxava/calculators/NextIntegerCalculator.java -text
 OpenXava/src/org/openxava/calculators/NextLongCalculator.java -text
 OpenXava/src/org/openxava/calculators/NullDateCalculator.java -text
+OpenXava/src/org/openxava/calculators/SequenceCalculator.java -text
 OpenXava/src/org/openxava/calculators/StringCalculator.java -text
 OpenXava/src/org/openxava/calculators/TrueCalculator.java -text
 OpenXava/src/org/openxava/calculators/UUIDCalculator.java -text
@@ -3074,6 +3076,7 @@ OpenXavaTest/components/Service.xml -text
 OpenXavaTest/components/ServiceType.xml -text
 OpenXavaTest/components/Shipment.xml -text
 OpenXavaTest/components/ShipmentCharge.xml -text
+OpenXavaTest/components/Size.xml -text
 OpenXavaTest/components/State.xml -text
 OpenXavaTest/components/Subfamily.xml -text
 OpenXavaTest/components/Subfamily2.xml -text
@@ -4645,6 +4648,7 @@ OpenXavaTest/src/org/openxava/test/tests/SellersTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ServicesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ShipmentChargesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ShipmentsTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/SizesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/StateHibernateTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/StateJPATest.java -text
 OpenXavaTest/src/org/openxava/test/tests/Subfamilies2Test.java -text
