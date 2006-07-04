@@ -1142,6 +1142,7 @@ OpenXava/src/org/openxava/actions/IModuleContextAction.java -text
 OpenXava/src/org/openxava/actions/INavigationAction.java -text
 OpenXava/src/org/openxava/actions/IOnChangePropertyAction.java -text
 OpenXava/src/org/openxava/actions/IProcessLoadedFileAction.java -text
+OpenXava/src/org/openxava/actions/IPropertyAction.java -text
 OpenXava/src/org/openxava/actions/IRemoteAction.java -text
 OpenXava/src/org/openxava/actions/IRequestAction.java -text
 OpenXava/src/org/openxava/actions/IShowActionAction.java -text
@@ -4601,6 +4602,7 @@ OpenXavaTest/src/org/openxava/test/actions/OnChangeProductUnitPriceAction.java -
 OpenXavaTest/src/org/openxava/test/actions/OnChangeVehicleAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeVoidAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeWarehouseAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/PrefixAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/RemoveViewDeliveryInInvoiceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ReturnToInvoiceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SearchDeliveryAction.java -text
