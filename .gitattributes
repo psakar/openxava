@@ -1202,6 +1202,7 @@ OpenXava/src/org/openxava/calculators/IHibernateIdGeneratorCalculator.java -text
 OpenXava/src/org/openxava/calculators/IJDBCCalculator.java -text
 OpenXava/src/org/openxava/calculators/IModelCalculator.java -text
 OpenXava/src/org/openxava/calculators/IOptionalCalculator.java -text
+OpenXava/src/org/openxava/calculators/IdentityCalculator.java -text
 OpenXava/src/org/openxava/calculators/IntegerCalculator.java -text
 OpenXava/src/org/openxava/calculators/LongCalculator.java -text
 OpenXava/src/org/openxava/calculators/NextIntegerCalculator.java -text
