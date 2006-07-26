@@ -1125,7 +1125,7 @@ OpenXava/src/org/openxava/actions/GoListAction.java -text
 OpenXava/src/org/openxava/actions/GoNextPageAction.java -text
 OpenXava/src/org/openxava/actions/GoPageAction.java -text
 OpenXava/src/org/openxava/actions/GoPreviousPageAction.java -text
-OpenXava/src/org/openxava/actions/HiddenDetailElementInCollectionAction.java -text
+OpenXava/src/org/openxava/actions/HideDetailElementInCollectionAction.java -text
 OpenXava/src/org/openxava/actions/HideRowsAction.java -text
 OpenXava/src/org/openxava/actions/IAction.java -text
 OpenXava/src/org/openxava/actions/IChainAction.java -text
@@ -4609,6 +4609,7 @@ OpenXavaTest/src/org/openxava/test/actions/GenerateDeliveryNumberAction.java -te
 OpenXavaTest/src/org/openxava/test/actions/GetNameAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideDeleteAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideDeliveryActionsAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/HideDeliveryDetailAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideListPropertyAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideSaveDeleteAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideShowGroupAction.java -text
@@ -4619,6 +4620,7 @@ OpenXavaTest/src/org/openxava/test/actions/InvoiceReportAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ListCustomerInvoicesAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/MoveRelationWithSellerToRemarksAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/MySearchAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/NewDeliveryDetailAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeAddMessageAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeCarrierInDeliveryAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeCustomerNameAction.java -text
@@ -4634,8 +4636,10 @@ OpenXavaTest/src/org/openxava/test/actions/OnChangeVehicleAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeVoidAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeWarehouseAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/PrefixAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/RemoveDeliveryDetailAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/RemoveViewDeliveryInInvoiceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ReturnToInvoiceAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/SaveDeliveryDetailAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SearchDeliveryAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SearchInvoiceFromDeliveryAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SetDefaultInvoiceAction.java -text
