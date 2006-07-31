@@ -4589,6 +4589,7 @@ OpenXavaTest/reports/Products.jrxml -text
 OpenXavaTest/src/org/openxava/test/actions/ActivateDeactivateSectionAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/AddViewDeliveryInInvoiceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/AssertComboDeliveriesAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/CarriersSearchAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeInvoiceTabAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeLabelAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeLimitZoneAction.java -text
@@ -4713,6 +4714,7 @@ OpenXavaTest/src/org/openxava/test/model/PriceException.java -text
 OpenXavaTest/src/org/openxava/test/model/ProductException.java -text
 OpenXavaTest/src/org/openxava/test/model/xejb/FamilyBean.java -text
 OpenXavaTest/src/org/openxava/test/tests/CarriersTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/CarriersWithSpecialSearchTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ChangeProductsPrice2Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/ChangeProductsPriceTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ColorsOnlyPOJOTest.java -text
