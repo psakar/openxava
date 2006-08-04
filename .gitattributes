@@ -1474,6 +1474,7 @@ OpenXava/src/org/openxava/view/meta/MetaPropertyView.java -text
 OpenXava/src/org/openxava/view/meta/MetaReferenceView.java -text
 OpenXava/src/org/openxava/view/meta/MetaSearchAction.java -text
 OpenXava/src/org/openxava/view/meta/MetaView.java -text
+OpenXava/src/org/openxava/view/meta/MetaViewAction.java -text
 OpenXava/src/org/openxava/view/meta/PropertiesSeparator.java -text
 OpenXava/src/org/openxava/view/meta/xmlparse/ViewParser.java -text
 OpenXava/src/org/openxava/web/WebEditors.java -text
@@ -1531,6 +1532,7 @@ OpenXava/web/comparatorsValidValuesCombo.jsp -text
 OpenXava/web/descriptionsList.jsp -text
 OpenXava/web/detail.jsp -text
 OpenXava/web/editor.jsp -text
+OpenXava/web/editors/actionEditor.jsp -text
 OpenXava/web/editors/addImages.jsp -text
 OpenXava/web/editors/boldLabelEditor.jsp -text
 OpenXava/web/editors/booleanEditor.jsp -text
@@ -5929,6 +5931,7 @@ OpenXavaTest/web/xava/comparatorsValidValuesCombo.jsp -text
 OpenXavaTest/web/xava/descriptionsList.jsp -text
 OpenXavaTest/web/xava/detail.jsp -text
 OpenXavaTest/web/xava/editor.jsp -text
+OpenXavaTest/web/xava/editors/actionEditor.jsp -text
 OpenXavaTest/web/xava/editors/addImages.jsp -text
 OpenXavaTest/web/xava/editors/boldLabelEditor.jsp -text
 OpenXavaTest/web/xava/editors/booleanEditor.jsp -text
