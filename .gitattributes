@@ -1674,7 +1674,7 @@ OpenXava/web/style/default.css -text
 OpenXava/web/style/openxava.css -text
 OpenXava/web/style/skins.css -text svneol=unset#application/octet-stream
 OpenXava/xava/META-INF/MANIFEST.MF -text
-OpenXava/xava/controllers.xml -text
+OpenXava/xava/default-controllers.xml -text
 OpenXava/xava/default-converters.xml -text
 OpenXava/xava/default-editors.xml -text
 OpenXava/xava/default-size.xml -text
