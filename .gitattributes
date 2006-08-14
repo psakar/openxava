@@ -4776,6 +4776,7 @@ OpenXavaTest/src/org/openxava/test/tests/ColorsOnlyPOJOTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ColorsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomersNewOnInitInheritedTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomersNewOnInitTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/CustomersSellerAsAggregateTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomersSimpleTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomersSomeMembersReadOnlyTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomersTest.java -text
