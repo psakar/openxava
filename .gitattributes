@@ -176,6 +176,7 @@ AccessTracking/web/xava/comparatorsValidValuesCombo.jsp -text
 AccessTracking/web/xava/descriptionsList.jsp -text
 AccessTracking/web/xava/detail.jsp -text
 AccessTracking/web/xava/editor.jsp -text
+AccessTracking/web/xava/editors/actionEditor.jsp -text
 AccessTracking/web/xava/editors/addImages.jsp -text
 AccessTracking/web/xava/editors/boldLabelEditor.jsp -text
 AccessTracking/web/xava/editors/booleanEditor.jsp -text
