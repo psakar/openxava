@@ -4844,6 +4844,7 @@ OpenXavaTest/src/org/openxava/test/tests/TransportChargesWithDistanceTest.java -
 OpenXavaTest/src/org/openxava/test/tests/WarehousesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/XavaSuite.java -text
 OpenXavaTest/src/org/openxava/test/validators/CheapProductValidator.java -text
+OpenXavaTest/src/org/openxava/test/validators/DeliveryPlaceValidator.java -text
 OpenXavaTest/src/org/openxava/test/validators/DeliveryTypeRemoveValidator.java -text
 OpenXavaTest/src/org/openxava/test/validators/DeliveryValidator.java -text
 OpenXavaTest/src/org/openxava/test/validators/ExcludeStringValidator.java -text
