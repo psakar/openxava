@@ -1099,10 +1099,6 @@ OpenXava/i18n/Messages_en.properties -text
 OpenXava/i18n/Messages_es.properties -text
 OpenXava/i18n/Messages_fr.properties -text
 OpenXava/i18n/Messages_in.properties -text
-OpenXava/i18n/XavaResources_ca.properties -text
-OpenXava/i18n/XavaResources_en.properties -text
-OpenXava/i18n/XavaResources_es.properties -text
-OpenXava/i18n/XavaResources_fr.properties -text
 OpenXava/lib/Tidy.jar -text
 OpenXava/lib/commons-logging.jar -text
 OpenXava/lib/httpunit.jar -text
@@ -1500,6 +1496,7 @@ OpenXava/src/org/openxava/web/taglib/EditorTag.java -text
 OpenXava/src/org/openxava/web/taglib/IActionTag.java -text
 OpenXava/src/org/openxava/web/taglib/ImageTag.java -text
 OpenXava/src/org/openxava/web/taglib/LinkTag.java -text
+OpenXava/src/org/openxava/web/taglib/MessageTag.java -text
 OpenXava/web/WEB-INF/lib/antlr.jar -text
 OpenXava/web/WEB-INF/lib/asm.jar -text
 OpenXava/web/WEB-INF/lib/cglib.jar -text
