@@ -1492,6 +1492,7 @@ OpenXava/src/org/openxava/web/style/Style.java -text
 OpenXava/src/org/openxava/web/style/WebSpherePortalStyle.java -text
 OpenXava/src/org/openxava/web/taglib/ActionTag.java -text
 OpenXava/src/org/openxava/web/taglib/ButtonTag.java -text
+OpenXava/src/org/openxava/web/taglib/DescriptionsListTag.java -text
 OpenXava/src/org/openxava/web/taglib/EditorTag.java -text
 OpenXava/src/org/openxava/web/taglib/IActionTag.java -text
 OpenXava/src/org/openxava/web/taglib/ImageTag.java -text
@@ -4825,6 +4826,7 @@ OpenXavaTest/src/org/openxava/test/tests/SellersCannotCreateCustomerTest.java -t
 OpenXavaTest/src/org/openxava/test/tests/SellersJSPTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/SellersTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/SellersWithCustomersAsAggregateTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/SellersWithDescriptionsListJSPTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ServicesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ShipmentChargesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ShipmentsTest.java -text
@@ -5922,6 +5924,7 @@ OpenXavaTest/web/WEB-INF/portlet.xml -text
 OpenXavaTest/web/WEB-INF/web.xml -text
 OpenXavaTest/web/custom-jsp/deliveryType.jsp -text
 OpenXavaTest/web/custom-jsp/seller.jsp -text
+OpenXavaTest/web/custom-jsp/sellerWithDescriptionsList.jsp -text
 OpenXavaTest/web/doc/description_en.html -text
 OpenXavaTest/web/doc/description_es.html -text
 OpenXavaTest/web/xava/addColumns.jsp -text
