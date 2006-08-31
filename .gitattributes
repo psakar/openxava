@@ -3093,6 +3093,7 @@ OpenXavaTest/build/ejb/META-INF/jboss.xml -text
 OpenXavaTest/build/ejb/META-INF/jbosscmp-jdbc.xml -text
 OpenXavaTest/build/hibernate/AdditionalDetail.hbm.xml -text
 OpenXavaTest/build/hibernate/Carrier.hbm.xml -text
+OpenXavaTest/build/hibernate/Carrierx.hbm.xml -text
 OpenXavaTest/build/hibernate/Clerk.hbm.xml -text
 OpenXavaTest/build/hibernate/Color.hbm.xml -text
 OpenXavaTest/build/hibernate/Customer.hbm.xml -text
@@ -3170,6 +3171,7 @@ OpenXavaTest/data/openxava-test-ds.xml -text
 OpenXavaTest/filtered-files/AdditionalDetail.hbm.xml -text
 OpenXavaTest/filtered-files/Carrier.hbm.xml -text
 OpenXavaTest/filtered-files/Carrier.xml -text
+OpenXavaTest/filtered-files/Carrierx.hbm.xml -text
 OpenXavaTest/filtered-files/Clerk.hbm.xml -text
 OpenXavaTest/filtered-files/Clerk.xml -text
 OpenXavaTest/filtered-files/Color.hbm.xml -text
@@ -3289,6 +3291,7 @@ OpenXavaTest/gen-src-xava/dnas-pojo.properties -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/AdditionalDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Address.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Carrier.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Carrierx.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Clerk.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Color.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Customer.java -text
@@ -3305,6 +3308,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/Formula.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/FormulaIngredient.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IAdditionalDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ICarrier.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ICarrierx.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IClerk.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IColor.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ICustomer.java -text
