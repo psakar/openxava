@@ -3572,7 +3572,6 @@ OpenXavaTest/build/ejb/META-INF/jboss.xml -text
 OpenXavaTest/build/ejb/META-INF/jbosscmp-jdbc.xml -text
 OpenXavaTest/build/hibernate/AdditionalDetail.hbm.xml -text
 OpenXavaTest/build/hibernate/Carrier.hbm.xml -text
-OpenXavaTest/build/hibernate/Carrierx.hbm.xml -text
 OpenXavaTest/build/hibernate/Clerk.hbm.xml -text
 OpenXavaTest/build/hibernate/Color.hbm.xml -text
 OpenXavaTest/build/hibernate/Customer.hbm.xml -text
@@ -3650,7 +3649,6 @@ OpenXavaTest/data/openxava-test-ds.xml -text
 OpenXavaTest/filtered-files/AdditionalDetail.hbm.xml -text
 OpenXavaTest/filtered-files/Carrier.hbm.xml -text
 OpenXavaTest/filtered-files/Carrier.xml -text
-OpenXavaTest/filtered-files/Carrierx.hbm.xml -text
 OpenXavaTest/filtered-files/Clerk.hbm.xml -text
 OpenXavaTest/filtered-files/Clerk.xml -text
 OpenXavaTest/filtered-files/Color.hbm.xml -text
@@ -3786,7 +3784,6 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/Formula.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/FormulaIngredient.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IAdditionalDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ICarrier.java -text
-OpenXavaTest/gen-src-xava/org/openxava/test/model/ICarrierx.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IClerk.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IColor.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ICustomer.java -text
@@ -5298,6 +5295,7 @@ OpenXavaTest/src/org/openxava/test/tests/POJOTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/PositiveValidatorTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/Products2ReferenceAndStereotype.java -text
 OpenXavaTest/src/org/openxava/test/tests/Products2Test.java -text
+OpenXavaTest/src/org/openxava/test/tests/Products2WithFormulaTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/Products3ChangeActionsOnSearchTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/Products3Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/Products3WithDescriptionsListTest.java -text
