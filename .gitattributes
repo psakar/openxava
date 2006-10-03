@@ -3875,6 +3875,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/ReferenceSearchAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveColumnAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveElementFromCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveImageFromGalleryAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveSelectedInCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/ResetPreviousControllersAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/RestoreDefaultColumnsAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/ReturnPreviousModuleAction.html -text
@@ -3964,6 +3965,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ReferenceSearchAction.htm
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveColumnAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveElementFromCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveImageFromGalleryAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveSelectedInCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ResetPreviousControllersAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RestoreDefaultColumnsAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ReturnPreviousModuleAction.html -text
@@ -4664,9 +4666,11 @@ OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/PositiveValidator.html
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/TolerantValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/ValidationException.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/meta/MetaValidator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/meta/MetaValidatorFor.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/meta/MetaValidatorRequired.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/meta/MetaValidators.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/meta/class-use/MetaValidator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/meta/class-use/MetaValidatorFor.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/meta/class-use/MetaValidatorRequired.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/meta/class-use/MetaValidators.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/meta/package-frame.html -text
@@ -4693,6 +4697,7 @@ OpenXavaDoc/web/apidocs/org/openxava/view/meta/MetaPropertyView.html -text
 OpenXavaDoc/web/apidocs/org/openxava/view/meta/MetaReferenceView.html -text
 OpenXavaDoc/web/apidocs/org/openxava/view/meta/MetaSearchAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/view/meta/MetaView.html -text
+OpenXavaDoc/web/apidocs/org/openxava/view/meta/MetaViewAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/view/meta/PropertiesSeparator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/view/meta/class-use/MetaCollectionView.html -text
 OpenXavaDoc/web/apidocs/org/openxava/view/meta/class-use/MetaDescriptionsList.html -text
@@ -4702,6 +4707,7 @@ OpenXavaDoc/web/apidocs/org/openxava/view/meta/class-use/MetaPropertyView.html -
 OpenXavaDoc/web/apidocs/org/openxava/view/meta/class-use/MetaReferenceView.html -text
 OpenXavaDoc/web/apidocs/org/openxava/view/meta/class-use/MetaSearchAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/view/meta/class-use/MetaView.html -text
+OpenXavaDoc/web/apidocs/org/openxava/view/meta/class-use/MetaViewAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/view/meta/class-use/PropertiesSeparator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/view/meta/package-frame.html -text
 OpenXavaDoc/web/apidocs/org/openxava/view/meta/package-summary.html -text
@@ -4777,16 +4783,20 @@ OpenXavaDoc/web/apidocs/org/openxava/web/style/package-tree.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/package-use.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/ActionTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/ButtonTag.html -text
+OpenXavaDoc/web/apidocs/org/openxava/web/taglib/DescriptionsListTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/EditorTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/IActionTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/ImageTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/LinkTag.html -text
+OpenXavaDoc/web/apidocs/org/openxava/web/taglib/MessageTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/ActionTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/ButtonTag.html -text
+OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/DescriptionsListTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/EditorTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/IActionTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/ImageTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/LinkTag.html -text
+OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/MessageTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/package-frame.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/package-summary.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/package-tree.html -text
@@ -4825,8 +4835,8 @@ OpenXavaDoc/web/migration_en.html -text
 OpenXavaDoc/web/migration_es.html -text
 OpenXavaDoc/web/new_en.html -text
 OpenXavaDoc/web/new_es.html -text
-OpenXavaDoc/web/openxava-2.0.2-guia-referencia.pdf -text
-OpenXavaDoc/web/openxava-2.0.2-reference-guide.pdf -text
+OpenXavaDoc/web/openxava-2.0.3-guia-referencia.pdf -text
+OpenXavaDoc/web/openxava-2.0.3-reference-guide.pdf -text
 OpenXavaDoc/web/security_en.html -text
 OpenXavaDoc/web/security_es.html -text
 OpenXavaDoc/web/tutorial_en.html -text
