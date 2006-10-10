@@ -6778,6 +6778,7 @@ OpenXavaTest/src/org/openxava/test/tests/POJOTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/PositiveValidatorTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/Products2ReferenceAndStereotype.java -text
 OpenXavaTest/src/org/openxava/test/tests/Products2Test.java -text
+OpenXavaTest/src/org/openxava/test/tests/Products2WithFormulaAsAggregateTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/Products2WithFormulaTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/Products3ChangeActionsOnSearchTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/Products3Test.java -text
