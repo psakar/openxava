@@ -92,9 +92,11 @@ AccessTracking/tomcat-hypersonic.properties -text
 AccessTracking/web/META-INF/MANIFEST.MF -text
 AccessTracking/web/WEB-INF/classes/Access.hbm.xml -text
 AccessTracking/web/WEB-INF/classes/Access.xml -text
+AccessTracking/web/WEB-INF/classes/AccessTracking-labels.properties -text
 AccessTracking/web/WEB-INF/classes/AccessTracking-labels_ca.properties -text
 AccessTracking/web/WEB-INF/classes/AccessTracking-labels_en.properties -text
 AccessTracking/web/WEB-INF/classes/AccessTracking-labels_es.properties -text
+AccessTracking/web/WEB-INF/classes/AccessTracking-messages.properties -text
 AccessTracking/web/WEB-INF/classes/AccessTracking-messages_ca.properties -text
 AccessTracking/web/WEB-INF/classes/AccessTracking-messages_en.properties -text
 AccessTracking/web/WEB-INF/classes/AccessTracking-messages_es.properties -text
@@ -125,6 +127,19 @@ AccessTracking/web/WEB-INF/classes/hibernate-junit.cfg.xml -text
 AccessTracking/web/WEB-INF/classes/hibernate.cfg.xml -text
 AccessTracking/web/WEB-INF/classes/jndi.properties -text
 AccessTracking/web/WEB-INF/classes/openxava-hibernate.cfg.xml -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_ca.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_de.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_en.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_es.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_fr.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_in.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_it.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_ja.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_ko.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_nl.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_pt.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_sv.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_zh.properties -text
 AccessTracking/web/WEB-INF/lib/FCKeditor-2.3.jar -text
 AccessTracking/web/WEB-INF/lib/antlr.jar -text
 AccessTracking/web/WEB-INF/lib/asm.jar -text
@@ -154,6 +169,7 @@ AccessTracking/web/WEB-INF/openxava.tld -text
 AccessTracking/web/WEB-INF/portlet.xml -text
 AccessTracking/web/WEB-INF/web.xml -text
 AccessTracking/web/xava/addColumns.jsp -text
+AccessTracking/web/xava/bottomButtons.jsp -text
 AccessTracking/web/xava/buttonBar.jsp -text
 AccessTracking/web/xava/collection.jsp -text
 AccessTracking/web/xava/comparatorsBooleanCombo.jsp -text
@@ -731,6 +747,8 @@ AccessTracking/web/xava/errors.jsp -text
 AccessTracking/web/xava/htmlTagsEditor.jsp -text
 AccessTracking/web/xava/images/.xvpics/encontrar.gif -text
 AccessTracking/web/xava/images/.xvpics/excel.gif -text svneol=unset#application/octet-stream
+AccessTracking/web/xava/images/.xvpics/new.gif -text
+AccessTracking/web/xava/images/.xvpics/pdf.gif -text
 AccessTracking/web/xava/images/add.gif -text
 AccessTracking/web/xava/images/ascending-white.gif -text
 AccessTracking/web/xava/images/ascending.gif -text
@@ -741,6 +759,7 @@ AccessTracking/web/xava/images/customize.gif -text
 AccessTracking/web/xava/images/delete.gif -text
 AccessTracking/web/xava/images/descending-white.gif -text
 AccessTracking/web/xava/images/descending.gif -text
+AccessTracking/web/xava/images/edit.gif -text
 AccessTracking/web/xava/images/error.gif -text
 AccessTracking/web/xava/images/excel.gif -text
 AccessTracking/web/xava/images/find.gif -text
@@ -6755,6 +6774,7 @@ OpenXavaTest/src/org/openxava/test/tests/DeliveryTypesJSPTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DeliveryTypesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DescriptionTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/EJBTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/FamiliesListOnlyTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/FamiliesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/FamiliesWithInheritanceControllerTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/FamilyProductsReportTest.java -text
@@ -7950,6 +7970,7 @@ OpenXavaTest/web/custom-jsp/sellerWithDescriptionsList.jsp -text
 OpenXavaTest/web/doc/description_en.html -text
 OpenXavaTest/web/doc/description_es.html -text
 OpenXavaTest/web/xava/addColumns.jsp -text
+OpenXavaTest/web/xava/bottomButtons.jsp -text
 OpenXavaTest/web/xava/buttonBar.jsp -text
 OpenXavaTest/web/xava/collection.jsp -text
 OpenXavaTest/web/xava/comparatorsBooleanCombo.jsp -text
@@ -8527,6 +8548,8 @@ OpenXavaTest/web/xava/editors/textEditor.jsp -text
 OpenXavaTest/web/xava/editors/validValuesEditor.jsp -text
 OpenXavaTest/web/xava/errors.jsp -text
 OpenXavaTest/web/xava/htmlTagsEditor.jsp -text
+OpenXavaTest/web/xava/images/.xvpics/new.gif -text
+OpenXavaTest/web/xava/images/.xvpics/pdf.gif -text
 OpenXavaTest/web/xava/images/add.gif -text
 OpenXavaTest/web/xava/images/ascending-white.gif -text
 OpenXavaTest/web/xava/images/ascending.gif -text
@@ -8539,6 +8562,7 @@ OpenXavaTest/web/xava/images/delete.gif -text
 OpenXavaTest/web/xava/images/descending-white.gif -text
 OpenXavaTest/web/xava/images/descending.gif -text
 OpenXavaTest/web/xava/images/edit-text.gif -text
+OpenXavaTest/web/xava/images/edit.gif -text
 OpenXavaTest/web/xava/images/error.gif -text
 OpenXavaTest/web/xava/images/excel.gif -text
 OpenXavaTest/web/xava/images/find.gif -text
