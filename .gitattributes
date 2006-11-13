@@ -2740,7 +2740,9 @@ OpenXava/src/org/openxava/formatters/IFormatter.java -text
 OpenXava/src/org/openxava/formatters/IMultipleValuesFormatter.java -text
 OpenXava/src/org/openxava/formatters/ImageFormatter.java -text
 OpenXava/src/org/openxava/formatters/MultipleValuesByPassFormatter.java -text
-OpenXava/src/org/openxava/formatters/TimeFormatter.java -text
+OpenXava/src/org/openxava/formatters/SQLTimeFormatter.java -text
+OpenXava/src/org/openxava/formatters/StringTimeFormatter.java -text
+OpenXava/src/org/openxava/formatters/TimeBaseFormatter.java -text
 OpenXava/src/org/openxava/formatters/UpperCaseFormatter.java -text
 OpenXava/src/org/openxava/generators/GeneratorFactory.java -text
 OpenXava/src/org/openxava/generators/Generators.java -text
@@ -2766,7 +2768,6 @@ OpenXava/src/org/openxava/mapping/xmlparse/ConvertersParser.java -text
 OpenXava/src/org/openxava/mapping/xmlparse/MappingParser.java -text
 OpenXava/src/org/openxava/model/IModel.java -text
 OpenXava/src/org/openxava/model/MapFacade.java -text
-OpenXava/src/org/openxava/model/impl/BasePOJOPersistenceProvider.java -text
 OpenXava/src/org/openxava/model/impl/EJBPersistenceProvider.java -text
 OpenXava/src/org/openxava/model/impl/HibernatePersistenceProvider.java -text
 OpenXava/src/org/openxava/model/impl/IMapFacadeImpl.java -text
@@ -2775,6 +2776,7 @@ OpenXava/src/org/openxava/model/impl/JPAPersistenceProvider.java -text
 OpenXava/src/org/openxava/model/impl/MapFacadeBean.java -text
 OpenXava/src/org/openxava/model/impl/MapFacadeHome.java -text
 OpenXava/src/org/openxava/model/impl/MapFacadeRemote.java -text
+OpenXava/src/org/openxava/model/impl/POJOPersistenceProviderBase.java -text
 OpenXava/src/org/openxava/model/impl/POJOPropertiesContainerAdapter.java -text
 OpenXava/src/org/openxava/model/impl/PersistenceProviderException.java -text
 OpenXava/src/org/openxava/model/meta/DefaultSize.java -text
@@ -6812,6 +6814,7 @@ OpenXavaTest/src/org/openxava/test/tests/CarriersTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CarriersWithSpecialSearchTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ChangeProductsPrice2Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/ChangeProductsPriceTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/ClerksTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ColorsOnlyPOJOTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ColorsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerContactPersonsTest.java -text
