@@ -2950,7 +2950,6 @@ OpenXava/web/WEB-INF/lib/commons-collections.jar -text
 OpenXava/web/WEB-INF/lib/commons-digester.jar -text
 OpenXava/web/WEB-INF/lib/commons-fileupload.jar -text
 OpenXava/web/WEB-INF/lib/commons-io.jar -text
-OpenXava/web/WEB-INF/lib/commons-javaflow.jar -text
 OpenXava/web/WEB-INF/lib/dom4j.jar -text
 OpenXava/web/WEB-INF/lib/ehcache.jar -text
 OpenXava/web/WEB-INF/lib/ejb3-persistence.jar -text
@@ -8069,7 +8068,6 @@ OpenXavaTest/web/WEB-INF/lib/commons-collections.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-digester.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-fileupload.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-io.jar -text
-OpenXavaTest/web/WEB-INF/lib/commons-javaflow.jar -text
 OpenXavaTest/web/WEB-INF/lib/dom4j.jar -text
 OpenXavaTest/web/WEB-INF/lib/ehcache.jar -text
 OpenXavaTest/web/WEB-INF/lib/ejb3-persistence.jar -text
