@@ -3579,6 +3579,7 @@ OpenXava/web/languages.jsp -text
 OpenXava/web/list.jsp -text
 OpenXava/web/messages.jsp -text
 OpenXava/web/module.jsp -text
+OpenXava/web/portlet.jsp -text
 OpenXava/web/referenceSearch.jsp -text
 OpenXava/web/script.jsp -text
 OpenXava/web/sections.jsp -text
