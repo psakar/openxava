@@ -8755,6 +8755,7 @@ OpenXavaTest/web/xava/languages.jsp -text
 OpenXavaTest/web/xava/list.jsp -text
 OpenXavaTest/web/xava/messages.jsp -text
 OpenXavaTest/web/xava/module.jsp -text
+OpenXavaTest/web/xava/portlet.jsp -text
 OpenXavaTest/web/xava/referenceSearch.jsp -text
 OpenXavaTest/web/xava/script.jsp -text
 OpenXavaTest/web/xava/sections-original.jsp -text
