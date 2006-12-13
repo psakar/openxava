@@ -6871,6 +6871,7 @@ OpenXavaTest/src/org/openxava/test/tests/Products3WithDescriptionsListTest.java 
 OpenXavaTest/src/org/openxava/test/tests/Products3WithGroupTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ProductsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ProductsWithSectionTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/PublicJSPTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/SellersCannotCreateCustomerTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/SellersJSPTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/SellersTest.java -text
@@ -8126,6 +8127,7 @@ OpenXavaTest/web/custom-jsp/seller.jsp -text
 OpenXavaTest/web/custom-jsp/sellerWithDescriptionsList.jsp -text
 OpenXavaTest/web/doc/description_en.html -text
 OpenXavaTest/web/doc/description_es.html -text
+OpenXavaTest/web/public/myPublicJSP.jsp -text
 OpenXavaTest/web/xava/addColumns.jsp -text
 OpenXavaTest/web/xava/bottomButtons.jsp -text
 OpenXavaTest/web/xava/buttonBar.jsp -text
