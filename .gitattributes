@@ -5214,6 +5214,7 @@ OpenXavaTest/filtered-files/hibernate.cfg.xml -text
 OpenXavaTest/filtered-files/openxava-hibernate.cfg.xml -text
 OpenXavaTest/filtered-files/stereotype-type-default.xml -text
 OpenXavaTest/filtered-files/validators.xml -text
+OpenXavaTest/gen-src-xava/dnas-ejb.properties -text
 OpenXavaTest/gen-src-xava/dnas-pojo.properties -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/AdditionalDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Address.java -text
