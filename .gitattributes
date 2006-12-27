@@ -6757,6 +6757,7 @@ OpenXavaTest/src/org/openxava/test/actions/OnChangeVoidAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeWarehouseAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/PrefixAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/RemoveDeliveryDetailAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/RemoveSelectedDeliveryDetailsAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/RemoveViewDeliveryInInvoiceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ReturnToInvoiceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SaveDeliveryDetailAction.java -text
