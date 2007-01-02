@@ -2545,12 +2545,14 @@ OpenXava/i18n/Labels_en.properties -text
 OpenXava/i18n/Labels_es.properties -text
 OpenXava/i18n/Labels_fr.properties -text
 OpenXava/i18n/Labels_in.properties -text
+OpenXava/i18n/Labels_pl.properties -text
 OpenXava/i18n/Messages_ca.properties -text
 OpenXava/i18n/Messages_de.properties -text
 OpenXava/i18n/Messages_en.properties -text
 OpenXava/i18n/Messages_es.properties -text
 OpenXava/i18n/Messages_fr.properties -text
 OpenXava/i18n/Messages_in.properties -text
+OpenXava/i18n/Messages_pl.properties -text
 OpenXava/lib/Tidy.jar -text
 OpenXava/lib/commons-logging.jar -text
 OpenXava/lib/httpunit.jar -text
