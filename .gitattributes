@@ -3697,6 +3697,8 @@ OpenXavaDoc/i18n/Features_en.properties -text
 OpenXavaDoc/i18n/Features_es.properties -text
 OpenXavaDoc/i18n/Forums_en.properties -text
 OpenXavaDoc/i18n/Forums_es.properties -text
+OpenXavaDoc/i18n/Future_en.properties -text
+OpenXavaDoc/i18n/Future_es.properties -text
 OpenXavaDoc/i18n/Migration_en.properties -text
 OpenXavaDoc/i18n/Migration_es.properties -text
 OpenXavaDoc/i18n/News_en.properties -text
@@ -4756,6 +4758,8 @@ OpenXavaDoc/web/features_en.html -text
 OpenXavaDoc/web/features_es.html -text
 OpenXavaDoc/web/forums_en.html -text
 OpenXavaDoc/web/forums_es.html -text
+OpenXavaDoc/web/future_en.html -text
+OpenXavaDoc/web/future_es.html -text
 OpenXavaDoc/web/images/builder.gif -text
 OpenXavaDoc/web/images/external_tools.gif -text
 OpenXavaDoc/web/images/run.gif -text
