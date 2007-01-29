@@ -836,7 +836,6 @@ CVSROOT/rcsinfo -text
 CVSROOT/taginfo -text
 CVSROOT/verifymsg -text
 MiEscuela/.classpath -text
-MiEscuela/.externalToolBuilders/MiEscuela.wtpBuild.launch -text
 MiEscuela/.project -text
 MiEscuela/.settings/.component -text
 MiEscuela/.settings/org.eclipse.jdt.core.prefs -text
@@ -1615,7 +1614,6 @@ MiEscuela/xava/dtds/tipo-estereotipo-defecto.dtd -text
 MiEscuela/xava/dtds/validadores.dtd -text
 MiEscuela/xava/dtds/validators.dtd -text
 MySchool/.classpath -text
-MySchool/.externalToolBuilders/MySchool.wtpBuild.launch -text
 MySchool/.project -text
 MySchool/.settings/.component -text
 MySchool/.settings/org.eclipse.jdt.core.prefs -text
@@ -4879,7 +4877,6 @@ OpenXavaTemplate/xava/dtds/tipo-estereotipo-defecto.dtd -text
 OpenXavaTemplate/xava/dtds/validadores.dtd -text
 OpenXavaTemplate/xava/dtds/validators.dtd -text
 OpenXavaTest/.classpath -text
-OpenXavaTest/.externalToolBuilders/OpenXavaTest.wtpBuild.launch -text
 OpenXavaTest/.project -text
 OpenXavaTest/.settings/.component -text
 OpenXavaTest/.settings/org.eclipse.jdt.core.prefs -text
