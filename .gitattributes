@@ -907,6 +907,7 @@ MiEscuela/i18n/portlets/Profesores_it.properties -text
 MiEscuela/i18n/portlets/Profesores_ja.properties -text
 MiEscuela/i18n/portlets/Profesores_ko.properties -text
 MiEscuela/i18n/portlets/Profesores_nl.properties -text
+MiEscuela/i18n/portlets/Profesores_pl.properties -text
 MiEscuela/i18n/portlets/Profesores_pt.properties -text
 MiEscuela/i18n/portlets/Profesores_sv.properties -text
 MiEscuela/i18n/portlets/Profesores_zh.properties -text
@@ -921,6 +922,7 @@ MiEscuela/properties/xava.properties -text
 MiEscuela/src/org/openxava/escuela/pruebas/PruebaProfesores.java -text
 MiEscuela/tomcat-hypersonic.properties -text
 MiEscuela/web/META-INF/MANIFEST.MF -text
+MiEscuela/web/WEB-INF/classes/EtiquetasMiEscuela.properties -text
 MiEscuela/web/WEB-INF/classes/Profesor.hbm.xml -text
 MiEscuela/web/WEB-INF/classes/TabUserPreferences.hbm.xml -text
 MiEscuela/web/WEB-INF/classes/datasource.properties -text
@@ -1547,6 +1549,7 @@ MiEscuela/web/xava/images/customize.gif -text
 MiEscuela/web/xava/images/delete.gif -text
 MiEscuela/web/xava/images/descending-white.gif -text
 MiEscuela/web/xava/images/descending.gif -text
+MiEscuela/web/xava/images/edit-text.gif -text
 MiEscuela/web/xava/images/edit.gif -text
 MiEscuela/web/xava/images/error.gif -text
 MiEscuela/web/xava/images/excel.gif -text
