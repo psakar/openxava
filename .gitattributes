@@ -2428,6 +2428,7 @@ OpenXava/build.xml -text
 OpenXava/build/jboss-app.xml -text
 OpenXava/build/server-properties/BeansContext.properties -text
 OpenXava/build/server-properties/EJBContextFactory.properties -text
+OpenXava/changelog.txt -text
 OpenXava/data/images-db.script -text
 OpenXava/data/openxava-db-as400.script -text
 OpenXava/data/openxava-db.properties -text
