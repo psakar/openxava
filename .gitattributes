@@ -2423,6 +2423,7 @@ OpenXava/.settings/.component -text
 OpenXava/.settings/org.eclipse.jdt.core.prefs -text
 OpenXava/.settings/org.eclipse.jdt.ui.prefs -text
 OpenXava/.settings/org.eclipse.wst.common.project.facet.core.xml -text
+OpenXava/.settings/org.eclipse.wst.validation.prefs -text
 OpenXava/.vcm_meta -text svneol=unset#application/octet-stream
 OpenXava/build.xml -text
 OpenXava/build/jboss-app.xml -text
