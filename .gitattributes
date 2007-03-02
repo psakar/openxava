@@ -2862,6 +2862,7 @@ OpenXava/src/org/openxava/tab/meta/MetaTab.java -text
 OpenXava/src/org/openxava/tab/meta/xmlparse/TabParser.java -text
 OpenXava/src/org/openxava/tests/ModuleTestBase.java -text
 OpenXava/src/org/openxava/util/Align.java -text
+OpenXava/src/org/openxava/util/ArrayOneRowResultSetAdapter.java -text
 OpenXava/src/org/openxava/util/Assert.java -text
 OpenXava/src/org/openxava/util/AssertException.java -text
 OpenXava/src/org/openxava/util/CloneException.java -text
