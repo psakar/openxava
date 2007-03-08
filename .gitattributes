@@ -3718,6 +3718,8 @@ OpenXavaDoc/i18n/References_en.properties -text
 OpenXavaDoc/i18n/References_es.properties -text
 OpenXavaDoc/i18n/Tracking_en.properties -text
 OpenXavaDoc/i18n/Tracking_es.properties -text
+OpenXavaDoc/i18n/Training_en.properties -text
+OpenXavaDoc/i18n/Training_es.properties -text
 OpenXavaDoc/i18n/Tutorial_en.properties -text
 OpenXavaDoc/i18n/Tutorial_es.properties -text
 OpenXavaDoc/i18n/WTP_en.properties -text
@@ -4788,6 +4790,8 @@ OpenXavaDoc/web/references_en.html -text
 OpenXavaDoc/web/references_es.html -text
 OpenXavaDoc/web/tracking_en.html -text
 OpenXavaDoc/web/tracking_es.html -text
+OpenXavaDoc/web/training_en.html -text
+OpenXavaDoc/web/training_es.html -text
 OpenXavaDoc/web/tutorial_en.html -text
 OpenXavaDoc/web/tutorial_es.html -text
 OpenXavaDoc/web/websphere-ejb2_en.html -text
