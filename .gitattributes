@@ -2650,6 +2650,7 @@ OpenXava/src/org/openxava/actions/SearchByViewKeyAction.java -text
 OpenXava/src/org/openxava/actions/SearchExecutingOnChangeAction.java -text
 OpenXava/src/org/openxava/actions/SearchReadOnlyAction.java -text
 OpenXava/src/org/openxava/actions/SetCustomViewAction.java -text
+OpenXava/src/org/openxava/actions/SetDefaultSchemaAction.java -text
 OpenXava/src/org/openxava/actions/ShowRowsAction.java -text
 OpenXava/src/org/openxava/actions/SortColumnsAction.java -text
 OpenXava/src/org/openxava/actions/UpdateAction.java -text
@@ -5020,6 +5021,7 @@ OpenXavaTest/components/Formula.xml -text
 OpenXavaTest/components/Ingredient.xml -text
 OpenXavaTest/components/Invoice.xml -text
 OpenXavaTest/components/Invoice2.xml -text
+OpenXavaTest/components/Issue.xml -text
 OpenXavaTest/components/Office.xml -text
 OpenXavaTest/components/Office2.xml -text
 OpenXavaTest/components/Product.xml -text
@@ -6966,6 +6968,7 @@ OpenXavaTest/src/org/openxava/test/tests/InvoicesFromDeliveriesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoicesNestedSectionsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoicesNoListTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoicesTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/IssuesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/JPATest.java -text
 OpenXavaTest/src/org/openxava/test/tests/MapFacadeTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/NotZeroValidatorTest.java -text
