@@ -3719,6 +3719,8 @@ OpenXavaDoc/i18n/ReferenceGuide_en.properties -text
 OpenXavaDoc/i18n/ReferenceGuide_es.properties -text
 OpenXavaDoc/i18n/References_en.properties -text
 OpenXavaDoc/i18n/References_es.properties -text
+OpenXavaDoc/i18n/Stringbeans_en.properties -text
+OpenXavaDoc/i18n/Stringbeans_es.properties -text
 OpenXavaDoc/i18n/Tracking_en.properties -text
 OpenXavaDoc/i18n/Tracking_es.properties -text
 OpenXavaDoc/i18n/Training_en.properties -text
@@ -4781,6 +4783,9 @@ OpenXavaDoc/web/images/builder.gif -text
 OpenXavaDoc/web/images/download.gif -text
 OpenXavaDoc/web/images/external_tools.gif -text
 OpenXavaDoc/web/images/run.gif -text
+OpenXavaDoc/web/images/stringbeans-detail1-screenshot.jpg -text
+OpenXavaDoc/web/images/stringbeans-detail2-screenshot.jpg -text
+OpenXavaDoc/web/images/stringbeans-list-screenshot.jpg -text
 OpenXavaDoc/web/images/websphere-detail-screenshot.jpg -text
 OpenXavaDoc/web/images/websphere-list-screenshot.jpg -text
 OpenXavaDoc/web/migration_en.html -text
@@ -4791,6 +4796,8 @@ OpenXavaDoc/web/reference-guide_en.html -text
 OpenXavaDoc/web/reference-guide_es.html -text
 OpenXavaDoc/web/references_en.html -text
 OpenXavaDoc/web/references_es.html -text
+OpenXavaDoc/web/stringbeans_en.html -text
+OpenXavaDoc/web/stringbeans_es.html -text
 OpenXavaDoc/web/tracking_en.html -text
 OpenXavaDoc/web/tracking_es.html -text
 OpenXavaDoc/web/training_en.html -text
