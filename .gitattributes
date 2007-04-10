@@ -4990,6 +4990,7 @@ OpenXavaTest/build/hibernate/Invoice.hbm.xml -text
 OpenXavaTest/build/hibernate/Invoice2.hbm.xml -text
 OpenXavaTest/build/hibernate/InvoiceDetail.hbm.xml -text
 OpenXavaTest/build/hibernate/InvoiceDetail2.hbm.xml -text
+OpenXavaTest/build/hibernate/Issue.hbm.xml -text
 OpenXavaTest/build/hibernate/Office.hbm.xml -text
 OpenXavaTest/build/hibernate/Office2.hbm.xml -text
 OpenXavaTest/build/hibernate/Product.hbm.xml -text
@@ -5091,6 +5092,8 @@ OpenXavaTest/filtered-files/Invoice2.hbm.xml -text
 OpenXavaTest/filtered-files/Invoice2.xml -text
 OpenXavaTest/filtered-files/InvoiceDetail.hbm.xml -text
 OpenXavaTest/filtered-files/InvoiceDetail2.hbm.xml -text
+OpenXavaTest/filtered-files/Issue.hbm.xml -text
+OpenXavaTest/filtered-files/Issue.xml -text
 OpenXavaTest/filtered-files/META-INF/persistence.xml -text
 OpenXavaTest/filtered-files/Office.hbm.xml -text
 OpenXavaTest/filtered-files/Office.xml -text
@@ -5218,6 +5221,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/IInvoice.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IInvoice2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IInvoiceDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IInvoiceDetail2.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IIssue.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IOffice.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IOffice2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IProduct.java -text
@@ -5244,6 +5248,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/Invoice.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Invoice2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/InvoiceDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/InvoiceDetail2.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Issue.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Office.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Office2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Product.java -text
@@ -8307,7 +8312,9 @@ OpenXavaTest/web/WEB-INF/lib/dom4j.jar -text
 OpenXavaTest/web/WEB-INF/lib/ehcache.jar -text
 OpenXavaTest/web/WEB-INF/lib/ejb3-persistence.jar -text
 OpenXavaTest/web/WEB-INF/lib/hibernate-annotations.jar -text
+OpenXavaTest/web/WEB-INF/lib/hibernate-commons-annotations.jar -text
 OpenXavaTest/web/WEB-INF/lib/hibernate-entitymanager.jar -text
+OpenXavaTest/web/WEB-INF/lib/hibernate-validator.jar -text
 OpenXavaTest/web/WEB-INF/lib/hibernate3.jar -text
 OpenXavaTest/web/WEB-INF/lib/itext.jar -text
 OpenXavaTest/web/WEB-INF/lib/jasperreports.jar -text
