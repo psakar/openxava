@@ -154,7 +154,9 @@ AccessTracking/web/WEB-INF/lib/dom4j.jar -text
 AccessTracking/web/WEB-INF/lib/ehcache.jar -text
 AccessTracking/web/WEB-INF/lib/ejb3-persistence.jar -text
 AccessTracking/web/WEB-INF/lib/hibernate-annotations.jar -text
+AccessTracking/web/WEB-INF/lib/hibernate-commons-annotations.jar -text
 AccessTracking/web/WEB-INF/lib/hibernate-entitymanager.jar -text
+AccessTracking/web/WEB-INF/lib/hibernate-validator.jar -text
 AccessTracking/web/WEB-INF/lib/hibernate3.jar -text
 AccessTracking/web/WEB-INF/lib/itext.jar -text
 AccessTracking/web/WEB-INF/lib/jasperreports.jar -text
@@ -749,6 +751,7 @@ AccessTracking/web/xava/images/.xvpics/encontrar.gif -text
 AccessTracking/web/xava/images/.xvpics/excel.gif -text svneol=unset#application/octet-stream
 AccessTracking/web/xava/images/.xvpics/new.gif -text
 AccessTracking/web/xava/images/.xvpics/pdf.gif -text
+AccessTracking/web/xava/images/.xvpics/photo.gif -text
 AccessTracking/web/xava/images/add.gif -text
 AccessTracking/web/xava/images/ascending-white.gif -text
 AccessTracking/web/xava/images/ascending.gif -text
