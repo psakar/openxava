@@ -5292,6 +5292,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/Invoice2Bean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/InvoiceBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/InvoiceDetail2Bean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/InvoiceDetailBean.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/IssueBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/Office2Bean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/OfficeBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/Product2Bean.java -text
@@ -5445,6 +5446,12 @@ OpenXavaTest/gen-src/org/openxava/test/model/InvoiceKey.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/InvoiceRemote.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/InvoiceUtil.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/InvoiceValue.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/IssueData.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/IssueHome.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/IssueKey.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/IssueRemote.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/IssueUtil.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/IssueValue.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/Office2Data.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/Office2Home.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/Office2Key.java -text
@@ -5593,6 +5600,7 @@ OpenXavaTest/gen-src/org/openxava/test/model/xejb/Invoice2CMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/InvoiceCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/InvoiceDetail2CMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/InvoiceDetailCMP.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/xejb/IssueCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/Office2CMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/OfficeCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/Product2CMP.java -text
