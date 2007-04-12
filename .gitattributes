@@ -3716,6 +3716,8 @@ OpenXavaDoc/i18n/Future_en.properties -text
 OpenXavaDoc/i18n/Future_es.properties -text
 OpenXavaDoc/i18n/Migration_en.properties -text
 OpenXavaDoc/i18n/Migration_es.properties -text
+OpenXavaDoc/i18n/Multischema_en.properties -text
+OpenXavaDoc/i18n/Multischema_es.properties -text
 OpenXavaDoc/i18n/News_en.properties -text
 OpenXavaDoc/i18n/News_es.properties -text
 OpenXavaDoc/i18n/ReferenceGuide_en.properties -text
@@ -3838,6 +3840,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/SearchByViewKeyAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/SearchExecutingOnChangeAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/SearchReadOnlyAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/SetCustomViewAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/SetDefaultSchemaAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/ShowRowsAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/SortColumnsAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/UpdateAction.html -text
@@ -3929,6 +3932,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SearchByViewKeyAction.htm
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SearchExecutingOnChangeAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SearchReadOnlyAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SetCustomViewAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SetDefaultSchemaAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ShowRowsAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SortColumnsAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/UpdateAction.html -text
@@ -4470,6 +4474,7 @@ OpenXavaDoc/web/apidocs/org/openxava/tests/package-summary.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tests/package-tree.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tests/package-use.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/Align.html -text
+OpenXavaDoc/web/apidocs/org/openxava/util/ArrayOneRowResultSetAdapter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/Assert.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/AssertException.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/CloneException.html -text
@@ -4510,6 +4515,7 @@ OpenXavaDoc/web/apidocs/org/openxava/util/XavaException.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/XavaPreferences.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/XavaResources.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/Align.html -text
+OpenXavaDoc/web/apidocs/org/openxava/util/class-use/ArrayOneRowResultSetAdapter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/Assert.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/AssertException.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/CloneException.html -text
@@ -4793,6 +4799,8 @@ OpenXavaDoc/web/images/websphere-detail-screenshot.jpg -text
 OpenXavaDoc/web/images/websphere-list-screenshot.jpg -text
 OpenXavaDoc/web/migration_en.html -text
 OpenXavaDoc/web/migration_es.html -text
+OpenXavaDoc/web/multischema_en.html -text
+OpenXavaDoc/web/multischema_es.html -text
 OpenXavaDoc/web/news_en.html -text
 OpenXavaDoc/web/news_es.html -text
 OpenXavaDoc/web/reference-guide_en.html -text
