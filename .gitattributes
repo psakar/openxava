@@ -3720,6 +3720,8 @@ OpenXavaDoc/i18n/Multischema_en.properties -text
 OpenXavaDoc/i18n/Multischema_es.properties -text
 OpenXavaDoc/i18n/News_en.properties -text
 OpenXavaDoc/i18n/News_es.properties -text
+OpenXavaDoc/i18n/Postgres_en.properties -text
+OpenXavaDoc/i18n/Postgres_es.properties -text
 OpenXavaDoc/i18n/ReferenceGuide_en.properties -text
 OpenXavaDoc/i18n/ReferenceGuide_es.properties -text
 OpenXavaDoc/i18n/References_en.properties -text
@@ -3743,6 +3745,7 @@ OpenXavaDoc/i18n/WebSphere_es.properties -text
 OpenXavaDoc/i18n/Wiki_en.properties -text
 OpenXavaDoc/i18n/Wiki_es.properties -text
 OpenXavaDoc/images/openxava.jpg -text
+OpenXavaDoc/postgres.odt -text
 OpenXavaDoc/reference-guide-chapters.sxd -text
 OpenXavaDoc/reference-guide.odt -text
 OpenXavaDoc/src/org/openxava/doc/HtmlPortlet.java -text
@@ -4791,6 +4794,12 @@ OpenXavaDoc/web/images/.xvpics/download.gif -text svneol=unset#application/octet
 OpenXavaDoc/web/images/builder.gif -text
 OpenXavaDoc/web/images/download.gif -text
 OpenXavaDoc/web/images/external_tools.gif -text
+OpenXavaDoc/web/images/postgres_html_4464c178.gif -text
+OpenXavaDoc/web/images/postgres_html_m12058e29.gif -text
+OpenXavaDoc/web/images/postgres_html_m330ff260.gif -text
+OpenXavaDoc/web/images/postgres_html_m583e39fa.gif -text
+OpenXavaDoc/web/images/postgres_html_m5c330aa8.png -text
+OpenXavaDoc/web/images/postgres_html_mb63c50c.gif -text
 OpenXavaDoc/web/images/run.gif -text
 OpenXavaDoc/web/images/stringbeans-detail1-screenshot.jpg -text
 OpenXavaDoc/web/images/stringbeans-detail2-screenshot.jpg -text
@@ -4803,6 +4812,9 @@ OpenXavaDoc/web/multischema_en.html -text
 OpenXavaDoc/web/multischema_es.html -text
 OpenXavaDoc/web/news_en.html -text
 OpenXavaDoc/web/news_es.html -text
+OpenXavaDoc/web/openxava-postgres_es.pdf -text
+OpenXavaDoc/web/postgres_en.html -text
+OpenXavaDoc/web/postgres_es.html -text
 OpenXavaDoc/web/reference-guide_en.html -text
 OpenXavaDoc/web/reference-guide_es.html -text
 OpenXavaDoc/web/references_en.html -text
