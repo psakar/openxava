@@ -946,7 +946,9 @@ MiEscuela/web/WEB-INF/lib/dom4j.jar -text
 MiEscuela/web/WEB-INF/lib/ehcache.jar -text
 MiEscuela/web/WEB-INF/lib/ejb3-persistence.jar -text
 MiEscuela/web/WEB-INF/lib/hibernate-annotations.jar -text
+MiEscuela/web/WEB-INF/lib/hibernate-commons-annotations.jar -text
 MiEscuela/web/WEB-INF/lib/hibernate-entitymanager.jar -text
+MiEscuela/web/WEB-INF/lib/hibernate-validator.jar -text
 MiEscuela/web/WEB-INF/lib/hibernate3.jar -text
 MiEscuela/web/WEB-INF/lib/itext.jar -text
 MiEscuela/web/WEB-INF/lib/jasperreports.jar -text
@@ -1542,6 +1544,7 @@ MiEscuela/web/xava/images/.xvpics/encontrar.gif -text
 MiEscuela/web/xava/images/.xvpics/excel.gif -text svneol=unset#application/octet-stream
 MiEscuela/web/xava/images/.xvpics/new.gif -text
 MiEscuela/web/xava/images/.xvpics/pdf.gif -text
+MiEscuela/web/xava/images/.xvpics/photo.gif -text
 MiEscuela/web/xava/images/add.gif -text
 MiEscuela/web/xava/images/ascending-white.gif -text
 MiEscuela/web/xava/images/ascending.gif -text
