@@ -1644,7 +1644,6 @@ MySchool/components/dtds/component.dtd -text
 MySchool/components/dtds/componente.dtd -text svneol=unset#application/octet-stream
 MySchool/data/my-school-db.properties -text
 MySchool/data/my-school-db.script -text svneol=unset#application/octet-stream
-MySchool/data/my-school-db2-400.script -text
 MySchool/data/my-school-ds.xml -text
 MySchool/filtered-files/GalleryImage.hbm.xml -text
 MySchool/filtered-files/MySchool-labels_ca.properties -text
@@ -1748,7 +1747,9 @@ MySchool/web/WEB-INF/lib/dom4j.jar -text
 MySchool/web/WEB-INF/lib/ehcache.jar -text
 MySchool/web/WEB-INF/lib/ejb3-persistence.jar -text
 MySchool/web/WEB-INF/lib/hibernate-annotations.jar -text
+MySchool/web/WEB-INF/lib/hibernate-commons-annotations.jar -text
 MySchool/web/WEB-INF/lib/hibernate-entitymanager.jar -text
+MySchool/web/WEB-INF/lib/hibernate-validator.jar -text
 MySchool/web/WEB-INF/lib/hibernate3.jar -text
 MySchool/web/WEB-INF/lib/itext.jar -text
 MySchool/web/WEB-INF/lib/jasperreports.jar -text
@@ -2344,6 +2345,7 @@ MySchool/web/xava/images/.xvpics/encontrar.gif -text
 MySchool/web/xava/images/.xvpics/excel.gif -text svneol=unset#application/octet-stream
 MySchool/web/xava/images/.xvpics/new.gif -text
 MySchool/web/xava/images/.xvpics/pdf.gif -text
+MySchool/web/xava/images/.xvpics/photo.gif -text
 MySchool/web/xava/images/add.gif -text
 MySchool/web/xava/images/ascending-white.gif -text
 MySchool/web/xava/images/ascending.gif -text
