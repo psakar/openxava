@@ -5010,7 +5010,6 @@ OpenXavaTest/build/hibernate/DeliveryPlace.hbm.xml -text
 OpenXavaTest/build/hibernate/DeliveryType.hbm.xml -text
 OpenXavaTest/build/hibernate/DrivingLicence.hbm.xml -text
 OpenXavaTest/build/hibernate/Family2.hbm.xml -text
-OpenXavaTest/build/hibernate/FilterBySubfamily.hbm.xml -text
 OpenXavaTest/build/hibernate/Formula.hbm.xml -text
 OpenXavaTest/build/hibernate/FormulaIngredient.hbm.xml -text
 OpenXavaTest/build/hibernate/Ingredient.hbm.xml -text
@@ -5106,7 +5105,6 @@ OpenXavaTest/filtered-files/Family.hbm.xml -text
 OpenXavaTest/filtered-files/Family.xml -text
 OpenXavaTest/filtered-files/Family2.hbm.xml -text
 OpenXavaTest/filtered-files/Family2.xml -text
-OpenXavaTest/filtered-files/FilterBySubfamily.hbm.xml -text
 OpenXavaTest/filtered-files/FilterBySubfamily.xml -text
 OpenXavaTest/filtered-files/Formula.hbm.xml -text
 OpenXavaTest/filtered-files/Formula.xml -text
@@ -7091,7 +7089,6 @@ OpenXavaTest/web/WEB-INF/classes/Family.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/Family.xml -text
 OpenXavaTest/web/WEB-INF/classes/Family2.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/Family2.xml -text
-OpenXavaTest/web/WEB-INF/classes/FilterBySubfamily.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/FilterBySubfamily.xml -text
 OpenXavaTest/web/WEB-INF/classes/Invoice.hbm.xml -text
 OpenXavaTest/web/WEB-INF/classes/Invoice.xml -text
