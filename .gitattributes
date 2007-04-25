@@ -3723,6 +3723,10 @@ OpenXavaDoc/i18n/Migration_en.properties -text
 OpenXavaDoc/i18n/Migration_es.properties -text
 OpenXavaDoc/i18n/Multischema_en.properties -text
 OpenXavaDoc/i18n/Multischema_es.properties -text
+OpenXavaDoc/i18n/NewForDevelopers_en.properties -text
+OpenXavaDoc/i18n/NewForDevelopers_es.properties -text
+OpenXavaDoc/i18n/NewIn213_en.properties -text
+OpenXavaDoc/i18n/NewIn213_es.properties -text
 OpenXavaDoc/i18n/News_en.properties -text
 OpenXavaDoc/i18n/News_es.properties -text
 OpenXavaDoc/i18n/Postgres_en.properties -text
@@ -4815,6 +4819,10 @@ OpenXavaDoc/web/migration_en.html -text
 OpenXavaDoc/web/migration_es.html -text
 OpenXavaDoc/web/multischema_en.html -text
 OpenXavaDoc/web/multischema_es.html -text
+OpenXavaDoc/web/new-2.1.3_en.html -text
+OpenXavaDoc/web/new-2.1.3_es.html -text
+OpenXavaDoc/web/new-for-developers_en.html -text
+OpenXavaDoc/web/new-for-developers_es.html -text
 OpenXavaDoc/web/news_en.html -text
 OpenXavaDoc/web/news_es.html -text
 OpenXavaDoc/web/openxava-postgres_es.pdf -text
