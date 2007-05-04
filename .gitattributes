@@ -925,7 +925,6 @@ MiEscuela/properties/xava.properties -text
 MiEscuela/src/org/openxava/escuela/pruebas/PruebaProfesores.java -text
 MiEscuela/tomcat-hypersonic.properties -text
 MiEscuela/web/META-INF/MANIFEST.MF -text
-MiEscuela/web/WEB-INF/classes/EtiquetasMiEscuela.properties -text
 MiEscuela/web/WEB-INF/classes/Profesor.hbm.xml -text
 MiEscuela/web/WEB-INF/classes/TabUserPreferences.hbm.xml -text
 MiEscuela/web/WEB-INF/classes/datasource.properties -text
