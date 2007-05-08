@@ -2902,6 +2902,7 @@ OpenXava/src/org/openxava/util/ResourceManagerI18n.java -text
 OpenXava/src/org/openxava/util/Resources.java -text
 OpenXava/src/org/openxava/util/Server.java -text
 OpenXava/src/org/openxava/util/Strings.java -text
+OpenXava/src/org/openxava/util/SystemException.java -text
 OpenXava/src/org/openxava/util/TableModels.java -text
 OpenXava/src/org/openxava/util/Users.java -text
 OpenXava/src/org/openxava/util/XCollections.java -text
