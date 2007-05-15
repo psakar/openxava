@@ -2799,6 +2799,7 @@ OpenXava/src/org/openxava/mapping/xmlparse/ConvertersParser.java -text
 OpenXava/src/org/openxava/mapping/xmlparse/MappingParser.java -text
 OpenXava/src/org/openxava/model/IModel.java -text
 OpenXava/src/org/openxava/model/MapFacade.java -text
+OpenXava/src/org/openxava/model/PersistenceFacade.java -text
 OpenXava/src/org/openxava/model/impl/EJBPersistenceProvider.java -text
 OpenXava/src/org/openxava/model/impl/HibernatePersistenceProvider.java -text
 OpenXava/src/org/openxava/model/impl/IMapFacadeImpl.java -text
@@ -2810,6 +2811,7 @@ OpenXava/src/org/openxava/model/impl/MapFacadeRemote.java -text
 OpenXava/src/org/openxava/model/impl/POJOPersistenceProviderBase.java -text
 OpenXava/src/org/openxava/model/impl/POJOPropertiesContainerAdapter.java -text
 OpenXava/src/org/openxava/model/impl/PersistenceProviderException.java -text
+OpenXava/src/org/openxava/model/impl/PersistenceProviderFactory.java -text
 OpenXava/src/org/openxava/model/meta/DefaultSize.java -text
 OpenXava/src/org/openxava/model/meta/MetaAggregate.java -text
 OpenXava/src/org/openxava/model/meta/MetaAggregateForCollection.java -text
@@ -2870,7 +2872,6 @@ OpenXava/src/org/openxava/tab/meta/MetaTab.java -text
 OpenXava/src/org/openxava/tab/meta/xmlparse/TabParser.java -text
 OpenXava/src/org/openxava/tests/ModuleTestBase.java -text
 OpenXava/src/org/openxava/util/Align.java -text
-OpenXava/src/org/openxava/util/ArrayOneRowResultSetAdapter.java -text
 OpenXava/src/org/openxava/util/Assert.java -text
 OpenXava/src/org/openxava/util/AssertException.java -text
 OpenXava/src/org/openxava/util/CloneException.java -text
