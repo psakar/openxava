@@ -2660,6 +2660,7 @@ OpenXava/src/org/openxava/actions/SetCustomViewAction.java -text
 OpenXava/src/org/openxava/actions/SetDefaultSchemaAction.java -text
 OpenXava/src/org/openxava/actions/ShowRowsAction.java -text
 OpenXava/src/org/openxava/actions/SortColumnsAction.java -text
+OpenXava/src/org/openxava/actions/TabBaseAction.java -text
 OpenXava/src/org/openxava/actions/UpdateAction.java -text
 OpenXava/src/org/openxava/actions/UpdateReferenceBaseAction.java -text
 OpenXava/src/org/openxava/actions/ViewBaseAction.java -text
@@ -2754,6 +2755,9 @@ OpenXava/src/org/openxava/ejbx/JndiContext.java -text
 OpenXava/src/org/openxava/ejbx/JndiContextProvider.java -text
 OpenXava/src/org/openxava/ejbx/SessionBase.java -text
 OpenXava/src/org/openxava/filters/BaseContextFilter.java -text
+OpenXava/src/org/openxava/filters/CollectionInViewBaseFilter.java -text
+OpenXava/src/org/openxava/filters/CollectionInViewFilter.java -text
+OpenXava/src/org/openxava/filters/CollectionWithConditionInViewFilter.java -text
 OpenXava/src/org/openxava/filters/DateToSqlDateFilter.java -text
 OpenXava/src/org/openxava/filters/FilterException.java -text
 OpenXava/src/org/openxava/filters/IFilter.java -text
@@ -3004,7 +3008,9 @@ OpenXava/web/WEB-INF/web.xml -text
 OpenXava/web/addColumns.jsp -text
 OpenXava/web/bottomButtons.jsp -text
 OpenXava/web/buttonBar.jsp -text
+OpenXava/web/calculatedCollectionList.jsp -text
 OpenXava/web/collection.jsp -text
+OpenXava/web/collectionList.jsp -text
 OpenXava/web/comparatorsBooleanCombo.jsp -text
 OpenXava/web/comparatorsCombo.jsp -text
 OpenXava/web/comparatorsValidValuesCombo.jsp -text
@@ -3596,6 +3602,7 @@ OpenXava/web/images/edit-text.gif -text
 OpenXava/web/images/edit.gif -text
 OpenXava/web/images/error.gif -text
 OpenXava/web/images/excel.gif -text
+OpenXava/web/images/filter.gif -text
 OpenXava/web/images/find.gif -text
 OpenXava/web/images/home.gif -text
 OpenXava/web/images/html/skins/Jetspeed/tableft.gif -text
@@ -7041,6 +7048,7 @@ OpenXavaTest/src/org/openxava/test/tests/CustomersTwoSellersInListTest.java -tex
 OpenXavaTest/src/org/openxava/test/tests/CustomersTwoSellersNumberInListTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomersWithSectionTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DeliveriesGroupsInSectionsTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/DeliveriesRemarks2002Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/DeliveriesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DeliveryTypesJSPTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DeliveryTypesTest.java -text
@@ -8464,7 +8472,9 @@ OpenXavaTest/web/public/myPublicJSP.jsp -text
 OpenXavaTest/web/xava/addColumns.jsp -text
 OpenXavaTest/web/xava/bottomButtons.jsp -text
 OpenXavaTest/web/xava/buttonBar.jsp -text
+OpenXavaTest/web/xava/calculatedCollectionList.jsp -text
 OpenXavaTest/web/xava/collection.jsp -text
+OpenXavaTest/web/xava/collectionList.jsp -text
 OpenXavaTest/web/xava/comparatorsBooleanCombo.jsp -text
 OpenXavaTest/web/xava/comparatorsCombo.jsp -text
 OpenXavaTest/web/xava/comparatorsValidValuesCombo.jsp -text
@@ -9059,6 +9069,7 @@ OpenXavaTest/web/xava/images/edit-text.gif -text
 OpenXavaTest/web/xava/images/edit.gif -text
 OpenXavaTest/web/xava/images/error.gif -text
 OpenXavaTest/web/xava/images/excel.gif -text
+OpenXavaTest/web/xava/images/filter.gif -text
 OpenXavaTest/web/xava/images/find.gif -text
 OpenXavaTest/web/xava/images/home.gif -text
 OpenXavaTest/web/xava/images/html/skins/Jetspeed/tableft.gif -text
@@ -9095,7 +9106,6 @@ OpenXavaTest/web/xava/module.jsp -text
 OpenXavaTest/web/xava/portlet.jsp -text
 OpenXavaTest/web/xava/referenceSearch.jsp -text
 OpenXavaTest/web/xava/script.jsp -text
-OpenXavaTest/web/xava/sections-original.jsp -text
 OpenXavaTest/web/xava/sections.jsp -text
 OpenXavaTest/web/xava/style/default.css -text svneol=unset#application/octet-stream
 OpenXavaTest/web/xava/style/jetspeed.css -text svneol=unset#application/octet-stream
