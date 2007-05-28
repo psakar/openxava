@@ -4832,6 +4832,8 @@ OpenXavaDoc/web/multischema_en.html -text
 OpenXavaDoc/web/multischema_es.html -text
 OpenXavaDoc/web/new-2.1.3_en.html -text
 OpenXavaDoc/web/new-2.1.3_es.html -text
+OpenXavaDoc/web/new-2.1.4_en.html -text
+OpenXavaDoc/web/new-2.1.4_es.html -text
 OpenXavaDoc/web/new-for-developers_en.html -text
 OpenXavaDoc/web/new-for-developers_es.html -text
 OpenXavaDoc/web/news_en.html -text
@@ -9099,6 +9101,7 @@ OpenXavaTest/web/xava/images/restore.gif -text
 OpenXavaTest/web/xava/images/save.gif -text
 OpenXavaTest/web/xava/images/search.gif -text
 OpenXavaTest/web/xava/images/sort.gif -text
+OpenXavaTest/web/xava/images/view.gif -text
 OpenXavaTest/web/xava/imports.jsp -text
 OpenXavaTest/web/xava/jasperReport.jsp -text
 OpenXavaTest/web/xava/languages.jsp -text
