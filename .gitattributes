@@ -2597,6 +2597,7 @@ OpenXava/src/org/openxava/actions/EditGalleryAction.java -text
 OpenXava/src/org/openxava/actions/EmptyAction.java -text
 OpenXava/src/org/openxava/actions/FilterAction.java -text
 OpenXava/src/org/openxava/actions/GenerateReportAction.java -text
+OpenXava/src/org/openxava/actions/GoAddColumnsAction.java -text
 OpenXava/src/org/openxava/actions/GoDetailAction.java -text
 OpenXava/src/org/openxava/actions/GoFirstAction.java -text
 OpenXava/src/org/openxava/actions/GoListAction.java -text
@@ -3630,6 +3631,7 @@ OpenXava/web/images/restore.gif -text
 OpenXava/web/images/save.gif -text
 OpenXava/web/images/search.gif -text
 OpenXava/web/images/sort.gif -text
+OpenXava/web/images/view.gif -text
 OpenXava/web/imports.jsp -text
 OpenXava/web/jasperReport.jsp -text
 OpenXava/web/languages.jsp -text
