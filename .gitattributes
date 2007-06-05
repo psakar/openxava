@@ -2971,6 +2971,7 @@ OpenXava/src/org/openxava/web/servlets/Servlets.java -text
 OpenXava/src/org/openxava/web/style/JetSpeed2Style.java -text
 OpenXava/src/org/openxava/web/style/LiferayStyle.java -text
 OpenXava/src/org/openxava/web/style/Style.java -text
+OpenXava/src/org/openxava/web/style/WebSpherePortal6Style.java -text
 OpenXava/src/org/openxava/web/style/WebSpherePortalStyle.java -text
 OpenXava/src/org/openxava/web/taglib/ActionTag.java -text
 OpenXava/src/org/openxava/web/taglib/ButtonTag.java -text
