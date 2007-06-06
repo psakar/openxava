@@ -5041,6 +5041,7 @@ OpenXavaTest/build/hibernate/AdditionalDetail.hbm.xml -text
 OpenXavaTest/build/hibernate/Carrier.hbm.xml -text
 OpenXavaTest/build/hibernate/Clerk.hbm.xml -text
 OpenXavaTest/build/hibernate/Color.hbm.xml -text
+OpenXavaTest/build/hibernate/Course.hbm.xml -text
 OpenXavaTest/build/hibernate/Customer.hbm.xml -text
 OpenXavaTest/build/hibernate/CustomerContactPerson.hbm.xml -text
 OpenXavaTest/build/hibernate/CustomerState.hbm.xml -text
@@ -5083,6 +5084,7 @@ OpenXavaTest/build/j2ee/META-INF/application.xml -text
 OpenXavaTest/components/Carrier.xml -text
 OpenXavaTest/components/Clerk.xml -text
 OpenXavaTest/components/Color.xml -text
+OpenXavaTest/components/Course.xml -text
 OpenXavaTest/components/Customer.xml -text
 OpenXavaTest/components/CustomerContactPerson.xml -text
 OpenXavaTest/components/Delivery.xml -text
@@ -5127,6 +5129,8 @@ OpenXavaTest/filtered-files/Clerk.hbm.xml -text
 OpenXavaTest/filtered-files/Clerk.xml -text
 OpenXavaTest/filtered-files/Color.hbm.xml -text
 OpenXavaTest/filtered-files/Color.xml -text
+OpenXavaTest/filtered-files/Course.hbm.xml -text
+OpenXavaTest/filtered-files/Course.xml -text
 OpenXavaTest/filtered-files/Customer.hbm.xml -text
 OpenXavaTest/filtered-files/Customer.xml -text
 OpenXavaTest/filtered-files/CustomerContactPerson.hbm.xml -text
@@ -5251,6 +5255,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/Address.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Carrier.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Clerk.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Color.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Course.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Customer.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/CustomerContactPerson.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/CustomerState.java -text
@@ -5268,6 +5273,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/IAdditionalDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ICarrier.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IClerk.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IColor.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ICourse.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ICustomer.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ICustomerContactPerson.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ICustomerState.java -text
@@ -7015,6 +7021,7 @@ OpenXavaTest/src/org/openxava/test/calculators/AdviceCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/AmountsSumCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/CarrierRemarksCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/ConsiderableCalculator.java -text
+OpenXavaTest/src/org/openxava/test/calculators/CourseNumberCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/CustomerInvoiceDiscountCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/CustomerTypeInvoiceDiscountCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/DefaultProductPriceCalculator.java -text
