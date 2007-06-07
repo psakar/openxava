@@ -3578,6 +3578,7 @@ OpenXava/web/editors/gallery.jsp -text
 OpenXava/web/editors/galleryEditor.jsp -text
 OpenXava/web/editors/htmlEditor.jsp -text
 OpenXava/web/editors/imageEditor.jsp -text
+OpenXava/web/editors/imageLabelEditor.jsp -text
 OpenXava/web/editors/labelEditor.jsp -text
 OpenXava/web/editors/moneyEditor.jsp -text
 OpenXava/web/editors/notAvailableEditor.jsp -text
@@ -4853,6 +4854,8 @@ OpenXavaDoc/web/new-2.1.3_en.html -text
 OpenXavaDoc/web/new-2.1.3_es.html -text
 OpenXavaDoc/web/new-2.1.4_en.html -text
 OpenXavaDoc/web/new-2.1.4_es.html -text
+OpenXavaDoc/web/new-2.1.5_en.html -text
+OpenXavaDoc/web/new-2.1.5_es.html -text
 OpenXavaDoc/web/new-for-developers_en.html -text
 OpenXavaDoc/web/new-for-developers_es.html -text
 OpenXavaDoc/web/news_en.html -text
@@ -7020,6 +7023,7 @@ OpenXavaTest/src/org/openxava/test/actions/ViewProductFromInvoiceDetailAction.ja
 OpenXavaTest/src/org/openxava/test/calculators/AdviceCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/AmountsSumCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/CarrierRemarksCalculator.java -text
+OpenXavaTest/src/org/openxava/test/calculators/ColorSampleCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/ConsiderableCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/CourseNumberCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/CustomerInvoiceDiscountCalculator.java -text
@@ -9099,6 +9103,7 @@ OpenXavaTest/web/xava/editors/gallery.jsp -text
 OpenXavaTest/web/xava/editors/galleryEditor.jsp -text
 OpenXavaTest/web/xava/editors/htmlEditor.jsp -text
 OpenXavaTest/web/xava/editors/imageEditor.jsp -text
+OpenXavaTest/web/xava/editors/imageLabelEditor.jsp -text
 OpenXavaTest/web/xava/editors/labelEditor.jsp -text
 OpenXavaTest/web/xava/editors/moneyEditor.jsp -text
 OpenXavaTest/web/xava/editors/notAvailableEditor.jsp -text
@@ -9109,6 +9114,8 @@ OpenXavaTest/web/xava/editors/textEditor.jsp -text
 OpenXavaTest/web/xava/editors/validValuesEditor.jsp -text
 OpenXavaTest/web/xava/errors.jsp -text
 OpenXavaTest/web/xava/htmlTagsEditor.jsp -text
+OpenXavaTest/web/xava/images/.xvpics/labelImage_black.gif -text
+OpenXavaTest/web/xava/images/.xvpics/labelImage_red.gif -text svneol=unset#application/octet-stream
 OpenXavaTest/web/xava/images/.xvpics/new.gif -text
 OpenXavaTest/web/xava/images/.xvpics/pdf.gif -text
 OpenXavaTest/web/xava/images/.xvpics/photo.gif -text
@@ -9136,6 +9143,8 @@ OpenXavaTest/web/xava/images/html/skins/Jetspeed/tabmiddle.gif -text
 OpenXavaTest/web/xava/images/html/skins/Jetspeed/tabmiddle_low.gif -text
 OpenXavaTest/web/xava/images/html/skins/Jetspeed/tabright.gif -text
 OpenXavaTest/web/xava/images/html/skins/Jetspeed/tabright_low.gif -text
+OpenXavaTest/web/xava/images/imageLabel_BLACK.gif -text
+OpenXavaTest/web/xava/images/imageLabel_RED.gif -text
 OpenXavaTest/web/xava/images/key.gif -text
 OpenXavaTest/web/xava/images/maximize.gif -text
 OpenXavaTest/web/xava/images/minimize.gif -text
