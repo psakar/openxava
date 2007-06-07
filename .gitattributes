@@ -3705,6 +3705,7 @@ OpenXavaDoc/anagrams/openxava.gif -text
 OpenXavaDoc/anagrams/openxava.jpg -text
 OpenXavaDoc/build.xml -text
 OpenXavaDoc/common/snapshot.html -text
+OpenXavaDoc/guia-mi-primer-proyecto-openxava.odt -text
 OpenXavaDoc/guia-referencia-capitulos.sxd -text
 OpenXavaDoc/guia-referencia.odt -text
 OpenXavaDoc/i18n/BusinessComponent_de.properties -text
@@ -3736,6 +3737,8 @@ OpenXavaDoc/i18n/Migration_en.properties -text
 OpenXavaDoc/i18n/Migration_es.properties -text
 OpenXavaDoc/i18n/Multischema_en.properties -text
 OpenXavaDoc/i18n/Multischema_es.properties -text
+OpenXavaDoc/i18n/MyFirstProject_en.properties -text
+OpenXavaDoc/i18n/MyFirstProject_es.properties -text
 OpenXavaDoc/i18n/NewForDevelopers_en.properties -text
 OpenXavaDoc/i18n/NewForDevelopers_es.properties -text
 OpenXavaDoc/i18n/NewIn213_en.properties -text
@@ -4830,6 +4833,7 @@ OpenXavaDoc/web/forums_en.html -text
 OpenXavaDoc/web/forums_es.html -text
 OpenXavaDoc/web/future_en.html -text
 OpenXavaDoc/web/future_es.html -text
+OpenXavaDoc/web/guia-mi-primer-proyecto-openxava.pdf -text
 OpenXavaDoc/web/images/.xvpics/download.gif -text svneol=unset#application/octet-stream
 OpenXavaDoc/web/images/builder.gif -text
 OpenXavaDoc/web/images/download.gif -text
@@ -4850,6 +4854,8 @@ OpenXavaDoc/web/migration_en.html -text
 OpenXavaDoc/web/migration_es.html -text
 OpenXavaDoc/web/multischema_en.html -text
 OpenXavaDoc/web/multischema_es.html -text
+OpenXavaDoc/web/my-first-ox-project-guide_en.html -text
+OpenXavaDoc/web/my-first-ox-project-guide_es.html -text
 OpenXavaDoc/web/new-2.1.3_en.html -text
 OpenXavaDoc/web/new-2.1.3_es.html -text
 OpenXavaDoc/web/new-2.1.4_en.html -text
