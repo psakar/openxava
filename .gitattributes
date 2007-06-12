@@ -3585,6 +3585,7 @@ OpenXava/web/editors/notAvailableEditor.jsp -text
 OpenXava/web/editors/radioButtonEditor.jsp -text
 OpenXava/web/editors/textAreaEditor.jsp -text
 OpenXava/web/editors/textEditor.jsp -text
+OpenXava/web/editors/validValueEditorCommon.jsp -text
 OpenXava/web/editors/validValuesEditor.jsp -text
 OpenXava/web/errors.jsp -text
 OpenXava/web/htmlTagsEditor.jsp -text
