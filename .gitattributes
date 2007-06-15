@@ -5718,6 +5718,7 @@ OpenXavaTest/i18n/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/i18n/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/i18n/OpenXavaTest-messages_es.properties -text
 OpenXavaTest/i18n/OpenXavaTest-messages_fr.properties -text
+OpenXavaTest/i18n/portlets/CarriersWithSpecialSearch_bg.properties -text
 OpenXavaTest/i18n/portlets/CarriersWithSpecialSearch_ca.properties -text
 OpenXavaTest/i18n/portlets/CarriersWithSpecialSearch_de.properties -text
 OpenXavaTest/i18n/portlets/CarriersWithSpecialSearch_en.properties -text
@@ -5732,6 +5733,7 @@ OpenXavaTest/i18n/portlets/CarriersWithSpecialSearch_pl.properties -text
 OpenXavaTest/i18n/portlets/CarriersWithSpecialSearch_pt.properties -text
 OpenXavaTest/i18n/portlets/CarriersWithSpecialSearch_sv.properties -text
 OpenXavaTest/i18n/portlets/CarriersWithSpecialSearch_zh.properties -text
+OpenXavaTest/i18n/portlets/Carriers_bg.properties -text
 OpenXavaTest/i18n/portlets/Carriers_ca.properties -text
 OpenXavaTest/i18n/portlets/Carriers_de.properties -text
 OpenXavaTest/i18n/portlets/Carriers_en.properties -text
@@ -5746,6 +5748,7 @@ OpenXavaTest/i18n/portlets/Carriers_pl.properties -text
 OpenXavaTest/i18n/portlets/Carriers_pt.properties -text
 OpenXavaTest/i18n/portlets/Carriers_sv.properties -text
 OpenXavaTest/i18n/portlets/Carriers_zh.properties -text
+OpenXavaTest/i18n/portlets/ChangeActiveYear_bg.properties -text
 OpenXavaTest/i18n/portlets/ChangeActiveYear_ca.properties -text
 OpenXavaTest/i18n/portlets/ChangeActiveYear_de.properties -text
 OpenXavaTest/i18n/portlets/ChangeActiveYear_en.properties -text
@@ -5760,6 +5763,7 @@ OpenXavaTest/i18n/portlets/ChangeActiveYear_pl.properties -text
 OpenXavaTest/i18n/portlets/ChangeActiveYear_pt.properties -text
 OpenXavaTest/i18n/portlets/ChangeActiveYear_sv.properties -text
 OpenXavaTest/i18n/portlets/ChangeActiveYear_zh.properties -text
+OpenXavaTest/i18n/portlets/ChangeProductsPrice2_bg.properties -text
 OpenXavaTest/i18n/portlets/ChangeProductsPrice2_ca.properties -text
 OpenXavaTest/i18n/portlets/ChangeProductsPrice2_de.properties -text
 OpenXavaTest/i18n/portlets/ChangeProductsPrice2_en.properties -text
@@ -5774,6 +5778,7 @@ OpenXavaTest/i18n/portlets/ChangeProductsPrice2_pl.properties -text
 OpenXavaTest/i18n/portlets/ChangeProductsPrice2_pt.properties -text
 OpenXavaTest/i18n/portlets/ChangeProductsPrice2_sv.properties -text
 OpenXavaTest/i18n/portlets/ChangeProductsPrice2_zh.properties -text
+OpenXavaTest/i18n/portlets/ChangeProductsPrice_bg.properties -text
 OpenXavaTest/i18n/portlets/ChangeProductsPrice_ca.properties -text
 OpenXavaTest/i18n/portlets/ChangeProductsPrice_de.properties -text
 OpenXavaTest/i18n/portlets/ChangeProductsPrice_en.properties -text
@@ -5788,6 +5793,7 @@ OpenXavaTest/i18n/portlets/ChangeProductsPrice_pl.properties -text
 OpenXavaTest/i18n/portlets/ChangeProductsPrice_pt.properties -text
 OpenXavaTest/i18n/portlets/ChangeProductsPrice_sv.properties -text
 OpenXavaTest/i18n/portlets/ChangeProductsPrice_zh.properties -text
+OpenXavaTest/i18n/portlets/Clerks_bg.properties -text
 OpenXavaTest/i18n/portlets/Clerks_ca.properties -text
 OpenXavaTest/i18n/portlets/Clerks_de.properties -text
 OpenXavaTest/i18n/portlets/Clerks_en.properties -text
@@ -5802,6 +5808,7 @@ OpenXavaTest/i18n/portlets/Clerks_pl.properties -text
 OpenXavaTest/i18n/portlets/Clerks_pt.properties -text
 OpenXavaTest/i18n/portlets/Clerks_sv.properties -text
 OpenXavaTest/i18n/portlets/Clerks_zh.properties -text
+OpenXavaTest/i18n/portlets/Colors_bg.properties -text
 OpenXavaTest/i18n/portlets/Colors_ca.properties -text
 OpenXavaTest/i18n/portlets/Colors_de.properties -text
 OpenXavaTest/i18n/portlets/Colors_en.properties -text
@@ -5816,6 +5823,7 @@ OpenXavaTest/i18n/portlets/Colors_pl.properties -text
 OpenXavaTest/i18n/portlets/Colors_pt.properties -text
 OpenXavaTest/i18n/portlets/Colors_sv.properties -text
 OpenXavaTest/i18n/portlets/Colors_zh.properties -text
+OpenXavaTest/i18n/portlets/CurrentInvoicesSelect_bg.properties -text
 OpenXavaTest/i18n/portlets/CurrentInvoicesSelect_ca.properties -text
 OpenXavaTest/i18n/portlets/CurrentInvoicesSelect_de.properties -text
 OpenXavaTest/i18n/portlets/CurrentInvoicesSelect_en.properties -text
@@ -5830,6 +5838,7 @@ OpenXavaTest/i18n/portlets/CurrentInvoicesSelect_pl.properties -text
 OpenXavaTest/i18n/portlets/CurrentInvoicesSelect_pt.properties -text
 OpenXavaTest/i18n/portlets/CurrentInvoicesSelect_sv.properties -text
 OpenXavaTest/i18n/portlets/CurrentInvoicesSelect_zh.properties -text
+OpenXavaTest/i18n/portlets/CurrentInvoices_bg.properties -text
 OpenXavaTest/i18n/portlets/CurrentInvoices_ca.properties -text
 OpenXavaTest/i18n/portlets/CurrentInvoices_de.properties -text
 OpenXavaTest/i18n/portlets/CurrentInvoices_en.properties -text
@@ -5844,6 +5853,7 @@ OpenXavaTest/i18n/portlets/CurrentInvoices_pl.properties -text
 OpenXavaTest/i18n/portlets/CurrentInvoices_pt.properties -text
 OpenXavaTest/i18n/portlets/CurrentInvoices_sv.properties -text
 OpenXavaTest/i18n/portlets/CurrentInvoices_zh.properties -text
+OpenXavaTest/i18n/portlets/CustomerContactPersonsAsAggregate3Levels_bg.properties -text
 OpenXavaTest/i18n/portlets/CustomerContactPersonsAsAggregate3Levels_ca.properties -text
 OpenXavaTest/i18n/portlets/CustomerContactPersonsAsAggregate3Levels_de.properties -text
 OpenXavaTest/i18n/portlets/CustomerContactPersonsAsAggregate3Levels_en.properties -text
@@ -5858,6 +5868,7 @@ OpenXavaTest/i18n/portlets/CustomerContactPersonsAsAggregate3Levels_pl.propertie
 OpenXavaTest/i18n/portlets/CustomerContactPersonsAsAggregate3Levels_pt.properties -text
 OpenXavaTest/i18n/portlets/CustomerContactPersonsAsAggregate3Levels_sv.properties -text
 OpenXavaTest/i18n/portlets/CustomerContactPersonsAsAggregate3Levels_zh.properties -text
+OpenXavaTest/i18n/portlets/CustomerContactPersons_bg.properties -text
 OpenXavaTest/i18n/portlets/CustomerContactPersons_ca.properties -text
 OpenXavaTest/i18n/portlets/CustomerContactPersons_de.properties -text
 OpenXavaTest/i18n/portlets/CustomerContactPersons_en.properties -text
@@ -5872,6 +5883,7 @@ OpenXavaTest/i18n/portlets/CustomerContactPersons_pl.properties -text
 OpenXavaTest/i18n/portlets/CustomerContactPersons_pt.properties -text
 OpenXavaTest/i18n/portlets/CustomerContactPersons_sv.properties -text
 OpenXavaTest/i18n/portlets/CustomerContactPersons_zh.properties -text
+OpenXavaTest/i18n/portlets/CustomerInvoices_bg.properties -text
 OpenXavaTest/i18n/portlets/CustomerInvoices_ca.properties -text
 OpenXavaTest/i18n/portlets/CustomerInvoices_de.properties -text
 OpenXavaTest/i18n/portlets/CustomerInvoices_en.properties -text
@@ -5886,6 +5898,7 @@ OpenXavaTest/i18n/portlets/CustomerInvoices_pl.properties -text
 OpenXavaTest/i18n/portlets/CustomerInvoices_pt.properties -text
 OpenXavaTest/i18n/portlets/CustomerInvoices_sv.properties -text
 OpenXavaTest/i18n/portlets/CustomerInvoices_zh.properties -text
+OpenXavaTest/i18n/portlets/CustomersNewOnInitInherited_bg.properties -text
 OpenXavaTest/i18n/portlets/CustomersNewOnInitInherited_ca.properties -text
 OpenXavaTest/i18n/portlets/CustomersNewOnInitInherited_de.properties -text
 OpenXavaTest/i18n/portlets/CustomersNewOnInitInherited_en.properties -text
@@ -5900,6 +5913,7 @@ OpenXavaTest/i18n/portlets/CustomersNewOnInitInherited_pl.properties -text
 OpenXavaTest/i18n/portlets/CustomersNewOnInitInherited_pt.properties -text
 OpenXavaTest/i18n/portlets/CustomersNewOnInitInherited_sv.properties -text
 OpenXavaTest/i18n/portlets/CustomersNewOnInitInherited_zh.properties -text
+OpenXavaTest/i18n/portlets/CustomersNewOnInit_bg.properties -text
 OpenXavaTest/i18n/portlets/CustomersNewOnInit_ca.properties -text
 OpenXavaTest/i18n/portlets/CustomersNewOnInit_de.properties -text
 OpenXavaTest/i18n/portlets/CustomersNewOnInit_en.properties -text
@@ -5914,6 +5928,7 @@ OpenXavaTest/i18n/portlets/CustomersNewOnInit_pl.properties -text
 OpenXavaTest/i18n/portlets/CustomersNewOnInit_pt.properties -text
 OpenXavaTest/i18n/portlets/CustomersNewOnInit_sv.properties -text
 OpenXavaTest/i18n/portlets/CustomersNewOnInit_zh.properties -text
+OpenXavaTest/i18n/portlets/CustomersRadioButton_bg.properties -text
 OpenXavaTest/i18n/portlets/CustomersRadioButton_ca.properties -text
 OpenXavaTest/i18n/portlets/CustomersRadioButton_de.properties -text
 OpenXavaTest/i18n/portlets/CustomersRadioButton_en.properties -text
@@ -5928,6 +5943,7 @@ OpenXavaTest/i18n/portlets/CustomersRadioButton_pl.properties -text
 OpenXavaTest/i18n/portlets/CustomersRadioButton_pt.properties -text
 OpenXavaTest/i18n/portlets/CustomersRadioButton_sv.properties -text
 OpenXavaTest/i18n/portlets/CustomersRadioButton_zh.properties -text
+OpenXavaTest/i18n/portlets/CustomersReadOnly_bg.properties -text
 OpenXavaTest/i18n/portlets/CustomersReadOnly_ca.properties -text
 OpenXavaTest/i18n/portlets/CustomersReadOnly_de.properties -text
 OpenXavaTest/i18n/portlets/CustomersReadOnly_en.properties -text
@@ -5942,6 +5958,7 @@ OpenXavaTest/i18n/portlets/CustomersReadOnly_pl.properties -text
 OpenXavaTest/i18n/portlets/CustomersReadOnly_pt.properties -text
 OpenXavaTest/i18n/portlets/CustomersReadOnly_sv.properties -text
 OpenXavaTest/i18n/portlets/CustomersReadOnly_zh.properties -text
+OpenXavaTest/i18n/portlets/CustomersSellerAsAggregate_bg.properties -text
 OpenXavaTest/i18n/portlets/CustomersSellerAsAggregate_ca.properties -text
 OpenXavaTest/i18n/portlets/CustomersSellerAsAggregate_de.properties -text
 OpenXavaTest/i18n/portlets/CustomersSellerAsAggregate_en.properties -text
@@ -5956,6 +5973,7 @@ OpenXavaTest/i18n/portlets/CustomersSellerAsAggregate_pl.properties -text
 OpenXavaTest/i18n/portlets/CustomersSellerAsAggregate_pt.properties -text
 OpenXavaTest/i18n/portlets/CustomersSellerAsAggregate_sv.properties -text
 OpenXavaTest/i18n/portlets/CustomersSellerAsAggregate_zh.properties -text
+OpenXavaTest/i18n/portlets/CustomersSimple_bg.properties -text
 OpenXavaTest/i18n/portlets/CustomersSimple_ca.properties -text
 OpenXavaTest/i18n/portlets/CustomersSimple_de.properties -text
 OpenXavaTest/i18n/portlets/CustomersSimple_en.properties -text
@@ -5970,6 +5988,7 @@ OpenXavaTest/i18n/portlets/CustomersSimple_pl.properties -text
 OpenXavaTest/i18n/portlets/CustomersSimple_pt.properties -text
 OpenXavaTest/i18n/portlets/CustomersSimple_sv.properties -text
 OpenXavaTest/i18n/portlets/CustomersSimple_zh.properties -text
+OpenXavaTest/i18n/portlets/CustomersSomeMembersReadOnly_bg.properties -text
 OpenXavaTest/i18n/portlets/CustomersSomeMembersReadOnly_ca.properties -text
 OpenXavaTest/i18n/portlets/CustomersSomeMembersReadOnly_de.properties -text
 OpenXavaTest/i18n/portlets/CustomersSomeMembersReadOnly_en.properties -text
@@ -5984,6 +6003,7 @@ OpenXavaTest/i18n/portlets/CustomersSomeMembersReadOnly_pl.properties -text
 OpenXavaTest/i18n/portlets/CustomersSomeMembersReadOnly_pt.properties -text
 OpenXavaTest/i18n/portlets/CustomersSomeMembersReadOnly_sv.properties -text
 OpenXavaTest/i18n/portlets/CustomersSomeMembersReadOnly_zh.properties -text
+OpenXavaTest/i18n/portlets/CustomersTwoSellersInList_bg.properties -text
 OpenXavaTest/i18n/portlets/CustomersTwoSellersInList_ca.properties -text
 OpenXavaTest/i18n/portlets/CustomersTwoSellersInList_de.properties -text
 OpenXavaTest/i18n/portlets/CustomersTwoSellersInList_en.properties -text
@@ -5998,6 +6018,7 @@ OpenXavaTest/i18n/portlets/CustomersTwoSellersInList_pl.properties -text
 OpenXavaTest/i18n/portlets/CustomersTwoSellersInList_pt.properties -text
 OpenXavaTest/i18n/portlets/CustomersTwoSellersInList_sv.properties -text
 OpenXavaTest/i18n/portlets/CustomersTwoSellersInList_zh.properties -text
+OpenXavaTest/i18n/portlets/CustomersTwoSellersNumberInList_bg.properties -text
 OpenXavaTest/i18n/portlets/CustomersTwoSellersNumberInList_ca.properties -text
 OpenXavaTest/i18n/portlets/CustomersTwoSellersNumberInList_de.properties -text
 OpenXavaTest/i18n/portlets/CustomersTwoSellersNumberInList_en.properties -text
@@ -6012,6 +6033,7 @@ OpenXavaTest/i18n/portlets/CustomersTwoSellersNumberInList_pl.properties -text
 OpenXavaTest/i18n/portlets/CustomersTwoSellersNumberInList_pt.properties -text
 OpenXavaTest/i18n/portlets/CustomersTwoSellersNumberInList_sv.properties -text
 OpenXavaTest/i18n/portlets/CustomersTwoSellersNumberInList_zh.properties -text
+OpenXavaTest/i18n/portlets/CustomersWithSection_bg.properties -text
 OpenXavaTest/i18n/portlets/CustomersWithSection_ca.properties -text
 OpenXavaTest/i18n/portlets/CustomersWithSection_de.properties -text
 OpenXavaTest/i18n/portlets/CustomersWithSection_en.properties -text
@@ -6026,6 +6048,7 @@ OpenXavaTest/i18n/portlets/CustomersWithSection_pl.properties -text
 OpenXavaTest/i18n/portlets/CustomersWithSection_pt.properties -text
 OpenXavaTest/i18n/portlets/CustomersWithSection_sv.properties -text
 OpenXavaTest/i18n/portlets/CustomersWithSection_zh.properties -text
+OpenXavaTest/i18n/portlets/Customers_bg.properties -text
 OpenXavaTest/i18n/portlets/Customers_ca.properties -text
 OpenXavaTest/i18n/portlets/Customers_de.properties -text
 OpenXavaTest/i18n/portlets/Customers_en.properties -text
@@ -6040,6 +6063,7 @@ OpenXavaTest/i18n/portlets/Customers_pl.properties -text
 OpenXavaTest/i18n/portlets/Customers_pt.properties -text
 OpenXavaTest/i18n/portlets/Customers_sv.properties -text
 OpenXavaTest/i18n/portlets/Customers_zh.properties -text
+OpenXavaTest/i18n/portlets/DeliveriesGroupsInSections_bg.properties -text
 OpenXavaTest/i18n/portlets/DeliveriesGroupsInSections_ca.properties -text
 OpenXavaTest/i18n/portlets/DeliveriesGroupsInSections_de.properties -text
 OpenXavaTest/i18n/portlets/DeliveriesGroupsInSections_en.properties -text
@@ -6054,6 +6078,7 @@ OpenXavaTest/i18n/portlets/DeliveriesGroupsInSections_pl.properties -text
 OpenXavaTest/i18n/portlets/DeliveriesGroupsInSections_pt.properties -text
 OpenXavaTest/i18n/portlets/DeliveriesGroupsInSections_sv.properties -text
 OpenXavaTest/i18n/portlets/DeliveriesGroupsInSections_zh.properties -text
+OpenXavaTest/i18n/portlets/DeliveriesRemarks2002_bg.properties -text
 OpenXavaTest/i18n/portlets/DeliveriesRemarks2002_ca.properties -text
 OpenXavaTest/i18n/portlets/DeliveriesRemarks2002_de.properties -text
 OpenXavaTest/i18n/portlets/DeliveriesRemarks2002_en.properties -text
@@ -6068,6 +6093,7 @@ OpenXavaTest/i18n/portlets/DeliveriesRemarks2002_pl.properties -text
 OpenXavaTest/i18n/portlets/DeliveriesRemarks2002_pt.properties -text
 OpenXavaTest/i18n/portlets/DeliveriesRemarks2002_sv.properties -text
 OpenXavaTest/i18n/portlets/DeliveriesRemarks2002_zh.properties -text
+OpenXavaTest/i18n/portlets/Deliveries_bg.properties -text
 OpenXavaTest/i18n/portlets/Deliveries_ca.properties -text
 OpenXavaTest/i18n/portlets/Deliveries_de.properties -text
 OpenXavaTest/i18n/portlets/Deliveries_en.properties -text
@@ -6082,6 +6108,7 @@ OpenXavaTest/i18n/portlets/Deliveries_pl.properties -text
 OpenXavaTest/i18n/portlets/Deliveries_pt.properties -text
 OpenXavaTest/i18n/portlets/Deliveries_sv.properties -text
 OpenXavaTest/i18n/portlets/Deliveries_zh.properties -text
+OpenXavaTest/i18n/portlets/DeliveryTypesJSP_bg.properties -text
 OpenXavaTest/i18n/portlets/DeliveryTypesJSP_ca.properties -text
 OpenXavaTest/i18n/portlets/DeliveryTypesJSP_de.properties -text
 OpenXavaTest/i18n/portlets/DeliveryTypesJSP_en.properties -text
@@ -6096,6 +6123,7 @@ OpenXavaTest/i18n/portlets/DeliveryTypesJSP_pl.properties -text
 OpenXavaTest/i18n/portlets/DeliveryTypesJSP_pt.properties -text
 OpenXavaTest/i18n/portlets/DeliveryTypesJSP_sv.properties -text
 OpenXavaTest/i18n/portlets/DeliveryTypesJSP_zh.properties -text
+OpenXavaTest/i18n/portlets/DeliveryTypes_bg.properties -text
 OpenXavaTest/i18n/portlets/DeliveryTypes_ca.properties -text
 OpenXavaTest/i18n/portlets/DeliveryTypes_de.properties -text
 OpenXavaTest/i18n/portlets/DeliveryTypes_en.properties -text
@@ -6110,6 +6138,7 @@ OpenXavaTest/i18n/portlets/DeliveryTypes_pl.properties -text
 OpenXavaTest/i18n/portlets/DeliveryTypes_pt.properties -text
 OpenXavaTest/i18n/portlets/DeliveryTypes_sv.properties -text
 OpenXavaTest/i18n/portlets/DeliveryTypes_zh.properties -text
+OpenXavaTest/i18n/portlets/Description_bg.properties -text
 OpenXavaTest/i18n/portlets/Description_ca.properties -text
 OpenXavaTest/i18n/portlets/Description_de.properties -text
 OpenXavaTest/i18n/portlets/Description_en.properties -text
@@ -6124,6 +6153,7 @@ OpenXavaTest/i18n/portlets/Description_pl.properties -text
 OpenXavaTest/i18n/portlets/Description_pt.properties -text
 OpenXavaTest/i18n/portlets/Description_sv.properties -text
 OpenXavaTest/i18n/portlets/Description_zh.properties -text
+OpenXavaTest/i18n/portlets/FamiliesListOnly_bg.properties -text
 OpenXavaTest/i18n/portlets/FamiliesListOnly_ca.properties -text
 OpenXavaTest/i18n/portlets/FamiliesListOnly_de.properties -text
 OpenXavaTest/i18n/portlets/FamiliesListOnly_en.properties -text
@@ -6138,6 +6168,7 @@ OpenXavaTest/i18n/portlets/FamiliesListOnly_pl.properties -text
 OpenXavaTest/i18n/portlets/FamiliesListOnly_pt.properties -text
 OpenXavaTest/i18n/portlets/FamiliesListOnly_sv.properties -text
 OpenXavaTest/i18n/portlets/FamiliesListOnly_zh.properties -text
+OpenXavaTest/i18n/portlets/FamiliesWithInheritanceController_bg.properties -text
 OpenXavaTest/i18n/portlets/FamiliesWithInheritanceController_ca.properties -text
 OpenXavaTest/i18n/portlets/FamiliesWithInheritanceController_de.properties -text
 OpenXavaTest/i18n/portlets/FamiliesWithInheritanceController_en.properties -text
@@ -6152,6 +6183,7 @@ OpenXavaTest/i18n/portlets/FamiliesWithInheritanceController_pl.properties -text
 OpenXavaTest/i18n/portlets/FamiliesWithInheritanceController_pt.properties -text
 OpenXavaTest/i18n/portlets/FamiliesWithInheritanceController_sv.properties -text
 OpenXavaTest/i18n/portlets/FamiliesWithInheritanceController_zh.properties -text
+OpenXavaTest/i18n/portlets/Families_bg.properties -text
 OpenXavaTest/i18n/portlets/Families_ca.properties -text
 OpenXavaTest/i18n/portlets/Families_de.properties -text
 OpenXavaTest/i18n/portlets/Families_en.properties -text
@@ -6166,6 +6198,7 @@ OpenXavaTest/i18n/portlets/Families_pl.properties -text
 OpenXavaTest/i18n/portlets/Families_pt.properties -text
 OpenXavaTest/i18n/portlets/Families_sv.properties -text
 OpenXavaTest/i18n/portlets/Families_zh.properties -text
+OpenXavaTest/i18n/portlets/Family1ProductsReport_bg.properties -text
 OpenXavaTest/i18n/portlets/Family1ProductsReport_ca.properties -text
 OpenXavaTest/i18n/portlets/Family1ProductsReport_de.properties -text
 OpenXavaTest/i18n/portlets/Family1ProductsReport_en.properties -text
@@ -6180,6 +6213,7 @@ OpenXavaTest/i18n/portlets/Family1ProductsReport_pl.properties -text
 OpenXavaTest/i18n/portlets/Family1ProductsReport_pt.properties -text
 OpenXavaTest/i18n/portlets/Family1ProductsReport_sv.properties -text
 OpenXavaTest/i18n/portlets/Family1ProductsReport_zh.properties -text
+OpenXavaTest/i18n/portlets/Family2ProductsReport_bg.properties -text
 OpenXavaTest/i18n/portlets/Family2ProductsReport_ca.properties -text
 OpenXavaTest/i18n/portlets/Family2ProductsReport_de.properties -text
 OpenXavaTest/i18n/portlets/Family2ProductsReport_en.properties -text
@@ -6194,6 +6228,7 @@ OpenXavaTest/i18n/portlets/Family2ProductsReport_pl.properties -text
 OpenXavaTest/i18n/portlets/Family2ProductsReport_pt.properties -text
 OpenXavaTest/i18n/portlets/Family2ProductsReport_sv.properties -text
 OpenXavaTest/i18n/portlets/Family2ProductsReport_zh.properties -text
+OpenXavaTest/i18n/portlets/FamilyProductsReport_bg.properties -text
 OpenXavaTest/i18n/portlets/FamilyProductsReport_ca.properties -text
 OpenXavaTest/i18n/portlets/FamilyProductsReport_de.properties -text
 OpenXavaTest/i18n/portlets/FamilyProductsReport_en.properties -text
@@ -6208,6 +6243,7 @@ OpenXavaTest/i18n/portlets/FamilyProductsReport_pl.properties -text
 OpenXavaTest/i18n/portlets/FamilyProductsReport_pt.properties -text
 OpenXavaTest/i18n/portlets/FamilyProductsReport_sv.properties -text
 OpenXavaTest/i18n/portlets/FamilyProductsReport_zh.properties -text
+OpenXavaTest/i18n/portlets/FamilyRangeProductsReport_bg.properties -text
 OpenXavaTest/i18n/portlets/FamilyRangeProductsReport_ca.properties -text
 OpenXavaTest/i18n/portlets/FamilyRangeProductsReport_de.properties -text
 OpenXavaTest/i18n/portlets/FamilyRangeProductsReport_en.properties -text
@@ -6222,6 +6258,7 @@ OpenXavaTest/i18n/portlets/FamilyRangeProductsReport_pl.properties -text
 OpenXavaTest/i18n/portlets/FamilyRangeProductsReport_pt.properties -text
 OpenXavaTest/i18n/portlets/FamilyRangeProductsReport_sv.properties -text
 OpenXavaTest/i18n/portlets/FamilyRangeProductsReport_zh.properties -text
+OpenXavaTest/i18n/portlets/Formulas_bg.properties -text
 OpenXavaTest/i18n/portlets/Formulas_ca.properties -text
 OpenXavaTest/i18n/portlets/Formulas_de.properties -text
 OpenXavaTest/i18n/portlets/Formulas_en.properties -text
@@ -6236,6 +6273,7 @@ OpenXavaTest/i18n/portlets/Formulas_pl.properties -text
 OpenXavaTest/i18n/portlets/Formulas_pt.properties -text
 OpenXavaTest/i18n/portlets/Formulas_sv.properties -text
 OpenXavaTest/i18n/portlets/Formulas_zh.properties -text
+OpenXavaTest/i18n/portlets/Ingredients_bg.properties -text
 OpenXavaTest/i18n/portlets/Ingredients_ca.properties -text
 OpenXavaTest/i18n/portlets/Ingredients_de.properties -text
 OpenXavaTest/i18n/portlets/Ingredients_en.properties -text
@@ -6250,6 +6288,7 @@ OpenXavaTest/i18n/portlets/Ingredients_pl.properties -text
 OpenXavaTest/i18n/portlets/Ingredients_pt.properties -text
 OpenXavaTest/i18n/portlets/Ingredients_sv.properties -text
 OpenXavaTest/i18n/portlets/Ingredients_zh.properties -text
+OpenXavaTest/i18n/portlets/Invoice20020001_bg.properties -text
 OpenXavaTest/i18n/portlets/Invoice20020001_ca.properties -text
 OpenXavaTest/i18n/portlets/Invoice20020001_de.properties -text
 OpenXavaTest/i18n/portlets/Invoice20020001_en.properties -text
@@ -6264,6 +6303,7 @@ OpenXavaTest/i18n/portlets/Invoice20020001_pl.properties -text
 OpenXavaTest/i18n/portlets/Invoice20020001_pt.properties -text
 OpenXavaTest/i18n/portlets/Invoice20020001_sv.properties -text
 OpenXavaTest/i18n/portlets/Invoice20020001_zh.properties -text
+OpenXavaTest/i18n/portlets/Invoices2002Env_bg.properties -text
 OpenXavaTest/i18n/portlets/Invoices2002Env_ca.properties -text
 OpenXavaTest/i18n/portlets/Invoices2002Env_de.properties -text
 OpenXavaTest/i18n/portlets/Invoices2002Env_en.properties -text
@@ -6278,6 +6318,7 @@ OpenXavaTest/i18n/portlets/Invoices2002Env_pl.properties -text
 OpenXavaTest/i18n/portlets/Invoices2002Env_pt.properties -text
 OpenXavaTest/i18n/portlets/Invoices2002Env_sv.properties -text
 OpenXavaTest/i18n/portlets/Invoices2002Env_zh.properties -text
+OpenXavaTest/i18n/portlets/Invoices2002_bg.properties -text
 OpenXavaTest/i18n/portlets/Invoices2002_ca.properties -text
 OpenXavaTest/i18n/portlets/Invoices2002_de.properties -text
 OpenXavaTest/i18n/portlets/Invoices2002_en.properties -text
@@ -6292,6 +6333,7 @@ OpenXavaTest/i18n/portlets/Invoices2002_pl.properties -text
 OpenXavaTest/i18n/portlets/Invoices2002_pt.properties -text
 OpenXavaTest/i18n/portlets/Invoices2002_sv.properties -text
 OpenXavaTest/i18n/portlets/Invoices2002_zh.properties -text
+OpenXavaTest/i18n/portlets/Invoices2004_bg.properties -text
 OpenXavaTest/i18n/portlets/Invoices2004_ca.properties -text
 OpenXavaTest/i18n/portlets/Invoices2004_de.properties -text
 OpenXavaTest/i18n/portlets/Invoices2004_en.properties -text
@@ -6306,6 +6348,7 @@ OpenXavaTest/i18n/portlets/Invoices2004_pl.properties -text
 OpenXavaTest/i18n/portlets/Invoices2004_pt.properties -text
 OpenXavaTest/i18n/portlets/Invoices2004_sv.properties -text
 OpenXavaTest/i18n/portlets/Invoices2004_zh.properties -text
+OpenXavaTest/i18n/portlets/Invoices2_bg.properties -text
 OpenXavaTest/i18n/portlets/Invoices2_ca.properties -text
 OpenXavaTest/i18n/portlets/Invoices2_de.properties -text
 OpenXavaTest/i18n/portlets/Invoices2_en.properties -text
@@ -6320,6 +6363,7 @@ OpenXavaTest/i18n/portlets/Invoices2_pl.properties -text
 OpenXavaTest/i18n/portlets/Invoices2_pt.properties -text
 OpenXavaTest/i18n/portlets/Invoices2_sv.properties -text
 OpenXavaTest/i18n/portlets/Invoices2_zh.properties -text
+OpenXavaTest/i18n/portlets/InvoicesActiveYear_bg.properties -text
 OpenXavaTest/i18n/portlets/InvoicesActiveYear_ca.properties -text
 OpenXavaTest/i18n/portlets/InvoicesActiveYear_de.properties -text
 OpenXavaTest/i18n/portlets/InvoicesActiveYear_en.properties -text
@@ -6334,6 +6378,7 @@ OpenXavaTest/i18n/portlets/InvoicesActiveYear_pl.properties -text
 OpenXavaTest/i18n/portlets/InvoicesActiveYear_pt.properties -text
 OpenXavaTest/i18n/portlets/InvoicesActiveYear_sv.properties -text
 OpenXavaTest/i18n/portlets/InvoicesActiveYear_zh.properties -text
+OpenXavaTest/i18n/portlets/InvoicesAmounts_bg.properties -text
 OpenXavaTest/i18n/portlets/InvoicesAmounts_ca.properties -text
 OpenXavaTest/i18n/portlets/InvoicesAmounts_de.properties -text
 OpenXavaTest/i18n/portlets/InvoicesAmounts_en.properties -text
@@ -6348,6 +6393,7 @@ OpenXavaTest/i18n/portlets/InvoicesAmounts_pl.properties -text
 OpenXavaTest/i18n/portlets/InvoicesAmounts_pt.properties -text
 OpenXavaTest/i18n/portlets/InvoicesAmounts_sv.properties -text
 OpenXavaTest/i18n/portlets/InvoicesAmounts_zh.properties -text
+OpenXavaTest/i18n/portlets/InvoicesDeliveries_bg.properties -text
 OpenXavaTest/i18n/portlets/InvoicesDeliveries_ca.properties -text
 OpenXavaTest/i18n/portlets/InvoicesDeliveries_de.properties -text
 OpenXavaTest/i18n/portlets/InvoicesDeliveries_en.properties -text
@@ -6362,6 +6408,7 @@ OpenXavaTest/i18n/portlets/InvoicesDeliveries_pl.properties -text
 OpenXavaTest/i18n/portlets/InvoicesDeliveries_pt.properties -text
 OpenXavaTest/i18n/portlets/InvoicesDeliveries_sv.properties -text
 OpenXavaTest/i18n/portlets/InvoicesDeliveries_zh.properties -text
+OpenXavaTest/i18n/portlets/InvoicesFromCustomers_bg.properties -text
 OpenXavaTest/i18n/portlets/InvoicesFromCustomers_ca.properties -text
 OpenXavaTest/i18n/portlets/InvoicesFromCustomers_de.properties -text
 OpenXavaTest/i18n/portlets/InvoicesFromCustomers_en.properties -text
@@ -6376,6 +6423,7 @@ OpenXavaTest/i18n/portlets/InvoicesFromCustomers_pl.properties -text
 OpenXavaTest/i18n/portlets/InvoicesFromCustomers_pt.properties -text
 OpenXavaTest/i18n/portlets/InvoicesFromCustomers_sv.properties -text
 OpenXavaTest/i18n/portlets/InvoicesFromCustomers_zh.properties -text
+OpenXavaTest/i18n/portlets/InvoicesFromDeliveries_bg.properties -text
 OpenXavaTest/i18n/portlets/InvoicesFromDeliveries_ca.properties -text
 OpenXavaTest/i18n/portlets/InvoicesFromDeliveries_de.properties -text
 OpenXavaTest/i18n/portlets/InvoicesFromDeliveries_en.properties -text
@@ -6390,6 +6438,7 @@ OpenXavaTest/i18n/portlets/InvoicesFromDeliveries_pl.properties -text
 OpenXavaTest/i18n/portlets/InvoicesFromDeliveries_pt.properties -text
 OpenXavaTest/i18n/portlets/InvoicesFromDeliveries_sv.properties -text
 OpenXavaTest/i18n/portlets/InvoicesFromDeliveries_zh.properties -text
+OpenXavaTest/i18n/portlets/InvoicesNestedSections_bg.properties -text
 OpenXavaTest/i18n/portlets/InvoicesNestedSections_ca.properties -text
 OpenXavaTest/i18n/portlets/InvoicesNestedSections_de.properties -text
 OpenXavaTest/i18n/portlets/InvoicesNestedSections_en.properties -text
@@ -6404,6 +6453,7 @@ OpenXavaTest/i18n/portlets/InvoicesNestedSections_pl.properties -text
 OpenXavaTest/i18n/portlets/InvoicesNestedSections_pt.properties -text
 OpenXavaTest/i18n/portlets/InvoicesNestedSections_sv.properties -text
 OpenXavaTest/i18n/portlets/InvoicesNestedSections_zh.properties -text
+OpenXavaTest/i18n/portlets/InvoicesNoList_bg.properties -text
 OpenXavaTest/i18n/portlets/InvoicesNoList_ca.properties -text
 OpenXavaTest/i18n/portlets/InvoicesNoList_de.properties -text
 OpenXavaTest/i18n/portlets/InvoicesNoList_en.properties -text
@@ -6418,6 +6468,7 @@ OpenXavaTest/i18n/portlets/InvoicesNoList_pl.properties -text
 OpenXavaTest/i18n/portlets/InvoicesNoList_pt.properties -text
 OpenXavaTest/i18n/portlets/InvoicesNoList_sv.properties -text
 OpenXavaTest/i18n/portlets/InvoicesNoList_zh.properties -text
+OpenXavaTest/i18n/portlets/Invoices_bg.properties -text
 OpenXavaTest/i18n/portlets/Invoices_ca.properties -text
 OpenXavaTest/i18n/portlets/Invoices_de.properties -text
 OpenXavaTest/i18n/portlets/Invoices_en.properties -text
@@ -6432,6 +6483,7 @@ OpenXavaTest/i18n/portlets/Invoices_pl.properties -text
 OpenXavaTest/i18n/portlets/Invoices_pt.properties -text
 OpenXavaTest/i18n/portlets/Invoices_sv.properties -text
 OpenXavaTest/i18n/portlets/Invoices_zh.properties -text
+OpenXavaTest/i18n/portlets/Issues_bg.properties -text
 OpenXavaTest/i18n/portlets/Issues_ca.properties -text
 OpenXavaTest/i18n/portlets/Issues_de.properties -text
 OpenXavaTest/i18n/portlets/Issues_en.properties -text
@@ -6446,6 +6498,7 @@ OpenXavaTest/i18n/portlets/Issues_pl.properties -text
 OpenXavaTest/i18n/portlets/Issues_pt.properties -text
 OpenXavaTest/i18n/portlets/Issues_sv.properties -text
 OpenXavaTest/i18n/portlets/Issues_zh.properties -text
+OpenXavaTest/i18n/portlets/Offices2_bg.properties -text
 OpenXavaTest/i18n/portlets/Offices2_ca.properties -text
 OpenXavaTest/i18n/portlets/Offices2_de.properties -text
 OpenXavaTest/i18n/portlets/Offices2_en.properties -text
@@ -6460,6 +6513,7 @@ OpenXavaTest/i18n/portlets/Offices2_pl.properties -text
 OpenXavaTest/i18n/portlets/Offices2_pt.properties -text
 OpenXavaTest/i18n/portlets/Offices2_sv.properties -text
 OpenXavaTest/i18n/portlets/Offices2_zh.properties -text
+OpenXavaTest/i18n/portlets/Offices_bg.properties -text
 OpenXavaTest/i18n/portlets/Offices_ca.properties -text
 OpenXavaTest/i18n/portlets/Offices_de.properties -text
 OpenXavaTest/i18n/portlets/Offices_en.properties -text
@@ -6474,6 +6528,7 @@ OpenXavaTest/i18n/portlets/Offices_pl.properties -text
 OpenXavaTest/i18n/portlets/Offices_pt.properties -text
 OpenXavaTest/i18n/portlets/Offices_sv.properties -text
 OpenXavaTest/i18n/portlets/Offices_zh.properties -text
+OpenXavaTest/i18n/portlets/OnlyEditDetailsInvoice_bg.properties -text
 OpenXavaTest/i18n/portlets/OnlyEditDetailsInvoice_ca.properties -text
 OpenXavaTest/i18n/portlets/OnlyEditDetailsInvoice_de.properties -text
 OpenXavaTest/i18n/portlets/OnlyEditDetailsInvoice_en.properties -text
@@ -6488,6 +6543,7 @@ OpenXavaTest/i18n/portlets/OnlyEditDetailsInvoice_pl.properties -text
 OpenXavaTest/i18n/portlets/OnlyEditDetailsInvoice_pt.properties -text
 OpenXavaTest/i18n/portlets/OnlyEditDetailsInvoice_sv.properties -text
 OpenXavaTest/i18n/portlets/OnlyEditDetailsInvoice_zh.properties -text
+OpenXavaTest/i18n/portlets/OnlyReadDetailsInvoice_bg.properties -text
 OpenXavaTest/i18n/portlets/OnlyReadDetailsInvoice_ca.properties -text
 OpenXavaTest/i18n/portlets/OnlyReadDetailsInvoice_de.properties -text
 OpenXavaTest/i18n/portlets/OnlyReadDetailsInvoice_en.properties -text
@@ -6515,6 +6571,7 @@ OpenXavaTest/i18n/portlets/OpenXavaTest_nl.properties -text
 OpenXavaTest/i18n/portlets/OpenXavaTest_pt.properties -text
 OpenXavaTest/i18n/portlets/OpenXavaTest_sv.properties -text
 OpenXavaTest/i18n/portlets/OpenXavaTest_zh.properties -text
+OpenXavaTest/i18n/portlets/Products2ReferenceAndStereotype_bg.properties -text
 OpenXavaTest/i18n/portlets/Products2ReferenceAndStereotype_ca.properties -text
 OpenXavaTest/i18n/portlets/Products2ReferenceAndStereotype_de.properties -text
 OpenXavaTest/i18n/portlets/Products2ReferenceAndStereotype_en.properties -text
@@ -6529,6 +6586,7 @@ OpenXavaTest/i18n/portlets/Products2ReferenceAndStereotype_pl.properties -text
 OpenXavaTest/i18n/portlets/Products2ReferenceAndStereotype_pt.properties -text
 OpenXavaTest/i18n/portlets/Products2ReferenceAndStereotype_sv.properties -text
 OpenXavaTest/i18n/portlets/Products2ReferenceAndStereotype_zh.properties -text
+OpenXavaTest/i18n/portlets/Products2WithFormulaAsAggregate_bg.properties -text
 OpenXavaTest/i18n/portlets/Products2WithFormulaAsAggregate_ca.properties -text
 OpenXavaTest/i18n/portlets/Products2WithFormulaAsAggregate_de.properties -text
 OpenXavaTest/i18n/portlets/Products2WithFormulaAsAggregate_en.properties -text
@@ -6543,6 +6601,7 @@ OpenXavaTest/i18n/portlets/Products2WithFormulaAsAggregate_pl.properties -text
 OpenXavaTest/i18n/portlets/Products2WithFormulaAsAggregate_pt.properties -text
 OpenXavaTest/i18n/portlets/Products2WithFormulaAsAggregate_sv.properties -text
 OpenXavaTest/i18n/portlets/Products2WithFormulaAsAggregate_zh.properties -text
+OpenXavaTest/i18n/portlets/Products2WithFormula_bg.properties -text
 OpenXavaTest/i18n/portlets/Products2WithFormula_ca.properties -text
 OpenXavaTest/i18n/portlets/Products2WithFormula_de.properties -text
 OpenXavaTest/i18n/portlets/Products2WithFormula_en.properties -text
@@ -6557,6 +6616,7 @@ OpenXavaTest/i18n/portlets/Products2WithFormula_pl.properties -text
 OpenXavaTest/i18n/portlets/Products2WithFormula_pt.properties -text
 OpenXavaTest/i18n/portlets/Products2WithFormula_sv.properties -text
 OpenXavaTest/i18n/portlets/Products2WithFormula_zh.properties -text
+OpenXavaTest/i18n/portlets/Products2_bg.properties -text
 OpenXavaTest/i18n/portlets/Products2_ca.properties -text
 OpenXavaTest/i18n/portlets/Products2_de.properties -text
 OpenXavaTest/i18n/portlets/Products2_en.properties -text
@@ -6571,6 +6631,7 @@ OpenXavaTest/i18n/portlets/Products2_pl.properties -text
 OpenXavaTest/i18n/portlets/Products2_pt.properties -text
 OpenXavaTest/i18n/portlets/Products2_sv.properties -text
 OpenXavaTest/i18n/portlets/Products2_zh.properties -text
+OpenXavaTest/i18n/portlets/Products3ChangeActionsOnSearch_bg.properties -text
 OpenXavaTest/i18n/portlets/Products3ChangeActionsOnSearch_ca.properties -text
 OpenXavaTest/i18n/portlets/Products3ChangeActionsOnSearch_de.properties -text
 OpenXavaTest/i18n/portlets/Products3ChangeActionsOnSearch_en.properties -text
@@ -6585,6 +6646,7 @@ OpenXavaTest/i18n/portlets/Products3ChangeActionsOnSearch_pl.properties -text
 OpenXavaTest/i18n/portlets/Products3ChangeActionsOnSearch_pt.properties -text
 OpenXavaTest/i18n/portlets/Products3ChangeActionsOnSearch_sv.properties -text
 OpenXavaTest/i18n/portlets/Products3ChangeActionsOnSearch_zh.properties -text
+OpenXavaTest/i18n/portlets/Products3WithDescriptionsList_bg.properties -text
 OpenXavaTest/i18n/portlets/Products3WithDescriptionsList_ca.properties -text
 OpenXavaTest/i18n/portlets/Products3WithDescriptionsList_de.properties -text
 OpenXavaTest/i18n/portlets/Products3WithDescriptionsList_en.properties -text
@@ -6599,6 +6661,7 @@ OpenXavaTest/i18n/portlets/Products3WithDescriptionsList_pl.properties -text
 OpenXavaTest/i18n/portlets/Products3WithDescriptionsList_pt.properties -text
 OpenXavaTest/i18n/portlets/Products3WithDescriptionsList_sv.properties -text
 OpenXavaTest/i18n/portlets/Products3WithDescriptionsList_zh.properties -text
+OpenXavaTest/i18n/portlets/Products3WithGroup_bg.properties -text
 OpenXavaTest/i18n/portlets/Products3WithGroup_ca.properties -text
 OpenXavaTest/i18n/portlets/Products3WithGroup_de.properties -text
 OpenXavaTest/i18n/portlets/Products3WithGroup_en.properties -text
@@ -6613,6 +6676,7 @@ OpenXavaTest/i18n/portlets/Products3WithGroup_pl.properties -text
 OpenXavaTest/i18n/portlets/Products3WithGroup_pt.properties -text
 OpenXavaTest/i18n/portlets/Products3WithGroup_sv.properties -text
 OpenXavaTest/i18n/portlets/Products3WithGroup_zh.properties -text
+OpenXavaTest/i18n/portlets/Products3_bg.properties -text
 OpenXavaTest/i18n/portlets/Products3_ca.properties -text
 OpenXavaTest/i18n/portlets/Products3_de.properties -text
 OpenXavaTest/i18n/portlets/Products3_en.properties -text
@@ -6627,6 +6691,7 @@ OpenXavaTest/i18n/portlets/Products3_pl.properties -text
 OpenXavaTest/i18n/portlets/Products3_pt.properties -text
 OpenXavaTest/i18n/portlets/Products3_sv.properties -text
 OpenXavaTest/i18n/portlets/Products3_zh.properties -text
+OpenXavaTest/i18n/portlets/ProductsWithSection_bg.properties -text
 OpenXavaTest/i18n/portlets/ProductsWithSection_ca.properties -text
 OpenXavaTest/i18n/portlets/ProductsWithSection_de.properties -text
 OpenXavaTest/i18n/portlets/ProductsWithSection_en.properties -text
@@ -6641,6 +6706,7 @@ OpenXavaTest/i18n/portlets/ProductsWithSection_pl.properties -text
 OpenXavaTest/i18n/portlets/ProductsWithSection_pt.properties -text
 OpenXavaTest/i18n/portlets/ProductsWithSection_sv.properties -text
 OpenXavaTest/i18n/portlets/ProductsWithSection_zh.properties -text
+OpenXavaTest/i18n/portlets/Products_bg.properties -text
 OpenXavaTest/i18n/portlets/Products_ca.properties -text
 OpenXavaTest/i18n/portlets/Products_de.properties -text
 OpenXavaTest/i18n/portlets/Products_en.properties -text
@@ -6655,6 +6721,7 @@ OpenXavaTest/i18n/portlets/Products_pl.properties -text
 OpenXavaTest/i18n/portlets/Products_pt.properties -text
 OpenXavaTest/i18n/portlets/Products_sv.properties -text
 OpenXavaTest/i18n/portlets/Products_zh.properties -text
+OpenXavaTest/i18n/portlets/SellersCannotCreateCustomer_bg.properties -text
 OpenXavaTest/i18n/portlets/SellersCannotCreateCustomer_ca.properties -text
 OpenXavaTest/i18n/portlets/SellersCannotCreateCustomer_de.properties -text
 OpenXavaTest/i18n/portlets/SellersCannotCreateCustomer_en.properties -text
@@ -6669,6 +6736,7 @@ OpenXavaTest/i18n/portlets/SellersCannotCreateCustomer_pl.properties -text
 OpenXavaTest/i18n/portlets/SellersCannotCreateCustomer_pt.properties -text
 OpenXavaTest/i18n/portlets/SellersCannotCreateCustomer_sv.properties -text
 OpenXavaTest/i18n/portlets/SellersCannotCreateCustomer_zh.properties -text
+OpenXavaTest/i18n/portlets/SellersJSP_bg.properties -text
 OpenXavaTest/i18n/portlets/SellersJSP_ca.properties -text
 OpenXavaTest/i18n/portlets/SellersJSP_de.properties -text
 OpenXavaTest/i18n/portlets/SellersJSP_en.properties -text
@@ -6683,6 +6751,7 @@ OpenXavaTest/i18n/portlets/SellersJSP_pl.properties -text
 OpenXavaTest/i18n/portlets/SellersJSP_pt.properties -text
 OpenXavaTest/i18n/portlets/SellersJSP_sv.properties -text
 OpenXavaTest/i18n/portlets/SellersJSP_zh.properties -text
+OpenXavaTest/i18n/portlets/SellersWithCustomersAsAggregate_bg.properties -text
 OpenXavaTest/i18n/portlets/SellersWithCustomersAsAggregate_ca.properties -text
 OpenXavaTest/i18n/portlets/SellersWithCustomersAsAggregate_de.properties -text
 OpenXavaTest/i18n/portlets/SellersWithCustomersAsAggregate_en.properties -text
@@ -6697,6 +6766,7 @@ OpenXavaTest/i18n/portlets/SellersWithCustomersAsAggregate_pl.properties -text
 OpenXavaTest/i18n/portlets/SellersWithCustomersAsAggregate_pt.properties -text
 OpenXavaTest/i18n/portlets/SellersWithCustomersAsAggregate_sv.properties -text
 OpenXavaTest/i18n/portlets/SellersWithCustomersAsAggregate_zh.properties -text
+OpenXavaTest/i18n/portlets/SellersWithDescriptionsListJSP_bg.properties -text
 OpenXavaTest/i18n/portlets/SellersWithDescriptionsListJSP_ca.properties -text
 OpenXavaTest/i18n/portlets/SellersWithDescriptionsListJSP_de.properties -text
 OpenXavaTest/i18n/portlets/SellersWithDescriptionsListJSP_en.properties -text
@@ -6711,6 +6781,7 @@ OpenXavaTest/i18n/portlets/SellersWithDescriptionsListJSP_pl.properties -text
 OpenXavaTest/i18n/portlets/SellersWithDescriptionsListJSP_pt.properties -text
 OpenXavaTest/i18n/portlets/SellersWithDescriptionsListJSP_sv.properties -text
 OpenXavaTest/i18n/portlets/SellersWithDescriptionsListJSP_zh.properties -text
+OpenXavaTest/i18n/portlets/Sellers_bg.properties -text
 OpenXavaTest/i18n/portlets/Sellers_ca.properties -text
 OpenXavaTest/i18n/portlets/Sellers_de.properties -text
 OpenXavaTest/i18n/portlets/Sellers_en.properties -text
@@ -6725,6 +6796,7 @@ OpenXavaTest/i18n/portlets/Sellers_pl.properties -text
 OpenXavaTest/i18n/portlets/Sellers_pt.properties -text
 OpenXavaTest/i18n/portlets/Sellers_sv.properties -text
 OpenXavaTest/i18n/portlets/Sellers_zh.properties -text
+OpenXavaTest/i18n/portlets/ServiceTypes_bg.properties -text
 OpenXavaTest/i18n/portlets/ServiceTypes_ca.properties -text
 OpenXavaTest/i18n/portlets/ServiceTypes_de.properties -text
 OpenXavaTest/i18n/portlets/ServiceTypes_en.properties -text
@@ -6739,6 +6811,7 @@ OpenXavaTest/i18n/portlets/ServiceTypes_pl.properties -text
 OpenXavaTest/i18n/portlets/ServiceTypes_pt.properties -text
 OpenXavaTest/i18n/portlets/ServiceTypes_sv.properties -text
 OpenXavaTest/i18n/portlets/ServiceTypes_zh.properties -text
+OpenXavaTest/i18n/portlets/Services_bg.properties -text
 OpenXavaTest/i18n/portlets/Services_ca.properties -text
 OpenXavaTest/i18n/portlets/Services_de.properties -text
 OpenXavaTest/i18n/portlets/Services_en.properties -text
@@ -6753,6 +6826,7 @@ OpenXavaTest/i18n/portlets/Services_pl.properties -text
 OpenXavaTest/i18n/portlets/Services_pt.properties -text
 OpenXavaTest/i18n/portlets/Services_sv.properties -text
 OpenXavaTest/i18n/portlets/Services_zh.properties -text
+OpenXavaTest/i18n/portlets/ShipmentCharges_bg.properties -text
 OpenXavaTest/i18n/portlets/ShipmentCharges_ca.properties -text
 OpenXavaTest/i18n/portlets/ShipmentCharges_de.properties -text
 OpenXavaTest/i18n/portlets/ShipmentCharges_en.properties -text
@@ -6767,6 +6841,7 @@ OpenXavaTest/i18n/portlets/ShipmentCharges_pl.properties -text
 OpenXavaTest/i18n/portlets/ShipmentCharges_pt.properties -text
 OpenXavaTest/i18n/portlets/ShipmentCharges_sv.properties -text
 OpenXavaTest/i18n/portlets/ShipmentCharges_zh.properties -text
+OpenXavaTest/i18n/portlets/Shipments_bg.properties -text
 OpenXavaTest/i18n/portlets/Shipments_ca.properties -text
 OpenXavaTest/i18n/portlets/Shipments_de.properties -text
 OpenXavaTest/i18n/portlets/Shipments_en.properties -text
@@ -6781,6 +6856,7 @@ OpenXavaTest/i18n/portlets/Shipments_pl.properties -text
 OpenXavaTest/i18n/portlets/Shipments_pt.properties -text
 OpenXavaTest/i18n/portlets/Shipments_sv.properties -text
 OpenXavaTest/i18n/portlets/Shipments_zh.properties -text
+OpenXavaTest/i18n/portlets/Sizes_bg.properties -text
 OpenXavaTest/i18n/portlets/Sizes_ca.properties -text
 OpenXavaTest/i18n/portlets/Sizes_de.properties -text
 OpenXavaTest/i18n/portlets/Sizes_en.properties -text
@@ -6795,6 +6871,7 @@ OpenXavaTest/i18n/portlets/Sizes_pl.properties -text
 OpenXavaTest/i18n/portlets/Sizes_pt.properties -text
 OpenXavaTest/i18n/portlets/Sizes_sv.properties -text
 OpenXavaTest/i18n/portlets/Sizes_zh.properties -text
+OpenXavaTest/i18n/portlets/StatesHibernate_bg.properties -text
 OpenXavaTest/i18n/portlets/StatesHibernate_ca.properties -text
 OpenXavaTest/i18n/portlets/StatesHibernate_de.properties -text
 OpenXavaTest/i18n/portlets/StatesHibernate_en.properties -text
@@ -6809,6 +6886,7 @@ OpenXavaTest/i18n/portlets/StatesHibernate_pl.properties -text
 OpenXavaTest/i18n/portlets/StatesHibernate_pt.properties -text
 OpenXavaTest/i18n/portlets/StatesHibernate_sv.properties -text
 OpenXavaTest/i18n/portlets/StatesHibernate_zh.properties -text
+OpenXavaTest/i18n/portlets/StatesJPA_bg.properties -text
 OpenXavaTest/i18n/portlets/StatesJPA_ca.properties -text
 OpenXavaTest/i18n/portlets/StatesJPA_de.properties -text
 OpenXavaTest/i18n/portlets/StatesJPA_en.properties -text
@@ -6823,6 +6901,7 @@ OpenXavaTest/i18n/portlets/StatesJPA_pl.properties -text
 OpenXavaTest/i18n/portlets/StatesJPA_pt.properties -text
 OpenXavaTest/i18n/portlets/StatesJPA_sv.properties -text
 OpenXavaTest/i18n/portlets/StatesJPA_zh.properties -text
+OpenXavaTest/i18n/portlets/Subfamilies2_bg.properties -text
 OpenXavaTest/i18n/portlets/Subfamilies2_ca.properties -text
 OpenXavaTest/i18n/portlets/Subfamilies2_de.properties -text
 OpenXavaTest/i18n/portlets/Subfamilies2_en.properties -text
@@ -6837,6 +6916,7 @@ OpenXavaTest/i18n/portlets/Subfamilies2_pl.properties -text
 OpenXavaTest/i18n/portlets/Subfamilies2_pt.properties -text
 OpenXavaTest/i18n/portlets/Subfamilies2_sv.properties -text
 OpenXavaTest/i18n/portlets/Subfamilies2_zh.properties -text
+OpenXavaTest/i18n/portlets/SubfamiliesSelect_bg.properties -text
 OpenXavaTest/i18n/portlets/SubfamiliesSelect_ca.properties -text
 OpenXavaTest/i18n/portlets/SubfamiliesSelect_de.properties -text
 OpenXavaTest/i18n/portlets/SubfamiliesSelect_en.properties -text
@@ -6851,6 +6931,7 @@ OpenXavaTest/i18n/portlets/SubfamiliesSelect_pl.properties -text
 OpenXavaTest/i18n/portlets/SubfamiliesSelect_pt.properties -text
 OpenXavaTest/i18n/portlets/SubfamiliesSelect_sv.properties -text
 OpenXavaTest/i18n/portlets/SubfamiliesSelect_zh.properties -text
+OpenXavaTest/i18n/portlets/Subfamilies_bg.properties -text
 OpenXavaTest/i18n/portlets/Subfamilies_ca.properties -text
 OpenXavaTest/i18n/portlets/Subfamilies_de.properties -text
 OpenXavaTest/i18n/portlets/Subfamilies_en.properties -text
@@ -6865,6 +6946,7 @@ OpenXavaTest/i18n/portlets/Subfamilies_pl.properties -text
 OpenXavaTest/i18n/portlets/Subfamilies_pt.properties -text
 OpenXavaTest/i18n/portlets/Subfamilies_sv.properties -text
 OpenXavaTest/i18n/portlets/Subfamilies_zh.properties -text
+OpenXavaTest/i18n/portlets/Tasks_bg.properties -text
 OpenXavaTest/i18n/portlets/Tasks_ca.properties -text
 OpenXavaTest/i18n/portlets/Tasks_de.properties -text
 OpenXavaTest/i18n/portlets/Tasks_en.properties -text
@@ -6879,6 +6961,7 @@ OpenXavaTest/i18n/portlets/Tasks_pl.properties -text
 OpenXavaTest/i18n/portlets/Tasks_pt.properties -text
 OpenXavaTest/i18n/portlets/Tasks_sv.properties -text
 OpenXavaTest/i18n/portlets/Tasks_zh.properties -text
+OpenXavaTest/i18n/portlets/TransportCharges2_bg.properties -text
 OpenXavaTest/i18n/portlets/TransportCharges2_ca.properties -text
 OpenXavaTest/i18n/portlets/TransportCharges2_de.properties -text
 OpenXavaTest/i18n/portlets/TransportCharges2_en.properties -text
@@ -6893,6 +6976,7 @@ OpenXavaTest/i18n/portlets/TransportCharges2_pl.properties -text
 OpenXavaTest/i18n/portlets/TransportCharges2_pt.properties -text
 OpenXavaTest/i18n/portlets/TransportCharges2_sv.properties -text
 OpenXavaTest/i18n/portlets/TransportCharges2_zh.properties -text
+OpenXavaTest/i18n/portlets/TransportChargesWithDistance_bg.properties -text
 OpenXavaTest/i18n/portlets/TransportChargesWithDistance_ca.properties -text
 OpenXavaTest/i18n/portlets/TransportChargesWithDistance_de.properties -text
 OpenXavaTest/i18n/portlets/TransportChargesWithDistance_en.properties -text
@@ -6907,6 +6991,7 @@ OpenXavaTest/i18n/portlets/TransportChargesWithDistance_pl.properties -text
 OpenXavaTest/i18n/portlets/TransportChargesWithDistance_pt.properties -text
 OpenXavaTest/i18n/portlets/TransportChargesWithDistance_sv.properties -text
 OpenXavaTest/i18n/portlets/TransportChargesWithDistance_zh.properties -text
+OpenXavaTest/i18n/portlets/TransportCharges_bg.properties -text
 OpenXavaTest/i18n/portlets/TransportCharges_ca.properties -text
 OpenXavaTest/i18n/portlets/TransportCharges_de.properties -text
 OpenXavaTest/i18n/portlets/TransportCharges_en.properties -text
@@ -6921,6 +7006,7 @@ OpenXavaTest/i18n/portlets/TransportCharges_pl.properties -text
 OpenXavaTest/i18n/portlets/TransportCharges_pt.properties -text
 OpenXavaTest/i18n/portlets/TransportCharges_sv.properties -text
 OpenXavaTest/i18n/portlets/TransportCharges_zh.properties -text
+OpenXavaTest/i18n/portlets/Warehouses_bg.properties -text
 OpenXavaTest/i18n/portlets/Warehouses_ca.properties -text
 OpenXavaTest/i18n/portlets/Warehouses_de.properties -text
 OpenXavaTest/i18n/portlets/Warehouses_en.properties -text
@@ -7285,6 +7371,7 @@ OpenXavaTest/web/WEB-INF/classes/hibernate-junit.cfg.xml -text
 OpenXavaTest/web/WEB-INF/classes/hibernate.cfg.xml -text
 OpenXavaTest/web/WEB-INF/classes/jndi.properties -text
 OpenXavaTest/web/WEB-INF/classes/openxava-hibernate.cfg.xml -text
+OpenXavaTest/web/WEB-INF/classes/portlets/CarriersWithSpecialSearch_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CarriersWithSpecialSearch_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CarriersWithSpecialSearch_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CarriersWithSpecialSearch_en.properties -text
@@ -7299,6 +7386,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/CarriersWithSpecialSearch_pl.propertie
 OpenXavaTest/web/WEB-INF/classes/portlets/CarriersWithSpecialSearch_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CarriersWithSpecialSearch_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CarriersWithSpecialSearch_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Carriers_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Carriers_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Carriers_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Carriers_en.properties -text
@@ -7313,6 +7401,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Carriers_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Carriers_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Carriers_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Carriers_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/ChangeActiveYear_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ChangeActiveYear_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ChangeActiveYear_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ChangeActiveYear_en.properties -text
@@ -7327,6 +7416,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/ChangeActiveYear_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ChangeActiveYear_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ChangeActiveYear_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ChangeActiveYear_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/ChangeProductsPrice2_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ChangeProductsPrice2_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ChangeProductsPrice2_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ChangeProductsPrice2_en.properties -text
@@ -7341,6 +7431,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/ChangeProductsPrice2_pl.properties -te
 OpenXavaTest/web/WEB-INF/classes/portlets/ChangeProductsPrice2_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ChangeProductsPrice2_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ChangeProductsPrice2_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/ChangeProductsPrice_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ChangeProductsPrice_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ChangeProductsPrice_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ChangeProductsPrice_en.properties -text
@@ -7355,6 +7446,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/ChangeProductsPrice_pl.properties -tex
 OpenXavaTest/web/WEB-INF/classes/portlets/ChangeProductsPrice_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ChangeProductsPrice_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ChangeProductsPrice_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Clerks_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Clerks_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Clerks_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Clerks_en.properties -text
@@ -7369,6 +7461,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Clerks_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Clerks_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Clerks_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Clerks_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Colors_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Colors_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Colors_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Colors_en.properties -text
@@ -7383,6 +7476,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Colors_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Colors_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Colors_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Colors_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/CurrentInvoicesSelect_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CurrentInvoicesSelect_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CurrentInvoicesSelect_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CurrentInvoicesSelect_en.properties -text
@@ -7397,6 +7491,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/CurrentInvoicesSelect_pl.properties -t
 OpenXavaTest/web/WEB-INF/classes/portlets/CurrentInvoicesSelect_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CurrentInvoicesSelect_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CurrentInvoicesSelect_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/CurrentInvoices_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CurrentInvoices_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CurrentInvoices_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CurrentInvoices_en.properties -text
@@ -7411,6 +7506,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/CurrentInvoices_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CurrentInvoices_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CurrentInvoices_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CurrentInvoices_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/CustomerContactPersonsAsAggregate3Levels_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomerContactPersonsAsAggregate3Levels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomerContactPersonsAsAggregate3Levels_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomerContactPersonsAsAggregate3Levels_en.properties -text
@@ -7425,6 +7521,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/CustomerContactPersonsAsAggregate3Leve
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomerContactPersonsAsAggregate3Levels_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomerContactPersonsAsAggregate3Levels_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomerContactPersonsAsAggregate3Levels_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/CustomerContactPersons_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomerContactPersons_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomerContactPersons_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomerContactPersons_en.properties -text
@@ -7439,6 +7536,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/CustomerContactPersons_pl.properties -
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomerContactPersons_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomerContactPersons_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomerContactPersons_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/CustomerInvoices_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomerInvoices_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomerInvoices_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomerInvoices_en.properties -text
@@ -7453,6 +7551,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/CustomerInvoices_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomerInvoices_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomerInvoices_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomerInvoices_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/CustomersNewOnInitInherited_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersNewOnInitInherited_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersNewOnInitInherited_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersNewOnInitInherited_en.properties -text
@@ -7467,6 +7566,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/CustomersNewOnInitInherited_pl.propert
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersNewOnInitInherited_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersNewOnInitInherited_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersNewOnInitInherited_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/CustomersNewOnInit_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersNewOnInit_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersNewOnInit_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersNewOnInit_en.properties -text
@@ -7481,6 +7581,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/CustomersNewOnInit_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersNewOnInit_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersNewOnInit_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersNewOnInit_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/CustomersRadioButton_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersRadioButton_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersRadioButton_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersRadioButton_en.properties -text
@@ -7495,6 +7596,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/CustomersRadioButton_pl.properties -te
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersRadioButton_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersRadioButton_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersRadioButton_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/CustomersReadOnly_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersReadOnly_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersReadOnly_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersReadOnly_en.properties -text
@@ -7509,6 +7611,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/CustomersReadOnly_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersReadOnly_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersReadOnly_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersReadOnly_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/CustomersSellerAsAggregate_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersSellerAsAggregate_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersSellerAsAggregate_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersSellerAsAggregate_en.properties -text
@@ -7523,6 +7626,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/CustomersSellerAsAggregate_pl.properti
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersSellerAsAggregate_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersSellerAsAggregate_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersSellerAsAggregate_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/CustomersSimple_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersSimple_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersSimple_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersSimple_en.properties -text
@@ -7537,6 +7641,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/CustomersSimple_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersSimple_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersSimple_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersSimple_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/CustomersSomeMembersReadOnly_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersSomeMembersReadOnly_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersSomeMembersReadOnly_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersSomeMembersReadOnly_en.properties -text
@@ -7551,6 +7656,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/CustomersSomeMembersReadOnly_pl.proper
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersSomeMembersReadOnly_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersSomeMembersReadOnly_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersSomeMembersReadOnly_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/CustomersTwoSellersInList_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersTwoSellersInList_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersTwoSellersInList_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersTwoSellersInList_en.properties -text
@@ -7565,6 +7671,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/CustomersTwoSellersInList_pl.propertie
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersTwoSellersInList_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersTwoSellersInList_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersTwoSellersInList_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/CustomersTwoSellersNumberInList_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersTwoSellersNumberInList_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersTwoSellersNumberInList_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersTwoSellersNumberInList_en.properties -text
@@ -7579,6 +7686,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/CustomersTwoSellersNumberInList_pl.pro
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersTwoSellersNumberInList_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersTwoSellersNumberInList_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersTwoSellersNumberInList_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/CustomersWithSection_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersWithSection_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersWithSection_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersWithSection_en.properties -text
@@ -7593,6 +7701,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/CustomersWithSection_pl.properties -te
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersWithSection_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersWithSection_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/CustomersWithSection_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Customers_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Customers_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Customers_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Customers_en.properties -text
@@ -7607,6 +7716,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Customers_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Customers_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Customers_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Customers_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/DeliveriesGroupsInSections_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/DeliveriesGroupsInSections_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/DeliveriesGroupsInSections_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/DeliveriesGroupsInSections_en.properties -text
@@ -7621,6 +7731,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/DeliveriesGroupsInSections_pl.properti
 OpenXavaTest/web/WEB-INF/classes/portlets/DeliveriesGroupsInSections_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/DeliveriesGroupsInSections_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/DeliveriesGroupsInSections_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/DeliveriesRemarks2002_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/DeliveriesRemarks2002_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/DeliveriesRemarks2002_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/DeliveriesRemarks2002_en.properties -text
@@ -7635,6 +7746,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/DeliveriesRemarks2002_pl.properties -t
 OpenXavaTest/web/WEB-INF/classes/portlets/DeliveriesRemarks2002_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/DeliveriesRemarks2002_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/DeliveriesRemarks2002_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Deliveries_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Deliveries_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Deliveries_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Deliveries_en.properties -text
@@ -7649,6 +7761,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Deliveries_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Deliveries_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Deliveries_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Deliveries_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/DeliveryTypesJSP_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/DeliveryTypesJSP_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/DeliveryTypesJSP_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/DeliveryTypesJSP_en.properties -text
@@ -7663,6 +7776,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/DeliveryTypesJSP_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/DeliveryTypesJSP_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/DeliveryTypesJSP_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/DeliveryTypesJSP_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/DeliveryTypes_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/DeliveryTypes_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/DeliveryTypes_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/DeliveryTypes_en.properties -text
@@ -7677,6 +7791,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/DeliveryTypes_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/DeliveryTypes_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/DeliveryTypes_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/DeliveryTypes_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Description_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Description_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Description_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Description_en.properties -text
@@ -7691,6 +7806,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Description_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Description_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Description_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Description_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/FamiliesListOnly_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/FamiliesListOnly_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/FamiliesListOnly_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/FamiliesListOnly_en.properties -text
@@ -7705,6 +7821,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/FamiliesListOnly_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/FamiliesListOnly_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/FamiliesListOnly_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/FamiliesListOnly_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/FamiliesWithInheritanceController_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/FamiliesWithInheritanceController_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/FamiliesWithInheritanceController_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/FamiliesWithInheritanceController_en.properties -text
@@ -7719,6 +7836,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/FamiliesWithInheritanceController_pl.p
 OpenXavaTest/web/WEB-INF/classes/portlets/FamiliesWithInheritanceController_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/FamiliesWithInheritanceController_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/FamiliesWithInheritanceController_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Families_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Families_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Families_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Families_en.properties -text
@@ -7733,6 +7851,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Families_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Families_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Families_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Families_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Family1ProductsReport_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Family1ProductsReport_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Family1ProductsReport_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Family1ProductsReport_en.properties -text
@@ -7747,6 +7866,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Family1ProductsReport_pl.properties -t
 OpenXavaTest/web/WEB-INF/classes/portlets/Family1ProductsReport_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Family1ProductsReport_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Family1ProductsReport_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Family2ProductsReport_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Family2ProductsReport_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Family2ProductsReport_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Family2ProductsReport_en.properties -text
@@ -7761,6 +7881,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Family2ProductsReport_pl.properties -t
 OpenXavaTest/web/WEB-INF/classes/portlets/Family2ProductsReport_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Family2ProductsReport_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Family2ProductsReport_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/FamilyProductsReport_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/FamilyProductsReport_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/FamilyProductsReport_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/FamilyProductsReport_en.properties -text
@@ -7775,6 +7896,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/FamilyProductsReport_pl.properties -te
 OpenXavaTest/web/WEB-INF/classes/portlets/FamilyProductsReport_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/FamilyProductsReport_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/FamilyProductsReport_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/FamilyRangeProductsReport_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/FamilyRangeProductsReport_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/FamilyRangeProductsReport_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/FamilyRangeProductsReport_en.properties -text
@@ -7789,6 +7911,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/FamilyRangeProductsReport_pl.propertie
 OpenXavaTest/web/WEB-INF/classes/portlets/FamilyRangeProductsReport_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/FamilyRangeProductsReport_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/FamilyRangeProductsReport_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Formulas_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Formulas_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Formulas_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Formulas_en.properties -text
@@ -7803,6 +7926,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Formulas_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Formulas_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Formulas_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Formulas_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Ingredients_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Ingredients_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Ingredients_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Ingredients_en.properties -text
@@ -7817,6 +7941,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Ingredients_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Ingredients_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Ingredients_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Ingredients_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Invoice20020001_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoice20020001_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoice20020001_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoice20020001_en.properties -text
@@ -7831,6 +7956,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Invoice20020001_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoice20020001_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoice20020001_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoice20020001_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2002Env_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2002Env_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2002Env_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2002Env_en.properties -text
@@ -7845,6 +7971,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2002Env_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2002Env_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2002Env_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2002Env_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2002_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2002_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2002_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2002_en.properties -text
@@ -7859,6 +7986,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2002_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2002_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2002_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2002_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2004_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2004_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2004_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2004_en.properties -text
@@ -7873,6 +8001,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2004_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2004_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2004_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2004_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2_en.properties -text
@@ -7887,6 +8016,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices2_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesActiveYear_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesActiveYear_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesActiveYear_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesActiveYear_en.properties -text
@@ -7901,6 +8031,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesActiveYear_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesActiveYear_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesActiveYear_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesActiveYear_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesAmounts_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesAmounts_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesAmounts_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesAmounts_en.properties -text
@@ -7915,6 +8046,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesAmounts_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesAmounts_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesAmounts_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesAmounts_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesDeliveries_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesDeliveries_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesDeliveries_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesDeliveries_en.properties -text
@@ -7929,6 +8061,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesDeliveries_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesDeliveries_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesDeliveries_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesDeliveries_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesFromCustomers_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesFromCustomers_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesFromCustomers_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesFromCustomers_en.properties -text
@@ -7943,6 +8076,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesFromCustomers_pl.properties -t
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesFromCustomers_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesFromCustomers_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesFromCustomers_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesFromDeliveries_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesFromDeliveries_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesFromDeliveries_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesFromDeliveries_en.properties -text
@@ -7957,6 +8091,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesFromDeliveries_pl.properties -
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesFromDeliveries_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesFromDeliveries_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesFromDeliveries_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesNestedSections_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesNestedSections_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesNestedSections_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesNestedSections_en.properties -text
@@ -7971,6 +8106,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesNestedSections_pl.properties -
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesNestedSections_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesNestedSections_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesNestedSections_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesNoList_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesNoList_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesNoList_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesNoList_en.properties -text
@@ -7985,6 +8121,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesNoList_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesNoList_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesNoList_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/InvoicesNoList_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Invoices_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices_en.properties -text
@@ -7999,6 +8136,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Invoices_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Invoices_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Issues_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Issues_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Issues_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Issues_en.properties -text
@@ -8013,6 +8151,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Issues_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Issues_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Issues_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Issues_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Offices2_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Offices2_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Offices2_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Offices2_en.properties -text
@@ -8027,6 +8166,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Offices2_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Offices2_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Offices2_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Offices2_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Offices_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Offices_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Offices_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Offices_en.properties -text
@@ -8041,6 +8181,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Offices_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Offices_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Offices_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Offices_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/OnlyEditDetailsInvoice_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/OnlyEditDetailsInvoice_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/OnlyEditDetailsInvoice_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/OnlyEditDetailsInvoice_en.properties -text
@@ -8055,6 +8196,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/OnlyEditDetailsInvoice_pl.properties -
 OpenXavaTest/web/WEB-INF/classes/portlets/OnlyEditDetailsInvoice_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/OnlyEditDetailsInvoice_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/OnlyEditDetailsInvoice_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/OnlyReadDetailsInvoice_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/OnlyReadDetailsInvoice_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/OnlyReadDetailsInvoice_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/OnlyReadDetailsInvoice_en.properties -text
@@ -8082,6 +8224,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/OpenXavaTest_nl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/OpenXavaTest_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/OpenXavaTest_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/OpenXavaTest_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Products2ReferenceAndStereotype_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products2ReferenceAndStereotype_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products2ReferenceAndStereotype_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products2ReferenceAndStereotype_en.properties -text
@@ -8096,6 +8239,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Products2ReferenceAndStereotype_pl.pro
 OpenXavaTest/web/WEB-INF/classes/portlets/Products2ReferenceAndStereotype_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products2ReferenceAndStereotype_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products2ReferenceAndStereotype_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Products2WithFormulaAsAggregate_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products2WithFormulaAsAggregate_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products2WithFormulaAsAggregate_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products2WithFormulaAsAggregate_en.properties -text
@@ -8110,6 +8254,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Products2WithFormulaAsAggregate_pl.pro
 OpenXavaTest/web/WEB-INF/classes/portlets/Products2WithFormulaAsAggregate_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products2WithFormulaAsAggregate_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products2WithFormulaAsAggregate_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Products2WithFormula_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products2WithFormula_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products2WithFormula_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products2WithFormula_en.properties -text
@@ -8124,6 +8269,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Products2WithFormula_pl.properties -te
 OpenXavaTest/web/WEB-INF/classes/portlets/Products2WithFormula_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products2WithFormula_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products2WithFormula_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Products2_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products2_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products2_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products2_en.properties -text
@@ -8138,6 +8284,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Products2_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products2_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products2_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products2_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Products3ChangeActionsOnSearch_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3ChangeActionsOnSearch_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3ChangeActionsOnSearch_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3ChangeActionsOnSearch_en.properties -text
@@ -8152,6 +8299,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Products3ChangeActionsOnSearch_pl.prop
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3ChangeActionsOnSearch_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3ChangeActionsOnSearch_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3ChangeActionsOnSearch_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithDescriptionsList_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithDescriptionsList_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithDescriptionsList_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithDescriptionsList_en.properties -text
@@ -8166,6 +8314,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithDescriptionsList_pl.prope
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithDescriptionsList_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithDescriptionsList_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithDescriptionsList_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithGroup_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithGroup_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithGroup_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithGroup_en.properties -text
@@ -8180,6 +8329,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithGroup_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithGroup_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithGroup_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3WithGroup_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Products3_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3_en.properties -text
@@ -8194,6 +8344,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Products3_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products3_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/ProductsWithSection_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ProductsWithSection_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ProductsWithSection_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ProductsWithSection_en.properties -text
@@ -8208,6 +8359,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/ProductsWithSection_pl.properties -tex
 OpenXavaTest/web/WEB-INF/classes/portlets/ProductsWithSection_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ProductsWithSection_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ProductsWithSection_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Products_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products_en.properties -text
@@ -8222,6 +8374,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Products_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Products_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/SellersCannotCreateCustomer_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/SellersCannotCreateCustomer_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/SellersCannotCreateCustomer_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/SellersCannotCreateCustomer_en.properties -text
@@ -8236,6 +8389,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/SellersCannotCreateCustomer_pl.propert
 OpenXavaTest/web/WEB-INF/classes/portlets/SellersCannotCreateCustomer_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/SellersCannotCreateCustomer_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/SellersCannotCreateCustomer_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/SellersJSP_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/SellersJSP_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/SellersJSP_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/SellersJSP_en.properties -text
@@ -8250,6 +8404,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/SellersJSP_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/SellersJSP_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/SellersJSP_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/SellersJSP_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/SellersWithCustomersAsAggregate_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/SellersWithCustomersAsAggregate_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/SellersWithCustomersAsAggregate_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/SellersWithCustomersAsAggregate_en.properties -text
@@ -8264,6 +8419,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/SellersWithCustomersAsAggregate_pl.pro
 OpenXavaTest/web/WEB-INF/classes/portlets/SellersWithCustomersAsAggregate_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/SellersWithCustomersAsAggregate_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/SellersWithCustomersAsAggregate_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/SellersWithDescriptionsListJSP_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/SellersWithDescriptionsListJSP_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/SellersWithDescriptionsListJSP_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/SellersWithDescriptionsListJSP_en.properties -text
@@ -8278,6 +8434,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/SellersWithDescriptionsListJSP_pl.prop
 OpenXavaTest/web/WEB-INF/classes/portlets/SellersWithDescriptionsListJSP_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/SellersWithDescriptionsListJSP_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/SellersWithDescriptionsListJSP_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Sellers_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Sellers_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Sellers_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Sellers_en.properties -text
@@ -8292,6 +8449,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Sellers_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Sellers_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Sellers_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Sellers_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/ServiceTypes_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ServiceTypes_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ServiceTypes_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ServiceTypes_en.properties -text
@@ -8306,6 +8464,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/ServiceTypes_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ServiceTypes_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ServiceTypes_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ServiceTypes_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Services_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Services_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Services_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Services_en.properties -text
@@ -8320,6 +8479,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Services_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Services_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Services_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Services_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/ShipmentCharges_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ShipmentCharges_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ShipmentCharges_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ShipmentCharges_en.properties -text
@@ -8334,6 +8494,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/ShipmentCharges_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ShipmentCharges_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ShipmentCharges_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/ShipmentCharges_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Shipments_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Shipments_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Shipments_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Shipments_en.properties -text
@@ -8348,6 +8509,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Shipments_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Shipments_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Shipments_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Shipments_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Sizes_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Sizes_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Sizes_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Sizes_en.properties -text
@@ -8362,6 +8524,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Sizes_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Sizes_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Sizes_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Sizes_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/StatesHibernate_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/StatesHibernate_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/StatesHibernate_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/StatesHibernate_en.properties -text
@@ -8376,6 +8539,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/StatesHibernate_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/StatesHibernate_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/StatesHibernate_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/StatesHibernate_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/StatesJPA_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/StatesJPA_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/StatesJPA_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/StatesJPA_en.properties -text
@@ -8390,6 +8554,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/StatesJPA_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/StatesJPA_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/StatesJPA_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/StatesJPA_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Subfamilies2_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Subfamilies2_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Subfamilies2_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Subfamilies2_en.properties -text
@@ -8404,6 +8569,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Subfamilies2_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Subfamilies2_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Subfamilies2_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Subfamilies2_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/SubfamiliesSelect_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/SubfamiliesSelect_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/SubfamiliesSelect_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/SubfamiliesSelect_en.properties -text
@@ -8418,6 +8584,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/SubfamiliesSelect_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/SubfamiliesSelect_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/SubfamiliesSelect_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/SubfamiliesSelect_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Subfamilies_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Subfamilies_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Subfamilies_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Subfamilies_en.properties -text
@@ -8432,6 +8599,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Subfamilies_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Subfamilies_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Subfamilies_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Subfamilies_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Tasks_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Tasks_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Tasks_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Tasks_en.properties -text
@@ -8446,6 +8614,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Tasks_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Tasks_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Tasks_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Tasks_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges2_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges2_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges2_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges2_en.properties -text
@@ -8460,6 +8629,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges2_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges2_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges2_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges2_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/TransportChargesWithDistance_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/TransportChargesWithDistance_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/TransportChargesWithDistance_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/TransportChargesWithDistance_en.properties -text
@@ -8474,6 +8644,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/TransportChargesWithDistance_pl.proper
 OpenXavaTest/web/WEB-INF/classes/portlets/TransportChargesWithDistance_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/TransportChargesWithDistance_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/TransportChargesWithDistance_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges_en.properties -text
@@ -8488,6 +8659,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/TransportCharges_zh.properties -text
+OpenXavaTest/web/WEB-INF/classes/portlets/Warehouses_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Warehouses_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Warehouses_de.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Warehouses_en.properties -text
@@ -9120,6 +9292,7 @@ OpenXavaTest/web/xava/editors/radioButtonEditor.jsp -text
 OpenXavaTest/web/xava/editors/regionsEditor.jsp -text
 OpenXavaTest/web/xava/editors/textAreaEditor.jsp -text
 OpenXavaTest/web/xava/editors/textEditor.jsp -text
+OpenXavaTest/web/xava/editors/validValueEditorCommon.jsp -text
 OpenXavaTest/web/xava/editors/validValuesEditor.jsp -text
 OpenXavaTest/web/xava/errors.jsp -text
 OpenXavaTest/web/xava/htmlTagsEditor.jsp -text
