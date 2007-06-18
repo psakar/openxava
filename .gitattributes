@@ -3748,6 +3748,8 @@ OpenXavaDoc/i18n/NewIn213_en.properties -text
 OpenXavaDoc/i18n/NewIn213_es.properties -text
 OpenXavaDoc/i18n/NewIn214_en.properties -text
 OpenXavaDoc/i18n/NewIn214_es.properties -text
+OpenXavaDoc/i18n/NewIn215_en.properties -text
+OpenXavaDoc/i18n/NewIn215_es.properties -text
 OpenXavaDoc/i18n/News_en.properties -text
 OpenXavaDoc/i18n/News_es.properties -text
 OpenXavaDoc/i18n/Postgres_en.properties -text
@@ -4773,10 +4775,12 @@ OpenXavaDoc/web/apidocs/org/openxava/web/servlets/package-use.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/JetSpeed2Style.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/LiferayStyle.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/Style.html -text
+OpenXavaDoc/web/apidocs/org/openxava/web/style/WebSpherePortal6Style.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/WebSpherePortalStyle.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/class-use/JetSpeed2Style.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/class-use/LiferayStyle.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/class-use/Style.html -text
+OpenXavaDoc/web/apidocs/org/openxava/web/style/class-use/WebSpherePortal6Style.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/class-use/WebSpherePortalStyle.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/package-frame.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/package-summary.html -text
