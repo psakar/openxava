@@ -5357,6 +5357,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/AdditionalDetailBean.java
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/CarrierBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/ClerkBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/ColorBean.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/CourseBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/CustomerBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/CustomerContactPersonBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/CustomerStateBean.java -text
@@ -5421,6 +5422,12 @@ OpenXavaTest/gen-src/org/openxava/test/model/ColorKey.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/ColorRemote.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/ColorUtil.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/ColorValue.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/CourseData.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/CourseHome.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/CourseKey.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/CourseRemote.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/CourseUtil.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/CourseValue.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/CustomerContactPersonData.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/CustomerContactPersonHome.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/CustomerContactPersonKey.java -text
@@ -5664,6 +5671,7 @@ OpenXavaTest/gen-src/org/openxava/test/model/xejb/AdditionalDetailCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/CarrierCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/ClerkCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/ColorCMP.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/xejb/CourseCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/CustomerCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/CustomerContactPersonCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/CustomerStateCMP.java -text
