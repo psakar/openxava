@@ -2608,6 +2608,7 @@ OpenXava/src/org/openxava/actions/HideDetailElementInCollectionAction.java -text
 OpenXava/src/org/openxava/actions/HideRowsAction.java -text
 OpenXava/src/org/openxava/actions/IAction.java -text
 OpenXava/src/org/openxava/actions/IChainAction.java -text
+OpenXava/src/org/openxava/actions/IChainActionWithArgv.java -text
 OpenXava/src/org/openxava/actions/IChangeControllersAction.java -text
 OpenXava/src/org/openxava/actions/IChangeModeAction.java -text
 OpenXava/src/org/openxava/actions/IChangeModuleAction.java -text
