@@ -2574,11 +2574,12 @@ OpenXava/lib/portlet-api-1.0.jar -text
 OpenXava/lib/tl.jar -text
 OpenXava/properties/commons-logging.properties -text
 OpenXava/src/org/openxava/actions/AddColumnsAction.java -text
+OpenXava/src/org/openxava/actions/AddElementsToCollectionAction.java -text
 OpenXava/src/org/openxava/actions/AddImageToGalleryAction.java -text
 OpenXava/src/org/openxava/actions/BaseAction.java -text
 OpenXava/src/org/openxava/actions/CancelAction.java -text
+OpenXava/src/org/openxava/actions/CancelFromCustomListAction.java -text
 OpenXava/src/org/openxava/actions/CancelInListAction.java -text
-OpenXava/src/org/openxava/actions/CancelReferenceSearchAction.java -text
 OpenXava/src/org/openxava/actions/ChangeImageAction.java -text
 OpenXava/src/org/openxava/actions/ChangeLenguageAction.java -text
 OpenXava/src/org/openxava/actions/ChangeModuleAction.java -text
@@ -2598,6 +2599,7 @@ OpenXava/src/org/openxava/actions/EmptyAction.java -text
 OpenXava/src/org/openxava/actions/FilterAction.java -text
 OpenXava/src/org/openxava/actions/GenerateReportAction.java -text
 OpenXava/src/org/openxava/actions/GoAddColumnsAction.java -text
+OpenXava/src/org/openxava/actions/GoAddElementsToCollectionAction.java -text
 OpenXava/src/org/openxava/actions/GoDetailAction.java -text
 OpenXava/src/org/openxava/actions/GoFirstAction.java -text
 OpenXava/src/org/openxava/actions/GoListAction.java -text
@@ -3009,6 +3011,7 @@ OpenXava/web/WEB-INF/lib/standard.jar -text
 OpenXava/web/WEB-INF/openxava.tld -text
 OpenXava/web/WEB-INF/web.xml -text
 OpenXava/web/addColumns.jsp -text
+OpenXava/web/addToCollection.jsp -text
 OpenXava/web/bottomButtons.jsp -text
 OpenXava/web/buttonBar.jsp -text
 OpenXava/web/calculatedCollectionList.jsp -text
@@ -8726,6 +8729,7 @@ OpenXavaTest/web/doc/description_en.html -text
 OpenXavaTest/web/doc/description_es.html -text
 OpenXavaTest/web/public/myPublicJSP.jsp -text
 OpenXavaTest/web/xava/addColumns.jsp -text
+OpenXavaTest/web/xava/addToCollection.jsp -text
 OpenXavaTest/web/xava/bottomButtons.jsp -text
 OpenXavaTest/web/xava/buttonBar.jsp -text
 OpenXavaTest/web/xava/calculatedCollectionList.jsp -text
