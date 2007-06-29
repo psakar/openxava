@@ -64,6 +64,7 @@ AccessTracking/i18n/AccessTracking-labels_es.properties -text
 AccessTracking/i18n/AccessTracking-messages_ca.properties -text
 AccessTracking/i18n/AccessTracking-messages_en.properties -text
 AccessTracking/i18n/AccessTracking-messages_es.properties -text
+AccessTracking/i18n/portlets/Accesses_bg.properties -text
 AccessTracking/i18n/portlets/Accesses_ca.properties -text
 AccessTracking/i18n/portlets/Accesses_de.properties -text
 AccessTracking/i18n/portlets/Accesses_en.properties -text
@@ -74,6 +75,7 @@ AccessTracking/i18n/portlets/Accesses_it.properties -text
 AccessTracking/i18n/portlets/Accesses_ja.properties -text
 AccessTracking/i18n/portlets/Accesses_ko.properties -text
 AccessTracking/i18n/portlets/Accesses_nl.properties -text
+AccessTracking/i18n/portlets/Accesses_pl.properties -text
 AccessTracking/i18n/portlets/Accesses_pt.properties -text
 AccessTracking/i18n/portlets/Accesses_sv.properties -text
 AccessTracking/i18n/portlets/Accesses_zh.properties -text
@@ -127,6 +129,7 @@ AccessTracking/web/WEB-INF/classes/hibernate-junit.cfg.xml -text
 AccessTracking/web/WEB-INF/classes/hibernate.cfg.xml -text
 AccessTracking/web/WEB-INF/classes/jndi.properties -text
 AccessTracking/web/WEB-INF/classes/openxava-hibernate.cfg.xml -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_bg.properties -text
 AccessTracking/web/WEB-INF/classes/portlets/Accesses_ca.properties -text
 AccessTracking/web/WEB-INF/classes/portlets/Accesses_de.properties -text
 AccessTracking/web/WEB-INF/classes/portlets/Accesses_en.properties -text
@@ -137,6 +140,7 @@ AccessTracking/web/WEB-INF/classes/portlets/Accesses_it.properties -text
 AccessTracking/web/WEB-INF/classes/portlets/Accesses_ja.properties -text
 AccessTracking/web/WEB-INF/classes/portlets/Accesses_ko.properties -text
 AccessTracking/web/WEB-INF/classes/portlets/Accesses_nl.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_pl.properties -text
 AccessTracking/web/WEB-INF/classes/portlets/Accesses_pt.properties -text
 AccessTracking/web/WEB-INF/classes/portlets/Accesses_sv.properties -text
 AccessTracking/web/WEB-INF/classes/portlets/Accesses_zh.properties -text
@@ -171,9 +175,12 @@ AccessTracking/web/WEB-INF/openxava.tld -text
 AccessTracking/web/WEB-INF/portlet.xml -text
 AccessTracking/web/WEB-INF/web.xml -text
 AccessTracking/web/xava/addColumns.jsp -text
+AccessTracking/web/xava/addToCollection.jsp -text
 AccessTracking/web/xava/bottomButtons.jsp -text
 AccessTracking/web/xava/buttonBar.jsp -text
+AccessTracking/web/xava/calculatedCollectionList.jsp -text
 AccessTracking/web/xava/collection.jsp -text
+AccessTracking/web/xava/collectionList.jsp -text
 AccessTracking/web/xava/comparatorsBooleanCombo.jsp -text
 AccessTracking/web/xava/comparatorsCombo.jsp -text
 AccessTracking/web/xava/comparatorsValidValuesCombo.jsp -text
@@ -739,11 +746,14 @@ AccessTracking/web/xava/editors/gallery.jsp -text
 AccessTracking/web/xava/editors/galleryEditor.jsp -text
 AccessTracking/web/xava/editors/htmlEditor.jsp -text
 AccessTracking/web/xava/editors/imageEditor.jsp -text
+AccessTracking/web/xava/editors/imageLabelEditor.jsp -text
 AccessTracking/web/xava/editors/labelEditor.jsp -text
 AccessTracking/web/xava/editors/moneyEditor.jsp -text
 AccessTracking/web/xava/editors/notAvailableEditor.jsp -text
+AccessTracking/web/xava/editors/radioButtonEditor.jsp -text
 AccessTracking/web/xava/editors/textAreaEditor.jsp -text
 AccessTracking/web/xava/editors/textEditor.jsp -text
+AccessTracking/web/xava/editors/validValueEditorCommon.jsp -text
 AccessTracking/web/xava/editors/validValuesEditor.jsp -text
 AccessTracking/web/xava/errors.jsp -text
 AccessTracking/web/xava/htmlTagsEditor.jsp -text
@@ -766,6 +776,7 @@ AccessTracking/web/xava/images/edit-text.gif -text
 AccessTracking/web/xava/images/edit.gif -text
 AccessTracking/web/xava/images/error.gif -text
 AccessTracking/web/xava/images/excel.gif -text
+AccessTracking/web/xava/images/filter.gif -text
 AccessTracking/web/xava/images/find.gif -text
 AccessTracking/web/xava/images/home.gif -text
 AccessTracking/web/xava/images/html/skins/Jetspeed/tableft.gif -text
@@ -793,6 +804,7 @@ AccessTracking/web/xava/images/restore.gif -text
 AccessTracking/web/xava/images/save.gif -text
 AccessTracking/web/xava/images/search.gif -text
 AccessTracking/web/xava/images/sort.gif -text
+AccessTracking/web/xava/images/view.gif -text
 AccessTracking/web/xava/imports.jsp -text
 AccessTracking/web/xava/jasperReport.jsp -text
 AccessTracking/web/xava/languages.jsp -text
