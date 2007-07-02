@@ -1698,6 +1698,7 @@ MySchool/hibernate/hibernate.cfg.xml -text
 MySchool/i18n/MySchool-labels_ca.properties -text
 MySchool/i18n/MySchool-labels_en.properties -text
 MySchool/i18n/MySchool-labels_es.properties -text
+MySchool/i18n/portlets/Teachers_bg.properties -text
 MySchool/i18n/portlets/Teachers_ca.properties -text
 MySchool/i18n/portlets/Teachers_de.properties -text
 MySchool/i18n/portlets/Teachers_en.properties -text
@@ -1730,6 +1731,7 @@ MySchool/web/WEB-INF/classes/datasource.properties -text
 MySchool/web/WEB-INF/classes/hibernate-junit.cfg.xml -text
 MySchool/web/WEB-INF/classes/hibernate.cfg.xml -text
 MySchool/web/WEB-INF/classes/openxava-hibernate.cfg.xml -text
+MySchool/web/WEB-INF/classes/portlets/Teachers_bg.properties -text
 MySchool/web/WEB-INF/classes/portlets/Teachers_ca.properties -text
 MySchool/web/WEB-INF/classes/portlets/Teachers_de.properties -text
 MySchool/web/WEB-INF/classes/portlets/Teachers_en.properties -text
@@ -1775,9 +1777,12 @@ MySchool/web/WEB-INF/openxava.tld -text
 MySchool/web/WEB-INF/portlet.xml -text
 MySchool/web/WEB-INF/web.xml -text
 MySchool/web/xava/addColumns.jsp -text
+MySchool/web/xava/addToCollection.jsp -text
 MySchool/web/xava/bottomButtons.jsp -text
 MySchool/web/xava/buttonBar.jsp -text
+MySchool/web/xava/calculatedCollectionList.jsp -text
 MySchool/web/xava/collection.jsp -text
+MySchool/web/xava/collectionList.jsp -text
 MySchool/web/xava/comparatorsBooleanCombo.jsp -text
 MySchool/web/xava/comparatorsCombo.jsp -text
 MySchool/web/xava/comparatorsValidValuesCombo.jsp -text
@@ -2343,12 +2348,15 @@ MySchool/web/xava/editors/gallery.jsp -text
 MySchool/web/xava/editors/galleryEditor.jsp -text
 MySchool/web/xava/editors/htmlEditor.jsp -text
 MySchool/web/xava/editors/imageEditor.jsp -text
+MySchool/web/xava/editors/imageLabelEditor.jsp -text
 MySchool/web/xava/editors/labelEditor.jsp -text
 MySchool/web/xava/editors/moneyEditor.jsp -text
 MySchool/web/xava/editors/notAvailableEditor.jsp -text
 MySchool/web/xava/editors/photoEditor.jsp -text
+MySchool/web/xava/editors/radioButtonEditor.jsp -text
 MySchool/web/xava/editors/textAreaEditor.jsp -text
 MySchool/web/xava/editors/textEditor.jsp -text
+MySchool/web/xava/editors/validValueEditorCommon.jsp -text
 MySchool/web/xava/editors/validValuesEditor.jsp -text
 MySchool/web/xava/errors.jsp -text
 MySchool/web/xava/htmlTagsEditor.jsp -text
@@ -2371,6 +2379,7 @@ MySchool/web/xava/images/edit-text.gif -text
 MySchool/web/xava/images/edit.gif -text
 MySchool/web/xava/images/error.gif -text
 MySchool/web/xava/images/excel.gif -text
+MySchool/web/xava/images/filter.gif -text
 MySchool/web/xava/images/find.gif -text
 MySchool/web/xava/images/home.gif -text
 MySchool/web/xava/images/html/skins/Jetspeed/tableft.gif -text
@@ -2398,6 +2407,7 @@ MySchool/web/xava/images/restore.gif -text
 MySchool/web/xava/images/save.gif -text
 MySchool/web/xava/images/search.gif -text
 MySchool/web/xava/images/sort.gif -text
+MySchool/web/xava/images/view.gif -text
 MySchool/web/xava/imports.jsp -text
 MySchool/web/xava/jasperReport.jsp -text
 MySchool/web/xava/languages.jsp -text
