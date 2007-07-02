@@ -3825,11 +3825,12 @@ OpenXavaDoc/web/apidocs/help-doc.html -text
 OpenXavaDoc/web/apidocs/index-all.html -text
 OpenXavaDoc/web/apidocs/index.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/AddColumnsAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/AddElementsToCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/AddImageToGalleryAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/BaseAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/CancelAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/CancelFromCustomListAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/CancelInListAction.html -text
-OpenXavaDoc/web/apidocs/org/openxava/actions/CancelReferenceSearchAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/ChangeImageAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/ChangeLenguageAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/ChangeModuleAction.html -text
@@ -3849,6 +3850,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/EmptyAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/FilterAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/GenerateReportAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/GoAddColumnsAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/GoAddElementsToCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/GoDetailAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/GoFirstAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/GoListAction.html -text
@@ -3859,6 +3861,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/HideDetailElementInCollectionAction
 OpenXavaDoc/web/apidocs/org/openxava/actions/HideRowsAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/IAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/IChainAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/IChainActionWithArgv.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/IChangeControllersAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/IChangeModeAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/IChangeModuleAction.html -text
@@ -3919,11 +3922,12 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/UpdateReferenceBaseAction.html -tex
 OpenXavaDoc/web/apidocs/org/openxava/actions/ViewBaseAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/ViewDetailAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/AddColumnsAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/AddElementsToCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/AddImageToGalleryAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/BaseAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/CancelAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/CancelFromCustomListAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/CancelInListAction.html -text
-OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/CancelReferenceSearchAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ChangeImageAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ChangeLenguageAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ChangeModuleAction.html -text
@@ -3943,6 +3947,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/EmptyAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/FilterAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GenerateReportAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoAddColumnsAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoAddElementsToCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoDetailAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoFirstAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoListAction.html -text
@@ -3953,6 +3958,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/HideDetailElementInCollec
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/HideRowsAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/IAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/IChainAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/IChainActionWithArgv.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/IChangeControllersAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/IChangeModeAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/IChangeModuleAction.html -text
@@ -4557,7 +4563,6 @@ OpenXavaDoc/web/apidocs/org/openxava/tests/package-summary.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tests/package-tree.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tests/package-use.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/Align.html -text
-OpenXavaDoc/web/apidocs/org/openxava/util/ArrayOneRowResultSetAdapter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/Assert.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/AssertException.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/CloneException.html -text
@@ -4599,7 +4604,6 @@ OpenXavaDoc/web/apidocs/org/openxava/util/XavaException.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/XavaPreferences.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/XavaResources.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/Align.html -text
-OpenXavaDoc/web/apidocs/org/openxava/util/class-use/ArrayOneRowResultSetAdapter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/Assert.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/AssertException.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/CloneException.html -text
@@ -4879,7 +4883,6 @@ OpenXavaDoc/web/images/.xvpics/download.gif -text svneol=unset#application/octet
 OpenXavaDoc/web/images/builder.gif -text
 OpenXavaDoc/web/images/download.gif -text
 OpenXavaDoc/web/images/external_tools.gif -text
-OpenXavaDoc/web/images/nomProj.png -text
 OpenXavaDoc/web/images/postgres_html_4464c178.gif -text
 OpenXavaDoc/web/images/postgres_html_m12058e29.gif -text
 OpenXavaDoc/web/images/postgres_html_m330ff260.gif -text
