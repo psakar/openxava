@@ -870,6 +870,8 @@ MiEscuela/build/j2ee/META-INF/application.xml -text
 MiEscuela/components/Profesor.xml -text
 MiEscuela/components/dtds/component.dtd -text
 MiEscuela/components/dtds/componente.dtd -text
+MiEscuela/data/mi-escuela-db.properties -text
+MiEscuela/data/mi-escuela-db.script -text
 MiEscuela/filtered-files/EtiquetasMiEscuela_ca.properties -text
 MiEscuela/filtered-files/EtiquetasMiEscuela_en.properties -text
 MiEscuela/filtered-files/EtiquetasMiEscuela_es.properties -text
@@ -912,6 +914,7 @@ MiEscuela/hibernate/hibernate.cfg.xml -text
 MiEscuela/i18n/EtiquetasMiEscuela_ca.properties -text
 MiEscuela/i18n/EtiquetasMiEscuela_en.properties -text
 MiEscuela/i18n/EtiquetasMiEscuela_es.properties -text
+MiEscuela/i18n/portlets/Profesores_bg.properties -text
 MiEscuela/i18n/portlets/Profesores_ca.properties -text
 MiEscuela/i18n/portlets/Profesores_de.properties -text
 MiEscuela/i18n/portlets/Profesores_en.properties -text
@@ -937,6 +940,7 @@ MiEscuela/properties/xava.properties -text
 MiEscuela/src/org/openxava/escuela/pruebas/PruebaProfesores.java -text
 MiEscuela/tomcat-hypersonic.properties -text
 MiEscuela/web/META-INF/MANIFEST.MF -text
+MiEscuela/web/WEB-INF/classes/EtiquetasMiEscuela.properties -text
 MiEscuela/web/WEB-INF/classes/Profesor.hbm.xml -text
 MiEscuela/web/WEB-INF/classes/TabUserPreferences.hbm.xml -text
 MiEscuela/web/WEB-INF/classes/datasource.properties -text
@@ -974,9 +978,12 @@ MiEscuela/web/WEB-INF/openxava.tld -text
 MiEscuela/web/WEB-INF/portlet.xml -text
 MiEscuela/web/WEB-INF/web.xml -text
 MiEscuela/web/xava/addColumns.jsp -text
+MiEscuela/web/xava/addToCollection.jsp -text
 MiEscuela/web/xava/bottomButtons.jsp -text
 MiEscuela/web/xava/buttonBar.jsp -text
+MiEscuela/web/xava/calculatedCollectionList.jsp -text
 MiEscuela/web/xava/collection.jsp -text
+MiEscuela/web/xava/collectionList.jsp -text
 MiEscuela/web/xava/comparatorsBooleanCombo.jsp -text
 MiEscuela/web/xava/comparatorsCombo.jsp -text
 MiEscuela/web/xava/comparatorsValidValuesCombo.jsp -text
@@ -1542,12 +1549,15 @@ MiEscuela/web/xava/editors/gallery.jsp -text
 MiEscuela/web/xava/editors/galleryEditor.jsp -text
 MiEscuela/web/xava/editors/htmlEditor.jsp -text
 MiEscuela/web/xava/editors/imageEditor.jsp -text
+MiEscuela/web/xava/editors/imageLabelEditor.jsp -text
 MiEscuela/web/xava/editors/labelEditor.jsp -text
 MiEscuela/web/xava/editors/moneyEditor.jsp -text
 MiEscuela/web/xava/editors/notAvailableEditor.jsp -text
 MiEscuela/web/xava/editors/photoEditor.jsp -text
+MiEscuela/web/xava/editors/radioButtonEditor.jsp -text
 MiEscuela/web/xava/editors/textAreaEditor.jsp -text
 MiEscuela/web/xava/editors/textEditor.jsp -text
+MiEscuela/web/xava/editors/validValueEditorCommon.jsp -text
 MiEscuela/web/xava/editors/validValuesEditor.jsp -text
 MiEscuela/web/xava/errors.jsp -text
 MiEscuela/web/xava/htmlTagsEditor.jsp -text
@@ -1570,6 +1580,7 @@ MiEscuela/web/xava/images/edit-text.gif -text
 MiEscuela/web/xava/images/edit.gif -text
 MiEscuela/web/xava/images/error.gif -text
 MiEscuela/web/xava/images/excel.gif -text
+MiEscuela/web/xava/images/filter.gif -text
 MiEscuela/web/xava/images/find.gif -text
 MiEscuela/web/xava/images/home.gif -text
 MiEscuela/web/xava/images/html/skins/Jetspeed/tableft.gif -text
@@ -1597,6 +1608,7 @@ MiEscuela/web/xava/images/restore.gif -text
 MiEscuela/web/xava/images/save.gif -text
 MiEscuela/web/xava/images/search.gif -text
 MiEscuela/web/xava/images/sort.gif -text
+MiEscuela/web/xava/images/view.gif -text
 MiEscuela/web/xava/imports.jsp -text
 MiEscuela/web/xava/jasperReport.jsp -text
 MiEscuela/web/xava/languages.jsp -text
