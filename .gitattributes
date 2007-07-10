@@ -5323,6 +5323,7 @@ OpenXavaTest/filtered-files/editors.xml -text
 OpenXavaTest/filtered-files/hibernate-jpa-junit.cfg.xml -text
 OpenXavaTest/filtered-files/hibernate-jpa.cfg.xml -text
 OpenXavaTest/filtered-files/hibernate-junit.cfg.xml -text
+OpenXavaTest/filtered-files/hibernate-schema-updating.cfg.xml -text
 OpenXavaTest/filtered-files/hibernate.cfg.xml -text
 OpenXavaTest/filtered-files/openxava-hibernate.cfg.xml -text
 OpenXavaTest/filtered-files/stereotype-type-default.xml -text
