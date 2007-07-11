@@ -1592,64 +1592,18 @@ MySchool/.classpath -text
 MySchool/.project -text
 MySchool/.settings/.component -text
 MySchool/.settings/org.eclipse.jdt.core.prefs -text
+MySchool/.settings/org.eclipse.jdt.ui.prefs -text
 MySchool/.settings/org.eclipse.jst.common.project.facet.core.prefs -text
 MySchool/.settings/org.eclipse.wst.common.project.facet.core.xml -text
 MySchool/build.xml -text
-MySchool/build/ejb/META-INF/MANIFEST.MF -text
-MySchool/build/ejb/META-INF/Schema.dbxmi -text svneol=unset#application/octet-stream
-MySchool/build/ejb/META-INF/ejb-jar.xml -text
-MySchool/build/ejb/META-INF/ibm-ejb-jar-bnd.xmi -text svneol=unset#application/octet-stream
-MySchool/build/ejb/META-INF/ibm-ejb-jar-ext.xmi -text svneol=unset#application/octet-stream
-MySchool/build/ejb/META-INF/jboss.xml -text
-MySchool/build/ejb/META-INF/jbosscmp-jdbc.xml -text
-MySchool/build/hibernate/Teacher.hbm.xml -text
-MySchool/build/j2ee/META-INF/application-websphere.xml -text
-MySchool/build/j2ee/META-INF/application.xml -text
-MySchool/components/Teacher.xml -text
-MySchool/components/dtds/component.dtd -text
-MySchool/components/dtds/componente.dtd -text svneol=unset#application/octet-stream
 MySchool/data/my-school-db.properties -text
 MySchool/data/my-school-db.script -text svneol=unset#application/octet-stream
 MySchool/data/my-school-ds.xml -text
-MySchool/filtered-files/GalleryImage.hbm.xml -text
-MySchool/filtered-files/MySchool-labels_ca.properties -text
-MySchool/filtered-files/MySchool-labels_en.properties -text
-MySchool/filtered-files/MySchool-labels_es.properties -text
-MySchool/filtered-files/TabUserPreferences.hbm.xml -text
-MySchool/filtered-files/Teacher.hbm.xml -text
-MySchool/filtered-files/Teacher.xml -text
-MySchool/filtered-files/application.xml -text
-MySchool/filtered-files/datasource.properties -text
-MySchool/filtered-files/dtds/aplicacion.dtd -text
-MySchool/filtered-files/dtds/application.dtd -text
-MySchool/filtered-files/dtds/aspectos.dtd -text
-MySchool/filtered-files/dtds/aspects.dtd -text
-MySchool/filtered-files/dtds/code-generators.dtd -text
-MySchool/filtered-files/dtds/component.dtd -text
-MySchool/filtered-files/dtds/componente.dtd -text
-MySchool/filtered-files/dtds/controladores.dtd -text
-MySchool/filtered-files/dtds/controllers.dtd -text
-MySchool/filtered-files/dtds/conversores.dtd -text
-MySchool/filtered-files/dtds/converters.dtd -text
-MySchool/filtered-files/dtds/default-size.dtd -text
-MySchool/filtered-files/dtds/editores.dtd -text
-MySchool/filtered-files/dtds/editors.dtd -text
-MySchool/filtered-files/dtds/generadores-codigo.dtd -text
-MySchool/filtered-files/dtds/longitud-defecto.dtd -text
-MySchool/filtered-files/dtds/stereotype-type-default.dtd -text
-MySchool/filtered-files/dtds/tipo-estereotipo-defecto.dtd -text
-MySchool/filtered-files/dtds/validadores.dtd -text
-MySchool/filtered-files/dtds/validators.dtd -text
-MySchool/filtered-files/hibernate-junit.cfg.xml -text
-MySchool/filtered-files/hibernate.cfg.xml -text
-MySchool/filtered-files/openxava-hibernate.cfg.xml -text
-MySchool/gen-src-xava/dnas-pojo.properties -text
-MySchool/gen-src-xava/dnas.properties -text
-MySchool/gen-src-xava/org/openxava/school/model/ITeacher.java -text
-MySchool/gen-src-xava/org/openxava/school/model/Teacher.java -text
-MySchool/gen-src-xava/packages.properties -text
-MySchool/hibernate/hibernate-junit.cfg.xml -text
-MySchool/hibernate/hibernate.cfg.xml -text
+MySchool/ejb3-jpa/GalleryImage.hbm.xml -text
+MySchool/ejb3-jpa/META-INF/persistence.xml -text
+MySchool/ejb3-jpa/TabUserPreferences.hbm.xml -text
+MySchool/ejb3-jpa/hibernate.cfg.xml -text
+MySchool/ejb3-jpa/openxava-hibernate.cfg.xml -text
 MySchool/i18n/MySchool-labels_ca.properties -text
 MySchool/i18n/MySchool-labels_en.properties -text
 MySchool/i18n/MySchool-labels_es.properties -text
@@ -1668,22 +1622,12 @@ MySchool/i18n/portlets/Teachers_pl.properties -text
 MySchool/i18n/portlets/Teachers_pt.properties -text
 MySchool/i18n/portlets/Teachers_sv.properties -text
 MySchool/i18n/portlets/Teachers_zh.properties -text
-MySchool/jboss-hypersonic.properties -text
-MySchool/properties/BeansContext.properties -text
-MySchool/properties/LoginContextFactory.properties -text
-MySchool/properties/jndi-jboss.properties -text
-MySchool/properties/jndi-websphere.properties -text
-MySchool/properties/jndi.properties -text
 MySchool/properties/xava-junit.properties -text
 MySchool/properties/xava.properties -text
+MySchool/src/org/openxava/school/model/Teacher.java -text
 MySchool/src/org/openxava/school/tests/TeachersTest.java -text
-MySchool/tomcat-hypersonic.properties -text
 MySchool/web/META-INF/MANIFEST.MF -text
-MySchool/web/WEB-INF/classes/MySchool-labels.properties -text
 MySchool/web/WEB-INF/classes/TabUserPreferences.hbm.xml -text
-MySchool/web/WEB-INF/classes/Teacher.hbm.xml -text
-MySchool/web/WEB-INF/classes/datasource.properties -text
-MySchool/web/WEB-INF/classes/hibernate-junit.cfg.xml -text
 MySchool/web/WEB-INF/classes/hibernate.cfg.xml -text
 MySchool/web/WEB-INF/classes/openxava-hibernate.cfg.xml -text
 MySchool/web/WEB-INF/classes/portlets/Teachers_bg.properties -text
@@ -2379,7 +2323,6 @@ MySchool/web/xava/style/openxava.css -text
 MySchool/web/xava/style/skins.css -text svneol=unset#application/octet-stream
 MySchool/web/xava/style/swing.css -text svneol=unset#application/octet-stream
 MySchool/web/xava/style/yahoo.css -text svneol=unset#application/octet-stream
-MySchool/websphere-as400.properties -text
 MySchool/xava/application.xml -text
 MySchool/xava/dtds/aplicacion.dtd -text
 MySchool/xava/dtds/application.dtd -text
