@@ -2933,6 +2933,7 @@ OpenXava/src/org/openxava/validators/IPropertyValidator.java -text
 OpenXava/src/org/openxava/validators/IRemoveValidator.java -text
 OpenXava/src/org/openxava/validators/IValidator.java -text
 OpenXava/src/org/openxava/validators/MinimumSizeValidator.java -text
+OpenXava/src/org/openxava/validators/MoneyScaleValidator.java -text
 OpenXava/src/org/openxava/validators/NotBlankCharacterValidator.java -text
 OpenXava/src/org/openxava/validators/NotEmptyStringValidator.java -text
 OpenXava/src/org/openxava/validators/NotNegativeValidator.java -text
