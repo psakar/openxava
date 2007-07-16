@@ -2492,6 +2492,7 @@ OpenXava/lib/j2ee.jar -text
 OpenXava/lib/js.jar -text
 OpenXava/lib/portlet-api-1.0.jar -text
 OpenXava/lib/tl.jar -text
+OpenXava/ox3-changelog.txt -text
 OpenXava/ox3-src/org/openxava/annotations/Action.java -text
 OpenXava/ox3-src/org/openxava/annotations/Actions.java -text
 OpenXava/ox3-src/org/openxava/annotations/AsEmbedded.java -text
