@@ -2488,6 +2488,8 @@ OpenXava/ox3-src/org/openxava/annotations/DescriptionsList.java -text
 OpenXava/ox3-src/org/openxava/annotations/DescriptionsLists.java -text
 OpenXava/ox3-src/org/openxava/annotations/DetailAction.java -text
 OpenXava/ox3-src/org/openxava/annotations/DetailActions.java -text
+OpenXava/ox3-src/org/openxava/annotations/DisplaySize.java -text
+OpenXava/ox3-src/org/openxava/annotations/DisplaySizes.java -text
 OpenXava/ox3-src/org/openxava/annotations/EditAction.java -text
 OpenXava/ox3-src/org/openxava/annotations/EditActions.java -text
 OpenXava/ox3-src/org/openxava/annotations/EditOnly.java -text
