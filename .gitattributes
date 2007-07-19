@@ -8474,6 +8474,7 @@ OpenXavaTest/src/org/openxava/test/validators/PersonNameValidator.java -text
 OpenXavaTest/src/org/openxava/test/validators/UnitPriceValidator.java -text
 OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/test-src/org/openxava/test/tests/CarriersTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/CarriersWithCalculatedFellowsTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/CarriersWithSpecialSearchTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ChangeProductsPrice2Test.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ChangeProductsPriceTest.java -text
