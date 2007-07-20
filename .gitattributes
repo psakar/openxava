@@ -2830,6 +2830,7 @@ OpenXava/src/org/openxava/session/GalleryImage.java -text
 OpenXava/src/org/openxava/session/Language.java -text
 OpenXava/src/org/openxava/tab/Tab.java -text
 OpenXava/src/org/openxava/tab/impl/DataChunk.java -text
+OpenXava/src/org/openxava/tab/impl/EmptyResultSet.java -text
 OpenXava/src/org/openxava/tab/impl/EntityTab.java -text
 OpenXava/src/org/openxava/tab/impl/EntityTabBean.java -text
 OpenXava/src/org/openxava/tab/impl/EntityTabDataProvider.java -text
