@@ -2762,6 +2762,7 @@ OpenXava/src/org/openxava/formatters/DateTimeFormatter.java -text
 OpenXava/src/org/openxava/formatters/IFormatter.java -text
 OpenXava/src/org/openxava/formatters/IMultipleValuesFormatter.java -text
 OpenXava/src/org/openxava/formatters/ImageFormatter.java -text
+OpenXava/src/org/openxava/formatters/MoneyFormatter.java -text
 OpenXava/src/org/openxava/formatters/MultipleValuesByPassFormatter.java -text
 OpenXava/src/org/openxava/formatters/SQLTimeFormatter.java -text
 OpenXava/src/org/openxava/formatters/StringTimeFormatter.java -text
