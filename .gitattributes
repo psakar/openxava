@@ -2676,6 +2676,7 @@ OpenXava/src/org/openxava/application/meta/MetaApplications.java -text
 OpenXava/src/org/openxava/application/meta/MetaModule.java -text
 OpenXava/src/org/openxava/application/meta/MetaReport.java -text
 OpenXava/src/org/openxava/application/meta/xmlparse/ApplicationParser.java -text
+OpenXava/src/org/openxava/aspects/PropertyAspect.aj -text
 OpenXava/src/org/openxava/calculators/BigDecimalCalculator.java -text
 OpenXava/src/org/openxava/calculators/ByPassCalculator.java -text
 OpenXava/src/org/openxava/calculators/ConcatCalculator.java -text
@@ -2992,6 +2993,7 @@ OpenXava/src/org/openxava/web/taglib/MessageTag.java -text
 OpenXava/web/WEB-INF/lib/FCKeditor-2.3.jar -text
 OpenXava/web/WEB-INF/lib/antlr.jar -text
 OpenXava/web/WEB-INF/lib/asm.jar -text
+OpenXava/web/WEB-INF/lib/aspectjrt.jar -text
 OpenXava/web/WEB-INF/lib/cglib.jar -text
 OpenXava/web/WEB-INF/lib/commons-beanutils.jar -text
 OpenXava/web/WEB-INF/lib/commons-collections.jar -text
@@ -8499,6 +8501,7 @@ OpenXavaTest/src/org/openxava/test/generators/warehouse_ejb_property.template -t
 OpenXavaTest/src/org/openxava/test/generators/warehouse_pojo_property.template -text
 OpenXavaTest/src/org/openxava/test/model/IWithCity.java -text
 OpenXavaTest/src/org/openxava/test/model/IWithName.java -text
+OpenXavaTest/src/org/openxava/test/model/Person.java -text
 OpenXavaTest/src/org/openxava/test/model/PriceException.java -text
 OpenXavaTest/src/org/openxava/test/model/ProductException.java -text
 OpenXavaTest/src/org/openxava/test/validators/CheapProductValidator.java -text
@@ -8564,6 +8567,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/OfficesTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/OnlyEditDetailsInvoiceTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/OnlyReadDetailsInvoiceTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/POJOTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/PersonTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/PositiveValidatorTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/Products2ReferenceAndStereotypeTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/Products2Test.java -text
