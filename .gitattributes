@@ -6098,6 +6098,8 @@ OpenXavaDoc/web/news_en.html -text
 OpenXavaDoc/web/news_es.html -text
 OpenXavaDoc/web/openxava-postgres_es.pdf -text
 OpenXavaDoc/web/ox3-changelog.txt -text
+OpenXavaDoc/web/ox3-migration_en.html -text
+OpenXavaDoc/web/ox3-migration_es.html -text
 OpenXavaDoc/web/ox3-tutorial_en.html -text
 OpenXavaDoc/web/ox3-tutorial_es.html -text
 OpenXavaDoc/web/ox3_en.html -text
