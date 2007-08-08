@@ -2353,6 +2353,7 @@ OpenXava/.settings/org.eclipse.jdt.ui.prefs -text
 OpenXava/.settings/org.eclipse.wst.common.project.facet.core.xml -text
 OpenXava/.settings/org.eclipse.wst.validation.prefs -text
 OpenXava/.vcm_meta -text svneol=unset#application/octet-stream
+OpenXava/aspects/org/openxava/aspects/PropertyAspect.aj -text
 OpenXava/build.xml -text
 OpenXava/build/jboss-app.xml -text
 OpenXava/build/server-properties/BeansContext.properties -text
@@ -2676,7 +2677,6 @@ OpenXava/src/org/openxava/application/meta/MetaApplications.java -text
 OpenXava/src/org/openxava/application/meta/MetaModule.java -text
 OpenXava/src/org/openxava/application/meta/MetaReport.java -text
 OpenXava/src/org/openxava/application/meta/xmlparse/ApplicationParser.java -text
-OpenXava/src/org/openxava/aspects/PropertyAspect.aj -text
 OpenXava/src/org/openxava/calculators/BigDecimalCalculator.java -text
 OpenXava/src/org/openxava/calculators/ByPassCalculator.java -text
 OpenXava/src/org/openxava/calculators/ConcatCalculator.java -text
