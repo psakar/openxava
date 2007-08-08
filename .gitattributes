@@ -6229,7 +6229,6 @@ OpenXavaTest/.project -text
 OpenXavaTest/.settings/.component -text
 OpenXavaTest/.settings/.ox2-component -text svneol=unset#application/octet-stream
 OpenXavaTest/.settings/org.eclipse.jdt.core.prefs -text
-OpenXavaTest/.settings/org.eclipse.jdt.ui.prefs -text
 OpenXavaTest/.settings/org.eclipse.jst.common.project.facet.core.prefs -text
 OpenXavaTest/.settings/org.eclipse.wst.common.project.facet.core.xml -text
 OpenXavaTest/.settings/org.eclipse.wst.validation.prefs -text
