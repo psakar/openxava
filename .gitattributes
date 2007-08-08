@@ -6379,6 +6379,7 @@ OpenXavaTest/filtered-files/Clerk.hbm.xml -text
 OpenXavaTest/filtered-files/Clerk.xml -text
 OpenXavaTest/filtered-files/Color.hbm.xml -text
 OpenXavaTest/filtered-files/Color.xml -text
+OpenXavaTest/filtered-files/Comment.hbm.xml -text
 OpenXavaTest/filtered-files/Course.hbm.xml -text
 OpenXavaTest/filtered-files/Course.xml -text
 OpenXavaTest/filtered-files/Customer.hbm.xml -text
@@ -6505,6 +6506,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/Address.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Carrier.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Clerk.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Color.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Comment.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Course.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Customer.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/CustomerContactPerson.java -text
@@ -6523,6 +6525,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/IAdditionalDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ICarrier.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IClerk.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IColor.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IComment.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ICourse.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ICustomer.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ICustomerContactPerson.java -text
@@ -6595,6 +6598,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/AdditionalDetailBean.java
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/CarrierBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/ClerkBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/ColorBean.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/CommentBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/CourseBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/CustomerBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/CustomerContactPersonBean.java -text
@@ -6660,6 +6664,12 @@ OpenXavaTest/gen-src/org/openxava/test/model/ColorKey.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/ColorRemote.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/ColorUtil.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/ColorValue.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/CommentData.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/CommentHome.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/CommentKey.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/CommentRemote.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/CommentUtil.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/CommentValue.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/CourseData.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/CourseHome.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/CourseKey.java -text
@@ -6909,6 +6919,7 @@ OpenXavaTest/gen-src/org/openxava/test/model/xejb/AdditionalDetailCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/CarrierCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/ClerkCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/ColorCMP.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/xejb/CommentCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/CourseCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/CustomerCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/CustomerContactPersonCMP.java -text
@@ -8324,7 +8335,6 @@ OpenXavaTest/ox2-src/org/openxava/test/calculators/TranslateCarrierNameCalculato
 OpenXavaTest/ox2-src/org/openxava/test/formatters/WarehouseFormatter.java -text
 OpenXavaTest/ox2-src/org/openxava/test/model/Family.java -text
 OpenXavaTest/ox2-src/org/openxava/test/model/IFamily.java -text
-OpenXavaTest/ox2-src/org/openxava/test/model/xejb/FamilyBean.java -text
 OpenXavaTest/ox2-src/org/openxava/test/tests/EJBTest.java -text
 OpenXavaTest/ox2-src/org/openxava/test/validators/DeliveryPlaceValidator.java -text
 OpenXavaTest/ox2-src/org/openxava/test/validators/DeliveryTypeRemoveValidator.java -text
@@ -8506,6 +8516,7 @@ OpenXavaTest/src/org/openxava/test/model/IWithName.java -text
 OpenXavaTest/src/org/openxava/test/model/Person.java -text
 OpenXavaTest/src/org/openxava/test/model/PriceException.java -text
 OpenXavaTest/src/org/openxava/test/model/ProductException.java -text
+OpenXavaTest/src/org/openxava/test/model/xejb/FamilyBean.java -text
 OpenXavaTest/src/org/openxava/test/validators/CheapProductValidator.java -text
 OpenXavaTest/src/org/openxava/test/validators/DeliveryValidator.java -text
 OpenXavaTest/src/org/openxava/test/validators/ExcludeStringValidator.java -text
