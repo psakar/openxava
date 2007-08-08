@@ -3761,6 +3761,8 @@ OpenXavaDoc/i18n/NewIn214_en.properties -text
 OpenXavaDoc/i18n/NewIn214_es.properties -text
 OpenXavaDoc/i18n/NewIn215_en.properties -text
 OpenXavaDoc/i18n/NewIn215_es.properties -text
+OpenXavaDoc/i18n/NewIn221_en.properties -text
+OpenXavaDoc/i18n/NewIn221_es.properties -text
 OpenXavaDoc/i18n/News_en.properties -text
 OpenXavaDoc/i18n/News_es.properties -text
 OpenXavaDoc/i18n/OX3Tutorial_en.properties -text
@@ -4258,6 +4260,7 @@ OpenXavaDoc/web/apidocs/org/openxava/formatters/DateTimeFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/IFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/IMultipleValuesFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/ImageFormatter.html -text
+OpenXavaDoc/web/apidocs/org/openxava/formatters/MoneyFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/MultipleValuesByPassFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/SQLTimeFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/StringTimeFormatter.html -text
@@ -4271,6 +4274,7 @@ OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/DateTimeFormatter.html
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/IFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/IMultipleValuesFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/ImageFormatter.html -text
+OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/MoneyFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/MultipleValuesByPassFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/SQLTimeFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/StringTimeFormatter.html -text
@@ -4454,6 +4458,7 @@ OpenXavaDoc/web/apidocs/org/openxava/session/package-use.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/Tab.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/class-use/Tab.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/DataChunk.html -text
+OpenXavaDoc/web/apidocs/org/openxava/tab/impl/EmptyResultSet.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/EntityTab.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/EntityTabBean.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/EntityTabDataProvider.html -text
@@ -4481,6 +4486,7 @@ OpenXavaDoc/web/apidocs/org/openxava/tab/impl/TableModelBase.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/TableModelBean.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/XTableModelDecoratorBase.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/class-use/DataChunk.html -text
+OpenXavaDoc/web/apidocs/org/openxava/tab/impl/class-use/EmptyResultSet.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/class-use/EntityTab.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/class-use/EntityTabBean.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/class-use/EntityTabDataProvider.html -text
@@ -4663,6 +4669,7 @@ OpenXavaDoc/web/apidocs/org/openxava/validators/IPropertyValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/IRemoveValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/IValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/MinimumSizeValidator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/MoneyScaleValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/NotBlankCharacterValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/NotEmptyStringValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/NotNegativeValidator.html -text
@@ -4677,6 +4684,7 @@ OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/IPropertyValidator.htm
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/IRemoveValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/IValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/MinimumSizeValidator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/MoneyScaleValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/NotBlankCharacterValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/NotEmptyStringValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/NotNegativeValidator.html -text
