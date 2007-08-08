@@ -6286,6 +6286,7 @@ OpenXavaTest/build/hibernate/AdditionalDetail.hbm.xml -text
 OpenXavaTest/build/hibernate/Carrier.hbm.xml -text
 OpenXavaTest/build/hibernate/Clerk.hbm.xml -text
 OpenXavaTest/build/hibernate/Color.hbm.xml -text
+OpenXavaTest/build/hibernate/Comment.hbm.xml -text
 OpenXavaTest/build/hibernate/Course.hbm.xml -text
 OpenXavaTest/build/hibernate/Customer.hbm.xml -text
 OpenXavaTest/build/hibernate/CustomerContactPerson.hbm.xml -text
