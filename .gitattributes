@@ -2561,6 +2561,7 @@ OpenXava/ox3-src/org/openxava/annotations/View.java -text
 OpenXava/ox3-src/org/openxava/annotations/ViewAction.java -text
 OpenXava/ox3-src/org/openxava/annotations/ViewActions.java -text
 OpenXava/ox3-src/org/openxava/annotations/Views.java -text
+OpenXava/ox3-src/org/openxava/annotations/XOrderBy.java -text
 OpenXava/ox3-src/org/openxava/annotations/parse/AnnotatedClassParser.java -text
 OpenXava/ox3-src/org/openxava/calculators/EnumCalculator.java -text
 OpenXava/ox3-src/org/openxava/calculators/ModelPropertyCalculator.java -text
