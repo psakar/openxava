@@ -3768,8 +3768,12 @@ OpenXavaDoc/i18n/NewIn221_en.properties -text
 OpenXavaDoc/i18n/NewIn221_es.properties -text
 OpenXavaDoc/i18n/NewIn222_en.properties -text
 OpenXavaDoc/i18n/NewIn222_es.properties -text
+OpenXavaDoc/i18n/NewIn3beta2_en.properties -text
+OpenXavaDoc/i18n/NewIn3beta2_es.properties -text
 OpenXavaDoc/i18n/News_en.properties -text
 OpenXavaDoc/i18n/News_es.properties -text
+OpenXavaDoc/i18n/OX3NewForDevelopers_en.properties -text
+OpenXavaDoc/i18n/OX3NewForDevelopers_es.properties -text
 OpenXavaDoc/i18n/OX3Tutorial_en.properties -text
 OpenXavaDoc/i18n/OX3Tutorial_es.properties -text
 OpenXavaDoc/i18n/OX3_en.properties -text
@@ -6107,6 +6111,8 @@ OpenXavaDoc/web/new-2.2.1_en.html -text
 OpenXavaDoc/web/new-2.2.1_es.html -text
 OpenXavaDoc/web/new-2.2.2_en.html -text
 OpenXavaDoc/web/new-2.2.2_es.html -text
+OpenXavaDoc/web/new-3beta2_en.html -text
+OpenXavaDoc/web/new-3beta2_es.html -text
 OpenXavaDoc/web/new-for-developers_en.html -text
 OpenXavaDoc/web/new-for-developers_es.html -text
 OpenXavaDoc/web/news_en.html -text
@@ -6115,6 +6121,8 @@ OpenXavaDoc/web/openxava-postgres_es.pdf -text
 OpenXavaDoc/web/ox3-changelog.txt -text
 OpenXavaDoc/web/ox3-migration_en.html -text
 OpenXavaDoc/web/ox3-migration_es.html -text
+OpenXavaDoc/web/ox3-new-for-developers_en.html -text
+OpenXavaDoc/web/ox3-new-for-developers_es.html -text
 OpenXavaDoc/web/ox3-tutorial_en.html -text
 OpenXavaDoc/web/ox3-tutorial_es.html -text
 OpenXavaDoc/web/ox3_en.html -text
