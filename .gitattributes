@@ -3765,6 +3765,8 @@ OpenXavaDoc/i18n/NewIn215_en.properties -text
 OpenXavaDoc/i18n/NewIn215_es.properties -text
 OpenXavaDoc/i18n/NewIn221_en.properties -text
 OpenXavaDoc/i18n/NewIn221_es.properties -text
+OpenXavaDoc/i18n/NewIn222_en.properties -text
+OpenXavaDoc/i18n/NewIn222_es.properties -text
 OpenXavaDoc/i18n/News_en.properties -text
 OpenXavaDoc/i18n/News_es.properties -text
 OpenXavaDoc/i18n/OX3Tutorial_en.properties -text
@@ -6102,6 +6104,8 @@ OpenXavaDoc/web/new-2.1.5_en.html -text
 OpenXavaDoc/web/new-2.1.5_es.html -text
 OpenXavaDoc/web/new-2.2.1_en.html -text
 OpenXavaDoc/web/new-2.2.1_es.html -text
+OpenXavaDoc/web/new-2.2.2_en.html -text
+OpenXavaDoc/web/new-2.2.2_es.html -text
 OpenXavaDoc/web/new-for-developers_en.html -text
 OpenXavaDoc/web/new-for-developers_es.html -text
 OpenXavaDoc/web/news_en.html -text
