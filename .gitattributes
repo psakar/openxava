@@ -2550,6 +2550,7 @@ OpenXava/ox3-src/org/openxava/annotations/RemoveValidator.java -text
 OpenXava/ox3-src/org/openxava/annotations/RemoveValidators.java -text
 OpenXava/ox3-src/org/openxava/annotations/Required.java -text
 OpenXava/ox3-src/org/openxava/annotations/RowStyle.java -text
+OpenXava/ox3-src/org/openxava/annotations/RowStyles.java -text
 OpenXava/ox3-src/org/openxava/annotations/SaveAction.java -text
 OpenXava/ox3-src/org/openxava/annotations/SaveActions.java -text
 OpenXava/ox3-src/org/openxava/annotations/SearchAction.java -text
