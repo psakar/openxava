@@ -148,6 +148,7 @@ AccessTracking/web/WEB-INF/classes/portlets/Accesses_zh.properties -text
 AccessTracking/web/WEB-INF/lib/FCKeditor-2.3.jar -text
 AccessTracking/web/WEB-INF/lib/antlr.jar -text
 AccessTracking/web/WEB-INF/lib/asm.jar -text
+AccessTracking/web/WEB-INF/lib/aspectjrt.jar -text
 AccessTracking/web/WEB-INF/lib/cglib.jar -text
 AccessTracking/web/WEB-INF/lib/commons-beanutils.jar -text
 AccessTracking/web/WEB-INF/lib/commons-collections.jar -text
@@ -887,7 +888,7 @@ MiEscuela/i18n/portlets/Profesores_zh.properties -text
 MiEscuela/properties/xava-junit.properties -text
 MiEscuela/properties/xava.properties -text
 MiEscuela/src/org/openxava/escuela/modelo/Profesor.java -text
-MiEscuela/src/org/openxava/escuela/pruebas/PruebaProfesores.java -text
+MiEscuela/src/org/openxava/escuela/pruebas/PruebaProfesor.java -text
 MiEscuela/web/META-INF/MANIFEST.MF -text
 MiEscuela/web/WEB-INF/classes/TabUserPreferences.hbm.xml -text
 MiEscuela/web/WEB-INF/classes/hibernate.cfg.xml -text
@@ -895,6 +896,7 @@ MiEscuela/web/WEB-INF/classes/openxava-hibernate.cfg.xml -text
 MiEscuela/web/WEB-INF/lib/FCKeditor-2.3.jar -text
 MiEscuela/web/WEB-INF/lib/antlr.jar -text
 MiEscuela/web/WEB-INF/lib/asm.jar -text
+MiEscuela/web/WEB-INF/lib/aspectjrt.jar -text
 MiEscuela/web/WEB-INF/lib/cglib.jar -text
 MiEscuela/web/WEB-INF/lib/commons-beanutils.jar -text
 MiEscuela/web/WEB-INF/lib/commons-collections.jar -text
@@ -1641,9 +1643,8 @@ MySchool/i18n/portlets/Teacherx_zh.properties -text
 MySchool/properties/xava-junit.properties -text
 MySchool/properties/xava.properties -text
 MySchool/src/org/openxava/school/model/Teacher.java -text
-MySchool/src/org/openxava/school/tests/TeachersTest.java -text
+MySchool/src/org/openxava/school/tests/TeacherTest.java -text
 MySchool/web/META-INF/MANIFEST.MF -text
-MySchool/web/WEB-INF/classes/MySchool-labels.properties -text
 MySchool/web/WEB-INF/classes/TabUserPreferences.hbm.xml -text
 MySchool/web/WEB-INF/classes/hibernate.cfg.xml -text
 MySchool/web/WEB-INF/classes/openxava-hibernate.cfg.xml -text
