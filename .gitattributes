@@ -3774,6 +3774,8 @@ OpenXavaDoc/i18n/NewIn3beta2_en.properties -text
 OpenXavaDoc/i18n/NewIn3beta2_es.properties -text
 OpenXavaDoc/i18n/News_en.properties -text
 OpenXavaDoc/i18n/News_es.properties -text
+OpenXavaDoc/i18n/OX3Migration_en.properties -text
+OpenXavaDoc/i18n/OX3Migration_es.properties -text
 OpenXavaDoc/i18n/OX3NewForDevelopers_en.properties -text
 OpenXavaDoc/i18n/OX3NewForDevelopers_es.properties -text
 OpenXavaDoc/i18n/OX3Tutorial_en.properties -text
@@ -5065,6 +5067,8 @@ OpenXavaDoc/web/apidocs3/org/openxava/annotations/DescriptionsList.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/DescriptionsLists.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/DetailAction.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/DetailActions.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/annotations/DisplaySize.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/annotations/DisplaySizes.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/EditAction.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/EditActions.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/EditOnly.html -text
@@ -5104,6 +5108,7 @@ OpenXavaDoc/web/apidocs3/org/openxava/annotations/RemoveValidator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/RemoveValidators.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/Required.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/RowStyle.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/annotations/RowStyles.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/SaveAction.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/SaveActions.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/SearchAction.html -text
@@ -5115,6 +5120,7 @@ OpenXavaDoc/web/apidocs3/org/openxava/annotations/View.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/ViewAction.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/ViewActions.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/Views.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/annotations/XOrderBy.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/Action.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/Actions.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/AsEmbedded.html -text
@@ -5127,6 +5133,8 @@ OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/DescriptionsList.htm
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/DescriptionsLists.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/DetailAction.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/DetailActions.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/DisplaySize.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/DisplaySizes.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/EditAction.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/EditActions.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/EditOnly.html -text
@@ -5166,6 +5174,7 @@ OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/RemoveValidator.html
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/RemoveValidators.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/Required.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/RowStyle.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/RowStyles.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/SaveAction.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/SaveActions.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/SearchAction.html -text
@@ -5177,6 +5186,7 @@ OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/View.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/ViewAction.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/ViewActions.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/Views.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/XOrderBy.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/package-frame.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/package-summary.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/package-tree.html -text
@@ -5468,6 +5478,7 @@ OpenXavaDoc/web/apidocs3/org/openxava/formatters/DateTimeFormatter.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/formatters/IFormatter.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/formatters/IMultipleValuesFormatter.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/formatters/ImageFormatter.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/formatters/MoneyFormatter.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/formatters/MultipleValuesByPassFormatter.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/formatters/SQLTimeFormatter.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/formatters/StringTimeFormatter.html -text
@@ -5481,6 +5492,7 @@ OpenXavaDoc/web/apidocs3/org/openxava/formatters/class-use/DateTimeFormatter.htm
 OpenXavaDoc/web/apidocs3/org/openxava/formatters/class-use/IFormatter.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/formatters/class-use/IMultipleValuesFormatter.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/formatters/class-use/ImageFormatter.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/formatters/class-use/MoneyFormatter.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/formatters/class-use/MultipleValuesByPassFormatter.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/formatters/class-use/SQLTimeFormatter.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/formatters/class-use/StringTimeFormatter.html -text
@@ -5664,6 +5676,7 @@ OpenXavaDoc/web/apidocs3/org/openxava/session/package-use.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/tab/Tab.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/tab/class-use/Tab.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/tab/impl/DataChunk.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/tab/impl/EmptyResultSet.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/tab/impl/EntityTab.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/tab/impl/EntityTabBean.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/tab/impl/EntityTabDataProvider.html -text
@@ -5691,6 +5704,7 @@ OpenXavaDoc/web/apidocs3/org/openxava/tab/impl/TableModelBase.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/tab/impl/TableModelBean.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/tab/impl/XTableModelDecoratorBase.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/tab/impl/class-use/DataChunk.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/tab/impl/class-use/EmptyResultSet.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/tab/impl/class-use/EntityTab.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/tab/impl/class-use/EntityTabBean.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/tab/impl/class-use/EntityTabDataProvider.html -text
@@ -5752,11 +5766,13 @@ OpenXavaDoc/web/apidocs3/org/openxava/tests/package-use.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/types/Base1EnumType.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/types/Date3Type.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/types/EnumLetterType.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/types/NotNullStringType.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/types/SiNoType.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/types/StringArrayBytesType.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/types/class-use/Base1EnumType.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/types/class-use/Date3Type.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/types/class-use/EnumLetterType.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/types/class-use/NotNullStringType.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/types/class-use/SiNoType.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/types/class-use/StringArrayBytesType.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/types/package-frame.html -text
