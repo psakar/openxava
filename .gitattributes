@@ -2688,6 +2688,7 @@ OpenXava/src/org/openxava/calculators/ConcatCalculator.java -text
 OpenXava/src/org/openxava/calculators/ConcatOidCalculator.java -text
 OpenXava/src/org/openxava/calculators/CounterByPassOidCalculator.java -text
 OpenXava/src/org/openxava/calculators/CurrentDateCalculator.java -text
+OpenXava/src/org/openxava/calculators/CurrentTimestampCalculator.java -text
 OpenXava/src/org/openxava/calculators/CurrentUserCalculator.java -text
 OpenXava/src/org/openxava/calculators/CurrentYearCalculator.java -text
 OpenXava/src/org/openxava/calculators/DescriptionsCalculator.java -text
