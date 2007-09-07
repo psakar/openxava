@@ -2942,6 +2942,7 @@ OpenXava/src/org/openxava/util/xmlparse/ParserUtil.java -text
 OpenXava/src/org/openxava/util/xmlparse/XmlElementsNames.java -text
 OpenXava/src/org/openxava/validators/BigDecimalValidator.java -text
 OpenXava/src/org/openxava/validators/ComparatorValidator.java -text
+OpenXava/src/org/openxava/validators/EmailValidator.java -text
 OpenXava/src/org/openxava/validators/IPropertyValidator.java -text
 OpenXava/src/org/openxava/validators/IRemoveValidator.java -text
 OpenXava/src/org/openxava/validators/IValidator.java -text
@@ -2952,8 +2953,10 @@ OpenXava/src/org/openxava/validators/NotEmptyStringValidator.java -text
 OpenXava/src/org/openxava/validators/NotNegativeValidator.java -text
 OpenXava/src/org/openxava/validators/NotNullValidator.java -text
 OpenXava/src/org/openxava/validators/NotZeroValidator.java -text
+OpenXava/src/org/openxava/validators/PhoneNumberValidator.java -text
 OpenXava/src/org/openxava/validators/PositiveValidator.java -text
 OpenXava/src/org/openxava/validators/TolerantValidator.java -text
+OpenXava/src/org/openxava/validators/URLValidator.java -text
 OpenXava/src/org/openxava/validators/ValidationException.java -text
 OpenXava/src/org/openxava/validators/meta/MetaValidator.java -text
 OpenXava/src/org/openxava/validators/meta/MetaValidatorFor.java -text
@@ -3006,6 +3009,7 @@ OpenXava/web/WEB-INF/lib/commons-collections.jar -text
 OpenXava/web/WEB-INF/lib/commons-digester.jar -text
 OpenXava/web/WEB-INF/lib/commons-fileupload.jar -text
 OpenXava/web/WEB-INF/lib/commons-io.jar -text
+OpenXava/web/WEB-INF/lib/commons-validator.jar -text
 OpenXava/web/WEB-INF/lib/dom4j.jar -text
 OpenXava/web/WEB-INF/lib/ehcache.jar -text
 OpenXava/web/WEB-INF/lib/ejb3-persistence.jar -text
@@ -3015,6 +3019,7 @@ OpenXava/web/WEB-INF/lib/hibernate-entitymanager.jar -text
 OpenXava/web/WEB-INF/lib/hibernate-validator.jar -text
 OpenXava/web/WEB-INF/lib/hibernate3.jar -text
 OpenXava/web/WEB-INF/lib/itext.jar -text
+OpenXava/web/WEB-INF/lib/jakarta-oro.jar -text
 OpenXava/web/WEB-INF/lib/jasperreports.jar -text
 OpenXava/web/WEB-INF/lib/javassist.jar -text
 OpenXava/web/WEB-INF/lib/jboss-archive-browsing.jar -text
