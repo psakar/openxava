@@ -862,11 +862,6 @@ MiEscuela/.settings/org.eclipse.wst.common.project.facet.core.xml -text
 MiEscuela/build.xml -text
 MiEscuela/data/mi-escuela-db.properties -text
 MiEscuela/data/mi-escuela-db.script -text
-MiEscuela/ejb3-jpa/GalleryImage.hbm.xml -text
-MiEscuela/ejb3-jpa/META-INF/persistence.xml -text
-MiEscuela/ejb3-jpa/TabUserPreferences.hbm.xml -text
-MiEscuela/ejb3-jpa/hibernate.cfg.xml -text
-MiEscuela/ejb3-jpa/openxava-hibernate.cfg.xml -text
 MiEscuela/i18n/EtiquetasMiEscuela_ca.properties -text
 MiEscuela/i18n/EtiquetasMiEscuela_en.properties -text
 MiEscuela/i18n/EtiquetasMiEscuela_es.properties -text
@@ -885,6 +880,11 @@ MiEscuela/i18n/portlets/Profesores_pl.properties -text
 MiEscuela/i18n/portlets/Profesores_pt.properties -text
 MiEscuela/i18n/portlets/Profesores_sv.properties -text
 MiEscuela/i18n/portlets/Profesores_zh.properties -text
+MiEscuela/persistence/GalleryImage.hbm.xml -text
+MiEscuela/persistence/META-INF/persistence.xml -text
+MiEscuela/persistence/TabUserPreferences.hbm.xml -text
+MiEscuela/persistence/hibernate.cfg.xml -text
+MiEscuela/persistence/openxava-hibernate.cfg.xml -text
 MiEscuela/properties/xava-junit.properties -text
 MiEscuela/properties/xava.properties -text
 MiEscuela/src/org/openxava/escuela/modelo/Profesor.java -text
@@ -1602,11 +1602,6 @@ MySchool/build.xml -text
 MySchool/data/my-school-db.properties -text
 MySchool/data/my-school-db.script -text svneol=unset#application/octet-stream
 MySchool/data/my-school-ds.xml -text
-MySchool/ejb3-jpa/GalleryImage.hbm.xml -text
-MySchool/ejb3-jpa/META-INF/persistence.xml -text
-MySchool/ejb3-jpa/TabUserPreferences.hbm.xml -text
-MySchool/ejb3-jpa/hibernate.cfg.xml -text
-MySchool/ejb3-jpa/openxava-hibernate.cfg.xml -text
 MySchool/i18n/MySchool-labels_ca.properties -text
 MySchool/i18n/MySchool-labels_en.properties -text
 MySchool/i18n/MySchool-labels_es.properties -text
@@ -1640,6 +1635,11 @@ MySchool/i18n/portlets/Teacherx_pl.properties -text
 MySchool/i18n/portlets/Teacherx_pt.properties -text
 MySchool/i18n/portlets/Teacherx_sv.properties -text
 MySchool/i18n/portlets/Teacherx_zh.properties -text
+MySchool/persistence/GalleryImage.hbm.xml -text
+MySchool/persistence/META-INF/persistence.xml -text
+MySchool/persistence/TabUserPreferences.hbm.xml -text
+MySchool/persistence/hibernate.cfg.xml -text
+MySchool/persistence/openxava-hibernate.cfg.xml -text
 MySchool/properties/xava-junit.properties -text
 MySchool/properties/xava.properties -text
 MySchool/src/org/openxava/school/model/Teacher.java -text
