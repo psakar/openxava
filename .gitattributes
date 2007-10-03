@@ -6356,11 +6356,6 @@ OpenXavaTest/components/dtds/component.dtd -text
 OpenXavaTest/components/dtds/componente.dtd -text
 OpenXavaTest/data/openxava-test-db.script -text
 OpenXavaTest/data/openxava-test-ds.xml -text
-OpenXavaTest/ejb3-jpa/GalleryImage.hbm.xml -text
-OpenXavaTest/ejb3-jpa/META-INF/persistence.xml -text
-OpenXavaTest/ejb3-jpa/TabUserPreferences.hbm.xml -text
-OpenXavaTest/ejb3-jpa/hibernate.cfg.xml -text
-OpenXavaTest/ejb3-jpa/openxava-hibernate.cfg.xml -text
 OpenXavaTest/filtered-files/AdditionalDetail.hbm.xml -text
 OpenXavaTest/filtered-files/Carrier.hbm.xml -text
 OpenXavaTest/filtered-files/Carrier.xml -text
@@ -9704,6 +9699,11 @@ OpenXavaTest/ox3-src/org/openxava/test/types/RegionsType.java -text
 OpenXavaTest/ox3-src/org/openxava/test/validators/DeliveryPlaceValidator.java -text
 OpenXavaTest/ox3-src/org/openxava/test/validators/DeliveryTypeRemoveValidator.java -text
 OpenXavaTest/ox3-src/org/openxava/test/validators/InvoiceDetailValidator.java -text
+OpenXavaTest/persistence/GalleryImage.hbm.xml -text
+OpenXavaTest/persistence/META-INF/persistence.xml -text
+OpenXavaTest/persistence/TabUserPreferences.hbm.xml -text
+OpenXavaTest/persistence/hibernate.cfg.xml -text
+OpenXavaTest/persistence/openxava-hibernate.cfg.xml -text
 OpenXavaTest/properties/BeansContext.properties -text
 OpenXavaTest/properties/LoginContextFactory.properties -text
 OpenXavaTest/properties/jndi-jboss.properties -text
