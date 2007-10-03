@@ -2492,6 +2492,8 @@ OpenXava/i18n/Messages_in.properties -text
 OpenXava/i18n/Messages_pl.properties -text
 OpenXava/lib/Tidy.jar -text
 OpenXava/lib/commons-logging.jar -text
+OpenXava/lib/freemarker.jar -text
+OpenXava/lib/hibernate-tools.jar -text
 OpenXava/lib/httpunit.jar -text
 OpenXava/lib/j2ee.jar -text
 OpenXava/lib/js.jar -text
