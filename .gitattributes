@@ -2693,6 +2693,7 @@ OpenXava/src/org/openxava/calculators/CurrentDateCalculator.java -text
 OpenXava/src/org/openxava/calculators/CurrentTimestampCalculator.java -text
 OpenXava/src/org/openxava/calculators/CurrentUserCalculator.java -text
 OpenXava/src/org/openxava/calculators/CurrentYearCalculator.java -text
+OpenXava/src/org/openxava/calculators/DaysDelayCalculator.java -text
 OpenXava/src/org/openxava/calculators/DescriptionsCalculator.java -text
 OpenXava/src/org/openxava/calculators/EmptyStringCalculator.java -text
 OpenXava/src/org/openxava/calculators/FalseCalculator.java -text
