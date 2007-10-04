@@ -2352,7 +2352,7 @@ OpenXava/.externalToolBuilders/org.eclipse.wst.validation.validationbuilder.laun
 OpenXava/.project -text
 OpenXava/.settings/.component -text
 OpenXava/.settings/org.eclipse.jdt.core.prefs -text
-OpenXava/.settings/org.eclipse.jdt.ui.prefs -text
+OpenXava/.settings/org.eclipse.jst.common.project.facet.core.prefs -text
 OpenXava/.settings/org.eclipse.wst.common.project.facet.core.xml -text
 OpenXava/.settings/org.eclipse.wst.validation.prefs -text
 OpenXava/.vcm_meta -text svneol=unset#application/octet-stream
@@ -6219,6 +6219,7 @@ OpenXavaTest/.project -text
 OpenXavaTest/.settings/.component -text
 OpenXavaTest/.settings/.ox2-component -text svneol=unset#application/octet-stream
 OpenXavaTest/.settings/org.eclipse.jdt.core.prefs -text
+OpenXavaTest/.settings/org.eclipse.jdt.ui.prefs -text
 OpenXavaTest/.settings/org.eclipse.jst.common.project.facet.core.prefs -text
 OpenXavaTest/.settings/org.eclipse.wst.common.project.facet.core.xml -text
 OpenXavaTest/.settings/org.eclipse.wst.validation.prefs -text
@@ -9915,12 +9916,10 @@ OpenXavaTest/test-src/org/openxava/test/tests/XavaSuite.java -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
@@ -12499,6 +12498,7 @@ OpenXavaTest/web/WEB-INF/lib/commons-collections.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-digester.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-fileupload.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-io.jar -text
+OpenXavaTest/web/WEB-INF/lib/commons-validator.jar -text
 OpenXavaTest/web/WEB-INF/lib/dom4j.jar -text
 OpenXavaTest/web/WEB-INF/lib/ehcache.jar -text
 OpenXavaTest/web/WEB-INF/lib/ejb3-persistence.jar -text
@@ -12508,6 +12508,7 @@ OpenXavaTest/web/WEB-INF/lib/hibernate-entitymanager.jar -text
 OpenXavaTest/web/WEB-INF/lib/hibernate-validator.jar -text
 OpenXavaTest/web/WEB-INF/lib/hibernate3.jar -text
 OpenXavaTest/web/WEB-INF/lib/itext.jar -text
+OpenXavaTest/web/WEB-INF/lib/jakarta-oro.jar -text
 OpenXavaTest/web/WEB-INF/lib/jasperreports.jar -text
 OpenXavaTest/web/WEB-INF/lib/javassist.jar -text
 OpenXavaTest/web/WEB-INF/lib/jboss-archive-browsing.jar -text
