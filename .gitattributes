@@ -5193,8 +5193,10 @@ OpenXavaDoc/web/apidocs3/org/openxava/calculators/ConcatCalculator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/calculators/ConcatOidCalculator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/calculators/CounterByPassOidCalculator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/calculators/CurrentDateCalculator.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/calculators/CurrentTimestampCalculator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/calculators/CurrentUserCalculator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/calculators/CurrentYearCalculator.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/calculators/DaysDelayCalculator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/calculators/DescriptionsCalculator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/calculators/EmptyStringCalculator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/calculators/EnumCalculator.html -text
@@ -5226,8 +5228,10 @@ OpenXavaDoc/web/apidocs3/org/openxava/calculators/class-use/ConcatCalculator.htm
 OpenXavaDoc/web/apidocs3/org/openxava/calculators/class-use/ConcatOidCalculator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/calculators/class-use/CounterByPassOidCalculator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/calculators/class-use/CurrentDateCalculator.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/calculators/class-use/CurrentTimestampCalculator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/calculators/class-use/CurrentUserCalculator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/calculators/class-use/CurrentYearCalculator.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/calculators/class-use/DaysDelayCalculator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/calculators/class-use/DescriptionsCalculator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/calculators/class-use/EmptyStringCalculator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/calculators/class-use/EnumCalculator.html -text
@@ -5871,6 +5875,7 @@ OpenXavaDoc/web/apidocs3/org/openxava/util/xmlparse/package-tree.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/util/xmlparse/package-use.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/validators/BigDecimalValidator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/validators/ComparatorValidator.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/validators/EmailValidator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/validators/IPropertyValidator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/validators/IRemoveValidator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/validators/IValidator.html -text
@@ -5881,11 +5886,14 @@ OpenXavaDoc/web/apidocs3/org/openxava/validators/NotEmptyStringValidator.html -t
 OpenXavaDoc/web/apidocs3/org/openxava/validators/NotNegativeValidator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/validators/NotNullValidator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/validators/NotZeroValidator.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/validators/PhoneNumberValidator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/validators/PositiveValidator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/validators/TolerantValidator.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/validators/URLValidator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/validators/ValidationException.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/validators/class-use/BigDecimalValidator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/validators/class-use/ComparatorValidator.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/validators/class-use/EmailValidator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/validators/class-use/IPropertyValidator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/validators/class-use/IRemoveValidator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/validators/class-use/IValidator.html -text
@@ -5896,8 +5904,10 @@ OpenXavaDoc/web/apidocs3/org/openxava/validators/class-use/NotEmptyStringValidat
 OpenXavaDoc/web/apidocs3/org/openxava/validators/class-use/NotNegativeValidator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/validators/class-use/NotNullValidator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/validators/class-use/NotZeroValidator.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/validators/class-use/PhoneNumberValidator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/validators/class-use/PositiveValidator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/validators/class-use/TolerantValidator.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/validators/class-use/URLValidator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/validators/class-use/ValidationException.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/validators/meta/MetaValidator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/validators/meta/MetaValidatorFor.html -text
