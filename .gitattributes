@@ -3615,6 +3615,7 @@ OpenXava/web/images/error.gif -text
 OpenXava/web/images/excel.gif -text
 OpenXava/web/images/filter.gif -text
 OpenXava/web/images/find.gif -text
+OpenXava/web/images/hide-filter.gif -text
 OpenXava/web/images/home.gif -text
 OpenXava/web/images/html/skins/Jetspeed/tableft.gif -text
 OpenXava/web/images/html/skins/Jetspeed/tableft_low.gif -text
@@ -3640,6 +3641,7 @@ OpenXava/web/images/required.gif -text
 OpenXava/web/images/restore.gif -text
 OpenXava/web/images/save.gif -text
 OpenXava/web/images/search.gif -text
+OpenXava/web/images/show-filter.gif -text
 OpenXava/web/images/sort.gif -text
 OpenXava/web/images/view.gif -text
 OpenXava/web/imports.jsp -text
