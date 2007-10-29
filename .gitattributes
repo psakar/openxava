@@ -3756,6 +3756,8 @@ OpenXavaDoc/i18n/NewIn221_en.properties -text
 OpenXavaDoc/i18n/NewIn221_es.properties -text
 OpenXavaDoc/i18n/NewIn222_en.properties -text
 OpenXavaDoc/i18n/NewIn222_es.properties -text
+OpenXavaDoc/i18n/NewIn223_en.properties -text
+OpenXavaDoc/i18n/NewIn223_es.properties -text
 OpenXavaDoc/i18n/NewIn3beta2_en.properties -text
 OpenXavaDoc/i18n/NewIn3beta2_es.properties -text
 OpenXavaDoc/i18n/News_en.properties -text
@@ -4011,8 +4013,10 @@ OpenXavaDoc/web/apidocs/org/openxava/calculators/ConcatCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/ConcatOidCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/CounterByPassOidCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/CurrentDateCalculator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/calculators/CurrentTimestampCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/CurrentUserCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/CurrentYearCalculator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/calculators/DaysDelayCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/DescriptionsCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/EmptyStringCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/FalseCalculator.html -text
@@ -4042,8 +4046,10 @@ OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/ConcatCalculator.html
 OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/ConcatOidCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/CounterByPassOidCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/CurrentDateCalculator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/CurrentTimestampCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/CurrentUserCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/CurrentYearCalculator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/DaysDelayCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/DescriptionsCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/EmptyStringCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/FalseCalculator.html -text
@@ -4444,7 +4450,6 @@ OpenXavaDoc/web/apidocs/org/openxava/session/package-use.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/Tab.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/class-use/Tab.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/DataChunk.html -text
-OpenXavaDoc/web/apidocs/org/openxava/tab/impl/EmptyResultSet.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/EntityTab.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/EntityTabBean.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/EntityTabDataProvider.html -text
@@ -4472,7 +4477,6 @@ OpenXavaDoc/web/apidocs/org/openxava/tab/impl/TableModelBase.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/TableModelBean.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/XTableModelDecoratorBase.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/class-use/DataChunk.html -text
-OpenXavaDoc/web/apidocs/org/openxava/tab/impl/class-use/EmptyResultSet.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/class-use/EntityTab.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/class-use/EntityTabBean.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/class-use/EntityTabDataProvider.html -text
@@ -4651,6 +4655,7 @@ OpenXavaDoc/web/apidocs/org/openxava/util/xmlparse/package-tree.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/xmlparse/package-use.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/BigDecimalValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/ComparatorValidator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/EmailValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/IPropertyValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/IRemoveValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/IValidator.html -text
@@ -4661,11 +4666,14 @@ OpenXavaDoc/web/apidocs/org/openxava/validators/NotEmptyStringValidator.html -te
 OpenXavaDoc/web/apidocs/org/openxava/validators/NotNegativeValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/NotNullValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/NotZeroValidator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/PhoneNumberValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/PositiveValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/TolerantValidator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/URLValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/ValidationException.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/BigDecimalValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/ComparatorValidator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/EmailValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/IPropertyValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/IRemoveValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/IValidator.html -text
@@ -4676,8 +4684,10 @@ OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/NotEmptyStringValidato
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/NotNegativeValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/NotNullValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/NotZeroValidator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/PhoneNumberValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/PositiveValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/TolerantValidator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/URLValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/ValidationException.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/meta/MetaValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/meta/MetaValidatorFor.html -text
@@ -4819,7 +4829,6 @@ OpenXavaDoc/web/apidocs/overview-frame.html -text
 OpenXavaDoc/web/apidocs/overview-summary.html -text
 OpenXavaDoc/web/apidocs/overview-tree.html -text
 OpenXavaDoc/web/apidocs/package-list -text svneol=unset#application/octet-stream
-OpenXavaDoc/web/apidocs/packages.html -text
 OpenXavaDoc/web/apidocs/resources/inherit.gif -text
 OpenXavaDoc/web/apidocs/serialized-form.html -text
 OpenXavaDoc/web/apidocs/stylesheet.css -text
@@ -6077,7 +6086,6 @@ OpenXavaDoc/web/forums_en.html -text
 OpenXavaDoc/web/forums_es.html -text
 OpenXavaDoc/web/future_en.html -text
 OpenXavaDoc/web/future_es.html -text
-OpenXavaDoc/web/guia-mi-primer-proyecto-openxava.pdf -text
 OpenXavaDoc/web/images/.xvpics/download.gif -text svneol=unset#application/octet-stream
 OpenXavaDoc/web/images/builder.gif -text
 OpenXavaDoc/web/images/download.gif -text
