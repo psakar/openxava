@@ -2675,6 +2675,9 @@ OpenXava/src/org/openxava/calculators/CounterByPassOidCalculator.java -text
 OpenXava/src/org/openxava/calculators/CurrentDateCalculator.java -text
 OpenXava/src/org/openxava/calculators/CurrentTimestampCalculator.java -text
 OpenXava/src/org/openxava/calculators/CurrentUserCalculator.java -text
+OpenXava/src/org/openxava/calculators/CurrentUserEmailCalculator.java -text
+OpenXava/src/org/openxava/calculators/CurrentUserFamilyNameCalculator.java -text
+OpenXava/src/org/openxava/calculators/CurrentUserGivenNameCalculator.java -text
 OpenXava/src/org/openxava/calculators/CurrentYearCalculator.java -text
 OpenXava/src/org/openxava/calculators/DaysDelayCalculator.java -text
 OpenXava/src/org/openxava/calculators/DescriptionsCalculator.java -text
@@ -2909,6 +2912,7 @@ OpenXava/src/org/openxava/util/Server.java -text
 OpenXava/src/org/openxava/util/Strings.java -text
 OpenXava/src/org/openxava/util/SystemException.java -text
 OpenXava/src/org/openxava/util/TableModels.java -text
+OpenXava/src/org/openxava/util/UserInfo.java -text
 OpenXava/src/org/openxava/util/Users.java -text
 OpenXava/src/org/openxava/util/XCollections.java -text
 OpenXava/src/org/openxava/util/XSystem.java -text
