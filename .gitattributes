@@ -2541,6 +2541,7 @@ OpenXava/ox3-src/org/openxava/annotations/SaveAction.java -text
 OpenXava/ox3-src/org/openxava/annotations/SaveActions.java -text
 OpenXava/ox3-src/org/openxava/annotations/SearchAction.java -text
 OpenXava/ox3-src/org/openxava/annotations/SearchActions.java -text
+OpenXava/ox3-src/org/openxava/annotations/SearchKey.java -text
 OpenXava/ox3-src/org/openxava/annotations/Stereotype.java -text
 OpenXava/ox3-src/org/openxava/annotations/Tab.java -text
 OpenXava/ox3-src/org/openxava/annotations/Tabs.java -text
@@ -6351,6 +6352,7 @@ OpenXavaTest/components/Product3.xml -text
 OpenXavaTest/components/Seller.xml -text
 OpenXavaTest/components/SellerLevel.xml -text
 OpenXavaTest/components/Service.xml -text
+OpenXavaTest/components/ServiceInvoice.xml -text
 OpenXavaTest/components/ServiceType.xml -text
 OpenXavaTest/components/Shipment.xml -text
 OpenXavaTest/components/ShipmentCharge.xml -text
@@ -9689,6 +9691,7 @@ OpenXavaTest/ox3-src/org/openxava/test/model/Seller.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/SellerLevel.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/Service.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/ServiceDetail.java -text
+OpenXavaTest/ox3-src/org/openxava/test/model/ServiceInvoice.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/ServiceType.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/Shipment.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/ShipmentCharge.java -text
