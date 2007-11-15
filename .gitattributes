@@ -95,9 +95,11 @@ AccessTracking/tomcat-hypersonic.properties -text
 AccessTracking/web/META-INF/MANIFEST.MF -text
 AccessTracking/web/WEB-INF/classes/Access.hbm.xml -text
 AccessTracking/web/WEB-INF/classes/Access.xml -text
+AccessTracking/web/WEB-INF/classes/AccessTracking-labels.properties -text
 AccessTracking/web/WEB-INF/classes/AccessTracking-labels_ca.properties -text
 AccessTracking/web/WEB-INF/classes/AccessTracking-labels_en.properties -text
 AccessTracking/web/WEB-INF/classes/AccessTracking-labels_es.properties -text
+AccessTracking/web/WEB-INF/classes/AccessTracking-messages.properties -text
 AccessTracking/web/WEB-INF/classes/AccessTracking-messages_ca.properties -text
 AccessTracking/web/WEB-INF/classes/AccessTracking-messages_en.properties -text
 AccessTracking/web/WEB-INF/classes/AccessTracking-messages_es.properties -text
@@ -128,6 +130,21 @@ AccessTracking/web/WEB-INF/classes/hibernate-junit.cfg.xml -text
 AccessTracking/web/WEB-INF/classes/hibernate.cfg.xml -text
 AccessTracking/web/WEB-INF/classes/jndi.properties -text
 AccessTracking/web/WEB-INF/classes/openxava-hibernate.cfg.xml -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_bg.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_ca.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_de.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_en.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_es.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_fr.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_in.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_it.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_ja.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_ko.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_nl.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_pl.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_pt.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_sv.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_zh.properties -text
 AccessTracking/web/WEB-INF/lib/FCKeditor-2.3.jar -text
 AccessTracking/web/WEB-INF/lib/antlr.jar -text
 AccessTracking/web/WEB-INF/lib/asm.jar -text
@@ -139,6 +156,7 @@ AccessTracking/web/WEB-INF/lib/commons-digester.jar -text
 AccessTracking/web/WEB-INF/lib/commons-fileupload.jar -text
 AccessTracking/web/WEB-INF/lib/commons-io.jar -text
 AccessTracking/web/WEB-INF/lib/commons-javaflow.jar -text
+AccessTracking/web/WEB-INF/lib/commons-validator.jar -text
 AccessTracking/web/WEB-INF/lib/dom4j.jar -text
 AccessTracking/web/WEB-INF/lib/ehcache.jar -text
 AccessTracking/web/WEB-INF/lib/ejb3-persistence.jar -text
@@ -148,6 +166,7 @@ AccessTracking/web/WEB-INF/lib/hibernate-entitymanager.jar -text
 AccessTracking/web/WEB-INF/lib/hibernate-validator.jar -text
 AccessTracking/web/WEB-INF/lib/hibernate3.jar -text
 AccessTracking/web/WEB-INF/lib/itext.jar -text
+AccessTracking/web/WEB-INF/lib/jakarta-oro.jar -text
 AccessTracking/web/WEB-INF/lib/jasperreports.jar -text
 AccessTracking/web/WEB-INF/lib/javassist.jar -text
 AccessTracking/web/WEB-INF/lib/jboss-archive-browsing.jar -text
@@ -763,6 +782,7 @@ AccessTracking/web/xava/images/error.gif -text
 AccessTracking/web/xava/images/excel.gif -text
 AccessTracking/web/xava/images/filter.gif -text
 AccessTracking/web/xava/images/find.gif -text
+AccessTracking/web/xava/images/hide-filter.gif -text
 AccessTracking/web/xava/images/home.gif -text
 AccessTracking/web/xava/images/html/skins/Jetspeed/tableft.gif -text
 AccessTracking/web/xava/images/html/skins/Jetspeed/tableft_low.gif -text
@@ -788,6 +808,7 @@ AccessTracking/web/xava/images/required.gif -text
 AccessTracking/web/xava/images/restore.gif -text
 AccessTracking/web/xava/images/save.gif -text
 AccessTracking/web/xava/images/search.gif -text
+AccessTracking/web/xava/images/show-filter.gif -text
 AccessTracking/web/xava/images/sort.gif -text
 AccessTracking/web/xava/images/view.gif -text
 AccessTracking/web/xava/imports.jsp -text
@@ -6232,6 +6253,7 @@ OpenXavaTest/.project -text
 OpenXavaTest/.settings/.component -text
 OpenXavaTest/.settings/.ox2-component -text svneol=unset#application/octet-stream
 OpenXavaTest/.settings/org.eclipse.jdt.core.prefs -text
+OpenXavaTest/.settings/org.eclipse.jdt.ui.prefs -text
 OpenXavaTest/.settings/org.eclipse.jst.common.project.facet.core.prefs -text
 OpenXavaTest/.settings/org.eclipse.wst.common.project.facet.core.xml -text
 OpenXavaTest/.settings/org.eclipse.wst.validation.prefs -text
@@ -9931,12 +9953,10 @@ OpenXavaTest/test-src/org/openxava/test/tests/XavaSuite.java -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
