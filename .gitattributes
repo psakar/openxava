@@ -9911,6 +9911,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/SellerJSPTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/SellerTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/SellerWithCustomersAsAggregateTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/SellerWithDescriptionsListJSPTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/ServiceInvoiceTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ServiceTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ShipmentChargeTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ShipmentTest.java -text
