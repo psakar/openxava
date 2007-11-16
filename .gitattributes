@@ -3788,6 +3788,8 @@ OpenXavaDoc/i18n/NewIn224_en.properties -text
 OpenXavaDoc/i18n/NewIn224_es.properties -text
 OpenXavaDoc/i18n/NewIn3beta2_en.properties -text
 OpenXavaDoc/i18n/NewIn3beta2_es.properties -text
+OpenXavaDoc/i18n/NewIn3beta4_en.properties -text
+OpenXavaDoc/i18n/NewIn3beta4_es.properties -text
 OpenXavaDoc/i18n/News_en.properties -text
 OpenXavaDoc/i18n/News_es.properties -text
 OpenXavaDoc/i18n/OX3Migration_en.properties -text
@@ -3807,9 +3809,23 @@ OpenXavaDoc/i18n/Training_es.properties -text
 OpenXavaDoc/i18n/Tutorial_en.properties -text
 OpenXavaDoc/i18n/Tutorial_es.properties -text
 OpenXavaDoc/images/openxava.jpg -text
+OpenXavaDoc/pdf-style/blank.html -text
+OpenXavaDoc/pdf-style/cover_en.html -text
+OpenXavaDoc/pdf-style/cover_es.html -text
+OpenXavaDoc/pdf-style/openxava.jpg -text
+OpenXavaDoc/pdf-style/oxboom.css -text
+OpenXavaDoc/pdf-style/table-of-contents_en.html -text
+OpenXavaDoc/pdf-style/table-of-contents_es.html -text
 OpenXavaDoc/reference-guide-chapters.sxd -text
 OpenXavaDoc/reference-guide.odt -text
 OpenXavaDoc/src/org/openxava/doc/HtmlPortlet.java -text
+OpenXavaDoc/template-pdf-style/blank.html -text
+OpenXavaDoc/template-pdf-style/cover_en.html -text
+OpenXavaDoc/template-pdf-style/cover_es.html -text
+OpenXavaDoc/template-pdf-style/openxava.jpg -text
+OpenXavaDoc/template-pdf-style/oxboom.css -text
+OpenXavaDoc/template-pdf-style/table-of-contents_en.html -text
+OpenXavaDoc/template-pdf-style/table-of-contents_es.html -text
 OpenXavaDoc/web/WEB-INF/portlet.xml -text
 OpenXavaDoc/web/WEB-INF/web.xml -text
 OpenXavaDoc/web/apidocs/allclasses-frame.html -text
@@ -5123,6 +5139,7 @@ OpenXavaDoc/web/apidocs3/org/openxava/annotations/SaveAction.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/SaveActions.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/SearchAction.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/SearchActions.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/annotations/SearchKey.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/Stereotype.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/Tab.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/Tabs.html -text
@@ -5189,6 +5206,7 @@ OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/SaveAction.html -tex
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/SaveActions.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/SearchAction.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/SearchActions.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/SearchKey.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/Stereotype.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/Tab.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/annotations/class-use/Tabs.html -text
@@ -5233,6 +5251,9 @@ OpenXavaDoc/web/apidocs3/org/openxava/calculators/CounterByPassOidCalculator.htm
 OpenXavaDoc/web/apidocs3/org/openxava/calculators/CurrentDateCalculator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/calculators/CurrentTimestampCalculator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/calculators/CurrentUserCalculator.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/calculators/CurrentUserEmailCalculator.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/calculators/CurrentUserFamilyNameCalculator.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/calculators/CurrentUserGivenNameCalculator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/calculators/CurrentYearCalculator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/calculators/DaysDelayCalculator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/calculators/DescriptionsCalculator.html -text
@@ -5268,6 +5289,9 @@ OpenXavaDoc/web/apidocs3/org/openxava/calculators/class-use/CounterByPassOidCalc
 OpenXavaDoc/web/apidocs3/org/openxava/calculators/class-use/CurrentDateCalculator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/calculators/class-use/CurrentTimestampCalculator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/calculators/class-use/CurrentUserCalculator.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/calculators/class-use/CurrentUserEmailCalculator.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/calculators/class-use/CurrentUserFamilyNameCalculator.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/calculators/class-use/CurrentUserGivenNameCalculator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/calculators/class-use/CurrentYearCalculator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/calculators/class-use/DaysDelayCalculator.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/calculators/class-use/DescriptionsCalculator.html -text
@@ -5828,6 +5852,7 @@ OpenXavaDoc/web/apidocs3/org/openxava/util/Server.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/util/Strings.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/util/SystemException.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/util/TableModels.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/util/UserInfo.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/util/Users.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/util/XCollections.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/util/XSystem.html -text
@@ -5869,6 +5894,7 @@ OpenXavaDoc/web/apidocs3/org/openxava/util/class-use/Server.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/util/class-use/Strings.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/util/class-use/SystemException.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/util/class-use/TableModels.html -text
+OpenXavaDoc/web/apidocs3/org/openxava/util/class-use/UserInfo.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/util/class-use/Users.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/util/class-use/XCollections.html -text
 OpenXavaDoc/web/apidocs3/org/openxava/util/class-use/XSystem.html -text
