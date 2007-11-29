@@ -2998,6 +2998,7 @@ OpenXava/src/org/openxava/web/servlets/ImagesServlet.java -text
 OpenXava/src/org/openxava/web/servlets/JasperReportServlet.java -text
 OpenXava/src/org/openxava/web/servlets/Servlets.java -text
 OpenXava/src/org/openxava/web/style/JetSpeed2Style.java -text
+OpenXava/src/org/openxava/web/style/Liferay41Style.java -text
 OpenXava/src/org/openxava/web/style/LiferayStyle.java -text
 OpenXava/src/org/openxava/web/style/Style.java -text
 OpenXava/src/org/openxava/web/style/WebSpherePortal6Style.java -text
@@ -3023,6 +3024,7 @@ OpenXava/web/WEB-INF/lib/commons-io.jar -text
 OpenXava/web/WEB-INF/lib/commons-validator.jar -text
 OpenXava/web/WEB-INF/lib/dom4j.jar -text
 OpenXava/web/WEB-INF/lib/ehcache.jar -text
+OpenXava/web/WEB-INF/lib/ejb.jar -text
 OpenXava/web/WEB-INF/lib/ejb3-persistence.jar -text
 OpenXava/web/WEB-INF/lib/hibernate-annotations.jar -text
 OpenXava/web/WEB-INF/lib/hibernate-commons-annotations.jar -text
@@ -3035,6 +3037,7 @@ OpenXava/web/WEB-INF/lib/jasperreports.jar -text
 OpenXava/web/WEB-INF/lib/javassist.jar -text
 OpenXava/web/WEB-INF/lib/jboss-archive-browsing.jar -text
 OpenXava/web/WEB-INF/lib/jstl.jar -text
+OpenXava/web/WEB-INF/lib/jta.jar -text
 OpenXava/web/WEB-INF/lib/poi.jar -text
 OpenXava/web/WEB-INF/lib/standard.jar -text
 OpenXava/web/WEB-INF/openxava.tld -text
