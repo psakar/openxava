@@ -2953,9 +2953,13 @@ OpenXava/src/org/openxava/util/xmlparse/ParserUtil.java -text
 OpenXava/src/org/openxava/util/xmlparse/XmlElementsNames.java -text
 OpenXava/src/org/openxava/validators/BigDecimalValidator.java -text
 OpenXava/src/org/openxava/validators/ComparatorValidator.java -text
+OpenXava/src/org/openxava/validators/CreditCardValidator.java -text
+OpenXava/src/org/openxava/validators/EmailListValidator.java -text
 OpenXava/src/org/openxava/validators/EmailValidator.java -text
+OpenXava/src/org/openxava/validators/IPValidator.java -text
 OpenXava/src/org/openxava/validators/IPropertyValidator.java -text
 OpenXava/src/org/openxava/validators/IRemoveValidator.java -text
+OpenXava/src/org/openxava/validators/ISBNValidator.java -text
 OpenXava/src/org/openxava/validators/IValidator.java -text
 OpenXava/src/org/openxava/validators/MinimumSizeValidator.java -text
 OpenXava/src/org/openxava/validators/MoneyScaleValidator.java -text
