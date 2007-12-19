@@ -9927,6 +9927,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/Invoice2002Test.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/Invoice2004Test.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/Invoice2Test.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/InvoiceActiveYearTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/InvoiceCustomerAsAggregateTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/InvoiceDeliveriesTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/InvoiceFromCustomersTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/InvoiceFromDeliveriesTest.java -text
