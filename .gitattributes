@@ -6386,6 +6386,7 @@ OpenXavaTest/components/Customer.xml -text
 OpenXavaTest/components/CustomerContactPerson.xml -text
 OpenXavaTest/components/Delivery.xml -text
 OpenXavaTest/components/DeliveryType.xml -text
+OpenXavaTest/components/Driver.xml -text
 OpenXavaTest/components/DrivingLicence.xml -text
 OpenXavaTest/components/Family.xml -text
 OpenXavaTest/components/Family2.xml -text
@@ -9914,6 +9915,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/DeliveryTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/DeliveryTypeJSPTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/DeliveryTypeTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/DescriptionTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/DriverTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/FamilyListOnlyTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/FamilyProductsReportTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/FamilyRangeProductsReportTest.java -text
