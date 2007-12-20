@@ -4064,6 +4064,9 @@ OpenXavaDoc/web/apidocs/org/openxava/calculators/CounterByPassOidCalculator.html
 OpenXavaDoc/web/apidocs/org/openxava/calculators/CurrentDateCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/CurrentTimestampCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/CurrentUserCalculator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/calculators/CurrentUserEmailCalculator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/calculators/CurrentUserFamilyNameCalculator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/calculators/CurrentUserGivenNameCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/CurrentYearCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/DaysDelayCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/DescriptionsCalculator.html -text
@@ -4097,6 +4100,9 @@ OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/CounterByPassOidCalcu
 OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/CurrentDateCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/CurrentTimestampCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/CurrentUserCalculator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/CurrentUserEmailCalculator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/CurrentUserFamilyNameCalculator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/CurrentUserGivenNameCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/CurrentYearCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/DaysDelayCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/DescriptionsCalculator.html -text
@@ -4619,6 +4625,7 @@ OpenXavaDoc/web/apidocs/org/openxava/util/Server.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/Strings.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/SystemException.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/TableModels.html -text
+OpenXavaDoc/web/apidocs/org/openxava/util/UserInfo.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/Users.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/XCollections.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/XSystem.html -text
@@ -4660,6 +4667,7 @@ OpenXavaDoc/web/apidocs/org/openxava/util/class-use/Server.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/Strings.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/SystemException.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/TableModels.html -text
+OpenXavaDoc/web/apidocs/org/openxava/util/class-use/UserInfo.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/Users.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/XCollections.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/XSystem.html -text
@@ -4704,9 +4712,13 @@ OpenXavaDoc/web/apidocs/org/openxava/util/xmlparse/package-tree.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/xmlparse/package-use.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/BigDecimalValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/ComparatorValidator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/CreditCardValidator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/EmailListValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/EmailValidator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/IPValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/IPropertyValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/IRemoveValidator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/ISBNValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/IValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/MinimumSizeValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/MoneyScaleValidator.html -text
@@ -4722,9 +4734,13 @@ OpenXavaDoc/web/apidocs/org/openxava/validators/URLValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/ValidationException.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/BigDecimalValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/ComparatorValidator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/CreditCardValidator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/EmailListValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/EmailValidator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/IPValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/IPropertyValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/IRemoveValidator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/ISBNValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/IValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/MinimumSizeValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/MoneyScaleValidator.html -text
@@ -4841,11 +4857,13 @@ OpenXavaDoc/web/apidocs/org/openxava/web/servlets/package-summary.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/servlets/package-tree.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/servlets/package-use.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/JetSpeed2Style.html -text
+OpenXavaDoc/web/apidocs/org/openxava/web/style/Liferay41Style.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/LiferayStyle.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/Style.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/WebSpherePortal6Style.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/WebSpherePortalStyle.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/class-use/JetSpeed2Style.html -text
+OpenXavaDoc/web/apidocs/org/openxava/web/style/class-use/Liferay41Style.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/class-use/LiferayStyle.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/class-use/Style.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/class-use/WebSpherePortal6Style.html -text
