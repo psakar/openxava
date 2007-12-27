@@ -2758,6 +2758,7 @@ OpenXava/src/org/openxava/converters/NotNullStringConverter.java -text
 OpenXava/src/org/openxava/converters/StringArrayBytesConverter.java -text
 OpenXava/src/org/openxava/converters/StringBlobConverter.java -text
 OpenXava/src/org/openxava/converters/StringNotNullConverter.java -text
+OpenXava/src/org/openxava/converters/StringTimeConverter.java -text
 OpenXava/src/org/openxava/converters/TrimStringConverter.java -text
 OpenXava/src/org/openxava/converters/ValidValuesBase0Converter.java -text
 OpenXava/src/org/openxava/converters/ValidValuesLetterConverter.java -text
