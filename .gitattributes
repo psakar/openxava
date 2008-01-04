@@ -2517,6 +2517,8 @@ OpenXava/ox3-src/org/openxava/annotations/NoFrame.java -text
 OpenXava/ox3-src/org/openxava/annotations/NoModify.java -text
 OpenXava/ox3-src/org/openxava/annotations/NoSearch.java -text
 OpenXava/ox3-src/org/openxava/annotations/OnChange.java -text
+OpenXava/ox3-src/org/openxava/annotations/OnChangeSearch.java -text
+OpenXava/ox3-src/org/openxava/annotations/OnChangeSearchs.java -text
 OpenXava/ox3-src/org/openxava/annotations/OnChanges.java -text
 OpenXava/ox3-src/org/openxava/annotations/PropertyValidator.java -text
 OpenXava/ox3-src/org/openxava/annotations/PropertyValidators.java -text
@@ -2633,6 +2635,7 @@ OpenXava/src/org/openxava/actions/NavigationAction.java -text
 OpenXava/src/org/openxava/actions/NavigationFromReferenceBaseAction.java -text
 OpenXava/src/org/openxava/actions/NewAction.java -text
 OpenXava/src/org/openxava/actions/OnChangePropertyBaseAction.java -text
+OpenXava/src/org/openxava/actions/OnChangeSearchAction.java -text
 OpenXava/src/org/openxava/actions/OrderByAction.java -text
 OpenXava/src/org/openxava/actions/ReferenceBaseAction.java -text
 OpenXava/src/org/openxava/actions/ReferenceSearchAction.java -text
@@ -6415,6 +6418,7 @@ OpenXavaTest/components/Task.xml -text
 OpenXavaTest/components/TransportCharge.xml -text
 OpenXavaTest/components/TransportCharge2.xml -text
 OpenXavaTest/components/Warehouse.xml -text
+OpenXavaTest/components/Worker.xml -text
 OpenXavaTest/components/Year.xml -text
 OpenXavaTest/components/dtds/component.dtd -text
 OpenXavaTest/components/dtds/componente.dtd -text
@@ -8613,6 +8617,7 @@ OpenXavaTest/ox3-src/org/openxava/test/actions/InvoiceReportAction.java -text
 OpenXavaTest/ox3-src/org/openxava/test/actions/OnChangeCustomerNameAction.java -text
 OpenXavaTest/ox3-src/org/openxava/test/actions/OnChangeDeliveryByAction.java -text
 OpenXavaTest/ox3-src/org/openxava/test/actions/OnChangeDistanceAction.java -text
+OpenXavaTest/ox3-src/org/openxava/test/actions/OnChangeSubfamilySearchAction.java -text
 OpenXavaTest/ox3-src/org/openxava/test/actions/TranslateCarrierNameAction.java -text
 OpenXavaTest/ox3-src/org/openxava/test/formatters/WarehouseFormatter.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/AdditionalDetail.java -text
@@ -8676,6 +8681,7 @@ OpenXavaTest/ox3-src/org/openxava/test/model/TransportCharge2Key.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/TransportChargeKey.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/Warehouse.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/WarehouseKey.java -text
+OpenXavaTest/ox3-src/org/openxava/test/model/Worker.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/Year.java -text
 OpenXavaTest/ox3-src/org/openxava/test/types/RegionsType.java -text
 OpenXavaTest/ox3-src/org/openxava/test/validators/DeliveryPlaceValidator.java -text
