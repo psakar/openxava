@@ -4174,6 +4174,7 @@ OpenXavaDoc/web/apidocs/org/openxava/converters/StringArrayBytesConverter.html -
 OpenXavaDoc/web/apidocs/org/openxava/converters/StringBlobConverter.StringValue.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/StringBlobConverter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/StringNotNullConverter.html -text
+OpenXavaDoc/web/apidocs/org/openxava/converters/StringTimeConverter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/TrimStringConverter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/ValidValuesBase0Converter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/ValidValuesLetterConverter.html -text
@@ -4201,6 +4202,7 @@ OpenXavaDoc/web/apidocs/org/openxava/converters/class-use/StringArrayBytesConver
 OpenXavaDoc/web/apidocs/org/openxava/converters/class-use/StringBlobConverter.StringValue.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/class-use/StringBlobConverter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/class-use/StringNotNullConverter.html -text
+OpenXavaDoc/web/apidocs/org/openxava/converters/class-use/StringTimeConverter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/class-use/TrimStringConverter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/class-use/ValidValuesBase0Converter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/class-use/ValidValuesLetterConverter.html -text
