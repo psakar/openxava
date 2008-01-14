@@ -8627,7 +8627,6 @@ OpenXavaTest/ox3-src/org/openxava/test/actions/InvoiceReportAction.java -text
 OpenXavaTest/ox3-src/org/openxava/test/actions/OnChangeCustomerNameAction.java -text
 OpenXavaTest/ox3-src/org/openxava/test/actions/OnChangeDeliveryByAction.java -text
 OpenXavaTest/ox3-src/org/openxava/test/actions/OnChangeDistanceAction.java -text
-OpenXavaTest/ox3-src/org/openxava/test/actions/OnChangeSubfamilySearchAction.java -text
 OpenXavaTest/ox3-src/org/openxava/test/actions/TranslateCarrierNameAction.java -text
 OpenXavaTest/ox3-src/org/openxava/test/formatters/WarehouseFormatter.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/AdditionalDetail.java -text
@@ -8756,6 +8755,7 @@ OpenXavaTest/src/org/openxava/test/actions/OnChangePreferredWarehouseAction.java
 OpenXavaTest/src/org/openxava/test/actions/OnChangeProduct3DescriptionAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeProductUnitPriceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeShortcutAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/OnChangeSubfamilySearchAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeVehicleAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeVoidAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeWarehouseAction.java -text
