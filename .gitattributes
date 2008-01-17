@@ -2886,6 +2886,7 @@ OpenXava/src/org/openxava/util/CloneException.java -text
 OpenXava/src/org/openxava/util/DataSourceConnectionProvider.java -text
 OpenXava/src/org/openxava/util/Dates.java -text
 OpenXava/src/org/openxava/util/ElementNotFoundException.java -text
+OpenXava/src/org/openxava/util/Emails.java -text
 OpenXava/src/org/openxava/util/Factory.java -text
 OpenXava/src/org/openxava/util/FieldComparator.java -text
 OpenXava/src/org/openxava/util/Files.java -text
@@ -3006,6 +3007,7 @@ OpenXava/web/WEB-INF/lib/commons-fileupload.jar -text
 OpenXava/web/WEB-INF/lib/commons-io.jar -text
 OpenXava/web/WEB-INF/lib/commons-validator.jar -text
 OpenXava/web/WEB-INF/lib/dom4j.jar -text
+OpenXava/web/WEB-INF/lib/dsn.jar -text
 OpenXava/web/WEB-INF/lib/ehcache.jar -text
 OpenXava/web/WEB-INF/lib/ejb3-persistence.jar -text
 OpenXava/web/WEB-INF/lib/hibernate-annotations.jar -text
@@ -3013,13 +3015,17 @@ OpenXava/web/WEB-INF/lib/hibernate-commons-annotations.jar -text
 OpenXava/web/WEB-INF/lib/hibernate-entitymanager.jar -text
 OpenXava/web/WEB-INF/lib/hibernate-validator.jar -text
 OpenXava/web/WEB-INF/lib/hibernate3.jar -text
+OpenXava/web/WEB-INF/lib/imap.jar -text
 OpenXava/web/WEB-INF/lib/itext.jar -text
 OpenXava/web/WEB-INF/lib/jakarta-oro.jar -text
 OpenXava/web/WEB-INF/lib/jasperreports.jar -text
 OpenXava/web/WEB-INF/lib/javassist.jar -text
 OpenXava/web/WEB-INF/lib/jboss-archive-browsing.jar -text
 OpenXava/web/WEB-INF/lib/jstl.jar -text
+OpenXava/web/WEB-INF/lib/mailapi.jar -text
 OpenXava/web/WEB-INF/lib/poi.jar -text
+OpenXava/web/WEB-INF/lib/pop3.jar -text
+OpenXava/web/WEB-INF/lib/smtp.jar -text
 OpenXava/web/WEB-INF/lib/standard.jar -text
 OpenXava/web/WEB-INF/openxava.tld -text
 OpenXava/web/WEB-INF/web.xml -text
