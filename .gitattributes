@@ -2552,11 +2552,12 @@ OpenXava/ox3-src/org/openxava/annotations/parse/AnnotatedClassParser.java -text
 OpenXava/ox3-src/org/openxava/calculators/EnumCalculator.java -text
 OpenXava/ox3-src/org/openxava/calculators/ModelPropertyCalculator.java -text
 OpenXava/ox3-src/org/openxava/converters/typeadapters/ArrayOneRowResultSetAdapter.java -text
-OpenXava/ox3-src/org/openxava/converters/typeadapters/EnumIntConverter.java -text
 OpenXava/ox3-src/org/openxava/converters/typeadapters/HibernateCompositeTypeConverter.java -text
 OpenXava/ox3-src/org/openxava/converters/typeadapters/HibernateTypeBaseConverter.java -text
 OpenXava/ox3-src/org/openxava/converters/typeadapters/HibernateTypeConverter.java -text
 OpenXava/ox3-src/org/openxava/converters/typeadapters/ObjectPreparedStatementAdapter.java -text
+OpenXava/ox3-src/org/openxava/converters/typeadapters/OrdinalEnumIntConverter.java -text
+OpenXava/ox3-src/org/openxava/converters/typeadapters/StringEnumIntConverter.java -text
 OpenXava/ox3-src/org/openxava/filters/VoidFilter.java -text
 OpenXava/ox3-src/org/openxava/types/Base1EnumType.java -text
 OpenXava/ox3-src/org/openxava/types/Date3Type.java -text
@@ -8653,6 +8654,7 @@ OpenXavaTest/ox3-src/org/openxava/test/model/DeliveryDetail.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/DeliveryKey.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/DeliveryPlace.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/DeliveryType.java -text
+OpenXavaTest/ox3-src/org/openxava/test/model/Doctor.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/Driver.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/DrivingLicence.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/DrivingLicenceKey.java -text
@@ -8661,6 +8663,8 @@ OpenXavaTest/ox3-src/org/openxava/test/model/Family2.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/FilterBySubfamily.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/Formula.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/FormulaIngredient.java -text
+OpenXavaTest/ox3-src/org/openxava/test/model/Human.java -text
+OpenXavaTest/ox3-src/org/openxava/test/model/Identifiable.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/Ingredient.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/Invoice.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/Invoice2.java -text
@@ -8668,12 +8672,15 @@ OpenXavaTest/ox3-src/org/openxava/test/model/InvoiceDetail.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/InvoiceDetail2.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/InvoiceKey.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/Issue.java -text
+OpenXavaTest/ox3-src/org/openxava/test/model/JavaProgrammer.java -text
+OpenXavaTest/ox3-src/org/openxava/test/model/Nameable.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/Office.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/Office2.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/Office2Key.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/Product.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/Product2.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/Product3.java -text
+OpenXavaTest/ox3-src/org/openxava/test/model/Programmer.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/Receptionist.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/Seller.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/SellerLevel.java -text
@@ -8862,6 +8869,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/FamilyWithInheritanceControllerTes
 OpenXavaTest/test-src/org/openxava/test/tests/FamilyXProductsReportTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/FormulaTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/HibernateTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/HumanTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/Invoice20020001Test.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/Invoice2002Test.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/Invoice2004Test.java -text
@@ -8876,6 +8884,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/InvoiceNoListTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/InvoiceTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/IssueTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/JPATest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/JavaProgrammerTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/MapFacadeTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/NotZeroValidatorTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/Office2Test.java -text
@@ -8895,6 +8904,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/Product3WithDescriptionsListTest.j
 OpenXavaTest/test-src/org/openxava/test/tests/Product3WithGroupTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ProductTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ProductWithSectionTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/ProgrammerTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/PublicJSPTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/SellerCannotCreateCustomerTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/SellerJSPTest.java -text
