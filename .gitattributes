@@ -8702,6 +8702,8 @@ OpenXavaTest/ox3-src/org/openxava/test/model/TransportCharge2.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/TransportCharge2Key.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/TransportChargeKey.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/Warehouse.java -text
+OpenXavaTest/ox3-src/org/openxava/test/model/Warehouse2.java -text
+OpenXavaTest/ox3-src/org/openxava/test/model/Warehouse2Key.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/WarehouseKey.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/Worker.java -text
 OpenXavaTest/ox3-src/org/openxava/test/model/Year.java -text
@@ -8927,6 +8929,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/TransportCharge2Test.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/TransportChargeTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/TransportChargeTestBase.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/TransportChargeWithDistanceTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/Warehouse2Test.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/WarehouseTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/XavaSuite.java -text
 OpenXavaTest/tomcat-as400.properties -text
