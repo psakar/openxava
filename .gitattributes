@@ -6298,6 +6298,7 @@ OpenXavaTest/.project -text
 OpenXavaTest/.settings/.component -text
 OpenXavaTest/.settings/.ox2-component -text svneol=unset#application/octet-stream
 OpenXavaTest/.settings/org.eclipse.jdt.core.prefs -text
+OpenXavaTest/.settings/org.eclipse.jdt.ui.prefs -text
 OpenXavaTest/.settings/org.eclipse.jst.common.project.facet.core.prefs -text
 OpenXavaTest/.settings/org.eclipse.wst.common.project.facet.core.xml -text
 OpenXavaTest/.settings/org.eclipse.wst.validation.prefs -text
@@ -6363,7 +6364,6 @@ OpenXavaTest/build/hibernate/Delivery.hbm.xml -text
 OpenXavaTest/build/hibernate/DeliveryDetail.hbm.xml -text
 OpenXavaTest/build/hibernate/DeliveryPlace.hbm.xml -text
 OpenXavaTest/build/hibernate/DeliveryType.hbm.xml -text
-OpenXavaTest/build/hibernate/Driver.hbm.xml -text
 OpenXavaTest/build/hibernate/DrivingLicence.hbm.xml -text
 OpenXavaTest/build/hibernate/Family2.hbm.xml -text
 OpenXavaTest/build/hibernate/Formula.hbm.xml -text
@@ -6383,7 +6383,6 @@ OpenXavaTest/build/hibernate/Receptionist.hbm.xml -text
 OpenXavaTest/build/hibernate/Seller.hbm.xml -text
 OpenXavaTest/build/hibernate/SellerLevel.hbm.xml -text
 OpenXavaTest/build/hibernate/Service.hbm.xml -text
-OpenXavaTest/build/hibernate/ServiceInvoice.hbm.xml -text
 OpenXavaTest/build/hibernate/ServiceType.hbm.xml -text
 OpenXavaTest/build/hibernate/Shipment.hbm.xml -text
 OpenXavaTest/build/hibernate/ShipmentCharge.hbm.xml -text
@@ -6462,8 +6461,6 @@ OpenXavaTest/filtered-files/DeliveryDetail.hbm.xml -text
 OpenXavaTest/filtered-files/DeliveryPlace.hbm.xml -text
 OpenXavaTest/filtered-files/DeliveryType.hbm.xml -text
 OpenXavaTest/filtered-files/DeliveryType.xml -text
-OpenXavaTest/filtered-files/Driver.hbm.xml -text
-OpenXavaTest/filtered-files/Driver.xml -text
 OpenXavaTest/filtered-files/DrivingLicence.hbm.xml -text
 OpenXavaTest/filtered-files/DrivingLicence.xml -text
 OpenXavaTest/filtered-files/Family.hbm.xml -text
@@ -6511,8 +6508,6 @@ OpenXavaTest/filtered-files/SellerLevel.hbm.xml -text
 OpenXavaTest/filtered-files/SellerLevel.xml -text
 OpenXavaTest/filtered-files/Service.hbm.xml -text
 OpenXavaTest/filtered-files/Service.xml -text
-OpenXavaTest/filtered-files/ServiceInvoice.hbm.xml -text
-OpenXavaTest/filtered-files/ServiceInvoice.xml -text
 OpenXavaTest/filtered-files/ServiceType.hbm.xml -text
 OpenXavaTest/filtered-files/ServiceType.xml -text
 OpenXavaTest/filtered-files/Shipment.hbm.xml -text
@@ -6589,7 +6584,6 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/DeliveryDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/DeliveryPlace.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/DeliveryType.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Detail.java -text
-OpenXavaTest/gen-src-xava/org/openxava/test/model/Driver.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/DrivingLicence.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Family2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/FilterBySubfamily.java -text
@@ -6608,7 +6602,6 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/IDelivery.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IDeliveryDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IDeliveryPlace.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IDeliveryType.java -text
-OpenXavaTest/gen-src-xava/org/openxava/test/model/IDriver.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IDrivingLicence.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IFamily2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IFilterBySubfamily.java -text
@@ -6629,7 +6622,6 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/IReceptionist.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ISeller.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ISellerLevel.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IService.java -text
-OpenXavaTest/gen-src-xava/org/openxava/test/model/IServiceInvoice.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IServiceType.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IShipment.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IShipmentCharge.java -text
@@ -6657,7 +6649,6 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/Receptionist.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Seller.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/SellerLevel.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Service.java -text
-OpenXavaTest/gen-src-xava/org/openxava/test/model/ServiceInvoice.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ServiceType.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Shipment.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ShipmentCharge.java -text
@@ -6684,7 +6675,6 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/DeliveryBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/DeliveryDetailBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/DeliveryPlaceBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/DeliveryTypeBean.java -text
-OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/DriverBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/DrivingLicenceBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/Family2Bean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/FilterBySubfamilyBean.java -text
@@ -6705,7 +6695,6 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/ReceptionistBean.java -te
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/SellerBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/SellerLevelBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/ServiceBean.java -text
-OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/ServiceInvoiceBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/ServiceTypeBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/ShipmentBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/ShipmentChargeBean.java -text
@@ -6797,12 +6786,6 @@ OpenXavaTest/gen-src/org/openxava/test/model/DeliveryTypeUtil.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/DeliveryTypeValue.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/DeliveryUtil.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/DeliveryValue.java -text
-OpenXavaTest/gen-src/org/openxava/test/model/DriverData.java -text
-OpenXavaTest/gen-src/org/openxava/test/model/DriverHome.java -text
-OpenXavaTest/gen-src/org/openxava/test/model/DriverKey.java -text
-OpenXavaTest/gen-src/org/openxava/test/model/DriverRemote.java -text
-OpenXavaTest/gen-src/org/openxava/test/model/DriverUtil.java -text
-OpenXavaTest/gen-src/org/openxava/test/model/DriverValue.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/DrivingLicenceData.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/DrivingLicenceHome.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/DrivingLicenceKey.java -text
@@ -6924,12 +6907,6 @@ OpenXavaTest/gen-src/org/openxava/test/model/SellerUtil.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/SellerValue.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/ServiceData.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/ServiceHome.java -text
-OpenXavaTest/gen-src/org/openxava/test/model/ServiceInvoiceData.java -text
-OpenXavaTest/gen-src/org/openxava/test/model/ServiceInvoiceHome.java -text
-OpenXavaTest/gen-src/org/openxava/test/model/ServiceInvoiceKey.java -text
-OpenXavaTest/gen-src/org/openxava/test/model/ServiceInvoiceRemote.java -text
-OpenXavaTest/gen-src/org/openxava/test/model/ServiceInvoiceUtil.java -text
-OpenXavaTest/gen-src/org/openxava/test/model/ServiceInvoiceValue.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/ServiceKey.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/ServiceRemote.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/ServiceTypeData.java -text
@@ -7019,7 +6996,6 @@ OpenXavaTest/gen-src/org/openxava/test/model/xejb/DeliveryCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/DeliveryDetailCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/DeliveryPlaceCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/DeliveryTypeCMP.java -text
-OpenXavaTest/gen-src/org/openxava/test/model/xejb/DriverCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/DrivingLicenceCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/Family2CMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/FamilyCMP.java -text
@@ -7041,7 +7017,6 @@ OpenXavaTest/gen-src/org/openxava/test/model/xejb/ReceptionistCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/SellerCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/SellerLevelCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/ServiceCMP.java -text
-OpenXavaTest/gen-src/org/openxava/test/model/xejb/ServiceInvoiceCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/ServiceTypeCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/ShipmentCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/ShipmentChargeCMP.java -text
@@ -9724,21 +9699,6 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Family_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Family_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Family_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Family_zh.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/FilterBySubfamily_bg.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/FilterBySubfamily_ca.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/FilterBySubfamily_de.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/FilterBySubfamily_en.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/FilterBySubfamily_es.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/FilterBySubfamily_fr.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/FilterBySubfamily_in.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/FilterBySubfamily_it.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/FilterBySubfamily_ja.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/FilterBySubfamily_ko.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/FilterBySubfamily_nl.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/FilterBySubfamily_pl.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/FilterBySubfamily_pt.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/FilterBySubfamily_sv.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/FilterBySubfamily_zh.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Formula_bg.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Formula_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Formula_de.properties -text
@@ -10534,21 +10494,6 @@ OpenXavaTest/web/WEB-INF/classes/portlets/Warehouse_pl.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Warehouse_pt.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Warehouse_sv.properties -text
 OpenXavaTest/web/WEB-INF/classes/portlets/Warehouse_zh.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/Year_bg.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/Year_ca.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/Year_de.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/Year_en.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/Year_es.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/Year_fr.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/Year_in.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/Year_it.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/Year_ja.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/Year_ko.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/Year_nl.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/Year_pl.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/Year_pt.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/Year_sv.properties -text
-OpenXavaTest/web/WEB-INF/classes/portlets/Year_zh.properties -text
 OpenXavaTest/web/WEB-INF/classes/stereotype-type-default.xml -text
 OpenXavaTest/web/WEB-INF/classes/validators.xml -text
 OpenXavaTest/web/WEB-INF/lib/FCKeditor-2.3.jar -text
