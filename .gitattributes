@@ -158,6 +158,7 @@ AccessTracking/web/WEB-INF/lib/commons-io.jar -text
 AccessTracking/web/WEB-INF/lib/commons-javaflow.jar -text
 AccessTracking/web/WEB-INF/lib/commons-validator.jar -text
 AccessTracking/web/WEB-INF/lib/dom4j.jar -text
+AccessTracking/web/WEB-INF/lib/dsn.jar -text
 AccessTracking/web/WEB-INF/lib/ehcache.jar -text
 AccessTracking/web/WEB-INF/lib/ejb3-persistence.jar -text
 AccessTracking/web/WEB-INF/lib/hibernate-annotations.jar -text
@@ -165,6 +166,7 @@ AccessTracking/web/WEB-INF/lib/hibernate-commons-annotations.jar -text
 AccessTracking/web/WEB-INF/lib/hibernate-entitymanager.jar -text
 AccessTracking/web/WEB-INF/lib/hibernate-validator.jar -text
 AccessTracking/web/WEB-INF/lib/hibernate3.jar -text
+AccessTracking/web/WEB-INF/lib/imap.jar -text
 AccessTracking/web/WEB-INF/lib/itext.jar -text
 AccessTracking/web/WEB-INF/lib/jakarta-oro.jar -text
 AccessTracking/web/WEB-INF/lib/jasperreports.jar -text
@@ -172,8 +174,11 @@ AccessTracking/web/WEB-INF/lib/javassist.jar -text
 AccessTracking/web/WEB-INF/lib/jboss-archive-browsing.jar -text
 AccessTracking/web/WEB-INF/lib/jboss-client.jar -text
 AccessTracking/web/WEB-INF/lib/jstl.jar -text
+AccessTracking/web/WEB-INF/lib/mailapi.jar -text
 AccessTracking/web/WEB-INF/lib/openxava.jar -text
 AccessTracking/web/WEB-INF/lib/poi.jar -text
+AccessTracking/web/WEB-INF/lib/pop3.jar -text
+AccessTracking/web/WEB-INF/lib/smtp.jar -text
 AccessTracking/web/WEB-INF/lib/standard.jar -text
 AccessTracking/web/WEB-INF/openxava.tld -text
 AccessTracking/web/WEB-INF/portlet.xml -text
@@ -1619,7 +1624,6 @@ MySchool/properties/xava.properties -text
 MySchool/src/org/openxava/school/model/Teacher.java -text
 MySchool/src/org/openxava/school/tests/TeacherTest.java -text
 MySchool/web/META-INF/MANIFEST.MF -text
-MySchool/web/WEB-INF/classes/MySchool-labels.properties -text
 MySchool/web/WEB-INF/classes/TabUserPreferences.hbm.xml -text
 MySchool/web/WEB-INF/classes/hibernate.cfg.xml -text
 MySchool/web/WEB-INF/classes/openxava-hibernate.cfg.xml -text
