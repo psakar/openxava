@@ -2578,7 +2578,6 @@ OpenXava/src/org/openxava/actions/CancelAction.java -text
 OpenXava/src/org/openxava/actions/CancelFromCustomListAction.java -text
 OpenXava/src/org/openxava/actions/CancelInListAction.java -text
 OpenXava/src/org/openxava/actions/ChangeImageAction.java -text
-OpenXava/src/org/openxava/actions/ChangeLenguageAction.java -text
 OpenXava/src/org/openxava/actions/ChangeModuleAction.java -text
 OpenXava/src/org/openxava/actions/ChangeSectionAction.java -text
 OpenXava/src/org/openxava/actions/ChooseReferenceAction.java -text
@@ -2598,7 +2597,6 @@ OpenXava/src/org/openxava/actions/GenerateReportAction.java -text
 OpenXava/src/org/openxava/actions/GoAddColumnsAction.java -text
 OpenXava/src/org/openxava/actions/GoAddElementsToCollectionAction.java -text
 OpenXava/src/org/openxava/actions/GoDetailAction.java -text
-OpenXava/src/org/openxava/actions/GoFirstAction.java -text
 OpenXava/src/org/openxava/actions/GoListAction.java -text
 OpenXava/src/org/openxava/actions/GoNextPageAction.java -text
 OpenXava/src/org/openxava/actions/GoPageAction.java -text
