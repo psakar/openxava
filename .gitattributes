@@ -3902,6 +3902,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/NavigationAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/NavigationFromReferenceBaseAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/NewAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/OnChangePropertyBaseAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/OnChangeSearchAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/OrderByAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/ReferenceBaseAction.ViewInfo.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/ReferenceBaseAction.html -text
@@ -3999,6 +4000,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/NavigationAction.html -te
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/NavigationFromReferenceBaseAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/NewAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/OnChangePropertyBaseAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/OnChangeSearchAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/OrderByAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ReferenceBaseAction.ViewInfo.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ReferenceBaseAction.html -text
@@ -4592,6 +4594,7 @@ OpenXavaDoc/web/apidocs/org/openxava/util/DataSourceConnectionProvider.html -tex
 OpenXavaDoc/web/apidocs/org/openxava/util/Dates.DateDistance.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/Dates.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/ElementNotFoundException.html -text
+OpenXavaDoc/web/apidocs/org/openxava/util/Emails.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/Factory.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/FieldComparator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/Files.html -text
@@ -4634,6 +4637,7 @@ OpenXavaDoc/web/apidocs/org/openxava/util/class-use/DataSourceConnectionProvider
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/Dates.DateDistance.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/Dates.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/ElementNotFoundException.html -text
+OpenXavaDoc/web/apidocs/org/openxava/util/class-use/Emails.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/Factory.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/FieldComparator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/Files.html -text
