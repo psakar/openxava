@@ -6511,6 +6511,7 @@ OpenXavaTest/filtered-files/DeliveryDetail.hbm.xml -text
 OpenXavaTest/filtered-files/DeliveryPlace.hbm.xml -text
 OpenXavaTest/filtered-files/DeliveryType.hbm.xml -text
 OpenXavaTest/filtered-files/DeliveryType.xml -text
+OpenXavaTest/filtered-files/Driver.xml -text
 OpenXavaTest/filtered-files/DrivingLicence.hbm.xml -text
 OpenXavaTest/filtered-files/DrivingLicence.xml -text
 OpenXavaTest/filtered-files/Family.hbm.xml -text
@@ -6558,6 +6559,7 @@ OpenXavaTest/filtered-files/SellerLevel.hbm.xml -text
 OpenXavaTest/filtered-files/SellerLevel.xml -text
 OpenXavaTest/filtered-files/Service.hbm.xml -text
 OpenXavaTest/filtered-files/Service.xml -text
+OpenXavaTest/filtered-files/ServiceInvoice.xml -text
 OpenXavaTest/filtered-files/ServiceType.hbm.xml -text
 OpenXavaTest/filtered-files/ServiceType.xml -text
 OpenXavaTest/filtered-files/Shipment.hbm.xml -text
@@ -6581,6 +6583,7 @@ OpenXavaTest/filtered-files/TransportCharge2.hbm.xml -text
 OpenXavaTest/filtered-files/TransportCharge2.xml -text
 OpenXavaTest/filtered-files/Warehouse.hbm.xml -text
 OpenXavaTest/filtered-files/Warehouse.xml -text
+OpenXavaTest/filtered-files/Worker.xml -text
 OpenXavaTest/filtered-files/Year.xml -text
 OpenXavaTest/filtered-files/application.xml -text
 OpenXavaTest/filtered-files/aspects.xml -text
@@ -9065,12 +9068,10 @@ OpenXavaTest/test-src/org/openxava/test/tests/XavaSuite.java -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
