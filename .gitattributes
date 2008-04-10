@@ -2563,6 +2563,10 @@ OpenXava/java5-src/org/openxava/types/EnumLetterType.java -text
 OpenXava/java5-src/org/openxava/types/NotNullStringType.java -text
 OpenXava/java5-src/org/openxava/types/SiNoType.java -text
 OpenXava/java5-src/org/openxava/types/StringArrayBytesType.java -text
+OpenXava/java5-src/org/openxava/validators/hibernate/EntityValidatorValidator.java -text
+OpenXava/java5-src/org/openxava/validators/hibernate/FailingMessages.java -text
+OpenXava/java5-src/org/openxava/validators/hibernate/PropertyValidatorValidator.java -text
+OpenXava/java5-src/org/openxava/validators/hibernate/RequiredValidator.java -text
 OpenXava/lib/Tidy.jar -text
 OpenXava/lib/commons-logging.jar -text
 OpenXava/lib/freemarker.jar -text
@@ -2702,6 +2706,7 @@ OpenXava/src/org/openxava/calculators/LongCalculator.java -text
 OpenXava/src/org/openxava/calculators/NextIntegerCalculator.java -text
 OpenXava/src/org/openxava/calculators/NextLongCalculator.java -text
 OpenXava/src/org/openxava/calculators/NullDateCalculator.java -text
+OpenXava/src/org/openxava/calculators/RangeDescriptionCalculator.java -text
 OpenXava/src/org/openxava/calculators/SequenceCalculator.java -text
 OpenXava/src/org/openxava/calculators/StringCalculator.java -text
 OpenXava/src/org/openxava/calculators/TrueCalculator.java -text
@@ -7860,6 +7865,7 @@ OpenXavaTest/src/org/openxava/test/validators/ForbiddenPriceValidator.java -text
 OpenXavaTest/src/org/openxava/test/validators/PersonNameValidator.java -text
 OpenXavaTest/src/org/openxava/test/validators/UnitPriceValidator.java -text
 OpenXavaTest/test-images/foto_javi.jpg -text
+OpenXavaTest/test-src/org/openxava/test/tests/AnnotatedPOJOTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/CarrierTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/CarrierWithCalculatedFellowsTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/CarrierWithReadOnlyCalculatedFellowsTest.java -text
@@ -7889,6 +7895,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/DeliveryTypeJSPTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/DeliveryTypeTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/DescriptionTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/DriverTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/DrivingLicenceTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/FamilyListOnlyTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/FamilyProductsReportTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/FamilyRangeProductsReportTest.java -text
