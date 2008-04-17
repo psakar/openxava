@@ -7855,6 +7855,7 @@ OpenXavaTest/src/org/openxava/test/actions/StateJPASearchAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/VerifyEditablesProductAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ViewCurrentYearInvoicesAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ViewDeliveryFromInvoiceAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/ViewNameFellowCarriersSelectedAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ViewProductFromInvoiceDetailAction.java -text
 OpenXavaTest/src/org/openxava/test/calculators/AdviceCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/CarrierRemarksCalculator.java -text
@@ -7895,6 +7896,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/AnnotatedPOJOTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/CarrierTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/CarrierWithCalculatedFellowsTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/CarrierWithReadOnlyCalculatedFellowsTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/CarrierWithSectionsTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/CarrierWithSpecialSearchTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ChangeProductsPrice2Test.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ChangeProductsPriceTest.java -text
