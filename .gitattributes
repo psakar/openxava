@@ -4890,6 +4890,16 @@ OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/PositiveValidator.html
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/TolerantValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/URLValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/ValidationException.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/hibernate/EntityValidatorValidator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/hibernate/PropertyValidatorValidator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/hibernate/RequiredValidator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/hibernate/class-use/EntityValidatorValidator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/hibernate/class-use/PropertyValidatorValidator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/hibernate/class-use/RequiredValidator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/hibernate/package-frame.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/hibernate/package-summary.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/hibernate/package-tree.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/hibernate/package-use.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/meta/MetaValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/meta/MetaValidatorFor.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/meta/MetaValidators.html -text
