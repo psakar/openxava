@@ -5244,6 +5244,7 @@ OpenXavaTest/build/hibernate/Warehouse.hbm.xml -text
 OpenXavaTest/build/hibernate/Worker.hbm.xml -text
 OpenXavaTest/build/j2ee/META-INF/application-websphere.xml -text
 OpenXavaTest/build/j2ee/META-INF/application.xml -text
+OpenXavaTest/components/AverageSpeed.xml -text
 OpenXavaTest/components/Carrier.xml -text
 OpenXavaTest/components/Clerk.xml -text
 OpenXavaTest/components/Color.xml -text
@@ -5262,6 +5263,7 @@ OpenXavaTest/components/Ingredient.xml -text
 OpenXavaTest/components/Invoice.xml -text
 OpenXavaTest/components/Invoice2.xml -text
 OpenXavaTest/components/Issue.xml -text
+OpenXavaTest/components/Journey.xml -text
 OpenXavaTest/components/Office.xml -text
 OpenXavaTest/components/Office2.xml -text
 OpenXavaTest/components/Product.xml -text
@@ -5281,6 +5283,7 @@ OpenXavaTest/components/Subfamily2.xml -text
 OpenXavaTest/components/Task.xml -text
 OpenXavaTest/components/TransportCharge.xml -text
 OpenXavaTest/components/TransportCharge2.xml -text
+OpenXavaTest/components/Vehicle.xml -text
 OpenXavaTest/components/Warehouse.xml -text
 OpenXavaTest/components/Worker.xml -text
 OpenXavaTest/components/Year.xml -text
@@ -7662,6 +7665,7 @@ OpenXavaTest/java5-src/org/openxava/test/formatters/WarehouseFormatter.java -tex
 OpenXavaTest/java5-src/org/openxava/test/model/AdditionalDetail.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/AdditionalDetailKey.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Address.java -text
+OpenXavaTest/java5-src/org/openxava/test/model/AverageSpeed.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Carrier.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Clerk.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/ClerkKey.java -text
@@ -7696,6 +7700,7 @@ OpenXavaTest/java5-src/org/openxava/test/model/InvoiceDetail2.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/InvoiceKey.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Issue.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/JavaProgrammer.java -text
+OpenXavaTest/java5-src/org/openxava/test/model/Journey.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Nameable.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Office.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Office2.java -text
@@ -7725,6 +7730,7 @@ OpenXavaTest/java5-src/org/openxava/test/model/TransportCharge.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/TransportCharge2.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/TransportCharge2Key.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/TransportChargeKey.java -text
+OpenXavaTest/java5-src/org/openxava/test/model/Vehicle.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Warehouse.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Warehouse2.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Warehouse2Key.java -text
@@ -7907,6 +7913,7 @@ OpenXavaTest/src/org/openxava/test/validators/ExpensiveProductValidator.java -te
 OpenXavaTest/src/org/openxava/test/validators/ForbiddenPriceValidator.java -text
 OpenXavaTest/src/org/openxava/test/validators/PersonNameValidator.java -text
 OpenXavaTest/src/org/openxava/test/validators/UnitPriceValidator.java -text
+OpenXavaTest/test-images/cake.gif -text
 OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/test-src/org/openxava/test/tests/AnnotatedPOJOTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/CarrierTest.java -text
@@ -7964,6 +7971,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/InvoiceTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/IssueTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/JPATest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/JavaProgrammerTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/JourneyTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/MapFacadeTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/NotZeroValidatorTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/Office2Test.java -text
