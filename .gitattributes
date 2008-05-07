@@ -7933,6 +7933,7 @@ OpenXavaTest/src/org/openxava/test/actions/SetPropertyValueNotifyingAction.java 
 OpenXavaTest/src/org/openxava/test/actions/ShowActiveYearAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ShowDeleteAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ShowListPropertyAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/ShowMessageAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ShowSaveDeleteAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/StateHibernateDeleteAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/StateHibernateSaveAction.java -text
