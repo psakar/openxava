@@ -2368,7 +2368,6 @@ OpenXava/.settings/org.eclipse.jst.common.project.facet.core.prefs -text
 OpenXava/.settings/org.eclipse.wst.common.project.facet.core.xml -text
 OpenXava/.settings/org.eclipse.wst.validation.prefs -text
 OpenXava/.vcm_meta -text svneol=unset#application/octet-stream
-OpenXava/aspects/org/openxava/aspects/PropertyAspect.aj -text
 OpenXava/build.xml -text
 OpenXava/build/jboss-app.xml -text
 OpenXava/build/server-properties/BeansContext.properties -text
@@ -7970,7 +7969,6 @@ OpenXavaTest/src/org/openxava/test/generators/warehouse_ejb_property.template -t
 OpenXavaTest/src/org/openxava/test/generators/warehouse_pojo_property.template -text
 OpenXavaTest/src/org/openxava/test/model/IWithCity.java -text
 OpenXavaTest/src/org/openxava/test/model/IWithName.java -text
-OpenXavaTest/src/org/openxava/test/model/Person.java -text
 OpenXavaTest/src/org/openxava/test/model/PriceException.java -text
 OpenXavaTest/src/org/openxava/test/model/ProductException.java -text
 OpenXavaTest/src/org/openxava/test/model/xejb/FamilyBean.java -text
@@ -8047,7 +8045,6 @@ OpenXavaTest/test-src/org/openxava/test/tests/OfficeTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/OnlyEditDetailsInvoiceTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/OnlyReadDetailsInvoiceTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/POJOTest.java -text
-OpenXavaTest/test-src/org/openxava/test/tests/PersonTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/PositiveValidatorTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/Product2ReferenceAndStereotypeTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/Product2Test.java -text
