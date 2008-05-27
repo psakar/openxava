@@ -5081,9 +5081,7 @@ OpenXavaTemplate/i18n/labels_en.properties.template -text
 OpenXavaTemplate/i18n/messages_en.properties.template -text
 OpenXavaTemplate/persistence/GalleryImage.hbm.xml -text
 OpenXavaTemplate/persistence/META-INF/persistence.xml -text
-OpenXavaTemplate/persistence/TabUserPreferences.hbm.xml -text
 OpenXavaTemplate/persistence/hibernate.cfg.xml -text
-OpenXavaTemplate/persistence/openxava-hibernate.cfg.xml -text
 OpenXavaTemplate/properties/BeansContext.properties -text
 OpenXavaTemplate/properties/LoginContextFactory.properties -text
 OpenXavaTemplate/properties/jndi-jboss.properties -text
