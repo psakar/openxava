@@ -2345,10 +2345,6 @@ OpenXava/build/server-properties/BeansContext.properties -text
 OpenXava/build/server-properties/EJBContextFactory.properties -text
 OpenXava/changelog.txt -text
 OpenXava/data/images-db.script -text
-OpenXava/data/openxava-db-as400.script -text
-OpenXava/data/openxava-db.properties -text
-OpenXava/data/openxava-db.script -text
-OpenXava/data/openxava-ds.xml -text
 OpenXava/doc/license.txt -text
 OpenXava/doc/licenses/NOTICE-apache.txt -text
 OpenXava/doc/licenses/apache-1.1.txt -text
@@ -2459,8 +2455,6 @@ OpenXava/generator/websphereSchxmi.xml -text
 OpenXava/generator/websphereTblxmi.template -text
 OpenXava/generator/websphereTblxmi.xml -text
 OpenXava/hibernate/GalleryImage.hbm.xml -text
-OpenXava/hibernate/TabUserPreferences.hbm.xml -text
-OpenXava/hibernate/openxava-hibernate.cfg.xml -text
 OpenXava/history.txt -text
 OpenXava/i18n/Labels_ca.properties -text
 OpenXava/i18n/Labels_de.properties -text
@@ -2881,7 +2875,6 @@ OpenXava/src/org/openxava/tab/impl/JDBCTabProvider.java -text
 OpenXava/src/org/openxava/tab/impl/TabCalculator.java -text
 OpenXava/src/org/openxava/tab/impl/TabConverter.java -text
 OpenXava/src/org/openxava/tab/impl/TabException.java -text
-OpenXava/src/org/openxava/tab/impl/TabUserPreferences.java -text
 OpenXava/src/org/openxava/tab/impl/TableModelBase.java -text
 OpenXava/src/org/openxava/tab/impl/TableModelBean.java -text
 OpenXava/src/org/openxava/tab/impl/XTableModelDecoratorBase.java -text
@@ -2936,6 +2929,7 @@ OpenXava/src/org/openxava/util/XavaResources.java -text
 OpenXava/src/org/openxava/util/impl/ServerBean.java -text
 OpenXava/src/org/openxava/util/impl/ServerHome.java -text
 OpenXava/src/org/openxava/util/impl/ServerRemote.java -text
+OpenXava/src/org/openxava/util/impl/UserPreferences.java -text
 OpenXava/src/org/openxava/util/meta/ElementName.java -text
 OpenXava/src/org/openxava/util/meta/MetaElement.java -text
 OpenXava/src/org/openxava/util/meta/MetaSet.java -text
