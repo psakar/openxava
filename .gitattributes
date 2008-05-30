@@ -2544,11 +2544,11 @@ OpenXava/java5-src/org/openxava/annotations/XOrderBy.java -text
 OpenXava/java5-src/org/openxava/annotations/parse/AnnotatedClassParser.java -text
 OpenXava/java5-src/org/openxava/calculators/EnumCalculator.java -text
 OpenXava/java5-src/org/openxava/calculators/ModelPropertyCalculator.java -text
-OpenXava/java5-src/org/openxava/converters/typeadapters/ArrayOneRowResultSetAdapter.java -text
+OpenXava/java5-src/org/openxava/converters/typeadapters/ArrayOneRowResultSetAdapter.java.nocompile -text
 OpenXava/java5-src/org/openxava/converters/typeadapters/HibernateCompositeTypeConverter.java -text
 OpenXava/java5-src/org/openxava/converters/typeadapters/HibernateTypeBaseConverter.java -text
 OpenXava/java5-src/org/openxava/converters/typeadapters/HibernateTypeConverter.java -text
-OpenXava/java5-src/org/openxava/converters/typeadapters/ObjectPreparedStatementAdapter.java -text
+OpenXava/java5-src/org/openxava/converters/typeadapters/ObjectPreparedStatementAdapter.java.nocompile -text
 OpenXava/java5-src/org/openxava/converters/typeadapters/OrdinalEnumIntConverter.java -text
 OpenXava/java5-src/org/openxava/converters/typeadapters/StringEnumIntConverter.java -text
 OpenXava/java5-src/org/openxava/filters/VoidFilter.java -text
@@ -3029,6 +3029,7 @@ OpenXava/web/WEB-INF/lib/javassist.jar -text
 OpenXava/web/WEB-INF/lib/jboss-archive-browsing.jar -text
 OpenXava/web/WEB-INF/lib/jstl.jar -text
 OpenXava/web/WEB-INF/lib/mailapi.jar -text
+OpenXava/web/WEB-INF/lib/ox-jdbc-adapters.jar -text
 OpenXava/web/WEB-INF/lib/poi.jar -text
 OpenXava/web/WEB-INF/lib/pop3.jar -text
 OpenXava/web/WEB-INF/lib/smtp.jar -text
