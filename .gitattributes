@@ -9778,6 +9778,7 @@ OpenXavaTest/web/WEB-INF/lib/jstl.jar -text
 OpenXavaTest/web/WEB-INF/lib/jta.jar -text
 OpenXavaTest/web/WEB-INF/lib/mailapi.jar -text
 OpenXavaTest/web/WEB-INF/lib/openxava.jar -text
+OpenXavaTest/web/WEB-INF/lib/ox-jdbc-adapters.jar -text
 OpenXavaTest/web/WEB-INF/lib/poi.jar -text
 OpenXavaTest/web/WEB-INF/lib/pop3.jar -text
 OpenXavaTest/web/WEB-INF/lib/smtp.jar -text
