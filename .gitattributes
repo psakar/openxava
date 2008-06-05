@@ -4302,18 +4302,14 @@ OpenXavaDoc/web/apidocs/org/openxava/converters/package-frame.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/package-summary.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/package-tree.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/package-use.html -text
-OpenXavaDoc/web/apidocs/org/openxava/converters/typeadapters/ArrayOneRowResultSetAdapter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/typeadapters/HibernateCompositeTypeConverter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/typeadapters/HibernateTypeBaseConverter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/typeadapters/HibernateTypeConverter.html -text
-OpenXavaDoc/web/apidocs/org/openxava/converters/typeadapters/ObjectPreparedStatementAdapter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/typeadapters/OrdinalEnumIntConverter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/typeadapters/StringEnumIntConverter.html -text
-OpenXavaDoc/web/apidocs/org/openxava/converters/typeadapters/class-use/ArrayOneRowResultSetAdapter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/typeadapters/class-use/HibernateCompositeTypeConverter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/typeadapters/class-use/HibernateTypeBaseConverter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/typeadapters/class-use/HibernateTypeConverter.html -text
-OpenXavaDoc/web/apidocs/org/openxava/converters/typeadapters/class-use/ObjectPreparedStatementAdapter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/typeadapters/class-use/OrdinalEnumIntConverter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/typeadapters/class-use/StringEnumIntConverter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/converters/typeadapters/package-frame.html -text
@@ -4623,7 +4619,6 @@ OpenXavaDoc/web/apidocs/org/openxava/tab/impl/IXTableModel.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/JDBCTabProvider.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/TabCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/TabException.html -text
-OpenXavaDoc/web/apidocs/org/openxava/tab/impl/TabUserPreferences.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/TableModelBase.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/TableModelBean.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/XTableModelDecoratorBase.html -text
@@ -4650,7 +4645,6 @@ OpenXavaDoc/web/apidocs/org/openxava/tab/impl/class-use/IXTableModel.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/class-use/JDBCTabProvider.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/class-use/TabCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/class-use/TabException.html -text
-OpenXavaDoc/web/apidocs/org/openxava/tab/impl/class-use/TabUserPreferences.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/class-use/TableModelBase.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/class-use/TableModelBean.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/class-use/XTableModelDecoratorBase.html -text
@@ -4791,9 +4785,11 @@ OpenXavaDoc/web/apidocs/org/openxava/util/class-use/XavaResources.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/impl/ServerBean.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/impl/ServerHome.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/impl/ServerRemote.html -text
+OpenXavaDoc/web/apidocs/org/openxava/util/impl/UserPreferences.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/impl/class-use/ServerBean.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/impl/class-use/ServerHome.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/impl/class-use/ServerRemote.html -text
+OpenXavaDoc/web/apidocs/org/openxava/util/impl/class-use/UserPreferences.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/impl/package-frame.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/impl/package-summary.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/impl/package-tree.html -text
