@@ -155,6 +155,7 @@ AccessTracking/web/WEB-INF/lib/jboss-client.jar -text
 AccessTracking/web/WEB-INF/lib/jstl.jar -text
 AccessTracking/web/WEB-INF/lib/mailapi.jar -text
 AccessTracking/web/WEB-INF/lib/openxava.jar -text
+AccessTracking/web/WEB-INF/lib/ox-jdbc-adapters.jar -text
 AccessTracking/web/WEB-INF/lib/poi.jar -text
 AccessTracking/web/WEB-INF/lib/pop3.jar -text
 AccessTracking/web/WEB-INF/lib/smtp.jar -text
@@ -2544,11 +2545,9 @@ OpenXava/java5-src/org/openxava/annotations/XOrderBy.java -text
 OpenXava/java5-src/org/openxava/annotations/parse/AnnotatedClassParser.java -text
 OpenXava/java5-src/org/openxava/calculators/EnumCalculator.java -text
 OpenXava/java5-src/org/openxava/calculators/ModelPropertyCalculator.java -text
-OpenXava/java5-src/org/openxava/converters/typeadapters/ArrayOneRowResultSetAdapter.java.nocompile -text
 OpenXava/java5-src/org/openxava/converters/typeadapters/HibernateCompositeTypeConverter.java -text
 OpenXava/java5-src/org/openxava/converters/typeadapters/HibernateTypeBaseConverter.java -text
 OpenXava/java5-src/org/openxava/converters/typeadapters/HibernateTypeConverter.java -text
-OpenXava/java5-src/org/openxava/converters/typeadapters/ObjectPreparedStatementAdapter.java.nocompile -text
 OpenXava/java5-src/org/openxava/converters/typeadapters/OrdinalEnumIntConverter.java -text
 OpenXava/java5-src/org/openxava/converters/typeadapters/StringEnumIntConverter.java -text
 OpenXava/java5-src/org/openxava/filters/VoidFilter.java -text
@@ -2571,6 +2570,8 @@ OpenXava/lib/j2ee.jar -text
 OpenXava/lib/js.jar -text
 OpenXava/lib/portlet-api-1.0.jar -text
 OpenXava/lib/tl.jar -text
+OpenXava/notcompile/org/openxava/converters/typeadapters/ArrayOneRowResultSetAdapter.java -text
+OpenXava/notcompile/org/openxava/converters/typeadapters/ObjectPreparedStatementAdapter.java -text
 OpenXava/properties/commons-logging.properties -text
 OpenXava/src/org/openxava/actions/AddColumnsAction.java -text
 OpenXava/src/org/openxava/actions/AddElementsToCollectionAction.java -text
@@ -5506,6 +5507,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/Warehouse.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Worker.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Year.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/AdditionalDetailBean.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/AverageSpeedBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/CarrierBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/ClerkBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/ColorBean.java -text
@@ -5530,6 +5532,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/InvoiceBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/InvoiceDetail2Bean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/InvoiceDetailBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/IssueBean.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/JourneyBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/Office2Bean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/OfficeBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/Product2Bean.java -text
@@ -5550,6 +5553,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/SubfamilyBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/TaskBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/TransportCharge2Bean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/TransportChargeBean.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/VehicleBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/WarehouseBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/WorkerBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/YearBean.java -text
@@ -5560,6 +5564,12 @@ OpenXavaTest/gen-src/org/openxava/test/model/AdditionalDetailKey.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/AdditionalDetailRemote.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/AdditionalDetailUtil.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/AdditionalDetailValue.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/AverageSpeedData.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/AverageSpeedHome.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/AverageSpeedKey.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/AverageSpeedRemote.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/AverageSpeedUtil.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/AverageSpeedValue.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/CarrierData.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/CarrierHome.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/CarrierKey.java -text
@@ -5709,6 +5719,12 @@ OpenXavaTest/gen-src/org/openxava/test/model/IssueKey.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/IssueRemote.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/IssueUtil.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/IssueValue.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/JourneyData.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/JourneyHome.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/JourneyKey.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/JourneyRemote.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/JourneyUtil.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/JourneyValue.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/Office2Data.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/Office2Home.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/Office2Key.java -text
@@ -5829,6 +5845,12 @@ OpenXavaTest/gen-src/org/openxava/test/model/TransportChargeKey.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/TransportChargeRemote.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/TransportChargeUtil.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/TransportChargeValue.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/VehicleData.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/VehicleHome.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/VehicleKey.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/VehicleRemote.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/VehicleUtil.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/VehicleValue.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/WarehouseData.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/WarehouseHome.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/WarehouseKey.java -text
@@ -5848,6 +5870,7 @@ OpenXavaTest/gen-src/org/openxava/test/model/YearRemote.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/YearUtil.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/YearValue.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/AdditionalDetailCMP.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/xejb/AverageSpeedCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/CarrierCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/ClerkCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/ColorCMP.java -text
@@ -5873,6 +5896,7 @@ OpenXavaTest/gen-src/org/openxava/test/model/xejb/InvoiceCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/InvoiceDetail2CMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/InvoiceDetailCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/IssueCMP.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/xejb/JourneyCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/Office2CMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/OfficeCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/Product2CMP.java -text
@@ -5893,6 +5917,7 @@ OpenXavaTest/gen-src/org/openxava/test/model/xejb/SubfamilyCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/TaskCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/TransportCharge2CMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/TransportChargeCMP.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/xejb/VehicleCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/WarehouseCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/WorkerCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/YearCMP.java -text
@@ -7731,6 +7756,7 @@ OpenXavaTest/java5-src/org/openxava/test/actions/OnChangeCustomerNameAction.java
 OpenXavaTest/java5-src/org/openxava/test/actions/OnChangeDeliveryByAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/OnChangeDistanceAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/TranslateCarrierNameAction.java -text
+OpenXavaTest/java5-src/org/openxava/test/actions/ViewNameFellowCarriersSelectedAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/formatters/WarehouseFormatter.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/AdditionalDetail.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/AdditionalDetailKey.java -text
@@ -7821,6 +7847,7 @@ OpenXavaTest/ox2-src/org/openxava/test/actions/OnChangeCustomerNameAction.java -
 OpenXavaTest/ox2-src/org/openxava/test/actions/OnChangeDeliveryByAction.java -text
 OpenXavaTest/ox2-src/org/openxava/test/actions/OnChangeDistanceAction.java -text
 OpenXavaTest/ox2-src/org/openxava/test/actions/TranslateCarrierNameAction.java -text
+OpenXavaTest/ox2-src/org/openxava/test/actions/ViewNameFellowCarriersSelectedAction.java -text
 OpenXavaTest/ox2-src/org/openxava/test/calculators/AmountsSumCalculator.java -text
 OpenXavaTest/ox2-src/org/openxava/test/calculators/ColorSampleCalculator.java -text
 OpenXavaTest/ox2-src/org/openxava/test/calculators/ConsiderableCalculator.java -text
@@ -7947,7 +7974,6 @@ OpenXavaTest/src/org/openxava/test/actions/StateJPASearchAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/VerifyEditablesProductAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ViewCurrentYearInvoicesAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ViewDeliveryFromInvoiceAction.java -text
-OpenXavaTest/src/org/openxava/test/actions/ViewNameFellowCarriersSelectedAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ViewProductFromInvoiceDetailAction.java -text
 OpenXavaTest/src/org/openxava/test/calculators/AdviceCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/CarrierRemarksCalculator.java -text
