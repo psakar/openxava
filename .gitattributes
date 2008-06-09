@@ -3604,6 +3604,7 @@ OpenXava/web/editors/calendar/skins/aqua/today-bg.gif -text
 OpenXava/web/editors/changeImage.jsp -text
 OpenXava/web/editors/dateCalendarEditor.jsp -text svneol=unset#application/octet-stream
 OpenXava/web/editors/dateTimeCalendarEditor.jsp -text
+OpenXava/web/editors/descriptionValidValuesEditor.jsp -text
 OpenXava/web/editors/descriptionsEditor.jsp -text
 OpenXava/web/editors/gallery.jsp -text
 OpenXava/web/editors/galleryEditor.jsp -text
@@ -10384,6 +10385,7 @@ OpenXavaTest/web/xava/editors/calendar/skins/aqua/today-bg.gif -text
 OpenXavaTest/web/xava/editors/changeImage.jsp -text
 OpenXavaTest/web/xava/editors/dateCalendarEditor.jsp -text
 OpenXavaTest/web/xava/editors/dateTimeCalendarEditor.jsp -text
+OpenXavaTest/web/xava/editors/descriptionValidValuesEditor.jsp -text
 OpenXavaTest/web/xava/editors/descriptionsEditor.jsp -text
 OpenXavaTest/web/xava/editors/gallery.jsp -text
 OpenXavaTest/web/xava/editors/galleryEditor.jsp -text
