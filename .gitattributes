@@ -2465,6 +2465,8 @@ OpenXava/i18n/Labels_fr.properties -text
 OpenXava/i18n/Labels_in.properties -text
 OpenXava/i18n/Labels_it.properties -text
 OpenXava/i18n/Labels_pl.properties -text
+OpenXava/i18n/Labels_zh.properties -text
+OpenXava/i18n/Labels_zh_CN.properties -text
 OpenXava/i18n/Messages_ca.properties -text
 OpenXava/i18n/Messages_de.properties -text
 OpenXava/i18n/Messages_en.properties -text
@@ -2473,6 +2475,8 @@ OpenXava/i18n/Messages_fr.properties -text
 OpenXava/i18n/Messages_in.properties -text
 OpenXava/i18n/Messages_it.properties -text
 OpenXava/i18n/Messages_pl.properties -text
+OpenXava/i18n/Messages_zh.properties -text
+OpenXava/i18n/Messages_zh_CN.properties -text
 OpenXava/java5-src/org/openxava/annotations/Action.java -text
 OpenXava/java5-src/org/openxava/annotations/Actions.java -text
 OpenXava/java5-src/org/openxava/annotations/AsEmbedded.java -text
