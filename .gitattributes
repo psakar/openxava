@@ -7731,6 +7731,7 @@ OpenXavaTest/i18n/portlets/Worker_sv.properties -text
 OpenXavaTest/i18n/portlets/Worker_zh.properties -text
 OpenXavaTest/java5-src/org/openxava/test/actions/FamilyProductsReportAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/InvoiceReportAction.java -text
+OpenXavaTest/java5-src/org/openxava/test/actions/NewWarehouseAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/OnChangeCustomerNameAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/OnChangeDeliveryByAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/OnChangeDistanceAction.java -text
@@ -7823,6 +7824,7 @@ OpenXavaTest/lib/hsqldb.jar -text
 OpenXavaTest/lib/jbossall-client.jar -text
 OpenXavaTest/ox2-src/org/openxava/test/actions/FamilyProductsReportAction.java -text
 OpenXavaTest/ox2-src/org/openxava/test/actions/InvoiceReportAction.java -text
+OpenXavaTest/ox2-src/org/openxava/test/actions/NewWarehouseAction.java -text
 OpenXavaTest/ox2-src/org/openxava/test/actions/OnChangeCustomerNameAction.java -text
 OpenXavaTest/ox2-src/org/openxava/test/actions/OnChangeDeliveryByAction.java -text
 OpenXavaTest/ox2-src/org/openxava/test/actions/OnChangeDistanceAction.java -text
@@ -8090,6 +8092,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/TransportChargeTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/TransportChargeTestBase.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/TransportChargeWithDistanceTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/Warehouse2Test.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/WarehouseSpecialNewTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/WarehouseTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/XavaSuite.java -text
 OpenXavaTest/tomcat-as400.properties -text
