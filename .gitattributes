@@ -7900,6 +7900,7 @@ OpenXavaTest/src/org/openxava/test/actions/DecorateNameAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/DeleteAllAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/EditInvoiceDetailAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/GenerateDeliveryNumberAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/GenerateDeliveryNumberPropertyAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/GetNameAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideDeleteAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideDeliveryActionsAction.java -text
