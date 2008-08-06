@@ -3002,7 +3002,8 @@ OpenXava/src/org/openxava/web/servlets/JasperReportServlet.java -text
 OpenXava/src/org/openxava/web/servlets/Servlets.java -text
 OpenXava/src/org/openxava/web/style/JetSpeed2Style.java -text
 OpenXava/src/org/openxava/web/style/Liferay41Style.java -text
-OpenXava/src/org/openxava/web/style/LiferayStyle.java -text
+OpenXava/src/org/openxava/web/style/Liferay43Style.java -text
+OpenXava/src/org/openxava/web/style/Liferay51Style.java -text
 OpenXava/src/org/openxava/web/style/Style.java -text
 OpenXava/src/org/openxava/web/style/WebSpherePortal6Style.java -text
 OpenXava/src/org/openxava/web/style/WebSpherePortalStyle.java -text
@@ -7920,6 +7921,7 @@ OpenXavaTest/properties/LoginContextFactory.properties -text
 OpenXavaTest/properties/jndi-jboss.properties -text
 OpenXavaTest/properties/jndi-websphere.properties -text
 OpenXavaTest/properties/jndi.properties -text
+OpenXavaTest/properties/logging.properties -text
 OpenXavaTest/properties/xava-junit.properties -text
 OpenXavaTest/properties/xava.properties -text
 OpenXavaTest/reports/Invoice.jrxml -text
