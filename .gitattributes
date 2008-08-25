@@ -2592,9 +2592,9 @@ OpenXava/lib/commons-lang.jar -text
 OpenXava/lib/cssparser.jar -text
 OpenXava/lib/freemarker.jar -text
 OpenXava/lib/hibernate-tools.jar -text
+OpenXava/lib/htmlunit-core-js.jar -text
 OpenXava/lib/htmlunit.jar -text
 OpenXava/lib/j2ee.jar -text
-OpenXava/lib/js.jar -text
 OpenXava/lib/nekohtml.jar -text
 OpenXava/lib/portlet-api-1.0.jar -text
 OpenXava/lib/sac.jar -text
@@ -2933,6 +2933,7 @@ OpenXava/src/org/openxava/util/IInit.java -text
 OpenXava/src/org/openxava/util/ILiberate.java -text
 OpenXava/src/org/openxava/util/IPropertiesContainer.java -text
 OpenXava/src/org/openxava/util/InitException.java -text
+OpenXava/src/org/openxava/util/InputStreams.java -text
 OpenXava/src/org/openxava/util/Is.java -text
 OpenXava/src/org/openxava/util/KeyAndDescription.java -text
 OpenXava/src/org/openxava/util/KeyAndDescriptionComparator.java -text
@@ -3009,6 +3010,9 @@ OpenXava/src/org/openxava/view/meta/MetaViewAction.java -text
 OpenXava/src/org/openxava/view/meta/PropertiesSeparator.java -text
 OpenXava/src/org/openxava/view/meta/xmlparse/ViewParser.java -text
 OpenXava/src/org/openxava/web/WebEditors.java -text
+OpenXava/src/org/openxava/web/dwr/DWRBase.java -text
+OpenXava/src/org/openxava/web/dwr/Module.java -text
+OpenXava/src/org/openxava/web/dwr/Tab.java -text
 OpenXava/src/org/openxava/web/meta/MetaEditor.java -text
 OpenXava/src/org/openxava/web/meta/MetaWebEditors.java -text
 OpenXava/src/org/openxava/web/meta/xmlparse/EditorsParser.java -text
@@ -3035,6 +3039,7 @@ OpenXava/src/org/openxava/web/taglib/IActionTag.java -text
 OpenXava/src/org/openxava/web/taglib/ImageTag.java -text
 OpenXava/src/org/openxava/web/taglib/LinkTag.java -text
 OpenXava/src/org/openxava/web/taglib/MessageTag.java -text
+OpenXava/web/WEB-INF/dwr.xml -text
 OpenXava/web/WEB-INF/lib/FCKeditor-2.3.jar -text
 OpenXava/web/WEB-INF/lib/antlr.jar -text
 OpenXava/web/WEB-INF/lib/asm.jar -text
@@ -3049,6 +3054,7 @@ OpenXava/web/WEB-INF/lib/commons-logging.jar -text
 OpenXava/web/WEB-INF/lib/commons-validator.jar -text
 OpenXava/web/WEB-INF/lib/dom4j.jar -text
 OpenXava/web/WEB-INF/lib/dsn.jar -text
+OpenXava/web/WEB-INF/lib/dwr.jar -text
 OpenXava/web/WEB-INF/lib/ehcache.jar -text
 OpenXava/web/WEB-INF/lib/ejb3-persistence.jar -text
 OpenXava/web/WEB-INF/lib/hibernate-annotations.jar -text
@@ -3081,6 +3087,7 @@ OpenXava/web/collectionList.jsp -text
 OpenXava/web/comparatorsBooleanCombo.jsp -text
 OpenXava/web/comparatorsCombo.jsp -text
 OpenXava/web/comparatorsValidValuesCombo.jsp -text
+OpenXava/web/core.jsp -text
 OpenXava/web/descriptionsList.jsp -text
 OpenXava/web/detail.jsp -text
 OpenXava/web/editor.jsp -text
@@ -3705,17 +3712,21 @@ OpenXava/web/images/sort.gif -text
 OpenXava/web/images/view.gif -text
 OpenXava/web/imports.jsp -text
 OpenXava/web/jasperReport.jsp -text
+OpenXava/web/js/calendar.js -text
+OpenXava/web/js/openxava.js -text
 OpenXava/web/languages.jsp -text
 OpenXava/web/list.jsp -text
 OpenXava/web/messages.jsp -text
 OpenXava/web/module.jsp -text
 OpenXava/web/portlet.jsp -text
 OpenXava/web/referenceSearch.jsp -text
-OpenXava/web/script.jsp -text
 OpenXava/web/sections.jsp -text
 OpenXava/web/style/default.css -text
+OpenXava/web/style/jetspeed.css -text svneol=unset#application/octet-stream
 OpenXava/web/style/openxava.css -text
 OpenXava/web/style/skins.css -text svneol=unset#application/octet-stream
+OpenXava/web/style/swing.css -text svneol=unset#application/octet-stream
+OpenXava/web/style/yahoo.css -text svneol=unset#application/octet-stream
 OpenXava/xava/META-INF/MANIFEST.MF -text
 OpenXava/xava/default-controllers.xml -text
 OpenXava/xava/default-converters.xml -text
