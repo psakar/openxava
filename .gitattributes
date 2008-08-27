@@ -4776,6 +4776,7 @@ OpenXavaDoc/web/apidocs/org/openxava/util/IInit.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/ILiberate.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/IPropertiesContainer.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/InitException.html -text
+OpenXavaDoc/web/apidocs/org/openxava/util/InputStreams.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/Is.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/KeyAndDescription.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/KeyAndDescriptionComparator.html -text
@@ -4820,6 +4821,7 @@ OpenXavaDoc/web/apidocs/org/openxava/util/class-use/IInit.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/ILiberate.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/IPropertiesContainer.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/InitException.html -text
+OpenXavaDoc/web/apidocs/org/openxava/util/class-use/InputStreams.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/Is.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/KeyAndDescription.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/KeyAndDescriptionComparator.html -text
@@ -4996,6 +4998,14 @@ OpenXavaDoc/web/apidocs/org/openxava/view/package-tree.html -text
 OpenXavaDoc/web/apidocs/org/openxava/view/package-use.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/WebEditors.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/class-use/WebEditors.html -text
+OpenXavaDoc/web/apidocs/org/openxava/web/dwr/Module.html -text
+OpenXavaDoc/web/apidocs/org/openxava/web/dwr/Tab.html -text
+OpenXavaDoc/web/apidocs/org/openxava/web/dwr/class-use/Module.html -text
+OpenXavaDoc/web/apidocs/org/openxava/web/dwr/class-use/Tab.html -text
+OpenXavaDoc/web/apidocs/org/openxava/web/dwr/package-frame.html -text
+OpenXavaDoc/web/apidocs/org/openxava/web/dwr/package-summary.html -text
+OpenXavaDoc/web/apidocs/org/openxava/web/dwr/package-tree.html -text
+OpenXavaDoc/web/apidocs/org/openxava/web/dwr/package-use.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/meta/MetaEditor.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/meta/MetaWebEditors.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/meta/class-use/MetaEditor.html -text
