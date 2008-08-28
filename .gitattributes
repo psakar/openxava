@@ -3713,6 +3713,7 @@ OpenXava/web/images/processing.gif -text
 OpenXava/web/images/remove.gif -text
 OpenXava/web/images/required.gif -text
 OpenXava/web/images/restore.gif -text
+OpenXava/web/images/rtf.gif -text
 OpenXava/web/images/save.gif -text
 OpenXava/web/images/search.gif -text
 OpenXava/web/images/show-filter.gif -text
@@ -10547,6 +10548,7 @@ OpenXavaTest/web/xava/images/processing.gif -text
 OpenXavaTest/web/xava/images/remove.gif -text
 OpenXavaTest/web/xava/images/required.gif -text
 OpenXavaTest/web/xava/images/restore.gif -text
+OpenXavaTest/web/xava/images/rtf.gif -text
 OpenXavaTest/web/xava/images/save.gif -text
 OpenXavaTest/web/xava/images/search.gif -text
 OpenXavaTest/web/xava/images/show-filter.gif -text
