@@ -6427,6 +6427,7 @@ OpenXavaTest/ox2-src/org/openxava/test/calculators/InvoiceDetailOidCalculator.ja
 OpenXavaTest/ox2-src/org/openxava/test/calculators/IsLocalCustomerCalculator.java -text
 OpenXavaTest/ox2-src/org/openxava/test/calculators/PercentageCalculator.java -text
 OpenXavaTest/ox2-src/org/openxava/test/calculators/ProductsValuesOfSubfamilyCalculator.java -text
+OpenXavaTest/ox2-src/org/openxava/test/calculators/RecalculateAmountsSumCalculator.java -text
 OpenXavaTest/ox2-src/org/openxava/test/calculators/SellerInvoiceDiscountCalculator.java -text
 OpenXavaTest/ox2-src/org/openxava/test/calculators/ShippingAndHandlingCalculator.java -text
 OpenXavaTest/ox2-src/org/openxava/test/calculators/SubfamilyPureRemarksCalculator.java -text
