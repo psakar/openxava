@@ -6763,6 +6763,7 @@ OpenXavaTest/src/org/openxava/test/validators/UnitPriceValidator.java -text
 OpenXavaTest/test-images/cake.gif -text
 OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/test-src/org/openxava/test/tests/AnnotatedPOJOTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/AverageSpeedTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/CarrierTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/CarrierWithCalculatedFellowsTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/CarrierWithReadOnlyCalculatedFellowsTest.java -text
