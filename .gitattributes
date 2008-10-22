@@ -2847,6 +2847,7 @@ OpenXava/src/org/openxava/filters/meta/xmlparse/FilterParser.java -text
 OpenXava/src/org/openxava/formatters/BaseFormatter.java -text
 OpenXava/src/org/openxava/formatters/BooleanFormatter.java -text
 OpenXava/src/org/openxava/formatters/DateFormatter.java -text
+OpenXava/src/org/openxava/formatters/DateTimeCombinedFormatter.java -text
 OpenXava/src/org/openxava/formatters/DateTimeFormatter.java -text
 OpenXava/src/org/openxava/formatters/IFormatter.java -text
 OpenXava/src/org/openxava/formatters/IMultipleValuesFormatter.java -text
@@ -3681,7 +3682,8 @@ OpenXava/web/editors/calendar/skins/aqua/title-bg.gif -text
 OpenXava/web/editors/calendar/skins/aqua/today-bg.gif -text
 OpenXava/web/editors/changeImage.jsp -text
 OpenXava/web/editors/dateCalendarEditor.jsp -text svneol=unset#application/octet-stream
-OpenXava/web/editors/dateTimeCalendarEditor.jsp -text
+OpenXava/web/editors/dateTimeCombinedCalendarEditor.jsp -text
+OpenXava/web/editors/dateTimeSeparatedCalendarEditor.jsp -text
 OpenXava/web/editors/descriptionValidValuesEditor.jsp -text
 OpenXava/web/editors/descriptionsEditor.jsp -text
 OpenXava/web/editors/gallery.jsp -text
@@ -3706,6 +3708,7 @@ OpenXava/web/images/add.gif -text
 OpenXava/web/images/ascending-white.gif -text
 OpenXava/web/images/ascending.gif -text
 OpenXava/web/images/back.gif -text
+OpenXava/web/images/calendar.gif -text
 OpenXava/web/images/clear-right.gif -text
 OpenXava/web/images/create_new.gif -text
 OpenXava/web/images/customize.gif -text
@@ -7832,7 +7835,8 @@ OpenXavaTest/web/xava/editors/calendar/skins/aqua/title-bg.gif -text
 OpenXavaTest/web/xava/editors/calendar/skins/aqua/today-bg.gif -text
 OpenXavaTest/web/xava/editors/changeImage.jsp -text
 OpenXavaTest/web/xava/editors/dateCalendarEditor.jsp -text
-OpenXavaTest/web/xava/editors/dateTimeCalendarEditor.jsp -text
+OpenXavaTest/web/xava/editors/dateTimeCombinedCalendarEditor.jsp -text
+OpenXavaTest/web/xava/editors/dateTimeSeparatedCalendarEditor.jsp -text
 OpenXavaTest/web/xava/editors/descriptionValidValuesEditor.jsp -text
 OpenXavaTest/web/xava/editors/descriptionsEditor.jsp -text
 OpenXavaTest/web/xava/editors/gallery.jsp -text
@@ -7858,6 +7862,7 @@ OpenXavaTest/web/xava/images/add.gif -text
 OpenXavaTest/web/xava/images/ascending-white.gif -text
 OpenXavaTest/web/xava/images/ascending.gif -text
 OpenXavaTest/web/xava/images/back.gif -text
+OpenXavaTest/web/xava/images/calendar.gif -text
 OpenXavaTest/web/xava/images/clear-right.gif -text
 OpenXavaTest/web/xava/images/create_new.gif -text
 OpenXavaTest/web/xava/images/customize.gif -text
