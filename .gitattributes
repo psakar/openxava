@@ -142,7 +142,6 @@ AccessTracking/web/WEB-INF/classes/portlets/Accesses_pt.properties -text
 AccessTracking/web/WEB-INF/classes/portlets/Accesses_sv.properties -text
 AccessTracking/web/WEB-INF/classes/portlets/Accesses_zh.properties -text
 AccessTracking/web/WEB-INF/dwr.xml -text
-AccessTracking/web/WEB-INF/lib/FCKeditor-2.3.jar -text
 AccessTracking/web/WEB-INF/lib/antlr.jar -text
 AccessTracking/web/WEB-INF/lib/asm.jar -text
 AccessTracking/web/WEB-INF/lib/aspectjrt.jar -text
@@ -911,7 +910,6 @@ MiEscuela/src/org/openxava/escuela/pruebas/PruebaProfesor.java -text
 MiEscuela/web/META-INF/MANIFEST.MF -text
 MiEscuela/web/WEB-INF/classes/hibernate.cfg.xml -text
 MiEscuela/web/WEB-INF/dwr.xml -text
-MiEscuela/web/WEB-INF/lib/FCKeditor-2.3.jar -text
 MiEscuela/web/WEB-INF/lib/antlr.jar -text
 MiEscuela/web/WEB-INF/lib/asm.jar -text
 MiEscuela/web/WEB-INF/lib/aspectjrt.jar -text
@@ -1669,7 +1667,6 @@ MySchool/src/org/openxava/school/tests/TeacherTest.java -text
 MySchool/web/META-INF/MANIFEST.MF -text
 MySchool/web/WEB-INF/classes/hibernate.cfg.xml -text
 MySchool/web/WEB-INF/dwr.xml -text
-MySchool/web/WEB-INF/lib/FCKeditor-2.3.jar -text
 MySchool/web/WEB-INF/lib/antlr.jar -text
 MySchool/web/WEB-INF/lib/asm.jar -text
 MySchool/web/WEB-INF/lib/aspectjrt.jar -text
@@ -3077,7 +3074,6 @@ OpenXava/src/org/openxava/web/taglib/ImageTag.java -text
 OpenXava/src/org/openxava/web/taglib/LinkTag.java -text
 OpenXava/src/org/openxava/web/taglib/MessageTag.java -text
 OpenXava/web/WEB-INF/dwr.xml -text
-OpenXava/web/WEB-INF/lib/FCKeditor-2.3.jar -text
 OpenXava/web/WEB-INF/lib/antlr.jar -text
 OpenXava/web/WEB-INF/lib/asm.jar -text
 OpenXava/web/WEB-INF/lib/aspectjrt.jar -text
@@ -3129,7 +3125,6 @@ OpenXava/web/descriptionsList.jsp -text
 OpenXava/web/detail.jsp -text
 OpenXava/web/editor.jsp -text
 OpenXava/web/editorWrapper.jsp -text
-OpenXava/web/editors/FCKEditor.jsp -text
 OpenXava/web/editors/FCKeditor/_documentation.html -text
 OpenXava/web/editors/FCKeditor/_samples/_plugins/findreplace/fckplugin.js -text
 OpenXava/web/editors/FCKeditor/_samples/_plugins/findreplace/find.gif -text
@@ -3686,6 +3681,7 @@ OpenXava/web/editors/dateTimeCombinedCalendarEditor.jsp -text
 OpenXava/web/editors/dateTimeSeparatedCalendarEditor.jsp -text
 OpenXava/web/editors/descriptionValidValuesEditor.jsp -text
 OpenXava/web/editors/descriptionsEditor.jsp -text
+OpenXava/web/editors/fckEditor.jsp -text
 OpenXava/web/editors/gallery.jsp -text
 OpenXava/web/editors/galleryEditor.jsp -text
 OpenXava/web/editors/htmlEditor.jsp -text
@@ -3755,6 +3751,7 @@ OpenXava/web/imports.jsp -text
 OpenXava/web/init.jsp -text
 OpenXava/web/jasperReport.jsp -text
 OpenXava/web/js/calendar.js -text
+OpenXava/web/js/editors.js -text
 OpenXava/web/js/openxava.js -text
 OpenXava/web/languages.jsp -text
 OpenXava/web/list.jsp -text
@@ -7220,7 +7217,6 @@ OpenXavaTest/web/WEB-INF/classes/portlets/TransportChargeWithDistance_fr.propert
 OpenXavaTest/web/WEB-INF/classes/stereotype-type-default.xml -text
 OpenXavaTest/web/WEB-INF/classes/validators.xml -text
 OpenXavaTest/web/WEB-INF/dwr.xml -text
-OpenXavaTest/web/WEB-INF/lib/FCKeditor-2.3.jar -text
 OpenXavaTest/web/WEB-INF/lib/antlr.jar -text
 OpenXavaTest/web/WEB-INF/lib/asm.jar -text
 OpenXavaTest/web/WEB-INF/lib/aspectjrt.jar -text
@@ -7282,7 +7278,6 @@ OpenXavaTest/web/xava/descriptionsList.jsp -text
 OpenXavaTest/web/xava/detail.jsp -text
 OpenXavaTest/web/xava/editor.jsp -text
 OpenXavaTest/web/xava/editorWrapper.jsp -text
-OpenXavaTest/web/xava/editors/FCKEditor.jsp -text
 OpenXavaTest/web/xava/editors/FCKeditor/_documentation.html -text
 OpenXavaTest/web/xava/editors/FCKeditor/_samples/_plugins/findreplace/fckplugin.js -text
 OpenXavaTest/web/xava/editors/FCKeditor/_samples/_plugins/findreplace/find.gif -text
@@ -7839,6 +7834,7 @@ OpenXavaTest/web/xava/editors/dateTimeCombinedCalendarEditor.jsp -text
 OpenXavaTest/web/xava/editors/dateTimeSeparatedCalendarEditor.jsp -text
 OpenXavaTest/web/xava/editors/descriptionValidValuesEditor.jsp -text
 OpenXavaTest/web/xava/editors/descriptionsEditor.jsp -text
+OpenXavaTest/web/xava/editors/fckEditor.jsp -text
 OpenXavaTest/web/xava/editors/gallery.jsp -text
 OpenXavaTest/web/xava/editors/galleryEditor.jsp -text
 OpenXavaTest/web/xava/editors/htmlEditor.jsp -text
@@ -7909,6 +7905,7 @@ OpenXavaTest/web/xava/imports.jsp -text
 OpenXavaTest/web/xava/init.jsp -text
 OpenXavaTest/web/xava/jasperReport.jsp -text
 OpenXavaTest/web/xava/js/calendar.js -text
+OpenXavaTest/web/xava/js/editors.js -text
 OpenXavaTest/web/xava/js/openxava.js -text
 OpenXavaTest/web/xava/languages.jsp -text
 OpenXavaTest/web/xava/list.jsp -text
