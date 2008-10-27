@@ -2895,7 +2895,6 @@ OpenXava/src/org/openxava/model/meta/xmlparse/ModelParser.java -text
 OpenXava/src/org/openxava/model/meta/xmlparse/StereotypeTypeDefaultParser.java -text
 OpenXava/src/org/openxava/session/Gallery.java -text
 OpenXava/src/org/openxava/session/GalleryImage.java -text
-OpenXava/src/org/openxava/session/Language.java -text
 OpenXava/src/org/openxava/tab/Tab.java -text
 OpenXava/src/org/openxava/tab/impl/DataChunk.java -text
 OpenXava/src/org/openxava/tab/impl/EntityTab.java -text
@@ -3732,7 +3731,6 @@ OpenXava/web/jasperReport.jsp -text
 OpenXava/web/js/calendar.js -text
 OpenXava/web/js/editors.js -text
 OpenXava/web/js/openxava.js -text
-OpenXava/web/languages.jsp -text
 OpenXava/web/list.jsp -text
 OpenXava/web/messages.jsp -text
 OpenXava/web/module.jsp -text
@@ -7885,7 +7883,6 @@ OpenXavaTest/web/xava/jasperReport.jsp -text
 OpenXavaTest/web/xava/js/calendar.js -text
 OpenXavaTest/web/xava/js/editors.js -text
 OpenXavaTest/web/xava/js/openxava.js -text
-OpenXavaTest/web/xava/languages.jsp -text
 OpenXavaTest/web/xava/list.jsp -text
 OpenXavaTest/web/xava/messages.jsp -text
 OpenXavaTest/web/xava/module.jsp -text
