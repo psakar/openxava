@@ -6828,6 +6828,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/JourneyTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/MapFacadeTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/NotZeroValidatorTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/Office2Test.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/OfficeOnlyWarehouseTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/OfficeTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/OnlyEditDetailsInvoiceTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/OnlyReadDetailsInvoiceTest.java -text
