@@ -806,7 +806,6 @@ AccessTracking/web/xava/init.jsp -text
 AccessTracking/web/xava/jasperReport.jsp -text
 AccessTracking/web/xava/js/calendar.js -text
 AccessTracking/web/xava/js/openxava.js -text
-AccessTracking/web/xava/languages.jsp -text
 AccessTracking/web/xava/list.jsp -text
 AccessTracking/web/xava/messages.jsp -text
 AccessTracking/web/xava/module.jsp -text
@@ -1574,7 +1573,6 @@ MiEscuela/web/xava/init.jsp -text
 MiEscuela/web/xava/jasperReport.jsp -text
 MiEscuela/web/xava/js/calendar.js -text
 MiEscuela/web/xava/js/openxava.js -text
-MiEscuela/web/xava/languages.jsp -text
 MiEscuela/web/xava/list.jsp -text
 MiEscuela/web/xava/messages.jsp -text
 MiEscuela/web/xava/module.jsp -text
@@ -2330,7 +2328,6 @@ MySchool/web/xava/init.jsp -text
 MySchool/web/xava/jasperReport.jsp -text
 MySchool/web/xava/js/calendar.js -text
 MySchool/web/xava/js/openxava.js -text
-MySchool/web/xava/languages.jsp -text
 MySchool/web/xava/list.jsp -text
 MySchool/web/xava/messages.jsp -text
 MySchool/web/xava/module.jsp -text
