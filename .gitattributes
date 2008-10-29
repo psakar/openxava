@@ -6323,6 +6323,10 @@ OpenXavaTest/i18n/portlets/Office2_ca.properties -text
 OpenXavaTest/i18n/portlets/Office2_en.properties -text
 OpenXavaTest/i18n/portlets/Office2_es.properties -text
 OpenXavaTest/i18n/portlets/Office2_fr.properties -text
+OpenXavaTest/i18n/portlets/OfficeOnlyWarehouse_ca.properties -text
+OpenXavaTest/i18n/portlets/OfficeOnlyWarehouse_en.properties -text
+OpenXavaTest/i18n/portlets/OfficeOnlyWarehouse_es.properties -text
+OpenXavaTest/i18n/portlets/OfficeOnlyWarehouse_fr.properties -text
 OpenXavaTest/i18n/portlets/Office_ca.properties -text
 OpenXavaTest/i18n/portlets/Office_en.properties -text
 OpenXavaTest/i18n/portlets/Office_es.properties -text
