@@ -93,9 +93,11 @@ AccessTracking/tomcat-hypersonic.properties -text
 AccessTracking/web/META-INF/MANIFEST.MF -text
 AccessTracking/web/WEB-INF/classes/Access.hbm.xml -text
 AccessTracking/web/WEB-INF/classes/Access.xml -text
+AccessTracking/web/WEB-INF/classes/AccessTracking-labels.properties -text
 AccessTracking/web/WEB-INF/classes/AccessTracking-labels_ca.properties -text
 AccessTracking/web/WEB-INF/classes/AccessTracking-labels_en.properties -text
 AccessTracking/web/WEB-INF/classes/AccessTracking-labels_es.properties -text
+AccessTracking/web/WEB-INF/classes/AccessTracking-messages.properties -text
 AccessTracking/web/WEB-INF/classes/AccessTracking-messages_ca.properties -text
 AccessTracking/web/WEB-INF/classes/AccessTracking-messages_en.properties -text
 AccessTracking/web/WEB-INF/classes/AccessTracking-messages_es.properties -text
@@ -124,6 +126,21 @@ AccessTracking/web/WEB-INF/classes/dtds/validators.dtd -text
 AccessTracking/web/WEB-INF/classes/hibernate-junit.cfg.xml -text
 AccessTracking/web/WEB-INF/classes/hibernate.cfg.xml -text
 AccessTracking/web/WEB-INF/classes/jndi.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_bg.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_ca.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_de.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_en.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_es.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_fr.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_in.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_it.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_ja.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_ko.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_nl.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_pl.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_pt.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_sv.properties -text
+AccessTracking/web/WEB-INF/classes/portlets/Accesses_zh.properties -text
 AccessTracking/web/WEB-INF/dwr.xml -text
 AccessTracking/web/WEB-INF/lib/antlr.jar -text
 AccessTracking/web/WEB-INF/lib/asm.jar -text
@@ -733,8 +750,11 @@ AccessTracking/web/xava/editors/calendar/skins/aqua/today-bg.gif -text
 AccessTracking/web/xava/editors/changeImage.jsp -text
 AccessTracking/web/xava/editors/dateCalendarEditor.jsp -text
 AccessTracking/web/xava/editors/dateTimeCalendarEditor.jsp -text
+AccessTracking/web/xava/editors/dateTimeCombinedCalendarEditor.jsp -text
+AccessTracking/web/xava/editors/dateTimeSeparatedCalendarEditor.jsp -text
 AccessTracking/web/xava/editors/descriptionValidValuesEditor.jsp -text
 AccessTracking/web/xava/editors/descriptionsEditor.jsp -text
+AccessTracking/web/xava/editors/fckEditor.jsp -text
 AccessTracking/web/xava/editors/gallery.jsp -text
 AccessTracking/web/xava/editors/galleryEditor.jsp -text
 AccessTracking/web/xava/editors/htmlEditor.jsp -text
@@ -749,6 +769,7 @@ AccessTracking/web/xava/editors/textEditor.jsp -text
 AccessTracking/web/xava/editors/validValueEditorCommon.jsp -text
 AccessTracking/web/xava/editors/validValuesEditor.jsp -text
 AccessTracking/web/xava/errors.jsp -text
+AccessTracking/web/xava/execute.jsp -text
 AccessTracking/web/xava/htmlTagsEditor.jsp -text
 AccessTracking/web/xava/images/.xvpics/encontrar.gif -text
 AccessTracking/web/xava/images/.xvpics/excel.gif -text svneol=unset#application/octet-stream
@@ -759,6 +780,7 @@ AccessTracking/web/xava/images/add.gif -text
 AccessTracking/web/xava/images/ascending-white.gif -text
 AccessTracking/web/xava/images/ascending.gif -text
 AccessTracking/web/xava/images/back.gif -text
+AccessTracking/web/xava/images/calendar.gif -text
 AccessTracking/web/xava/images/clear-right.gif -text
 AccessTracking/web/xava/images/create_new.gif -text
 AccessTracking/web/xava/images/customize.gif -text
@@ -802,9 +824,9 @@ AccessTracking/web/xava/images/show-filter.gif -text
 AccessTracking/web/xava/images/sort.gif -text
 AccessTracking/web/xava/images/view.gif -text
 AccessTracking/web/xava/imports.jsp -text
-AccessTracking/web/xava/init.jsp -text
 AccessTracking/web/xava/jasperReport.jsp -text
 AccessTracking/web/xava/js/calendar.js -text
+AccessTracking/web/xava/js/editors.js -text
 AccessTracking/web/xava/js/openxava.js -text
 AccessTracking/web/xava/list.jsp -text
 AccessTracking/web/xava/messages.jsp -text
@@ -1516,6 +1538,7 @@ MiEscuela/web/xava/editors/textEditor.jsp -text
 MiEscuela/web/xava/editors/validValueEditorCommon.jsp -text
 MiEscuela/web/xava/editors/validValuesEditor.jsp -text
 MiEscuela/web/xava/errors.jsp -text
+MiEscuela/web/xava/execute.jsp -text
 MiEscuela/web/xava/htmlTagsEditor.jsp -text
 MiEscuela/web/xava/images/.xvpics/encontrar.gif -text
 MiEscuela/web/xava/images/.xvpics/excel.gif -text svneol=unset#application/octet-stream
@@ -1569,7 +1592,6 @@ MiEscuela/web/xava/images/show-filter.gif -text
 MiEscuela/web/xava/images/sort.gif -text
 MiEscuela/web/xava/images/view.gif -text
 MiEscuela/web/xava/imports.jsp -text
-MiEscuela/web/xava/init.jsp -text
 MiEscuela/web/xava/jasperReport.jsp -text
 MiEscuela/web/xava/js/calendar.js -text
 MiEscuela/web/xava/js/openxava.js -text
@@ -2271,6 +2293,7 @@ MySchool/web/xava/editors/textEditor.jsp -text
 MySchool/web/xava/editors/validValueEditorCommon.jsp -text
 MySchool/web/xava/editors/validValuesEditor.jsp -text
 MySchool/web/xava/errors.jsp -text
+MySchool/web/xava/execute.jsp -text
 MySchool/web/xava/htmlTagsEditor.jsp -text
 MySchool/web/xava/images/.xvpics/encontrar.gif -text
 MySchool/web/xava/images/.xvpics/excel.gif -text svneol=unset#application/octet-stream
@@ -2324,7 +2347,6 @@ MySchool/web/xava/images/show-filter.gif -text
 MySchool/web/xava/images/sort.gif -text
 MySchool/web/xava/images/view.gif -text
 MySchool/web/xava/imports.jsp -text
-MySchool/web/xava/init.jsp -text
 MySchool/web/xava/jasperReport.jsp -text
 MySchool/web/xava/js/calendar.js -text
 MySchool/web/xava/js/openxava.js -text
@@ -3674,6 +3696,7 @@ OpenXava/web/editors/textEditor.jsp -text
 OpenXava/web/editors/validValueEditorCommon.jsp -text
 OpenXava/web/editors/validValuesEditor.jsp -text
 OpenXava/web/errors.jsp -text
+OpenXava/web/execute.jsp -text
 OpenXava/web/htmlTagsEditor.jsp -text
 OpenXava/web/images/.xvpics/new.gif -text
 OpenXava/web/images/.xvpics/pdf.gif -text
@@ -3726,7 +3749,6 @@ OpenXava/web/images/show-filter.gif -text
 OpenXava/web/images/sort.gif -text
 OpenXava/web/images/view.gif -text
 OpenXava/web/imports.jsp -text
-OpenXava/web/init.jsp -text
 OpenXava/web/jasperReport.jsp -text
 OpenXava/web/js/calendar.js -text
 OpenXava/web/js/editors.js -text
@@ -7829,6 +7851,7 @@ OpenXavaTest/web/xava/editors/textEditor.jsp -text
 OpenXavaTest/web/xava/editors/validValueEditorCommon.jsp -text
 OpenXavaTest/web/xava/editors/validValuesEditor.jsp -text
 OpenXavaTest/web/xava/errors.jsp -text
+OpenXavaTest/web/xava/execute.jsp -text
 OpenXavaTest/web/xava/htmlTagsEditor.jsp -text
 OpenXavaTest/web/xava/images/.xvpics/new.gif -text
 OpenXavaTest/web/xava/images/.xvpics/pdf.gif -text
@@ -7881,7 +7904,6 @@ OpenXavaTest/web/xava/images/show-filter.gif -text
 OpenXavaTest/web/xava/images/sort.gif -text
 OpenXavaTest/web/xava/images/view.gif -text
 OpenXavaTest/web/xava/imports.jsp -text
-OpenXavaTest/web/xava/init.jsp -text
 OpenXavaTest/web/xava/jasperReport.jsp -text
 OpenXavaTest/web/xava/js/calendar.js -text
 OpenXavaTest/web/xava/js/editors.js -text
