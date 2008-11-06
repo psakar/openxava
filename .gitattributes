@@ -3727,6 +3727,7 @@ OpenXava/web/images/html/skins/Jetspeed/tabmiddle_low.gif -text
 OpenXava/web/images/html/skins/Jetspeed/tabright.gif -text
 OpenXava/web/images/html/skins/Jetspeed/tabright_low.gif -text
 OpenXava/web/images/key.gif -text
+OpenXava/web/images/loading-module.gif -text
 OpenXava/web/images/maximize.gif -text
 OpenXava/web/images/minimize.gif -text
 OpenXava/web/images/move-left.gif -text
@@ -7882,6 +7883,7 @@ OpenXavaTest/web/xava/images/html/skins/Jetspeed/tabmiddle_low.gif -text
 OpenXavaTest/web/xava/images/html/skins/Jetspeed/tabright.gif -text
 OpenXavaTest/web/xava/images/html/skins/Jetspeed/tabright_low.gif -text
 OpenXavaTest/web/xava/images/key.gif -text
+OpenXavaTest/web/xava/images/loading-module.gif -text
 OpenXavaTest/web/xava/images/maximize.gif -text
 OpenXavaTest/web/xava/images/minimize.gif -text
 OpenXavaTest/web/xava/images/move-left.gif -text
