@@ -6743,6 +6743,7 @@ OpenXavaTest/src/org/openxava/test/actions/SeeMessageAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SetDefaultInvoiceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SetEditableOffAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SetEditableOnAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/SetMemberEditableOnAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SetPropertyValueAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SetPropertyValueNotifyingAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ShowActiveYearAction.java -text
