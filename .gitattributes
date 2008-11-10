@@ -3047,6 +3047,8 @@ OpenXava/src/org/openxava/view/meta/xmlparse/ViewParser.java -text
 OpenXava/src/org/openxava/web/WebEditors.java -text
 OpenXava/src/org/openxava/web/dwr/DWRBase.java -text
 OpenXava/src/org/openxava/web/dwr/Module.java -text
+OpenXava/src/org/openxava/web/dwr/Result.java -text
+OpenXava/src/org/openxava/web/dwr/StrokeAction.java -text
 OpenXava/src/org/openxava/web/dwr/Tab.java -text
 OpenXava/src/org/openxava/web/meta/MetaEditor.java -text
 OpenXava/src/org/openxava/web/meta/MetaWebEditors.java -text
