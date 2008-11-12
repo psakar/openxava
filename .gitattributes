@@ -93,11 +93,9 @@ AccessTracking/tomcat-hypersonic.properties -text
 AccessTracking/web/META-INF/MANIFEST.MF -text
 AccessTracking/web/WEB-INF/classes/Access.hbm.xml -text
 AccessTracking/web/WEB-INF/classes/Access.xml -text
-AccessTracking/web/WEB-INF/classes/AccessTracking-labels.properties -text
 AccessTracking/web/WEB-INF/classes/AccessTracking-labels_ca.properties -text
 AccessTracking/web/WEB-INF/classes/AccessTracking-labels_en.properties -text
 AccessTracking/web/WEB-INF/classes/AccessTracking-labels_es.properties -text
-AccessTracking/web/WEB-INF/classes/AccessTracking-messages.properties -text
 AccessTracking/web/WEB-INF/classes/AccessTracking-messages_ca.properties -text
 AccessTracking/web/WEB-INF/classes/AccessTracking-messages_en.properties -text
 AccessTracking/web/WEB-INF/classes/AccessTracking-messages_es.properties -text
@@ -126,21 +124,6 @@ AccessTracking/web/WEB-INF/classes/dtds/validators.dtd -text
 AccessTracking/web/WEB-INF/classes/hibernate-junit.cfg.xml -text
 AccessTracking/web/WEB-INF/classes/hibernate.cfg.xml -text
 AccessTracking/web/WEB-INF/classes/jndi.properties -text
-AccessTracking/web/WEB-INF/classes/portlets/Accesses_bg.properties -text
-AccessTracking/web/WEB-INF/classes/portlets/Accesses_ca.properties -text
-AccessTracking/web/WEB-INF/classes/portlets/Accesses_de.properties -text
-AccessTracking/web/WEB-INF/classes/portlets/Accesses_en.properties -text
-AccessTracking/web/WEB-INF/classes/portlets/Accesses_es.properties -text
-AccessTracking/web/WEB-INF/classes/portlets/Accesses_fr.properties -text
-AccessTracking/web/WEB-INF/classes/portlets/Accesses_in.properties -text
-AccessTracking/web/WEB-INF/classes/portlets/Accesses_it.properties -text
-AccessTracking/web/WEB-INF/classes/portlets/Accesses_ja.properties -text
-AccessTracking/web/WEB-INF/classes/portlets/Accesses_ko.properties -text
-AccessTracking/web/WEB-INF/classes/portlets/Accesses_nl.properties -text
-AccessTracking/web/WEB-INF/classes/portlets/Accesses_pl.properties -text
-AccessTracking/web/WEB-INF/classes/portlets/Accesses_pt.properties -text
-AccessTracking/web/WEB-INF/classes/portlets/Accesses_sv.properties -text
-AccessTracking/web/WEB-INF/classes/portlets/Accesses_zh.properties -text
 AccessTracking/web/WEB-INF/dwr.xml -text
 AccessTracking/web/WEB-INF/lib/antlr.jar -text
 AccessTracking/web/WEB-INF/lib/asm.jar -text
@@ -196,7 +179,6 @@ AccessTracking/web/xava/descriptionsList.jsp -text
 AccessTracking/web/xava/detail.jsp -text
 AccessTracking/web/xava/editor.jsp -text
 AccessTracking/web/xava/editorWrapper.jsp -text
-AccessTracking/web/xava/editors/FCKEditor.jsp -text
 AccessTracking/web/xava/editors/FCKeditor/_documentation.html -text
 AccessTracking/web/xava/editors/FCKeditor/_samples/_plugins/findreplace/fckplugin.js -text
 AccessTracking/web/xava/editors/FCKeditor/_samples/_plugins/findreplace/find.gif -text
@@ -802,6 +784,7 @@ AccessTracking/web/xava/images/html/skins/Jetspeed/tabmiddle_low.gif -text
 AccessTracking/web/xava/images/html/skins/Jetspeed/tabright.gif -text
 AccessTracking/web/xava/images/html/skins/Jetspeed/tabright_low.gif -text
 AccessTracking/web/xava/images/key.gif -text
+AccessTracking/web/xava/images/loading-module.gif -text
 AccessTracking/web/xava/images/maximize.gif -text
 AccessTracking/web/xava/images/minimize.gif -text
 AccessTracking/web/xava/images/move-left.gif -text
@@ -967,7 +950,6 @@ MiEscuela/web/xava/descriptionsList.jsp -text
 MiEscuela/web/xava/detail.jsp -text
 MiEscuela/web/xava/editor.jsp -text
 MiEscuela/web/xava/editorWrapper.jsp -text
-MiEscuela/web/xava/editors/FCKEditor.jsp -text
 MiEscuela/web/xava/editors/FCKeditor/_documentation.html -text
 MiEscuela/web/xava/editors/FCKeditor/_samples/_plugins/findreplace/fckplugin.js -text
 MiEscuela/web/xava/editors/FCKeditor/_samples/_plugins/findreplace/find.gif -text
@@ -1521,8 +1503,11 @@ MiEscuela/web/xava/editors/calendar/skins/aqua/today-bg.gif -text
 MiEscuela/web/xava/editors/changeImage.jsp -text
 MiEscuela/web/xava/editors/dateCalendarEditor.jsp -text
 MiEscuela/web/xava/editors/dateTimeCalendarEditor.jsp -text
+MiEscuela/web/xava/editors/dateTimeCombinedCalendarEditor.jsp -text
+MiEscuela/web/xava/editors/dateTimeSeparatedCalendarEditor.jsp -text
 MiEscuela/web/xava/editors/descriptionValidValuesEditor.jsp -text
 MiEscuela/web/xava/editors/descriptionsEditor.jsp -text
+MiEscuela/web/xava/editors/fckEditor.jsp -text
 MiEscuela/web/xava/editors/gallery.jsp -text
 MiEscuela/web/xava/editors/galleryEditor.jsp -text
 MiEscuela/web/xava/editors/htmlEditor.jsp -text
@@ -1549,6 +1534,7 @@ MiEscuela/web/xava/images/add.gif -text
 MiEscuela/web/xava/images/ascending-white.gif -text
 MiEscuela/web/xava/images/ascending.gif -text
 MiEscuela/web/xava/images/back.gif -text
+MiEscuela/web/xava/images/calendar.gif -text
 MiEscuela/web/xava/images/clear-right.gif -text
 MiEscuela/web/xava/images/create_new.gif -text
 MiEscuela/web/xava/images/customize.gif -text
@@ -1570,6 +1556,7 @@ MiEscuela/web/xava/images/html/skins/Jetspeed/tabmiddle_low.gif -text
 MiEscuela/web/xava/images/html/skins/Jetspeed/tabright.gif -text
 MiEscuela/web/xava/images/html/skins/Jetspeed/tabright_low.gif -text
 MiEscuela/web/xava/images/key.gif -text
+MiEscuela/web/xava/images/loading-module.gif -text
 MiEscuela/web/xava/images/maximize.gif -text
 MiEscuela/web/xava/images/minimize.gif -text
 MiEscuela/web/xava/images/move-left.gif -text
@@ -1594,6 +1581,7 @@ MiEscuela/web/xava/images/view.gif -text
 MiEscuela/web/xava/imports.jsp -text
 MiEscuela/web/xava/jasperReport.jsp -text
 MiEscuela/web/xava/js/calendar.js -text
+MiEscuela/web/xava/js/editors.js -text
 MiEscuela/web/xava/js/openxava.js -text
 MiEscuela/web/xava/list.jsp -text
 MiEscuela/web/xava/messages.jsp -text
@@ -1722,7 +1710,6 @@ MySchool/web/xava/descriptionsList.jsp -text
 MySchool/web/xava/detail.jsp -text
 MySchool/web/xava/editor.jsp -text
 MySchool/web/xava/editorWrapper.jsp -text
-MySchool/web/xava/editors/FCKEditor.jsp -text
 MySchool/web/xava/editors/FCKeditor/_documentation.html -text
 MySchool/web/xava/editors/FCKeditor/_samples/_plugins/findreplace/fckplugin.js -text
 MySchool/web/xava/editors/FCKeditor/_samples/_plugins/findreplace/find.gif -text
@@ -2276,8 +2263,11 @@ MySchool/web/xava/editors/calendar/skins/aqua/today-bg.gif -text
 MySchool/web/xava/editors/changeImage.jsp -text
 MySchool/web/xava/editors/dateCalendarEditor.jsp -text
 MySchool/web/xava/editors/dateTimeCalendarEditor.jsp -text
+MySchool/web/xava/editors/dateTimeCombinedCalendarEditor.jsp -text
+MySchool/web/xava/editors/dateTimeSeparatedCalendarEditor.jsp -text
 MySchool/web/xava/editors/descriptionValidValuesEditor.jsp -text
 MySchool/web/xava/editors/descriptionsEditor.jsp -text
+MySchool/web/xava/editors/fckEditor.jsp -text
 MySchool/web/xava/editors/gallery.jsp -text
 MySchool/web/xava/editors/galleryEditor.jsp -text
 MySchool/web/xava/editors/htmlEditor.jsp -text
@@ -2304,6 +2294,7 @@ MySchool/web/xava/images/add.gif -text
 MySchool/web/xava/images/ascending-white.gif -text
 MySchool/web/xava/images/ascending.gif -text
 MySchool/web/xava/images/back.gif -text
+MySchool/web/xava/images/calendar.gif -text
 MySchool/web/xava/images/clear-right.gif -text
 MySchool/web/xava/images/create_new.gif -text
 MySchool/web/xava/images/customize.gif -text
@@ -2325,6 +2316,7 @@ MySchool/web/xava/images/html/skins/Jetspeed/tabmiddle_low.gif -text
 MySchool/web/xava/images/html/skins/Jetspeed/tabright.gif -text
 MySchool/web/xava/images/html/skins/Jetspeed/tabright_low.gif -text
 MySchool/web/xava/images/key.gif -text
+MySchool/web/xava/images/loading-module.gif -text
 MySchool/web/xava/images/maximize.gif -text
 MySchool/web/xava/images/minimize.gif -text
 MySchool/web/xava/images/move-left.gif -text
@@ -2349,6 +2341,7 @@ MySchool/web/xava/images/view.gif -text
 MySchool/web/xava/imports.jsp -text
 MySchool/web/xava/jasperReport.jsp -text
 MySchool/web/xava/js/calendar.js -text
+MySchool/web/xava/js/editors.js -text
 MySchool/web/xava/js/openxava.js -text
 MySchool/web/xava/list.jsp -text
 MySchool/web/xava/messages.jsp -text
@@ -6909,12 +6902,10 @@ OpenXavaTest/test-src/org/openxava/test/tests/XavaSuite.java -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
