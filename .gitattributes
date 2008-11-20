@@ -3101,6 +3101,8 @@ OpenXava/web/WEB-INF/lib/mailapi.jar -text
 OpenXava/web/WEB-INF/lib/ox-jdbc-adapters.jar -text
 OpenXava/web/WEB-INF/lib/poi.jar -text
 OpenXava/web/WEB-INF/lib/pop3.jar -text
+OpenXava/web/WEB-INF/lib/slf4j-api.jar -text
+OpenXava/web/WEB-INF/lib/slf4j-jdk14.jar -text
 OpenXava/web/WEB-INF/lib/smtp.jar -text
 OpenXava/web/WEB-INF/lib/standard.jar -text
 OpenXava/web/WEB-INF/openxava.tld -text
@@ -7348,9 +7350,12 @@ OpenXavaTest/web/WEB-INF/lib/javassist.jar -text
 OpenXavaTest/web/WEB-INF/lib/jboss-archive-browsing.jar -text
 OpenXavaTest/web/WEB-INF/lib/jstl.jar -text
 OpenXavaTest/web/WEB-INF/lib/mailapi.jar -text
+OpenXavaTest/web/WEB-INF/lib/openxava.jar -text
 OpenXavaTest/web/WEB-INF/lib/ox-jdbc-adapters.jar -text
 OpenXavaTest/web/WEB-INF/lib/poi.jar -text
 OpenXavaTest/web/WEB-INF/lib/pop3.jar -text
+OpenXavaTest/web/WEB-INF/lib/slf4j-api.jar -text
+OpenXavaTest/web/WEB-INF/lib/slf4j-jdk14.jar -text
 OpenXavaTest/web/WEB-INF/lib/smtp.jar -text
 OpenXavaTest/web/WEB-INF/lib/standard.jar -text
 OpenXavaTest/web/WEB-INF/lib/tracking.jar -text
