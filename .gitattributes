@@ -3885,6 +3885,7 @@ OpenXava/web/style/liferay51/images/portlet/portlet_css.png -text
 OpenXava/web/style/liferay51/images/portlet/print.png -text
 OpenXava/web/style/liferay51/images/portlet/refresh.png -text
 OpenXava/web/style/liferay51/images/portlet/restore.png -text
+OpenXava/web/style/liferay51/images/progress_bar/loading_animation.gif -text
 OpenXava/web/style/liferay51/js/barebone_unpacked.js -text
 OpenXava/web/style/liferay51/js/init_liferay.js -text
 OpenXava/web/style/liferay51/js/theme_display.js -text
@@ -8184,6 +8185,7 @@ OpenXavaTest/web/xava/style/liferay51/images/portlet/portlet_css.png -text
 OpenXavaTest/web/xava/style/liferay51/images/portlet/print.png -text
 OpenXavaTest/web/xava/style/liferay51/images/portlet/refresh.png -text
 OpenXavaTest/web/xava/style/liferay51/images/portlet/restore.png -text
+OpenXavaTest/web/xava/style/liferay51/images/progress_bar/loading_animation.gif -text
 OpenXavaTest/web/xava/style/liferay51/js/barebone_unpacked.js -text
 OpenXavaTest/web/xava/style/liferay51/js/init_liferay.js -text
 OpenXavaTest/web/xava/style/liferay51/js/theme_display.js -text
