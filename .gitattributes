@@ -6792,7 +6792,6 @@ OpenXavaTest/ox2-src/org/openxava/test/calculators/InvoiceDetailOidCalculator.ja
 OpenXavaTest/ox2-src/org/openxava/test/calculators/IsLocalCustomerCalculator.java -text
 OpenXavaTest/ox2-src/org/openxava/test/calculators/PercentageCalculator.java -text
 OpenXavaTest/ox2-src/org/openxava/test/calculators/ProductsValuesOfSubfamilyCalculator.java -text
-OpenXavaTest/ox2-src/org/openxava/test/calculators/RecalculateAmountsSumCalculator.java -text
 OpenXavaTest/ox2-src/org/openxava/test/calculators/SellerInvoiceDiscountCalculator.java -text
 OpenXavaTest/ox2-src/org/openxava/test/calculators/ShippingAndHandlingCalculator.java -text
 OpenXavaTest/ox2-src/org/openxava/test/calculators/SubfamilyPureRemarksCalculator.java -text
@@ -7387,6 +7386,7 @@ OpenXavaTest/web/WEB-INF/lib/jakarta-oro.jar -text
 OpenXavaTest/web/WEB-INF/lib/jasperreports.jar -text
 OpenXavaTest/web/WEB-INF/lib/javassist.jar -text
 OpenXavaTest/web/WEB-INF/lib/jboss-archive-browsing.jar -text
+OpenXavaTest/web/WEB-INF/lib/jboss-client.jar -text
 OpenXavaTest/web/WEB-INF/lib/jstl.jar -text
 OpenXavaTest/web/WEB-INF/lib/mailapi.jar -text
 OpenXavaTest/web/WEB-INF/lib/openxava.jar -text
