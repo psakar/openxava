@@ -1957,6 +1957,7 @@ MySchool/i18n/portlets/Teacher_ko.properties -text
 MySchool/i18n/portlets/Teacher_nl.properties -text
 MySchool/i18n/portlets/Teacher_pl.properties -text
 MySchool/i18n/portlets/Teacher_pt.properties -text
+MySchool/i18n/portlets/Teacher_ru.properties -text
 MySchool/i18n/portlets/Teacher_sv.properties -text
 MySchool/i18n/portlets/Teacher_zh.properties -text
 MySchool/persistence/GalleryImage.hbm.xml -text
@@ -1968,6 +1969,7 @@ MySchool/properties/xava.properties -text
 MySchool/src/org/openxava/school/model/Teacher.java -text
 MySchool/src/org/openxava/school/tests/TeacherTest.java -text
 MySchool/web/META-INF/MANIFEST.MF -text
+MySchool/web/WEB-INF/classes/MySchool-labels.properties -text
 MySchool/web/WEB-INF/classes/hibernate.cfg.xml -text
 MySchool/web/WEB-INF/dwr.xml -text
 MySchool/web/WEB-INF/lib/antlr.jar -text
@@ -2008,6 +2010,7 @@ MySchool/web/WEB-INF/lib/slf4j-api.jar -text
 MySchool/web/WEB-INF/lib/slf4j-jdk14.jar -text
 MySchool/web/WEB-INF/lib/smtp.jar -text
 MySchool/web/WEB-INF/lib/standard.jar -text
+MySchool/web/WEB-INF/liferay-display.xml -text
 MySchool/web/WEB-INF/openxava.tld -text
 MySchool/web/WEB-INF/portlet.xml -text
 MySchool/web/WEB-INF/web.xml -text
@@ -6696,6 +6699,10 @@ OpenXavaTest/i18n/portlets/CustomerContactPerson_ca.properties -text
 OpenXavaTest/i18n/portlets/CustomerContactPerson_en.properties -text
 OpenXavaTest/i18n/portlets/CustomerContactPerson_es.properties -text
 OpenXavaTest/i18n/portlets/CustomerContactPerson_fr.properties -text
+OpenXavaTest/i18n/portlets/CustomerDemo_ca.properties -text
+OpenXavaTest/i18n/portlets/CustomerDemo_en.properties -text
+OpenXavaTest/i18n/portlets/CustomerDemo_es.properties -text
+OpenXavaTest/i18n/portlets/CustomerDemo_fr.properties -text
 OpenXavaTest/i18n/portlets/CustomerInvoices_ca.properties -text
 OpenXavaTest/i18n/portlets/CustomerInvoices_en.properties -text
 OpenXavaTest/i18n/portlets/CustomerInvoices_es.properties -text
@@ -7489,10 +7496,12 @@ OpenXavaTest/test-src/org/openxava/test/tests/XavaSuite.java -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
