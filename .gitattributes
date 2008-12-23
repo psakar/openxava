@@ -7137,6 +7137,7 @@ OpenXavaTest/java5-src/org/openxava/test/model/Clerk.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/ClerkKey.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Color.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Comment.java -text
+OpenXavaTest/java5-src/org/openxava/test/model/Composite.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Course.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/CourseKey.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Customer.java -text
@@ -7399,6 +7400,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/ChangeProductsPriceTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ClerkTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ColorOnlyPOJOTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ColorTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/CompositeTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/CustomerContactPersonAsAggregate3LevelsTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/CustomerContactPersonTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/CustomerNewOnInitInheritedTest.java -text
