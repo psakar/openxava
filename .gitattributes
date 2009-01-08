@@ -3507,6 +3507,7 @@ OpenXava/src/org/openxava/web/style/Liferay41Style.java -text
 OpenXava/src/org/openxava/web/style/Liferay43Style.java -text
 OpenXava/src/org/openxava/web/style/Liferay51Style.java -text
 OpenXava/src/org/openxava/web/style/Style.java -text
+OpenXava/src/org/openxava/web/style/WebSpherePortal61Style.java -text
 OpenXava/src/org/openxava/web/style/WebSpherePortal6Style.java -text
 OpenXava/src/org/openxava/web/style/WebSpherePortalStyle.java -text
 OpenXava/src/org/openxava/web/taglib/ActionTag.java -text
@@ -6679,6 +6680,10 @@ OpenXavaTest/i18n/portlets/Comment_ca.properties -text
 OpenXavaTest/i18n/portlets/Comment_en.properties -text
 OpenXavaTest/i18n/portlets/Comment_es.properties -text
 OpenXavaTest/i18n/portlets/Comment_fr.properties -text
+OpenXavaTest/i18n/portlets/Composite_ca.properties -text
+OpenXavaTest/i18n/portlets/Composite_en.properties -text
+OpenXavaTest/i18n/portlets/Composite_es.properties -text
+OpenXavaTest/i18n/portlets/Composite_fr.properties -text
 OpenXavaTest/i18n/portlets/Course_ca.properties -text
 OpenXavaTest/i18n/portlets/Course_en.properties -text
 OpenXavaTest/i18n/portlets/Course_es.properties -text
@@ -8650,6 +8655,7 @@ OpenXavaTest/web/xava/style/skins.css -text svneol=unset#application/octet-strea
 OpenXavaTest/web/xava/style/swing.css -text svneol=unset#application/octet-stream
 OpenXavaTest/web/xava/style/yahoo.css -text svneol=unset#application/octet-stream
 OpenXavaTest/websphere-as400.properties -text
+OpenXavaTest/websphere61-as400.properties -text
 OpenXavaTest/xava/application.xml -text
 OpenXavaTest/xava/aspects.xml -text
 OpenXavaTest/xava/code-generators.xml -text
