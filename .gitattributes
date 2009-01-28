@@ -7475,6 +7475,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/ProductTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ProductWithSectionTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ProgrammerTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/PublicJSPTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/ReturnPreviousModuleTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/SellerCannotCreateCustomerTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/SellerJSPTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/SellerTest.java -text
