@@ -3485,6 +3485,7 @@ OpenXava/src/org/openxava/view/meta/MetaView.java -text
 OpenXava/src/org/openxava/view/meta/MetaViewAction.java -text
 OpenXava/src/org/openxava/view/meta/PropertiesSeparator.java -text
 OpenXava/src/org/openxava/view/meta/xmlparse/ViewParser.java -text
+OpenXava/src/org/openxava/web/Ids.java -text
 OpenXava/src/org/openxava/web/WebEditors.java -text
 OpenXava/src/org/openxava/web/dwr/DWRBase.java -text
 OpenXava/src/org/openxava/web/dwr/Module.java -text
@@ -3515,6 +3516,7 @@ OpenXava/src/org/openxava/web/taglib/ButtonTag.java -text
 OpenXava/src/org/openxava/web/taglib/DescriptionsListTag.java -text
 OpenXava/src/org/openxava/web/taglib/EditorTag.java -text
 OpenXava/src/org/openxava/web/taglib/IActionTag.java -text
+OpenXava/src/org/openxava/web/taglib/IdTag.java -text
 OpenXava/src/org/openxava/web/taglib/ImageTag.java -text
 OpenXava/src/org/openxava/web/taglib/LinkTag.java -text
 OpenXava/src/org/openxava/web/taglib/MessageTag.java -text
@@ -7484,6 +7486,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/SellerWithDescriptionsListJSPTest.
 OpenXavaTest/test-src/org/openxava/test/tests/ServiceInvoiceTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ServiceOnlyPOJOTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ServiceTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/SeveralModulesTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ShipmentChargeTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ShipmentTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/SizeTest.java -text
@@ -7504,12 +7507,10 @@ OpenXavaTest/test-src/org/openxava/test/tests/XavaSuite.java -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
@@ -8520,6 +8521,7 @@ OpenXavaTest/web/xava/portlet.jsp -text
 OpenXavaTest/web/xava/propertyActions.jsp -text
 OpenXavaTest/web/xava/referenceSearch.jsp -text
 OpenXavaTest/web/xava/sections.jsp -text
+OpenXavaTest/web/xava/severalModules.jsp -text
 OpenXavaTest/web/xava/style/default.css -text svneol=unset#application/octet-stream
 OpenXavaTest/web/xava/style/jetspeed.css -text svneol=unset#application/octet-stream
 OpenXavaTest/web/xava/style/liferay43/css/everything_unpacked.css -text
