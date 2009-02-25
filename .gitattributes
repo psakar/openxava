@@ -4434,6 +4434,7 @@ OpenXavaDoc/web/apidocs/deprecated-list.html -text
 OpenXavaDoc/web/apidocs/help-doc.html -text
 OpenXavaDoc/web/apidocs/index-all.html -text
 OpenXavaDoc/web/apidocs/index.html -text
+OpenXavaDoc/web/apidocs/openxava-test-db.script -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/AddColumnsAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/AddElementsToCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/AddImageToGalleryAction.html -text
@@ -5604,7 +5605,9 @@ OpenXavaDoc/web/apidocs/org/openxava/view/package-frame.html -text
 OpenXavaDoc/web/apidocs/org/openxava/view/package-summary.html -text
 OpenXavaDoc/web/apidocs/org/openxava/view/package-tree.html -text
 OpenXavaDoc/web/apidocs/org/openxava/view/package-use.html -text
+OpenXavaDoc/web/apidocs/org/openxava/web/Ids.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/WebEditors.html -text
+OpenXavaDoc/web/apidocs/org/openxava/web/class-use/Ids.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/class-use/WebEditors.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/dwr/Module.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/dwr/Result.html -text
@@ -5667,6 +5670,7 @@ OpenXavaDoc/web/apidocs/org/openxava/web/style/Liferay41Style.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/Liferay43Style.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/Liferay51Style.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/Style.html -text
+OpenXavaDoc/web/apidocs/org/openxava/web/style/WebSpherePortal61Style.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/WebSpherePortal6Style.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/WebSpherePortalStyle.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/class-use/JetSpeed2Style.html -text
@@ -5674,6 +5678,7 @@ OpenXavaDoc/web/apidocs/org/openxava/web/style/class-use/Liferay41Style.html -te
 OpenXavaDoc/web/apidocs/org/openxava/web/style/class-use/Liferay43Style.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/class-use/Liferay51Style.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/class-use/Style.html -text
+OpenXavaDoc/web/apidocs/org/openxava/web/style/class-use/WebSpherePortal61Style.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/class-use/WebSpherePortal6Style.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/class-use/WebSpherePortalStyle.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/style/package-frame.html -text
@@ -5685,6 +5690,7 @@ OpenXavaDoc/web/apidocs/org/openxava/web/taglib/ButtonTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/DescriptionsListTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/EditorTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/IActionTag.html -text
+OpenXavaDoc/web/apidocs/org/openxava/web/taglib/IdTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/ImageTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/LinkTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/MessageTag.html -text
@@ -5693,6 +5699,7 @@ OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/ButtonTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/DescriptionsListTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/EditorTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/IActionTag.html -text
+OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/IdTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/ImageTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/LinkTag.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/MessageTag.html -text
