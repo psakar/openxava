@@ -3104,6 +3104,7 @@ OpenXava/src/org/openxava/actions/EmptyAction.java -text
 OpenXava/src/org/openxava/actions/FilterAction.java -text
 OpenXava/src/org/openxava/actions/GenerateReportAction.java -text
 OpenXava/src/org/openxava/actions/GoAddColumnsAction.java -text
+OpenXava/src/org/openxava/actions/GoAddColumnsPageAction.java -text
 OpenXava/src/org/openxava/actions/GoAddElementsToCollectionAction.java -text
 OpenXava/src/org/openxava/actions/GoDetailAction.java -text
 OpenXava/src/org/openxava/actions/GoListAction.java -text
@@ -7363,6 +7364,7 @@ OpenXavaTest/src/org/openxava/test/actions/SaveDeliveryDetailAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SearchDeliveryAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SearchInvoiceFromDeliveryAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SeeMessageAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/SetAddColumnsPageRowCountTo10Action.java -text
 OpenXavaTest/src/org/openxava/test/actions/SetDefaultInvoiceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SetEditableOffAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SetEditableOnAction.java -text
