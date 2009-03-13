@@ -7192,6 +7192,7 @@ OpenXavaTest/java5-src/org/openxava/test/model/Family2.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/FilterBySubfamily.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Formula.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/FormulaIngredient.java -text
+OpenXavaTest/java5-src/org/openxava/test/model/Framework.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Human.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Identifiable.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Ingredient.java -text
