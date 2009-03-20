@@ -3521,6 +3521,15 @@ OpenXava/src/org/openxava/web/taglib/ImageTag.java -text
 OpenXava/src/org/openxava/web/taglib/LinkTag.java -text
 OpenXava/src/org/openxava/web/taglib/MessageTag.java -text
 OpenXava/web/WEB-INF/dwr.xml -text
+OpenXava/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
+OpenXava/web/WEB-INF/fonts/DejaVuSans-BoldOblique.ttf -text
+OpenXava/web/WEB-INF/fonts/DejaVuSans-Oblique.ttf -text
+OpenXava/web/WEB-INF/fonts/DejaVuSans.ttf -text
+OpenXava/web/WEB-INF/fonts/DejaVuSerif-Bold.ttf -text
+OpenXava/web/WEB-INF/fonts/DejaVuSerif-BoldItalic.ttf -text
+OpenXava/web/WEB-INF/fonts/DejaVuSerif-Italic.ttf -text
+OpenXava/web/WEB-INF/fonts/DejaVuSerif.ttf -text
+OpenXava/web/WEB-INF/fonts/LICENSE -text
 OpenXava/web/WEB-INF/lib/antlr.jar -text
 OpenXava/web/WEB-INF/lib/asm.jar -text
 OpenXava/web/WEB-INF/lib/cglib.jar -text
