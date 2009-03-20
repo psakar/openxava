@@ -7850,6 +7850,15 @@ OpenXavaTest/web/WEB-INF/classes/portlets/TransportChargeWithDistance_fr.propert
 OpenXavaTest/web/WEB-INF/classes/stereotype-type-default.xml -text
 OpenXavaTest/web/WEB-INF/classes/validators.xml -text
 OpenXavaTest/web/WEB-INF/dwr.xml -text
+OpenXavaTest/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
+OpenXavaTest/web/WEB-INF/fonts/DejaVuSans-BoldOblique.ttf -text
+OpenXavaTest/web/WEB-INF/fonts/DejaVuSans-Oblique.ttf -text
+OpenXavaTest/web/WEB-INF/fonts/DejaVuSans.ttf -text
+OpenXavaTest/web/WEB-INF/fonts/DejaVuSerif-Bold.ttf -text
+OpenXavaTest/web/WEB-INF/fonts/DejaVuSerif-BoldItalic.ttf -text
+OpenXavaTest/web/WEB-INF/fonts/DejaVuSerif-Italic.ttf -text
+OpenXavaTest/web/WEB-INF/fonts/DejaVuSerif.ttf -text
+OpenXavaTest/web/WEB-INF/fonts/LICENSE -text
 OpenXavaTest/web/WEB-INF/lib/antlr.jar -text
 OpenXavaTest/web/WEB-INF/lib/asm.jar -text
 OpenXavaTest/web/WEB-INF/lib/cglib.jar -text
