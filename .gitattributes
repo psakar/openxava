@@ -3565,7 +3565,6 @@ OpenXava/web/WEB-INF/lib/slf4j-api.jar -text
 OpenXava/web/WEB-INF/lib/slf4j-jdk14.jar -text
 OpenXava/web/WEB-INF/lib/smtp.jar -text
 OpenXava/web/WEB-INF/lib/standard.jar -text
-OpenXava/web/WEB-INF/openxava.tld -text
 OpenXava/web/WEB-INF/web.xml -text
 OpenXava/web/addColumns.jsp -text
 OpenXava/web/addToCollection.jsp -text
@@ -4354,6 +4353,7 @@ OpenXava/web/style/skins.css -text svneol=unset#application/octet-stream
 OpenXava/web/style/swing.css -text svneol=unset#application/octet-stream
 OpenXava/web/style/yahoo.css -text svneol=unset#application/octet-stream
 OpenXava/xava/META-INF/MANIFEST.MF -text
+OpenXava/xava/META-INF/taglib.tld -text
 OpenXava/xava/default-controllers.xml -text
 OpenXava/xava/default-converters.xml -text
 OpenXava/xava/default-editors.xml -text
