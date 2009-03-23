@@ -7168,6 +7168,7 @@ OpenXavaTest/java5-src/org/openxava/test/actions/NewWarehouseAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/OnChangeCustomerNameAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/OnChangeDeliveryByAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/OnChangeDistanceAction.java -text
+OpenXavaTest/java5-src/org/openxava/test/actions/OnChangeGroupInColor.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/TranslateCarrierNameAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/ViewNameFellowCarriersSelectedAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/formatters/WarehouseFormatter.java -text
@@ -7446,6 +7447,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/ClerkTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ColorM1Test.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ColorOnlyPOJOTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ColorTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/ColorWithGroupsAndChangeControllersTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/CompositeTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/CustomerContactPersonAsAggregate3LevelsTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/CustomerContactPersonTest.java -text
