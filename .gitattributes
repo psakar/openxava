@@ -6890,6 +6890,10 @@ OpenXavaTest/i18n/portlets/Formula_ca.properties -text
 OpenXavaTest/i18n/portlets/Formula_en.properties -text
 OpenXavaTest/i18n/portlets/Formula_es.properties -text
 OpenXavaTest/i18n/portlets/Formula_fr.properties -text
+OpenXavaTest/i18n/portlets/Framework_ca.properties -text
+OpenXavaTest/i18n/portlets/Framework_en.properties -text
+OpenXavaTest/i18n/portlets/Framework_es.properties -text
+OpenXavaTest/i18n/portlets/Framework_fr.properties -text
 OpenXavaTest/i18n/portlets/Human_ca.properties -text
 OpenXavaTest/i18n/portlets/Human_en.properties -text
 OpenXavaTest/i18n/portlets/Human_es.properties -text
@@ -7168,7 +7172,7 @@ OpenXavaTest/java5-src/org/openxava/test/actions/NewWarehouseAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/OnChangeCustomerNameAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/OnChangeDeliveryByAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/OnChangeDistanceAction.java -text
-OpenXavaTest/java5-src/org/openxava/test/actions/OnChangeGroupInColor.java -text
+OpenXavaTest/java5-src/org/openxava/test/actions/OnChangeGroupInColorAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/TranslateCarrierNameAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/ViewNameFellowCarriersSelectedAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/formatters/WarehouseFormatter.java -text
@@ -7547,10 +7551,12 @@ OpenXavaTest/test-src/org/openxava/test/tests/XavaSuite.java -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
@@ -8484,6 +8490,7 @@ OpenXavaTest/web/xava/editors/calendar/skins/aqua/theme.css -text
 OpenXavaTest/web/xava/editors/calendar/skins/aqua/title-bg.gif -text
 OpenXavaTest/web/xava/editors/calendar/skins/aqua/today-bg.gif -text
 OpenXavaTest/web/xava/editors/changeImage.jsp -text
+OpenXavaTest/web/xava/editors/currentTimeMillisEditor.jsp -text
 OpenXavaTest/web/xava/editors/dateCalendarEditor.jsp -text
 OpenXavaTest/web/xava/editors/dateTimeCombinedCalendarEditor.jsp -text
 OpenXavaTest/web/xava/editors/dateTimeSeparatedCalendarEditor.jsp -text
