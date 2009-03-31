@@ -3096,6 +3096,7 @@ OpenXava/src/org/openxava/actions/CreateNewElementInCollectionAction.java -text
 OpenXava/src/org/openxava/actions/CreateNewFromReferenceAction.java -text
 OpenXava/src/org/openxava/actions/CustomizeListAction.java -text
 OpenXava/src/org/openxava/actions/DeleteAction.java -text
+OpenXava/src/org/openxava/actions/DeleteImageAction.java -text
 OpenXava/src/org/openxava/actions/DeleteSelectedAction.java -text
 OpenXava/src/org/openxava/actions/DeselectRowsAction.java -text
 OpenXava/src/org/openxava/actions/EditElementInCollectionAction.java -text
