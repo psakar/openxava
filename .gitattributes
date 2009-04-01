@@ -6711,6 +6711,10 @@ OpenXavaTest/i18n/portlets/ColorM2_ca.properties -text
 OpenXavaTest/i18n/portlets/ColorM2_en.properties -text
 OpenXavaTest/i18n/portlets/ColorM2_es.properties -text
 OpenXavaTest/i18n/portlets/ColorM2_fr.properties -text
+OpenXavaTest/i18n/portlets/ColorWithGroupsAndChangeControllers_ca.properties -text
+OpenXavaTest/i18n/portlets/ColorWithGroupsAndChangeControllers_en.properties -text
+OpenXavaTest/i18n/portlets/ColorWithGroupsAndChangeControllers_es.properties -text
+OpenXavaTest/i18n/portlets/ColorWithGroupsAndChangeControllers_fr.properties -text
 OpenXavaTest/i18n/portlets/Color_ca.properties -text
 OpenXavaTest/i18n/portlets/Color_en.properties -text
 OpenXavaTest/i18n/portlets/Color_es.properties -text
