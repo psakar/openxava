@@ -3579,8 +3579,10 @@ OpenXava/web/comparatorsCombo.jsp -text
 OpenXava/web/comparatorsValidValuesCombo.jsp -text
 OpenXava/web/core.jsp -text
 OpenXava/web/descriptionsList.jsp -text
+OpenXava/web/descriptionsListIcons.jsp -text
 OpenXava/web/detail.jsp -text
 OpenXava/web/editor.jsp -text
+OpenXava/web/editorIcons.jsp -text
 OpenXava/web/editorWrapper.jsp -text
 OpenXava/web/editors/FCKeditor/_documentation.html -text
 OpenXava/web/editors/FCKeditor/_samples/_plugins/findreplace/fckplugin.js -text
@@ -7941,8 +7943,10 @@ OpenXavaTest/web/xava/comparatorsCombo.jsp -text
 OpenXavaTest/web/xava/comparatorsValidValuesCombo.jsp -text
 OpenXavaTest/web/xava/core.jsp -text
 OpenXavaTest/web/xava/descriptionsList.jsp -text
+OpenXavaTest/web/xava/descriptionsListIcons.jsp -text
 OpenXavaTest/web/xava/detail.jsp -text
 OpenXavaTest/web/xava/editor.jsp -text
+OpenXavaTest/web/xava/editorIcons.jsp -text
 OpenXavaTest/web/xava/editorWrapper.jsp -text
 OpenXavaTest/web/xava/editors/FCKeditor/_documentation.html -text
 OpenXavaTest/web/xava/editors/FCKeditor/_samples/_plugins/findreplace/fckplugin.js -text
