@@ -3011,6 +3011,7 @@ OpenXava/java5-src/org/openxava/annotations/OnChange.java -text
 OpenXava/java5-src/org/openxava/annotations/OnChangeSearch.java -text
 OpenXava/java5-src/org/openxava/annotations/OnChangeSearchs.java -text
 OpenXava/java5-src/org/openxava/annotations/OnChanges.java -text
+OpenXava/java5-src/org/openxava/annotations/OnSelectedElementAction.java -text
 OpenXava/java5-src/org/openxava/annotations/PropertyValidator.java -text
 OpenXava/java5-src/org/openxava/annotations/PropertyValidators.java -text
 OpenXava/java5-src/org/openxava/annotations/PropertyValue.java -text
