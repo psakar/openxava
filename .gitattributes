@@ -7380,6 +7380,7 @@ OpenXavaTest/src/org/openxava/test/actions/OnChangeSubfamilySearchAction.java -t
 OpenXavaTest/src/org/openxava/test/actions/OnChangeVehicleAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeVoidAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeWarehouseAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/OnSelectedIngredientAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/PrefixAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/RemoveDeliveryDetailAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/RemoveSelectedDeliveryDetailsAction.java -text
