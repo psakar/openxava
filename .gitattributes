@@ -3531,6 +3531,7 @@ OpenXava/web/WEB-INF/fonts/DejaVuSerif-BoldItalic.ttf -text
 OpenXava/web/WEB-INF/fonts/DejaVuSerif-Italic.ttf -text
 OpenXava/web/WEB-INF/fonts/DejaVuSerif.ttf -text
 OpenXava/web/WEB-INF/fonts/LICENSE -text
+OpenXava/web/WEB-INF/lib/activation.jar -text
 OpenXava/web/WEB-INF/lib/antlr.jar -text
 OpenXava/web/WEB-INF/lib/asm.jar -text
 OpenXava/web/WEB-INF/lib/cglib.jar -text
@@ -4194,6 +4195,7 @@ OpenXava/web/images/move-right.gif -text
 OpenXava/web/images/new.gif -text
 OpenXava/web/images/next.gif -text
 OpenXava/web/images/next_page.gif -text
+OpenXava/web/images/odt.gif -text
 OpenXava/web/images/pdf.gif -text
 OpenXava/web/images/photo.gif -text
 OpenXava/web/images/previous.gif -text
@@ -7883,6 +7885,7 @@ OpenXavaTest/web/WEB-INF/fonts/DejaVuSerif-BoldItalic.ttf -text
 OpenXavaTest/web/WEB-INF/fonts/DejaVuSerif-Italic.ttf -text
 OpenXavaTest/web/WEB-INF/fonts/DejaVuSerif.ttf -text
 OpenXavaTest/web/WEB-INF/fonts/LICENSE -text
+OpenXavaTest/web/WEB-INF/lib/activation.jar -text
 OpenXavaTest/web/WEB-INF/lib/antlr.jar -text
 OpenXavaTest/web/WEB-INF/lib/asm.jar -text
 OpenXavaTest/web/WEB-INF/lib/cglib.jar -text
@@ -8560,6 +8563,7 @@ OpenXavaTest/web/xava/images/move-right.gif -text
 OpenXavaTest/web/xava/images/new.gif -text
 OpenXavaTest/web/xava/images/next.gif -text
 OpenXavaTest/web/xava/images/next_page.gif -text
+OpenXavaTest/web/xava/images/odt.gif -text
 OpenXavaTest/web/xava/images/pdf.gif -text
 OpenXavaTest/web/xava/images/photo.gif -text
 OpenXavaTest/web/xava/images/previous.gif -text
