@@ -1092,6 +1092,16 @@ MiEscuela/src/org/openxava/escuela/pruebas/PruebaProfesor.java -text
 MiEscuela/web/META-INF/MANIFEST.MF -text
 MiEscuela/web/WEB-INF/classes/hibernate.cfg.xml -text
 MiEscuela/web/WEB-INF/dwr.xml -text
+MiEscuela/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
+MiEscuela/web/WEB-INF/fonts/DejaVuSans-BoldOblique.ttf -text
+MiEscuela/web/WEB-INF/fonts/DejaVuSans-Oblique.ttf -text
+MiEscuela/web/WEB-INF/fonts/DejaVuSans.ttf -text
+MiEscuela/web/WEB-INF/fonts/DejaVuSerif-Bold.ttf -text
+MiEscuela/web/WEB-INF/fonts/DejaVuSerif-BoldItalic.ttf -text
+MiEscuela/web/WEB-INF/fonts/DejaVuSerif-Italic.ttf -text
+MiEscuela/web/WEB-INF/fonts/DejaVuSerif.ttf -text
+MiEscuela/web/WEB-INF/fonts/LICENSE -text svneol=unset#application/octet-stream
+MiEscuela/web/WEB-INF/lib/activation.jar -text
 MiEscuela/web/WEB-INF/lib/antlr.jar -text
 MiEscuela/web/WEB-INF/lib/asm.jar -text
 MiEscuela/web/WEB-INF/lib/cglib.jar -text
@@ -1145,8 +1155,10 @@ MiEscuela/web/xava/comparatorsCombo.jsp -text
 MiEscuela/web/xava/comparatorsValidValuesCombo.jsp -text
 MiEscuela/web/xava/core.jsp -text
 MiEscuela/web/xava/descriptionsList.jsp -text
+MiEscuela/web/xava/descriptionsListIcons.jsp -text
 MiEscuela/web/xava/detail.jsp -text
 MiEscuela/web/xava/editor.jsp -text
+MiEscuela/web/xava/editorIcons.jsp -text
 MiEscuela/web/xava/editorWrapper.jsp -text
 MiEscuela/web/xava/editors/FCKeditor/_documentation.html -text
 MiEscuela/web/xava/editors/FCKeditor/_samples/_plugins/findreplace/fckplugin.js -text
@@ -1762,6 +1774,7 @@ MiEscuela/web/xava/images/move-right.gif -text
 MiEscuela/web/xava/images/new.gif -text
 MiEscuela/web/xava/images/next.gif -text
 MiEscuela/web/xava/images/next_page.gif -text
+MiEscuela/web/xava/images/odt.gif -text
 MiEscuela/web/xava/images/pdf.gif -text
 MiEscuela/web/xava/images/photo.gif -text
 MiEscuela/web/xava/images/previous.gif -text
@@ -1984,6 +1997,16 @@ MySchool/src/org/openxava/school/tests/TeacherTest.java -text
 MySchool/web/META-INF/MANIFEST.MF -text
 MySchool/web/WEB-INF/classes/hibernate.cfg.xml -text
 MySchool/web/WEB-INF/dwr.xml -text
+MySchool/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
+MySchool/web/WEB-INF/fonts/DejaVuSans-BoldOblique.ttf -text
+MySchool/web/WEB-INF/fonts/DejaVuSans-Oblique.ttf -text
+MySchool/web/WEB-INF/fonts/DejaVuSans.ttf -text
+MySchool/web/WEB-INF/fonts/DejaVuSerif-Bold.ttf -text
+MySchool/web/WEB-INF/fonts/DejaVuSerif-BoldItalic.ttf -text
+MySchool/web/WEB-INF/fonts/DejaVuSerif-Italic.ttf -text
+MySchool/web/WEB-INF/fonts/DejaVuSerif.ttf -text
+MySchool/web/WEB-INF/fonts/LICENSE -text svneol=unset#application/octet-stream
+MySchool/web/WEB-INF/lib/activation.jar -text
 MySchool/web/WEB-INF/lib/antlr.jar -text
 MySchool/web/WEB-INF/lib/asm.jar -text
 MySchool/web/WEB-INF/lib/cglib.jar -text
@@ -2038,8 +2061,10 @@ MySchool/web/xava/comparatorsCombo.jsp -text
 MySchool/web/xava/comparatorsValidValuesCombo.jsp -text
 MySchool/web/xava/core.jsp -text
 MySchool/web/xava/descriptionsList.jsp -text
+MySchool/web/xava/descriptionsListIcons.jsp -text
 MySchool/web/xava/detail.jsp -text
 MySchool/web/xava/editor.jsp -text
+MySchool/web/xava/editorIcons.jsp -text
 MySchool/web/xava/editorWrapper.jsp -text
 MySchool/web/xava/editors/FCKeditor/_documentation.html -text
 MySchool/web/xava/editors/FCKeditor/_samples/_plugins/findreplace/fckplugin.js -text
@@ -2655,6 +2680,7 @@ MySchool/web/xava/images/move-right.gif -text
 MySchool/web/xava/images/new.gif -text
 MySchool/web/xava/images/next.gif -text
 MySchool/web/xava/images/next_page.gif -text
+MySchool/web/xava/images/odt.gif -text
 MySchool/web/xava/images/pdf.gif -text
 MySchool/web/xava/images/photo.gif -text
 MySchool/web/xava/images/previous.gif -text
