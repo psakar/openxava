@@ -7278,6 +7278,7 @@ OpenXavaTest/ox2-src/org/openxava/test/actions/NewWarehouseAction.java -text
 OpenXavaTest/ox2-src/org/openxava/test/actions/OnChangeCustomerNameAction.java -text
 OpenXavaTest/ox2-src/org/openxava/test/actions/OnChangeDeliveryByAction.java -text
 OpenXavaTest/ox2-src/org/openxava/test/actions/OnChangeDistanceAction.java -text
+OpenXavaTest/ox2-src/org/openxava/test/actions/OnChangeGroupInColorAction.java -text
 OpenXavaTest/ox2-src/org/openxava/test/actions/TranslateCarrierNameAction.java -text
 OpenXavaTest/ox2-src/org/openxava/test/actions/ViewNameFellowCarriersSelectedAction.java -text
 OpenXavaTest/ox2-src/org/openxava/test/calculators/AmountsSumCalculator.java -text
@@ -7380,7 +7381,7 @@ OpenXavaTest/src/org/openxava/test/actions/OnChangeSubfamilySearchAction.java -t
 OpenXavaTest/src/org/openxava/test/actions/OnChangeVehicleAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeVoidAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeWarehouseAction.java -text
-OpenXavaTest/src/org/openxava/test/actions/OnSelectedIngredientAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/OnSelectIngredientAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/PrefixAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/RemoveDeliveryDetailAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/RemoveSelectedDeliveryDetailsAction.java -text
@@ -7562,12 +7563,10 @@ OpenXavaTest/test-src/org/openxava/test/tests/XavaSuite.java -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
