@@ -176,6 +176,16 @@ AccessTracking/web/WEB-INF/classes/portlets/Accesses_ru.properties -text
 AccessTracking/web/WEB-INF/classes/portlets/Accesses_sv.properties -text
 AccessTracking/web/WEB-INF/classes/portlets/Accesses_zh.properties -text
 AccessTracking/web/WEB-INF/dwr.xml -text
+AccessTracking/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
+AccessTracking/web/WEB-INF/fonts/DejaVuSans-BoldOblique.ttf -text
+AccessTracking/web/WEB-INF/fonts/DejaVuSans-Oblique.ttf -text
+AccessTracking/web/WEB-INF/fonts/DejaVuSans.ttf -text
+AccessTracking/web/WEB-INF/fonts/DejaVuSerif-Bold.ttf -text
+AccessTracking/web/WEB-INF/fonts/DejaVuSerif-BoldItalic.ttf -text
+AccessTracking/web/WEB-INF/fonts/DejaVuSerif-Italic.ttf -text
+AccessTracking/web/WEB-INF/fonts/DejaVuSerif.ttf -text
+AccessTracking/web/WEB-INF/fonts/LICENSE -text svneol=unset#application/octet-stream
+AccessTracking/web/WEB-INF/lib/activation.jar -text
 AccessTracking/web/WEB-INF/lib/antlr.jar -text
 AccessTracking/web/WEB-INF/lib/asm.jar -text
 AccessTracking/web/WEB-INF/lib/cglib.jar -text
@@ -230,8 +240,10 @@ AccessTracking/web/xava/comparatorsCombo.jsp -text
 AccessTracking/web/xava/comparatorsValidValuesCombo.jsp -text
 AccessTracking/web/xava/core.jsp -text
 AccessTracking/web/xava/descriptionsList.jsp -text
+AccessTracking/web/xava/descriptionsListIcons.jsp -text
 AccessTracking/web/xava/detail.jsp -text
 AccessTracking/web/xava/editor.jsp -text
+AccessTracking/web/xava/editorIcons.jsp -text
 AccessTracking/web/xava/editorWrapper.jsp -text
 AccessTracking/web/xava/editors/FCKeditor/_documentation.html -text
 AccessTracking/web/xava/editors/FCKeditor/_samples/_plugins/findreplace/fckplugin.js -text
@@ -846,6 +858,7 @@ AccessTracking/web/xava/images/move-right.gif -text
 AccessTracking/web/xava/images/new.gif -text
 AccessTracking/web/xava/images/next.gif -text
 AccessTracking/web/xava/images/next_page.gif -text
+AccessTracking/web/xava/images/odt.gif -text
 AccessTracking/web/xava/images/pdf.gif -text
 AccessTracking/web/xava/images/photo.gif -text
 AccessTracking/web/xava/images/previous.gif -text
@@ -3011,7 +3024,8 @@ OpenXava/java5-src/org/openxava/annotations/OnChange.java -text
 OpenXava/java5-src/org/openxava/annotations/OnChangeSearch.java -text
 OpenXava/java5-src/org/openxava/annotations/OnChangeSearchs.java -text
 OpenXava/java5-src/org/openxava/annotations/OnChanges.java -text
-OpenXava/java5-src/org/openxava/annotations/OnSelectedElementAction.java -text
+OpenXava/java5-src/org/openxava/annotations/OnSelectElementAction.java -text
+OpenXava/java5-src/org/openxava/annotations/OnSelectElementActions.java -text
 OpenXava/java5-src/org/openxava/annotations/PropertyValidator.java -text
 OpenXava/java5-src/org/openxava/annotations/PropertyValidators.java -text
 OpenXava/java5-src/org/openxava/annotations/PropertyValue.java -text
@@ -3151,6 +3165,7 @@ OpenXava/src/org/openxava/actions/NavigationFromReferenceBaseAction.java -text
 OpenXava/src/org/openxava/actions/NewAction.java -text
 OpenXava/src/org/openxava/actions/OnChangePropertyBaseAction.java -text
 OpenXava/src/org/openxava/actions/OnChangeSearchAction.java -text
+OpenXava/src/org/openxava/actions/OnSelectElementBaseAction.java -text
 OpenXava/src/org/openxava/actions/OrderByAction.java -text
 OpenXava/src/org/openxava/actions/ReferenceBaseAction.java -text
 OpenXava/src/org/openxava/actions/ReferenceSearchAction.java -text
