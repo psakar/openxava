@@ -176,14 +176,7 @@ AccessTracking/web/WEB-INF/classes/portlets/Accesses_ru.properties -text
 AccessTracking/web/WEB-INF/classes/portlets/Accesses_sv.properties -text
 AccessTracking/web/WEB-INF/classes/portlets/Accesses_zh.properties -text
 AccessTracking/web/WEB-INF/dwr.xml -text
-AccessTracking/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
-AccessTracking/web/WEB-INF/fonts/DejaVuSans-BoldOblique.ttf -text
-AccessTracking/web/WEB-INF/fonts/DejaVuSans-Oblique.ttf -text
 AccessTracking/web/WEB-INF/fonts/DejaVuSans.ttf -text
-AccessTracking/web/WEB-INF/fonts/DejaVuSerif-Bold.ttf -text
-AccessTracking/web/WEB-INF/fonts/DejaVuSerif-BoldItalic.ttf -text
-AccessTracking/web/WEB-INF/fonts/DejaVuSerif-Italic.ttf -text
-AccessTracking/web/WEB-INF/fonts/DejaVuSerif.ttf -text
 AccessTracking/web/WEB-INF/fonts/LICENSE -text svneol=unset#application/octet-stream
 AccessTracking/web/WEB-INF/lib/activation.jar -text
 AccessTracking/web/WEB-INF/lib/antlr.jar -text
@@ -1092,14 +1085,7 @@ MiEscuela/src/org/openxava/escuela/pruebas/PruebaProfesor.java -text
 MiEscuela/web/META-INF/MANIFEST.MF -text
 MiEscuela/web/WEB-INF/classes/hibernate.cfg.xml -text
 MiEscuela/web/WEB-INF/dwr.xml -text
-MiEscuela/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
-MiEscuela/web/WEB-INF/fonts/DejaVuSans-BoldOblique.ttf -text
-MiEscuela/web/WEB-INF/fonts/DejaVuSans-Oblique.ttf -text
 MiEscuela/web/WEB-INF/fonts/DejaVuSans.ttf -text
-MiEscuela/web/WEB-INF/fonts/DejaVuSerif-Bold.ttf -text
-MiEscuela/web/WEB-INF/fonts/DejaVuSerif-BoldItalic.ttf -text
-MiEscuela/web/WEB-INF/fonts/DejaVuSerif-Italic.ttf -text
-MiEscuela/web/WEB-INF/fonts/DejaVuSerif.ttf -text
 MiEscuela/web/WEB-INF/fonts/LICENSE -text svneol=unset#application/octet-stream
 MiEscuela/web/WEB-INF/lib/activation.jar -text
 MiEscuela/web/WEB-INF/lib/antlr.jar -text
@@ -1997,14 +1983,7 @@ MySchool/src/org/openxava/school/tests/TeacherTest.java -text
 MySchool/web/META-INF/MANIFEST.MF -text
 MySchool/web/WEB-INF/classes/hibernate.cfg.xml -text
 MySchool/web/WEB-INF/dwr.xml -text
-MySchool/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
-MySchool/web/WEB-INF/fonts/DejaVuSans-BoldOblique.ttf -text
-MySchool/web/WEB-INF/fonts/DejaVuSans-Oblique.ttf -text
 MySchool/web/WEB-INF/fonts/DejaVuSans.ttf -text
-MySchool/web/WEB-INF/fonts/DejaVuSerif-Bold.ttf -text
-MySchool/web/WEB-INF/fonts/DejaVuSerif-BoldItalic.ttf -text
-MySchool/web/WEB-INF/fonts/DejaVuSerif-Italic.ttf -text
-MySchool/web/WEB-INF/fonts/DejaVuSerif.ttf -text
 MySchool/web/WEB-INF/fonts/LICENSE -text svneol=unset#application/octet-stream
 MySchool/web/WEB-INF/lib/activation.jar -text
 MySchool/web/WEB-INF/lib/antlr.jar -text
@@ -3564,14 +3543,7 @@ OpenXava/src/org/openxava/web/taglib/ImageTag.java -text
 OpenXava/src/org/openxava/web/taglib/LinkTag.java -text
 OpenXava/src/org/openxava/web/taglib/MessageTag.java -text
 OpenXava/web/WEB-INF/dwr.xml -text
-OpenXava/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
-OpenXava/web/WEB-INF/fonts/DejaVuSans-BoldOblique.ttf -text
-OpenXava/web/WEB-INF/fonts/DejaVuSans-Oblique.ttf -text
 OpenXava/web/WEB-INF/fonts/DejaVuSans.ttf -text
-OpenXava/web/WEB-INF/fonts/DejaVuSerif-Bold.ttf -text
-OpenXava/web/WEB-INF/fonts/DejaVuSerif-BoldItalic.ttf -text
-OpenXava/web/WEB-INF/fonts/DejaVuSerif-Italic.ttf -text
-OpenXava/web/WEB-INF/fonts/DejaVuSerif.ttf -text
 OpenXava/web/WEB-INF/fonts/LICENSE -text
 OpenXava/web/WEB-INF/lib/activation.jar -text
 OpenXava/web/WEB-INF/lib/antlr.jar -text
@@ -7927,14 +7899,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/TransportChargeWithDistance_fr.propert
 OpenXavaTest/web/WEB-INF/classes/stereotype-type-default.xml -text
 OpenXavaTest/web/WEB-INF/classes/validators.xml -text
 OpenXavaTest/web/WEB-INF/dwr.xml -text
-OpenXavaTest/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
-OpenXavaTest/web/WEB-INF/fonts/DejaVuSans-BoldOblique.ttf -text
-OpenXavaTest/web/WEB-INF/fonts/DejaVuSans-Oblique.ttf -text
 OpenXavaTest/web/WEB-INF/fonts/DejaVuSans.ttf -text
-OpenXavaTest/web/WEB-INF/fonts/DejaVuSerif-Bold.ttf -text
-OpenXavaTest/web/WEB-INF/fonts/DejaVuSerif-BoldItalic.ttf -text
-OpenXavaTest/web/WEB-INF/fonts/DejaVuSerif-Italic.ttf -text
-OpenXavaTest/web/WEB-INF/fonts/DejaVuSerif.ttf -text
 OpenXavaTest/web/WEB-INF/fonts/LICENSE -text
 OpenXavaTest/web/WEB-INF/lib/activation.jar -text
 OpenXavaTest/web/WEB-INF/lib/antlr.jar -text
