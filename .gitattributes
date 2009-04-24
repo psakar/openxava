@@ -4491,7 +4491,6 @@ OpenXavaDoc/web/apidocs/deprecated-list.html -text
 OpenXavaDoc/web/apidocs/help-doc.html -text
 OpenXavaDoc/web/apidocs/index-all.html -text
 OpenXavaDoc/web/apidocs/index.html -text
-OpenXavaDoc/web/apidocs/openxava-test-db.script -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/AddColumnsAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/AddElementsToCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/AddImageToGalleryAction.html -text
@@ -4509,6 +4508,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/CreateNewElementInCollectionAction.
 OpenXavaDoc/web/apidocs/org/openxava/actions/CreateNewFromReferenceAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/CustomizeListAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/DeleteAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/DeleteImageAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/DeleteSelectedAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/DeselectRowsAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/EditElementInCollectionAction.html -text
@@ -4517,6 +4517,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/EmptyAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/FilterAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/GenerateReportAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/GoAddColumnsAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/GoAddColumnsPageAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/GoAddElementsToCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/GoDetailAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/GoListAction.html -text
@@ -4561,6 +4562,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/NavigationFromReferenceBaseAction.h
 OpenXavaDoc/web/apidocs/org/openxava/actions/NewAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/OnChangePropertyBaseAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/OnChangeSearchAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/OnSelectElementBaseAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/OrderByAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/ReferenceBaseAction.ViewInfo.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/ReferenceBaseAction.html -text
@@ -4605,6 +4607,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/CreateNewElementInCollect
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/CreateNewFromReferenceAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/CustomizeListAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/DeleteAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/DeleteImageAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/DeleteSelectedAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/DeselectRowsAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/EditElementInCollectionAction.html -text
@@ -4613,6 +4616,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/EmptyAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/FilterAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GenerateReportAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoAddColumnsAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoAddColumnsPageAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoAddElementsToCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoDetailAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoListAction.html -text
@@ -4657,6 +4661,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/NavigationFromReferenceBa
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/NewAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/OnChangePropertyBaseAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/OnChangeSearchAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/OnSelectElementBaseAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/OrderByAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ReferenceBaseAction.ViewInfo.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ReferenceBaseAction.html -text
@@ -4729,6 +4734,8 @@ OpenXavaDoc/web/apidocs/org/openxava/annotations/OnChange.html -text
 OpenXavaDoc/web/apidocs/org/openxava/annotations/OnChangeSearch.html -text
 OpenXavaDoc/web/apidocs/org/openxava/annotations/OnChangeSearchs.html -text
 OpenXavaDoc/web/apidocs/org/openxava/annotations/OnChanges.html -text
+OpenXavaDoc/web/apidocs/org/openxava/annotations/OnSelectElementAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/annotations/OnSelectElementActions.html -text
 OpenXavaDoc/web/apidocs/org/openxava/annotations/PropertyValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/annotations/PropertyValidators.html -text
 OpenXavaDoc/web/apidocs/org/openxava/annotations/PropertyValue.html -text
@@ -4798,6 +4805,8 @@ OpenXavaDoc/web/apidocs/org/openxava/annotations/class-use/OnChange.html -text
 OpenXavaDoc/web/apidocs/org/openxava/annotations/class-use/OnChangeSearch.html -text
 OpenXavaDoc/web/apidocs/org/openxava/annotations/class-use/OnChangeSearchs.html -text
 OpenXavaDoc/web/apidocs/org/openxava/annotations/class-use/OnChanges.html -text
+OpenXavaDoc/web/apidocs/org/openxava/annotations/class-use/OnSelectElementAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/annotations/class-use/OnSelectElementActions.html -text
 OpenXavaDoc/web/apidocs/org/openxava/annotations/class-use/PropertyValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/annotations/class-use/PropertyValidators.html -text
 OpenXavaDoc/web/apidocs/org/openxava/annotations/class-use/PropertyValue.html -text
