@@ -3593,8 +3593,6 @@ OpenXava/web/comparatorsBooleanCombo.jsp -text
 OpenXava/web/comparatorsCombo.jsp -text
 OpenXava/web/comparatorsValidValuesCombo.jsp -text
 OpenXava/web/core.jsp -text
-OpenXava/web/descriptionsList.jsp -text
-OpenXava/web/descriptionsListIcons.jsp -text
 OpenXava/web/detail.jsp -text
 OpenXava/web/editor.jsp -text
 OpenXava/web/editorIcons.jsp -text
@@ -4234,6 +4232,8 @@ OpenXava/web/messages.jsp -text
 OpenXava/web/module.jsp -text
 OpenXava/web/portlet.jsp -text
 OpenXava/web/propertyActions.jsp -text
+OpenXava/web/referenceEditor.jsp -text
+OpenXava/web/referenceEditorIcons.jsp -text
 OpenXava/web/referenceSearch.jsp -text
 OpenXava/web/sections.jsp -text
 OpenXava/web/style/default.css -text
@@ -7961,8 +7961,6 @@ OpenXavaTest/web/xava/comparatorsBooleanCombo.jsp -text
 OpenXavaTest/web/xava/comparatorsCombo.jsp -text
 OpenXavaTest/web/xava/comparatorsValidValuesCombo.jsp -text
 OpenXavaTest/web/xava/core.jsp -text
-OpenXavaTest/web/xava/descriptionsList.jsp -text
-OpenXavaTest/web/xava/descriptionsListIcons.jsp -text
 OpenXavaTest/web/xava/detail.jsp -text
 OpenXavaTest/web/xava/editor.jsp -text
 OpenXavaTest/web/xava/editorIcons.jsp -text
@@ -8518,6 +8516,7 @@ OpenXavaTest/web/xava/editors/calendar/skins/aqua/theme.css -text
 OpenXavaTest/web/xava/editors/calendar/skins/aqua/title-bg.gif -text
 OpenXavaTest/web/xava/editors/calendar/skins/aqua/today-bg.gif -text
 OpenXavaTest/web/xava/editors/changeImage.jsp -text
+OpenXavaTest/web/xava/editors/colorEditor.jsp -text
 OpenXavaTest/web/xava/editors/currentTimeMillisEditor.jsp -text
 OpenXavaTest/web/xava/editors/dateCalendarEditor.jsp -text
 OpenXavaTest/web/xava/editors/dateTimeCombinedCalendarEditor.jsp -text
@@ -8604,6 +8603,8 @@ OpenXavaTest/web/xava/messages.jsp -text
 OpenXavaTest/web/xava/module.jsp -text
 OpenXavaTest/web/xava/portlet.jsp -text
 OpenXavaTest/web/xava/propertyActions.jsp -text
+OpenXavaTest/web/xava/referenceEditor.jsp -text
+OpenXavaTest/web/xava/referenceEditorIcons.jsp -text
 OpenXavaTest/web/xava/referenceSearch.jsp -text
 OpenXavaTest/web/xava/sections.jsp -text
 OpenXavaTest/web/xava/severalModules.jsp -text
