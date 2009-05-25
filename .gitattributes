@@ -4163,6 +4163,7 @@ OpenXava/web/editors/labelEditor.jsp -text
 OpenXava/web/editors/moneyEditor.jsp -text
 OpenXava/web/editors/notAvailableEditor.jsp -text
 OpenXava/web/editors/radioButtonEditor.jsp -text
+OpenXava/web/editors/referenceEditor.jsp -text
 OpenXava/web/editors/textAreaEditor.jsp -text
 OpenXava/web/editors/textEditor.jsp -text
 OpenXava/web/editors/validValueEditorCommon.jsp -text
@@ -4232,7 +4233,7 @@ OpenXava/web/messages.jsp -text
 OpenXava/web/module.jsp -text
 OpenXava/web/portlet.jsp -text
 OpenXava/web/propertyActions.jsp -text
-OpenXava/web/referenceEditor.jsp -text
+OpenXava/web/reference.jsp -text
 OpenXava/web/referenceEditorIcons.jsp -text
 OpenXava/web/referenceSearch.jsp -text
 OpenXava/web/sections.jsp -text
@@ -6682,6 +6683,10 @@ OpenXavaTest/i18n/portlets/BeforeGoingToCustomer_ca.properties -text
 OpenXavaTest/i18n/portlets/BeforeGoingToCustomer_en.properties -text
 OpenXavaTest/i18n/portlets/BeforeGoingToCustomer_es.properties -text
 OpenXavaTest/i18n/portlets/BeforeGoingToCustomer_fr.properties -text
+OpenXavaTest/i18n/portlets/BeforeGoingToFormula_ca.properties -text
+OpenXavaTest/i18n/portlets/BeforeGoingToFormula_en.properties -text
+OpenXavaTest/i18n/portlets/BeforeGoingToFormula_es.properties -text
+OpenXavaTest/i18n/portlets/BeforeGoingToFormula_fr.properties -text
 OpenXavaTest/i18n/portlets/CarrierWithCalculatedFellows_ca.properties -text
 OpenXavaTest/i18n/portlets/CarrierWithCalculatedFellows_en.properties -text
 OpenXavaTest/i18n/portlets/CarrierWithCalculatedFellows_es.properties -text
@@ -7030,6 +7035,10 @@ OpenXavaTest/i18n/portlets/OnlyReadDetailsInvoice_ca.properties -text
 OpenXavaTest/i18n/portlets/OnlyReadDetailsInvoice_en.properties -text
 OpenXavaTest/i18n/portlets/OnlyReadDetailsInvoice_es.properties -text
 OpenXavaTest/i18n/portlets/OnlyReadDetailsInvoice_fr.properties -text
+OpenXavaTest/i18n/portlets/Product2ColorWithFrame_ca.properties -text
+OpenXavaTest/i18n/portlets/Product2ColorWithFrame_en.properties -text
+OpenXavaTest/i18n/portlets/Product2ColorWithFrame_es.properties -text
+OpenXavaTest/i18n/portlets/Product2ColorWithFrame_fr.properties -text
 OpenXavaTest/i18n/portlets/Product2OnlySoftware_ca.properties -text
 OpenXavaTest/i18n/portlets/Product2OnlySoftware_en.properties -text
 OpenXavaTest/i18n/portlets/Product2OnlySoftware_es.properties -text
@@ -7542,6 +7551,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/OnlyEditDetailsInvoiceTest.java -t
 OpenXavaTest/test-src/org/openxava/test/tests/OnlyReadDetailsInvoiceTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/POJOTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/PositiveValidatorTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/Product2ColorWithFrameTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/Product2OnlySoftwareTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/Product2ReferenceAndStereotypeTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/Product2Test.java -text
@@ -7585,10 +7595,12 @@ OpenXavaTest/test-src/org/openxava/test/tests/XavaSuite.java -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
@@ -8517,6 +8529,7 @@ OpenXavaTest/web/xava/editors/calendar/skins/aqua/title-bg.gif -text
 OpenXavaTest/web/xava/editors/calendar/skins/aqua/today-bg.gif -text
 OpenXavaTest/web/xava/editors/changeImage.jsp -text
 OpenXavaTest/web/xava/editors/colorEditor.jsp -text
+OpenXavaTest/web/xava/editors/colorFrameEditor.jsp -text
 OpenXavaTest/web/xava/editors/currentTimeMillisEditor.jsp -text
 OpenXavaTest/web/xava/editors/dateCalendarEditor.jsp -text
 OpenXavaTest/web/xava/editors/dateTimeCombinedCalendarEditor.jsp -text
@@ -8533,6 +8546,7 @@ OpenXavaTest/web/xava/editors/labelEditor.jsp -text
 OpenXavaTest/web/xava/editors/moneyEditor.jsp -text
 OpenXavaTest/web/xava/editors/notAvailableEditor.jsp -text
 OpenXavaTest/web/xava/editors/radioButtonEditor.jsp -text
+OpenXavaTest/web/xava/editors/referenceEditor.jsp -text
 OpenXavaTest/web/xava/editors/regionsEditor.jsp -text
 OpenXavaTest/web/xava/editors/textAreaEditor.jsp -text
 OpenXavaTest/web/xava/editors/textEditor.jsp -text
@@ -8603,7 +8617,7 @@ OpenXavaTest/web/xava/messages.jsp -text
 OpenXavaTest/web/xava/module.jsp -text
 OpenXavaTest/web/xava/portlet.jsp -text
 OpenXavaTest/web/xava/propertyActions.jsp -text
-OpenXavaTest/web/xava/referenceEditor.jsp -text
+OpenXavaTest/web/xava/reference.jsp -text
 OpenXavaTest/web/xava/referenceEditorIcons.jsp -text
 OpenXavaTest/web/xava/referenceSearch.jsp -text
 OpenXavaTest/web/xava/sections.jsp -text
