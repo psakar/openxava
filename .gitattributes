@@ -805,6 +805,7 @@ AccessTracking/web/xava/editors/labelEditor.jsp -text
 AccessTracking/web/xava/editors/moneyEditor.jsp -text
 AccessTracking/web/xava/editors/notAvailableEditor.jsp -text
 AccessTracking/web/xava/editors/radioButtonEditor.jsp -text
+AccessTracking/web/xava/editors/referenceEditor.jsp -text
 AccessTracking/web/xava/editors/textAreaEditor.jsp -text
 AccessTracking/web/xava/editors/textEditor.jsp -text
 AccessTracking/web/xava/editors/validValueEditorCommon.jsp -text
@@ -876,6 +877,8 @@ AccessTracking/web/xava/messages.jsp -text
 AccessTracking/web/xava/module.jsp -text
 AccessTracking/web/xava/portlet.jsp -text
 AccessTracking/web/xava/propertyActions.jsp -text
+AccessTracking/web/xava/reference.jsp -text
+AccessTracking/web/xava/referenceEditorIcons.jsp -text
 AccessTracking/web/xava/referenceSearch.jsp -text
 AccessTracking/web/xava/script.jsp -text
 AccessTracking/web/xava/sections.jsp -text
@@ -1140,8 +1143,6 @@ MiEscuela/web/xava/comparatorsBooleanCombo.jsp -text
 MiEscuela/web/xava/comparatorsCombo.jsp -text
 MiEscuela/web/xava/comparatorsValidValuesCombo.jsp -text
 MiEscuela/web/xava/core.jsp -text
-MiEscuela/web/xava/descriptionsList.jsp -text
-MiEscuela/web/xava/descriptionsListIcons.jsp -text
 MiEscuela/web/xava/detail.jsp -text
 MiEscuela/web/xava/editor.jsp -text
 MiEscuela/web/xava/editorIcons.jsp -text
@@ -1714,6 +1715,7 @@ MiEscuela/web/xava/editors/moneyEditor.jsp -text
 MiEscuela/web/xava/editors/notAvailableEditor.jsp -text
 MiEscuela/web/xava/editors/photoEditor.jsp -text
 MiEscuela/web/xava/editors/radioButtonEditor.jsp -text
+MiEscuela/web/xava/editors/referenceEditor.jsp -text
 MiEscuela/web/xava/editors/textAreaEditor.jsp -text
 MiEscuela/web/xava/editors/textEditor.jsp -text
 MiEscuela/web/xava/editors/validValueEditorCommon.jsp -text
@@ -1785,6 +1787,8 @@ MiEscuela/web/xava/messages.jsp -text
 MiEscuela/web/xava/module.jsp -text
 MiEscuela/web/xava/portlet.jsp -text
 MiEscuela/web/xava/propertyActions.jsp -text
+MiEscuela/web/xava/reference.jsp -text
+MiEscuela/web/xava/referenceEditorIcons.jsp -text
 MiEscuela/web/xava/referenceSearch.jsp -text
 MiEscuela/web/xava/script.jsp -text
 MiEscuela/web/xava/sections.jsp -text
@@ -2039,8 +2043,6 @@ MySchool/web/xava/comparatorsBooleanCombo.jsp -text
 MySchool/web/xava/comparatorsCombo.jsp -text
 MySchool/web/xava/comparatorsValidValuesCombo.jsp -text
 MySchool/web/xava/core.jsp -text
-MySchool/web/xava/descriptionsList.jsp -text
-MySchool/web/xava/descriptionsListIcons.jsp -text
 MySchool/web/xava/detail.jsp -text
 MySchool/web/xava/editor.jsp -text
 MySchool/web/xava/editorIcons.jsp -text
@@ -2613,6 +2615,7 @@ MySchool/web/xava/editors/moneyEditor.jsp -text
 MySchool/web/xava/editors/notAvailableEditor.jsp -text
 MySchool/web/xava/editors/photoEditor.jsp -text
 MySchool/web/xava/editors/radioButtonEditor.jsp -text
+MySchool/web/xava/editors/referenceEditor.jsp -text
 MySchool/web/xava/editors/textAreaEditor.jsp -text
 MySchool/web/xava/editors/textEditor.jsp -text
 MySchool/web/xava/editors/validValueEditorCommon.jsp -text
@@ -2684,6 +2687,8 @@ MySchool/web/xava/messages.jsp -text
 MySchool/web/xava/module.jsp -text
 MySchool/web/xava/portlet.jsp -text
 MySchool/web/xava/propertyActions.jsp -text
+MySchool/web/xava/reference.jsp -text
+MySchool/web/xava/referenceEditorIcons.jsp -text
 MySchool/web/xava/referenceSearch.jsp -text
 MySchool/web/xava/script.jsp -text
 MySchool/web/xava/sections.jsp -text
