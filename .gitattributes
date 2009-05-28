@@ -7581,6 +7581,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/ServiceOnlyPOJOTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ServiceTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/SeveralModulesTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ShipmentChargeTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/ShipmentSeparatedTimeTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ShipmentTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/SizeTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/StateHibernateTest.java -text
