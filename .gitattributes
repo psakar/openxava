@@ -4110,6 +4110,7 @@ OpenXava/src/org/openxava/calculators/IntegerCalculator.java -text
 OpenXava/src/org/openxava/calculators/LongCalculator.java -text
 OpenXava/src/org/openxava/calculators/NextIntegerCalculator.java -text
 OpenXava/src/org/openxava/calculators/NextLongCalculator.java -text
+OpenXava/src/org/openxava/calculators/NullCalculator.java -text
 OpenXava/src/org/openxava/calculators/NullDateCalculator.java -text
 OpenXava/src/org/openxava/calculators/SequenceCalculator.java -text
 OpenXava/src/org/openxava/calculators/StringCalculator.java -text
@@ -8476,12 +8477,10 @@ OpenXavaTest/test-src/org/openxava/test/tests/XavaSuite.java -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
