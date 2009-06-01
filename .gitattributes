@@ -1068,6 +1068,7 @@ Invoicing/properties/jndi.properties -text
 Invoicing/properties/logging.properties -text
 Invoicing/properties/xava-junit.properties -text
 Invoicing/properties/xava.properties -text
+Invoicing/src/org/openxava/invoicing/model/Customer.java -text
 Invoicing/web/WEB-INF/dwr.xml -text
 Invoicing/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
 Invoicing/web/WEB-INF/fonts/DejaVuSans-BoldOblique.ttf -text
