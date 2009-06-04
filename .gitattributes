@@ -1055,6 +1055,8 @@ Invoicing/.settings/.component -text
 Invoicing/.settings/org.eclipse.jdt.core.prefs -text
 Invoicing/.settings/org.eclipse.wst.common.project.facet.core.xml -text
 Invoicing/build.xml -text
+Invoicing/chapter4-src/org/openxava/invoicing/model/Customer.java -text
+Invoicing/chapter4-src/org/openxava/invoicing/model/Product.java -text
 Invoicing/i18n/Invoicing-labels_en.properties -text
 Invoicing/i18n/Invoicing-messages_en.properties -text
 Invoicing/persistence/GalleryImage.hbm.xml -text
@@ -1068,7 +1070,9 @@ Invoicing/properties/jndi.properties -text
 Invoicing/properties/logging.properties -text
 Invoicing/properties/xava-junit.properties -text
 Invoicing/properties/xava.properties -text
+Invoicing/src/org/openxava/invoicing/model/Category.java -text
 Invoicing/src/org/openxava/invoicing/model/Customer.java -text
+Invoicing/src/org/openxava/invoicing/model/Product.java -text
 Invoicing/web/WEB-INF/dwr.xml -text
 Invoicing/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
 Invoicing/web/WEB-INF/fonts/DejaVuSans-BoldOblique.ttf -text
