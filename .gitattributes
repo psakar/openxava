@@ -5034,6 +5034,7 @@ OpenXava/web/editors/calendar/skins/aqua/theme.css -text
 OpenXava/web/editors/calendar/skins/aqua/title-bg.gif -text
 OpenXava/web/editors/calendar/skins/aqua/today-bg.gif -text
 OpenXava/web/editors/changeImage.jsp -text
+OpenXava/web/editors/collectionEditor.jsp -text
 OpenXava/web/editors/dateCalendarEditor.jsp -text svneol=unset#application/octet-stream
 OpenXava/web/editors/dateTimeCombinedCalendarEditor.jsp -text
 OpenXava/web/editors/dateTimeSeparatedCalendarEditor.jsp -text
@@ -7573,6 +7574,18 @@ OpenXavaTest/i18n/portlets/BeforeGoingToFormula_ca.properties -text
 OpenXavaTest/i18n/portlets/BeforeGoingToFormula_en.properties -text
 OpenXavaTest/i18n/portlets/BeforeGoingToFormula_es.properties -text
 OpenXavaTest/i18n/portlets/BeforeGoingToFormula_fr.properties -text
+OpenXavaTest/i18n/portlets/BlogComment_ca.properties -text
+OpenXavaTest/i18n/portlets/BlogComment_en.properties -text
+OpenXavaTest/i18n/portlets/BlogComment_es.properties -text
+OpenXavaTest/i18n/portlets/BlogComment_fr.properties -text
+OpenXavaTest/i18n/portlets/Blog_ca.properties -text
+OpenXavaTest/i18n/portlets/Blog_en.properties -text
+OpenXavaTest/i18n/portlets/Blog_es.properties -text
+OpenXavaTest/i18n/portlets/Blog_fr.properties -text
+OpenXavaTest/i18n/portlets/CarrierFellowsNames_ca.properties -text
+OpenXavaTest/i18n/portlets/CarrierFellowsNames_en.properties -text
+OpenXavaTest/i18n/portlets/CarrierFellowsNames_es.properties -text
+OpenXavaTest/i18n/portlets/CarrierFellowsNames_fr.properties -text
 OpenXavaTest/i18n/portlets/CarrierWithCalculatedFellows_ca.properties -text
 OpenXavaTest/i18n/portlets/CarrierWithCalculatedFellows_en.properties -text
 OpenXavaTest/i18n/portlets/CarrierWithCalculatedFellows_es.properties -text
@@ -8021,6 +8034,10 @@ OpenXavaTest/i18n/portlets/ShipmentCharge_ca.properties -text
 OpenXavaTest/i18n/portlets/ShipmentCharge_en.properties -text
 OpenXavaTest/i18n/portlets/ShipmentCharge_es.properties -text
 OpenXavaTest/i18n/portlets/ShipmentCharge_fr.properties -text
+OpenXavaTest/i18n/portlets/ShipmentSeparatedTime_ca.properties -text
+OpenXavaTest/i18n/portlets/ShipmentSeparatedTime_en.properties -text
+OpenXavaTest/i18n/portlets/ShipmentSeparatedTime_es.properties -text
+OpenXavaTest/i18n/portlets/ShipmentSeparatedTime_fr.properties -text
 OpenXavaTest/i18n/portlets/Shipment_ca.properties -text
 OpenXavaTest/i18n/portlets/Shipment_en.properties -text
 OpenXavaTest/i18n/portlets/Shipment_es.properties -text
@@ -8107,6 +8124,8 @@ OpenXavaTest/java5-src/org/openxava/test/model/AdditionalDetail.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/AdditionalDetailKey.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Address.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/AverageSpeed.java -text
+OpenXavaTest/java5-src/org/openxava/test/model/Blog.java -text
+OpenXavaTest/java5-src/org/openxava/test/model/BlogComment.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Carrier.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Clerk.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/ClerkKey.java -text
@@ -8369,6 +8388,8 @@ OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/test-src/org/openxava/test/tests/AJAXTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/AnnotatedPOJOTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/AverageSpeedTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/BlogTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/CarrierFellowsNamesTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/CarrierTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/CarrierWithCalculatedFellowsTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/CarrierWithReadOnlyCalculatedFellowsTest.java -text
@@ -8482,10 +8503,12 @@ OpenXavaTest/test-src/org/openxava/test/tests/XavaSuite.java -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
@@ -9339,6 +9362,8 @@ OpenXavaTest/web/xava/editors/FCKeditor/htaccess.txt -text
 OpenXavaTest/web/xava/editors/FCKeditor/license.txt -text
 OpenXavaTest/web/xava/editors/actionEditor.jsp -text
 OpenXavaTest/web/xava/editors/addImages.jsp -text
+OpenXavaTest/web/xava/editors/blogCommentsEditor.jsp -text
+OpenXavaTest/web/xava/editors/blogCommentsListEditor.jsp -text
 OpenXavaTest/web/xava/editors/boldLabelEditor.jsp -text
 OpenXavaTest/web/xava/editors/booleanEditor.jsp -text
 OpenXavaTest/web/xava/editors/calendar/calendar-blue.css -text
@@ -9412,7 +9437,9 @@ OpenXavaTest/web/xava/editors/calendar/skins/aqua/status-bg.gif -text
 OpenXavaTest/web/xava/editors/calendar/skins/aqua/theme.css -text
 OpenXavaTest/web/xava/editors/calendar/skins/aqua/title-bg.gif -text
 OpenXavaTest/web/xava/editors/calendar/skins/aqua/today-bg.gif -text
+OpenXavaTest/web/xava/editors/carriersNamesEditor.jsp -text
 OpenXavaTest/web/xava/editors/changeImage.jsp -text
+OpenXavaTest/web/xava/editors/collectionEditor.jsp -text
 OpenXavaTest/web/xava/editors/colorEditor.jsp -text
 OpenXavaTest/web/xava/editors/colorFrameEditor.jsp -text
 OpenXavaTest/web/xava/editors/currentTimeMillisEditor.jsp -text
