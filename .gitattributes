@@ -1070,6 +1070,7 @@ Invoicing/properties/jndi.properties -text
 Invoicing/properties/logging.properties -text
 Invoicing/properties/xava-junit.properties -text
 Invoicing/properties/xava.properties -text
+Invoicing/src/org/openxava/invoicing/model/Address.java -text
 Invoicing/src/org/openxava/invoicing/model/Category.java -text
 Invoicing/src/org/openxava/invoicing/model/Customer.java -text
 Invoicing/src/org/openxava/invoicing/model/Product.java -text
