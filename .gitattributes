@@ -1070,9 +1070,13 @@ Invoicing/properties/jndi.properties -text
 Invoicing/properties/logging.properties -text
 Invoicing/properties/xava-junit.properties -text
 Invoicing/properties/xava.properties -text
+Invoicing/src/org/openxava/invoicing/calculators/NextNumberForYearCalculator.java -text
 Invoicing/src/org/openxava/invoicing/model/Address.java -text
 Invoicing/src/org/openxava/invoicing/model/Category.java -text
 Invoicing/src/org/openxava/invoicing/model/Customer.java -text
+Invoicing/src/org/openxava/invoicing/model/Detail.java -text
+Invoicing/src/org/openxava/invoicing/model/Invoice.java -text
+Invoicing/src/org/openxava/invoicing/model/InvoiceKey.java -text
 Invoicing/src/org/openxava/invoicing/model/Product.java -text
 Invoicing/web/WEB-INF/dwr.xml -text
 Invoicing/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
