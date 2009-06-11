@@ -8318,6 +8318,7 @@ OpenXavaTest/src/org/openxava/test/actions/OnChangeSubfamilySearchAction.java -t
 OpenXavaTest/src/org/openxava/test/actions/OnChangeVehicleAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeVoidAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeWarehouseAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/OnSelectFellowCarriersCalculatedAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnSelectIngredientAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/PrefixAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/RemoveDeliveryDetailAction.java -text
@@ -8473,6 +8474,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/Product4Test.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ProductTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ProductWithSectionTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ProgrammerTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/PruebasInstantaneas.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/PublicJSPTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/SellerCannotCreateCustomerTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/SellerJSPTest.java -text
