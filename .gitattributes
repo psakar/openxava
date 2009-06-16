@@ -5761,6 +5761,7 @@ OpenXavaDoc/web/apidocs/org/openxava/calculators/LongCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/ModelPropertyCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/NextIntegerCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/NextLongCalculator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/calculators/NullCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/NullDateCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/SequenceCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/StringCalculator.html -text
@@ -5799,6 +5800,7 @@ OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/LongCalculator.html -
 OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/ModelPropertyCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/NextIntegerCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/NextLongCalculator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/NullCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/NullDateCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/SequenceCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/calculators/class-use/StringCalculator.html -text
