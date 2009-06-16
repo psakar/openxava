@@ -789,6 +789,7 @@ AccessTracking/web/xava/editors/calendar/skins/aqua/theme.css -text
 AccessTracking/web/xava/editors/calendar/skins/aqua/title-bg.gif -text
 AccessTracking/web/xava/editors/calendar/skins/aqua/today-bg.gif -text
 AccessTracking/web/xava/editors/changeImage.jsp -text
+AccessTracking/web/xava/editors/collectionEditor.jsp -text
 AccessTracking/web/xava/editors/dateCalendarEditor.jsp -text
 AccessTracking/web/xava/editors/dateTimeCalendarEditor.jsp -text
 AccessTracking/web/xava/editors/dateTimeCombinedCalendarEditor.jsp -text
@@ -2583,6 +2584,7 @@ MiEscuela/web/xava/editors/calendar/skins/aqua/theme.css -text
 MiEscuela/web/xava/editors/calendar/skins/aqua/title-bg.gif -text
 MiEscuela/web/xava/editors/calendar/skins/aqua/today-bg.gif -text
 MiEscuela/web/xava/editors/changeImage.jsp -text
+MiEscuela/web/xava/editors/collectionEditor.jsp -text
 MiEscuela/web/xava/editors/dateCalendarEditor.jsp -text
 MiEscuela/web/xava/editors/dateTimeCalendarEditor.jsp -text
 MiEscuela/web/xava/editors/dateTimeCombinedCalendarEditor.jsp -text
@@ -3483,6 +3485,7 @@ MySchool/web/xava/editors/calendar/skins/aqua/theme.css -text
 MySchool/web/xava/editors/calendar/skins/aqua/title-bg.gif -text
 MySchool/web/xava/editors/calendar/skins/aqua/today-bg.gif -text
 MySchool/web/xava/editors/changeImage.jsp -text
+MySchool/web/xava/editors/collectionEditor.jsp -text
 MySchool/web/xava/editors/dateCalendarEditor.jsp -text
 MySchool/web/xava/editors/dateTimeCalendarEditor.jsp -text
 MySchool/web/xava/editors/dateTimeCombinedCalendarEditor.jsp -text
@@ -7595,6 +7598,10 @@ OpenXavaTest/i18n/portlets/CarrierWithCalculatedFellows_ca.properties -text
 OpenXavaTest/i18n/portlets/CarrierWithCalculatedFellows_en.properties -text
 OpenXavaTest/i18n/portlets/CarrierWithCalculatedFellows_es.properties -text
 OpenXavaTest/i18n/portlets/CarrierWithCalculatedFellows_fr.properties -text
+OpenXavaTest/i18n/portlets/CarrierWithCollectionsTogether_ca.properties -text
+OpenXavaTest/i18n/portlets/CarrierWithCollectionsTogether_en.properties -text
+OpenXavaTest/i18n/portlets/CarrierWithCollectionsTogether_es.properties -text
+OpenXavaTest/i18n/portlets/CarrierWithCollectionsTogether_fr.properties -text
 OpenXavaTest/i18n/portlets/CarrierWithReadOnlyCalculatedFellows_ca.properties -text
 OpenXavaTest/i18n/portlets/CarrierWithReadOnlyCalculatedFellows_en.properties -text
 OpenXavaTest/i18n/portlets/CarrierWithReadOnlyCalculatedFellows_es.properties -text
@@ -8451,6 +8458,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/InvoiceFromDeliveriesTest.java -te
 OpenXavaTest/test-src/org/openxava/test/tests/InvoiceNestedSectionsTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/InvoiceNoListTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/InvoiceTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/IsTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/IssueTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/JPATest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/JavaProgrammerTest.java -text
