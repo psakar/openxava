@@ -1695,6 +1695,7 @@ Invoicing/web/xava/editors/calendar/skins/aqua/theme.css -text
 Invoicing/web/xava/editors/calendar/skins/aqua/title-bg.gif -text
 Invoicing/web/xava/editors/calendar/skins/aqua/today-bg.gif -text
 Invoicing/web/xava/editors/changeImage.jsp -text
+Invoicing/web/xava/editors/collectionEditor.jsp -text
 Invoicing/web/xava/editors/dateCalendarEditor.jsp -text
 Invoicing/web/xava/editors/dateTimeCombinedCalendarEditor.jsp -text
 Invoicing/web/xava/editors/dateTimeSeparatedCalendarEditor.jsp -text
@@ -1710,6 +1711,7 @@ Invoicing/web/xava/editors/labelEditor.jsp -text
 Invoicing/web/xava/editors/moneyEditor.jsp -text
 Invoicing/web/xava/editors/notAvailableEditor.jsp -text
 Invoicing/web/xava/editors/radioButtonEditor.jsp -text
+Invoicing/web/xava/editors/referenceEditor.jsp -text
 Invoicing/web/xava/editors/textAreaEditor.jsp -text
 Invoicing/web/xava/editors/textEditor.jsp -text
 Invoicing/web/xava/editors/validValueEditorCommon.jsp -text
@@ -1779,6 +1781,8 @@ Invoicing/web/xava/messages.jsp -text
 Invoicing/web/xava/module.jsp -text
 Invoicing/web/xava/portlet.jsp -text
 Invoicing/web/xava/propertyActions.jsp -text
+Invoicing/web/xava/reference.jsp -text
+Invoicing/web/xava/referenceEditorIcons.jsp -text
 Invoicing/web/xava/referenceSearch.jsp -text
 Invoicing/web/xava/sections.jsp -text
 Invoicing/web/xava/style/default.css -text
