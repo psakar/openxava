@@ -1076,6 +1076,7 @@ Invoicing/src/org/openxava/invoicing/model/Address.java -text
 Invoicing/src/org/openxava/invoicing/model/Category.java -text
 Invoicing/src/org/openxava/invoicing/model/Customer.java -text
 Invoicing/src/org/openxava/invoicing/model/Detail.java -text
+Invoicing/src/org/openxava/invoicing/model/Identifiable.java -text
 Invoicing/src/org/openxava/invoicing/model/Invoice.java -text
 Invoicing/src/org/openxava/invoicing/model/InvoiceKey.java -text
 Invoicing/src/org/openxava/invoicing/model/Product.java -text
