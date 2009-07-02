@@ -8373,6 +8373,7 @@ OpenXavaTest/src/org/openxava/test/actions/VerifyEditablesProductAction.java -te
 OpenXavaTest/src/org/openxava/test/actions/ViewCurrentYearInvoicesAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ViewDeliveryFromInvoiceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ViewProductFromInvoiceDetailAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/VoidAction.java -text
 OpenXavaTest/src/org/openxava/test/calculators/AdviceCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/CarrierRemarksCalculator.java -text
 OpenXavaTest/src/org/openxava/test/calculators/DefaultProductPriceCalculator.java -text
