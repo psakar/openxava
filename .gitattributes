@@ -6962,14 +6962,6 @@ OpenXavaTest/filtered-files/Office.hbm.xml -text
 OpenXavaTest/filtered-files/Office.xml -text
 OpenXavaTest/filtered-files/Office2.hbm.xml -text
 OpenXavaTest/filtered-files/Office2.xml -text
-OpenXavaTest/filtered-files/OpenXavaTest-labels_ca.properties -text
-OpenXavaTest/filtered-files/OpenXavaTest-labels_en.properties -text
-OpenXavaTest/filtered-files/OpenXavaTest-labels_es.properties -text
-OpenXavaTest/filtered-files/OpenXavaTest-labels_fr.properties -text
-OpenXavaTest/filtered-files/OpenXavaTest-messages_ca.properties -text
-OpenXavaTest/filtered-files/OpenXavaTest-messages_en.properties -text
-OpenXavaTest/filtered-files/OpenXavaTest-messages_es.properties -text
-OpenXavaTest/filtered-files/OpenXavaTest-messages_fr.properties -text
 OpenXavaTest/filtered-files/Product.hbm.xml -text
 OpenXavaTest/filtered-files/Product.xml -text
 OpenXavaTest/filtered-files/Product2.hbm.xml -text
@@ -7017,7 +7009,6 @@ OpenXavaTest/filtered-files/aspects.xml -text
 OpenXavaTest/filtered-files/code-generators.xml -text
 OpenXavaTest/filtered-files/controllers.xml -text
 OpenXavaTest/filtered-files/converters.xml -text
-OpenXavaTest/filtered-files/datasource.properties -text
 OpenXavaTest/filtered-files/default-size.xml -text
 OpenXavaTest/filtered-files/dtds/aplicacion.dtd -text
 OpenXavaTest/filtered-files/dtds/application.dtd -text
