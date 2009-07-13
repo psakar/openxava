@@ -1059,6 +1059,7 @@ Invoicing/build.xml -text
 Invoicing/chapter4-src/org/openxava/invoicing/model/Customer.java -text
 Invoicing/chapter4-src/org/openxava/invoicing/model/Product.java -text
 Invoicing/chapter4-src/org/openxava/invoicing/tests/CustomerTest.java -text
+Invoicing/chapter4-src/org/openxava/invoicing/tests/ProductTest.java -text
 Invoicing/chapter5-src/org/openxava/invoicing/calculators/NextNumberForYearCalculator.java -text
 Invoicing/chapter5-src/org/openxava/invoicing/model/Address.java -text
 Invoicing/chapter5-src/org/openxava/invoicing/model/Author.java -text
