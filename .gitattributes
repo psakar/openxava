@@ -8217,6 +8217,10 @@ OpenXavaTest/java5-src/org/openxava/test/model/Subfamily.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Subfamily2.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/SubfamilyInfo.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Task.java -text
+OpenXavaTest/java5-src/org/openxava/test/model/ToDoComponent.java -text
+OpenXavaTest/java5-src/org/openxava/test/model/ToDoComponentTask.java -text
+OpenXavaTest/java5-src/org/openxava/test/model/ToDoList.java -text
+OpenXavaTest/java5-src/org/openxava/test/model/ToDoTask.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/TransportCharge.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/TransportCharge2.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/TransportCharge2Key.java -text
@@ -8523,6 +8527,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/Subfamily2Test.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/SubfamilySelectTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/SubfamilyTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/TaskTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/ToDoListTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/TransportCharge2Test.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/TransportChargeTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/TransportChargeTestBase.java -text
