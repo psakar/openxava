@@ -4004,6 +4004,7 @@ OpenXava/lib/htmlunit-core-js.jar -text
 OpenXava/lib/htmlunit.jar -text
 OpenXava/lib/jsp-api.jar -text
 OpenXava/lib/jta.jar -text
+OpenXava/lib/junit.jar -text
 OpenXava/lib/nekohtml.jar -text
 OpenXava/lib/portlet-api-1.0.jar -text
 OpenXava/lib/sac.jar -text
