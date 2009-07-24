@@ -1100,11 +1100,12 @@ Invoicing/src/org/openxava/invoicing/calculators/NextNumberForYearCalculator.jav
 Invoicing/src/org/openxava/invoicing/model/Address.java -text
 Invoicing/src/org/openxava/invoicing/model/Author.java -text
 Invoicing/src/org/openxava/invoicing/model/Category.java -text
+Invoicing/src/org/openxava/invoicing/model/CommercialDocument.java -text
+Invoicing/src/org/openxava/invoicing/model/CommercialDocumentKey.java -text
 Invoicing/src/org/openxava/invoicing/model/Customer.java -text
 Invoicing/src/org/openxava/invoicing/model/Detail.java -text
 Invoicing/src/org/openxava/invoicing/model/Identifiable.java -text
 Invoicing/src/org/openxava/invoicing/model/Invoice.java -text
-Invoicing/src/org/openxava/invoicing/model/InvoiceKey.java -text
 Invoicing/src/org/openxava/invoicing/model/Product.java -text
 Invoicing/src/org/openxava/invoicing/tests/AuthorTest.java -text
 Invoicing/src/org/openxava/invoicing/tests/CategoryTest.java -text
