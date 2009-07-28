@@ -8158,6 +8158,7 @@ OpenXavaTest/i18n/portlets/Year_ca.properties -text
 OpenXavaTest/i18n/portlets/Year_en.properties -text
 OpenXavaTest/i18n/portlets/Year_es.properties -text
 OpenXavaTest/i18n/portlets/Year_fr.properties -text
+OpenXavaTest/java5-src/org/openxava/test/action/OnChangeRangesTypeAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/FamilyProductsReportAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/InvoiceReportAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/NewWarehouseAction.java -text
@@ -8221,7 +8222,9 @@ OpenXavaTest/java5-src/org/openxava/test/model/Product2.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Product3.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Product4.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Programmer.java -text
+OpenXavaTest/java5-src/org/openxava/test/model/Ranges.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Receptionist.java -text
+OpenXavaTest/java5-src/org/openxava/test/model/Report.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Seller.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/SellerLevel.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Service.java -text
@@ -8430,6 +8433,7 @@ OpenXavaTest/src/org/openxava/test/model/IWithName.java -text
 OpenXavaTest/src/org/openxava/test/model/PriceException.java -text
 OpenXavaTest/src/org/openxava/test/model/ProductException.java -text
 OpenXavaTest/src/org/openxava/test/model/xejb/FamilyBean.java -text
+OpenXavaTest/src/org/openxava/test/servlets/TestServlet.java -text
 OpenXavaTest/src/org/openxava/test/validators/CheapProductValidator.java -text
 OpenXavaTest/src/org/openxava/test/validators/DeliveryValidator.java -text
 OpenXavaTest/src/org/openxava/test/validators/ExcludeStringValidator.java -text
@@ -8528,6 +8532,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/ProductTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ProductWithSectionTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ProgrammerTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/PublicJSPTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/ReportTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/SellerCannotCreateCustomerTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/SellerJSPTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/SellerTest.java -text
@@ -8547,6 +8552,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/Subfamily2Test.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/SubfamilySelectTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/SubfamilyTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/TaskTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/TestServletTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ToDoListTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/TransportCharge2Test.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/TransportChargeTest.java -text
@@ -8917,6 +8923,7 @@ OpenXavaTest/web/WEB-INF/lib/tracking.jar -text
 OpenXavaTest/web/WEB-INF/liferay-display.xml -text
 OpenXavaTest/web/WEB-INF/openxava.tld -text
 OpenXavaTest/web/WEB-INF/portlet.xml -text
+OpenXavaTest/web/WEB-INF/servlets.xml -text
 OpenXavaTest/web/WEB-INF/web.xml -text
 OpenXavaTest/web/custom-jsp/deliveryType.jsp -text
 OpenXavaTest/web/custom-jsp/seller.jsp -text
