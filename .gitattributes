@@ -6781,6 +6781,7 @@ OpenXavaTest/.ox3-classpath -text svneol=unset#application/octet-stream
 OpenXavaTest/.project -text
 OpenXavaTest/.settings/.component -text
 OpenXavaTest/.settings/.ox2-component -text svneol=unset#application/octet-stream
+OpenXavaTest/.settings/.ox3-component -text
 OpenXavaTest/.settings/org.eclipse.jdt.core.prefs -text
 OpenXavaTest/.settings/org.eclipse.jst.common.project.facet.core.prefs -text
 OpenXavaTest/.settings/org.eclipse.wst.common.project.facet.core.xml -text
@@ -6865,7 +6866,9 @@ OpenXavaTest/build/hibernate/Office2.hbm.xml -text
 OpenXavaTest/build/hibernate/Product.hbm.xml -text
 OpenXavaTest/build/hibernate/Product2.hbm.xml -text
 OpenXavaTest/build/hibernate/Product3.hbm.xml -text
+OpenXavaTest/build/hibernate/Ranges.hbm.xml -text
 OpenXavaTest/build/hibernate/Receptionist.hbm.xml -text
+OpenXavaTest/build/hibernate/Report.hbm.xml -text
 OpenXavaTest/build/hibernate/Seller.hbm.xml -text
 OpenXavaTest/build/hibernate/SellerLevel.hbm.xml -text
 OpenXavaTest/build/hibernate/Service.hbm.xml -text
@@ -6910,6 +6913,8 @@ OpenXavaTest/components/Office2.xml -text
 OpenXavaTest/components/Product.xml -text
 OpenXavaTest/components/Product2.xml -text
 OpenXavaTest/components/Product3.xml -text
+OpenXavaTest/components/Ranges.xml -text
+OpenXavaTest/components/Report.xml -text
 OpenXavaTest/components/Seller.xml -text
 OpenXavaTest/components/SellerLevel.xml -text
 OpenXavaTest/components/Service.xml -text
@@ -6985,13 +6990,25 @@ OpenXavaTest/filtered-files/Office.hbm.xml -text
 OpenXavaTest/filtered-files/Office.xml -text
 OpenXavaTest/filtered-files/Office2.hbm.xml -text
 OpenXavaTest/filtered-files/Office2.xml -text
+OpenXavaTest/filtered-files/OpenXavaTest-labels_ca.properties -text
+OpenXavaTest/filtered-files/OpenXavaTest-labels_en.properties -text
+OpenXavaTest/filtered-files/OpenXavaTest-labels_es.properties -text
+OpenXavaTest/filtered-files/OpenXavaTest-labels_fr.properties -text
+OpenXavaTest/filtered-files/OpenXavaTest-messages_ca.properties -text
+OpenXavaTest/filtered-files/OpenXavaTest-messages_en.properties -text
+OpenXavaTest/filtered-files/OpenXavaTest-messages_es.properties -text
+OpenXavaTest/filtered-files/OpenXavaTest-messages_fr.properties -text
 OpenXavaTest/filtered-files/Product.hbm.xml -text
 OpenXavaTest/filtered-files/Product.xml -text
 OpenXavaTest/filtered-files/Product2.hbm.xml -text
 OpenXavaTest/filtered-files/Product2.xml -text
 OpenXavaTest/filtered-files/Product3.hbm.xml -text
 OpenXavaTest/filtered-files/Product3.xml -text
+OpenXavaTest/filtered-files/Ranges.hbm.xml -text
+OpenXavaTest/filtered-files/Ranges.xml -text
 OpenXavaTest/filtered-files/Receptionist.hbm.xml -text
+OpenXavaTest/filtered-files/Report.hbm.xml -text
+OpenXavaTest/filtered-files/Report.xml -text
 OpenXavaTest/filtered-files/Seller.hbm.xml -text
 OpenXavaTest/filtered-files/Seller.xml -text
 OpenXavaTest/filtered-files/SellerLevel.hbm.xml -text
@@ -7032,6 +7049,7 @@ OpenXavaTest/filtered-files/aspects.xml -text
 OpenXavaTest/filtered-files/code-generators.xml -text
 OpenXavaTest/filtered-files/controllers.xml -text
 OpenXavaTest/filtered-files/converters.xml -text
+OpenXavaTest/filtered-files/datasource.properties -text
 OpenXavaTest/filtered-files/default-size.xml -text
 OpenXavaTest/filtered-files/dtds/aplicacion.dtd -text
 OpenXavaTest/filtered-files/dtds/application.dtd -text
@@ -7116,7 +7134,9 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/IOffice2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IProduct.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IProduct2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IProduct3.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IRanges.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IReceptionist.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IReport.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ISeller.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ISellerLevel.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IService.java -text
@@ -7147,7 +7167,9 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/Office2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Product.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Product2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Product3.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Ranges.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Receptionist.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Report.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Seller.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/SellerLevel.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Service.java -text
@@ -8156,7 +8178,6 @@ OpenXavaTest/i18n/portlets/Year_ca.properties -text
 OpenXavaTest/i18n/portlets/Year_en.properties -text
 OpenXavaTest/i18n/portlets/Year_es.properties -text
 OpenXavaTest/i18n/portlets/Year_fr.properties -text
-OpenXavaTest/java5-src/org/openxava/test/action/OnChangeRangesTypeAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/FamilyProductsReportAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/InvoiceReportAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/NewWarehouseAction.java -text
@@ -8164,6 +8185,7 @@ OpenXavaTest/java5-src/org/openxava/test/actions/OnChangeCustomerNameAction.java
 OpenXavaTest/java5-src/org/openxava/test/actions/OnChangeDeliveryByAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/OnChangeDistanceAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/OnChangeGroupInColorAction.java -text
+OpenXavaTest/java5-src/org/openxava/test/actions/OnChangeRangesTypeAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/TranslateCarrierNameAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/ViewNameFellowCarriersSelectedAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/formatters/WarehouseFormatter.java -text
@@ -8268,6 +8290,7 @@ OpenXavaTest/ox2-src/org/openxava/test/actions/OnChangeCustomerNameAction.java -
 OpenXavaTest/ox2-src/org/openxava/test/actions/OnChangeDeliveryByAction.java -text
 OpenXavaTest/ox2-src/org/openxava/test/actions/OnChangeDistanceAction.java -text
 OpenXavaTest/ox2-src/org/openxava/test/actions/OnChangeGroupInColorAction.java -text
+OpenXavaTest/ox2-src/org/openxava/test/actions/OnChangeRangesTypeAction.java -text
 OpenXavaTest/ox2-src/org/openxava/test/actions/TranslateCarrierNameAction.java -text
 OpenXavaTest/ox2-src/org/openxava/test/actions/ViewNameFellowCarriersSelectedAction.java -text
 OpenXavaTest/ox2-src/org/openxava/test/calculators/AmountsSumCalculator.java -text
@@ -8447,6 +8470,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/AverageSpeedTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/BlogTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/CarrierFellowsNamesTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/CarrierTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/CarrierTestBase.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/CarrierWithCalculatedFellowsTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/CarrierWithReadOnlyCalculatedFellowsTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/CarrierWithSectionsTest.java -text
