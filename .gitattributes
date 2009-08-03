@@ -8528,6 +8528,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/InvoiceTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/IsTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/IssueTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/JPATest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/JavaProgrammerExtendedViewsTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/JavaProgrammerTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/JourneyTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/MapFacadeTest.java -text
