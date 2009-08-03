@@ -1107,8 +1107,10 @@ Invoicing/src/org/openxava/invoicing/model/Order.java -text
 Invoicing/src/org/openxava/invoicing/model/Product.java -text
 Invoicing/src/org/openxava/invoicing/tests/AuthorTest.java -text
 Invoicing/src/org/openxava/invoicing/tests/CategoryTest.java -text
+Invoicing/src/org/openxava/invoicing/tests/CommercialDocumentTest.java -text
 Invoicing/src/org/openxava/invoicing/tests/CustomerTest.java -text
 Invoicing/src/org/openxava/invoicing/tests/InvoiceTest.java -text
+Invoicing/src/org/openxava/invoicing/tests/OrderTest.java -text
 Invoicing/src/org/openxava/invoicing/tests/ProductTest.java -text
 Invoicing/web/WEB-INF/dwr.xml -text
 Invoicing/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
