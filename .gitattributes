@@ -8447,6 +8447,7 @@ OpenXavaTest/src/org/openxava/test/actions/RemoveSelectedDeliveryDetailsAction.j
 OpenXavaTest/src/org/openxava/test/actions/RemoveViewDeliveryInInvoiceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ReturnToInvoiceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SaveDeliveryDetailAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/SaveTaskAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SearchDeliveryAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SearchInvoiceFromDeliveryAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SeeMessageAction.java -text
