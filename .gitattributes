@@ -1111,6 +1111,7 @@ Invoicing/properties/logging.properties -text
 Invoicing/properties/xava-junit.properties -text
 Invoicing/properties/xava.properties -text
 Invoicing/src/org/openxava/invoicing/calculators/NextNumberForYearCalculator.java -text
+Invoicing/src/org/openxava/invoicing/calculators/PricePerUnitCalculator.java -text
 Invoicing/src/org/openxava/invoicing/model/Address.java -text
 Invoicing/src/org/openxava/invoicing/model/Author.java -text
 Invoicing/src/org/openxava/invoicing/model/Category.java -text
