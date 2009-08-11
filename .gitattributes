@@ -8423,6 +8423,7 @@ OpenXavaTest/src/org/openxava/test/actions/HideShowGroupAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideShowPropertyAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/InitChangeProductsPriceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/InitDefaultYearTo2002Action.java -text
+OpenXavaTest/src/org/openxava/test/actions/InitModules.java -text
 OpenXavaTest/src/org/openxava/test/actions/ListCustomerInvoicesAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ModifyWarehouseFromReferenceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/MoveRelationWithSellerToRemarksAction.java -text
