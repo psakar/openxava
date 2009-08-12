@@ -1104,6 +1104,7 @@ Invoicing/persistence/META-INF/persistence.xml -text
 Invoicing/persistence/hibernate.cfg.xml -text
 Invoicing/properties/BeansContext.properties -text
 Invoicing/properties/LoginContextFactory.properties -text
+Invoicing/properties/invocing.properties -text
 Invoicing/properties/jndi-jboss.properties -text
 Invoicing/properties/jndi-websphere.properties -text
 Invoicing/properties/jndi.properties -text
@@ -1129,6 +1130,7 @@ Invoicing/src/org/openxava/invoicing/tests/CustomerTest.java -text
 Invoicing/src/org/openxava/invoicing/tests/InvoiceTest.java -text
 Invoicing/src/org/openxava/invoicing/tests/OrderTest.java -text
 Invoicing/src/org/openxava/invoicing/tests/ProductTest.java -text
+Invoicing/src/org/openxava/invoicing/util/InvoicingPreferences.java -text
 Invoicing/web/WEB-INF/dwr.xml -text
 Invoicing/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
 Invoicing/web/WEB-INF/fonts/DejaVuSans-BoldOblique.ttf -text
