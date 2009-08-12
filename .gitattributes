@@ -8236,6 +8236,7 @@ OpenXavaTest/java5-src/org/openxava/test/actions/OnChangeRangesTypeAction.java -
 OpenXavaTest/java5-src/org/openxava/test/actions/TranslateCarrierNameAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/ViewNameFellowCarriersSelectedAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/formatters/WarehouseFormatter.java -text
+OpenXavaTest/java5-src/org/openxava/test/model/AcademicYear.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/AdditionalDetail.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/AdditionalDetailKey.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Address.java -text
@@ -8289,6 +8290,10 @@ OpenXavaTest/java5-src/org/openxava/test/model/Product2.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Product3.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Product4.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Programmer.java -text
+OpenXavaTest/java5-src/org/openxava/test/model/Quarter.java -text
+OpenXavaTest/java5-src/org/openxava/test/model/QuarterKey.java -text
+OpenXavaTest/java5-src/org/openxava/test/model/QuarterSubject.java -text
+OpenXavaTest/java5-src/org/openxava/test/model/QuarterSubjectKey.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Ranges.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Receptionist.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Report.java -text
@@ -8306,6 +8311,8 @@ OpenXavaTest/java5-src/org/openxava/test/model/State.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Subfamily.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Subfamily2.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/SubfamilyInfo.java -text
+OpenXavaTest/java5-src/org/openxava/test/model/SubjectGroup.java -text
+OpenXavaTest/java5-src/org/openxava/test/model/SubjectGroupKey.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Task.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/ToDoComponent.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/ToDoComponentTask.java -text
@@ -8423,7 +8430,7 @@ OpenXavaTest/src/org/openxava/test/actions/HideShowGroupAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideShowPropertyAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/InitChangeProductsPriceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/InitDefaultYearTo2002Action.java -text
-OpenXavaTest/src/org/openxava/test/actions/InitModules.java -text
+OpenXavaTest/src/org/openxava/test/actions/InitModulesAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ListCustomerInvoicesAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ModifyWarehouseFromReferenceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/MoveRelationWithSellerToRemarksAction.java -text
@@ -8604,6 +8611,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/ProductTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ProductWithSectionTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ProgrammerTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/PublicJSPTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/QuarterTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ReportTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/SellerCannotCreateCustomerTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/SellerJSPTest.java -text
@@ -8637,12 +8645,10 @@ OpenXavaTest/test-src/org/openxava/test/tests/XavaSuite.java -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
