@@ -1104,7 +1104,7 @@ Invoicing/persistence/META-INF/persistence.xml -text
 Invoicing/persistence/hibernate.cfg.xml -text
 Invoicing/properties/BeansContext.properties -text
 Invoicing/properties/LoginContextFactory.properties -text
-Invoicing/properties/invocing.properties -text
+Invoicing/properties/invoicing.properties -text
 Invoicing/properties/jndi-jboss.properties -text
 Invoicing/properties/jndi-websphere.properties -text
 Invoicing/properties/jndi.properties -text
@@ -1113,6 +1113,7 @@ Invoicing/properties/xava-junit.properties -text
 Invoicing/properties/xava.properties -text
 Invoicing/src/org/openxava/invoicing/calculators/NextNumberForYearCalculator.java -text
 Invoicing/src/org/openxava/invoicing/calculators/PricePerUnitCalculator.java -text
+Invoicing/src/org/openxava/invoicing/calculators/VatPercentageCalculator.java -text
 Invoicing/src/org/openxava/invoicing/model/Address.java -text
 Invoicing/src/org/openxava/invoicing/model/Author.java -text
 Invoicing/src/org/openxava/invoicing/model/Category.java -text
