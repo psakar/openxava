@@ -6935,6 +6935,7 @@ OpenXavaTest/components/Office2.xml -text
 OpenXavaTest/components/Product.xml -text
 OpenXavaTest/components/Product2.xml -text
 OpenXavaTest/components/Product3.xml -text
+OpenXavaTest/components/Quarter.xml -text
 OpenXavaTest/components/Ranges.xml -text
 OpenXavaTest/components/Report.xml -text
 OpenXavaTest/components/Seller.xml -text
@@ -6948,6 +6949,7 @@ OpenXavaTest/components/Size.xml -text
 OpenXavaTest/components/State.xml -text
 OpenXavaTest/components/Subfamily.xml -text
 OpenXavaTest/components/Subfamily2.xml -text
+OpenXavaTest/components/SubjectGroup.xml -text
 OpenXavaTest/components/Task.xml -text
 OpenXavaTest/components/TransportCharge.xml -text
 OpenXavaTest/components/TransportCharge2.xml -text
