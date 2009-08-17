@@ -6931,6 +6931,7 @@ OpenXavaTest/components/Issue.xml -text
 OpenXavaTest/components/Journey.xml -text
 OpenXavaTest/components/Office.xml -text
 OpenXavaTest/components/Office2.xml -text
+OpenXavaTest/components/Order.xml -text
 OpenXavaTest/components/Product.xml -text
 OpenXavaTest/components/Product2.xml -text
 OpenXavaTest/components/Product3.xml -text
@@ -8289,6 +8290,8 @@ OpenXavaTest/java5-src/org/openxava/test/model/Nameable.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Office.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Office2.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Office2Key.java -text
+OpenXavaTest/java5-src/org/openxava/test/model/Order.java -text
+OpenXavaTest/java5-src/org/openxava/test/model/OrderDetail.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Product.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Product2.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Product3.java -text
@@ -8373,6 +8376,9 @@ OpenXavaTest/ox2-src/org/openxava/test/calculators/InvoiceDetail2OidCalculator.j
 OpenXavaTest/ox2-src/org/openxava/test/calculators/InvoiceDetailIsFreeCalculator.java -text
 OpenXavaTest/ox2-src/org/openxava/test/calculators/InvoiceDetailOidCalculator.java -text
 OpenXavaTest/ox2-src/org/openxava/test/calculators/IsLocalCustomerCalculator.java -text
+OpenXavaTest/ox2-src/org/openxava/test/calculators/OrderAmountCalculator.java -text
+OpenXavaTest/ox2-src/org/openxava/test/calculators/OrderDetailAmountCalculator.java -text
+OpenXavaTest/ox2-src/org/openxava/test/calculators/OrderNumberCalculator.java -text
 OpenXavaTest/ox2-src/org/openxava/test/calculators/PercentageCalculator.java -text
 OpenXavaTest/ox2-src/org/openxava/test/calculators/ProductsValuesOfSubfamilyCalculator.java -text
 OpenXavaTest/ox2-src/org/openxava/test/calculators/SellerInvoiceDiscountCalculator.java -text
@@ -8598,6 +8604,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/OfficeOnlyWarehouseTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/OfficeTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/OnlyEditDetailsInvoiceTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/OnlyReadDetailsInvoiceTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/OrderTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/POJOTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/PositiveValidatorTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/Product2ColorWithFrameTest.java -text
