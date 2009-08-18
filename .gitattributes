@@ -1131,6 +1131,7 @@ Invoicing/src/org/openxava/invoicing/tests/InvoiceTest.java -text
 Invoicing/src/org/openxava/invoicing/tests/OrderTest.java -text
 Invoicing/src/org/openxava/invoicing/tests/ProductTest.java -text
 Invoicing/src/org/openxava/invoicing/util/InvoicingPreferences.java -text
+Invoicing/src/org/openxava/invoicing/validators/DeliveredToBeInInvoiceValidator.java -text
 Invoicing/web/WEB-INF/dwr.xml -text
 Invoicing/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
 Invoicing/web/WEB-INF/fonts/DejaVuSans-BoldOblique.ttf -text
