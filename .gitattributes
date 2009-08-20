@@ -1111,6 +1111,7 @@ Invoicing/properties/jndi.properties -text
 Invoicing/properties/logging.properties -text
 Invoicing/properties/xava-junit.properties -text
 Invoicing/properties/xava.properties -text
+Invoicing/src/org/openxava/invoicing/annotations/ISBN.java -text
 Invoicing/src/org/openxava/invoicing/calculators/PricePerUnitCalculator.java -text
 Invoicing/src/org/openxava/invoicing/calculators/VatPercentageCalculator.java -text
 Invoicing/src/org/openxava/invoicing/model/Address.java -text
@@ -1131,7 +1132,7 @@ Invoicing/src/org/openxava/invoicing/tests/InvoiceTest.java -text
 Invoicing/src/org/openxava/invoicing/tests/OrderTest.java -text
 Invoicing/src/org/openxava/invoicing/tests/ProductTest.java -text
 Invoicing/src/org/openxava/invoicing/util/InvoicingPreferences.java -text
-Invoicing/src/org/openxava/invoicing/validators/OrderRemoveValidator.java -text
+Invoicing/src/org/openxava/invoicing/validators/ISBNValidator.java -text
 Invoicing/web/WEB-INF/dwr.xml -text
 Invoicing/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
 Invoicing/web/WEB-INF/fonts/DejaVuSans-BoldOblique.ttf -text
@@ -1147,9 +1148,11 @@ Invoicing/web/WEB-INF/lib/antlr.jar -text
 Invoicing/web/WEB-INF/lib/asm.jar -text
 Invoicing/web/WEB-INF/lib/cglib.jar -text
 Invoicing/web/WEB-INF/lib/commons-beanutils.jar -text
+Invoicing/web/WEB-INF/lib/commons-codec.jar -text
 Invoicing/web/WEB-INF/lib/commons-collections.jar -text
 Invoicing/web/WEB-INF/lib/commons-digester.jar -text
 Invoicing/web/WEB-INF/lib/commons-fileupload.jar -text
+Invoicing/web/WEB-INF/lib/commons-httpclient.jar -text
 Invoicing/web/WEB-INF/lib/commons-io.jar -text
 Invoicing/web/WEB-INF/lib/commons-logging.jar -text
 Invoicing/web/WEB-INF/lib/commons-validator.jar -text
@@ -1163,6 +1166,7 @@ Invoicing/web/WEB-INF/lib/hibernate-commons-annotations.jar -text
 Invoicing/web/WEB-INF/lib/hibernate-entitymanager.jar -text
 Invoicing/web/WEB-INF/lib/hibernate-validator.jar -text
 Invoicing/web/WEB-INF/lib/hibernate3.jar -text
+Invoicing/web/WEB-INF/lib/htmlunit.jar -text
 Invoicing/web/WEB-INF/lib/imap.jar -text
 Invoicing/web/WEB-INF/lib/itext.jar -text
 Invoicing/web/WEB-INF/lib/jakarta-oro.jar -text
