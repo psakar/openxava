@@ -8353,6 +8353,7 @@ OpenXavaTest/java5-src/org/openxava/test/model/Subfamily2.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/SubfamilyInfo.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/SubjectGroup.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/SubjectGroupKey.java -text
+OpenXavaTest/java5-src/org/openxava/test/model/SummerCourse.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Task.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/ToDoComponent.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/ToDoComponentTask.java -text
@@ -8677,6 +8678,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/StateJPATest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/Subfamily2Test.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/SubfamilySelectTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/SubfamilyTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/SummerCourseTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/TaskTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/TestServletTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ToDoListTest.java -text
