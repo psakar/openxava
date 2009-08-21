@@ -8445,6 +8445,7 @@ OpenXavaTest/src/org/openxava/test/actions/ActivateDeactivateSectionAction.java 
 OpenXavaTest/src/org/openxava/test/actions/AddViewDeliveryInInvoiceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/AssertComboDeliveriesAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/CarriersSearchAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/ChainToReturnPreviousModuleAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeActiveYearAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeInvoiceTabAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeLabelAction.java -text
