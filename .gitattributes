@@ -3,7 +3,6 @@ AccessTracking/.classpath -text
 AccessTracking/.project -text
 AccessTracking/.settings/.component -text
 AccessTracking/.settings/org.eclipse.jdt.core.prefs -text
-AccessTracking/.settings/org.eclipse.jst.common.project.facet.core.prefs -text
 AccessTracking/.settings/org.eclipse.wst.common.project.facet.core.xml -text
 AccessTracking/.settings/org.eclipse.wst.validation.prefs -text
 AccessTracking/build.xml -text
@@ -3801,7 +3800,6 @@ OpenXava/.externalToolBuilders/org.eclipse.wst.validation.validationbuilder.laun
 OpenXava/.project -text
 OpenXava/.settings/.component -text
 OpenXava/.settings/org.eclipse.jdt.core.prefs -text
-OpenXava/.settings/org.eclipse.jst.common.project.facet.core.prefs -text
 OpenXava/.settings/org.eclipse.wst.common.project.facet.core.xml -text
 OpenXava/.settings/org.eclipse.wst.validation.prefs -text
 OpenXava/.vcm_meta -text svneol=unset#application/octet-stream
@@ -6809,7 +6807,6 @@ OpenXavaTest/.settings/.component -text
 OpenXavaTest/.settings/.ox2-component -text svneol=unset#application/octet-stream
 OpenXavaTest/.settings/.ox3-component -text
 OpenXavaTest/.settings/org.eclipse.jdt.core.prefs -text
-OpenXavaTest/.settings/org.eclipse.jst.common.project.facet.core.prefs -text
 OpenXavaTest/.settings/org.eclipse.wst.common.project.facet.core.xml -text
 OpenXavaTest/.settings/org.eclipse.wst.validation.prefs -text
 OpenXavaTest/build.xml -text
@@ -6861,6 +6858,7 @@ OpenXavaTest/build/ejb/META-INF/ibm-ejb-jar-bnd.xmi -text svneol=unset#applicati
 OpenXavaTest/build/ejb/META-INF/ibm-ejb-jar-ext.xmi -text svneol=unset#application/octet-stream
 OpenXavaTest/build/ejb/META-INF/jboss.xml -text
 OpenXavaTest/build/ejb/META-INF/jbosscmp-jdbc.xml -text
+OpenXavaTest/build/hibernate/AcademicYear.hbm.xml -text
 OpenXavaTest/build/hibernate/AdditionalDetail.hbm.xml -text
 OpenXavaTest/build/hibernate/AverageSpeed.hbm.xml -text
 OpenXavaTest/build/hibernate/Carrier.hbm.xml -text
@@ -6889,6 +6887,8 @@ OpenXavaTest/build/hibernate/Issue.hbm.xml -text
 OpenXavaTest/build/hibernate/Journey.hbm.xml -text
 OpenXavaTest/build/hibernate/Office.hbm.xml -text
 OpenXavaTest/build/hibernate/Office2.hbm.xml -text
+OpenXavaTest/build/hibernate/Order.hbm.xml -text
+OpenXavaTest/build/hibernate/OrderDetail.hbm.xml -text
 OpenXavaTest/build/hibernate/Product.hbm.xml -text
 OpenXavaTest/build/hibernate/Product2.hbm.xml -text
 OpenXavaTest/build/hibernate/Product3.hbm.xml -text
@@ -6940,7 +6940,6 @@ OpenXavaTest/components/Order.xml -text
 OpenXavaTest/components/Product.xml -text
 OpenXavaTest/components/Product2.xml -text
 OpenXavaTest/components/Product3.xml -text
-OpenXavaTest/components/Quarter.xml -text
 OpenXavaTest/components/Ranges.xml -text
 OpenXavaTest/components/Report.xml -text
 OpenXavaTest/components/Seller.xml -text
@@ -6954,7 +6953,6 @@ OpenXavaTest/components/Size.xml -text
 OpenXavaTest/components/State.xml -text
 OpenXavaTest/components/Subfamily.xml -text
 OpenXavaTest/components/Subfamily2.xml -text
-OpenXavaTest/components/SubjectGroup.xml -text
 OpenXavaTest/components/Task.xml -text
 OpenXavaTest/components/TransportCharge.xml -text
 OpenXavaTest/components/TransportCharge2.xml -text
@@ -6966,6 +6964,7 @@ OpenXavaTest/components/dtds/component.dtd -text
 OpenXavaTest/components/dtds/componente.dtd -text
 OpenXavaTest/data/openxava-test-db.script -text
 OpenXavaTest/data/openxava-test-ds.xml -text
+OpenXavaTest/filtered-files/AcademicYear.hbm.xml -text
 OpenXavaTest/filtered-files/AdditionalDetail.hbm.xml -text
 OpenXavaTest/filtered-files/AverageSpeed.hbm.xml -text
 OpenXavaTest/filtered-files/AverageSpeed.xml -text
@@ -7027,6 +7026,9 @@ OpenXavaTest/filtered-files/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/filtered-files/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/filtered-files/OpenXavaTest-messages_es.properties -text
 OpenXavaTest/filtered-files/OpenXavaTest-messages_fr.properties -text
+OpenXavaTest/filtered-files/Order.hbm.xml -text
+OpenXavaTest/filtered-files/Order.xml -text
+OpenXavaTest/filtered-files/OrderDetail.hbm.xml -text
 OpenXavaTest/filtered-files/Product.hbm.xml -text
 OpenXavaTest/filtered-files/Product.xml -text
 OpenXavaTest/filtered-files/Product2.hbm.xml -text
@@ -7109,6 +7111,7 @@ OpenXavaTest/filtered-files/stereotype-type-default.xml -text
 OpenXavaTest/filtered-files/validators.xml -text
 OpenXavaTest/gen-src-xava/dnas-ejb.properties -text
 OpenXavaTest/gen-src-xava/dnas-pojo.properties -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/AcademicYear.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/AdditionalDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Address.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/AverageSpeed.java -text
@@ -7131,6 +7134,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/Family2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/FilterBySubfamily.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Formula.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/FormulaIngredient.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IAcademicYear.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IAdditionalDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IAverageSpeed.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ICarrier.java -text
@@ -7160,6 +7164,8 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/IIssue.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IJourney.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IOffice.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IOffice2.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IOrder.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IOrderDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IProduct.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IProduct2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IProduct3.java -text
@@ -7193,6 +7199,8 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/Issue.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Journey.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Office.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Office2.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Order.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/OrderDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Product.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Product2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Product3.java -text
@@ -7250,7 +7258,9 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/OfficeBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/Product2Bean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/Product3Bean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/ProductBean.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/RangesBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/ReceptionistBean.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/ReportBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/SellerBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/SellerLevelBean.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/xejb/ServiceBean.java -text
@@ -7449,6 +7459,18 @@ OpenXavaTest/gen-src/org/openxava/test/model/OfficeKey.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/OfficeRemote.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/OfficeUtil.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/OfficeValue.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/OrderData.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/OrderDetailData.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/OrderDetailHome.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/OrderDetailKey.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/OrderDetailRemote.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/OrderDetailUtil.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/OrderDetailValue.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/OrderHome.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/OrderKey.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/OrderRemote.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/OrderUtil.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/OrderValue.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/Product2Data.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/Product2Home.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/Product2Key.java -text
@@ -7467,12 +7489,24 @@ OpenXavaTest/gen-src/org/openxava/test/model/ProductKey.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/ProductRemote.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/ProductUtil.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/ProductValue.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/RangesData.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/RangesHome.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/RangesKey.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/RangesRemote.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/RangesUtil.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/RangesValue.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/ReceptionistData.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/ReceptionistHome.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/ReceptionistKey.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/ReceptionistRemote.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/ReceptionistUtil.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/ReceptionistValue.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/ReportData.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/ReportHome.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/ReportKey.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/ReportRemote.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/ReportUtil.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/ReportValue.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/SellerData.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/SellerHome.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/SellerKey.java -text
@@ -7614,7 +7648,9 @@ OpenXavaTest/gen-src/org/openxava/test/model/xejb/OfficeCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/Product2CMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/Product3CMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/ProductCMP.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/xejb/RangesCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/ReceptionistCMP.java -text
+OpenXavaTest/gen-src/org/openxava/test/model/xejb/ReportCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/SellerCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/SellerLevelCMP.java -text
 OpenXavaTest/gen-src/org/openxava/test/model/xejb/ServiceCMP.java -text
@@ -8207,6 +8243,10 @@ OpenXavaTest/i18n/portlets/SubjectGroup_ca.properties -text
 OpenXavaTest/i18n/portlets/SubjectGroup_en.properties -text
 OpenXavaTest/i18n/portlets/SubjectGroup_es.properties -text
 OpenXavaTest/i18n/portlets/SubjectGroup_fr.properties -text
+OpenXavaTest/i18n/portlets/SummerCourse_ca.properties -text
+OpenXavaTest/i18n/portlets/SummerCourse_en.properties -text
+OpenXavaTest/i18n/portlets/SummerCourse_es.properties -text
+OpenXavaTest/i18n/portlets/SummerCourse_fr.properties -text
 OpenXavaTest/i18n/portlets/Task_ca.properties -text
 OpenXavaTest/i18n/portlets/Task_en.properties -text
 OpenXavaTest/i18n/portlets/Task_es.properties -text
@@ -8694,12 +8734,10 @@ OpenXavaTest/test-src/org/openxava/test/tests/XavaSuite.java -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
