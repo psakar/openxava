@@ -6072,6 +6072,7 @@ OpenXavaDoc/web/apidocs/org/openxava/formatters/DateTimeSeparatedFormatter.html 
 OpenXavaDoc/web/apidocs/org/openxava/formatters/IFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/IMultipleValuesFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/ImageFormatter.html -text
+OpenXavaDoc/web/apidocs/org/openxava/formatters/MemoFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/MoneyFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/MultipleValuesByPassFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/SQLTimeFormatter.html -text
@@ -6087,6 +6088,7 @@ OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/DateTimeSeparatedForma
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/IFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/IMultipleValuesFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/ImageFormatter.html -text
+OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/MemoFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/MoneyFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/MultipleValuesByPassFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/SQLTimeFormatter.html -text
