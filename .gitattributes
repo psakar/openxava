@@ -1153,8 +1153,10 @@ Invoicing/web/WEB-INF/lib/commons-digester.jar -text
 Invoicing/web/WEB-INF/lib/commons-fileupload.jar -text
 Invoicing/web/WEB-INF/lib/commons-httpclient.jar -text
 Invoicing/web/WEB-INF/lib/commons-io.jar -text
+Invoicing/web/WEB-INF/lib/commons-lang.jar -text
 Invoicing/web/WEB-INF/lib/commons-logging.jar -text
 Invoicing/web/WEB-INF/lib/commons-validator.jar -text
+Invoicing/web/WEB-INF/lib/cssparser.jar -text
 Invoicing/web/WEB-INF/lib/dom4j.jar -text
 Invoicing/web/WEB-INF/lib/dsn.jar -text
 Invoicing/web/WEB-INF/lib/dwr.jar -text
@@ -1165,6 +1167,7 @@ Invoicing/web/WEB-INF/lib/hibernate-commons-annotations.jar -text
 Invoicing/web/WEB-INF/lib/hibernate-entitymanager.jar -text
 Invoicing/web/WEB-INF/lib/hibernate-validator.jar -text
 Invoicing/web/WEB-INF/lib/hibernate3.jar -text
+Invoicing/web/WEB-INF/lib/htmlunit-core-js.jar -text
 Invoicing/web/WEB-INF/lib/htmlunit.jar -text
 Invoicing/web/WEB-INF/lib/imap.jar -text
 Invoicing/web/WEB-INF/lib/itext.jar -text
@@ -1174,14 +1177,18 @@ Invoicing/web/WEB-INF/lib/javassist.jar -text
 Invoicing/web/WEB-INF/lib/jboss-archive-browsing.jar -text
 Invoicing/web/WEB-INF/lib/jstl.jar -text
 Invoicing/web/WEB-INF/lib/mailapi.jar -text
+Invoicing/web/WEB-INF/lib/nekohtml.jar -text
 Invoicing/web/WEB-INF/lib/openxava.jar -text
 Invoicing/web/WEB-INF/lib/ox-jdbc-adapters.jar -text
 Invoicing/web/WEB-INF/lib/poi.jar -text
 Invoicing/web/WEB-INF/lib/pop3.jar -text
+Invoicing/web/WEB-INF/lib/sac.jar -text
 Invoicing/web/WEB-INF/lib/slf4j-api.jar -text
 Invoicing/web/WEB-INF/lib/slf4j-jdk14.jar -text
 Invoicing/web/WEB-INF/lib/smtp.jar -text
 Invoicing/web/WEB-INF/lib/standard.jar -text
+Invoicing/web/WEB-INF/lib/xalan.jar -text
+Invoicing/web/WEB-INF/lib/xercesImpl.jar -text
 Invoicing/web/WEB-INF/web.xml -text
 Invoicing/web/xava/addColumns.jsp -text
 Invoicing/web/xava/addToCollection.jsp -text
