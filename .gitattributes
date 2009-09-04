@@ -4473,6 +4473,7 @@ OpenXava/src/org/openxava/view/meta/MetaView.java -text
 OpenXava/src/org/openxava/view/meta/MetaViewAction.java -text
 OpenXava/src/org/openxava/view/meta/PropertiesSeparator.java -text
 OpenXava/src/org/openxava/view/meta/xmlparse/ViewParser.java -text
+OpenXava/src/org/openxava/web/DescriptionList.java -text
 OpenXava/src/org/openxava/web/Ids.java -text
 OpenXava/src/org/openxava/web/WebEditors.java -text
 OpenXava/src/org/openxava/web/dwr/DWRBase.java -text
