@@ -6943,6 +6943,7 @@ OpenXavaTest/components/Ingredient.xml -text
 OpenXavaTest/components/Invoice.xml -text
 OpenXavaTest/components/Invoice2.xml -text
 OpenXavaTest/components/Issue.xml -text
+OpenXavaTest/components/IssueList.xml -text
 OpenXavaTest/components/Journey.xml -text
 OpenXavaTest/components/Office.xml -text
 OpenXavaTest/components/Office2.xml -text
@@ -6952,6 +6953,7 @@ OpenXavaTest/components/Product2.xml -text
 OpenXavaTest/components/Product3.xml -text
 OpenXavaTest/components/Ranges.xml -text
 OpenXavaTest/components/Report.xml -text
+OpenXavaTest/components/SelectSchema.xml -text
 OpenXavaTest/components/Seller.xml -text
 OpenXavaTest/components/SellerLevel.xml -text
 OpenXavaTest/components/Service.xml -text
@@ -8321,6 +8323,7 @@ OpenXavaTest/java5-src/org/openxava/test/actions/OnChangeDeliveryByAction.java -
 OpenXavaTest/java5-src/org/openxava/test/actions/OnChangeDistanceAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/OnChangeGroupInColorAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/OnChangeRangesTypeAction.java -text
+OpenXavaTest/java5-src/org/openxava/test/actions/SelectSchemaAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/TranslateCarrierNameAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/actions/ViewNameFellowCarriersSelectedAction.java -text
 OpenXavaTest/java5-src/org/openxava/test/formatters/WarehouseFormatter.java -text
@@ -8367,6 +8370,7 @@ OpenXavaTest/java5-src/org/openxava/test/model/InvoiceDetail.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/InvoiceDetail2.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/InvoiceKey.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Issue.java -text
+OpenXavaTest/java5-src/org/openxava/test/model/IssueList.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/JavaProgrammer.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Journey.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Nameable.java -text
@@ -8387,6 +8391,7 @@ OpenXavaTest/java5-src/org/openxava/test/model/QuarterSubjectKey.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Ranges.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Receptionist.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Report.java -text
+OpenXavaTest/java5-src/org/openxava/test/model/SelectSchema.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Seller.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/SellerLevel.java -text
 OpenXavaTest/java5-src/org/openxava/test/model/Service.java -text
@@ -8525,7 +8530,6 @@ OpenXavaTest/src/org/openxava/test/actions/HideShowGroupAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideShowPropertyAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/InitChangeProductsPriceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/InitDefaultYearTo2002Action.java -text
-OpenXavaTest/src/org/openxava/test/actions/InitModulesAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ListCustomerInvoicesAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ModifyWarehouseFromReferenceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/MoveRelationWithSellerToRemarksAction.java -text
@@ -8711,6 +8715,7 @@ OpenXavaTest/test-src/org/openxava/test/tests/ProgrammerTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/PublicJSPTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/QuarterTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/ReportTest.java -text
+OpenXavaTest/test-src/org/openxava/test/tests/SelectSchemaTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/SellerCannotCreateCustomerTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/SellerJSPTest.java -text
 OpenXavaTest/test-src/org/openxava/test/tests/SellerTest.java -text
