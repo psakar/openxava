@@ -5206,6 +5206,8 @@ OpenXava/web/imports.jsp -text
 OpenXava/web/jasperReport.jsp -text
 OpenXava/web/js/calendar.js -text
 OpenXava/web/js/editors.js -text
+OpenXava/web/js/jquery-ui.js -text
+OpenXava/web/js/jquery.js -text
 OpenXava/web/js/openxava.js -text
 OpenXava/web/list.jsp -text
 OpenXava/web/messages.jsp -text
@@ -5318,6 +5320,7 @@ OpenXava/web/style/liferay43/images/portlet/refresh.png -text
 OpenXava/web/style/liferay43/images/portlet/restore.png -text
 OpenXava/web/style/liferay43/images/progress_bar/loading_animation.gif -text
 OpenXava/web/style/liferay51/css/everything_unpacked.css -text
+OpenXava/web/style/liferay51/css/jquery-ui-patch.css -text
 OpenXava/web/style/liferay51/images/forms/button.png -text
 OpenXava/web/style/liferay51/images/forms/input_shadow.png -text
 OpenXava/web/style/liferay51/images/forms/input_shadow_dark.png -text
@@ -9070,6 +9073,8 @@ OpenXavaTest/web/xava/imports.jsp -text
 OpenXavaTest/web/xava/jasperReport.jsp -text
 OpenXavaTest/web/xava/js/calendar.js -text
 OpenXavaTest/web/xava/js/editors.js -text
+OpenXavaTest/web/xava/js/jquery-ui.js -text
+OpenXavaTest/web/xava/js/jquery.js -text
 OpenXavaTest/web/xava/js/openxava.js -text
 OpenXavaTest/web/xava/list.jsp -text
 OpenXavaTest/web/xava/messages.jsp -text
@@ -9183,6 +9188,7 @@ OpenXavaTest/web/xava/style/liferay43/images/portlet/refresh.png -text
 OpenXavaTest/web/xava/style/liferay43/images/portlet/restore.png -text
 OpenXavaTest/web/xava/style/liferay43/images/progress_bar/loading_animation.gif -text
 OpenXavaTest/web/xava/style/liferay51/css/everything_unpacked.css -text
+OpenXavaTest/web/xava/style/liferay51/css/jquery-ui-patch.css -text
 OpenXavaTest/web/xava/style/liferay51/images/forms/button.png -text
 OpenXavaTest/web/xava/style/liferay51/images/forms/input_shadow.png -text
 OpenXavaTest/web/xava/style/liferay51/images/forms/input_shadow_dark.png -text
