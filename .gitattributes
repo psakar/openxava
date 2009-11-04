@@ -2026,6 +2026,7 @@ Invoicing/web/xava/style/skins.css -text
 Invoicing/web/xava/style/swing.css -text
 Invoicing/web/xava/style/yahoo.css -text
 Invoicing/xava/application.xml -text
+Invoicing/xava/controllers.xml -text
 Invoicing/xava/dtds/aplicacion.dtd -text
 Invoicing/xava/dtds/application.dtd -text
 Invoicing/xava/dtds/aspectos.dtd -text
