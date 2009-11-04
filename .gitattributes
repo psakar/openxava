@@ -4524,6 +4524,8 @@ OpenXava/src/org/openxava/web/taglib/MessageTag.java -text
 OpenXava/web/WEB-INF/dwr.xml -text
 OpenXava/web/WEB-INF/fonts/DejaVuSans.ttf -text
 OpenXava/web/WEB-INF/fonts/LICENSE -text
+OpenXava/web/WEB-INF/ibm-web-bnd.xmi -text
+OpenXava/web/WEB-INF/ibm-web-ext.xmi -text
 OpenXava/web/WEB-INF/lib/activation.jar -text
 OpenXava/web/WEB-INF/lib/antlr.jar -text
 OpenXava/web/WEB-INF/lib/asm.jar -text
@@ -5219,6 +5221,21 @@ OpenXava/web/reference.jsp -text
 OpenXava/web/referenceEditorIcons.jsp -text
 OpenXava/web/referenceSearch.jsp -text
 OpenXava/web/sections.jsp -text
+OpenXava/web/style/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png -text
+OpenXava/web/style/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png -text
+OpenXava/web/style/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png -text
+OpenXava/web/style/cupertino/images/ui-bg_glass_50_3baae3_1x400.png -text
+OpenXava/web/style/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png -text
+OpenXava/web/style/cupertino/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png -text
+OpenXava/web/style/cupertino/images/ui-bg_highlight-hard_70_000000_1x100.png -text
+OpenXava/web/style/cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png -text
+OpenXava/web/style/cupertino/images/ui-bg_highlight-soft_25_ffef8f_1x100.png -text
+OpenXava/web/style/cupertino/images/ui-icons_2694e8_256x240.png -text
+OpenXava/web/style/cupertino/images/ui-icons_2e83ff_256x240.png -text
+OpenXava/web/style/cupertino/images/ui-icons_3d80b3_256x240.png -text
+OpenXava/web/style/cupertino/images/ui-icons_72a7cf_256x240.png -text
+OpenXava/web/style/cupertino/images/ui-icons_ffffff_256x240.png -text
+OpenXava/web/style/cupertino/jquery-ui.css -text
 OpenXava/web/style/default.css -text
 OpenXava/web/style/jetspeed.css -text svneol=unset#application/octet-stream
 OpenXava/web/style/liferay43/css/everything_unpacked.css -text
@@ -5368,6 +5385,21 @@ OpenXava/web/style/liferay51/js/theme_display.js -text
 OpenXava/web/style/openxava.css -text
 OpenXava/web/style/skins.css -text svneol=unset#application/octet-stream
 OpenXava/web/style/swing.css -text svneol=unset#application/octet-stream
+OpenXava/web/style/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png -text
+OpenXava/web/style/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png -text
+OpenXava/web/style/ui-lightness/images/ui-bg_flat_10_000000_40x100.png -text
+OpenXava/web/style/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png -text
+OpenXava/web/style/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png -text
+OpenXava/web/style/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png -text
+OpenXava/web/style/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png -text
+OpenXava/web/style/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png -text
+OpenXava/web/style/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png -text
+OpenXava/web/style/ui-lightness/images/ui-icons_222222_256x240.png -text
+OpenXava/web/style/ui-lightness/images/ui-icons_228ef1_256x240.png -text
+OpenXava/web/style/ui-lightness/images/ui-icons_ef8c08_256x240.png -text
+OpenXava/web/style/ui-lightness/images/ui-icons_ffd27a_256x240.png -text
+OpenXava/web/style/ui-lightness/images/ui-icons_ffffff_256x240.png -text
+OpenXava/web/style/ui-lightness/jquery-ui.css -text
 OpenXava/web/style/yahoo.css -text svneol=unset#application/octet-stream
 OpenXava/xava/META-INF/MANIFEST.MF -text
 OpenXava/xava/META-INF/taglib.tld -text
@@ -7428,6 +7460,10 @@ OpenXavaTest/i18n/portlets/Invoice_ca.properties -text
 OpenXavaTest/i18n/portlets/Invoice_en.properties -text
 OpenXavaTest/i18n/portlets/Invoice_es.properties -text
 OpenXavaTest/i18n/portlets/Invoice_fr.properties -text
+OpenXavaTest/i18n/portlets/IssueList_ca.properties -text
+OpenXavaTest/i18n/portlets/IssueList_en.properties -text
+OpenXavaTest/i18n/portlets/IssueList_es.properties -text
+OpenXavaTest/i18n/portlets/IssueList_fr.properties -text
 OpenXavaTest/i18n/portlets/Issue_ca.properties -text
 OpenXavaTest/i18n/portlets/Issue_en.properties -text
 OpenXavaTest/i18n/portlets/Issue_es.properties -text
@@ -7548,6 +7584,10 @@ OpenXavaTest/i18n/portlets/Report_ca.properties -text
 OpenXavaTest/i18n/portlets/Report_en.properties -text
 OpenXavaTest/i18n/portlets/Report_es.properties -text
 OpenXavaTest/i18n/portlets/Report_fr.properties -text
+OpenXavaTest/i18n/portlets/SelectSchema_ca.properties -text
+OpenXavaTest/i18n/portlets/SelectSchema_en.properties -text
+OpenXavaTest/i18n/portlets/SelectSchema_es.properties -text
+OpenXavaTest/i18n/portlets/SelectSchema_fr.properties -text
 OpenXavaTest/i18n/portlets/SellerCannotCreateCustomer_ca.properties -text
 OpenXavaTest/i18n/portlets/SellerCannotCreateCustomer_en.properties -text
 OpenXavaTest/i18n/portlets/SellerCannotCreateCustomer_es.properties -text
@@ -8069,10 +8109,12 @@ OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
@@ -8385,6 +8427,8 @@ OpenXavaTest/web/WEB-INF/classes/validators.xml -text
 OpenXavaTest/web/WEB-INF/dwr.xml -text
 OpenXavaTest/web/WEB-INF/fonts/DejaVuSans.ttf -text
 OpenXavaTest/web/WEB-INF/fonts/LICENSE -text
+OpenXavaTest/web/WEB-INF/ibm-web-bnd.xmi -text
+OpenXavaTest/web/WEB-INF/ibm-web-ext.xmi -text
 OpenXavaTest/web/WEB-INF/lib/activation.jar -text
 OpenXavaTest/web/WEB-INF/lib/antlr.jar -text
 OpenXavaTest/web/WEB-INF/lib/asm.jar -text
@@ -9101,6 +9145,21 @@ OpenXavaTest/web/xava/referenceEditorIcons.jsp -text
 OpenXavaTest/web/xava/referenceSearch.jsp -text
 OpenXavaTest/web/xava/sections.jsp -text
 OpenXavaTest/web/xava/severalModules.jsp -text
+OpenXavaTest/web/xava/style/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png -text
+OpenXavaTest/web/xava/style/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png -text
+OpenXavaTest/web/xava/style/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png -text
+OpenXavaTest/web/xava/style/cupertino/images/ui-bg_glass_50_3baae3_1x400.png -text
+OpenXavaTest/web/xava/style/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png -text
+OpenXavaTest/web/xava/style/cupertino/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png -text
+OpenXavaTest/web/xava/style/cupertino/images/ui-bg_highlight-hard_70_000000_1x100.png -text
+OpenXavaTest/web/xava/style/cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png -text
+OpenXavaTest/web/xava/style/cupertino/images/ui-bg_highlight-soft_25_ffef8f_1x100.png -text
+OpenXavaTest/web/xava/style/cupertino/images/ui-icons_2694e8_256x240.png -text
+OpenXavaTest/web/xava/style/cupertino/images/ui-icons_2e83ff_256x240.png -text
+OpenXavaTest/web/xava/style/cupertino/images/ui-icons_3d80b3_256x240.png -text
+OpenXavaTest/web/xava/style/cupertino/images/ui-icons_72a7cf_256x240.png -text
+OpenXavaTest/web/xava/style/cupertino/images/ui-icons_ffffff_256x240.png -text
+OpenXavaTest/web/xava/style/cupertino/jquery-ui.css -text
 OpenXavaTest/web/xava/style/default.css -text svneol=unset#application/octet-stream
 OpenXavaTest/web/xava/style/jetspeed.css -text svneol=unset#application/octet-stream
 OpenXavaTest/web/xava/style/liferay43/css/everything_unpacked.css -text
@@ -9250,6 +9309,21 @@ OpenXavaTest/web/xava/style/liferay51/js/theme_display.js -text
 OpenXavaTest/web/xava/style/openxava.css -text
 OpenXavaTest/web/xava/style/skins.css -text svneol=unset#application/octet-stream
 OpenXavaTest/web/xava/style/swing.css -text svneol=unset#application/octet-stream
+OpenXavaTest/web/xava/style/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png -text
+OpenXavaTest/web/xava/style/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png -text
+OpenXavaTest/web/xava/style/ui-lightness/images/ui-bg_flat_10_000000_40x100.png -text
+OpenXavaTest/web/xava/style/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png -text
+OpenXavaTest/web/xava/style/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png -text
+OpenXavaTest/web/xava/style/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png -text
+OpenXavaTest/web/xava/style/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png -text
+OpenXavaTest/web/xava/style/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png -text
+OpenXavaTest/web/xava/style/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png -text
+OpenXavaTest/web/xava/style/ui-lightness/images/ui-icons_222222_256x240.png -text
+OpenXavaTest/web/xava/style/ui-lightness/images/ui-icons_228ef1_256x240.png -text
+OpenXavaTest/web/xava/style/ui-lightness/images/ui-icons_ef8c08_256x240.png -text
+OpenXavaTest/web/xava/style/ui-lightness/images/ui-icons_ffd27a_256x240.png -text
+OpenXavaTest/web/xava/style/ui-lightness/images/ui-icons_ffffff_256x240.png -text
+OpenXavaTest/web/xava/style/ui-lightness/jquery-ui.css -text
 OpenXavaTest/web/xava/style/yahoo.css -text svneol=unset#application/octet-stream
 OpenXavaTest/websphere-as400.properties -text
 OpenXavaTest/websphere61-as400.properties -text
