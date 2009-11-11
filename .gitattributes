@@ -4526,8 +4526,6 @@ OpenXava/src/org/openxava/web/taglib/MessageTag.java -text
 OpenXava/web/WEB-INF/dwr.xml -text
 OpenXava/web/WEB-INF/fonts/DejaVuSans.ttf -text
 OpenXava/web/WEB-INF/fonts/LICENSE -text
-OpenXava/web/WEB-INF/ibm-web-bnd.xmi -text
-OpenXava/web/WEB-INF/ibm-web-ext.xmi -text
 OpenXava/web/WEB-INF/lib/activation.jar -text
 OpenXava/web/WEB-INF/lib/antlr.jar -text
 OpenXava/web/WEB-INF/lib/asm.jar -text
@@ -7799,6 +7797,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Nameable.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Office.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Office2.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Office2Key.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/OneLineAddress.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Order.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/OrderDetail.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Product.java -text
@@ -7875,6 +7874,7 @@ OpenXavaTest/properties/xava.properties -text
 OpenXavaTest/reports/Invoice.jrxml -text
 OpenXavaTest/reports/Products.jrxml -text
 OpenXavaTest/src/org/openxava/test/actions/ActivateDeactivateSectionAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/AddFullAddressAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/AddViewDeliveryInInvoiceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/AssertComboDeliveriesAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/CarriersSearchAction.java -text
@@ -7898,6 +7898,8 @@ OpenXavaTest/src/org/openxava/test/actions/EditInvoiceDetailAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/GenerateDeliveryNumberAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/GenerateDeliveryNumberPropertyAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/GetNameAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/GoAddFullAddressAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/GoFamilyProductsReportAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideDeleteAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideDeliveryActionsAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideDeliveryDetailAction.java -text
@@ -8429,8 +8431,6 @@ OpenXavaTest/web/WEB-INF/classes/validators.xml -text
 OpenXavaTest/web/WEB-INF/dwr.xml -text
 OpenXavaTest/web/WEB-INF/fonts/DejaVuSans.ttf -text
 OpenXavaTest/web/WEB-INF/fonts/LICENSE -text
-OpenXavaTest/web/WEB-INF/ibm-web-bnd.xmi -text
-OpenXavaTest/web/WEB-INF/ibm-web-ext.xmi -text
 OpenXavaTest/web/WEB-INF/lib/activation.jar -text
 OpenXavaTest/web/WEB-INF/lib/antlr.jar -text
 OpenXavaTest/web/WEB-INF/lib/asm.jar -text
