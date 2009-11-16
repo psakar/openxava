@@ -4489,6 +4489,7 @@ OpenXava/src/org/openxava/view/meta/PropertiesSeparator.java -text
 OpenXava/src/org/openxava/view/meta/xmlparse/ViewParser.java -text
 OpenXava/src/org/openxava/web/DescriptionsLists.java -text
 OpenXava/src/org/openxava/web/Ids.java -text
+OpenXava/src/org/openxava/web/Jsp.java -text
 OpenXava/src/org/openxava/web/WebEditors.java -text
 OpenXava/src/org/openxava/web/dwr/DWRBase.java -text
 OpenXava/src/org/openxava/web/dwr/Module.java -text
