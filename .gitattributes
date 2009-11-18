@@ -4371,6 +4371,7 @@ OpenXava/src/org/openxava/tab/impl/IVectorTableModel.java -text
 OpenXava/src/org/openxava/tab/impl/IWithXTableModel.java -text
 OpenXava/src/org/openxava/tab/impl/IXTableModel.java -text
 OpenXava/src/org/openxava/tab/impl/JDBCTabProvider.java -text
+OpenXava/src/org/openxava/tab/impl/SelectedRowsXTableModel.java -text
 OpenXava/src/org/openxava/tab/impl/TabCalculator.java -text
 OpenXava/src/org/openxava/tab/impl/TabConverter.java -text
 OpenXava/src/org/openxava/tab/impl/TabException.java -text
@@ -4487,9 +4488,9 @@ OpenXava/src/org/openxava/view/meta/MetaView.java -text
 OpenXava/src/org/openxava/view/meta/MetaViewAction.java -text
 OpenXava/src/org/openxava/view/meta/PropertiesSeparator.java -text
 OpenXava/src/org/openxava/view/meta/xmlparse/ViewParser.java -text
+OpenXava/src/org/openxava/web/Actions.java -text
 OpenXava/src/org/openxava/web/DescriptionsLists.java -text
 OpenXava/src/org/openxava/web/Ids.java -text
-OpenXava/src/org/openxava/web/Jsp.java -text
 OpenXava/src/org/openxava/web/WebEditors.java -text
 OpenXava/src/org/openxava/web/dwr/DWRBase.java -text
 OpenXava/src/org/openxava/web/dwr/Module.java -text
@@ -7951,6 +7952,7 @@ OpenXavaTest/src/org/openxava/test/actions/SetPropertyValueNotifyingAction.java 
 OpenXavaTest/src/org/openxava/test/actions/ShowActiveYearAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ShowDeleteAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ShowListPropertyAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/ShowListTitleAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ShowMessageAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ShowSaveDeleteAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/StateHibernateDeleteAction.java -text
