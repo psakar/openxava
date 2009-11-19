@@ -7795,6 +7795,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Issue.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/IssueList.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/JavaProgrammer.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Journey.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Month.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Nameable.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Office.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Office2.java -text
@@ -8003,6 +8004,7 @@ OpenXavaTest/src/org/openxava/test/tests/CarrierWithCalculatedFellowsTest.java -
 OpenXavaTest/src/org/openxava/test/tests/CarrierWithReadOnlyCalculatedFellowsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CarrierWithSectionsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CarrierWithSpecialSearchTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/ChangeActiveYearTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ChangeProductsPrice2Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/ChangeProductsPriceTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ClerkTest.java -text
