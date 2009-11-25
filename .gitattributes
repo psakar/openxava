@@ -810,6 +810,7 @@ AccessTracking/web/xava/editors/textAreaEditor.jsp -text
 AccessTracking/web/xava/editors/textEditor.jsp -text
 AccessTracking/web/xava/editors/validValueEditorCommon.jsp -text
 AccessTracking/web/xava/editors/validValuesEditor.jsp -text
+AccessTracking/web/xava/editors/webURLEditor.jsp -text
 AccessTracking/web/xava/errors.jsp -text
 AccessTracking/web/xava/execute.jsp -text
 AccessTracking/web/xava/htmlTagsEditor.jsp -text
@@ -871,6 +872,8 @@ AccessTracking/web/xava/imports.jsp -text
 AccessTracking/web/xava/jasperReport.jsp -text
 AccessTracking/web/xava/js/calendar.js -text
 AccessTracking/web/xava/js/editors.js -text
+AccessTracking/web/xava/js/jquery-ui.js -text
+AccessTracking/web/xava/js/jquery.js -text
 AccessTracking/web/xava/js/openxava.js -text
 AccessTracking/web/xava/list.jsp -text
 AccessTracking/web/xava/messages.jsp -text
@@ -882,6 +885,21 @@ AccessTracking/web/xava/referenceEditorIcons.jsp -text
 AccessTracking/web/xava/referenceSearch.jsp -text
 AccessTracking/web/xava/script.jsp -text
 AccessTracking/web/xava/sections.jsp -text
+AccessTracking/web/xava/style/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png -text
+AccessTracking/web/xava/style/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png -text
+AccessTracking/web/xava/style/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png -text
+AccessTracking/web/xava/style/cupertino/images/ui-bg_glass_50_3baae3_1x400.png -text
+AccessTracking/web/xava/style/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png -text
+AccessTracking/web/xava/style/cupertino/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png -text
+AccessTracking/web/xava/style/cupertino/images/ui-bg_highlight-hard_70_000000_1x100.png -text
+AccessTracking/web/xava/style/cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png -text
+AccessTracking/web/xava/style/cupertino/images/ui-bg_highlight-soft_25_ffef8f_1x100.png -text
+AccessTracking/web/xava/style/cupertino/images/ui-icons_2694e8_256x240.png -text
+AccessTracking/web/xava/style/cupertino/images/ui-icons_2e83ff_256x240.png -text
+AccessTracking/web/xava/style/cupertino/images/ui-icons_3d80b3_256x240.png -text
+AccessTracking/web/xava/style/cupertino/images/ui-icons_72a7cf_256x240.png -text
+AccessTracking/web/xava/style/cupertino/images/ui-icons_ffffff_256x240.png -text
+AccessTracking/web/xava/style/cupertino/jquery-ui.css -text
 AccessTracking/web/xava/style/default.css -text
 AccessTracking/web/xava/style/jetspeed.css -text
 AccessTracking/web/xava/style/liferay43/css/everything_unpacked.css -text
@@ -984,6 +1002,21 @@ AccessTracking/web/xava/style/liferay43/images/portlet/refresh.png -text
 AccessTracking/web/xava/style/liferay43/images/portlet/restore.png -text
 AccessTracking/web/xava/style/liferay43/images/progress_bar/loading_animation.gif -text
 AccessTracking/web/xava/style/liferay51/css/everything_unpacked.css -text
+AccessTracking/web/xava/style/liferay51/css/jquery-ui-patch.css -text
+AccessTracking/web/xava/style/liferay51/images/application/close.png -text
+AccessTracking/web/xava/style/liferay51/images/application/close_small.png -text
+AccessTracking/web/xava/style/liferay51/images/application/datepicker_next.png -text
+AccessTracking/web/xava/style/liferay51/images/application/datepicker_previous.png -text
+AccessTracking/web/xava/style/liferay51/images/application/forbidden_action.png -text
+AccessTracking/web/xava/style/liferay51/images/application/handle_horizontal.png -text
+AccessTracking/web/xava/style/liferay51/images/application/handle_ne.png -text
+AccessTracking/web/xava/style/liferay51/images/application/handle_nw.png -text
+AccessTracking/web/xava/style/liferay51/images/application/handle_se.png -text
+AccessTracking/web/xava/style/liferay51/images/application/handle_sw.png -text
+AccessTracking/web/xava/style/liferay51/images/application/handle_vertical.png -text
+AccessTracking/web/xava/style/liferay51/images/application/loading_indicator.gif -text
+AccessTracking/web/xava/style/liferay51/images/application/tabs_bg.png -text
+AccessTracking/web/xava/style/liferay51/images/arrows/04_right.png -text
 AccessTracking/web/xava/style/liferay51/images/forms/button.png -text
 AccessTracking/web/xava/style/liferay51/images/forms/input_shadow.png -text
 AccessTracking/web/xava/style/liferay51/images/forms/input_shadow_dark.png -text
@@ -1016,6 +1049,21 @@ AccessTracking/web/xava/style/liferay51/js/theme_display.js -text
 AccessTracking/web/xava/style/openxava.css -text
 AccessTracking/web/xava/style/skins.css -text
 AccessTracking/web/xava/style/swing.css -text
+AccessTracking/web/xava/style/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png -text
+AccessTracking/web/xava/style/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png -text
+AccessTracking/web/xava/style/ui-lightness/images/ui-bg_flat_10_000000_40x100.png -text
+AccessTracking/web/xava/style/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png -text
+AccessTracking/web/xava/style/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png -text
+AccessTracking/web/xava/style/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png -text
+AccessTracking/web/xava/style/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png -text
+AccessTracking/web/xava/style/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png -text
+AccessTracking/web/xava/style/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png -text
+AccessTracking/web/xava/style/ui-lightness/images/ui-icons_222222_256x240.png -text
+AccessTracking/web/xava/style/ui-lightness/images/ui-icons_228ef1_256x240.png -text
+AccessTracking/web/xava/style/ui-lightness/images/ui-icons_ef8c08_256x240.png -text
+AccessTracking/web/xava/style/ui-lightness/images/ui-icons_ffd27a_256x240.png -text
+AccessTracking/web/xava/style/ui-lightness/images/ui-icons_ffffff_256x240.png -text
+AccessTracking/web/xava/style/ui-lightness/jquery-ui.css -text
 AccessTracking/web/xava/style/yahoo.css -text
 AccessTracking/websphere-as400.properties -text
 AccessTracking/xava/application.xml -text
@@ -2719,6 +2767,7 @@ MiEscuela/web/xava/editors/textAreaEditor.jsp -text
 MiEscuela/web/xava/editors/textEditor.jsp -text
 MiEscuela/web/xava/editors/validValueEditorCommon.jsp -text
 MiEscuela/web/xava/editors/validValuesEditor.jsp -text
+MiEscuela/web/xava/editors/webURLEditor.jsp -text
 MiEscuela/web/xava/errors.jsp -text
 MiEscuela/web/xava/execute.jsp -text
 MiEscuela/web/xava/htmlTagsEditor.jsp -text
@@ -2780,6 +2829,8 @@ MiEscuela/web/xava/imports.jsp -text
 MiEscuela/web/xava/jasperReport.jsp -text
 MiEscuela/web/xava/js/calendar.js -text
 MiEscuela/web/xava/js/editors.js -text
+MiEscuela/web/xava/js/jquery-ui.js -text
+MiEscuela/web/xava/js/jquery.js -text
 MiEscuela/web/xava/js/openxava.js -text
 MiEscuela/web/xava/list.jsp -text
 MiEscuela/web/xava/messages.jsp -text
@@ -2791,6 +2842,21 @@ MiEscuela/web/xava/referenceEditorIcons.jsp -text
 MiEscuela/web/xava/referenceSearch.jsp -text
 MiEscuela/web/xava/script.jsp -text
 MiEscuela/web/xava/sections.jsp -text
+MiEscuela/web/xava/style/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png -text
+MiEscuela/web/xava/style/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png -text
+MiEscuela/web/xava/style/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png -text
+MiEscuela/web/xava/style/cupertino/images/ui-bg_glass_50_3baae3_1x400.png -text
+MiEscuela/web/xava/style/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png -text
+MiEscuela/web/xava/style/cupertino/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png -text
+MiEscuela/web/xava/style/cupertino/images/ui-bg_highlight-hard_70_000000_1x100.png -text
+MiEscuela/web/xava/style/cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png -text
+MiEscuela/web/xava/style/cupertino/images/ui-bg_highlight-soft_25_ffef8f_1x100.png -text
+MiEscuela/web/xava/style/cupertino/images/ui-icons_2694e8_256x240.png -text
+MiEscuela/web/xava/style/cupertino/images/ui-icons_2e83ff_256x240.png -text
+MiEscuela/web/xava/style/cupertino/images/ui-icons_3d80b3_256x240.png -text
+MiEscuela/web/xava/style/cupertino/images/ui-icons_72a7cf_256x240.png -text
+MiEscuela/web/xava/style/cupertino/images/ui-icons_ffffff_256x240.png -text
+MiEscuela/web/xava/style/cupertino/jquery-ui.css -text
 MiEscuela/web/xava/style/default.css -text svneol=unset#application/octet-stream
 MiEscuela/web/xava/style/jetspeed.css -text svneol=unset#application/octet-stream
 MiEscuela/web/xava/style/liferay43/css/everything_unpacked.css -text
@@ -2893,6 +2959,21 @@ MiEscuela/web/xava/style/liferay43/images/portlet/refresh.png -text
 MiEscuela/web/xava/style/liferay43/images/portlet/restore.png -text
 MiEscuela/web/xava/style/liferay43/images/progress_bar/loading_animation.gif -text
 MiEscuela/web/xava/style/liferay51/css/everything_unpacked.css -text
+MiEscuela/web/xava/style/liferay51/css/jquery-ui-patch.css -text
+MiEscuela/web/xava/style/liferay51/images/application/close.png -text
+MiEscuela/web/xava/style/liferay51/images/application/close_small.png -text
+MiEscuela/web/xava/style/liferay51/images/application/datepicker_next.png -text
+MiEscuela/web/xava/style/liferay51/images/application/datepicker_previous.png -text
+MiEscuela/web/xava/style/liferay51/images/application/forbidden_action.png -text
+MiEscuela/web/xava/style/liferay51/images/application/handle_horizontal.png -text
+MiEscuela/web/xava/style/liferay51/images/application/handle_ne.png -text
+MiEscuela/web/xava/style/liferay51/images/application/handle_nw.png -text
+MiEscuela/web/xava/style/liferay51/images/application/handle_se.png -text
+MiEscuela/web/xava/style/liferay51/images/application/handle_sw.png -text
+MiEscuela/web/xava/style/liferay51/images/application/handle_vertical.png -text
+MiEscuela/web/xava/style/liferay51/images/application/loading_indicator.gif -text
+MiEscuela/web/xava/style/liferay51/images/application/tabs_bg.png -text
+MiEscuela/web/xava/style/liferay51/images/arrows/04_right.png -text
 MiEscuela/web/xava/style/liferay51/images/forms/button.png -text
 MiEscuela/web/xava/style/liferay51/images/forms/input_shadow.png -text
 MiEscuela/web/xava/style/liferay51/images/forms/input_shadow_dark.png -text
@@ -2925,6 +3006,21 @@ MiEscuela/web/xava/style/liferay51/js/theme_display.js -text
 MiEscuela/web/xava/style/openxava.css -text
 MiEscuela/web/xava/style/skins.css -text svneol=unset#application/octet-stream
 MiEscuela/web/xava/style/swing.css -text svneol=unset#application/octet-stream
+MiEscuela/web/xava/style/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png -text
+MiEscuela/web/xava/style/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png -text
+MiEscuela/web/xava/style/ui-lightness/images/ui-bg_flat_10_000000_40x100.png -text
+MiEscuela/web/xava/style/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png -text
+MiEscuela/web/xava/style/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png -text
+MiEscuela/web/xava/style/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png -text
+MiEscuela/web/xava/style/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png -text
+MiEscuela/web/xava/style/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png -text
+MiEscuela/web/xava/style/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png -text
+MiEscuela/web/xava/style/ui-lightness/images/ui-icons_222222_256x240.png -text
+MiEscuela/web/xava/style/ui-lightness/images/ui-icons_228ef1_256x240.png -text
+MiEscuela/web/xava/style/ui-lightness/images/ui-icons_ef8c08_256x240.png -text
+MiEscuela/web/xava/style/ui-lightness/images/ui-icons_ffd27a_256x240.png -text
+MiEscuela/web/xava/style/ui-lightness/images/ui-icons_ffffff_256x240.png -text
+MiEscuela/web/xava/style/ui-lightness/jquery-ui.css -text
 MiEscuela/web/xava/style/yahoo.css -text svneol=unset#application/octet-stream
 MiEscuela/xava/aplicacion.xml -text
 MiEscuela/xava/dtds/aplicacion.dtd -text
@@ -2984,6 +3080,7 @@ MySchool/properties/xava.properties -text
 MySchool/src/org/openxava/school/model/Teacher.java -text
 MySchool/src/org/openxava/school/tests/TeacherTest.java -text
 MySchool/web/META-INF/MANIFEST.MF -text
+MySchool/web/WEB-INF/classes/MySchool-labels.properties -text
 MySchool/web/WEB-INF/classes/hibernate.cfg.xml -text
 MySchool/web/WEB-INF/dwr.xml -text
 MySchool/web/WEB-INF/fonts/DejaVuSans.ttf -text
@@ -3620,6 +3717,7 @@ MySchool/web/xava/editors/textAreaEditor.jsp -text
 MySchool/web/xava/editors/textEditor.jsp -text
 MySchool/web/xava/editors/validValueEditorCommon.jsp -text
 MySchool/web/xava/editors/validValuesEditor.jsp -text
+MySchool/web/xava/editors/webURLEditor.jsp -text
 MySchool/web/xava/errors.jsp -text
 MySchool/web/xava/execute.jsp -text
 MySchool/web/xava/htmlTagsEditor.jsp -text
@@ -3681,6 +3779,8 @@ MySchool/web/xava/imports.jsp -text
 MySchool/web/xava/jasperReport.jsp -text
 MySchool/web/xava/js/calendar.js -text
 MySchool/web/xava/js/editors.js -text
+MySchool/web/xava/js/jquery-ui.js -text
+MySchool/web/xava/js/jquery.js -text
 MySchool/web/xava/js/openxava.js -text
 MySchool/web/xava/list.jsp -text
 MySchool/web/xava/messages.jsp -text
@@ -3692,6 +3792,21 @@ MySchool/web/xava/referenceEditorIcons.jsp -text
 MySchool/web/xava/referenceSearch.jsp -text
 MySchool/web/xava/script.jsp -text
 MySchool/web/xava/sections.jsp -text
+MySchool/web/xava/style/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png -text
+MySchool/web/xava/style/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png -text
+MySchool/web/xava/style/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png -text
+MySchool/web/xava/style/cupertino/images/ui-bg_glass_50_3baae3_1x400.png -text
+MySchool/web/xava/style/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png -text
+MySchool/web/xava/style/cupertino/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png -text
+MySchool/web/xava/style/cupertino/images/ui-bg_highlight-hard_70_000000_1x100.png -text
+MySchool/web/xava/style/cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png -text
+MySchool/web/xava/style/cupertino/images/ui-bg_highlight-soft_25_ffef8f_1x100.png -text
+MySchool/web/xava/style/cupertino/images/ui-icons_2694e8_256x240.png -text
+MySchool/web/xava/style/cupertino/images/ui-icons_2e83ff_256x240.png -text
+MySchool/web/xava/style/cupertino/images/ui-icons_3d80b3_256x240.png -text
+MySchool/web/xava/style/cupertino/images/ui-icons_72a7cf_256x240.png -text
+MySchool/web/xava/style/cupertino/images/ui-icons_ffffff_256x240.png -text
+MySchool/web/xava/style/cupertino/jquery-ui.css -text
 MySchool/web/xava/style/default.css -text svneol=unset#application/octet-stream
 MySchool/web/xava/style/jetspeed.css -text svneol=unset#application/octet-stream
 MySchool/web/xava/style/liferay43/css/everything_unpacked.css -text
@@ -3794,6 +3909,21 @@ MySchool/web/xava/style/liferay43/images/portlet/refresh.png -text
 MySchool/web/xava/style/liferay43/images/portlet/restore.png -text
 MySchool/web/xava/style/liferay43/images/progress_bar/loading_animation.gif -text
 MySchool/web/xava/style/liferay51/css/everything_unpacked.css -text
+MySchool/web/xava/style/liferay51/css/jquery-ui-patch.css -text
+MySchool/web/xava/style/liferay51/images/application/close.png -text
+MySchool/web/xava/style/liferay51/images/application/close_small.png -text
+MySchool/web/xava/style/liferay51/images/application/datepicker_next.png -text
+MySchool/web/xava/style/liferay51/images/application/datepicker_previous.png -text
+MySchool/web/xava/style/liferay51/images/application/forbidden_action.png -text
+MySchool/web/xava/style/liferay51/images/application/handle_horizontal.png -text
+MySchool/web/xava/style/liferay51/images/application/handle_ne.png -text
+MySchool/web/xava/style/liferay51/images/application/handle_nw.png -text
+MySchool/web/xava/style/liferay51/images/application/handle_se.png -text
+MySchool/web/xava/style/liferay51/images/application/handle_sw.png -text
+MySchool/web/xava/style/liferay51/images/application/handle_vertical.png -text
+MySchool/web/xava/style/liferay51/images/application/loading_indicator.gif -text
+MySchool/web/xava/style/liferay51/images/application/tabs_bg.png -text
+MySchool/web/xava/style/liferay51/images/arrows/04_right.png -text
 MySchool/web/xava/style/liferay51/images/forms/button.png -text
 MySchool/web/xava/style/liferay51/images/forms/input_shadow.png -text
 MySchool/web/xava/style/liferay51/images/forms/input_shadow_dark.png -text
@@ -3826,6 +3956,21 @@ MySchool/web/xava/style/liferay51/js/theme_display.js -text
 MySchool/web/xava/style/openxava.css -text
 MySchool/web/xava/style/skins.css -text svneol=unset#application/octet-stream
 MySchool/web/xava/style/swing.css -text svneol=unset#application/octet-stream
+MySchool/web/xava/style/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png -text
+MySchool/web/xava/style/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png -text
+MySchool/web/xava/style/ui-lightness/images/ui-bg_flat_10_000000_40x100.png -text
+MySchool/web/xava/style/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png -text
+MySchool/web/xava/style/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png -text
+MySchool/web/xava/style/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png -text
+MySchool/web/xava/style/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png -text
+MySchool/web/xava/style/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png -text
+MySchool/web/xava/style/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png -text
+MySchool/web/xava/style/ui-lightness/images/ui-icons_222222_256x240.png -text
+MySchool/web/xava/style/ui-lightness/images/ui-icons_228ef1_256x240.png -text
+MySchool/web/xava/style/ui-lightness/images/ui-icons_ef8c08_256x240.png -text
+MySchool/web/xava/style/ui-lightness/images/ui-icons_ffd27a_256x240.png -text
+MySchool/web/xava/style/ui-lightness/images/ui-icons_ffffff_256x240.png -text
+MySchool/web/xava/style/ui-lightness/jquery-ui.css -text
 MySchool/web/xava/style/yahoo.css -text svneol=unset#application/octet-stream
 MySchool/xava/application.xml -text
 MySchool/xava/dtds/aplicacion.dtd -text
@@ -6943,8 +7088,10 @@ OpenXavaTest/components/Invoice2.xml -text
 OpenXavaTest/components/Issue.xml -text
 OpenXavaTest/components/IssueList.xml -text
 OpenXavaTest/components/Journey.xml -text
+OpenXavaTest/components/Month.xml -text
 OpenXavaTest/components/Office.xml -text
 OpenXavaTest/components/Office2.xml -text
+OpenXavaTest/components/OneLineAddress.xml -text
 OpenXavaTest/components/Order.xml -text
 OpenXavaTest/components/Product.xml -text
 OpenXavaTest/components/Product2.xml -text
@@ -7026,9 +7173,12 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/IInvoice2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IInvoiceDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IInvoiceDetail2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IIssue.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IIssueList.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IJourney.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IMonth.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IOffice.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IOffice2.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IOneLineAddress.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IOrder.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IOrderDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IProduct.java -text
@@ -7037,6 +7187,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/IProduct3.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IRanges.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IReceptionist.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IReport.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ISelectSchema.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ISeller.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ISellerLevel.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IService.java -text
@@ -7061,9 +7212,12 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/Invoice2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/InvoiceDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/InvoiceDetail2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Issue.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IssueList.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Journey.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Month.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Office.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Office2.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/OneLineAddress.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Order.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/OrderDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Product.java -text
@@ -7072,6 +7226,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/Product3.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Ranges.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Receptionist.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Report.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/SelectSchema.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Seller.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/SellerLevel.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Service.java -text
@@ -9397,6 +9552,7 @@ OpenXavaTest/xml-classic-src/org/openxava/test/calculators/InvoiceDetail2OidCalc
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/InvoiceDetailIsFreeCalculator.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/InvoiceDetailOidCalculator.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/IsLocalCustomerCalculator.java -text
+OpenXavaTest/xml-classic-src/org/openxava/test/calculators/MonthsCalculator.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/OrderAmountCalculator.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/OrderDetailAmountCalculator.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/OrderNumberCalculator.java -text
