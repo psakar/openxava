@@ -5655,6 +5655,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/GoListAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/GoNextPageAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/GoPageAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/GoPreviousPageAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/GoToURLAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/HideDetailElementInCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/HideRowsAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/IAction.html -text
@@ -5754,6 +5755,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoListAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoNextPageAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoPageAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoPreviousPageAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoToURLAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/HideDetailElementInCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/HideRowsAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/IAction.html -text
@@ -6376,7 +6378,6 @@ OpenXavaDoc/web/apidocs/org/openxava/model/PersistenceFacade.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/class-use/IModel.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/class-use/MapFacade.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/class-use/PersistenceFacade.html -text
-OpenXavaDoc/web/apidocs/org/openxava/model/impl/EJBPersistenceProvider.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/impl/HibernatePersistenceProvider.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/impl/IMapFacadeImpl.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/impl/IPersistenceProvider.html -text
@@ -6388,7 +6389,6 @@ OpenXavaDoc/web/apidocs/org/openxava/model/impl/POJOPersistenceProviderBase.html
 OpenXavaDoc/web/apidocs/org/openxava/model/impl/POJOPropertiesContainerAdapter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/impl/PersistenceProviderException.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/impl/PersistenceProviderFactory.html -text
-OpenXavaDoc/web/apidocs/org/openxava/model/impl/class-use/EJBPersistenceProvider.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/impl/class-use/HibernatePersistenceProvider.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/impl/class-use/IMapFacadeImpl.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/impl/class-use/IPersistenceProvider.html -text
@@ -6410,7 +6410,6 @@ OpenXavaDoc/web/apidocs/org/openxava/model/meta/MetaAggregateForCollection.html 
 OpenXavaDoc/web/apidocs/org/openxava/model/meta/MetaAggregateForReference.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/meta/MetaCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/meta/MetaCollection.html -text
-OpenXavaDoc/web/apidocs/org/openxava/model/meta/MetaEJB.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/meta/MetaEntity.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/meta/MetaFinder.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/meta/MetaMember.html -text
@@ -6425,7 +6424,6 @@ OpenXavaDoc/web/apidocs/org/openxava/model/meta/class-use/MetaAggregateForCollec
 OpenXavaDoc/web/apidocs/org/openxava/model/meta/class-use/MetaAggregateForReference.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/meta/class-use/MetaCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/meta/class-use/MetaCollection.html -text
-OpenXavaDoc/web/apidocs/org/openxava/model/meta/class-use/MetaEJB.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/meta/class-use/MetaEntity.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/meta/class-use/MetaFinder.html -text
 OpenXavaDoc/web/apidocs/org/openxava/model/meta/class-use/MetaMember.html -text
@@ -6489,6 +6487,7 @@ OpenXavaDoc/web/apidocs/org/openxava/tab/impl/IVectorTableModel.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/IWithXTableModel.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/IXTableModel.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/JDBCTabProvider.html -text
+OpenXavaDoc/web/apidocs/org/openxava/tab/impl/SelectedRowsXTableModel.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/TabCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/TabException.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/TableModelBase.html -text
@@ -6515,6 +6514,7 @@ OpenXavaDoc/web/apidocs/org/openxava/tab/impl/class-use/IVectorTableModel.html -
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/class-use/IWithXTableModel.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/class-use/IXTableModel.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/class-use/JDBCTabProvider.html -text
+OpenXavaDoc/web/apidocs/org/openxava/tab/impl/class-use/SelectedRowsXTableModel.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/class-use/TabCalculator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/class-use/TabException.html -text
 OpenXavaDoc/web/apidocs/org/openxava/tab/impl/class-use/TableModelBase.html -text
@@ -6555,12 +6555,14 @@ OpenXavaDoc/web/apidocs/org/openxava/tests/package-use.html -text
 OpenXavaDoc/web/apidocs/org/openxava/types/Base1EnumType.html -text
 OpenXavaDoc/web/apidocs/org/openxava/types/Date3Type.html -text
 OpenXavaDoc/web/apidocs/org/openxava/types/EnumLetterType.html -text
+OpenXavaDoc/web/apidocs/org/openxava/types/EnumStringType.html -text
 OpenXavaDoc/web/apidocs/org/openxava/types/NotNullStringType.html -text
 OpenXavaDoc/web/apidocs/org/openxava/types/SiNoType.html -text
 OpenXavaDoc/web/apidocs/org/openxava/types/StringArrayBytesType.html -text
 OpenXavaDoc/web/apidocs/org/openxava/types/class-use/Base1EnumType.html -text
 OpenXavaDoc/web/apidocs/org/openxava/types/class-use/Date3Type.html -text
 OpenXavaDoc/web/apidocs/org/openxava/types/class-use/EnumLetterType.html -text
+OpenXavaDoc/web/apidocs/org/openxava/types/class-use/EnumStringType.html -text
 OpenXavaDoc/web/apidocs/org/openxava/types/class-use/NotNullStringType.html -text
 OpenXavaDoc/web/apidocs/org/openxava/types/class-use/SiNoType.html -text
 OpenXavaDoc/web/apidocs/org/openxava/types/class-use/StringArrayBytesType.html -text
@@ -6688,9 +6690,11 @@ OpenXavaDoc/web/apidocs/org/openxava/util/package-tree.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/package-use.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/xmlparse/ParserBase.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/xmlparse/ParserUtil.html -text
+OpenXavaDoc/web/apidocs/org/openxava/util/xmlparse/XMLEntityResolver.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/xmlparse/XmlElementsNames.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/xmlparse/class-use/ParserBase.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/xmlparse/class-use/ParserUtil.html -text
+OpenXavaDoc/web/apidocs/org/openxava/util/xmlparse/class-use/XMLEntityResolver.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/xmlparse/class-use/XmlElementsNames.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/xmlparse/package-frame.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/xmlparse/package-summary.html -text
@@ -6806,8 +6810,12 @@ OpenXavaDoc/web/apidocs/org/openxava/view/package-frame.html -text
 OpenXavaDoc/web/apidocs/org/openxava/view/package-summary.html -text
 OpenXavaDoc/web/apidocs/org/openxava/view/package-tree.html -text
 OpenXavaDoc/web/apidocs/org/openxava/view/package-use.html -text
+OpenXavaDoc/web/apidocs/org/openxava/web/Actions.html -text
+OpenXavaDoc/web/apidocs/org/openxava/web/DescriptionsLists.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/Ids.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/WebEditors.html -text
+OpenXavaDoc/web/apidocs/org/openxava/web/class-use/Actions.html -text
+OpenXavaDoc/web/apidocs/org/openxava/web/class-use/DescriptionsLists.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/class-use/Ids.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/class-use/WebEditors.html -text
 OpenXavaDoc/web/apidocs/org/openxava/web/dwr/Module.html -text
@@ -6916,6 +6924,7 @@ OpenXavaDoc/web/apidocs/resources/inherit.gif -text
 OpenXavaDoc/web/apidocs/serialized-form.html -text
 OpenXavaDoc/web/apidocs/stylesheet.css -text
 OpenXavaDoc/web/changelog.txt -text
+OpenXavaDoc/wiki-HTML.zip -text
 OpenXavaDoc/wiki.tgz -text
 OpenXavaPlantilla/.classpath -text
 OpenXavaPlantilla/.project -text
