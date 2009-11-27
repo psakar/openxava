@@ -7614,6 +7614,10 @@ OpenXavaTest/i18n/portlets/InvoiceFromDeliveries_ca.properties -text
 OpenXavaTest/i18n/portlets/InvoiceFromDeliveries_en.properties -text
 OpenXavaTest/i18n/portlets/InvoiceFromDeliveries_es.properties -text
 OpenXavaTest/i18n/portlets/InvoiceFromDeliveries_fr.properties -text
+OpenXavaTest/i18n/portlets/InvoiceNestedSections2_ca.properties -text
+OpenXavaTest/i18n/portlets/InvoiceNestedSections2_en.properties -text
+OpenXavaTest/i18n/portlets/InvoiceNestedSections2_es.properties -text
+OpenXavaTest/i18n/portlets/InvoiceNestedSections2_fr.properties -text
 OpenXavaTest/i18n/portlets/InvoiceNestedSections_ca.properties -text
 OpenXavaTest/i18n/portlets/InvoiceNestedSections_en.properties -text
 OpenXavaTest/i18n/portlets/InvoiceNestedSections_es.properties -text
