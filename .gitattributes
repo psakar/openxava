@@ -8094,6 +8094,7 @@ OpenXavaTest/src/org/openxava/test/actions/MySearchAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/NewDeliveryDetailAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeAddMessageAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeCarrierInDeliveryAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/OnChangeDeliveryType.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeFamilyAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeInvoiceNumberInDeliveryAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangePreferredWarehouseAction.java -text
@@ -8269,6 +8270,7 @@ OpenXavaTest/src/org/openxava/test/tests/ShipmentTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/SizeTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/StateHibernateTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/StateJPATest.java -text
+OpenXavaTest/src/org/openxava/test/tests/StringsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/Subfamily2Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/SubfamilySelectTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/SubfamilyTest.java -text
