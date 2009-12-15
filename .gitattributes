@@ -1222,6 +1222,7 @@ Invoicing/src/org/openxava/invoicing/tests/CategoryTest.java -text
 Invoicing/src/org/openxava/invoicing/tests/CommercialDocumentTest.java -text
 Invoicing/src/org/openxava/invoicing/tests/CustomerTest.java -text
 Invoicing/src/org/openxava/invoicing/tests/InvoiceTest.java -text
+Invoicing/src/org/openxava/invoicing/tests/InvoiceTrashTest.java -text
 Invoicing/src/org/openxava/invoicing/tests/OrderTest.java -text
 Invoicing/src/org/openxava/invoicing/tests/ProductTest.java -text
 Invoicing/src/org/openxava/invoicing/util/InvoicingPreferences.java -text
