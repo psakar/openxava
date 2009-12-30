@@ -4142,6 +4142,7 @@ OpenXava/src/org/openxava/actions/AddElementsToCollectionAction.java -text
 OpenXava/src/org/openxava/actions/AddImageToGalleryAction.java -text
 OpenXava/src/org/openxava/actions/BaseAction.java -text
 OpenXava/src/org/openxava/actions/CancelAction.java -text
+OpenXava/src/org/openxava/actions/CancelDialogAction.java -text
 OpenXava/src/org/openxava/actions/CancelFromCustomListAction.java -text
 OpenXava/src/org/openxava/actions/CancelInListAction.java -text
 OpenXava/src/org/openxava/actions/ChangeImageAction.java -text
@@ -4236,6 +4237,7 @@ OpenXava/src/org/openxava/actions/UpdateAction.java -text
 OpenXava/src/org/openxava/actions/UpdateReferenceBaseAction.java -text
 OpenXava/src/org/openxava/actions/ViewBaseAction.java -text
 OpenXava/src/org/openxava/actions/ViewDetailAction.java -text
+OpenXava/src/org/openxava/actions/ViewElementInCollectionAction.java -text
 OpenXava/src/org/openxava/annotations/Action.java -text
 OpenXava/src/org/openxava/annotations/Actions.java -text
 OpenXava/src/org/openxava/annotations/AsEmbedded.java -text
@@ -4704,6 +4706,7 @@ OpenXava/web/WEB-INF/lib/itext.jar -text
 OpenXava/web/WEB-INF/lib/jakarta-oro.jar -text
 OpenXava/web/WEB-INF/lib/jasperreports.jar -text
 OpenXava/web/WEB-INF/lib/javassist.jar -text
+OpenXava/web/WEB-INF/lib/javax.inject.jar -text
 OpenXava/web/WEB-INF/lib/jboss-archive-browsing.jar -text
 OpenXava/web/WEB-INF/lib/jstl.jar -text
 OpenXava/web/WEB-INF/lib/mailapi.jar -text
@@ -5361,6 +5364,7 @@ OpenXava/web/images/view.gif -text
 OpenXava/web/imports.jsp -text
 OpenXava/web/jasperReport.jsp -text
 OpenXava/web/js/calendar.js -text
+OpenXava/web/js/dwr-engine.js -text
 OpenXava/web/js/editors.js -text
 OpenXava/web/js/jquery-ui.js -text
 OpenXava/web/js/jquery.js -text
@@ -8294,12 +8298,10 @@ OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
@@ -8638,6 +8640,7 @@ OpenXavaTest/web/WEB-INF/lib/itext.jar -text
 OpenXavaTest/web/WEB-INF/lib/jakarta-oro.jar -text
 OpenXavaTest/web/WEB-INF/lib/jasperreports.jar -text
 OpenXavaTest/web/WEB-INF/lib/javassist.jar -text
+OpenXavaTest/web/WEB-INF/lib/javax.inject.jar -text
 OpenXavaTest/web/WEB-INF/lib/jboss-archive-browsing.jar -text
 OpenXavaTest/web/WEB-INF/lib/jboss-client.jar -text
 OpenXavaTest/web/WEB-INF/lib/jstl.jar -text
@@ -9315,6 +9318,7 @@ OpenXavaTest/web/xava/images/view.gif -text
 OpenXavaTest/web/xava/imports.jsp -text
 OpenXavaTest/web/xava/jasperReport.jsp -text
 OpenXavaTest/web/xava/js/calendar.js -text
+OpenXavaTest/web/xava/js/dwr-engine.js -text
 OpenXavaTest/web/xava/js/editors.js -text
 OpenXavaTest/web/xava/js/jquery-ui.js -text
 OpenXavaTest/web/xava/js/jquery.js -text
