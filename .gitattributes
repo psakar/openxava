@@ -4090,7 +4090,6 @@ OpenXava/generator/portletxml.xml -text
 OpenXava/generator/property.template -text
 OpenXava/generator/property.xml -text
 OpenXava/hibernate/GalleryImage.hbm.xml -text
-OpenXava/history.txt -text
 OpenXava/i18n/Labels_ca.properties -text
 OpenXava/i18n/Labels_de.properties -text
 OpenXava/i18n/Labels_en.properties -text
@@ -4220,6 +4219,7 @@ OpenXava/src/org/openxava/actions/RemoveImageFromGalleryAction.java -text
 OpenXava/src/org/openxava/actions/RemoveSelectedInCollectionAction.java -text
 OpenXava/src/org/openxava/actions/ResetPreviousControllersAction.java -text
 OpenXava/src/org/openxava/actions/RestoreDefaultColumnsAction.java -text
+OpenXava/src/org/openxava/actions/ReturnAction.java -text
 OpenXava/src/org/openxava/actions/ReturnPreviousModuleAction.java -text
 OpenXava/src/org/openxava/actions/SaveAction.java -text
 OpenXava/src/org/openxava/actions/SaveElementInCollectionAction.java -text
@@ -8055,6 +8055,7 @@ OpenXavaTest/properties/xava.properties -text
 OpenXavaTest/reports/Invoice.jrxml -text
 OpenXavaTest/reports/Products.jrxml -text
 OpenXavaTest/src/org/openxava/test/actions/ActivateDeactivateSectionAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/AddActionsAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/AddFullAddressAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/AddViewDeliveryInInvoiceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/AssertComboDeliveriesAction.java -text
@@ -8112,6 +8113,7 @@ OpenXavaTest/src/org/openxava/test/actions/OnChangeWarehouseAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnSelectFellowCarriersCalculatedAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnSelectIngredientAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/PrefixAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/RemoveActionsAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/RemoveDeliveryDetailAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/RemoveSelectedDeliveryDetailsAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/RemoveViewDeliveryInInvoiceAction.java -text
@@ -8123,6 +8125,7 @@ OpenXavaTest/src/org/openxava/test/actions/SearchInvoiceFromDeliveryAction.java 
 OpenXavaTest/src/org/openxava/test/actions/SeeMessageAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SelectSchemaAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SetAddColumnsPageRowCountTo10Action.java -text
+OpenXavaTest/src/org/openxava/test/actions/SetControllersAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SetDefaultInvoiceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SetEditableOffAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SetEditableOnAction.java -text
@@ -8144,6 +8147,7 @@ OpenXavaTest/src/org/openxava/test/actions/StateJPASearchAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/TranslateAllCarrierNameAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/VerifyEditablesProductAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ViewCurrentYearInvoicesAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/ViewCustomerFromInvoiceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ViewDeliveryFromInvoiceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ViewProductFromInvoiceDetailAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/VoidAction.java -text
