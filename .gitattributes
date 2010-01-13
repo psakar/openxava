@@ -1226,6 +1226,7 @@ Invoicing/properties/jndi.properties -text
 Invoicing/properties/logging.properties -text
 Invoicing/properties/xava-junit.properties -text
 Invoicing/properties/xava.properties -text
+Invoicing/src/org/openxava/invoicing/actions/CreateInvoiceFromOrderAction.java -text
 Invoicing/src/org/openxava/invoicing/actions/InvoicingDeleteAction.java -text
 Invoicing/src/org/openxava/invoicing/actions/InvoicingDeleteSelectedAction.java -text
 Invoicing/src/org/openxava/invoicing/actions/SearchExcludingDeletedAction.java -text
