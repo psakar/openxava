@@ -5667,6 +5667,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/AddElementsToCollectionAction.html 
 OpenXavaDoc/web/apidocs/org/openxava/actions/AddImageToGalleryAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/BaseAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/CancelAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/CancelDialogAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/CancelFromCustomListAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/CancelInListAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/ChangeImageAction.html -text
@@ -5745,6 +5746,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveImageFromGalleryAction.html -
 OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveSelectedInCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/ResetPreviousControllersAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/RestoreDefaultColumnsAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/ReturnAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/ReturnPreviousModuleAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/SaveAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/SaveElementInCollectionAction.html -text
@@ -5762,11 +5764,13 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/UpdateAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/UpdateReferenceBaseAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/ViewBaseAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/ViewDetailAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/ViewElementInCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/AddColumnsAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/AddElementsToCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/AddImageToGalleryAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/BaseAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/CancelAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/CancelDialogAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/CancelFromCustomListAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/CancelInListAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ChangeImageAction.html -text
@@ -5845,6 +5849,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveImageFromGalleryAct
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveSelectedInCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ResetPreviousControllersAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RestoreDefaultColumnsAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ReturnAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ReturnPreviousModuleAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SaveAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SaveElementInCollectionAction.html -text
@@ -5862,6 +5867,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/UpdateAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/UpdateReferenceBaseAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ViewBaseAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ViewDetailAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ViewElementInCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/package-frame.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/package-summary.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/package-tree.html -text
