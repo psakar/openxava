@@ -204,6 +204,7 @@ AccessTracking/web/WEB-INF/lib/itext.jar -text
 AccessTracking/web/WEB-INF/lib/jakarta-oro.jar -text
 AccessTracking/web/WEB-INF/lib/jasperreports.jar -text
 AccessTracking/web/WEB-INF/lib/javassist.jar -text
+AccessTracking/web/WEB-INF/lib/javax.inject.jar -text
 AccessTracking/web/WEB-INF/lib/jboss-archive-browsing.jar -text
 AccessTracking/web/WEB-INF/lib/jboss-client.jar -text
 AccessTracking/web/WEB-INF/lib/jstl.jar -text
@@ -871,6 +872,7 @@ AccessTracking/web/xava/images/view.gif -text
 AccessTracking/web/xava/imports.jsp -text
 AccessTracking/web/xava/jasperReport.jsp -text
 AccessTracking/web/xava/js/calendar.js -text
+AccessTracking/web/xava/js/dwr-engine.js -text
 AccessTracking/web/xava/js/editors.js -text
 AccessTracking/web/xava/js/jquery-ui.js -text
 AccessTracking/web/xava/js/jquery.js -text
@@ -2192,6 +2194,7 @@ MiEscuela/web/WEB-INF/lib/itext.jar -text
 MiEscuela/web/WEB-INF/lib/jakarta-oro.jar -text
 MiEscuela/web/WEB-INF/lib/jasperreports.jar -text
 MiEscuela/web/WEB-INF/lib/javassist.jar -text
+MiEscuela/web/WEB-INF/lib/javax.inject.jar -text
 MiEscuela/web/WEB-INF/lib/jboss-archive-browsing.jar -text
 MiEscuela/web/WEB-INF/lib/jboss-client.jar -text
 MiEscuela/web/WEB-INF/lib/jstl.jar -text
@@ -2857,6 +2860,7 @@ MiEscuela/web/xava/images/view.gif -text
 MiEscuela/web/xava/imports.jsp -text
 MiEscuela/web/xava/jasperReport.jsp -text
 MiEscuela/web/xava/js/calendar.js -text
+MiEscuela/web/xava/js/dwr-engine.js -text
 MiEscuela/web/xava/js/editors.js -text
 MiEscuela/web/xava/js/jquery-ui.js -text
 MiEscuela/web/xava/js/jquery.js -text
@@ -3141,6 +3145,7 @@ MySchool/web/WEB-INF/lib/itext.jar -text
 MySchool/web/WEB-INF/lib/jakarta-oro.jar -text
 MySchool/web/WEB-INF/lib/jasperreports.jar -text
 MySchool/web/WEB-INF/lib/javassist.jar -text
+MySchool/web/WEB-INF/lib/javax.inject.jar -text
 MySchool/web/WEB-INF/lib/jboss-archive-browsing.jar -text
 MySchool/web/WEB-INF/lib/jboss-client.jar -text
 MySchool/web/WEB-INF/lib/jstl.jar -text
@@ -3807,6 +3812,7 @@ MySchool/web/xava/images/view.gif -text
 MySchool/web/xava/imports.jsp -text
 MySchool/web/xava/jasperReport.jsp -text
 MySchool/web/xava/js/calendar.js -text
+MySchool/web/xava/js/dwr-engine.js -text
 MySchool/web/xava/js/editors.js -text
 MySchool/web/xava/js/jquery-ui.js -text
 MySchool/web/xava/js/jquery.js -text
@@ -4117,6 +4123,7 @@ OpenXava/generator/portletxml.xml -text
 OpenXava/generator/property.template -text
 OpenXava/generator/property.xml -text
 OpenXava/hibernate/GalleryImage.hbm.xml -text
+OpenXava/history.txt -text
 OpenXava/i18n/Labels_ca.properties -text
 OpenXava/i18n/Labels_de.properties -text
 OpenXava/i18n/Labels_en.properties -text
@@ -6987,6 +6994,8 @@ OpenXavaPlantilla/xava/dtds/application.dtd -text
 OpenXavaPlantilla/xava/dtds/aspectos.dtd -text
 OpenXavaPlantilla/xava/dtds/aspects.dtd -text
 OpenXavaPlantilla/xava/dtds/code-generators.dtd -text
+OpenXavaPlantilla/xava/dtds/component.dtd -text
+OpenXavaPlantilla/xava/dtds/componente.dtd -text
 OpenXavaPlantilla/xava/dtds/controladores.dtd -text
 OpenXavaPlantilla/xava/dtds/controllers.dtd -text
 OpenXavaPlantilla/xava/dtds/conversores.dtd -text
@@ -7028,6 +7037,8 @@ OpenXavaTemplate/xava/dtds/application.dtd -text
 OpenXavaTemplate/xava/dtds/aspectos.dtd -text
 OpenXavaTemplate/xava/dtds/aspects.dtd -text
 OpenXavaTemplate/xava/dtds/code-generators.dtd -text
+OpenXavaTemplate/xava/dtds/component.dtd -text
+OpenXavaTemplate/xava/dtds/componente.dtd -text
 OpenXavaTemplate/xava/dtds/controladores.dtd -text
 OpenXavaTemplate/xava/dtds/controllers.dtd -text
 OpenXavaTemplate/xava/dtds/conversores.dtd -text
@@ -8126,7 +8137,7 @@ OpenXavaTest/src/org/openxava/test/actions/MySearchAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/NewDeliveryDetailAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeAddMessageAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeCarrierInDeliveryAction.java -text
-OpenXavaTest/src/org/openxava/test/actions/OnChangeDeliveryType.java -text
+OpenXavaTest/src/org/openxava/test/actions/OnChangeDeliveryTypeAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeFamilyAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeInvoiceNumberInDeliveryAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangePreferredWarehouseAction.java -text
