@@ -1232,6 +1232,8 @@ Invoicing/src/org/openxava/invoicing/actions/CreateInvoiceFromOrderAction.java -
 Invoicing/src/org/openxava/invoicing/actions/CreateInvoiceFromSelectedOrdersAction.java -text
 Invoicing/src/org/openxava/invoicing/actions/InvoicingDeleteAction.java -text
 Invoicing/src/org/openxava/invoicing/actions/InvoicingDeleteSelectedAction.java -text
+Invoicing/src/org/openxava/invoicing/actions/LoadCurrentInvoiceAction.java -text
+Invoicing/src/org/openxava/invoicing/actions/SaveInvoiceAction.java -text
 Invoicing/src/org/openxava/invoicing/actions/SearchExcludingDeletedAction.java -text
 Invoicing/src/org/openxava/invoicing/actions/ShowHideCreateInvoiceAction.java -text
 Invoicing/src/org/openxava/invoicing/annotations/ISBN.java -text
