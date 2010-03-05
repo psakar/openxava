@@ -4584,6 +4584,7 @@ OpenXava/src/org/openxava/types/StringArrayBytesType.java -text
 OpenXava/src/org/openxava/util/Align.java -text
 OpenXava/src/org/openxava/util/Assert.java -text
 OpenXava/src/org/openxava/util/AssertException.java -text
+OpenXava/src/org/openxava/util/CMPFieldComparator.java -text
 OpenXava/src/org/openxava/util/Classes.java -text
 OpenXava/src/org/openxava/util/CloneException.java -text
 OpenXava/src/org/openxava/util/DataSourceConnectionProvider.java -text
@@ -4766,6 +4767,7 @@ OpenXava/web/collection.jsp -text
 OpenXava/web/collectionList.jsp -text
 OpenXava/web/comparatorsBooleanCombo.jsp -text
 OpenXava/web/comparatorsCombo.jsp -text
+OpenXava/web/comparatorsDescriptionsList.jsp -text
 OpenXava/web/comparatorsValidValuesCombo.jsp -text
 OpenXava/web/core.jsp -text
 OpenXava/web/detail.jsp -text
