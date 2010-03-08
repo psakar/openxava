@@ -7978,6 +7978,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeGroupInColorAction.java 
 OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeRangesTypeAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/TranslateCarrierNameAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ViewNameFellowCarriersSelectedAction.java -text
+OpenXavaTest/pojo-src/org/openxava/test/base/AbstractToto.java -text
 OpenXavaTest/pojo-src/org/openxava/test/formatters/WarehouseFormatter.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AcademicYear.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AdditionalDetail.java -text
@@ -8083,6 +8084,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Worker.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Year.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/AnnotatedPOJOTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/BlogTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/CommunityTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CompositeTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DrivingLicenceTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/HumanTest.java -text
@@ -8093,6 +8095,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/ProgrammerTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/QuarterTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SummerCourseTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ToDoListTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/TotoTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/Warehouse2Test.java -text
 OpenXavaTest/pojo-src/org/openxava/test/types/RegionsType.java -text
 OpenXavaTest/pojo-src/org/openxava/test/validators/DeliveryPlaceValidator.java -text
@@ -8732,6 +8735,7 @@ OpenXavaTest/web/xava/collection.jsp -text
 OpenXavaTest/web/xava/collectionList.jsp -text
 OpenXavaTest/web/xava/comparatorsBooleanCombo.jsp -text
 OpenXavaTest/web/xava/comparatorsCombo.jsp -text
+OpenXavaTest/web/xava/comparatorsDescriptionsList.jsp -text
 OpenXavaTest/web/xava/comparatorsValidValuesCombo.jsp -text
 OpenXavaTest/web/xava/core.jsp -text
 OpenXavaTest/web/xava/detail.jsp -text
