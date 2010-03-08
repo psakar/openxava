@@ -7991,6 +7991,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Clerk.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ClerkKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Color.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Comment.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Community.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Composite.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Course.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/CourseKey.java -text
@@ -8068,6 +8069,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/ToDoComponent.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ToDoComponentTask.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ToDoList.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ToDoTask.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Toto.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/TransportCharge.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/TransportCharge2.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/TransportCharge2Key.java -text
