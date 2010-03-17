@@ -9312,6 +9312,9 @@ OpenXavaTest/web/xava/editors/galleryEditor.jsp -text
 OpenXavaTest/web/xava/editors/htmlEditor.jsp -text
 OpenXavaTest/web/xava/editors/imageEditor.jsp -text
 OpenXavaTest/web/xava/editors/imageLabelEditor.jsp -text
+OpenXavaTest/web/xava/editors/js/autoNumeric.js -text
+OpenXavaTest/web/xava/editors/js/htmlEditor.js -text
+OpenXavaTest/web/xava/editors/js/textEditor.js -text
 OpenXavaTest/web/xava/editors/labelEditor.jsp -text
 OpenXavaTest/web/xava/editors/moneyEditor.jsp -text
 OpenXavaTest/web/xava/editors/notAvailableEditor.jsp -text
@@ -9382,11 +9385,9 @@ OpenXavaTest/web/xava/imports.jsp -text
 OpenXavaTest/web/xava/jasperReport.jsp -text
 OpenXavaTest/web/xava/js/calendar.js -text
 OpenXavaTest/web/xava/js/dwr-engine.js -text
-OpenXavaTest/web/xava/js/editors.js -text
 OpenXavaTest/web/xava/js/jquery-ui.js -text
 OpenXavaTest/web/xava/js/jquery.js -text
 OpenXavaTest/web/xava/js/jquery.qtip.js -text
-OpenXavaTest/web/xava/js/module.jsp -text
 OpenXavaTest/web/xava/js/openxava.js -text
 OpenXavaTest/web/xava/list.jsp -text
 OpenXavaTest/web/xava/messages.jsp -text
