@@ -2861,7 +2861,6 @@ MiEscuela/web/xava/imports.jsp -text
 MiEscuela/web/xava/jasperReport.jsp -text
 MiEscuela/web/xava/js/calendar.js -text
 MiEscuela/web/xava/js/dwr-engine.js -text
-MiEscuela/web/xava/js/editors.js -text
 MiEscuela/web/xava/js/jquery-ui.js -text
 MiEscuela/web/xava/js/jquery.js -text
 MiEscuela/web/xava/js/openxava.js -text
@@ -3113,7 +3112,6 @@ MySchool/properties/xava.properties -text
 MySchool/src/org/openxava/school/model/Teacher.java -text
 MySchool/src/org/openxava/school/tests/TeacherTest.java -text
 MySchool/web/META-INF/MANIFEST.MF -text
-MySchool/web/WEB-INF/classes/MySchool-labels.properties -text
 MySchool/web/WEB-INF/classes/hibernate.cfg.xml -text
 MySchool/web/WEB-INF/dwr.xml -text
 MySchool/web/WEB-INF/fonts/DejaVuSans.ttf -text
@@ -3813,7 +3811,6 @@ MySchool/web/xava/imports.jsp -text
 MySchool/web/xava/jasperReport.jsp -text
 MySchool/web/xava/js/calendar.js -text
 MySchool/web/xava/js/dwr-engine.js -text
-MySchool/web/xava/js/editors.js -text
 MySchool/web/xava/js/jquery-ui.js -text
 MySchool/web/xava/js/jquery.js -text
 MySchool/web/xava/js/openxava.js -text
