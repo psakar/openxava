@@ -4129,7 +4129,6 @@ OpenXava/generator/portletxml.xml -text
 OpenXava/generator/property.template -text
 OpenXava/generator/property.xml -text
 OpenXava/hibernate/GalleryImage.hbm.xml -text
-OpenXava/history.txt -text
 OpenXava/i18n/Labels_ca.properties -text
 OpenXava/i18n/Labels_de.properties -text
 OpenXava/i18n/Labels_en.properties -text
@@ -5337,6 +5336,9 @@ OpenXava/web/editors/galleryEditor.jsp -text
 OpenXava/web/editors/htmlEditor.jsp -text
 OpenXava/web/editors/imageEditor.jsp -text
 OpenXava/web/editors/imageLabelEditor.jsp -text
+OpenXava/web/editors/js/autoNumeric.js -text
+OpenXava/web/editors/js/htmlEditor.js -text
+OpenXava/web/editors/js/textEditor.js -text
 OpenXava/web/editors/labelEditor.jsp -text
 OpenXava/web/editors/moneyEditor.jsp -text
 OpenXava/web/editors/notAvailableEditor.jsp -text
@@ -5406,7 +5408,6 @@ OpenXava/web/imports.jsp -text
 OpenXava/web/jasperReport.jsp -text
 OpenXava/web/js/calendar.js -text
 OpenXava/web/js/dwr-engine.js -text
-OpenXava/web/js/editors.js -text
 OpenXava/web/js/jquery-ui.js -text
 OpenXava/web/js/jquery.js -text
 OpenXava/web/js/jquery.qtip.js -text
