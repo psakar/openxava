@@ -7974,6 +7974,8 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/TranslateCarrierNameAction.java 
 OpenXavaTest/pojo-src/org/openxava/test/actions/ViewNameFellowCarriersSelectedAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/base/AbstractToto.java -text
 OpenXavaTest/pojo-src/org/openxava/test/formatters/WarehouseFormatter.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/AbstractWall.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/AbtractWallEntry.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AcademicYear.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AdditionalDetail.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AdditionalDetailKey.java -text
@@ -8070,6 +8072,8 @@ OpenXavaTest/pojo-src/org/openxava/test/model/TransportCharge2.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/TransportCharge2Key.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/TransportChargeKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Vehicle.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Wall.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/WallEntry.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Warehouse.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Warehouse2.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Warehouse2Key.java -text
@@ -8090,6 +8094,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/QuarterTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SummerCourseTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ToDoListTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TotoTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/WallTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/Warehouse2Test.java -text
 OpenXavaTest/pojo-src/org/openxava/test/types/RegionsType.java -text
 OpenXavaTest/pojo-src/org/openxava/test/validators/DeliveryPlaceValidator.java -text
