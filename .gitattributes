@@ -6330,7 +6330,6 @@ OpenXavaDoc/web/apidocs/org/openxava/formatters/DateTimeSeparatedFormatter.html 
 OpenXavaDoc/web/apidocs/org/openxava/formatters/IFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/IMultipleValuesFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/ImageFormatter.html -text
-OpenXavaDoc/web/apidocs/org/openxava/formatters/MemoFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/MoneyFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/MultipleValuesByPassFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/SQLTimeFormatter.html -text
@@ -6346,7 +6345,6 @@ OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/DateTimeSeparatedForma
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/IFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/IMultipleValuesFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/ImageFormatter.html -text
-OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/MemoFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/MoneyFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/MultipleValuesByPassFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/SQLTimeFormatter.html -text
@@ -6631,6 +6629,7 @@ OpenXavaDoc/web/apidocs/org/openxava/types/package-use.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/Align.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/Assert.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/AssertException.html -text
+OpenXavaDoc/web/apidocs/org/openxava/util/CMPFieldComparator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/Classes.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/CloneException.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/DataSourceConnectionProvider.html -text
@@ -6676,6 +6675,7 @@ OpenXavaDoc/web/apidocs/org/openxava/util/XavaResources.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/Align.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/Assert.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/AssertException.html -text
+OpenXavaDoc/web/apidocs/org/openxava/util/class-use/CMPFieldComparator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/Classes.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/CloneException.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/DataSourceConnectionProvider.html -text
