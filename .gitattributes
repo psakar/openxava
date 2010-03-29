@@ -2219,6 +2219,7 @@ MiEscuela/web/xava/collection.jsp -text
 MiEscuela/web/xava/collectionList.jsp -text
 MiEscuela/web/xava/comparatorsBooleanCombo.jsp -text
 MiEscuela/web/xava/comparatorsCombo.jsp -text
+MiEscuela/web/xava/comparatorsDescriptionsList.jsp -text
 MiEscuela/web/xava/comparatorsValidValuesCombo.jsp -text
 MiEscuela/web/xava/core.jsp -text
 MiEscuela/web/xava/detail.jsp -text
@@ -2789,6 +2790,9 @@ MiEscuela/web/xava/editors/galleryEditor.jsp -text
 MiEscuela/web/xava/editors/htmlEditor.jsp -text
 MiEscuela/web/xava/editors/imageEditor.jsp -text
 MiEscuela/web/xava/editors/imageLabelEditor.jsp -text
+MiEscuela/web/xava/editors/js/autoNumeric.js -text
+MiEscuela/web/xava/editors/js/htmlEditor.js -text
+MiEscuela/web/xava/editors/js/textEditor.js -text
 MiEscuela/web/xava/editors/labelEditor.jsp -text
 MiEscuela/web/xava/editors/moneyEditor.jsp -text
 MiEscuela/web/xava/editors/notAvailableEditor.jsp -text
@@ -2863,6 +2867,7 @@ MiEscuela/web/xava/js/calendar.js -text
 MiEscuela/web/xava/js/dwr-engine.js -text
 MiEscuela/web/xava/js/jquery-ui.js -text
 MiEscuela/web/xava/js/jquery.js -text
+MiEscuela/web/xava/js/jquery.qtip.js -text
 MiEscuela/web/xava/js/openxava.js -text
 MiEscuela/web/xava/list.jsp -text
 MiEscuela/web/xava/messages.jsp -text
@@ -3169,6 +3174,7 @@ MySchool/web/xava/collection.jsp -text
 MySchool/web/xava/collectionList.jsp -text
 MySchool/web/xava/comparatorsBooleanCombo.jsp -text
 MySchool/web/xava/comparatorsCombo.jsp -text
+MySchool/web/xava/comparatorsDescriptionsList.jsp -text
 MySchool/web/xava/comparatorsValidValuesCombo.jsp -text
 MySchool/web/xava/core.jsp -text
 MySchool/web/xava/detail.jsp -text
@@ -3739,6 +3745,9 @@ MySchool/web/xava/editors/galleryEditor.jsp -text
 MySchool/web/xava/editors/htmlEditor.jsp -text
 MySchool/web/xava/editors/imageEditor.jsp -text
 MySchool/web/xava/editors/imageLabelEditor.jsp -text
+MySchool/web/xava/editors/js/autoNumeric.js -text
+MySchool/web/xava/editors/js/htmlEditor.js -text
+MySchool/web/xava/editors/js/textEditor.js -text
 MySchool/web/xava/editors/labelEditor.jsp -text
 MySchool/web/xava/editors/moneyEditor.jsp -text
 MySchool/web/xava/editors/notAvailableEditor.jsp -text
@@ -3813,6 +3822,7 @@ MySchool/web/xava/js/calendar.js -text
 MySchool/web/xava/js/dwr-engine.js -text
 MySchool/web/xava/js/jquery-ui.js -text
 MySchool/web/xava/js/jquery.js -text
+MySchool/web/xava/js/jquery.qtip.js -text
 MySchool/web/xava/js/openxava.js -text
 MySchool/web/xava/list.jsp -text
 MySchool/web/xava/messages.jsp -text
