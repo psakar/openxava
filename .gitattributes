@@ -4274,6 +4274,9 @@ OpenXava/src/org/openxava/actions/SearchExecutingOnChangeAction.java -text
 OpenXava/src/org/openxava/actions/SearchReadOnlyAction.java -text
 OpenXava/src/org/openxava/actions/SetCustomViewAction.java -text
 OpenXava/src/org/openxava/actions/SetDefaultSchemaAction.java -text
+OpenXava/src/org/openxava/actions/SetLocaleAction.java -text
+OpenXava/src/org/openxava/actions/SetSchemaAction.java -text
+OpenXava/src/org/openxava/actions/SetUserAction.java -text
 OpenXava/src/org/openxava/actions/ShowRowsAction.java -text
 OpenXava/src/org/openxava/actions/SortColumnsAction.java -text
 OpenXava/src/org/openxava/actions/TabBaseAction.java -text
@@ -4345,6 +4348,8 @@ OpenXava/src/org/openxava/annotations/SaveActions.java -text
 OpenXava/src/org/openxava/annotations/SearchAction.java -text
 OpenXava/src/org/openxava/annotations/SearchActions.java -text
 OpenXava/src/org/openxava/annotations/SearchKey.java -text
+OpenXava/src/org/openxava/annotations/SearchListCondition.java -text
+OpenXava/src/org/openxava/annotations/SearchListConditions.java -text
 OpenXava/src/org/openxava/annotations/Stereotype.java -text
 OpenXava/src/org/openxava/annotations/Tab.java -text
 OpenXava/src/org/openxava/annotations/Tabs.java -text
@@ -8353,6 +8358,8 @@ OpenXavaTest/src/org/openxava/test/tests/SellerJSPTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/SellerTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/SellerWithCustomersAsAggregateTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/SellerWithDescriptionsListJSPTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/SellerWithSearchListConditionOffTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/SellerWithSearchListConditionTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ServiceInvoiceTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ServiceTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/SeveralModulesTest.java -text
