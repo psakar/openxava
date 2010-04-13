@@ -9674,6 +9674,7 @@ OpenXavaTest/xml-classic-src/org/openxava/test/calculators/InvoiceDetail2OidCalc
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/InvoiceDetailIsFreeCalculator.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/InvoiceDetailOidCalculator.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/IsLocalCustomerCalculator.java -text
+OpenXavaTest/xml-classic-src/org/openxava/test/calculators/IsSlowCalculator.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/MonthsCalculator.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/OrderAmountCalculator.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/OrderDetailAmountCalculator.java -text
