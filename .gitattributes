@@ -8095,6 +8095,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/SubjectGroup.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/SubjectGroupKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/SummerCourse.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Task.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Thing.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ToDoComponent.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ToDoComponentTask.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ToDoList.java -text
@@ -8297,6 +8298,7 @@ OpenXavaTest/src/org/openxava/test/tests/CustomerTwoSellersInListTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerTwoSellersNumberInListTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerWithSectionTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DeliveryGroupsInSectionsTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/DeliveryPlaceTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DeliveryRemarks2002Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/DeliveryTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DeliveryTypeJSPTest.java -text
