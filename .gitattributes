@@ -7189,6 +7189,7 @@ OpenXavaTest/components/State.xml -text
 OpenXavaTest/components/Subfamily.xml -text
 OpenXavaTest/components/Subfamily2.xml -text
 OpenXavaTest/components/Task.xml -text
+OpenXavaTest/components/Thing.xml -text
 OpenXavaTest/components/TransportCharge.xml -text
 OpenXavaTest/components/TransportCharge2.xml -text
 OpenXavaTest/components/Vehicle.xml -text
