@@ -8188,6 +8188,7 @@ OpenXavaTest/src/org/openxava/test/actions/ModifyWarehouseFromReferenceAction.ja
 OpenXavaTest/src/org/openxava/test/actions/MoveRelationWithSellerToRemarksAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/MySearchAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/NewDeliveryDetailAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/NotEditableViewAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeAddMessageAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeCarrierInDeliveryAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeDeliveryTypeAction.java -text
