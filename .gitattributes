@@ -4581,7 +4581,9 @@ OpenXava/src/org/openxava/tab/meta/MetaConsult.java -text
 OpenXava/src/org/openxava/tab/meta/MetaParameter.java -text
 OpenXava/src/org/openxava/tab/meta/MetaRowStyle.java -text
 OpenXava/src/org/openxava/tab/meta/MetaTab.java -text
+OpenXava/src/org/openxava/tab/meta/MetaTabsDefaultValues.java -text
 OpenXava/src/org/openxava/tab/meta/xmlparse/TabParser.java -text
+OpenXava/src/org/openxava/tab/meta/xmlparse/TabsDefaultValuesParser.java -text
 OpenXava/src/org/openxava/tests/ModuleTestBase.java -text
 OpenXava/src/org/openxava/types/Base1EnumType.java -text
 OpenXava/src/org/openxava/types/Date3Type.java -text
@@ -5634,9 +5636,11 @@ OpenXava/xava/dtds/editors.dtd -text
 OpenXava/xava/dtds/generadores-codigo.dtd -text
 OpenXava/xava/dtds/longitud-defecto.dtd -text
 OpenXava/xava/dtds/stereotype-type-default.dtd -text
+OpenXava/xava/dtds/tabs-default-values.dtd -text
 OpenXava/xava/dtds/tipo-estereotipo-defecto.dtd -text
 OpenXava/xava/dtds/validadores.dtd -text
 OpenXava/xava/dtds/validators.dtd -text
+OpenXava/xava/dtds/valores-defecto-tabs.dtd -text
 OpenXava/xava/stereotype-type-default.xml -text
 OpenXava/xava/validators.xml -text
 OpenXavaDoc/.classpath -text
@@ -7163,6 +7167,7 @@ OpenXavaTest/components/Formula.xml -text
 OpenXavaTest/components/Ingredient.xml -text
 OpenXavaTest/components/Invoice.xml -text
 OpenXavaTest/components/Invoice2.xml -text
+OpenXavaTest/components/Invoice3.xml -text
 OpenXavaTest/components/Issue.xml -text
 OpenXavaTest/components/IssueList.xml -text
 OpenXavaTest/components/Journey.xml -text
@@ -8050,6 +8055,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Identifiable.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Ingredient.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Invoice.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Invoice2.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Invoice3.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/InvoiceDetail.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/InvoiceDetail2.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/InvoiceKey.java -text
@@ -8318,6 +8324,7 @@ OpenXavaTest/src/org/openxava/test/tests/Invoice20020001Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/Invoice2002Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/Invoice2004Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/Invoice2Test.java -text
+OpenXavaTest/src/org/openxava/test/tests/Invoice3Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoiceActiveYearTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoiceCustomerAsAggregateTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoiceDeliveriesTest.java -text
@@ -8329,6 +8336,7 @@ OpenXavaTest/src/org/openxava/test/tests/InvoiceTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoiceWithParameterInURLTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/IsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/IssueTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/IssueWebTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/JPATest.java -text
 OpenXavaTest/src/org/openxava/test/tests/JourneyTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/MapFacadeTest.java -text
@@ -8362,7 +8370,6 @@ OpenXavaTest/src/org/openxava/test/tests/SellerJSPTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/SellerTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/SellerWithCustomersAsAggregateTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/SellerWithDescriptionsListJSPTest.java -text
-OpenXavaTest/src/org/openxava/test/tests/SellerWithSearchListConditionOffTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/SellerWithSearchListConditionTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ServiceInvoiceTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ServiceTest.java -text
@@ -9362,6 +9369,7 @@ OpenXavaTest/web/xava/editors/referenceEditor.jsp -text
 OpenXavaTest/web/xava/editors/regionsEditor.jsp -text
 OpenXavaTest/web/xava/editors/textAreaEditor.jsp -text
 OpenXavaTest/web/xava/editors/textEditor.jsp -text
+OpenXavaTest/web/xava/editors/userAttributeEditor.jsp -text
 OpenXavaTest/web/xava/editors/validValueEditorCommon.jsp -text
 OpenXavaTest/web/xava/editors/validValuesEditor.jsp -text
 OpenXavaTest/web/xava/editors/webURLEditor.jsp -text
@@ -9641,11 +9649,14 @@ OpenXavaTest/xava/dtds/editors.dtd -text
 OpenXavaTest/xava/dtds/generadores-codigo.dtd -text
 OpenXavaTest/xava/dtds/longitud-defecto.dtd -text
 OpenXavaTest/xava/dtds/stereotype-type-default.dtd -text
+OpenXavaTest/xava/dtds/tabs-default-values.dtd -text
 OpenXavaTest/xava/dtds/tipo-estereotipo-defecto.dtd -text
 OpenXavaTest/xava/dtds/validadores.dtd -text
 OpenXavaTest/xava/dtds/validators.dtd -text
+OpenXavaTest/xava/dtds/valores-defecto-tabs.dtd -text
 OpenXavaTest/xava/editors.xml -text
 OpenXavaTest/xava/stereotype-type-default.xml -text
+OpenXavaTest/xava/tabs-default-values.xml -text
 OpenXavaTest/xava/validators.xml -text
 OpenXavaTest/xml-classic-src/org/openxava/test/actions/FamilyProductsReportAction.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/actions/InvoiceReportAction.java -text
