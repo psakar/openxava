@@ -4253,6 +4253,7 @@ OpenXava/src/org/openxava/actions/NewAction.java -text
 OpenXava/src/org/openxava/actions/OnChangePropertyBaseAction.java -text
 OpenXava/src/org/openxava/actions/OnChangeSearchAction.java -text
 OpenXava/src/org/openxava/actions/OnSelectElementBaseAction.java -text
+OpenXava/src/org/openxava/actions/OpenSearchDialogAction.java -text
 OpenXava/src/org/openxava/actions/OrderByAction.java -text
 OpenXava/src/org/openxava/actions/ReferenceBaseAction.java -text
 OpenXava/src/org/openxava/actions/ReferenceSearchAction.java -text
@@ -4270,6 +4271,7 @@ OpenXava/src/org/openxava/actions/SaveElementInManyToManyCollectionAction.java -
 OpenXava/src/org/openxava/actions/SaveNewAction.java -text
 OpenXava/src/org/openxava/actions/SearchAction.java -text
 OpenXava/src/org/openxava/actions/SearchByViewKeyAction.java -text
+OpenXava/src/org/openxava/actions/SearchDialogAction.java -text
 OpenXava/src/org/openxava/actions/SearchExecutingOnChangeAction.java -text
 OpenXava/src/org/openxava/actions/SearchReadOnlyAction.java -text
 OpenXava/src/org/openxava/actions/SetCustomViewAction.java -text
@@ -5364,9 +5366,6 @@ OpenXava/web/editors/webURLEditor.jsp -text
 OpenXava/web/errors.jsp -text
 OpenXava/web/execute.jsp -text
 OpenXava/web/htmlTagsEditor.jsp -text
-OpenXava/web/images/.xvpics/new.gif -text
-OpenXava/web/images/.xvpics/pdf.gif -text
-OpenXava/web/images/.xvpics/photo.gif -text
 OpenXava/web/images/add.gif -text
 OpenXava/web/images/ascending-white.gif -text
 OpenXava/web/images/ascending.gif -text
@@ -5407,6 +5406,7 @@ OpenXava/web/images/photo.gif -text
 OpenXava/web/images/previous.gif -text
 OpenXava/web/images/previous_page.gif -text
 OpenXava/web/images/processing.gif -text
+OpenXava/web/images/refresh.gif -text
 OpenXava/web/images/remove.gif -text
 OpenXava/web/images/required.gif -text
 OpenXava/web/images/restore.gif -text
@@ -9376,9 +9376,6 @@ OpenXavaTest/web/xava/editors/webURLEditor.jsp -text
 OpenXavaTest/web/xava/errors.jsp -text
 OpenXavaTest/web/xava/execute.jsp -text
 OpenXavaTest/web/xava/htmlTagsEditor.jsp -text
-OpenXavaTest/web/xava/images/.xvpics/new.gif -text
-OpenXavaTest/web/xava/images/.xvpics/pdf.gif -text
-OpenXavaTest/web/xava/images/.xvpics/photo.gif -text
 OpenXavaTest/web/xava/images/add.gif -text
 OpenXavaTest/web/xava/images/ascending-white.gif -text
 OpenXavaTest/web/xava/images/ascending.gif -text
@@ -9419,6 +9416,7 @@ OpenXavaTest/web/xava/images/photo.gif -text
 OpenXavaTest/web/xava/images/previous.gif -text
 OpenXavaTest/web/xava/images/previous_page.gif -text
 OpenXavaTest/web/xava/images/processing.gif -text
+OpenXavaTest/web/xava/images/refresh.gif -text
 OpenXavaTest/web/xava/images/remove.gif -text
 OpenXavaTest/web/xava/images/required.gif -text
 OpenXavaTest/web/xava/images/restore.gif -text
