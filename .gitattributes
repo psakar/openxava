@@ -8140,6 +8140,9 @@ OpenXavaTest/pojo-src/org/openxava/test/model/TransportCharge.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/TransportCharge2.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/TransportCharge2Key.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/TransportChargeKey.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/TreeContainer.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/TreeItem.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/TreeItemTwo.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Vehicle.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Wall.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/WallEntry.java -text
@@ -8418,6 +8421,10 @@ OpenXavaTest/src/org/openxava/test/tests/TransportCharge2Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/TransportChargeTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/TransportChargeTestBase.java -text
 OpenXavaTest/src/org/openxava/test/tests/TransportChargeWithDistanceTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/TreeViewDoubleEditorsTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/TreeViewTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/TreeViewTestBase.java -text
+OpenXavaTest/src/org/openxava/test/tests/TreeViewTestNoDefaultPath.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehouseSpecialNewTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehouseTest.java -text
 OpenXavaTest/src/org/openxava/test/validators/CheapProductValidator.java -text
@@ -9397,6 +9404,8 @@ OpenXavaTest/web/xava/editors/referenceEditor.jsp -text
 OpenXavaTest/web/xava/editors/regionsEditor.jsp -text
 OpenXavaTest/web/xava/editors/textAreaEditor.jsp -text
 OpenXavaTest/web/xava/editors/textEditor.jsp -text
+OpenXavaTest/web/xava/editors/treeViewEditor.jsp -text
+OpenXavaTest/web/xava/editors/treeViewListEditor.jsp -text
 OpenXavaTest/web/xava/editors/userAttributeEditor.jsp -text
 OpenXavaTest/web/xava/editors/validValueEditorCommon.jsp -text
 OpenXavaTest/web/xava/editors/validValuesEditor.jsp -text
@@ -9430,6 +9439,10 @@ OpenXavaTest/web/xava/images/html/skins/Jetspeed/tabmiddle_low.gif -text
 OpenXavaTest/web/xava/images/html/skins/Jetspeed/tabright.gif -text
 OpenXavaTest/web/xava/images/html/skins/Jetspeed/tabright_low.gif -text
 OpenXavaTest/web/xava/images/key.gif -text
+OpenXavaTest/web/xava/images/level-down.gif -text
+OpenXavaTest/web/xava/images/level-left.gif -text
+OpenXavaTest/web/xava/images/level-right.gif -text
+OpenXavaTest/web/xava/images/level-up.gif -text
 OpenXavaTest/web/xava/images/loading-module.gif -text
 OpenXavaTest/web/xava/images/maximize.gif -text
 OpenXavaTest/web/xava/images/minimize.gif -text
@@ -9462,6 +9475,8 @@ OpenXavaTest/web/xava/js/jquery-ui.js -text
 OpenXavaTest/web/xava/js/jquery.js -text
 OpenXavaTest/web/xava/js/jquery.qtip.js -text
 OpenXavaTest/web/xava/js/openxava.js -text
+OpenXavaTest/web/xava/js/yui2/treeview-min.js -text
+OpenXavaTest/web/xava/js/yui2/yahoo-dom-event.js -text
 OpenXavaTest/web/xava/list.jsp -text
 OpenXavaTest/web/xava/messages.jsp -text
 OpenXavaTest/web/xava/module.jsp -text
@@ -9652,6 +9667,15 @@ OpenXavaTest/web/xava/style/ui-lightness/images/ui-icons_ffd27a_256x240.png -tex
 OpenXavaTest/web/xava/style/ui-lightness/images/ui-icons_ffffff_256x240.png -text
 OpenXavaTest/web/xava/style/ui-lightness/jquery-ui.css -text
 OpenXavaTest/web/xava/style/yahoo.css -text svneol=unset#application/octet-stream
+OpenXavaTest/web/xava/style/yui2/fonts/fonts-min.css -text
+OpenXavaTest/web/xava/style/yui2/treeview/check0.gif -text
+OpenXavaTest/web/xava/style/yui2/treeview/check1.gif -text
+OpenXavaTest/web/xava/style/yui2/treeview/check2.gif -text
+OpenXavaTest/web/xava/style/yui2/treeview/loading.gif -text
+OpenXavaTest/web/xava/style/yui2/treeview/treeview-loading.gif -text
+OpenXavaTest/web/xava/style/yui2/treeview/treeview-skin.css -text
+OpenXavaTest/web/xava/style/yui2/treeview/treeview-sprite.gif -text
+OpenXavaTest/web/xava/style/yui2/treeview/treeview.css -text
 OpenXavaTest/websphere-as400.properties -text
 OpenXavaTest/websphere61-as400.properties -text
 OpenXavaTest/xava/application.xml -text
