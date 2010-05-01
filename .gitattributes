@@ -4250,6 +4250,7 @@ OpenXava/src/org/openxava/actions/MoveColumnToRightAction.java -text
 OpenXava/src/org/openxava/actions/NavigationAction.java -text
 OpenXava/src/org/openxava/actions/NavigationFromReferenceBaseAction.java -text
 OpenXava/src/org/openxava/actions/NewAction.java -text
+OpenXava/src/org/openxava/actions/NewTreeViewItemAction.java -text
 OpenXava/src/org/openxava/actions/OnChangePropertyBaseAction.java -text
 OpenXava/src/org/openxava/actions/OnChangeSearchAction.java -text
 OpenXava/src/org/openxava/actions/OnSelectElementBaseAction.java -text
@@ -4261,6 +4262,8 @@ OpenXava/src/org/openxava/actions/RemoveColumnAction.java -text
 OpenXava/src/org/openxava/actions/RemoveElementFromCollectionAction.java -text
 OpenXava/src/org/openxava/actions/RemoveImageFromGalleryAction.java -text
 OpenXava/src/org/openxava/actions/RemoveSelectedInCollectionAction.java -text
+OpenXava/src/org/openxava/actions/RemoveSelectedTreeViewNodeAction.java -text
+OpenXava/src/org/openxava/actions/RemoveTreeViewNodeAction.java -text
 OpenXava/src/org/openxava/actions/ResetPreviousControllersAction.java -text
 OpenXava/src/org/openxava/actions/RestoreDefaultColumnsAction.java -text
 OpenXava/src/org/openxava/actions/ReturnAction.java -text
@@ -4268,6 +4271,7 @@ OpenXava/src/org/openxava/actions/ReturnPreviousModuleAction.java -text
 OpenXava/src/org/openxava/actions/SaveAction.java -text
 OpenXava/src/org/openxava/actions/SaveElementInCollectionAction.java -text
 OpenXava/src/org/openxava/actions/SaveElementInManyToManyCollectionAction.java -text
+OpenXava/src/org/openxava/actions/SaveElementInTreeViewAction.java -text
 OpenXava/src/org/openxava/actions/SaveNewAction.java -text
 OpenXava/src/org/openxava/actions/SearchAction.java -text
 OpenXava/src/org/openxava/actions/SearchByViewKeyAction.java -text
@@ -4282,6 +4286,8 @@ OpenXava/src/org/openxava/actions/SetUserAction.java -text
 OpenXava/src/org/openxava/actions/ShowRowsAction.java -text
 OpenXava/src/org/openxava/actions/SortColumnsAction.java -text
 OpenXava/src/org/openxava/actions/TabBaseAction.java -text
+OpenXava/src/org/openxava/actions/TreeViewExpandCollapseAction.java -text
+OpenXava/src/org/openxava/actions/TreeViewMoveNodeAction.java -text
 OpenXava/src/org/openxava/actions/UpdateAction.java -text
 OpenXava/src/org/openxava/actions/UpdateReferenceBaseAction.java -text
 OpenXava/src/org/openxava/actions/ViewBaseAction.java -text
@@ -4318,6 +4324,10 @@ OpenXava/src/org/openxava/annotations/ListAction.java -text
 OpenXava/src/org/openxava/annotations/ListActions.java -text
 OpenXava/src/org/openxava/annotations/ListProperties.java -text
 OpenXava/src/org/openxava/annotations/ListsProperties.java -text
+OpenXava/src/org/openxava/annotations/MoveNodeDownAction.java -text
+OpenXava/src/org/openxava/annotations/MoveNodeLeftAction.java -text
+OpenXava/src/org/openxava/annotations/MoveNodeRightAction.java -text
+OpenXava/src/org/openxava/annotations/MoveNodeUpAction.java -text
 OpenXava/src/org/openxava/annotations/NewAction.java -text
 OpenXava/src/org/openxava/annotations/NewActions.java -text
 OpenXava/src/org/openxava/annotations/NoCreate.java -text
@@ -4330,6 +4340,8 @@ OpenXava/src/org/openxava/annotations/OnChangeSearchs.java -text
 OpenXava/src/org/openxava/annotations/OnChanges.java -text
 OpenXava/src/org/openxava/annotations/OnSelectElementAction.java -text
 OpenXava/src/org/openxava/annotations/OnSelectElementActions.java -text
+OpenXava/src/org/openxava/annotations/Path.java -text
+OpenXava/src/org/openxava/annotations/Paths.java -text
 OpenXava/src/org/openxava/annotations/PropertyValidator.java -text
 OpenXava/src/org/openxava/annotations/PropertyValidators.java -text
 OpenXava/src/org/openxava/annotations/PropertyValue.java -text
@@ -4632,6 +4644,7 @@ OpenXava/src/org/openxava/util/Server.java -text
 OpenXava/src/org/openxava/util/Strings.java -text
 OpenXava/src/org/openxava/util/SystemException.java -text
 OpenXava/src/org/openxava/util/TableModels.java -text
+OpenXava/src/org/openxava/util/TreeViewParser.java -text
 OpenXava/src/org/openxava/util/UserInfo.java -text
 OpenXava/src/org/openxava/util/Users.java -text
 OpenXava/src/org/openxava/util/XCollections.java -text
@@ -4689,6 +4702,8 @@ OpenXava/src/org/openxava/view/meta/MetaMemberView.java -text
 OpenXava/src/org/openxava/view/meta/MetaPropertyView.java -text
 OpenXava/src/org/openxava/view/meta/MetaReferenceView.java -text
 OpenXava/src/org/openxava/view/meta/MetaSearchAction.java -text
+OpenXava/src/org/openxava/view/meta/MetaTreeView.java -text
+OpenXava/src/org/openxava/view/meta/MetaTreeViewActions.java -text
 OpenXava/src/org/openxava/view/meta/MetaView.java -text
 OpenXava/src/org/openxava/view/meta/MetaViewAction.java -text
 OpenXava/src/org/openxava/view/meta/PropertiesSeparator.java -text
@@ -5360,6 +5375,8 @@ OpenXava/web/editors/radioButtonEditor.jsp -text
 OpenXava/web/editors/referenceEditor.jsp -text
 OpenXava/web/editors/textAreaEditor.jsp -text
 OpenXava/web/editors/textEditor.jsp -text
+OpenXava/web/editors/treeViewEditor.jsp -text
+OpenXava/web/editors/treeViewListEditor.jsp -text
 OpenXava/web/editors/validValueEditorCommon.jsp -text
 OpenXava/web/editors/validValuesEditor.jsp -text
 OpenXava/web/editors/webURLEditor.jsp -text
@@ -5392,6 +5409,10 @@ OpenXava/web/images/html/skins/Jetspeed/tabmiddle_low.gif -text
 OpenXava/web/images/html/skins/Jetspeed/tabright.gif -text
 OpenXava/web/images/html/skins/Jetspeed/tabright_low.gif -text
 OpenXava/web/images/key.gif -text
+OpenXava/web/images/level-down.gif -text
+OpenXava/web/images/level-left.gif -text
+OpenXava/web/images/level-right.gif -text
+OpenXava/web/images/level-up.gif -text
 OpenXava/web/images/loading-module.gif -text
 OpenXava/web/images/maximize.gif -text
 OpenXava/web/images/minimize.gif -text
@@ -5424,6 +5445,8 @@ OpenXava/web/js/jquery-ui.js -text
 OpenXava/web/js/jquery.js -text
 OpenXava/web/js/jquery.qtip.js -text
 OpenXava/web/js/openxava.js -text
+OpenXava/web/js/yui2/treeview-min.js -text
+OpenXava/web/js/yui2/yahoo-dom-event.js -text
 OpenXava/web/list.jsp -text
 OpenXava/web/messages.jsp -text
 OpenXava/web/module.jsp -text
@@ -5613,6 +5636,15 @@ OpenXava/web/style/ui-lightness/images/ui-icons_ffd27a_256x240.png -text
 OpenXava/web/style/ui-lightness/images/ui-icons_ffffff_256x240.png -text
 OpenXava/web/style/ui-lightness/jquery-ui.css -text
 OpenXava/web/style/yahoo.css -text svneol=unset#application/octet-stream
+OpenXava/web/style/yui2/fonts/fonts-min.css -text
+OpenXava/web/style/yui2/treeview/check0.gif -text
+OpenXava/web/style/yui2/treeview/check1.gif -text
+OpenXava/web/style/yui2/treeview/check2.gif -text
+OpenXava/web/style/yui2/treeview/loading.gif -text
+OpenXava/web/style/yui2/treeview/treeview-loading.gif -text
+OpenXava/web/style/yui2/treeview/treeview-skin.css -text
+OpenXava/web/style/yui2/treeview/treeview-sprite.gif -text
+OpenXava/web/style/yui2/treeview/treeview.css -text
 OpenXava/xava/META-INF/MANIFEST.MF -text
 OpenXava/xava/META-INF/taglib.tld -text
 OpenXava/xava/default-controllers.xml -text
