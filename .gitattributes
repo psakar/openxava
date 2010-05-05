@@ -7191,6 +7191,7 @@ OpenXavaTest/build/j2ee/META-INF/application-websphere.xml -text
 OpenXavaTest/build/j2ee/META-INF/application.xml -text
 OpenXavaTest/components/AverageSpeed.xml -text
 OpenXavaTest/components/Carrier.xml -text
+OpenXavaTest/components/CharacteristicThing.xml -text
 OpenXavaTest/components/Clerk.xml -text
 OpenXavaTest/components/Color.xml -text
 OpenXavaTest/components/Course.xml -text
@@ -8091,6 +8092,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/AverageSpeed.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Blog.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/BlogComment.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Carrier.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/CharacteristicThing.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Clerk.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ClerkKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Color.java -text
@@ -8380,7 +8382,6 @@ OpenXavaTest/src/org/openxava/test/tests/CustomerTwoSellersInListTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerTwoSellersNumberInListTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerWithSectionTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DeliveryGroupsInSectionsTest.java -text
-OpenXavaTest/src/org/openxava/test/tests/DeliveryPlaceTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DeliveryRemarks2002Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/DeliveryTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DeliveryTypeJSPTest.java -text
