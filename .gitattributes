@@ -4336,10 +4336,6 @@ OpenXava/src/org/openxava/annotations/ListAction.java -text
 OpenXava/src/org/openxava/annotations/ListActions.java -text
 OpenXava/src/org/openxava/annotations/ListProperties.java -text
 OpenXava/src/org/openxava/annotations/ListsProperties.java -text
-OpenXava/src/org/openxava/annotations/MoveNodeDownAction.java -text
-OpenXava/src/org/openxava/annotations/MoveNodeLeftAction.java -text
-OpenXava/src/org/openxava/annotations/MoveNodeRightAction.java -text
-OpenXava/src/org/openxava/annotations/MoveNodeUpAction.java -text
 OpenXava/src/org/openxava/annotations/NewAction.java -text
 OpenXava/src/org/openxava/annotations/NewActions.java -text
 OpenXava/src/org/openxava/annotations/NoCreate.java -text
@@ -4352,8 +4348,6 @@ OpenXava/src/org/openxava/annotations/OnChangeSearchs.java -text
 OpenXava/src/org/openxava/annotations/OnChanges.java -text
 OpenXava/src/org/openxava/annotations/OnSelectElementAction.java -text
 OpenXava/src/org/openxava/annotations/OnSelectElementActions.java -text
-OpenXava/src/org/openxava/annotations/Path.java -text
-OpenXava/src/org/openxava/annotations/Paths.java -text
 OpenXava/src/org/openxava/annotations/PropertyValidator.java -text
 OpenXava/src/org/openxava/annotations/PropertyValidators.java -text
 OpenXava/src/org/openxava/annotations/PropertyValue.java -text
@@ -4379,6 +4373,8 @@ OpenXava/src/org/openxava/annotations/SearchListConditions.java -text
 OpenXava/src/org/openxava/annotations/Stereotype.java -text
 OpenXava/src/org/openxava/annotations/Tab.java -text
 OpenXava/src/org/openxava/annotations/Tabs.java -text
+OpenXava/src/org/openxava/annotations/Tree.java -text
+OpenXava/src/org/openxava/annotations/Trees.java -text
 OpenXava/src/org/openxava/annotations/View.java -text
 OpenXava/src/org/openxava/annotations/ViewAction.java -text
 OpenXava/src/org/openxava/annotations/ViewActions.java -text
@@ -4656,7 +4652,6 @@ OpenXava/src/org/openxava/util/Server.java -text
 OpenXava/src/org/openxava/util/Strings.java -text
 OpenXava/src/org/openxava/util/SystemException.java -text
 OpenXava/src/org/openxava/util/TableModels.java -text
-OpenXava/src/org/openxava/util/TreeViewParser.java -text
 OpenXava/src/org/openxava/util/UserInfo.java -text
 OpenXava/src/org/openxava/util/Users.java -text
 OpenXava/src/org/openxava/util/XCollections.java -text
@@ -4714,8 +4709,6 @@ OpenXava/src/org/openxava/view/meta/MetaMemberView.java -text
 OpenXava/src/org/openxava/view/meta/MetaPropertyView.java -text
 OpenXava/src/org/openxava/view/meta/MetaReferenceView.java -text
 OpenXava/src/org/openxava/view/meta/MetaSearchAction.java -text
-OpenXava/src/org/openxava/view/meta/MetaTreeView.java -text
-OpenXava/src/org/openxava/view/meta/MetaTreeViewActions.java -text
 OpenXava/src/org/openxava/view/meta/MetaView.java -text
 OpenXava/src/org/openxava/view/meta/MetaViewAction.java -text
 OpenXava/src/org/openxava/view/meta/PropertiesSeparator.java -text
@@ -4729,6 +4722,9 @@ OpenXava/src/org/openxava/web/dwr/Module.java -text
 OpenXava/src/org/openxava/web/dwr/Result.java -text
 OpenXava/src/org/openxava/web/dwr/StrokeAction.java -text
 OpenXava/src/org/openxava/web/dwr/Tab.java -text
+OpenXava/src/org/openxava/web/editors/TreeView.java -text
+OpenXava/src/org/openxava/web/editors/TreeViewActions.java -text
+OpenXava/src/org/openxava/web/editors/TreeViewParser.java -text
 OpenXava/src/org/openxava/web/meta/MetaEditor.java -text
 OpenXava/src/org/openxava/web/meta/MetaWebEditors.java -text
 OpenXava/src/org/openxava/web/meta/xmlparse/EditorsParser.java -text
@@ -5389,6 +5385,17 @@ OpenXava/web/editors/textAreaEditor.jsp -text
 OpenXava/web/editors/textEditor.jsp -text
 OpenXava/web/editors/treeViewEditor.jsp -text
 OpenXava/web/editors/treeViewListEditor.jsp -text
+OpenXava/web/editors/treeview/check0.gif -text
+OpenXava/web/editors/treeview/check1.gif -text
+OpenXava/web/editors/treeview/check2.gif -text
+OpenXava/web/editors/treeview/loading.gif -text
+OpenXava/web/editors/treeview/treeview-loading.gif -text
+OpenXava/web/editors/treeview/treeview-skin.css -text
+OpenXava/web/editors/treeview/treeview-sprite.gif -text
+OpenXava/web/editors/treeview/treeview.css -text
+OpenXava/web/editors/treeview/yui2/fonts/fonts-min.css -text
+OpenXava/web/editors/treeview/yui2/treeview-min.js -text
+OpenXava/web/editors/treeview/yui2/yahoo-dom-event.js -text
 OpenXava/web/editors/validValueEditorCommon.jsp -text
 OpenXava/web/editors/validValuesEditor.jsp -text
 OpenXava/web/editors/webURLEditor.jsp -text
@@ -5457,8 +5464,6 @@ OpenXava/web/js/jquery-ui.js -text
 OpenXava/web/js/jquery.js -text
 OpenXava/web/js/jquery.qtip.js -text
 OpenXava/web/js/openxava.js -text
-OpenXava/web/js/yui2/treeview-min.js -text
-OpenXava/web/js/yui2/yahoo-dom-event.js -text
 OpenXava/web/list.jsp -text
 OpenXava/web/messages.jsp -text
 OpenXava/web/module.jsp -text
@@ -5648,15 +5653,6 @@ OpenXava/web/style/ui-lightness/images/ui-icons_ffd27a_256x240.png -text
 OpenXava/web/style/ui-lightness/images/ui-icons_ffffff_256x240.png -text
 OpenXava/web/style/ui-lightness/jquery-ui.css -text
 OpenXava/web/style/yahoo.css -text svneol=unset#application/octet-stream
-OpenXava/web/style/yui2/fonts/fonts-min.css -text
-OpenXava/web/style/yui2/treeview/check0.gif -text
-OpenXava/web/style/yui2/treeview/check1.gif -text
-OpenXava/web/style/yui2/treeview/check2.gif -text
-OpenXava/web/style/yui2/treeview/loading.gif -text
-OpenXava/web/style/yui2/treeview/treeview-loading.gif -text
-OpenXava/web/style/yui2/treeview/treeview-skin.css -text
-OpenXava/web/style/yui2/treeview/treeview-sprite.gif -text
-OpenXava/web/style/yui2/treeview/treeview.css -text
 OpenXava/xava/META-INF/MANIFEST.MF -text
 OpenXava/xava/META-INF/taglib.tld -text
 OpenXava/xava/default-controllers.xml -text
@@ -8229,6 +8225,7 @@ OpenXavaTest/reports/Products.jrxml -text
 OpenXavaTest/src/org/openxava/test/actions/ActivateDeactivateSectionAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/AddActionsAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/AddFullAddressAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/AddTranslateNameAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/AddViewDeliveryInInvoiceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/AssertComboDeliveriesAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/CarriersSearchAction.java -text
@@ -8289,6 +8286,7 @@ OpenXavaTest/src/org/openxava/test/actions/PrefixAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/RemoveActionsAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/RemoveDeliveryDetailAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/RemoveSelectedDeliveryDetailsAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/RemoveTranslateNameAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/RemoveViewDeliveryInInvoiceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ReturnToInvoiceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SaveDeliveryDetailAction.java -text
@@ -8354,6 +8352,7 @@ OpenXavaTest/src/org/openxava/test/servlets/TestServlet.java -text
 OpenXavaTest/src/org/openxava/test/tests/AJAXTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/AverageSpeedTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CarrierFellowsNamesTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/CarrierFellowsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CarrierTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CarrierTestBase.java -text
 OpenXavaTest/src/org/openxava/test/tests/CarrierWithCalculatedFellowsTest.java -text
@@ -8483,12 +8482,10 @@ OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
@@ -9450,6 +9447,17 @@ OpenXavaTest/web/xava/editors/textAreaEditor.jsp -text
 OpenXavaTest/web/xava/editors/textEditor.jsp -text
 OpenXavaTest/web/xava/editors/treeViewEditor.jsp -text
 OpenXavaTest/web/xava/editors/treeViewListEditor.jsp -text
+OpenXavaTest/web/xava/editors/treeview/check0.gif -text
+OpenXavaTest/web/xava/editors/treeview/check1.gif -text
+OpenXavaTest/web/xava/editors/treeview/check2.gif -text
+OpenXavaTest/web/xava/editors/treeview/loading.gif -text
+OpenXavaTest/web/xava/editors/treeview/treeview-loading.gif -text
+OpenXavaTest/web/xava/editors/treeview/treeview-skin.css -text
+OpenXavaTest/web/xava/editors/treeview/treeview-sprite.gif -text
+OpenXavaTest/web/xava/editors/treeview/treeview.css -text
+OpenXavaTest/web/xava/editors/treeview/yui2/fonts/fonts-min.css -text
+OpenXavaTest/web/xava/editors/treeview/yui2/treeview-min.js -text
+OpenXavaTest/web/xava/editors/treeview/yui2/yahoo-dom-event.js -text
 OpenXavaTest/web/xava/editors/userAttributeEditor.jsp -text
 OpenXavaTest/web/xava/editors/validValueEditorCommon.jsp -text
 OpenXavaTest/web/xava/editors/validValuesEditor.jsp -text
@@ -9519,8 +9527,6 @@ OpenXavaTest/web/xava/js/jquery-ui.js -text
 OpenXavaTest/web/xava/js/jquery.js -text
 OpenXavaTest/web/xava/js/jquery.qtip.js -text
 OpenXavaTest/web/xava/js/openxava.js -text
-OpenXavaTest/web/xava/js/yui2/treeview-min.js -text
-OpenXavaTest/web/xava/js/yui2/yahoo-dom-event.js -text
 OpenXavaTest/web/xava/list.jsp -text
 OpenXavaTest/web/xava/messages.jsp -text
 OpenXavaTest/web/xava/module.jsp -text
@@ -9711,15 +9717,6 @@ OpenXavaTest/web/xava/style/ui-lightness/images/ui-icons_ffd27a_256x240.png -tex
 OpenXavaTest/web/xava/style/ui-lightness/images/ui-icons_ffffff_256x240.png -text
 OpenXavaTest/web/xava/style/ui-lightness/jquery-ui.css -text
 OpenXavaTest/web/xava/style/yahoo.css -text svneol=unset#application/octet-stream
-OpenXavaTest/web/xava/style/yui2/fonts/fonts-min.css -text
-OpenXavaTest/web/xava/style/yui2/treeview/check0.gif -text
-OpenXavaTest/web/xava/style/yui2/treeview/check1.gif -text
-OpenXavaTest/web/xava/style/yui2/treeview/check2.gif -text
-OpenXavaTest/web/xava/style/yui2/treeview/loading.gif -text
-OpenXavaTest/web/xava/style/yui2/treeview/treeview-loading.gif -text
-OpenXavaTest/web/xava/style/yui2/treeview/treeview-skin.css -text
-OpenXavaTest/web/xava/style/yui2/treeview/treeview-sprite.gif -text
-OpenXavaTest/web/xava/style/yui2/treeview/treeview.css -text
 OpenXavaTest/websphere-as400.properties -text
 OpenXavaTest/websphere61-as400.properties -text
 OpenXavaTest/xava/application.xml -text
