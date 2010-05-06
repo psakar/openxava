@@ -8465,10 +8465,10 @@ OpenXavaTest/src/org/openxava/test/tests/TransportCharge2Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/TransportChargeTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/TransportChargeTestBase.java -text
 OpenXavaTest/src/org/openxava/test/tests/TransportChargeWithDistanceTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/TreeViewDefaultPathTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/TreeViewDoubleEditorsTest.java -text
-OpenXavaTest/src/org/openxava/test/tests/TreeViewTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/TreeViewTestBase.java -text
-OpenXavaTest/src/org/openxava/test/tests/TreeViewTestNoDefaultPath.java -text
+OpenXavaTest/src/org/openxava/test/tests/TreeViewTestNoDefaultPathTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehouseSpecialNewTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehouseTest.java -text
 OpenXavaTest/src/org/openxava/test/validators/CheapProductValidator.java -text
