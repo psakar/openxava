@@ -4334,6 +4334,8 @@ OpenXava/src/org/openxava/annotations/HideDetailActions.java -text
 OpenXava/src/org/openxava/annotations/LabelFormat.java -text
 OpenXava/src/org/openxava/annotations/LabelFormatType.java -text
 OpenXava/src/org/openxava/annotations/LabelFormats.java -text
+OpenXava/src/org/openxava/annotations/LabelStyle.java -text
+OpenXava/src/org/openxava/annotations/LabelStyles.java -text
 OpenXava/src/org/openxava/annotations/ListAction.java -text
 OpenXava/src/org/openxava/annotations/ListActions.java -text
 OpenXava/src/org/openxava/annotations/ListProperties.java -text
