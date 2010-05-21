@@ -1236,6 +1236,7 @@ Invoicing/properties/jndi.properties -text
 Invoicing/properties/logging.properties -text
 Invoicing/properties/xava-junit.properties -text
 Invoicing/properties/xava.properties -text
+Invoicing/src/org/openxava/invoicing/actions/AddOrdersToInvoiceAction.java -text
 Invoicing/src/org/openxava/invoicing/actions/CreateInvoiceFromOrderAction.java -text
 Invoicing/src/org/openxava/invoicing/actions/CreateInvoiceFromSelectedOrdersAction.java -text
 Invoicing/src/org/openxava/invoicing/actions/GoAddOrdersToInvoiceAction.java -text
