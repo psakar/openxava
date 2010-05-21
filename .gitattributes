@@ -5468,6 +5468,7 @@ OpenXava/web/jasperReport.jsp -text
 OpenXava/web/js/calendar.js -text
 OpenXava/web/js/dwr-engine.js -text
 OpenXava/web/js/jquery-ui.js -text
+OpenXava/web/js/jquery.bgiframe.min.js -text
 OpenXava/web/js/jquery.js -text
 OpenXava/web/js/jquery.qtip.js -text
 OpenXava/web/js/openxava.js -text
@@ -9563,6 +9564,7 @@ OpenXavaTest/web/xava/jasperReport.jsp -text
 OpenXavaTest/web/xava/js/calendar.js -text
 OpenXavaTest/web/xava/js/dwr-engine.js -text
 OpenXavaTest/web/xava/js/jquery-ui.js -text
+OpenXavaTest/web/xava/js/jquery.bgiframe.min.js -text
 OpenXavaTest/web/xava/js/jquery.js -text
 OpenXavaTest/web/xava/js/jquery.qtip.js -text
 OpenXavaTest/web/xava/js/openxava.js -text
