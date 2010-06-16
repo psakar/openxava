@@ -5532,6 +5532,7 @@ OpenXava/web/errors.jsp -text
 OpenXava/web/execute.jsp -text
 OpenXava/web/frameActions.jsp -text
 OpenXava/web/htmlTagsEditor.jsp -text
+OpenXava/web/images/Thumbs.db -text
 OpenXava/web/images/add.gif -text
 OpenXava/web/images/ascending-white.gif -text
 OpenXava/web/images/ascending.gif -text
@@ -5549,6 +5550,7 @@ OpenXava/web/images/error.gif -text
 OpenXava/web/images/excel.gif -text
 OpenXava/web/images/filter.gif -text
 OpenXava/web/images/find.gif -text
+OpenXava/web/images/help.gif -text
 OpenXava/web/images/hide-filter.gif -text
 OpenXava/web/images/home.gif -text
 OpenXava/web/images/html/skins/Jetspeed/tableft.gif -text
