@@ -9079,6 +9079,8 @@ OpenXavaTest/web/custom-jsp/seller.jsp -text
 OpenXavaTest/web/custom-jsp/sellerWithDescriptionsList.jsp -text
 OpenXavaTest/web/doc/description_en.html -text
 OpenXavaTest/web/doc/description_es.html -text
+OpenXavaTest/web/help/Color_en.html -text
+OpenXavaTest/web/help/Color_es.html -text
 OpenXavaTest/web/public/myPublicJSP.jsp -text
 OpenXavaTest/web/xava/addColumns.jsp -text
 OpenXavaTest/web/xava/addToCollection.jsp -text
