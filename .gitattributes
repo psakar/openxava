@@ -4421,6 +4421,7 @@ OpenXava/src/org/openxava/actions/SetCustomViewAction.java -text
 OpenXava/src/org/openxava/actions/SetDefaultSchemaAction.java -text
 OpenXava/src/org/openxava/actions/SetEditableAction.java -text
 OpenXava/src/org/openxava/actions/SetLocaleAction.java -text
+OpenXava/src/org/openxava/actions/SetPageRowCountAction.java -text
 OpenXava/src/org/openxava/actions/SetSchemaAction.java -text
 OpenXava/src/org/openxava/actions/SetUserAction.java -text
 OpenXava/src/org/openxava/actions/ShowRowsAction.java -text
@@ -7711,6 +7712,10 @@ OpenXavaTest/i18n/portlets/Composite_ca.properties -text
 OpenXavaTest/i18n/portlets/Composite_en.properties -text
 OpenXavaTest/i18n/portlets/Composite_es.properties -text
 OpenXavaTest/i18n/portlets/Composite_fr.properties -text
+OpenXavaTest/i18n/portlets/ConversionFactor_ca.properties -text
+OpenXavaTest/i18n/portlets/ConversionFactor_en.properties -text
+OpenXavaTest/i18n/portlets/ConversionFactor_es.properties -text
+OpenXavaTest/i18n/portlets/ConversionFactor_fr.properties -text
 OpenXavaTest/i18n/portlets/Course_ca.properties -text
 OpenXavaTest/i18n/portlets/Course_en.properties -text
 OpenXavaTest/i18n/portlets/Course_es.properties -text
@@ -8736,10 +8741,12 @@ OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
@@ -9761,11 +9768,13 @@ OpenXavaTest/web/xava/images/move-right.gif -text
 OpenXavaTest/web/xava/images/new.gif -text
 OpenXavaTest/web/xava/images/next.gif -text
 OpenXavaTest/web/xava/images/next_page.gif -text
+OpenXavaTest/web/xava/images/next_page_disable.gif -text
 OpenXavaTest/web/xava/images/odt.gif -text
 OpenXavaTest/web/xava/images/pdf.gif -text
 OpenXavaTest/web/xava/images/photo.gif -text
 OpenXavaTest/web/xava/images/previous.gif -text
 OpenXavaTest/web/xava/images/previous_page.gif -text
+OpenXavaTest/web/xava/images/previous_page_disable.gif -text
 OpenXavaTest/web/xava/images/processing.gif -text
 OpenXavaTest/web/xava/images/refresh.gif -text
 OpenXavaTest/web/xava/images/remove.gif -text
