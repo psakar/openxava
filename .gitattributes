@@ -8000,6 +8000,10 @@ OpenXavaTest/i18n/portlets/Journey_ca.properties -text
 OpenXavaTest/i18n/portlets/Journey_en.properties -text
 OpenXavaTest/i18n/portlets/Journey_es.properties -text
 OpenXavaTest/i18n/portlets/Journey_fr.properties -text
+OpenXavaTest/i18n/portlets/NotAllActionsInDetailsInvoice_ca.properties -text
+OpenXavaTest/i18n/portlets/NotAllActionsInDetailsInvoice_en.properties -text
+OpenXavaTest/i18n/portlets/NotAllActionsInDetailsInvoice_es.properties -text
+OpenXavaTest/i18n/portlets/NotAllActionsInDetailsInvoice_fr.properties -text
 OpenXavaTest/i18n/portlets/Office2_ca.properties -text
 OpenXavaTest/i18n/portlets/Office2_en.properties -text
 OpenXavaTest/i18n/portlets/Office2_es.properties -text
@@ -8672,6 +8676,7 @@ OpenXavaTest/src/org/openxava/test/tests/IssueWebTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/JPATest.java -text
 OpenXavaTest/src/org/openxava/test/tests/JourneyTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/MapFacadeTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/NotAllActionsInDetailsInvoiceTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/NotZeroValidatorTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/Office2Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/OfficeOnlyWarehouseTest.java -text
