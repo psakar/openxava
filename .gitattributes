@@ -4408,6 +4408,7 @@ OpenXava/src/org/openxava/actions/RestoreDefaultColumnsAction.java -text
 OpenXava/src/org/openxava/actions/ReturnAction.java -text
 OpenXava/src/org/openxava/actions/ReturnPreviousModuleAction.java -text
 OpenXava/src/org/openxava/actions/SaveAction.java -text
+OpenXava/src/org/openxava/actions/SaveAndStayElementInCollectionAction.java -text
 OpenXava/src/org/openxava/actions/SaveElementInCollectionAction.java -text
 OpenXava/src/org/openxava/actions/SaveElementInManyToManyCollectionAction.java -text
 OpenXava/src/org/openxava/actions/SaveElementInTreeViewAction.java -text
