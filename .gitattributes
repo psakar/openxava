@@ -5575,11 +5575,13 @@ OpenXava/web/images/move-right.gif -text
 OpenXava/web/images/new.gif -text
 OpenXava/web/images/next.gif -text
 OpenXava/web/images/next_page.gif -text
+OpenXava/web/images/next_page_disable.gif -text
 OpenXava/web/images/odt.gif -text
 OpenXava/web/images/pdf.gif -text
 OpenXava/web/images/photo.gif -text
 OpenXava/web/images/previous.gif -text
 OpenXava/web/images/previous_page.gif -text
+OpenXava/web/images/previous_page_disable.gif -text
 OpenXava/web/images/processing.gif -text
 OpenXava/web/images/refresh.gif -text
 OpenXava/web/images/remove.gif -text
