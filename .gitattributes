@@ -8840,6 +8840,7 @@ OpenXavaTest/src/org/openxava/test/tests/FormulaTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/Invoice20020001Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/Invoice2002Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/Invoice2004Test.java -text
+OpenXavaTest/src/org/openxava/test/tests/Invoice2NoModifyDetailsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/Invoice2Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/Invoice3Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoiceActiveYearTest.java -text
