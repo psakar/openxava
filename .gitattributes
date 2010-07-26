@@ -8126,6 +8126,10 @@ OpenXavaTest/i18n/portlets/Invoice2004_ca.properties -text
 OpenXavaTest/i18n/portlets/Invoice2004_en.properties -text
 OpenXavaTest/i18n/portlets/Invoice2004_es.properties -text
 OpenXavaTest/i18n/portlets/Invoice2004_fr.properties -text
+OpenXavaTest/i18n/portlets/Invoice2NoModifyDetails_ca.properties -text
+OpenXavaTest/i18n/portlets/Invoice2NoModifyDetails_en.properties -text
+OpenXavaTest/i18n/portlets/Invoice2NoModifyDetails_es.properties -text
+OpenXavaTest/i18n/portlets/Invoice2NoModifyDetails_fr.properties -text
 OpenXavaTest/i18n/portlets/Invoice2_ca.properties -text
 OpenXavaTest/i18n/portlets/Invoice2_en.properties -text
 OpenXavaTest/i18n/portlets/Invoice2_es.properties -text
