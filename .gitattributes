@@ -8716,6 +8716,7 @@ OpenXavaTest/src/org/openxava/test/actions/ChangeToLowerCaseAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeViewAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeZoneAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/CreateNewFamilyAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/CreateNewInvoiceDetail2Action.java -text
 OpenXavaTest/src/org/openxava/test/actions/CreateNewWarehouseFromReferenceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/DeactivateReferenceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/DecorateNameAction.java -text
@@ -8766,6 +8767,7 @@ OpenXavaTest/src/org/openxava/test/actions/RemoveTranslateNameAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/RemoveViewDeliveryInInvoiceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ReturnToInvoiceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SaveDeliveryDetailAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/SaveElementInCollectionFailingAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SaveTaskAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SearchDeliveryAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SearchInvoiceFromDeliveryAction.java -text
@@ -8784,6 +8786,7 @@ OpenXavaTest/src/org/openxava/test/actions/ShowDeleteAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ShowListPropertyAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ShowListTitleAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ShowMessageAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/ShowProductListAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ShowSaveDeleteAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/StateHibernateDeleteAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/StateHibernateSaveAction.java -text
