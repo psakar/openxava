@@ -7548,6 +7548,7 @@ OpenXavaTest/build/hibernate/CharacteristicThing.hbm.xml -text
 OpenXavaTest/build/hibernate/Clerk.hbm.xml -text
 OpenXavaTest/build/hibernate/Color.hbm.xml -text
 OpenXavaTest/build/hibernate/Comment.hbm.xml -text
+OpenXavaTest/build/hibernate/ConversionFactor.hbm.xml -text
 OpenXavaTest/build/hibernate/Course.hbm.xml -text
 OpenXavaTest/build/hibernate/Customer.hbm.xml -text
 OpenXavaTest/build/hibernate/CustomerContactPerson.hbm.xml -text
@@ -7604,6 +7605,7 @@ OpenXavaTest/components/Carrier.xml -text
 OpenXavaTest/components/CharacteristicThing.xml -text
 OpenXavaTest/components/Clerk.xml -text
 OpenXavaTest/components/Color.xml -text
+OpenXavaTest/components/ConversionFactor.xml -text
 OpenXavaTest/components/Course.xml -text
 OpenXavaTest/components/Customer.xml -text
 OpenXavaTest/components/CustomerContactPerson.xml -text
@@ -7667,6 +7669,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/CharacteristicThing.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Clerk.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Color.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Comment.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ConversionFactor.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Course.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Customer.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/CustomerContactPerson.java -text
@@ -7690,6 +7693,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/ICharacteristicThing.java -tex
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IClerk.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IColor.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IComment.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IConversionFactor.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ICourse.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ICustomer.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ICustomerContactPerson.java -text
@@ -8968,12 +8972,10 @@ OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
