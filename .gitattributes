@@ -1555,6 +1555,7 @@ Invoicing/src/org/openxava/invoicing/model/Product.java -text
 Invoicing/src/org/openxava/invoicing/tests/AuthorTest.java -text
 Invoicing/src/org/openxava/invoicing/tests/CategoryTest.java -text
 Invoicing/src/org/openxava/invoicing/tests/CommercialDocumentTest.java -text
+Invoicing/src/org/openxava/invoicing/tests/CustomerOrdersTest.java -text
 Invoicing/src/org/openxava/invoicing/tests/CustomerTest.java -text
 Invoicing/src/org/openxava/invoicing/tests/InvoiceTest.java -text
 Invoicing/src/org/openxava/invoicing/tests/OrderTest.java -text
