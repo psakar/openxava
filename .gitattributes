@@ -850,6 +850,7 @@ AccessTracking/web/xava/images/error.gif -text
 AccessTracking/web/xava/images/excel.gif -text
 AccessTracking/web/xava/images/filter.gif -text
 AccessTracking/web/xava/images/find.gif -text
+AccessTracking/web/xava/images/help.gif -text
 AccessTracking/web/xava/images/hide-filter.gif -text
 AccessTracking/web/xava/images/home.gif -text
 AccessTracking/web/xava/images/html/skins/Jetspeed/tableft.gif -text
@@ -871,11 +872,13 @@ AccessTracking/web/xava/images/move-right.gif -text
 AccessTracking/web/xava/images/new.gif -text
 AccessTracking/web/xava/images/next.gif -text
 AccessTracking/web/xava/images/next_page.gif -text
+AccessTracking/web/xava/images/next_page_disable.gif -text
 AccessTracking/web/xava/images/odt.gif -text
 AccessTracking/web/xava/images/pdf.gif -text
 AccessTracking/web/xava/images/photo.gif -text
 AccessTracking/web/xava/images/previous.gif -text
 AccessTracking/web/xava/images/previous_page.gif -text
+AccessTracking/web/xava/images/previous_page_disable.gif -text
 AccessTracking/web/xava/images/processing.gif -text
 AccessTracking/web/xava/images/refresh.gif -text
 AccessTracking/web/xava/images/remove.gif -text
@@ -3148,6 +3151,7 @@ MiEscuela/web/xava/images/error.gif -text
 MiEscuela/web/xava/images/excel.gif -text
 MiEscuela/web/xava/images/filter.gif -text
 MiEscuela/web/xava/images/find.gif -text
+MiEscuela/web/xava/images/help.gif -text
 MiEscuela/web/xava/images/hide-filter.gif -text
 MiEscuela/web/xava/images/home.gif -text
 MiEscuela/web/xava/images/html/skins/Jetspeed/tableft.gif -text
@@ -3169,11 +3173,13 @@ MiEscuela/web/xava/images/move-right.gif -text
 MiEscuela/web/xava/images/new.gif -text
 MiEscuela/web/xava/images/next.gif -text
 MiEscuela/web/xava/images/next_page.gif -text
+MiEscuela/web/xava/images/next_page_disable.gif -text
 MiEscuela/web/xava/images/odt.gif -text
 MiEscuela/web/xava/images/pdf.gif -text
 MiEscuela/web/xava/images/photo.gif -text
 MiEscuela/web/xava/images/previous.gif -text
 MiEscuela/web/xava/images/previous_page.gif -text
+MiEscuela/web/xava/images/previous_page_disable.gif -text
 MiEscuela/web/xava/images/processing.gif -text
 MiEscuela/web/xava/images/refresh.gif -text
 MiEscuela/web/xava/images/remove.gif -text
@@ -3444,6 +3450,7 @@ MySchool/properties/xava.properties -text
 MySchool/src/org/openxava/school/model/Teacher.java -text
 MySchool/src/org/openxava/school/tests/TeacherTest.java -text
 MySchool/web/META-INF/MANIFEST.MF -text
+MySchool/web/WEB-INF/classes/MySchool-labels.properties -text
 MySchool/web/WEB-INF/classes/hibernate.cfg.xml -text
 MySchool/web/WEB-INF/dwr.xml -text
 MySchool/web/WEB-INF/fonts/DejaVuSans.ttf -text
@@ -4125,6 +4132,7 @@ MySchool/web/xava/images/error.gif -text
 MySchool/web/xava/images/excel.gif -text
 MySchool/web/xava/images/filter.gif -text
 MySchool/web/xava/images/find.gif -text
+MySchool/web/xava/images/help.gif -text
 MySchool/web/xava/images/hide-filter.gif -text
 MySchool/web/xava/images/home.gif -text
 MySchool/web/xava/images/html/skins/Jetspeed/tableft.gif -text
@@ -4146,11 +4154,13 @@ MySchool/web/xava/images/move-right.gif -text
 MySchool/web/xava/images/new.gif -text
 MySchool/web/xava/images/next.gif -text
 MySchool/web/xava/images/next_page.gif -text
+MySchool/web/xava/images/next_page_disable.gif -text
 MySchool/web/xava/images/odt.gif -text
 MySchool/web/xava/images/pdf.gif -text
 MySchool/web/xava/images/photo.gif -text
 MySchool/web/xava/images/previous.gif -text
 MySchool/web/xava/images/previous_page.gif -text
+MySchool/web/xava/images/previous_page_disable.gif -text
 MySchool/web/xava/images/processing.gif -text
 MySchool/web/xava/images/refresh.gif -text
 MySchool/web/xava/images/remove.gif -text
@@ -8972,10 +8982,12 @@ OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
