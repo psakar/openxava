@@ -6119,6 +6119,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/GoListAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/GoNextPageAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/GoPageAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/GoPreviousPageAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/GoSplitAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/GoToURLAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/HideDetailElementInCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/HideRowsAction.html -text
@@ -6176,6 +6177,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/RestoreDefaultColumnsAction.html -t
 OpenXavaDoc/web/apidocs/org/openxava/actions/ReturnAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/ReturnPreviousModuleAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/SaveAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/SaveAndStayElementInCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/SaveElementInCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/SaveElementInManyToManyCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/SaveElementInTreeViewAction.html -text
@@ -6187,7 +6189,9 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/SearchExecutingOnChangeAction.html 
 OpenXavaDoc/web/apidocs/org/openxava/actions/SearchReadOnlyAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/SetCustomViewAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/SetDefaultSchemaAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/SetEditableAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/SetLocaleAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/SetPageRowCountAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/SetSchemaAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/SetUserAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/ShowRowsAction.html -text
@@ -6235,6 +6239,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoListAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoNextPageAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoPageAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoPreviousPageAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoSplitAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoToURLAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/HideDetailElementInCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/HideRowsAction.html -text
@@ -6292,6 +6297,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RestoreDefaultColumnsActi
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ReturnAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ReturnPreviousModuleAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SaveAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SaveAndStayElementInCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SaveElementInCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SaveElementInManyToManyCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SaveElementInTreeViewAction.html -text
@@ -6303,7 +6309,9 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SearchExecutingOnChangeAc
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SearchReadOnlyAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SetCustomViewAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SetDefaultSchemaAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SetEditableAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SetLocaleAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SetPageRowCountAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SetSchemaAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SetUserAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ShowRowsAction.html -text
