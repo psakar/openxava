@@ -8741,6 +8741,7 @@ OpenXavaTest/src/org/openxava/test/actions/ChangePageRowCountAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeProductPriceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeToLowerCaseAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeViewAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/ChangeYearConditionAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeZoneAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/CreateNewFamilyAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/CreateNewInvoiceDetail2Action.java -text
@@ -8901,6 +8902,7 @@ OpenXavaTest/src/org/openxava/test/tests/FamilyWithInheritanceControllerTest.jav
 OpenXavaTest/src/org/openxava/test/tests/FamilyXProductsReportTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/FormulaTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/Invoice20020001Test.java -text
+OpenXavaTest/src/org/openxava/test/tests/Invoice20022004Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/Invoice2002Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/Invoice2004Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/Invoice2NoModifyDetailsTest.java -text
