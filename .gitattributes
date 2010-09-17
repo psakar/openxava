@@ -4566,6 +4566,8 @@ OpenXava/lib/jsp-api.jar -text
 OpenXava/lib/jta.jar -text
 OpenXava/lib/junit.jar -text
 OpenXava/lib/nekohtml.jar -text
+OpenXava/lib/portal-kernel.jar -text
+OpenXava/lib/portal-service.jar -text
 OpenXava/lib/portlet-api-1.0.jar -text
 OpenXava/lib/sac.jar -text
 OpenXava/lib/servlet-api.jar -text
@@ -4578,6 +4580,7 @@ OpenXava/properties/commons-logging.properties -text
 OpenXava/src/org/openxava/actions/AddColumnsAction.java -text
 OpenXava/src/org/openxava/actions/AddElementsToCollectionAction.java -text
 OpenXava/src/org/openxava/actions/AddImageToGalleryAction.java -text
+OpenXava/src/org/openxava/actions/AddLiferayDocumentAction.java -text
 OpenXava/src/org/openxava/actions/BaseAction.java -text
 OpenXava/src/org/openxava/actions/CancelAction.java -text
 OpenXava/src/org/openxava/actions/CancelDialogAction.java -text
@@ -4595,6 +4598,7 @@ OpenXava/src/org/openxava/actions/CreateNewFromReferenceAction.java -text
 OpenXava/src/org/openxava/actions/CustomizeListAction.java -text
 OpenXava/src/org/openxava/actions/DeleteAction.java -text
 OpenXava/src/org/openxava/actions/DeleteImageAction.java -text
+OpenXava/src/org/openxava/actions/DeleteLiferayDocumentAction.java -text
 OpenXava/src/org/openxava/actions/DeleteSelectedAction.java -text
 OpenXava/src/org/openxava/actions/DeselectRowsAction.java -text
 OpenXava/src/org/openxava/actions/EditElementInCollectionAction.java -text
@@ -4640,6 +4644,7 @@ OpenXava/src/org/openxava/actions/InitListAction.java -text
 OpenXava/src/org/openxava/actions/JasperReportBaseAction.java -text
 OpenXava/src/org/openxava/actions/LoadImageAction.java -text
 OpenXava/src/org/openxava/actions/LoadImageIntoGalleryAction.java -text
+OpenXava/src/org/openxava/actions/LoadLiferayDocumentAction.java -text
 OpenXava/src/org/openxava/actions/MaximizeImageAction.java -text
 OpenXava/src/org/openxava/actions/MinimizeImageAction.java -text
 OpenXava/src/org/openxava/actions/ModifyFromReferenceAction.java -text
@@ -4961,6 +4966,8 @@ OpenXava/src/org/openxava/model/meta/xmlparse/ModelParser.java -text
 OpenXava/src/org/openxava/model/meta/xmlparse/StereotypeTypeDefaultParser.java -text
 OpenXava/src/org/openxava/session/Gallery.java -text
 OpenXava/src/org/openxava/session/GalleryImage.java -text
+OpenXava/src/org/openxava/session/LiferayDocument.java -text
+OpenXava/src/org/openxava/session/LiferayLibrary.java -text
 OpenXava/src/org/openxava/tab/Tab.java -text
 OpenXava/src/org/openxava/tab/impl/DataChunk.java -text
 OpenXava/src/org/openxava/tab/impl/EntityTab.java -text
@@ -5770,6 +5777,8 @@ OpenXava/web/editors/js/autoNumeric.js -text
 OpenXava/web/editors/js/htmlEditor.js -text
 OpenXava/web/editors/js/textEditor.js -text
 OpenXava/web/editors/labelEditor.jsp -text
+OpenXava/web/editors/liferayDocumentLibraryEditor.jsp -text
+OpenXava/web/editors/liferayUploadFile.jsp -text
 OpenXava/web/editors/moneyEditor.jsp -text
 OpenXava/web/editors/notAvailableEditor.jsp -text
 OpenXava/web/editors/radioButtonEditor.jsp -text
@@ -8103,6 +8112,10 @@ OpenXavaTest/i18n/portlets/Doctor_ca.properties -text
 OpenXavaTest/i18n/portlets/Doctor_en.properties -text
 OpenXavaTest/i18n/portlets/Doctor_es.properties -text
 OpenXavaTest/i18n/portlets/Doctor_fr.properties -text
+OpenXavaTest/i18n/portlets/Document_ca.properties -text
+OpenXavaTest/i18n/portlets/Document_en.properties -text
+OpenXavaTest/i18n/portlets/Document_es.properties -text
+OpenXavaTest/i18n/portlets/Document_fr.properties -text
 OpenXavaTest/i18n/portlets/Driver_ca.properties -text
 OpenXavaTest/i18n/portlets/Driver_en.properties -text
 OpenXavaTest/i18n/portlets/Driver_es.properties -text
@@ -8648,6 +8661,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/DeliveryKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/DeliveryPlace.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/DeliveryType.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Doctor.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Document.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Driver.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/DrivingLicence.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/DrivingLicenceKey.java -text
@@ -9035,10 +9049,12 @@ OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
@@ -9994,6 +10010,8 @@ OpenXavaTest/web/xava/editors/js/autoNumeric.js -text
 OpenXavaTest/web/xava/editors/js/htmlEditor.js -text
 OpenXavaTest/web/xava/editors/js/textEditor.js -text
 OpenXavaTest/web/xava/editors/labelEditor.jsp -text
+OpenXavaTest/web/xava/editors/liferayDocumentLibraryEditor.jsp -text
+OpenXavaTest/web/xava/editors/liferayUploadFile.jsp -text
 OpenXavaTest/web/xava/editors/moneyEditor.jsp -text
 OpenXavaTest/web/xava/editors/notAvailableEditor.jsp -text
 OpenXavaTest/web/xava/editors/radioButtonEditor.jsp -text
