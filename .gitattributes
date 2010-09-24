@@ -8643,6 +8643,8 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Blog.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/BlogComment.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Carrier.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/CharacteristicThing.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Child.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/ChildId.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Clerk.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ClerkKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Color.java -text
@@ -8693,6 +8695,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Office2Key.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/OneLineAddress.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Order.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/OrderDetail.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Parent.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Product.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Product2.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Product3.java -text
@@ -8767,6 +8770,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/TreeViewTestNoDefaultPathTest.java
 OpenXavaTest/pojo-src/org/openxava/test/tests/WallTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/Warehouse2Test.java -text
 OpenXavaTest/pojo-src/org/openxava/test/types/RegionsType.java -text
+OpenXavaTest/pojo-src/org/openxava/test/validators/ChildValidator.java -text
 OpenXavaTest/pojo-src/org/openxava/test/validators/DeliveryPlaceValidator.java -text
 OpenXavaTest/pojo-src/org/openxava/test/validators/DeliveryTypeRemoveValidator.java -text
 OpenXavaTest/pojo-src/org/openxava/test/validators/InvoiceDetailValidator.java -text
@@ -9030,6 +9034,7 @@ OpenXavaTest/src/org/openxava/test/tests/TransportCharge2Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/TransportChargeTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/TransportChargeTestBase.java -text
 OpenXavaTest/src/org/openxava/test/tests/TransportChargeWithDistanceTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/ValidateEmbeddedCollectionTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehouseDetailListTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehouseDetailOnlyTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehouseListOnlyTest.java -text
@@ -9049,12 +9054,10 @@ OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
