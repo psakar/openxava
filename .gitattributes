@@ -4440,6 +4440,7 @@ OpenXava/.settings/org.eclipse.wst.validation.prefs -text
 OpenXava/.vcm_meta -text svneol=unset#application/octet-stream
 OpenXava/build.xml -text
 OpenXava/build/jboss-app.xml -text
+OpenXava/build/openxava.jar -text
 OpenXava/build/server-properties/BeansContext.properties -text
 OpenXava/build/server-properties/EJBContextFactory.properties -text
 OpenXava/changelog.txt -text
