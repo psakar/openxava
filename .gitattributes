@@ -8701,6 +8701,8 @@ OpenXavaTest/pojo-src/org/openxava/test/model/OneLineAddress.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Order.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/OrderDetail.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Parent.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Person.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/PhoneNumber.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Product.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Product2.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Product3.java -text
@@ -8713,6 +8715,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/QuarterSubjectKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Ranges.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Receptionist.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Report.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/SalesRepresentative.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/SelectSchema.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Seller.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/SellerLevel.java -text
@@ -8959,6 +8962,7 @@ OpenXavaTest/src/org/openxava/test/tests/DeliveryTypeTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DescriptionTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DigitsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DriverTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/EmbeddedableTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/FamilyListOnlyTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/FamilyProductsReportTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/FamilyRangeProductsReportTest.java -text
