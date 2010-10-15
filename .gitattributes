@@ -4556,6 +4556,7 @@ OpenXava/lib/portal-kernel.jar -text
 OpenXava/lib/portal-service.jar -text
 OpenXava/lib/portlet-api-1.0.jar -text
 OpenXava/lib/sac.jar -text
+OpenXava/lib/serializer.jar -text
 OpenXava/lib/servlet-api.jar -text
 OpenXava/lib/tl.jar -text
 OpenXava/lib/xalan.jar -text
@@ -5174,11 +5175,7 @@ OpenXava/web/WEB-INF/lib/dom4j.jar -text
 OpenXava/web/WEB-INF/lib/dsn.jar -text
 OpenXava/web/WEB-INF/lib/dwr.jar -text
 OpenXava/web/WEB-INF/lib/ehcache.jar -text
-OpenXava/web/WEB-INF/lib/ejb3-persistence.jar -text
 OpenXava/web/WEB-INF/lib/groovy-all.jar -text
-OpenXava/web/WEB-INF/lib/hibernate-annotations.jar -text
-OpenXava/web/WEB-INF/lib/hibernate-commons-annotations.jar -text
-OpenXava/web/WEB-INF/lib/hibernate-entitymanager.jar -text
 OpenXava/web/WEB-INF/lib/hibernate-validator.jar -text
 OpenXava/web/WEB-INF/lib/hibernate3.jar -text
 OpenXava/web/WEB-INF/lib/imap.jar -text
@@ -5188,6 +5185,7 @@ OpenXava/web/WEB-INF/lib/jasperreports.jar -text
 OpenXava/web/WEB-INF/lib/javassist.jar -text
 OpenXava/web/WEB-INF/lib/javax.inject.jar -text
 OpenXava/web/WEB-INF/lib/jboss-archive-browsing.jar -text
+OpenXava/web/WEB-INF/lib/jpa2.jar -text
 OpenXava/web/WEB-INF/lib/jstl.jar -text
 OpenXava/web/WEB-INF/lib/mailapi.jar -text
 OpenXava/web/WEB-INF/lib/ox-jdbc-adapters.jar -text
@@ -8683,7 +8681,6 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Course.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/CourseKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Customer.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/CustomerContactPerson.java -text
-OpenXavaTest/pojo-src/org/openxava/test/model/CustomerContactPersonKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Delivery.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/DeliveryDetail.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/DeliveryKey.java -text
@@ -9086,12 +9083,10 @@ OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
@@ -9419,11 +9414,7 @@ OpenXavaTest/web/WEB-INF/lib/dom4j.jar -text
 OpenXavaTest/web/WEB-INF/lib/dsn.jar -text
 OpenXavaTest/web/WEB-INF/lib/dwr.jar -text
 OpenXavaTest/web/WEB-INF/lib/ehcache.jar -text
-OpenXavaTest/web/WEB-INF/lib/ejb3-persistence.jar -text
 OpenXavaTest/web/WEB-INF/lib/groovy-all.jar -text
-OpenXavaTest/web/WEB-INF/lib/hibernate-annotations.jar -text
-OpenXavaTest/web/WEB-INF/lib/hibernate-commons-annotations.jar -text
-OpenXavaTest/web/WEB-INF/lib/hibernate-entitymanager.jar -text
 OpenXavaTest/web/WEB-INF/lib/hibernate-validator.jar -text
 OpenXavaTest/web/WEB-INF/lib/hibernate3.jar -text
 OpenXavaTest/web/WEB-INF/lib/imap.jar -text
@@ -9434,6 +9425,7 @@ OpenXavaTest/web/WEB-INF/lib/javassist.jar -text
 OpenXavaTest/web/WEB-INF/lib/javax.inject.jar -text
 OpenXavaTest/web/WEB-INF/lib/jboss-archive-browsing.jar -text
 OpenXavaTest/web/WEB-INF/lib/jboss-client.jar -text
+OpenXavaTest/web/WEB-INF/lib/jpa2.jar -text
 OpenXavaTest/web/WEB-INF/lib/jstl.jar -text
 OpenXavaTest/web/WEB-INF/lib/mailapi.jar -text
 OpenXavaTest/web/WEB-INF/lib/openxava.jar -text
