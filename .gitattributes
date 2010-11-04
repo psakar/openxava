@@ -5144,6 +5144,7 @@ OpenXava/src/org/openxava/web/style/JetSpeed2Style.java -text
 OpenXava/src/org/openxava/web/style/Liferay41Style.java -text
 OpenXava/src/org/openxava/web/style/Liferay43Style.java -text
 OpenXava/src/org/openxava/web/style/Liferay51Style.java -text
+OpenXava/src/org/openxava/web/style/Liferay6Style.java -text
 OpenXava/src/org/openxava/web/style/Style.java -text
 OpenXava/src/org/openxava/web/style/WebSpherePortal61Style.java -text
 OpenXava/src/org/openxava/web/style/WebSpherePortal6Style.java -text
@@ -6046,6 +6047,21 @@ OpenXava/web/style/liferay51/js/init_liferay.js -text
 OpenXava/web/style/liferay51/js/theme_display.js -text
 OpenXava/web/style/openxava.css -text
 OpenXava/web/style/skins.css -text svneol=unset#application/octet-stream
+OpenXava/web/style/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png -text
+OpenXava/web/style/smoothness/images/ui-bg_flat_75_ffffff_40x100.png -text
+OpenXava/web/style/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png -text
+OpenXava/web/style/smoothness/images/ui-bg_glass_65_ffffff_1x400.png -text
+OpenXava/web/style/smoothness/images/ui-bg_glass_75_dadada_1x400.png -text
+OpenXava/web/style/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png -text
+OpenXava/web/style/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png -text
+OpenXava/web/style/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png -text
+OpenXava/web/style/smoothness/images/ui-icons_222222_256x240.png -text
+OpenXava/web/style/smoothness/images/ui-icons_2e83ff_256x240.png -text
+OpenXava/web/style/smoothness/images/ui-icons_454545_256x240.png -text
+OpenXava/web/style/smoothness/images/ui-icons_888888_256x240.png -text
+OpenXava/web/style/smoothness/images/ui-icons_cd0a0a_256x240.png -text
+OpenXava/web/style/smoothness/jquery-ui.css -text
+OpenXava/web/style/smoothness/liferay6-patch.css -text
 OpenXava/web/style/swing.css -text svneol=unset#application/octet-stream
 OpenXava/web/style/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png -text
 OpenXava/web/style/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png -text
@@ -8347,6 +8363,14 @@ OpenXavaTest/i18n/portlets/Order_ca.properties -text
 OpenXavaTest/i18n/portlets/Order_en.properties -text
 OpenXavaTest/i18n/portlets/Order_es.properties -text
 OpenXavaTest/i18n/portlets/Order_fr.properties -text
+OpenXavaTest/i18n/portlets/Orphan_ca.properties -text
+OpenXavaTest/i18n/portlets/Orphan_en.properties -text
+OpenXavaTest/i18n/portlets/Orphan_es.properties -text
+OpenXavaTest/i18n/portlets/Orphan_fr.properties -text
+OpenXavaTest/i18n/portlets/Orphanage_ca.properties -text
+OpenXavaTest/i18n/portlets/Orphanage_en.properties -text
+OpenXavaTest/i18n/portlets/Orphanage_es.properties -text
+OpenXavaTest/i18n/portlets/Orphanage_fr.properties -text
 OpenXavaTest/i18n/portlets/Parent_ca.properties -text
 OpenXavaTest/i18n/portlets/Parent_en.properties -text
 OpenXavaTest/i18n/portlets/Parent_es.properties -text
@@ -10321,6 +10345,21 @@ OpenXavaTest/web/xava/style/liferay51/js/init_liferay.js -text
 OpenXavaTest/web/xava/style/liferay51/js/theme_display.js -text
 OpenXavaTest/web/xava/style/openxava.css -text
 OpenXavaTest/web/xava/style/skins.css -text svneol=unset#application/octet-stream
+OpenXavaTest/web/xava/style/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png -text
+OpenXavaTest/web/xava/style/smoothness/images/ui-bg_flat_75_ffffff_40x100.png -text
+OpenXavaTest/web/xava/style/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png -text
+OpenXavaTest/web/xava/style/smoothness/images/ui-bg_glass_65_ffffff_1x400.png -text
+OpenXavaTest/web/xava/style/smoothness/images/ui-bg_glass_75_dadada_1x400.png -text
+OpenXavaTest/web/xava/style/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png -text
+OpenXavaTest/web/xava/style/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png -text
+OpenXavaTest/web/xava/style/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png -text
+OpenXavaTest/web/xava/style/smoothness/images/ui-icons_222222_256x240.png -text
+OpenXavaTest/web/xava/style/smoothness/images/ui-icons_2e83ff_256x240.png -text
+OpenXavaTest/web/xava/style/smoothness/images/ui-icons_454545_256x240.png -text
+OpenXavaTest/web/xava/style/smoothness/images/ui-icons_888888_256x240.png -text
+OpenXavaTest/web/xava/style/smoothness/images/ui-icons_cd0a0a_256x240.png -text
+OpenXavaTest/web/xava/style/smoothness/jquery-ui.css -text
+OpenXavaTest/web/xava/style/smoothness/liferay6-patch.css -text
 OpenXavaTest/web/xava/style/swing.css -text svneol=unset#application/octet-stream
 OpenXavaTest/web/xava/style/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png -text
 OpenXavaTest/web/xava/style/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png -text
