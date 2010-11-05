@@ -5126,9 +5126,11 @@ OpenXava/src/org/openxava/web/dwr/Result.java -text
 OpenXava/src/org/openxava/web/dwr/StrokeAction.java -text
 OpenXava/src/org/openxava/web/dwr/Tab.java -text
 OpenXava/src/org/openxava/web/dwr/View.java -text
+OpenXava/src/org/openxava/web/editors/ITreeViewReader.java -text
 OpenXava/src/org/openxava/web/editors/TreeView.java -text
 OpenXava/src/org/openxava/web/editors/TreeViewActions.java -text
 OpenXava/src/org/openxava/web/editors/TreeViewParser.java -text
+OpenXava/src/org/openxava/web/editors/TreeViewReaderImpl.java -text
 OpenXava/src/org/openxava/web/meta/MetaEditor.java -text
 OpenXava/src/org/openxava/web/meta/MetaWebEditors.java -text
 OpenXava/src/org/openxava/web/meta/xmlparse/EditorsParser.java -text
