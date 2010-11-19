@@ -9036,6 +9036,7 @@ OpenXavaTest/src/org/openxava/test/tests/ClerkTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ColorM1Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/ColorTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ColorWithGroupsAndChangeControllersTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/ConversionFactorTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerContactPersonAsAggregate3LevelsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerContactPersonTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerNewOnInitInheritedTest.java -text
@@ -9055,7 +9056,6 @@ OpenXavaTest/src/org/openxava/test/tests/DeliveryTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DeliveryTypeJSPTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DeliveryTypeTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DescriptionTest.java -text
-OpenXavaTest/src/org/openxava/test/tests/DigitsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DriverTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/FamilyListOnlyTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/FamilyProductsReportTest.java -text
@@ -9156,12 +9156,10 @@ OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
