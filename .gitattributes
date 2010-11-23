@@ -5833,6 +5833,8 @@ OpenXava/web/editors/imageLabelEditor.jsp -text
 OpenXava/web/editors/js/autoNumeric.js -text
 OpenXava/web/editors/js/htmlEditor.js -text
 OpenXava/web/editors/js/textEditor.js -text
+OpenXava/web/editors/js/yahoo-dom-event.js -text
+OpenXava/web/editors/js/yahoo-treeview-min.js -text
 OpenXava/web/editors/labelEditor.jsp -text
 OpenXava/web/editors/liferayDocumentLibraryEditor.jsp -text
 OpenXava/web/editors/liferayUploadFile.jsp -text
@@ -5844,17 +5846,6 @@ OpenXava/web/editors/textAreaEditor.jsp -text
 OpenXava/web/editors/textEditor.jsp -text
 OpenXava/web/editors/treeViewEditor.jsp -text
 OpenXava/web/editors/treeViewListEditor.jsp -text
-OpenXava/web/editors/treeview/check0.gif -text
-OpenXava/web/editors/treeview/check1.gif -text
-OpenXava/web/editors/treeview/check2.gif -text
-OpenXava/web/editors/treeview/loading.gif -text
-OpenXava/web/editors/treeview/treeview-loading.gif -text
-OpenXava/web/editors/treeview/treeview-skin.css -text
-OpenXava/web/editors/treeview/treeview-sprite.gif -text
-OpenXava/web/editors/treeview/treeview.css -text
-OpenXava/web/editors/treeview/yui2/fonts/fonts-min.css -text
-OpenXava/web/editors/treeview/yui2/treeview-min.js -text
-OpenXava/web/editors/treeview/yui2/yahoo-dom-event.js -text
 OpenXava/web/editors/validValueEditorCommon.jsp -text
 OpenXava/web/editors/validValuesEditor.jsp -text
 OpenXava/web/editors/webURLEditor.jsp -text
@@ -6131,6 +6122,15 @@ OpenXava/web/style/ui-lightness/images/ui-icons_ef8c08_256x240.png -text
 OpenXava/web/style/ui-lightness/images/ui-icons_ffd27a_256x240.png -text
 OpenXava/web/style/ui-lightness/images/ui-icons_ffffff_256x240.png -text
 OpenXava/web/style/ui-lightness/jquery-ui.css -text
+OpenXava/web/style/yahoo-treeview/check0.gif -text
+OpenXava/web/style/yahoo-treeview/check1.gif -text
+OpenXava/web/style/yahoo-treeview/check2.gif -text
+OpenXava/web/style/yahoo-treeview/fonts/fonts-min.css -text
+OpenXava/web/style/yahoo-treeview/loading.gif -text
+OpenXava/web/style/yahoo-treeview/treeview-loading.gif -text
+OpenXava/web/style/yahoo-treeview/treeview-skin.css -text
+OpenXava/web/style/yahoo-treeview/treeview-sprite.gif -text
+OpenXava/web/style/yahoo-treeview/treeview.css -text
 OpenXava/web/style/yahoo.css -text svneol=unset#application/octet-stream
 OpenXava/xava/META-INF/MANIFEST.MF -text
 OpenXava/xava/META-INF/taglib.tld -text
