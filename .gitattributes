@@ -9190,10 +9190,12 @@ OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
@@ -10146,6 +10148,9 @@ OpenXavaTest/web/xava/editors/imageLabelEditor.jsp -text
 OpenXavaTest/web/xava/editors/js/autoNumeric.js -text
 OpenXavaTest/web/xava/editors/js/htmlEditor.js -text
 OpenXavaTest/web/xava/editors/js/textEditor.js -text
+OpenXavaTest/web/xava/editors/js/yahoo-dom-event.js -text
+OpenXavaTest/web/xava/editors/js/yahoo-treeview-min.js -text
+OpenXavaTest/web/xava/editors/js/yahoo-treeview-xloader.js -text
 OpenXavaTest/web/xava/editors/labelEditor.jsp -text
 OpenXavaTest/web/xava/editors/liferayDocumentLibraryEditor.jsp -text
 OpenXavaTest/web/xava/editors/liferayUploadFile.jsp -text
@@ -10158,17 +10163,6 @@ OpenXavaTest/web/xava/editors/textAreaEditor.jsp -text
 OpenXavaTest/web/xava/editors/textEditor.jsp -text
 OpenXavaTest/web/xava/editors/treeViewEditor.jsp -text
 OpenXavaTest/web/xava/editors/treeViewListEditor.jsp -text
-OpenXavaTest/web/xava/editors/treeview/check0.gif -text
-OpenXavaTest/web/xava/editors/treeview/check1.gif -text
-OpenXavaTest/web/xava/editors/treeview/check2.gif -text
-OpenXavaTest/web/xava/editors/treeview/loading.gif -text
-OpenXavaTest/web/xava/editors/treeview/treeview-loading.gif -text
-OpenXavaTest/web/xava/editors/treeview/treeview-skin.css -text
-OpenXavaTest/web/xava/editors/treeview/treeview-sprite.gif -text
-OpenXavaTest/web/xava/editors/treeview/treeview.css -text
-OpenXavaTest/web/xava/editors/treeview/yui2/fonts/fonts-min.css -text
-OpenXavaTest/web/xava/editors/treeview/yui2/treeview-min.js -text
-OpenXavaTest/web/xava/editors/treeview/yui2/yahoo-dom-event.js -text
 OpenXavaTest/web/xava/editors/userAttributeEditor.jsp -text
 OpenXavaTest/web/xava/editors/validValueEditorCommon.jsp -text
 OpenXavaTest/web/xava/editors/validValuesEditor.jsp -text
@@ -10448,6 +10442,15 @@ OpenXavaTest/web/xava/style/ui-lightness/images/ui-icons_ef8c08_256x240.png -tex
 OpenXavaTest/web/xava/style/ui-lightness/images/ui-icons_ffd27a_256x240.png -text
 OpenXavaTest/web/xava/style/ui-lightness/images/ui-icons_ffffff_256x240.png -text
 OpenXavaTest/web/xava/style/ui-lightness/jquery-ui.css -text
+OpenXavaTest/web/xava/style/yahoo-treeview/check0.gif -text
+OpenXavaTest/web/xava/style/yahoo-treeview/check1.gif -text
+OpenXavaTest/web/xava/style/yahoo-treeview/check2.gif -text
+OpenXavaTest/web/xava/style/yahoo-treeview/fonts/fonts-min.css -text
+OpenXavaTest/web/xava/style/yahoo-treeview/loading.gif -text
+OpenXavaTest/web/xava/style/yahoo-treeview/treeview-loading.gif -text
+OpenXavaTest/web/xava/style/yahoo-treeview/treeview-skin.css -text
+OpenXavaTest/web/xava/style/yahoo-treeview/treeview-sprite.gif -text
+OpenXavaTest/web/xava/style/yahoo-treeview/treeview.css -text
 OpenXavaTest/web/xava/style/yahoo.css -text svneol=unset#application/octet-stream
 OpenXavaTest/websphere-as400.properties -text
 OpenXavaTest/websphere61-as400.properties -text
