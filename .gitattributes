@@ -8090,6 +8090,10 @@ OpenXavaTest/i18n/portlets/Color_ca.properties -text
 OpenXavaTest/i18n/portlets/Color_en.properties -text
 OpenXavaTest/i18n/portlets/Color_es.properties -text
 OpenXavaTest/i18n/portlets/Color_fr.properties -text
+OpenXavaTest/i18n/portlets/ColorinColorado_ca.properties -text
+OpenXavaTest/i18n/portlets/ColorinColorado_en.properties -text
+OpenXavaTest/i18n/portlets/ColorinColorado_es.properties -text
+OpenXavaTest/i18n/portlets/ColorinColorado_fr.properties -text
 OpenXavaTest/i18n/portlets/Comment_ca.properties -text
 OpenXavaTest/i18n/portlets/Comment_en.properties -text
 OpenXavaTest/i18n/portlets/Comment_es.properties -text
@@ -8746,6 +8750,7 @@ OpenXavaTest/persistence/GalleryImage.hbm.xml -text
 OpenXavaTest/persistence/META-INF/persistence.xml -text
 OpenXavaTest/persistence/hibernate-junit.cfg.xml -text
 OpenXavaTest/persistence/hibernate.cfg.xml -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/AddToNameAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/FamilyProductsReportAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/InvoiceReportAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/NewWarehouseAction.java -text
@@ -8884,6 +8889,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Year.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/AnnotatedPOJOTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/BlogTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/BookTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/ColorinColoradoTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CommunityTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CompositeTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DrivingLicenceTest.java -text
@@ -8900,10 +8906,10 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/SalesRepresentativeTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SummerCourseTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ToDoListTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TotoTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/TreeContainerTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TreeViewDefaultPathTest.java -text
-OpenXavaTest/pojo-src/org/openxava/test/tests/TreeViewDoubleEditorsTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/TreeViewNoDefaultPathTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TreeViewTestBase.java -text
-OpenXavaTest/pojo-src/org/openxava/test/tests/TreeViewTestNoDefaultPathTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/WallTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/Warehouse2Test.java -text
 OpenXavaTest/pojo-src/org/openxava/test/types/RegionsType.java -text
@@ -10150,7 +10156,6 @@ OpenXavaTest/web/xava/editors/js/htmlEditor.js -text
 OpenXavaTest/web/xava/editors/js/textEditor.js -text
 OpenXavaTest/web/xava/editors/js/yahoo-dom-event.js -text
 OpenXavaTest/web/xava/editors/js/yahoo-treeview-min.js -text
-OpenXavaTest/web/xava/editors/js/yahoo-treeview-xloader.js -text
 OpenXavaTest/web/xava/editors/labelEditor.jsp -text
 OpenXavaTest/web/xava/editors/liferayDocumentLibraryEditor.jsp -text
 OpenXavaTest/web/xava/editors/liferayUploadFile.jsp -text
@@ -10163,6 +10168,17 @@ OpenXavaTest/web/xava/editors/textAreaEditor.jsp -text
 OpenXavaTest/web/xava/editors/textEditor.jsp -text
 OpenXavaTest/web/xava/editors/treeViewEditor.jsp -text
 OpenXavaTest/web/xava/editors/treeViewListEditor.jsp -text
+OpenXavaTest/web/xava/editors/treeview/check0.gif -text
+OpenXavaTest/web/xava/editors/treeview/check1.gif -text
+OpenXavaTest/web/xava/editors/treeview/check2.gif -text
+OpenXavaTest/web/xava/editors/treeview/loading.gif -text
+OpenXavaTest/web/xava/editors/treeview/treeview-loading.gif -text
+OpenXavaTest/web/xava/editors/treeview/treeview-skin.css -text
+OpenXavaTest/web/xava/editors/treeview/treeview-sprite.gif -text
+OpenXavaTest/web/xava/editors/treeview/treeview.css -text
+OpenXavaTest/web/xava/editors/treeview/yui2/fonts/fonts-min.css -text
+OpenXavaTest/web/xava/editors/treeview/yui2/treeview-min.js -text
+OpenXavaTest/web/xava/editors/treeview/yui2/yahoo-dom-event.js -text
 OpenXavaTest/web/xava/editors/userAttributeEditor.jsp -text
 OpenXavaTest/web/xava/editors/validValueEditorCommon.jsp -text
 OpenXavaTest/web/xava/editors/validValuesEditor.jsp -text
