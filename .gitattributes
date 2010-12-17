@@ -8851,6 +8851,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Product2.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Product3.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Product4.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Product5.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/ProductDetailsSupplierContactDetails.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Programmer.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Quarter.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/QuarterKey.java -text
@@ -8922,12 +8923,14 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/SalesRepresentativeTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SummerCourseTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ToDoListTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TotoTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/TransportChargeWithDescriptionsListTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TreeContainerTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TreeViewDefaultPathTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TreeViewNoDefaultPathTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TreeViewTestBase.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/WallTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/Warehouse2Test.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/WarehouseVoidTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/types/RegionsType.java -text
 OpenXavaTest/pojo-src/org/openxava/test/validators/ChildValidator.java -text
 OpenXavaTest/pojo-src/org/openxava/test/validators/DeliveryPlaceValidator.java -text
