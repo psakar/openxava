@@ -8833,6 +8833,8 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Issue.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/IssueList.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/JavaProgrammer.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Journey.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Mixture.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/MixtureKey.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Month.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Nameable.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Office.java -text
