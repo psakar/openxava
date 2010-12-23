@@ -802,6 +802,8 @@ AccessTracking/web/xava/editors/imageLabelEditor.jsp -text
 AccessTracking/web/xava/editors/js/autoNumeric.js -text
 AccessTracking/web/xava/editors/js/htmlEditor.js -text
 AccessTracking/web/xava/editors/js/textEditor.js -text
+AccessTracking/web/xava/editors/js/yahoo-dom-event.js -text
+AccessTracking/web/xava/editors/js/yahoo-treeview-min.js -text
 AccessTracking/web/xava/editors/labelEditor.jsp -text
 AccessTracking/web/xava/editors/liferayDocumentLibraryEditor.jsp -text
 AccessTracking/web/xava/editors/liferayUploadFile.jsp -text
@@ -1104,6 +1106,15 @@ AccessTracking/web/xava/style/ui-lightness/images/ui-icons_ef8c08_256x240.png -t
 AccessTracking/web/xava/style/ui-lightness/images/ui-icons_ffd27a_256x240.png -text
 AccessTracking/web/xava/style/ui-lightness/images/ui-icons_ffffff_256x240.png -text
 AccessTracking/web/xava/style/ui-lightness/jquery-ui.css -text
+AccessTracking/web/xava/style/yahoo-treeview/check0.gif -text
+AccessTracking/web/xava/style/yahoo-treeview/check1.gif -text
+AccessTracking/web/xava/style/yahoo-treeview/check2.gif -text
+AccessTracking/web/xava/style/yahoo-treeview/fonts/fonts-min.css -text
+AccessTracking/web/xava/style/yahoo-treeview/loading.gif -text
+AccessTracking/web/xava/style/yahoo-treeview/treeview-loading.gif -text
+AccessTracking/web/xava/style/yahoo-treeview/treeview-skin.css -text
+AccessTracking/web/xava/style/yahoo-treeview/treeview-sprite.gif -text
+AccessTracking/web/xava/style/yahoo-treeview/treeview.css -text
 AccessTracking/web/xava/style/yahoo.css -text
 AccessTracking/websphere-as400.properties -text
 AccessTracking/xava/application.xml -text
