@@ -8804,6 +8804,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/AverageSpeed.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Blog.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/BlogComment.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Book.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/CallBackLog.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Carrier.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/CharacteristicThing.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Child.java -text
@@ -9097,6 +9098,7 @@ OpenXavaTest/src/org/openxava/test/model/ProductException.java -text
 OpenXavaTest/src/org/openxava/test/servlets/TestServlet.java -text
 OpenXavaTest/src/org/openxava/test/tests/AJAXTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/AverageSpeedTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/CallBackTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CarrierFellowsNamesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CarrierFellowsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CarrierTest.java -text
