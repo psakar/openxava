@@ -4986,8 +4986,8 @@ OpenXava/src/org/openxava/hibernate/impl/DefaultValueCalculatorsListener.java -t
 OpenXava/src/org/openxava/hibernate/impl/DefaultValueIdentifierGenerator.java -text
 OpenXava/src/org/openxava/hibernate/impl/FastSizeList.java -text
 OpenXava/src/org/openxava/hibernate/impl/ReferenceConverterToDBListener.java -text
-OpenXava/src/org/openxava/jpa/EntityManagerDecorator.java -text
 OpenXava/src/org/openxava/jpa/XPersistence.java -text
+OpenXava/src/org/openxava/jpa/impl/EntityManagerDecorator.java -text
 OpenXava/src/org/openxava/mapping/AggregateMapping.java -text
 OpenXava/src/org/openxava/mapping/CmpField.java -text
 OpenXava/src/org/openxava/mapping/Converters.java -text
@@ -5163,6 +5163,7 @@ OpenXava/src/org/openxava/validators/URLValidator.java -text
 OpenXava/src/org/openxava/validators/ValidationException.java -text
 OpenXava/src/org/openxava/validators/hibernate/EntityValidatorValidator.java -text
 OpenXava/src/org/openxava/validators/hibernate/FailingMessages.java -text
+OpenXava/src/org/openxava/validators/hibernate/HibernateValidatorInhibitor.java -text
 OpenXava/src/org/openxava/validators/hibernate/PropertyValidatorValidator.java -text
 OpenXava/src/org/openxava/validators/hibernate/RequiredValidator.java -text
 OpenXava/src/org/openxava/validators/meta/MetaValidator.java -text
@@ -8816,6 +8817,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Comment.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Community.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Composite.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ConversionFactor.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Country.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Course.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/CourseKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Customer.java -text
@@ -8863,6 +8865,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Orphan.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Orphanage.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Parent.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Person.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Phone.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/PhoneNumber.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Product.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Product2.java -text
@@ -8923,6 +8926,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Year.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/AnnotatedPOJOTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/BlogTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/BookTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/CallBackLogTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ColorinColoradoTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CommunityTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CompositeTest.java -text
@@ -8933,6 +8937,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/JavaProgrammerTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/MotoTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/OrphanageTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ParentTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/PhoneTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/Product4Test.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/Product5Test.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ProgrammerTest.java -text
@@ -8954,6 +8959,7 @@ OpenXavaTest/pojo-src/org/openxava/test/validators/ChildValidator.java -text
 OpenXavaTest/pojo-src/org/openxava/test/validators/DeliveryPlaceValidator.java -text
 OpenXavaTest/pojo-src/org/openxava/test/validators/DeliveryTypeRemoveValidator.java -text
 OpenXavaTest/pojo-src/org/openxava/test/validators/InvoiceDetailValidator.java -text
+OpenXavaTest/pojo-src/org/openxava/test/validators/PhoneNumberValidator.groovy -text
 OpenXavaTest/properties/BeansContext.properties -text
 OpenXavaTest/properties/LoginContextFactory.properties -text
 OpenXavaTest/properties/jndi-jboss.properties -text
@@ -9098,7 +9104,6 @@ OpenXavaTest/src/org/openxava/test/model/ProductException.java -text
 OpenXavaTest/src/org/openxava/test/servlets/TestServlet.java -text
 OpenXavaTest/src/org/openxava/test/tests/AJAXTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/AverageSpeedTest.java -text
-OpenXavaTest/src/org/openxava/test/tests/CallBackTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CarrierFellowsNamesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CarrierFellowsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CarrierTest.java -text
