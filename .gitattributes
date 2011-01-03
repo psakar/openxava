@@ -8022,6 +8022,10 @@ OpenXavaTest/i18n/portlets/Book_ca.properties -text
 OpenXavaTest/i18n/portlets/Book_en.properties -text
 OpenXavaTest/i18n/portlets/Book_es.properties -text
 OpenXavaTest/i18n/portlets/Book_fr.properties -text
+OpenXavaTest/i18n/portlets/CallBackLog_ca.properties -text
+OpenXavaTest/i18n/portlets/CallBackLog_en.properties -text
+OpenXavaTest/i18n/portlets/CallBackLog_es.properties -text
+OpenXavaTest/i18n/portlets/CallBackLog_fr.properties -text
 OpenXavaTest/i18n/portlets/CarrierFellowsNames_ca.properties -text
 OpenXavaTest/i18n/portlets/CarrierFellowsNames_en.properties -text
 OpenXavaTest/i18n/portlets/CarrierFellowsNames_es.properties -text
@@ -8126,6 +8130,10 @@ OpenXavaTest/i18n/portlets/ConversionFactor_ca.properties -text
 OpenXavaTest/i18n/portlets/ConversionFactor_en.properties -text
 OpenXavaTest/i18n/portlets/ConversionFactor_es.properties -text
 OpenXavaTest/i18n/portlets/ConversionFactor_fr.properties -text
+OpenXavaTest/i18n/portlets/Country_ca.properties -text
+OpenXavaTest/i18n/portlets/Country_en.properties -text
+OpenXavaTest/i18n/portlets/Country_es.properties -text
+OpenXavaTest/i18n/portlets/Country_fr.properties -text
 OpenXavaTest/i18n/portlets/Course_ca.properties -text
 OpenXavaTest/i18n/portlets/Course_en.properties -text
 OpenXavaTest/i18n/portlets/Course_es.properties -text
@@ -8430,6 +8438,10 @@ OpenXavaTest/i18n/portlets/Journey_ca.properties -text
 OpenXavaTest/i18n/portlets/Journey_en.properties -text
 OpenXavaTest/i18n/portlets/Journey_es.properties -text
 OpenXavaTest/i18n/portlets/Journey_fr.properties -text
+OpenXavaTest/i18n/portlets/Mixture_ca.properties -text
+OpenXavaTest/i18n/portlets/Mixture_en.properties -text
+OpenXavaTest/i18n/portlets/Mixture_es.properties -text
+OpenXavaTest/i18n/portlets/Mixture_fr.properties -text
 OpenXavaTest/i18n/portlets/Moto_ca.properties -text
 OpenXavaTest/i18n/portlets/Moto_en.properties -text
 OpenXavaTest/i18n/portlets/Moto_es.properties -text
@@ -8462,6 +8474,10 @@ OpenXavaTest/i18n/portlets/OrderDetail_ca.properties -text
 OpenXavaTest/i18n/portlets/OrderDetail_en.properties -text
 OpenXavaTest/i18n/portlets/OrderDetail_es.properties -text
 OpenXavaTest/i18n/portlets/OrderDetail_fr.properties -text
+OpenXavaTest/i18n/portlets/OrderIssue_ca.properties -text
+OpenXavaTest/i18n/portlets/OrderIssue_en.properties -text
+OpenXavaTest/i18n/portlets/OrderIssue_es.properties -text
+OpenXavaTest/i18n/portlets/OrderIssue_fr.properties -text
 OpenXavaTest/i18n/portlets/Order_ca.properties -text
 OpenXavaTest/i18n/portlets/Order_en.properties -text
 OpenXavaTest/i18n/portlets/Order_es.properties -text
@@ -8478,6 +8494,10 @@ OpenXavaTest/i18n/portlets/Parent_ca.properties -text
 OpenXavaTest/i18n/portlets/Parent_en.properties -text
 OpenXavaTest/i18n/portlets/Parent_es.properties -text
 OpenXavaTest/i18n/portlets/Parent_fr.properties -text
+OpenXavaTest/i18n/portlets/Phone_ca.properties -text
+OpenXavaTest/i18n/portlets/Phone_en.properties -text
+OpenXavaTest/i18n/portlets/Phone_es.properties -text
+OpenXavaTest/i18n/portlets/Phone_fr.properties -text
 OpenXavaTest/i18n/portlets/Product2ColorWithFrame_ca.properties -text
 OpenXavaTest/i18n/portlets/Product2ColorWithFrame_en.properties -text
 OpenXavaTest/i18n/portlets/Product2ColorWithFrame_es.properties -text
@@ -8526,6 +8546,10 @@ OpenXavaTest/i18n/portlets/Product5_ca.properties -text
 OpenXavaTest/i18n/portlets/Product5_en.properties -text
 OpenXavaTest/i18n/portlets/Product5_es.properties -text
 OpenXavaTest/i18n/portlets/Product5_fr.properties -text
+OpenXavaTest/i18n/portlets/ProductDetailsSupplierContactDetails_ca.properties -text
+OpenXavaTest/i18n/portlets/ProductDetailsSupplierContactDetails_en.properties -text
+OpenXavaTest/i18n/portlets/ProductDetailsSupplierContactDetails_es.properties -text
+OpenXavaTest/i18n/portlets/ProductDetailsSupplierContactDetails_fr.properties -text
 OpenXavaTest/i18n/portlets/ProductWithSection_ca.properties -text
 OpenXavaTest/i18n/portlets/ProductWithSection_en.properties -text
 OpenXavaTest/i18n/portlets/ProductWithSection_es.properties -text
@@ -8694,6 +8718,10 @@ OpenXavaTest/i18n/portlets/TransportCharge2_ca.properties -text
 OpenXavaTest/i18n/portlets/TransportCharge2_en.properties -text
 OpenXavaTest/i18n/portlets/TransportCharge2_es.properties -text
 OpenXavaTest/i18n/portlets/TransportCharge2_fr.properties -text
+OpenXavaTest/i18n/portlets/TransportChargeWithDescriptionsList_ca.properties -text
+OpenXavaTest/i18n/portlets/TransportChargeWithDescriptionsList_en.properties -text
+OpenXavaTest/i18n/portlets/TransportChargeWithDescriptionsList_es.properties -text
+OpenXavaTest/i18n/portlets/TransportChargeWithDescriptionsList_fr.properties -text
 OpenXavaTest/i18n/portlets/TransportChargeWithDistance_ca.properties -text
 OpenXavaTest/i18n/portlets/TransportChargeWithDistance_en.properties -text
 OpenXavaTest/i18n/portlets/TransportChargeWithDistance_es.properties -text
@@ -8758,6 +8786,10 @@ OpenXavaTest/i18n/portlets/WarehouseSplit_ca.properties -text
 OpenXavaTest/i18n/portlets/WarehouseSplit_en.properties -text
 OpenXavaTest/i18n/portlets/WarehouseSplit_es.properties -text
 OpenXavaTest/i18n/portlets/WarehouseSplit_fr.properties -text
+OpenXavaTest/i18n/portlets/WarehouseVoid_ca.properties -text
+OpenXavaTest/i18n/portlets/WarehouseVoid_en.properties -text
+OpenXavaTest/i18n/portlets/WarehouseVoid_es.properties -text
+OpenXavaTest/i18n/portlets/WarehouseVoid_fr.properties -text
 OpenXavaTest/i18n/portlets/Warehouse_ca.properties -text
 OpenXavaTest/i18n/portlets/Warehouse_en.properties -text
 OpenXavaTest/i18n/portlets/Warehouse_es.properties -text
@@ -8861,6 +8893,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Office2Key.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/OneLineAddress.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Order.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/OrderDetail.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/OrderIssue.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Orphan.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Orphanage.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Parent.java -text
@@ -9176,6 +9209,7 @@ OpenXavaTest/src/org/openxava/test/tests/OfficeOnlyWarehouseTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/OfficeTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/OnlyEditDetailsInvoiceTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/OnlyReadDetailsInvoiceTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/OrderIssueTest.groovy -text
 OpenXavaTest/src/org/openxava/test/tests/OrderTest.groovy -text
 OpenXavaTest/src/org/openxava/test/tests/POJOTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/PositiveValidatorTest.java -text
@@ -9239,10 +9273,12 @@ OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
