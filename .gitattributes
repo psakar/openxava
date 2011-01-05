@@ -8832,6 +8832,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/AcademicYear.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AdditionalDetail.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AdditionalDetailKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Address.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Artist.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Author.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AverageSpeed.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Blog.java -text
@@ -8927,6 +8928,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/ShipmentCharge.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ShipmentKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Size.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/State.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Studio.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Subfamily.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Subfamily2.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/SubfamilyInfo.java -text
@@ -8976,6 +8978,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/Product5Test.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ProgrammerTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/QuarterTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SalesRepresentativeTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/StudioTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SummerCourseTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ToDoListTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TotoTest.java -text
