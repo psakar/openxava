@@ -7746,6 +7746,7 @@ OpenXavaTest/build/hibernate/InvoiceDetail.hbm.xml -text
 OpenXavaTest/build/hibernate/InvoiceDetail2.hbm.xml -text
 OpenXavaTest/build/hibernate/Issue.hbm.xml -text
 OpenXavaTest/build/hibernate/Journey.hbm.xml -text
+OpenXavaTest/build/hibernate/Mixture.hbm.xml -text
 OpenXavaTest/build/hibernate/Office.hbm.xml -text
 OpenXavaTest/build/hibernate/Office2.hbm.xml -text
 OpenXavaTest/build/hibernate/Order.hbm.xml -text
@@ -7800,6 +7801,7 @@ OpenXavaTest/components/Invoice3.xml -text
 OpenXavaTest/components/Issue.xml -text
 OpenXavaTest/components/IssueList.xml -text
 OpenXavaTest/components/Journey.xml -text
+OpenXavaTest/components/Mixture.xml -text
 OpenXavaTest/components/Month.xml -text
 OpenXavaTest/components/Office.xml -text
 OpenXavaTest/components/Office2.xml -text
@@ -7893,6 +7895,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/IInvoiceDetail2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IIssue.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IIssueList.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IJourney.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IMixture.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IMonth.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IOffice.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IOffice2.java -text
@@ -7934,6 +7937,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/InvoiceDetail2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Issue.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IssueList.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Journey.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Mixture.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Month.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Office.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Office2.java -text
@@ -8970,6 +8974,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/HumanTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/JavaProgrammerExtendedViewsTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/JavaProgrammerTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/MotoTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/OrderIssueTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/OrphanageTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ParentTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/PhoneTest.groovy -text
@@ -9212,7 +9217,6 @@ OpenXavaTest/src/org/openxava/test/tests/OfficeOnlyWarehouseTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/OfficeTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/OnlyEditDetailsInvoiceTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/OnlyReadDetailsInvoiceTest.java -text
-OpenXavaTest/src/org/openxava/test/tests/OrderIssueTest.groovy -text
 OpenXavaTest/src/org/openxava/test/tests/OrderTest.groovy -text
 OpenXavaTest/src/org/openxava/test/tests/POJOTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/PositiveValidatorTest.java -text
@@ -9276,12 +9280,10 @@ OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
@@ -10613,6 +10615,7 @@ OpenXavaTest/xml-classic-src/org/openxava/test/calculators/InvoiceDetailIsFreeCa
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/InvoiceDetailOidCalculator.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/IsLocalCustomerCalculator.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/IsSlowCalculator.java -text
+OpenXavaTest/xml-classic-src/org/openxava/test/calculators/MixtureDescriptionCalculator.groovy -text
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/MonthsCalculator.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/OrderAmountCalculator.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/OrderDetailAmountCalculator.java -text
