@@ -3165,6 +3165,8 @@ MiEscuela/web/xava/editors/imageLabelEditor.jsp -text
 MiEscuela/web/xava/editors/js/autoNumeric.js -text
 MiEscuela/web/xava/editors/js/htmlEditor.js -text
 MiEscuela/web/xava/editors/js/textEditor.js -text
+MiEscuela/web/xava/editors/js/yahoo-dom-event.js -text
+MiEscuela/web/xava/editors/js/yahoo-treeview-min.js -text
 MiEscuela/web/xava/editors/labelEditor.jsp -text
 MiEscuela/web/xava/editors/liferayDocumentLibraryEditor.jsp -text
 MiEscuela/web/xava/editors/liferayUploadFile.jsp -text
@@ -3471,6 +3473,15 @@ MiEscuela/web/xava/style/ui-lightness/images/ui-icons_ef8c08_256x240.png -text
 MiEscuela/web/xava/style/ui-lightness/images/ui-icons_ffd27a_256x240.png -text
 MiEscuela/web/xava/style/ui-lightness/images/ui-icons_ffffff_256x240.png -text
 MiEscuela/web/xava/style/ui-lightness/jquery-ui.css -text
+MiEscuela/web/xava/style/yahoo-treeview/check0.gif -text
+MiEscuela/web/xava/style/yahoo-treeview/check1.gif -text
+MiEscuela/web/xava/style/yahoo-treeview/check2.gif -text
+MiEscuela/web/xava/style/yahoo-treeview/fonts/fonts-min.css -text
+MiEscuela/web/xava/style/yahoo-treeview/loading.gif -text
+MiEscuela/web/xava/style/yahoo-treeview/treeview-loading.gif -text
+MiEscuela/web/xava/style/yahoo-treeview/treeview-skin.css -text
+MiEscuela/web/xava/style/yahoo-treeview/treeview-sprite.gif -text
+MiEscuela/web/xava/style/yahoo-treeview/treeview.css -text
 MiEscuela/web/xava/style/yahoo.css -text svneol=unset#application/octet-stream
 MiEscuela/xava/aplicacion.xml -text
 MiEscuela/xava/dtds/aplicacion.dtd -text
@@ -4161,6 +4172,8 @@ MySchool/web/xava/editors/imageLabelEditor.jsp -text
 MySchool/web/xava/editors/js/autoNumeric.js -text
 MySchool/web/xava/editors/js/htmlEditor.js -text
 MySchool/web/xava/editors/js/textEditor.js -text
+MySchool/web/xava/editors/js/yahoo-dom-event.js -text
+MySchool/web/xava/editors/js/yahoo-treeview-min.js -text
 MySchool/web/xava/editors/labelEditor.jsp -text
 MySchool/web/xava/editors/liferayDocumentLibraryEditor.jsp -text
 MySchool/web/xava/editors/liferayUploadFile.jsp -text
@@ -4467,6 +4480,15 @@ MySchool/web/xava/style/ui-lightness/images/ui-icons_ef8c08_256x240.png -text
 MySchool/web/xava/style/ui-lightness/images/ui-icons_ffd27a_256x240.png -text
 MySchool/web/xava/style/ui-lightness/images/ui-icons_ffffff_256x240.png -text
 MySchool/web/xava/style/ui-lightness/jquery-ui.css -text
+MySchool/web/xava/style/yahoo-treeview/check0.gif -text
+MySchool/web/xava/style/yahoo-treeview/check1.gif -text
+MySchool/web/xava/style/yahoo-treeview/check2.gif -text
+MySchool/web/xava/style/yahoo-treeview/fonts/fonts-min.css -text
+MySchool/web/xava/style/yahoo-treeview/loading.gif -text
+MySchool/web/xava/style/yahoo-treeview/treeview-loading.gif -text
+MySchool/web/xava/style/yahoo-treeview/treeview-skin.css -text
+MySchool/web/xava/style/yahoo-treeview/treeview-sprite.gif -text
+MySchool/web/xava/style/yahoo-treeview/treeview.css -text
 MySchool/web/xava/style/yahoo.css -text svneol=unset#application/octet-stream
 MySchool/xava/application.xml -text
 MySchool/xava/dtds/aplicacion.dtd -text
@@ -8888,8 +8910,8 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Issue.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/IssueList.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/JavaProgrammer.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Journey.java -text
-OpenXavaTest/pojo-src/org/openxava/test/model/Mixture.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/model/MixtureKey.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Mixture.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/MixtureKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Month.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Nameable.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Office.java -text
@@ -8910,7 +8932,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Product2.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Product3.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Product4.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Product5.java -text
-OpenXavaTest/pojo-src/org/openxava/test/model/ProductDetailsSupplierContactDetails.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/ProductDetailsSupplierContactDetails.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Programmer.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Quarter.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/QuarterKey.java -text
