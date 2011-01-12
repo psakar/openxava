@@ -6537,6 +6537,9 @@ OpenXavaDoc/web/apidocs/org/openxava/annotations/OnChangeSearchs.html -text
 OpenXavaDoc/web/apidocs/org/openxava/annotations/OnChanges.html -text
 OpenXavaDoc/web/apidocs/org/openxava/annotations/OnSelectElementAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/annotations/OnSelectElementActions.html -text
+OpenXavaDoc/web/apidocs/org/openxava/annotations/PostCreate.html -text
+OpenXavaDoc/web/apidocs/org/openxava/annotations/PreCreate.html -text
+OpenXavaDoc/web/apidocs/org/openxava/annotations/PreDelete.html -text
 OpenXavaDoc/web/apidocs/org/openxava/annotations/PropertyValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/annotations/PropertyValidators.html -text
 OpenXavaDoc/web/apidocs/org/openxava/annotations/PropertyValue.html -text
@@ -6614,6 +6617,9 @@ OpenXavaDoc/web/apidocs/org/openxava/annotations/class-use/OnChangeSearchs.html 
 OpenXavaDoc/web/apidocs/org/openxava/annotations/class-use/OnChanges.html -text
 OpenXavaDoc/web/apidocs/org/openxava/annotations/class-use/OnSelectElementAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/annotations/class-use/OnSelectElementActions.html -text
+OpenXavaDoc/web/apidocs/org/openxava/annotations/class-use/PostCreate.html -text
+OpenXavaDoc/web/apidocs/org/openxava/annotations/class-use/PreCreate.html -text
+OpenXavaDoc/web/apidocs/org/openxava/annotations/class-use/PreDelete.html -text
 OpenXavaDoc/web/apidocs/org/openxava/annotations/class-use/PropertyValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/annotations/class-use/PropertyValidators.html -text
 OpenXavaDoc/web/apidocs/org/openxava/annotations/class-use/PropertyValue.html -text
@@ -7014,6 +7020,12 @@ OpenXavaDoc/web/apidocs/org/openxava/hibernate/package-tree.html -text
 OpenXavaDoc/web/apidocs/org/openxava/hibernate/package-use.html -text
 OpenXavaDoc/web/apidocs/org/openxava/jpa/XPersistence.html -text
 OpenXavaDoc/web/apidocs/org/openxava/jpa/class-use/XPersistence.html -text
+OpenXavaDoc/web/apidocs/org/openxava/jpa/impl/EntityManagerDecorator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/jpa/impl/class-use/EntityManagerDecorator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/jpa/impl/package-frame.html -text
+OpenXavaDoc/web/apidocs/org/openxava/jpa/impl/package-summary.html -text
+OpenXavaDoc/web/apidocs/org/openxava/jpa/impl/package-tree.html -text
+OpenXavaDoc/web/apidocs/org/openxava/jpa/impl/package-use.html -text
 OpenXavaDoc/web/apidocs/org/openxava/jpa/package-frame.html -text
 OpenXavaDoc/web/apidocs/org/openxava/jpa/package-summary.html -text
 OpenXavaDoc/web/apidocs/org/openxava/jpa/package-tree.html -text
@@ -7435,9 +7447,11 @@ OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/TolerantValidator.html
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/URLValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/class-use/ValidationException.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/hibernate/EntityValidatorValidator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/hibernate/HibernateValidatorInhibitor.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/hibernate/PropertyValidatorValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/hibernate/RequiredValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/hibernate/class-use/EntityValidatorValidator.html -text
+OpenXavaDoc/web/apidocs/org/openxava/validators/hibernate/class-use/HibernateValidatorInhibitor.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/hibernate/class-use/PropertyValidatorValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/hibernate/class-use/RequiredValidator.html -text
 OpenXavaDoc/web/apidocs/org/openxava/validators/hibernate/package-frame.html -text
