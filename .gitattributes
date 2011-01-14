@@ -5878,6 +5878,7 @@ OpenXava/web/editors/liferayDocumentLibraryEditor.jsp -text
 OpenXava/web/editors/liferayUploadFile.jsp -text
 OpenXava/web/editors/moneyEditor.jsp -text
 OpenXava/web/editors/notAvailableEditor.jsp -text
+OpenXava/web/editors/passwordEditor.jsp -text
 OpenXava/web/editors/radioButtonEditor.jsp -text
 OpenXava/web/editors/referenceEditor.jsp -text
 OpenXava/web/editors/textAreaEditor.jsp -text
@@ -8854,6 +8855,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/AddToNameAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/FamilyProductsReportAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/GoProposeNameAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/InvoiceReportAction.java -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/LoginAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/NewWarehouseAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeCustomerNameAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeDeliveryByAction.java -text
@@ -8924,6 +8926,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Issue.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/IssueList.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/JavaProgrammer.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Journey.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Login.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Mixture.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/MixtureKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Month.java -text
@@ -9009,6 +9012,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/DrivingLicenceTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/HumanTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/JavaProgrammerExtendedViewsTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/JavaProgrammerTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/LoginTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/MotoTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/OrderIssueTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/OrphanageTest.groovy -text
@@ -10280,6 +10284,7 @@ OpenXavaTest/web/xava/editors/liferayDocumentLibraryEditor.jsp -text
 OpenXavaTest/web/xava/editors/liferayUploadFile.jsp -text
 OpenXavaTest/web/xava/editors/moneyEditor.jsp -text
 OpenXavaTest/web/xava/editors/notAvailableEditor.jsp -text
+OpenXavaTest/web/xava/editors/passwordEditor.jsp -text
 OpenXavaTest/web/xava/editors/radioButtonEditor.jsp -text
 OpenXavaTest/web/xava/editors/referenceEditor.jsp -text
 OpenXavaTest/web/xava/editors/regionsEditor.jsp -text
