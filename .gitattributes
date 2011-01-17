@@ -5268,6 +5268,7 @@ OpenXava/web/WEB-INF/lib/dsn.jar -text
 OpenXava/web/WEB-INF/lib/dwr.jar -text
 OpenXava/web/WEB-INF/lib/ehcache.jar -text
 OpenXava/web/WEB-INF/lib/groovy-all.jar -text
+OpenXava/web/WEB-INF/lib/hibernate-classic-validator.jar -text
 OpenXava/web/WEB-INF/lib/hibernate-validator.jar -text
 OpenXava/web/WEB-INF/lib/hibernate3.jar -text
 OpenXava/web/WEB-INF/lib/imap.jar -text
@@ -5276,6 +5277,8 @@ OpenXava/web/WEB-INF/lib/jakarta-oro.jar -text
 OpenXava/web/WEB-INF/lib/jasperreports.jar -text
 OpenXava/web/WEB-INF/lib/javassist.jar -text
 OpenXava/web/WEB-INF/lib/javax.inject.jar -text
+OpenXava/web/WEB-INF/lib/jaxb-api.jar -text
+OpenXava/web/WEB-INF/lib/jaxb-impl.jar -text
 OpenXava/web/WEB-INF/lib/jboss-archive-browsing.jar -text
 OpenXava/web/WEB-INF/lib/jpa2.jar -text
 OpenXava/web/WEB-INF/lib/jstl.jar -text
@@ -5287,6 +5290,7 @@ OpenXava/web/WEB-INF/lib/slf4j-api.jar -text
 OpenXava/web/WEB-INF/lib/slf4j-jdk14.jar -text
 OpenXava/web/WEB-INF/lib/smtp.jar -text
 OpenXava/web/WEB-INF/lib/standard.jar -text
+OpenXava/web/WEB-INF/lib/validation-api.jar -text
 OpenXava/web/WEB-INF/web.xml -text
 OpenXava/web/addColumns.jsp -text
 OpenXava/web/addToCollection.jsp -text
@@ -9002,6 +9006,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/WarehouseKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Worker.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Year.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/AnnotatedPOJOTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/ArtistTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/BlogTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/BookTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CallBackLogTest.java -text
@@ -9652,6 +9657,7 @@ OpenXavaTest/web/WEB-INF/lib/dsn.jar -text
 OpenXavaTest/web/WEB-INF/lib/dwr.jar -text
 OpenXavaTest/web/WEB-INF/lib/ehcache.jar -text
 OpenXavaTest/web/WEB-INF/lib/groovy-all.jar -text
+OpenXavaTest/web/WEB-INF/lib/hibernate-classic-validator.jar -text
 OpenXavaTest/web/WEB-INF/lib/hibernate-validator.jar -text
 OpenXavaTest/web/WEB-INF/lib/hibernate3.jar -text
 OpenXavaTest/web/WEB-INF/lib/imap.jar -text
@@ -9660,6 +9666,8 @@ OpenXavaTest/web/WEB-INF/lib/jakarta-oro.jar -text
 OpenXavaTest/web/WEB-INF/lib/jasperreports.jar -text
 OpenXavaTest/web/WEB-INF/lib/javassist.jar -text
 OpenXavaTest/web/WEB-INF/lib/javax.inject.jar -text
+OpenXavaTest/web/WEB-INF/lib/jaxb-api.jar -text
+OpenXavaTest/web/WEB-INF/lib/jaxb-impl.jar -text
 OpenXavaTest/web/WEB-INF/lib/jboss-archive-browsing.jar -text
 OpenXavaTest/web/WEB-INF/lib/jboss-client.jar -text
 OpenXavaTest/web/WEB-INF/lib/jpa2.jar -text
@@ -9674,6 +9682,7 @@ OpenXavaTest/web/WEB-INF/lib/slf4j-jdk14.jar -text
 OpenXavaTest/web/WEB-INF/lib/smtp.jar -text
 OpenXavaTest/web/WEB-INF/lib/standard.jar -text
 OpenXavaTest/web/WEB-INF/lib/tracking.jar -text
+OpenXavaTest/web/WEB-INF/lib/validation-api.jar -text
 OpenXavaTest/web/WEB-INF/liferay-display.xml -text
 OpenXavaTest/web/WEB-INF/openxava.tld -text
 OpenXavaTest/web/WEB-INF/portlet.xml -text
