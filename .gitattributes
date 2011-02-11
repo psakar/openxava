@@ -4749,6 +4749,7 @@ OpenXava/src/org/openxava/actions/OrderByAction.java -text
 OpenXava/src/org/openxava/actions/ReferenceBaseAction.java -text
 OpenXava/src/org/openxava/actions/ReferenceSearchAction.java -text
 OpenXava/src/org/openxava/actions/RemoveColumnAction.java -text
+OpenXava/src/org/openxava/actions/RemoveColumnSumAction.java -text
 OpenXava/src/org/openxava/actions/RemoveElementFromCollectionAction.java -text
 OpenXava/src/org/openxava/actions/RemoveImageFromGalleryAction.java -text
 OpenXava/src/org/openxava/actions/RemoveSelectedInCollectionAction.java -text
@@ -4778,6 +4779,7 @@ OpenXava/src/org/openxava/actions/SetSchemaAction.java -text
 OpenXava/src/org/openxava/actions/SetUserAction.java -text
 OpenXava/src/org/openxava/actions/ShowRowsAction.java -text
 OpenXava/src/org/openxava/actions/SortColumnsAction.java -text
+OpenXava/src/org/openxava/actions/SumColumnAction.java -text
 OpenXava/src/org/openxava/actions/TabBaseAction.java -text
 OpenXava/src/org/openxava/actions/TreeViewExpandCollapseAction.java -text
 OpenXava/src/org/openxava/actions/TreeViewMoveNodeAction.java -text
@@ -5250,6 +5252,7 @@ OpenXava/src/org/openxava/web/taglib/ImageTag.java -text
 OpenXava/src/org/openxava/web/taglib/LinkTag.java -text
 OpenXava/src/org/openxava/web/taglib/MessageTag.java -text
 OpenXava/web/WEB-INF/dwr.xml -text
+OpenXava/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
 OpenXava/web/WEB-INF/fonts/DejaVuSans.ttf -text
 OpenXava/web/WEB-INF/fonts/LICENSE -text
 OpenXava/web/WEB-INF/lib/activation.jar -text
@@ -5279,7 +5282,6 @@ OpenXava/web/WEB-INF/lib/javassist.jar -text
 OpenXava/web/WEB-INF/lib/javax.inject.jar -text
 OpenXava/web/WEB-INF/lib/jaxb-api.jar -text
 OpenXava/web/WEB-INF/lib/jaxb-impl.jar -text
-OpenXava/web/WEB-INF/lib/jboss-archive-browsing.jar -text
 OpenXava/web/WEB-INF/lib/jpa2.jar -text
 OpenXava/web/WEB-INF/lib/jstl.jar -text
 OpenXava/web/WEB-INF/lib/mailapi.jar -text
@@ -5952,6 +5954,7 @@ OpenXava/web/images/save.gif -text
 OpenXava/web/images/search.gif -text
 OpenXava/web/images/show-filter.gif -text
 OpenXava/web/images/sort.gif -text
+OpenXava/web/images/summation.gif -text
 OpenXava/web/images/view.gif -text
 OpenXava/web/imports.jsp -text
 OpenXava/web/jasperReport.jsp -text
@@ -8455,6 +8458,10 @@ OpenXavaTest/i18n/portlets/InvoiceNoList_ca.properties -text
 OpenXavaTest/i18n/portlets/InvoiceNoList_en.properties -text
 OpenXavaTest/i18n/portlets/InvoiceNoList_es.properties -text
 OpenXavaTest/i18n/portlets/InvoiceNoList_fr.properties -text
+OpenXavaTest/i18n/portlets/InvoiceNoSections_ca.properties -text
+OpenXavaTest/i18n/portlets/InvoiceNoSections_en.properties -text
+OpenXavaTest/i18n/portlets/InvoiceNoSections_es.properties -text
+OpenXavaTest/i18n/portlets/InvoiceNoSections_fr.properties -text
 OpenXavaTest/i18n/portlets/InvoiceWithParameterInURL_ca.properties -text
 OpenXavaTest/i18n/portlets/InvoiceWithParameterInURL_en.properties -text
 OpenXavaTest/i18n/portlets/InvoiceWithParameterInURL_es.properties -text
@@ -9255,6 +9262,7 @@ OpenXavaTest/src/org/openxava/test/tests/InvoiceFromCustomersTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoiceFromDeliveriesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoiceNestedSectionsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoiceNoListTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/InvoiceNoSectionsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoiceTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoiceWithParameterInURLTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/IsTest.java -text
@@ -9333,12 +9341,10 @@ OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
@@ -9649,6 +9655,7 @@ OpenXavaTest/web/WEB-INF/classes/portlets/TransportChargeWithDistance_fr.propert
 OpenXavaTest/web/WEB-INF/classes/stereotype-type-default.xml -text
 OpenXavaTest/web/WEB-INF/classes/validators.xml -text
 OpenXavaTest/web/WEB-INF/dwr.xml -text
+OpenXavaTest/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
 OpenXavaTest/web/WEB-INF/fonts/DejaVuSans.ttf -text
 OpenXavaTest/web/WEB-INF/fonts/LICENSE -text
 OpenXavaTest/web/WEB-INF/lib/activation.jar -text
@@ -9678,8 +9685,6 @@ OpenXavaTest/web/WEB-INF/lib/javassist.jar -text
 OpenXavaTest/web/WEB-INF/lib/javax.inject.jar -text
 OpenXavaTest/web/WEB-INF/lib/jaxb-api.jar -text
 OpenXavaTest/web/WEB-INF/lib/jaxb-impl.jar -text
-OpenXavaTest/web/WEB-INF/lib/jboss-archive-browsing.jar -text
-OpenXavaTest/web/WEB-INF/lib/jboss-client.jar -text
 OpenXavaTest/web/WEB-INF/lib/jpa2.jar -text
 OpenXavaTest/web/WEB-INF/lib/jstl.jar -text
 OpenXavaTest/web/WEB-INF/lib/mailapi.jar -text
@@ -10386,6 +10391,7 @@ OpenXavaTest/web/xava/images/save.gif -text
 OpenXavaTest/web/xava/images/search.gif -text
 OpenXavaTest/web/xava/images/show-filter.gif -text
 OpenXavaTest/web/xava/images/sort.gif -text
+OpenXavaTest/web/xava/images/summation.gif -text
 OpenXavaTest/web/xava/images/view.gif -text
 OpenXavaTest/web/xava/imports.jsp -text
 OpenXavaTest/web/xava/jasperReport.jsp -text
