@@ -5900,7 +5900,9 @@ OpenXava/web/frameActions.jsp -text
 OpenXava/web/htmlTagsEditor.jsp -text
 OpenXava/web/images/add.gif -text
 OpenXava/web/images/ascending-white.gif -text
+OpenXava/web/images/ascending-white2.gif -text
 OpenXava/web/images/ascending.gif -text
+OpenXava/web/images/ascending2.gif -text
 OpenXava/web/images/back.gif -text
 OpenXava/web/images/calendar.gif -text
 OpenXava/web/images/clear-right.gif -text
@@ -5908,7 +5910,9 @@ OpenXava/web/images/create_new.gif -text
 OpenXava/web/images/customize.gif -text
 OpenXava/web/images/delete.gif -text
 OpenXava/web/images/descending-white.gif -text
+OpenXava/web/images/descending-white2.gif -text
 OpenXava/web/images/descending.gif -text
+OpenXava/web/images/descending2.gif -text
 OpenXava/web/images/edit-text.gif -text
 OpenXava/web/images/edit.gif -text
 OpenXava/web/images/error.gif -text
@@ -10339,7 +10343,9 @@ OpenXavaTest/web/xava/frameActions.jsp -text
 OpenXavaTest/web/xava/htmlTagsEditor.jsp -text
 OpenXavaTest/web/xava/images/add.gif -text
 OpenXavaTest/web/xava/images/ascending-white.gif -text
+OpenXavaTest/web/xava/images/ascending-white2.gif -text
 OpenXavaTest/web/xava/images/ascending.gif -text
+OpenXavaTest/web/xava/images/ascending2.gif -text
 OpenXavaTest/web/xava/images/back.gif -text
 OpenXavaTest/web/xava/images/calendar.gif -text
 OpenXavaTest/web/xava/images/clear-right.gif -text
@@ -10347,7 +10353,9 @@ OpenXavaTest/web/xava/images/create_new.gif -text
 OpenXavaTest/web/xava/images/customize.gif -text
 OpenXavaTest/web/xava/images/delete.gif -text
 OpenXavaTest/web/xava/images/descending-white.gif -text
+OpenXavaTest/web/xava/images/descending-white2.gif -text
 OpenXavaTest/web/xava/images/descending.gif -text
+OpenXavaTest/web/xava/images/descending2.gif -text
 OpenXavaTest/web/xava/images/edit-text.gif -text
 OpenXavaTest/web/xava/images/edit.gif -text
 OpenXavaTest/web/xava/images/error.gif -text
