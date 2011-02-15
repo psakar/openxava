@@ -177,6 +177,7 @@ AccessTracking/web/WEB-INF/classes/portlets/Accesses_ru.properties -text
 AccessTracking/web/WEB-INF/classes/portlets/Accesses_sv.properties -text
 AccessTracking/web/WEB-INF/classes/portlets/Accesses_zh.properties -text
 AccessTracking/web/WEB-INF/dwr.xml -text
+AccessTracking/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
 AccessTracking/web/WEB-INF/fonts/DejaVuSans.ttf -text
 AccessTracking/web/WEB-INF/fonts/LICENSE -text svneol=unset#application/octet-stream
 AccessTracking/web/WEB-INF/lib/activation.jar -text
@@ -195,6 +196,7 @@ AccessTracking/web/WEB-INF/lib/dsn.jar -text
 AccessTracking/web/WEB-INF/lib/dwr.jar -text
 AccessTracking/web/WEB-INF/lib/ehcache.jar -text
 AccessTracking/web/WEB-INF/lib/groovy-all.jar -text
+AccessTracking/web/WEB-INF/lib/hibernate-classic-validator.jar -text
 AccessTracking/web/WEB-INF/lib/hibernate-validator.jar -text
 AccessTracking/web/WEB-INF/lib/hibernate3.jar -text
 AccessTracking/web/WEB-INF/lib/imap.jar -text
@@ -203,7 +205,8 @@ AccessTracking/web/WEB-INF/lib/jakarta-oro.jar -text
 AccessTracking/web/WEB-INF/lib/jasperreports.jar -text
 AccessTracking/web/WEB-INF/lib/javassist.jar -text
 AccessTracking/web/WEB-INF/lib/javax.inject.jar -text
-AccessTracking/web/WEB-INF/lib/jboss-archive-browsing.jar -text
+AccessTracking/web/WEB-INF/lib/jaxb-api.jar -text
+AccessTracking/web/WEB-INF/lib/jaxb-impl.jar -text
 AccessTracking/web/WEB-INF/lib/jpa2.jar -text
 AccessTracking/web/WEB-INF/lib/jstl.jar -text
 AccessTracking/web/WEB-INF/lib/mailapi.jar -text
@@ -215,6 +218,7 @@ AccessTracking/web/WEB-INF/lib/slf4j-api.jar -text
 AccessTracking/web/WEB-INF/lib/slf4j-jdk14.jar -text
 AccessTracking/web/WEB-INF/lib/smtp.jar -text
 AccessTracking/web/WEB-INF/lib/standard.jar -text
+AccessTracking/web/WEB-INF/lib/validation-api.jar -text
 AccessTracking/web/WEB-INF/liferay-display.xml -text
 AccessTracking/web/WEB-INF/openxava.tld -text
 AccessTracking/web/WEB-INF/portlet.xml -text
@@ -809,6 +813,7 @@ AccessTracking/web/xava/editors/liferayDocumentLibraryEditor.jsp -text
 AccessTracking/web/xava/editors/liferayUploadFile.jsp -text
 AccessTracking/web/xava/editors/moneyEditor.jsp -text
 AccessTracking/web/xava/editors/notAvailableEditor.jsp -text
+AccessTracking/web/xava/editors/passwordEditor.jsp -text
 AccessTracking/web/xava/editors/radioButtonEditor.jsp -text
 AccessTracking/web/xava/editors/referenceEditor.jsp -text
 AccessTracking/web/xava/editors/textAreaEditor.jsp -text
@@ -838,7 +843,9 @@ AccessTracking/web/xava/images/.xvpics/pdf.gif -text
 AccessTracking/web/xava/images/.xvpics/photo.gif -text
 AccessTracking/web/xava/images/add.gif -text
 AccessTracking/web/xava/images/ascending-white.gif -text
+AccessTracking/web/xava/images/ascending-white2.gif -text
 AccessTracking/web/xava/images/ascending.gif -text
+AccessTracking/web/xava/images/ascending2.gif -text
 AccessTracking/web/xava/images/back.gif -text
 AccessTracking/web/xava/images/calendar.gif -text
 AccessTracking/web/xava/images/clear-right.gif -text
@@ -846,7 +853,9 @@ AccessTracking/web/xava/images/create_new.gif -text
 AccessTracking/web/xava/images/customize.gif -text
 AccessTracking/web/xava/images/delete.gif -text
 AccessTracking/web/xava/images/descending-white.gif -text
+AccessTracking/web/xava/images/descending-white2.gif -text
 AccessTracking/web/xava/images/descending.gif -text
+AccessTracking/web/xava/images/descending2.gif -text
 AccessTracking/web/xava/images/edit-text.gif -text
 AccessTracking/web/xava/images/edit.gif -text
 AccessTracking/web/xava/images/error.gif -text
@@ -893,6 +902,7 @@ AccessTracking/web/xava/images/save.gif -text
 AccessTracking/web/xava/images/search.gif -text
 AccessTracking/web/xava/images/show-filter.gif -text
 AccessTracking/web/xava/images/sort.gif -text
+AccessTracking/web/xava/images/summation.gif -text
 AccessTracking/web/xava/images/view.gif -text
 AccessTracking/web/xava/imports.jsp -text
 AccessTracking/web/xava/jasperReport.jsp -text
@@ -2539,6 +2549,7 @@ MiEscuela/src/org/openxava/escuela/pruebas/PruebaProfesor.java -text
 MiEscuela/web/META-INF/MANIFEST.MF -text
 MiEscuela/web/WEB-INF/classes/hibernate.cfg.xml -text
 MiEscuela/web/WEB-INF/dwr.xml -text
+MiEscuela/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
 MiEscuela/web/WEB-INF/fonts/DejaVuSans.ttf -text
 MiEscuela/web/WEB-INF/fonts/LICENSE -text svneol=unset#application/octet-stream
 MiEscuela/web/WEB-INF/lib/activation.jar -text
@@ -2557,6 +2568,7 @@ MiEscuela/web/WEB-INF/lib/dsn.jar -text
 MiEscuela/web/WEB-INF/lib/dwr.jar -text
 MiEscuela/web/WEB-INF/lib/ehcache.jar -text
 MiEscuela/web/WEB-INF/lib/groovy-all.jar -text
+MiEscuela/web/WEB-INF/lib/hibernate-classic-validator.jar -text
 MiEscuela/web/WEB-INF/lib/hibernate-validator.jar -text
 MiEscuela/web/WEB-INF/lib/hibernate3.jar -text
 MiEscuela/web/WEB-INF/lib/imap.jar -text
@@ -2565,7 +2577,8 @@ MiEscuela/web/WEB-INF/lib/jakarta-oro.jar -text
 MiEscuela/web/WEB-INF/lib/jasperreports.jar -text
 MiEscuela/web/WEB-INF/lib/javassist.jar -text
 MiEscuela/web/WEB-INF/lib/javax.inject.jar -text
-MiEscuela/web/WEB-INF/lib/jboss-archive-browsing.jar -text
+MiEscuela/web/WEB-INF/lib/jaxb-api.jar -text
+MiEscuela/web/WEB-INF/lib/jaxb-impl.jar -text
 MiEscuela/web/WEB-INF/lib/jboss-client.jar -text
 MiEscuela/web/WEB-INF/lib/jpa2.jar -text
 MiEscuela/web/WEB-INF/lib/jstl.jar -text
@@ -2578,6 +2591,7 @@ MiEscuela/web/WEB-INF/lib/slf4j-api.jar -text
 MiEscuela/web/WEB-INF/lib/slf4j-jdk14.jar -text
 MiEscuela/web/WEB-INF/lib/smtp.jar -text
 MiEscuela/web/WEB-INF/lib/standard.jar -text
+MiEscuela/web/WEB-INF/lib/validation-api.jar -text
 MiEscuela/web/WEB-INF/openxava.tld -text
 MiEscuela/web/WEB-INF/portlet.xml -text
 MiEscuela/web/WEB-INF/web.xml -text
@@ -3172,6 +3186,7 @@ MiEscuela/web/xava/editors/liferayDocumentLibraryEditor.jsp -text
 MiEscuela/web/xava/editors/liferayUploadFile.jsp -text
 MiEscuela/web/xava/editors/moneyEditor.jsp -text
 MiEscuela/web/xava/editors/notAvailableEditor.jsp -text
+MiEscuela/web/xava/editors/passwordEditor.jsp -text
 MiEscuela/web/xava/editors/photoEditor.jsp -text
 MiEscuela/web/xava/editors/radioButtonEditor.jsp -text
 MiEscuela/web/xava/editors/referenceEditor.jsp -text
@@ -3204,7 +3219,9 @@ MiEscuela/web/xava/images/.xvpics/pdf.gif -text
 MiEscuela/web/xava/images/.xvpics/photo.gif -text
 MiEscuela/web/xava/images/add.gif -text
 MiEscuela/web/xava/images/ascending-white.gif -text
+MiEscuela/web/xava/images/ascending-white2.gif -text
 MiEscuela/web/xava/images/ascending.gif -text
+MiEscuela/web/xava/images/ascending2.gif -text
 MiEscuela/web/xava/images/back.gif -text
 MiEscuela/web/xava/images/calendar.gif -text
 MiEscuela/web/xava/images/clear-right.gif -text
@@ -3212,7 +3229,9 @@ MiEscuela/web/xava/images/create_new.gif -text
 MiEscuela/web/xava/images/customize.gif -text
 MiEscuela/web/xava/images/delete.gif -text
 MiEscuela/web/xava/images/descending-white.gif -text
+MiEscuela/web/xava/images/descending-white2.gif -text
 MiEscuela/web/xava/images/descending.gif -text
+MiEscuela/web/xava/images/descending2.gif -text
 MiEscuela/web/xava/images/edit-text.gif -text
 MiEscuela/web/xava/images/edit.gif -text
 MiEscuela/web/xava/images/error.gif -text
@@ -3259,6 +3278,7 @@ MiEscuela/web/xava/images/save.gif -text
 MiEscuela/web/xava/images/search.gif -text
 MiEscuela/web/xava/images/show-filter.gif -text
 MiEscuela/web/xava/images/sort.gif -text
+MiEscuela/web/xava/images/summation.gif -text
 MiEscuela/web/xava/images/view.gif -text
 MiEscuela/web/xava/imports.jsp -text
 MiEscuela/web/xava/jasperReport.jsp -text
@@ -3543,8 +3563,10 @@ MySchool/properties/xava.properties -text
 MySchool/src/org/openxava/school/model/Teacher.java -text
 MySchool/src/org/openxava/school/tests/TeacherTest.java -text
 MySchool/web/META-INF/MANIFEST.MF -text
+MySchool/web/WEB-INF/classes/MySchool-labels.properties -text
 MySchool/web/WEB-INF/classes/hibernate.cfg.xml -text
 MySchool/web/WEB-INF/dwr.xml -text
+MySchool/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
 MySchool/web/WEB-INF/fonts/DejaVuSans.ttf -text
 MySchool/web/WEB-INF/fonts/LICENSE -text svneol=unset#application/octet-stream
 MySchool/web/WEB-INF/lib/activation.jar -text
@@ -3563,6 +3585,7 @@ MySchool/web/WEB-INF/lib/dsn.jar -text
 MySchool/web/WEB-INF/lib/dwr.jar -text
 MySchool/web/WEB-INF/lib/ehcache.jar -text
 MySchool/web/WEB-INF/lib/groovy-all.jar -text
+MySchool/web/WEB-INF/lib/hibernate-classic-validator.jar -text
 MySchool/web/WEB-INF/lib/hibernate-validator.jar -text
 MySchool/web/WEB-INF/lib/hibernate3.jar -text
 MySchool/web/WEB-INF/lib/imap.jar -text
@@ -3571,7 +3594,8 @@ MySchool/web/WEB-INF/lib/jakarta-oro.jar -text
 MySchool/web/WEB-INF/lib/jasperreports.jar -text
 MySchool/web/WEB-INF/lib/javassist.jar -text
 MySchool/web/WEB-INF/lib/javax.inject.jar -text
-MySchool/web/WEB-INF/lib/jboss-archive-browsing.jar -text
+MySchool/web/WEB-INF/lib/jaxb-api.jar -text
+MySchool/web/WEB-INF/lib/jaxb-impl.jar -text
 MySchool/web/WEB-INF/lib/jboss-client.jar -text
 MySchool/web/WEB-INF/lib/jpa2.jar -text
 MySchool/web/WEB-INF/lib/jstl.jar -text
@@ -3584,6 +3608,7 @@ MySchool/web/WEB-INF/lib/slf4j-api.jar -text
 MySchool/web/WEB-INF/lib/slf4j-jdk14.jar -text
 MySchool/web/WEB-INF/lib/smtp.jar -text
 MySchool/web/WEB-INF/lib/standard.jar -text
+MySchool/web/WEB-INF/lib/validation-api.jar -text
 MySchool/web/WEB-INF/liferay-display.xml -text
 MySchool/web/WEB-INF/openxava.tld -text
 MySchool/web/WEB-INF/portlet.xml -text
@@ -4179,6 +4204,7 @@ MySchool/web/xava/editors/liferayDocumentLibraryEditor.jsp -text
 MySchool/web/xava/editors/liferayUploadFile.jsp -text
 MySchool/web/xava/editors/moneyEditor.jsp -text
 MySchool/web/xava/editors/notAvailableEditor.jsp -text
+MySchool/web/xava/editors/passwordEditor.jsp -text
 MySchool/web/xava/editors/photoEditor.jsp -text
 MySchool/web/xava/editors/radioButtonEditor.jsp -text
 MySchool/web/xava/editors/referenceEditor.jsp -text
@@ -4211,7 +4237,9 @@ MySchool/web/xava/images/.xvpics/pdf.gif -text
 MySchool/web/xava/images/.xvpics/photo.gif -text
 MySchool/web/xava/images/add.gif -text
 MySchool/web/xava/images/ascending-white.gif -text
+MySchool/web/xava/images/ascending-white2.gif -text
 MySchool/web/xava/images/ascending.gif -text
+MySchool/web/xava/images/ascending2.gif -text
 MySchool/web/xava/images/back.gif -text
 MySchool/web/xava/images/calendar.gif -text
 MySchool/web/xava/images/clear-right.gif -text
@@ -4219,7 +4247,9 @@ MySchool/web/xava/images/create_new.gif -text
 MySchool/web/xava/images/customize.gif -text
 MySchool/web/xava/images/delete.gif -text
 MySchool/web/xava/images/descending-white.gif -text
+MySchool/web/xava/images/descending-white2.gif -text
 MySchool/web/xava/images/descending.gif -text
+MySchool/web/xava/images/descending2.gif -text
 MySchool/web/xava/images/edit-text.gif -text
 MySchool/web/xava/images/edit.gif -text
 MySchool/web/xava/images/error.gif -text
@@ -4266,6 +4296,7 @@ MySchool/web/xava/images/save.gif -text
 MySchool/web/xava/images/search.gif -text
 MySchool/web/xava/images/show-filter.gif -text
 MySchool/web/xava/images/sort.gif -text
+MySchool/web/xava/images/summation.gif -text
 MySchool/web/xava/images/view.gif -text
 MySchool/web/xava/imports.jsp -text
 MySchool/web/xava/jasperReport.jsp -text
@@ -9024,6 +9055,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Warehouse2Key.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/WarehouseKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Worker.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Year.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/AnnotatedPOGOTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/AnnotatedPOJOTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ArtistTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/BlogTest.java -text
@@ -9345,10 +9377,12 @@ OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
