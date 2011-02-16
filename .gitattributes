@@ -6371,6 +6371,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/ReferenceBaseAction.ViewInfo.html -
 OpenXavaDoc/web/apidocs/org/openxava/actions/ReferenceBaseAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/ReferenceSearchAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveColumnAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveColumnSumAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveElementFromCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveImageFromGalleryAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveSelectedInCollectionAction.html -text
@@ -6400,6 +6401,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/SetSchemaAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/SetUserAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/ShowRowsAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/SortColumnsAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/SumColumnAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/TabBaseAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/TreeViewExpandCollapseAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/TreeViewMoveNodeAction.html -text
@@ -6494,6 +6496,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ReferenceBaseAction.ViewI
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ReferenceBaseAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ReferenceSearchAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveColumnAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveColumnSumAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveElementFromCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveImageFromGalleryAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveSelectedInCollectionAction.html -text
@@ -6523,6 +6526,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SetSchemaAction.html -tex
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SetUserAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ShowRowsAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SortColumnsAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SumColumnAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/TabBaseAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/TreeViewExpandCollapseAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/TreeViewMoveNodeAction.html -text
