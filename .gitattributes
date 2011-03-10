@@ -4490,7 +4490,6 @@ OpenXava/i18n/Messages_sr.properties -text
 OpenXava/i18n/Messages_sv.properties -text
 OpenXava/i18n/Messages_zh.properties -text
 OpenXava/i18n/Messages_zh_CN.properties -text
-OpenXava/lib/commons-codec.jar -text
 OpenXava/lib/commons-httpclient.jar -text
 OpenXava/lib/commons-lang.jar -text
 OpenXava/lib/cssparser.jar -text
@@ -4558,6 +4557,7 @@ OpenXava/src/org/openxava/actions/DeleteLiferayDocumentAction.java -text
 OpenXava/src/org/openxava/actions/DeleteSelectedAction.java -text
 OpenXava/src/org/openxava/actions/DeselectRowsAction.java -text
 OpenXava/src/org/openxava/actions/EditElementInCollectionAction.java -text
+OpenXava/src/org/openxava/actions/EditElementInManyToManyCollectionAction.java -text
 OpenXava/src/org/openxava/actions/EditGalleryAction.java -text
 OpenXava/src/org/openxava/actions/EmptyAction.java -text
 OpenXava/src/org/openxava/actions/FilterAction.java -text
@@ -4653,6 +4653,7 @@ OpenXava/src/org/openxava/actions/TabBaseAction.java -text
 OpenXava/src/org/openxava/actions/TreeViewExpandCollapseAction.java -text
 OpenXava/src/org/openxava/actions/TreeViewMoveNodeAction.java -text
 OpenXava/src/org/openxava/actions/UpdateAction.java -text
+OpenXava/src/org/openxava/actions/UpdateElementInManyToManyCollectionAction.java -text
 OpenXava/src/org/openxava/actions/UpdateReferenceBaseAction.java -text
 OpenXava/src/org/openxava/actions/ViewBaseAction.java -text
 OpenXava/src/org/openxava/actions/ViewDetailAction.java -text
@@ -5129,6 +5130,7 @@ OpenXava/web/WEB-INF/lib/antlr.jar -text
 OpenXava/web/WEB-INF/lib/asm.jar -text
 OpenXava/web/WEB-INF/lib/cglib.jar -text
 OpenXava/web/WEB-INF/lib/commons-beanutils.jar -text
+OpenXava/web/WEB-INF/lib/commons-codec.jar -text
 OpenXava/web/WEB-INF/lib/commons-collections.jar -text
 OpenXava/web/WEB-INF/lib/commons-digester.jar -text
 OpenXava/web/WEB-INF/lib/commons-fileupload.jar -text
@@ -8910,6 +8912,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/BlogTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/BookTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CallBackLogTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ColorinColoradoTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/CommunityEditableMembersTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CommunityTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CompositeTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DealTest.groovy -text
@@ -9551,6 +9554,7 @@ OpenXavaTest/web/WEB-INF/lib/antlr.jar -text
 OpenXavaTest/web/WEB-INF/lib/asm.jar -text
 OpenXavaTest/web/WEB-INF/lib/cglib.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-beanutils.jar -text
+OpenXavaTest/web/WEB-INF/lib/commons-codec.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-collections.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-digester.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-fileupload.jar -text
