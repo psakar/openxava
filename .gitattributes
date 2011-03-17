@@ -4984,7 +4984,7 @@ OpenXava/src/org/openxava/util/Classes.java -text
 OpenXava/src/org/openxava/util/CloneException.java -text
 OpenXava/src/org/openxava/util/DataSourceConnectionProvider.java -text
 OpenXava/src/org/openxava/util/Dates.java -text
-OpenXava/src/org/openxava/util/DefaultReportParameterProvider.java -text
+OpenXava/src/org/openxava/util/DefaultReportParametersProvider.java -text
 OpenXava/src/org/openxava/util/ElementNotFoundException.java -text
 OpenXava/src/org/openxava/util/Emails.java -text
 OpenXava/src/org/openxava/util/Factory.java -text
@@ -4994,7 +4994,7 @@ OpenXava/src/org/openxava/util/IConnectionProvider.java -text
 OpenXava/src/org/openxava/util/IInit.java -text
 OpenXava/src/org/openxava/util/ILiberate.java -text
 OpenXava/src/org/openxava/util/IPropertiesContainer.java -text
-OpenXava/src/org/openxava/util/IReportParameterProvider.java -text
+OpenXava/src/org/openxava/util/IReportParametersProvider.java -text
 OpenXava/src/org/openxava/util/InitException.java -text
 OpenXava/src/org/openxava/util/InputStreams.java -text
 OpenXava/src/org/openxava/util/Is.java -text
@@ -5010,7 +5010,7 @@ OpenXava/src/org/openxava/util/Primitives.java -text
 OpenXava/src/org/openxava/util/PropertiesManager.java -text
 OpenXava/src/org/openxava/util/PropertiesManagerException.java -text
 OpenXava/src/org/openxava/util/PropertiesReader.java -text
-OpenXava/src/org/openxava/util/ReportParameterProviderFactory.java -text
+OpenXava/src/org/openxava/util/ReportParametersProviderFactory.java -text
 OpenXava/src/org/openxava/util/ResourceManagerI18n.java -text
 OpenXava/src/org/openxava/util/Resources.java -text
 OpenXava/src/org/openxava/util/Server.java -text
@@ -5841,7 +5841,6 @@ OpenXava/web/js/dwr-engine.js -text
 OpenXava/web/js/jquery-ui.js -text
 OpenXava/web/js/jquery.bgiframe.min.js -text
 OpenXava/web/js/jquery.js -text
-OpenXava/web/js/jquery.qtip.js -text
 OpenXava/web/js/openxava.js -text
 OpenXava/web/list.jsp -text
 OpenXava/web/messages.jsp -text
@@ -8757,7 +8756,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/FamilyProductsReportAction.java 
 OpenXavaTest/pojo-src/org/openxava/test/actions/GoProposeNameAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/InvoiceReportAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/LoginAction.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/actions/MyReportParameterProvider.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/MyReportParametersProvider.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/NewWarehouseAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeCustomerNameAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeDeliveryByAction.java -text
@@ -10301,7 +10300,6 @@ OpenXavaTest/web/xava/js/jquery-ui.js -text
 OpenXavaTest/web/xava/js/jquery.bgiframe.min.js -text
 OpenXavaTest/web/xava/js/jquery.js -text
 OpenXavaTest/web/xava/js/jquery.metadata.js -text
-OpenXavaTest/web/xava/js/jquery.qtip.js -text
 OpenXavaTest/web/xava/js/openxava.js -text
 OpenXavaTest/web/xava/list.jsp -text
 OpenXavaTest/web/xava/messages.jsp -text
