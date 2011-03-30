@@ -8752,7 +8752,9 @@ OpenXavaTest/persistence/META-INF/persistence.xml -text
 OpenXavaTest/persistence/hibernate-junit.cfg.xml -text
 OpenXavaTest/persistence/hibernate.cfg.xml -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/AddToNameAction.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/ChangeName.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/FamilyProductsReportAction.java -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/GoChangeName.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/GoProposeNameAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/InvoiceReportAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/LoginAction.groovy -text
@@ -8837,6 +8839,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Login.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Mixture.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/MixtureKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Month.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Name.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Nameable.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Office.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Office2.java -text
@@ -8922,6 +8925,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/CompositeTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DealTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DrivingLicenceTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/EmployeeTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/GoToSellerJSPTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/HumanTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/JavaProgrammerExtendedViewsTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/JavaProgrammerTest.java -text
