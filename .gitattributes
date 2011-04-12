@@ -151,6 +151,7 @@ AccessTracking/web/WEB-INF/lib/antlr.jar -text
 AccessTracking/web/WEB-INF/lib/asm.jar -text
 AccessTracking/web/WEB-INF/lib/cglib.jar -text
 AccessTracking/web/WEB-INF/lib/commons-beanutils.jar -text
+AccessTracking/web/WEB-INF/lib/commons-codec.jar -text
 AccessTracking/web/WEB-INF/lib/commons-collections.jar -text
 AccessTracking/web/WEB-INF/lib/commons-digester.jar -text
 AccessTracking/web/WEB-INF/lib/commons-fileupload.jar -text
@@ -877,7 +878,6 @@ AccessTracking/web/xava/js/dwr-engine.js -text
 AccessTracking/web/xava/js/jquery-ui.js -text
 AccessTracking/web/xava/js/jquery.bgiframe.min.js -text
 AccessTracking/web/xava/js/jquery.js -text
-AccessTracking/web/xava/js/jquery.qtip.js -text
 AccessTracking/web/xava/js/openxava.js -text
 AccessTracking/web/xava/list.jsp -text
 AccessTracking/web/xava/messages.jsp -text
@@ -2396,6 +2396,7 @@ MiEscuela/web/WEB-INF/lib/antlr.jar -text
 MiEscuela/web/WEB-INF/lib/asm.jar -text
 MiEscuela/web/WEB-INF/lib/cglib.jar -text
 MiEscuela/web/WEB-INF/lib/commons-beanutils.jar -text
+MiEscuela/web/WEB-INF/lib/commons-codec.jar -text
 MiEscuela/web/WEB-INF/lib/commons-collections.jar -text
 MiEscuela/web/WEB-INF/lib/commons-digester.jar -text
 MiEscuela/web/WEB-INF/lib/commons-fileupload.jar -text
@@ -3126,7 +3127,6 @@ MiEscuela/web/xava/js/dwr-engine.js -text
 MiEscuela/web/xava/js/jquery-ui.js -text
 MiEscuela/web/xava/js/jquery.bgiframe.min.js -text
 MiEscuela/web/xava/js/jquery.js -text
-MiEscuela/web/xava/js/jquery.qtip.js -text
 MiEscuela/web/xava/js/openxava.js -text
 MiEscuela/web/xava/list.jsp -text
 MiEscuela/web/xava/messages.jsp -text
@@ -3412,6 +3412,7 @@ MySchool/web/WEB-INF/lib/antlr.jar -text
 MySchool/web/WEB-INF/lib/asm.jar -text
 MySchool/web/WEB-INF/lib/cglib.jar -text
 MySchool/web/WEB-INF/lib/commons-beanutils.jar -text
+MySchool/web/WEB-INF/lib/commons-codec.jar -text
 MySchool/web/WEB-INF/lib/commons-collections.jar -text
 MySchool/web/WEB-INF/lib/commons-digester.jar -text
 MySchool/web/WEB-INF/lib/commons-fileupload.jar -text
@@ -8782,7 +8783,6 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/GoChangeName.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/GoProposeNameAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/InvoiceReportAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/LoginAction.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/actions/MyReportParametersProvider.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/NewWarehouseAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeCustomerNameAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeDeliveryByAction.java -text
@@ -9250,6 +9250,7 @@ OpenXavaTest/src/org/openxava/test/tests/WarehouseSpecialNewTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehouseSplitTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehouseSplitTestBase.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehouseTest.java -text
+OpenXavaTest/src/org/openxava/test/util/MyReportParametersProvider.groovy -text
 OpenXavaTest/src/org/openxava/test/validators/CheapProductValidator.java -text
 OpenXavaTest/src/org/openxava/test/validators/DeliveryValidator.java -text
 OpenXavaTest/src/org/openxava/test/validators/ExcludeStringValidator.java -text
@@ -9262,12 +9263,10 @@ OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
