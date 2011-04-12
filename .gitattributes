@@ -6153,6 +6153,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/DeleteLiferayDocumentAction.html -t
 OpenXavaDoc/web/apidocs/org/openxava/actions/DeleteSelectedAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/DeselectRowsAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/EditElementInCollectionAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/EditElementInManyToManyCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/EditGalleryAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/EmptyAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/FilterAction.html -text
@@ -6249,6 +6250,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/TabBaseAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/TreeViewExpandCollapseAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/TreeViewMoveNodeAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/UpdateAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/UpdateElementInManyToManyCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/UpdateReferenceBaseAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/ViewBaseAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/ViewDetailAction.html -text
@@ -6278,6 +6280,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/DeleteLiferayDocumentActi
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/DeleteSelectedAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/DeselectRowsAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/EditElementInCollectionAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/EditElementInManyToManyCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/EditGalleryAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/EmptyAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/FilterAction.html -text
@@ -6374,6 +6377,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/TabBaseAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/TreeViewExpandCollapseAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/TreeViewMoveNodeAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/UpdateAction.html -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/UpdateElementInManyToManyCollectionAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/UpdateReferenceBaseAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ViewBaseAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ViewDetailAction.html -text
@@ -7167,6 +7171,7 @@ OpenXavaDoc/web/apidocs/org/openxava/util/CloneException.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/DataSourceConnectionProvider.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/Dates.DateDistance.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/Dates.html -text
+OpenXavaDoc/web/apidocs/org/openxava/util/DefaultReportParametersProvider.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/ElementNotFoundException.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/Emails.Attachment.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/Emails.html -text
@@ -7177,6 +7182,7 @@ OpenXavaDoc/web/apidocs/org/openxava/util/IConnectionProvider.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/IInit.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/ILiberate.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/IPropertiesContainer.html -text
+OpenXavaDoc/web/apidocs/org/openxava/util/IReportParametersProvider.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/InitException.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/InputStreams.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/Is.html -text
@@ -7192,6 +7198,7 @@ OpenXavaDoc/web/apidocs/org/openxava/util/Primitives.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/PropertiesManager.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/PropertiesManagerException.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/PropertiesReader.html -text
+OpenXavaDoc/web/apidocs/org/openxava/util/ReportParametersProviderFactory.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/ResourceManagerI18n.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/Resources.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/Server.html -text
@@ -7214,6 +7221,7 @@ OpenXavaDoc/web/apidocs/org/openxava/util/class-use/CloneException.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/DataSourceConnectionProvider.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/Dates.DateDistance.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/Dates.html -text
+OpenXavaDoc/web/apidocs/org/openxava/util/class-use/DefaultReportParametersProvider.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/ElementNotFoundException.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/Emails.Attachment.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/Emails.html -text
@@ -7224,6 +7232,7 @@ OpenXavaDoc/web/apidocs/org/openxava/util/class-use/IConnectionProvider.html -te
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/IInit.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/ILiberate.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/IPropertiesContainer.html -text
+OpenXavaDoc/web/apidocs/org/openxava/util/class-use/IReportParametersProvider.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/InitException.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/InputStreams.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/Is.html -text
@@ -7239,6 +7248,7 @@ OpenXavaDoc/web/apidocs/org/openxava/util/class-use/Primitives.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/PropertiesManager.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/PropertiesManagerException.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/PropertiesReader.html -text
+OpenXavaDoc/web/apidocs/org/openxava/util/class-use/ReportParametersProviderFactory.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/ResourceManagerI18n.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/Resources.html -text
 OpenXavaDoc/web/apidocs/org/openxava/util/class-use/Server.html -text
