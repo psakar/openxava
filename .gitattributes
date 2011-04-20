@@ -9585,9 +9585,6 @@ OpenXavaTest/web/WEB-INF/classes/portlets/TransportChargeWithDistance_fr.propert
 OpenXavaTest/web/WEB-INF/classes/stereotype-type-default.xml -text
 OpenXavaTest/web/WEB-INF/classes/validators.xml -text
 OpenXavaTest/web/WEB-INF/dwr.xml -text
-OpenXavaTest/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
-OpenXavaTest/web/WEB-INF/fonts/DejaVuSans.ttf -text
-OpenXavaTest/web/WEB-INF/fonts/LICENSE -text
 OpenXavaTest/web/WEB-INF/lib/activation.jar -text
 OpenXavaTest/web/WEB-INF/lib/antlr.jar -text
 OpenXavaTest/web/WEB-INF/lib/asm.jar -text
@@ -9611,6 +9608,7 @@ OpenXavaTest/web/WEB-INF/lib/hibernate3.jar -text
 OpenXavaTest/web/WEB-INF/lib/imap.jar -text
 OpenXavaTest/web/WEB-INF/lib/itext.jar -text
 OpenXavaTest/web/WEB-INF/lib/jakarta-oro.jar -text
+OpenXavaTest/web/WEB-INF/lib/jasperreports-fonts.jar -text
 OpenXavaTest/web/WEB-INF/lib/jasperreports.jar -text
 OpenXavaTest/web/WEB-INF/lib/javassist.jar -text
 OpenXavaTest/web/WEB-INF/lib/javax.inject.jar -text
