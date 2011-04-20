@@ -5126,9 +5126,6 @@ OpenXava/src/org/openxava/web/taglib/ImageTag.java -text
 OpenXava/src/org/openxava/web/taglib/LinkTag.java -text
 OpenXava/src/org/openxava/web/taglib/MessageTag.java -text
 OpenXava/web/WEB-INF/dwr.xml -text
-OpenXava/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
-OpenXava/web/WEB-INF/fonts/DejaVuSans.ttf -text
-OpenXava/web/WEB-INF/fonts/LICENSE -text
 OpenXava/web/WEB-INF/lib/activation.jar -text
 OpenXava/web/WEB-INF/lib/antlr.jar -text
 OpenXava/web/WEB-INF/lib/asm.jar -text
@@ -5152,6 +5149,7 @@ OpenXava/web/WEB-INF/lib/hibernate3.jar -text
 OpenXava/web/WEB-INF/lib/imap.jar -text
 OpenXava/web/WEB-INF/lib/itext.jar -text
 OpenXava/web/WEB-INF/lib/jakarta-oro.jar -text
+OpenXava/web/WEB-INF/lib/jasperreports-fonts.jar -text
 OpenXava/web/WEB-INF/lib/jasperreports.jar -text
 OpenXava/web/WEB-INF/lib/javassist.jar -text
 OpenXava/web/WEB-INF/lib/javax.inject.jar -text
