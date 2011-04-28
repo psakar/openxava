@@ -4996,6 +4996,7 @@ OpenXava/src/org/openxava/util/IInit.java -text
 OpenXava/src/org/openxava/util/ILiberate.java -text
 OpenXava/src/org/openxava/util/IPropertiesContainer.java -text
 OpenXava/src/org/openxava/util/IReportParametersProvider.java -text
+OpenXava/src/org/openxava/util/IRequestReportParametersProvider.java -text
 OpenXava/src/org/openxava/util/InitException.java -text
 OpenXava/src/org/openxava/util/InputStreams.java -text
 OpenXava/src/org/openxava/util/Is.java -text
