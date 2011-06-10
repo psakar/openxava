@@ -9010,6 +9010,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Year.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/AnnotatedPOGOTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/AnnotatedPOJOTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ArtistTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/AuthorTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/BlogTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/BookTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CallBackLogTest.java -text
