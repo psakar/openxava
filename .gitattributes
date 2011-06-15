@@ -5115,6 +5115,7 @@ OpenXava/src/org/openxava/web/style/Liferay41Style.java -text
 OpenXava/src/org/openxava/web/style/Liferay43Style.java -text
 OpenXava/src/org/openxava/web/style/Liferay51Style.java -text
 OpenXava/src/org/openxava/web/style/Liferay6Style.java -text
+OpenXava/src/org/openxava/web/style/PortalStyle.java -text
 OpenXava/src/org/openxava/web/style/Style.java -text
 OpenXava/src/org/openxava/web/style/WebSpherePortal61Style.java -text
 OpenXava/src/org/openxava/web/style/WebSpherePortal6Style.java -text
@@ -5129,9 +5130,6 @@ OpenXava/src/org/openxava/web/taglib/ImageTag.java -text
 OpenXava/src/org/openxava/web/taglib/LinkTag.java -text
 OpenXava/src/org/openxava/web/taglib/MessageTag.java -text
 OpenXava/web/WEB-INF/dwr.xml -text
-OpenXava/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
-OpenXava/web/WEB-INF/fonts/DejaVuSans.ttf -text
-OpenXava/web/WEB-INF/fonts/LICENSE -text
 OpenXava/web/WEB-INF/lib/activation.jar -text
 OpenXava/web/WEB-INF/lib/antlr.jar -text
 OpenXava/web/WEB-INF/lib/asm.jar -text
@@ -5157,6 +5155,7 @@ OpenXava/web/WEB-INF/lib/itext.jar -text
 OpenXava/web/WEB-INF/lib/jakarta-oro.jar -text
 OpenXava/web/WEB-INF/lib/jasperreports-fonts-roman.jar -text
 OpenXava/web/WEB-INF/lib/jasperreports-fonts-verdana.jar -text
+OpenXava/web/WEB-INF/lib/jasperreports-fonts.jar -text
 OpenXava/web/WEB-INF/lib/jasperreports.jar -text
 OpenXava/web/WEB-INF/lib/javassist.jar -text
 OpenXava/web/WEB-INF/lib/javax.inject.jar -text
@@ -5813,7 +5812,7 @@ OpenXava/web/images/level-down.gif -text
 OpenXava/web/images/level-left.gif -text
 OpenXava/web/images/level-right.gif -text
 OpenXava/web/images/level-up.gif -text
-OpenXava/web/images/loading-module.gif -text
+OpenXava/web/images/loading.gif -text
 OpenXava/web/images/maximize.gif -text
 OpenXava/web/images/minimize.gif -text
 OpenXava/web/images/move-left.gif -text
@@ -5902,7 +5901,7 @@ OpenXava/web/style/ipad/images/level-down.gif -text
 OpenXava/web/style/ipad/images/level-left.gif -text
 OpenXava/web/style/ipad/images/level-right.gif -text
 OpenXava/web/style/ipad/images/level-up.gif -text
-OpenXava/web/style/ipad/images/loading-module.gif -text
+OpenXava/web/style/ipad/images/loading.gif -text
 OpenXava/web/style/ipad/images/maximize.gif -text
 OpenXava/web/style/ipad/images/minimize.gif -text
 OpenXava/web/style/ipad/images/move-left.gif -text
@@ -5932,6 +5931,7 @@ OpenXava/web/style/ipad/images/sort.gif -text
 OpenXava/web/style/ipad/images/summation.gif -text
 OpenXava/web/style/ipad/images/view.gif -text
 OpenXava/web/style/ipad/ipad.css -text
+OpenXava/web/style/ipad/ipad.js -text
 OpenXava/web/style/jetspeed.css -text svneol=unset#application/octet-stream
 OpenXava/web/style/liferay43/css/everything_unpacked.css -text
 OpenXava/web/style/liferay43/images/common/action.png -text
@@ -6077,7 +6077,7 @@ OpenXava/web/style/liferay51/images/progress_bar/loading_animation.gif -text
 OpenXava/web/style/liferay51/js/barebone_unpacked.js -text
 OpenXava/web/style/liferay51/js/init_liferay.js -text
 OpenXava/web/style/liferay51/js/theme_display.js -text
-OpenXava/web/style/openxava.css -text
+OpenXava/web/style/portal.css -text
 OpenXava/web/style/skins.css -text svneol=unset#application/octet-stream
 OpenXava/web/style/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png -text
 OpenXava/web/style/smoothness/images/ui-bg_flat_75_ffffff_40x100.png -text
