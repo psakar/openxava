@@ -9652,9 +9652,6 @@ OpenXavaTest/web/WEB-INF/classes/portlets/TransportChargeWithDistance_fr.propert
 OpenXavaTest/web/WEB-INF/classes/stereotype-type-default.xml -text
 OpenXavaTest/web/WEB-INF/classes/validators.xml -text
 OpenXavaTest/web/WEB-INF/dwr.xml -text
-OpenXavaTest/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
-OpenXavaTest/web/WEB-INF/fonts/DejaVuSans.ttf -text
-OpenXavaTest/web/WEB-INF/fonts/LICENSE -text
 OpenXavaTest/web/WEB-INF/lib/activation.jar -text
 OpenXavaTest/web/WEB-INF/lib/antlr.jar -text
 OpenXavaTest/web/WEB-INF/lib/asm.jar -text
@@ -9678,6 +9675,9 @@ OpenXavaTest/web/WEB-INF/lib/hibernate3.jar -text
 OpenXavaTest/web/WEB-INF/lib/imap.jar -text
 OpenXavaTest/web/WEB-INF/lib/itext.jar -text
 OpenXavaTest/web/WEB-INF/lib/jakarta-oro.jar -text
+OpenXavaTest/web/WEB-INF/lib/jasperreports-fonts-roman.jar -text
+OpenXavaTest/web/WEB-INF/lib/jasperreports-fonts-verdana.jar -text
+OpenXavaTest/web/WEB-INF/lib/jasperreports-fonts.jar -text
 OpenXavaTest/web/WEB-INF/lib/jasperreports.jar -text
 OpenXavaTest/web/WEB-INF/lib/javassist.jar -text
 OpenXavaTest/web/WEB-INF/lib/javax.inject.jar -text
@@ -10368,7 +10368,7 @@ OpenXavaTest/web/xava/images/level-down.gif -text
 OpenXavaTest/web/xava/images/level-left.gif -text
 OpenXavaTest/web/xava/images/level-right.gif -text
 OpenXavaTest/web/xava/images/level-up.gif -text
-OpenXavaTest/web/xava/images/loading-module.gif -text
+OpenXavaTest/web/xava/images/loading.gif -text
 OpenXavaTest/web/xava/images/maximize.gif -text
 OpenXavaTest/web/xava/images/minimize.gif -text
 OpenXavaTest/web/xava/images/move-left.gif -text
@@ -10459,7 +10459,7 @@ OpenXavaTest/web/xava/style/ipad/images/level-down.gif -text
 OpenXavaTest/web/xava/style/ipad/images/level-left.gif -text
 OpenXavaTest/web/xava/style/ipad/images/level-right.gif -text
 OpenXavaTest/web/xava/style/ipad/images/level-up.gif -text
-OpenXavaTest/web/xava/style/ipad/images/loading-module.gif -text
+OpenXavaTest/web/xava/style/ipad/images/loading.gif -text
 OpenXavaTest/web/xava/style/ipad/images/maximize.gif -text
 OpenXavaTest/web/xava/style/ipad/images/minimize.gif -text
 OpenXavaTest/web/xava/style/ipad/images/move-left.gif -text
@@ -10489,6 +10489,7 @@ OpenXavaTest/web/xava/style/ipad/images/sort.gif -text
 OpenXavaTest/web/xava/style/ipad/images/summation.gif -text
 OpenXavaTest/web/xava/style/ipad/images/view.gif -text
 OpenXavaTest/web/xava/style/ipad/ipad.css -text
+OpenXavaTest/web/xava/style/ipad/ipad.js -text
 OpenXavaTest/web/xava/style/jetspeed.css -text svneol=unset#application/octet-stream
 OpenXavaTest/web/xava/style/liferay43/css/everything_unpacked.css -text
 OpenXavaTest/web/xava/style/liferay43/images/common/action.png -text
@@ -10634,7 +10635,7 @@ OpenXavaTest/web/xava/style/liferay51/images/progress_bar/loading_animation.gif 
 OpenXavaTest/web/xava/style/liferay51/js/barebone_unpacked.js -text
 OpenXavaTest/web/xava/style/liferay51/js/init_liferay.js -text
 OpenXavaTest/web/xava/style/liferay51/js/theme_display.js -text
-OpenXavaTest/web/xava/style/openxava.css -text
+OpenXavaTest/web/xava/style/portal.css -text
 OpenXavaTest/web/xava/style/skins.css -text svneol=unset#application/octet-stream
 OpenXavaTest/web/xava/style/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png -text
 OpenXavaTest/web/xava/style/smoothness/images/ui-bg_flat_75_ffffff_40x100.png -text
