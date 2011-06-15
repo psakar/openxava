@@ -5153,6 +5153,7 @@ OpenXava/web/WEB-INF/lib/hibernate3.jar -text
 OpenXava/web/WEB-INF/lib/imap.jar -text
 OpenXava/web/WEB-INF/lib/itext.jar -text
 OpenXava/web/WEB-INF/lib/jakarta-oro.jar -text
+OpenXava/web/WEB-INF/lib/jasperreports-fonts-helvetica.jar -text
 OpenXava/web/WEB-INF/lib/jasperreports-fonts-roman.jar -text
 OpenXava/web/WEB-INF/lib/jasperreports-fonts-verdana.jar -text
 OpenXava/web/WEB-INF/lib/jasperreports-fonts.jar -text
