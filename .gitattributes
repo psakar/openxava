@@ -5390,7 +5390,7 @@ OpenXava/web/WEB-INF/lib/standard.jar -text
 OpenXava/web/WEB-INF/lib/validation-api.jar -text
 OpenXava/web/WEB-INF/web.xml -text
 OpenXava/web/addColumns.jsp -text
-OpenXava/web/addToCollection.jsp -text
+OpenXava/web/addToCollection.jsp -text svneol=unset#text/plain
 OpenXava/web/barButton.jsp -text
 OpenXava/web/bottomButtons.jsp -text
 OpenXava/web/buttonBar.jsp -text
@@ -6063,7 +6063,7 @@ OpenXava/web/js/jquery-ui.js -text
 OpenXava/web/js/jquery.bgiframe.min.js -text
 OpenXava/web/js/jquery.js -text
 OpenXava/web/js/openxava.js -text
-OpenXava/web/list.jsp -text
+OpenXava/web/list.jsp -text svneol=unset#text/plain
 OpenXava/web/messages.jsp -text
 OpenXava/web/module.jsp -text
 OpenXava/web/portlet.jsp -text
