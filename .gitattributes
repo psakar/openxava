@@ -9222,7 +9222,9 @@ OpenXavaTest/pojo-src/org/openxava/test/model/TransportCharge2.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/TransportCharge2Key.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/TransportChargeKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/TreeContainer.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/TreeContainerNoOrder.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/TreeItem.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/TreeItemNoOrder.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/TreeItemTwo.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Vehicle.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Wall.java -text
@@ -9268,9 +9270,11 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/SummerCourseTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ToDoListTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TotoTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TransportChargeWithDescriptionsListTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/TreeContainerNoOrderTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TreeContainerTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TreeViewDefaultPathTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TreeViewNoDefaultPathTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/TreeViewNoOrderTestBase.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TreeViewTestBase.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/WallTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/Warehouse2Test.java -text
