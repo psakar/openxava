@@ -6065,7 +6065,7 @@ OpenXava/web/js/jquery.js -text
 OpenXava/web/js/openxava.js -text
 OpenXava/web/list.jsp -text svneol=unset#text/plain
 OpenXava/web/messages.jsp -text
-OpenXava/web/module.jsp -text
+OpenXava/web/module.jsp -text svneol=unset#text/plain
 OpenXava/web/portlet.jsp -text
 OpenXava/web/propertyActions.jsp -text
 OpenXava/web/reference.jsp -text
@@ -9250,6 +9250,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/CompositeTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DealTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DrivingLicenceTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/EmployeeTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/GoDescriptionTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/GoToSellerJSPTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/HumanTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/JavaProgrammerExtendedViewsTest.java -text
