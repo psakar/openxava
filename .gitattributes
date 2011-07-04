@@ -8057,7 +8057,6 @@ OpenXavaTest/components/Worker.xml -text
 OpenXavaTest/components/Year.xml -text
 OpenXavaTest/components/dtds/component.dtd -text
 OpenXavaTest/components/dtds/componente.dtd -text
-OpenXavaTest/data/openxava-test-db.lck -text
 OpenXavaTest/data/openxava-test-db.properties -text
 OpenXavaTest/data/openxava-test-db.script -text
 OpenXavaTest/data/openxava-test-ds.xml -text
@@ -8562,6 +8561,10 @@ OpenXavaTest/i18n/portlets/Framework_ca.properties -text
 OpenXavaTest/i18n/portlets/Framework_en.properties -text
 OpenXavaTest/i18n/portlets/Framework_es.properties -text
 OpenXavaTest/i18n/portlets/Framework_fr.properties -text
+OpenXavaTest/i18n/portlets/GoDescription_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/GoDescription_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/GoDescription_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/GoDescription_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/GoToSellerJSP_ca.properties -text
 OpenXavaTest/i18n/portlets/GoToSellerJSP_en.properties -text
 OpenXavaTest/i18n/portlets/GoToSellerJSP_es.properties -text
@@ -8994,10 +8997,18 @@ OpenXavaTest/i18n/portlets/TransportCharge_ca.properties -text
 OpenXavaTest/i18n/portlets/TransportCharge_en.properties -text
 OpenXavaTest/i18n/portlets/TransportCharge_es.properties -text
 OpenXavaTest/i18n/portlets/TransportCharge_fr.properties -text
+OpenXavaTest/i18n/portlets/TreeContainerNoOrder_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeContainerNoOrder_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeContainerNoOrder_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeContainerNoOrder_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TreeContainer_ca.properties -text
 OpenXavaTest/i18n/portlets/TreeContainer_en.properties -text
 OpenXavaTest/i18n/portlets/TreeContainer_es.properties -text
 OpenXavaTest/i18n/portlets/TreeContainer_fr.properties -text
+OpenXavaTest/i18n/portlets/TreeItemNoOrder_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeItemNoOrder_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeItemNoOrder_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeItemNoOrder_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TreeItemTwo_ca.properties -text
 OpenXavaTest/i18n/portlets/TreeItemTwo_en.properties -text
 OpenXavaTest/i18n/portlets/TreeItemTwo_es.properties -text
@@ -9568,10 +9579,12 @@ OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
