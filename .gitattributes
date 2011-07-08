@@ -9132,6 +9132,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/ClerkKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Color.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Comment.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Community.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Company.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Composite.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ConversionFactor.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Country.groovy -text
@@ -9265,6 +9266,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/ColorinColoradoTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CommentTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CommunityEditableMembersTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CommunityTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/CompanyTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CompositeTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DealTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DrivingLicenceTest.java -text
