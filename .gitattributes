@@ -6335,7 +6335,6 @@ OpenXavaDoc/.classpath -text
 OpenXavaDoc/.project -text
 OpenXavaDoc/build.xml -text
 OpenXavaDoc/openxava-portal.lar -text
-OpenXavaDoc/openxava-portal.zip -text
 OpenXavaDoc/pdf-style/blank.html -text
 OpenXavaDoc/pdf-style/cover-xml_en.html -text
 OpenXavaDoc/pdf-style/cover-xml_es.html -text
@@ -7799,7 +7798,7 @@ OpenXavaDoc/web/apidocs/package-list -text svneol=unset#application/octet-stream
 OpenXavaDoc/web/apidocs/resources/inherit.gif -text
 OpenXavaDoc/web/apidocs/serialized-form.html -text
 OpenXavaDoc/web/apidocs/stylesheet.css -text
-OpenXavaDoc/web/changelog.txt -text
+OpenXavaDoc/web/changelog.txt -text svneol=unset#text/plain
 OpenXavaDoc/wiki-HTML.zip -text
 OpenXavaDoc/wiki.tgz -text
 OpenXavaPlantilla/.classpath -text
