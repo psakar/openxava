@@ -6331,7 +6331,6 @@ OpenXava/xava/dtds/validators.dtd -text
 OpenXava/xava/dtds/valores-defecto-tabs.dtd -text
 OpenXava/xava/stereotype-type-default.xml -text
 OpenXava/xava/validators.xml -text
-OpenXavaDoc/.classpath -text
 OpenXavaDoc/.project -text
 OpenXavaDoc/build.xml -text
 OpenXavaDoc/openxava-portal.lar -text
