@@ -5931,7 +5931,7 @@ OpenXava/web/editors/descriptionsEditor.jsp -text
 OpenXava/web/editors/fckEditor.jsp -text
 OpenXava/web/editors/gallery.jsp -text
 OpenXava/web/editors/galleryEditor.jsp -text
-OpenXava/web/editors/htmlEditor.jsp -text
+OpenXava/web/editors/htmlEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/imageEditor.jsp -text
 OpenXava/web/editors/imageLabelEditor.jsp -text
 OpenXava/web/editors/js/autoNumeric.js -text
@@ -8020,6 +8020,7 @@ OpenXavaTest/components/Worker.xml -text
 OpenXavaTest/components/Year.xml -text
 OpenXavaTest/components/dtds/component.dtd -text
 OpenXavaTest/components/dtds/componente.dtd -text
+OpenXavaTest/data/openxava-test-db.lck -text
 OpenXavaTest/data/openxava-test-db.properties -text
 OpenXavaTest/data/openxava-test-db.script -text
 OpenXavaTest/data/openxava-test-ds.xml -text
