@@ -9053,6 +9053,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/ChangeName.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/FamilyProductsReportAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/GoChangeName.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/GoDescriptionAction.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/GoLoginAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/GoProposeNameAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/InvoiceReportAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/LoginAction.groovy -text
