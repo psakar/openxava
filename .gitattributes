@@ -4827,6 +4827,7 @@ OpenXava/src/org/openxava/actions/SetDefaultSchemaAction.java -text
 OpenXava/src/org/openxava/actions/SetEditableAction.java -text
 OpenXava/src/org/openxava/actions/SetLocaleAction.java -text
 OpenXava/src/org/openxava/actions/SetPageRowCountAction.java -text
+OpenXava/src/org/openxava/actions/SetPersistenceUnitAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/SetSchemaAction.java -text
 OpenXava/src/org/openxava/actions/SetUserAction.java -text
 OpenXava/src/org/openxava/actions/ShowRowsAction.java -text
@@ -8020,6 +8021,10 @@ OpenXavaTest/components/Worker.xml -text
 OpenXavaTest/components/Year.xml -text
 OpenXavaTest/components/dtds/component.dtd -text
 OpenXavaTest/components/dtds/componente.dtd -text
+OpenXavaTest/data/company-a-db.properties -text svneol=unset#text/plain
+OpenXavaTest/data/company-a-db.script -text
+OpenXavaTest/data/company-b-db.properties -text svneol=unset#text/plain
+OpenXavaTest/data/company-b-db.script -text
 OpenXavaTest/data/openxava-test-db.properties -text
 OpenXavaTest/data/openxava-test-db.script -text
 OpenXavaTest/data/openxava-test-ds.xml -text
@@ -8659,6 +8664,10 @@ OpenXavaTest/i18n/portlets/Invoice_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Invoice_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Invoice_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Invoice_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/IssueChangeDB_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/IssueChangeDB_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/IssueChangeDB_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/IssueChangeDB_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/IssueList_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/IssueList_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/IssueList_es.properties -text svneol=unset#text/plain
@@ -9259,6 +9268,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/GoDescriptionTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/GoShowSellerTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/GoToSellerJSPTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/HumanTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/IssueChangeDBTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/JavaProgrammerExtendedViewsTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/JavaProgrammerTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/LoginTest.groovy -text
@@ -9498,6 +9508,7 @@ OpenXavaTest/src/org/openxava/test/tests/InvoiceTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoiceWithParameterInURLTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/IsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/IssueTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/IssueTestBase.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/IssueWebTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/JPATest.java -text
 OpenXavaTest/src/org/openxava/test/tests/JourneyTest.java -text
@@ -9573,10 +9584,12 @@ OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
