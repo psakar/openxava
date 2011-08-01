@@ -6028,7 +6028,7 @@ OpenXava/web/js/dwr-engine.js -text
 OpenXava/web/js/jquery-ui.js -text
 OpenXava/web/js/jquery.bgiframe.min.js -text
 OpenXava/web/js/jquery.js -text
-OpenXava/web/js/openxava.js -text
+OpenXava/web/js/openxava.js -text svneol=unset#text/plain
 OpenXava/web/list.jsp -text svneol=unset#text/plain
 OpenXava/web/messages.jsp -text
 OpenXava/web/module.jsp -text svneol=unset#text/plain
@@ -9092,6 +9092,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeDistanceAction.java -tex
 OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeGroupInColorAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeRangesTypeAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ProposeNameAction.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/ShowGoCustomerInvoicesDialogAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowSellerAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/TranslateCarrierNameAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ViewNameFellowCarriersSelectedAction.java -text
@@ -9264,6 +9265,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/CompositeTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DealTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DrivingLicenceTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/EmployeeTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/GoCustomerInvoicesTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/GoDescriptionTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/GoShowSellerTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/GoToSellerJSPTest.groovy -text
