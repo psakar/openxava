@@ -6596,6 +6596,7 @@ OpenXavaTest/data/company-b-db.script -text
 OpenXavaTest/data/openxava-test-db.properties -text
 OpenXavaTest/data/openxava-test-db.script -text
 OpenXavaTest/data/openxava-test-ds.xml -text
+OpenXavaTest/gen-src-xava/dnas-pojo.properties -text svneol=unset#text/plain
 OpenXavaTest/gen-src-xava/org/openxava/test/model/AcademicYear.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/AdditionalDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Address.java -text
@@ -8164,12 +8165,10 @@ OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
