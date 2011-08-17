@@ -111,11 +111,9 @@ AccessTracking/tomcat-hypersonic.properties -text
 AccessTracking/web/META-INF/MANIFEST.MF -text
 AccessTracking/web/WEB-INF/classes/Access.hbm.xml -text
 AccessTracking/web/WEB-INF/classes/Access.xml -text
-AccessTracking/web/WEB-INF/classes/AccessTracking-labels.properties -text svneol=unset#text/plain
 AccessTracking/web/WEB-INF/classes/AccessTracking-labels_ca.properties -text
 AccessTracking/web/WEB-INF/classes/AccessTracking-labels_en.properties -text
 AccessTracking/web/WEB-INF/classes/AccessTracking-labels_es.properties -text
-AccessTracking/web/WEB-INF/classes/AccessTracking-messages.properties -text svneol=unset#text/plain
 AccessTracking/web/WEB-INF/classes/AccessTracking-messages_ca.properties -text
 AccessTracking/web/WEB-INF/classes/AccessTracking-messages_en.properties -text
 AccessTracking/web/WEB-INF/classes/AccessTracking-messages_es.properties -text
