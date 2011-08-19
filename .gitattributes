@@ -9237,6 +9237,10 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Warehouse.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Warehouse2.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Warehouse2Key.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/WarehouseKey.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/WorkOrder.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/WorkOrderKey.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/WorkOrderRequisition.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/WorkOrderRequisitionDetail.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Worker.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Year.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/AnnotatedPOGOTest.groovy -text
@@ -9291,6 +9295,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/TreeViewTestBase.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/WallTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/Warehouse2Test.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/WarehouseVoidTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/WorkOrderTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/types/RegionsType.java -text
 OpenXavaTest/pojo-src/org/openxava/test/validators/ChildValidator.java -text
 OpenXavaTest/pojo-src/org/openxava/test/validators/DeliveryPlaceValidator.java -text
