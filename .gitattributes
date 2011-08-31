@@ -5034,6 +5034,7 @@ OpenXava/src/org/openxava/formatters/SQLTimeFormatter.java -text
 OpenXava/src/org/openxava/formatters/StringTimeFormatter.java -text
 OpenXava/src/org/openxava/formatters/TimeBaseFormatter.java -text
 OpenXava/src/org/openxava/formatters/UpperCaseFormatter.java -text
+OpenXava/src/org/openxava/formatters/WebURLFormatter.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/generators/GeneratorFactory.java -text
 OpenXava/src/org/openxava/generators/Generators.java -text
 OpenXava/src/org/openxava/generators/IPropertyCodeGenerator.java -text
@@ -9280,6 +9281,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/Product4Test.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/Product5Test.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ProgrammerTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/QuarterTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/SalesRepresentativePersonOnlyNamesTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SalesRepresentativeTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/StudioTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SummerCourseTest.java -text
