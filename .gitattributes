@@ -1126,7 +1126,6 @@ AccessTracking/web/xava/style/ui-lightness/jquery-ui.css -text
 AccessTracking/web/xava/style/yahoo-treeview/check0.gif -text
 AccessTracking/web/xava/style/yahoo-treeview/check1.gif -text
 AccessTracking/web/xava/style/yahoo-treeview/check2.gif -text
-AccessTracking/web/xava/style/yahoo-treeview/fonts/fonts-min.css -text
 AccessTracking/web/xava/style/yahoo-treeview/loading.gif -text
 AccessTracking/web/xava/style/yahoo-treeview/treeview-loading.gif -text
 AccessTracking/web/xava/style/yahoo-treeview/treeview-skin.css -text
@@ -3436,7 +3435,6 @@ MiEscuela/web/xava/style/ui-lightness/jquery-ui.css -text
 MiEscuela/web/xava/style/yahoo-treeview/check0.gif -text
 MiEscuela/web/xava/style/yahoo-treeview/check1.gif -text
 MiEscuela/web/xava/style/yahoo-treeview/check2.gif -text
-MiEscuela/web/xava/style/yahoo-treeview/fonts/fonts-min.css -text
 MiEscuela/web/xava/style/yahoo-treeview/loading.gif -text
 MiEscuela/web/xava/style/yahoo-treeview/treeview-loading.gif -text
 MiEscuela/web/xava/style/yahoo-treeview/treeview-skin.css -text
@@ -4514,7 +4512,6 @@ MySchool/web/xava/style/ui-lightness/jquery-ui.css -text
 MySchool/web/xava/style/yahoo-treeview/check0.gif -text
 MySchool/web/xava/style/yahoo-treeview/check1.gif -text
 MySchool/web/xava/style/yahoo-treeview/check2.gif -text
-MySchool/web/xava/style/yahoo-treeview/fonts/fonts-min.css -text
 MySchool/web/xava/style/yahoo-treeview/loading.gif -text
 MySchool/web/xava/style/yahoo-treeview/treeview-loading.gif -text
 MySchool/web/xava/style/yahoo-treeview/treeview-skin.css -text
@@ -6276,7 +6273,6 @@ OpenXava/web/style/ui-lightness/jquery-ui.css -text
 OpenXava/web/style/yahoo-treeview/check0.gif -text
 OpenXava/web/style/yahoo-treeview/check1.gif -text
 OpenXava/web/style/yahoo-treeview/check2.gif -text
-OpenXava/web/style/yahoo-treeview/fonts/fonts-min.css -text
 OpenXava/web/style/yahoo-treeview/loading.gif -text
 OpenXava/web/style/yahoo-treeview/treeview-loading.gif -text
 OpenXava/web/style/yahoo-treeview/treeview-skin.css -text
@@ -8828,6 +8824,10 @@ OpenXavaTest/i18n/portlets/Report_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Report_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Report_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Report_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/SalesRepresentativePersonOnlyNames_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/SalesRepresentativePersonOnlyNames_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/SalesRepresentativePersonOnlyNames_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/SalesRepresentativePersonOnlyNames_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/SalesRepresentative_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/SalesRepresentative_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/SalesRepresentative_es.properties -text svneol=unset#text/plain
@@ -9056,6 +9056,18 @@ OpenXavaTest/i18n/portlets/Warehouse_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Warehouse_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Warehouse_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Warehouse_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/WorkOrderRequisitionDetail_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/WorkOrderRequisitionDetail_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/WorkOrderRequisitionDetail_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/WorkOrderRequisitionDetail_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/WorkOrderRequisition_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/WorkOrderRequisition_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/WorkOrderRequisition_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/WorkOrderRequisition_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/WorkOrder_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/WorkOrder_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/WorkOrder_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/WorkOrder_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Worker_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Worker_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Worker_es.properties -text svneol=unset#text/plain
@@ -10627,7 +10639,6 @@ OpenXavaTest/web/xava/style/ui-lightness/jquery-ui.css -text
 OpenXavaTest/web/xava/style/yahoo-treeview/check0.gif -text
 OpenXavaTest/web/xava/style/yahoo-treeview/check1.gif -text
 OpenXavaTest/web/xava/style/yahoo-treeview/check2.gif -text
-OpenXavaTest/web/xava/style/yahoo-treeview/fonts/fonts-min.css -text
 OpenXavaTest/web/xava/style/yahoo-treeview/loading.gif -text
 OpenXavaTest/web/xava/style/yahoo-treeview/treeview-loading.gif -text
 OpenXavaTest/web/xava/style/yahoo-treeview/treeview-skin.css -text
