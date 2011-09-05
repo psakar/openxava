@@ -5338,7 +5338,7 @@ OpenXava/web/addToCollection.jsp -text svneol=unset#text/plain
 OpenXava/web/barButton.jsp -text
 OpenXava/web/bottomButtons.jsp -text
 OpenXava/web/buttonBar.jsp -text
-OpenXava/web/calculatedCollectionList.jsp -text
+OpenXava/web/calculatedCollectionList.jsp -text svneol=unset#text/plain
 OpenXava/web/collection.jsp -text
 OpenXava/web/collectionList.jsp -text
 OpenXava/web/comparatorsBooleanCombo.jsp -text
