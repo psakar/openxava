@@ -9227,6 +9227,8 @@ OpenXavaTest/pojo-src/org/openxava/test/model/SubfamilyInfo.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/SubjectGroup.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/SubjectGroupKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/SummerCourse.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Superheroe.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Supervillain.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Task.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Thing.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ToDoComponent.java -text
@@ -9297,6 +9299,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/SalesRepresentativePersonOnlyNames
 OpenXavaTest/pojo-src/org/openxava/test/tests/SalesRepresentativeTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/StudioTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SummerCourseTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/SupervillainTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ToDoListTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TotoTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TransportChargeWithDescriptionsListTest.groovy -text
