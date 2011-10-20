@@ -9111,6 +9111,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/ShowGoCustomerInvoicesDialogActi
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowSellerAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/TranslateCarrierNameAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ViewNameFellowCarriersSelectedAction.java -text
+OpenXavaTest/pojo-src/org/openxava/test/annotations/GoodName.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/base/AbstractToto.java -text
 OpenXavaTest/pojo-src/org/openxava/test/domain/Moto.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/formatters/WarehouseFormatter.java -text
@@ -9331,6 +9332,7 @@ OpenXavaTest/pojo-src/org/openxava/test/validators/DeliveryPlaceValidator.java -
 OpenXavaTest/pojo-src/org/openxava/test/validators/DeliveryTypeRemoveValidator.java -text
 OpenXavaTest/pojo-src/org/openxava/test/validators/InvoiceDetailValidator.java -text
 OpenXavaTest/pojo-src/org/openxava/test/validators/PhoneNumberValidator.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/validators/constraints/GoodNameValidator.java -text svneol=unset#text/plain
 OpenXavaTest/properties/BeansContext.properties -text
 OpenXavaTest/properties/LoginContextFactory.properties -text
 OpenXavaTest/properties/jndi-jboss.properties -text
