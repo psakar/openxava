@@ -6287,6 +6287,7 @@ OpenXava/xava/default-controllers.xml -text
 OpenXava/xava/default-converters.xml -text
 OpenXava/xava/default-editors.xml -text
 OpenXava/xava/default-size.xml -text
+OpenXava/xava/default-validators.xml -text
 OpenXava/xava/dtds/aplicacion.dtd -text
 OpenXava/xava/dtds/application.dtd -text
 OpenXava/xava/dtds/aspectos.dtd -text
@@ -6310,7 +6311,6 @@ OpenXava/xava/dtds/validadores.dtd -text
 OpenXava/xava/dtds/validators.dtd -text
 OpenXava/xava/dtds/valores-defecto-tabs.dtd -text
 OpenXava/xava/stereotype-type-default.xml -text
-OpenXava/xava/validators.xml -text
 OpenXavaDoc/.project -text
 OpenXavaDoc/build.xml -text
 OpenXavaDoc/openxava-portal.lar -text
