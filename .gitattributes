@@ -4810,6 +4810,7 @@ OpenXava/src/org/openxava/actions/SetPersistenceUnitAction.java -text svneol=uns
 OpenXava/src/org/openxava/actions/SetSchemaAction.java -text
 OpenXava/src/org/openxava/actions/SetUserAction.java -text
 OpenXava/src/org/openxava/actions/ShowRowsAction.java -text
+OpenXava/src/org/openxava/actions/SimpleHTMLReportAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/SortColumnsAction.java -text
 OpenXava/src/org/openxava/actions/SumColumnAction.java -text
 OpenXava/src/org/openxava/actions/TabBaseAction.java -text
@@ -5179,6 +5180,7 @@ OpenXava/src/org/openxava/util/ReportParametersProviderFactory.java -text
 OpenXava/src/org/openxava/util/ResourceManagerI18n.java -text
 OpenXava/src/org/openxava/util/Resources.java -text
 OpenXava/src/org/openxava/util/Server.java -text
+OpenXava/src/org/openxava/util/SimpleTemplater.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/util/Strings.java -text
 OpenXava/src/org/openxava/util/SystemException.java -text
 OpenXava/src/org/openxava/util/TableModels.java -text
@@ -5267,6 +5269,7 @@ OpenXava/src/org/openxava/web/portlets/XavaPortlet.java -text
 OpenXava/src/org/openxava/web/servlets/GalleryServlet.java -text
 OpenXava/src/org/openxava/web/servlets/GenerateCustomReportServlet.java -text
 OpenXava/src/org/openxava/web/servlets/GenerateReportServlet.java -text
+OpenXava/src/org/openxava/web/servlets/GenerateSimpleHTMLReportServlet.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/servlets/ImagesServlet.java -text
 OpenXava/src/org/openxava/web/servlets/JasperReportServlet.java -text
 OpenXava/src/org/openxava/web/servlets/ModuleServlet.java -text
@@ -5992,6 +5995,7 @@ OpenXava/web/images/previous_page_disable.gif -text
 OpenXava/web/images/processing.gif -text
 OpenXava/web/images/refresh.gif -text
 OpenXava/web/images/remove.gif -text
+OpenXava/web/images/report.gif -text
 OpenXava/web/images/required.gif -text
 OpenXava/web/images/restore.gif -text
 OpenXava/web/images/rtf.gif -text
@@ -9107,6 +9111,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeDistanceAction.java -tex
 OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeGroupInColorAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeRangesTypeAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ProposeNameAction.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/ReportCorporationAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowGoCustomerInvoicesDialogAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowSellerAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/TranslateCarrierNameAction.java -text
@@ -9145,6 +9150,8 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Community.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Company.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Composite.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ConversionFactor.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Corporation.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/model/CorporationEmployee.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Country.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Course.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/CourseKey.java -text
@@ -9285,6 +9292,8 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/CommunityEditableMembersTest.java 
 OpenXavaTest/pojo-src/org/openxava/test/tests/CommunityTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CompanyTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CompositeTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/CorporationEmployeeTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/CorporationTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DealTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DrivingLicenceTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/EmployeeTest.groovy -text
@@ -9341,6 +9350,8 @@ OpenXavaTest/properties/jndi.properties -text
 OpenXavaTest/properties/logging.properties -text
 OpenXavaTest/properties/xava-junit.properties -text
 OpenXavaTest/properties/xava.properties -text
+OpenXavaTest/reports/Corporation.html -text svneol=unset#text/plain
+OpenXavaTest/reports/CorporationEmployee.html -text svneol=unset#text/plain
 OpenXavaTest/reports/Invoice.jrxml -text
 OpenXavaTest/reports/Products.jrxml -text
 OpenXavaTest/src/org/openxava/test/actions/ActivateDeactivateSectionAction.java -text
@@ -10373,6 +10384,7 @@ OpenXavaTest/web/xava/images/previous_page_disable.gif -text
 OpenXavaTest/web/xava/images/processing.gif -text
 OpenXavaTest/web/xava/images/refresh.gif -text
 OpenXavaTest/web/xava/images/remove.gif -text
+OpenXavaTest/web/xava/images/report.gif -text
 OpenXavaTest/web/xava/images/required.gif -text
 OpenXavaTest/web/xava/images/restore.gif -text
 OpenXavaTest/web/xava/images/rtf.gif -text
