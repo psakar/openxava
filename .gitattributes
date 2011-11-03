@@ -4750,6 +4750,7 @@ OpenXava/src/org/openxava/actions/IJDBCAction.java -text
 OpenXava/src/org/openxava/actions/ILoadFileAction.java -text
 OpenXava/src/org/openxava/actions/IModelAction.java -text
 OpenXava/src/org/openxava/actions/IModuleContextAction.java -text
+OpenXava/src/org/openxava/actions/IMultipleForwardAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/INavigationAction.java -text
 OpenXava/src/org/openxava/actions/IOnChangePropertyAction.java -text
 OpenXava/src/org/openxava/actions/IProcessLoadedFileAction.java -text
@@ -4759,6 +4760,7 @@ OpenXava/src/org/openxava/actions/IRequestAction.java -text
 OpenXava/src/org/openxava/actions/IShowActionAction.java -text
 OpenXava/src/org/openxava/actions/IShowActionsAction.java -text
 OpenXava/src/org/openxava/actions/InitListAction.java -text
+OpenXava/src/org/openxava/actions/JasperMultipleReportBaseAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/JasperReportBaseAction.java -text
 OpenXava/src/org/openxava/actions/LoadImageAction.java -text
 OpenXava/src/org/openxava/actions/LoadImageIntoGalleryAction.java -text
@@ -9103,6 +9105,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/GoDescriptionAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/GoLoginAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/GoProposeNameAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/InvoiceReportAction.java -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/InvoiceTwoReportsAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/LoginAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/NewWarehouseAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeCustomerNameAction.java -text
@@ -9353,6 +9356,7 @@ OpenXavaTest/properties/xava.properties -text
 OpenXavaTest/reports/Corporation.html -text svneol=unset#text/plain
 OpenXavaTest/reports/CorporationEmployee.html -text svneol=unset#text/plain
 OpenXavaTest/reports/Invoice.jrxml -text
+OpenXavaTest/reports/InvoiceNoVAT.jrxml -text
 OpenXavaTest/reports/Products.jrxml -text
 OpenXavaTest/src/org/openxava/test/actions/ActivateDeactivateSectionAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/AddActionsAction.java -text
