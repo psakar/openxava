@@ -4652,7 +4652,6 @@ OpenXava/i18n/Messages_sv.properties -text
 OpenXava/i18n/Messages_zh.properties -text
 OpenXava/i18n/Messages_zh_CN.properties -text
 OpenXava/lib/commons-httpclient.jar -text
-OpenXava/lib/commons-lang.jar -text
 OpenXava/lib/cssparser.jar -text
 OpenXava/lib/ejb.jar -text
 OpenXava/lib/freemarker.jar -text
@@ -5310,6 +5309,7 @@ OpenXava/web/WEB-INF/lib/commons-collections.jar -text
 OpenXava/web/WEB-INF/lib/commons-digester.jar -text
 OpenXava/web/WEB-INF/lib/commons-fileupload.jar -text
 OpenXava/web/WEB-INF/lib/commons-io.jar -text
+OpenXava/web/WEB-INF/lib/commons-lang.jar -text
 OpenXava/web/WEB-INF/lib/commons-logging.jar -text
 OpenXava/web/WEB-INF/lib/commons-validator.jar -text
 OpenXava/web/WEB-INF/lib/dom4j.jar -text
@@ -6008,7 +6008,7 @@ OpenXava/web/images/sort.gif -text
 OpenXava/web/images/summation.gif -text
 OpenXava/web/images/view.gif -text
 OpenXava/web/imports.jsp -text
-OpenXava/web/jasperReport.jsp -text
+OpenXava/web/jasperReport.jsp -text svneol=unset#text/plain
 OpenXava/web/js/calendar.js -text
 OpenXava/web/js/dwr-engine.js -text
 OpenXava/web/js/jquery-ui.js -text
@@ -9545,6 +9545,7 @@ OpenXavaTest/src/org/openxava/test/tests/Invoice3Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoiceActiveYearTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoiceCustomerAsAggregateTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoiceDeliveriesTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/InvoiceDetailsWithTotalsTest.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/InvoiceFromCustomersTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoiceFromDeliveriesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoiceNestedSectionsTest.java -text
@@ -9663,6 +9664,7 @@ OpenXavaTest/web/WEB-INF/lib/commons-collections.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-digester.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-fileupload.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-io.jar -text
+OpenXavaTest/web/WEB-INF/lib/commons-lang.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-logging.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-validator.jar -text
 OpenXavaTest/web/WEB-INF/lib/dom4j.jar -text
@@ -10397,7 +10399,7 @@ OpenXavaTest/web/xava/images/sort.gif -text
 OpenXavaTest/web/xava/images/summation.gif -text
 OpenXavaTest/web/xava/images/view.gif -text
 OpenXavaTest/web/xava/imports.jsp -text
-OpenXavaTest/web/xava/jasperReport.jsp -text
+OpenXavaTest/web/xava/jasperReport.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/js/calendar.js -text
 OpenXavaTest/web/xava/js/dwr-engine.js -text
 OpenXavaTest/web/xava/js/jquery-ui.js -text
@@ -10740,6 +10742,7 @@ OpenXavaTest/xml-classic-src/org/openxava/test/calculators/IncreasePriceCalculat
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/InvoiceDetail2OidCalculator.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/InvoiceDetailIsFreeCalculator.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/InvoiceDetailOidCalculator.java -text
+OpenXavaTest/xml-classic-src/org/openxava/test/calculators/InvoiceDetailsCalculator.java -text svneol=unset#text/plain
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/IsLocalCustomerCalculator.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/IsSlowCalculator.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/MixtureDescriptionCalculator.groovy -text
