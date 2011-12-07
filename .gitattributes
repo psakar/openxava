@@ -4677,6 +4677,7 @@ OpenXava/license/other-licenses/antlr-license.txt -text
 OpenXava/license/other-licenses/apache-1.1.txt -text
 OpenXava/license/other-licenses/apache-2.0.txt -text
 OpenXava/license/other-licenses/asm-license.txt -text
+OpenXava/license/other-licenses/ckeditor-license.html -text svneol=unset#text/plain
 OpenXava/license/other-licenses/cli-license.txt -text
 OpenXava/license/other-licenses/groovy-license.txt -text
 OpenXava/license/other-licenses/httpunit-license.txt -text
@@ -5357,481 +5358,6 @@ OpenXava/web/detail.jsp -text
 OpenXava/web/editor.jsp -text
 OpenXava/web/editorIcons.jsp -text
 OpenXava/web/editorWrapper.jsp -text
-OpenXava/web/editors/FCKeditor/_documentation.html -text
-OpenXava/web/editors/FCKeditor/_samples/_plugins/findreplace/fckplugin.js -text
-OpenXava/web/editors/FCKeditor/_samples/_plugins/findreplace/find.gif -text
-OpenXava/web/editors/FCKeditor/_samples/_plugins/findreplace/find.html -text
-OpenXava/web/editors/FCKeditor/_samples/_plugins/findreplace/lang/en.js -text
-OpenXava/web/editors/FCKeditor/_samples/_plugins/findreplace/lang/fr.js -text
-OpenXava/web/editors/FCKeditor/_samples/_plugins/findreplace/lang/it.js -text
-OpenXava/web/editors/FCKeditor/_samples/_plugins/findreplace/replace.gif -text
-OpenXava/web/editors/FCKeditor/_samples/_plugins/findreplace/replace.html -text
-OpenXava/web/editors/FCKeditor/_samples/_plugins/samples/fckplugin.js -text
-OpenXava/web/editors/FCKeditor/_samples/afp/fck.afpa -text svneol=unset#application/octet-stream
-OpenXava/web/editors/FCKeditor/_samples/afp/fck.afpa.code -text svneol=unset#application/octet-stream
-OpenXava/web/editors/FCKeditor/_samples/afp/sample01.afp -text svneol=unset#application/octet-stream
-OpenXava/web/editors/FCKeditor/_samples/afp/sampleposteddata.afp -text svneol=unset#application/octet-stream
-OpenXava/web/editors/FCKeditor/_samples/asp/sample01.asp -text
-OpenXava/web/editors/FCKeditor/_samples/asp/sample02.asp -text
-OpenXava/web/editors/FCKeditor/_samples/asp/sample03.asp -text
-OpenXava/web/editors/FCKeditor/_samples/asp/sample04.asp -text
-OpenXava/web/editors/FCKeditor/_samples/asp/sampleposteddata.asp -text
-OpenXava/web/editors/FCKeditor/_samples/cfm/sample01.cfm -text
-OpenXava/web/editors/FCKeditor/_samples/cfm/sample02_mx.cfm -text
-OpenXava/web/editors/FCKeditor/_samples/default.html -text
-OpenXava/web/editors/FCKeditor/_samples/html/sample01.html -text
-OpenXava/web/editors/FCKeditor/_samples/html/sample02.html -text
-OpenXava/web/editors/FCKeditor/_samples/html/sample03.html -text
-OpenXava/web/editors/FCKeditor/_samples/html/sample04.html -text
-OpenXava/web/editors/FCKeditor/_samples/html/sample05.html -text
-OpenXava/web/editors/FCKeditor/_samples/html/sample06.config.js -text
-OpenXava/web/editors/FCKeditor/_samples/html/sample06.html -text
-OpenXava/web/editors/FCKeditor/_samples/html/sample07.html -text
-OpenXava/web/editors/FCKeditor/_samples/html/sample08.html -text
-OpenXava/web/editors/FCKeditor/_samples/html/sample09.html -text
-OpenXava/web/editors/FCKeditor/_samples/html/sample10.html -text
-OpenXava/web/editors/FCKeditor/_samples/html/sample11.html -text
-OpenXava/web/editors/FCKeditor/_samples/html/sample11_frame.html -text
-OpenXava/web/editors/FCKeditor/_samples/html/sampleposteddata.asp -text
-OpenXava/web/editors/FCKeditor/_samples/html/sampleposteddata.html -text
-OpenXava/web/editors/FCKeditor/_samples/lasso/sample01.lasso -text svneol=unset#application/octet-stream
-OpenXava/web/editors/FCKeditor/_samples/lasso/sample02.lasso -text svneol=unset#application/octet-stream
-OpenXava/web/editors/FCKeditor/_samples/lasso/sample03.lasso -text svneol=unset#application/octet-stream
-OpenXava/web/editors/FCKeditor/_samples/lasso/sample04.lasso -text svneol=unset#application/octet-stream
-OpenXava/web/editors/FCKeditor/_samples/lasso/sampleposteddata.lasso -text svneol=unset#application/octet-stream
-OpenXava/web/editors/FCKeditor/_samples/perl/sample01.cgi -text
-OpenXava/web/editors/FCKeditor/_samples/perl/sample02.cgi -text
-OpenXava/web/editors/FCKeditor/_samples/perl/sample03.cgi -text
-OpenXava/web/editors/FCKeditor/_samples/perl/sample04.cgi -text
-OpenXava/web/editors/FCKeditor/_samples/perl/sampleposteddata.cgi -text
-OpenXava/web/editors/FCKeditor/_samples/php/sample01.php -text
-OpenXava/web/editors/FCKeditor/_samples/php/sample02.php -text
-OpenXava/web/editors/FCKeditor/_samples/php/sample03.php -text
-OpenXava/web/editors/FCKeditor/_samples/php/sample04.php -text
-OpenXava/web/editors/FCKeditor/_samples/php/sampleposteddata.php -text
-OpenXava/web/editors/FCKeditor/_samples/py/sample01.py -text svneol=unset#application/octet-stream
-OpenXava/web/editors/FCKeditor/_samples/py/sampleposteddata.py -text svneol=unset#application/octet-stream
-OpenXava/web/editors/FCKeditor/_samples/sample.css -text
-OpenXava/web/editors/FCKeditor/_samples/sampleslist.html -text
-OpenXava/web/editors/FCKeditor/_testcases/001.html -text
-OpenXava/web/editors/FCKeditor/_testcases/002.html -text
-OpenXava/web/editors/FCKeditor/_testcases/003.html -text
-OpenXava/web/editors/FCKeditor/_testcases/004.html -text
-OpenXava/web/editors/FCKeditor/_testcases/005.html -text
-OpenXava/web/editors/FCKeditor/_testcases/006.html -text
-OpenXava/web/editors/FCKeditor/_testcases/007.html -text
-OpenXava/web/editors/FCKeditor/_testcases/008.html -text
-OpenXava/web/editors/FCKeditor/_testcases/009.html -text
-OpenXava/web/editors/FCKeditor/_testcases/010.html -text
-OpenXava/web/editors/FCKeditor/_testcases/sampleposteddata.asp -text
-OpenXava/web/editors/FCKeditor/_testcases/testcases.css -text
-OpenXava/web/editors/FCKeditor/_whatsnew.html -text
-OpenXava/web/editors/FCKeditor/editor/_source/classes/fckcontextmenu.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/classes/fckeditingarea.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/classes/fckevents.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/classes/fckicon.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/classes/fckiecleanup.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/classes/fckmenublock.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/classes/fckmenublockpanel.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/classes/fckmenuitem.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/classes/fckpanel.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/classes/fckplugin.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/classes/fckspecialcombo.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/classes/fckstyledef.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/classes/fckstyledef_gecko.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/classes/fckstyledef_ie.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/classes/fckstylesloader.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/classes/fcktoolbar.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/classes/fcktoolbarbreak_gecko.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/classes/fcktoolbarbreak_ie.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/classes/fcktoolbarbutton.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/classes/fcktoolbarbuttonui.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/classes/fcktoolbarfontformatcombo.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/classes/fcktoolbarfontscombo.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/classes/fcktoolbarfontsizecombo.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/classes/fcktoolbarpanelbutton.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/classes/fcktoolbarspecialcombo.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/classes/fcktoolbarstylecombo.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/classes/fckxml_gecko.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/classes/fckxml_ie.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/commandclasses/fck_othercommands.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/commandclasses/fckfitwindow.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/commandclasses/fcknamedcommand.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/commandclasses/fckpasteplaintextcommand.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/commandclasses/fckpastewordcommand.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/commandclasses/fckspellcheckcommand_gecko.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/commandclasses/fckspellcheckcommand_ie.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/commandclasses/fckstylecommand.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/commandclasses/fcktablecommand.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/commandclasses/fcktextcolorcommand.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/fckconstants.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/fckeditorapi.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/fckjscoreextensions.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fck.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fck_1.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fck_1_gecko.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fck_1_ie.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fck_2.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fck_2_gecko.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fck_2_ie.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fck_contextmenu.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fckbrowserinfo.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fckcodeformatter.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fckcommands.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fckconfig.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fckdebug.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fckdialog.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fckdialog_gecko.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fckdialog_ie.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fckdocumentprocessor.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fcklanguagemanager.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fckplugins.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fckregexlib.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fckselection.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fckselection_gecko.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fckselection_ie.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fcktablehandler.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fcktablehandler_gecko.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fcktablehandler_ie.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fcktoolbaritems.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fcktoolbarset.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fcktools.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fcktools_gecko.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fcktools_ie.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fckundo_gecko.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fckundo_ie.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fckurlparams.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fckxhtml.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fckxhtml_gecko.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fckxhtml_ie.js -text
-OpenXava/web/editors/FCKeditor/editor/_source/internals/fckxhtmlentities.js -text
-OpenXava/web/editors/FCKeditor/editor/css/behaviors/disablehandles.htc -text svneol=unset#application/octet-stream
-OpenXava/web/editors/FCKeditor/editor/css/behaviors/hiddenfield.gif -text
-OpenXava/web/editors/FCKeditor/editor/css/behaviors/hiddenfield.htc -text svneol=unset#application/octet-stream
-OpenXava/web/editors/FCKeditor/editor/css/behaviors/showtableborders.htc -text svneol=unset#application/octet-stream
-OpenXava/web/editors/FCKeditor/editor/css/fck_editorarea.css -text
-OpenXava/web/editors/FCKeditor/editor/css/fck_internal.css -text
-OpenXava/web/editors/FCKeditor/editor/css/fck_showtableborders_gecko.css -text
-OpenXava/web/editors/FCKeditor/editor/css/images/fck_anchor.gif -text
-OpenXava/web/editors/FCKeditor/editor/css/images/fck_flashlogo.gif -text
-OpenXava/web/editors/FCKeditor/editor/css/images/fck_pagebreak.gif -text
-OpenXava/web/editors/FCKeditor/editor/dialog/common/fck_dialog_common.css -text
-OpenXava/web/editors/FCKeditor/editor/dialog/common/fck_dialog_common.js -text
-OpenXava/web/editors/FCKeditor/editor/dialog/common/fcknumericfield.htc -text svneol=unset#application/octet-stream
-OpenXava/web/editors/FCKeditor/editor/dialog/common/images/locked.gif -text
-OpenXava/web/editors/FCKeditor/editor/dialog/common/images/reset.gif -text
-OpenXava/web/editors/FCKeditor/editor/dialog/common/images/unlocked.gif -text
-OpenXava/web/editors/FCKeditor/editor/dialog/common/moz-bindings.xml -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_about.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_about/lgpl.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_about/logo_fckeditor.gif -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_about/logo_fredck.gif -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_anchor.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_button.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_checkbox.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_colorselector.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_docprops.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_docprops/fck_document_preview.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_find.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_flash.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_flash/fck_flash.js -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_flash/fck_flash_preview.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_form.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_hiddenfield.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_image.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_image/fck_image.js -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_image/fck_image_preview.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_link.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_link/fck_link.js -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_listprop.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_paste.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_radiobutton.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_replace.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_select.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_select/fck_select.js -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_smiley.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_source.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_specialchar.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_spellerpages.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_spellerpages/spellerpages/blank.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_spellerpages/spellerpages/controlWindow.js -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_spellerpages/spellerpages/controls.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_spellerpages/spellerpages/server-scripts/spellchecker.cfm -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_spellerpages/spellerpages/server-scripts/spellchecker.php -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_spellerpages/spellerpages/server-scripts/spellchecker.pl -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_spellerpages/spellerpages/spellChecker.js -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_spellerpages/spellerpages/spellchecker.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_spellerpages/spellerpages/spellerStyle.css -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_spellerpages/spellerpages/wordWindow.js -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_table.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_tablecell.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_template.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_template/images/template1.gif -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_template/images/template2.gif -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_template/images/template3.gif -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_textarea.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_textfield.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_universalkey.html -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_universalkey/00.gif -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_universalkey/data.js -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_universalkey/diacritic.js -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_universalkey/dialogue.js -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_universalkey/fck_universalkey.css -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_universalkey/keyboard_layout.gif -text
-OpenXava/web/editors/FCKeditor/editor/dialog/fck_universalkey/multihexa.js -text
-OpenXava/web/editors/FCKeditor/editor/fckblank.html -text
-OpenXava/web/editors/FCKeditor/editor/fckdebug.html -text
-OpenXava/web/editors/FCKeditor/editor/fckdialog.html -text
-OpenXava/web/editors/FCKeditor/editor/fckeditor.html -text
-OpenXava/web/editors/FCKeditor/editor/fckeditor.original.html -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/browser.css -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/browser.html -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/connectors/asp/basexml.asp -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/connectors/asp/class_upload.asp -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/connectors/asp/commands.asp -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/connectors/asp/config.asp -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/connectors/asp/io.asp -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/connectors/asp/util.asp -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/connectors/cfm/config.cfm -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/connectors/cfm/connector.cfm -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/connectors/lasso/config.lasso -text svneol=unset#application/octet-stream
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/connectors/lasso/connector.lasso -text svneol=unset#application/octet-stream
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/connectors/perl/basexml.pl -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/connectors/perl/commands.pl -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/connectors/perl/connector.cgi -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/connectors/perl/io.pl -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/connectors/perl/upload_fck.pl -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/connectors/perl/util.pl -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/connectors/php/basexml.php -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/connectors/php/commands.php -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/connectors/php/config.php -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/connectors/php/io.php -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/connectors/php/util.php -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/connectors/py/connector.py -text svneol=unset#application/octet-stream
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/connectors/test.html -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/frmactualfolder.html -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/frmcreatefolder.html -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/frmfolders.html -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/frmresourceslist.html -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/frmresourcetype.html -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/frmupload.html -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/ButtonArrow.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/Folder.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/Folder32.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/FolderOpened.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/FolderOpened32.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/FolderUp.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/ai.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/avi.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/bmp.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/cs.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/default.icon.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/dll.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/doc.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/exe.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/fla.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/gif.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/htm.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/html.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/jpg.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/js.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/mdb.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/mp3.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/pdf.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/ppt.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/rdp.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/swf.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/swt.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/txt.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/vsd.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/xls.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/xml.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/zip.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/ai.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/avi.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/bmp.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/cs.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/default.icon.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/dll.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/doc.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/exe.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/fla.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/gif.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/htm.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/html.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/jpg.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/js.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/mdb.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/mp3.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/pdf.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/ppt.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/rdp.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/swf.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/swt.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/txt.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/vsd.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/xls.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/xml.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/icons/zip.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/images/spacer.gif -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/js/common.js -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/browser/default/js/fckxml.js -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/upload/asp/class_upload.asp -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/upload/asp/config.asp -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/upload/asp/io.asp -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/upload/asp/upload.asp -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/upload/aspx/upload.aspx -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/upload/cfm/config.cfm -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/upload/cfm/upload.cfm -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/upload/lasso/config.lasso -text svneol=unset#application/octet-stream
-OpenXava/web/editors/FCKeditor/editor/filemanager/upload/lasso/upload.lasso -text svneol=unset#application/octet-stream
-OpenXava/web/editors/FCKeditor/editor/filemanager/upload/php/config.php -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/upload/php/upload.php -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/upload/php/util.php -text
-OpenXava/web/editors/FCKeditor/editor/filemanager/upload/test.html -text
-OpenXava/web/editors/FCKeditor/editor/images/anchor.gif -text
-OpenXava/web/editors/FCKeditor/editor/images/arrow_ltr.gif -text
-OpenXava/web/editors/FCKeditor/editor/images/arrow_rtl.gif -text
-OpenXava/web/editors/FCKeditor/editor/images/smiley/msn/angel_smile.gif -text
-OpenXava/web/editors/FCKeditor/editor/images/smiley/msn/angry_smile.gif -text
-OpenXava/web/editors/FCKeditor/editor/images/smiley/msn/broken_heart.gif -text
-OpenXava/web/editors/FCKeditor/editor/images/smiley/msn/cake.gif -text
-OpenXava/web/editors/FCKeditor/editor/images/smiley/msn/confused_smile.gif -text
-OpenXava/web/editors/FCKeditor/editor/images/smiley/msn/cry_smile.gif -text
-OpenXava/web/editors/FCKeditor/editor/images/smiley/msn/devil_smile.gif -text
-OpenXava/web/editors/FCKeditor/editor/images/smiley/msn/embaressed_smile.gif -text
-OpenXava/web/editors/FCKeditor/editor/images/smiley/msn/envelope.gif -text
-OpenXava/web/editors/FCKeditor/editor/images/smiley/msn/heart.gif -text
-OpenXava/web/editors/FCKeditor/editor/images/smiley/msn/kiss.gif -text
-OpenXava/web/editors/FCKeditor/editor/images/smiley/msn/lightbulb.gif -text
-OpenXava/web/editors/FCKeditor/editor/images/smiley/msn/omg_smile.gif -text
-OpenXava/web/editors/FCKeditor/editor/images/smiley/msn/regular_smile.gif -text
-OpenXava/web/editors/FCKeditor/editor/images/smiley/msn/sad_smile.gif -text
-OpenXava/web/editors/FCKeditor/editor/images/smiley/msn/shades_smile.gif -text
-OpenXava/web/editors/FCKeditor/editor/images/smiley/msn/teeth_smile.gif -text
-OpenXava/web/editors/FCKeditor/editor/images/smiley/msn/thumbs_down.gif -text
-OpenXava/web/editors/FCKeditor/editor/images/smiley/msn/thumbs_up.gif -text
-OpenXava/web/editors/FCKeditor/editor/images/smiley/msn/tounge_smile.gif -text
-OpenXava/web/editors/FCKeditor/editor/images/smiley/msn/whatchutalkingabout_smile.gif -text
-OpenXava/web/editors/FCKeditor/editor/images/smiley/msn/wink_smile.gif -text
-OpenXava/web/editors/FCKeditor/editor/images/spacer.gif -text
-OpenXava/web/editors/FCKeditor/editor/js/fckeditorcode_gecko.js -text
-OpenXava/web/editors/FCKeditor/editor/js/fckeditorcode_ie.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/_getfontformat.html -text
-OpenXava/web/editors/FCKeditor/editor/lang/_translationstatus.txt -text
-OpenXava/web/editors/FCKeditor/editor/lang/ar.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/bg.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/bn.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/bs.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/ca.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/cs.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/da.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/de.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/el.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/en-au.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/en-ca.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/en-uk.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/en.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/eo.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/es.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/et.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/eu.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/fa.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/fi.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/fo.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/fr.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/gl.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/he.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/hi.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/hr.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/hu.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/it.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/ja.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/km.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/ko.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/lt.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/lv.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/mn.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/ms.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/nl.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/no.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/pl.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/pt-br.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/pt.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/ro.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/ru.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/sk.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/sl.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/sr-latn.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/sr.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/sv.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/th.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/tr.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/uk.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/vi.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/zh-cn.js -text
-OpenXava/web/editors/FCKeditor/editor/lang/zh.js -text
-OpenXava/web/editors/FCKeditor/editor/plugins/autogrow/fckplugin.js -text
-OpenXava/web/editors/FCKeditor/editor/plugins/placeholder/fck_placeholder.html -text
-OpenXava/web/editors/FCKeditor/editor/plugins/placeholder/fckplugin.js -text
-OpenXava/web/editors/FCKeditor/editor/plugins/placeholder/lang/de.js -text
-OpenXava/web/editors/FCKeditor/editor/plugins/placeholder/lang/en.js -text
-OpenXava/web/editors/FCKeditor/editor/plugins/placeholder/lang/fr.js -text
-OpenXava/web/editors/FCKeditor/editor/plugins/placeholder/lang/it.js -text
-OpenXava/web/editors/FCKeditor/editor/plugins/placeholder/lang/pl.js -text
-OpenXava/web/editors/FCKeditor/editor/plugins/placeholder/placeholder.gif -text
-OpenXava/web/editors/FCKeditor/editor/plugins/simplecommands/fckplugin.js -text
-OpenXava/web/editors/FCKeditor/editor/plugins/tablecommands/fckplugin.js -text
-OpenXava/web/editors/FCKeditor/editor/skins/_fckviewstrips.html -text
-OpenXava/web/editors/FCKeditor/editor/skins/default/fck_dialog.css -text
-OpenXava/web/editors/FCKeditor/editor/skins/default/fck_editor.css -text
-OpenXava/web/editors/FCKeditor/editor/skins/default/fck_strip.gif -text
-OpenXava/web/editors/FCKeditor/editor/skins/default/images/toolbar.arrowright.gif -text
-OpenXava/web/editors/FCKeditor/editor/skins/default/images/toolbar.buttonarrow.gif -text
-OpenXava/web/editors/FCKeditor/editor/skins/default/images/toolbar.collapse.gif -text
-OpenXava/web/editors/FCKeditor/editor/skins/default/images/toolbar.end.gif -text
-OpenXava/web/editors/FCKeditor/editor/skins/default/images/toolbar.expand.gif -text
-OpenXava/web/editors/FCKeditor/editor/skins/default/images/toolbar.separator.gif -text
-OpenXava/web/editors/FCKeditor/editor/skins/default/images/toolbar.start.gif -text
-OpenXava/web/editors/FCKeditor/editor/skins/office2003/fck_dialog.css -text
-OpenXava/web/editors/FCKeditor/editor/skins/office2003/fck_editor.css -text
-OpenXava/web/editors/FCKeditor/editor/skins/office2003/fck_strip.gif -text
-OpenXava/web/editors/FCKeditor/editor/skins/office2003/images/toolbar.arrowright.gif -text
-OpenXava/web/editors/FCKeditor/editor/skins/office2003/images/toolbar.bg.gif -text
-OpenXava/web/editors/FCKeditor/editor/skins/office2003/images/toolbar.buttonarrow.gif -text
-OpenXava/web/editors/FCKeditor/editor/skins/office2003/images/toolbar.collapse.gif -text
-OpenXava/web/editors/FCKeditor/editor/skins/office2003/images/toolbar.end.gif -text
-OpenXava/web/editors/FCKeditor/editor/skins/office2003/images/toolbar.expand.gif -text
-OpenXava/web/editors/FCKeditor/editor/skins/office2003/images/toolbar.separator.gif -text
-OpenXava/web/editors/FCKeditor/editor/skins/office2003/images/toolbar.start.gif -text
-OpenXava/web/editors/FCKeditor/editor/skins/silver/fck_dialog.css -text
-OpenXava/web/editors/FCKeditor/editor/skins/silver/fck_editor.css -text
-OpenXava/web/editors/FCKeditor/editor/skins/silver/fck_strip.gif -text
-OpenXava/web/editors/FCKeditor/editor/skins/silver/images/toolbar.arrowright.gif -text
-OpenXava/web/editors/FCKeditor/editor/skins/silver/images/toolbar.buttonarrow.gif -text
-OpenXava/web/editors/FCKeditor/editor/skins/silver/images/toolbar.buttonbg.gif -text
-OpenXava/web/editors/FCKeditor/editor/skins/silver/images/toolbar.collapse.gif -text
-OpenXava/web/editors/FCKeditor/editor/skins/silver/images/toolbar.end.gif -text
-OpenXava/web/editors/FCKeditor/editor/skins/silver/images/toolbar.expand.gif -text
-OpenXava/web/editors/FCKeditor/editor/skins/silver/images/toolbar.separator.gif -text
-OpenXava/web/editors/FCKeditor/editor/skins/silver/images/toolbar.start.gif -text
-OpenXava/web/editors/FCKeditor/fckconfig.js -text
-OpenXava/web/editors/FCKeditor/fckeditor.afp -text svneol=unset#application/octet-stream
-OpenXava/web/editors/FCKeditor/fckeditor.asp -text
-OpenXava/web/editors/FCKeditor/fckeditor.cfc -text svneol=unset#application/octet-stream
-OpenXava/web/editors/FCKeditor/fckeditor.cfm -text
-OpenXava/web/editors/FCKeditor/fckeditor.js -text
-OpenXava/web/editors/FCKeditor/fckeditor.lasso -text svneol=unset#application/octet-stream
-OpenXava/web/editors/FCKeditor/fckeditor.php -text
-OpenXava/web/editors/FCKeditor/fckeditor.pl -text
-OpenXava/web/editors/FCKeditor/fckeditor.py -text svneol=unset#application/octet-stream
-OpenXava/web/editors/FCKeditor/fckstyles.xml -text
-OpenXava/web/editors/FCKeditor/fcktemplates.xml -text
-OpenXava/web/editors/FCKeditor/htaccess.txt -text
-OpenXava/web/editors/FCKeditor/license.txt -text
 OpenXava/web/editors/actionEditor.jsp -text
 OpenXava/web/editors/addImages.jsp -text
 OpenXava/web/editors/boldLabelEditor.jsp -text
@@ -5908,20 +5434,236 @@ OpenXava/web/editors/calendar/skins/aqua/theme.css -text
 OpenXava/web/editors/calendar/skins/aqua/title-bg.gif -text
 OpenXava/web/editors/calendar/skins/aqua/today-bg.gif -text
 OpenXava/web/editors/changeImage.jsp -text
+OpenXava/web/editors/ckeditor/.htaccess -text
+OpenXava/web/editors/ckeditor/config.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/contents.css -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/images/spacer.gif -text
+OpenXava/web/editors/ckeditor/lang/_languages.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/_translationstatus.txt -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/af.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/ar.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/bg.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/bn.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/bs.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/ca.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/cs.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/cy.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/da.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/de.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/el.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/en-au.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/en-ca.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/en-gb.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/en.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/eo.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/es.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/et.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/eu.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/fa.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/fi.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/fo.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/fr-ca.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/fr.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/gl.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/gu.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/he.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/hi.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/hr.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/hu.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/is.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/it.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/ja.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/ka.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/km.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/ko.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/lt.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/lv.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/mn.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/ms.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/nb.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/nl.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/no.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/pl.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/pt-br.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/pt.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/ro.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/ru.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/sk.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/sl.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/sr-latn.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/sr.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/sv.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/th.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/tr.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/uk.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/vi.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/zh-cn.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/lang/zh.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/a11yhelp/lang/en.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/a11yhelp/lang/he.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/about/dialogs/about.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/about/dialogs/logo_ckeditor.png -text
+OpenXava/web/editors/ckeditor/plugins/adobeair/plugin.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/ajax/plugin.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/autogrow/plugin.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/bbcode/plugin.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/clipboard/dialogs/paste.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/colordialog/dialogs/colordialog.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/devtools/lang/en.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/devtools/plugin.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/dialog/dialogDefinition.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/div/dialogs/div.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/docprops/dialogs/docprops.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/docprops/plugin.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/find/dialogs/find.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/flash/dialogs/flash.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/flash/images/placeholder.png -text
+OpenXava/web/editors/ckeditor/plugins/forms/dialogs/button.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/forms/dialogs/checkbox.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/forms/dialogs/form.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/forms/dialogs/hiddenfield.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/forms/dialogs/radio.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/forms/dialogs/select.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/forms/dialogs/textarea.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/forms/dialogs/textfield.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/forms/images/hiddenfield.gif -text
+OpenXava/web/editors/ckeditor/plugins/iframe/dialogs/iframe.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/iframe/images/placeholder.png -text
+OpenXava/web/editors/ckeditor/plugins/iframedialog/plugin.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/image/dialogs/image.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/link/dialogs/anchor.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/link/dialogs/link.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/link/images/anchor.gif -text
+OpenXava/web/editors/ckeditor/plugins/liststyle/dialogs/liststyle.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/pagebreak/images/pagebreak.gif -text
+OpenXava/web/editors/ckeditor/plugins/pastefromword/filter/default.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/pastetext/dialogs/pastetext.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/placeholder/dialogs/placeholder.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/placeholder/lang/en.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/placeholder/lang/he.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/placeholder/placeholder.gif -text
+OpenXava/web/editors/ckeditor/plugins/placeholder/plugin.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/scayt/dialogs/options.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/scayt/dialogs/toolbar.css -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/showblocks/images/block_address.png -text
+OpenXava/web/editors/ckeditor/plugins/showblocks/images/block_blockquote.png -text
+OpenXava/web/editors/ckeditor/plugins/showblocks/images/block_div.png -text
+OpenXava/web/editors/ckeditor/plugins/showblocks/images/block_h1.png -text
+OpenXava/web/editors/ckeditor/plugins/showblocks/images/block_h2.png -text
+OpenXava/web/editors/ckeditor/plugins/showblocks/images/block_h3.png -text
+OpenXava/web/editors/ckeditor/plugins/showblocks/images/block_h4.png -text
+OpenXava/web/editors/ckeditor/plugins/showblocks/images/block_h5.png -text
+OpenXava/web/editors/ckeditor/plugins/showblocks/images/block_h6.png -text
+OpenXava/web/editors/ckeditor/plugins/showblocks/images/block_p.png -text
+OpenXava/web/editors/ckeditor/plugins/showblocks/images/block_pre.png -text
+OpenXava/web/editors/ckeditor/plugins/smiley/dialogs/smiley.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/smiley/images/angel_smile.gif -text
+OpenXava/web/editors/ckeditor/plugins/smiley/images/angry_smile.gif -text
+OpenXava/web/editors/ckeditor/plugins/smiley/images/broken_heart.gif -text
+OpenXava/web/editors/ckeditor/plugins/smiley/images/confused_smile.gif -text
+OpenXava/web/editors/ckeditor/plugins/smiley/images/cry_smile.gif -text
+OpenXava/web/editors/ckeditor/plugins/smiley/images/devil_smile.gif -text
+OpenXava/web/editors/ckeditor/plugins/smiley/images/embaressed_smile.gif -text
+OpenXava/web/editors/ckeditor/plugins/smiley/images/envelope.gif -text
+OpenXava/web/editors/ckeditor/plugins/smiley/images/heart.gif -text
+OpenXava/web/editors/ckeditor/plugins/smiley/images/kiss.gif -text
+OpenXava/web/editors/ckeditor/plugins/smiley/images/lightbulb.gif -text
+OpenXava/web/editors/ckeditor/plugins/smiley/images/omg_smile.gif -text
+OpenXava/web/editors/ckeditor/plugins/smiley/images/regular_smile.gif -text
+OpenXava/web/editors/ckeditor/plugins/smiley/images/sad_smile.gif -text
+OpenXava/web/editors/ckeditor/plugins/smiley/images/shades_smile.gif -text
+OpenXava/web/editors/ckeditor/plugins/smiley/images/teeth_smile.gif -text
+OpenXava/web/editors/ckeditor/plugins/smiley/images/thumbs_down.gif -text
+OpenXava/web/editors/ckeditor/plugins/smiley/images/thumbs_up.gif -text
+OpenXava/web/editors/ckeditor/plugins/smiley/images/tounge_smile.gif -text
+OpenXava/web/editors/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.gif -text
+OpenXava/web/editors/ckeditor/plugins/smiley/images/wink_smile.gif -text
+OpenXava/web/editors/ckeditor/plugins/specialchar/dialogs/specialchar.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/specialchar/lang/en.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/styles/styles/default.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/stylesheetparser/plugin.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/table/dialogs/table.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/tableresize/plugin.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/tabletools/dialogs/tableCell.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/templates/dialogs/templates.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/templates/templates/default.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/templates/templates/images/template1.gif -text
+OpenXava/web/editors/ckeditor/plugins/templates/templates/images/template2.gif -text
+OpenXava/web/editors/ckeditor/plugins/templates/templates/images/template3.gif -text
+OpenXava/web/editors/ckeditor/plugins/uicolor/dialogs/uicolor.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/uicolor/lang/en.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/uicolor/lang/he.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/uicolor/plugin.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/uicolor/uicolor.gif -text
+OpenXava/web/editors/ckeditor/plugins/uicolor/yui/assets/hue_bg.png -text
+OpenXava/web/editors/ckeditor/plugins/uicolor/yui/assets/hue_thumb.png -text
+OpenXava/web/editors/ckeditor/plugins/uicolor/yui/assets/picker_mask.png -text
+OpenXava/web/editors/ckeditor/plugins/uicolor/yui/assets/picker_thumb.png -text
+OpenXava/web/editors/ckeditor/plugins/uicolor/yui/assets/yui.css -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/uicolor/yui/yui.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/wsc/dialogs/ciframe.html -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/wsc/dialogs/tmpFrameset.html -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/wsc/dialogs/wsc.css -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/wsc/dialogs/wsc.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/plugins/xml/plugin.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/skins/kama/dialog.css -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/skins/kama/editor.css -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/skins/kama/icons.png -text
+OpenXava/web/editors/ckeditor/skins/kama/icons_rtl.png -text
+OpenXava/web/editors/ckeditor/skins/kama/images/dialog_sides.gif -text
+OpenXava/web/editors/ckeditor/skins/kama/images/dialog_sides.png -text
+OpenXava/web/editors/ckeditor/skins/kama/images/dialog_sides_rtl.png -text
+OpenXava/web/editors/ckeditor/skins/kama/images/mini.gif -text
+OpenXava/web/editors/ckeditor/skins/kama/images/noimage.png -text
+OpenXava/web/editors/ckeditor/skins/kama/images/sprites.png -text
+OpenXava/web/editors/ckeditor/skins/kama/images/sprites_ie6.png -text
+OpenXava/web/editors/ckeditor/skins/kama/images/toolbar_start.gif -text
+OpenXava/web/editors/ckeditor/skins/kama/skin.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/skins/kama/templates.css -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/skins/office2003/dialog.css -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/skins/office2003/editor.css -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/skins/office2003/icons.png -text
+OpenXava/web/editors/ckeditor/skins/office2003/icons_rtl.png -text
+OpenXava/web/editors/ckeditor/skins/office2003/images/dialog_sides.gif -text
+OpenXava/web/editors/ckeditor/skins/office2003/images/dialog_sides.png -text
+OpenXava/web/editors/ckeditor/skins/office2003/images/dialog_sides_rtl.png -text
+OpenXava/web/editors/ckeditor/skins/office2003/images/mini.gif -text
+OpenXava/web/editors/ckeditor/skins/office2003/images/noimage.png -text
+OpenXava/web/editors/ckeditor/skins/office2003/images/sprites.png -text
+OpenXava/web/editors/ckeditor/skins/office2003/images/sprites_ie6.png -text
+OpenXava/web/editors/ckeditor/skins/office2003/skin.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/skins/office2003/templates.css -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/skins/v2/dialog.css -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/skins/v2/editor.css -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/skins/v2/icons.png -text
+OpenXava/web/editors/ckeditor/skins/v2/icons_rtl.png -text
+OpenXava/web/editors/ckeditor/skins/v2/images/dialog_sides.gif -text
+OpenXava/web/editors/ckeditor/skins/v2/images/dialog_sides.png -text
+OpenXava/web/editors/ckeditor/skins/v2/images/dialog_sides_rtl.png -text
+OpenXava/web/editors/ckeditor/skins/v2/images/mini.gif -text
+OpenXava/web/editors/ckeditor/skins/v2/images/noimage.png -text
+OpenXava/web/editors/ckeditor/skins/v2/images/sprites.png -text
+OpenXava/web/editors/ckeditor/skins/v2/images/sprites_ie6.png -text
+OpenXava/web/editors/ckeditor/skins/v2/images/toolbar_start.gif -text
+OpenXava/web/editors/ckeditor/skins/v2/skin.js -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/skins/v2/templates.css -text svneol=unset#text/plain
+OpenXava/web/editors/ckeditor/themes/default/theme.js -text svneol=unset#text/plain
 OpenXava/web/editors/collectionEditor.jsp -text
 OpenXava/web/editors/dateCalendarEditor.jsp -text svneol=unset#application/octet-stream
 OpenXava/web/editors/dateTimeCombinedCalendarEditor.jsp -text
 OpenXava/web/editors/dateTimeSeparatedCalendarEditor.jsp -text
 OpenXava/web/editors/descriptionValidValuesEditor.jsp -text
 OpenXava/web/editors/descriptionsEditor.jsp -text
-OpenXava/web/editors/fckEditor.jsp -text
 OpenXava/web/editors/gallery.jsp -text
 OpenXava/web/editors/galleryEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/htmlEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/imageEditor.jsp -text
 OpenXava/web/editors/imageLabelEditor.jsp -text
 OpenXava/web/editors/js/autoNumeric.js -text svneol=unset#text/plain
-OpenXava/web/editors/js/htmlEditor.js -text
+OpenXava/web/editors/js/ckeditor.js -text svneol=unset#text/plain
+OpenXava/web/editors/js/htmlEditor.js -text svneol=unset#text/plain
+OpenXava/web/editors/js/jquery-ckeditor-adapter.js -text svneol=unset#text/plain
 OpenXava/web/editors/js/textEditor.js -text
 OpenXava/web/editors/js/yahoo-dom-event.js -text
 OpenXava/web/editors/js/yahoo-treeview-min.js -text
@@ -5933,7 +5675,7 @@ OpenXava/web/editors/notAvailableEditor.jsp -text
 OpenXava/web/editors/passwordEditor.jsp -text
 OpenXava/web/editors/radioButtonEditor.jsp -text
 OpenXava/web/editors/referenceEditor.jsp -text
-OpenXava/web/editors/textAreaEditor.jsp -text
+OpenXava/web/editors/textAreaEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/textEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/treeViewEditor.jsp -text
 OpenXava/web/editors/treeViewListEditor.jsp -text
@@ -8345,6 +8087,14 @@ OpenXavaTest/i18n/portlets/ConversionFactor_ca.properties -text svneol=unset#tex
 OpenXavaTest/i18n/portlets/ConversionFactor_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/ConversionFactor_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/ConversionFactor_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CorporationEmployee_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CorporationEmployee_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CorporationEmployee_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CorporationEmployee_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Corporation_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Corporation_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Corporation_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Corporation_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Country_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Country_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Country_es.properties -text svneol=unset#text/plain
@@ -8629,6 +8379,10 @@ OpenXavaTest/i18n/portlets/InvoiceDetail_ca.properties -text svneol=unset#text/p
 OpenXavaTest/i18n/portlets/InvoiceDetail_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceDetail_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceDetail_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceDetailsWithTotals_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceDetailsWithTotals_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceDetailsWithTotals_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceDetailsWithTotals_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceFromCustomers_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceFromCustomers_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceFromCustomers_es.properties -text svneol=unset#text/plain
@@ -9631,10 +9385,12 @@ OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
@@ -9729,481 +9485,6 @@ OpenXavaTest/web/xava/detail.jsp -text
 OpenXavaTest/web/xava/editor.jsp -text
 OpenXavaTest/web/xava/editorIcons.jsp -text
 OpenXavaTest/web/xava/editorWrapper.jsp -text
-OpenXavaTest/web/xava/editors/FCKeditor/_documentation.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/_plugins/findreplace/fckplugin.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/_plugins/findreplace/find.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/_plugins/findreplace/find.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/_plugins/findreplace/lang/en.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/_plugins/findreplace/lang/fr.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/_plugins/findreplace/lang/it.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/_plugins/findreplace/replace.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/_plugins/findreplace/replace.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/_plugins/samples/fckplugin.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/afp/fck.afpa -text svneol=unset#application/octet-stream
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/afp/fck.afpa.code -text svneol=unset#application/octet-stream
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/afp/sample01.afp -text svneol=unset#application/octet-stream
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/afp/sampleposteddata.afp -text svneol=unset#application/octet-stream
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/asp/sample01.asp -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/asp/sample02.asp -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/asp/sample03.asp -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/asp/sample04.asp -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/asp/sampleposteddata.asp -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/cfm/sample01.cfm -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/cfm/sample02_mx.cfm -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/default.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/html/sample01.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/html/sample02.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/html/sample03.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/html/sample04.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/html/sample05.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/html/sample06.config.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/html/sample06.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/html/sample07.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/html/sample08.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/html/sample09.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/html/sample10.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/html/sample11.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/html/sample11_frame.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/html/sampleposteddata.asp -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/html/sampleposteddata.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/lasso/sample01.lasso -text svneol=unset#application/octet-stream
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/lasso/sample02.lasso -text svneol=unset#application/octet-stream
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/lasso/sample03.lasso -text svneol=unset#application/octet-stream
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/lasso/sample04.lasso -text svneol=unset#application/octet-stream
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/lasso/sampleposteddata.lasso -text svneol=unset#application/octet-stream
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/perl/sample01.cgi -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/perl/sample02.cgi -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/perl/sample03.cgi -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/perl/sample04.cgi -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/perl/sampleposteddata.cgi -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/php/sample01.php -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/php/sample02.php -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/php/sample03.php -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/php/sample04.php -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/php/sampleposteddata.php -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/py/sample01.py -text svneol=unset#application/octet-stream
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/py/sampleposteddata.py -text svneol=unset#application/octet-stream
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/sample.css -text
-OpenXavaTest/web/xava/editors/FCKeditor/_samples/sampleslist.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/_testcases/001.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/_testcases/002.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/_testcases/003.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/_testcases/004.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/_testcases/005.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/_testcases/006.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/_testcases/007.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/_testcases/008.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/_testcases/009.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/_testcases/010.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/_testcases/sampleposteddata.asp -text
-OpenXavaTest/web/xava/editors/FCKeditor/_testcases/testcases.css -text
-OpenXavaTest/web/xava/editors/FCKeditor/_whatsnew.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/classes/fckcontextmenu.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/classes/fckeditingarea.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/classes/fckevents.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/classes/fckicon.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/classes/fckiecleanup.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/classes/fckmenublock.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/classes/fckmenublockpanel.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/classes/fckmenuitem.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/classes/fckpanel.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/classes/fckplugin.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/classes/fckspecialcombo.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/classes/fckstyledef.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/classes/fckstyledef_gecko.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/classes/fckstyledef_ie.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/classes/fckstylesloader.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/classes/fcktoolbar.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/classes/fcktoolbarbreak_gecko.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/classes/fcktoolbarbreak_ie.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/classes/fcktoolbarbutton.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/classes/fcktoolbarbuttonui.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/classes/fcktoolbarfontformatcombo.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/classes/fcktoolbarfontscombo.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/classes/fcktoolbarfontsizecombo.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/classes/fcktoolbarpanelbutton.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/classes/fcktoolbarspecialcombo.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/classes/fcktoolbarstylecombo.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/classes/fckxml_gecko.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/classes/fckxml_ie.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/commandclasses/fck_othercommands.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/commandclasses/fckfitwindow.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/commandclasses/fcknamedcommand.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/commandclasses/fckpasteplaintextcommand.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/commandclasses/fckpastewordcommand.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/commandclasses/fckspellcheckcommand_gecko.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/commandclasses/fckspellcheckcommand_ie.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/commandclasses/fckstylecommand.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/commandclasses/fcktablecommand.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/commandclasses/fcktextcolorcommand.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/fckconstants.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/fckeditorapi.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/fckjscoreextensions.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fck.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fck_1.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fck_1_gecko.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fck_1_ie.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fck_2.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fck_2_gecko.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fck_2_ie.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fck_contextmenu.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fckbrowserinfo.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fckcodeformatter.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fckcommands.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fckconfig.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fckdebug.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fckdialog.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fckdialog_gecko.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fckdialog_ie.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fckdocumentprocessor.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fcklanguagemanager.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fckplugins.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fckregexlib.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fckselection.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fckselection_gecko.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fckselection_ie.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fcktablehandler.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fcktablehandler_gecko.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fcktablehandler_ie.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fcktoolbaritems.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fcktoolbarset.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fcktools.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fcktools_gecko.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fcktools_ie.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fckundo_gecko.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fckundo_ie.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fckurlparams.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fckxhtml.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fckxhtml_gecko.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fckxhtml_ie.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/_source/internals/fckxhtmlentities.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/css/behaviors/disablehandles.htc -text svneol=unset#application/octet-stream
-OpenXavaTest/web/xava/editors/FCKeditor/editor/css/behaviors/hiddenfield.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/css/behaviors/hiddenfield.htc -text svneol=unset#application/octet-stream
-OpenXavaTest/web/xava/editors/FCKeditor/editor/css/behaviors/showtableborders.htc -text svneol=unset#application/octet-stream
-OpenXavaTest/web/xava/editors/FCKeditor/editor/css/fck_editorarea.css -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/css/fck_internal.css -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/css/fck_showtableborders_gecko.css -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/css/images/fck_anchor.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/css/images/fck_flashlogo.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/css/images/fck_pagebreak.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/common/fck_dialog_common.css -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/common/fck_dialog_common.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/common/fcknumericfield.htc -text svneol=unset#application/octet-stream
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/common/images/locked.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/common/images/reset.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/common/images/unlocked.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/common/moz-bindings.xml -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_about.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_about/lgpl.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_about/logo_fckeditor.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_about/logo_fredck.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_anchor.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_button.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_checkbox.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_colorselector.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_docprops.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_docprops/fck_document_preview.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_find.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_flash.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_flash/fck_flash.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_flash/fck_flash_preview.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_form.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_hiddenfield.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_image.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_image/fck_image.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_image/fck_image_preview.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_link.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_link/fck_link.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_listprop.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_paste.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_radiobutton.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_replace.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_select.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_select/fck_select.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_smiley.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_source.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_specialchar.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_spellerpages.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_spellerpages/spellerpages/blank.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_spellerpages/spellerpages/controlWindow.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_spellerpages/spellerpages/controls.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_spellerpages/spellerpages/server-scripts/spellchecker.cfm -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_spellerpages/spellerpages/server-scripts/spellchecker.php -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_spellerpages/spellerpages/server-scripts/spellchecker.pl -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_spellerpages/spellerpages/spellChecker.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_spellerpages/spellerpages/spellchecker.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_spellerpages/spellerpages/spellerStyle.css -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_spellerpages/spellerpages/wordWindow.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_table.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_tablecell.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_template.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_template/images/template1.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_template/images/template2.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_template/images/template3.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_textarea.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_textfield.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_universalkey.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_universalkey/00.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_universalkey/data.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_universalkey/diacritic.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_universalkey/dialogue.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_universalkey/fck_universalkey.css -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_universalkey/keyboard_layout.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/dialog/fck_universalkey/multihexa.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/fckblank.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/fckdebug.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/fckdialog.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/fckeditor.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/fckeditor.original.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/browser.css -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/browser.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/connectors/asp/basexml.asp -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/connectors/asp/class_upload.asp -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/connectors/asp/commands.asp -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/connectors/asp/config.asp -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/connectors/asp/io.asp -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/connectors/asp/util.asp -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/connectors/cfm/config.cfm -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/connectors/cfm/connector.cfm -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/connectors/lasso/config.lasso -text svneol=unset#application/octet-stream
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/connectors/lasso/connector.lasso -text svneol=unset#application/octet-stream
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/connectors/perl/basexml.pl -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/connectors/perl/commands.pl -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/connectors/perl/connector.cgi -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/connectors/perl/io.pl -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/connectors/perl/upload_fck.pl -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/connectors/perl/util.pl -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/connectors/php/basexml.php -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/connectors/php/commands.php -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/connectors/php/config.php -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/connectors/php/io.php -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/connectors/php/util.php -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/connectors/py/connector.py -text svneol=unset#application/octet-stream
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/connectors/test.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/frmactualfolder.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/frmcreatefolder.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/frmfolders.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/frmresourceslist.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/frmresourcetype.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/frmupload.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/ButtonArrow.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/Folder.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/Folder32.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/FolderOpened.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/FolderOpened32.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/FolderUp.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/ai.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/avi.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/bmp.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/cs.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/default.icon.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/dll.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/doc.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/exe.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/fla.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/gif.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/htm.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/html.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/jpg.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/js.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/mdb.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/mp3.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/pdf.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/ppt.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/rdp.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/swf.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/swt.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/txt.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/vsd.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/xls.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/xml.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/32/zip.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/ai.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/avi.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/bmp.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/cs.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/default.icon.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/dll.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/doc.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/exe.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/fla.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/gif.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/htm.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/html.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/jpg.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/js.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/mdb.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/mp3.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/pdf.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/ppt.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/rdp.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/swf.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/swt.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/txt.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/vsd.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/xls.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/xml.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/icons/zip.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/images/spacer.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/js/common.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/browser/default/js/fckxml.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/upload/asp/class_upload.asp -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/upload/asp/config.asp -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/upload/asp/io.asp -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/upload/asp/upload.asp -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/upload/aspx/upload.aspx -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/upload/cfm/config.cfm -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/upload/cfm/upload.cfm -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/upload/lasso/config.lasso -text svneol=unset#application/octet-stream
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/upload/lasso/upload.lasso -text svneol=unset#application/octet-stream
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/upload/php/config.php -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/upload/php/upload.php -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/upload/php/util.php -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/filemanager/upload/test.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/images/anchor.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/images/arrow_ltr.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/images/arrow_rtl.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/images/smiley/msn/angel_smile.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/images/smiley/msn/angry_smile.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/images/smiley/msn/broken_heart.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/images/smiley/msn/cake.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/images/smiley/msn/confused_smile.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/images/smiley/msn/cry_smile.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/images/smiley/msn/devil_smile.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/images/smiley/msn/embaressed_smile.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/images/smiley/msn/envelope.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/images/smiley/msn/heart.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/images/smiley/msn/kiss.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/images/smiley/msn/lightbulb.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/images/smiley/msn/omg_smile.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/images/smiley/msn/regular_smile.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/images/smiley/msn/sad_smile.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/images/smiley/msn/shades_smile.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/images/smiley/msn/teeth_smile.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/images/smiley/msn/thumbs_down.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/images/smiley/msn/thumbs_up.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/images/smiley/msn/tounge_smile.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/images/smiley/msn/whatchutalkingabout_smile.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/images/smiley/msn/wink_smile.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/images/spacer.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/js/fckeditorcode_gecko.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/js/fckeditorcode_ie.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/_getfontformat.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/_translationstatus.txt -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/ar.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/bg.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/bn.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/bs.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/ca.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/cs.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/da.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/de.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/el.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/en-au.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/en-ca.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/en-uk.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/en.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/eo.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/es.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/et.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/eu.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/fa.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/fi.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/fo.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/fr.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/gl.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/he.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/hi.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/hr.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/hu.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/it.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/ja.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/km.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/ko.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/lt.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/lv.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/mn.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/ms.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/nl.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/no.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/pl.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/pt-br.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/pt.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/ro.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/ru.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/sk.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/sl.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/sr-latn.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/sr.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/sv.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/th.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/tr.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/uk.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/vi.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/zh-cn.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/lang/zh.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/plugins/autogrow/fckplugin.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/plugins/placeholder/fck_placeholder.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/plugins/placeholder/fckplugin.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/plugins/placeholder/lang/de.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/plugins/placeholder/lang/en.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/plugins/placeholder/lang/fr.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/plugins/placeholder/lang/it.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/plugins/placeholder/lang/pl.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/plugins/placeholder/placeholder.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/plugins/simplecommands/fckplugin.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/plugins/tablecommands/fckplugin.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/_fckviewstrips.html -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/default/fck_dialog.css -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/default/fck_editor.css -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/default/fck_strip.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/default/images/toolbar.arrowright.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/default/images/toolbar.buttonarrow.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/default/images/toolbar.collapse.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/default/images/toolbar.end.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/default/images/toolbar.expand.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/default/images/toolbar.separator.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/default/images/toolbar.start.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/office2003/fck_dialog.css -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/office2003/fck_editor.css -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/office2003/fck_strip.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/office2003/images/toolbar.arrowright.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/office2003/images/toolbar.bg.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/office2003/images/toolbar.buttonarrow.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/office2003/images/toolbar.collapse.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/office2003/images/toolbar.end.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/office2003/images/toolbar.expand.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/office2003/images/toolbar.separator.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/office2003/images/toolbar.start.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/silver/fck_dialog.css -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/silver/fck_editor.css -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/silver/fck_strip.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/silver/images/toolbar.arrowright.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/silver/images/toolbar.buttonarrow.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/silver/images/toolbar.buttonbg.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/silver/images/toolbar.collapse.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/silver/images/toolbar.end.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/silver/images/toolbar.expand.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/silver/images/toolbar.separator.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/editor/skins/silver/images/toolbar.start.gif -text
-OpenXavaTest/web/xava/editors/FCKeditor/fckconfig.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/fckeditor.afp -text svneol=unset#application/octet-stream
-OpenXavaTest/web/xava/editors/FCKeditor/fckeditor.asp -text
-OpenXavaTest/web/xava/editors/FCKeditor/fckeditor.cfc -text svneol=unset#application/octet-stream
-OpenXavaTest/web/xava/editors/FCKeditor/fckeditor.cfm -text
-OpenXavaTest/web/xava/editors/FCKeditor/fckeditor.js -text
-OpenXavaTest/web/xava/editors/FCKeditor/fckeditor.lasso -text svneol=unset#application/octet-stream
-OpenXavaTest/web/xava/editors/FCKeditor/fckeditor.php -text
-OpenXavaTest/web/xava/editors/FCKeditor/fckeditor.pl -text
-OpenXavaTest/web/xava/editors/FCKeditor/fckeditor.py -text svneol=unset#application/octet-stream
-OpenXavaTest/web/xava/editors/FCKeditor/fckstyles.xml -text
-OpenXavaTest/web/xava/editors/FCKeditor/fcktemplates.xml -text
-OpenXavaTest/web/xava/editors/FCKeditor/htaccess.txt -text
-OpenXavaTest/web/xava/editors/FCKeditor/license.txt -text
 OpenXavaTest/web/xava/editors/actionEditor.jsp -text
 OpenXavaTest/web/xava/editors/addImages.jsp -text
 OpenXavaTest/web/xava/editors/blogCommentsEditor.jsp -text
@@ -10283,6 +9564,221 @@ OpenXavaTest/web/xava/editors/calendar/skins/aqua/title-bg.gif -text
 OpenXavaTest/web/xava/editors/calendar/skins/aqua/today-bg.gif -text
 OpenXavaTest/web/xava/editors/carriersNamesEditor.jsp -text
 OpenXavaTest/web/xava/editors/changeImage.jsp -text
+OpenXavaTest/web/xava/editors/ckeditor/.htaccess -text
+OpenXavaTest/web/xava/editors/ckeditor/config.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/contents.css -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/images/spacer.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/lang/_languages.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/_translationstatus.txt -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/af.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/ar.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/bg.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/bn.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/bs.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/ca.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/cs.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/cy.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/da.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/de.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/el.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/en-au.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/en-ca.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/en-gb.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/en.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/eo.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/es.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/et.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/eu.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/fa.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/fi.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/fo.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/fr-ca.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/fr.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/gl.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/gu.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/he.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/hi.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/hr.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/hu.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/is.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/it.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/ja.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/ka.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/km.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/ko.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/lt.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/lv.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/mn.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/ms.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/nb.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/nl.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/no.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/pl.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/pt-br.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/pt.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/ro.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/ru.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/sk.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/sl.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/sr-latn.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/sr.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/sv.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/th.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/tr.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/uk.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/vi.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/zh-cn.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/lang/zh.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/a11yhelp/lang/en.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/a11yhelp/lang/he.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/about/dialogs/about.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/about/dialogs/logo_ckeditor.png -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/adobeair/plugin.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/ajax/plugin.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/autogrow/plugin.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/bbcode/plugin.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/clipboard/dialogs/paste.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/colordialog/dialogs/colordialog.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/devtools/lang/en.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/devtools/plugin.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/dialog/dialogDefinition.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/div/dialogs/div.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/docprops/dialogs/docprops.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/docprops/plugin.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/find/dialogs/find.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/flash/dialogs/flash.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/flash/images/placeholder.png -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/forms/dialogs/button.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/forms/dialogs/checkbox.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/forms/dialogs/form.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/forms/dialogs/hiddenfield.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/forms/dialogs/radio.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/forms/dialogs/select.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/forms/dialogs/textarea.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/forms/dialogs/textfield.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/forms/images/hiddenfield.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/iframe/dialogs/iframe.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/iframe/images/placeholder.png -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/iframedialog/plugin.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/image/dialogs/image.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/link/dialogs/anchor.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/link/dialogs/link.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/link/images/anchor.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/liststyle/dialogs/liststyle.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/pagebreak/images/pagebreak.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/pastefromword/filter/default.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/pastetext/dialogs/pastetext.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/placeholder/dialogs/placeholder.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/placeholder/lang/en.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/placeholder/lang/he.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/placeholder/placeholder.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/placeholder/plugin.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/scayt/dialogs/options.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/scayt/dialogs/toolbar.css -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/showblocks/images/block_address.png -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/showblocks/images/block_blockquote.png -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/showblocks/images/block_div.png -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/showblocks/images/block_h1.png -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/showblocks/images/block_h2.png -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/showblocks/images/block_h3.png -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/showblocks/images/block_h4.png -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/showblocks/images/block_h5.png -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/showblocks/images/block_h6.png -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/showblocks/images/block_p.png -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/showblocks/images/block_pre.png -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/smiley/dialogs/smiley.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/smiley/images/angel_smile.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/smiley/images/angry_smile.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/smiley/images/broken_heart.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/smiley/images/confused_smile.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/smiley/images/cry_smile.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/smiley/images/devil_smile.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/smiley/images/embaressed_smile.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/smiley/images/envelope.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/smiley/images/heart.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/smiley/images/kiss.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/smiley/images/lightbulb.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/smiley/images/omg_smile.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/smiley/images/regular_smile.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/smiley/images/sad_smile.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/smiley/images/shades_smile.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/smiley/images/teeth_smile.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/smiley/images/thumbs_down.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/smiley/images/thumbs_up.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/smiley/images/tounge_smile.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/smiley/images/wink_smile.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/specialchar/dialogs/specialchar.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/specialchar/lang/en.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/styles/styles/default.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/stylesheetparser/plugin.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/table/dialogs/table.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/tableresize/plugin.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/tabletools/dialogs/tableCell.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/templates/dialogs/templates.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/templates/templates/default.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/templates/templates/images/template1.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/templates/templates/images/template2.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/templates/templates/images/template3.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/uicolor/dialogs/uicolor.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/uicolor/lang/en.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/uicolor/lang/he.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/uicolor/plugin.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/uicolor/uicolor.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/uicolor/yui/assets/hue_bg.png -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/uicolor/yui/assets/hue_thumb.png -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/uicolor/yui/assets/picker_mask.png -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/uicolor/yui/assets/picker_thumb.png -text
+OpenXavaTest/web/xava/editors/ckeditor/plugins/uicolor/yui/assets/yui.css -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/uicolor/yui/yui.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/wsc/dialogs/ciframe.html -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/wsc/dialogs/tmpFrameset.html -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/wsc/dialogs/wsc.css -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/wsc/dialogs/wsc.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/plugins/xml/plugin.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/skins/kama/dialog.css -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/skins/kama/editor.css -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/skins/kama/icons.png -text
+OpenXavaTest/web/xava/editors/ckeditor/skins/kama/icons_rtl.png -text
+OpenXavaTest/web/xava/editors/ckeditor/skins/kama/images/dialog_sides.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/skins/kama/images/dialog_sides.png -text
+OpenXavaTest/web/xava/editors/ckeditor/skins/kama/images/dialog_sides_rtl.png -text
+OpenXavaTest/web/xava/editors/ckeditor/skins/kama/images/mini.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/skins/kama/images/noimage.png -text
+OpenXavaTest/web/xava/editors/ckeditor/skins/kama/images/sprites.png -text
+OpenXavaTest/web/xava/editors/ckeditor/skins/kama/images/sprites_ie6.png -text
+OpenXavaTest/web/xava/editors/ckeditor/skins/kama/images/toolbar_start.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/skins/kama/skin.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/skins/kama/templates.css -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/skins/office2003/dialog.css -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/skins/office2003/editor.css -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/skins/office2003/icons.png -text
+OpenXavaTest/web/xava/editors/ckeditor/skins/office2003/icons_rtl.png -text
+OpenXavaTest/web/xava/editors/ckeditor/skins/office2003/images/dialog_sides.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/skins/office2003/images/dialog_sides.png -text
+OpenXavaTest/web/xava/editors/ckeditor/skins/office2003/images/dialog_sides_rtl.png -text
+OpenXavaTest/web/xava/editors/ckeditor/skins/office2003/images/mini.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/skins/office2003/images/noimage.png -text
+OpenXavaTest/web/xava/editors/ckeditor/skins/office2003/images/sprites.png -text
+OpenXavaTest/web/xava/editors/ckeditor/skins/office2003/images/sprites_ie6.png -text
+OpenXavaTest/web/xava/editors/ckeditor/skins/office2003/skin.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/skins/office2003/templates.css -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/skins/v2/dialog.css -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/skins/v2/editor.css -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/skins/v2/icons.png -text
+OpenXavaTest/web/xava/editors/ckeditor/skins/v2/icons_rtl.png -text
+OpenXavaTest/web/xava/editors/ckeditor/skins/v2/images/dialog_sides.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/skins/v2/images/dialog_sides.png -text
+OpenXavaTest/web/xava/editors/ckeditor/skins/v2/images/dialog_sides_rtl.png -text
+OpenXavaTest/web/xava/editors/ckeditor/skins/v2/images/mini.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/skins/v2/images/noimage.png -text
+OpenXavaTest/web/xava/editors/ckeditor/skins/v2/images/sprites.png -text
+OpenXavaTest/web/xava/editors/ckeditor/skins/v2/images/sprites_ie6.png -text
+OpenXavaTest/web/xava/editors/ckeditor/skins/v2/images/toolbar_start.gif -text
+OpenXavaTest/web/xava/editors/ckeditor/skins/v2/skin.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/skins/v2/templates.css -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/ckeditor/themes/default/theme.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/collectionEditor.jsp -text
 OpenXavaTest/web/xava/editors/colorEditor.jsp -text
 OpenXavaTest/web/xava/editors/colorFrameEditor.jsp -text
@@ -10292,14 +9788,15 @@ OpenXavaTest/web/xava/editors/dateTimeCombinedCalendarEditor.jsp -text
 OpenXavaTest/web/xava/editors/dateTimeSeparatedCalendarEditor.jsp -text
 OpenXavaTest/web/xava/editors/descriptionValidValuesEditor.jsp -text
 OpenXavaTest/web/xava/editors/descriptionsEditor.jsp -text
-OpenXavaTest/web/xava/editors/fckEditor.jsp -text
 OpenXavaTest/web/xava/editors/gallery.jsp -text
 OpenXavaTest/web/xava/editors/galleryEditor.jsp -text
 OpenXavaTest/web/xava/editors/htmlEditor.jsp -text
 OpenXavaTest/web/xava/editors/imageEditor.jsp -text
 OpenXavaTest/web/xava/editors/imageLabelEditor.jsp -text
 OpenXavaTest/web/xava/editors/js/autoNumeric.js -text
+OpenXavaTest/web/xava/editors/js/ckeditor.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/js/htmlEditor.js -text
+OpenXavaTest/web/xava/editors/js/jquery-ckeditor-adapter.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/js/textEditor.js -text
 OpenXavaTest/web/xava/editors/js/yahoo-dom-event.js -text
 OpenXavaTest/web/xava/editors/js/yahoo-treeview-min.js -text
