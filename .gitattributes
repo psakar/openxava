@@ -3920,6 +3920,7 @@ OpenXava/notcompile/org/openxava/converters/typeadapters/ArrayOneRowResultSetAda
 OpenXava/notcompile/org/openxava/converters/typeadapters/ObjectPreparedStatementAdapter.java -text
 OpenXava/properties/commons-logging.properties -text
 OpenXava/properties/styles.properties -text
+OpenXava/properties/version.properties -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/AddColumnsAction.java -text
 OpenXava/src/org/openxava/actions/AddElementsToCollectionAction.java -text
 OpenXava/src/org/openxava/actions/AddImageToGalleryAction.java -text
