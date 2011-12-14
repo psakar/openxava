@@ -7177,12 +7177,10 @@ OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
@@ -8028,10 +8026,12 @@ OpenXavaTest/xml-classic-src/org/openxava/test/calculators/ExportPriceCalculator
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/FellowCarriersCalculator.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/ImportanceCalculator.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/IncreasePriceCalculator.java -text
+OpenXavaTest/xml-classic-src/org/openxava/test/calculators/InvoiceDeliveryDateCalculator.java -text svneol=unset#text/plain
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/InvoiceDetail2OidCalculator.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/InvoiceDetailIsFreeCalculator.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/InvoiceDetailOidCalculator.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/InvoiceDetailsCalculator.java -text svneol=unset#text/plain
+OpenXavaTest/xml-classic-src/org/openxava/test/calculators/InvoiceProductUnitPriceSumCalculator.java -text svneol=unset#text/plain
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/IsLocalCustomerCalculator.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/IsSlowCalculator.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/calculators/MixtureDescriptionCalculator.groovy -text
