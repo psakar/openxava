@@ -8343,6 +8343,7 @@ OpenXavaTest/pojo-src/org/openxava/test/validators/DeliveryTypeRemoveValidator.j
 OpenXavaTest/pojo-src/org/openxava/test/validators/InvoiceDetailValidator.java -text
 OpenXavaTest/pojo-src/org/openxava/test/validators/PhoneNumberValidator.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/validators/constraints/GoodNameValidator.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/web/editors/impl/TreeViewReaderTestImpl.java -text
 OpenXavaTest/properties/BeansContext.properties -text
 OpenXavaTest/properties/LoginContextFactory.properties -text
 OpenXavaTest/properties/jndi-jboss.properties -text
