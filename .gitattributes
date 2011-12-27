@@ -8295,6 +8295,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/CompanyTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CompositeTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CorporationEmployeeTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CorporationTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/CustomerMinimumTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DealTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DrivingLicenceTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ElClienteTest.java -text svneol=unset#text/plain
