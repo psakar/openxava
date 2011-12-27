@@ -8108,6 +8108,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeCustomerNameAction.java 
 OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeDeliveryByAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeDistanceAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeGroupInColorAction.java -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangePhoneAreaCodeAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeRangesTypeAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ProduceMessagesAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ProposeNameAction.groovy -text
