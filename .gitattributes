@@ -8194,6 +8194,8 @@ OpenXavaTest/pojo-src/org/openxava/test/model/InvoiceKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Issue.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/IssueList.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/JavaProgrammer.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Journal.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/JournalEntry.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Journey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Login.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Mixture.java -text
@@ -8311,6 +8313,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/InvoiceDetailTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/IssueChangeDBTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/JavaProgrammerExtendedViewsTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/JavaProgrammerTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/JournalTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/LoginTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/MotoTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/OrderIssueTest.groovy -text
@@ -8344,6 +8347,7 @@ OpenXavaTest/pojo-src/org/openxava/test/validators/ChildValidator.java -text
 OpenXavaTest/pojo-src/org/openxava/test/validators/DeliveryPlaceValidator.java -text
 OpenXavaTest/pojo-src/org/openxava/test/validators/DeliveryTypeRemoveValidator.java -text
 OpenXavaTest/pojo-src/org/openxava/test/validators/InvoiceDetailValidator.java -text
+OpenXavaTest/pojo-src/org/openxava/test/validators/JournalEntryValidator.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/validators/PhoneNumberValidator.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/validators/constraints/GoodNameValidator.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/web/editors/impl/TreeViewReaderTestImpl.java -text
