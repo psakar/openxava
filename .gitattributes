@@ -4981,7 +4981,7 @@ OpenXava/web/jasperReport.jsp -text svneol=unset#text/plain
 OpenXava/web/js/calendar.js -text
 OpenXava/web/js/dwr-engine.js -text
 OpenXava/web/js/jquery-ui.js -text
-OpenXava/web/js/jquery.bgiframe.min.js -text
+OpenXava/web/js/jquery.bgiframe.min.js -text svneol=unset#text/plain
 OpenXava/web/js/jquery.js -text
 OpenXava/web/js/openxava.js -text svneol=unset#text/plain
 OpenXava/web/list.jsp -text svneol=unset#text/plain
