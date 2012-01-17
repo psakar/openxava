@@ -6994,6 +6994,7 @@ OpenXavaTest/data/company-a-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-a-db.script -text
 OpenXavaTest/data/company-b-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-b-db.script -text
+OpenXavaTest/data/openxava-test-db.lck -text
 OpenXavaTest/data/openxava-test-db.properties -text
 OpenXavaTest/data/openxava-test-db.script -text
 OpenXavaTest/data/openxava-test-ds.xml -text
@@ -8144,6 +8145,8 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Carrier.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/CharacteristicThing.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Child.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ChildId.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/City.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/CityKey.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Clerk.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ClerkKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Color.java -text
@@ -8618,6 +8621,7 @@ OpenXavaTest/src/org/openxava/test/tests/TransportCharge2Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/TransportChargeTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/TransportChargeTestBase.java -text
 OpenXavaTest/src/org/openxava/test/tests/TransportChargeWithDistanceTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/VehicleTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehouseDetailListTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehouseDetailOnlyTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehouseListOnlyTest.java -text
