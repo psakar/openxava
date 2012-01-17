@@ -4581,7 +4581,7 @@ OpenXava/web/comparatorsCombo.jsp -text
 OpenXava/web/comparatorsDescriptionsList.jsp -text
 OpenXava/web/comparatorsValidValuesCombo.jsp -text
 OpenXava/web/core.jsp -text
-OpenXava/web/detail.jsp -text
+OpenXava/web/detail.jsp -text svneol=unset#text/plain
 OpenXava/web/editor.jsp -text
 OpenXava/web/editorIcons.jsp -text
 OpenXava/web/editorWrapper.jsp -text
@@ -7367,6 +7367,10 @@ OpenXavaTest/i18n/portlets/CustomerInvoices_ca.properties -text svneol=unset#tex
 OpenXavaTest/i18n/portlets/CustomerInvoices_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerInvoices_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerInvoices_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CustomerMinimum_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CustomerMinimum_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CustomerMinimum_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CustomerMinimum_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerNewOnInitInherited_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerNewOnInitInherited_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerNewOnInitInherited_es.properties -text svneol=unset#text/plain
@@ -7683,6 +7687,14 @@ OpenXavaTest/i18n/portlets/JavaProgrammer_ca.properties -text svneol=unset#text/
 OpenXavaTest/i18n/portlets/JavaProgrammer_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/JavaProgrammer_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/JavaProgrammer_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/JournalEntry_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/JournalEntry_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/JournalEntry_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/JournalEntry_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Journal_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Journal_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Journal_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Journal_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Journey_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Journey_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Journey_es.properties -text svneol=unset#text/plain
@@ -7791,6 +7803,10 @@ OpenXavaTest/i18n/portlets/Product4_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Product4_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Product4_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Product4_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Product5FamilyFromSubfamily_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Product5FamilyFromSubfamily_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Product5FamilyFromSubfamily_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Product5FamilyFromSubfamily_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Product5_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Product5_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Product5_es.properties -text svneol=unset#text/plain
@@ -8019,6 +8035,10 @@ OpenXavaTest/i18n/portlets/TreeItem_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TreeItem_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TreeItem_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TreeItem_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeViewAlternateReader_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeViewAlternateReader_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeViewAlternateReader_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeViewAlternateReader_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TreeViewDefaultPath_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TreeViewDefaultPath_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TreeViewDefaultPath_es.properties -text svneol=unset#text/plain
@@ -8642,10 +8662,12 @@ OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
