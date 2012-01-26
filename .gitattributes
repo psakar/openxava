@@ -6937,6 +6937,7 @@ OpenXavaTest/build/j2ee/META-INF/application.xml -text
 OpenXavaTest/components/AverageSpeed.xml -text
 OpenXavaTest/components/Carrier.xml -text
 OpenXavaTest/components/CharacteristicThing.xml -text
+OpenXavaTest/components/City.xml -text
 OpenXavaTest/components/Clerk.xml -text
 OpenXavaTest/components/Color.xml -text
 OpenXavaTest/components/ConversionFactor.xml -text
