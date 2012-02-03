@@ -3884,6 +3884,9 @@ OpenXava/lib/freemarker.jar -text
 OpenXava/lib/hibernate-tools.jar -text
 OpenXava/lib/htmlunit-core-js.jar -text
 OpenXava/lib/htmlunit.jar -text
+OpenXava/lib/httpclient.jar -text
+OpenXava/lib/httpcore.jar -text
+OpenXava/lib/httpmime.jar -text
 OpenXava/lib/jsp-api.jar -text
 OpenXava/lib/jta.jar -text
 OpenXava/lib/junit.jar -text
@@ -4981,9 +4984,9 @@ OpenXava/web/imports.jsp -text
 OpenXava/web/jasperReport.jsp -text svneol=unset#text/plain
 OpenXava/web/js/calendar.js -text
 OpenXava/web/js/dwr-engine.js -text
-OpenXava/web/js/jquery-ui.js -text
-OpenXava/web/js/jquery.bgiframe.min.js -text svneol=unset#text/plain
-OpenXava/web/js/jquery.js -text
+OpenXava/web/js/jquery-ui.js -text svneol=unset#text/plain
+OpenXava/web/js/jquery.bgiframe.js -text svneol=unset#text/plain
+OpenXava/web/js/jquery.js -text svneol=unset#text/plain
 OpenXava/web/js/openxava.js -text svneol=unset#text/plain
 OpenXava/web/list.jsp -text svneol=unset#text/plain
 OpenXava/web/messages.jsp -text svneol=unset#text/plain
@@ -5213,7 +5216,6 @@ OpenXava/web/style/liferay51/images/portlet/refresh.png -text
 OpenXava/web/style/liferay51/images/portlet/restore.png -text
 OpenXava/web/style/liferay51/images/progress_bar/loading_animation.gif -text
 OpenXava/web/style/liferay51/js/barebone_unpacked.js -text
-OpenXava/web/style/liferay51/js/init_liferay.js -text
 OpenXava/web/style/liferay51/js/theme_display.js -text
 OpenXava/web/style/portal.css -text svneol=unset#text/plain
 OpenXava/web/style/skins.css -text svneol=unset#application/octet-stream
@@ -9179,10 +9181,10 @@ OpenXavaTest/web/xava/imports.jsp -text
 OpenXavaTest/web/xava/jasperReport.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/js/calendar.js -text
 OpenXavaTest/web/xava/js/dwr-engine.js -text
-OpenXavaTest/web/xava/js/jquery-ui.js -text
+OpenXavaTest/web/xava/js/jquery-ui.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/js/jquery.bgiframe.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/js/jquery.bgiframe.min.js -text
-OpenXavaTest/web/xava/js/jquery.js -text
-OpenXavaTest/web/xava/js/jquery.metadata.js -text
+OpenXavaTest/web/xava/js/jquery.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/js/openxava.js -text
 OpenXavaTest/web/xava/list.jsp -text
 OpenXavaTest/web/xava/messages.jsp -text
