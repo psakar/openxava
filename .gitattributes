@@ -3877,7 +3877,6 @@ OpenXava/i18n/Messages_sr.properties -text
 OpenXava/i18n/Messages_sv.properties -text
 OpenXava/i18n/Messages_zh.properties -text
 OpenXava/i18n/Messages_zh_CN.properties -text
-OpenXava/lib/commons-httpclient.jar -text
 OpenXava/lib/cssparser.jar -text
 OpenXava/lib/ejb.jar -text
 OpenXava/lib/freemarker.jar -text
@@ -9183,7 +9182,6 @@ OpenXavaTest/web/xava/js/calendar.js -text
 OpenXavaTest/web/xava/js/dwr-engine.js -text
 OpenXavaTest/web/xava/js/jquery-ui.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/js/jquery.bgiframe.js -text svneol=unset#text/plain
-OpenXavaTest/web/xava/js/jquery.bgiframe.min.js -text
 OpenXavaTest/web/xava/js/jquery.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/js/openxava.js -text
 OpenXavaTest/web/xava/list.jsp -text
@@ -9415,7 +9413,6 @@ OpenXavaTest/web/xava/style/liferay51/images/portlet/refresh.png -text
 OpenXavaTest/web/xava/style/liferay51/images/portlet/restore.png -text
 OpenXavaTest/web/xava/style/liferay51/images/progress_bar/loading_animation.gif -text
 OpenXavaTest/web/xava/style/liferay51/js/barebone_unpacked.js -text
-OpenXavaTest/web/xava/style/liferay51/js/init_liferay.js -text
 OpenXavaTest/web/xava/style/liferay51/js/theme_display.js -text
 OpenXavaTest/web/xava/style/portal.css -text
 OpenXavaTest/web/xava/style/skins.css -text svneol=unset#application/octet-stream
