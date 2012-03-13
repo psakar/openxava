@@ -4479,6 +4479,7 @@ OpenXava/src/org/openxava/view/meta/MetaViewAction.java -text
 OpenXava/src/org/openxava/view/meta/PropertiesSeparator.java -text
 OpenXava/src/org/openxava/view/meta/xmlparse/ViewParser.java -text
 OpenXava/src/org/openxava/web/Actions.java -text
+OpenXava/src/org/openxava/web/Collections.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/DescriptionsLists.java -text
 OpenXava/src/org/openxava/web/Ids.java -text
 OpenXava/src/org/openxava/web/WebEditors.java -text
@@ -4508,7 +4509,6 @@ OpenXava/src/org/openxava/web/servlets/ModuleServlet.java -text
 OpenXava/src/org/openxava/web/servlets/Servlets.java -text
 OpenXava/src/org/openxava/web/style/IPadStyle.java -text
 OpenXava/src/org/openxava/web/style/JetSpeed2Style.java -text
-OpenXava/src/org/openxava/web/style/Liferay41Style.java -text
 OpenXava/src/org/openxava/web/style/Liferay43Style.java -text
 OpenXava/src/org/openxava/web/style/Liferay51Style.java -text
 OpenXava/src/org/openxava/web/style/Liferay6Style.java -text
@@ -4578,7 +4578,8 @@ OpenXava/web/bottomButtons.jsp -text
 OpenXava/web/buttonBar.jsp -text
 OpenXava/web/calculatedCollectionList.jsp -text svneol=unset#text/plain
 OpenXava/web/collection.jsp -text
-OpenXava/web/collectionList.jsp -text
+OpenXava/web/collectionFrameHeader.jsp -text svneol=unset#text/plain
+OpenXava/web/collectionList.jsp -text svneol=unset#text/plain
 OpenXava/web/comparatorsBooleanCombo.jsp -text
 OpenXava/web/comparatorsCombo.jsp -text
 OpenXava/web/comparatorsDescriptionsList.jsp -text
@@ -4879,7 +4880,7 @@ OpenXava/web/editors/ckeditor/skins/v2/images/toolbar_start.gif -text
 OpenXava/web/editors/ckeditor/skins/v2/skin.js -text svneol=unset#text/plain
 OpenXava/web/editors/ckeditor/skins/v2/templates.css -text svneol=unset#text/plain
 OpenXava/web/editors/ckeditor/themes/default/theme.js -text svneol=unset#text/plain
-OpenXava/web/editors/collectionEditor.jsp -text
+OpenXava/web/editors/collectionEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/dateCalendarEditor.jsp -text svneol=unset#application/octet-stream
 OpenXava/web/editors/dateTimeCombinedCalendarEditor.jsp -text
 OpenXava/web/editors/dateTimeSeparatedCalendarEditor.jsp -text
@@ -5070,7 +5071,7 @@ OpenXava/web/style/ipad/images/show-filter.gif -text
 OpenXava/web/style/ipad/images/sort.gif -text
 OpenXava/web/style/ipad/images/summation.gif -text
 OpenXava/web/style/ipad/images/view.gif -text
-OpenXava/web/style/ipad/ipad.css -text
+OpenXava/web/style/ipad/ipad.css -text svneol=unset#text/plain
 OpenXava/web/style/ipad/ipad.js -text
 OpenXava/web/style/jetspeed.css -text svneol=unset#application/octet-stream
 OpenXava/web/style/liferay43/css/everything_unpacked.css -text
@@ -8756,6 +8757,7 @@ OpenXavaTest/web/xava/bottomButtons.jsp -text
 OpenXavaTest/web/xava/buttonBar.jsp -text
 OpenXavaTest/web/xava/calculatedCollectionList.jsp -text
 OpenXavaTest/web/xava/collection.jsp -text
+OpenXavaTest/web/xava/collectionFrameHeader.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/collectionList.jsp -text
 OpenXavaTest/web/xava/comparatorsBooleanCombo.jsp -text
 OpenXavaTest/web/xava/comparatorsCombo.jsp -text
