@@ -6880,6 +6880,7 @@ OpenXavaTest/build/hibernate/AdditionalDetail.hbm.xml -text
 OpenXavaTest/build/hibernate/AverageSpeed.hbm.xml -text
 OpenXavaTest/build/hibernate/Carrier.hbm.xml -text
 OpenXavaTest/build/hibernate/CharacteristicThing.hbm.xml -text
+OpenXavaTest/build/hibernate/City.hbm.xml -text svneol=unset#text/plain
 OpenXavaTest/build/hibernate/Clerk.hbm.xml -text
 OpenXavaTest/build/hibernate/Color.hbm.xml -text
 OpenXavaTest/build/hibernate/Comment.hbm.xml -text
@@ -7008,6 +7009,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/Address.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/AverageSpeed.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Carrier.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/CharacteristicThing.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/City.java -text svneol=unset#text/plain
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Clerk.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Color.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Comment.java -text
@@ -7032,6 +7034,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/IAdditionalDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IAverageSpeed.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ICarrier.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ICharacteristicThing.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ICity.java -text svneol=unset#text/plain
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IClerk.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IColor.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IComment.java -text
