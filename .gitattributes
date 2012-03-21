@@ -601,7 +601,6 @@ AccessTracking/web/xava/js/calendar.js -text
 AccessTracking/web/xava/js/dwr-engine.js -text
 AccessTracking/web/xava/js/jquery-ui.js -text
 AccessTracking/web/xava/js/jquery.bgiframe.js -text svneol=unset#text/plain
-AccessTracking/web/xava/js/jquery.bgiframe.min.js -text
 AccessTracking/web/xava/js/jquery.js -text
 AccessTracking/web/xava/js/openxava.js -text
 AccessTracking/web/xava/list.jsp -text
@@ -832,7 +831,6 @@ AccessTracking/web/xava/style/liferay51/images/portlet/refresh.png -text
 AccessTracking/web/xava/style/liferay51/images/portlet/restore.png -text
 AccessTracking/web/xava/style/liferay51/images/progress_bar/loading_animation.gif -text
 AccessTracking/web/xava/style/liferay51/js/barebone_unpacked.js -text
-AccessTracking/web/xava/style/liferay51/js/init_liferay.js -text
 AccessTracking/web/xava/style/liferay51/js/theme_display.js -text
 AccessTracking/web/xava/style/portal.css -text
 AccessTracking/web/xava/style/skins.css -text
@@ -2654,7 +2652,6 @@ MiEscuela/web/xava/js/calendar.js -text
 MiEscuela/web/xava/js/dwr-engine.js -text
 MiEscuela/web/xava/js/jquery-ui.js -text
 MiEscuela/web/xava/js/jquery.bgiframe.js -text svneol=unset#text/plain
-MiEscuela/web/xava/js/jquery.bgiframe.min.js -text
 MiEscuela/web/xava/js/jquery.js -text
 MiEscuela/web/xava/js/openxava.js -text
 MiEscuela/web/xava/list.jsp -text
@@ -2886,7 +2883,6 @@ MiEscuela/web/xava/style/liferay51/images/portlet/refresh.png -text
 MiEscuela/web/xava/style/liferay51/images/portlet/restore.png -text
 MiEscuela/web/xava/style/liferay51/images/progress_bar/loading_animation.gif -text
 MiEscuela/web/xava/style/liferay51/js/barebone_unpacked.js -text
-MiEscuela/web/xava/style/liferay51/js/init_liferay.js -text
 MiEscuela/web/xava/style/liferay51/js/theme_display.js -text
 MiEscuela/web/xava/style/portal.css -text
 MiEscuela/web/xava/style/skins.css -text svneol=unset#application/octet-stream
@@ -3475,9 +3471,7 @@ MySchool/web/xava/js/calendar.js -text
 MySchool/web/xava/js/dwr-engine.js -text
 MySchool/web/xava/js/jquery-ui.js -text
 MySchool/web/xava/js/jquery.bgiframe.js -text svneol=unset#text/plain
-MySchool/web/xava/js/jquery.bgiframe.min.js -text
 MySchool/web/xava/js/jquery.js -text
-MySchool/web/xava/js/jquery.qtip.js -text
 MySchool/web/xava/js/openxava.js -text
 MySchool/web/xava/list.jsp -text
 MySchool/web/xava/messages.jsp -text
@@ -3708,7 +3702,6 @@ MySchool/web/xava/style/liferay51/images/portlet/refresh.png -text
 MySchool/web/xava/style/liferay51/images/portlet/restore.png -text
 MySchool/web/xava/style/liferay51/images/progress_bar/loading_animation.gif -text
 MySchool/web/xava/style/liferay51/js/barebone_unpacked.js -text
-MySchool/web/xava/style/liferay51/js/init_liferay.js -text
 MySchool/web/xava/style/liferay51/js/theme_display.js -text
 MySchool/web/xava/style/portal.css -text
 MySchool/web/xava/style/skins.css -text svneol=unset#application/octet-stream
