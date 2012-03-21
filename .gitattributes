@@ -178,6 +178,7 @@ AccessTracking/web/xava/bottomButtons.jsp -text
 AccessTracking/web/xava/buttonBar.jsp -text
 AccessTracking/web/xava/calculatedCollectionList.jsp -text
 AccessTracking/web/xava/collection.jsp -text
+AccessTracking/web/xava/collectionFrameHeader.jsp -text svneol=unset#text/plain
 AccessTracking/web/xava/collectionList.jsp -text
 AccessTracking/web/xava/comparatorsBooleanCombo.jsp -text
 AccessTracking/web/xava/comparatorsCombo.jsp -text
@@ -599,6 +600,7 @@ AccessTracking/web/xava/jasperReport.jsp -text
 AccessTracking/web/xava/js/calendar.js -text
 AccessTracking/web/xava/js/dwr-engine.js -text
 AccessTracking/web/xava/js/jquery-ui.js -text
+AccessTracking/web/xava/js/jquery.bgiframe.js -text svneol=unset#text/plain
 AccessTracking/web/xava/js/jquery.bgiframe.min.js -text
 AccessTracking/web/xava/js/jquery.js -text
 AccessTracking/web/xava/js/openxava.js -text
@@ -2225,6 +2227,7 @@ MiEscuela/web/xava/bottomButtons.jsp -text
 MiEscuela/web/xava/buttonBar.jsp -text
 MiEscuela/web/xava/calculatedCollectionList.jsp -text
 MiEscuela/web/xava/collection.jsp -text
+MiEscuela/web/xava/collectionFrameHeader.jsp -text svneol=unset#text/plain
 MiEscuela/web/xava/collectionList.jsp -text
 MiEscuela/web/xava/comparatorsBooleanCombo.jsp -text
 MiEscuela/web/xava/comparatorsCombo.jsp -text
@@ -2650,6 +2653,7 @@ MiEscuela/web/xava/jasperReport.jsp -text
 MiEscuela/web/xava/js/calendar.js -text
 MiEscuela/web/xava/js/dwr-engine.js -text
 MiEscuela/web/xava/js/jquery-ui.js -text
+MiEscuela/web/xava/js/jquery.bgiframe.js -text svneol=unset#text/plain
 MiEscuela/web/xava/js/jquery.bgiframe.min.js -text
 MiEscuela/web/xava/js/jquery.js -text
 MiEscuela/web/xava/js/openxava.js -text
@@ -3044,6 +3048,7 @@ MySchool/web/xava/bottomButtons.jsp -text
 MySchool/web/xava/buttonBar.jsp -text
 MySchool/web/xava/calculatedCollectionList.jsp -text
 MySchool/web/xava/collection.jsp -text
+MySchool/web/xava/collectionFrameHeader.jsp -text svneol=unset#text/plain
 MySchool/web/xava/collectionList.jsp -text
 MySchool/web/xava/comparatorsBooleanCombo.jsp -text
 MySchool/web/xava/comparatorsCombo.jsp -text
@@ -3469,6 +3474,7 @@ MySchool/web/xava/jasperReport.jsp -text
 MySchool/web/xava/js/calendar.js -text
 MySchool/web/xava/js/dwr-engine.js -text
 MySchool/web/xava/js/jquery-ui.js -text
+MySchool/web/xava/js/jquery.bgiframe.js -text svneol=unset#text/plain
 MySchool/web/xava/js/jquery.bgiframe.min.js -text
 MySchool/web/xava/js/jquery.js -text
 MySchool/web/xava/js/jquery.qtip.js -text
