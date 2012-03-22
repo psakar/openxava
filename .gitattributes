@@ -8174,8 +8174,8 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Carrier.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/CharacteristicThing.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Child.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ChildId.java -text
-OpenXavaTest/pojo-src/org/openxava/test/model/City.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/model/CityKey.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/City.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/CityKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Clerk.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ClerkKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Color.java -text
