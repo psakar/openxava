@@ -5290,7 +5290,6 @@ OpenXava/xava/dtds/valores-defecto-tabs.dtd -text
 OpenXava/xava/stereotype-type-default.xml -text
 OpenXavaDoc/.project -text
 OpenXavaDoc/build.xml -text
-OpenXavaDoc/openxava-portal.lar -text
 OpenXavaDoc/pdf-style/blank.html -text
 OpenXavaDoc/pdf-style/cover-xml_en.html -text
 OpenXavaDoc/pdf-style/cover-xml_es.html -text
