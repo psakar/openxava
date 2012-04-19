@@ -8520,9 +8520,10 @@ OpenXavaTest/src/org/openxava/test/filters/Invoice20020001Filter.java -text
 OpenXavaTest/src/org/openxava/test/filters/LimitZoneFilter.java -text
 OpenXavaTest/src/org/openxava/test/filters/NumbersToLettersFilter.java -text
 OpenXavaTest/src/org/openxava/test/filters/YearParameterFilter.java -text
+OpenXavaTest/src/org/openxava/test/formatters/CityNameFormatter.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/formatters/FamilyDescriptionsFormatter.java -text
 OpenXavaTest/src/org/openxava/test/formatters/JbyXNameFormatter.java -text
-OpenXavaTest/src/org/openxava/test/formatters/PersonNameFormatter.java -text
+OpenXavaTest/src/org/openxava/test/formatters/NameFormatter.java -text
 OpenXavaTest/src/org/openxava/test/generators/WarehouseEJBGenerator.java -text
 OpenXavaTest/src/org/openxava/test/generators/WarehousePOJOGenerator.java -text
 OpenXavaTest/src/org/openxava/test/generators/warehouse_ejb_property.template -text
