@@ -6127,6 +6127,14 @@ OpenXavaTest/i18n/portlets/Ingredient_ca.properties -text svneol=unset#text/plai
 OpenXavaTest/i18n/portlets/Ingredient_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Ingredient_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Ingredient_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InventDetail_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InventDetail_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InventDetail_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InventDetail_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Invent_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Invent_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Invent_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Invent_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Invoice20020001_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Invoice20020001_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Invoice20020001_es.properties -text svneol=unset#text/plain
@@ -7229,10 +7237,12 @@ OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
