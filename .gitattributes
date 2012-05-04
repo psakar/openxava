@@ -4589,7 +4589,7 @@ OpenXava/web/comparatorsBooleanCombo.jsp -text
 OpenXava/web/comparatorsCombo.jsp -text
 OpenXava/web/comparatorsDescriptionsList.jsp -text
 OpenXava/web/comparatorsValidValuesCombo.jsp -text
-OpenXava/web/core.jsp -text
+OpenXava/web/core.jsp -text svneol=unset#text/plain
 OpenXava/web/detail.jsp -text svneol=unset#text/plain
 OpenXava/web/editor.jsp -text svneol=unset#text/plain
 OpenXava/web/editorIcons.jsp -text
