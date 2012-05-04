@@ -4591,7 +4591,7 @@ OpenXava/web/comparatorsDescriptionsList.jsp -text
 OpenXava/web/comparatorsValidValuesCombo.jsp -text
 OpenXava/web/core.jsp -text
 OpenXava/web/detail.jsp -text svneol=unset#text/plain
-OpenXava/web/editor.jsp -text
+OpenXava/web/editor.jsp -text svneol=unset#text/plain
 OpenXava/web/editorIcons.jsp -text
 OpenXava/web/editorWrapper.jsp -text
 OpenXava/web/editors/actionEditor.jsp -text
@@ -7005,6 +7005,7 @@ OpenXavaTest/data/company-a-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-a-db.script -text
 OpenXavaTest/data/company-b-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-b-db.script -text
+OpenXavaTest/data/openxava-test-db.lck -text
 OpenXavaTest/data/openxava-test-db.properties -text
 OpenXavaTest/data/openxava-test-db.script -text
 OpenXavaTest/data/openxava-test-ds.xml -text
@@ -8139,6 +8140,8 @@ OpenXavaTest/persistence/GalleryImage.hbm.xml -text
 OpenXavaTest/persistence/META-INF/persistence.xml -text
 OpenXavaTest/persistence/hibernate-junit.cfg.xml -text
 OpenXavaTest/persistence/hibernate.cfg.xml -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/AddActionToProperyAction.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/AddSuffixAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/AddToNameAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ChangeName.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/FamilyProductsReportAction.java -text
@@ -8157,6 +8160,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangePhoneAreaCodeAction.java
 OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeRangesTypeAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ProduceMessagesAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ProposeNameAction.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/RemoveActionToProperyAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ReportCorporationAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/SaveElementInCollectionAbortingTransactionAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/SearchAuthorAction.groovy -text
@@ -8696,12 +8700,10 @@ OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
