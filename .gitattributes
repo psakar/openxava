@@ -4342,6 +4342,7 @@ OpenXava/src/org/openxava/tab/impl/EntityTabFactory.java -text
 OpenXava/src/org/openxava/tab/impl/EntityTabHome.java -text
 OpenXava/src/org/openxava/tab/impl/EntityTabRemote.java -text
 OpenXava/src/org/openxava/tab/impl/HiddenXTableModel.java -text
+OpenXava/src/org/openxava/tab/impl/IDataReader.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/tab/impl/IEdiTableModel.java -text
 OpenXava/src/org/openxava/tab/impl/IEntityTab.java -text
 OpenXava/src/org/openxava/tab/impl/IEntityTabDataProvider.java -text
@@ -4355,15 +4356,16 @@ OpenXava/src/org/openxava/tab/impl/IVectorTableModel.java -text
 OpenXava/src/org/openxava/tab/impl/IWithXTableModel.java -text
 OpenXava/src/org/openxava/tab/impl/IXTableModel.java -text
 OpenXava/src/org/openxava/tab/impl/JDBCTabProvider.java -text
+OpenXava/src/org/openxava/tab/impl/JPATabProvider.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/tab/impl/SelectedRowsXTableModel.java -text
 OpenXava/src/org/openxava/tab/impl/TabCalculator.java -text
 OpenXava/src/org/openxava/tab/impl/TabConverter.java -text
 OpenXava/src/org/openxava/tab/impl/TabException.java -text
+OpenXava/src/org/openxava/tab/impl/TabProviderBase.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/tab/impl/TabProviderFactory.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/tab/impl/TableModelBase.java -text
 OpenXava/src/org/openxava/tab/impl/TableModelBean.java -text
 OpenXava/src/org/openxava/tab/impl/XTableModelDecoratorBase.java -text
-OpenXava/src/org/openxava/tab/meta/MetaConsult.java -text
-OpenXava/src/org/openxava/tab/meta/MetaParameter.java -text
 OpenXava/src/org/openxava/tab/meta/MetaRowStyle.java -text
 OpenXava/src/org/openxava/tab/meta/MetaTab.java -text
 OpenXava/src/org/openxava/tab/meta/MetaTabsDefaultValues.java -text
