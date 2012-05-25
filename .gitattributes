@@ -9449,6 +9449,7 @@ OpenXavaTest/web/xava/style/liferay51/images/portlet/restore.png -text
 OpenXavaTest/web/xava/style/liferay51/images/progress_bar/loading_animation.gif -text
 OpenXavaTest/web/xava/style/liferay51/js/barebone_unpacked.js -text
 OpenXavaTest/web/xava/style/liferay51/js/theme_display.js -text
+OpenXavaTest/web/xava/style/portal-ext.css -text
 OpenXavaTest/web/xava/style/portal.css -text
 OpenXavaTest/web/xava/style/skins.css -text svneol=unset#application/octet-stream
 OpenXavaTest/web/xava/style/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png -text
