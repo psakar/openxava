@@ -4344,7 +4344,6 @@ OpenXava/src/org/openxava/tab/impl/EntityTabRemote.java -text
 OpenXava/src/org/openxava/tab/impl/HiddenXTableModel.java -text
 OpenXava/src/org/openxava/tab/impl/IDataReader.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/tab/impl/IEdiTableModel.java -text
-OpenXava/src/org/openxava/tab/impl/IEntityTab.java -text
 OpenXava/src/org/openxava/tab/impl/IEntityTabDataProvider.java -text
 OpenXava/src/org/openxava/tab/impl/IEntityTabImpl.java -text
 OpenXava/src/org/openxava/tab/impl/IObjectTableModel.java -text
