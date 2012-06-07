@@ -4361,7 +4361,6 @@ OpenXava/src/org/openxava/tab/impl/TabCalculator.java -text
 OpenXava/src/org/openxava/tab/impl/TabConverter.java -text
 OpenXava/src/org/openxava/tab/impl/TabException.java -text
 OpenXava/src/org/openxava/tab/impl/TabProviderBase.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/tab/impl/TabProviderFactory.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/tab/impl/TableModelBase.java -text
 OpenXava/src/org/openxava/tab/impl/TableModelBean.java -text
 OpenXava/src/org/openxava/tab/impl/XTableModelDecoratorBase.java -text
@@ -7003,8 +7002,10 @@ OpenXavaTest/components/Worker.xml -text
 OpenXavaTest/components/Year.xml -text
 OpenXavaTest/components/dtds/component.dtd -text
 OpenXavaTest/components/dtds/componente.dtd -text
+OpenXavaTest/data/company-a-db.lck -text
 OpenXavaTest/data/company-a-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-a-db.script -text
+OpenXavaTest/data/company-b-db.lck -text
 OpenXavaTest/data/company-b-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-b-db.script -text
 OpenXavaTest/data/openxava-test-db.properties -text
