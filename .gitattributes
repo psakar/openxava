@@ -5017,6 +5017,7 @@ OpenXava/web/style/cupertino/images/ui-icons_3d80b3_256x240.png -text
 OpenXava/web/style/cupertino/images/ui-icons_72a7cf_256x240.png -text
 OpenXava/web/style/cupertino/images/ui-icons_ffffff_256x240.png -text
 OpenXava/web/style/cupertino/jquery-ui.css -text
+OpenXava/web/style/custom.css -text
 OpenXava/web/style/default.css -text
 OpenXava/web/style/ipad/images/add.gif -text
 OpenXava/web/style/ipad/images/ascending-white.gif -text
@@ -5222,7 +5223,6 @@ OpenXava/web/style/liferay51/images/portlet/restore.png -text
 OpenXava/web/style/liferay51/images/progress_bar/loading_animation.gif -text
 OpenXava/web/style/liferay51/js/barebone_unpacked.js -text
 OpenXava/web/style/liferay51/js/theme_display.js -text
-OpenXava/web/style/portal-ext.css -text
 OpenXava/web/style/portal.css -text svneol=unset#text/plain
 OpenXava/web/style/skins.css -text svneol=unset#application/octet-stream
 OpenXava/web/style/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png -text
