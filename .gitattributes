@@ -7002,8 +7002,10 @@ OpenXavaTest/components/Worker.xml -text
 OpenXavaTest/components/Year.xml -text
 OpenXavaTest/components/dtds/component.dtd -text
 OpenXavaTest/components/dtds/componente.dtd -text
+OpenXavaTest/data/company-a-db.lck -text
 OpenXavaTest/data/company-a-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-a-db.script -text
+OpenXavaTest/data/company-b-db.lck -text
 OpenXavaTest/data/company-b-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-b-db.script -text
 OpenXavaTest/data/openxava-test-db.properties -text
@@ -8204,6 +8206,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Comment.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Community.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Company.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Composite.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Computer.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ConversionFactor.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Corporation.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/CorporationEmployee.java -text svneol=unset#text/plain
@@ -8219,6 +8222,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/DeliveryDetail.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/DeliveryKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/DeliveryPlace.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/DeliveryType.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Desktop.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Doctor.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Document.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Driver.java -text
@@ -8238,6 +8242,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/FormulaIngredient.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Framework.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Human.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Ingredient.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/InternetShop.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Invent.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/InventDetail.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Invoice.java -text
@@ -8296,8 +8301,10 @@ OpenXavaTest/pojo-src/org/openxava/test/model/ServiceType.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Shipment.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ShipmentCharge.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ShipmentKey.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Shop.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Size.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/State.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/StreetShop.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Studio.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Subfamily.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Subfamily2.java -text
@@ -8307,6 +8314,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/SubjectGroupKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/SummerCourse.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Superheroe.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Supervillain.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Tablet.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Task.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Thing.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ToDoComponent.java -text
@@ -8352,6 +8360,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/CommunityEditableMembersTest.java 
 OpenXavaTest/pojo-src/org/openxava/test/tests/CommunityTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CompanyTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CompositeTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/ComputerTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CorporationEmployeeTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CorporationTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CustomerMinimumTest.groovy -text
@@ -8383,6 +8392,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/ProgrammerTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/QuarterTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SalesRepresentativePersonOnlyNamesTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SalesRepresentativeTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/ShopTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/StudioTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SummerCourseTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SupervillainTest.groovy -text
