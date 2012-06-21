@@ -4435,6 +4435,7 @@ OpenXava/src/org/openxava/util/SystemException.java -text
 OpenXava/src/org/openxava/util/TableModels.java -text
 OpenXava/src/org/openxava/util/UserInfo.java -text
 OpenXava/src/org/openxava/util/Users.java -text
+OpenXava/src/org/openxava/util/XArrays.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/util/XCollections.java -text
 OpenXava/src/org/openxava/util/XObjects.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/util/XSystem.java -text
