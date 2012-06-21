@@ -8183,6 +8183,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/SaveElementInCollectionAbortingT
 OpenXavaTest/pojo-src/org/openxava/test/actions/SearchAuthorAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowGoCustomerInvoicesDialogAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowSellerAction.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/SyncCarriersSelectionAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/TranslateCarrierNameAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ViewNameFellowCarriersSelectedAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/annotations/GoodName.java -text svneol=unset#text/plain
