@@ -8629,6 +8629,7 @@ OpenXavaTest/src/org/openxava/test/tests/FamilyTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/FamilyWithInheritanceControllerTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/FamilyXProductsReportTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/FormulaTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/IngredientTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/Invoice20020001Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/Invoice20022004Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/Invoice2002Test.java -text
