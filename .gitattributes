@@ -4552,6 +4552,7 @@ OpenXava/web/WEB-INF/fonts/LICENSE -text
 OpenXava/web/WEB-INF/lib/activation.jar -text
 OpenXava/web/WEB-INF/lib/antlr.jar -text
 OpenXava/web/WEB-INF/lib/asm.jar -text
+OpenXava/web/WEB-INF/lib/autobizlogic.jar -text
 OpenXava/web/WEB-INF/lib/cglib.jar -text
 OpenXava/web/WEB-INF/lib/commons-beanutils.jar -text
 OpenXava/web/WEB-INF/lib/commons-codec.jar -text
@@ -4559,6 +4560,7 @@ OpenXava/web/WEB-INF/lib/commons-collections.jar -text
 OpenXava/web/WEB-INF/lib/commons-digester.jar -text
 OpenXava/web/WEB-INF/lib/commons-fileupload.jar -text
 OpenXava/web/WEB-INF/lib/commons-io.jar -text
+OpenXava/web/WEB-INF/lib/commons-jexl.jar -text
 OpenXava/web/WEB-INF/lib/commons-lang.jar -text
 OpenXava/web/WEB-INF/lib/commons-logging.jar -text
 OpenXava/web/WEB-INF/lib/commons-validator.jar -text
@@ -4580,6 +4582,7 @@ OpenXava/web/WEB-INF/lib/jaxb-api.jar -text
 OpenXava/web/WEB-INF/lib/jaxb-impl.jar -text
 OpenXava/web/WEB-INF/lib/jpa2.jar -text
 OpenXava/web/WEB-INF/lib/jstl.jar -text
+OpenXava/web/WEB-INF/lib/log4j.jar -text
 OpenXava/web/WEB-INF/lib/mailapi.jar -text
 OpenXava/web/WEB-INF/lib/ox-jdbc-adapters.jar -text
 OpenXava/web/WEB-INF/lib/poi.jar -text
@@ -7017,10 +7020,8 @@ OpenXavaTest/components/Worker.xml -text
 OpenXavaTest/components/Year.xml -text
 OpenXavaTest/components/dtds/component.dtd -text
 OpenXavaTest/components/dtds/componente.dtd -text
-OpenXavaTest/data/company-a-db.lck -text
 OpenXavaTest/data/company-a-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-a-db.script -text
-OpenXavaTest/data/company-b-db.lck -text
 OpenXavaTest/data/company-b-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-b-db.script -text
 OpenXavaTest/data/openxava-test-db.properties -text
@@ -8149,6 +8150,9 @@ OpenXavaTest/i18n/portlets/Worker_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Worker_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Worker_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Worker_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/java6-src/org/openxava/test/businesslogic/MiniOrderLogic.groovy -text
+OpenXavaTest/java6-src/org/openxava/test/model/MiniOrder.groovy -text
+OpenXavaTest/java6-src/org/openxava/test/tests/MiniOrderTest.groovy -text
 OpenXavaTest/jboss-as400.properties -text
 OpenXavaTest/jboss-hypersonic.properties -text
 OpenXavaTest/lib/hsqldb.jar -text
@@ -8753,6 +8757,7 @@ OpenXavaTest/web/WEB-INF/fonts/LICENSE -text
 OpenXavaTest/web/WEB-INF/lib/activation.jar -text
 OpenXavaTest/web/WEB-INF/lib/antlr.jar -text
 OpenXavaTest/web/WEB-INF/lib/asm.jar -text
+OpenXavaTest/web/WEB-INF/lib/autobizlogic.jar -text
 OpenXavaTest/web/WEB-INF/lib/cglib.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-beanutils.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-codec.jar -text
@@ -8760,6 +8765,7 @@ OpenXavaTest/web/WEB-INF/lib/commons-collections.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-digester.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-fileupload.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-io.jar -text
+OpenXavaTest/web/WEB-INF/lib/commons-jexl.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-lang.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-logging.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-validator.jar -text
@@ -8781,6 +8787,7 @@ OpenXavaTest/web/WEB-INF/lib/jaxb-api.jar -text
 OpenXavaTest/web/WEB-INF/lib/jaxb-impl.jar -text
 OpenXavaTest/web/WEB-INF/lib/jpa2.jar -text
 OpenXavaTest/web/WEB-INF/lib/jstl.jar -text
+OpenXavaTest/web/WEB-INF/lib/log4j.jar -text
 OpenXavaTest/web/WEB-INF/lib/mailapi.jar -text
 OpenXavaTest/web/WEB-INF/lib/openxava.jar -text
 OpenXavaTest/web/WEB-INF/lib/ox-jdbc-adapters.jar -text
