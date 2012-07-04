@@ -8150,9 +8150,6 @@ OpenXavaTest/i18n/portlets/Worker_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Worker_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Worker_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Worker_fr.properties -text svneol=unset#text/plain
-OpenXavaTest/java6-src/org/openxava/test/businesslogic/MiniOrderLogic.groovy -text
-OpenXavaTest/java6-src/org/openxava/test/model/MiniOrder.groovy -text
-OpenXavaTest/java6-src/org/openxava/test/tests/MiniOrderTest.groovy -text
 OpenXavaTest/jboss-as400.properties -text
 OpenXavaTest/jboss-hypersonic.properties -text
 OpenXavaTest/lib/hsqldb.jar -text
@@ -8192,6 +8189,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/TranslateCarrierNameAction.java 
 OpenXavaTest/pojo-src/org/openxava/test/actions/ViewNameFellowCarriersSelectedAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/annotations/GoodName.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/base/AbstractToto.java -text
+OpenXavaTest/pojo-src/org/openxava/test/businesslogic/MiniOrderLogic.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/domain/Moto.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/filters/InventFilter.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/formatters/WarehouseFormatter.java -text
@@ -8278,6 +8276,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Journal.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/JournalEntry.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Journey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Login.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/MiniOrder.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Mixture.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/MixtureKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Month.java -text
@@ -8401,6 +8400,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/JavaProgrammerExtendedViewsTest.ja
 OpenXavaTest/pojo-src/org/openxava/test/tests/JavaProgrammerTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/JournalTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/LoginTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/MiniOrderTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/MotoTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/OrderIssueTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/OrphanageTest.groovy -text
@@ -8787,7 +8787,6 @@ OpenXavaTest/web/WEB-INF/lib/jaxb-api.jar -text
 OpenXavaTest/web/WEB-INF/lib/jaxb-impl.jar -text
 OpenXavaTest/web/WEB-INF/lib/jpa2.jar -text
 OpenXavaTest/web/WEB-INF/lib/jstl.jar -text
-OpenXavaTest/web/WEB-INF/lib/log4j.jar -text
 OpenXavaTest/web/WEB-INF/lib/mailapi.jar -text
 OpenXavaTest/web/WEB-INF/lib/openxava.jar -text
 OpenXavaTest/web/WEB-INF/lib/ox-jdbc-adapters.jar -text
