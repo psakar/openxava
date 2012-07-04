@@ -4582,7 +4582,6 @@ OpenXava/web/WEB-INF/lib/jaxb-api.jar -text
 OpenXava/web/WEB-INF/lib/jaxb-impl.jar -text
 OpenXava/web/WEB-INF/lib/jpa2.jar -text
 OpenXava/web/WEB-INF/lib/jstl.jar -text
-OpenXava/web/WEB-INF/lib/log4j.jar -text
 OpenXava/web/WEB-INF/lib/mailapi.jar -text
 OpenXava/web/WEB-INF/lib/ox-jdbc-adapters.jar -text
 OpenXava/web/WEB-INF/lib/poi.jar -text
