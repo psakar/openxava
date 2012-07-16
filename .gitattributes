@@ -7017,7 +7017,7 @@ OpenXavaTest/components/Vehicle.xml -text
 OpenXavaTest/components/Warehouse.xml -text
 OpenXavaTest/components/Worker.xml -text
 OpenXavaTest/components/Year.xml -text
-OpenXavaTest/components/dtds/component.dtd -text
+OpenXavaTest/components/dtds/component.dtd -text svneol=unset#text/plain
 OpenXavaTest/components/dtds/componente.dtd -text
 OpenXavaTest/data/company-a-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-a-db.script -text
@@ -7357,6 +7357,10 @@ OpenXavaTest/i18n/portlets/Composite_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Composite_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Composite_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Composite_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Computer_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Computer_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Computer_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Computer_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/ConversionFactor_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/ConversionFactor_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/ConversionFactor_es.properties -text svneol=unset#text/plain
@@ -7493,6 +7497,10 @@ OpenXavaTest/i18n/portlets/Description_ca.properties -text svneol=unset#text/pla
 OpenXavaTest/i18n/portlets/Description_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Description_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Description_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Desktop_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Desktop_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Desktop_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Desktop_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Doctor_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Doctor_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Doctor_es.properties -text svneol=unset#text/plain
@@ -7597,10 +7605,18 @@ OpenXavaTest/i18n/portlets/Human_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Human_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Human_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Human_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/IngredientWithSections_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/IngredientWithSections_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/IngredientWithSections_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/IngredientWithSections_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Ingredient_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Ingredient_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Ingredient_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Ingredient_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InternetShop_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InternetShop_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InternetShop_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InternetShop_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InventDetail_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InventDetail_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InventDetail_es.properties -text svneol=unset#text/plain
@@ -7741,6 +7757,10 @@ OpenXavaTest/i18n/portlets/Journey_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Journey_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Journey_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Journey_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/MiniOrder_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/MiniOrder_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/MiniOrder_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/MiniOrder_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Mixture_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Mixture_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Mixture_es.properties -text svneol=unset#text/plain
@@ -7961,6 +7981,10 @@ OpenXavaTest/i18n/portlets/Shipment_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Shipment_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Shipment_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Shipment_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Shop_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Shop_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Shop_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Shop_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/ShowSeller_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/ShowSeller_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/ShowSeller_es.properties -text svneol=unset#text/plain
@@ -7981,6 +8005,10 @@ OpenXavaTest/i18n/portlets/State_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/State_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/State_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/State_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/StreetShop_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/StreetShop_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/StreetShop_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/StreetShop_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Studio_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Studio_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Studio_es.properties -text svneol=unset#text/plain
@@ -8013,6 +8041,10 @@ OpenXavaTest/i18n/portlets/Supervillain_ca.properties -text svneol=unset#text/pl
 OpenXavaTest/i18n/portlets/Supervillain_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Supervillain_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Supervillain_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Tablet_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Tablet_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Tablet_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Tablet_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Task_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Task_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Task_es.properties -text svneol=unset#text/plain
@@ -8183,7 +8215,6 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/SaveElementInCollectionAbortingT
 OpenXavaTest/pojo-src/org/openxava/test/actions/SearchAuthorAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowGoCustomerInvoicesDialogAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowSellerAction.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/actions/SyncCarriersSelectionAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/TranslateCarrierNameAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ViewNameFellowCarriersSelectedAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/annotations/GoodName.java -text svneol=unset#text/plain
@@ -8552,6 +8583,7 @@ OpenXavaTest/src/org/openxava/test/actions/StateHibernateSearchAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/StateJPADeleteAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/StateJPASaveAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/StateJPASearchAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/SyncCarriersSelectionAction.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/actions/TranslateAllCarrierNameAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/VerifyEditablesProductAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ViewCurrentYearInvoicesAction.java -text
