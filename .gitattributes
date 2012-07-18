@@ -129,6 +129,7 @@ AccessTracking/web/WEB-INF/fonts/LICENSE -text svneol=unset#application/octet-st
 AccessTracking/web/WEB-INF/lib/activation.jar -text
 AccessTracking/web/WEB-INF/lib/antlr.jar -text
 AccessTracking/web/WEB-INF/lib/asm.jar -text
+AccessTracking/web/WEB-INF/lib/autobizlogic.jar -text
 AccessTracking/web/WEB-INF/lib/cglib.jar -text
 AccessTracking/web/WEB-INF/lib/commons-beanutils.jar -text
 AccessTracking/web/WEB-INF/lib/commons-codec.jar -text
@@ -136,6 +137,7 @@ AccessTracking/web/WEB-INF/lib/commons-collections.jar -text
 AccessTracking/web/WEB-INF/lib/commons-digester.jar -text
 AccessTracking/web/WEB-INF/lib/commons-fileupload.jar -text
 AccessTracking/web/WEB-INF/lib/commons-io.jar -text
+AccessTracking/web/WEB-INF/lib/commons-jexl.jar -text
 AccessTracking/web/WEB-INF/lib/commons-lang.jar -text
 AccessTracking/web/WEB-INF/lib/commons-logging.jar -text
 AccessTracking/web/WEB-INF/lib/commons-validator.jar -text
@@ -593,6 +595,7 @@ AccessTracking/web/xava/images/save.gif -text
 AccessTracking/web/xava/images/search.gif -text
 AccessTracking/web/xava/images/show-filter.gif -text
 AccessTracking/web/xava/images/sort.gif -text
+AccessTracking/web/xava/images/spacer.gif -text
 AccessTracking/web/xava/images/summation.gif -text
 AccessTracking/web/xava/images/view.gif -text
 AccessTracking/web/xava/imports.jsp -text
@@ -627,6 +630,7 @@ AccessTracking/web/xava/style/cupertino/images/ui-icons_3d80b3_256x240.png -text
 AccessTracking/web/xava/style/cupertino/images/ui-icons_72a7cf_256x240.png -text
 AccessTracking/web/xava/style/cupertino/images/ui-icons_ffffff_256x240.png -text
 AccessTracking/web/xava/style/cupertino/jquery-ui.css -text
+AccessTracking/web/xava/style/custom.css -text svneol=unset#text/plain
 AccessTracking/web/xava/style/default.css -text
 AccessTracking/web/xava/style/ipad/images/add.gif -text
 AccessTracking/web/xava/style/ipad/images/ascending-white.gif -text
@@ -2176,6 +2180,7 @@ MiEscuela/web/WEB-INF/fonts/LICENSE -text svneol=unset#application/octet-stream
 MiEscuela/web/WEB-INF/lib/activation.jar -text
 MiEscuela/web/WEB-INF/lib/antlr.jar -text
 MiEscuela/web/WEB-INF/lib/asm.jar -text
+MiEscuela/web/WEB-INF/lib/autobizlogic.jar -text
 MiEscuela/web/WEB-INF/lib/cglib.jar -text
 MiEscuela/web/WEB-INF/lib/commons-beanutils.jar -text
 MiEscuela/web/WEB-INF/lib/commons-codec.jar -text
@@ -2183,6 +2188,7 @@ MiEscuela/web/WEB-INF/lib/commons-collections.jar -text
 MiEscuela/web/WEB-INF/lib/commons-digester.jar -text
 MiEscuela/web/WEB-INF/lib/commons-fileupload.jar -text
 MiEscuela/web/WEB-INF/lib/commons-io.jar -text
+MiEscuela/web/WEB-INF/lib/commons-jexl.jar -text
 MiEscuela/web/WEB-INF/lib/commons-lang.jar -text
 MiEscuela/web/WEB-INF/lib/commons-logging.jar -text
 MiEscuela/web/WEB-INF/lib/commons-validator.jar -text
@@ -2644,6 +2650,7 @@ MiEscuela/web/xava/images/save.gif -text
 MiEscuela/web/xava/images/search.gif -text
 MiEscuela/web/xava/images/show-filter.gif -text
 MiEscuela/web/xava/images/sort.gif -text
+MiEscuela/web/xava/images/spacer.gif -text
 MiEscuela/web/xava/images/summation.gif -text
 MiEscuela/web/xava/images/view.gif -text
 MiEscuela/web/xava/imports.jsp -text
@@ -2679,6 +2686,7 @@ MiEscuela/web/xava/style/cupertino/images/ui-icons_3d80b3_256x240.png -text
 MiEscuela/web/xava/style/cupertino/images/ui-icons_72a7cf_256x240.png -text
 MiEscuela/web/xava/style/cupertino/images/ui-icons_ffffff_256x240.png -text
 MiEscuela/web/xava/style/cupertino/jquery-ui.css -text
+MiEscuela/web/xava/style/custom.css -text svneol=unset#text/plain
 MiEscuela/web/xava/style/default.css -text svneol=unset#application/octet-stream
 MiEscuela/web/xava/style/ipad/images/add.gif -text
 MiEscuela/web/xava/style/ipad/images/ascending-white.gif -text
@@ -2994,6 +3002,7 @@ MySchool/web/WEB-INF/fonts/LICENSE -text svneol=unset#application/octet-stream
 MySchool/web/WEB-INF/lib/activation.jar -text
 MySchool/web/WEB-INF/lib/antlr.jar -text
 MySchool/web/WEB-INF/lib/asm.jar -text
+MySchool/web/WEB-INF/lib/autobizlogic.jar -text
 MySchool/web/WEB-INF/lib/cglib.jar -text
 MySchool/web/WEB-INF/lib/commons-beanutils.jar -text
 MySchool/web/WEB-INF/lib/commons-codec.jar -text
@@ -3001,6 +3010,7 @@ MySchool/web/WEB-INF/lib/commons-collections.jar -text
 MySchool/web/WEB-INF/lib/commons-digester.jar -text
 MySchool/web/WEB-INF/lib/commons-fileupload.jar -text
 MySchool/web/WEB-INF/lib/commons-io.jar -text
+MySchool/web/WEB-INF/lib/commons-jexl.jar -text
 MySchool/web/WEB-INF/lib/commons-lang.jar -text
 MySchool/web/WEB-INF/lib/commons-logging.jar -text
 MySchool/web/WEB-INF/lib/commons-validator.jar -text
@@ -3463,6 +3473,7 @@ MySchool/web/xava/images/save.gif -text
 MySchool/web/xava/images/search.gif -text
 MySchool/web/xava/images/show-filter.gif -text
 MySchool/web/xava/images/sort.gif -text
+MySchool/web/xava/images/spacer.gif -text
 MySchool/web/xava/images/summation.gif -text
 MySchool/web/xava/images/view.gif -text
 MySchool/web/xava/imports.jsp -text
@@ -3498,6 +3509,7 @@ MySchool/web/xava/style/cupertino/images/ui-icons_3d80b3_256x240.png -text
 MySchool/web/xava/style/cupertino/images/ui-icons_72a7cf_256x240.png -text
 MySchool/web/xava/style/cupertino/images/ui-icons_ffffff_256x240.png -text
 MySchool/web/xava/style/cupertino/jquery-ui.css -text
+MySchool/web/xava/style/custom.css -text svneol=unset#text/plain
 MySchool/web/xava/style/default.css -text svneol=unset#application/octet-stream
 MySchool/web/xava/style/ipad/images/add.gif -text
 MySchool/web/xava/style/ipad/images/ascending-white.gif -text
@@ -5371,28 +5383,6 @@ OpenXavaPlantilla/properties/xava-junit.properties -text
 OpenXavaPlantilla/properties/xava.properties -text
 OpenXavaPlantilla/src/src.txt -text
 OpenXavaPlantilla/xava/aplicacion.xml.plantilla -text
-OpenXavaPlantilla/xava/dtds/aplicacion.dtd -text
-OpenXavaPlantilla/xava/dtds/application.dtd -text
-OpenXavaPlantilla/xava/dtds/aspectos.dtd -text
-OpenXavaPlantilla/xava/dtds/aspects.dtd -text
-OpenXavaPlantilla/xava/dtds/code-generators.dtd -text
-OpenXavaPlantilla/xava/dtds/component.dtd -text
-OpenXavaPlantilla/xava/dtds/componente.dtd -text
-OpenXavaPlantilla/xava/dtds/controladores.dtd -text
-OpenXavaPlantilla/xava/dtds/controllers.dtd -text
-OpenXavaPlantilla/xava/dtds/conversores.dtd -text
-OpenXavaPlantilla/xava/dtds/converters.dtd -text
-OpenXavaPlantilla/xava/dtds/default-size.dtd -text
-OpenXavaPlantilla/xava/dtds/editores.dtd -text
-OpenXavaPlantilla/xava/dtds/editors.dtd -text
-OpenXavaPlantilla/xava/dtds/generadores-codigo.dtd -text
-OpenXavaPlantilla/xava/dtds/longitud-defecto.dtd -text
-OpenXavaPlantilla/xava/dtds/stereotype-type-default.dtd -text
-OpenXavaPlantilla/xava/dtds/tabs-default-values.dtd -text
-OpenXavaPlantilla/xava/dtds/tipo-estereotipo-defecto.dtd -text
-OpenXavaPlantilla/xava/dtds/validadores.dtd -text
-OpenXavaPlantilla/xava/dtds/validators.dtd -text
-OpenXavaPlantilla/xava/dtds/valores-defecto-tabs.dtd -text
 OpenXavaTemplate/.classpath -text
 OpenXavaTemplate/.project -text
 OpenXavaTemplate/.project.template -text
@@ -5416,28 +5406,6 @@ OpenXavaTemplate/properties/xava-junit.properties -text
 OpenXavaTemplate/properties/xava.properties -text
 OpenXavaTemplate/src/src.txt -text
 OpenXavaTemplate/xava/application.xml.template -text
-OpenXavaTemplate/xava/dtds/aplicacion.dtd -text
-OpenXavaTemplate/xava/dtds/application.dtd -text
-OpenXavaTemplate/xava/dtds/aspectos.dtd -text
-OpenXavaTemplate/xava/dtds/aspects.dtd -text
-OpenXavaTemplate/xava/dtds/code-generators.dtd -text
-OpenXavaTemplate/xava/dtds/component.dtd -text
-OpenXavaTemplate/xava/dtds/componente.dtd -text
-OpenXavaTemplate/xava/dtds/controladores.dtd -text
-OpenXavaTemplate/xava/dtds/controllers.dtd -text
-OpenXavaTemplate/xava/dtds/conversores.dtd -text
-OpenXavaTemplate/xava/dtds/converters.dtd -text
-OpenXavaTemplate/xava/dtds/default-size.dtd -text
-OpenXavaTemplate/xava/dtds/editores.dtd -text
-OpenXavaTemplate/xava/dtds/editors.dtd -text
-OpenXavaTemplate/xava/dtds/generadores-codigo.dtd -text
-OpenXavaTemplate/xava/dtds/longitud-defecto.dtd -text
-OpenXavaTemplate/xava/dtds/stereotype-type-default.dtd -text
-OpenXavaTemplate/xava/dtds/tabs-default-values.dtd -text
-OpenXavaTemplate/xava/dtds/tipo-estereotipo-defecto.dtd -text
-OpenXavaTemplate/xava/dtds/validadores.dtd -text
-OpenXavaTemplate/xava/dtds/validators.dtd -text
-OpenXavaTemplate/xava/dtds/valores-defecto-tabs.dtd -text
 OpenXavaTest/.classpath -text
 OpenXavaTest/.project -text
 OpenXavaTest/.settings/.component -text
