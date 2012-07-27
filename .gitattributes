@@ -4610,7 +4610,7 @@ OpenXava/web/barButton.jsp -text
 OpenXava/web/bottomButtons.jsp -text
 OpenXava/web/buttonBar.jsp -text
 OpenXava/web/calculatedCollectionList.jsp -text svneol=unset#text/plain
-OpenXava/web/collection.jsp -text
+OpenXava/web/collection.jsp -text svneol=unset#text/plain
 OpenXava/web/collectionFrameHeader.jsp -text svneol=unset#text/plain
 OpenXava/web/collectionList.jsp -text svneol=unset#text/plain
 OpenXava/web/comparatorsBooleanCombo.jsp -text
@@ -8774,10 +8774,12 @@ OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
