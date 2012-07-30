@@ -4499,6 +4499,7 @@ OpenXava/src/org/openxava/view/meta/xmlparse/ViewParser.java -text
 OpenXava/src/org/openxava/web/Actions.java -text
 OpenXava/src/org/openxava/web/Collections.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/DescriptionsLists.java -text
+OpenXava/src/org/openxava/web/EditorsJS.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/Ids.java -text
 OpenXava/src/org/openxava/web/WebEditors.java -text
 OpenXava/src/org/openxava/web/dwr/DWRBase.java -text
@@ -8790,6 +8791,7 @@ OpenXavaTest/web/WEB-INF/classes/code-generators.xml -text
 OpenXavaTest/web/WEB-INF/classes/controllers.xml -text
 OpenXavaTest/web/WEB-INF/classes/converters.xml -text
 OpenXavaTest/web/WEB-INF/classes/default-size.xml -text
+OpenXavaTest/web/WEB-INF/classes/editors-js.properties -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/classes/editors.xml -text
 OpenXavaTest/web/WEB-INF/classes/hibernate.cfg.xml -text
 OpenXavaTest/web/WEB-INF/classes/jndi.properties -text
