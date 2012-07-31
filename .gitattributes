@@ -4501,6 +4501,7 @@ OpenXava/src/org/openxava/web/Collections.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/DescriptionsLists.java -text
 OpenXava/src/org/openxava/web/EditorsJS.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/Ids.java -text
+OpenXava/src/org/openxava/web/Lists.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/WebEditors.java -text
 OpenXava/src/org/openxava/web/dwr/DWRBase.java -text
 OpenXava/src/org/openxava/web/dwr/Module.java -text
@@ -4624,9 +4625,9 @@ OpenXava/web/editor.jsp -text svneol=unset#text/plain
 OpenXava/web/editorIcons.jsp -text
 OpenXava/web/editorWrapper.jsp -text
 OpenXava/web/editors/actionEditor.jsp -text
-OpenXava/web/editors/addImages.jsp -text
+OpenXava/web/editors/addImages.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/boldLabelEditor.jsp -text
-OpenXava/web/editors/booleanEditor.jsp -text
+OpenXava/web/editors/booleanEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/calendar/calendar-blue.css -text
 OpenXava/web/editors/calendar/calendar-blue2.css -text
 OpenXava/web/editors/calendar/calendar-brown.css -text
@@ -4698,7 +4699,7 @@ OpenXava/web/editors/calendar/skins/aqua/status-bg.gif -text
 OpenXava/web/editors/calendar/skins/aqua/theme.css -text svneol=unset#text/plain
 OpenXava/web/editors/calendar/skins/aqua/title-bg.gif -text
 OpenXava/web/editors/calendar/skins/aqua/today-bg.gif -text
-OpenXava/web/editors/changeImage.jsp -text
+OpenXava/web/editors/changeImage.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/ckeditor/.htaccess -text
 OpenXava/web/editors/ckeditor/config.js -text svneol=unset#text/plain
 OpenXava/web/editors/ckeditor/contents.css -text svneol=unset#text/plain
@@ -4915,11 +4916,11 @@ OpenXava/web/editors/ckeditor/skins/v2/skin.js -text svneol=unset#text/plain
 OpenXava/web/editors/ckeditor/skins/v2/templates.css -text svneol=unset#text/plain
 OpenXava/web/editors/ckeditor/themes/default/theme.js -text svneol=unset#text/plain
 OpenXava/web/editors/collectionEditor.jsp -text svneol=unset#text/plain
-OpenXava/web/editors/dateCalendarEditor.jsp -text svneol=unset#application/octet-stream
-OpenXava/web/editors/dateTimeCombinedCalendarEditor.jsp -text
-OpenXava/web/editors/dateTimeSeparatedCalendarEditor.jsp -text
+OpenXava/web/editors/dateCalendarEditor.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/dateTimeCombinedCalendarEditor.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/dateTimeSeparatedCalendarEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/descriptionValidValuesEditor.jsp -text
-OpenXava/web/editors/descriptionsEditor.jsp -text
+OpenXava/web/editors/descriptionsEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/gallery.jsp -text
 OpenXava/web/editors/galleryEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/htmlEditor.jsp -text svneol=unset#text/plain
@@ -4938,14 +4939,14 @@ OpenXava/web/editors/liferayUploadFile.jsp -text
 OpenXava/web/editors/moneyEditor.jsp -text
 OpenXava/web/editors/notAvailableEditor.jsp -text
 OpenXava/web/editors/passwordEditor.jsp -text
-OpenXava/web/editors/radioButtonEditor.jsp -text
+OpenXava/web/editors/radioButtonEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/referenceEditor.jsp -text
 OpenXava/web/editors/textAreaEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/textEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/treeViewEditor.jsp -text
 OpenXava/web/editors/treeViewListEditor.jsp -text
 OpenXava/web/editors/validValueEditorCommon.jsp -text
-OpenXava/web/editors/validValuesEditor.jsp -text
+OpenXava/web/editors/validValuesEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/webURLEditor.jsp -text
 OpenXava/web/errors.jsp -text
 OpenXava/web/execute.jsp -text
