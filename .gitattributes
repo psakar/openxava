@@ -4949,7 +4949,7 @@ OpenXava/web/editors/validValueEditorCommon.jsp -text
 OpenXava/web/editors/validValuesEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/webURLEditor.jsp -text
 OpenXava/web/errors.jsp -text
-OpenXava/web/execute.jsp -text
+OpenXava/web/execute.jsp -text svneol=unset#text/plain
 OpenXava/web/frameActions.jsp -text
 OpenXava/web/htmlTagsEditor.jsp -text
 OpenXava/web/images/add.gif -text
