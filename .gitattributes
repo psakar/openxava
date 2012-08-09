@@ -8776,12 +8776,10 @@ OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
@@ -8792,7 +8790,6 @@ OpenXavaTest/web/WEB-INF/classes/code-generators.xml -text
 OpenXavaTest/web/WEB-INF/classes/controllers.xml -text
 OpenXavaTest/web/WEB-INF/classes/converters.xml -text
 OpenXavaTest/web/WEB-INF/classes/default-size.xml -text
-OpenXavaTest/web/WEB-INF/classes/editors-js.properties -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/classes/editors.xml -text
 OpenXavaTest/web/WEB-INF/classes/hibernate.cfg.xml -text
 OpenXavaTest/web/WEB-INF/classes/jndi.properties -text
