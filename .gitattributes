@@ -4053,6 +4053,7 @@ OpenXava/src/org/openxava/actions/SetSchemaAction.java -text
 OpenXava/src/org/openxava/actions/SetUserAction.java -text
 OpenXava/src/org/openxava/actions/ShowRowsAction.java -text
 OpenXava/src/org/openxava/actions/SimpleHTMLReportAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/SimpleTemplaterAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/SortColumnsAction.java -text
 OpenXava/src/org/openxava/actions/SumColumnAction.java -text
 OpenXava/src/org/openxava/actions/TabBaseAction.java -text
