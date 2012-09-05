@@ -8391,6 +8391,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/TransportCharge2.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/TransportCharge2Key.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/TransportChargeKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/TreeContainer.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/TreeContainerNoIdGeneration.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/TreeContainerNoOrder.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/TreeContainerPropertyBased.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/TreeItem.java -text
