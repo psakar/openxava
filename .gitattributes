@@ -8110,18 +8110,34 @@ OpenXavaTest/i18n/portlets/TransportCharge_ca.properties -text svneol=unset#text
 OpenXavaTest/i18n/portlets/TransportCharge_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TransportCharge_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TransportCharge_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeContainerNoIdGeneration_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeContainerNoIdGeneration_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeContainerNoIdGeneration_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeContainerNoIdGeneration_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TreeContainerNoOrder_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TreeContainerNoOrder_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TreeContainerNoOrder_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TreeContainerNoOrder_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeContainerPropertyBased_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeContainerPropertyBased_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeContainerPropertyBased_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeContainerPropertyBased_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TreeContainer_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TreeContainer_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TreeContainer_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TreeContainer_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeItemNoIdGeneration_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeItemNoIdGeneration_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeItemNoIdGeneration_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeItemNoIdGeneration_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TreeItemNoOrder_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TreeItemNoOrder_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TreeItemNoOrder_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TreeItemNoOrder_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeItemPropertyBased_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeItemPropertyBased_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeItemPropertyBased_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeItemPropertyBased_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TreeItemTwo_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TreeItemTwo_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TreeItemTwo_es.properties -text svneol=unset#text/plain
@@ -8134,6 +8150,10 @@ OpenXavaTest/i18n/portlets/TreeViewAlternateReader_ca.properties -text svneol=un
 OpenXavaTest/i18n/portlets/TreeViewAlternateReader_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TreeViewAlternateReader_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TreeViewAlternateReader_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeViewDefaultPathPropertyBased_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeViewDefaultPathPropertyBased_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeViewDefaultPathPropertyBased_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TreeViewDefaultPathPropertyBased_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TreeViewDefaultPath_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TreeViewDefaultPath_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/TreeViewDefaultPath_es.properties -text svneol=unset#text/plain
@@ -8146,6 +8166,10 @@ OpenXavaTest/i18n/portlets/Vehicle_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Vehicle_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Vehicle_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Vehicle_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Version_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Version_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Version_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Version_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/WallEntry_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/WallEntry_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/WallEntry_es.properties -text svneol=unset#text/plain
@@ -8418,6 +8442,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/WorkOrderRequisition.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/WorkOrderRequisitionDetail.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Worker.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Year.java -text
+OpenXavaTest/pojo-src/org/openxava/test/portlets/VersionPortlet.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/AnnotatedPOGOTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/AnnotatedPOJOTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ArtistTest.groovy -text
@@ -8484,6 +8509,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/TreeViewDefaultPathTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TreeViewNoDefaultPathTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TreeViewNoOrderTestBase.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TreeViewTestBase.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/VersionTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/WallTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/Warehouse2Test.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/WarehouseVoidTest.groovy -text
@@ -8791,10 +8817,12 @@ OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
+OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
@@ -8805,6 +8833,7 @@ OpenXavaTest/web/WEB-INF/classes/code-generators.xml -text
 OpenXavaTest/web/WEB-INF/classes/controllers.xml -text
 OpenXavaTest/web/WEB-INF/classes/converters.xml -text
 OpenXavaTest/web/WEB-INF/classes/default-size.xml -text
+OpenXavaTest/web/WEB-INF/classes/editors-js.properties -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/classes/editors.xml -text
 OpenXavaTest/web/WEB-INF/classes/hibernate.cfg.xml -text
 OpenXavaTest/web/WEB-INF/classes/jndi.properties -text
@@ -8858,8 +8887,10 @@ OpenXavaTest/web/WEB-INF/lib/smtp.jar -text
 OpenXavaTest/web/WEB-INF/lib/standard.jar -text
 OpenXavaTest/web/WEB-INF/lib/tracking.jar -text
 OpenXavaTest/web/WEB-INF/lib/validation-api.jar -text
+OpenXavaTest/web/WEB-INF/liferay-display-ext.xml -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/liferay-display.xml -text
 OpenXavaTest/web/WEB-INF/openxava.tld -text
+OpenXavaTest/web/WEB-INF/portlet-ext.xml -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/portlet.xml -text
 OpenXavaTest/web/WEB-INF/servlets.xml -text
 OpenXavaTest/web/WEB-INF/web.xml -text
