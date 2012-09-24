@@ -4126,6 +4126,8 @@ OpenXava/src/org/openxava/annotations/RemoveSelectedActions.java -text
 OpenXava/src/org/openxava/annotations/RemoveValidator.java -text
 OpenXava/src/org/openxava/annotations/RemoveValidators.java -text
 OpenXava/src/org/openxava/annotations/Required.java -text
+OpenXava/src/org/openxava/annotations/RowAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/annotations/RowActions.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/annotations/RowStyle.java -text
 OpenXava/src/org/openxava/annotations/RowStyles.java -text
 OpenXava/src/org/openxava/annotations/SaveAction.java -text
@@ -5309,8 +5311,8 @@ OpenXava/xava/dtds/application.dtd -text
 OpenXava/xava/dtds/aspectos.dtd -text
 OpenXava/xava/dtds/aspects.dtd -text
 OpenXava/xava/dtds/code-generators.dtd -text
-OpenXava/xava/dtds/component.dtd -text
-OpenXava/xava/dtds/componente.dtd -text
+OpenXava/xava/dtds/component.dtd -text svneol=unset#text/plain
+OpenXava/xava/dtds/componente.dtd -text svneol=unset#text/plain
 OpenXava/xava/dtds/controladores.dtd -text
 OpenXava/xava/dtds/controllers.dtd -text
 OpenXava/xava/dtds/conversores.dtd -text
@@ -8604,6 +8606,7 @@ OpenXavaTest/src/org/openxava/test/actions/OnChangeWarehouseAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnSelectFellowCarriersCalculatedAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnSelectIngredientAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/PrefixAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/ReduceOrderDetailQuantityAction.groovy -text
 OpenXavaTest/src/org/openxava/test/actions/RemoveActionsAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/RemoveDeliveryDetailAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/RemoveSelectedDeliveryDetailsAction.java -text
