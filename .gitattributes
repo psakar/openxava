@@ -3787,7 +3787,7 @@ OpenXava/.settings/org.eclipse.jdt.core.prefs -text
 OpenXava/.settings/org.eclipse.wst.common.project.facet.core.xml -text
 OpenXava/.settings/org.eclipse.wst.validation.prefs -text
 OpenXava/.vcm_meta -text svneol=unset#application/octet-stream
-OpenXava/build.xml -text
+OpenXava/build.xml -text svneol=unset#text/plain
 OpenXava/build/jboss-app.xml -text
 OpenXava/build/server-properties/BeansContext.properties -text
 OpenXava/build/server-properties/EJBContextFactory.properties -text
@@ -4618,10 +4618,6 @@ OpenXava/web/calculatedCollectionList.jsp -text svneol=unset#text/plain
 OpenXava/web/collection.jsp -text svneol=unset#text/plain
 OpenXava/web/collectionFrameHeader.jsp -text svneol=unset#text/plain
 OpenXava/web/collectionList.jsp -text svneol=unset#text/plain
-OpenXava/web/comparatorsBooleanCombo.jsp -text
-OpenXava/web/comparatorsCombo.jsp -text
-OpenXava/web/comparatorsDescriptionsList.jsp -text
-OpenXava/web/comparatorsValidValuesCombo.jsp -text
 OpenXava/web/core.jsp -text svneol=unset#text/plain
 OpenXava/web/detail.jsp -text svneol=unset#text/plain
 OpenXava/web/editor.jsp -text svneol=unset#text/plain
@@ -4919,6 +4915,10 @@ OpenXava/web/editors/ckeditor/skins/v2/skin.js -text svneol=unset#text/plain
 OpenXava/web/editors/ckeditor/skins/v2/templates.css -text svneol=unset#text/plain
 OpenXava/web/editors/ckeditor/themes/default/theme.js -text svneol=unset#text/plain
 OpenXava/web/editors/collectionEditor.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/comparatorsBooleanCombo.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/comparatorsCombo.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/comparatorsDescriptionsList.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/comparatorsValidValuesCombo.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/dateCalendarEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/dateTimeCombinedCalendarEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/dateTimeSeparatedCalendarEditor.jsp -text svneol=unset#text/plain
@@ -4939,6 +4939,7 @@ OpenXava/web/editors/js/yahoo-treeview-min.js -text
 OpenXava/web/editors/labelEditor.jsp -text
 OpenXava/web/editors/liferayDocumentLibraryEditor.jsp -text
 OpenXava/web/editors/liferayUploadFile.jsp -text
+OpenXava/web/editors/listEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/moneyEditor.jsp -text
 OpenXava/web/editors/notAvailableEditor.jsp -text
 OpenXava/web/editors/passwordEditor.jsp -text
@@ -8240,6 +8241,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/AddActionToProperyAction.groovy 
 OpenXavaTest/pojo-src/org/openxava/test/actions/AddSuffixAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/AddToNameAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ChangeName.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/CorporationEmployeeListFilterAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/FamilyProductsReportAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/GoChangeName.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/GoDescriptionAction.groovy -text
@@ -8695,6 +8697,7 @@ OpenXavaTest/src/org/openxava/test/tests/ColorM1Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/ColorTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ColorWithGroupsAndChangeControllersTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ConversionFactorTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/CustomerCardListTest.groovy -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerContactPersonAsAggregate3LevelsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerContactPersonTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerNewOnInitInheritedTest.java -text
@@ -8820,12 +8823,10 @@ OpenXavaTest/test-images/foto_javi.jpg -text
 OpenXavaTest/tomcat-as400.properties -text
 OpenXavaTest/tomcat-hypersonic.properties -text
 OpenXavaTest/web/META-INF/MANIFEST.MF -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels.properties -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_es.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-labels_fr.properties -text
-OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages.properties -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_ca.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_en.properties -text
 OpenXavaTest/web/WEB-INF/classes/OpenXavaTest-messages_es.properties -text
@@ -8836,7 +8837,6 @@ OpenXavaTest/web/WEB-INF/classes/code-generators.xml -text
 OpenXavaTest/web/WEB-INF/classes/controllers.xml -text
 OpenXavaTest/web/WEB-INF/classes/converters.xml -text
 OpenXavaTest/web/WEB-INF/classes/default-size.xml -text
-OpenXavaTest/web/WEB-INF/classes/editors-js.properties -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/classes/editors.xml -text
 OpenXavaTest/web/WEB-INF/classes/hibernate.cfg.xml -text
 OpenXavaTest/web/WEB-INF/classes/jndi.properties -text
@@ -8917,10 +8917,6 @@ OpenXavaTest/web/xava/calculatedCollectionList.jsp -text
 OpenXavaTest/web/xava/collection.jsp -text
 OpenXavaTest/web/xava/collectionFrameHeader.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/collectionList.jsp -text
-OpenXavaTest/web/xava/comparatorsBooleanCombo.jsp -text
-OpenXavaTest/web/xava/comparatorsCombo.jsp -text
-OpenXavaTest/web/xava/comparatorsDescriptionsList.jsp -text
-OpenXavaTest/web/xava/comparatorsValidValuesCombo.jsp -text
 OpenXavaTest/web/xava/core.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/detail.jsp -text
 OpenXavaTest/web/xava/editor.jsp -text
@@ -9220,10 +9216,16 @@ OpenXavaTest/web/xava/editors/ckeditor/skins/v2/images/toolbar_start.gif -text
 OpenXavaTest/web/xava/editors/ckeditor/skins/v2/skin.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/ckeditor/skins/v2/templates.css -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/ckeditor/themes/default/theme.js -text svneol=unset#text/plain
-OpenXavaTest/web/xava/editors/collectionEditor.jsp -text
+OpenXavaTest/web/xava/editors/collectionEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/colorEditor.jsp -text
 OpenXavaTest/web/xava/editors/colorFrameEditor.jsp -text
+OpenXavaTest/web/xava/editors/comparatorsBooleanCombo.jsp -text
+OpenXavaTest/web/xava/editors/comparatorsCombo.jsp -text
+OpenXavaTest/web/xava/editors/comparatorsDescriptionsList.jsp -text
+OpenXavaTest/web/xava/editors/comparatorsValidValuesCombo.jsp -text
+OpenXavaTest/web/xava/editors/corporationEmployeeListEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/currentTimeMillisEditor.jsp -text
+OpenXavaTest/web/xava/editors/customerCardListEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/dateCalendarEditor.jsp -text
 OpenXavaTest/web/xava/editors/dateTimeCombinedCalendarEditor.jsp -text
 OpenXavaTest/web/xava/editors/dateTimeSeparatedCalendarEditor.jsp -text
@@ -9244,6 +9246,7 @@ OpenXavaTest/web/xava/editors/js/yahoo-treeview-min.js -text
 OpenXavaTest/web/xava/editors/labelEditor.jsp -text
 OpenXavaTest/web/xava/editors/liferayDocumentLibraryEditor.jsp -text
 OpenXavaTest/web/xava/editors/liferayUploadFile.jsp -text
+OpenXavaTest/web/xava/editors/listEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/moneyEditor.jsp -text
 OpenXavaTest/web/xava/editors/notAvailableEditor.jsp -text
 OpenXavaTest/web/xava/editors/passwordEditor.jsp -text
@@ -9345,7 +9348,7 @@ OpenXavaTest/web/xava/js/jquery-ui.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/js/jquery.bgiframe.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/js/jquery.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/js/openxava.js -text
-OpenXavaTest/web/xava/list.jsp -text
+OpenXavaTest/web/xava/list.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/messages.jsp -text
 OpenXavaTest/web/xava/module.jsp -text
 OpenXavaTest/web/xava/portlet.jsp -text
@@ -9636,8 +9639,8 @@ OpenXavaTest/xava/dtds/controllers.dtd -text
 OpenXavaTest/xava/dtds/conversores.dtd -text
 OpenXavaTest/xava/dtds/converters.dtd -text
 OpenXavaTest/xava/dtds/default-size.dtd -text
-OpenXavaTest/xava/dtds/editores.dtd -text
-OpenXavaTest/xava/dtds/editors.dtd -text
+OpenXavaTest/xava/dtds/editores.dtd -text svneol=unset#text/plain
+OpenXavaTest/xava/dtds/editors.dtd -text svneol=unset#text/plain
 OpenXavaTest/xava/dtds/generadores-codigo.dtd -text
 OpenXavaTest/xava/dtds/longitud-defecto.dtd -text
 OpenXavaTest/xava/dtds/stereotype-type-default.dtd -text
