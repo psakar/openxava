@@ -3957,8 +3957,6 @@ OpenXava/src/org/openxava/actions/CreateNewElementInCollectionAction.java -text
 OpenXava/src/org/openxava/actions/CreateNewElementInManyToManyCollectionAction.java -text
 OpenXava/src/org/openxava/actions/CreateNewFromReferenceAction.java -text
 OpenXava/src/org/openxava/actions/CustomReportAction.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/actions/CustomReportColumnDownAction.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/actions/CustomReportColumnUpAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/CustomizeListAction.java -text
 OpenXava/src/org/openxava/actions/DeleteAction.java -text
 OpenXava/src/org/openxava/actions/DeleteImageAction.java -text
@@ -4019,6 +4017,7 @@ OpenXava/src/org/openxava/actions/MinimizeImageAction.java -text
 OpenXava/src/org/openxava/actions/ModifyFromReferenceAction.java -text
 OpenXava/src/org/openxava/actions/MoveColumnToLeftAction.java -text
 OpenXava/src/org/openxava/actions/MoveColumnToRightAction.java -text
+OpenXava/src/org/openxava/actions/MoveCustomReportColumnAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/NavigationAction.java -text
 OpenXava/src/org/openxava/actions/NavigationFromReferenceBaseAction.java -text
 OpenXava/src/org/openxava/actions/NewAction.java -text
@@ -4337,8 +4336,6 @@ OpenXava/src/org/openxava/model/impl/POJOPersistenceProviderBase.java -text
 OpenXava/src/org/openxava/model/impl/POJOPropertiesContainerAdapter.java -text
 OpenXava/src/org/openxava/model/impl/PersistenceProviderException.java -text
 OpenXava/src/org/openxava/model/impl/PersistenceProviderFactory.java -text
-OpenXava/src/org/openxava/model/inner/CustomReport.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/model/inner/CustomReportColumn.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/model/meta/DefaultSize.java -text
 OpenXava/src/org/openxava/model/meta/MetaAggregate.java -text
 OpenXava/src/org/openxava/model/meta/MetaAggregateForCollection.java -text
@@ -4359,6 +4356,8 @@ OpenXava/src/org/openxava/model/meta/xmlparse/CalculatorParser.java -text
 OpenXava/src/org/openxava/model/meta/xmlparse/DefaultSizeParser.java -text
 OpenXava/src/org/openxava/model/meta/xmlparse/ModelParser.java -text
 OpenXava/src/org/openxava/model/meta/xmlparse/StereotypeTypeDefaultParser.java -text
+OpenXava/src/org/openxava/session/CustomReport.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/session/CustomReportColumn.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/session/Gallery.java -text
 OpenXava/src/org/openxava/session/GalleryImage.java -text
 OpenXava/src/org/openxava/session/LiferayDocument.java -text
@@ -4642,6 +4641,7 @@ OpenXava/web/editors/actionEditor.jsp -text
 OpenXava/web/editors/addImages.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/boldLabelEditor.jsp -text
 OpenXava/web/editors/booleanEditor.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/booleanYesNoEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/calendar/calendar-blue.css -text
 OpenXava/web/editors/calendar/calendar-blue2.css -text
 OpenXava/web/editors/calendar/calendar-brown.css -text
@@ -4934,12 +4934,13 @@ OpenXava/web/editors/comparatorsBooleanCombo.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/comparatorsCombo.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/comparatorsDescriptionsList.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/comparatorsValidValuesCombo.jsp -text svneol=unset#text/plain
-OpenXava/web/editors/customReportColumnEditor.jsp -text svneol=unset#text/plain
-OpenXava/web/editors/customReportComparatorEditor.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/customReportColumnComparatorEditor.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/customReportColumnNameEditor.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/customReportColumnValidValuesValueEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/dateCalendarEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/dateTimeCombinedCalendarEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/dateTimeSeparatedCalendarEditor.jsp -text svneol=unset#text/plain
-OpenXava/web/editors/descriptionValidValuesEditor.jsp -text
+OpenXava/web/editors/descriptionValidValuesEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/descriptionsEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/gallery.jsp -text
 OpenXava/web/editors/galleryEditor.jsp -text svneol=unset#text/plain
@@ -8945,6 +8946,7 @@ OpenXavaTest/web/xava/editors/blogCommentsEditor.jsp -text
 OpenXavaTest/web/xava/editors/blogCommentsListEditor.jsp -text
 OpenXavaTest/web/xava/editors/boldLabelEditor.jsp -text
 OpenXavaTest/web/xava/editors/booleanEditor.jsp -text
+OpenXavaTest/web/xava/editors/booleanYesNoEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/calendar/calendar-blue.css -text
 OpenXavaTest/web/xava/editors/calendar/calendar-blue2.css -text
 OpenXavaTest/web/xava/editors/calendar/calendar-brown.css -text
@@ -9242,8 +9244,9 @@ OpenXavaTest/web/xava/editors/comparatorsDescriptionsList.jsp -text
 OpenXavaTest/web/xava/editors/comparatorsValidValuesCombo.jsp -text
 OpenXavaTest/web/xava/editors/corporationEmployeeListEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/currentTimeMillisEditor.jsp -text
-OpenXavaTest/web/xava/editors/customReportColumnEditor.jsp -text svneol=unset#text/plain
-OpenXavaTest/web/xava/editors/customReportComparatorEditor.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/customReportColumnComparatorEditor.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/customReportColumnNameEditor.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/customReportColumnValidValuesValueEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/customerCardListEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/dateCalendarEditor.jsp -text
 OpenXavaTest/web/xava/editors/dateTimeCombinedCalendarEditor.jsp -text
