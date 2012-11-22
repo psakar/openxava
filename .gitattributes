@@ -195,6 +195,7 @@ AccessTracking/web/xava/editors/actionEditor.jsp -text
 AccessTracking/web/xava/editors/addImages.jsp -text
 AccessTracking/web/xava/editors/boldLabelEditor.jsp -text
 AccessTracking/web/xava/editors/booleanEditor.jsp -text
+AccessTracking/web/xava/editors/booleanYesNoEditor.jsp -text svneol=unset#text/plain
 AccessTracking/web/xava/editors/calendar/calendar-blue.css -text
 AccessTracking/web/xava/editors/calendar/calendar-blue2.css -text
 AccessTracking/web/xava/editors/calendar/calendar-brown.css -text
@@ -483,6 +484,13 @@ AccessTracking/web/xava/editors/ckeditor/skins/v2/skin.js -text svneol=unset#tex
 AccessTracking/web/xava/editors/ckeditor/skins/v2/templates.css -text svneol=unset#text/plain
 AccessTracking/web/xava/editors/ckeditor/themes/default/theme.js -text svneol=unset#text/plain
 AccessTracking/web/xava/editors/collectionEditor.jsp -text
+AccessTracking/web/xava/editors/comparatorsBooleanCombo.jsp -text svneol=unset#text/plain
+AccessTracking/web/xava/editors/comparatorsCombo.jsp -text svneol=unset#text/plain
+AccessTracking/web/xava/editors/comparatorsDescriptionsList.jsp -text svneol=unset#text/plain
+AccessTracking/web/xava/editors/comparatorsValidValuesCombo.jsp -text svneol=unset#text/plain
+AccessTracking/web/xava/editors/customReportColumnComparatorEditor.jsp -text svneol=unset#text/plain
+AccessTracking/web/xava/editors/customReportColumnNameEditor.jsp -text svneol=unset#text/plain
+AccessTracking/web/xava/editors/customReportColumnValidValuesValueEditor.jsp -text svneol=unset#text/plain
 AccessTracking/web/xava/editors/dateCalendarEditor.jsp -text
 AccessTracking/web/xava/editors/dateTimeCombinedCalendarEditor.jsp -text
 AccessTracking/web/xava/editors/dateTimeSeparatedCalendarEditor.jsp -text
@@ -503,6 +511,7 @@ AccessTracking/web/xava/editors/js/yahoo-treeview-min.js -text
 AccessTracking/web/xava/editors/labelEditor.jsp -text
 AccessTracking/web/xava/editors/liferayDocumentLibraryEditor.jsp -text
 AccessTracking/web/xava/editors/liferayUploadFile.jsp -text
+AccessTracking/web/xava/editors/listEditor.jsp -text svneol=unset#text/plain
 AccessTracking/web/xava/editors/moneyEditor.jsp -text
 AccessTracking/web/xava/editors/notAvailableEditor.jsp -text
 AccessTracking/web/xava/editors/passwordEditor.jsp -text
@@ -2246,6 +2255,7 @@ MiEscuela/web/xava/editors/actionEditor.jsp -text
 MiEscuela/web/xava/editors/addImages.jsp -text
 MiEscuela/web/xava/editors/boldLabelEditor.jsp -text
 MiEscuela/web/xava/editors/booleanEditor.jsp -text
+MiEscuela/web/xava/editors/booleanYesNoEditor.jsp -text svneol=unset#text/plain
 MiEscuela/web/xava/editors/calendar/calendar-blue.css -text
 MiEscuela/web/xava/editors/calendar/calendar-blue2.css -text
 MiEscuela/web/xava/editors/calendar/calendar-brown.css -text
@@ -2534,6 +2544,13 @@ MiEscuela/web/xava/editors/ckeditor/skins/v2/skin.js -text svneol=unset#text/pla
 MiEscuela/web/xava/editors/ckeditor/skins/v2/templates.css -text svneol=unset#text/plain
 MiEscuela/web/xava/editors/ckeditor/themes/default/theme.js -text svneol=unset#text/plain
 MiEscuela/web/xava/editors/collectionEditor.jsp -text
+MiEscuela/web/xava/editors/comparatorsBooleanCombo.jsp -text svneol=unset#text/plain
+MiEscuela/web/xava/editors/comparatorsCombo.jsp -text svneol=unset#text/plain
+MiEscuela/web/xava/editors/comparatorsDescriptionsList.jsp -text svneol=unset#text/plain
+MiEscuela/web/xava/editors/comparatorsValidValuesCombo.jsp -text svneol=unset#text/plain
+MiEscuela/web/xava/editors/customReportColumnComparatorEditor.jsp -text svneol=unset#text/plain
+MiEscuela/web/xava/editors/customReportColumnNameEditor.jsp -text svneol=unset#text/plain
+MiEscuela/web/xava/editors/customReportColumnValidValuesValueEditor.jsp -text svneol=unset#text/plain
 MiEscuela/web/xava/editors/dateCalendarEditor.jsp -text
 MiEscuela/web/xava/editors/dateTimeCalendarEditor.jsp -text
 MiEscuela/web/xava/editors/dateTimeCombinedCalendarEditor.jsp -text
@@ -2555,6 +2572,7 @@ MiEscuela/web/xava/editors/js/yahoo-treeview-min.js -text
 MiEscuela/web/xava/editors/labelEditor.jsp -text
 MiEscuela/web/xava/editors/liferayDocumentLibraryEditor.jsp -text
 MiEscuela/web/xava/editors/liferayUploadFile.jsp -text
+MiEscuela/web/xava/editors/listEditor.jsp -text svneol=unset#text/plain
 MiEscuela/web/xava/editors/moneyEditor.jsp -text
 MiEscuela/web/xava/editors/notAvailableEditor.jsp -text
 MiEscuela/web/xava/editors/passwordEditor.jsp -text
@@ -3069,6 +3087,7 @@ MySchool/web/xava/editors/actionEditor.jsp -text
 MySchool/web/xava/editors/addImages.jsp -text
 MySchool/web/xava/editors/boldLabelEditor.jsp -text
 MySchool/web/xava/editors/booleanEditor.jsp -text
+MySchool/web/xava/editors/booleanYesNoEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/calendar/calendar-blue.css -text
 MySchool/web/xava/editors/calendar/calendar-blue2.css -text
 MySchool/web/xava/editors/calendar/calendar-brown.css -text
@@ -3357,6 +3376,13 @@ MySchool/web/xava/editors/ckeditor/skins/v2/skin.js -text svneol=unset#text/plai
 MySchool/web/xava/editors/ckeditor/skins/v2/templates.css -text svneol=unset#text/plain
 MySchool/web/xava/editors/ckeditor/themes/default/theme.js -text svneol=unset#text/plain
 MySchool/web/xava/editors/collectionEditor.jsp -text
+MySchool/web/xava/editors/comparatorsBooleanCombo.jsp -text svneol=unset#text/plain
+MySchool/web/xava/editors/comparatorsCombo.jsp -text svneol=unset#text/plain
+MySchool/web/xava/editors/comparatorsDescriptionsList.jsp -text svneol=unset#text/plain
+MySchool/web/xava/editors/comparatorsValidValuesCombo.jsp -text svneol=unset#text/plain
+MySchool/web/xava/editors/customReportColumnComparatorEditor.jsp -text svneol=unset#text/plain
+MySchool/web/xava/editors/customReportColumnNameEditor.jsp -text svneol=unset#text/plain
+MySchool/web/xava/editors/customReportColumnValidValuesValueEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/dateCalendarEditor.jsp -text
 MySchool/web/xava/editors/dateTimeCalendarEditor.jsp -text
 MySchool/web/xava/editors/dateTimeCombinedCalendarEditor.jsp -text
@@ -3378,6 +3404,7 @@ MySchool/web/xava/editors/js/yahoo-treeview-min.js -text
 MySchool/web/xava/editors/labelEditor.jsp -text
 MySchool/web/xava/editors/liferayDocumentLibraryEditor.jsp -text
 MySchool/web/xava/editors/liferayUploadFile.jsp -text
+MySchool/web/xava/editors/listEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/moneyEditor.jsp -text
 MySchool/web/xava/editors/notAvailableEditor.jsp -text
 MySchool/web/xava/editors/passwordEditor.jsp -text
