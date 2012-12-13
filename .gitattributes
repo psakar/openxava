@@ -4495,6 +4495,7 @@ OpenXava/src/org/openxava/validators/IPropertyValidator.java -text
 OpenXava/src/org/openxava/validators/IRemoveValidator.java -text
 OpenXava/src/org/openxava/validators/ISBNValidator.java -text
 OpenXava/src/org/openxava/validators/IValidator.java -text
+OpenXava/src/org/openxava/validators/IWithMessage.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/validators/MinimumSizeValidator.java -text
 OpenXava/src/org/openxava/validators/MoneyScaleValidator.java -text
 OpenXava/src/org/openxava/validators/NotBlankCharacterValidator.java -text
@@ -8582,6 +8583,8 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/Warehouse2Test.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/WarehouseVoidTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/WorkOrderTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/types/RegionsType.java -text
+OpenXavaTest/pojo-src/org/openxava/test/validators/BookTitleValidator.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/validators/BookValidator.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/validators/ChildValidator.java -text
 OpenXavaTest/pojo-src/org/openxava/test/validators/DeliveryPlaceValidator.java -text
 OpenXavaTest/pojo-src/org/openxava/test/validators/DeliveryTypeRemoveValidator.java -text
