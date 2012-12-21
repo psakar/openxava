@@ -5249,7 +5249,7 @@ OpenXava/web/style/liferay43/images/portlet/refresh.png -text
 OpenXava/web/style/liferay43/images/portlet/restore.png -text
 OpenXava/web/style/liferay43/images/progress_bar/loading_animation.gif -text
 OpenXava/web/style/liferay51/css/everything_unpacked.css -text
-OpenXava/web/style/liferay51/css/jquery-ui-patch.css -text
+OpenXava/web/style/liferay51/css/jquery-ui-patch.css -text svneol=unset#text/plain
 OpenXava/web/style/liferay51/images/application/close.png -text
 OpenXava/web/style/liferay51/images/application/close_small.png -text
 OpenXava/web/style/liferay51/images/application/datepicker_next.png -text
