@@ -6976,6 +6976,7 @@ OpenXavaTest/.classpath -text
 OpenXavaTest/.project -text
 OpenXavaTest/.settings/.component -text
 OpenXavaTest/.settings/org.eclipse.jdt.core.prefs -text
+OpenXavaTest/.settings/org.eclipse.jdt.groovy.core.prefs -text svneol=unset#text/plain
 OpenXavaTest/.settings/org.eclipse.wst.common.project.facet.core.xml -text
 OpenXavaTest/.settings/org.eclipse.wst.validation.prefs -text
 OpenXavaTest/build.xml -text
@@ -8536,6 +8537,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/DrivingLicenceTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ElClienteTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/EmployeeTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ExperienceTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/ExperienceWithSimplestProgrammerTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/FilterBySubfamilyAndYearTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/GoCustomerInvoicesTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/GoDescriptionTest.groovy -text
