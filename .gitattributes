@@ -4643,7 +4643,7 @@ OpenXava/web/addColumns.jsp -text
 OpenXava/web/addToCollection.jsp -text svneol=unset#text/plain
 OpenXava/web/barButton.jsp -text
 OpenXava/web/bottomButtons.jsp -text
-OpenXava/web/buttonBar.jsp -text
+OpenXava/web/buttonBar.jsp -text svneol=unset#text/plain
 OpenXava/web/calculatedCollectionList.jsp -text svneol=unset#text/plain
 OpenXava/web/collection.jsp -text svneol=unset#text/plain
 OpenXava/web/collectionFrameHeader.jsp -text svneol=unset#text/plain
@@ -8980,7 +8980,7 @@ OpenXavaTest/web/xava/addColumns.jsp -text
 OpenXavaTest/web/xava/addToCollection.jsp -text
 OpenXavaTest/web/xava/barButton.jsp -text
 OpenXavaTest/web/xava/bottomButtons.jsp -text
-OpenXavaTest/web/xava/buttonBar.jsp -text
+OpenXavaTest/web/xava/buttonBar.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/calculatedCollectionList.jsp -text
 OpenXavaTest/web/xava/collection.jsp -text
 OpenXavaTest/web/xava/collectionFrameHeader.jsp -text svneol=unset#text/plain
