@@ -8665,6 +8665,7 @@ OpenXavaTest/src/org/openxava/test/actions/OnChangeCarrierInDeliveryAction.java 
 OpenXavaTest/src/org/openxava/test/actions/OnChangeDeliveryTypeAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeFamilyAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeInvoiceNumberInDeliveryAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/OnChangeInvoiceYearAction.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/actions/OnChangePreferredWarehouseAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeProduct3DescriptionAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/OnChangeProductUnitPriceAction.java -text
