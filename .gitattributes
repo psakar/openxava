@@ -7249,7 +7249,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/Worker.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Year.java -text
 OpenXavaTest/gen-src-xava/packages.properties -text
 OpenXavaTest/hibernate/Family.hbm.xml -text
-OpenXavaTest/hibernate/META-INF/persistence.xml.anulado -text
+OpenXavaTest/hibernate/META-INF/persistence.xml -text
 OpenXavaTest/hibernate/hibernate-jpa-junit.cfg.xml -text
 OpenXavaTest/hibernate/hibernate-jpa.cfg.xml -text
 OpenXavaTest/hibernate/hibernate-junit.cfg.xml -text
