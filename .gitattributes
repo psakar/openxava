@@ -4562,6 +4562,7 @@ OpenXava/src/org/openxava/web/layout/LayoutJspKeys.java -text
 OpenXava/src/org/openxava/web/layout/LayoutJspUtils.java -text
 OpenXava/src/org/openxava/web/layout/LayoutKeys.java -text
 OpenXava/src/org/openxava/web/layout/LayoutPainterManager.java -text
+OpenXava/src/org/openxava/web/layout/LayoutPreferences.java -text
 OpenXava/src/org/openxava/web/meta/MetaEditor.java -text
 OpenXava/src/org/openxava/web/meta/MetaWebEditors.java -text
 OpenXava/src/org/openxava/web/meta/xmlparse/EditorsParser.java -text
@@ -8606,6 +8607,7 @@ OpenXavaTest/properties/jndi-websphere.properties -text
 OpenXavaTest/properties/jndi.properties -text
 OpenXavaTest/properties/logging.properties -text
 OpenXavaTest/properties/xava-junit.properties -text
+OpenXavaTest/properties/xava-layout.properties -text
 OpenXavaTest/properties/xava.properties -text
 OpenXavaTest/reports/Corporation.html -text svneol=unset#text/plain
 OpenXavaTest/reports/CorporationEmployee.html -text svneol=unset#text/plain
@@ -8613,6 +8615,12 @@ OpenXavaTest/reports/Customer.jrxml -text
 OpenXavaTest/reports/Invoice.jrxml -text
 OpenXavaTest/reports/InvoiceNoVAT.jrxml -text
 OpenXavaTest/reports/Products.jrxml -text
+OpenXavaTest/selenium-tests/DefaultLayoutRenderer.case -text
+OpenXavaTest/selenium-tests/FramesAndPropertyOnSameRow.case -text
+OpenXavaTest/selenium-tests/FramesOnSameRow.case -text
+OpenXavaTest/selenium-tests/README.txt -text
+OpenXavaTest/selenium-tests/Renderer.suite -text
+OpenXavaTest/selenium-tests/ThreeFramesOnSameRow.case -text
 OpenXavaTest/src/org/openxava/test/actions/ActivateDeactivateSectionAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/AddActionsAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/AddFullAddressAction.java -text
