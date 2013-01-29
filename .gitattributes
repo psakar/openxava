@@ -4562,7 +4562,6 @@ OpenXava/src/org/openxava/web/layout/LayoutJspKeys.java -text
 OpenXava/src/org/openxava/web/layout/LayoutJspUtils.java -text
 OpenXava/src/org/openxava/web/layout/LayoutKeys.java -text
 OpenXava/src/org/openxava/web/layout/LayoutPainterManager.java -text
-OpenXava/src/org/openxava/web/layout/LayoutPreferences.java -text
 OpenXava/src/org/openxava/web/meta/MetaEditor.java -text
 OpenXava/src/org/openxava/web/meta/MetaWebEditors.java -text
 OpenXava/src/org/openxava/web/meta/xmlparse/EditorsParser.java -text
@@ -8607,7 +8606,6 @@ OpenXavaTest/properties/jndi-websphere.properties -text
 OpenXavaTest/properties/jndi.properties -text
 OpenXavaTest/properties/logging.properties -text
 OpenXavaTest/properties/xava-junit.properties -text
-OpenXavaTest/properties/xava-layout.properties -text
 OpenXavaTest/properties/xava.properties -text
 OpenXavaTest/reports/Corporation.html -text svneol=unset#text/plain
 OpenXavaTest/reports/CorporationEmployee.html -text svneol=unset#text/plain
