@@ -9022,7 +9022,6 @@ OpenXavaTest/web/WEB-INF/web.xml -text
 OpenXavaTest/web/custom-jsp/deliveryType.jsp -text
 OpenXavaTest/web/custom-jsp/goShowSeller.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/custom-jsp/proposeName.jsp -text
-OpenXavaTest/web/custom-jsp/seller.jsp -text
 OpenXavaTest/web/custom-jsp/sellerWithDescriptionsList.jsp -text
 OpenXavaTest/web/custom-jsp/showSeller.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/doc/description_en.html -text
@@ -9030,6 +9029,7 @@ OpenXavaTest/web/doc/description_es.html -text
 OpenXavaTest/web/help/Color_en.html -text
 OpenXavaTest/web/help/Color_es.html -text
 OpenXavaTest/web/public/myPublicJSP.jsp -text
+OpenXavaTest/web/seller.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/addColumns.jsp -text
 OpenXavaTest/web/xava/addToCollection.jsp -text
 OpenXavaTest/web/xava/barButton.jsp -text
