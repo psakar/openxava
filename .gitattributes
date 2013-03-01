@@ -8743,6 +8743,7 @@ OpenXavaTest/src/org/openxava/test/actions/SaveTaskAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SearchDeliveryAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SearchInvoiceFromDeliveryAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SeeMessageAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/SeeMessageSelectedColorsAction.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/actions/SelectSchemaAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SetAddColumnsPageRowCountTo10Action.java -text
 OpenXavaTest/src/org/openxava/test/actions/SetControllersAction.java -text
