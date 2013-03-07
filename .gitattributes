@@ -4583,6 +4583,9 @@ OpenXava/src/org/openxava/web/layout/LayoutJspKeys.java -text
 OpenXava/src/org/openxava/web/layout/LayoutJspUtils.java -text
 OpenXava/src/org/openxava/web/layout/LayoutKeys.java -text
 OpenXava/src/org/openxava/web/layout/LayoutPainterManager.java -text
+OpenXava/src/org/openxava/web/layout/impl/DefaultLayoutCollectionBeginElement.java -text
+OpenXava/src/org/openxava/web/layout/impl/DefaultLayoutCollectionEndElement.java -text
+OpenXava/src/org/openxava/web/layout/impl/DefaultLayoutColumnBeginElement.java -text
 OpenXava/src/org/openxava/web/layout/impl/DefaultLayoutColumnEndElement.java -text
 OpenXava/src/org/openxava/web/layout/impl/DefaultLayoutFrameBeginElement.java -text
 OpenXava/src/org/openxava/web/layout/impl/DefaultLayoutFrameEndElement.java -text
@@ -4600,9 +4603,6 @@ OpenXava/src/org/openxava/web/layout/impl/DefaultLayoutSectionsRenderBeginElemen
 OpenXava/src/org/openxava/web/layout/impl/DefaultLayoutSectionsRenderEndElement.java -text
 OpenXava/src/org/openxava/web/layout/impl/DefaultLayoutViewBeginElement.java -text
 OpenXava/src/org/openxava/web/layout/impl/DefaultLayoutViewEndElement.java -text
-OpenXava/src/org/openxava/web/layout/impl/LayoutCollectionBeginElementDefault.java -text
-OpenXava/src/org/openxava/web/layout/impl/LayoutCollectionEndElementDefault.java -text
-OpenXava/src/org/openxava/web/layout/impl/LayoutColumnBeginElementDefault.java -text
 OpenXava/src/org/openxava/web/meta/MetaEditor.java -text
 OpenXava/src/org/openxava/web/meta/MetaWebEditors.java -text
 OpenXava/src/org/openxava/web/meta/xmlparse/EditorsParser.java -text
