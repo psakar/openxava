@@ -4330,6 +4330,7 @@ OpenXava/src/org/openxava/hibernate/impl/FastSizeList.java -text
 OpenXava/src/org/openxava/hibernate/impl/ReferenceConverterToDBListener.java -text
 OpenXava/src/org/openxava/jpa/XPersistence.java -text
 OpenXava/src/org/openxava/jpa/impl/EntityManagerDecorator.java -text
+OpenXava/src/org/openxava/jpa/impl/PersistenceXml.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/mapping/AggregateMapping.java -text
 OpenXava/src/org/openxava/mapping/CmpField.java -text
 OpenXava/src/org/openxava/mapping/Converters.java -text
@@ -4625,6 +4626,7 @@ OpenXava/src/org/openxava/web/style/PortalStyle.java -text
 OpenXava/src/org/openxava/web/style/Style.java -text
 OpenXava/src/org/openxava/web/style/WebSpherePortal61Style.java -text
 OpenXava/src/org/openxava/web/style/WebSpherePortal6Style.java -text
+OpenXava/src/org/openxava/web/style/WebSpherePortal8Style.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/style/WebSpherePortalStyle.java -text
 OpenXava/src/org/openxava/web/taglib/ActionTag.java -text
 OpenXava/src/org/openxava/web/taglib/ButtonTag.java -text
@@ -7537,6 +7539,14 @@ OpenXavaTest/i18n/portlets/CustomerDemo_ca.properties -text svneol=unset#text/pl
 OpenXavaTest/i18n/portlets/CustomerDemo_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerDemo_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerDemo_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CustomerFramesAndPropertyOnSameRow_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CustomerFramesAndPropertyOnSameRow_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CustomerFramesAndPropertyOnSameRow_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CustomerFramesAndPropertyOnSameRow_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CustomerFramesOnSameRow_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CustomerFramesOnSameRow_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CustomerFramesOnSameRow_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CustomerFramesOnSameRow_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerInvoices_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerInvoices_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerInvoices_es.properties -text svneol=unset#text/plain
@@ -7573,6 +7583,10 @@ OpenXavaTest/i18n/portlets/CustomerSomeMembersReadOnly_ca.properties -text svneo
 OpenXavaTest/i18n/portlets/CustomerSomeMembersReadOnly_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerSomeMembersReadOnly_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerSomeMembersReadOnly_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CustomerThreeFramesOnSameRow_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CustomerThreeFramesOnSameRow_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CustomerThreeFramesOnSameRow_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CustomerThreeFramesOnSameRow_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerTwoSellersInList_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerTwoSellersInList_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerTwoSellersInList_es.properties -text svneol=unset#text/plain
@@ -7669,6 +7683,10 @@ OpenXavaTest/i18n/portlets/Employee_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Employee_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Employee_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Employee_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ExperienceWithSimplestProgrammer_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ExperienceWithSimplestProgrammer_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ExperienceWithSimplestProgrammer_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ExperienceWithSimplestProgrammer_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Experience_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Experience_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Experience_es.properties -text svneol=unset#text/plain
