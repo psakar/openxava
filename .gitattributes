@@ -2544,6 +2544,7 @@ MiEscuela/web/xava/editors/comparatorsValidValuesCombo.jsp -text svneol=unset#te
 MiEscuela/web/xava/editors/customReportColumnComparatorEditor.jsp -text svneol=unset#text/plain
 MiEscuela/web/xava/editors/customReportColumnNameEditor.jsp -text svneol=unset#text/plain
 MiEscuela/web/xava/editors/customReportColumnValidValuesValueEditor.jsp -text svneol=unset#text/plain
+MiEscuela/web/xava/editors/customReportNameEditor.jsp -text svneol=unset#text/plain
 MiEscuela/web/xava/editors/dateCalendarEditor.jsp -text
 MiEscuela/web/xava/editors/dateTimeCalendarEditor.jsp -text
 MiEscuela/web/xava/editors/dateTimeCombinedCalendarEditor.jsp -text
@@ -2654,6 +2655,7 @@ MiEscuela/web/xava/images/processing.gif -text
 MiEscuela/web/xava/images/refresh.gif -text
 MiEscuela/web/xava/images/remove.gif -text
 MiEscuela/web/xava/images/report.gif -text
+MiEscuela/web/xava/images/reports.png -text
 MiEscuela/web/xava/images/required.gif -text
 MiEscuela/web/xava/images/restore.gif -text
 MiEscuela/web/xava/images/rtf.gif -text
@@ -3373,6 +3375,7 @@ MySchool/web/xava/editors/comparatorsValidValuesCombo.jsp -text svneol=unset#tex
 MySchool/web/xava/editors/customReportColumnComparatorEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/customReportColumnNameEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/customReportColumnValidValuesValueEditor.jsp -text svneol=unset#text/plain
+MySchool/web/xava/editors/customReportNameEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/dateCalendarEditor.jsp -text
 MySchool/web/xava/editors/dateTimeCalendarEditor.jsp -text
 MySchool/web/xava/editors/dateTimeCombinedCalendarEditor.jsp -text
@@ -3483,6 +3486,7 @@ MySchool/web/xava/images/processing.gif -text
 MySchool/web/xava/images/refresh.gif -text
 MySchool/web/xava/images/remove.gif -text
 MySchool/web/xava/images/report.gif -text
+MySchool/web/xava/images/reports.png -text
 MySchool/web/xava/images/required.gif -text
 MySchool/web/xava/images/restore.gif -text
 MySchool/web/xava/images/rtf.gif -text
