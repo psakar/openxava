@@ -172,6 +172,7 @@ AccessTracking/web/WEB-INF/lib/validation-api.jar -text
 AccessTracking/web/WEB-INF/liferay-display.xml -text
 AccessTracking/web/WEB-INF/openxava.tld -text
 AccessTracking/web/WEB-INF/portlet.xml -text
+AccessTracking/web/WEB-INF/web-original.xml -text svneol=unset#text/plain
 AccessTracking/web/WEB-INF/web.xml -text
 AccessTracking/web/xava/addColumns.jsp -text
 AccessTracking/web/xava/addToCollection.jsp -text
@@ -487,6 +488,7 @@ AccessTracking/web/xava/editors/comparatorsValidValuesCombo.jsp -text svneol=uns
 AccessTracking/web/xava/editors/customReportColumnComparatorEditor.jsp -text svneol=unset#text/plain
 AccessTracking/web/xava/editors/customReportColumnNameEditor.jsp -text svneol=unset#text/plain
 AccessTracking/web/xava/editors/customReportColumnValidValuesValueEditor.jsp -text svneol=unset#text/plain
+AccessTracking/web/xava/editors/customReportNameEditor.jsp -text svneol=unset#text/plain
 AccessTracking/web/xava/editors/dateCalendarEditor.jsp -text
 AccessTracking/web/xava/editors/dateTimeCombinedCalendarEditor.jsp -text
 AccessTracking/web/xava/editors/dateTimeSeparatedCalendarEditor.jsp -text
@@ -593,6 +595,7 @@ AccessTracking/web/xava/images/processing.gif -text
 AccessTracking/web/xava/images/refresh.gif -text
 AccessTracking/web/xava/images/remove.gif -text
 AccessTracking/web/xava/images/report.gif -text
+AccessTracking/web/xava/images/reports.png -text
 AccessTracking/web/xava/images/required.gif -text
 AccessTracking/web/xava/images/restore.gif -text
 AccessTracking/web/xava/images/rtf.gif -text
