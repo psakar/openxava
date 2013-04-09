@@ -8505,6 +8505,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/AcademicYear.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AdditionalDetail.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AdditionalDetailKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Address.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Applicant.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Artist.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AsEmbed1.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AsEmbed2.groovy -text
@@ -8608,6 +8609,8 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Product4.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Product5.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ProductDetailsSupplierContactDetails.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Programmer.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/ProgrammerApplicant.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/ProgrammingSkill.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Quarter.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/QuarterKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/QuarterSubject.java -text
@@ -8628,6 +8631,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/ShipmentCharge.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ShipmentKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Shop.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Size.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Skill.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/State.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/StreetShop.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Studio.groovy -text
@@ -8676,6 +8680,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Year.java -text
 OpenXavaTest/pojo-src/org/openxava/test/portlets/VersionPortlet.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/AnnotatedPOGOTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/AnnotatedPOJOTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/ApplicantTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ArtistTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/AsEmbedContainerTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/AuthorTest.groovy -text
