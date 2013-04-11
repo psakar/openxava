@@ -8542,6 +8542,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Customer.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/CustomerContactPerson.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Deal.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/DealAssured.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Debt.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Delivery.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/DeliveryDetail.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/DeliveryKey.java -text
@@ -8700,6 +8701,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/CorporationEmployeeTest.groovy -te
 OpenXavaTest/pojo-src/org/openxava/test/tests/CorporationTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CustomerMinimumTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DealTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/DebtTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DrivingLicenceTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ElClienteTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/EmployeeTest.groovy -text
@@ -9484,6 +9486,7 @@ OpenXavaTest/web/xava/editors/galleryEditor.jsp -text
 OpenXavaTest/web/xava/editors/htmlEditor.jsp -text
 OpenXavaTest/web/xava/editors/imageEditor.jsp -text
 OpenXavaTest/web/xava/editors/imageLabelEditor.jsp -text
+OpenXavaTest/web/xava/editors/importantEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/js/autoNumeric.js -text
 OpenXavaTest/web/xava/editors/js/ckeditor.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/js/htmlEditor.js -text
