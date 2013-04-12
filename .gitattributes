@@ -8561,8 +8561,10 @@ OpenXavaTest/pojo-src/org/openxava/test/model/EmployeeKey.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Experience.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Family.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Family2.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/File.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/FilterBySubfamily.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/FilterBySubfamilyAndYear.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Folder.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Formula.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/FormulaIngredient.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Framework.java -text
@@ -8708,6 +8710,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/EmployeeTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ExperienceTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ExperienceWithSimplestProgrammerTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/FilterBySubfamilyAndYearTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/FolderTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/GoCustomerInvoicesTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/GoDescriptionTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/GoShowSellerTest.groovy -text
