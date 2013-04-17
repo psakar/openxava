@@ -8802,6 +8802,7 @@ OpenXavaTest/src/org/openxava/test/actions/ChangeLimitZoneAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeListTitleAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangePageRowCountAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeProductPriceAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/ChangeToButtonAOrButtonB.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/actions/ChangeToLowerCaseAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeViewAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeYearConditionAction.groovy -text
