@@ -6851,6 +6851,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/AddSuffixAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/AddToNameAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ChangeName.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/CorporationEmployeeListFilterAction.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/EditGalleryNoDialogAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/FamilyProductsReportAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/GoChangeName.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/GoDescriptionAction.groovy -text
