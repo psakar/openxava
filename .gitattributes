@@ -8875,6 +8875,8 @@ OpenXavaTest/src/org/openxava/test/actions/SaveElementInCollectionFailingAction.
 OpenXavaTest/src/org/openxava/test/actions/SaveTaskAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SearchDeliveryAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SearchInvoiceFromDeliveryAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/SeeDialogInColor.java -text svneol=unset#text/plain
+OpenXavaTest/src/org/openxava/test/actions/SeeInitialOfProductNameInADialog.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/actions/SeeMessageAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SeeMessageSelectedColorsAction.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/actions/SelectSchemaAction.java -text
@@ -9564,6 +9566,7 @@ OpenXavaTest/web/xava/images/next.gif -text
 OpenXavaTest/web/xava/images/next_page.gif -text
 OpenXavaTest/web/xava/images/next_page_disable.gif -text
 OpenXavaTest/web/xava/images/odt.gif -text
+OpenXavaTest/web/xava/images/options.png -text
 OpenXavaTest/web/xava/images/pdf.gif -text
 OpenXavaTest/web/xava/images/photo.gif -text
 OpenXavaTest/web/xava/images/previous.gif -text
