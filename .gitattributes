@@ -4245,6 +4245,7 @@ OpenXava/src/org/openxava/controller/meta/MetaAction.java -text
 OpenXava/src/org/openxava/controller/meta/MetaController.java -text
 OpenXava/src/org/openxava/controller/meta/MetaControllers.java -text
 OpenXava/src/org/openxava/controller/meta/MetaObject.java -text
+OpenXava/src/org/openxava/controller/meta/MetaSubcontroller.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/controller/meta/MetaUseObject.java -text
 OpenXava/src/org/openxava/controller/meta/xmlparse/ControllersParser.java -text
 OpenXava/src/org/openxava/converters/ArrayBytesBlobConverter.java -text
@@ -5048,6 +5049,7 @@ OpenXava/web/images/ascending-white.gif -text
 OpenXava/web/images/ascending-white2.gif -text
 OpenXava/web/images/ascending.gif -text
 OpenXava/web/images/ascending2.gif -text
+OpenXava/web/images/ascending3.gif -text
 OpenXava/web/images/back.gif -text
 OpenXava/web/images/calendar.gif -text
 OpenXava/web/images/clear-right.gif -text
@@ -5388,6 +5390,7 @@ OpenXava/web/style/yahoo-treeview/treeview-skin.css -text
 OpenXava/web/style/yahoo-treeview/treeview-sprite.gif -text
 OpenXava/web/style/yahoo-treeview/treeview.css -text
 OpenXava/web/style/yahoo.css -text svneol=unset#application/octet-stream
+OpenXava/web/subButton.jsp -text svneol=unset#text/plain
 OpenXava/xava/META-INF/MANIFEST.MF -text
 OpenXava/xava/META-INF/taglib.tld -text
 OpenXava/xava/default-controllers.xml -text
