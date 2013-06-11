@@ -4312,6 +4312,7 @@ OpenXava/src/org/openxava/filters/meta/MetaFilter.java -text
 OpenXava/src/org/openxava/filters/meta/xmlparse/FilterParser.java -text
 OpenXava/src/org/openxava/formatters/BaseFormatter.java -text
 OpenXava/src/org/openxava/formatters/BooleanFormatter.java -text
+OpenXava/src/org/openxava/formatters/BooleanListFormatter.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/formatters/CustomReportComparatorListFormatter.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/formatters/DateFormatter.java -text
 OpenXava/src/org/openxava/formatters/DateTimeCombinedFormatter.java -text
@@ -5052,6 +5053,7 @@ OpenXava/web/images/ascending2.gif -text
 OpenXava/web/images/ascending3.gif -text
 OpenXava/web/images/back.gif -text
 OpenXava/web/images/calendar.gif -text
+OpenXava/web/images/checked.gif -text
 OpenXava/web/images/clear-right.gif -text
 OpenXava/web/images/create_new.gif -text
 OpenXava/web/images/customize.gif -text
@@ -9526,8 +9528,10 @@ OpenXavaTest/web/xava/images/ascending-white.gif -text
 OpenXavaTest/web/xava/images/ascending-white2.gif -text
 OpenXavaTest/web/xava/images/ascending.gif -text
 OpenXavaTest/web/xava/images/ascending2.gif -text
+OpenXavaTest/web/xava/images/ascending3.gif -text
 OpenXavaTest/web/xava/images/back.gif -text
 OpenXavaTest/web/xava/images/calendar.gif -text
+OpenXavaTest/web/xava/images/checked.gif -text
 OpenXavaTest/web/xava/images/clear-right.gif -text
 OpenXavaTest/web/xava/images/create_new.gif -text
 OpenXavaTest/web/xava/images/customize.gif -text
@@ -9868,6 +9872,7 @@ OpenXavaTest/web/xava/style/yahoo-treeview/treeview-skin.css -text
 OpenXavaTest/web/xava/style/yahoo-treeview/treeview-sprite.gif -text
 OpenXavaTest/web/xava/style/yahoo-treeview/treeview.css -text
 OpenXavaTest/web/xava/style/yahoo.css -text svneol=unset#application/octet-stream
+OpenXavaTest/web/xava/subButton.jsp -text svneol=unset#text/plain
 OpenXavaTest/websphere-as400.properties -text
 OpenXavaTest/xava/application.xml -text
 OpenXavaTest/xava/aspects.xml -text
