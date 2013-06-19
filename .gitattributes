@@ -5114,7 +5114,7 @@ OpenXava/web/images/summation.gif -text
 OpenXava/web/images/view.gif -text
 OpenXava/web/imports.jsp -text
 OpenXava/web/jasperReport.jsp -text svneol=unset#text/plain
-OpenXava/web/js/calendar.js -text
+OpenXava/web/js/calendar.js -text svneol=unset#text/plain
 OpenXava/web/js/dwr-engine.js -text
 OpenXava/web/js/jquery-ui.js -text svneol=unset#text/plain
 OpenXava/web/js/jquery.bgiframe.js -text svneol=unset#text/plain
