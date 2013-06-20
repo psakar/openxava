@@ -4511,6 +4511,7 @@ OpenXava/src/org/openxava/validators/IRemoveValidator.java -text
 OpenXava/src/org/openxava/validators/ISBNValidator.java -text
 OpenXava/src/org/openxava/validators/IValidator.java -text
 OpenXava/src/org/openxava/validators/IWithMessage.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/validators/MACValidator.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/validators/MinimumSizeValidator.java -text
 OpenXava/src/org/openxava/validators/MoneyScaleValidator.java -text
 OpenXava/src/org/openxava/validators/NotBlankCharacterValidator.java -text
@@ -8600,6 +8601,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/MixtureKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Month.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Name.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Nameable.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/NetMachine.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Office.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Office2.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Office2Key.java -text
@@ -8734,6 +8736,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/JournalTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/LoginTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/MiniOrderTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/MotoTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/NetMachineTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/OrderIssueTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/OrphanageTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ParentTest.java -text
