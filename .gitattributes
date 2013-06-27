@@ -4197,6 +4197,7 @@ OpenXava/src/org/openxava/calculators/ConcatCalculator.java -text
 OpenXava/src/org/openxava/calculators/ConcatOidCalculator.java -text
 OpenXava/src/org/openxava/calculators/CounterByPassOidCalculator.java -text
 OpenXava/src/org/openxava/calculators/CurrentDateCalculator.java -text
+OpenXava/src/org/openxava/calculators/CurrentMonthCalculator.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/calculators/CurrentTimestampCalculator.java -text
 OpenXava/src/org/openxava/calculators/CurrentUserBirthDateDayCalculator.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/calculators/CurrentUserBirthDateMonthCalculator.java -text svneol=unset#text/plain
