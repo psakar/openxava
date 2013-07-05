@@ -5015,7 +5015,7 @@ OpenXava/web/editors/dateTimeCombinedCalendarEditor.jsp -text svneol=unset#text/
 OpenXava/web/editors/dateTimeSeparatedCalendarEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/descriptionValidValuesEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/descriptionsEditor.jsp -text svneol=unset#text/plain
-OpenXava/web/editors/gallery.jsp -text
+OpenXava/web/editors/gallery.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/galleryEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/htmlEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/imageEditor.jsp -text
