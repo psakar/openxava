@@ -5007,6 +5007,7 @@ OpenXava/web/editors/comparatorsCombo.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/comparatorsDescriptionsList.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/comparatorsValidValuesCombo.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/customReportColumnComparatorEditor.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/customReportColumnDescriptionsListValueEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/customReportColumnNameEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/customReportColumnValidValuesValueEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/customReportNameEditor.jsp -text svneol=unset#text/plain
@@ -8957,6 +8958,7 @@ OpenXavaTest/src/org/openxava/test/tests/ChangeActiveYearTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ChangeProductsPrice2Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/ChangeProductsPriceTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ClerkTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/Color2Test.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/ColorM1Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/ColorTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ColorWithGroupsAndChangeControllersTest.java -text
@@ -9472,6 +9474,7 @@ OpenXavaTest/web/xava/editors/comparatorsValidValuesCombo.jsp -text
 OpenXavaTest/web/xava/editors/corporationEmployeeListEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/currentTimeMillisEditor.jsp -text
 OpenXavaTest/web/xava/editors/customReportColumnComparatorEditor.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/customReportColumnDescriptionsListValueEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/customReportColumnNameEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/customReportColumnValidValuesValueEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/customReportNameEditor.jsp -text svneol=unset#text/plain
