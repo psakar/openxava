@@ -486,6 +486,7 @@ AccessTracking/web/xava/editors/comparatorsCombo.jsp -text svneol=unset#text/pla
 AccessTracking/web/xava/editors/comparatorsDescriptionsList.jsp -text svneol=unset#text/plain
 AccessTracking/web/xava/editors/comparatorsValidValuesCombo.jsp -text svneol=unset#text/plain
 AccessTracking/web/xava/editors/customReportColumnComparatorEditor.jsp -text svneol=unset#text/plain
+AccessTracking/web/xava/editors/customReportColumnDescriptionsListValueEditor.jsp -text svneol=unset#text/plain
 AccessTracking/web/xava/editors/customReportColumnNameEditor.jsp -text svneol=unset#text/plain
 AccessTracking/web/xava/editors/customReportColumnValidValuesValueEditor.jsp -text svneol=unset#text/plain
 AccessTracking/web/xava/editors/customReportNameEditor.jsp -text svneol=unset#text/plain
@@ -545,8 +546,10 @@ AccessTracking/web/xava/images/ascending-white.gif -text
 AccessTracking/web/xava/images/ascending-white2.gif -text
 AccessTracking/web/xava/images/ascending.gif -text
 AccessTracking/web/xava/images/ascending2.gif -text
+AccessTracking/web/xava/images/ascending3.gif -text
 AccessTracking/web/xava/images/back.gif -text
 AccessTracking/web/xava/images/calendar.gif -text
+AccessTracking/web/xava/images/checked.gif -text
 AccessTracking/web/xava/images/clear-right.gif -text
 AccessTracking/web/xava/images/create_new.gif -text
 AccessTracking/web/xava/images/customize.gif -text
@@ -886,6 +889,7 @@ AccessTracking/web/xava/style/yahoo-treeview/treeview-skin.css -text
 AccessTracking/web/xava/style/yahoo-treeview/treeview-sprite.gif -text
 AccessTracking/web/xava/style/yahoo-treeview/treeview.css -text
 AccessTracking/web/xava/style/yahoo.css -text
+AccessTracking/web/xava/subButton.jsp -text svneol=unset#text/plain
 AccessTracking/websphere-as400.properties -text
 AccessTracking/xava/application.xml -text
 AccessTracking/xava/aspects.xml -text
@@ -2545,6 +2549,7 @@ MiEscuela/web/xava/editors/comparatorsCombo.jsp -text svneol=unset#text/plain
 MiEscuela/web/xava/editors/comparatorsDescriptionsList.jsp -text svneol=unset#text/plain
 MiEscuela/web/xava/editors/comparatorsValidValuesCombo.jsp -text svneol=unset#text/plain
 MiEscuela/web/xava/editors/customReportColumnComparatorEditor.jsp -text svneol=unset#text/plain
+MiEscuela/web/xava/editors/customReportColumnDescriptionsListValueEditor.jsp -text svneol=unset#text/plain
 MiEscuela/web/xava/editors/customReportColumnNameEditor.jsp -text svneol=unset#text/plain
 MiEscuela/web/xava/editors/customReportColumnValidValuesValueEditor.jsp -text svneol=unset#text/plain
 MiEscuela/web/xava/editors/customReportNameEditor.jsp -text svneol=unset#text/plain
@@ -2608,8 +2613,10 @@ MiEscuela/web/xava/images/ascending-white.gif -text
 MiEscuela/web/xava/images/ascending-white2.gif -text
 MiEscuela/web/xava/images/ascending.gif -text
 MiEscuela/web/xava/images/ascending2.gif -text
+MiEscuela/web/xava/images/ascending3.gif -text
 MiEscuela/web/xava/images/back.gif -text
 MiEscuela/web/xava/images/calendar.gif -text
+MiEscuela/web/xava/images/checked.gif -text
 MiEscuela/web/xava/images/clear-right.gif -text
 MiEscuela/web/xava/images/create_new.gif -text
 MiEscuela/web/xava/images/customize.gif -text
@@ -2950,6 +2957,7 @@ MiEscuela/web/xava/style/yahoo-treeview/treeview-skin.css -text
 MiEscuela/web/xava/style/yahoo-treeview/treeview-sprite.gif -text
 MiEscuela/web/xava/style/yahoo-treeview/treeview.css -text
 MiEscuela/web/xava/style/yahoo.css -text svneol=unset#application/octet-stream
+MiEscuela/web/xava/subButton.jsp -text svneol=unset#text/plain
 MiEscuela/xava/aplicacion.xml -text
 MiEscuela/xava/dtds/aplicacion.dtd -text
 MiEscuela/xava/dtds/application.dtd -text
@@ -3376,6 +3384,7 @@ MySchool/web/xava/editors/comparatorsCombo.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/comparatorsDescriptionsList.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/comparatorsValidValuesCombo.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/customReportColumnComparatorEditor.jsp -text svneol=unset#text/plain
+MySchool/web/xava/editors/customReportColumnDescriptionsListValueEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/customReportColumnNameEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/customReportColumnValidValuesValueEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/customReportNameEditor.jsp -text svneol=unset#text/plain
@@ -3439,8 +3448,10 @@ MySchool/web/xava/images/ascending-white.gif -text
 MySchool/web/xava/images/ascending-white2.gif -text
 MySchool/web/xava/images/ascending.gif -text
 MySchool/web/xava/images/ascending2.gif -text
+MySchool/web/xava/images/ascending3.gif -text
 MySchool/web/xava/images/back.gif -text
 MySchool/web/xava/images/calendar.gif -text
+MySchool/web/xava/images/checked.gif -text
 MySchool/web/xava/images/clear-right.gif -text
 MySchool/web/xava/images/create_new.gif -text
 MySchool/web/xava/images/customize.gif -text
@@ -3781,6 +3792,7 @@ MySchool/web/xava/style/yahoo-treeview/treeview-skin.css -text
 MySchool/web/xava/style/yahoo-treeview/treeview-sprite.gif -text
 MySchool/web/xava/style/yahoo-treeview/treeview.css -text
 MySchool/web/xava/style/yahoo.css -text svneol=unset#application/octet-stream
+MySchool/web/xava/subButton.jsp -text svneol=unset#text/plain
 MySchool/xava/application.xml -text
 MySchool/xava/dtds/aplicacion.dtd -text
 MySchool/xava/dtds/application.dtd -text
@@ -5810,6 +5822,10 @@ OpenXavaTest/i18n/portlets/AdditionalDetail_ca.properties -text svneol=unset#tex
 OpenXavaTest/i18n/portlets/AdditionalDetail_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/AdditionalDetail_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/AdditionalDetail_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Applicant_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Applicant_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Applicant_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Applicant_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Artist_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Artist_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Artist_es.properties -text svneol=unset#text/plain
@@ -5982,6 +5998,14 @@ OpenXavaTest/i18n/portlets/Computer_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Computer_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Computer_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Computer_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ConferenceTrack_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ConferenceTrack_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ConferenceTrack_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ConferenceTrack_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Conference_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Conference_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Conference_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Conference_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/ConversionFactor_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/ConversionFactor_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/ConversionFactor_es.properties -text svneol=unset#text/plain
@@ -6098,6 +6122,10 @@ OpenXavaTest/i18n/portlets/Deal_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Deal_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Deal_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Deal_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Debt_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Debt_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Debt_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Debt_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/DeliveryDetail_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/DeliveryDetail_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/DeliveryDetail_es.properties -text svneol=unset#text/plain
@@ -6210,6 +6238,14 @@ OpenXavaTest/i18n/portlets/Family_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Family_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Family_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Family_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/File_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/File_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/File_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/File_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Folder_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Folder_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Folder_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Folder_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/FormulaIngredient_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/FormulaIngredient_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/FormulaIngredient_es.properties -text svneol=unset#text/plain
@@ -6410,6 +6446,10 @@ OpenXavaTest/i18n/portlets/Moto_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Moto_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Moto_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Moto_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/NetMachine_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/NetMachine_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/NetMachine_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/NetMachine_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/NotAllActionsInDetailsInvoice_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/NotAllActionsInDetailsInvoice_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/NotAllActionsInDetailsInvoice_es.properties -text svneol=unset#text/plain
@@ -6526,10 +6566,18 @@ OpenXavaTest/i18n/portlets/Product_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Product_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Product_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Product_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ProgrammerApplicant_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ProgrammerApplicant_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ProgrammerApplicant_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ProgrammerApplicant_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Programmer_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Programmer_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Programmer_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Programmer_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ProgrammingSkill_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ProgrammingSkill_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ProgrammingSkill_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ProgrammingSkill_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/QuarterSubject_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/QuarterSubject_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/QuarterSubject_es.properties -text svneol=unset#text/plain
@@ -6634,6 +6682,10 @@ OpenXavaTest/i18n/portlets/Size_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Size_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Size_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Size_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Skill_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Skill_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Skill_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Skill_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/StateHibernate_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/StateHibernate_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/StateHibernate_es.properties -text svneol=unset#text/plain
