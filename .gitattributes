@@ -10021,6 +10021,7 @@ OpenXavaTest/xml-classic-src/org/openxava/test/formatters/WarehouseFormatter.jav
 OpenXavaTest/xml-classic-src/org/openxava/test/model/Family.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/model/IFamily.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/tests/HibernateTest.java -text
+OpenXavaTest/xml-classic-src/org/openxava/test/tests/ProductWithViewPropertyTest.groovy -text
 OpenXavaTest/xml-classic-src/org/openxava/test/validators/DeliveryPlaceValidator.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/validators/DeliveryTypeRemoveValidator.java -text
 OpenXavaTest/xml-classic-src/org/openxava/test/validators/InvoiceDetailValidator.java -text
