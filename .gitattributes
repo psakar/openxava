@@ -8677,6 +8677,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Parent.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Person.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Phone.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/PhoneNumber.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Position.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Product.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Product2.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Product3.java -text
@@ -8803,6 +8804,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/OrderIssueTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/OrphanageTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ParentTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/PhoneTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/PositionTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/Product4Test.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/Product5Test.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ProgrammerTest.java -text
