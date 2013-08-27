@@ -8589,6 +8589,8 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Building.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/CallBackLog.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Carrier.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/CharacteristicThing.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Check.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/CheckTransaction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Child.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ChildId.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/City.java -text
@@ -8764,6 +8766,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/BlogTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/BookTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/BuildingTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CallBackLogTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/CheckTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CityTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ColorinColoradoTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CommentTest.groovy -text
