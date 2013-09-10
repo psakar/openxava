@@ -8908,8 +8908,7 @@ OpenXavaTest/src/org/openxava/test/actions/HideDeliveryDetailAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideDetailElementInCollectionWithMessageAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideListPropertyAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideSaveDeleteAction.java -text
-OpenXavaTest/src/org/openxava/test/actions/HideShowGroupAction.java -text
-OpenXavaTest/src/org/openxava/test/actions/HideShowPropertyAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/HideShowAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/InitChangeProductsPriceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/InitDefaultYearTo2002Action.java -text
 OpenXavaTest/src/org/openxava/test/actions/InvoiceAndCustomerReports2Action.java -text svneol=unset#text/plain
