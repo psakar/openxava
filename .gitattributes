@@ -8649,6 +8649,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/InventDetail.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Invoice.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Invoice2.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Invoice3.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Invoice4.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/InvoiceDetail.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/InvoiceDetail2.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/InvoiceKey.java -text
@@ -8794,6 +8795,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/GoShowSellerTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/GoToSellerJSPTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/HumanTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/InventTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/Invoice4Test.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/InvoiceDetailTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/IssueChangeDBTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/JavaProgrammerExtendedViewsTest.java -text
