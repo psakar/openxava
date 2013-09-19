@@ -8642,6 +8642,8 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Folder.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Formula.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/FormulaIngredient.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Framework.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Hobby.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Hobbyist.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Human.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Ingredient.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/InternetShop.groovy -text
@@ -8794,6 +8796,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/GoCustomerInvoicesTest.groovy -tex
 OpenXavaTest/pojo-src/org/openxava/test/tests/GoDescriptionTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/GoShowSellerTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/GoToSellerJSPTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/HobbyistTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/HumanTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/InventTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/Invoice4Test.groovy -text
