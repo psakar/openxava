@@ -4706,6 +4706,7 @@ OpenXava/web/WEB-INF/lib/slf4j-jdk14.jar -text
 OpenXava/web/WEB-INF/lib/smtp.jar -text
 OpenXava/web/WEB-INF/lib/standard.jar -text
 OpenXava/web/WEB-INF/lib/validation-api.jar -text
+OpenXava/web/WEB-INF/openxava.tld -text svneol=unset#text/plain
 OpenXava/web/WEB-INF/web.xml -text
 OpenXava/web/addColumns.jsp -text
 OpenXava/web/addToCollection.jsp -text svneol=unset#text/plain
