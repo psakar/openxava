@@ -3989,23 +3989,23 @@ OpenXava/src/org/openxava/actions/ChangeSectionAction.java -text
 OpenXava/src/org/openxava/actions/ChooseReferenceAction.java -text
 OpenXava/src/org/openxava/actions/CollectionBaseAction.java -text
 OpenXava/src/org/openxava/actions/CollectionElementViewBaseAction.java -text
-OpenXava/src/org/openxava/actions/CreateNewCustomReportAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/CreateNewElementInCollectionAction.java -text
 OpenXava/src/org/openxava/actions/CreateNewElementInManyToManyCollectionAction.java -text
 OpenXava/src/org/openxava/actions/CreateNewFromReferenceAction.java -text
+OpenXava/src/org/openxava/actions/CreateNewMyReportAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/CustomizeListAction.java -text
 OpenXava/src/org/openxava/actions/DeleteAction.java -text
 OpenXava/src/org/openxava/actions/DeleteImageAction.java -text
 OpenXava/src/org/openxava/actions/DeleteLiferayDocumentAction.java -text
 OpenXava/src/org/openxava/actions/DeleteSelectedAction.java -text
 OpenXava/src/org/openxava/actions/DeselectRowsAction.java -text
-OpenXava/src/org/openxava/actions/EditCustomReportColumnAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/EditElementInCollectionAction.java -text
 OpenXava/src/org/openxava/actions/EditElementInManyToManyCollectionAction.java -text
 OpenXava/src/org/openxava/actions/EditGalleryAction.java -text
+OpenXava/src/org/openxava/actions/EditMyReportColumnAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/EmptyAction.java -text
 OpenXava/src/org/openxava/actions/FilterAction.java -text
-OpenXava/src/org/openxava/actions/GenerateCustomReportAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/GenerateMyReportAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/GenerateReportAction.java -text
 OpenXava/src/org/openxava/actions/GoAddColumnsAction.java -text
 OpenXava/src/org/openxava/actions/GoAddColumnsPageAction.java -text
@@ -4053,14 +4053,14 @@ OpenXava/src/org/openxava/actions/MinimizeImageAction.java -text
 OpenXava/src/org/openxava/actions/ModifyFromReferenceAction.java -text
 OpenXava/src/org/openxava/actions/MoveColumnToLeftAction.java -text
 OpenXava/src/org/openxava/actions/MoveColumnToRightAction.java -text
-OpenXava/src/org/openxava/actions/MoveCustomReportColumnAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/MoveMyReportColumnAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/MyReportsAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/NavigationAction.java -text
 OpenXava/src/org/openxava/actions/NavigationFromReferenceBaseAction.java -text
 OpenXava/src/org/openxava/actions/NewAction.java -text
 OpenXava/src/org/openxava/actions/NewTreeViewItemAction.java -text
-OpenXava/src/org/openxava/actions/OnChangeCustomReportColumnNameAction.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/actions/OnChangeCustomReportNameAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/OnChangeMyReportColumnNameAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/OnChangeMyReportNameAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/OnChangePropertyBaseAction.java -text
 OpenXava/src/org/openxava/actions/OnChangeSearchAction.java -text
 OpenXava/src/org/openxava/actions/OnSelectElementBaseAction.java -text
@@ -4070,10 +4070,10 @@ OpenXava/src/org/openxava/actions/ReferenceBaseAction.java -text
 OpenXava/src/org/openxava/actions/ReferenceSearchAction.java -text
 OpenXava/src/org/openxava/actions/RemoveColumnAction.java -text
 OpenXava/src/org/openxava/actions/RemoveColumnSumAction.java -text
-OpenXava/src/org/openxava/actions/RemoveCustomReportAction.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/actions/RemoveCustomReportColumnAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveElementFromCollectionAction.java -text
 OpenXava/src/org/openxava/actions/RemoveImageFromGalleryAction.java -text
+OpenXava/src/org/openxava/actions/RemoveMyReportAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/RemoveMyReportColumnAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveSelectedInCollectionAction.java -text
 OpenXava/src/org/openxava/actions/RemoveSelectedTreeViewNodeAction.java -text
 OpenXava/src/org/openxava/actions/RemoveTreeViewNodeAction.java -text
@@ -4083,10 +4083,10 @@ OpenXava/src/org/openxava/actions/ReturnAction.java -text
 OpenXava/src/org/openxava/actions/ReturnPreviousModuleAction.java -text
 OpenXava/src/org/openxava/actions/SaveAction.java -text
 OpenXava/src/org/openxava/actions/SaveAndStayElementInCollectionAction.java -text
-OpenXava/src/org/openxava/actions/SaveCustomReportColumnAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/SaveElementInCollectionAction.java -text
 OpenXava/src/org/openxava/actions/SaveElementInManyToManyCollectionAction.java -text
 OpenXava/src/org/openxava/actions/SaveElementInTreeViewAction.java -text
+OpenXava/src/org/openxava/actions/SaveMyReportColumnAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/SaveNewAction.java -text
 OpenXava/src/org/openxava/actions/SearchAction.java -text
 OpenXava/src/org/openxava/actions/SearchByViewKeyAction.java -text
@@ -4326,7 +4326,6 @@ OpenXava/src/org/openxava/filters/meta/xmlparse/FilterParser.java -text
 OpenXava/src/org/openxava/formatters/BaseFormatter.java -text
 OpenXava/src/org/openxava/formatters/BooleanFormatter.java -text
 OpenXava/src/org/openxava/formatters/BooleanListFormatter.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/formatters/CustomReportComparatorListFormatter.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/formatters/DateFormatter.java -text
 OpenXava/src/org/openxava/formatters/DateTimeCombinedFormatter.java -text
 OpenXava/src/org/openxava/formatters/DateTimeSeparatedFormatter.java -text
@@ -4335,6 +4334,7 @@ OpenXava/src/org/openxava/formatters/IMultipleValuesFormatter.java -text
 OpenXava/src/org/openxava/formatters/ImageFormatter.java -text
 OpenXava/src/org/openxava/formatters/MoneyFormatter.java -text
 OpenXava/src/org/openxava/formatters/MultipleValuesByPassFormatter.java -text
+OpenXava/src/org/openxava/formatters/MyReportComparatorListFormatter.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/formatters/SQLTimeFormatter.java -text
 OpenXava/src/org/openxava/formatters/StringTimeFormatter.java -text
 OpenXava/src/org/openxava/formatters/TimeBaseFormatter.java -text
@@ -4399,12 +4399,12 @@ OpenXava/src/org/openxava/model/meta/xmlparse/CalculatorParser.java -text
 OpenXava/src/org/openxava/model/meta/xmlparse/DefaultSizeParser.java -text
 OpenXava/src/org/openxava/model/meta/xmlparse/ModelParser.java -text
 OpenXava/src/org/openxava/model/meta/xmlparse/StereotypeTypeDefaultParser.java -text
-OpenXava/src/org/openxava/session/CustomReport.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/session/CustomReportColumn.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/session/Gallery.java -text
 OpenXava/src/org/openxava/session/GalleryImage.java -text
 OpenXava/src/org/openxava/session/LiferayDocument.java -text
 OpenXava/src/org/openxava/session/LiferayLibrary.java -text
+OpenXava/src/org/openxava/session/MyReport.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/session/MyReportColumn.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/tab/Tab.java -text
 OpenXava/src/org/openxava/tab/impl/DataChunk.java -text
 OpenXava/src/org/openxava/tab/impl/EntityTab.java -text
@@ -5019,11 +5019,6 @@ OpenXava/web/editors/comparatorsBooleanCombo.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/comparatorsCombo.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/comparatorsDescriptionsList.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/comparatorsValidValuesCombo.jsp -text svneol=unset#text/plain
-OpenXava/web/editors/customReportColumnComparatorEditor.jsp -text svneol=unset#text/plain
-OpenXava/web/editors/customReportColumnDescriptionsListValueEditor.jsp -text svneol=unset#text/plain
-OpenXava/web/editors/customReportColumnNameEditor.jsp -text svneol=unset#text/plain
-OpenXava/web/editors/customReportColumnValidValuesValueEditor.jsp -text svneol=unset#text/plain
-OpenXava/web/editors/customReportNameEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/dateCalendarEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/dateTimeCombinedCalendarEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/dateTimeSeparatedCalendarEditor.jsp -text svneol=unset#text/plain
@@ -5046,6 +5041,11 @@ OpenXava/web/editors/liferayDocumentLibraryEditor.jsp -text
 OpenXava/web/editors/liferayUploadFile.jsp -text
 OpenXava/web/editors/listEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/moneyEditor.jsp -text
+OpenXava/web/editors/myReportColumnComparatorEditor.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/myReportColumnDescriptionsListValueEditor.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/myReportColumnNameEditor.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/myReportColumnValidValuesValueEditor.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/myReportNameEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/notAvailableEditor.jsp -text
 OpenXava/web/editors/passwordEditor.jsp -text
 OpenXava/web/editors/radioButtonEditor.jsp -text svneol=unset#text/plain
@@ -9574,6 +9574,11 @@ OpenXavaTest/web/xava/editors/liferayDocumentLibraryEditor.jsp -text
 OpenXavaTest/web/xava/editors/liferayUploadFile.jsp -text
 OpenXavaTest/web/xava/editors/listEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/moneyEditor.jsp -text
+OpenXavaTest/web/xava/editors/myReportColumnComparatorEditor.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/myReportColumnDescriptionsListValueEditor.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/myReportColumnNameEditor.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/myReportColumnValidValuesValueEditor.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/myReportNameEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/notAvailableEditor.jsp -text
 OpenXavaTest/web/xava/editors/passwordEditor.jsp -text
 OpenXavaTest/web/xava/editors/radioButtonEditor.jsp -text
