@@ -9545,11 +9545,6 @@ OpenXavaTest/web/xava/editors/comparatorsDescriptionsList.jsp -text
 OpenXavaTest/web/xava/editors/comparatorsValidValuesCombo.jsp -text
 OpenXavaTest/web/xava/editors/corporationEmployeeListEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/currentTimeMillisEditor.jsp -text
-OpenXavaTest/web/xava/editors/customReportColumnComparatorEditor.jsp -text svneol=unset#text/plain
-OpenXavaTest/web/xava/editors/customReportColumnDescriptionsListValueEditor.jsp -text svneol=unset#text/plain
-OpenXavaTest/web/xava/editors/customReportColumnNameEditor.jsp -text svneol=unset#text/plain
-OpenXavaTest/web/xava/editors/customReportColumnValidValuesValueEditor.jsp -text svneol=unset#text/plain
-OpenXavaTest/web/xava/editors/customReportNameEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/customerCardListEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/dateCalendarEditor.jsp -text
 OpenXavaTest/web/xava/editors/dateTimeCombinedCalendarEditor.jsp -text
