@@ -5072,7 +5072,6 @@ OpenXava/web/images/calendar.gif -text
 OpenXava/web/images/checked.gif -text
 OpenXava/web/images/clear-right.gif -text
 OpenXava/web/images/create_new.gif -text
-OpenXava/web/images/customize.gif -text
 OpenXava/web/images/customize.png -text
 OpenXava/web/images/delete.gif -text
 OpenXava/web/images/descending-white.gif -text
@@ -5086,7 +5085,6 @@ OpenXava/web/images/excel.gif -text
 OpenXava/web/images/filter.gif -text
 OpenXava/web/images/find.gif -text
 OpenXava/web/images/help.png -text
-OpenXava/web/images/hide-filter.gif -text
 OpenXava/web/images/home.gif -text
 OpenXava/web/images/html/skins/Jetspeed/tableft.gif -text
 OpenXava/web/images/html/skins/Jetspeed/tableft_low.gif -text
@@ -5172,7 +5170,6 @@ OpenXava/web/style/ipad/images/back.gif -text
 OpenXava/web/style/ipad/images/calendar.gif -text
 OpenXava/web/style/ipad/images/clear-right.gif -text
 OpenXava/web/style/ipad/images/create_new.gif -text
-OpenXava/web/style/ipad/images/customize.gif -text
 OpenXava/web/style/ipad/images/customize.png -text
 OpenXava/web/style/ipad/images/delete.gif -text
 OpenXava/web/style/ipad/images/descending-white.gif -text
@@ -5186,7 +5183,6 @@ OpenXava/web/style/ipad/images/excel.gif -text
 OpenXava/web/style/ipad/images/filter.gif -text
 OpenXava/web/style/ipad/images/find.gif -text
 OpenXava/web/style/ipad/images/help.png -text
-OpenXava/web/style/ipad/images/hide-filter.gif -text
 OpenXava/web/style/ipad/images/home.gif -text
 OpenXava/web/style/ipad/images/key.gif -text
 OpenXava/web/style/ipad/images/level-down.gif -text
@@ -9665,7 +9661,6 @@ OpenXavaTest/web/xava/images/calendar.gif -text
 OpenXavaTest/web/xava/images/checked.gif -text
 OpenXavaTest/web/xava/images/clear-right.gif -text
 OpenXavaTest/web/xava/images/create_new.gif -text
-OpenXavaTest/web/xava/images/customize.gif -text
 OpenXavaTest/web/xava/images/customize.png -text
 OpenXavaTest/web/xava/images/delete.gif -text
 OpenXavaTest/web/xava/images/descending-white.gif -text
@@ -9679,7 +9674,6 @@ OpenXavaTest/web/xava/images/excel.gif -text
 OpenXavaTest/web/xava/images/filter.gif -text
 OpenXavaTest/web/xava/images/find.gif -text
 OpenXavaTest/web/xava/images/help.png -text
-OpenXavaTest/web/xava/images/hide-filter.gif -text
 OpenXavaTest/web/xava/images/home.gif -text
 OpenXavaTest/web/xava/images/html/skins/Jetspeed/tableft.gif -text
 OpenXavaTest/web/xava/images/html/skins/Jetspeed/tableft_low.gif -text
@@ -9767,7 +9761,6 @@ OpenXavaTest/web/xava/style/ipad/images/back.gif -text
 OpenXavaTest/web/xava/style/ipad/images/calendar.gif -text
 OpenXavaTest/web/xava/style/ipad/images/clear-right.gif -text
 OpenXavaTest/web/xava/style/ipad/images/create_new.gif -text
-OpenXavaTest/web/xava/style/ipad/images/customize.gif -text
 OpenXavaTest/web/xava/style/ipad/images/customize.png -text
 OpenXavaTest/web/xava/style/ipad/images/delete.gif -text
 OpenXavaTest/web/xava/style/ipad/images/descending-white.gif -text
@@ -9781,7 +9774,6 @@ OpenXavaTest/web/xava/style/ipad/images/excel.gif -text
 OpenXavaTest/web/xava/style/ipad/images/filter.gif -text
 OpenXavaTest/web/xava/style/ipad/images/find.gif -text
 OpenXavaTest/web/xava/style/ipad/images/help.png -text
-OpenXavaTest/web/xava/style/ipad/images/hide-filter.gif -text
 OpenXavaTest/web/xava/style/ipad/images/home.gif -text
 OpenXavaTest/web/xava/style/ipad/images/key.gif -text
 OpenXavaTest/web/xava/style/ipad/images/level-down.gif -text
