@@ -5073,6 +5073,7 @@ OpenXava/web/images/checked.gif -text
 OpenXava/web/images/clear-right.gif -text
 OpenXava/web/images/create_new.gif -text
 OpenXava/web/images/customize.gif -text
+OpenXava/web/images/customize.png -text
 OpenXava/web/images/delete.gif -text
 OpenXava/web/images/descending-white.gif -text
 OpenXava/web/images/descending-white2.gif -text
@@ -5172,6 +5173,7 @@ OpenXava/web/style/ipad/images/calendar.gif -text
 OpenXava/web/style/ipad/images/clear-right.gif -text
 OpenXava/web/style/ipad/images/create_new.gif -text
 OpenXava/web/style/ipad/images/customize.gif -text
+OpenXava/web/style/ipad/images/customize.png -text
 OpenXava/web/style/ipad/images/delete.gif -text
 OpenXava/web/style/ipad/images/descending-white.gif -text
 OpenXava/web/style/ipad/images/descending-white2.gif -text
@@ -7555,6 +7557,14 @@ OpenXavaTest/i18n/portlets/CharacteristicThing_ca.properties -text svneol=unset#
 OpenXavaTest/i18n/portlets/CharacteristicThing_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CharacteristicThing_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CharacteristicThing_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CheckTransaction_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CheckTransaction_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CheckTransaction_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CheckTransaction_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Check_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Check_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Check_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Check_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Child_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Child_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Child_es.properties -text svneol=unset#text/plain
@@ -7903,6 +7913,14 @@ OpenXavaTest/i18n/portlets/GoingToCustomer_ca.properties -text svneol=unset#text
 OpenXavaTest/i18n/portlets/GoingToCustomer_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/GoingToCustomer_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/GoingToCustomer_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Hobby_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Hobby_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Hobby_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Hobby_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Hobbyist_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Hobbyist_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Hobbyist_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Hobbyist_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Human_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Human_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Human_es.properties -text svneol=unset#text/plain
@@ -7963,10 +7981,26 @@ OpenXavaTest/i18n/portlets/Invoice3_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Invoice3_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Invoice3_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Invoice3_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Invoice4_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Invoice4_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Invoice4_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Invoice4_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceActiveYear_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceActiveYear_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceActiveYear_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceActiveYear_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceAmountsInSection_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceAmountsInSection_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceAmountsInSection_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceAmountsInSection_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceAmountsNotAlignedInSection_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceAmountsNotAlignedInSection_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceAmountsNotAlignedInSection_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceAmountsNotAlignedInSection_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceAmountsNotAligned_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceAmountsNotAligned_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceAmountsNotAligned_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceAmountsNotAligned_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceAmounts_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceAmounts_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceAmounts_es.properties -text svneol=unset#text/plain
@@ -8015,6 +8049,10 @@ OpenXavaTest/i18n/portlets/InvoiceNoSections_ca.properties -text svneol=unset#te
 OpenXavaTest/i18n/portlets/InvoiceNoSections_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceNoSections_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceNoSections_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceTypicalNewOnInit_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceTypicalNewOnInit_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceTypicalNewOnInit_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceTypicalNewOnInit_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceWithParameterInURL_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceWithParameterInURL_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceWithParameterInURL_es.properties -text svneol=unset#text/plain
@@ -8127,6 +8165,10 @@ OpenXavaTest/i18n/portlets/Phone_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Phone_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Phone_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Phone_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Position_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Position_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Position_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Position_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Product2ColorWithFrame_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Product2ColorWithFrame_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Product2ColorWithFrame_es.properties -text svneol=unset#text/plain
@@ -8167,6 +8209,10 @@ OpenXavaTest/i18n/portlets/Product3_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Product3_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Product3_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Product3_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Product4NotAligned_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Product4NotAligned_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Product4NotAligned_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Product4NotAligned_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Product4_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Product4_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Product4_es.properties -text svneol=unset#text/plain
@@ -8187,6 +8233,10 @@ OpenXavaTest/i18n/portlets/ProductWithSection_ca.properties -text svneol=unset#t
 OpenXavaTest/i18n/portlets/ProductWithSection_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/ProductWithSection_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/ProductWithSection_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ProductWithViewProperty_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ProductWithViewProperty_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ProductWithViewProperty_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ProductWithViewProperty_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Product_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Product_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Product_es.properties -text svneol=unset#text/plain
@@ -9616,6 +9666,7 @@ OpenXavaTest/web/xava/images/checked.gif -text
 OpenXavaTest/web/xava/images/clear-right.gif -text
 OpenXavaTest/web/xava/images/create_new.gif -text
 OpenXavaTest/web/xava/images/customize.gif -text
+OpenXavaTest/web/xava/images/customize.png -text
 OpenXavaTest/web/xava/images/delete.gif -text
 OpenXavaTest/web/xava/images/descending-white.gif -text
 OpenXavaTest/web/xava/images/descending-white2.gif -text
@@ -9717,6 +9768,7 @@ OpenXavaTest/web/xava/style/ipad/images/calendar.gif -text
 OpenXavaTest/web/xava/style/ipad/images/clear-right.gif -text
 OpenXavaTest/web/xava/style/ipad/images/create_new.gif -text
 OpenXavaTest/web/xava/style/ipad/images/customize.gif -text
+OpenXavaTest/web/xava/style/ipad/images/customize.png -text
 OpenXavaTest/web/xava/style/ipad/images/delete.gif -text
 OpenXavaTest/web/xava/style/ipad/images/descending-white.gif -text
 OpenXavaTest/web/xava/style/ipad/images/descending-white2.gif -text
