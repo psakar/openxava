@@ -9148,6 +9148,7 @@ OpenXavaTest/src/org/openxava/test/tests/OrderTest.groovy -text
 OpenXavaTest/src/org/openxava/test/tests/POJOTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/PositiveValidatorTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/PrettyLayoutTest.txt -text
+OpenXavaTest/src/org/openxava/test/tests/PrettyPrintingTest.txt -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/Product2ColorWithFrameTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/Product2OnlySoftwareTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/Product2ReferenceAndStereotypeTest.java -text
