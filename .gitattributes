@@ -9630,6 +9630,7 @@ OpenXavaTest/web/xava/editors/passwordEditor.jsp -text
 OpenXavaTest/web/xava/editors/radioButtonEditor.jsp -text
 OpenXavaTest/web/xava/editors/referenceEditor.jsp -text
 OpenXavaTest/web/xava/editors/regionsEditor.jsp -text
+OpenXavaTest/web/xava/editors/regionsWithCheckBoxesEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/textAreaEditor.jsp -text
 OpenXavaTest/web/xava/editors/textEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/treeViewEditor.jsp -text
