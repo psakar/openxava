@@ -8622,6 +8622,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/AdditionalDetail.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AdditionalDetailKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Address.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Applicant.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/ApplicationUser.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Artist.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AsEmbed1.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AsEmbed2.groovy -text
@@ -8682,9 +8683,9 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Experience.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Family.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Family2.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/File.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/FilesFolder.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/FilterBySubfamily.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/FilterBySubfamilyAndYear.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/model/Folder.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Formula.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/FormulaIngredient.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Framework.java -text
@@ -8713,9 +8714,12 @@ OpenXavaTest/pojo-src/org/openxava/test/model/MiniOrder.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Mixture.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/MixtureKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Month.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/MotorVehicle.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/MotorVehicleDriver.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Name.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Nameable.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/NetMachine.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Nickname.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Office.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Office2.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Office2Key.java -text
@@ -8809,6 +8813,7 @@ OpenXavaTest/pojo-src/org/openxava/test/portlets/VersionPortlet.java -text svneo
 OpenXavaTest/pojo-src/org/openxava/test/tests/AnnotatedPOGOTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/AnnotatedPOJOTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ApplicantTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/ApplicationUserTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ArtistTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/AsEmbedContainerTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/AuthorTest.groovy -text
@@ -8837,8 +8842,8 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/ElClienteTest.java -text svneol=un
 OpenXavaTest/pojo-src/org/openxava/test/tests/EmployeeTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ExperienceTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ExperienceWithSimplestProgrammerTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/FilesFolderTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/FilterBySubfamilyAndYearTest.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/tests/FolderTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/GoCustomerInvoicesTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/GoDescriptionTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/GoShowSellerTest.groovy -text
@@ -8856,6 +8861,8 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/JournalTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/LoginTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/MiniOrderTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/MotoTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/MotorVehicleDriverTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/MotorVehicleTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/NetMachineTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/OrderIssueTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/OrphanageTest.groovy -text
