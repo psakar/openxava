@@ -8777,6 +8777,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Superheroe.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Supervillain.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Tablet.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Task.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Tax.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Thing.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ToDoComponent.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ToDoComponentTask.java -text
