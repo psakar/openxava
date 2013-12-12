@@ -512,6 +512,11 @@ AccessTracking/web/xava/editors/liferayDocumentLibraryEditor.jsp -text
 AccessTracking/web/xava/editors/liferayUploadFile.jsp -text
 AccessTracking/web/xava/editors/listEditor.jsp -text svneol=unset#text/plain
 AccessTracking/web/xava/editors/moneyEditor.jsp -text
+AccessTracking/web/xava/editors/myReportColumnComparatorEditor.jsp -text svneol=unset#text/plain
+AccessTracking/web/xava/editors/myReportColumnDescriptionsListValueEditor.jsp -text svneol=unset#text/plain
+AccessTracking/web/xava/editors/myReportColumnNameEditor.jsp -text svneol=unset#text/plain
+AccessTracking/web/xava/editors/myReportColumnValidValuesValueEditor.jsp -text svneol=unset#text/plain
+AccessTracking/web/xava/editors/myReportNameEditor.jsp -text svneol=unset#text/plain
 AccessTracking/web/xava/editors/notAvailableEditor.jsp -text
 AccessTracking/web/xava/editors/passwordEditor.jsp -text
 AccessTracking/web/xava/editors/radioButtonEditor.jsp -text
@@ -553,6 +558,7 @@ AccessTracking/web/xava/images/checked.gif -text
 AccessTracking/web/xava/images/clear-right.gif -text
 AccessTracking/web/xava/images/create_new.gif -text
 AccessTracking/web/xava/images/customize.gif -text
+AccessTracking/web/xava/images/customize.png -text
 AccessTracking/web/xava/images/delete.gif -text
 AccessTracking/web/xava/images/descending-white.gif -text
 AccessTracking/web/xava/images/descending-white2.gif -text
@@ -653,6 +659,7 @@ AccessTracking/web/xava/style/ipad/images/calendar.gif -text
 AccessTracking/web/xava/style/ipad/images/clear-right.gif -text
 AccessTracking/web/xava/style/ipad/images/create_new.gif -text
 AccessTracking/web/xava/style/ipad/images/customize.gif -text
+AccessTracking/web/xava/style/ipad/images/customize.png -text
 AccessTracking/web/xava/style/ipad/images/delete.gif -text
 AccessTracking/web/xava/style/ipad/images/descending-white.gif -text
 AccessTracking/web/xava/style/ipad/images/descending-white2.gif -text
@@ -2576,6 +2583,11 @@ MiEscuela/web/xava/editors/liferayDocumentLibraryEditor.jsp -text
 MiEscuela/web/xava/editors/liferayUploadFile.jsp -text
 MiEscuela/web/xava/editors/listEditor.jsp -text svneol=unset#text/plain
 MiEscuela/web/xava/editors/moneyEditor.jsp -text
+MiEscuela/web/xava/editors/myReportColumnComparatorEditor.jsp -text svneol=unset#text/plain
+MiEscuela/web/xava/editors/myReportColumnDescriptionsListValueEditor.jsp -text svneol=unset#text/plain
+MiEscuela/web/xava/editors/myReportColumnNameEditor.jsp -text svneol=unset#text/plain
+MiEscuela/web/xava/editors/myReportColumnValidValuesValueEditor.jsp -text svneol=unset#text/plain
+MiEscuela/web/xava/editors/myReportNameEditor.jsp -text svneol=unset#text/plain
 MiEscuela/web/xava/editors/notAvailableEditor.jsp -text
 MiEscuela/web/xava/editors/passwordEditor.jsp -text
 MiEscuela/web/xava/editors/photoEditor.jsp -text
@@ -2620,6 +2632,7 @@ MiEscuela/web/xava/images/checked.gif -text
 MiEscuela/web/xava/images/clear-right.gif -text
 MiEscuela/web/xava/images/create_new.gif -text
 MiEscuela/web/xava/images/customize.gif -text
+MiEscuela/web/xava/images/customize.png -text
 MiEscuela/web/xava/images/delete.gif -text
 MiEscuela/web/xava/images/descending-white.gif -text
 MiEscuela/web/xava/images/descending-white2.gif -text
@@ -2721,6 +2734,7 @@ MiEscuela/web/xava/style/ipad/images/calendar.gif -text
 MiEscuela/web/xava/style/ipad/images/clear-right.gif -text
 MiEscuela/web/xava/style/ipad/images/create_new.gif -text
 MiEscuela/web/xava/style/ipad/images/customize.gif -text
+MiEscuela/web/xava/style/ipad/images/customize.png -text
 MiEscuela/web/xava/style/ipad/images/delete.gif -text
 MiEscuela/web/xava/style/ipad/images/descending-white.gif -text
 MiEscuela/web/xava/style/ipad/images/descending-white2.gif -text
@@ -3411,6 +3425,11 @@ MySchool/web/xava/editors/liferayDocumentLibraryEditor.jsp -text
 MySchool/web/xava/editors/liferayUploadFile.jsp -text
 MySchool/web/xava/editors/listEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/moneyEditor.jsp -text
+MySchool/web/xava/editors/myReportColumnComparatorEditor.jsp -text svneol=unset#text/plain
+MySchool/web/xava/editors/myReportColumnDescriptionsListValueEditor.jsp -text svneol=unset#text/plain
+MySchool/web/xava/editors/myReportColumnNameEditor.jsp -text svneol=unset#text/plain
+MySchool/web/xava/editors/myReportColumnValidValuesValueEditor.jsp -text svneol=unset#text/plain
+MySchool/web/xava/editors/myReportNameEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/notAvailableEditor.jsp -text
 MySchool/web/xava/editors/passwordEditor.jsp -text
 MySchool/web/xava/editors/photoEditor.jsp -text
@@ -3455,6 +3474,7 @@ MySchool/web/xava/images/checked.gif -text
 MySchool/web/xava/images/clear-right.gif -text
 MySchool/web/xava/images/create_new.gif -text
 MySchool/web/xava/images/customize.gif -text
+MySchool/web/xava/images/customize.png -text
 MySchool/web/xava/images/delete.gif -text
 MySchool/web/xava/images/descending-white.gif -text
 MySchool/web/xava/images/descending-white2.gif -text
@@ -3556,6 +3576,7 @@ MySchool/web/xava/style/ipad/images/calendar.gif -text
 MySchool/web/xava/style/ipad/images/clear-right.gif -text
 MySchool/web/xava/style/ipad/images/create_new.gif -text
 MySchool/web/xava/style/ipad/images/customize.gif -text
+MySchool/web/xava/style/ipad/images/customize.png -text
 MySchool/web/xava/style/ipad/images/delete.gif -text
 MySchool/web/xava/style/ipad/images/descending-white.gif -text
 MySchool/web/xava/style/ipad/images/descending-white2.gif -text
