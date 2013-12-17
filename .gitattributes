@@ -8707,6 +8707,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Employee.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/EmployeeInfo.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/EmployeeInfoKey.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/EmployeeKey.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Exam.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Experience.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Family.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Family2.java -text
@@ -8719,7 +8720,9 @@ OpenXavaTest/pojo-src/org/openxava/test/model/FormulaIngredient.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Framework.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Hobby.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Hobbyist.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Hound.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Human.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Hunter.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Ingredient.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/InternetShop.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Invent.groovy -text
@@ -8775,6 +8778,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Quarter.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/QuarterKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/QuarterSubject.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/QuarterSubjectKey.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Question.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Ranges.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Receptionist.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Report.java -text
@@ -9142,6 +9146,7 @@ OpenXavaTest/src/org/openxava/test/tests/DeliveryTypeJSPTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DeliveryTypeTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DescriptionTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DriverTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/ExamTest.groovy -text
 OpenXavaTest/src/org/openxava/test/tests/FamilyListOnlyTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/FamilyProductsReportTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/FamilyRangeProductsReportTest.java -text
@@ -9149,6 +9154,7 @@ OpenXavaTest/src/org/openxava/test/tests/FamilyTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/FamilyWithInheritanceControllerTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/FamilyXProductsReportTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/FormulaTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/HunterTest.groovy -text
 OpenXavaTest/src/org/openxava/test/tests/IngredientTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/Invoice20020001Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/Invoice20022004Test.java -text
