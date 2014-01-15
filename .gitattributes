@@ -4054,6 +4054,8 @@ OpenXava/src/org/openxava/actions/NavigationAction.java -text
 OpenXava/src/org/openxava/actions/NavigationFromReferenceBaseAction.java -text
 OpenXava/src/org/openxava/actions/NewAction.java -text
 OpenXava/src/org/openxava/actions/NewTreeViewItemAction.java -text
+OpenXava/src/org/openxava/actions/OnChangeMyReportColumnBaseAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/OnChangeMyReportColumnComparatorAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/OnChangeMyReportColumnNameAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/OnChangeMyReportNameAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/OnChangePropertyBaseAction.java -text
