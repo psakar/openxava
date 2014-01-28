@@ -8960,6 +8960,7 @@ OpenXavaTest/reports/Products.jrxml -text
 OpenXavaTest/selenium-tests/CarrierWithTwoCollectionsTogether.case -text
 OpenXavaTest/selenium-tests/CarrierWithTwoSections.case -text
 OpenXavaTest/selenium-tests/Customer-twoFrames.case -text
+OpenXavaTest/selenium-tests/CustomerDemoSmallLabel.case -text
 OpenXavaTest/selenium-tests/InvoiceAmounts.case -text
 OpenXavaTest/selenium-tests/InvoiceAmountsInSection.case -text
 OpenXavaTest/selenium-tests/InvoiceAmountsNotAligned.case -text
