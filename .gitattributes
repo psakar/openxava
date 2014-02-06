@@ -4455,6 +4455,7 @@ OpenXava/src/org/openxava/util/CloneException.java -text
 OpenXava/src/org/openxava/util/DataSourceConnectionProvider.java -text
 OpenXava/src/org/openxava/util/Dates.java -text
 OpenXava/src/org/openxava/util/DefaultReportParametersProvider.java -text
+OpenXava/src/org/openxava/util/DefaultReportsProvider.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/util/ElementNotFoundException.java -text
 OpenXava/src/org/openxava/util/Emails.java -text
 OpenXava/src/org/openxava/util/Factory.java -text
@@ -4465,6 +4466,7 @@ OpenXava/src/org/openxava/util/IInit.java -text
 OpenXava/src/org/openxava/util/ILiberate.java -text
 OpenXava/src/org/openxava/util/IPropertiesContainer.java -text
 OpenXava/src/org/openxava/util/IReportParametersProvider.java -text
+OpenXava/src/org/openxava/util/IReportsProvider.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/util/IRequestReportParametersProvider.java -text
 OpenXava/src/org/openxava/util/InitException.java -text
 OpenXava/src/org/openxava/util/InputStreams.java -text
@@ -4482,6 +4484,7 @@ OpenXava/src/org/openxava/util/PropertiesManager.java -text
 OpenXava/src/org/openxava/util/PropertiesManagerException.java -text
 OpenXava/src/org/openxava/util/PropertiesReader.java -text
 OpenXava/src/org/openxava/util/ReportParametersProviderFactory.java -text
+OpenXava/src/org/openxava/util/ReportsProviderFactory.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/util/ResourceManagerI18n.java -text
 OpenXava/src/org/openxava/util/Resources.java -text
 OpenXava/src/org/openxava/util/Server.java -text
@@ -5114,6 +5117,7 @@ OpenXava/web/images/refresh.gif -text
 OpenXava/web/images/remove.gif -text
 OpenXava/web/images/report.gif -text
 OpenXava/web/images/reports.png -text
+OpenXava/web/images/reportsAdmin.png -text
 OpenXava/web/images/required.gif -text
 OpenXava/web/images/restore.gif -text
 OpenXava/web/images/rtf.gif -text
