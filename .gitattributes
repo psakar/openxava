@@ -9255,6 +9255,7 @@ OpenXavaTest/src/org/openxava/test/tests/WarehouseSpecialNewTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehouseSplitTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehouseSplitTestBase.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehouseTest.java -text
+OpenXavaTest/src/org/openxava/test/util/AdminReportsProvider.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/util/MyReportParametersProvider.groovy -text
 OpenXavaTest/src/org/openxava/test/validators/CheapProductValidator.java -text
 OpenXavaTest/src/org/openxava/test/validators/DeliveryValidator.java -text
@@ -9767,6 +9768,7 @@ OpenXavaTest/web/xava/images/refresh.gif -text
 OpenXavaTest/web/xava/images/remove.gif -text
 OpenXavaTest/web/xava/images/report.gif -text
 OpenXavaTest/web/xava/images/reports.png -text
+OpenXavaTest/web/xava/images/reportsAdmin.png -text
 OpenXavaTest/web/xava/images/required.gif -text
 OpenXavaTest/web/xava/images/restore.gif -text
 OpenXavaTest/web/xava/images/rtf.gif -text
