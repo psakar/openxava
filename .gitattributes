@@ -2151,7 +2151,6 @@ MiEscuela/.settings/.component -text
 MiEscuela/.settings/org.eclipse.jdt.core.prefs -text
 MiEscuela/.settings/org.eclipse.jdt.groovy.core.prefs -text svneol=unset#text/plain
 MiEscuela/.settings/org.eclipse.jdt.ui.prefs -text
-MiEscuela/.settings/org.eclipse.jst.common.project.facet.core.prefs -text
 MiEscuela/.settings/org.eclipse.wst.common.project.facet.core.xml -text
 MiEscuela/build.xml -text
 MiEscuela/data/mi-escuela-db.properties -text
@@ -2981,7 +2980,6 @@ MySchool/.settings/.component -text
 MySchool/.settings/org.eclipse.jdt.core.prefs -text
 MySchool/.settings/org.eclipse.jdt.groovy.core.prefs -text svneol=unset#text/plain
 MySchool/.settings/org.eclipse.jdt.ui.prefs -text
-MySchool/.settings/org.eclipse.jst.common.project.facet.core.prefs -text
 MySchool/.settings/org.eclipse.wst.common.project.facet.core.xml -text
 MySchool/build.xml -text
 MySchool/data/my-school-db.properties -text
