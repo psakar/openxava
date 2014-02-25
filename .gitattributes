@@ -2218,7 +2218,6 @@ MiEscuela/web/WEB-INF/lib/javassist.jar -text
 MiEscuela/web/WEB-INF/lib/javax.inject.jar -text
 MiEscuela/web/WEB-INF/lib/jaxb-api.jar -text
 MiEscuela/web/WEB-INF/lib/jaxb-impl.jar -text
-MiEscuela/web/WEB-INF/lib/jboss-client.jar -text
 MiEscuela/web/WEB-INF/lib/jpa2.jar -text
 MiEscuela/web/WEB-INF/lib/jstl.jar -text
 MiEscuela/web/WEB-INF/lib/mailapi.jar -text
