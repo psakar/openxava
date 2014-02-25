@@ -156,8 +156,6 @@ AccessTracking/web/WEB-INF/lib/jakarta-oro.jar -text
 AccessTracking/web/WEB-INF/lib/jasperreports.jar -text
 AccessTracking/web/WEB-INF/lib/javassist.jar -text
 AccessTracking/web/WEB-INF/lib/javax.inject.jar -text
-AccessTracking/web/WEB-INF/lib/jaxb-api.jar -text
-AccessTracking/web/WEB-INF/lib/jaxb-impl.jar -text
 AccessTracking/web/WEB-INF/lib/jpa2.jar -text
 AccessTracking/web/WEB-INF/lib/jstl.jar -text
 AccessTracking/web/WEB-INF/lib/jta.jar -text
