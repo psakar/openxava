@@ -4672,6 +4672,7 @@ OpenXava/web/WEB-INF/lib/commons-fileupload.jar -text
 OpenXava/web/WEB-INF/lib/commons-io.jar -text
 OpenXava/web/WEB-INF/lib/commons-jexl.jar -text
 OpenXava/web/WEB-INF/lib/commons-lang.jar -text
+OpenXava/web/WEB-INF/lib/commons-lang3.jar -text
 OpenXava/web/WEB-INF/lib/commons-logging.jar -text
 OpenXava/web/WEB-INF/lib/commons-validator.jar -text
 OpenXava/web/WEB-INF/lib/dom4j.jar -text
@@ -4685,7 +4686,6 @@ OpenXava/web/WEB-INF/lib/hibernate-validator.jar -text
 OpenXava/web/WEB-INF/lib/hibernate3.jar -text
 OpenXava/web/WEB-INF/lib/imap.jar -text
 OpenXava/web/WEB-INF/lib/itext.jar -text
-OpenXava/web/WEB-INF/lib/jakarta-oro.jar -text
 OpenXava/web/WEB-INF/lib/jasperreports.jar -text
 OpenXava/web/WEB-INF/lib/javassist.jar -text
 OpenXava/web/WEB-INF/lib/javax.inject.jar -text
@@ -9280,6 +9280,7 @@ OpenXavaTest/web/WEB-INF/lib/commons-fileupload.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-io.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-jexl.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-lang.jar -text
+OpenXavaTest/web/WEB-INF/lib/commons-lang3.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-logging.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-validator.jar -text
 OpenXavaTest/web/WEB-INF/lib/dom4j.jar -text
@@ -9293,7 +9294,6 @@ OpenXavaTest/web/WEB-INF/lib/hibernate-validator.jar -text
 OpenXavaTest/web/WEB-INF/lib/hibernate3.jar -text
 OpenXavaTest/web/WEB-INF/lib/imap.jar -text
 OpenXavaTest/web/WEB-INF/lib/itext.jar -text
-OpenXavaTest/web/WEB-INF/lib/jakarta-oro.jar -text
 OpenXavaTest/web/WEB-INF/lib/jasperreports.jar -text
 OpenXavaTest/web/WEB-INF/lib/javassist.jar -text
 OpenXavaTest/web/WEB-INF/lib/javax.inject.jar -text
