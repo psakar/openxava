@@ -9255,7 +9255,6 @@ OpenXavaTest/web/WEB-INF/dwr.xml -text
 OpenXavaTest/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
 OpenXavaTest/web/WEB-INF/fonts/DejaVuSans.ttf -text
 OpenXavaTest/web/WEB-INF/fonts/LICENSE -text
-OpenXavaTest/web/WEB-INF/lib/activation.jar -text
 OpenXavaTest/web/WEB-INF/lib/antlr.jar -text
 OpenXavaTest/web/WEB-INF/lib/asm.jar -text
 OpenXavaTest/web/WEB-INF/lib/autobizlogic.jar -text
