@@ -4646,7 +4646,6 @@ OpenXava/web/WEB-INF/dwr.xml -text
 OpenXava/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
 OpenXava/web/WEB-INF/fonts/DejaVuSans.ttf -text
 OpenXava/web/WEB-INF/fonts/LICENSE -text
-OpenXava/web/WEB-INF/lib/activation.jar -text
 OpenXava/web/WEB-INF/lib/antlr.jar -text
 OpenXava/web/WEB-INF/lib/asm.jar -text
 OpenXava/web/WEB-INF/lib/autobizlogic.jar -text
