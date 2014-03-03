@@ -109,19 +109,6 @@ AccessTracking/src/org/openxava/tracking/AccessTrackingListener.java -text
 AccessTracking/tomcat-as400.properties -text
 AccessTracking/tomcat-hypersonic.properties -text
 AccessTracking/web/META-INF/MANIFEST.MF -text
-AccessTracking/web/WEB-INF/classes/Access.hbm.xml -text
-AccessTracking/web/WEB-INF/classes/Access.xml -text
-AccessTracking/web/WEB-INF/classes/AccessTracking-labels_ca.properties -text
-AccessTracking/web/WEB-INF/classes/AccessTracking-labels_en.properties -text
-AccessTracking/web/WEB-INF/classes/AccessTracking-labels_es.properties -text
-AccessTracking/web/WEB-INF/classes/AccessTracking-messages_ca.properties -text
-AccessTracking/web/WEB-INF/classes/AccessTracking-messages_en.properties -text
-AccessTracking/web/WEB-INF/classes/AccessTracking-messages_es.properties -text
-AccessTracking/web/WEB-INF/classes/application.xml -text
-AccessTracking/web/WEB-INF/classes/aspects.xml -text
-AccessTracking/web/WEB-INF/classes/hibernate-junit.cfg.xml -text
-AccessTracking/web/WEB-INF/classes/hibernate.cfg.xml -text
-AccessTracking/web/WEB-INF/classes/jndi.properties -text
 AccessTracking/web/WEB-INF/dwr.xml -text
 AccessTracking/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
 AccessTracking/web/WEB-INF/fonts/DejaVuSans.ttf -text
@@ -8969,11 +8956,13 @@ OpenXavaTest/selenium-tests/InvoiceAmounts.case -text
 OpenXavaTest/selenium-tests/InvoiceAmountsInSection.case -text
 OpenXavaTest/selenium-tests/InvoiceAmountsNotAligned.case -text
 OpenXavaTest/selenium-tests/InvoiceAmountsNotAlignedInSection.case -text
+OpenXavaTest/selenium-tests/InvoiceDetailsWithTotals.case -text
 OpenXavaTest/selenium-tests/Product4.case -text
 OpenXavaTest/selenium-tests/Product4NotAligned.case -text
 OpenXavaTest/selenium-tests/Product5FamilyFromSubfamily.case -text
 OpenXavaTest/selenium-tests/README.txt -text
 OpenXavaTest/selenium-tests/Renderer.suite -text
+OpenXavaTest/selenium-tests/user-extensions.js -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/actions/ActivateDeactivateSectionAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/AddActionsAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/AddFullAddressAction.java -text
