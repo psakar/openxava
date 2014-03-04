@@ -3937,6 +3937,7 @@ OpenXava/license/other-licenses/cli-license.txt -text
 OpenXava/license/other-licenses/groovy-license.txt -text
 OpenXava/license/other-licenses/httpunit-license.txt -text
 OpenXava/license/other-licenses/jasperreports-license.txt -text
+OpenXava/license/other-licenses/javamail-license.txt -text svneol=unset#text/plain
 OpenXava/license/other-licenses/jquery-qtip-license.txt -text
 OpenXava/license/other-licenses/jquery-ui-license.txt -text
 OpenXava/license/other-licenses/jsr-223-license.txt -text
@@ -4685,6 +4686,7 @@ OpenXava/web/WEB-INF/lib/pop3.jar -text
 OpenXava/web/WEB-INF/lib/slf4j-api.jar -text
 OpenXava/web/WEB-INF/lib/slf4j-jdk14.jar -text
 OpenXava/web/WEB-INF/lib/smtp.jar -text
+OpenXava/web/WEB-INF/lib/standard-jstlel.jar -text
 OpenXava/web/WEB-INF/lib/standard.jar -text
 OpenXava/web/WEB-INF/lib/validation-api.jar -text
 OpenXava/web/WEB-INF/openxava.tld -text svneol=unset#text/plain
@@ -9295,6 +9297,7 @@ OpenXavaTest/web/WEB-INF/lib/pop3.jar -text
 OpenXavaTest/web/WEB-INF/lib/slf4j-api.jar -text
 OpenXavaTest/web/WEB-INF/lib/slf4j-jdk14.jar -text
 OpenXavaTest/web/WEB-INF/lib/smtp.jar -text
+OpenXavaTest/web/WEB-INF/lib/standard-jstlel.jar -text
 OpenXavaTest/web/WEB-INF/lib/standard.jar -text
 OpenXavaTest/web/WEB-INF/lib/tracking.jar -text
 OpenXavaTest/web/WEB-INF/lib/validation-api.jar -text
