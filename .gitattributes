@@ -4082,6 +4082,7 @@ OpenXava/src/org/openxava/actions/SetPageRowCountAction.java -text
 OpenXava/src/org/openxava/actions/SetPersistenceUnitAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/SetSchemaAction.java -text
 OpenXava/src/org/openxava/actions/SetUserAction.java -text
+OpenXava/src/org/openxava/actions/ShareMyReportAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/ShowRowsAction.java -text
 OpenXava/src/org/openxava/actions/SimpleHTMLReportAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/SimpleTemplaterAction.java -text svneol=unset#text/plain
@@ -4439,7 +4440,6 @@ OpenXava/src/org/openxava/util/CloneException.java -text
 OpenXava/src/org/openxava/util/DataSourceConnectionProvider.java -text
 OpenXava/src/org/openxava/util/Dates.java -text
 OpenXava/src/org/openxava/util/DefaultReportParametersProvider.java -text
-OpenXava/src/org/openxava/util/DefaultReportsProvider.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/util/ElementNotFoundException.java -text
 OpenXava/src/org/openxava/util/Emails.java -text
 OpenXava/src/org/openxava/util/Factory.java -text
@@ -4450,7 +4450,6 @@ OpenXava/src/org/openxava/util/IInit.java -text
 OpenXava/src/org/openxava/util/ILiberate.java -text
 OpenXava/src/org/openxava/util/IPropertiesContainer.java -text
 OpenXava/src/org/openxava/util/IReportParametersProvider.java -text
-OpenXava/src/org/openxava/util/IReportsProvider.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/util/IRequestReportParametersProvider.java -text
 OpenXava/src/org/openxava/util/InitException.java -text
 OpenXava/src/org/openxava/util/InputStreams.java -text
@@ -4468,7 +4467,6 @@ OpenXava/src/org/openxava/util/PropertiesManager.java -text
 OpenXava/src/org/openxava/util/PropertiesManagerException.java -text
 OpenXava/src/org/openxava/util/PropertiesReader.java -text
 OpenXava/src/org/openxava/util/ReportParametersProviderFactory.java -text
-OpenXava/src/org/openxava/util/ReportsProviderFactory.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/util/ResourceManagerI18n.java -text
 OpenXava/src/org/openxava/util/Resources.java -text
 OpenXava/src/org/openxava/util/Server.java -text
@@ -5107,6 +5105,7 @@ OpenXava/web/images/restore.gif -text
 OpenXava/web/images/rtf.gif -text
 OpenXava/web/images/save.gif -text
 OpenXava/web/images/search.gif -text
+OpenXava/web/images/shared-reports.png -text
 OpenXava/web/images/show-filter.gif -text
 OpenXava/web/images/sort.gif -text
 OpenXava/web/images/spacer.gif -text
