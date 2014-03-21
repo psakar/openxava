@@ -8604,6 +8604,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/AddToNameAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ChangeName.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/CorporationEmployeeListFilterAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/EditGalleryNoDialogAction.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/FailTransactionInCollectionElementAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/FamilyProductsReportAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/FilterInvoice4ByDateAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/GoChangeName.groovy -text
@@ -9239,7 +9240,6 @@ OpenXavaTest/src/org/openxava/test/tests/WarehouseSpecialNewTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehouseSplitTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehouseSplitTestBase.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehouseTest.java -text
-OpenXavaTest/src/org/openxava/test/util/AdminReportsProvider.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/util/MyReportParametersProvider.groovy -text
 OpenXavaTest/src/org/openxava/test/validators/CheapProductValidator.java -text
 OpenXavaTest/src/org/openxava/test/validators/DeliveryValidator.java -text
@@ -9758,6 +9758,7 @@ OpenXavaTest/web/xava/images/restore.gif -text
 OpenXavaTest/web/xava/images/rtf.gif -text
 OpenXavaTest/web/xava/images/save.gif -text
 OpenXavaTest/web/xava/images/search.gif -text
+OpenXavaTest/web/xava/images/shared-reports.png -text
 OpenXavaTest/web/xava/images/show-filter.gif -text
 OpenXavaTest/web/xava/images/sort.gif -text
 OpenXavaTest/web/xava/images/spacer.gif -text
