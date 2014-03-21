@@ -9299,7 +9299,6 @@ OpenXavaTest/web/WEB-INF/lib/slf4j-jdk14.jar -text
 OpenXavaTest/web/WEB-INF/lib/smtp.jar -text
 OpenXavaTest/web/WEB-INF/lib/standard-jstlel.jar -text
 OpenXavaTest/web/WEB-INF/lib/standard.jar -text
-OpenXavaTest/web/WEB-INF/lib/tracking.jar -text
 OpenXavaTest/web/WEB-INF/lib/validation-api.jar -text
 OpenXavaTest/web/WEB-INF/liferay-display-ext.xml -text svneol=unset#text/plain
 OpenXavaTest/web/WEB-INF/liferay-display.xml -text
@@ -10047,7 +10046,6 @@ OpenXavaTest/web/xava/style/yahoo.css -text svneol=unset#application/octet-strea
 OpenXavaTest/web/xava/subButton.jsp -text svneol=unset#text/plain
 OpenXavaTest/websphere-as400.properties -text
 OpenXavaTest/xava/application.xml -text
-OpenXavaTest/xava/aspects.xml -text
 OpenXavaTest/xava/code-generators.xml -text
 OpenXavaTest/xava/controllers.xml -text
 OpenXavaTest/xava/converters.xml -text
