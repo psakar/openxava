@@ -3802,6 +3802,59 @@ OpenXava/.settings/org.eclipse.jdt.core.prefs -text
 OpenXava/.settings/org.eclipse.wst.common.project.facet.core.xml -text
 OpenXava/.settings/org.eclipse.wst.validation.prefs -text
 OpenXava/.vcm_meta -text svneol=unset#application/octet-stream
+OpenXava/addons/properties-templates/naviox-users.properties -text svneol=unset#text/plain
+OpenXava/addons/properties-templates/naviox.properties -text svneol=unset#text/plain
+OpenXava/addons/src/com/openxava/naviox/Modules.java -text svneol=unset#text/plain
+OpenXava/addons/src/com/openxava/naviox/actions/SignInAction.java -text svneol=unset#text/plain
+OpenXava/addons/src/com/openxava/naviox/impl/AdditionalModules.java -text svneol=unset#text/plain
+OpenXava/addons/src/com/openxava/naviox/impl/DB.java -text svneol=unset#text/plain
+OpenXava/addons/src/com/openxava/naviox/impl/Initializer.java -text svneol=unset#text/plain
+OpenXava/addons/src/com/openxava/naviox/impl/MetaModuleFactory.java -text svneol=unset#text/plain
+OpenXava/addons/src/com/openxava/naviox/impl/ModulesProvider.java -text svneol=unset#text/plain
+OpenXava/addons/src/com/openxava/naviox/impl/SignInHelper.java -text svneol=unset#text/plain
+OpenXava/addons/src/com/openxava/naviox/model/SignIn.java -text svneol=unset#text/plain
+OpenXava/addons/src/com/openxava/naviox/tests/NaviOXTestBase.java -text svneol=unset#text/plain
+OpenXava/addons/src/com/openxava/naviox/util/NaviOXPreferences.java -text svneol=unset#text/plain
+OpenXava/addons/src/com/openxava/naviox/web/NaviOXFilter.java -text svneol=unset#text/plain
+OpenXava/addons/src/com/openxava/naviox/web/NaviOXServlet.java -text svneol=unset#text/plain
+OpenXava/addons/src/com/openxava/naviox/web/NaviOXStyle.java -text svneol=unset#text/plain
+OpenXava/addons/src/com/openxava/naviox/web/dwr/Folders.java -text svneol=unset#text/plain
+OpenXava/addons/src/com/openxava/naviox/web/dwr/Modules.java -text svneol=unset#text/plain
+OpenXava/addons/web/index.jsp -text svneol=unset#text/plain
+OpenXava/addons/web/naviox/editors/actionsEditor.jsp -text svneol=unset#text/plain
+OpenXava/addons/web/naviox/firstSteps.jsp -text svneol=unset#text/plain
+OpenXava/addons/web/naviox/getModulesList.jsp -text svneol=unset#text/plain
+OpenXava/addons/web/naviox/images/bookmark-off.png -text
+OpenXava/addons/web/naviox/images/bookmark-on.png -text
+OpenXava/addons/web/naviox/images/corner.png -text
+OpenXava/addons/web/naviox/images/loading.gif -text
+OpenXava/addons/web/naviox/images/login.png -text
+OpenXava/addons/web/naviox/images/maximize.gif -text
+OpenXava/addons/web/naviox/images/minimize.gif -text
+OpenXava/addons/web/naviox/images/navigation.png -text
+OpenXava/addons/web/naviox/images/naviox-folders_en.png -text
+OpenXava/addons/web/naviox/images/naviox-folders_es.png -text
+OpenXava/addons/web/naviox/images/naviox-module-labels_en.png -text
+OpenXava/addons/web/naviox/images/naviox-module-labels_es.png -text
+OpenXava/addons/web/naviox/images/naviox-modules_en.png -text
+OpenXava/addons/web/naviox/images/naviox-modules_es.png -text
+OpenXava/addons/web/naviox/images/naviox-roles_en.png -text
+OpenXava/addons/web/naviox/images/naviox-roles_es.png -text
+OpenXava/addons/web/naviox/images/restore.gif -text
+OpenXava/addons/web/naviox/images/right.png -text
+OpenXava/addons/web/naviox/images/search.png -text
+OpenXava/addons/web/naviox/images/user-group.png -text
+OpenXava/addons/web/naviox/index.jsp -text svneol=unset#text/plain
+OpenXava/addons/web/naviox/js/naviox.js -text svneol=unset#text/plain
+OpenXava/addons/web/naviox/js/typewatch.js -text svneol=unset#text/plain
+OpenXava/addons/web/naviox/mainNavigation.jsp -text svneol=unset#text/plain
+OpenXava/addons/web/naviox/modulesList.jsp -text svneol=unset#text/plain
+OpenXava/addons/web/naviox/modulesMenu.jsp -text svneol=unset#text/plain
+OpenXava/addons/web/naviox/selectModules.jsp -text svneol=unset#text/plain
+OpenXava/addons/web/naviox/signIn.jsp -text svneol=unset#text/plain
+OpenXava/addons/web/naviox/signOut.jsp -text svneol=unset#text/plain
+OpenXava/addons/web/naviox/style/naviox.css -text svneol=unset#text/plain
+OpenXava/addons/web/naviox/welcome.jsp -text svneol=unset#text/plain
 OpenXava/build.xml -text svneol=unset#text/plain
 OpenXava/build/jboss-app.xml -text
 OpenXava/build/server-properties/BeansContext.properties -text
@@ -4679,6 +4732,7 @@ OpenXava/web/WEB-INF/lib/jpa2.jar -text
 OpenXava/web/WEB-INF/lib/jstl.jar -text
 OpenXava/web/WEB-INF/lib/jta.jar -text
 OpenXava/web/WEB-INF/lib/mailapi.jar -text
+OpenXava/web/WEB-INF/lib/naviox.jar -text
 OpenXava/web/WEB-INF/lib/ox-jdbc-adapters.jar -text
 OpenXava/web/WEB-INF/lib/poi.jar -text
 OpenXava/web/WEB-INF/lib/pop3.jar -text
@@ -8941,6 +8995,8 @@ OpenXavaTest/properties/jndi-jboss.properties -text
 OpenXavaTest/properties/jndi-websphere.properties -text
 OpenXavaTest/properties/jndi.properties -text
 OpenXavaTest/properties/logging.properties -text
+OpenXavaTest/properties/naviox-users.properties -text svneol=unset#text/plain
+OpenXavaTest/properties/naviox.properties -text svneol=unset#text/plain
 OpenXavaTest/properties/xava-junit.properties -text
 OpenXavaTest/properties/xava.properties -text
 OpenXavaTest/reports/Corporation.html -text svneol=unset#text/plain
@@ -9289,6 +9345,7 @@ OpenXavaTest/web/WEB-INF/lib/jpa2.jar -text
 OpenXavaTest/web/WEB-INF/lib/jstl.jar -text
 OpenXavaTest/web/WEB-INF/lib/jta.jar -text
 OpenXavaTest/web/WEB-INF/lib/mailapi.jar -text
+OpenXavaTest/web/WEB-INF/lib/naviox.jar -text
 OpenXavaTest/web/WEB-INF/lib/openxava.jar -text
 OpenXavaTest/web/WEB-INF/lib/ox-jdbc-adapters.jar -text
 OpenXavaTest/web/WEB-INF/lib/poi.jar -text
@@ -9315,6 +9372,41 @@ OpenXavaTest/web/doc/description_en.html -text
 OpenXavaTest/web/doc/description_es.html -text
 OpenXavaTest/web/help/Color_en.html -text
 OpenXavaTest/web/help/Color_es.html -text
+OpenXavaTest/web/index.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/naviox/editors/actionsEditor.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/naviox/firstSteps.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/naviox/getModulesList.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/naviox/images/bookmark-off.png -text
+OpenXavaTest/web/naviox/images/bookmark-on.png -text
+OpenXavaTest/web/naviox/images/corner.png -text
+OpenXavaTest/web/naviox/images/loading.gif -text
+OpenXavaTest/web/naviox/images/login.png -text
+OpenXavaTest/web/naviox/images/maximize.gif -text
+OpenXavaTest/web/naviox/images/minimize.gif -text
+OpenXavaTest/web/naviox/images/navigation.png -text
+OpenXavaTest/web/naviox/images/naviox-folders_en.png -text
+OpenXavaTest/web/naviox/images/naviox-folders_es.png -text
+OpenXavaTest/web/naviox/images/naviox-module-labels_en.png -text
+OpenXavaTest/web/naviox/images/naviox-module-labels_es.png -text
+OpenXavaTest/web/naviox/images/naviox-modules_en.png -text
+OpenXavaTest/web/naviox/images/naviox-modules_es.png -text
+OpenXavaTest/web/naviox/images/naviox-roles_en.png -text
+OpenXavaTest/web/naviox/images/naviox-roles_es.png -text
+OpenXavaTest/web/naviox/images/restore.gif -text
+OpenXavaTest/web/naviox/images/right.png -text
+OpenXavaTest/web/naviox/images/search.png -text
+OpenXavaTest/web/naviox/images/user-group.png -text
+OpenXavaTest/web/naviox/index.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/naviox/js/naviox.js -text svneol=unset#text/plain
+OpenXavaTest/web/naviox/js/typewatch.js -text svneol=unset#text/plain
+OpenXavaTest/web/naviox/mainNavigation.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/naviox/modulesList.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/naviox/modulesMenu.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/naviox/selectModules.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/naviox/signIn.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/naviox/signOut.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/naviox/style/naviox.css -text svneol=unset#text/plain
+OpenXavaTest/web/naviox/welcome.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/public/myPublicJSP.jsp -text
 OpenXavaTest/web/seller.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/addColumns.jsp -text
