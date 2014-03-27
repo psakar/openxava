@@ -4513,7 +4513,6 @@ OpenXava/src/org/openxava/util/Labels.java -text
 OpenXava/src/org/openxava/util/Locales.java -text
 OpenXava/src/org/openxava/util/Maps.java -text
 OpenXava/src/org/openxava/util/Messages.java -text
-OpenXava/src/org/openxava/util/Objects.java -text
 OpenXava/src/org/openxava/util/Photo.java -text
 OpenXava/src/org/openxava/util/Primitives.java -text
 OpenXava/src/org/openxava/util/PropertiesManager.java -text
