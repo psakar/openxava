@@ -2995,6 +2995,8 @@ MySchool/persistence/GalleryImage.hbm.xml -text
 MySchool/persistence/META-INF/persistence.xml -text
 MySchool/persistence/hibernate.cfg.xml -text
 MySchool/properties/logging.properties -text
+MySchool/properties/naviox-users.properties -text svneol=unset#text/plain
+MySchool/properties/naviox.properties -text svneol=unset#text/plain
 MySchool/properties/xava-junit.properties -text
 MySchool/properties/xava.properties -text
 MySchool/src/org/openxava/school/model/Teacher.java -text
@@ -3039,6 +3041,7 @@ MySchool/web/WEB-INF/lib/jpa2.jar -text
 MySchool/web/WEB-INF/lib/jstl.jar -text
 MySchool/web/WEB-INF/lib/jta.jar -text
 MySchool/web/WEB-INF/lib/mailapi.jar -text
+MySchool/web/WEB-INF/lib/naviox.jar -text
 MySchool/web/WEB-INF/lib/openxava.jar -text
 MySchool/web/WEB-INF/lib/ox-jdbc-adapters.jar -text
 MySchool/web/WEB-INF/lib/poi.jar -text
@@ -3046,12 +3049,48 @@ MySchool/web/WEB-INF/lib/pop3.jar -text
 MySchool/web/WEB-INF/lib/slf4j-api.jar -text
 MySchool/web/WEB-INF/lib/slf4j-jdk14.jar -text
 MySchool/web/WEB-INF/lib/smtp.jar -text
+MySchool/web/WEB-INF/lib/standard-jstlel.jar -text
 MySchool/web/WEB-INF/lib/standard.jar -text
 MySchool/web/WEB-INF/lib/validation-api.jar -text
 MySchool/web/WEB-INF/liferay-display.xml -text
 MySchool/web/WEB-INF/openxava.tld -text
 MySchool/web/WEB-INF/portlet.xml -text
 MySchool/web/WEB-INF/web.xml -text
+MySchool/web/index.jsp -text svneol=unset#text/plain
+MySchool/web/naviox/editors/actionsEditor.jsp -text svneol=unset#text/plain
+MySchool/web/naviox/firstSteps.jsp -text svneol=unset#text/plain
+MySchool/web/naviox/getModulesList.jsp -text svneol=unset#text/plain
+MySchool/web/naviox/images/bookmark-off.png -text
+MySchool/web/naviox/images/bookmark-on.png -text
+MySchool/web/naviox/images/corner.png -text
+MySchool/web/naviox/images/loading.gif -text
+MySchool/web/naviox/images/login.png -text
+MySchool/web/naviox/images/maximize.gif -text
+MySchool/web/naviox/images/minimize.gif -text
+MySchool/web/naviox/images/navigation.png -text
+MySchool/web/naviox/images/naviox-folders_en.png -text
+MySchool/web/naviox/images/naviox-folders_es.png -text
+MySchool/web/naviox/images/naviox-module-labels_en.png -text
+MySchool/web/naviox/images/naviox-module-labels_es.png -text
+MySchool/web/naviox/images/naviox-modules_en.png -text
+MySchool/web/naviox/images/naviox-modules_es.png -text
+MySchool/web/naviox/images/naviox-roles_en.png -text
+MySchool/web/naviox/images/naviox-roles_es.png -text
+MySchool/web/naviox/images/restore.gif -text
+MySchool/web/naviox/images/right.png -text
+MySchool/web/naviox/images/search.png -text
+MySchool/web/naviox/images/user-group.png -text
+MySchool/web/naviox/index.jsp -text svneol=unset#text/plain
+MySchool/web/naviox/js/naviox.js -text svneol=unset#text/plain
+MySchool/web/naviox/js/typewatch.js -text svneol=unset#text/plain
+MySchool/web/naviox/mainNavigation.jsp -text svneol=unset#text/plain
+MySchool/web/naviox/modulesList.jsp -text svneol=unset#text/plain
+MySchool/web/naviox/modulesMenu.jsp -text svneol=unset#text/plain
+MySchool/web/naviox/selectModules.jsp -text svneol=unset#text/plain
+MySchool/web/naviox/signIn.jsp -text svneol=unset#text/plain
+MySchool/web/naviox/signOut.jsp -text svneol=unset#text/plain
+MySchool/web/naviox/style/naviox.css -text svneol=unset#text/plain
+MySchool/web/naviox/welcome.jsp -text svneol=unset#text/plain
 MySchool/web/xava/addColumns.jsp -text
 MySchool/web/xava/addToCollection.jsp -text
 MySchool/web/xava/barButton.jsp -text
@@ -3486,6 +3525,7 @@ MySchool/web/xava/images/restore.gif -text
 MySchool/web/xava/images/rtf.gif -text
 MySchool/web/xava/images/save.gif -text
 MySchool/web/xava/images/search.gif -text
+MySchool/web/xava/images/shared-reports.png -text
 MySchool/web/xava/images/show-filter.gif -text
 MySchool/web/xava/images/sort.gif -text
 MySchool/web/xava/images/spacer.gif -text
