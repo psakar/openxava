@@ -3007,7 +3007,6 @@ MySchool/web/WEB-INF/dwr.xml -text
 MySchool/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
 MySchool/web/WEB-INF/fonts/DejaVuSans.ttf -text
 MySchool/web/WEB-INF/fonts/LICENSE -text svneol=unset#application/octet-stream
-MySchool/web/WEB-INF/lib/activation.jar -text
 MySchool/web/WEB-INF/lib/antlr.jar -text
 MySchool/web/WEB-INF/lib/asm.jar -text
 MySchool/web/WEB-INF/lib/autobizlogic.jar -text
