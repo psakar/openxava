@@ -4070,6 +4070,7 @@ OpenXava/src/org/openxava/actions/DeleteImageAction.java -text
 OpenXava/src/org/openxava/actions/DeleteLiferayDocumentAction.java -text
 OpenXava/src/org/openxava/actions/DeleteSelectedAction.java -text
 OpenXava/src/org/openxava/actions/DeselectRowsAction.java -text
+OpenXava/src/org/openxava/actions/DisableCustomizeListAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/EditElementInCollectionAction.java -text
 OpenXava/src/org/openxava/actions/EditElementInManyToManyCollectionAction.java -text
 OpenXava/src/org/openxava/actions/EditGalleryAction.java -text
