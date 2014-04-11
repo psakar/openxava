@@ -4193,6 +4193,7 @@ OpenXava/src/org/openxava/actions/ViewElementInCollectionAction.java -text
 OpenXava/src/org/openxava/annotations/Action.java -text
 OpenXava/src/org/openxava/annotations/Actions.java -text
 OpenXava/src/org/openxava/annotations/AsEmbedded.java -text
+OpenXava/src/org/openxava/annotations/Collapsed.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/annotations/CollectionView.java -text
 OpenXava/src/org/openxava/annotations/CollectionViews.java -text
 OpenXava/src/org/openxava/annotations/Condition.java -text
@@ -5134,7 +5135,7 @@ OpenXava/web/editors/validValuesEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/webURLEditor.jsp -text
 OpenXava/web/errors.jsp -text
 OpenXava/web/execute.jsp -text svneol=unset#text/plain
-OpenXava/web/frameActions.jsp -text
+OpenXava/web/frameActions.jsp -text svneol=unset#text/plain
 OpenXava/web/htmlTagsEditor.jsp -text
 OpenXava/web/images/add.gif -text
 OpenXava/web/images/ascending-white.gif -text
@@ -5704,6 +5705,7 @@ OpenXavaTest/components/Product2.xml -text
 OpenXavaTest/components/Product3.xml -text
 OpenXavaTest/components/Ranges.xml -text
 OpenXavaTest/components/Report.xml -text
+OpenXavaTest/components/School.xml -text svneol=unset#text/plain
 OpenXavaTest/components/SelectSchema.xml -text
 OpenXavaTest/components/Seller.xml -text
 OpenXavaTest/components/SellerLevel.xml -text
@@ -5717,6 +5719,7 @@ OpenXavaTest/components/State.xml -text
 OpenXavaTest/components/Subfamily.xml -text
 OpenXavaTest/components/Subfamily2.xml -text
 OpenXavaTest/components/Task.xml -text
+OpenXavaTest/components/Teacher.xml -text svneol=unset#text/plain
 OpenXavaTest/components/Thing.xml -text
 OpenXavaTest/components/TransportCharge.xml -text
 OpenXavaTest/components/TransportCharge2.xml -text
@@ -7236,6 +7239,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Ranges.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Receptionist.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Report.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/SalesRepresentative.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/School.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/SelectSchema.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Seller.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/SellerLevel.java -text
@@ -7263,6 +7267,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Supervillain.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Tablet.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Task.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Tax.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/model/Teacher.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Thing.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ToDoComponent.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ToDoComponentTask.java -text
@@ -7583,6 +7588,7 @@ OpenXavaTest/src/org/openxava/test/tests/ChangeActiveYearTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ChangeProductsPrice2Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/ChangeProductsPriceTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ClerkTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/CollapsedMemberTestBase.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/Color2Test.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/ColorM1Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/ColorTest.java -text
@@ -7668,6 +7674,7 @@ OpenXavaTest/src/org/openxava/test/tests/ProductTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ProductWithSectionTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/PublicJSPTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ReportTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/SchoolTest.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/SelectSchemaTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/SellerCannotCreateCustomerTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/SellerJSPTest.java -text
@@ -7689,6 +7696,7 @@ OpenXavaTest/src/org/openxava/test/tests/Subfamily2Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/SubfamilySelectTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/SubfamilyTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/TaskTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/TeacherTest.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/TestServletTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/TransportCharge2Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/TransportChargeTest.java -text
