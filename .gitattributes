@@ -4115,6 +4115,7 @@ OpenXava/src/org/openxava/actions/IRequestAction.java -text
 OpenXava/src/org/openxava/actions/IShowActionAction.java -text
 OpenXava/src/org/openxava/actions/IShowActionsAction.java -text
 OpenXava/src/org/openxava/actions/InitListAction.java -text
+OpenXava/src/org/openxava/actions/JasperConcatReportBaseAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/JasperMultipleReportBaseAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/JasperReportBaseAction.java -text
 OpenXava/src/org/openxava/actions/LoadImageAction.java -text
@@ -4708,6 +4709,7 @@ OpenXava/src/org/openxava/web/meta/xmlparse/EditorsParser.java -text
 OpenXava/src/org/openxava/web/portlets/HtmlPortlet.java -text
 OpenXava/src/org/openxava/web/portlets/XavaPortlet.java -text
 OpenXava/src/org/openxava/web/servlets/GalleryServlet.java -text
+OpenXava/src/org/openxava/web/servlets/GenerateConcatReportServlet.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/servlets/GenerateCustomReportServlet.java -text
 OpenXava/src/org/openxava/web/servlets/GenerateReportServlet.java -text
 OpenXava/src/org/openxava/web/servlets/GenerateSimpleHTMLReportServlet.java -text svneol=unset#text/plain
@@ -7076,6 +7078,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/GoLoginAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/GoProposeNameAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/InvoiceReportAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/LoginAction.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/MovieReportAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/NewWarehouseAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeCustomerNameAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeDeliveryByAction.java -text
@@ -7203,6 +7206,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/MixtureKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Month.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/MotorVehicle.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/MotorVehicleDriver.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Movie.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Name.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Nameable.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/NetMachine.groovy -text
@@ -7356,6 +7360,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/MiniOrderTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/MotoTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/MotorVehicleDriverTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/MotorVehicleTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/MovieTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/NetMachineTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/OrderIssueTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/OrphanageTest.groovy -text
@@ -7414,6 +7419,8 @@ OpenXavaTest/properties/xava.properties -text
 OpenXavaTest/reports/Corporation.html -text svneol=unset#text/plain
 OpenXavaTest/reports/CorporationEmployee.html -text svneol=unset#text/plain
 OpenXavaTest/reports/Customer.jrxml -text
+OpenXavaTest/reports/Film.jrxml -text
+OpenXavaTest/reports/Images.jrxml -text
 OpenXavaTest/reports/Invoice.jrxml -text
 OpenXavaTest/reports/InvoiceNoVAT.jrxml -text
 OpenXavaTest/reports/Products.jrxml -text
