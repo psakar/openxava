@@ -4053,6 +4053,7 @@ OpenXava/src/org/openxava/actions/CancelAction.java -text
 OpenXava/src/org/openxava/actions/CancelDialogAction.java -text
 OpenXava/src/org/openxava/actions/CancelFromCustomListAction.java -text
 OpenXava/src/org/openxava/actions/CancelInListAction.java -text
+OpenXava/src/org/openxava/actions/ChangeFileAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/ChangeImageAction.java -text
 OpenXava/src/org/openxava/actions/ChangeModuleAction.java -text
 OpenXava/src/org/openxava/actions/ChangeSectionAction.java -text
@@ -4066,6 +4067,7 @@ OpenXava/src/org/openxava/actions/CreateNewMyReportAction.java -text svneol=unse
 OpenXava/src/org/openxava/actions/CreateNewMyReportColumnAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/CustomizeListAction.java -text
 OpenXava/src/org/openxava/actions/DeleteAction.java -text
+OpenXava/src/org/openxava/actions/DeleteFileAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/DeleteImageAction.java -text
 OpenXava/src/org/openxava/actions/DeleteLiferayDocumentAction.java -text
 OpenXava/src/org/openxava/actions/DeleteSelectedAction.java -text
@@ -4188,6 +4190,7 @@ OpenXava/src/org/openxava/actions/TreeViewMoveNodeAction.java -text
 OpenXava/src/org/openxava/actions/UpdateAction.java -text
 OpenXava/src/org/openxava/actions/UpdateElementInManyToManyCollectionAction.java -text
 OpenXava/src/org/openxava/actions/UpdateReferenceBaseAction.java -text
+OpenXava/src/org/openxava/actions/UploadFileAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/ViewBaseAction.java -text
 OpenXava/src/org/openxava/actions/ViewDetailAction.java -text
 OpenXava/src/org/openxava/actions/ViewElementInCollectionAction.java -text
@@ -4406,6 +4409,7 @@ OpenXava/src/org/openxava/formatters/BooleanListFormatter.java -text svneol=unse
 OpenXava/src/org/openxava/formatters/DateFormatter.java -text
 OpenXava/src/org/openxava/formatters/DateTimeCombinedFormatter.java -text
 OpenXava/src/org/openxava/formatters/DateTimeSeparatedFormatter.java -text
+OpenXava/src/org/openxava/formatters/FileListFormatter.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/formatters/IFormatter.java -text
 OpenXava/src/org/openxava/formatters/IMultipleValuesFormatter.java -text
 OpenXava/src/org/openxava/formatters/ImageFormatter.java -text
@@ -4647,7 +4651,12 @@ OpenXava/src/org/openxava/web/dwr/Result.java -text
 OpenXava/src/org/openxava/web/dwr/StrokeAction.java -text
 OpenXava/src/org/openxava/web/dwr/Tab.java -text
 OpenXava/src/org/openxava/web/dwr/View.java -text
+OpenXava/src/org/openxava/web/editors/AttachedFile.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/web/editors/FilePersistorFactory.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/web/editors/FileSystemPersistor.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/web/editors/IFilePersistor.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/editors/ITreeViewReader.java -text
+OpenXava/src/org/openxava/web/editors/JPAFilePersistor.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/editors/TreeView.java -text
 OpenXava/src/org/openxava/web/editors/TreeViewActions.java -text
 OpenXava/src/org/openxava/web/editors/TreeViewParser.java -text
@@ -4708,6 +4717,7 @@ OpenXava/src/org/openxava/web/meta/MetaWebEditors.java -text
 OpenXava/src/org/openxava/web/meta/xmlparse/EditorsParser.java -text
 OpenXava/src/org/openxava/web/portlets/HtmlPortlet.java -text
 OpenXava/src/org/openxava/web/portlets/XavaPortlet.java -text
+OpenXava/src/org/openxava/web/servlets/FilesServlet.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/servlets/GalleryServlet.java -text
 OpenXava/src/org/openxava/web/servlets/GenerateConcatReportServlet.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/servlets/GenerateCustomReportServlet.java -text
@@ -4774,6 +4784,7 @@ OpenXava/web/WEB-INF/lib/jpa2.jar -text
 OpenXava/web/WEB-INF/lib/jstl.jar -text
 OpenXava/web/WEB-INF/lib/jta.jar -text
 OpenXava/web/WEB-INF/lib/mailapi.jar -text
+OpenXava/web/WEB-INF/lib/mime-util.jar -text
 OpenXava/web/WEB-INF/lib/naviox.jar -text
 OpenXava/web/WEB-INF/lib/ox-jdbc-adapters.jar -text
 OpenXava/web/WEB-INF/lib/poi.jar -text
@@ -4802,6 +4813,7 @@ OpenXava/web/editorIcons.jsp -text
 OpenXava/web/editorWrapper.jsp -text
 OpenXava/web/editors/actionEditor.jsp -text
 OpenXava/web/editors/addImages.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/attachedFileEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/boldLabelEditor.jsp -text
 OpenXava/web/editors/booleanEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/booleanYesNoEditor.jsp -text svneol=unset#text/plain
@@ -4876,6 +4888,7 @@ OpenXava/web/editors/calendar/skins/aqua/status-bg.gif -text
 OpenXava/web/editors/calendar/skins/aqua/theme.css -text svneol=unset#text/plain
 OpenXava/web/editors/calendar/skins/aqua/title-bg.gif -text
 OpenXava/web/editors/calendar/skins/aqua/today-bg.gif -text
+OpenXava/web/editors/changeFile.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/changeImage.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/ckeditor/.htaccess -text
 OpenXava/web/editors/ckeditor/config.js -text svneol=unset#text/plain
@@ -5151,6 +5164,7 @@ OpenXava/web/images/checked.gif -text
 OpenXava/web/images/clear-right.gif -text
 OpenXava/web/images/create_new.gif -text
 OpenXava/web/images/customize.png -text
+OpenXava/web/images/delete-file.gif -text
 OpenXava/web/images/delete.gif -text
 OpenXava/web/images/descending-white.gif -text
 OpenXava/web/images/descending-white2.gif -text
@@ -5206,6 +5220,7 @@ OpenXava/web/images/show-filter.gif -text
 OpenXava/web/images/sort.gif -text
 OpenXava/web/images/spacer.gif -text
 OpenXava/web/images/summation.gif -text
+OpenXava/web/images/upload.gif -text
 OpenXava/web/images/view.gif -text
 OpenXava/web/imports.jsp -text
 OpenXava/web/jasperReport.jsp -text svneol=unset#text/plain
@@ -7767,6 +7782,7 @@ OpenXavaTest/web/WEB-INF/lib/jpa2.jar -text
 OpenXavaTest/web/WEB-INF/lib/jstl.jar -text
 OpenXavaTest/web/WEB-INF/lib/jta.jar -text
 OpenXavaTest/web/WEB-INF/lib/mailapi.jar -text
+OpenXavaTest/web/WEB-INF/lib/mime-util.jar -text
 OpenXavaTest/web/WEB-INF/lib/naviox.jar -text
 OpenXavaTest/web/WEB-INF/lib/openxava.jar -text
 OpenXavaTest/web/WEB-INF/lib/ox-jdbc-adapters.jar -text
@@ -7847,6 +7863,7 @@ OpenXavaTest/web/xava/editorIcons.jsp -text
 OpenXavaTest/web/xava/editorWrapper.jsp -text
 OpenXavaTest/web/xava/editors/actionEditor.jsp -text
 OpenXavaTest/web/xava/editors/addImages.jsp -text
+OpenXavaTest/web/xava/editors/attachedFileEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/blogCommentsEditor.jsp -text
 OpenXavaTest/web/xava/editors/blogCommentsListEditor.jsp -text
 OpenXavaTest/web/xava/editors/boldLabelEditor.jsp -text
@@ -7924,6 +7941,7 @@ OpenXavaTest/web/xava/editors/calendar/skins/aqua/theme.css -text
 OpenXavaTest/web/xava/editors/calendar/skins/aqua/title-bg.gif -text
 OpenXavaTest/web/xava/editors/calendar/skins/aqua/today-bg.gif -text
 OpenXavaTest/web/xava/editors/carriersNamesEditor.jsp -text
+OpenXavaTest/web/xava/editors/changeFile.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/changeImage.jsp -text
 OpenXavaTest/web/xava/editors/ckeditor/.htaccess -text
 OpenXavaTest/web/xava/editors/ckeditor/config.js -text svneol=unset#text/plain
@@ -8219,6 +8237,7 @@ OpenXavaTest/web/xava/images/checked.gif -text
 OpenXavaTest/web/xava/images/clear-right.gif -text
 OpenXavaTest/web/xava/images/create_new.gif -text
 OpenXavaTest/web/xava/images/customize.png -text
+OpenXavaTest/web/xava/images/delete-file.gif -text
 OpenXavaTest/web/xava/images/delete.gif -text
 OpenXavaTest/web/xava/images/descending-white.gif -text
 OpenXavaTest/web/xava/images/descending-white2.gif -text
@@ -8275,6 +8294,7 @@ OpenXavaTest/web/xava/images/show-filter.gif -text
 OpenXavaTest/web/xava/images/sort.gif -text
 OpenXavaTest/web/xava/images/spacer.gif -text
 OpenXavaTest/web/xava/images/summation.gif -text
+OpenXavaTest/web/xava/images/upload.gif -text
 OpenXavaTest/web/xava/images/view.gif -text
 OpenXavaTest/web/xava/imports.jsp -text
 OpenXavaTest/web/xava/jasperReport.jsp -text svneol=unset#text/plain
