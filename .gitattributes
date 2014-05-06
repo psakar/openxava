@@ -7759,40 +7759,6 @@ OpenXavaTest/web/doc/description_es.html -text
 OpenXavaTest/web/help/Color_en.html -text
 OpenXavaTest/web/help/Color_es.html -text
 OpenXavaTest/web/index.jsp -text svneol=unset#text/plain
-OpenXavaTest/web/naviox/editors/actionsEditor.jsp -text svneol=unset#text/plain
-OpenXavaTest/web/naviox/firstSteps.jsp -text svneol=unset#text/plain
-OpenXavaTest/web/naviox/getModulesList.jsp -text svneol=unset#text/plain
-OpenXavaTest/web/naviox/images/bookmark-off.png -text
-OpenXavaTest/web/naviox/images/bookmark-on.png -text
-OpenXavaTest/web/naviox/images/corner.png -text
-OpenXavaTest/web/naviox/images/loading.gif -text
-OpenXavaTest/web/naviox/images/login.png -text
-OpenXavaTest/web/naviox/images/maximize.gif -text
-OpenXavaTest/web/naviox/images/minimize.gif -text
-OpenXavaTest/web/naviox/images/navigation.png -text
-OpenXavaTest/web/naviox/images/naviox-folders_en.png -text
-OpenXavaTest/web/naviox/images/naviox-folders_es.png -text
-OpenXavaTest/web/naviox/images/naviox-module-labels_en.png -text
-OpenXavaTest/web/naviox/images/naviox-module-labels_es.png -text
-OpenXavaTest/web/naviox/images/naviox-modules_en.png -text
-OpenXavaTest/web/naviox/images/naviox-modules_es.png -text
-OpenXavaTest/web/naviox/images/naviox-roles_en.png -text
-OpenXavaTest/web/naviox/images/naviox-roles_es.png -text
-OpenXavaTest/web/naviox/images/restore.gif -text
-OpenXavaTest/web/naviox/images/right.png -text
-OpenXavaTest/web/naviox/images/search.png -text
-OpenXavaTest/web/naviox/images/user-group.png -text
-OpenXavaTest/web/naviox/index.jsp -text svneol=unset#text/plain
-OpenXavaTest/web/naviox/js/naviox.js -text svneol=unset#text/plain
-OpenXavaTest/web/naviox/js/typewatch.js -text svneol=unset#text/plain
-OpenXavaTest/web/naviox/mainNavigation.jsp -text svneol=unset#text/plain
-OpenXavaTest/web/naviox/modulesList.jsp -text svneol=unset#text/plain
-OpenXavaTest/web/naviox/modulesMenu.jsp -text svneol=unset#text/plain
-OpenXavaTest/web/naviox/selectModules.jsp -text svneol=unset#text/plain
-OpenXavaTest/web/naviox/signIn.jsp -text svneol=unset#text/plain
-OpenXavaTest/web/naviox/signOut.jsp -text svneol=unset#text/plain
-OpenXavaTest/web/naviox/style/naviox.css -text svneol=unset#text/plain
-OpenXavaTest/web/naviox/welcome.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/public/myPublicJSP.jsp -text
 OpenXavaTest/web/seller.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/addColumns.jsp -text
