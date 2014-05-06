@@ -5692,8 +5692,10 @@ OpenXavaTest/components/Worker.xml -text
 OpenXavaTest/components/Year.xml -text
 OpenXavaTest/components/dtds/component.dtd -text svneol=unset#text/plain
 OpenXavaTest/components/dtds/componente.dtd -text
+OpenXavaTest/data/company-a-db.lck -text
 OpenXavaTest/data/company-a-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-a-db.script -text
+OpenXavaTest/data/company-b-db.lck -text
 OpenXavaTest/data/company-b-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-b-db.script -text
 OpenXavaTest/data/openxava-test-db.properties -text
