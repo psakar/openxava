@@ -3056,40 +3056,6 @@ MySchool/web/WEB-INF/openxava.tld -text
 MySchool/web/WEB-INF/portlet.xml -text
 MySchool/web/WEB-INF/web.xml -text
 MySchool/web/index.jsp -text svneol=unset#text/plain
-MySchool/web/naviox/editors/actionsEditor.jsp -text svneol=unset#text/plain
-MySchool/web/naviox/firstSteps.jsp -text svneol=unset#text/plain
-MySchool/web/naviox/getModulesList.jsp -text svneol=unset#text/plain
-MySchool/web/naviox/images/bookmark-off.png -text
-MySchool/web/naviox/images/bookmark-on.png -text
-MySchool/web/naviox/images/corner.png -text
-MySchool/web/naviox/images/loading.gif -text
-MySchool/web/naviox/images/login.png -text
-MySchool/web/naviox/images/maximize.gif -text
-MySchool/web/naviox/images/minimize.gif -text
-MySchool/web/naviox/images/navigation.png -text
-MySchool/web/naviox/images/naviox-folders_en.png -text
-MySchool/web/naviox/images/naviox-folders_es.png -text
-MySchool/web/naviox/images/naviox-module-labels_en.png -text
-MySchool/web/naviox/images/naviox-module-labels_es.png -text
-MySchool/web/naviox/images/naviox-modules_en.png -text
-MySchool/web/naviox/images/naviox-modules_es.png -text
-MySchool/web/naviox/images/naviox-roles_en.png -text
-MySchool/web/naviox/images/naviox-roles_es.png -text
-MySchool/web/naviox/images/restore.gif -text
-MySchool/web/naviox/images/right.png -text
-MySchool/web/naviox/images/search.png -text
-MySchool/web/naviox/images/user-group.png -text
-MySchool/web/naviox/index.jsp -text svneol=unset#text/plain
-MySchool/web/naviox/js/naviox.js -text svneol=unset#text/plain
-MySchool/web/naviox/js/typewatch.js -text svneol=unset#text/plain
-MySchool/web/naviox/mainNavigation.jsp -text svneol=unset#text/plain
-MySchool/web/naviox/modulesList.jsp -text svneol=unset#text/plain
-MySchool/web/naviox/modulesMenu.jsp -text svneol=unset#text/plain
-MySchool/web/naviox/selectModules.jsp -text svneol=unset#text/plain
-MySchool/web/naviox/signIn.jsp -text svneol=unset#text/plain
-MySchool/web/naviox/signOut.jsp -text svneol=unset#text/plain
-MySchool/web/naviox/style/naviox.css -text svneol=unset#text/plain
-MySchool/web/naviox/welcome.jsp -text svneol=unset#text/plain
 MySchool/web/xava/addColumns.jsp -text
 MySchool/web/xava/addToCollection.jsp -text
 MySchool/web/xava/barButton.jsp -text
