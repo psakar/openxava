@@ -2969,6 +2969,7 @@ MySchool/.settings/org.eclipse.jdt.groovy.core.prefs -text svneol=unset#text/pla
 MySchool/.settings/org.eclipse.jdt.ui.prefs -text
 MySchool/.settings/org.eclipse.wst.common.project.facet.core.xml -text
 MySchool/build.xml -text
+MySchool/data/my-school-db.lck -text
 MySchool/data/my-school-db.properties -text
 MySchool/data/my-school-db.script -text svneol=unset#application/octet-stream
 MySchool/data/my-school-ds.xml -text
