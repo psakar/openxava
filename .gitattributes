@@ -7697,6 +7697,7 @@ OpenXavaTest/web/WEB-INF/dwr.xml -text
 OpenXavaTest/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
 OpenXavaTest/web/WEB-INF/fonts/DejaVuSans.ttf -text
 OpenXavaTest/web/WEB-INF/fonts/LICENSE -text
+OpenXavaTest/web/WEB-INF/lib/addons.jar -text
 OpenXavaTest/web/WEB-INF/lib/antlr.jar -text
 OpenXavaTest/web/WEB-INF/lib/asm.jar -text
 OpenXavaTest/web/WEB-INF/lib/autobizlogic.jar -text
@@ -7731,7 +7732,6 @@ OpenXavaTest/web/WEB-INF/lib/jstl.jar -text
 OpenXavaTest/web/WEB-INF/lib/jta.jar -text
 OpenXavaTest/web/WEB-INF/lib/mailapi.jar -text
 OpenXavaTest/web/WEB-INF/lib/mime-util.jar -text
-OpenXavaTest/web/WEB-INF/lib/naviox.jar -text
 OpenXavaTest/web/WEB-INF/lib/openxava.jar -text
 OpenXavaTest/web/WEB-INF/lib/ox-jdbc-adapters.jar -text
 OpenXavaTest/web/WEB-INF/lib/poi.jar -text
