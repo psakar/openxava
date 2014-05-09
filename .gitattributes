@@ -5131,6 +5131,7 @@ OpenXava/web/editors/dateTimeCombinedCalendarEditor.jsp -text svneol=unset#text/
 OpenXava/web/editors/dateTimeSeparatedCalendarEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/descriptionValidValuesEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/descriptionsEditor.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/elementCollectionEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/gallery.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/galleryEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/htmlEditor.jsp -text svneol=unset#text/plain
@@ -5138,6 +5139,7 @@ OpenXava/web/editors/imageEditor.jsp -text
 OpenXava/web/editors/imageLabelEditor.jsp -text
 OpenXava/web/editors/js/autoNumeric.js -text svneol=unset#text/plain
 OpenXava/web/editors/js/ckeditor.js -text svneol=unset#text/plain
+OpenXava/web/editors/js/elementCollectionEditor.js -text svneol=unset#text/plain
 OpenXava/web/editors/js/htmlEditor.js -text svneol=unset#text/plain
 OpenXava/web/editors/js/jquery-ckeditor-adapter.js -text svneol=unset#text/plain
 OpenXava/web/editors/js/textEditor.js -text
@@ -5762,10 +5764,8 @@ OpenXavaTest/components/Worker.xml -text
 OpenXavaTest/components/Year.xml -text
 OpenXavaTest/components/dtds/component.dtd -text svneol=unset#text/plain
 OpenXavaTest/components/dtds/componente.dtd -text
-OpenXavaTest/data/company-a-db.lck -text
 OpenXavaTest/data/company-a-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-a-db.script -text
-OpenXavaTest/data/company-b-db.lck -text
 OpenXavaTest/data/company-b-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-b-db.script -text
 OpenXavaTest/data/openxava-test-db.properties -text
@@ -7272,6 +7272,8 @@ OpenXavaTest/pojo-src/org/openxava/test/model/QuarterKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/QuarterSubject.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/QuarterSubjectKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Question.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Quote.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/model/QuoteDetail.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Ranges.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Receptionist.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Report.java -text
@@ -8194,6 +8196,7 @@ OpenXavaTest/web/xava/editors/dateTimeCombinedCalendarEditor.jsp -text
 OpenXavaTest/web/xava/editors/dateTimeSeparatedCalendarEditor.jsp -text
 OpenXavaTest/web/xava/editors/descriptionValidValuesEditor.jsp -text
 OpenXavaTest/web/xava/editors/descriptionsEditor.jsp -text
+OpenXavaTest/web/xava/editors/elementCollectionEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/gallery.jsp -text
 OpenXavaTest/web/xava/editors/galleryEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/htmlEditor.jsp -text
@@ -8202,6 +8205,7 @@ OpenXavaTest/web/xava/editors/imageLabelEditor.jsp -text
 OpenXavaTest/web/xava/editors/importantEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/js/autoNumeric.js -text
 OpenXavaTest/web/xava/editors/js/ckeditor.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/js/elementCollectionEditor.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/js/htmlEditor.js -text
 OpenXavaTest/web/xava/editors/js/jquery-ckeditor-adapter.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/js/textEditor.js -text
