@@ -5775,6 +5775,7 @@ OpenXavaTest/data/company-b-db.script -text
 OpenXavaTest/data/openxava-test-db.properties -text
 OpenXavaTest/data/openxava-test-db.script -text
 OpenXavaTest/data/openxava-test-ds.xml -text
+OpenXavaTest/gen-src-xava/dnas-pojo.properties -text svneol=unset#text/plain
 OpenXavaTest/gen-src-xava/org/openxava/test/model/AcademicYear.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/AdditionalDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Address.java -text
@@ -5788,6 +5789,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/Comment.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ConversionFactor.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Course.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Customer.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Customer2.java -text svneol=unset#text/plain
 OpenXavaTest/gen-src-xava/org/openxava/test/model/CustomerContactPerson.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/CustomerState.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Delivery.java -text
@@ -5813,6 +5815,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/IComment.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IConversionFactor.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ICourse.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ICustomer.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ICustomer2.java -text svneol=unset#text/plain
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ICustomerContactPerson.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ICustomerState.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IDelivery.java -text
@@ -5847,8 +5850,10 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/IProduct3.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IRanges.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IReceptionist.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IReport.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ISchool.java -text svneol=unset#text/plain
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ISelectSchema.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ISeller.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ISeller2.java -text svneol=unset#text/plain
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ISellerLevel.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IService.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IServiceInvoice.java -text
@@ -5860,6 +5865,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/IState.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ISubfamily.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ISubfamily2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ITask.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ITeacher.java -text svneol=unset#text/plain
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IThing.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ITransportCharge.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ITransportCharge2.java -text
@@ -5889,8 +5895,10 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/Product3.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Ranges.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Receptionist.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Report.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/School.java -text svneol=unset#text/plain
 OpenXavaTest/gen-src-xava/org/openxava/test/model/SelectSchema.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Seller.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Seller2.java -text svneol=unset#text/plain
 OpenXavaTest/gen-src-xava/org/openxava/test/model/SellerLevel.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Service.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ServiceInvoice.java -text
@@ -5903,6 +5911,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/Subfamily.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Subfamily2.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/SubfamilyInfo.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Task.java -text
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Teacher.java -text svneol=unset#text/plain
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Thing.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/TransportCharge.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/TransportCharge2.java -text
