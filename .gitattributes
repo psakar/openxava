@@ -5654,6 +5654,7 @@ OpenXavaTest/build/hibernate/Comment.hbm.xml -text
 OpenXavaTest/build/hibernate/ConversionFactor.hbm.xml -text
 OpenXavaTest/build/hibernate/Course.hbm.xml -text
 OpenXavaTest/build/hibernate/Customer.hbm.xml -text
+OpenXavaTest/build/hibernate/Customer2.hbm.xml -text svneol=unset#text/plain
 OpenXavaTest/build/hibernate/CustomerContactPerson.hbm.xml -text
 OpenXavaTest/build/hibernate/CustomerState.hbm.xml -text
 OpenXavaTest/build/hibernate/Delivery.hbm.xml -text
@@ -5684,7 +5685,9 @@ OpenXavaTest/build/hibernate/Product3.hbm.xml -text
 OpenXavaTest/build/hibernate/Ranges.hbm.xml -text
 OpenXavaTest/build/hibernate/Receptionist.hbm.xml -text
 OpenXavaTest/build/hibernate/Report.hbm.xml -text
+OpenXavaTest/build/hibernate/School.hbm.xml -text svneol=unset#text/plain
 OpenXavaTest/build/hibernate/Seller.hbm.xml -text
+OpenXavaTest/build/hibernate/Seller2.hbm.xml -text svneol=unset#text/plain
 OpenXavaTest/build/hibernate/SellerLevel.hbm.xml -text
 OpenXavaTest/build/hibernate/Service.hbm.xml -text
 OpenXavaTest/build/hibernate/ServiceInvoice.hbm.xml -text
@@ -5696,6 +5699,7 @@ OpenXavaTest/build/hibernate/State.hbm.xml -text
 OpenXavaTest/build/hibernate/Subfamily.hbm.xml -text
 OpenXavaTest/build/hibernate/Subfamily2.hbm.xml -text
 OpenXavaTest/build/hibernate/Task.hbm.xml -text
+OpenXavaTest/build/hibernate/Teacher.hbm.xml -text svneol=unset#text/plain
 OpenXavaTest/build/hibernate/Thing.hbm.xml -text
 OpenXavaTest/build/hibernate/TransportCharge.hbm.xml -text
 OpenXavaTest/build/hibernate/TransportCharge2.hbm.xml -text
