@@ -7326,6 +7326,8 @@ OpenXavaTest/pojo-src/org/openxava/test/model/ToDoComponentTask.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ToDoList.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ToDoTask.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Toto.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Training.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/model/TrainingSession.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/TransportCharge.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/TransportCharge2.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/TransportCharge2Key.java -text
@@ -7428,6 +7430,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/SummerCourseTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SupervillainTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ToDoListTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TotoTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/TrainingTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/TransportChargeWithDescriptionsListTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TreeContainerNoIdGenerationTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TreeContainerNoOrderTest.java -text
