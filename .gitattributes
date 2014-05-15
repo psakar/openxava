@@ -5122,6 +5122,7 @@ OpenXava/web/editors/ckeditor/skins/v2/skin.js -text svneol=unset#text/plain
 OpenXava/web/editors/ckeditor/skins/v2/templates.css -text svneol=unset#text/plain
 OpenXava/web/editors/ckeditor/themes/default/theme.js -text svneol=unset#text/plain
 OpenXava/web/editors/collectionEditor.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/collectionTotals.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/comparatorsBooleanCombo.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/comparatorsCombo.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/comparatorsDescriptionsList.jsp -text svneol=unset#text/plain
@@ -8198,6 +8199,7 @@ OpenXavaTest/web/xava/editors/ckeditor/skins/v2/skin.js -text svneol=unset#text/
 OpenXavaTest/web/xava/editors/ckeditor/skins/v2/templates.css -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/ckeditor/themes/default/theme.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/collectionEditor.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/collectionTotals.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/colorEditor.jsp -text
 OpenXavaTest/web/xava/editors/colorFrameEditor.jsp -text
 OpenXavaTest/web/xava/editors/comparatorsBooleanCombo.jsp -text
