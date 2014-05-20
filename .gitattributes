@@ -7478,6 +7478,7 @@ OpenXavaTest/reports/Images.jrxml -text
 OpenXavaTest/reports/Invoice.jrxml -text
 OpenXavaTest/reports/InvoiceNoVAT.jrxml -text
 OpenXavaTest/reports/Products.jrxml -text
+OpenXavaTest/selenium-tests/CarrierComplexSimpleTopPosition.case -text
 OpenXavaTest/selenium-tests/CarrierIconAlignment -text
 OpenXavaTest/selenium-tests/CarrierWithTwoCollectionsTogether.case -text
 OpenXavaTest/selenium-tests/CarrierWithTwoSections.case -text
