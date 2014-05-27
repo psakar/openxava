@@ -7482,6 +7482,7 @@ OpenXavaTest/selenium-tests/CarrierComplexSimpleTopPosition.case -text
 OpenXavaTest/selenium-tests/CarrierIconAlignment -text
 OpenXavaTest/selenium-tests/CarrierWithTwoCollectionsTogether.case -text
 OpenXavaTest/selenium-tests/CarrierWithTwoSections.case -text
+OpenXavaTest/selenium-tests/ColorLabelStyle.case -text
 OpenXavaTest/selenium-tests/ColorNotAlignedByColumn -text
 OpenXavaTest/selenium-tests/Customer-twoFrames.case -text
 OpenXavaTest/selenium-tests/CustomerDemoSmallLabel.case -text
