@@ -960,7 +960,7 @@ Addons/web/naviox/modulesMenu.jsp -text svneol=unset#text/plain
 Addons/web/naviox/selectModules.jsp -text svneol=unset#text/plain
 Addons/web/naviox/signIn.jsp -text svneol=unset#text/plain
 Addons/web/naviox/signOut.jsp -text svneol=unset#text/plain
-Addons/web/naviox/style/naviox.css -text svneol=unset#text/plain
+Addons/web/naviox/style/naviox.css -text
 Addons/web/naviox/welcome.jsp -text svneol=unset#text/plain
 Addons/xava/controllers.xml -text svneol=unset#text/plain
 Addons/xava/dtds/aplicacion.dtd -text svneol=unset#text/plain
