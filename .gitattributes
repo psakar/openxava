@@ -3077,6 +3077,7 @@ MySchool/i18n/portlets/Teacher_pt.properties -text
 MySchool/i18n/portlets/Teacher_ru.properties -text
 MySchool/i18n/portlets/Teacher_sv.properties -text
 MySchool/i18n/portlets/Teacher_zh.properties -text
+MySchool/license.txt -text svneol=unset#text/plain
 MySchool/persistence/GalleryImage.hbm.xml -text
 MySchool/persistence/META-INF/persistence.xml -text
 MySchool/persistence/hibernate.cfg.xml -text
@@ -4036,26 +4037,26 @@ OpenXava/lib/servlet-api.jar -text
 OpenXava/lib/tl.jar -text
 OpenXava/lib/xalan.jar -text
 OpenXava/lib/xercesImpl.jar -text
-OpenXava/license/openxava-license.txt -text
-OpenXava/license/other-licenses/NOTICE-apache.txt -text
-OpenXava/license/other-licenses/antlr-license.txt -text
-OpenXava/license/other-licenses/apache-1.1.txt -text
-OpenXava/license/other-licenses/apache-2.0.txt -text
-OpenXava/license/other-licenses/asm-license.txt -text
-OpenXava/license/other-licenses/ckeditor-license.html -text svneol=unset#text/plain
-OpenXava/license/other-licenses/cli-license.txt -text
-OpenXava/license/other-licenses/groovy-license.txt -text
-OpenXava/license/other-licenses/httpunit-license.txt -text
-OpenXava/license/other-licenses/jasperreports-license.txt -text
-OpenXava/license/other-licenses/javamail-license.txt -text svneol=unset#text/plain
-OpenXava/license/other-licenses/jquery-qtip-license.txt -text
-OpenXava/license/other-licenses/jquery-ui-license.txt -text
-OpenXava/license/other-licenses/jsr-223-license.txt -text
-OpenXava/license/other-licenses/lgpl.txt -text
-OpenXava/license/other-licenses/license.dom.txt -text
-OpenXava/license/other-licenses/license.sax.txt -text
-OpenXava/license/other-licenses/license.xerces.txt -text
-OpenXava/license/other-licenses/tl-license.txt -text
+OpenXava/license.txt -text
+OpenXava/licenses/NOTICE-apache.txt -text
+OpenXava/licenses/antlr-license.txt -text
+OpenXava/licenses/apache-1.1.txt -text
+OpenXava/licenses/apache-2.0.txt -text
+OpenXava/licenses/asm-license.txt -text
+OpenXava/licenses/ckeditor-license.html -text svneol=unset#text/plain
+OpenXava/licenses/cli-license.txt -text
+OpenXava/licenses/groovy-license.txt -text
+OpenXava/licenses/httpunit-license.txt -text
+OpenXava/licenses/jasperreports-license.txt -text
+OpenXava/licenses/javamail-license.txt -text svneol=unset#text/plain
+OpenXava/licenses/jquery-qtip-license.txt -text
+OpenXava/licenses/jquery-ui-license.txt -text
+OpenXava/licenses/jsr-223-license.txt -text
+OpenXava/licenses/lgpl.txt -text
+OpenXava/licenses/license.dom.txt -text
+OpenXava/licenses/license.sax.txt -text
+OpenXava/licenses/license.xerces.txt -text
+OpenXava/licenses/tl-license.txt -text
 OpenXava/notcompile/org/openxava/converters/typeadapters/ArrayOneRowResultSetAdapter.java -text
 OpenXava/notcompile/org/openxava/converters/typeadapters/ObjectPreparedStatementAdapter.java -text
 OpenXava/properties/commons-logging.properties -text
@@ -7107,6 +7108,7 @@ OpenXavaTest/i18n/portlets/Worker_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/jboss-as400.properties -text
 OpenXavaTest/jboss-hypersonic.properties -text
 OpenXavaTest/lib/hsqldb.jar -text
+OpenXavaTest/license.txt -text svneol=unset#text/plain
 OpenXavaTest/persistence/GalleryImage.hbm.xml -text
 OpenXavaTest/persistence/META-INF/persistence.xml -text
 OpenXavaTest/persistence/hibernate-junit.cfg.xml -text
