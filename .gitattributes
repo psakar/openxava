@@ -995,6 +995,868 @@ CVSROOT/notify -text
 CVSROOT/rcsinfo -text
 CVSROOT/taginfo -text
 CVSROOT/verifymsg -text
+InvoiceDemo/.classpath -text svneol=unset#text/plain
+InvoiceDemo/.project -text svneol=unset#text/plain
+InvoiceDemo/.settings/.component -text
+InvoiceDemo/.settings/org.eclipse.jdt.core.prefs -text svneol=unset#text/plain
+InvoiceDemo/.settings/org.eclipse.wst.common.project.facet.core.xml -text svneol=unset#text/plain
+InvoiceDemo/build.xml -text svneol=unset#text/plain
+InvoiceDemo/data/invoice-demo-db.properties -text svneol=unset#text/plain
+InvoiceDemo/data/invoice-demo-db.script -text
+InvoiceDemo/i18n/InvoiceDemo-labels_en.properties -text svneol=unset#text/plain
+InvoiceDemo/i18n/InvoiceDemo-labels_es.properties -text svneol=unset#text/plain
+InvoiceDemo/i18n/InvoiceDemo-messages_en.properties -text svneol=unset#text/plain
+InvoiceDemo/i18n/portlets/Customer_en.properties -text svneol=unset#text/plain
+InvoiceDemo/i18n/portlets/Customer_es.properties -text svneol=unset#text/plain
+InvoiceDemo/i18n/portlets/InvoiceDetail_en.properties -text svneol=unset#text/plain
+InvoiceDemo/i18n/portlets/InvoiceDetail_es.properties -text svneol=unset#text/plain
+InvoiceDemo/i18n/portlets/InvoiceWithSections_en.properties -text svneol=unset#text/plain
+InvoiceDemo/i18n/portlets/InvoiceWithSections_es.properties -text svneol=unset#text/plain
+InvoiceDemo/i18n/portlets/Invoice_en.properties -text svneol=unset#text/plain
+InvoiceDemo/i18n/portlets/Invoice_es.properties -text svneol=unset#text/plain
+InvoiceDemo/i18n/portlets/Product_en.properties -text svneol=unset#text/plain
+InvoiceDemo/i18n/portlets/Product_es.properties -text svneol=unset#text/plain
+InvoiceDemo/license.txt -text svneol=unset#text/plain
+InvoiceDemo/persistence/GalleryImage.hbm.xml -text svneol=unset#text/plain
+InvoiceDemo/persistence/META-INF/persistence.xml -text svneol=unset#text/plain
+InvoiceDemo/persistence/hibernate.cfg.xml -text svneol=unset#text/plain
+InvoiceDemo/properties/BeansContext.properties -text svneol=unset#text/plain
+InvoiceDemo/properties/LoginContextFactory.properties -text svneol=unset#text/plain
+InvoiceDemo/properties/jndi-jboss.properties -text svneol=unset#text/plain
+InvoiceDemo/properties/jndi-websphere.properties -text svneol=unset#text/plain
+InvoiceDemo/properties/jndi.properties -text svneol=unset#text/plain
+InvoiceDemo/properties/logging.properties -text svneol=unset#text/plain
+InvoiceDemo/properties/naviox-users.properties -text svneol=unset#text/plain
+InvoiceDemo/properties/naviox.properties -text svneol=unset#text/plain
+InvoiceDemo/properties/xava-junit.properties -text svneol=unset#text/plain
+InvoiceDemo/properties/xava.properties -text svneol=unset#text/plain
+InvoiceDemo/src/org/openxava/invoice/model/Customer.java -text svneol=unset#text/plain
+InvoiceDemo/src/org/openxava/invoice/model/Invoice.java -text svneol=unset#text/plain
+InvoiceDemo/src/org/openxava/invoice/model/InvoiceDetail.java -text svneol=unset#text/plain
+InvoiceDemo/src/org/openxava/invoice/model/Product.java -text svneol=unset#text/plain
+InvoiceDemo/web/WEB-INF/dwr.xml -text svneol=unset#text/plain
+InvoiceDemo/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
+InvoiceDemo/web/WEB-INF/fonts/DejaVuSans.ttf -text
+InvoiceDemo/web/WEB-INF/fonts/LICENSE -text
+InvoiceDemo/web/WEB-INF/lib/addons.jar -text
+InvoiceDemo/web/WEB-INF/lib/antlr.jar -text
+InvoiceDemo/web/WEB-INF/lib/asm.jar -text
+InvoiceDemo/web/WEB-INF/lib/autobizlogic.jar -text
+InvoiceDemo/web/WEB-INF/lib/cglib.jar -text
+InvoiceDemo/web/WEB-INF/lib/commons-beanutils.jar -text
+InvoiceDemo/web/WEB-INF/lib/commons-codec.jar -text
+InvoiceDemo/web/WEB-INF/lib/commons-collections.jar -text
+InvoiceDemo/web/WEB-INF/lib/commons-digester.jar -text
+InvoiceDemo/web/WEB-INF/lib/commons-fileupload.jar -text
+InvoiceDemo/web/WEB-INF/lib/commons-io.jar -text
+InvoiceDemo/web/WEB-INF/lib/commons-jexl.jar -text
+InvoiceDemo/web/WEB-INF/lib/commons-lang.jar -text
+InvoiceDemo/web/WEB-INF/lib/commons-lang3.jar -text
+InvoiceDemo/web/WEB-INF/lib/commons-logging.jar -text
+InvoiceDemo/web/WEB-INF/lib/commons-validator.jar -text
+InvoiceDemo/web/WEB-INF/lib/dom4j.jar -text
+InvoiceDemo/web/WEB-INF/lib/dsn.jar -text
+InvoiceDemo/web/WEB-INF/lib/dwr.jar -text
+InvoiceDemo/web/WEB-INF/lib/ehcache.jar -text
+InvoiceDemo/web/WEB-INF/lib/ejb.jar -text
+InvoiceDemo/web/WEB-INF/lib/groovy-all.jar -text
+InvoiceDemo/web/WEB-INF/lib/hibernate-classic-validator.jar -text
+InvoiceDemo/web/WEB-INF/lib/hibernate-validator.jar -text
+InvoiceDemo/web/WEB-INF/lib/hibernate3.jar -text
+InvoiceDemo/web/WEB-INF/lib/imap.jar -text
+InvoiceDemo/web/WEB-INF/lib/itext.jar -text
+InvoiceDemo/web/WEB-INF/lib/jasperreports.jar -text
+InvoiceDemo/web/WEB-INF/lib/javassist.jar -text
+InvoiceDemo/web/WEB-INF/lib/javax.inject.jar -text
+InvoiceDemo/web/WEB-INF/lib/jpa2.jar -text
+InvoiceDemo/web/WEB-INF/lib/jstl.jar -text
+InvoiceDemo/web/WEB-INF/lib/jta.jar -text
+InvoiceDemo/web/WEB-INF/lib/mailapi.jar -text
+InvoiceDemo/web/WEB-INF/lib/mime-util.jar -text
+InvoiceDemo/web/WEB-INF/lib/openxava.jar -text
+InvoiceDemo/web/WEB-INF/lib/ox-jdbc-adapters.jar -text
+InvoiceDemo/web/WEB-INF/lib/poi.jar -text
+InvoiceDemo/web/WEB-INF/lib/pop3.jar -text
+InvoiceDemo/web/WEB-INF/lib/slf4j-api.jar -text
+InvoiceDemo/web/WEB-INF/lib/slf4j-jdk14.jar -text
+InvoiceDemo/web/WEB-INF/lib/smtp.jar -text
+InvoiceDemo/web/WEB-INF/lib/standard-jstlel.jar -text
+InvoiceDemo/web/WEB-INF/lib/standard.jar -text
+InvoiceDemo/web/WEB-INF/lib/validation-api.jar -text
+InvoiceDemo/web/WEB-INF/liferay-display.xml -text svneol=unset#text/plain
+InvoiceDemo/web/WEB-INF/openxava.tld -text svneol=unset#text/plain
+InvoiceDemo/web/WEB-INF/portlet.xml -text svneol=unset#text/plain
+InvoiceDemo/web/WEB-INF/web.xml -text svneol=unset#text/plain
+InvoiceDemo/web/index.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/naviox/editors/actionsEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/naviox/firstSteps.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/naviox/getModulesList.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/naviox/images/bookmark-off.png -text
+InvoiceDemo/web/naviox/images/bookmark-on.png -text
+InvoiceDemo/web/naviox/images/corner.png -text
+InvoiceDemo/web/naviox/images/loading.gif -text
+InvoiceDemo/web/naviox/images/login.png -text
+InvoiceDemo/web/naviox/images/maximize.gif -text
+InvoiceDemo/web/naviox/images/minimize.gif -text
+InvoiceDemo/web/naviox/images/navigation.png -text
+InvoiceDemo/web/naviox/images/naviox-folders_en.png -text
+InvoiceDemo/web/naviox/images/naviox-folders_es.png -text
+InvoiceDemo/web/naviox/images/naviox-module-labels_en.png -text
+InvoiceDemo/web/naviox/images/naviox-module-labels_es.png -text
+InvoiceDemo/web/naviox/images/naviox-modules_en.png -text
+InvoiceDemo/web/naviox/images/naviox-modules_es.png -text
+InvoiceDemo/web/naviox/images/naviox-roles_en.png -text
+InvoiceDemo/web/naviox/images/naviox-roles_es.png -text
+InvoiceDemo/web/naviox/images/point1.png -text
+InvoiceDemo/web/naviox/images/point2.png -text
+InvoiceDemo/web/naviox/images/point3.png -text
+InvoiceDemo/web/naviox/images/restore.gif -text
+InvoiceDemo/web/naviox/images/right.png -text
+InvoiceDemo/web/naviox/images/search.png -text
+InvoiceDemo/web/naviox/images/user-group.png -text
+InvoiceDemo/web/naviox/index.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/naviox/js/naviox.js -text svneol=unset#text/plain
+InvoiceDemo/web/naviox/js/typewatch.js -text svneol=unset#text/plain
+InvoiceDemo/web/naviox/mainNavigation.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/naviox/modulesList.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/naviox/modulesMenu.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/naviox/selectModules.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/naviox/signIn.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/naviox/signOut.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/naviox/style/naviox.css -text svneol=unset#text/plain
+InvoiceDemo/web/naviox/welcome.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/addColumns.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/addToCollection.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/barButton.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/bottomButtons.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/buttonBar.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/calculatedCollectionList.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/collection.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/collectionFrameHeader.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/collectionList.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/core.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/detail.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editorIcons.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editorWrapper.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/actionEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/addImages.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/attachedFileEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/boldLabelEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/booleanEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/booleanYesNoEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/calendar-blue.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/calendar-blue2.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/calendar-brown.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/calendar-green.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/calendar-setup.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/calendar-setup_stripped.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/calendar-system.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/calendar-tas.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/calendar-win2k-1.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/calendar-win2k-2.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/calendar-win2k-cold-1.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/calendar-win2k-cold-2.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/calendar.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/calendar_stripped.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/img.gif -text
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-af.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-al.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-bg.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-big5-utf8.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-big5.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-br.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-ca.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-cs-utf8.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-cs-win.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-da.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-de.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-du.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-el.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-en.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-es-utf8.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-es.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-fi.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-fr.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-he-utf8.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-hr-utf8.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-hr.js -text
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-hu.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-it.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-jp.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-ko-utf8.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-ko.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-lt-utf8.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-lt.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-lv.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-nl.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-no.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-pl-utf8.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-pl.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-pt.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-ro.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-ru.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-ru_win_.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-si.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-sk.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-sp.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-sv.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-tr.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/calendar-zh.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/lang/cn_utf8.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/menuarrow.gif -text
+InvoiceDemo/web/xava/editors/calendar/menuarrow2.gif -text
+InvoiceDemo/web/xava/editors/calendar/skins/aqua/active-bg.gif -text
+InvoiceDemo/web/xava/editors/calendar/skins/aqua/dark-bg.gif -text
+InvoiceDemo/web/xava/editors/calendar/skins/aqua/hover-bg.gif -text
+InvoiceDemo/web/xava/editors/calendar/skins/aqua/menuarrow.gif -text
+InvoiceDemo/web/xava/editors/calendar/skins/aqua/normal-bg.gif -text
+InvoiceDemo/web/xava/editors/calendar/skins/aqua/rowhover-bg.gif -text
+InvoiceDemo/web/xava/editors/calendar/skins/aqua/status-bg.gif -text
+InvoiceDemo/web/xava/editors/calendar/skins/aqua/theme.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/calendar/skins/aqua/title-bg.gif -text
+InvoiceDemo/web/xava/editors/calendar/skins/aqua/today-bg.gif -text
+InvoiceDemo/web/xava/editors/changeFile.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/changeImage.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/.htaccess -text
+InvoiceDemo/web/xava/editors/ckeditor/config.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/contents.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/images/spacer.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/lang/_languages.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/_translationstatus.txt -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/af.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/ar.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/bg.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/bn.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/bs.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/ca.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/cs.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/cy.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/da.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/de.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/el.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/en-au.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/en-ca.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/en-gb.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/en.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/eo.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/es.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/et.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/eu.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/fa.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/fi.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/fo.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/fr-ca.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/fr.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/gl.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/gu.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/he.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/hi.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/hr.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/hu.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/is.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/it.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/ja.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/ka.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/km.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/ko.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/lt.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/lv.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/mn.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/ms.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/nb.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/nl.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/no.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/pl.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/pt-br.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/pt.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/ro.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/ru.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/sk.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/sl.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/sr-latn.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/sr.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/sv.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/th.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/tr.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/uk.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/vi.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/zh-cn.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/lang/zh.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/a11yhelp/lang/en.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/a11yhelp/lang/he.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/about/dialogs/about.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/about/dialogs/logo_ckeditor.png -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/adobeair/plugin.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/ajax/plugin.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/autogrow/plugin.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/bbcode/plugin.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/clipboard/dialogs/paste.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/colordialog/dialogs/colordialog.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/devtools/lang/en.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/devtools/plugin.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/dialog/dialogDefinition.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/div/dialogs/div.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/docprops/dialogs/docprops.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/docprops/plugin.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/find/dialogs/find.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/flash/dialogs/flash.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/flash/images/placeholder.png -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/forms/dialogs/button.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/forms/dialogs/checkbox.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/forms/dialogs/form.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/forms/dialogs/hiddenfield.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/forms/dialogs/radio.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/forms/dialogs/select.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/forms/dialogs/textarea.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/forms/dialogs/textfield.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/forms/images/hiddenfield.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/iframe/dialogs/iframe.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/iframe/images/placeholder.png -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/iframedialog/plugin.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/image/dialogs/image.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/link/dialogs/anchor.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/link/dialogs/link.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/link/images/anchor.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/liststyle/dialogs/liststyle.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/pagebreak/images/pagebreak.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/pastefromword/filter/default.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/pastetext/dialogs/pastetext.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/placeholder/dialogs/placeholder.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/placeholder/lang/en.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/placeholder/lang/he.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/placeholder/placeholder.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/placeholder/plugin.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/scayt/dialogs/options.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/scayt/dialogs/toolbar.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/showblocks/images/block_address.png -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/showblocks/images/block_blockquote.png -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/showblocks/images/block_div.png -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/showblocks/images/block_h1.png -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/showblocks/images/block_h2.png -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/showblocks/images/block_h3.png -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/showblocks/images/block_h4.png -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/showblocks/images/block_h5.png -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/showblocks/images/block_h6.png -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/showblocks/images/block_p.png -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/showblocks/images/block_pre.png -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/smiley/dialogs/smiley.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/smiley/images/angel_smile.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/smiley/images/angry_smile.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/smiley/images/broken_heart.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/smiley/images/confused_smile.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/smiley/images/cry_smile.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/smiley/images/devil_smile.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/smiley/images/embaressed_smile.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/smiley/images/envelope.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/smiley/images/heart.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/smiley/images/kiss.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/smiley/images/lightbulb.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/smiley/images/omg_smile.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/smiley/images/regular_smile.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/smiley/images/sad_smile.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/smiley/images/shades_smile.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/smiley/images/teeth_smile.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/smiley/images/thumbs_down.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/smiley/images/thumbs_up.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/smiley/images/tounge_smile.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/smiley/images/wink_smile.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/specialchar/dialogs/specialchar.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/specialchar/lang/en.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/styles/styles/default.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/stylesheetparser/plugin.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/table/dialogs/table.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/tableresize/plugin.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/tabletools/dialogs/tableCell.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/templates/dialogs/templates.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/templates/templates/default.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/templates/templates/images/template1.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/templates/templates/images/template2.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/templates/templates/images/template3.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/uicolor/dialogs/uicolor.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/uicolor/lang/en.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/uicolor/lang/he.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/uicolor/plugin.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/uicolor/uicolor.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/uicolor/yui/assets/hue_bg.png -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/uicolor/yui/assets/hue_thumb.png -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/uicolor/yui/assets/picker_mask.png -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/uicolor/yui/assets/picker_thumb.png -text
+InvoiceDemo/web/xava/editors/ckeditor/plugins/uicolor/yui/assets/yui.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/uicolor/yui/yui.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/wsc/dialogs/ciframe.html -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/wsc/dialogs/tmpFrameset.html -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/wsc/dialogs/wsc.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/wsc/dialogs/wsc.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/plugins/xml/plugin.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/skins/kama/dialog.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/skins/kama/editor.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/skins/kama/icons.png -text
+InvoiceDemo/web/xava/editors/ckeditor/skins/kama/icons_rtl.png -text
+InvoiceDemo/web/xava/editors/ckeditor/skins/kama/images/dialog_sides.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/skins/kama/images/dialog_sides.png -text
+InvoiceDemo/web/xava/editors/ckeditor/skins/kama/images/dialog_sides_rtl.png -text
+InvoiceDemo/web/xava/editors/ckeditor/skins/kama/images/mini.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/skins/kama/images/noimage.png -text
+InvoiceDemo/web/xava/editors/ckeditor/skins/kama/images/sprites.png -text
+InvoiceDemo/web/xava/editors/ckeditor/skins/kama/images/sprites_ie6.png -text
+InvoiceDemo/web/xava/editors/ckeditor/skins/kama/images/toolbar_start.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/skins/kama/skin.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/skins/kama/templates.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/skins/office2003/dialog.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/skins/office2003/editor.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/skins/office2003/icons.png -text
+InvoiceDemo/web/xava/editors/ckeditor/skins/office2003/icons_rtl.png -text
+InvoiceDemo/web/xava/editors/ckeditor/skins/office2003/images/dialog_sides.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/skins/office2003/images/dialog_sides.png -text
+InvoiceDemo/web/xava/editors/ckeditor/skins/office2003/images/dialog_sides_rtl.png -text
+InvoiceDemo/web/xava/editors/ckeditor/skins/office2003/images/mini.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/skins/office2003/images/noimage.png -text
+InvoiceDemo/web/xava/editors/ckeditor/skins/office2003/images/sprites.png -text
+InvoiceDemo/web/xava/editors/ckeditor/skins/office2003/images/sprites_ie6.png -text
+InvoiceDemo/web/xava/editors/ckeditor/skins/office2003/skin.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/skins/office2003/templates.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/skins/v2/dialog.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/skins/v2/editor.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/skins/v2/icons.png -text
+InvoiceDemo/web/xava/editors/ckeditor/skins/v2/icons_rtl.png -text
+InvoiceDemo/web/xava/editors/ckeditor/skins/v2/images/dialog_sides.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/skins/v2/images/dialog_sides.png -text
+InvoiceDemo/web/xava/editors/ckeditor/skins/v2/images/dialog_sides_rtl.png -text
+InvoiceDemo/web/xava/editors/ckeditor/skins/v2/images/mini.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/skins/v2/images/noimage.png -text
+InvoiceDemo/web/xava/editors/ckeditor/skins/v2/images/sprites.png -text
+InvoiceDemo/web/xava/editors/ckeditor/skins/v2/images/sprites_ie6.png -text
+InvoiceDemo/web/xava/editors/ckeditor/skins/v2/images/toolbar_start.gif -text
+InvoiceDemo/web/xava/editors/ckeditor/skins/v2/skin.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/skins/v2/templates.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/ckeditor/themes/default/theme.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/collectionEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/collectionTotals.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/comparatorsBooleanCombo.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/comparatorsCombo.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/comparatorsDescriptionsList.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/comparatorsValidValuesCombo.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/dateCalendarEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/dateTimeCombinedCalendarEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/dateTimeSeparatedCalendarEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/descriptionValidValuesEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/descriptionsEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/elementCollectionEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/gallery.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/galleryEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/htmlEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/imageEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/imageLabelEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/js/autoNumeric.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/js/ckeditor.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/js/elementCollectionEditor.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/js/htmlEditor.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/js/jquery-ckeditor-adapter.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/js/textEditor.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/js/yahoo-dom-event.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/js/yahoo-treeview-min.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/labelEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/liferayDocumentLibraryEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/liferayUploadFile.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/listEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/moneyEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/myReportColumnComparatorEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/myReportColumnDescriptionsListValueEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/myReportColumnNameEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/myReportColumnValidValuesValueEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/myReportNameEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/notAvailableEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/passwordEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/radioButtonEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/referenceEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/textAreaEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/textEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/treeViewEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/treeViewListEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/validValueEditorCommon.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/validValuesEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/webURLEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/errors.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/execute.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/frameActions.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/htmlTagsEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/images/add.gif -text
+InvoiceDemo/web/xava/images/ascending-white.gif -text
+InvoiceDemo/web/xava/images/ascending-white2.gif -text
+InvoiceDemo/web/xava/images/ascending.gif -text
+InvoiceDemo/web/xava/images/ascending2.gif -text
+InvoiceDemo/web/xava/images/ascending3.gif -text
+InvoiceDemo/web/xava/images/back.gif -text
+InvoiceDemo/web/xava/images/calendar.gif -text
+InvoiceDemo/web/xava/images/checked.gif -text
+InvoiceDemo/web/xava/images/clear-right.gif -text
+InvoiceDemo/web/xava/images/create_new.gif -text
+InvoiceDemo/web/xava/images/customize.png -text
+InvoiceDemo/web/xava/images/delete-file.gif -text
+InvoiceDemo/web/xava/images/delete.gif -text
+InvoiceDemo/web/xava/images/descending-white.gif -text
+InvoiceDemo/web/xava/images/descending-white2.gif -text
+InvoiceDemo/web/xava/images/descending.gif -text
+InvoiceDemo/web/xava/images/descending2.gif -text
+InvoiceDemo/web/xava/images/edit-text.gif -text
+InvoiceDemo/web/xava/images/edit.gif -text
+InvoiceDemo/web/xava/images/error.gif -text
+InvoiceDemo/web/xava/images/excel.gif -text
+InvoiceDemo/web/xava/images/filter.gif -text
+InvoiceDemo/web/xava/images/find.gif -text
+InvoiceDemo/web/xava/images/help.png -text
+InvoiceDemo/web/xava/images/home.gif -text
+InvoiceDemo/web/xava/images/html/skins/Jetspeed/tableft.gif -text
+InvoiceDemo/web/xava/images/html/skins/Jetspeed/tableft_low.gif -text
+InvoiceDemo/web/xava/images/html/skins/Jetspeed/tabmiddle.gif -text
+InvoiceDemo/web/xava/images/html/skins/Jetspeed/tabmiddle_low.gif -text
+InvoiceDemo/web/xava/images/html/skins/Jetspeed/tabright.gif -text
+InvoiceDemo/web/xava/images/html/skins/Jetspeed/tabright_low.gif -text
+InvoiceDemo/web/xava/images/key.gif -text
+InvoiceDemo/web/xava/images/level-down.gif -text
+InvoiceDemo/web/xava/images/level-left.gif -text
+InvoiceDemo/web/xava/images/level-right.gif -text
+InvoiceDemo/web/xava/images/level-up.gif -text
+InvoiceDemo/web/xava/images/loading.gif -text
+InvoiceDemo/web/xava/images/maximize.gif -text
+InvoiceDemo/web/xava/images/minimize.gif -text
+InvoiceDemo/web/xava/images/move-left.gif -text
+InvoiceDemo/web/xava/images/move-right.gif -text
+InvoiceDemo/web/xava/images/new.gif -text
+InvoiceDemo/web/xava/images/next.gif -text
+InvoiceDemo/web/xava/images/next_page.gif -text
+InvoiceDemo/web/xava/images/next_page_disable.gif -text
+InvoiceDemo/web/xava/images/odt.gif -text
+InvoiceDemo/web/xava/images/pdf.gif -text
+InvoiceDemo/web/xava/images/photo.gif -text
+InvoiceDemo/web/xava/images/previous.gif -text
+InvoiceDemo/web/xava/images/previous_page.gif -text
+InvoiceDemo/web/xava/images/previous_page_disable.gif -text
+InvoiceDemo/web/xava/images/processing.gif -text
+InvoiceDemo/web/xava/images/property_no_icon.gif -text
+InvoiceDemo/web/xava/images/refresh.gif -text
+InvoiceDemo/web/xava/images/remove.gif -text
+InvoiceDemo/web/xava/images/report.gif -text
+InvoiceDemo/web/xava/images/reports.png -text
+InvoiceDemo/web/xava/images/reportsAdmin.png -text
+InvoiceDemo/web/xava/images/required.gif -text
+InvoiceDemo/web/xava/images/restore.gif -text
+InvoiceDemo/web/xava/images/rtf.gif -text
+InvoiceDemo/web/xava/images/save.gif -text
+InvoiceDemo/web/xava/images/search.gif -text
+InvoiceDemo/web/xava/images/shared-reports.png -text
+InvoiceDemo/web/xava/images/show-filter.gif -text
+InvoiceDemo/web/xava/images/sort.gif -text
+InvoiceDemo/web/xava/images/spacer.gif -text
+InvoiceDemo/web/xava/images/summation.gif -text
+InvoiceDemo/web/xava/images/upload.gif -text
+InvoiceDemo/web/xava/images/view.gif -text
+InvoiceDemo/web/xava/imports.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/jasperReport.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/js/calendar.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/js/dwr-engine.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/js/jquery-ui.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/js/jquery.bgiframe.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/js/jquery.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/js/openxava.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/list.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/messages.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/module.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/portlet.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/propertyActions.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/reference.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/referenceEditorIcons.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/referenceSearch.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/sections.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/style/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png -text
+InvoiceDemo/web/xava/style/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png -text
+InvoiceDemo/web/xava/style/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png -text
+InvoiceDemo/web/xava/style/cupertino/images/ui-bg_glass_50_3baae3_1x400.png -text
+InvoiceDemo/web/xava/style/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png -text
+InvoiceDemo/web/xava/style/cupertino/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png -text
+InvoiceDemo/web/xava/style/cupertino/images/ui-bg_highlight-hard_70_000000_1x100.png -text
+InvoiceDemo/web/xava/style/cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png -text
+InvoiceDemo/web/xava/style/cupertino/images/ui-bg_highlight-soft_25_ffef8f_1x100.png -text
+InvoiceDemo/web/xava/style/cupertino/images/ui-icons_2694e8_256x240.png -text
+InvoiceDemo/web/xava/style/cupertino/images/ui-icons_2e83ff_256x240.png -text
+InvoiceDemo/web/xava/style/cupertino/images/ui-icons_3d80b3_256x240.png -text
+InvoiceDemo/web/xava/style/cupertino/images/ui-icons_72a7cf_256x240.png -text
+InvoiceDemo/web/xava/style/cupertino/images/ui-icons_ffffff_256x240.png -text
+InvoiceDemo/web/xava/style/cupertino/jquery-ui.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/style/custom.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/style/default.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/style/ipad/images/add.gif -text
+InvoiceDemo/web/xava/style/ipad/images/ascending-white.gif -text
+InvoiceDemo/web/xava/style/ipad/images/ascending-white2.gif -text
+InvoiceDemo/web/xava/style/ipad/images/ascending.gif -text
+InvoiceDemo/web/xava/style/ipad/images/ascending2.gif -text
+InvoiceDemo/web/xava/style/ipad/images/back.gif -text
+InvoiceDemo/web/xava/style/ipad/images/calendar.gif -text
+InvoiceDemo/web/xava/style/ipad/images/clear-right.gif -text
+InvoiceDemo/web/xava/style/ipad/images/create_new.gif -text
+InvoiceDemo/web/xava/style/ipad/images/customize.png -text
+InvoiceDemo/web/xava/style/ipad/images/delete.gif -text
+InvoiceDemo/web/xava/style/ipad/images/descending-white.gif -text
+InvoiceDemo/web/xava/style/ipad/images/descending-white2.gif -text
+InvoiceDemo/web/xava/style/ipad/images/descending.gif -text
+InvoiceDemo/web/xava/style/ipad/images/descending2.gif -text
+InvoiceDemo/web/xava/style/ipad/images/edit-text.gif -text
+InvoiceDemo/web/xava/style/ipad/images/edit.gif -text
+InvoiceDemo/web/xava/style/ipad/images/error.gif -text
+InvoiceDemo/web/xava/style/ipad/images/excel.gif -text
+InvoiceDemo/web/xava/style/ipad/images/filter.gif -text
+InvoiceDemo/web/xava/style/ipad/images/find.gif -text
+InvoiceDemo/web/xava/style/ipad/images/help.png -text
+InvoiceDemo/web/xava/style/ipad/images/home.gif -text
+InvoiceDemo/web/xava/style/ipad/images/key.gif -text
+InvoiceDemo/web/xava/style/ipad/images/level-down.gif -text
+InvoiceDemo/web/xava/style/ipad/images/level-left.gif -text
+InvoiceDemo/web/xava/style/ipad/images/level-right.gif -text
+InvoiceDemo/web/xava/style/ipad/images/level-up.gif -text
+InvoiceDemo/web/xava/style/ipad/images/loading.gif -text
+InvoiceDemo/web/xava/style/ipad/images/maximize.gif -text
+InvoiceDemo/web/xava/style/ipad/images/minimize.gif -text
+InvoiceDemo/web/xava/style/ipad/images/move-left.gif -text
+InvoiceDemo/web/xava/style/ipad/images/move-right.gif -text
+InvoiceDemo/web/xava/style/ipad/images/new.gif -text
+InvoiceDemo/web/xava/style/ipad/images/next.gif -text
+InvoiceDemo/web/xava/style/ipad/images/next_page.gif -text
+InvoiceDemo/web/xava/style/ipad/images/next_page_disable.gif -text
+InvoiceDemo/web/xava/style/ipad/images/odt.gif -text
+InvoiceDemo/web/xava/style/ipad/images/page_navigation.gif -text
+InvoiceDemo/web/xava/style/ipad/images/page_navigation_selected.gif -text
+InvoiceDemo/web/xava/style/ipad/images/pdf.gif -text
+InvoiceDemo/web/xava/style/ipad/images/photo.gif -text
+InvoiceDemo/web/xava/style/ipad/images/previous.gif -text
+InvoiceDemo/web/xava/style/ipad/images/previous_page.gif -text
+InvoiceDemo/web/xava/style/ipad/images/previous_page_disable.gif -text
+InvoiceDemo/web/xava/style/ipad/images/processing.gif -text
+InvoiceDemo/web/xava/style/ipad/images/refresh.gif -text
+InvoiceDemo/web/xava/style/ipad/images/remove.gif -text
+InvoiceDemo/web/xava/style/ipad/images/required.gif -text
+InvoiceDemo/web/xava/style/ipad/images/restore.gif -text
+InvoiceDemo/web/xava/style/ipad/images/rtf.gif -text
+InvoiceDemo/web/xava/style/ipad/images/save.gif -text
+InvoiceDemo/web/xava/style/ipad/images/search.gif -text
+InvoiceDemo/web/xava/style/ipad/images/show-filter.gif -text
+InvoiceDemo/web/xava/style/ipad/images/sort.gif -text
+InvoiceDemo/web/xava/style/ipad/images/summation.gif -text
+InvoiceDemo/web/xava/style/ipad/images/view.gif -text
+InvoiceDemo/web/xava/style/ipad/ipad.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/style/ipad/ipad.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/style/jetspeed.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/style/liferay43/css/everything_unpacked.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/style/liferay43/images/common/action.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/activate.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/add.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/add_article.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/add_instance.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/add_location.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/add_template.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/add_user.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/all_pages.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/assign.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/assign_user_roles.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/back.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/banner_bg.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/bottom.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/button_bg.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/calendar.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/clip.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/close.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/configuration.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/copy.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/date.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/deactivate.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/define_permissions.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/delete.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/download.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/edit.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/export.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/feed.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/folder.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/folder_open.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/forward.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/grey.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/help.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/history.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/impersonate_user.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/join.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/leave.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/links.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/manage_nodes.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/manage_task.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/maximize.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/minimize.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/news.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/openid.gif -text
+InvoiceDemo/web/xava/style/liferay43/images/common/orphan_pages.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/page.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/pages.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/permissions.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/post.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/preview.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/print.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/quote.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/recent_changes.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/remove.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/reply.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/rss.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/search.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/signal_instance.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/submit.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/subscribe.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/tabs_bg.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/time.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/top.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/undo.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/unlink.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/unsubscribe.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/view.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/view_articles.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/view_instances.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/view_locations.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/view_structures.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/view_tasks.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/view_templates.png -text
+InvoiceDemo/web/xava/style/liferay43/images/common/view_users.png -text
+InvoiceDemo/web/xava/style/liferay43/images/forms/button.png -text
+InvoiceDemo/web/xava/style/liferay43/images/forms/input_shadow.png -text
+InvoiceDemo/web/xava/style/liferay43/images/forms/input_shadow_dark.png -text
+InvoiceDemo/web/xava/style/liferay43/images/messages/alert.png -text
+InvoiceDemo/web/xava/style/liferay43/images/messages/error.png -text
+InvoiceDemo/web/xava/style/liferay43/images/messages/info.png -text
+InvoiceDemo/web/xava/style/liferay43/images/messages/success.png -text
+InvoiceDemo/web/xava/style/liferay43/images/portlet/back.png -text
+InvoiceDemo/web/xava/style/liferay43/images/portlet/close.png -text
+InvoiceDemo/web/xava/style/liferay43/images/portlet/configuration.png -text
+InvoiceDemo/web/xava/style/liferay43/images/portlet/edit.png -text
+InvoiceDemo/web/xava/style/liferay43/images/portlet/edit_defaults.png -text
+InvoiceDemo/web/xava/style/liferay43/images/portlet/edit_guest.png -text
+InvoiceDemo/web/xava/style/liferay43/images/portlet/help.png -text
+InvoiceDemo/web/xava/style/liferay43/images/portlet/maximize.png -text
+InvoiceDemo/web/xava/style/liferay43/images/portlet/minimize.png -text
+InvoiceDemo/web/xava/style/liferay43/images/portlet/placeholder_bg.png -text
+InvoiceDemo/web/xava/style/liferay43/images/portlet/pop_up.png -text
+InvoiceDemo/web/xava/style/liferay43/images/portlet/portlet_bg.png -text
+InvoiceDemo/web/xava/style/liferay43/images/portlet/portlet_css.png -text
+InvoiceDemo/web/xava/style/liferay43/images/portlet/print.png -text
+InvoiceDemo/web/xava/style/liferay43/images/portlet/refresh.png -text
+InvoiceDemo/web/xava/style/liferay43/images/portlet/restore.png -text
+InvoiceDemo/web/xava/style/liferay43/images/progress_bar/loading_animation.gif -text
+InvoiceDemo/web/xava/style/liferay51/css/everything_unpacked.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/style/liferay51/css/jquery-ui-patch.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/style/liferay51/images/application/close.png -text
+InvoiceDemo/web/xava/style/liferay51/images/application/close_small.png -text
+InvoiceDemo/web/xava/style/liferay51/images/application/datepicker_next.png -text
+InvoiceDemo/web/xava/style/liferay51/images/application/datepicker_previous.png -text
+InvoiceDemo/web/xava/style/liferay51/images/application/forbidden_action.png -text
+InvoiceDemo/web/xava/style/liferay51/images/application/handle_horizontal.png -text
+InvoiceDemo/web/xava/style/liferay51/images/application/handle_ne.png -text
+InvoiceDemo/web/xava/style/liferay51/images/application/handle_nw.png -text
+InvoiceDemo/web/xava/style/liferay51/images/application/handle_se.png -text
+InvoiceDemo/web/xava/style/liferay51/images/application/handle_sw.png -text
+InvoiceDemo/web/xava/style/liferay51/images/application/handle_vertical.png -text
+InvoiceDemo/web/xava/style/liferay51/images/application/loading_indicator.gif -text
+InvoiceDemo/web/xava/style/liferay51/images/application/tabs_bg.png -text
+InvoiceDemo/web/xava/style/liferay51/images/arrows/04_right.png -text
+InvoiceDemo/web/xava/style/liferay51/images/forms/button.png -text
+InvoiceDemo/web/xava/style/liferay51/images/forms/input_shadow.png -text
+InvoiceDemo/web/xava/style/liferay51/images/forms/input_shadow_dark.png -text
+InvoiceDemo/web/xava/style/liferay51/images/messages/alert.png -text
+InvoiceDemo/web/xava/style/liferay51/images/messages/error.png -text
+InvoiceDemo/web/xava/style/liferay51/images/messages/info.png -text
+InvoiceDemo/web/xava/style/liferay51/images/messages/success.png -text
+InvoiceDemo/web/xava/style/liferay51/images/portlet/back.png -text
+InvoiceDemo/web/xava/style/liferay51/images/portlet/close.png -text
+InvoiceDemo/web/xava/style/liferay51/images/portlet/configuration.png -text
+InvoiceDemo/web/xava/style/liferay51/images/portlet/edit.png -text
+InvoiceDemo/web/xava/style/liferay51/images/portlet/edit_defaults.png -text
+InvoiceDemo/web/xava/style/liferay51/images/portlet/edit_guest.png -text
+InvoiceDemo/web/xava/style/liferay51/images/portlet/help.png -text
+InvoiceDemo/web/xava/style/liferay51/images/portlet/maximize.png -text
+InvoiceDemo/web/xava/style/liferay51/images/portlet/minimize.png -text
+InvoiceDemo/web/xava/style/liferay51/images/portlet/options.png -text
+InvoiceDemo/web/xava/style/liferay51/images/portlet/options_selected.png -text
+InvoiceDemo/web/xava/style/liferay51/images/portlet/placeholder_bg.png -text
+InvoiceDemo/web/xava/style/liferay51/images/portlet/pop_up.png -text
+InvoiceDemo/web/xava/style/liferay51/images/portlet/portlet_bg.png -text
+InvoiceDemo/web/xava/style/liferay51/images/portlet/portlet_css.png -text
+InvoiceDemo/web/xava/style/liferay51/images/portlet/print.png -text
+InvoiceDemo/web/xava/style/liferay51/images/portlet/refresh.png -text
+InvoiceDemo/web/xava/style/liferay51/images/portlet/restore.png -text
+InvoiceDemo/web/xava/style/liferay51/images/progress_bar/loading_animation.gif -text
+InvoiceDemo/web/xava/style/liferay51/js/barebone_unpacked.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/style/liferay51/js/theme_display.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/style/portal.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/style/skins.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/style/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png -text
+InvoiceDemo/web/xava/style/smoothness/images/ui-bg_flat_75_ffffff_40x100.png -text
+InvoiceDemo/web/xava/style/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png -text
+InvoiceDemo/web/xava/style/smoothness/images/ui-bg_glass_65_ffffff_1x400.png -text
+InvoiceDemo/web/xava/style/smoothness/images/ui-bg_glass_75_dadada_1x400.png -text
+InvoiceDemo/web/xava/style/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png -text
+InvoiceDemo/web/xava/style/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png -text
+InvoiceDemo/web/xava/style/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png -text
+InvoiceDemo/web/xava/style/smoothness/images/ui-icons_222222_256x240.png -text
+InvoiceDemo/web/xava/style/smoothness/images/ui-icons_2e83ff_256x240.png -text
+InvoiceDemo/web/xava/style/smoothness/images/ui-icons_454545_256x240.png -text
+InvoiceDemo/web/xava/style/smoothness/images/ui-icons_888888_256x240.png -text
+InvoiceDemo/web/xava/style/smoothness/images/ui-icons_cd0a0a_256x240.png -text
+InvoiceDemo/web/xava/style/smoothness/jquery-ui.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/style/smoothness/liferay6-patch.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/style/swing.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/style/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png -text
+InvoiceDemo/web/xava/style/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png -text
+InvoiceDemo/web/xava/style/ui-lightness/images/ui-bg_flat_10_000000_40x100.png -text
+InvoiceDemo/web/xava/style/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png -text
+InvoiceDemo/web/xava/style/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png -text
+InvoiceDemo/web/xava/style/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png -text
+InvoiceDemo/web/xava/style/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png -text
+InvoiceDemo/web/xava/style/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png -text
+InvoiceDemo/web/xava/style/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png -text
+InvoiceDemo/web/xava/style/ui-lightness/images/ui-icons_222222_256x240.png -text
+InvoiceDemo/web/xava/style/ui-lightness/images/ui-icons_228ef1_256x240.png -text
+InvoiceDemo/web/xava/style/ui-lightness/images/ui-icons_ef8c08_256x240.png -text
+InvoiceDemo/web/xava/style/ui-lightness/images/ui-icons_ffd27a_256x240.png -text
+InvoiceDemo/web/xava/style/ui-lightness/images/ui-icons_ffffff_256x240.png -text
+InvoiceDemo/web/xava/style/ui-lightness/jquery-ui.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/style/yahoo-treeview/check0.gif -text
+InvoiceDemo/web/xava/style/yahoo-treeview/check1.gif -text
+InvoiceDemo/web/xava/style/yahoo-treeview/check2.gif -text
+InvoiceDemo/web/xava/style/yahoo-treeview/loading.gif -text
+InvoiceDemo/web/xava/style/yahoo-treeview/treeview-loading.gif -text
+InvoiceDemo/web/xava/style/yahoo-treeview/treeview-skin.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/style/yahoo-treeview/treeview-sprite.gif -text
+InvoiceDemo/web/xava/style/yahoo-treeview/treeview.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/style/yahoo.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/subButton.jsp -text svneol=unset#text/plain
+InvoiceDemo/xava/application.xml -text svneol=unset#text/plain
+InvoiceDemo/xava/dtds/aplicacion.dtd -text svneol=unset#text/plain
+InvoiceDemo/xava/dtds/application.dtd -text svneol=unset#text/plain
+InvoiceDemo/xava/dtds/aspectos.dtd -text svneol=unset#text/plain
+InvoiceDemo/xava/dtds/aspects.dtd -text svneol=unset#text/plain
+InvoiceDemo/xava/dtds/code-generators.dtd -text svneol=unset#text/plain
+InvoiceDemo/xava/dtds/component.dtd -text svneol=unset#text/plain
+InvoiceDemo/xava/dtds/componente.dtd -text svneol=unset#text/plain
+InvoiceDemo/xava/dtds/controladores.dtd -text svneol=unset#text/plain
+InvoiceDemo/xava/dtds/controllers.dtd -text svneol=unset#text/plain
+InvoiceDemo/xava/dtds/conversores.dtd -text svneol=unset#text/plain
+InvoiceDemo/xava/dtds/converters.dtd -text svneol=unset#text/plain
+InvoiceDemo/xava/dtds/default-size.dtd -text svneol=unset#text/plain
+InvoiceDemo/xava/dtds/editores.dtd -text svneol=unset#text/plain
+InvoiceDemo/xava/dtds/editors.dtd -text svneol=unset#text/plain
+InvoiceDemo/xava/dtds/generadores-codigo.dtd -text svneol=unset#text/plain
+InvoiceDemo/xava/dtds/longitud-defecto.dtd -text svneol=unset#text/plain
+InvoiceDemo/xava/dtds/stereotype-type-default.dtd -text svneol=unset#text/plain
+InvoiceDemo/xava/dtds/tabs-default-values.dtd -text svneol=unset#text/plain
+InvoiceDemo/xava/dtds/tipo-estereotipo-defecto.dtd -text svneol=unset#text/plain
+InvoiceDemo/xava/dtds/validadores.dtd -text svneol=unset#text/plain
+InvoiceDemo/xava/dtds/validators.dtd -text svneol=unset#text/plain
+InvoiceDemo/xava/dtds/valores-defecto-tabs.dtd -text svneol=unset#text/plain
 Invoicing/.classpath -text
 Invoicing/.project -text
 Invoicing/.settings/.component -text
