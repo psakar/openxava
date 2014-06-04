@@ -5771,6 +5771,7 @@ OpenXava/web/editors/calendar/skins/aqua/status-bg.gif -text
 OpenXava/web/editors/calendar/skins/aqua/theme.css -text svneol=unset#text/plain
 OpenXava/web/editors/calendar/skins/aqua/title-bg.gif -text
 OpenXava/web/editors/calendar/skins/aqua/today-bg.gif -text
+OpenXava/web/editors/changeFile.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/changeImage.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/chooseFile.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/chooseFiles.jsp -text svneol=unset#text/plain
