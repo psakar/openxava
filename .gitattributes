@@ -4933,6 +4933,7 @@ OpenXava/src/org/openxava/actions/CancelAction.java -text
 OpenXava/src/org/openxava/actions/CancelDialogAction.java -text
 OpenXava/src/org/openxava/actions/CancelFromCustomListAction.java -text
 OpenXava/src/org/openxava/actions/CancelInListAction.java -text
+OpenXava/src/org/openxava/actions/ChangeFileAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/ChangeImageAction.java -text
 OpenXava/src/org/openxava/actions/ChangeModuleAction.java -text
 OpenXava/src/org/openxava/actions/ChangeSectionAction.java -text
