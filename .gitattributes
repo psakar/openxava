@@ -4937,8 +4937,6 @@ OpenXava/src/org/openxava/actions/ChangeFileAction.java -text svneol=unset#text/
 OpenXava/src/org/openxava/actions/ChangeImageAction.java -text
 OpenXava/src/org/openxava/actions/ChangeModuleAction.java -text
 OpenXava/src/org/openxava/actions/ChangeSectionAction.java -text
-OpenXava/src/org/openxava/actions/ChooseFileAction.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/actions/ChooseFilesForLibraryAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/ChooseReferenceAction.java -text
 OpenXava/src/org/openxava/actions/CollectionBaseAction.java -text
 OpenXava/src/org/openxava/actions/CollectionElementViewBaseAction.java -text
@@ -5030,7 +5028,6 @@ OpenXava/src/org/openxava/actions/ReferenceSearchAction.java -text
 OpenXava/src/org/openxava/actions/RemoveColumnAction.java -text
 OpenXava/src/org/openxava/actions/RemoveColumnSumAction.java -text
 OpenXava/src/org/openxava/actions/RemoveElementFromCollectionAction.java -text
-OpenXava/src/org/openxava/actions/RemoveFileFromLibraryAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveImageFromGalleryAction.java -text
 OpenXava/src/org/openxava/actions/RemoveMyReportAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveMyReportColumnAction.java -text svneol=unset#text/plain
@@ -5074,7 +5071,6 @@ OpenXava/src/org/openxava/actions/UpdateAction.java -text
 OpenXava/src/org/openxava/actions/UpdateElementInManyToManyCollectionAction.java -text
 OpenXava/src/org/openxava/actions/UpdateReferenceBaseAction.java -text
 OpenXava/src/org/openxava/actions/UploadFileAction.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/actions/UploadFileIntoLibraryAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/ViewBaseAction.java -text
 OpenXava/src/org/openxava/actions/ViewDetailAction.java -text
 OpenXava/src/org/openxava/actions/ViewElementInCollectionAction.java -text
@@ -5773,8 +5769,6 @@ OpenXava/web/editors/calendar/skins/aqua/title-bg.gif -text
 OpenXava/web/editors/calendar/skins/aqua/today-bg.gif -text
 OpenXava/web/editors/changeFile.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/changeImage.jsp -text svneol=unset#text/plain
-OpenXava/web/editors/chooseFile.jsp -text svneol=unset#text/plain
-OpenXava/web/editors/chooseFiles.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/ckeditor/.htaccess -text
 OpenXava/web/editors/ckeditor/config.js -text svneol=unset#text/plain
 OpenXava/web/editors/ckeditor/contents.css -text svneol=unset#text/plain
@@ -6016,7 +6010,6 @@ OpenXava/web/editors/js/textEditor.js -text
 OpenXava/web/editors/js/yahoo-dom-event.js -text
 OpenXava/web/editors/js/yahoo-treeview-min.js -text
 OpenXava/web/editors/labelEditor.jsp -text
-OpenXava/web/editors/libraryEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/liferayDocumentLibraryEditor.jsp -text
 OpenXava/web/editors/liferayUploadFile.jsp -text
 OpenXava/web/editors/listEditor.jsp -text svneol=unset#text/plain
@@ -8863,8 +8856,6 @@ OpenXavaTest/web/xava/editors/calendar/skins/aqua/today-bg.gif -text
 OpenXavaTest/web/xava/editors/carriersNamesEditor.jsp -text
 OpenXavaTest/web/xava/editors/changeFile.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/changeImage.jsp -text
-OpenXavaTest/web/xava/editors/chooseFile.jsp -text svneol=unset#text/plain
-OpenXavaTest/web/xava/editors/chooseFiles.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/ckeditor/.htaccess -text
 OpenXavaTest/web/xava/editors/ckeditor/config.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/ckeditor/contents.css -text svneol=unset#text/plain
@@ -9112,7 +9103,6 @@ OpenXavaTest/web/xava/editors/js/textEditor.js -text
 OpenXavaTest/web/xava/editors/js/yahoo-dom-event.js -text
 OpenXavaTest/web/xava/editors/js/yahoo-treeview-min.js -text
 OpenXavaTest/web/xava/editors/labelEditor.jsp -text
-OpenXavaTest/web/xava/editors/libraryEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/liferayDocumentLibraryEditor.jsp -text
 OpenXavaTest/web/xava/editors/liferayUploadFile.jsp -text
 OpenXavaTest/web/xava/editors/listEditor.jsp -text svneol=unset#text/plain
