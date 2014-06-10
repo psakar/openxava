@@ -3999,7 +3999,9 @@ MySchool/web/WEB-INF/lib/smtp.jar -text
 MySchool/web/WEB-INF/lib/standard-jstlel.jar -text
 MySchool/web/WEB-INF/lib/standard.jar -text
 MySchool/web/WEB-INF/lib/validation-api.jar -text
+MySchool/web/WEB-INF/liferay-display.xml -text svneol=unset#text/plain
 MySchool/web/WEB-INF/openxava.tld -text svneol=unset#text/plain
+MySchool/web/WEB-INF/portlet.xml -text svneol=unset#text/plain
 MySchool/web/WEB-INF/web.xml -text svneol=unset#text/plain
 MySchool/web/index.jsp -text svneol=unset#text/plain
 MySchool/web/naviox/editors/actionsEditor.jsp -text svneol=unset#text/plain
@@ -4348,6 +4350,7 @@ MySchool/web/xava/editors/ckeditor/skins/v2/skin.js -text svneol=unset#text/plai
 MySchool/web/xava/editors/ckeditor/skins/v2/templates.css -text svneol=unset#text/plain
 MySchool/web/xava/editors/ckeditor/themes/default/theme.js -text svneol=unset#text/plain
 MySchool/web/xava/editors/collectionEditor.jsp -text svneol=unset#text/plain
+MySchool/web/xava/editors/collectionTotals.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/comparatorsBooleanCombo.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/comparatorsCombo.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/comparatorsDescriptionsList.jsp -text svneol=unset#text/plain
@@ -4357,6 +4360,7 @@ MySchool/web/xava/editors/dateTimeCombinedCalendarEditor.jsp -text svneol=unset#
 MySchool/web/xava/editors/dateTimeSeparatedCalendarEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/descriptionValidValuesEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/descriptionsEditor.jsp -text svneol=unset#text/plain
+MySchool/web/xava/editors/elementCollectionEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/gallery.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/galleryEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/htmlEditor.jsp -text svneol=unset#text/plain
@@ -4364,6 +4368,7 @@ MySchool/web/xava/editors/imageEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/imageLabelEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/js/autoNumeric.js -text svneol=unset#text/plain
 MySchool/web/xava/editors/js/ckeditor.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/js/elementCollectionEditor.js -text svneol=unset#text/plain
 MySchool/web/xava/editors/js/htmlEditor.js -text svneol=unset#text/plain
 MySchool/web/xava/editors/js/jquery-ckeditor-adapter.js -text svneol=unset#text/plain
 MySchool/web/xava/editors/js/textEditor.js -text svneol=unset#text/plain
@@ -4447,6 +4452,7 @@ MySchool/web/xava/images/previous.gif -text
 MySchool/web/xava/images/previous_page.gif -text
 MySchool/web/xava/images/previous_page_disable.gif -text
 MySchool/web/xava/images/processing.gif -text
+MySchool/web/xava/images/property_no_icon.gif -text
 MySchool/web/xava/images/refresh.gif -text
 MySchool/web/xava/images/remove.gif -text
 MySchool/web/xava/images/report.gif -text
