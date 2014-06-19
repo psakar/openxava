@@ -9670,7 +9670,9 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/RemoveActionToProperyAction.groo
 OpenXavaTest/pojo-src/org/openxava/test/actions/ReportCorporationAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/SaveElementInCollectionAbortingTransactionAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/SearchAuthorAction.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/ShowAllAuthorsAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowGoCustomerInvoicesDialogAction.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/ShowSelectedAuthorsAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowSellerAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/TranslateCarrierNameAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ViewNameFellowCarriersSelectedAction.java -text
