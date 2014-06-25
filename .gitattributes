@@ -9786,6 +9786,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/MixtureKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Month.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/MotorVehicle.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/MotorVehicleDriver.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/MotorVehicleDriver2.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Movie.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Name.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Nameable.java -text
@@ -9942,6 +9943,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/JournalTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/LoginTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/MiniOrderTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/MotoTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/MotorVehicleDriver2Test.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/MotorVehicleDriverTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/MotorVehicleTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/MovieTest.java -text svneol=unset#text/plain
