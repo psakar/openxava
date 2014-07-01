@@ -5293,6 +5293,7 @@ OpenXava/src/org/openxava/formatters/BaseFormatter.java -text
 OpenXava/src/org/openxava/formatters/BooleanFormatter.java -text
 OpenXava/src/org/openxava/formatters/BooleanListFormatter.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/formatters/DateFormatter.java -text
+OpenXava/src/org/openxava/formatters/DateTimeBaseFormatter.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/formatters/DateTimeCombinedFormatter.java -text
 OpenXava/src/org/openxava/formatters/DateTimeSeparatedFormatter.java -text
 OpenXava/src/org/openxava/formatters/FileListFormatter.java -text svneol=unset#text/plain
