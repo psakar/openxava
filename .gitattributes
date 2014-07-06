@@ -10022,7 +10022,10 @@ OpenXavaTest/selenium-tests/CarrierWithTwoSections.case -text
 OpenXavaTest/selenium-tests/ColorLabelStyle.case -text
 OpenXavaTest/selenium-tests/ColorNotAlignedByColumn -text
 OpenXavaTest/selenium-tests/Customer-twoFrames.case -text
+OpenXavaTest/selenium-tests/CustomerAlignment.case -text
 OpenXavaTest/selenium-tests/CustomerDemoSmallLabel.case -text
+OpenXavaTest/selenium-tests/CustomerNotAligned_FALSE_state.case -text
+OpenXavaTest/selenium-tests/CustomerSmallLabel.case -text
 OpenXavaTest/selenium-tests/DeliveryGroupAndReference -text
 OpenXavaTest/selenium-tests/InvoiceAmounts.case -text
 OpenXavaTest/selenium-tests/InvoiceAmountsInSection.case -text
@@ -10035,6 +10038,10 @@ OpenXavaTest/selenium-tests/Product4NotAligned.case -text
 OpenXavaTest/selenium-tests/Product5FamilyFromSubfamily.case -text
 OpenXavaTest/selenium-tests/README.txt -text
 OpenXavaTest/selenium-tests/Renderer.suite -text
+OpenXavaTest/selenium-tests/aligned-by-column-tests/Aligned.suite -text
+OpenXavaTest/selenium-tests/aligned-by-column-tests/CustomerAligned.case -text
+OpenXavaTest/selenium-tests/aligned-by-column-tests/CustomerNotAligned_TRUE_state.case -text
+OpenXavaTest/selenium-tests/aligned-by-column-tests/Readme.case -text
 OpenXavaTest/selenium-tests/ox-extensions.js -text svneol=unset#text/plain
 OpenXavaTest/selenium-tests/user-extensions.js -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/actions/ActivateDeactivateSectionAction.java -text
