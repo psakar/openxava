@@ -10042,6 +10042,9 @@ OpenXavaTest/selenium-tests/aligned-by-column-tests/Aligned.suite -text
 OpenXavaTest/selenium-tests/aligned-by-column-tests/CustomerAligned.case -text
 OpenXavaTest/selenium-tests/aligned-by-column-tests/CustomerNotAligned_TRUE_state.case -text
 OpenXavaTest/selenium-tests/aligned-by-column-tests/Readme.case -text
+OpenXavaTest/selenium-tests/liferay/LR-Login.case -text
+OpenXavaTest/selenium-tests/liferay/Portal.suite -text
+OpenXavaTest/selenium-tests/liferay/liferay-test-menu.lar -text
 OpenXavaTest/selenium-tests/ox-extensions.js -text svneol=unset#text/plain
 OpenXavaTest/selenium-tests/user-extensions.js -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/actions/ActivateDeactivateSectionAction.java -text
