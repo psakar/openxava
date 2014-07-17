@@ -9835,6 +9835,8 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Seller.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/SellerLevel.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Service.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ServiceDetail.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/ServiceExpense.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/model/ServiceExpenses.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/ServiceInvoice.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ServiceType.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Shipment.java -text
@@ -9965,6 +9967,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/QuoteTest.java -text svneol=unset#
 OpenXavaTest/pojo-src/org/openxava/test/tests/SalesRepresentativePersonOnlyNamesTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SalesRepresentativeTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SellerRegionsWithCheckBoxesTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/ServiceExpensesTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/ShopTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/StudioTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SummerCourseTest.java -text
