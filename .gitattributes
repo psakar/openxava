@@ -930,10 +930,14 @@ Addons/web/naviox/getModulesList.jsp -text svneol=unset#text/plain
 Addons/web/naviox/images/bookmark-off.png -text
 Addons/web/naviox/images/bookmark-on.png -text
 Addons/web/naviox/images/corner.png -text
+Addons/web/naviox/images/list-mode-screenshot_en.png -text
+Addons/web/naviox/images/list-mode-screenshot_es.png -text
 Addons/web/naviox/images/loading.gif -text
 Addons/web/naviox/images/login.png -text
 Addons/web/naviox/images/maximize.gif -text
 Addons/web/naviox/images/minimize.gif -text
+Addons/web/naviox/images/modules-screenshot_en.png -text
+Addons/web/naviox/images/modules-screenshot_es.png -text
 Addons/web/naviox/images/navigation.png -text
 Addons/web/naviox/images/naviox-folders_en.png -text
 Addons/web/naviox/images/naviox-folders_es.png -text
@@ -1093,26 +1097,19 @@ InvoiceDemo/web/naviox/getModulesList.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/naviox/images/bookmark-off.png -text
 InvoiceDemo/web/naviox/images/bookmark-on.png -text
 InvoiceDemo/web/naviox/images/corner.png -text
+InvoiceDemo/web/naviox/images/list-mode-screenshot_en.png -text
+InvoiceDemo/web/naviox/images/list-mode-screenshot_es.png -text
 InvoiceDemo/web/naviox/images/loading.gif -text
-InvoiceDemo/web/naviox/images/login.png -text
 InvoiceDemo/web/naviox/images/maximize.gif -text
 InvoiceDemo/web/naviox/images/minimize.gif -text
-InvoiceDemo/web/naviox/images/navigation.png -text
-InvoiceDemo/web/naviox/images/naviox-folders_en.png -text
-InvoiceDemo/web/naviox/images/naviox-folders_es.png -text
-InvoiceDemo/web/naviox/images/naviox-module-labels_en.png -text
-InvoiceDemo/web/naviox/images/naviox-module-labels_es.png -text
-InvoiceDemo/web/naviox/images/naviox-modules_en.png -text
-InvoiceDemo/web/naviox/images/naviox-modules_es.png -text
-InvoiceDemo/web/naviox/images/naviox-roles_en.png -text
-InvoiceDemo/web/naviox/images/naviox-roles_es.png -text
+InvoiceDemo/web/naviox/images/modules-screenshot_en.png -text
+InvoiceDemo/web/naviox/images/modules-screenshot_es.png -text
 InvoiceDemo/web/naviox/images/point1.png -text
 InvoiceDemo/web/naviox/images/point2.png -text
 InvoiceDemo/web/naviox/images/point3.png -text
 InvoiceDemo/web/naviox/images/restore.gif -text
 InvoiceDemo/web/naviox/images/right.png -text
 InvoiceDemo/web/naviox/images/search.png -text
-InvoiceDemo/web/naviox/images/user-group.png -text
 InvoiceDemo/web/naviox/index.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/naviox/js/naviox.js -text svneol=unset#text/plain
 InvoiceDemo/web/naviox/js/typewatch.js -text svneol=unset#text/plain
@@ -4009,26 +4006,19 @@ MySchool/web/naviox/getModulesList.jsp -text svneol=unset#text/plain
 MySchool/web/naviox/images/bookmark-off.png -text
 MySchool/web/naviox/images/bookmark-on.png -text
 MySchool/web/naviox/images/corner.png -text
+MySchool/web/naviox/images/list-mode-screenshot_en.png -text
+MySchool/web/naviox/images/list-mode-screenshot_es.png -text
 MySchool/web/naviox/images/loading.gif -text
-MySchool/web/naviox/images/login.png -text
 MySchool/web/naviox/images/maximize.gif -text
 MySchool/web/naviox/images/minimize.gif -text
-MySchool/web/naviox/images/navigation.png -text
-MySchool/web/naviox/images/naviox-folders_en.png -text
-MySchool/web/naviox/images/naviox-folders_es.png -text
-MySchool/web/naviox/images/naviox-module-labels_en.png -text
-MySchool/web/naviox/images/naviox-module-labels_es.png -text
-MySchool/web/naviox/images/naviox-modules_en.png -text
-MySchool/web/naviox/images/naviox-modules_es.png -text
-MySchool/web/naviox/images/naviox-roles_en.png -text
-MySchool/web/naviox/images/naviox-roles_es.png -text
+MySchool/web/naviox/images/modules-screenshot_en.png -text
+MySchool/web/naviox/images/modules-screenshot_es.png -text
 MySchool/web/naviox/images/point1.png -text
 MySchool/web/naviox/images/point2.png -text
 MySchool/web/naviox/images/point3.png -text
 MySchool/web/naviox/images/restore.gif -text
 MySchool/web/naviox/images/right.png -text
 MySchool/web/naviox/images/search.png -text
-MySchool/web/naviox/images/user-group.png -text
 MySchool/web/naviox/index.jsp -text svneol=unset#text/plain
 MySchool/web/naviox/js/naviox.js -text svneol=unset#text/plain
 MySchool/web/naviox/js/typewatch.js -text svneol=unset#text/plain
