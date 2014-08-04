@@ -930,14 +930,10 @@ Addons/web/naviox/getModulesList.jsp -text svneol=unset#text/plain
 Addons/web/naviox/images/bookmark-off.png -text
 Addons/web/naviox/images/bookmark-on.png -text
 Addons/web/naviox/images/corner.png -text
-Addons/web/naviox/images/list-mode-screenshot_en.png -text
-Addons/web/naviox/images/list-mode-screenshot_es.png -text
 Addons/web/naviox/images/loading.gif -text
 Addons/web/naviox/images/login.png -text
 Addons/web/naviox/images/maximize.gif -text
 Addons/web/naviox/images/minimize.gif -text
-Addons/web/naviox/images/modules-screenshot_en.png -text
-Addons/web/naviox/images/modules-screenshot_es.png -text
 Addons/web/naviox/images/navigation.png -text
 Addons/web/naviox/images/naviox-folders_en.png -text
 Addons/web/naviox/images/naviox-folders_es.png -text
