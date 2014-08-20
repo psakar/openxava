@@ -924,6 +924,7 @@ Addons/src/com/openxava/naviox/web/NaviOXStyle.java -text svneol=unset#text/plai
 Addons/src/com/openxava/naviox/web/dwr/Folders.java -text svneol=unset#text/plain
 Addons/src/com/openxava/naviox/web/dwr/Modules.java -text svneol=unset#text/plain
 Addons/src/com/openxava/phone/PhoneServlet.java -text svneol=unset#text/plain
+Addons/src/com/openxava/phone/web/PhoneServlet.java -text svneol=unset#text/plain
 Addons/web/index.jsp -text svneol=unset#text/plain
 Addons/web/naviox/editors/actionsEditor.jsp -text svneol=unset#text/plain
 Addons/web/naviox/firstSteps.jsp -text svneol=unset#text/plain
