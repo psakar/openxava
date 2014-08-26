@@ -4918,10 +4918,10 @@ OpenXava/src/org/openxava/actions/CancelAction.java -text
 OpenXava/src/org/openxava/actions/CancelDialogAction.java -text
 OpenXava/src/org/openxava/actions/CancelFromCustomListAction.java -text
 OpenXava/src/org/openxava/actions/CancelInListAction.java -text
-OpenXava/src/org/openxava/actions/ChangeFileAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/ChangeImageAction.java -text
 OpenXava/src/org/openxava/actions/ChangeModuleAction.java -text
 OpenXava/src/org/openxava/actions/ChangeSectionAction.java -text
+OpenXava/src/org/openxava/actions/ChooseFileAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/ChooseReferenceAction.java -text
 OpenXava/src/org/openxava/actions/CollectionBaseAction.java -text
 OpenXava/src/org/openxava/actions/CollectionElementViewBaseAction.java -text
@@ -5753,8 +5753,8 @@ OpenXava/web/editors/calendar/skins/aqua/status-bg.gif -text
 OpenXava/web/editors/calendar/skins/aqua/theme.css -text svneol=unset#text/plain
 OpenXava/web/editors/calendar/skins/aqua/title-bg.gif -text
 OpenXava/web/editors/calendar/skins/aqua/today-bg.gif -text
-OpenXava/web/editors/changeFile.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/changeImage.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/chooseFile.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/ckeditor/.htaccess -text
 OpenXava/web/editors/ckeditor/config.js -text svneol=unset#text/plain
 OpenXava/web/editors/ckeditor/contents.css -text svneol=unset#text/plain
@@ -10518,6 +10518,7 @@ OpenXavaTest/web/xava/editors/calendar/skins/aqua/today-bg.gif -text
 OpenXavaTest/web/xava/editors/carriersNamesEditor.jsp -text
 OpenXavaTest/web/xava/editors/changeFile.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/changeImage.jsp -text
+OpenXavaTest/web/xava/editors/chooseFile.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/ckeditor/.htaccess -text
 OpenXavaTest/web/xava/editors/ckeditor/config.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/ckeditor/contents.css -text svneol=unset#text/plain
