@@ -9945,6 +9945,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/NetMachineTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/OrderIssueTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/OrphanageTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ParentTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/PhoneServletTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/PhoneTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/PositionTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/Product4Test.java -text
