@@ -4911,6 +4911,7 @@ OpenXava/properties/styles.properties -text
 OpenXava/properties/xava-version.properties -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/AddColumnsAction.java -text
 OpenXava/src/org/openxava/actions/AddElementsToCollectionAction.java -text
+OpenXava/src/org/openxava/actions/AddFileToLibraryAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/AddImageToGalleryAction.java -text
 OpenXava/src/org/openxava/actions/AddLiferayDocumentAction.java -text
 OpenXava/src/org/openxava/actions/BaseAction.java -text
@@ -5013,6 +5014,7 @@ OpenXava/src/org/openxava/actions/ReferenceSearchAction.java -text
 OpenXava/src/org/openxava/actions/RemoveColumnAction.java -text
 OpenXava/src/org/openxava/actions/RemoveColumnSumAction.java -text
 OpenXava/src/org/openxava/actions/RemoveElementFromCollectionAction.java -text
+OpenXava/src/org/openxava/actions/RemoveFileFromLibraryAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveImageFromGalleryAction.java -text
 OpenXava/src/org/openxava/actions/RemoveMyReportAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveMyReportColumnAction.java -text svneol=unset#text/plain
@@ -5056,6 +5058,7 @@ OpenXava/src/org/openxava/actions/UpdateAction.java -text
 OpenXava/src/org/openxava/actions/UpdateElementInManyToManyCollectionAction.java -text
 OpenXava/src/org/openxava/actions/UpdateReferenceBaseAction.java -text
 OpenXava/src/org/openxava/actions/UploadFileAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/UploadFileIntoLibraryAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/ViewBaseAction.java -text
 OpenXava/src/org/openxava/actions/ViewDetailAction.java -text
 OpenXava/src/org/openxava/actions/ViewElementInCollectionAction.java -text
@@ -5677,6 +5680,7 @@ OpenXava/web/editor.jsp -text svneol=unset#text/plain
 OpenXava/web/editorIcons.jsp -text
 OpenXava/web/editorWrapper.jsp -text
 OpenXava/web/editors/actionEditor.jsp -text
+OpenXava/web/editors/addFiles.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/addImages.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/attachedFileEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/boldLabelEditor.jsp -text
@@ -5996,6 +6000,7 @@ OpenXava/web/editors/js/textEditor.js -text
 OpenXava/web/editors/js/yahoo-dom-event.js -text
 OpenXava/web/editors/js/yahoo-treeview-min.js -text
 OpenXava/web/editors/labelEditor.jsp -text
+OpenXava/web/editors/libraryEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/liferayDocumentLibraryEditor.jsp -text
 OpenXava/web/editors/liferayUploadFile.jsp -text
 OpenXava/web/editors/listEditor.jsp -text svneol=unset#text/plain
@@ -9627,6 +9632,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/AddActionToProperyAction.groovy 
 OpenXavaTest/pojo-src/org/openxava/test/actions/AddSuffixAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/AddToNameAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ChangeName.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/ChooseFileAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/CorporationEmployeeListFilterAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/EditGalleryNoDialogAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/FailTransactionInCollectionElementAction.groovy -text
@@ -9649,6 +9655,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeRangesTypeAction.java -t
 OpenXavaTest/pojo-src/org/openxava/test/actions/ProduceMessagesAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ProposeNameAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/RemoveActionToProperyAction.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/RemoveFileAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/ReportCorporationAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/SaveElementInCollectionAbortingTransactionAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/SearchAuthorAction.groovy -text
@@ -10437,6 +10444,7 @@ OpenXavaTest/web/xava/editor.jsp -text
 OpenXavaTest/web/xava/editorIcons.jsp -text
 OpenXavaTest/web/xava/editorWrapper.jsp -text
 OpenXavaTest/web/xava/editors/actionEditor.jsp -text
+OpenXavaTest/web/xava/editors/addFiles.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/addImages.jsp -text
 OpenXavaTest/web/xava/editors/attachedFileEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/blogCommentsEditor.jsp -text
@@ -10766,6 +10774,7 @@ OpenXavaTest/web/xava/editors/js/textEditor.js -text
 OpenXavaTest/web/xava/editors/js/yahoo-dom-event.js -text
 OpenXavaTest/web/xava/editors/js/yahoo-treeview-min.js -text
 OpenXavaTest/web/xava/editors/labelEditor.jsp -text
+OpenXavaTest/web/xava/editors/libraryEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/liferayDocumentLibraryEditor.jsp -text
 OpenXavaTest/web/xava/editors/liferayUploadFile.jsp -text
 OpenXavaTest/web/xava/editors/listEditor.jsp -text svneol=unset#text/plain
