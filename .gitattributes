@@ -6109,7 +6109,7 @@ OpenXava/web/messages.jsp -text svneol=unset#text/plain
 OpenXava/web/module.jsp -text svneol=unset#text/plain
 OpenXava/web/portlet.jsp -text
 OpenXava/web/propertyActions.jsp -text
-OpenXava/web/reference.jsp -text
+OpenXava/web/reference.jsp -text svneol=unset#text/plain
 OpenXava/web/referenceEditorIcons.jsp -text
 OpenXava/web/referenceSearch.jsp -text
 OpenXava/web/sections.jsp -text
@@ -9668,6 +9668,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/ViewNameFellowCarriersSelectedAc
 OpenXavaTest/pojo-src/org/openxava/test/annotations/GoodName.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/base/AbstractToto.java -text
 OpenXavaTest/pojo-src/org/openxava/test/businesslogic/MiniOrderLogic.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/calculators/DefaultInvoiceCalculator.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/domain/Moto.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/filters/InventFilter.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/formatters/WarehouseFormatter.java -text
@@ -9802,7 +9803,9 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Product4.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Product5.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ProductDetailsSupplierContactDetails.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ProductExpense.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/model/ProductExpense2.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/ProductExpenses.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/model/ProductExpenses2.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Programmer.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ProgrammerApplicant.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ProgrammingSkill.groovy -text
@@ -9814,6 +9817,8 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Question.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Quote.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/QuoteDetail.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Ranges.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Reallocation.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/model/ReallocationDetail.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Receptionist.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Report.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/SalesRepresentative.java -text
@@ -9950,6 +9955,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/PhoneTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/PositionTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/Product4Test.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/Product5Test.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/ProductExpenses2Test.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/ProductExpensesTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/ProgrammerTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/QuarterTest.java -text
@@ -10282,6 +10288,7 @@ OpenXavaTest/src/org/openxava/test/tests/Product3WithGroupTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ProductTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ProductWithSectionTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/PublicJSPTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/ReallocationTest.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/ReportTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/SchoolTest.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/SelectSchemaTest.java -text
