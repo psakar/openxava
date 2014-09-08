@@ -4911,7 +4911,7 @@ OpenXava/properties/styles.properties -text
 OpenXava/properties/xava-version.properties -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/AddColumnsAction.java -text
 OpenXava/src/org/openxava/actions/AddElementsToCollectionAction.java -text
-OpenXava/src/org/openxava/actions/AddFileToLibraryAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/AddFileToFilesetAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/AddImageToGalleryAction.java -text
 OpenXava/src/org/openxava/actions/AddLiferayDocumentAction.java -text
 OpenXava/src/org/openxava/actions/BaseAction.java -text
@@ -5014,7 +5014,7 @@ OpenXava/src/org/openxava/actions/ReferenceSearchAction.java -text
 OpenXava/src/org/openxava/actions/RemoveColumnAction.java -text
 OpenXava/src/org/openxava/actions/RemoveColumnSumAction.java -text
 OpenXava/src/org/openxava/actions/RemoveElementFromCollectionAction.java -text
-OpenXava/src/org/openxava/actions/RemoveFileFromLibraryAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/RemoveFileFromFilesetAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveImageFromGalleryAction.java -text
 OpenXava/src/org/openxava/actions/RemoveMyReportAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveMyReportColumnAction.java -text svneol=unset#text/plain
@@ -5058,7 +5058,7 @@ OpenXava/src/org/openxava/actions/UpdateAction.java -text
 OpenXava/src/org/openxava/actions/UpdateElementInManyToManyCollectionAction.java -text
 OpenXava/src/org/openxava/actions/UpdateReferenceBaseAction.java -text
 OpenXava/src/org/openxava/actions/UploadFileAction.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/actions/UploadFileIntoLibraryAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/UploadFileIntoFilesetAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/ViewBaseAction.java -text
 OpenXava/src/org/openxava/actions/ViewDetailAction.java -text
 OpenXava/src/org/openxava/actions/ViewElementInCollectionAction.java -text
@@ -5683,6 +5683,7 @@ OpenXava/web/editors/actionEditor.jsp -text
 OpenXava/web/editors/addFiles.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/addImages.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/attachedFileEditor.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/attachedFilesEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/boldLabelEditor.jsp -text
 OpenXava/web/editors/booleanEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/booleanYesNoEditor.jsp -text svneol=unset#text/plain
@@ -6000,7 +6001,6 @@ OpenXava/web/editors/js/textEditor.js -text
 OpenXava/web/editors/js/yahoo-dom-event.js -text
 OpenXava/web/editors/js/yahoo-treeview-min.js -text
 OpenXava/web/editors/labelEditor.jsp -text
-OpenXava/web/editors/libraryEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/liferayDocumentLibraryEditor.jsp -text
 OpenXava/web/editors/liferayUploadFile.jsp -text
 OpenXava/web/editors/listEditor.jsp -text svneol=unset#text/plain
@@ -6031,13 +6031,13 @@ OpenXava/web/images/ascending-white2.gif -text
 OpenXava/web/images/ascending.gif -text
 OpenXava/web/images/ascending2.gif -text
 OpenXava/web/images/ascending3.gif -text
+OpenXava/web/images/attach.gif -text
 OpenXava/web/images/back.gif -text
 OpenXava/web/images/calendar.gif -text
 OpenXava/web/images/checked.gif -text
 OpenXava/web/images/clear-right.gif -text
 OpenXava/web/images/create_new.gif -text
 OpenXava/web/images/customize.png -text
-OpenXava/web/images/delete-file.gif -text
 OpenXava/web/images/delete.gif -text
 OpenXava/web/images/descending-white.gif -text
 OpenXava/web/images/descending-white2.gif -text
@@ -6094,7 +6094,6 @@ OpenXava/web/images/show-filter.gif -text
 OpenXava/web/images/sort.gif -text
 OpenXava/web/images/spacer.gif -text
 OpenXava/web/images/summation.gif -text
-OpenXava/web/images/upload.gif -text
 OpenXava/web/images/view.gif -text
 OpenXava/web/imports.jsp -text
 OpenXava/web/jasperReport.jsp -text svneol=unset#text/plain
@@ -10455,6 +10454,7 @@ OpenXavaTest/web/xava/editors/actionEditor.jsp -text
 OpenXavaTest/web/xava/editors/addFiles.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/addImages.jsp -text
 OpenXavaTest/web/xava/editors/attachedFileEditor.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/attachedFilesEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/blogCommentsEditor.jsp -text
 OpenXavaTest/web/xava/editors/blogCommentsListEditor.jsp -text
 OpenXavaTest/web/xava/editors/boldLabelEditor.jsp -text
@@ -10782,7 +10782,6 @@ OpenXavaTest/web/xava/editors/js/textEditor.js -text
 OpenXavaTest/web/xava/editors/js/yahoo-dom-event.js -text
 OpenXavaTest/web/xava/editors/js/yahoo-treeview-min.js -text
 OpenXavaTest/web/xava/editors/labelEditor.jsp -text
-OpenXavaTest/web/xava/editors/libraryEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/liferayDocumentLibraryEditor.jsp -text
 OpenXavaTest/web/xava/editors/liferayUploadFile.jsp -text
 OpenXavaTest/web/xava/editors/listEditor.jsp -text svneol=unset#text/plain
@@ -10827,13 +10826,13 @@ OpenXavaTest/web/xava/images/ascending-white2.gif -text
 OpenXavaTest/web/xava/images/ascending.gif -text
 OpenXavaTest/web/xava/images/ascending2.gif -text
 OpenXavaTest/web/xava/images/ascending3.gif -text
+OpenXavaTest/web/xava/images/attach.gif -text
 OpenXavaTest/web/xava/images/back.gif -text
 OpenXavaTest/web/xava/images/calendar.gif -text
 OpenXavaTest/web/xava/images/checked.gif -text
 OpenXavaTest/web/xava/images/clear-right.gif -text
 OpenXavaTest/web/xava/images/create_new.gif -text
 OpenXavaTest/web/xava/images/customize.png -text
-OpenXavaTest/web/xava/images/delete-file.gif -text
 OpenXavaTest/web/xava/images/delete.gif -text
 OpenXavaTest/web/xava/images/descending-white.gif -text
 OpenXavaTest/web/xava/images/descending-white2.gif -text
@@ -10891,7 +10890,6 @@ OpenXavaTest/web/xava/images/show-filter.gif -text
 OpenXavaTest/web/xava/images/sort.gif -text
 OpenXavaTest/web/xava/images/spacer.gif -text
 OpenXavaTest/web/xava/images/summation.gif -text
-OpenXavaTest/web/xava/images/upload.gif -text
 OpenXavaTest/web/xava/images/view.gif -text
 OpenXavaTest/web/xava/imports.jsp -text
 OpenXavaTest/web/xava/jasperReport.jsp -text svneol=unset#text/plain
