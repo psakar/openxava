@@ -9656,6 +9656,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/ProposeNameAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/RemoveActionToProperyAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/RemoveFileAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/ReportCorporationAction.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/actions/ResetUnitPriceCalculatorAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/SaveElementInCollectionAbortingTransactionAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/SearchAuthorAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowAllAuthorsAction.groovy -text
@@ -9668,6 +9669,7 @@ OpenXavaTest/pojo-src/org/openxava/test/annotations/GoodName.java -text svneol=u
 OpenXavaTest/pojo-src/org/openxava/test/base/AbstractToto.java -text
 OpenXavaTest/pojo-src/org/openxava/test/businesslogic/MiniOrderLogic.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/calculators/DefaultInvoiceCalculator.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/calculators/UnitPriceCalculator.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/domain/Moto.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/filters/InventFilter.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/formatters/WarehouseFormatter.java -text
