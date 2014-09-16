@@ -1486,7 +1486,6 @@ InvoiceDemo/web/xava/images/checked.gif -text
 InvoiceDemo/web/xava/images/clear-right.gif -text
 InvoiceDemo/web/xava/images/create_new.gif -text
 InvoiceDemo/web/xava/images/customize.png -text
-InvoiceDemo/web/xava/images/delete-file.gif -text
 InvoiceDemo/web/xava/images/delete.gif -text
 InvoiceDemo/web/xava/images/descending-white.gif -text
 InvoiceDemo/web/xava/images/descending-white2.gif -text
@@ -1543,7 +1542,6 @@ InvoiceDemo/web/xava/images/show-filter.gif -text
 InvoiceDemo/web/xava/images/sort.gif -text
 InvoiceDemo/web/xava/images/spacer.gif -text
 InvoiceDemo/web/xava/images/summation.gif -text
-InvoiceDemo/web/xava/images/upload.gif -text
 InvoiceDemo/web/xava/images/view.gif -text
 InvoiceDemo/web/xava/imports.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/jasperReport.jsp -text svneol=unset#text/plain
