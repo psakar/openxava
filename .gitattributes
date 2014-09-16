@@ -1023,6 +1023,7 @@ InvoiceDemo/properties/naviox-users.properties -text svneol=unset#text/plain
 InvoiceDemo/properties/naviox.properties -text svneol=unset#text/plain
 InvoiceDemo/properties/xava-junit.properties -text svneol=unset#text/plain
 InvoiceDemo/properties/xava.properties -text svneol=unset#text/plain
+InvoiceDemo/src/org/openxava/invoice/calculators/UnitPriceCalculator.java -text svneol=unset#text/plain
 InvoiceDemo/src/org/openxava/invoice/model/Customer.java -text svneol=unset#text/plain
 InvoiceDemo/src/org/openxava/invoice/model/Invoice.java -text svneol=unset#text/plain
 InvoiceDemo/src/org/openxava/invoice/model/InvoiceDetail.java -text svneol=unset#text/plain
@@ -1126,8 +1127,10 @@ InvoiceDemo/web/xava/editor.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editorIcons.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editorWrapper.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/actionEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/addFiles.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/addImages.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/attachedFileEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/attachedFilesEditor.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/boldLabelEditor.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/booleanEditor.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/booleanYesNoEditor.jsp -text svneol=unset#text/plain
@@ -1204,6 +1207,7 @@ InvoiceDemo/web/xava/editors/calendar/skins/aqua/title-bg.gif -text
 InvoiceDemo/web/xava/editors/calendar/skins/aqua/today-bg.gif -text
 InvoiceDemo/web/xava/editors/changeFile.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/changeImage.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/chooseFile.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/ckeditor/.htaccess -text
 InvoiceDemo/web/xava/editors/ckeditor/config.js -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/ckeditor/contents.css -text svneol=unset#text/plain
@@ -1475,6 +1479,7 @@ InvoiceDemo/web/xava/images/ascending-white2.gif -text
 InvoiceDemo/web/xava/images/ascending.gif -text
 InvoiceDemo/web/xava/images/ascending2.gif -text
 InvoiceDemo/web/xava/images/ascending3.gif -text
+InvoiceDemo/web/xava/images/attach.gif -text
 InvoiceDemo/web/xava/images/back.gif -text
 InvoiceDemo/web/xava/images/calendar.gif -text
 InvoiceDemo/web/xava/images/checked.gif -text
