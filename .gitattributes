@@ -9654,6 +9654,10 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeDistanceAction.java -tex
 OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeGroupInColorAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangePhoneAreaCodeAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeRangesTypeAction.java -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeSearchVisitCarrierAction.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeVisitCustomerAction.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeVisitKmAction.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeVisitProductAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/ProduceMessagesAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ProposeNameAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/RemoveActionToProperyAction.groovy -text
@@ -9825,6 +9829,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Reallocation.java -text svneol=uns
 OpenXavaTest/pojo-src/org/openxava/test/model/ReallocationDetail.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Receptionist.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Report.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Route.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/SalesRepresentative.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/School.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/SelectSchema.java -text
@@ -9880,6 +9885,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/TreeItemPropertyBased.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/TreeItemTwo.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/UserWithNickname.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Vehicle.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Visit.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Wall.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/WallEntry.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Warehouse.java -text
@@ -9964,6 +9970,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/ProductExpensesTest.java -text svn
 OpenXavaTest/pojo-src/org/openxava/test/tests/ProgrammerTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/QuarterTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/QuoteTest.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/tests/RouteTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/SalesRepresentativePersonOnlyNamesTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SalesRepresentativeTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SellerRegionsWithCheckBoxesTest.groovy -text
