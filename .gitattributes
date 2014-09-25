@@ -10300,6 +10300,8 @@ OpenXavaTest/src/org/openxava/test/tests/Product3WithGroupTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ProductTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ProductWithSectionTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/PublicJSPTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/ReallocationDetailsEditOnlyTest.java -text svneol=unset#text/plain
+OpenXavaTest/src/org/openxava/test/tests/ReallocationDetailsReadOnlyTest.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/ReallocationTest.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/ReportTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/SchoolTest.java -text svneol=unset#text/plain
