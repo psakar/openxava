@@ -5980,6 +5980,7 @@ OpenXava/web/editors/ckeditor/skins/v2/skin.js -text svneol=unset#text/plain
 OpenXava/web/editors/ckeditor/skins/v2/templates.css -text svneol=unset#text/plain
 OpenXava/web/editors/ckeditor/themes/default/theme.js -text svneol=unset#text/plain
 OpenXava/web/editors/collectionEditor.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/collectionTotal.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/collectionTotals.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/comparatorsBooleanCombo.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/comparatorsCombo.jsp -text svneol=unset#text/plain
@@ -9971,6 +9972,9 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/ProductExpensesTest.java -text svn
 OpenXavaTest/pojo-src/org/openxava/test/tests/ProgrammerTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/QuarterTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/QuoteTest.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/tests/ReallocationDetailsEditOnlyTest.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/tests/ReallocationDetailsReadOnlyTest.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/tests/ReallocationTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/RouteTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/SalesRepresentativePersonOnlyNamesTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SalesRepresentativeTest.java -text
@@ -10300,9 +10304,6 @@ OpenXavaTest/src/org/openxava/test/tests/Product3WithGroupTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ProductTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ProductWithSectionTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/PublicJSPTest.java -text
-OpenXavaTest/src/org/openxava/test/tests/ReallocationDetailsEditOnlyTest.java -text svneol=unset#text/plain
-OpenXavaTest/src/org/openxava/test/tests/ReallocationDetailsReadOnlyTest.java -text svneol=unset#text/plain
-OpenXavaTest/src/org/openxava/test/tests/ReallocationTest.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/ReportTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/SchoolTest.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/SelectSchemaTest.java -text
@@ -10766,6 +10767,7 @@ OpenXavaTest/web/xava/editors/ckeditor/skins/v2/skin.js -text svneol=unset#text/
 OpenXavaTest/web/xava/editors/ckeditor/skins/v2/templates.css -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/ckeditor/themes/default/theme.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/collectionEditor.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/collectionTotal.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/collectionTotals.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/colorEditor.jsp -text
 OpenXavaTest/web/xava/editors/colorFrameEditor.jsp -text
