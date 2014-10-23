@@ -4001,13 +4001,9 @@ MySchool/web/naviox/getModulesList.jsp -text svneol=unset#text/plain
 MySchool/web/naviox/images/bookmark-off.png -text
 MySchool/web/naviox/images/bookmark-on.png -text
 MySchool/web/naviox/images/corner.png -text
-MySchool/web/naviox/images/list-mode-screenshot_en.png -text
-MySchool/web/naviox/images/list-mode-screenshot_es.png -text
 MySchool/web/naviox/images/loading.gif -text
 MySchool/web/naviox/images/maximize.gif -text
 MySchool/web/naviox/images/minimize.gif -text
-MySchool/web/naviox/images/modules-screenshot_en.png -text
-MySchool/web/naviox/images/modules-screenshot_es.png -text
 MySchool/web/naviox/images/point1.png -text
 MySchool/web/naviox/images/point2.png -text
 MySchool/web/naviox/images/point3.png -text
