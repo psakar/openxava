@@ -6606,6 +6606,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/ViewDetailAction.html -text svneol=
 OpenXavaDoc/web/apidocs/org/openxava/actions/ViewElementInCollectionAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/AddColumnsAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/AddElementsToCollectionAction.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/AddFileToFilesetAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/AddImageToGalleryAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/AddLiferayDocumentAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/BaseAction.html -text svneol=unset#text/plain
@@ -6617,6 +6618,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ChangeFileAction.html -te
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ChangeImageAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ChangeModuleAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ChangeSectionAction.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ChooseFileAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ChooseReferenceAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/CollectionBaseAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/CollectionElementViewBaseAction.html -text svneol=unset#text/plain
@@ -6709,6 +6711,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ReferenceSearchAction.htm
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveColumnAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveColumnSumAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveElementFromCollectionAction.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveFileFromFilesetAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveImageFromGalleryAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveMyReportAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveMyReportColumnAction.html -text svneol=unset#text/plain
@@ -6752,6 +6755,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/UpdateAction.html -text s
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/UpdateElementInManyToManyCollectionAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/UpdateReferenceBaseAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/UploadFileAction.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/UploadFileIntoFilesetAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ViewBaseAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ViewDetailAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ViewElementInCollectionAction.html -text svneol=unset#text/plain
