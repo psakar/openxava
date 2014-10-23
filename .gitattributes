@@ -1425,6 +1425,7 @@ InvoiceDemo/web/xava/editors/ckeditor/skins/v2/skin.js -text svneol=unset#text/p
 InvoiceDemo/web/xava/editors/ckeditor/skins/v2/templates.css -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/ckeditor/themes/default/theme.js -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/collectionEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/collectionTotal.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/collectionTotals.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/comparatorsBooleanCombo.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/comparatorsCombo.jsp -text svneol=unset#text/plain
