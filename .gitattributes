@@ -6613,7 +6613,6 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/CancelAction.html -text s
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/CancelDialogAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/CancelFromCustomListAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/CancelInListAction.html -text svneol=unset#text/plain
-OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ChangeFileAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ChangeImageAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ChangeModuleAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ChangeSectionAction.html -text svneol=unset#text/plain
