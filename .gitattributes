@@ -5673,7 +5673,7 @@ OpenXava/web/WEB-INF/web.xml -text
 OpenXava/web/addColumns.jsp -text
 OpenXava/web/addToCollection.jsp -text svneol=unset#text/plain
 OpenXava/web/barButton.jsp -text
-OpenXava/web/bottomButtons.jsp -text
+OpenXava/web/bottomButtons.jsp -text svneol=unset#text/plain
 OpenXava/web/buttonBar.jsp -text svneol=unset#text/plain
 OpenXava/web/calculatedCollectionList.jsp -text svneol=unset#text/plain
 OpenXava/web/collection.jsp -text svneol=unset#text/plain
