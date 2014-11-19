@@ -957,6 +957,7 @@ Addons/web/naviox/signIn.jsp -text svneol=unset#text/plain
 Addons/web/naviox/signOut.jsp -text svneol=unset#text/plain
 Addons/web/naviox/style/naviox.css -text svneol=unset#text/plain
 Addons/web/naviox/welcome.jsp -text svneol=unset#text/plain
+Addons/web/phone/index.jsp -text svneol=unset#text/plain
 Addons/xava/controllers.xml -text svneol=unset#text/plain
 Addons/xava/dtds/aplicacion.dtd -text svneol=unset#text/plain
 Addons/xava/dtds/application.dtd -text svneol=unset#text/plain
@@ -10459,6 +10460,7 @@ OpenXavaTest/web/naviox/signIn.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/signOut.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/style/naviox.css -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/welcome.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/phone/index.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/public/myPublicJSP.jsp -text
 OpenXavaTest/web/seller.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/addColumns.jsp -text
