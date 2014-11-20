@@ -9706,12 +9706,14 @@ OpenXavaTest/pojo-src/org/openxava/test/model/AsEmbed3.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AsEmbedContainer.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Author.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AverageSpeed.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/BaseSitting.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Blog.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/BlogComment.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Book.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Building.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/CallBackLog.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Carrier.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Chair.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/CharacteristicThing.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Check.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/CheckTransaction.groovy -text
@@ -9719,6 +9721,10 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Child.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ChildId.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/City.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/CityKey.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/ClassA.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/model/ClassB.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/model/ClassC.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/model/ClassD.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Clerk.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ClerkKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Color.java -text
@@ -9732,6 +9738,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/ConferenceTrack.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ConversionFactor.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Corporation.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/CorporationEmployee.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/model/Couch.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Country.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Course.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/CourseKey.java -text
@@ -9766,6 +9773,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/FilterBySubfamilyAndYear.groovy -t
 OpenXavaTest/pojo-src/org/openxava/test/model/Formula.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/FormulaIngredient.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Framework.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/FurnitureSet.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Hobby.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Hobbyist.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Hound.groovy -text
@@ -9939,6 +9947,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/DealTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DebtTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DrivingLicenceTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ElClienteTest.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/tests/EmbeddedTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/EmployeeTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ExamTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ExperienceTest.groovy -text
@@ -10033,6 +10042,7 @@ OpenXavaTest/properties/naviox-users.properties -text svneol=unset#text/plain
 OpenXavaTest/properties/naviox.properties -text svneol=unset#text/plain
 OpenXavaTest/properties/xava-junit.properties -text
 OpenXavaTest/properties/xava.properties -text
+OpenXavaTest/readme.txt -text svneol=unset#text/plain
 OpenXavaTest/reports/Corporation.html -text svneol=unset#text/plain
 OpenXavaTest/reports/CorporationEmployee.html -text svneol=unset#text/plain
 OpenXavaTest/reports/Customer.jrxml -text
@@ -10042,7 +10052,7 @@ OpenXavaTest/reports/Invoice.jrxml -text
 OpenXavaTest/reports/InvoiceNoVAT.jrxml -text
 OpenXavaTest/reports/Products.jrxml -text
 OpenXavaTest/selenium-tests/CarrierComplexSimpleTopPosition.case -text
-OpenXavaTest/selenium-tests/CarrierIconAlignment -text
+OpenXavaTest/selenium-tests/CarrierIconAlignment.case -text
 OpenXavaTest/selenium-tests/CarrierWithTwoCollectionsTogether.case -text
 OpenXavaTest/selenium-tests/CarrierWithTwoSections.case -text
 OpenXavaTest/selenium-tests/ColorLabelStyle.case -text
@@ -10052,7 +10062,8 @@ OpenXavaTest/selenium-tests/CustomerAlignment.case -text
 OpenXavaTest/selenium-tests/CustomerDemoSmallLabel.case -text
 OpenXavaTest/selenium-tests/CustomerNotAligned_FALSE_state.case -text
 OpenXavaTest/selenium-tests/CustomerSmallLabel.case -text
-OpenXavaTest/selenium-tests/DeliveryGroupAndReference -text
+OpenXavaTest/selenium-tests/DeliveryGroupAndReference.case -text
+OpenXavaTest/selenium-tests/FurnitureSetWithRequiredDescriptionsList.case -text
 OpenXavaTest/selenium-tests/InvoiceAmounts.case -text
 OpenXavaTest/selenium-tests/InvoiceAmountsInSection.case -text
 OpenXavaTest/selenium-tests/InvoiceAmountsNotAligned.case -text
@@ -10064,15 +10075,16 @@ OpenXavaTest/selenium-tests/Product4NotAligned.case -text
 OpenXavaTest/selenium-tests/Product5FamilyFromSubfamily.case -text
 OpenXavaTest/selenium-tests/README.txt -text
 OpenXavaTest/selenium-tests/Renderer.suite -text
+OpenXavaTest/selenium-tests/VehicleTooMuchSpace.case -text
 OpenXavaTest/selenium-tests/aligned-by-column-tests/Aligned.suite -text
 OpenXavaTest/selenium-tests/aligned-by-column-tests/CustomerAligned.case -text
 OpenXavaTest/selenium-tests/aligned-by-column-tests/CustomerNotAligned_TRUE_state.case -text
+OpenXavaTest/selenium-tests/aligned-by-column-tests/EndOfTest.case -text
 OpenXavaTest/selenium-tests/aligned-by-column-tests/Readme.case -text
 OpenXavaTest/selenium-tests/liferay/LR-Login.case -text
 OpenXavaTest/selenium-tests/liferay/Portal.suite -text
 OpenXavaTest/selenium-tests/liferay/liferay-test-menu.lar -text
 OpenXavaTest/selenium-tests/ox-extensions.js -text svneol=unset#text/plain
-OpenXavaTest/selenium-tests/user-extensions.js -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/actions/ActivateDeactivateSectionAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/AddActionsAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/AddFullAddressAction.java -text
