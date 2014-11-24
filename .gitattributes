@@ -1101,6 +1101,7 @@ InvoiceDemo/web/naviox/images/modules-screenshot_es.png -text
 InvoiceDemo/web/naviox/images/point1.png -text
 InvoiceDemo/web/naviox/images/point2.png -text
 InvoiceDemo/web/naviox/images/point3.png -text
+InvoiceDemo/web/naviox/images/processing.gif -text
 InvoiceDemo/web/naviox/images/restore.gif -text
 InvoiceDemo/web/naviox/images/right.png -text
 InvoiceDemo/web/naviox/images/search.png -text
@@ -1115,6 +1116,7 @@ InvoiceDemo/web/naviox/signIn.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/naviox/signOut.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/naviox/style/naviox.css -text svneol=unset#text/plain
 InvoiceDemo/web/naviox/welcome.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/phone/index.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/addColumns.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/addToCollection.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/barButton.jsp -text svneol=unset#text/plain
@@ -4011,6 +4013,7 @@ MySchool/web/naviox/images/modules-screenshot_es.png -text
 MySchool/web/naviox/images/point1.png -text
 MySchool/web/naviox/images/point2.png -text
 MySchool/web/naviox/images/point3.png -text
+MySchool/web/naviox/images/processing.gif -text
 MySchool/web/naviox/images/restore.gif -text
 MySchool/web/naviox/images/right.png -text
 MySchool/web/naviox/images/search.png -text
@@ -4025,6 +4028,7 @@ MySchool/web/naviox/signIn.jsp -text svneol=unset#text/plain
 MySchool/web/naviox/signOut.jsp -text svneol=unset#text/plain
 MySchool/web/naviox/style/naviox.css -text svneol=unset#text/plain
 MySchool/web/naviox/welcome.jsp -text svneol=unset#text/plain
+MySchool/web/phone/index.jsp -text svneol=unset#text/plain
 MySchool/web/xava/addColumns.jsp -text svneol=unset#text/plain
 MySchool/web/xava/addToCollection.jsp -text svneol=unset#text/plain
 MySchool/web/xava/barButton.jsp -text svneol=unset#text/plain
