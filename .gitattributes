@@ -9818,7 +9818,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/AdditionalDetail.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AdditionalDetailKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Address.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Applicant.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/model/ApplicationUser.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/ApplicationUser.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Artist.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AsEmbed1.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AsEmbed2.groovy -text
@@ -9928,7 +9928,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Movie.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Name.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Nameable.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/NetMachine.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/model/Nickname.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Nickname.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Office.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Office2.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Office2Key.java -text
