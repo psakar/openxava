@@ -4959,7 +4959,6 @@ OpenXava/src/org/openxava/actions/FilterAction.java -text
 OpenXava/src/org/openxava/actions/GenerateMyReportAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/GenerateReportAction.java -text
 OpenXava/src/org/openxava/actions/GoAddColumnsAction.java -text
-OpenXava/src/org/openxava/actions/GoAddColumnsPageAction.java -text
 OpenXava/src/org/openxava/actions/GoAddElementsToCollectionAction.java -text
 OpenXava/src/org/openxava/actions/GoDetailAction.java -text
 OpenXava/src/org/openxava/actions/GoListAction.java -text
@@ -5057,10 +5056,10 @@ OpenXava/src/org/openxava/actions/SetPersistenceUnitAction.java -text svneol=uns
 OpenXava/src/org/openxava/actions/SetSchemaAction.java -text
 OpenXava/src/org/openxava/actions/SetUserAction.java -text
 OpenXava/src/org/openxava/actions/ShareMyReportAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/ShowMoreColumnsAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/ShowRowsAction.java -text
 OpenXava/src/org/openxava/actions/SimpleHTMLReportAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/SimpleTemplaterAction.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/actions/SortColumnsAction.java -text
 OpenXava/src/org/openxava/actions/SumColumnAction.java -text
 OpenXava/src/org/openxava/actions/TabBaseAction.java -text
 OpenXava/src/org/openxava/actions/TreeViewExpandCollapseAction.java -text
@@ -5676,7 +5675,6 @@ OpenXava/web/WEB-INF/lib/standard.jar -text
 OpenXava/web/WEB-INF/lib/validation-api.jar -text
 OpenXava/web/WEB-INF/openxava.tld -text svneol=unset#text/plain
 OpenXava/web/WEB-INF/web.xml -text
-OpenXava/web/addColumns.jsp -text
 OpenXava/web/addToCollection.jsp -text svneol=unset#text/plain
 OpenXava/web/barButton.jsp -text
 OpenXava/web/bottomButtons.jsp -text svneol=unset#text/plain
@@ -5691,6 +5689,7 @@ OpenXava/web/editor.jsp -text svneol=unset#text/plain
 OpenXava/web/editorIcons.jsp -text
 OpenXava/web/editorWrapper.jsp -text
 OpenXava/web/editors/actionEditor.jsp -text
+OpenXava/web/editors/addColumns.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/addFiles.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/addImages.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/attachedFileEditor.jsp -text svneol=unset#text/plain
@@ -10290,7 +10289,6 @@ OpenXavaTest/src/org/openxava/test/actions/SeeInitialOfProductNameInADialog.java
 OpenXavaTest/src/org/openxava/test/actions/SeeMessageAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SeeMessageSelectedColorsAction.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/actions/SelectSchemaAction.java -text
-OpenXavaTest/src/org/openxava/test/actions/SetAddColumnsPageRowCountTo10Action.java -text
 OpenXavaTest/src/org/openxava/test/actions/SetControllersAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SetDefaultInvoiceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SetEditableOffAction.java -text
@@ -10595,7 +10593,6 @@ OpenXavaTest/web/naviox/welcome.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/phone/index.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/public/myPublicJSP.jsp -text
 OpenXavaTest/web/seller.jsp -text svneol=unset#text/plain
-OpenXavaTest/web/xava/addColumns.jsp -text
 OpenXavaTest/web/xava/addToCollection.jsp -text
 OpenXavaTest/web/xava/barButton.jsp -text
 OpenXavaTest/web/xava/bottomButtons.jsp -text
@@ -10610,6 +10607,7 @@ OpenXavaTest/web/xava/editor.jsp -text
 OpenXavaTest/web/xava/editorIcons.jsp -text
 OpenXavaTest/web/xava/editorWrapper.jsp -text
 OpenXavaTest/web/xava/editors/actionEditor.jsp -text
+OpenXavaTest/web/xava/editors/addColumns.jsp -text
 OpenXavaTest/web/xava/editors/addFiles.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/addImages.jsp -text
 OpenXavaTest/web/xava/editors/attachedFileEditor.jsp -text svneol=unset#text/plain
