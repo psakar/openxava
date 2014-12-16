@@ -4942,7 +4942,6 @@ OpenXava/src/org/openxava/actions/CreateNewElementInManyToManyCollectionAction.j
 OpenXava/src/org/openxava/actions/CreateNewFromReferenceAction.java -text
 OpenXava/src/org/openxava/actions/CreateNewMyReportAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/CreateNewMyReportColumnAction.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/actions/CustomizeListAction.java -text
 OpenXava/src/org/openxava/actions/DeleteAction.java -text
 OpenXava/src/org/openxava/actions/DeleteFileAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/DeleteImageAction.java -text
