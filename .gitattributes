@@ -5020,7 +5020,6 @@ OpenXava/src/org/openxava/actions/OpenSearchDialogAction.java -text
 OpenXava/src/org/openxava/actions/OrderByAction.java -text
 OpenXava/src/org/openxava/actions/ReferenceBaseAction.java -text
 OpenXava/src/org/openxava/actions/ReferenceSearchAction.java -text
-OpenXava/src/org/openxava/actions/RemoveColumnAction.java -text
 OpenXava/src/org/openxava/actions/RemoveColumnSumAction.java -text
 OpenXava/src/org/openxava/actions/RemoveElementFromCollectionAction.java -text
 OpenXava/src/org/openxava/actions/RemoveFileFromFilesetAction.java -text svneol=unset#text/plain
@@ -10042,7 +10041,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/ApplicantTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ApplicationUserTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ArtistTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/AsEmbedContainerTest.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/tests/AuthorTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/AuthorTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/BlogTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/BookTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/BuildingTest.groovy -text
@@ -10378,6 +10377,7 @@ OpenXavaTest/src/org/openxava/test/tests/CustomerTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerTwoSellersInListTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerTwoSellersNumberInListTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerWithSectionTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/CustomizeListTestBase.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/DeliveryGroupsInSectionsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/DeliveryRemarks2002Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/DeliveryTest.java -text
