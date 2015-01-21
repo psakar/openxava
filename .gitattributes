@@ -4032,7 +4032,6 @@ MySchool/web/naviox/signOut.jsp -text svneol=unset#text/plain
 MySchool/web/naviox/style/naviox.css -text svneol=unset#text/plain
 MySchool/web/naviox/welcome.jsp -text svneol=unset#text/plain
 MySchool/web/phone/index.jsp -text svneol=unset#text/plain
-MySchool/web/xava/addColumns.jsp -text svneol=unset#text/plain
 MySchool/web/xava/addToCollection.jsp -text svneol=unset#text/plain
 MySchool/web/xava/barButton.jsp -text svneol=unset#text/plain
 MySchool/web/xava/bottomButtons.jsp -text svneol=unset#text/plain
