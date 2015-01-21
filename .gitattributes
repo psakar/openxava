@@ -1117,7 +1117,6 @@ InvoiceDemo/web/naviox/signOut.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/naviox/style/naviox.css -text svneol=unset#text/plain
 InvoiceDemo/web/naviox/welcome.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/phone/index.jsp -text svneol=unset#text/plain
-InvoiceDemo/web/xava/addColumns.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/addToCollection.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/barButton.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/bottomButtons.jsp -text svneol=unset#text/plain
@@ -1520,8 +1519,6 @@ InvoiceDemo/web/xava/images/level-up.gif -text
 InvoiceDemo/web/xava/images/loading.gif -text
 InvoiceDemo/web/xava/images/maximize.gif -text
 InvoiceDemo/web/xava/images/minimize.gif -text
-InvoiceDemo/web/xava/images/move-left.gif -text
-InvoiceDemo/web/xava/images/move-right.gif -text
 InvoiceDemo/web/xava/images/move.png -text
 InvoiceDemo/web/xava/images/new.gif -text
 InvoiceDemo/web/xava/images/next.gif -text
@@ -1556,7 +1553,6 @@ InvoiceDemo/web/xava/jasperReport.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/js/calendar.js -text svneol=unset#text/plain
 InvoiceDemo/web/xava/js/dwr-engine.js -text svneol=unset#text/plain
 InvoiceDemo/web/xava/js/jquery-ui.js -text svneol=unset#text/plain
-InvoiceDemo/web/xava/js/jquery.bgiframe.js -text svneol=unset#text/plain
 InvoiceDemo/web/xava/js/jquery.js -text svneol=unset#text/plain
 InvoiceDemo/web/xava/js/jquery.sorttable.js -text svneol=unset#text/plain
 InvoiceDemo/web/xava/js/openxava.js -text svneol=unset#text/plain
