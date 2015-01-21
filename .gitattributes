@@ -1132,6 +1132,7 @@ InvoiceDemo/web/xava/editor.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editorIcons.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editorWrapper.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/actionEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/addColumns.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/addFiles.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/addImages.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/attachedFileEditor.jsp -text svneol=unset#text/plain
@@ -1521,6 +1522,7 @@ InvoiceDemo/web/xava/images/maximize.gif -text
 InvoiceDemo/web/xava/images/minimize.gif -text
 InvoiceDemo/web/xava/images/move-left.gif -text
 InvoiceDemo/web/xava/images/move-right.gif -text
+InvoiceDemo/web/xava/images/move.png -text
 InvoiceDemo/web/xava/images/new.gif -text
 InvoiceDemo/web/xava/images/next.gif -text
 InvoiceDemo/web/xava/images/next_page.gif -text
@@ -1556,6 +1558,7 @@ InvoiceDemo/web/xava/js/dwr-engine.js -text svneol=unset#text/plain
 InvoiceDemo/web/xava/js/jquery-ui.js -text svneol=unset#text/plain
 InvoiceDemo/web/xava/js/jquery.bgiframe.js -text svneol=unset#text/plain
 InvoiceDemo/web/xava/js/jquery.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/js/jquery.sorttable.js -text svneol=unset#text/plain
 InvoiceDemo/web/xava/js/openxava.js -text svneol=unset#text/plain
 InvoiceDemo/web/xava/list.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/messages.jsp -text svneol=unset#text/plain
@@ -4044,6 +4047,7 @@ MySchool/web/xava/editor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editorIcons.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editorWrapper.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/actionEditor.jsp -text svneol=unset#text/plain
+MySchool/web/xava/editors/addColumns.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/addFiles.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/addImages.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/attachedFileEditor.jsp -text svneol=unset#text/plain
@@ -4432,6 +4436,7 @@ MySchool/web/xava/images/maximize.gif -text
 MySchool/web/xava/images/minimize.gif -text
 MySchool/web/xava/images/move-left.gif -text
 MySchool/web/xava/images/move-right.gif -text
+MySchool/web/xava/images/move.png -text
 MySchool/web/xava/images/new.gif -text
 MySchool/web/xava/images/next.gif -text
 MySchool/web/xava/images/next_page.gif -text
@@ -4467,6 +4472,7 @@ MySchool/web/xava/js/dwr-engine.js -text svneol=unset#text/plain
 MySchool/web/xava/js/jquery-ui.js -text svneol=unset#text/plain
 MySchool/web/xava/js/jquery.bgiframe.js -text svneol=unset#text/plain
 MySchool/web/xava/js/jquery.js -text svneol=unset#text/plain
+MySchool/web/xava/js/jquery.sorttable.js -text svneol=unset#text/plain
 MySchool/web/xava/js/openxava.js -text svneol=unset#text/plain
 MySchool/web/xava/list.jsp -text svneol=unset#text/plain
 MySchool/web/xava/messages.jsp -text svneol=unset#text/plain
@@ -4882,6 +4888,7 @@ OpenXava/lib/htmlunit.jar -text
 OpenXava/lib/httpclient.jar -text
 OpenXava/lib/httpcore.jar -text
 OpenXava/lib/httpmime.jar -text
+OpenXava/lib/jetty-websocket.jar -text
 OpenXava/lib/jsp-api.jar -text
 OpenXava/lib/junit.jar -text
 OpenXava/lib/nekohtml.jar -text
@@ -4895,6 +4902,7 @@ OpenXava/lib/servlet-api.jar -text
 OpenXava/lib/tl.jar -text
 OpenXava/lib/xalan.jar -text
 OpenXava/lib/xercesImpl.jar -text
+OpenXava/lib/xml-apis.jar -text
 OpenXava/license.txt -text
 OpenXava/licenses/NOTICE-apache.txt -text
 OpenXava/licenses/antlr-license.txt -text
@@ -4908,6 +4916,7 @@ OpenXava/licenses/httpunit-license.txt -text
 OpenXava/licenses/jasperreports-license.txt -text
 OpenXava/licenses/javamail-license.txt -text svneol=unset#text/plain
 OpenXava/licenses/jquery-qtip-license.txt -text
+OpenXava/licenses/jquery-sorttable-license.txt -text svneol=unset#text/plain
 OpenXava/licenses/jquery-ui-license.txt -text
 OpenXava/licenses/jsr-223-license.txt -text
 OpenXava/licenses/lgpl.txt -text
@@ -5001,8 +5010,6 @@ OpenXava/src/org/openxava/actions/LoadLiferayDocumentAction.java -text
 OpenXava/src/org/openxava/actions/MaximizeImageAction.java -text
 OpenXava/src/org/openxava/actions/MinimizeImageAction.java -text
 OpenXava/src/org/openxava/actions/ModifyFromReferenceAction.java -text
-OpenXava/src/org/openxava/actions/MoveColumnToLeftAction.java -text
-OpenXava/src/org/openxava/actions/MoveColumnToRightAction.java -text
 OpenXava/src/org/openxava/actions/MoveMyReportColumnAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/MyReportsAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/NavigationAction.java -text
@@ -6074,8 +6081,7 @@ OpenXava/web/images/level-up.gif -text
 OpenXava/web/images/loading.gif -text
 OpenXava/web/images/maximize.gif -text
 OpenXava/web/images/minimize.gif -text
-OpenXava/web/images/move-left.gif -text
-OpenXava/web/images/move-right.gif -text
+OpenXava/web/images/move.png -text
 OpenXava/web/images/new.gif -text
 OpenXava/web/images/next.gif -text
 OpenXava/web/images/next_page.gif -text
@@ -6109,8 +6115,8 @@ OpenXava/web/jasperReport.jsp -text svneol=unset#text/plain
 OpenXava/web/js/calendar.js -text svneol=unset#text/plain
 OpenXava/web/js/dwr-engine.js -text
 OpenXava/web/js/jquery-ui.js -text svneol=unset#text/plain
-OpenXava/web/js/jquery.bgiframe.js -text svneol=unset#text/plain
 OpenXava/web/js/jquery.js -text svneol=unset#text/plain
+OpenXava/web/js/jquery.sorttable.js -text svneol=unset#text/plain
 OpenXava/web/js/openxava.js -text svneol=unset#text/plain
 OpenXava/web/list.jsp -text svneol=unset#text/plain
 OpenXava/web/messages.jsp -text svneol=unset#text/plain
@@ -6343,20 +6349,7 @@ OpenXava/web/style/liferay51/js/barebone_unpacked.js -text
 OpenXava/web/style/liferay51/js/theme_display.js -text
 OpenXava/web/style/portal.css -text svneol=unset#text/plain
 OpenXava/web/style/skins.css -text svneol=unset#application/octet-stream
-OpenXava/web/style/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png -text
-OpenXava/web/style/smoothness/images/ui-bg_flat_75_ffffff_40x100.png -text
-OpenXava/web/style/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png -text
-OpenXava/web/style/smoothness/images/ui-bg_glass_65_ffffff_1x400.png -text
-OpenXava/web/style/smoothness/images/ui-bg_glass_75_dadada_1x400.png -text
-OpenXava/web/style/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png -text
-OpenXava/web/style/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png -text
-OpenXava/web/style/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png -text
-OpenXava/web/style/smoothness/images/ui-icons_222222_256x240.png -text
-OpenXava/web/style/smoothness/images/ui-icons_2e83ff_256x240.png -text
-OpenXava/web/style/smoothness/images/ui-icons_454545_256x240.png -text
-OpenXava/web/style/smoothness/images/ui-icons_888888_256x240.png -text
-OpenXava/web/style/smoothness/images/ui-icons_cd0a0a_256x240.png -text
-OpenXava/web/style/smoothness/jquery-ui.css -text
+OpenXava/web/style/smoothness/jquery-ui.css -text svneol=unset#text/plain
 OpenXava/web/style/smoothness/liferay6-patch.css -text
 OpenXava/web/style/swing.css -text svneol=unset#application/octet-stream
 OpenXava/web/style/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png -text
@@ -10138,6 +10131,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/WallTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/Warehouse2Test.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/WarehouseVoidTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/WorkOrderTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/XCollectionsTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/types/RegionsType.java -text
 OpenXavaTest/pojo-src/org/openxava/test/validators/BookTitleValidator.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/validators/BookValidator.groovy -text
@@ -10425,7 +10419,7 @@ OpenXavaTest/src/org/openxava/test/tests/OfficeOnlyWarehouseTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/OfficeTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/OnlyEditDetailsInvoiceTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/OnlyReadDetailsInvoiceTest.java -text
-OpenXavaTest/src/org/openxava/test/tests/OrderTest.groovy -text
+OpenXavaTest/src/org/openxava/test/tests/OrderTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/POJOTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/PositiveValidatorTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/PrettyPrintingTest.txt -text svneol=unset#text/plain
@@ -11017,8 +11011,7 @@ OpenXavaTest/web/xava/images/level-up.gif -text
 OpenXavaTest/web/xava/images/loading.gif -text
 OpenXavaTest/web/xava/images/maximize.gif -text
 OpenXavaTest/web/xava/images/minimize.gif -text
-OpenXavaTest/web/xava/images/move-left.gif -text
-OpenXavaTest/web/xava/images/move-right.gif -text
+OpenXavaTest/web/xava/images/move.png -text
 OpenXavaTest/web/xava/images/new.gif -text
 OpenXavaTest/web/xava/images/next.gif -text
 OpenXavaTest/web/xava/images/next_page.gif -text
@@ -11053,8 +11046,8 @@ OpenXavaTest/web/xava/jasperReport.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/js/calendar.js -text
 OpenXavaTest/web/xava/js/dwr-engine.js -text
 OpenXavaTest/web/xava/js/jquery-ui.js -text svneol=unset#text/plain
-OpenXavaTest/web/xava/js/jquery.bgiframe.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/js/jquery.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/js/jquery.sorttable.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/js/openxava.js -text
 OpenXavaTest/web/xava/list.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/messages.jsp -text
@@ -11288,20 +11281,7 @@ OpenXavaTest/web/xava/style/liferay51/js/barebone_unpacked.js -text
 OpenXavaTest/web/xava/style/liferay51/js/theme_display.js -text
 OpenXavaTest/web/xava/style/portal.css -text
 OpenXavaTest/web/xava/style/skins.css -text svneol=unset#application/octet-stream
-OpenXavaTest/web/xava/style/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png -text
-OpenXavaTest/web/xava/style/smoothness/images/ui-bg_flat_75_ffffff_40x100.png -text
-OpenXavaTest/web/xava/style/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png -text
-OpenXavaTest/web/xava/style/smoothness/images/ui-bg_glass_65_ffffff_1x400.png -text
-OpenXavaTest/web/xava/style/smoothness/images/ui-bg_glass_75_dadada_1x400.png -text
-OpenXavaTest/web/xava/style/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png -text
-OpenXavaTest/web/xava/style/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png -text
-OpenXavaTest/web/xava/style/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png -text
-OpenXavaTest/web/xava/style/smoothness/images/ui-icons_222222_256x240.png -text
-OpenXavaTest/web/xava/style/smoothness/images/ui-icons_2e83ff_256x240.png -text
-OpenXavaTest/web/xava/style/smoothness/images/ui-icons_454545_256x240.png -text
-OpenXavaTest/web/xava/style/smoothness/images/ui-icons_888888_256x240.png -text
-OpenXavaTest/web/xava/style/smoothness/images/ui-icons_cd0a0a_256x240.png -text
-OpenXavaTest/web/xava/style/smoothness/jquery-ui.css -text
+OpenXavaTest/web/xava/style/smoothness/jquery-ui.css -text svneol=unset#text/plain
 OpenXavaTest/web/xava/style/smoothness/liferay6-patch.css -text
 OpenXavaTest/web/xava/style/swing.css -text svneol=unset#application/octet-stream
 OpenXavaTest/web/xava/style/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png -text
