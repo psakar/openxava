@@ -5674,7 +5674,7 @@ OpenXava/web/WEB-INF/lib/standard-jstlel.jar -text
 OpenXava/web/WEB-INF/lib/standard.jar -text
 OpenXava/web/WEB-INF/lib/validation-api.jar -text
 OpenXava/web/WEB-INF/openxava.tld -text svneol=unset#text/plain
-OpenXava/web/WEB-INF/web.xml -text svneol=unset#text/plain
+OpenXava/web/WEB-INF/web.xml -text
 OpenXava/web/addToCollection.jsp -text svneol=unset#text/plain
 OpenXava/web/barButton.jsp -text
 OpenXava/web/bottomButtons.jsp -text svneol=unset#text/plain
@@ -10561,6 +10561,7 @@ OpenXavaTest/web/help/Color_en.html -text
 OpenXavaTest/web/help/Color_es.html -text
 OpenXavaTest/web/index.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/editors/actionsEditor.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/naviox/editors/organizationUrlEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/firstSteps.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/getModulesList.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/images/bookmark-off.png -text
