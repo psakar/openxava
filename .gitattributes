@@ -909,6 +909,7 @@ Addons/license.txt -text svneol=unset#text/plain
 Addons/properties-templates/naviox-users.properties -text svneol=unset#text/plain
 Addons/properties-templates/naviox.properties -text svneol=unset#text/plain
 Addons/src/com/openxava/naviox/Modules.java -text svneol=unset#text/plain
+Addons/src/com/openxava/naviox/actions/InitSignInAction.java -text svneol=unset#text/plain
 Addons/src/com/openxava/naviox/actions/SignInAction.java -text svneol=unset#text/plain
 Addons/src/com/openxava/naviox/impl/AdditionalModules.java -text svneol=unset#text/plain
 Addons/src/com/openxava/naviox/impl/DB.java -text svneol=unset#text/plain
@@ -918,6 +919,7 @@ Addons/src/com/openxava/naviox/impl/ModulesProvider.java -text svneol=unset#text
 Addons/src/com/openxava/naviox/impl/SignInHelper.java -text svneol=unset#text/plain
 Addons/src/com/openxava/naviox/model/SignIn.java -text svneol=unset#text/plain
 Addons/src/com/openxava/naviox/util/NaviOXPreferences.java -text svneol=unset#text/plain
+Addons/src/com/openxava/naviox/util/Organizations.java -text svneol=unset#text/plain
 Addons/src/com/openxava/naviox/web/NaviOXFilter.java -text svneol=unset#text/plain
 Addons/src/com/openxava/naviox/web/NaviOXServlet.java -text svneol=unset#text/plain
 Addons/src/com/openxava/naviox/web/NaviOXStyle.java -text svneol=unset#text/plain
@@ -927,6 +929,7 @@ Addons/src/com/openxava/phone/web/Browsers.java -text svneol=unset#text/plain
 Addons/src/com/openxava/phone/web/PhoneServlet.java -text svneol=unset#text/plain
 Addons/web/index.jsp -text svneol=unset#text/plain
 Addons/web/naviox/editors/actionsEditor.jsp -text svneol=unset#text/plain
+Addons/web/naviox/editors/organizationUrlEditor.jsp -text svneol=unset#text/plain
 Addons/web/naviox/firstSteps.jsp -text svneol=unset#text/plain
 Addons/web/naviox/getModulesList.jsp -text svneol=unset#text/plain
 Addons/web/naviox/images/bookmark-off.png -text
@@ -5671,7 +5674,7 @@ OpenXava/web/WEB-INF/lib/standard-jstlel.jar -text
 OpenXava/web/WEB-INF/lib/standard.jar -text
 OpenXava/web/WEB-INF/lib/validation-api.jar -text
 OpenXava/web/WEB-INF/openxava.tld -text svneol=unset#text/plain
-OpenXava/web/WEB-INF/web.xml -text
+OpenXava/web/WEB-INF/web.xml -text svneol=unset#text/plain
 OpenXava/web/addToCollection.jsp -text svneol=unset#text/plain
 OpenXava/web/barButton.jsp -text
 OpenXava/web/bottomButtons.jsp -text svneol=unset#text/plain
