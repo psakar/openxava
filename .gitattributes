@@ -4001,6 +4001,7 @@ MySchool/web/WEB-INF/openxava.tld -text svneol=unset#text/plain
 MySchool/web/WEB-INF/web.xml -text svneol=unset#text/plain
 MySchool/web/index.jsp -text svneol=unset#text/plain
 MySchool/web/naviox/editors/actionsEditor.jsp -text svneol=unset#text/plain
+MySchool/web/naviox/editors/organizationUrlEditor.jsp -text svneol=unset#text/plain
 MySchool/web/naviox/firstSteps.jsp -text svneol=unset#text/plain
 MySchool/web/naviox/getModulesList.jsp -text svneol=unset#text/plain
 MySchool/web/naviox/images/bookmark-off.png -text
