@@ -1089,6 +1089,7 @@ InvoiceDemo/web/WEB-INF/portlet.xml -text svneol=unset#text/plain
 InvoiceDemo/web/WEB-INF/web.xml -text svneol=unset#text/plain
 InvoiceDemo/web/index.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/naviox/editors/actionsEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/naviox/editors/organizationUrlEditor.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/naviox/firstSteps.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/naviox/getModulesList.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/naviox/images/bookmark-off.png -text
