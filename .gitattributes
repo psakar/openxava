@@ -6593,6 +6593,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/SetPersistenceUnitAction.html -text
 OpenXavaDoc/web/apidocs/org/openxava/actions/SetSchemaAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/SetUserAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/ShareMyReportAction.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/actions/ShowMoreColumnsAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/ShowRowsAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/SimpleHTMLReportAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/SimpleTemplaterAction.html -text svneol=unset#text/plain
@@ -6747,6 +6748,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SetPersistenceUnitAction.
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SetSchemaAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SetUserAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ShareMyReportAction.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ShowMoreColumnsAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ShowRowsAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SimpleHTMLReportAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SimpleTemplaterAction.html -text svneol=unset#text/plain
