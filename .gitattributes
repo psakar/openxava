@@ -9914,7 +9914,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Month.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/MotorVehicle.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/MotorVehicleDriver.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/MotorVehicleDriver2.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/model/Movie.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Movie.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Name.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Nameable.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/NetMachine.groovy -text
