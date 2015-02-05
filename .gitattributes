@@ -9975,7 +9975,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/ShipmentCharge.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ShipmentKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Shop.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Size.java -text
-OpenXavaTest/pojo-src/org/openxava/test/model/Skill.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Skill.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/State.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/StreetShop.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Studio.groovy -text
@@ -10109,6 +10109,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/SalesRepresentativeTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SellerRegionsWithCheckBoxesTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ServiceExpensesTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/ShopTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/SkillTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/StudioTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SummerCourseTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SupervillainTest.groovy -text
