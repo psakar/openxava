@@ -9814,6 +9814,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/AsEmbed1.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AsEmbed2.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AsEmbed3.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AsEmbedContainer.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Attachments.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Author.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AverageSpeed.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/BaseSitting.java -text svneol=unset#text/plain
