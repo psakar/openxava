@@ -9754,6 +9754,7 @@ OpenXavaTest/persistence/hibernate.cfg.xml -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/AddActionToProperyAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/AddSuffixAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/AddToNameAction.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/ChainToGoDescriptionAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/ChangeName.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ChooseFileAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/CorporationEmployeeListFilterAction.groovy -text
@@ -9762,7 +9763,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/FailTransactionInCollectionEleme
 OpenXavaTest/pojo-src/org/openxava/test/actions/FamilyProductsReportAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/FilterInvoice4ByDateAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/GoChangeName.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/actions/GoDescriptionAction.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/GoDescriptionAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/GoLoginAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/GoProposeNameAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/InvoiceReportAction.java -text
@@ -10066,7 +10067,8 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/ExperienceWithSimplestProgrammerTe
 OpenXavaTest/pojo-src/org/openxava/test/tests/FilesFolderTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/FilterBySubfamilyAndYearTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/GoCustomerInvoicesTest.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/tests/GoDescriptionTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/GoDescriptionChainingOnInitTest.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/tests/GoDescriptionTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/GoShowSellerTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/GoToSellerJSPTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/HobbyistTest.groovy -text
