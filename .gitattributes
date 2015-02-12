@@ -5291,6 +5291,7 @@ OpenXava/src/org/openxava/formatters/DateTimeBaseFormatter.java -text svneol=uns
 OpenXava/src/org/openxava/formatters/DateTimeCombinedFormatter.java -text
 OpenXava/src/org/openxava/formatters/DateTimeSeparatedFormatter.java -text
 OpenXava/src/org/openxava/formatters/FileListFormatter.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/formatters/HTMLFilterListFormatter.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/formatters/IFormatter.java -text
 OpenXava/src/org/openxava/formatters/IMultipleValuesFormatter.java -text
 OpenXava/src/org/openxava/formatters/ImageFormatter.java -text
@@ -8297,6 +8298,7 @@ OpenXavaTest/data/company-a-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-a-db.script -text
 OpenXavaTest/data/company-b-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-b-db.script -text
+OpenXavaTest/data/openxava-test-db.lck -text
 OpenXavaTest/data/openxava-test-db.properties -text
 OpenXavaTest/data/openxava-test-db.script -text
 OpenXavaTest/data/openxava-test-ds.xml -text
@@ -10115,6 +10117,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/ShopTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SkillTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/StudioTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SummerCourseTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/SuperheroeTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/SupervillainTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ToDoListTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TotoTest.java -text
