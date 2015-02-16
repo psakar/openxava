@@ -9771,6 +9771,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/InvoiceReportAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/LoginAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/MovieReportAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/NewWarehouseAction.java -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeArtistNameAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeCustomerNameAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeDeliveryByAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeDistanceAction.java -text
@@ -9811,7 +9812,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/AdditionalDetailKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Address.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Applicant.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ApplicationUser.java -text
-OpenXavaTest/pojo-src/org/openxava/test/model/Artist.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Artist.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AsEmbed1.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AsEmbed2.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AsEmbed3.groovy -text
@@ -10031,11 +10032,10 @@ OpenXavaTest/pojo-src/org/openxava/test/model/WorkOrderRequisitionDetail.groovy 
 OpenXavaTest/pojo-src/org/openxava/test/model/Worker.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Year.java -text
 OpenXavaTest/pojo-src/org/openxava/test/portlets/VersionPortlet.java -text svneol=unset#text/plain
-OpenXavaTest/pojo-src/org/openxava/test/tests/AnnotatedPOGOTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/AnnotatedPOJOTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ApplicantTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ApplicationUserTest.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/tests/ArtistTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/ArtistTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/AsEmbedContainerTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/AuthorTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/BlogTest.java -text
