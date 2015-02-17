@@ -9759,6 +9759,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/ChainToGoDescriptionAction.java 
 OpenXavaTest/pojo-src/org/openxava/test/actions/ChangeName.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ChooseFileAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/CorporationEmployeeListFilterAction.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/CreateUsingJPAAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/EditGalleryNoDialogAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/FailTransactionInCollectionElementAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/FamilyProductsReportAction.java -text
@@ -9791,6 +9792,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/ResetUnitPriceCalculatorAction.j
 OpenXavaTest/pojo-src/org/openxava/test/actions/SaveElementInCollectionAbortingTransactionAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/SearchAuthorAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowAllAuthorsAction.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/ShowCreateAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowGoCustomerInvoicesDialogAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowSelectedAuthorsAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowSellerAction.groovy -text
@@ -9810,7 +9812,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/AcademicYear.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AdditionalDetail.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AdditionalDetailKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Address.java -text
-OpenXavaTest/pojo-src/org/openxava/test/model/Applicant.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Applicant.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ApplicationUser.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Artist.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AsEmbed1.groovy -text
@@ -10033,7 +10035,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Worker.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Year.java -text
 OpenXavaTest/pojo-src/org/openxava/test/portlets/VersionPortlet.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/AnnotatedPOJOTest.java -text
-OpenXavaTest/pojo-src/org/openxava/test/tests/ApplicantTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/ApplicantTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ApplicationUserTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ArtistTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/AsEmbedContainerTest.groovy -text
