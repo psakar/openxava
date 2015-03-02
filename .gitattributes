@@ -7245,6 +7245,7 @@ OpenXavaDoc/web/apidocs/org/openxava/formatters/DateTimeBaseFormatter.html -text
 OpenXavaDoc/web/apidocs/org/openxava/formatters/DateTimeCombinedFormatter.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/formatters/DateTimeSeparatedFormatter.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/formatters/FileListFormatter.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/formatters/HTMLFilterListFormatter.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/formatters/IFormatter.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/formatters/IMultipleValuesFormatter.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/formatters/ImageFormatter.html -text svneol=unset#text/plain
@@ -7265,6 +7266,7 @@ OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/DateTimeBaseFormatter.
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/DateTimeCombinedFormatter.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/DateTimeSeparatedFormatter.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/FileListFormatter.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/HTMLFilterListFormatter.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/IFormatter.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/IMultipleValuesFormatter.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/ImageFormatter.html -text svneol=unset#text/plain
