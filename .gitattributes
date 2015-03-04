@@ -9988,7 +9988,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Size.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Skill.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/State.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/StreetShop.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/model/Studio.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Studio.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Subfamily.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Subfamily2.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/SubfamilyInfo.java -text
