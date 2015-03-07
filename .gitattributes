@@ -9792,6 +9792,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/RemoveActionToProperyAction.groo
 OpenXavaTest/pojo-src/org/openxava/test/actions/RemoveFileAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/ReportCorporationAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/ResetUnitPriceCalculatorAction.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/actions/ResetViewAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/SaveElementInCollectionAbortingTransactionAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/SearchAuthorAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowAllAuthorsAction.groovy -text
@@ -9806,6 +9807,7 @@ OpenXavaTest/pojo-src/org/openxava/test/annotations/GoodName.java -text svneol=u
 OpenXavaTest/pojo-src/org/openxava/test/base/AbstractToto.java -text
 OpenXavaTest/pojo-src/org/openxava/test/businesslogic/MiniOrderLogic.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/calculators/DefaultInvoiceCalculator.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/calculators/EnumCountryCalculator.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/calculators/UnitPriceCalculator.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/domain/Moto.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/filters/InventFilter.groovy -text
@@ -9875,6 +9877,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/DeliveryType.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Desktop.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Doctor.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Document.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/DrinksFoodsByCountry.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Driver.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/DrivingLicence.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/DrivingLicenceKey.java -text
@@ -9882,6 +9885,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Employee.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/EmployeeInfo.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/EmployeeInfoKey.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/EmployeeKey.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/EnumCountry.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Exam.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Experience.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Family.java -text
@@ -10064,6 +10068,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/CustomerMinimumTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DatesTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DealTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DebtTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/DrinksFoodsByCountryTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/DrivingLicenceTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ElClienteTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/EmbeddedTest.java -text svneol=unset#text/plain
