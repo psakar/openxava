@@ -8140,6 +8140,7 @@ OpenXavaPlantilla/properties/xava-junit.properties -text
 OpenXavaPlantilla/properties/xava.properties -text
 OpenXavaPlantilla/src/src.txt -text
 OpenXavaPlantilla/xava/aplicacion.xml.plantilla -text
+OpenXavaPlantilla/xava/controladores.xml.plantilla -text
 OpenXavaTemplate/.classpath -text
 OpenXavaTemplate/.project -text
 OpenXavaTemplate/.project.template -text
