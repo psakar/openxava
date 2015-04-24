@@ -4886,6 +4886,8 @@ OpenXava/lib/htmlunit.jar -text
 OpenXava/lib/httpclient.jar -text
 OpenXava/lib/httpcore.jar -text
 OpenXava/lib/httpmime.jar -text
+OpenXava/lib/javax.el-api.jar -text
+OpenXava/lib/javax.el.jar -text
 OpenXava/lib/jetty-websocket.jar -text
 OpenXava/lib/jsp-api.jar -text
 OpenXava/lib/junit.jar -text
@@ -5410,6 +5412,7 @@ OpenXava/src/org/openxava/tab/meta/MetaTabsDefaultValues.java -text
 OpenXava/src/org/openxava/tab/meta/xmlparse/TabParser.java -text
 OpenXava/src/org/openxava/tab/meta/xmlparse/TabsDefaultValuesParser.java -text
 OpenXava/src/org/openxava/tests/ModuleTestBase.java -text
+OpenXava/src/org/openxava/tools/SchemaTool.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/types/Base1EnumType.java -text
 OpenXava/src/org/openxava/types/Date3Type.java -text
 OpenXava/src/org/openxava/types/EnumLetterType.java -text
@@ -5642,6 +5645,7 @@ OpenXava/web/WEB-INF/lib/antlr.jar -text
 OpenXava/web/WEB-INF/lib/asm.jar -text
 OpenXava/web/WEB-INF/lib/autobizlogic.jar -text
 OpenXava/web/WEB-INF/lib/cglib.jar -text
+OpenXava/web/WEB-INF/lib/classmate.jar -text
 OpenXava/web/WEB-INF/lib/commons-beanutils.jar -text
 OpenXava/web/WEB-INF/lib/commons-codec.jar -text
 OpenXava/web/WEB-INF/lib/commons-collections.jar -text
@@ -5660,13 +5664,22 @@ OpenXava/web/WEB-INF/lib/ehcache.jar -text
 OpenXava/web/WEB-INF/lib/ejb.jar -text
 OpenXava/web/WEB-INF/lib/groovy-all.jar -text
 OpenXava/web/WEB-INF/lib/hibernate-classic-validator.jar -text
+OpenXava/web/WEB-INF/lib/hibernate-commons-annotations.jar -text
+OpenXava/web/WEB-INF/lib/hibernate-core.jar -text
+OpenXava/web/WEB-INF/lib/hibernate-entitymanager.jar -text
+OpenXava/web/WEB-INF/lib/hibernate-validator-annotation-processor.jar -text
+OpenXava/web/WEB-INF/lib/hibernate-validator-cdi.jar -text
 OpenXava/web/WEB-INF/lib/hibernate-validator.jar -text
 OpenXava/web/WEB-INF/lib/hibernate3.jar -text
 OpenXava/web/WEB-INF/lib/imap.jar -text
 OpenXava/web/WEB-INF/lib/itext.jar -text
+OpenXava/web/WEB-INF/lib/jandex.jar -text
 OpenXava/web/WEB-INF/lib/jasperreports.jar -text
 OpenXava/web/WEB-INF/lib/javassist.jar -text
 OpenXava/web/WEB-INF/lib/javax.inject.jar -text
+OpenXava/web/WEB-INF/lib/jboss-logging-annotations.jar -text
+OpenXava/web/WEB-INF/lib/jboss-logging.jar -text
+OpenXava/web/WEB-INF/lib/jpa.jar -text
 OpenXava/web/WEB-INF/lib/jpa2.jar -text
 OpenXava/web/WEB-INF/lib/jstl.jar -text
 OpenXava/web/WEB-INF/lib/jta.jar -text
@@ -8306,7 +8319,7 @@ OpenXavaTest/data/company-a-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-a-db.script -text
 OpenXavaTest/data/company-b-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-b-db.script -text
-OpenXavaTest/data/openxava-test-db.properties -text
+OpenXavaTest/data/openxava-test-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/openxava-test-db.script -text
 OpenXavaTest/data/openxava-test-ds.xml -text
 OpenXavaTest/gen-src-xava/dnas-pojo.properties -text svneol=unset#text/plain
@@ -8980,6 +8993,10 @@ OpenXavaTest/i18n/portlets/GoCustomerInvoices_ca.properties -text svneol=unset#t
 OpenXavaTest/i18n/portlets/GoCustomerInvoices_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/GoCustomerInvoices_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/GoCustomerInvoices_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/GoDescriptionChainingOnInit_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/GoDescriptionChainingOnInit_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/GoDescriptionChainingOnInit_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/GoDescriptionChainingOnInit_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/GoDescription_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/GoDescription_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/GoDescription_es.properties -text svneol=unset#text/plain
@@ -9380,6 +9397,18 @@ OpenXavaTest/i18n/portlets/ProgrammingSkill_ca.properties -text svneol=unset#tex
 OpenXavaTest/i18n/portlets/ProgrammingSkill_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/ProgrammingSkill_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/ProgrammingSkill_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ProjectMember_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ProjectMember_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ProjectMember_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ProjectMember_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ProjectTask_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ProjectTask_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ProjectTask_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ProjectTask_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Project_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Project_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Project_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Project_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/QuarterSubject_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/QuarterSubject_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/QuarterSubject_es.properties -text svneol=unset#text/plain
@@ -9810,7 +9839,6 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/TranslateCarrierNameAction.java 
 OpenXavaTest/pojo-src/org/openxava/test/actions/ViewNameFellowCarriersSelectedAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/annotations/GoodName.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/base/AbstractToto.java -text
-OpenXavaTest/pojo-src/org/openxava/test/businesslogic/MiniOrderLogic.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/calculators/DefaultInvoiceCalculator.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/calculators/EnumCountryCalculator.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/calculators/UnitPriceCalculator.java -text svneol=unset#text/plain
@@ -9926,13 +9954,12 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Journal.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/JournalEntry.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Journey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Login.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/model/MiniOrder.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Mixture.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/MixtureKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Month.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/MotorVehicle.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/model/MotorVehicleDriver.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/model/MotorVehicleDriver2.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/MotorVehicleDriver.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/MotorVehicleDriver2.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Movie.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Name.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Nameable.java -text
@@ -9965,6 +9992,9 @@ OpenXavaTest/pojo-src/org/openxava/test/model/ProductExpenses2.java -text svneol
 OpenXavaTest/pojo-src/org/openxava/test/model/Programmer.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ProgrammerApplicant.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ProgrammingSkill.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Project.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/model/ProjectMember.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/model/ProjectTask.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Quarter.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/QuarterKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/QuarterSubject.java -text
@@ -10100,9 +10130,8 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/JavaProgrammerExtendedViewsTest.ja
 OpenXavaTest/pojo-src/org/openxava/test/tests/JavaProgrammerTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/JournalTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/LoginTest.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/tests/MiniOrderTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/MotoTest.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/tests/MotorVehicleDriver2Test.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/MotorVehicleDriver2Test.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/MotorVehicleDriverTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/MotorVehicleTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/MovieTest.java -text svneol=unset#text/plain
@@ -10118,6 +10147,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/Product5Test.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ProductExpenses2Test.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/ProductExpensesTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/ProgrammerTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/ProjectTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/QuarterTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/QuoteTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/ReallocationDetailsEditOnlyTest.java -text svneol=unset#text/plain
@@ -10517,6 +10547,7 @@ OpenXavaTest/web/WEB-INF/lib/antlr.jar -text
 OpenXavaTest/web/WEB-INF/lib/asm.jar -text
 OpenXavaTest/web/WEB-INF/lib/autobizlogic.jar -text
 OpenXavaTest/web/WEB-INF/lib/cglib.jar -text
+OpenXavaTest/web/WEB-INF/lib/classmate.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-beanutils.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-codec.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-collections.jar -text
@@ -10535,13 +10566,22 @@ OpenXavaTest/web/WEB-INF/lib/ehcache.jar -text
 OpenXavaTest/web/WEB-INF/lib/ejb.jar -text
 OpenXavaTest/web/WEB-INF/lib/groovy-all.jar -text
 OpenXavaTest/web/WEB-INF/lib/hibernate-classic-validator.jar -text
+OpenXavaTest/web/WEB-INF/lib/hibernate-commons-annotations.jar -text
+OpenXavaTest/web/WEB-INF/lib/hibernate-core.jar -text
+OpenXavaTest/web/WEB-INF/lib/hibernate-entitymanager.jar -text
+OpenXavaTest/web/WEB-INF/lib/hibernate-validator-annotation-processor.jar -text
+OpenXavaTest/web/WEB-INF/lib/hibernate-validator-cdi.jar -text
 OpenXavaTest/web/WEB-INF/lib/hibernate-validator.jar -text
 OpenXavaTest/web/WEB-INF/lib/hibernate3.jar -text
 OpenXavaTest/web/WEB-INF/lib/imap.jar -text
 OpenXavaTest/web/WEB-INF/lib/itext.jar -text
+OpenXavaTest/web/WEB-INF/lib/jandex.jar -text
 OpenXavaTest/web/WEB-INF/lib/jasperreports.jar -text
 OpenXavaTest/web/WEB-INF/lib/javassist.jar -text
 OpenXavaTest/web/WEB-INF/lib/javax.inject.jar -text
+OpenXavaTest/web/WEB-INF/lib/jboss-logging-annotations.jar -text
+OpenXavaTest/web/WEB-INF/lib/jboss-logging.jar -text
+OpenXavaTest/web/WEB-INF/lib/jpa.jar -text
 OpenXavaTest/web/WEB-INF/lib/jpa2.jar -text
 OpenXavaTest/web/WEB-INF/lib/jstl.jar -text
 OpenXavaTest/web/WEB-INF/lib/jta.jar -text
