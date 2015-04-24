@@ -8317,7 +8317,6 @@ OpenXavaTest/data/company-b-db.script -text
 OpenXavaTest/data/openxava-test-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/openxava-test-db.script -text
 OpenXavaTest/data/openxava-test-ds.xml -text
-OpenXavaTest/gen-src-xava/dnas-pojo.properties -text svneol=unset#text/plain
 OpenXavaTest/gen-src-xava/org/openxava/test/model/AcademicYear.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/AdditionalDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Address.java -text
