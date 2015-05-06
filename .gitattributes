@@ -6172,7 +6172,7 @@ OpenXava/web/propertyActions.jsp -text
 OpenXava/web/reference.jsp -text svneol=unset#text/plain
 OpenXava/web/referenceEditorIcons.jsp -text
 OpenXava/web/referenceSearch.jsp -text
-OpenXava/web/sections.jsp -text
+OpenXava/web/sections.jsp -text svneol=unset#text/plain
 OpenXava/web/style/c3.css -text svneol=unset#text/plain
 OpenXava/web/style/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png -text
 OpenXava/web/style/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png -text
