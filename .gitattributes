@@ -10682,7 +10682,6 @@ OpenXavaTest/web/xava/addToCollection.jsp -text
 OpenXavaTest/web/xava/barButton.jsp -text
 OpenXavaTest/web/xava/bottomButtons.jsp -text
 OpenXavaTest/web/xava/buttonBar.jsp -text svneol=unset#text/plain
-OpenXavaTest/web/xava/calculatedCollectionList.jsp -text
 OpenXavaTest/web/xava/collection.jsp -text
 OpenXavaTest/web/xava/collectionEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/collectionFrameHeader.jsp -text svneol=unset#text/plain
