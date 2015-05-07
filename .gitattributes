@@ -5566,6 +5566,7 @@ OpenXava/src/org/openxava/web/dwr/Module.java -text
 OpenXava/src/org/openxava/web/dwr/Result.java -text
 OpenXava/src/org/openxava/web/dwr/StrokeAction.java -text
 OpenXava/src/org/openxava/web/dwr/Tab.java -text
+OpenXava/src/org/openxava/web/dwr/TableId.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/dwr/View.java -text
 OpenXava/src/org/openxava/web/editors/AttachedFile.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/editors/FilePersistorFactory.java -text svneol=unset#text/plain
@@ -5721,9 +5722,9 @@ OpenXava/web/addToCollection.jsp -text svneol=unset#text/plain
 OpenXava/web/barButton.jsp -text
 OpenXava/web/bottomButtons.jsp -text svneol=unset#text/plain
 OpenXava/web/buttonBar.jsp -text svneol=unset#text/plain
-OpenXava/web/calculatedCollectionList.jsp -text svneol=unset#text/plain
 OpenXava/web/collection.jsp -text svneol=unset#text/plain
 OpenXava/web/collectionFrameHeader.jsp -text svneol=unset#text/plain
+OpenXava/web/collectionFromModel.jsp -text svneol=unset#text/plain
 OpenXava/web/collectionList.jsp -text svneol=unset#text/plain
 OpenXava/web/core.jsp -text svneol=unset#text/plain
 OpenXava/web/detail.jsp -text svneol=unset#text/plain
@@ -6153,6 +6154,7 @@ OpenXava/web/images/show-filter.gif -text
 OpenXava/web/images/sort.gif -text
 OpenXava/web/images/spacer.gif -text
 OpenXava/web/images/summation.gif -text
+OpenXava/web/images/vertical-move.png -text
 OpenXava/web/images/view.gif -text
 OpenXava/web/imports.jsp -text
 OpenXava/web/jasperReport.jsp -text svneol=unset#text/plain
@@ -10682,7 +10684,9 @@ OpenXavaTest/web/xava/bottomButtons.jsp -text
 OpenXavaTest/web/xava/buttonBar.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/calculatedCollectionList.jsp -text
 OpenXavaTest/web/xava/collection.jsp -text
+OpenXavaTest/web/xava/collectionEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/collectionFrameHeader.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/collectionFromModel.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/collectionList.jsp -text
 OpenXavaTest/web/xava/core.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/detail.jsp -text
@@ -11137,6 +11141,7 @@ OpenXavaTest/web/xava/images/show-filter.gif -text
 OpenXavaTest/web/xava/images/sort.gif -text
 OpenXavaTest/web/xava/images/spacer.gif -text
 OpenXavaTest/web/xava/images/summation.gif -text
+OpenXavaTest/web/xava/images/vertical-move.png -text
 OpenXavaTest/web/xava/images/view.gif -text
 OpenXavaTest/web/xava/imports.jsp -text
 OpenXavaTest/web/xava/jasperReport.jsp -text svneol=unset#text/plain
