@@ -8211,6 +8211,7 @@ OpenXavaTemplate/properties/xava.properties -text
 OpenXavaTemplate/src/src.txt -text
 OpenXavaTemplate/xava/application.xml.template -text
 OpenXavaTest/.classpath -text
+OpenXavaTest/.externalToolBuilders/Process[!!-~]Annotations.launch -text svneol=unset#text/plain
 OpenXavaTest/.project -text
 OpenXavaTest/.settings/.component -text
 OpenXavaTest/.settings/org.eclipse.jdt.core.prefs -text
