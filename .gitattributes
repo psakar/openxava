@@ -4947,15 +4947,15 @@ OpenXava/src/org/openxava/actions/CancelInListAction.java -text
 OpenXava/src/org/openxava/actions/ChangeImageAction.java -text
 OpenXava/src/org/openxava/actions/ChangeModuleAction.java -text
 OpenXava/src/org/openxava/actions/ChangeSectionAction.java -text
+OpenXava/src/org/openxava/actions/ChartsAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/ChooseFileAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/ChooseReferenceAction.java -text
 OpenXava/src/org/openxava/actions/CollectionBaseAction.java -text
 OpenXava/src/org/openxava/actions/CollectionElementViewBaseAction.java -text
+OpenXava/src/org/openxava/actions/CreateNewChartAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/CreateNewElementInCollectionAction.java -text
 OpenXava/src/org/openxava/actions/CreateNewElementInManyToManyCollectionAction.java -text
 OpenXava/src/org/openxava/actions/CreateNewFromReferenceAction.java -text
-OpenXava/src/org/openxava/actions/CreateNewMyChartAction.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/actions/CreateNewMyChartColumnAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/CreateNewMyReportAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/CreateNewMyReportColumnAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/DeleteAction.java -text
@@ -4968,7 +4968,6 @@ OpenXava/src/org/openxava/actions/DisableCustomizeListAction.java -text svneol=u
 OpenXava/src/org/openxava/actions/EditElementInCollectionAction.java -text
 OpenXava/src/org/openxava/actions/EditElementInManyToManyCollectionAction.java -text
 OpenXava/src/org/openxava/actions/EditGalleryAction.java -text
-OpenXava/src/org/openxava/actions/EditMyChartColumnAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/EditMyReportColumnAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/EmptyAction.java -text
 OpenXava/src/org/openxava/actions/FilterAction.java -text
@@ -5019,18 +5018,20 @@ OpenXava/src/org/openxava/actions/MaximizeImageAction.java -text
 OpenXava/src/org/openxava/actions/MinimizeImageAction.java -text
 OpenXava/src/org/openxava/actions/ModifyFromReferenceAction.java -text
 OpenXava/src/org/openxava/actions/MoveMyReportColumnAction.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/actions/MyChartsAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/MyReportsAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/NavigationAction.java -text
 OpenXava/src/org/openxava/actions/NavigationFromReferenceBaseAction.java -text
 OpenXava/src/org/openxava/actions/NewAction.java -text
 OpenXava/src/org/openxava/actions/NewTreeViewItemAction.java -text
-OpenXava/src/org/openxava/actions/OnChangeMyChartBaseAction.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/actions/OnChangeMyChartColumnNameAction.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/actions/OnChangeMyChartColumnSelectedAction.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/actions/OnChangeMyChartLabelColumnAction.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/actions/OnChangeMyChartNameAction.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/actions/OnChangeMyChartTypeAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/OnChangeChartBaseAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/OnChangeChartColumnBaseAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/OnChangeChartColumnDisplayedAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/OnChangeChartColumnNameAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/OnChangeChartColumnSelectedAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/OnChangeChartLabelColumnAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/OnChangeChartNameAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/OnChangeChartTypeAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/OnChangeElementCollectionBaseAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/OnChangeMyReportColumnBaseAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/OnChangeMyReportColumnComparatorAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/OnChangeMyReportColumnNameAction.java -text svneol=unset#text/plain
@@ -5042,30 +5043,29 @@ OpenXava/src/org/openxava/actions/OpenSearchDialogAction.java -text
 OpenXava/src/org/openxava/actions/OrderByAction.java -text
 OpenXava/src/org/openxava/actions/ReferenceBaseAction.java -text
 OpenXava/src/org/openxava/actions/ReferenceSearchAction.java -text
-OpenXava/src/org/openxava/actions/RefreshMyChartAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/RefreshChartAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/RemoveChartAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/RemoveChartColumnAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveColumnSumAction.java -text
 OpenXava/src/org/openxava/actions/RemoveElementFromCollectionAction.java -text
 OpenXava/src/org/openxava/actions/RemoveFileFromFilesetAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveImageFromGalleryAction.java -text
-OpenXava/src/org/openxava/actions/RemoveMyChartAction.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/actions/RemoveMyChartColumnAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveMyReportAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveMyReportColumnAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveSelectedInCollectionAction.java -text
 OpenXava/src/org/openxava/actions/RemoveSelectedTreeViewNodeAction.java -text
 OpenXava/src/org/openxava/actions/RemoveTreeViewNodeAction.java -text
-OpenXava/src/org/openxava/actions/ResetMyChartAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/ResetChartAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/ResetPreviousControllersAction.java -text
 OpenXava/src/org/openxava/actions/RestoreDefaultColumnsAction.java -text
 OpenXava/src/org/openxava/actions/ReturnAction.java -text
 OpenXava/src/org/openxava/actions/ReturnPreviousModuleAction.java -text
 OpenXava/src/org/openxava/actions/SaveAction.java -text
 OpenXava/src/org/openxava/actions/SaveAndStayElementInCollectionAction.java -text
+OpenXava/src/org/openxava/actions/SaveChartAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/SaveElementInCollectionAction.java -text
 OpenXava/src/org/openxava/actions/SaveElementInManyToManyCollectionAction.java -text
 OpenXava/src/org/openxava/actions/SaveElementInTreeViewAction.java -text
-OpenXava/src/org/openxava/actions/SaveMyChartAction.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/actions/SaveMyChartColumnAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/SaveMyReportColumnAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/SaveNewAction.java -text
 OpenXava/src/org/openxava/actions/SearchAction.java -text
@@ -5081,7 +5081,7 @@ OpenXava/src/org/openxava/actions/SetPageRowCountAction.java -text
 OpenXava/src/org/openxava/actions/SetPersistenceUnitAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/SetSchemaAction.java -text
 OpenXava/src/org/openxava/actions/SetUserAction.java -text
-OpenXava/src/org/openxava/actions/ShareMyChartAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/ShareChartAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/ShareMyReportAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/ShowMoreColumnsAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/ShowRowsAction.java -text
@@ -5391,15 +5391,14 @@ OpenXava/src/org/openxava/model/meta/xmlparse/CalculatorParser.java -text
 OpenXava/src/org/openxava/model/meta/xmlparse/DefaultSizeParser.java -text
 OpenXava/src/org/openxava/model/meta/xmlparse/ModelParser.java -text
 OpenXava/src/org/openxava/model/meta/xmlparse/StereotypeTypeDefaultParser.java -text
+OpenXava/src/org/openxava/session/Chart.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/session/ChartColumn.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/session/Gallery.java -text
 OpenXava/src/org/openxava/session/GalleryImage.java -text
 OpenXava/src/org/openxava/session/LiferayDocument.java -text
 OpenXava/src/org/openxava/session/LiferayLibrary.java -text
-OpenXava/src/org/openxava/session/MyChart.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/session/MyChartColumn.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/session/MyReport.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/session/MyReportColumn.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/tab/NoPreferencesTab.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/tab/Tab.java -text
 OpenXava/src/org/openxava/tab/impl/DataChunk.java -text
 OpenXava/src/org/openxava/tab/impl/EntityTab.java -text
@@ -5474,7 +5473,6 @@ OpenXava/src/org/openxava/util/Labels.java -text
 OpenXava/src/org/openxava/util/Locales.java -text
 OpenXava/src/org/openxava/util/Maps.java -text
 OpenXava/src/org/openxava/util/Messages.java -text
-OpenXava/src/org/openxava/util/MyCharts.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/util/Photo.java -text
 OpenXava/src/org/openxava/util/Primitives.java -text
 OpenXava/src/org/openxava/util/PropertiesManager.java -text
@@ -5555,6 +5553,7 @@ OpenXava/src/org/openxava/view/meta/MetaViewAction.java -text
 OpenXava/src/org/openxava/view/meta/PropertiesSeparator.java -text
 OpenXava/src/org/openxava/view/meta/xmlparse/ViewParser.java -text
 OpenXava/src/org/openxava/web/Actions.java -text
+OpenXava/src/org/openxava/web/Charts.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/Collections.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/DescriptionsLists.java -text
 OpenXava/src/org/openxava/web/EditorsJS.java -text svneol=unset#text/plain
@@ -5812,6 +5811,9 @@ OpenXava/web/editors/calendar/skins/aqua/theme.css -text svneol=unset#text/plain
 OpenXava/web/editors/calendar/skins/aqua/title-bg.gif -text
 OpenXava/web/editors/calendar/skins/aqua/today-bg.gif -text
 OpenXava/web/editors/changeImage.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/chartColumnNameEditor.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/chartDataEditor.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/chartNameEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/chooseFile.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/ckeditor/.htaccess -text
 OpenXava/web/editors/ckeditor/config.js -text svneol=unset#text/plain
@@ -6047,6 +6049,7 @@ OpenXava/web/editors/htmlEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/imageEditor.jsp -text
 OpenXava/web/editors/imageLabelEditor.jsp -text
 OpenXava/web/editors/js/autoNumeric.js -text svneol=unset#text/plain
+OpenXava/web/editors/js/chartEditor.js -text svneol=unset#text/plain
 OpenXava/web/editors/js/ckeditor.js -text svneol=unset#text/plain
 OpenXava/web/editors/js/elementCollectionEditor.js -text svneol=unset#text/plain
 OpenXava/web/editors/js/htmlEditor.js -text svneol=unset#text/plain
@@ -6059,9 +6062,6 @@ OpenXava/web/editors/liferayDocumentLibraryEditor.jsp -text
 OpenXava/web/editors/liferayUploadFile.jsp -text
 OpenXava/web/editors/listEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/moneyEditor.jsp -text
-OpenXava/web/editors/myChartDataEditor.jsp -text svneol=unset#text/plain
-OpenXava/web/editors/myChartLabelColumnSelectorEditor.jsp -text svneol=unset#text/plain
-OpenXava/web/editors/myChartNameEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/myReportColumnComparatorEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/myReportColumnDescriptionsListValueEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/myReportColumnNameEditor.jsp -text svneol=unset#text/plain
@@ -6158,9 +6158,9 @@ OpenXava/web/images/vertical-move.png -text
 OpenXava/web/images/view.gif -text
 OpenXava/web/imports.jsp -text
 OpenXava/web/jasperReport.jsp -text svneol=unset#text/plain
-OpenXava/web/js/c3.js -text svneol=unset#text/plain
+OpenXava/web/js/c3.min.js -text svneol=unset#text/plain
 OpenXava/web/js/calendar.js -text svneol=unset#text/plain
-OpenXava/web/js/d3.js -text svneol=unset#text/plain
+OpenXava/web/js/d3.min.js -text svneol=unset#text/plain
 OpenXava/web/js/dwr-engine.js -text
 OpenXava/web/js/jquery-ui.js -text svneol=unset#text/plain
 OpenXava/web/js/jquery.js -text svneol=unset#text/plain
@@ -6175,7 +6175,7 @@ OpenXava/web/reference.jsp -text svneol=unset#text/plain
 OpenXava/web/referenceEditorIcons.jsp -text
 OpenXava/web/referenceSearch.jsp -text
 OpenXava/web/sections.jsp -text svneol=unset#text/plain
-OpenXava/web/style/c3.css -text svneol=unset#text/plain
+OpenXava/web/style/c3.min.css -text svneol=unset#text/plain
 OpenXava/web/style/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png -text
 OpenXava/web/style/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png -text
 OpenXava/web/style/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png -text
@@ -10481,7 +10481,6 @@ OpenXavaTest/src/org/openxava/test/tests/Invoice2NoModifyDetailsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/Invoice2Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/Invoice3Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoiceActiveYearTest.java -text
-OpenXavaTest/src/org/openxava/test/tests/InvoiceChartTest.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/InvoiceCustomerAsAggregateTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoiceDeliveriesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoiceDetailsWithTotalsTest.java -text svneol=unset#text/plain
@@ -10778,6 +10777,10 @@ OpenXavaTest/web/xava/editors/calendar/skins/aqua/today-bg.gif -text
 OpenXavaTest/web/xava/editors/carriersNamesEditor.jsp -text
 OpenXavaTest/web/xava/editors/changeFile.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/changeImage.jsp -text
+OpenXavaTest/web/xava/editors/chartColumnNameEditor.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/chartColumnNameNumericEditor.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/chartDataEditor.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/chartNameEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/chooseFile.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/ckeditor/.htaccess -text
 OpenXavaTest/web/xava/editors/ckeditor/config.js -text svneol=unset#text/plain
@@ -11019,6 +11022,7 @@ OpenXavaTest/web/xava/editors/imageEditor.jsp -text
 OpenXavaTest/web/xava/editors/imageLabelEditor.jsp -text
 OpenXavaTest/web/xava/editors/importantEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/js/autoNumeric.js -text
+OpenXavaTest/web/xava/editors/js/chartEditor.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/js/ckeditor.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/js/elementCollectionEditor.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/js/htmlEditor.js -text
@@ -11031,9 +11035,6 @@ OpenXavaTest/web/xava/editors/liferayDocumentLibraryEditor.jsp -text
 OpenXavaTest/web/xava/editors/liferayUploadFile.jsp -text
 OpenXavaTest/web/xava/editors/listEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/moneyEditor.jsp -text
-OpenXavaTest/web/xava/editors/myChartDataEditor.jsp -text svneol=unset#text/plain
-OpenXavaTest/web/xava/editors/myChartLabelColumnSelectorEditor.jsp -text svneol=unset#text/plain
-OpenXavaTest/web/xava/editors/myChartNameEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/myReportColumnComparatorEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/myReportColumnDescriptionsListValueEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/myReportColumnNameEditor.jsp -text svneol=unset#text/plain
@@ -11146,8 +11147,10 @@ OpenXavaTest/web/xava/images/view.gif -text
 OpenXavaTest/web/xava/imports.jsp -text
 OpenXavaTest/web/xava/jasperReport.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/js/c3.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/js/c3.min.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/js/calendar.js -text
 OpenXavaTest/web/xava/js/d3.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/js/d3.min.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/js/dwr-engine.js -text
 OpenXavaTest/web/xava/js/jquery-ui.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/js/jquery.js -text svneol=unset#text/plain
@@ -11164,6 +11167,7 @@ OpenXavaTest/web/xava/referenceSearch.jsp -text
 OpenXavaTest/web/xava/sections.jsp -text
 OpenXavaTest/web/xava/severalModules.jsp -text
 OpenXavaTest/web/xava/style/c3.css -text svneol=unset#text/plain
+OpenXavaTest/web/xava/style/c3.min.css -text svneol=unset#text/plain
 OpenXavaTest/web/xava/style/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png -text
 OpenXavaTest/web/xava/style/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png -text
 OpenXavaTest/web/xava/style/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png -text
