@@ -5105,7 +5105,6 @@ OpenXava/src/org/openxava/annotations/AsEmbedded.java -text
 OpenXava/src/org/openxava/annotations/Collapsed.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/annotations/CollectionView.java -text
 OpenXava/src/org/openxava/annotations/CollectionViews.java -text
-OpenXava/src/org/openxava/annotations/Concurrent.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/annotations/Condition.java -text
 OpenXava/src/org/openxava/annotations/DefaultValueCalculator.java -text
 OpenXava/src/org/openxava/annotations/Depends.java -text
@@ -5149,7 +5148,6 @@ OpenXava/src/org/openxava/annotations/OnSelectElementActions.java -text
 OpenXava/src/org/openxava/annotations/PostCreate.java -text
 OpenXava/src/org/openxava/annotations/PreCreate.java -text
 OpenXava/src/org/openxava/annotations/PreDelete.java -text
-OpenXava/src/org/openxava/annotations/Property.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/annotations/PropertyValidator.java -text
 OpenXava/src/org/openxava/annotations/PropertyValidators.java -text
 OpenXava/src/org/openxava/annotations/PropertyValue.java -text
@@ -5185,8 +5183,6 @@ OpenXava/src/org/openxava/annotations/ViewActions.java -text
 OpenXava/src/org/openxava/annotations/Views.java -text
 OpenXava/src/org/openxava/annotations/XOrderBy.java -text
 OpenXava/src/org/openxava/annotations/parse/AnnotatedClassParser.java -text
-OpenXava/src/org/openxava/annotations/processor/AnnotatedClassProcessor.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/annotations/processor/Processor.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/application/meta/MetaApplication.java -text
 OpenXava/src/org/openxava/application/meta/MetaApplications.java -text
 OpenXava/src/org/openxava/application/meta/MetaModule.java -text
@@ -8211,7 +8207,6 @@ OpenXavaTemplate/properties/xava.properties -text
 OpenXavaTemplate/src/src.txt -text
 OpenXavaTemplate/xava/application.xml.template -text
 OpenXavaTest/.classpath -text
-OpenXavaTest/.externalToolBuilders/Process[!!-~]Annotations.launch -text svneol=unset#text/plain
 OpenXavaTest/.project -text
 OpenXavaTest/.settings/.component -text
 OpenXavaTest/.settings/org.eclipse.jdt.core.prefs -text
