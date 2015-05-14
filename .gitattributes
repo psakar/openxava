@@ -8206,6 +8206,7 @@ OpenXavaTemplate/properties/xava-junit.properties -text
 OpenXavaTemplate/properties/xava.properties -text
 OpenXavaTemplate/src/src.txt -text
 OpenXavaTemplate/xava/application.xml.template -text
+OpenXavaTemplate/xava/controllers.xml.template -text
 OpenXavaTest/.classpath -text
 OpenXavaTest/.project -text
 OpenXavaTest/.settings/.component -text
