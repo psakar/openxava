@@ -5043,7 +5043,6 @@ OpenXava/src/org/openxava/actions/OpenSearchDialogAction.java -text
 OpenXava/src/org/openxava/actions/OrderByAction.java -text
 OpenXava/src/org/openxava/actions/ReferenceBaseAction.java -text
 OpenXava/src/org/openxava/actions/ReferenceSearchAction.java -text
-OpenXava/src/org/openxava/actions/RefreshChartAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveChartAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveChartColumnAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveColumnSumAction.java -text
@@ -5055,7 +5054,6 @@ OpenXava/src/org/openxava/actions/RemoveMyReportColumnAction.java -text svneol=u
 OpenXava/src/org/openxava/actions/RemoveSelectedInCollectionAction.java -text
 OpenXava/src/org/openxava/actions/RemoveSelectedTreeViewNodeAction.java -text
 OpenXava/src/org/openxava/actions/RemoveTreeViewNodeAction.java -text
-OpenXava/src/org/openxava/actions/ResetChartAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/ResetPreviousControllersAction.java -text
 OpenXava/src/org/openxava/actions/RestoreDefaultColumnsAction.java -text
 OpenXava/src/org/openxava/actions/ReturnAction.java -text
@@ -6045,8 +6043,10 @@ OpenXava/web/editors/htmlEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/imageEditor.jsp -text
 OpenXava/web/editors/imageLabelEditor.jsp -text
 OpenXava/web/editors/js/autoNumeric.js -text svneol=unset#text/plain
-OpenXava/web/editors/js/chartEditor.js -text svneol=unset#text/plain
+OpenXava/web/editors/js/c3.js -text svneol=unset#text/plain
+OpenXava/web/editors/js/chartDataEditor.js -text svneol=unset#text/plain
 OpenXava/web/editors/js/ckeditor.js -text svneol=unset#text/plain
+OpenXava/web/editors/js/d3.js -text svneol=unset#text/plain
 OpenXava/web/editors/js/elementCollectionEditor.js -text svneol=unset#text/plain
 OpenXava/web/editors/js/htmlEditor.js -text svneol=unset#text/plain
 OpenXava/web/editors/js/jquery-ckeditor-adapter.js -text svneol=unset#text/plain
@@ -6067,6 +6067,7 @@ OpenXava/web/editors/notAvailableEditor.jsp -text
 OpenXava/web/editors/passwordEditor.jsp -text
 OpenXava/web/editors/radioButtonEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/referenceEditor.jsp -text
+OpenXava/web/editors/style/c3.css -text svneol=unset#text/plain
 OpenXava/web/editors/textAreaEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/textEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/treeViewEditor.jsp -text
@@ -6087,8 +6088,8 @@ OpenXava/web/images/ascending3.gif -text
 OpenXava/web/images/attach.gif -text
 OpenXava/web/images/back.gif -text
 OpenXava/web/images/calendar.gif -text
-OpenXava/web/images/chart_column_add.gif -text
 OpenXava/web/images/charts.gif -text
+OpenXava/web/images/charts.png -text
 OpenXava/web/images/checked.gif -text
 OpenXava/web/images/clear-right.gif -text
 OpenXava/web/images/create_new.gif -text
@@ -6154,9 +6155,7 @@ OpenXava/web/images/vertical-move.png -text
 OpenXava/web/images/view.gif -text
 OpenXava/web/imports.jsp -text
 OpenXava/web/jasperReport.jsp -text svneol=unset#text/plain
-OpenXava/web/js/c3.min.js -text svneol=unset#text/plain
 OpenXava/web/js/calendar.js -text svneol=unset#text/plain
-OpenXava/web/js/d3.min.js -text svneol=unset#text/plain
 OpenXava/web/js/dwr-engine.js -text
 OpenXava/web/js/jquery-ui.js -text svneol=unset#text/plain
 OpenXava/web/js/jquery.js -text svneol=unset#text/plain
@@ -6171,7 +6170,6 @@ OpenXava/web/reference.jsp -text svneol=unset#text/plain
 OpenXava/web/referenceEditorIcons.jsp -text
 OpenXava/web/referenceSearch.jsp -text
 OpenXava/web/sections.jsp -text svneol=unset#text/plain
-OpenXava/web/style/c3.min.css -text svneol=unset#text/plain
 OpenXava/web/style/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png -text
 OpenXava/web/style/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png -text
 OpenXava/web/style/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png -text
@@ -10023,6 +10021,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/ProgrammerApplicant.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ProgrammingSkill.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Project.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/ProjectMember.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/model/ProjectNote.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/ProjectTask.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Quarter.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/QuarterKey.java -text
@@ -11018,8 +11017,10 @@ OpenXavaTest/web/xava/editors/imageEditor.jsp -text
 OpenXavaTest/web/xava/editors/imageLabelEditor.jsp -text
 OpenXavaTest/web/xava/editors/importantEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/js/autoNumeric.js -text
-OpenXavaTest/web/xava/editors/js/chartEditor.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/js/c3.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/js/chartDataEditor.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/js/ckeditor.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/js/d3.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/js/elementCollectionEditor.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/js/htmlEditor.js -text
 OpenXavaTest/web/xava/editors/js/jquery-ckeditor-adapter.js -text svneol=unset#text/plain
@@ -11042,6 +11043,7 @@ OpenXavaTest/web/xava/editors/radioButtonEditor.jsp -text
 OpenXavaTest/web/xava/editors/referenceEditor.jsp -text
 OpenXavaTest/web/xava/editors/regionsEditor.jsp -text
 OpenXavaTest/web/xava/editors/regionsWithCheckBoxesEditor.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/style/c3.css -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/textAreaEditor.jsp -text
 OpenXavaTest/web/xava/editors/textEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/treeViewEditor.jsp -text
@@ -11074,8 +11076,7 @@ OpenXavaTest/web/xava/images/ascending3.gif -text
 OpenXavaTest/web/xava/images/attach.gif -text
 OpenXavaTest/web/xava/images/back.gif -text
 OpenXavaTest/web/xava/images/calendar.gif -text
-OpenXavaTest/web/xava/images/chart_column_add.gif -text
-OpenXavaTest/web/xava/images/charts.gif -text
+OpenXavaTest/web/xava/images/charts.png -text
 OpenXavaTest/web/xava/images/checked.gif -text
 OpenXavaTest/web/xava/images/clear-right.gif -text
 OpenXavaTest/web/xava/images/create_new.gif -text
@@ -11142,11 +11143,7 @@ OpenXavaTest/web/xava/images/vertical-move.png -text
 OpenXavaTest/web/xava/images/view.gif -text
 OpenXavaTest/web/xava/imports.jsp -text
 OpenXavaTest/web/xava/jasperReport.jsp -text svneol=unset#text/plain
-OpenXavaTest/web/xava/js/c3.js -text svneol=unset#text/plain
-OpenXavaTest/web/xava/js/c3.min.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/js/calendar.js -text
-OpenXavaTest/web/xava/js/d3.js -text svneol=unset#text/plain
-OpenXavaTest/web/xava/js/d3.min.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/js/dwr-engine.js -text
 OpenXavaTest/web/xava/js/jquery-ui.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/js/jquery.js -text svneol=unset#text/plain
@@ -11162,8 +11159,6 @@ OpenXavaTest/web/xava/referenceEditorIcons.jsp -text
 OpenXavaTest/web/xava/referenceSearch.jsp -text
 OpenXavaTest/web/xava/sections.jsp -text
 OpenXavaTest/web/xava/severalModules.jsp -text
-OpenXavaTest/web/xava/style/c3.css -text svneol=unset#text/plain
-OpenXavaTest/web/xava/style/c3.min.css -text svneol=unset#text/plain
 OpenXavaTest/web/xava/style/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png -text
 OpenXavaTest/web/xava/style/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png -text
 OpenXavaTest/web/xava/style/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png -text
