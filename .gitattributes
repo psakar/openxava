@@ -4058,7 +4058,6 @@ MySchool/web/xava/addToCollection.jsp -text svneol=unset#text/plain
 MySchool/web/xava/barButton.jsp -text svneol=unset#text/plain
 MySchool/web/xava/bottomButtons.jsp -text svneol=unset#text/plain
 MySchool/web/xava/buttonBar.jsp -text svneol=unset#text/plain
-MySchool/web/xava/calculatedCollectionList.jsp -text svneol=unset#text/plain
 MySchool/web/xava/collection.jsp -text svneol=unset#text/plain
 MySchool/web/xava/collectionFrameHeader.jsp -text svneol=unset#text/plain
 MySchool/web/xava/collectionFromModel.jsp -text svneol=unset#text/plain
