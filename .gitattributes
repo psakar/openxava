@@ -1131,7 +1131,6 @@ InvoiceDemo/web/xava/addToCollection.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/barButton.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/bottomButtons.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/buttonBar.jsp -text svneol=unset#text/plain
-InvoiceDemo/web/xava/calculatedCollectionList.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/collection.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/collectionFrameHeader.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/collectionFromModel.jsp -text svneol=unset#text/plain
