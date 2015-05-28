@@ -9979,6 +9979,8 @@ OpenXavaTest/pojo-src/org/openxava/test/model/ClassC.java -text svneol=unset#tex
 OpenXavaTest/pojo-src/org/openxava/test/model/ClassD.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Clerk.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ClerkKey.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Collaborator.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/model/CollaboratorProfile.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Color.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Comment.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Community.java -text
@@ -10086,6 +10088,8 @@ OpenXavaTest/pojo-src/org/openxava/test/model/ProductExpense.java -text svneol=u
 OpenXavaTest/pojo-src/org/openxava/test/model/ProductExpense2.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/ProductExpenses.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/ProductExpenses2.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/model/Profile.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/model/ProfileApplication.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Programmer.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ProgrammerApplicant.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ProgrammingSkill.groovy -text
@@ -10188,6 +10192,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/BuildingTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CallBackLogTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CheckTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CityTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/CollaboratorProfileTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/ColorinColoradoTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CommentTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CommunityEditableMembersTest.java -text
