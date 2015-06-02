@@ -9925,6 +9925,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/ResetUnitPriceCalculatorAction.j
 OpenXavaTest/pojo-src/org/openxava/test/actions/ResetViewAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/SaveElementInCollectionAbortingTransactionAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/SearchAuthorAction.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/SearchPersonFromTeamMemberAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowAllAuthorsAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowCreateAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowGoCustomerInvoicesDialogAction.groovy -text
@@ -10142,6 +10143,8 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Tablet.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Task.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Tax.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Teacher.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/model/Team.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/model/TeamMember.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Thing.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ToDoComponent.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ToDoComponentTask.java -text
@@ -10268,6 +10271,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/StudioTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SummerCourseTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SuperheroeTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/SupervillainTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/TeamTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/ToDoListTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TotoTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TrainingTest.java -text svneol=unset#text/plain
