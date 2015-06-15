@@ -6185,6 +6185,7 @@ OpenXava/web/js/dwr-engine.js -text
 OpenXava/web/js/jquery-ui.js -text svneol=unset#text/plain
 OpenXava/web/js/jquery.js -text svneol=unset#text/plain
 OpenXava/web/js/jquery.sorttable.js -text svneol=unset#text/plain
+OpenXava/web/js/jquery.ui.touch-punch.js -text svneol=unset#text/plain
 OpenXava/web/js/openxava.js -text svneol=unset#text/plain
 OpenXava/web/list.jsp -text svneol=unset#text/plain
 OpenXava/web/messages.jsp -text svneol=unset#text/plain
