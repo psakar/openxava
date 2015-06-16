@@ -11231,6 +11231,7 @@ OpenXavaTest/web/xava/js/dwr-engine.js -text
 OpenXavaTest/web/xava/js/jquery-ui.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/js/jquery.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/js/jquery.sorttable.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/js/jquery.ui.touch-punch.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/js/openxava.js -text
 OpenXavaTest/web/xava/list.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/messages.jsp -text
