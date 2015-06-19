@@ -10458,6 +10458,7 @@ OpenXavaTest/src/org/openxava/test/actions/ShowListPropertyAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ShowListTitleAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ShowMessageAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ShowProductListAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/ShowPropertyValueAction.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/actions/ShowSaveDeleteAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/StateHibernateDeleteAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/StateHibernateSaveAction.java -text
