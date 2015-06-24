@@ -10326,6 +10326,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/TreeViewNoDefaultPathTest.java -te
 OpenXavaTest/pojo-src/org/openxava/test/tests/TreeViewNoOrderTestBase.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TreeViewTestBase.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/UserWithNicknameTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/VehicleReadOnlyTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/VersionTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/WallTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/Warehouse2Test.java -text
