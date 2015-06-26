@@ -4912,6 +4912,7 @@ OpenXava/lib/cssparser.jar -text
 OpenXava/lib/fontbox.jar -text
 OpenXava/lib/freemarker.jar -text
 OpenXava/lib/hibernate-tools.jar -text
+OpenXava/lib/hsqldb.jar -text
 OpenXava/lib/htmlunit-core-js.jar -text
 OpenXava/lib/htmlunit.jar -text
 OpenXava/lib/httpclient.jar -text
@@ -8275,7 +8276,7 @@ OpenXavaTemplate/properties/xava.properties -text
 OpenXavaTemplate/src/src.txt -text
 OpenXavaTemplate/xava/application.xml.template -text
 OpenXavaTemplate/xava/controllers.xml.template -text
-OpenXavaTest/.classpath -text
+OpenXavaTest/.classpath -text svneol=unset#text/plain
 OpenXavaTest/.project -text
 OpenXavaTest/.settings/.component -text
 OpenXavaTest/.settings/org.eclipse.jdt.core.prefs -text
@@ -8422,6 +8423,7 @@ OpenXavaTest/data/company-b-db.script -text
 OpenXavaTest/data/openxava-test-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/openxava-test-db.script -text
 OpenXavaTest/data/openxava-test-ds.xml -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/dnas-pojo.properties -text svneol=unset#text/plain
 OpenXavaTest/gen-src-xava/org/openxava/test/model/AcademicYear.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/AdditionalDetail.java -text
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Address.java -text
@@ -9918,7 +9920,6 @@ OpenXavaTest/i18n/portlets/Worker_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Worker_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/jboss-as400.properties -text
 OpenXavaTest/jboss-hypersonic.properties -text
-OpenXavaTest/lib/hsqldb.jar -text
 OpenXavaTest/license.txt -text svneol=unset#text/plain
 OpenXavaTest/persistence/GalleryImage.hbm.xml -text
 OpenXavaTest/persistence/META-INF/persistence.xml -text
