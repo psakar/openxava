@@ -6523,6 +6523,7 @@ OpenXavaDoc/template-pdf-style/table-of-contents_es.html -text
 OpenXavaDoc/template-pdf-style/table-of-contents_fr.html -text
 OpenXavaDoc/template-pdf-style/table-of-contents_zh_cn.html -text
 OpenXavaDoc/web/WEB-INF/web.xml -text
+OpenXavaDoc/web/apidocs/org/openxava/actions/AddColumnsAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/changelog.txt -text svneol=unset#text/plain
 OpenXavaDoc/wiki-HTML.zip -text
 OpenXavaDoc/wiki.tgz -text
