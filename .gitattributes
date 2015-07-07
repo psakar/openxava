@@ -8417,9 +8417,11 @@ OpenXavaTest/components/Year.xml -text
 OpenXavaTest/components/dtds/component.dtd -text svneol=unset#text/plain
 OpenXavaTest/components/dtds/componente.dtd -text
 OpenXavaTest/data/company-a-db.lck -text
+OpenXavaTest/data/company-a-db.log -text
 OpenXavaTest/data/company-a-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-a-db.script -text
 OpenXavaTest/data/company-b-db.lck -text
+OpenXavaTest/data/company-b-db.log -text
 OpenXavaTest/data/company-b-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-b-db.script -text
 OpenXavaTest/data/openxava-test-db.properties -text svneol=unset#text/plain
@@ -10278,6 +10280,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/InvoiceTypicalNewOnInitTest.groovy
 OpenXavaTest/pojo-src/org/openxava/test/tests/IssueChangeDBTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/JavaProgrammerExtendedViewsTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/JavaProgrammerTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/JavaProgrammerWithGroupInSectionTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/JournalTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/LoginTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/MotoTest.groovy -text
