@@ -5081,6 +5081,7 @@ OpenXava/src/org/openxava/actions/RemoveImageFromGalleryAction.java -text
 OpenXava/src/org/openxava/actions/RemoveMyReportAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveMyReportColumnAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveSelectedInCollectionAction.java -text
+OpenXava/src/org/openxava/actions/RemoveSelectedInElementCollectionAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveSelectedTreeViewNodeAction.java -text
 OpenXava/src/org/openxava/actions/RemoveTreeViewNodeAction.java -text
 OpenXava/src/org/openxava/actions/ResetPreviousControllersAction.java -text
@@ -10807,7 +10808,6 @@ OpenXavaTest/web/xava/barButton.jsp -text
 OpenXavaTest/web/xava/bottomButtons.jsp -text
 OpenXavaTest/web/xava/buttonBar.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/collection.jsp -text
-OpenXavaTest/web/xava/collectionEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/collectionFrameHeader.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/collectionFromModel.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/collectionList.jsp -text
