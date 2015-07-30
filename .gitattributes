@@ -4811,7 +4811,7 @@ OpenXava/build.xml -text svneol=unset#text/plain
 OpenXava/build/jboss-app.xml -text
 OpenXava/build/server-properties/BeansContext.properties -text
 OpenXava/build/server-properties/EJBContextFactory.properties -text
-OpenXava/changelog.txt -text
+OpenXava/changelog.txt -text svneol=unset#text/plain
 OpenXava/data/images-db.script -text
 OpenXava/generator/AggregateReferencePG.class -text
 OpenXava/generator/AggregateReferencePG.java -text
@@ -4899,8 +4899,8 @@ OpenXava/i18n/Labels_zh.properties -text
 OpenXava/i18n/Labels_zh_CN.properties -text
 OpenXava/i18n/Messages_ca.properties -text
 OpenXava/i18n/Messages_de.properties -text
-OpenXava/i18n/Messages_en.properties -text
-OpenXava/i18n/Messages_es.properties -text
+OpenXava/i18n/Messages_en.properties -text svneol=unset#text/plain
+OpenXava/i18n/Messages_es.properties -text svneol=unset#text/plain
 OpenXava/i18n/Messages_fr.properties -text
 OpenXava/i18n/Messages_in.properties -text
 OpenXava/i18n/Messages_it.properties -text
@@ -4979,6 +4979,7 @@ OpenXava/src/org/openxava/actions/ChangeSectionAction.java -text
 OpenXava/src/org/openxava/actions/ChartsAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/ChooseFileAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/ChooseReferenceAction.java -text
+OpenXava/src/org/openxava/actions/CloseChartDialogAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/CollectionBaseAction.java -text
 OpenXava/src/org/openxava/actions/CollectionElementViewBaseAction.java -text
 OpenXava/src/org/openxava/actions/CreateNewChartAction.java -text svneol=unset#text/plain
@@ -5211,7 +5212,7 @@ OpenXava/src/org/openxava/annotations/ViewActions.java -text
 OpenXava/src/org/openxava/annotations/Views.java -text
 OpenXava/src/org/openxava/annotations/XOrderBy.java -text
 OpenXava/src/org/openxava/annotations/parse/AnnotatedClassParser.java -text
-OpenXava/src/org/openxava/application/meta/MetaApplication.java -text
+OpenXava/src/org/openxava/application/meta/MetaApplication.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/application/meta/MetaApplications.java -text
 OpenXava/src/org/openxava/application/meta/MetaModule.java -text
 OpenXava/src/org/openxava/application/meta/MetaReport.java -text
@@ -5423,7 +5424,7 @@ OpenXava/src/org/openxava/session/LiferayDocument.java -text
 OpenXava/src/org/openxava/session/LiferayLibrary.java -text
 OpenXava/src/org/openxava/session/MyReport.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/session/MyReportColumn.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/tab/Tab.java -text
+OpenXava/src/org/openxava/tab/Tab.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/tab/impl/DataChunk.java -text
 OpenXava/src/org/openxava/tab/impl/EntityTab.java -text
 OpenXava/src/org/openxava/tab/impl/EntityTabBean.java -text
@@ -5459,7 +5460,7 @@ OpenXava/src/org/openxava/tab/meta/MetaTab.java -text
 OpenXava/src/org/openxava/tab/meta/MetaTabsDefaultValues.java -text
 OpenXava/src/org/openxava/tab/meta/xmlparse/TabParser.java -text
 OpenXava/src/org/openxava/tab/meta/xmlparse/TabsDefaultValuesParser.java -text
-OpenXava/src/org/openxava/tests/ModuleTestBase.java -text
+OpenXava/src/org/openxava/tests/ModuleTestBase.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/tools/SchemaTool.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/types/Base1EnumType.java -text
 OpenXava/src/org/openxava/types/Date3Type.java -text
@@ -5507,7 +5508,7 @@ OpenXava/src/org/openxava/util/ResourceManagerI18n.java -text
 OpenXava/src/org/openxava/util/Resources.java -text
 OpenXava/src/org/openxava/util/Server.java -text
 OpenXava/src/org/openxava/util/SimpleTemplater.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/util/Strings.java -text
+OpenXava/src/org/openxava/util/Strings.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/util/SystemException.java -text
 OpenXava/src/org/openxava/util/TableModels.java -text
 OpenXava/src/org/openxava/util/UserInfo.java -text
@@ -5564,7 +5565,7 @@ OpenXava/src/org/openxava/validators/meta/MetaValidator.java -text
 OpenXava/src/org/openxava/validators/meta/MetaValidatorFor.java -text
 OpenXava/src/org/openxava/validators/meta/MetaValidators.java -text
 OpenXava/src/org/openxava/validators/meta/xmlparse/ValidatorsParser.java -text
-OpenXava/src/org/openxava/view/View.java -text
+OpenXava/src/org/openxava/view/View.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/view/meta/MetaCollectionView.java -text
 OpenXava/src/org/openxava/view/meta/MetaDescriptionsList.java -text
 OpenXava/src/org/openxava/view/meta/MetaGroup.java -text
@@ -5583,7 +5584,7 @@ OpenXava/src/org/openxava/web/DescriptionsLists.java -text
 OpenXava/src/org/openxava/web/EditorsJS.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/Ids.java -text
 OpenXava/src/org/openxava/web/Lists.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/web/WebEditors.java -text
+OpenXava/src/org/openxava/web/WebEditors.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/dwr/DWRBase.java -text
 OpenXava/src/org/openxava/web/dwr/Module.java -text
 OpenXava/src/org/openxava/web/dwr/Result.java -text
@@ -6463,7 +6464,7 @@ OpenXava/web/style/yahoo-treeview/treeview-sprite.gif -text
 OpenXava/web/style/yahoo-treeview/treeview.css -text
 OpenXava/web/style/yahoo.css -text svneol=unset#application/octet-stream
 OpenXava/web/subButton.jsp -text svneol=unset#text/plain
-OpenXava/xava/default-controllers.xml -text
+OpenXava/xava/default-controllers.xml -text svneol=unset#text/plain
 OpenXava/xava/default-converters.xml -text
 OpenXava/xava/default-editors.xml -text
 OpenXava/xava/default-size.xml -text
@@ -6485,11 +6486,11 @@ OpenXava/xava/dtds/editors.dtd -text
 OpenXava/xava/dtds/generadores-codigo.dtd -text
 OpenXava/xava/dtds/longitud-defecto.dtd -text
 OpenXava/xava/dtds/stereotype-type-default.dtd -text
-OpenXava/xava/dtds/tabs-default-values.dtd -text
+OpenXava/xava/dtds/tabs-default-values.dtd -text svneol=unset#text/plain
 OpenXava/xava/dtds/tipo-estereotipo-defecto.dtd -text
 OpenXava/xava/dtds/validadores.dtd -text
 OpenXava/xava/dtds/validators.dtd -text
-OpenXava/xava/dtds/valores-defecto-tabs.dtd -text
+OpenXava/xava/dtds/valores-defecto-tabs.dtd -text svneol=unset#text/plain
 OpenXava/xava/stereotype-type-default.xml -text
 OpenXavaDoc/.project -text
 OpenXavaDoc/build.xml -text
