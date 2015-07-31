@@ -6549,6 +6549,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/ChangeSectionAction.html -text svne
 OpenXavaDoc/web/apidocs/org/openxava/actions/ChartsAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/ChooseFileAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/ChooseReferenceAction.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/actions/CloseChartDialogAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/CollectionBaseAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/CollectionElementViewBaseAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/CreateNewChartAction.html -text svneol=unset#text/plain
@@ -6652,6 +6653,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveImageFromGalleryAction.html -
 OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveMyReportAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveMyReportColumnAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveSelectedInCollectionAction.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveSelectedInElementCollectionAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveSelectedTreeViewNodeAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveTreeViewNodeAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/ResetPreviousControllersAction.html -text svneol=unset#text/plain
@@ -6713,6 +6715,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ChangeSectionAction.html 
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ChartsAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ChooseFileAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ChooseReferenceAction.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/CloseChartDialogAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/CollectionBaseAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/CollectionElementViewBaseAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/CreateNewChartAction.html -text svneol=unset#text/plain
@@ -6816,6 +6819,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveImageFromGalleryAct
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveMyReportAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveMyReportColumnAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveSelectedInCollectionAction.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveSelectedInElementCollectionAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveSelectedTreeViewNodeAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveTreeViewNodeAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ResetPreviousControllersAction.html -text svneol=unset#text/plain
@@ -8227,7 +8231,11 @@ OpenXavaDoc/web/apidocs/overview-frame.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/overview-summary.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/overview-tree.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/package-list -text
+OpenXavaDoc/web/apidocs/resources/background.gif -text
 OpenXavaDoc/web/apidocs/resources/inherit.gif -text
+OpenXavaDoc/web/apidocs/resources/tab.gif -text
+OpenXavaDoc/web/apidocs/resources/titlebar.gif -text
+OpenXavaDoc/web/apidocs/resources/titlebar_end.gif -text
 OpenXavaDoc/web/apidocs/serialized-form.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/stylesheet.css -text svneol=unset#text/plain
 OpenXavaDoc/web/changelog.txt -text svneol=unset#text/plain
