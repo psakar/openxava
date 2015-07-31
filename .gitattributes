@@ -8232,7 +8232,6 @@ OpenXavaDoc/web/apidocs/overview-summary.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/overview-tree.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/package-list -text
 OpenXavaDoc/web/apidocs/resources/background.gif -text
-OpenXavaDoc/web/apidocs/resources/inherit.gif -text
 OpenXavaDoc/web/apidocs/resources/tab.gif -text
 OpenXavaDoc/web/apidocs/resources/titlebar.gif -text
 OpenXavaDoc/web/apidocs/resources/titlebar_end.gif -text
