@@ -8294,69 +8294,69 @@ OpenXavaTest/build/ejb/META-INF/ejb-jar.xml -text
 OpenXavaTest/build/ejb/META-INF/ibm-ejb-jar-bnd.xmi -text svneol=unset#application/octet-stream
 OpenXavaTest/build/ejb/META-INF/ibm-ejb-jar-ext.xmi -text svneol=unset#application/octet-stream
 OpenXavaTest/build/ejb/META-INF/jboss.xml -text
-OpenXavaTest/build/hibernate/AdditionalDetail.hbm.xml -text
-OpenXavaTest/build/hibernate/AverageSpeed.hbm.xml -text
-OpenXavaTest/build/hibernate/Carrier.hbm.xml -text
-OpenXavaTest/build/hibernate/CharacteristicThing.hbm.xml -text
+OpenXavaTest/build/hibernate/AdditionalDetail.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/AverageSpeed.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Carrier.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/CharacteristicThing.hbm.xml -text svneol=unset#text/plain
 OpenXavaTest/build/hibernate/City.hbm.xml -text svneol=unset#text/plain
-OpenXavaTest/build/hibernate/Clerk.hbm.xml -text
-OpenXavaTest/build/hibernate/Color.hbm.xml -text
-OpenXavaTest/build/hibernate/Comment.hbm.xml -text
-OpenXavaTest/build/hibernate/ConversionFactor.hbm.xml -text
-OpenXavaTest/build/hibernate/Course.hbm.xml -text
-OpenXavaTest/build/hibernate/Customer.hbm.xml -text
+OpenXavaTest/build/hibernate/Clerk.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Color.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Comment.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/ConversionFactor.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Course.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Customer.hbm.xml -text svneol=unset#text/plain
 OpenXavaTest/build/hibernate/Customer2.hbm.xml -text svneol=unset#text/plain
-OpenXavaTest/build/hibernate/CustomerContactPerson.hbm.xml -text
-OpenXavaTest/build/hibernate/CustomerState.hbm.xml -text
-OpenXavaTest/build/hibernate/Delivery.hbm.xml -text
-OpenXavaTest/build/hibernate/DeliveryDetail.hbm.xml -text
-OpenXavaTest/build/hibernate/DeliveryPlace.hbm.xml -text
-OpenXavaTest/build/hibernate/DeliveryType.hbm.xml -text
-OpenXavaTest/build/hibernate/Driver.hbm.xml -text
-OpenXavaTest/build/hibernate/DrivingLicence.hbm.xml -text
-OpenXavaTest/build/hibernate/Family2.hbm.xml -text
-OpenXavaTest/build/hibernate/Formula.hbm.xml -text
-OpenXavaTest/build/hibernate/FormulaIngredient.hbm.xml -text
-OpenXavaTest/build/hibernate/Ingredient.hbm.xml -text
-OpenXavaTest/build/hibernate/Invoice.hbm.xml -text
-OpenXavaTest/build/hibernate/Invoice2.hbm.xml -text
-OpenXavaTest/build/hibernate/Invoice3.hbm.xml -text
-OpenXavaTest/build/hibernate/InvoiceDetail.hbm.xml -text
-OpenXavaTest/build/hibernate/InvoiceDetail2.hbm.xml -text
-OpenXavaTest/build/hibernate/Issue.hbm.xml -text
-OpenXavaTest/build/hibernate/Journey.hbm.xml -text
-OpenXavaTest/build/hibernate/Mixture.hbm.xml -text
-OpenXavaTest/build/hibernate/Office.hbm.xml -text
-OpenXavaTest/build/hibernate/Office2.hbm.xml -text
-OpenXavaTest/build/hibernate/Order.hbm.xml -text
-OpenXavaTest/build/hibernate/OrderDetail.hbm.xml -text
-OpenXavaTest/build/hibernate/Product.hbm.xml -text
-OpenXavaTest/build/hibernate/Product2.hbm.xml -text
-OpenXavaTest/build/hibernate/Product3.hbm.xml -text
-OpenXavaTest/build/hibernate/Ranges.hbm.xml -text
-OpenXavaTest/build/hibernate/Receptionist.hbm.xml -text
-OpenXavaTest/build/hibernate/Report.hbm.xml -text
+OpenXavaTest/build/hibernate/CustomerContactPerson.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/CustomerState.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Delivery.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/DeliveryDetail.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/DeliveryPlace.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/DeliveryType.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Driver.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/DrivingLicence.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Family2.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Formula.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/FormulaIngredient.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Ingredient.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Invoice.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Invoice2.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Invoice3.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/InvoiceDetail.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/InvoiceDetail2.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Issue.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Journey.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Mixture.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Office.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Office2.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Order.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/OrderDetail.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Product.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Product2.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Product3.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Ranges.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Receptionist.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Report.hbm.xml -text svneol=unset#text/plain
 OpenXavaTest/build/hibernate/School.hbm.xml -text svneol=unset#text/plain
-OpenXavaTest/build/hibernate/Seller.hbm.xml -text
+OpenXavaTest/build/hibernate/Seller.hbm.xml -text svneol=unset#text/plain
 OpenXavaTest/build/hibernate/Seller2.hbm.xml -text svneol=unset#text/plain
-OpenXavaTest/build/hibernate/SellerLevel.hbm.xml -text
-OpenXavaTest/build/hibernate/Service.hbm.xml -text
-OpenXavaTest/build/hibernate/ServiceInvoice.hbm.xml -text
-OpenXavaTest/build/hibernate/ServiceType.hbm.xml -text
-OpenXavaTest/build/hibernate/Shipment.hbm.xml -text
-OpenXavaTest/build/hibernate/ShipmentCharge.hbm.xml -text
-OpenXavaTest/build/hibernate/Size.hbm.xml -text
-OpenXavaTest/build/hibernate/State.hbm.xml -text
-OpenXavaTest/build/hibernate/Subfamily.hbm.xml -text
-OpenXavaTest/build/hibernate/Subfamily2.hbm.xml -text
-OpenXavaTest/build/hibernate/Task.hbm.xml -text
+OpenXavaTest/build/hibernate/SellerLevel.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Service.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/ServiceInvoice.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/ServiceType.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Shipment.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/ShipmentCharge.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Size.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/State.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Subfamily.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Subfamily2.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Task.hbm.xml -text svneol=unset#text/plain
 OpenXavaTest/build/hibernate/Teacher.hbm.xml -text svneol=unset#text/plain
-OpenXavaTest/build/hibernate/Thing.hbm.xml -text
-OpenXavaTest/build/hibernate/TransportCharge.hbm.xml -text
-OpenXavaTest/build/hibernate/TransportCharge2.hbm.xml -text
-OpenXavaTest/build/hibernate/Vehicle.hbm.xml -text
-OpenXavaTest/build/hibernate/Warehouse.hbm.xml -text
-OpenXavaTest/build/hibernate/Worker.hbm.xml -text
+OpenXavaTest/build/hibernate/Thing.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/TransportCharge.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/TransportCharge2.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Vehicle.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Warehouse.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/Worker.hbm.xml -text svneol=unset#text/plain
 OpenXavaTest/build/j2ee/META-INF/application-websphere.xml -text
 OpenXavaTest/build/j2ee/META-INF/application.xml -text
 OpenXavaTest/components/AverageSpeed.xml -text
@@ -10175,6 +10175,9 @@ OpenXavaTest/pojo-src/org/openxava/test/model/ShipmentKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Shop.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Size.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Skill.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/SlotMachine.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/model/SlotMachineAccount.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/model/SlotMachineConcept.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/State.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/StreetShop.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Studio.java -text
@@ -10317,6 +10320,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/SellerRegionsWithCheckBoxesTest.gr
 OpenXavaTest/pojo-src/org/openxava/test/tests/ServiceExpensesTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/ShopTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SkillTest.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/tests/SlotMachineTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/StudioTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SummerCourseTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SuperheroeTest.java -text svneol=unset#text/plain
