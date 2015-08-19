@@ -13,11 +13,17 @@
     	<class>org.openxava.session.GalleryImage</class>
     	<class>org.openxava.web.editors.AttachedFile</class>
         <properties>
-            <property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect"/>            
+            <property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect"/>
             <property name="hibernate.show_sql" value="false"/>
             <property name="hibernate.default_schema" value="XAVATEST"/> 
             <property name="hibernate.jdbc.factory_class" 
             		value="org.hibernate.jdbc.NonBatchingBatcherFactory"/>
+            
+            <property name="org.hibernate.envers.default_schema" value="XAVATEST"/>
+            <property name="org.hibernate.envers.audit_strategy" 
+            		value="org.hibernate.envers.strategy.ValidityAuditStrategy"/>
+            <property name="org.hibernate.envers.audit_strategy_validity_store_revend_timestamp" 
+            		value="true"/>		
         </properties>
     </persistence-unit>      
                             

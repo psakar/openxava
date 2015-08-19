@@ -5716,6 +5716,7 @@ OpenXava/web/WEB-INF/lib/groovy-all.jar -text
 OpenXava/web/WEB-INF/lib/hibernate-commons-annotations.jar -text
 OpenXava/web/WEB-INF/lib/hibernate-core.jar -text
 OpenXava/web/WEB-INF/lib/hibernate-entitymanager.jar -text
+OpenXava/web/WEB-INF/lib/hibernate-envers.jar -text
 OpenXava/web/WEB-INF/lib/hibernate-validator-annotation-processor.jar -text
 OpenXava/web/WEB-INF/lib/hibernate-validator-cdi.jar -text
 OpenXava/web/WEB-INF/lib/hibernate-validator.jar -text
@@ -9930,7 +9931,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/EmployeeInfo.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/EmployeeInfoKey.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/EmployeeKey.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/EnumCountry.java -text svneol=unset#text/plain
-OpenXavaTest/pojo-src/org/openxava/test/model/Exam.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Exam.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Experience.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Family.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Family2.java -text
@@ -10013,7 +10014,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Quarter.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/QuarterKey.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/QuarterSubject.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/QuarterSubjectKey.java -text
-OpenXavaTest/pojo-src/org/openxava/test/model/Question.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Question.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Quote.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/QuoteDetail.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Ranges.java -text
@@ -10130,7 +10131,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/DrivingLicenceTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ElClienteTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/EmbeddedTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/EmployeeTest.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/tests/ExamTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/ExamTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ExperienceTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ExperienceWithSimplestProgrammerTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/FilesFolderTest.java -text
@@ -10595,6 +10596,7 @@ OpenXavaTest/web/WEB-INF/lib/groovy-all.jar -text
 OpenXavaTest/web/WEB-INF/lib/hibernate-commons-annotations.jar -text
 OpenXavaTest/web/WEB-INF/lib/hibernate-core.jar -text
 OpenXavaTest/web/WEB-INF/lib/hibernate-entitymanager.jar -text
+OpenXavaTest/web/WEB-INF/lib/hibernate-envers.jar -text
 OpenXavaTest/web/WEB-INF/lib/hibernate-validator-annotation-processor.jar -text
 OpenXavaTest/web/WEB-INF/lib/hibernate-validator-cdi.jar -text
 OpenXavaTest/web/WEB-INF/lib/hibernate-validator.jar -text
