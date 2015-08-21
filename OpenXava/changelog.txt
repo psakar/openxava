@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Automatically schema update for new projects.
 - Dropped support for Intenet Explorer 9 and 10.
 - Support for Image editor in @ElementCollection.
 - Added the library for auditing Hibernate Envers.
