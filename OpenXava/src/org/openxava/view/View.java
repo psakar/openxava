@@ -1179,13 +1179,31 @@ public class View implements java.io.Serializable {
 			values.put(name, value);			
 		}
 		else {			
-			String subview = name.substring(0, idx);
+			String subviewName = name.substring(0, idx);
 			String member = name.substring(idx+1);
-			getSubview(subview).trySetValue(member, value);
+			View subview = getSubview(subviewName);
+			if (subview.isRepresentsElementCollection()) { 	
+				int elementIndex = Integer.parseInt(Strings.firstToken(member, "."));
+				List collectionValues = subview.getCollectionValues();
+				if (elementIndex < 0) return false;
+				if (elementIndex >= collectionValues.size()) growCollection(collectionValues, elementIndex + 1);
+				Map element = (Map) collectionValues.get(elementIndex);
+				String collectionMember = Strings.noFirstTokenWithoutFirstDelim(member, ".");
+				Maps.putValueFromQualifiedName(element, collectionMember, value);
+				subview.setCollectionEditingRow(elementIndex);
+				subview.trySetValue(collectionMember, value);
+			}
+			else {
+				subview.trySetValue(member, value);
+			}
 		}		
 		return true;
 	}
 	
+	private void growCollection(Collection collection, int newSize) { 
+		while (collection.size() < newSize) collection.add(new HashMap());
+	}
+
 	private Collection getMembersNamesInGroup() throws XavaException { 
 		if (membersNamesInGroup == null) {
 			membersNamesInGroup = new ArrayList();		
@@ -2533,13 +2551,15 @@ public class View implements java.io.Serializable {
 	}
 	
 	private void assignValuesToElementCollection(String qualifier) {
-		if (!isCollectionMembersEditables()) return; 
+		if (!isCollectionMembersEditables()) return;
 		int oldCount = collectionValues == null?0:collectionValues.size(); 
+		List<Map> oldCollectionValues = collectionValues;
 		collectionValues = new ArrayList();		
 		mustRefreshCollection = false;
 		for (int i=0; ;i++) {
 			boolean containsReferences = false;
 			Map element = new HashMap();
+			Map originalValues = null; 
 			for (MetaProperty p: getMetaPropertiesList()) {
 				String propertyKey= qualifier + i + "." + p.getName();
 				String [] results = getRequest().getParameterValues(propertyKey);
@@ -2563,7 +2583,14 @@ public class View implements java.io.Serializable {
 						p.setName(refName + "." + p.getName());
 					}
 				}				
-				if (results == null) continue;
+				if (results == null) {
+					if (oldCollectionValues != null && i < oldCollectionValues.size()) {
+						Object originalValue = oldCollectionValues.get(i).get(p.getName());
+						if (originalValues == null) originalValues = new HashMap();
+						originalValues.put(p.getName(), originalValue);
+					}
+					continue;
+				}
 				Object value = WebEditors.parse(getRequest(), p, results, getErrors(), getViewName());
 				element.put(p.getName(), value);
 				if (p.getName().contains(".")) containsReferences = true;
@@ -2571,6 +2598,7 @@ public class View implements java.io.Serializable {
 			
 			if (element.isEmpty()) break;
 			if (Maps.isEmpty(element)) continue;
+			if (originalValues != null) element.putAll(originalValues);
 			if (containsReferences) element = Maps.plainToTree(element);
 			collectionValues.add(element);
 		}			

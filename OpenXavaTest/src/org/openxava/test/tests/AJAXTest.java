@@ -112,6 +112,16 @@ public class AJAXTest extends ModuleTestBase {
 			"editor_visits.0.description," +
 			"errors, messages");
 	}
+	
+	public void testDeleteImageInElementCollection() throws Exception { 
+		if (!usesAnnotatedPOJO()) return;
+		changeModule("Car");
+		execute("Mode.detailAndFirst");
+		assertValue("make", "MERCEDES");
+		assertValue("model", "CLA 250");
+		execute("ImageEditor.deleteImage", "newImageProperty=photos.1.photo");
+		assertLoadedParts("editor_photos___1___photo, errors, messages");
+	}
 		
 	public void testNotDuplicateDivOnLoadCollection() throws Exception { 
 		changeModule("Seller");

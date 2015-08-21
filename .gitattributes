@@ -9877,6 +9877,8 @@ OpenXavaTest/pojo-src/org/openxava/test/model/BlogComment.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Book.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Building.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/CallBackLog.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Car.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/model/CarPhoto.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Carrier.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Chair.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/CharacteristicThing.java -text
@@ -10108,6 +10110,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/BlogTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/BookTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/BuildingTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CallBackLogTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/CarTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/CheckTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CityTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CollaboratorProfileTest.java -text svneol=unset#text/plain
@@ -10442,6 +10445,7 @@ OpenXavaTest/src/org/openxava/test/tests/ConversionFactorTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerCardListTest.groovy -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerContactPersonAsAggregate3LevelsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerContactPersonTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/CustomerImageTest.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/CustomerNewOnInitInheritedTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerNewOnInitTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerRadioButtonTest.java -text
@@ -10468,6 +10472,7 @@ OpenXavaTest/src/org/openxava/test/tests/FamilyTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/FamilyWithInheritanceControllerTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/FamilyXProductsReportTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/FormulaTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/ImageTestBase.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/IngredientTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/Invoice20020001Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/Invoice20022004Test.java -text

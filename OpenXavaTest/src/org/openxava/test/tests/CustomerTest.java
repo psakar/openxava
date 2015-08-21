@@ -221,63 +221,7 @@ public class CustomerTest extends CustomizeListTestBase {
 		assertNoErrors();
 		assertListRowCount(total);		
 	}
-	
-	protected void addImage() throws Exception{ 
-		execute("CRUD.new");		
-		execute("ImageEditor.changeImage", "newImageProperty=photo"); 
-		assertNoErrors();
-		assertAction("LoadImage.loadImage");		
-		String imageUrl = System.getProperty("user.dir") + "/test-images/foto_javi.jpg";
-		setFileValue("newImage", imageUrl);
-		assertAction("LoadImage.cancel");
-		execute("LoadImage.loadImage");
-		assertNoErrors();
-	}
 		
-	public void testChangeImage() throws Exception { 		
-		addImage();
-		
-		HtmlPage page = (HtmlPage) getWebClient().getCurrentWindow().getEnclosedPage();		
-		URL url = page.getWebResponse().getWebRequest().getUrl(); 
-		
-		String urlPrefix = url.getProtocol() + "://" + url.getHost() + ":" + url.getPort();
-		
-		HtmlImage image = (HtmlImage) page.getElementsByName(decorateId("photo")).get(0); 
-		String imageURL = null;
-		if (image.getSrcAttribute().startsWith("/")) {
-			imageURL = urlPrefix + image.getSrcAttribute();
-		}
-		else {
-			String urlBase = Strings.noLastToken(url.getPath(), "/");
-			imageURL = urlPrefix + urlBase + image.getSrcAttribute();
-		}		
-		WebResponse response = getWebClient().getPage(imageURL).getWebResponse();		
-		assertTrue("Image not obtained", response.getContentAsString().length() > 0);
-		assertEquals("Result is not an image", "image", response.getContentType());
-	}
-			
-	public void testDeleteImage() throws Exception { 
-		addImage();
-		
-		execute("ImageEditor.deleteImage", "newImageProperty=photo");
-		assertNoErrors();
-		HtmlPage page = (HtmlPage) getWebClient().getCurrentWindow().getEnclosedPage();		
-		URL url = page.getWebResponse().getWebRequest().getUrl(); 
-		String urlPrefix = url.getProtocol() + "://" + url.getHost() + ":" + url.getPort();
-		
-		HtmlImage image = (HtmlImage) page.getElementsByName(decorateId("photo")).get(0); 
-		String imageURL = null;
-		if (image.getSrcAttribute().startsWith("/")) {
-			imageURL = urlPrefix + image.getSrcAttribute();
-		}
-		else {
-			String urlBase = Strings.noLastToken(url.getPath(), "/");
-			imageURL = urlPrefix + urlBase + image.getSrcAttribute();
-		}	
-		WebResponse response = getWebClient().getPage(imageURL).getWebResponse();
-		assertTrue("Image obtained", response.getContentAsString().length() == 0);
-	}
-	
 	public void testHideShowGroup() throws Exception {		
 		execute("CRUD.new");
 		assertExists("seller.number");

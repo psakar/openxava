@@ -254,16 +254,6 @@ public class CustomerWithSectionTest extends CustomerTest {
 		assertNoDialog();
 	}
 	
-	public void testCancelActionAfterChangeImageAction() throws Exception {   
-		addImage();
-		assertExists("telephone");
-		assertAction("EditableOnOff.setOn");
-		execute("Reference.createNew", "model=Seller,keyProperty=seller.number");		
-		execute("NewCreation.cancel");
-		assertExists("telephone");
-		assertAction("EditableOnOff.setOn");		
-	}
-				
 	public void testTELEPHONE_EMAIL_WEBURLstereotypes() throws Exception {
 		assertTrue("website column must have a clickable link", getHtml().contains("<a href=\"http://www.openxava.org\">"));
 		execute("Mode.detailAndFirst");
@@ -722,16 +712,6 @@ public class CustomerWithSectionTest extends CustomerTest {
 		if (!found_red) {
 			fail("It is required at least one Customer of 'Special' type for run this test");
 		}
-	}
-	
-	public void testImageEditorFromAnotherModule() throws Exception {  	
-		// started from a different module because there was a bug in imageEditor when run from a module
-		//	that was not the initial
-		changeModule("BeforeGoingToCustomer");
-		execute("ChangeModule.goCustomer");
-		
-		// 
-		testChangeImage(); 
 	}
 		
 }

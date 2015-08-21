@@ -23,9 +23,8 @@ public class ImagesServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		try {
 			String propertyKey = Ids.undecorate(request.getParameter( "property" ));
-			View view = extractCurrentView( request, propertyKey );
-			String property = Strings.lastToken(propertyKey, ".");
-			byte [] image = (byte []) view.getValue(property); 
+			View view = getCurrentView( request, propertyKey );
+			byte [] image = (byte []) view.getValue(propertyKey); 
 			if (image != null) {
 				response.setContentType("image");
 				response.getOutputStream().write(image);
@@ -37,14 +36,9 @@ public class ImagesServlet extends HttpServlet {
 		}		
 	}
 	
-	private View extractCurrentView( HttpServletRequest request, String propertyKey) { 		 
+	private View getCurrentView( HttpServletRequest request, String propertyKey) {  		 
 		ModuleContext context = (ModuleContext) request.getSession().getAttribute("context"); 
-		View view = (View)context.get(request, "xava_view" ); 		 		
-		String []m = propertyKey.split( "\\." );  
-		for( int i = 0; i < m.length-1; i++ ) { 
-			view = view.getSubview(m[i]); 
-		} 		 
-		return view;
+		return (View)context.get(request, "xava_view" ); 	
 	}
 		
 }

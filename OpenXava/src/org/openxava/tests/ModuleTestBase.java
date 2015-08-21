@@ -654,7 +654,7 @@ public class ModuleTestBase extends TestCase {
 	 * Decorate the name to produced an unique identifier as the used by
 	 * OX for HTML elements.
 	 */
-	protected String decorateId(String name) {
+	protected String decorateId(String name) { 
 		name = Strings.change(name, ".KEY", DescriptionsLists.COMPOSITE_KEY_SUFFIX);
 		return Ids.decorate(application, module, name);
 	}
