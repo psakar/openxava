@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- start-manager-hsqldb.bat/.sh no longer need the JAVA_HOME environment variable.
+- New resources.xml in WEB-INF for defining resource-ref elements. 
 - Automatically schema update for new projects.
 - Dropped support for Intenet Explorer 9 and 10.
 - Support for Image editor in @ElementCollection.
