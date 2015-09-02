@@ -28,12 +28,6 @@ public class MetaModuleFactory {
 		return new ArrayList<MetaModule>(app.getMetaModules());
 	}
 
-	private static void printModules(MetaApplication app) {
-		for (Object m: app.getMetaModules()) {
-			String nombre = ((MetaModule) m).getName();
-		}
-	}
-
 	private static void createDefaultMetaModules(MetaApplication app) {
 		for (String className: AnnotatedClassParser.getManagedClassNames()) {
 			if (className.endsWith(".GalleryImage") || className.endsWith(".AttachedFile")) continue;
