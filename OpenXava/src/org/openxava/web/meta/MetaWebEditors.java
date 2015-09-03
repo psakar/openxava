@@ -2,8 +2,7 @@ package org.openxava.web.meta;
 
 import java.util.*;
 
-
-
+import org.apache.commons.collections.*;
 import org.openxava.model.meta.*;
 import org.openxava.tab.meta.*;
 import org.openxava.util.*;
@@ -26,10 +25,8 @@ public class MetaWebEditors {
 	private static MetaEditor editorForReferences;
 	private static MetaEditor editorForCollections;
 	private static MetaEditor editorForElementCollections; 
-	private static MetaEditor editorForTabs; 
+	private static Collection<MetaEditor> editorsForTabs; 
 	
-	
-
 	public static void addMetaEditorForType(String type, MetaEditor editor) throws XavaException {
 		if (editorsByType == null) {
 			throw new XavaException("only_from_parse", "MetaWebEditors.addMetaEditorForType");
@@ -153,7 +150,7 @@ public class MetaWebEditors {
 		
 	private static Map getEditorsByType() throws XavaException {
 		if (editorsByType == null) {
-			initMaps();
+			init();
 			EditorsParser.setupEditors();
 		}
 		return editorsByType;
@@ -161,7 +158,7 @@ public class MetaWebEditors {
 	
 	private static Map getEditorsByReferenceModel() throws XavaException { 
 		if (editorsByReferenceModel == null) {
-			initMaps();
+			init();
 			EditorsParser.setupEditors();
 		}
 		return editorsByReferenceModel;
@@ -169,7 +166,7 @@ public class MetaWebEditors {
 	
 	private static Map getEditorsByCollectionModel() throws XavaException {  
 		if (editorsByCollectionModel == null) {
-			initMaps();
+			init();
 			EditorsParser.setupEditors();
 		}
 		return editorsByCollectionModel;
@@ -177,7 +174,7 @@ public class MetaWebEditors {
 	
 	private static Map getEditorsByTabModel() throws XavaException {   
 		if (editorsByTabModel == null) {
-			initMaps();
+			init();
 			EditorsParser.setupEditors();
 		}
 		return editorsByTabModel;
@@ -186,7 +183,7 @@ public class MetaWebEditors {
 	
 	private static Map getEditorsByStereotype() throws XavaException {
 		if (editorsByStereotype == null) {
-			initMaps();
+			init();
 			EditorsParser.setupEditors();								
 		}	
 		return editorsByStereotype;
@@ -194,7 +191,7 @@ public class MetaWebEditors {
 	
 	private static Map getEditorsByModelProperty() throws XavaException {		
 		if (editorsByModelProperty == null) {
-			initMaps();
+			init();
 			EditorsParser.setupEditors();			
 		}		
 		return editorsByModelProperty;
@@ -202,13 +199,13 @@ public class MetaWebEditors {
 	
 	private static Map getEditorsByName() throws XavaException {
 		if (editorsByName == null) {
-			initMaps();
+			init();
 			EditorsParser.setupEditors();
 		}
 		return editorsByName;
 	}	
 		
-	private static void initMaps() {
+	private static void init() { 
 		editorsByType = new HashMap();
 		editorsByStereotype = new HashMap();
 		editorsByModelProperty = new HashMap();
@@ -216,6 +213,7 @@ public class MetaWebEditors {
 		editorsByReferenceModel = new HashMap(); 
 		editorsByCollectionModel = new HashMap();
 		editorsByTabModel = new HashMap(); 
+		editorsForTabs = new ArrayList<MetaEditor>(); 
 	}
 
 	
@@ -265,17 +263,21 @@ public class MetaWebEditors {
 		return r;
 	}
 	
-	public static MetaEditor getMetaEditorFor(MetaTab tab) throws ElementNotFoundException, XavaException {  							
+	public static MetaEditor getMetaEditorFor(MetaTab tab) throws ElementNotFoundException, XavaException {
 		MetaEditor r = (MetaEditor) getMetaEditorForTabModel(tab.getModelName()); 		
-		if (r == null) {	
-			if (editorForTabs == null) {
-				throw new ElementNotFoundException("editor_for_tabs_required");  
-			}
-			return editorForTabs;
-		}		
-		return r;
+		if (r != null) return r;	
+		Collection<MetaEditor> editors = getMetaEditorsFor(tab);
+		if (editors.isEmpty()) {
+			throw new ElementNotFoundException("editor_for_tabs_required");
+		}
+		return editors.iterator().next();
 	}
 	
+	public static Collection<MetaEditor> getMetaEditorsFor(MetaTab tab) throws ElementNotFoundException, XavaException {
+		MetaEditor customEditor = (MetaEditor) getMetaEditorForTabModel(tab.getModelName());
+		if (customEditor == null) return editorsForTabs;
+		else return CollectionUtils.union(Collections.singleton(customEditor), editorsForTabs); 
+	}	
 		
 	public static MetaEditor getMetaEditorFor(MetaMember member) throws ElementNotFoundException, XavaException { 
 		if (member instanceof MetaProperty) return getMetaEditorFor((MetaProperty) member);
@@ -297,7 +299,10 @@ public class MetaWebEditors {
 	}	
 	
 	public static void addMetaEditorForTabs(MetaEditor editor) {   
-		editorForTabs = editor; 		
+		if (editorsForTabs == null) {
+			throw new XavaException("only_from_parse", "MetaWebEditors.addMetaEditorForTabs");
+		}
+		editorsForTabs.add(editor);
 	}
 		
 }

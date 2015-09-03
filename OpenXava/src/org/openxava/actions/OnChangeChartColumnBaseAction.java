@@ -29,10 +29,6 @@ public abstract class OnChangeChartColumnBaseAction extends
 	public void execute() throws Exception {
 		getChart().setChanged(true);
 		executeOnValidValues();
-		Tab tab = (Tab) getContext().get(getRequest(), "xava_tab");
-		if (getView() != null && tab != null) {
-			Charts.INSTANCE.updateView(getRequest(), getView(), tab, getChart());
-		}
 	}
 	
 	public Chart getChart() {

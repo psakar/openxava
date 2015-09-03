@@ -184,7 +184,7 @@ public class WebEditors {
 	}	
 	
 	public static String getUrl(MetaTab metaTab) throws ElementNotFoundException, XavaException {
-		try {		
+		try {					
 			String editor = metaTab.getEditor();
 			if (!Is.emptyString(editor)) {
 				try {
@@ -201,6 +201,29 @@ public class WebEditors {
 			return PREFIX + "notAvailableEditor.jsp";
 		}		
 	}
+	
+	public static Collection<String> getEditors(MetaTab metaTab) throws ElementNotFoundException, XavaException { 
+		Collection<String> editors = new ArrayList<String>();
+		String customEditor = metaTab.getEditor();
+		if (!Is.emptyString(customEditor)) editors.add(customEditor);
+		for (MetaEditor metaEditor: MetaWebEditors.getMetaEditorsFor(metaTab)) {
+			editors.add(metaEditor.getName()); 
+		}
+		return editors;
+	}
+
+	
+	public static String getUrl(String editor, MetaTab metaTab) throws ElementNotFoundException, XavaException { 
+		if (!Is.emptyString(editor)) {
+			try {
+				return PREFIX + MetaWebEditors.getMetaEditorByName(editor).getUrl();
+			}
+			catch (Exception ex) {
+				log.warn(XavaResources.getString("tab_editor_problem_using_default", editor), ex); 
+			}
+		}
+		return getUrl(metaTab);
+	}	
 	
 	public static MetaEditor getMetaEditorFor(MetaMember m, String viewName) throws ElementNotFoundException, XavaException {
 		if (m.getMetaModel() != null) {

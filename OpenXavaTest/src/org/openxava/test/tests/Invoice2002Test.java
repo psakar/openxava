@@ -11,7 +11,6 @@ public class Invoice2002Test extends CustomizeListTestBase {
 		"Print.generatePdf",
 		"Print.generateExcel",
 		"ExtendedPrint.myReports",
-		"Charts.charts",
 		"CRUD.new",
 		"CRUD.deleteSelected",
 		"CRUD.deleteRow",
@@ -22,6 +21,7 @@ public class Invoice2002Test extends CustomizeListTestBase {
 		"List.viewDetail",
 		"List.hideRows",
 		"List.sumColumn",
+		"ListFormat.select", 
 		"Invoice2002.changeListTitle"
 	};
 

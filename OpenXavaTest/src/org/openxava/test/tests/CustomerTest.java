@@ -27,7 +27,6 @@ public class CustomerTest extends CustomizeListTestBase {
 		"Print.generatePdf",
 		"Print.generateExcel",
 		"ExtendedPrint.myReports",
-		"Charts.charts",
 		"CRUD.new",
 		"CRUD.deleteSelected",
 		"CRUD.deleteRow",
@@ -37,6 +36,7 @@ public class CustomerTest extends CustomizeListTestBase {
 		"List.orderBy",
 		"List.viewDetail",
 		"List.hideRows",
+		"ListFormat.select", 
 		"Customer.hideSellerInList",
 		"Customer.showSellerInList"
 	};

@@ -2598,7 +2598,7 @@ public class View implements java.io.Serializable {
 			
 			if (element.isEmpty()) break;
 			if (Maps.isEmpty(element)) continue;
-			if (originalValues != null) element.putAll(originalValues);
+			if (originalValues != null) element.putAll(originalValues); 
 			if (containsReferences) element = Maps.plainToTree(element);
 			collectionValues.add(element);
 		}			

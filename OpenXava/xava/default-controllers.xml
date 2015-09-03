@@ -38,7 +38,6 @@ here that you want to override.
 		<extends controller="Navigation"/>
 		<extends controller="CRUD"/>
 		<extends controller="ExtendedPrint"/>
-		<extends controller="Charts" />
 	</controller>
 	
 	<controller name="Void"/>	
@@ -124,38 +123,11 @@ here that you want to override.
 		<action name="share" hidden="true" image="shared-reports.png"
 			class="org.openxava.actions.ShareMyReportAction"/>																																										
 	</controller>
-	
-	<controller name="Charts">
-		<action name="charts" mode="list"  
-			class="org.openxava.actions.ChartsAction"
-			image="charts.png"/>		
-	</controller>
-	
+		
 	<controller name="Chart">
-		<action name="save" hidden="true"
-			class="org.openxava.actions.SaveChartAction" 
-			image="save.gif"/>
-		<action name="share" hidden="true"
-			class="org.openxava.actions.ShareChartAction"
-			image="private.png">
-			<set property="shared" value="true" />	
-		</action>
-		<action name="makePrivate" hidden="true"
-			class="org.openxava.actions.ShareChartAction"
-			image="shared.png">
-			<set property="shared" value="false" />	
-		</action>
-		<action name="createNew" hidden="true"
-			class="org.openxava.actions.CreateNewChartAction"
-			image="create_new.gif" />
-		<action name="remove" hidden="true" confirm="true"
-			class="org.openxava.actions.RemoveChartAction"
-			image="delete.gif"/>
 		<action name="removeColumn" hidden="true" in-each-row="true"
 			class="org.openxava.actions.RemoveChartColumnAction"
 			image="delete.gif"/>
-		<action name="close" 
-			class="org.openxava.actions.CloseChartDialogAction"/>						
 	</controller>
 	
 	<controller name="TypicalNotResetOnSave">
@@ -303,6 +275,11 @@ here that you want to override.
 			image="remove.gif"/>			
 		
 	</controller>
+	
+	<controller name="ListFormat">
+		<action name="select" 
+			class="org.openxava.actions.SelectListFormatAction"/>
+	</controller>		
 	
 	<controller name="NoCustomizeList">
         <action name="disableCustomizeList" mode="list"

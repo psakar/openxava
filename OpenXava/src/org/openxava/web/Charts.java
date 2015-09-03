@@ -55,7 +55,7 @@ public enum Charts {
 	public void fillEmpty(Tab tab, Chart chart, String defaultName) {
 		String name  = defaultName != null ? defaultName : tab.getTitle();
 		name = nodeName(name, false);
-		chart.setName(name);
+		// tmp chart.setName(name);
 		chart.setyColumn(getAxisColumns(tab));
 		// Select the first column that is not the same as the label column
 		List<ChartColumn> columns = createColumns(tab, chart, true, chart.getyColumn());
@@ -74,12 +74,14 @@ public enum Charts {
 	 * @throws XavaException 
 	 */
 	private void fillFromView(View view, Tab tab, Chart chart) throws XavaException, BackingStoreException {
+		/* tmp
 		if (view.isEditable("name")) {
 			chart.setName(view.getValueString("name"));
 		} else {
 			String name = Charts.INSTANCE.getChartPreferenceName(tab, view.getValueString("name"));
 			chart.setName(name);
 		}
+		*/
 		chart.setChartType((Chart.ChartType)view.getValue("chartType"));
 		chart.setyColumn(view.getValueString("yColumn"));
 	}
@@ -91,6 +93,7 @@ public enum Charts {
 	 * @throws BackingStoreException
 	 */
 	public void saveChart(View view, Tab tab, Chart chart) throws XavaException, BackingStoreException {
+		/* tmp
 		if (!Is.emptyString(chart.getName())) {
 			fillFromView(view, tab, chart);
 			// Makes sure to delete the correct one when changing sharing state
@@ -105,6 +108,7 @@ public enum Charts {
 			chart.setChanged(false);
 			chart.setNameEditable(false);
 		}
+		*/
 	}
 	
 	/**
@@ -115,6 +119,7 @@ public enum Charts {
 	 * @throws BackingStoreException
 	 */
 	private void saveChart(Chart chart, Preferences chartPreferences) throws BackingStoreException {
+		/* tmp
 		if (!Is.emptyString(chart.getName())) {
 			String name = chart.getName().startsWith(SHARED_NAME_PREFIX)
 					? chart.getName().substring(SHARED_NAME_PREFIX.length())
@@ -133,6 +138,7 @@ public enum Charts {
 			}
 			chartPreferences.flush();
 		}
+		*/
 	}
 	
 	/**
@@ -143,8 +149,10 @@ public enum Charts {
 	 * @throws BackingStoreException
 	 */
 	public void loadChart(Tab tab, Chart chart) throws XavaException, BackingStoreException {
+		/* tmp
 		String nodeName = nodeName(chart.getName(), chart.getShared());
 		loadChart(tab, chart, nodeName);
+		*/
 	}	
 	
 	/**
@@ -191,7 +199,7 @@ public enum Charts {
 		boolean returnValue = false;
 		try {
 			if (!Is.emptyString(chartPreferences.get(KEY_NAME, null))) {
-				chart.setName(chartPreferences.name());
+				// tmp chart.setName(chartPreferences.name());
 				chart.setyColumn(chartPreferences.get(KEY_X_AXES, ""));
 				chart.setShared(chartPreferences.getBoolean(KEY_SHARED, false));
 				chart.setChartType(Chart.ChartType.valueOf(chartPreferences.get(KEY_CHART_TYPE, "BAR")));
@@ -244,10 +252,12 @@ public enum Charts {
 			} catch (Exception e) {
 				log.debug(e.getMessage());
 			}
+			/* tmp
 			view.setEditable("name", false);
 			if (Is.emptyString(view.getValueString("name"))) {
 				view.setValue("name", name);
 			}
+			*/
 			view.setValue("yColumn", chart.getyColumn());
 			view.setValue("chartType", chart.getChartType());
 			view.setValueNotifying("chartData", chart.getChartType().jsType()

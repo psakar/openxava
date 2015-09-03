@@ -187,7 +187,7 @@
 		<tab name="TwoSellersNumber"/>
 		<controller name="Typical"/>		
 	</module>
-			<module name="CustomerSomeMembersReadOnly" folder="invoicing.variations">			<model name="Customer"/>		<view name="SomeMembersReadOnly"/>		<controller name="Typical"/>			</module>
+		<module name="CustomerSomeMembersReadOnly" folder="invoicing.variations">			<model name="Customer"/>		<view name="SomeMembersReadOnly"/>		<controller name="Typical"/>			</module>
 	
 	<module name="CustomerRadioButton" folder="invoicing.variations">	
 		<model name="Customer"/>		

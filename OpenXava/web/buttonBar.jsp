@@ -60,9 +60,26 @@ if (manager.isButtonBarVisible()) {
 	%>
 	</span>
 	</div>
+
 	
 	<div id="<xava:id name='modes'/>">
-	<span style="float: right">	
+	<span style="float: right">
+	<span style="float: left">
+	<%
+	if (mode.equals("list")) {
+		String tabObject = request.getParameter("tabObject");
+		tabObject = (tabObject == null || tabObject.equals(""))?"xava_tab":tabObject;
+		org.openxava.tab.Tab tab = (org.openxava.tab.Tab) context.get(request, tabObject);
+		Collection<String> editors = org.openxava.web.WebEditors.getEditors(tab.getMetaTab()); 	
+		for (String editor: editors) {
+	%>
+	<xava:link action="ListFormat.select" argv='<%="editor=" + editor%>'><%=editor%></xava:link>
+	<%
+		}
+	}	
+	%>
+	</span>
+		
 	<%
 	java.util.Stack previousViews = (java.util.Stack) context.get(request, "xava_previousViews"); 
 	if (headerButtonBar && previousViews.isEmpty()) { 

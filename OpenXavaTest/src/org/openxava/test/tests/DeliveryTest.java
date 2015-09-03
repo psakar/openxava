@@ -33,7 +33,6 @@ public class DeliveryTest extends ModuleTestBase {
 		"Print.generatePdf",
 		"Print.generateExcel",
 		"ExtendedPrint.myReports",
-		"Charts.charts",
 		"CRUD.new",
 		"CRUD.deleteSelected", 
 		"CRUD.deleteRow",
@@ -44,7 +43,8 @@ public class DeliveryTest extends ModuleTestBase {
 		"List.orderBy",
 		"List.viewDetail",
 		"List.hideRows",
-		"List.sumColumn"
+		"List.sumColumn",
+		"ListFormat.select" 
 	};
 		
 	public DeliveryTest(String testName) {
@@ -547,9 +547,9 @@ public class DeliveryTest extends ModuleTestBase {
 		assertTrue("It's required deliveries with invoices with and without seller discount", withDiscount && withoutDiscount);
 		
 		assertLabelInList(0, "Year of Invoice"); // We need Year to test this case, because is a numeric property of a reference in the first column
-		execute("Charts.charts");
+		execute("ListFormat.select", "editor=Charts"); 
 		assertNoErrors();
-		assertExists("name");		
+		assertExists("yColumn"); 
 	}
 		
 	public void testUseListWithOtherModelAndReturnToModuleList() throws Exception {

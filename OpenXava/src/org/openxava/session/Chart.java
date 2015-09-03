@@ -1,40 +1,27 @@
 package org.openxava.session;
 
-import java.io.Serializable;
-import java.util.List;
+import java.io.*;
+import java.util.*;
 
-import javax.persistence.Column;
-import javax.persistence.ElementCollection;
+import javax.persistence.*;
 
-import org.openxava.actions.OnChangeChartLabelColumnAction;
-import org.openxava.actions.OnChangeChartNameAction;
-import org.openxava.actions.OnChangeChartTypeAction;
-import org.openxava.annotations.DisplaySize;
-import org.openxava.annotations.Hidden;
-import org.openxava.annotations.LabelFormat;
-import org.openxava.annotations.LabelFormatType;
-import org.openxava.annotations.ListProperties;
-import org.openxava.annotations.OnChange;
-import org.openxava.annotations.RemoveSelectedAction;
-import org.openxava.annotations.Required;
-import org.openxava.annotations.View;
-import org.openxava.annotations.Views;
-import org.openxava.model.meta.MetaModel;
+import org.openxava.actions.*;
+import org.openxava.annotations.*;
+import org.openxava.model.meta.*;
 
-@Views({
-	@View(members = "name; chartData;"
-			+ "chartType, yColumn;"
-			+ "columns")
-})
-	
+/**
+ * 
+ * @author Federico Alcantara
+ * @author Javier Paniza
+ */
+
+@View(members = 
+	"chartData;" +
+	"chartType, yColumn;" +
+	"columns"
+)	
 public class Chart implements Serializable {
 	private static final long serialVersionUID = 1L;
-
-	@DisplaySize(40)
-	@Required
-	@OnChange(value = OnChangeChartNameAction.class)
-	@Column(length = 80)
-	private String name;
 	
 	@Hidden
 	private MetaModel metaModel;
@@ -90,15 +77,6 @@ public class Chart implements Serializable {
 		this.shared = false;
 	}
 	
-	public String getName() {
-		return name;
-	}
-
-	
-	public void setName(String name) {
-		this.name = name;
-	}
-
 	public MetaModel getMetaModel() {
 		return metaModel;
 	}
@@ -127,11 +105,9 @@ public class Chart implements Serializable {
 		return yColumn;
 	}
 
-
 	public void setyColumn(String xAxis) {
 		this.yColumn = xAxis;
 	}
-
 
 	public List<ChartColumn> getColumns() {
 		return columns;
@@ -144,7 +120,6 @@ public class Chart implements Serializable {
 	public Boolean getShared() {
 		return shared;
 	}
-
 
 	public void setShared(Boolean shared) {
 		this.shared = shared;
@@ -177,13 +152,12 @@ public class Chart implements Serializable {
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append("Chart [name=");
-		builder.append(name);
-		builder.append(", chartType=");
+		builder.append("Chart [chartType=");
 		builder.append(chartType);
 		builder.append(", shared=");
 		builder.append(shared);
 		builder.append("]");
 		return builder.toString();
 	}
+	
 }

@@ -15,6 +15,10 @@
 	<editor name="List" url="listEditor.jsp">
 		<for-tabs/>
 	</editor>
+	
+	<editor name="Charts" url="chartsEditor.jsp">
+		<for-tabs/>
+	</editor>
 		
 	<editor name="Reference" url="referenceEditor.jsp" frame="true" composite="true">
 		<for-references/>
@@ -27,6 +31,8 @@
 	<editor name="ElementCollection" url="elementCollectionEditor.jsp">
 		<for-element-collections/>
 	</editor>	
+	
+	
 	
 	<editor name="TextField" url="textEditor.jsp">
 		<for-type type="java.lang.String" />

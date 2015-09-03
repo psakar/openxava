@@ -123,6 +123,7 @@ public class Tab implements java.io.Serializable {
 	private Map<String, String> labels;  
 	private boolean columnsToAddUntilSecondLevel = true; 
 	private boolean cancelSavingPreferences = false;
+	private String editor;   
 	
 	private Messages errors; 
 	
@@ -2112,6 +2113,14 @@ public class Tab implements java.io.Serializable {
 
 	public void setErrors(Messages errors) {
 		this.errors = errors;
+	}
+
+	public String getEditor() {
+		return editor;
+	}
+
+	public void setEditor(String editor) {
+		this.editor = editor;
 	}
 
 }

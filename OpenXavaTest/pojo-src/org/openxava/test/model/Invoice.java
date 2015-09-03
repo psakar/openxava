@@ -223,7 +223,7 @@ public class Invoice {
 		@ReferenceView(forViews="DetailsWithTotals", value="Simplest"),
 		@ReferenceView(forViews="NoSections", value="SimpleWithCity") 
 	})
-	@AsEmbedded(forViews="CustomerAsAggregateWithDeliveryPlaces")	
+	@AsEmbedded(forViews="CustomerAsAggregateWithDeliveryPlaces")
 	private Customer customer;
 	
 	@OneToMany (mappedBy="invoice", cascade=CascadeType.REMOVE)

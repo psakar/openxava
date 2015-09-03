@@ -15,7 +15,6 @@ public class CustomerWithSectionTest extends CustomerTest {
 		"Print.generatePdf",
 		"Print.generateExcel",
 		"ExtendedPrint.myReports",
-		"Charts.charts",
 		"CRUD.new",
 		"CRUD.deleteSelected",
 		"CRUD.deleteRow", 
@@ -26,6 +25,7 @@ public class CustomerWithSectionTest extends CustomerTest {
 		"List.viewDetail",
 		"List.customize", // It does not exist since 5.2, we put here to verify that ModuleTestBase ignore it 
 		"List.hideRows",
+		"ListFormat.select",
 		"Customer.hideSellerInList",
 		"Customer.showSellerInList"
 	};

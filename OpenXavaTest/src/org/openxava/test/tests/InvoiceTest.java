@@ -1864,9 +1864,8 @@ public class InvoiceTest extends CustomizeListTestBase {
 		
 	public void testChartElements() throws Exception {
 		assertListNotEmpty();
-		execute("Charts.charts");
-		assertEditable("name"); 
-		assertValue("name", "INVOICE REPORT"); 
+		execute("ListFormat.select", "editor=Charts");
+		assertNoDialog(); 
 		assertValidValues("chartType", new String[][]{
 				{"", ""},
 				{Integer.toString(Chart.ChartType.BAR.ordinal()), "Bar"},
@@ -1886,30 +1885,9 @@ public class InvoiceTest extends CustomizeListTestBase {
 		assertChartDisplayed();
 
 		reload(); 
-		assertChartDisplayed();		 
+		assertChartDisplayed();	
 	}
 	
-	public void testChartSave() throws Exception {
-		assertListNotEmpty();
-		execute("Charts.charts");
-		assertCollectionNotEmpty("columns");
-		assertValueInCollection("columns", 0, "displayed", "false");
-		setValueInCollection("columns", 0, "displayed", "true"); 
-		setValue("name", "The Ultra Chart"); 
-		execute("Chart.save", "xava.keyProperty=name");
-		assertNoErrors();
-		
-		resetModule();
-		execute("Charts.charts");
-		assertValue("name", "THE ULTRA CHART"); 
-		String [][] storedCharts = {
-			{ "THE ULTRA CHART", "The Ultra Chart" }
-		};		
-		assertValidValues("name", storedCharts);
-
-		assertValueInCollection("columns", 0, "displayed", "true");
-	}
-
 	private void assertChartDisplayed() throws Exception {
 		DomElement container = getHtmlPage().getElementById(decorateId("xava_chart__container"));
 		if (container == null || (!container.hasChildNodes() && container.getChildNodes().size() < 10)) {	

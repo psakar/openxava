@@ -1301,15 +1301,12 @@ public class ModuleManager implements java.io.Serializable {
 	public boolean isXavaView(HttpServletRequest request) throws XavaException {
 		// For that a upload form does not delete the view data.
 		// It's a ad hoc solution. It can be improved
-		if (isFormUpload())
-			return false;
-
-		if ("xava/list".equals(getViewName()))
-			return false;
+		if (isFormUpload())	return false;
+		
 		if ("xava/detail".equals(getViewName())
-				|| (getViewName().equals(defaultView)))
+				|| (getViewName().equals(defaultView))) {
 			return true; // Because a custom JSP page can use xava_view too
-
+		}
 		return hasXavaEditor(request);
 	}
 

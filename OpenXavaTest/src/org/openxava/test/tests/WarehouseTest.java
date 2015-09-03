@@ -85,7 +85,7 @@ public class WarehouseTest extends WarehouseSplitTestBase {
 		assertValueInList(9, 0, "7"); assertValueInList(9, 1, "9");		
 	}
 	
-	public void testChangePageRowCount() throws Exception {
+	public void testChangePageRowCount() throws Exception { 
 		assertChangeRowCount(10, 5);		
 		tearDown(); setUp();
 		assertChangeRowCount(5, 10);
