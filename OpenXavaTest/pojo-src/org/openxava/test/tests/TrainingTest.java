@@ -231,7 +231,7 @@ public class TrainingTest extends ModuleTestBase {
 		assertNoErrors(); 
 		execute("Mode.list");
 		execute("Mode.detailAndFirst");
-		assertCollectionRowCount("sessions", 1); // tmp Falla
+		assertCollectionRowCount("sessions", 1); 
 		assertValueInCollection("sessions", 0, "description", "FIVE"); 
 		assertValueInCollection("sessions", 0, "kms", "15");		
 						

@@ -16,7 +16,7 @@ public class CarPhoto {
 	private byte [] photo;
 	
 	@Column(length=50)
-	private String description;
+	private String description; 
 
 	public byte [] getPhoto() {
 		return photo;

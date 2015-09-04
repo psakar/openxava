@@ -11,10 +11,7 @@ package org.openxava.actions;
  */
 public class OnChangeChartColumnDisplayedAction extends
 		OnChangeChartColumnBaseAction implements IOnChangePropertyAction {
-	/**
-	 * @see org.openxava.actions.IAction#execute()
-	 */
-	@Override
+
 	public void executeOnValidValues() throws Exception {
 		if (getChartColumn() != null) {
 			getChartColumn().setDisplayed(Boolean.TRUE.equals(getNewValue()));
@@ -22,3 +19,4 @@ public class OnChangeChartColumnDisplayedAction extends
 	}
 	
 }
+

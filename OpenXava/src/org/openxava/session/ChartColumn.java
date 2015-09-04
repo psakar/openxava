@@ -59,6 +59,7 @@ public class ChartColumn implements Serializable {
 	@Required @Column(length=60) 
 	private String label; 
 	
+	
 	@OnChange(value = OnChangeChartColumnDisplayedAction.class)
 	@DefaultValueCalculator(value = TrueCalculator.class)
 	private boolean displayed; 

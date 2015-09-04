@@ -44,6 +44,16 @@ public class CarTest extends ImageTestBase {
 		assertImage("photos.1.photo");
 		
 		reload(); // In order that actions work fine after the above assertImage() usage
+		setValueInCollection("photos", 1, "description", "");
+		execute("CRUD.save");
+		execute("Mode.list");
+		execute("Mode.detailAndFirst");
+		assertValueInCollection("photos", 0, "description", "FRONT");
+		assertValueInCollection("photos", 1, "description", "");	
+		assertNoImage("photos.0.photo");
+		assertImage("photos.1.photo");
+		
+		reload(); // In order that actions work fine after the above assertImage() usage
 		execute("CRUD.delete");
 		assertNoErrors();
 	}
