@@ -66,6 +66,12 @@ public class NaviOXPreferences {
 		return getProperties().getProperty("autologinPassword", "").trim();
 	}
 	
+	/** @since 5.4 */
+	public String getInitialPasswordForAdmin() { 
+		return getProperties().getProperty("initialPasswordForAdmin", "admin").trim();
+	}
+
+	
 	private String getCreateSchema() {
 		return getProperties().getProperty("createSchema", "CREATE SCHEMA ${schema}").trim();
 	}

@@ -14,6 +14,18 @@
 		<action name="signIn"  			
 			class="com.openxava.naviox.actions.SignInAction"/>
 			
+	</controller>
+	
+	<controller name="Configuration">
+	
+		<action name="init" after-each-request="true" hidden="true"  			
+			class="com.openxava.naviox.actions.InitConfigurationAction"/>
+	
+		<action name="save" mode="detail"
+			by-default="if-possible"
+			class="com.openxava.naviox.actions.SaveConfigurationAction"
+			keystroke="Control S"/>
+						
 	</controller>		
 
 	<controller name="User">
