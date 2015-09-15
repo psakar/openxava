@@ -408,24 +408,37 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus
 	-webkit-box-shadow: 0px 2px 7px #CCCCCC;	
 }
 
-.ox-button-bar .ox-button-bar-button a, .ox-button-bar-mode-button, .ox-collection-list-actions .ox-button-bar-button a {
+.ox-button-bar .ox-button-bar-button a, .ox-button-bar-mode-button, 
+.ox-collection-list-actions .ox-button-bar-button a {
 	border: 1px solid #F5F5F5;
 	padding: 6px 6px 6px 0px;
-	color: #6F6F6F;
 	font-weight: bold;
 	text-decoration: none;	
 }
 
-.ox-button-bar .ox-button-bar-button a:hover, .ox-collection-list-actions .ox-button-bar-button a:hover, .ox-subcontroller-select a {  
+.ox-button-bar .ox-button-bar-button a, .ox-button-bar-mode-button, 
+.ox-collection-list-actions .ox-button-bar-button a, 
+.ox-list-formats i, .ox-image-link i { 
+	color: #6F6F6F;
+}
+
+.ox-button-bar .ox-button-bar-button a:hover, 
+.ox-collection-list-actions .ox-button-bar-button a:hover, 
+.ox-subcontroller-select a, .ox-list-formats i:hover {   
 	border-radius: 2px;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;	
 	padding: 6px 6px 6px 0px;
-	color: #191919;
 	border: 1px solid #C6C6C6;	
 	box-shadow: 0px 1px 2px #CCCCCC; 
 	-moz-box-shadow: 0px 1px 2px #CCCCCC; 
 	-webkit-box-shadow: 0px 1px 2px #CCCCCC;
+}
+
+.ox-button-bar .ox-button-bar-button a:hover, 
+.ox-collection-list-actions .ox-button-bar-button a:hover, 
+.ox-subcontroller-select a, .ox-list-formats i:hover, .ox-image-link i:hover  {   
+	color: #191919;
 }
 
 .ox-button-bar-mode-button { 
@@ -434,6 +447,41 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus
 
 .ox-button-bar a:focus { 
 	outline: none; 
+}
+
+i {
+	vertical-align: middle; 
+}
+
+.ox-image-link i {
+	font-size: 140%;
+	padding: 4px;
+}
+
+.ox-button-bar .ox-button-bar-button i, .ox-collection-list-actions i {
+	margin-left: 5px; 
+	font-size: 140%;
+}
+
+.ox-list-formats i {
+	margin-top: -7px;
+	margin-left: -5px;	 
+	font-size: 150%;
+	padding: 5px 5px 5px 5px;
+	
+}
+
+.ox-list-formats i:hover {
+	padding: 4px 4px 4px 4px;
+}
+
+.ox-list-formats a:hover {
+	text-decoration: none;
+}
+
+.ox-total-row i {
+	font-size: 120%;
+	padding-bottom: 6px;
 }
 
 input[type="button"], .ipad input[type="button"]:hover, A#show_modules {
@@ -711,8 +759,17 @@ input[type="button"]:active, A#show_modules.show-modules-selected {
 	margin-right: 3px;
 }
 
+.ox-frame-actions a { 
+	outline: none;
+}
+
 .ox-images-gallery {
 	padding-top: 10px;
+}
+
+.ox-images-gallery .ox-frame-actions i { 
+	margin-top: -5px;
+	margin-right: -6px;
 }
 
 .ox-images-gallery .ox-frame-title {

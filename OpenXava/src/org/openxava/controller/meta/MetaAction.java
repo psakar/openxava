@@ -32,6 +32,7 @@ public class MetaAction extends MetaElement implements Cloneable {
 	private String qualifiedName;
 	private String method;
 	private String image;
+	private String icon; 
 	private String keystroke;
 	private String mode;	
 	private String className;
@@ -169,6 +170,10 @@ public class MetaAction extends MetaElement implements Cloneable {
 	
 	public boolean hasImage() {
 		return !Is.emptyString(this.image);
+	}
+	
+	public boolean hasIcon() { 
+		return !Is.emptyString(this.icon);
 	}
 
 	public void _addMetaSet(MetaSet metaSet) {
@@ -348,6 +353,14 @@ public class MetaAction extends MetaElement implements Cloneable {
 
 	public void setAfterEachRequest(boolean afterEachRequest) {
 		this.afterEachRequest = afterEachRequest;
+	}
+
+	public String getIcon() {
+		return icon;
+	}
+
+	public void setIcon(String icon) {
+		this.icon = icon;
 	}
 	
 	

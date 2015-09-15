@@ -4958,6 +4958,7 @@ OpenXava/licenses/lgpl.txt -text
 OpenXava/licenses/license.dom.txt -text
 OpenXava/licenses/license.sax.txt -text
 OpenXava/licenses/license.xerces.txt -text
+OpenXava/licenses/material-design-icons-license.txt -text svneol=unset#text/plain
 OpenXava/licenses/tl-license.txt -text
 OpenXava/notcompile/org/openxava/converters/typeadapters/ArrayOneRowResultSetAdapter.java -text
 OpenXava/notcompile/org/openxava/converters/typeadapters/ObjectPreparedStatementAdapter.java -text
@@ -5740,7 +5741,7 @@ OpenXava/web/WEB-INF/lib/validation-api.jar -text
 OpenXava/web/WEB-INF/openxava.tld -text svneol=unset#text/plain
 OpenXava/web/WEB-INF/web.xml -text
 OpenXava/web/addToCollection.jsp -text svneol=unset#text/plain
-OpenXava/web/barButton.jsp -text
+OpenXava/web/barButton.jsp -text svneol=unset#text/plain
 OpenXava/web/bottomButtons.jsp -text svneol=unset#text/plain
 OpenXava/web/buttonBar.jsp -text svneol=unset#text/plain
 OpenXava/web/collection.jsp -text svneol=unset#text/plain
@@ -6106,6 +6107,7 @@ OpenXava/web/editors/validValuesEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/webURLEditor.jsp -text
 OpenXava/web/errors.jsp -text
 OpenXava/web/execute.jsp -text svneol=unset#text/plain
+OpenXava/web/fonts/materialdesignicons-webfont.woff -text
 OpenXava/web/frameActions.jsp -text svneol=unset#text/plain
 OpenXava/web/htmlTagsEditor.jsp -text
 OpenXava/web/images/add.gif -text
@@ -6418,6 +6420,7 @@ OpenXava/web/style/liferay51/images/portlet/restore.png -text
 OpenXava/web/style/liferay51/images/progress_bar/loading_animation.gif -text
 OpenXava/web/style/liferay51/js/barebone_unpacked.js -text
 OpenXava/web/style/liferay51/js/theme_display.js -text
+OpenXava/web/style/materialdesignicons.css -text svneol=unset#text/plain
 OpenXava/web/style/portal.css -text svneol=unset#text/plain
 OpenXava/web/style/skins.css -text svneol=unset#application/octet-stream
 OpenXava/web/style/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png -text
@@ -6461,6 +6464,7 @@ OpenXava/web/style/yahoo-treeview/treeview-sprite.gif -text
 OpenXava/web/style/yahoo-treeview/treeview.css -text
 OpenXava/web/style/yahoo.css -text svneol=unset#application/octet-stream
 OpenXava/web/subButton.jsp -text svneol=unset#text/plain
+OpenXava/xava/default-controllers-original.xml -text svneol=unset#text/plain
 OpenXava/xava/default-controllers.xml -text svneol=unset#text/plain
 OpenXava/xava/default-converters.xml -text
 OpenXava/xava/default-editors.xml -text
@@ -11067,6 +11071,7 @@ OpenXavaTest/web/xava/editors/validValuesEditor.jsp -text
 OpenXavaTest/web/xava/editors/webURLEditor.jsp -text
 OpenXavaTest/web/xava/errors.jsp -text
 OpenXavaTest/web/xava/execute.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/fonts/materialdesignicons-webfont.woff -text
 OpenXavaTest/web/xava/frameActions.jsp -text
 OpenXavaTest/web/xava/htmlTagsEditor.jsp -text
 OpenXavaTest/web/xava/images/add.gif -text
@@ -11078,6 +11083,7 @@ OpenXavaTest/web/xava/images/ascending3.gif -text
 OpenXavaTest/web/xava/images/attach.gif -text
 OpenXavaTest/web/xava/images/back.gif -text
 OpenXavaTest/web/xava/images/calendar.gif -text
+OpenXavaTest/web/xava/images/charts.png -text
 OpenXavaTest/web/xava/images/checked.gif -text
 OpenXavaTest/web/xava/images/clear-right.gif -text
 OpenXavaTest/web/xava/images/create_new.gif -text
@@ -11106,6 +11112,7 @@ OpenXavaTest/web/xava/images/level-down.gif -text
 OpenXavaTest/web/xava/images/level-left.gif -text
 OpenXavaTest/web/xava/images/level-right.gif -text
 OpenXavaTest/web/xava/images/level-up.gif -text
+OpenXavaTest/web/xava/images/list.png -text
 OpenXavaTest/web/xava/images/loading.gif -text
 OpenXavaTest/web/xava/images/maximize.gif -text
 OpenXavaTest/web/xava/images/minimize.gif -text
@@ -11381,6 +11388,7 @@ OpenXavaTest/web/xava/style/liferay51/images/portlet/restore.png -text
 OpenXavaTest/web/xava/style/liferay51/images/progress_bar/loading_animation.gif -text
 OpenXavaTest/web/xava/style/liferay51/js/barebone_unpacked.js -text
 OpenXavaTest/web/xava/style/liferay51/js/theme_display.js -text
+OpenXavaTest/web/xava/style/materialdesignicons.css -text svneol=unset#text/plain
 OpenXavaTest/web/xava/style/portal.css -text
 OpenXavaTest/web/xava/style/skins.css -text svneol=unset#application/octet-stream
 OpenXavaTest/web/xava/style/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png -text

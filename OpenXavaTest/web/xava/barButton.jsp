@@ -25,10 +25,13 @@ if (!Is.emptyString(actionName)) {
 <span class="<%=style.getButtonBarButton()%>">	
 	<xava:link action="<%=action.getQualifiedName()%>" argv='<%=argv%>'>
 		<% 
-		boolean showLabel = (showLabels || !action.hasImage()) && !Is.emptyString(label); 
+		boolean showLabel = (showLabels || !action.hasImage()) && !Is.emptyString(label);  
 		boolean showImage = showImages && action.hasImage() || action.hasImage() && Is.emptyString(label);
+		boolean showIcon = showImages && action.hasIcon() || action.hasIcon() && Is.emptyString(label);  
 		%>
-		<% if (showImage) { %>
+		<% if (showIcon) { %>
+		<i class="mdi mdi-<%=action.getIcon()%>"></i>
+		<% } else if (showImage) { %>
 		<span style="padding:4px; background: url(<%=request.getContextPath()%>/<%=style.getImagesFolder()%>/<%=action.getImage()%>) no-repeat 5px 50%;">				
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		</span>		

@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- New icons, now all standard OpenXava actions use Material Design Icons instead of gifs or pngs.
+- New icon property in action definition to define an icon by name from Material Design Icons.
 - Charts no longer are shown in a dialog but flat in the list space.
 - UI for charts simplified.
 - start-manager-hsqldb.bat/.sh no longer need the JAVA_HOME environment variable.

@@ -69,7 +69,7 @@ public class AJAXTest extends ModuleTestBase {
 			"errors, messages");
 		
 		HtmlElement row = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Quote__details___1"); 
-		HtmlElement removeIcon = row.getElementsByTagName("a").get(0).getElementsByTagName("img").get(0);
+		HtmlElement removeIcon = row.getElementsByTagName("a").get(0).getElementsByTagName("i").get(0);  
 		removeIcon.click();		
 		getWebClient().waitForBackgroundJavaScriptStartingBefore(10000);
 		assertLoadedParts(
@@ -95,7 +95,7 @@ public class AJAXTest extends ModuleTestBase {
 		execute("Mode.detailAndFirst");
 		assertLoadedParts("core");
 		HtmlElement row = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Reallocation__details___1"); 
-		HtmlElement removeIcon = row.getElementsByTagName("a").get(0).getElementsByTagName("img").get(0);
+		HtmlElement removeIcon = row.getElementsByTagName("a").get(0).getElementsByTagName("i").get(0); 
 		removeIcon.click();		
 		getWebClient().waitForBackgroundJavaScriptStartingBefore(10000);
 		assertLoadedParts("core"); // No AJAX call at all			

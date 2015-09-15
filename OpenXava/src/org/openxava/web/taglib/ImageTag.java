@@ -76,13 +76,21 @@ public class ImageTag extends TagSupport implements IActionTag {
 				pageContext.getOut().print(getArgv());				
 			}
 			pageContext.getOut().print("')\">");
-			pageContext.getOut().print("<img src='");
-			pageContext.getOut().print(request.getContextPath() + "/" + style.getImagesFolder() + "/"+ metaAction.getImage());
-			pageContext.getOut().println("'");
-			pageContext.getOut().print("\talt='");
-			pageContext.getOut().print(metaAction.getKeystroke() + " - " +  metaAction.getDescription(request));
-			pageContext.getOut().println("'"); 
-			pageContext.getOut().print("\tborder='0' align='absmiddle'/></a>"); 
+			if (metaAction.hasIcon()) {
+				pageContext.getOut().print("<i class='mdi mdi-");
+				pageContext.getOut().print(metaAction.getIcon());
+				pageContext.getOut().print("'></i>");  
+			}
+			else {
+				pageContext.getOut().print("<img src='");
+				pageContext.getOut().print(request.getContextPath() + "/" + style.getImagesFolder() + "/"+ metaAction.getImage());
+				pageContext.getOut().println("'");
+				pageContext.getOut().print("\talt='");
+				pageContext.getOut().print(metaAction.getKeystroke() + " - " +  metaAction.getDescription(request));
+				pageContext.getOut().println("'"); 
+				pageContext.getOut().print("\tborder='0' align='absmiddle'/>");				
+			}
+			pageContext.getOut().print("</a>");
 		}
 		catch (Exception ex) {
 			log.error(ex.getMessage(), ex);

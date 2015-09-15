@@ -241,7 +241,7 @@ public class TrainingTest extends ModuleTestBase {
 	
 	private void removeSessionsRow(int rowIndex) throws Exception { 
 		HtmlElement row = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Training__sessions___" + rowIndex); 
-		HtmlElement removeIcon = row.getElementsByTagName("a").get(0).getElementsByTagName("img").get(0);
+		HtmlElement removeIcon = row.getElementsByTagName("a").get(0).getElementsByTagName("i").get(0); 
 		removeIcon.click();		
 	}
 

@@ -26,6 +26,7 @@
  description CDATA #IMPLIED
  mode (detail|list|ALL|NONE) "ALL"
  image CDATA #IMPLIED
+ icon CDATA #IMPLIED
  keystroke CDATA #IMPLIED
  class CDATA #REQUIRED
  hidden (true|false) "false"

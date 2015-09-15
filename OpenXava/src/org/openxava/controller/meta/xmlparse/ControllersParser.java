@@ -105,6 +105,7 @@ public class ControllersParser extends ParserBase {
 		result.setDescription(el.getAttribute(xdescription[lang]));
 		result.setMethod(el.getAttribute(xmethod[lang])); // only in spanish/swing version
 		result.setImage(el.getAttribute(ximage[lang]));
+		result.setIcon(el.getAttribute(xicon[lang])); 
 		result.setKeystroke(el.getAttribute(xkeystroke[lang]));		
 		result.setClassName(el.getAttribute(xclass[lang]));
 		result.setHidden(getAttributeBoolean(el, xhidden[lang]));

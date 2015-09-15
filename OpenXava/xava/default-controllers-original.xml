@@ -43,76 +43,29 @@ here that you want to override.
 	<controller name="Void"/>	
 	<controller name="CRUD">
 	
-		<action  name="new" 
-			class="org.openxava.actions.NewAction"
-			image="new.gif"
-			icon="library-plus"
-			keystroke="Control N">
-			<set property="restoreModel" value="true"/>			
-		</action>
+		<action  name="new" 			class="org.openxava.actions.NewAction"			image="new.gif"			keystroke="Control N">
+			<set property="restoreModel" value="true"/>					</action>
 
 		<action name="save" mode="detail"
-			by-default="if-possible"
-			class="org.openxava.actions.SaveAction"
-			image="save.gif"
-			icon="content-save"
-			keystroke="Control S"/>	
-		
-		<action name="delete" mode="detail" confirm="true"
-			class="org.openxava.actions.DeleteAction"
-			image="delete.gif"
-			icon="delete"
-			keystroke="Control D"/>
-		
+			by-default="if-possible"			class="org.openxava.actions.SaveAction"			image="save.gif"			keystroke="Control S"/>							<action name="delete" mode="detail" confirm="true"			class="org.openxava.actions.DeleteAction"			image="delete.gif"			keystroke="Control D"/>		
 		<action name="search" mode="detail" 			 
 			class="org.openxava.actions.OpenSearchDialogAction" 
-			image="find.gif"
-			icon="magnify" 
-			keystroke="control B"/> 
-		
-		<action name="refresh" mode="detail"			
-			class="org.openxava.actions.SearchAction"
-			image="refresh.gif"
-			icon="refresh"
-			keystroke="control B"/>											
-		
-		<action name="searchByViewKey" hidden="true"			
-			class="org.openxava.actions.SearchByViewKeyAction"/>
-		
+			image="find.gif" 
+			keystroke="control B"/> 				<action name="refresh" mode="detail"						class="org.openxava.actions.SearchAction"			image="refresh.gif"			keystroke="control B"/>															<action name="searchByViewKey" hidden="true"						class="org.openxava.actions.SearchByViewKeyAction"/>		
 		<action name="searchExecutingOnChange" hidden="true"
 			class="org.openxava.actions.SearchExecutingOnChangeAction"/>
 		
 		<action name="searchReadOnly" hidden="true"					
 			class="org.openxava.actions.SearchReadOnlyAction"/>
-						
-		<action name="deleteSelected" mode="list" confirm="true"
-			class="org.openxava.actions.DeleteSelectedAction"
+								<action name="deleteSelected" mode="list" confirm="true"			class="org.openxava.actions.DeleteSelectedAction"
 			keystroke="Control D"/>
 		
 		<action name="deleteRow" mode="NONE" confirm="true"
 			class="org.openxava.actions.DeleteSelectedAction"
 			image="delete.gif"
-			icon="delete"
-			in-each-row="true"/>					
-		
-	</controller>
-		<controller name="Print">
-								
-		<action name="generatePdf" mode="list"
-			class="org.openxava.actions.GenerateReportAction"
-			image="pdf.gif"
-			icon="file-pdf"
-			keystroke="Control Alt P">
-			<set property="type" value="pdf"/>
-		</action>
+			in-each-row="true"/>								</controller>		<controller name="Print">										<action name="generatePdf" mode="list"			class="org.openxava.actions.GenerateReportAction"			image="pdf.gif"			keystroke="Control Alt P">			<set property="type" value="pdf"/>		</action>
 
-		<action name="generateExcel" mode="list"
-			class="org.openxava.actions.GenerateReportAction"
-			image="excel.gif"
-			icon="file-excel"
-			keystroke="Control Alt X">
-			<set property="type" value="csv"/>	
-		</action>
+		<action name="generateExcel" mode="list"			class="org.openxava.actions.GenerateReportAction"			image="excel.gif"			keystroke="Control Alt X">			<set property="type" value="csv"/>			</action>
 		
 	</controller>	
 	
@@ -121,8 +74,7 @@ here that you want to override.
 		
 		<action name="myReports" mode="list"
 			class="org.openxava.actions.MyReportsAction"
-			image="reports.png"
-			icon="library-books">	
+			image="reports.png">	
 		</action>
 		
 	</controller>
@@ -143,47 +95,38 @@ here that you want to override.
 			class="org.openxava.actions.CancelDialogAction"/>
 		<action name="columnUp" hidden="true" 
 			class="org.openxava.actions.MoveMyReportColumnAction"
-			icon="menu-up"
 			image="descending.gif">
 			<set property="increment" value="-1"/>
 		</action>
 		<action name="columnDown" hidden="true"
 			class="org.openxava.actions.MoveMyReportColumnAction"
-			icon="menu-down"
 			image="ascending.gif">
 			<set property="increment" value="1"/>
 		</action>
 		<action name="removeColumn" hidden="true" in-each-row="true"
 			class="org.openxava.actions.RemoveMyReportColumnAction"
-			icon="delete"
 			image="delete.gif"/>			
 		<action name="saveColumn" hidden="true" 
 			class="org.openxava.actions.SaveMyReportColumnAction"/>
 		<action name="newColumn" hidden="true"
 			class="org.openxava.actions.CreateNewMyReportColumnAction"
-			icon="table-column-plus-after"
 			image="create_new.gif" />						
 		<action name="editColumn" hidden="true" 
 			class="org.openxava.actions.EditMyReportColumnAction"
-			icon="pencil"
 			image="edit.gif"/>					
 		<action name="createNew" hidden="true"
 			class="org.openxava.actions.CreateNewMyReportAction"
-			icon="library-plus"
 			image="create_new.gif"/>			
 		<action name="remove" hidden="true" confirm="true"
 			class="org.openxava.actions.RemoveMyReportAction"
-			icon="delete"
 			image="delete.gif"/>
 		<action name="share" hidden="true" image="shared-reports.png"
-			icon="share-variant"
 			class="org.openxava.actions.ShareMyReportAction"/>																																										
 	</controller>
 		
 	<controller name="Chart">
 		<action name="removeColumn" hidden="true" in-each-row="true"
 			class="org.openxava.actions.RemoveChartColumnAction"
-			icon="delete"
 			image="delete.gif"/>
 	</controller>
 	
@@ -192,7 +135,6 @@ here that you want to override.
 		<action name="save" mode="detail"
 			class="org.openxava.actions.SaveAction"
 			image="save.gif"
-			icon="content-save"
 			by-default="if-possible"
 			keystroke="F3">			
 			<set property="resetAfter" value="false"/>
@@ -204,7 +146,6 @@ here that you want to override.
 		<action name="new" on-init="true"
 			class="org.openxava.actions.NewAction"
 			image="new.gif"
-			icon="library-plus"
 			keystroke="Control N">
 			<set property="restoreModel" value="true"/>			
 		</action>		
@@ -231,6 +172,7 @@ here that you want to override.
 		<action name="initList" on-init="true"
 			class="org.openxava.actions.InitListAction"
 			hidden="true"/>
+		<!-- tmp 	
 		<action name="detailAndFirst"
 			class="org.openxava.actions.GoDetailAction"
 			keystroke="F8">
@@ -239,6 +181,18 @@ here that you want to override.
 		<action name="list"
 			class="org.openxava.actions.GoListAction"
 			keystroke="F9"/>
+		-->
+		<!-- tmp ini -->
+		<!-- tmp Cambiar el orden en todos los controladores de modo  -->
+		<action name="list"
+			class="org.openxava.actions.GoListAction"
+			keystroke="F9"/>
+		<action name="detailAndFirst"
+			class="org.openxava.actions.GoDetailAction"
+			keystroke="F8">
+			<set property="nextAction" value="Navigation.first"/>
+		</action>					
+		<!-- tmp fin -->
 		<action name="split"
 			class="org.openxava.actions.GoSplitAction"
 			keystroke="F10"/>
@@ -282,55 +236,28 @@ here that you want to override.
 			class="org.openxava.actions.SetPageRowCountAction"
 			hidden="true"/>				
 
-		<action name="viewDetail"
-			class="org.openxava.actions.ViewDetailAction"
-			keystroke="F7"
-			hidden="true"
+		<action name="viewDetail"			class="org.openxava.actions.ViewDetailAction"			keystroke="F7"			hidden="true"
 			mode="list"
-			image="edit.gif"
-			icon="border-color">
-			<set property="nextAction" value="Mode.detail"/>
-		</action>	
-		 
-		<action name="goPreviousPage"
-			class="org.openxava.actions.GoPreviousPageAction"
-			keystroke="Control A"
-			hidden="true"
-			mode="list"
-			image="previous_page.gif"/>					
-		
-		<action name="goPage"
-			class="org.openxava.actions.GoPageAction"
-			keystroke="Control I"
-			hidden="true"
-			mode="list"/>	
-				
-		<action name="goNextPage"
-			class="org.openxava.actions.GoNextPageAction"
-			keystroke="Control S"
-			hidden="true"
-			mode="list"
-			image="next_page.gif"/>			
+			image="edit.gif">
+			<set property="nextAction" value="Mode.detail"/>		</action>	
+		 		<action name="goPreviousPage"			class="org.openxava.actions.GoPreviousPageAction"			keystroke="Control A"			hidden="true"
+			mode="list"			image="previous_page.gif"/>									<action name="goPage"			class="org.openxava.actions.GoPageAction"			keystroke="Control I"			hidden="true"
+			mode="list"/>							<action name="goNextPage"			class="org.openxava.actions.GoNextPageAction"			keystroke="Control S"			hidden="true"
+			mode="list"			image="next_page.gif"/>			
 				
 		<action name="orderBy"
 			class="org.openxava.actions.OrderByAction"
 			hidden="true"
 			mode="list">
 		</action>		
-					
-		<action name="filter" by-default="almost-always"
+							<action name="filter" by-default="almost-always"
 			class="org.openxava.actions.FilterAction"
 			hidden="true"
 			mode="list"
-			icon="play"
 			image="filter.gif">
 		</action>															
-		
-		<action name="deselectRows"
-			class="org.openxava.actions.DeselectRowsAction"
-			hidden="true"
-			mode="list">			
-		</action>	
+				<action name="deselectRows"			class="org.openxava.actions.DeselectRowsAction"			hidden="true"
+			mode="list">					</action>	
 						
 		<action name="addColumns"
 			class="org.openxava.actions.GoAddColumnsAction"
@@ -352,17 +279,15 @@ here that you want to override.
 			class="org.openxava.actions.SumColumnAction"
 			hidden="true"
 			mode="list"
-			icon="sigma"
 			image="summation.gif"/>
 			
 		<action name="removeColumnSum"
 			class="org.openxava.actions.RemoveColumnSumAction"
 			hidden="true"
 			mode="list"
-			icon="close-circle"
-			image="remove.gif"/>
+			image="remove.gif"/>			
 		
-	</controller>	
+	</controller>
 	
 	<controller name="ListFormat">
 		<action name="select" 
@@ -396,30 +321,14 @@ here that you want to override.
 			<controller name="Navigation">
 		<action name="first" mode="detail"
 			image="home.gif"
-			icon="rewind"
 			class="org.openxava.actions.ViewDetailAction"
 			by-default="never"			
 			keystroke="control alt HOME">
 			<set property="goFirst" value="true"/>
-		</action>										
-		<action name="previous" mode="detail"
-			image="previous.gif"
-			icon="skip-previous"
-			class="org.openxava.actions.ViewDetailAction"
-			by-default="never"
-			keystroke="control alt LEFT">
-			<set property="increment" value="-1"/>
-		</action>							
-		<action name="next" mode="detail"
-			image="next.gif"
-			icon="skip-next"
-			class="org.openxava.actions.ViewDetailAction"
-			by-default="never"
-			keystroke="control alt RIGHT">
-			<set property="increment" value="1"/>			
-		</action>									
-	</controller>
-										<controller name="ImageEditor">
+		</action>													<action name="previous" mode="detail"			image="previous.gif"			class="org.openxava.actions.ViewDetailAction"
+			by-default="never"			keystroke="control alt LEFT">			<set property="increment" value="-1"/>
+		</action>									<action name="next" mode="detail"			image="next.gif"			class="org.openxava.actions.ViewDetailAction"
+			by-default="never"			keystroke="control alt RIGHT">			<set property="increment" value="1"/>					</action>										</controller>										<controller name="ImageEditor">
 		<action name="changeImage"			
 			class="org.openxava.actions.ChangeImageAction"/>								
 		<action name="deleteImage" confirm="true"
@@ -428,18 +337,14 @@ here that you want to override.
 	
 	<controller name="Gallery">
 		<action name="edit" image="photo.gif" hidden="true"
-			icon="camera"
-			class="org.openxava.actions.EditGalleryAction"/>	
+			class="org.openxava.actions.EditGalleryAction"/>			
 		<action name="addImage"		
 			class="org.openxava.actions.AddImageToGalleryAction"/>
 		<action name="maximizeImage" hidden="true" image="maximize.gif"
-			icon="arrow-expand"
 			class="org.openxava.actions.MaximizeImageAction"/>
 		<action name="minimizeImage" hidden="true" image="minimize.gif"
-			icon="arrow-collapse"
 			class="org.openxava.actions.MinimizeImageAction"/>		
 		<action name="removeImage" hidden="true" image="remove.gif" confirm="true"
-			icon="delete"
 			class="org.openxava.actions.RemoveImageFromGalleryAction"/>
 		<action name="close" 
 			class="org.openxava.actions.CancelAction"/>						
@@ -470,21 +375,12 @@ here that you want to override.
 			class="org.openxava.actions.CancelAction"/>			
 	</controller>	
 	
-	<controller name="Reference">
-		<action name="search"
-			class="org.openxava.actions.ReferenceSearchAction"
-			icon="magnify"
-			image="search.gif"/>		
-		<action name="createNew" 
+	<controller name="Reference">		<action name="search"			class="org.openxava.actions.ReferenceSearchAction"			image="search.gif"/>				<action name="createNew" 
 			class="org.openxava.actions.CreateNewFromReferenceAction"
-			icon="library-plus"
-			image="create_new.gif"/>
-		<action name="modify" 
+			image="create_new.gif"/>		<action name="modify" 
 			class="org.openxava.actions.ModifyFromReferenceAction"
-			icon="border-color"
 			image="edit.gif"/>
-	</controller>
-	
+	</controller>	
 	<!--
 		This controller is using when create a new entity from a reference.
 		If you need to overwrite, you can create your own controller
@@ -522,27 +418,20 @@ here that you want to override.
 			class="org.openxava.actions.CancelFromCustomListAction"/>
 	</controller>
 		<controller name="Collection">
-				<action name="new" image="create_new.gif"
-			icon="library-plus"			class="org.openxava.actions.CreateNewElementInCollectionAction"/>							
+				<action name="new" image="create_new.gif"			class="org.openxava.actions.CreateNewElementInCollectionAction"/>							
 			
 		<action name="add" image="create_new.gif"
-			icon="table-row-plus-after"
-			class="org.openxava.actions.GoAddElementsToCollectionAction"/>
-			
-		<action name="hideDetail"			class="org.openxava.actions.HideDetailElementInCollectionAction"/>			
+			class="org.openxava.actions.GoAddElementsToCollectionAction"/>					
+				<action name="hideDetail"			class="org.openxava.actions.HideDetailElementInCollectionAction"/>			
 		<action name="save"			class="org.openxava.actions.SaveElementInCollectionAction"/>			
 
 		<action name="saveAndStay"
 			class="org.openxava.actions.SaveAndStayElementInCollectionAction"/>			
 							<action name="remove" confirm="true"			class="org.openxava.actions.RemoveElementFromCollectionAction"/>
 						
-		<action name="edit" image="edit.gif"
-			icon="pencil"			class="org.openxava.actions.EditElementInCollectionAction"/>					
-											<action name="view" image="view.gif"
-			icon="eye"			class="org.openxava.actions.ViewElementInCollectionAction"/>
-			
-		<action name="removeSelected" confirm="true"
-			icon="delete" 
+		<action name="edit" image="edit.gif"			class="org.openxava.actions.EditElementInCollectionAction"/>					
+											<action name="view" image="view.gif"			class="org.openxava.actions.ViewElementInCollectionAction"/>					
+		<action name="removeSelected" confirm="true" 
 			image="delete.gif" in-each-row="true"
 			class="org.openxava.actions.RemoveSelectedInCollectionAction"/>
 											
@@ -559,10 +448,10 @@ here that you want to override.
 	in your @ManyToMany collection
 	 -->
 	<controller name="ManyToMany">		
-		<action name="new" image="new.gif" hidden="true" icon="library-plus"
+		<action name="new" image="new.gif" hidden="true"
 			class="org.openxava.actions.CreateNewElementInManyToManyCollectionAction"/>
 	
-		<action name="edit" image="edit.gif" hidden="true" icon="eye" 
+		<action name="edit" image="edit.gif" hidden="true" 
 			class="org.openxava.actions.EditElementInManyToManyCollectionAction"> 
 			<set property="editable" value="true"/> 
 			<set property="keyEditable" value="false"/> 
@@ -639,7 +528,6 @@ here that you want to override.
 	<!-- This controller integrates Treeview behavior to OpenXava -->	
 	<controller name="TreeView">
 		<action name="new" mode="list" image="create_new.gif"
-			icon="library-plus"
 			class="org.openxava.actions.NewTreeViewItemAction">
 		</action>
 		<action name="remove" class="org.openxava.actions.RemoveTreeViewNodeAction">
@@ -647,27 +535,22 @@ here that you want to override.
 		<action name="save" class="org.openxava.actions.SaveElementInTreeViewAction" 
 			mode="detail">
 		</action>
-		<action name="removeSelected" confirm="true" 
-			image="delete.gif" icon="delete"
+		<action name="removeSelected" confirm="true" image="delete.gif"
 			class="org.openxava.actions.RemoveSelectedTreeViewNodeAction">
 		</action>
-		<action name="up" mode="list" 
-			image="level-up.gif" icon="menu-up"
+		<action name="up" mode="list" image="level-up.gif"
 			class="org.openxava.actions.TreeViewMoveNodeAction">
 			<set property="actionType" value="UP" />
 		</action>
-		<action name="down" mode="list" 
-			image="level-down.gif" icon="menu-down"
+		<action name="down" mode="list" image="level-down.gif"
 			class="org.openxava.actions.TreeViewMoveNodeAction">
 			<set property="actionType" value="DOWN" />
 		</action>
-		<action name="left" mode="list" 
-			image="level-left.gif" icon="menu-left"
+		<action name="left" mode="list" image="level-left.gif"
 			class="org.openxava.actions.TreeViewMoveNodeAction">
 			<set property="actionType" value="LEFT" />
 		</action>
-		<action name="right" mode="list" 
-			image="level-right.gif" icon="menu-right"
+		<action name="right" mode="list" image="level-right.gif"
 			class="org.openxava.actions.TreeViewMoveNodeAction">
 			<set property="actionType" value="RIGHT" />
 		</action>
@@ -682,25 +565,25 @@ here that you want to override.
 	</controller>
 	
 	<controller name="LiferayDocumentLibrary">
-		<action name="addDocument" image="create_new.gif" icon="library-plus" 
+		<action name="addDocument" image="create_new.gif"
 			class="org.openxava.actions.AddLiferayDocumentAction">		
 		</action>		
-		<action name="deleteDocument" image="delete.gif" icon="delete"
+		<action name="deleteDocument" image="delete.gif"
 			class="org.openxava.actions.DeleteLiferayDocumentAction">		
 		</action>		
 	</controller>
 	
 	<controller name="LoadLiferayDocument">
-		<action name="loadDocument" 
+		<action name="loadDocument" description="pujar els fitxers"
 			class="org.openxava.actions.LoadLiferayDocumentAction">			
 		</action>	
 	</controller>	
 	
 	<controller name="AttachedFile">
 		<action name="choose" class="org.openxava.actions.ChooseFileAction"
-			icon="attachment" image="attach.gif" />
+			image="attach.gif" />
 		<action name="delete" class="org.openxava.actions.DeleteFileAction" 
-			icon="delete" image="delete.gif" confirm="true" />
+			image="delete.gif" confirm="true" />
 	</controller>
 	
 	<controller name="UploadFile">
@@ -710,9 +593,9 @@ here that you want to override.
 	
 	<controller name="AttachedFiles"> 
 		<action name="add" class="org.openxava.actions.AddFileToFilesetAction" 
-			icon="attachment" image="attach.gif" />
+			image="attach.gif" />
 		<action name="remove" class="org.openxava.actions.RemoveFileFromFilesetAction" 
-			icon="delete" image="delete.gif" confirm="true" />	
+			image="delete.gif" confirm="true" />	
 	</controller>
 	
 	<controller name="UploadFileIntoFileset">

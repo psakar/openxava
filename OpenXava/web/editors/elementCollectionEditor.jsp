@@ -134,11 +134,7 @@ for (int f=0; f < rowCount; f++) {
 		src='<%=request.getContextPath()%>/<%=style.getImagesFolder()%>/<%=style.getMoveRowImage()%>' border='0' />
 	<%}%>
 	<%if (!Is.emptyString(removeSelectedAction)) {%>
-	 <a title='<xava:message key="remove_row"/>' href="javascript:openxava.executeAction('<%=app%>', '<%=module%>', '', false, '<%=removeSelectedAction%>', 'row=<%=f%>,viewObject=<%=viewName%>')">
-		<img 		 
-			src='<%=request.getContextPath()%>/xava/images/delete.gif'
-			border='0' align='absmiddle' "/>
-	</a>
+	<xava:action action='<%=removeSelectedAction%>' argv='<%="row=" + f + ",viewObject=" + viewName%>'/>
 	<%} else if (suppressRemoveAction){%>
 	 <a title='<xava:message key="remove_row"/>' href="javascript:void(0)">
 		<img 		 
@@ -146,10 +142,8 @@ for (int f=0; f < rowCount; f++) {
 			border='0' align='absmiddle'/>
 	 </a>
 	<%} else { %>
-	 <a title='<xava:message key="remove_row"/>' href="javascript:void(0)">
-		<img 		 
-			src='<%=request.getContextPath()%>/xava/images/delete.gif'
-			border='0' align='absmiddle' onclick="elementCollectionEditor.removeRow('<%=app%>', '<%=module%>', this, <%=f%>, <%=hasTotals%>)"/>
+	 <a title='<xava:message key="remove_row"/>' href="javascript:void(0)" class='<%=style.getActionImage()%>'>
+		<i class="mdi mdi-delete" onclick="elementCollectionEditor.removeRow('<%=app%>', '<%=module%>', this, <%=f%>, <%=hasTotals%>)"></i>	
 	 </a>
 	<%} %>	
 	</nobr>

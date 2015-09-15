@@ -49,6 +49,7 @@ public class XmlElementsNames {
 	protected final static String [] xobject = { "object", "objeto" };
 	protected final static String [] xmode = { "mode", "modo" };
 	protected final static String [] ximage = { "image", "imagen" };
+	protected final static String [] xicon = { "icon", "icono" }; 
 	protected final static String [] xkeystroke = { "keystroke", "atajo-de-teclado" };
 	protected final static String [] xon_init = { "on-init", "al-iniciar" };
 	protected final static String [] xby_default = { "by-default", "por-defecto" };
