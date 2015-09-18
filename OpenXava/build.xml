@@ -946,16 +946,6 @@
 		<delete file="../${project}/web/xava/editors/customReportColumnValidValuesValueEditor.jsp"/>
 		<delete file="../${project}/web/xava/editors/customReportColumnDescriptionsListValueEditor.jsp"/>
 		<delete file="../${project}/web/xava/calculatedCollectionList.jsp"/> 
-		
-		<!-- Delete unused images -->
-		<delete file="../${project}/web/xava/images/customize.gif"/>
-		<delete file="../${project}/web/xava/images/hide-filter.gif"/>
-		<delete file="../${project}/web/xava/style/ipad/images/customize.gif"/>
-		<delete file="../${project}/web/xava/style/ipad/images/hide-filter.gif"/>
-		<delete file="../${project}/web/xava/images/delete-file.gif"/>
-		<delete file="../${project}/web/xava/images/upload.gif"/>
-		<delete file="../${project}/web/xava/images/move-left.gif"/>
-		<delete file="../${project}/web/xava/images/move-right.gif"/>		
 	</target>
 	
 	<target name="copyWeb">

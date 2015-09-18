@@ -233,15 +233,17 @@
 		
 	<controller name="DeliveryType"> 
 		<extends controller="Typical"/>
+		<!-- With image and without icon, to test a case  -->
 		<action name="saveNotReset" mode="detail"
 			class="org.openxava.actions.SaveAction"
 			image="save.gif"
 			keystroke="control alt S">			
 			<set property="resetAfter" value="false"/>
 		</action>
+		<!-- With icon and without image, to test a case -->
 		<action name="saveNotRefresh" mode="detail"
 			class="org.openxava.actions.SaveAction"
-			image="save.gif"
+			icon="floppy"
 			keystroke="control alt S">			
 			<set property="resetAfter" value="false"/>
 			<set property="refreshAfter" value="false"/>

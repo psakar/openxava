@@ -410,7 +410,7 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus
 
 .ox-button-bar .ox-button-bar-button a, .ox-button-bar-mode-button, 
 .ox-collection-list-actions .ox-button-bar-button a {
-	border: 1px solid #F5F5F5;
+	border: 1px solid transparent; 
 	padding: 6px 6px 6px 0px;
 	font-weight: bold;
 	text-decoration: none;	
@@ -464,15 +464,15 @@ i {
 }
 
 .ox-list-formats i {
-	margin-top: -7px;
+	margin-top: -8px;
 	margin-left: -5px;	 
 	font-size: 150%;
-	padding: 5px 5px 5px 5px;
-	
+	padding: 5px;
+	border: 1px solid transparent;   
 }
 
 .ox-list-formats i:hover {
-	padding: 4px 4px 4px 4px;
+	padding: 5px;  
 }
 
 .ox-list-formats a:hover {
@@ -912,7 +912,11 @@ input[type="button"]:active, A#show_modules.show-modules-selected {
 
 .ox-button-bar-button img {
 	vertical-align: bottom;
-	margin-right: 6px;
+	margin-right: 6px; 
+}
+
+.ox-button-bar-button span {
+	margin-right: -5px; 
 }
 
 .ox-subcontroller {

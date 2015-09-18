@@ -26,7 +26,7 @@ while (it.hasNext()) {
 	MetaAction action = (MetaAction) it.next();
 	if (action.isHidden()) continue;
 	if (action.getQualifiedName().equals(defaultAction)) continue;
-	if (action.appliesToMode(mode) && (!buttonBar || !action.hasImage())) {   
+	if (action.appliesToMode(mode) && (!buttonBar || !(action.hasImage() ||  action.hasIcon()))) { 	
 	%>
 	<xava:button action="<%=action.getQualifiedName()%>"/>
 	<%

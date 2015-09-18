@@ -29,7 +29,7 @@ if (manager.isButtonBarVisible()) {
 	while (it.hasNext()) {
 		MetaAction action = (MetaAction) it.next();
 		if (action.isHidden()) continue;
-		if (action.appliesToMode(mode) && action.hasImage()) {
+		if (action.appliesToMode(mode) && (action.hasImage() || action.hasIcon())) {	
 		%>
 		<jsp:include page="barButton.jsp">
 			<jsp:param name="action" value="<%=action.getQualifiedName()%>"/>

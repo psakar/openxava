@@ -32,7 +32,7 @@ if (!Is.emptyString(actionName)) {
 		<% if (showIcon) { %>
 		<i class="mdi mdi-<%=action.getIcon()%>"></i>
 		<% } else if (showImage) { %>
-		<span style="padding:4px; background: url(<%=request.getContextPath()%>/<%=style.getImagesFolder()%>/<%=action.getImage()%>) no-repeat 5px 50%;">				
+		<span style="padding:4px; background: url(<%=request.getContextPath()%>/<%=style.getImagesFolder()%>/<%=action.getImage()%>) no-repeat 5px 50%;">
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		</span>		
 		<% } else if(addSpace) {%>
