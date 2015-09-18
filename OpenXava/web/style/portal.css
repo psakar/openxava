@@ -421,6 +421,7 @@ TD.list-title {
 
 .ui-dialog { 
 	width: auto; 
+	z-index: 999;
 }
 		
 /* ---------- Styling for Default Layout Painter ---------- */
