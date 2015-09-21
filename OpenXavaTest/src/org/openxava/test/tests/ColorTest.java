@@ -80,6 +80,10 @@ public class ColorTest extends ModuleTestBase {
 	}
 	
 	public void testSubcontroller() throws Exception {
+		String linkXml = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Color__sc-a-ColorSub_list").asXml();
+		assertTrue(linkXml.contains("<i class=\"mdi mdi-run\""));
+		assertFalse(linkXml.contains("images/"));
+
 		assertNoAction("ColorSub.fourAction");
 		execute("ColorSub.firstAction");
 		assertDialog();

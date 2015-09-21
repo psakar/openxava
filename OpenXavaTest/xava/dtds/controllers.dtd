@@ -2,6 +2,7 @@
 <!ATTLIST subcontroller
  controller CDATA #REQUIRED
  image CDATA #IMPLIED
+ icon CDATA #IMPLIED
  mode (detail|list|ALL|NONE) "ALL"
 >
 

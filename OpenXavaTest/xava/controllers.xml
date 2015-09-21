@@ -475,7 +475,8 @@
 	
 	<controller name="Invoice">
 		<extends controller="Typical"/>
-		<subcontroller controller="InvoicePrint" image="report.gif"/>
+		<!-- With icon and without image to test a case -->
+		<subcontroller controller="InvoicePrint" icon="printer"/>
 		<action name="searchFromDelivery" hidden="true"
 			class="org.openxava.test.actions.SearchInvoiceFromDeliveryAction"/>														
 		<action name="listOfCustomer" hidden="true"
@@ -528,6 +529,7 @@
 	
 	<controller name="InvoiceNestedSections">
 		<extends controller="Typical"/>
+		<!-- With image and without icon to test a case -->
 		<subcontroller controller="InvoicePrint" image="report.gif"/>
 		<action name="showPaid" mode="detail" 
 			class="org.openxava.test.actions.ShowPropertyValueAction">
@@ -543,7 +545,7 @@
 		</action>
 		<action name="print2Pdfs" mode="detail"
 			class="org.openxava.test.actions.InvoiceTwoReportsAction"
-			image="pdf.gif">
+			icon="numeric-2-box-multiple-outline">
 			<set property="format" value="pdf"/>												
 		</action>
 		<action name="printInvoiceAndCustomer" mode="detail"
@@ -1008,7 +1010,8 @@
 	<controller name="Color">
 		<action name="seeMessage" class="org.openxava.test.actions.SeeMessageAction" mode="detail"/>
 		<action name="seeMessageSelected" class="org.openxava.test.actions.SeeMessageSelectedColorsAction" mode="list"/>
-		<subcontroller controller="ColorSub" image="options.png"/> 
+		<!-- With both image and icon to test a case -->
+		<subcontroller controller="ColorSub" image="options.png" icon="run"/>
 	</controller>
 	
 	<controller name="ColorSub">
@@ -1016,6 +1019,7 @@
 			class="org.openxava.test.actions.SeeDialogInColor">
 			<set value="1" property="actionNumber"/>
 		</action>
+		
 		<action name="secondAction" 
 			class="org.openxava.test.actions.SeeDialogInColor">
 			<set value="2" property="actionNumber"/>

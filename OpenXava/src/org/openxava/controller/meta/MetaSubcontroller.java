@@ -12,6 +12,7 @@ import org.openxava.util.*;
 public class MetaSubcontroller {
 	
 	private String image;
+	private String icon; 
 	private String controllerName;
 	private String mode;
 
@@ -55,6 +56,14 @@ public class MetaSubcontroller {
 
 	public void setMode(String mode) {
 		this.mode = mode;
+	}
+
+	public String getIcon() {
+		return icon;
+	}
+
+	public void setIcon(String icon) {
+		this.icon = icon;
 	}
 
 }

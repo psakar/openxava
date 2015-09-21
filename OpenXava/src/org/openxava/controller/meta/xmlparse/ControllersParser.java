@@ -162,8 +162,8 @@ public class ControllersParser extends ParserBase {
 	private MetaSubcontroller createSubcontroller(Node n) throws XavaException {
 		Element el = (Element) n;
 		MetaSubcontroller result = new MetaSubcontroller();
-		
 		result.setImage(el.getAttribute(ximage[lang]));
+		result.setIcon(el.getAttribute(xicon[lang])); 
 		result.setControllerName(el.getAttribute(xcontroller[lang]));
 		String mode = el.getAttribute(xmode[lang]);
 		if ("ALL".equals(mode)) mode = "";

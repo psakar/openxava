@@ -376,7 +376,15 @@ public class Style {
 	
 	public String getButtonBarButton() { 
 		return "ox-button-bar-button";
-	}	
+	}
+	
+	/** 
+	 * 
+	 * @since 5.4
+	 */
+	public String getSubcontrollerButton() {
+		return "ox-subcontroller-button"; 
+	}
 	
 	public boolean isSeveralActionsPerRow() {
 		return true;

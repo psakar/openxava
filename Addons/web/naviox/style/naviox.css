@@ -910,13 +910,13 @@ input[type="button"]:active, A#show_modules.show-modules-selected {
     color: #5755D2 !important;
 }
 
-.ox-button-bar-button img {
-	vertical-align: bottom;
-	margin-right: 6px; 
+.ox-button-bar-button span {
+	margin-right: -7px;  
 }
 
-.ox-button-bar-button span {
-	margin-right: -5px; 
+.ox-subcontroller-button  .mdi-menu-down {
+	margin: 0px !important; 
+	margin-right: -5px !important;
 }
 
 .ox-subcontroller {

@@ -26,7 +26,6 @@ import org.openxava.test.model.Product;
 import org.openxava.util.Dates;
 import org.openxava.util.Is;
 import org.openxava.util.Strings;
-import org.openxava.util.Users;
 import org.openxava.util.XavaPreferences;
 import org.openxava.util.XavaResources;
 import org.openxava.web.Ids;
@@ -58,16 +57,21 @@ public class InvoiceTest extends CustomizeListTestBase {
 	}
 
 	
-	public void testSubcontrollerWithoutActionsInMode() throws Exception {
-		// subcontroller: InvoicePrint -> all actions are in mode list
+	public void testSubcontrollerWithoutActionsInMode_subcontrollerIcon() throws Exception {
+		// subcontroller: InvoicePrint -> all actions are in mode detail
 		assertNoAction("InvoicePrint.printPdf");
 		assertFalse(getHtml().contains("<span id=\"ox_OpenXavaTest_Invoice__sc-container-InvoicePrint_detail\">"));
 		
 		execute("Mode.detailAndFirst");
 		assertTrue(getHtml().contains("<span id=\"ox_OpenXavaTest_Invoice__sc-container-InvoicePrint_detail\">"));
 		assertAction("InvoicePrint.printPdf");
+		
+		String linkXml = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Invoice__sc-button-InvoicePrint_detail").asXml();
+		assertTrue(linkXml.contains("<i class=\"mdi mdi-printer\""));
+		assertFalse(linkXml.contains("images/"));
 	}
 	
+		
 	public void testHideShowSection() throws Exception { 
 		execute("Mode.detailAndFirst");
 	

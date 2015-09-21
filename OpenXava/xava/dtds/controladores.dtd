@@ -2,6 +2,7 @@
 <!ATTLIST subcontrolador
  controlador CDATA #REQUIRED
  imagen CDATA #IMPLIED
+ icono CDATA #IMPLIED
  modo (detail|list|ALL|NONE) "ALL"
 >
 

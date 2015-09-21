@@ -53,6 +53,7 @@ if (manager.isButtonBarVisible()) {
 		<jsp:include page="subButton.jsp">
 			<jsp:param name="controller" value="<%=m.getControllerName()%>"/>
 			<jsp:param name="image" value="<%=m.getImage()%>"/>
+			<jsp:param name="icon" value="<%=m.getIcon()%>"/>
 		</jsp:include>
 		<%
 				}
