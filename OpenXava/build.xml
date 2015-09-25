@@ -799,6 +799,9 @@
 		<copy todir="${dist.portlets.dir}/xava/style">
 			<fileset dir="web/xava/style"/>
 		</copy>
+		<copy todir="${dist.portlets.dir}/xava/fonts">
+			<fileset dir="web/xava/fonts"/>
+		</copy>
 		<copy todir="${dist.portlets.dir}/xava/js">
 			<fileset dir="web/xava/js"/>
 		</copy>

@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: CSS changes are not automatically refreshed on version upgrade.
+- New useIconsInsteadOfImages property in xava.properties to choose between new monochrome icons or old color images.
 - Fix: Liferay navigation bar shown over dialogs.
 - New icons, now all standard OpenXava actions use Material Design Icons instead of gifs or pngs.
 - New icon property in action and subcontroller definitions to define an icon by name from Material Design Icons.

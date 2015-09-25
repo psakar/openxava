@@ -139,6 +139,14 @@ public class Style {
 		return -20;		
 	}
 	
+	/**
+	 * 
+	 * @since 5.4
+	 */
+	public boolean isUseIconsInsteadOfImages() {
+		return XavaPreferences.getInstance().isUseIconsInsteadOfImages();
+	}
+	
 
 	/**
 	 * If this style is specific for the indicated browser.

@@ -76,7 +76,7 @@ public class ImageTag extends TagSupport implements IActionTag {
 				pageContext.getOut().print(getArgv());				
 			}
 			pageContext.getOut().print("')\">");
-			if (metaAction.hasIcon()) {
+			if (metaAction.hasIcon() && (style.isUseIconsInsteadOfImages() || !metaAction.hasImage())) {  
 				pageContext.getOut().print("<i class='mdi mdi-");
 				pageContext.getOut().print(metaAction.getIcon());
 				pageContext.getOut().print("'></i>");  

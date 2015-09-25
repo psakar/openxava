@@ -450,7 +450,29 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus
 }
 
 i {
-	vertical-align: middle; 
+	vertical-align: -2px;  
+}
+
+.mdi-border-color {
+	vertical-align: -4px;  
+}
+
+.ox-list-odd i, .ox-list-pair i {
+	vertical-align: -7px;
+	
+}
+
+.ox-list-odd .ox-action-link, .ox-list-pair .ox-action-link {
+	vertical-align: -5px;	
+}
+
+.ox-list-odd .ox-image-link img, .ox-list-pair .ox-image-link img {
+	vertical-align: -8px;	
+}
+
+.ox-list-odd .mdi-border-color, .ox-list-pair .mdi-border-color {
+	vertical-align: -9px;
+
 }
 
 .ox-image-link i {

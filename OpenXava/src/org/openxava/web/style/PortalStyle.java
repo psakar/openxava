@@ -37,6 +37,7 @@ public class PortalStyle extends Style {
 	protected Collection<String> createAdditionalCssFiles() {		
 		Collection<String> result = new ArrayList(super.createAdditionalCssFiles());
 		result.add("/xava/style/portal.css");
+		result.add("/xava/style/materialdesignicons.css");
 		return result;
 	}
 		
@@ -56,6 +57,13 @@ public class PortalStyle extends Style {
 		return styleClasses;
 	}
 	
+	/**
+	 * 
+	 * @since 5.4
+	 */
+	public boolean isUseIconsInsteadOfImages() {
+		return false; 
+	}
 	
 	public boolean isForBrowse(String browser) {
 		return false;
@@ -311,10 +319,6 @@ public class PortalStyle extends Style {
 		return getSectionTabStartDecoration(); 
 	}
 				
-	public String getTotalRow() { 
-		return "";
-	}
-	
 	public String getTotalCell() { 
 		return "";
 	}

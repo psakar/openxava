@@ -343,7 +343,8 @@ TD.list-title {
 	text-decoration: none;	
 }
 
-.ox-button-bar .ox-button-bar-button a:hover, .ox-button-bar-mode-button:hover {
+.ox-button-bar .ox-button-bar-button a:hover, 
+.ox-button-bar-mode-button:hover, .ox-list-formats i:hover { 
 	border: 1px solid #A7CEDF;	
 	background-color: #DFF4FF;
 	color: #346799; 
@@ -378,6 +379,54 @@ TD.list-title {
 .ox-active .ox-button-bar-mode-button:hover {
 	background-color: #d6dcdd;
 	border-color: #B7C0C2;
+}
+
+.ox-button-bar-button span {
+	margin-right: -7px;  
+}
+
+i {
+	vertical-align: middle; 
+}
+
+.ox-image-link i {
+	font-size: 140%;
+	padding: 4px;
+}
+
+.ox-button-bar .ox-button-bar-button i, .ox-collection-list-actions i {
+	margin-left: 5px; 
+	font-size: 140%;
+	vertical-align: baseline;
+}
+
+.ox-list-formats i {
+	margin-left: -5px;	 
+	font-size: 150%;
+	padding: 5px;
+	border: 1px solid transparent;   
+}
+
+.ox-list-formats i:hover {
+	padding: 5px;  
+}
+
+.ox-list-formats a {
+	text-decoration: none;
+}
+
+.ox-list-formats i, .ox-image-link i { 
+	color: #9EA8AD;
+}
+
+
+.ox-list-formats i:hover, .ox-image-link i:hover  {   
+	color: #346799;
+}
+
+.ox-total-row i {
+	font-size: 120%;
+	margin-right: -6px;
 }
 
 .ox-button-bar a:focus {
@@ -421,6 +470,7 @@ TD.list-title {
 
 .ui-dialog { 
 	width: auto; 
+	z-index: 999;
 }
 		
 /* ---------- Styling for Default Layout Painter ---------- */
@@ -437,10 +487,15 @@ TD.list-title {
 }
 
 /* ---------- Styling for Subcontrollers ---------- */
+.ox-subcontroller-button  .mdi-menu-down {
+	margin: 0px !important; 
+	margin-right: -5px !important;
+}
 
 div.ox-subcontroller {
 	padding: 0;
 	margin: 0;
+	margin-top: 26px; 
 	position: absolute; 
 	clear: both; 
 	background-color: rgb(246, 248, 251); 
@@ -458,7 +513,7 @@ div.ox-subcontroller table{
 
 div.ox-subcontroller table tr td{
 	float: right;
-	width: 97%;	/* con 100% se expande mucho */
+	width: 97%;	
 	text-align: left;
 	background-color: rgb(246, 248, 251);
 	z-index: 999; 

@@ -207,7 +207,7 @@ public class CarrierTest extends CarrierTestBase {
 		assertRowUnchecked(3);
 	}
 	
-	public void testActionOfCalculatedPropertyAlwaysPresent_referenceKeyEditableWhenInGroup() throws Exception {
+	public void testActionOfCalculatedPropertyAlwaysPresent_referenceKeyEditableWhenInGroup_iconsImagesInViewAction() throws Exception {
 		execute("CRUD.new");		
 		assertAction("Carrier.translateName");
 		assertExists("calculated");
@@ -216,6 +216,8 @@ public class CarrierTest extends CarrierTestBase {
 		assertEditable("warehouse.zoneNumber");
 		assertEditable("warehouse.number");
 		assertNoEditable("warehouse.name");
+		
+		assertIconsImagesInViewAction(); 
 	}
 	
 	public void testFilterIgnoringCase() throws Exception {
@@ -483,6 +485,13 @@ public class CarrierTest extends CarrierTestBase {
 		checkRowCollection("fellowCarriers", 0);
 		execute("Carrier.translateName", "viewObject=xava_view_fellowCarriers");
 		assertValueInCollection("fellowCarriers", 0, "name", "CUATRO");		
+	}
+	
+	private void assertIconsImagesInViewAction() { 
+		String actionsXml = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Carrier__property_actions_warehouse___number").asXml();
+		assertTrue(actionsXml.contains("<i class=\"mdi mdi-magnify"));
+		assertTrue(actionsXml.contains("<i class=\"mdi mdi-library-plus"));
+		assertTrue(actionsXml.contains("images/create_new.gif"));		
 	}
 	
 	private void assertCarriersCount(int c) throws Exception {

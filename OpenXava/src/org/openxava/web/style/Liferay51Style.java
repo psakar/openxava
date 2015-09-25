@@ -114,7 +114,8 @@ public class Liferay51Style extends Liferay43Style {
 	}
 		
 	public String getTotalRow() { 
-		return "results-row";
+		// tmp return "results-row";
+		return super.getTotalRow() + " results-row"; // tmp
 	}
 	
 	public String getTotalCell() { 

@@ -683,10 +683,11 @@
 	
 	<controller name="MyReference">
 	
+		<!-- Only icon without image to test a case -->
 		<action name="search" hidden="true"			
 			class="org.openxava.test.actions.MySearchAction"
-			image="search.gif"/>							
-				
+			icon="magnify"/>
+														
 	</controller>
 		
 	<controller name="Family">
@@ -910,6 +911,7 @@
 	</controller>
 	
 	<controller name="WarehouseReference">
+		<!-- Only image without icon to test a case -->	
 		<action name="createNewNoDialog" 
 			class="org.openxava.actions.CreateNewFromReferenceAction"
 			image="create_new.gif">

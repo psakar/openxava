@@ -143,7 +143,14 @@ for (int f=0; f < rowCount; f++) {
 	 </a>
 	<%} else { %>
 	 <a title='<xava:message key="remove_row"/>' href="javascript:void(0)" class='<%=style.getActionImage()%>'>
-		<i class="mdi mdi-delete" onclick="elementCollectionEditor.removeRow('<%=app%>', '<%=module%>', this, <%=f%>, <%=hasTotals%>)"></i>	
+	 	<% String onclick="elementCollectionEditor.removeRow('" + app + "', '" + module + "', this, " + f + ", " + hasTotals + ")"; %>
+	 	<% if (style.isUseIconsInsteadOfImages()) { %>
+		<i class="mdi mdi-delete" onclick="<%=onclick%>"></i>
+		<% } else { %>
+		<img 		 
+			src='<%=request.getContextPath()%>/xava/images/delete.gif'
+			border='0' align='absmiddle' onclick="<%=onclick%>"/>
+		<% } %>
 	 </a>
 	<%} %>	
 	</nobr>

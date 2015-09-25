@@ -60,11 +60,11 @@ public class CustomerTest extends CustomizeListTestBase {
 		assertListRowCount(3);
 	}
 	
-	public void testReloadModuleInsideHtml() throws Exception { // NaviOX with a special group combination, address with a group for city 		
+	public void testReloadModuleInsideHtml_iconsInViewAction() throws Exception { // NaviOX with a special group combination, address with a group for city 		
 		execute("CRUD.new");
 		assertAction("EditableOnOff.setOn"); 
 		reload();
-		assertAction("EditableOnOff.setOn"); 		
+		assertAction("EditableOnOff.setOn");
 	}
 	
 	public void testPdfReportInNestedCollection() throws Exception { 

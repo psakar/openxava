@@ -474,7 +474,7 @@ here that you want to override.
 		<action name="search"
 			class="org.openxava.actions.ReferenceSearchAction"
 			icon="magnify"
-			image="search.gif"/>		
+			image="search.gif"/>
 		<action name="createNew" 
 			class="org.openxava.actions.CreateNewFromReferenceAction"
 			icon="library-plus"

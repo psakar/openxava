@@ -35,7 +35,7 @@ public class ActionTag extends TagSupport {
 				linkTag.setCssClass(style.getActionLink()); 
 				actionTag = linkTag;
 			}
-			else if (metaAction.hasImage()) {
+			else if (metaAction.hasImage() || metaAction.hasIcon()) {  
 				ImageTag imageTag = new ImageTag();
 				imageTag.setCssClass(style.getActionImage()); 
 				actionTag = imageTag;   

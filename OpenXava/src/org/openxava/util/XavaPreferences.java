@@ -411,6 +411,16 @@ public class XavaPreferences {
 	public String getDefaultModeController() {
 		return getProperties().getProperty("defaultModeController", null);
 	}
+	
+	/**
+	 * 
+	 * @since 5.4
+	 */
+	public boolean isUseIconsInsteadOfImages() {
+		return "true".equalsIgnoreCase(getProperties().getProperty(
+				"useIconsInsteadOfImages", "true").trim());
+	}
+	
 
 	/** @since 4m5 */
 	public boolean isHelpInNewWindow() {

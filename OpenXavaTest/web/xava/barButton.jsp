@@ -9,6 +9,7 @@
 
 <%
 boolean showImages = style.isShowImageInButtonBarButton();
+boolean showIcons = style.isUseIconsInsteadOfImages(); 
 boolean showLabels = !showImages?true:XavaPreferences.getInstance().isShowLabelsForToolBarActions();
 String actionName = request.getParameter("action");
 String addSpaceWithoutImage = request.getParameter("addSpaceWithoutImage");
@@ -27,7 +28,7 @@ if (!Is.emptyString(actionName)) {
 		<% 
 		boolean showLabel = (showLabels || !action.hasImage()) && !Is.emptyString(label);  
 		boolean showImage = showImages && action.hasImage() || action.hasImage() && Is.emptyString(label);
-		boolean showIcon = showImages && action.hasIcon() || action.hasIcon() && Is.emptyString(label);  
+		boolean showIcon = action.hasIcon() && (showImages && (showIcons || !action.hasImage()) || Is.emptyString(label) && (showIcons || !action.hasImage())); 
 		%>
 		<% if (showIcon) { %>
 		<i class="mdi mdi-<%=action.getIcon()%>"></i>

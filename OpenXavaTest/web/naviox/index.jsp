@@ -22,9 +22,9 @@ String oxVersion = org.openxava.controller.ModuleManager.getVersion();
 <!DOCTYPE html>
 
 <head>
-	<title><%=modules.getCurrentModuleDescription(request)%></title> 
-	<link href="<%=request.getContextPath()%>/naviox/style/naviox.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="<%=request.getContextPath()%>/xava/style/materialdesignicons.css">
+	<title><%=modules.getCurrentModuleDescription(request)%></title>
+	<link href="<%=request.getContextPath()%>/naviox/style/naviox.css?ox=<%=oxVersion%>" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="<%=request.getContextPath()%>/xava/style/materialdesignicons.css?ox=<%=oxVersion%>">
 	<script type='text/javascript' src='<%=request.getContextPath()%>/xava/js/dwr-engine.js?ox=<%=oxVersion%>'></script>
 	<script type='text/javascript' src='<%=request.getContextPath()%>/dwr/interface/Modules.js?ox=<%=oxVersion%>'></script>
 	<script type='text/javascript' src='<%=request.getContextPath()%>/dwr/interface/Folders.js?ox=<%=oxVersion%>'></script>

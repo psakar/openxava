@@ -378,6 +378,14 @@ public class CustomerWithSectionTest extends CustomerTest {
 		assertValue("address.street", "DOCTOR PESSET");		
 		execute("Customer.prefixStreet", "xava.keyProperty=address.street"); 
 		assertValue("address.street", "C/ DOCTOR PESSET");
+		assertIconsInViewAction(); 
+	}
+	
+	private void assertIconsInViewAction() { 
+		String actionsXml = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_CustomerWithSection__property_actions_seller___number").asXml();
+		assertTrue(actionsXml.contains("<i class=\"mdi mdi-magnify"));
+		assertTrue(actionsXml.contains("<i class=\"mdi mdi-library-plus"));
+		assertFalse(actionsXml.contains("images/"));		
 	}
 	
 	public void testAddingToManyToManyCollectionFromANewObject() throws Exception { 
