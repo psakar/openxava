@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- New methods assertNoWarnings() and assertNoInfos() in ModuleTestBase.
+- Fix: From time to time the user is not redirected to the correct current module.
 - Fix: CSS changes are not automatically refreshed on version upgrade.
 - New useIconsInsteadOfImages property in xava.properties to choose between new monochrome icons or old color images.
 - Fix: Liferay navigation bar shown over dialogs.

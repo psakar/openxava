@@ -484,11 +484,11 @@ public class ModuleTestBase extends TestCase {
 	/**
 	 * Like close navigator, open again, and reexecute the module.
 	 */
-	protected void resetModule() throws Exception {		
+	protected void resetModule() throws Exception {
 		client = new WebClient(getBrowserVersion()); 
 		client.getOptions().setThrowExceptionOnFailingStatusCode(false);
 		client.getOptions().setThrowExceptionOnScriptError(false);
-		client.getOptions().setCssEnabled(false); 
+		client.getOptions().setCssEnabled(false);
 		
 		if (getLocale() != null) {
 			client.addRequestHeader("Accept-Language", getLocale());			
@@ -2064,8 +2064,25 @@ public class ModuleTestBase extends TestCase {
 	protected void assertNoErrors() throws Exception {
 		assertNoMessages("errors_table", "Error");		
 	}
+	
 	protected void assertNoMessages() throws Exception {
-		assertNoMessages("messages_table", "Mensaje");		
+		assertNoMessages("messages_table", "Message"); 
+	}
+
+	/**
+	 * 
+	 * @since 5.4
+	 */	
+	protected void assertNoWarnings() throws Exception { 
+		assertNoMessages("warnings_table", "Warning");		
+	}
+	
+	/**
+	 * 
+	 * @since 5.4
+	 */	
+	protected void assertNoInfos() throws Exception { 
+		assertNoMessages("infos_table", "Infos");		
 	}
 	
 	private void assertNoMessages(String id, String label) throws Exception {
