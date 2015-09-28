@@ -77,6 +77,8 @@
 	</controller>
 	
 	<controller name="ChangePassword">
+		<action name="init" after-each-request="true"  hidden="true"  			
+			class="com.openxava.naviox.actions.InitChangePasswordAction"/>
 		<action name="changePassword" 
 			class="com.openxava.naviox.actions.ChangePasswordAction"/>			
 	</controller>
