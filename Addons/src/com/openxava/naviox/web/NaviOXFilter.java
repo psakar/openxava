@@ -5,13 +5,11 @@ import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
 
-import org.openxava.controller.*;
 import org.openxava.jpa.*;
 import org.openxava.util.*;
 
 import com.openxava.naviox.*;
 import com.openxava.naviox.impl.*;
-import com.openxava.naviox.model.*;
 import com.openxava.naviox.util.*;
 
 /**
