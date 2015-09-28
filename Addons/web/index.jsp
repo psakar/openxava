@@ -4,6 +4,7 @@
 <jsp:useBean id="modules" class="com.openxava.naviox.Modules" scope="session"/>
 
 <%
+Users.setCurrent(request); 
 String module = Users.getCurrent() == null?"SignIn":modules.getCurrent();
 String url = Browsers.isMobile(request)?"phone":"m/" + module;
 %>
