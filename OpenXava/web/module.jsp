@@ -122,7 +122,18 @@
 <%
 	}
 %>
-	<link href="<%=contextPath%>/xava/editors/style/c3.css?ox=<%=version%>" rel="stylesheet" type="text/css"> 	
+	<%
+		File styleEditorsFolder = new File(realPath + "/xava/editors/style");		
+		String[] styleEditors = styleEditorsFolder.list();
+		Arrays.sort(styleEditors);
+		for (int i = 0; i < styleEditors.length; i++) {
+			if (styleEditors[i].endsWith(".css")) {
+	%>
+	<link href="<%=contextPath%>/xava/editors/style/<%=styleEditors[i]%>?ox=<%=version%>" rel="stylesheet" type="text/css">
+	<%
+			}
+		}
+	%>		
 	<script type='text/javascript' src='<%=contextPath%>/xava/js/dwr-engine.js?ox=<%=version%>'></script>
 	<script type='text/javascript' src='<%=contextPath%>/dwr/util.js?ox=<%=version%>'></script>
 	<script type='text/javascript' src='<%=contextPath%>/dwr/interface/Module.js?ox=<%=version%>'></script>

@@ -808,6 +808,9 @@
 		<copy todir="${dist.portlets.dir}/xava/editors/js">
 			<fileset dir="web/xava/editors/js"/>
 		</copy>
+		<copy todir="${dist.portlets.dir}/xava/editors/style">
+			<fileset dir="web/xava/editors/style"/>
+		</copy>
 		<copy todir="${dist.portlets.dir}/xava/editors/calendar">
 			<fileset dir="web/xava/editors/calendar"/>
 		</copy>

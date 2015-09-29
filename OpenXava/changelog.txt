@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- CSS files in web/xava/editors/style are loaded automatically.
+- Fix: Charts style missing inside portals. 
 - New methods assertNoWarnings() and assertNoInfos() in ModuleTestBase.
 - Fix: From time to time the user is not redirected to the correct current module.
 - Fix: CSS changes are not automatically refreshed on version upgrade.
