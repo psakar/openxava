@@ -406,6 +406,8 @@ public class InvoiceTest extends CustomizeListTestBase {
 			{ "le_comparator", "<=" }, 
 			{ "gt_comparator", ">" },
 			{ "lt_comparator", "<" },
+			{ "empty_comparator", "empty" },
+			{ "not_empty_comparator", "not empty" },
 			{ "year_comparator", "year =" },
 			{ "month_comparator", "month =" },			
 			{ "year_month_comparator", "year/month =" },

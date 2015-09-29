@@ -150,6 +150,8 @@ public class CarrierWithSectionsTest extends ModuleTestBase {
 			{ "ends_comparator", "ends" }, 
 			{ "contains_comparator", "contains" },
 			{ "not_contains_comparator", "not contains" },
+			{ "empty_comparator", "empty" },
+			{ "not_empty_comparator", "not empty" },
 			{ "eq_comparator", "=" },
 			{ "ne_comparator", "<>" },  
 			{ "ge_comparator", ">=" }, 

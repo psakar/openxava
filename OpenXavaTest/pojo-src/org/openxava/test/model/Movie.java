@@ -1,5 +1,7 @@
 package org.openxava.test.model;
 
+import java.util.*;
+
 import javax.persistence.*;
 
 import org.openxava.annotations.*;
@@ -16,7 +18,7 @@ import org.openxava.model.*;
 @Entity
 @View(members=
 	"data sheet ["   +
-	"   title;"      +	
+	"   title, releaseDate;" +	
 	"   director;"   +
 	"   writers;"    +
 	"   starring;"   +
@@ -29,12 +31,15 @@ import org.openxava.model.*;
 	"   photographs" +
 	"}"
 )
+@Tab(properties="title, director, writers, releaseDate, trailer")
 public class Movie extends Identifiable {
 
 	private String title;
 	private String director;
 	private String writers;
 	private String starring;
+	
+	private Date releaseDate;
 	
 	@Stereotype("FILE")
 	@Column(length=32)
@@ -108,5 +113,13 @@ public class Movie extends Identifiable {
 
 	public void setPhotographs(String photographs) {
 		this.photographs = photographs;
+	}
+
+	public Date getReleaseDate() {
+		return releaseDate;
+	}
+
+	public void setReleaseDate(Date releaseDate) {
+		this.releaseDate = releaseDate;
 	}	
 }

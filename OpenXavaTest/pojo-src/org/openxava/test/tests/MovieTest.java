@@ -20,7 +20,7 @@ public class MovieTest extends ModuleTestBase {
 	}
 	
 	public void testPdfConcatReport() throws Exception {
-		assertListRowCount(1);
+		assertListRowCount(2);
 		execute("Mode.detailAndFirst");
 		assertAction("Movie.printDatasheet");
 		assertValue("title", "FORREST GUMP");
@@ -32,7 +32,7 @@ public class MovieTest extends ModuleTestBase {
 	}
 	
 	public void testClickOnFileInListMode() throws Exception {
-		assertListRowCount(1);
+		assertListRowCount(2);
 		WebResponse response = getWebClient().getPage(
 				    getUrlToFile("Forrest Gump Trailer.webm")).getWebResponse();
 		assertTrue(response.getContentType().equals("video/webm") || 
@@ -40,7 +40,7 @@ public class MovieTest extends ModuleTestBase {
 	}
 	
 	public void testClickOnFileInDetailMode() throws Exception {
-		assertListRowCount(1);
+		assertListRowCount(2);
 		execute("Mode.detailAndFirst");
 		assertValue("title", "FORREST GUMP");
 		WebResponse response = getWebClient().getPage(
@@ -85,7 +85,7 @@ public class MovieTest extends ModuleTestBase {
 	}
 	
 	public void testFileset() throws Exception {
-		assertListRowCount(1);
+		assertListRowCount(2);
 		execute("Mode.detailAndFirst");
 		assertTrue("At least 4 files", countFiles() == 4);	
 		
@@ -115,7 +115,7 @@ public class MovieTest extends ModuleTestBase {
 	public void testGroupName() throws Exception {
 		String groupId = Strings.removeBlanks("data sheet");
 		
-		assertListRowCount(1);
+		assertListRowCount(2);
 		execute("Mode.detailAndFirst");
 		String groupName = getHtmlPage().getElementById("ox_OpenXavaTest_Movie__label_" + groupId)
 										.asText().trim();
@@ -127,12 +127,68 @@ public class MovieTest extends ModuleTestBase {
 		sn.add(Labels.get(Strings.removeBlanks("Multimedia 1")));
 		sn.add(Labels.get(Strings.removeBlanks("Multimedia 2")));
 				
-		assertListRowCount(1);
+		assertListRowCount(2);
 		execute("Mode.detailAndFirst");
 		assertTrue("At most two sections", getSectionsNames().size() == 2);
 		assertTrue("Incorrect sections names", sn.removeAll(getSectionsNames()) && sn.isEmpty());
 	}	
-
+	
+	public void testFilterEmptyValues() throws Exception {
+		assertListRowCount(2);
+		assertFalse(isNotVisibleConditionValue(2));
+		assertFalse(isNotVisibleConditionValue(3));
+		
+		// Filter String
+		setConditionValues("", "", "");
+		setConditionComparators("starts_comparator", "starts_comparator", "empty_comparator");
+		execute("List.filter");		
+		assertListRowCount(1);
+		assertValueInList(0, 0, "NOVECENTO"); 
+		assertTrue(isNotVisibleConditionValue(2));
+		
+		setConditionValues("", "", "");
+		setConditionComparators("starts_comparator", "starts_comparator", "starts_comparator");
+		execute("List.filter");
+		assertListRowCount(2);
+		assertFalse(isNotVisibleConditionValue(2));
+		
+		//Filter Date
+		setConditionValues("", "", "", "");
+		setConditionComparators("starts_comparator", "starts_comparator", "starts_comparator", "empty_comparator");
+		execute("List.filter");
+		assertListRowCount(1);
+		assertValueInList(0, 0, "NOVECENTO"); 
+		assertTrue(isNotVisibleConditionValue(3));
+	}
+	
+	public void testFilterNotEmptyValues() throws Exception {
+		assertListRowCount(2);
+		assertFalse(isNotVisibleConditionValue(2));
+		assertFalse(isNotVisibleConditionValue(3));
+		
+		// Filter String
+		setConditionValues("", "", "");
+		setConditionComparators("starts_comparator", "starts_comparator", "not_empty_comparator");
+		execute("List.filter");
+		assertListRowCount(1);
+		assertValueInList(0, 0, "FORREST GUMP");
+		assertTrue(isNotVisibleConditionValue(2));		
+		
+		setConditionValues("", "", "");
+		setConditionComparators("starts_comparator", "starts_comparator", "starts_comparator");
+		execute("List.filter");
+		assertListRowCount(2);
+		assertFalse(isNotVisibleConditionValue(2));
+		
+		//Filter Date
+		setConditionValues("", "", "", "");
+		setConditionComparators("starts_comparator", "starts_comparator", "starts_comparator", "not_empty_comparator");
+		execute("List.filter");
+		assertListRowCount(1);
+		assertValueInList(0, 0, "FORREST GUMP");
+		assertTrue(isNotVisibleConditionValue(3));
+	}
+	
 	private void addFile() throws Exception {
 		execute("CRUD.new");
 		assertAction("AttachedFile.choose");
@@ -175,5 +231,12 @@ public class MovieTest extends ModuleTestBase {
 			}
 		}
 		return sn;
-	}	
+	}
+	
+	private boolean isNotVisibleConditionValue(int index) {
+		String idConditionValue = "ox_" + getXavaJUnitProperty("application") + 
+				                  "_Movie__conditionValue___" + index;
+		HtmlElement input = getHtmlPage().getHtmlElementById(idConditionValue); 
+		return input.getAttribute("style").contains("display: none");			
+	}
 }

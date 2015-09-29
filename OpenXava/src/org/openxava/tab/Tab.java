@@ -58,6 +58,8 @@ public class Tab implements java.io.Serializable {
 	public final static String LT_COMPARATOR = "lt_comparator";	
 	public final static String IN_COMPARATOR = "in_comparator"; 
 	public final static String NOT_IN_COMPARATOR = "not_in_comparator"; 
+	public final static String EMPTY_COMPARATOR = "empty_comparator";
+	public final static String NOT_EMPTY_COMPARATOR = "not_empty_comparator";
 	private final static String PROPERTIES_NAMES = "propertiesNames";
 	private final static String SUM_PROPERTIES_NAMES = "sumPropertiesNames"; 
 	private final static String ROWS_HIDDEN = "rowsHidden";
@@ -594,6 +596,18 @@ public class Tab implements java.io.Serializable {
 						log.warn(XavaResources.getString("tab_key_value_warning"),ex);
 					}						
 				}
+				else if (conditionComparators[i].equals(EMPTY_COMPARATOR)) {
+					if (firstCondition) firstCondition = false;
+					else sb.append(" and ");
+					sb.append(buildEmptyCondition(decorateConditionProperty(p, i), 
+												  p.getType().equals(java.lang.String.class)));
+				} 
+				else if (conditionComparators[i].equals(NOT_EMPTY_COMPARATOR)) {
+					if (firstCondition) firstCondition = false;
+					else sb.append(" and ");
+					sb.append(buildNotEmptyCondition(decorateConditionProperty(p, i), 
+												     p.getType().equals(java.lang.String.class)));
+				}
 				else{					
 					comparatorsToWhere.add(this.conditionComparators[i]);
 					valuesToWhere.add("");
@@ -648,6 +662,34 @@ public class Tab implements java.io.Serializable {
 
 		return sb.toString();
 	}
+
+	private String buildEmptyCondition(String property, boolean isPropertyString) {
+		StringBuilder sb = new StringBuilder();
+		sb.append(property);
+		sb.append(' ');
+		sb.append(convertComparator(null, EMPTY_COMPARATOR));
+		if (isPropertyString) {
+			sb.insert(0, '(');
+			sb.append(" or ");
+			sb.append(property);
+			sb.append(" = '')");
+		}		
+		return sb.toString();
+	}
+
+	private String buildNotEmptyCondition(String property, boolean isPropertyString) {
+		StringBuilder sb = new StringBuilder();		
+		sb.append(property);
+		sb.append(' ');
+		sb.append(convertComparator(null, NOT_EMPTY_COMPARATOR));
+		if (isPropertyString) {
+			sb.insert(0, '(');
+			sb.append(" and ");
+			sb.append(property);
+			sb.append(" <> '')");
+		}
+		return sb.toString();
+	}
 	
 	private String decorateConditionProperty(MetaProperty metaProperty, int i) throws XavaException {
 		String property = "${" + metaProperty.getQualifiedName() + "}";
@@ -676,6 +718,8 @@ public class Tab implements java.io.Serializable {
 		if (CONTAINS_COMPARATOR.equals(comparator)) return "like";
 		if (ENDS_COMPARATOR.equals(comparator)) return "like"; 
 		if (NOT_CONTAINS_COMPARATOR.equals(comparator)) return "not like";
+		if (EMPTY_COMPARATOR.equals(comparator)) return "is null";
+		if (NOT_EMPTY_COMPARATOR.equals(comparator)) return "is not null";
 		if (YEAR_COMPARATOR.equals(comparator)) return "=";
 		if (MONTH_COMPARATOR.equals(comparator)) return "=";
 		if (YEAR_MONTH_COMPARATOR.equals(comparator)) return "=";

@@ -837,14 +837,20 @@ openxava.hideFrame = function(id) {
 openxava.onChangeComparator = function(id,idConditionValue,idConditionValueTo,labelFrom,labelInValues) {
 	var comparator = openxava.getFormValue(document.getElementById(id));
 	if ("range_comparator" == comparator){
+		$('#' + idConditionValue).show().next().show();
 		$('#' + idConditionValueTo).show().next().show();
 		document.getElementById(idConditionValue).placeholder = labelFrom;
 	}
-	else{
+	else if ("empty_comparator" == comparator || "not_empty_comparator" == comparator) {
+		$('#' + idConditionValue).hide().next().hide();
 		$('#' + idConditionValueTo).hide().next().hide();
+	}
+	else{
+		$('#' + idConditionValue).show().next().show();
+		$('#' + idConditionValueTo).hide().next().hide();		
 		if ("in_comparator" == comparator || "not_in_comparator" == comparator) {
 			document.getElementById(idConditionValue).placeholder = labelInValues;
-		}
+		} 		
 		else {
 			document.getElementById(idConditionValue).placeholder = "";
 		}
