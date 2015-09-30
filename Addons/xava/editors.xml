@@ -22,6 +22,10 @@
 
 	<editor url="../../naviox/editors/organizationUrlEditor.jsp">
 		<for-model-property model="Organization" property="url" />
-	</editor>	
+	</editor>
+	
+	<editor url="../../naviox/editors/forceChangePasswordDaysEditor.jsp">
+		<for-model-property model="ConfigurationRecord" property="forceChangePasswordDays" />
+	</editor>
 	
 </editors>
