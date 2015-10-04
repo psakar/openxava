@@ -1152,7 +1152,7 @@ public class ModuleTestBase extends TestCase {
 
 	protected void setConditionComparators(String collection, String [] values) throws Exception { 
 		filterConditionComparators(values);
-		setCollectionCondition(Tab.COLLECTION_PREFIX + collection + "conditionComparators", values);
+		setCollectionCondition(Tab.COLLECTION_PREFIX + collection + "_conditionComparator", values);
 	}	
 	
 	private void filterConditionComparators(String[] values) {
