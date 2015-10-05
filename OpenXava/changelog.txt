@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Is empty and is not empty filters for list and collections.
 - Fix: setConditionComparators method did not set conditions for collections in ModuleTestBase.
 - CSS files in web/xava/editors/style are loaded automatically.
 - Fix: Charts style missing inside portals. 
