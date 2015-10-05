@@ -730,6 +730,12 @@ openxava.onSelectElement = function(application, module, action, argv, checkValu
 	if (!selectingAll) openxava.hasOnSelectAll(application, module);
 }
 
+openxava.onSelectListFormat = function(event) { 
+	var i = $(event.target);
+	i.parent().parent().find("a").removeClass(openxava.selectedListFormatClass);
+	i.parent().addClass(openxava.selectedListFormatClass);
+}
+
 openxava.clearLog = function(message) { 
 	$('#xava_console').empty();
 }

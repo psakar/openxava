@@ -276,7 +276,12 @@ public class MetaWebEditors {
 	public static Collection<MetaEditor> getMetaEditorsFor(MetaTab tab) throws ElementNotFoundException, XavaException {
 		MetaEditor customEditor = (MetaEditor) getMetaEditorForTabModel(tab.getModelName());
 		if (customEditor == null) return editorsForTabs;
-		else return CollectionUtils.union(Collections.singleton(customEditor), editorsForTabs); 
+		else {
+			Collection<MetaEditor> result = new ArrayList<MetaEditor>();
+			result.add(customEditor);
+			result.addAll(editorsForTabs);
+			return result;
+		}
 	}	
 		
 	public static MetaEditor getMetaEditorFor(MetaMember member) throws ElementNotFoundException, XavaException { 

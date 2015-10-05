@@ -27,6 +27,12 @@ public class AJAXTest extends ModuleTestBase {
 		super(nameTest, null);
 	}
 	
+	public void testListFormats() throws Exception { 
+		changeModule("Carrier");
+		execute("ListFormat.select", "editor=Charts");
+		assertLoadedParts("view, errors, messages");
+	}
+	
 	public void testElementCollections() throws Exception { 
 		if (!usesAnnotatedPOJO()) return;
 		changeModule("Quote");

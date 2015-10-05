@@ -496,6 +496,23 @@ public class Style {
 	public String getList() {  
 		return "ox-list";
 	}
+	
+	/**
+	 * 
+	 * @since 5.4
+	 */
+	public String getListFormats() { 
+		return "ox-list-formats";
+	}
+	
+	/**
+	 * 
+	 * @since 5.4
+	 */
+	public String getSelectedListFormat() { 
+		return "ox-selected-list-format";
+	}
+
 			
 	public String getListCellSpacing() {
 		return ""; 

@@ -65,7 +65,7 @@ if (manager.isButtonBarVisible()) {
 	
 	<div id="<xava:id name='modes'/>">
 	<span style="float: right">
-	<span style="float: left;" class="ox-list-formats"> 
+	<span style="float: left;" class="<%=style.getListFormats()%>">
 	<%
 	if (mode.equals("list")) {
 		String tabObject = request.getParameter("tabObject");
@@ -74,11 +74,12 @@ if (manager.isButtonBarVisible()) {
 		Collection<String> editors = org.openxava.web.WebEditors.getEditors(tab.getMetaTab());
 		for (String editor: editors) {
 			String icon = editor.equals("Charts")?"chart-line":"table-large";
+			String selected = editor.equals(tab.getEditor())?style.getSelectedListFormat():"";
 	%>
-	<xava:link action="ListFormat.select" argv='<%="editor=" + editor%>'>
-		<i class="mdi mdi-<%=icon%>"></i>
-	</xava:link>		
-	<%
+	<xava:link action="ListFormat.select" argv='<%="editor=" + editor%>' cssClass="<%=selected%>">	
+		<i class="mdi mdi-<%=icon%>" onclick="openxava.onSelectListFormat(event)"></i>
+	</xava:link>			
+	<%				
 		}
 	}	
 	%>

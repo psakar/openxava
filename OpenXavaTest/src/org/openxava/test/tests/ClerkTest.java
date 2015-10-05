@@ -5,6 +5,8 @@ import java.util.*;
 
 import org.openxava.tests.*;
 
+import com.gargoylesoftware.htmlunit.html.*;
+
 
 
 /**
@@ -59,8 +61,21 @@ public class ClerkTest extends ModuleTestBase {
 		execute("Print.generatePdf"); 		
 		assertContentTypeForPopup("application/pdf");		
 	}
+	
+	public void testListFormatSelectedButtonStyle() throws Exception { 
+		HtmlAnchor listLink = getHtmlPage().getAnchorByHref("javascript:openxava.executeAction('OpenXavaTest', 'Clerk', '', false, 'ListFormat.select', 'editor=List')");
+		assertTrue(listLink.getAttribute("class").contains("ox-selected-list-format"));
+		HtmlAnchor chartsLink = getHtmlPage().getAnchorByHref("javascript:openxava.executeAction('OpenXavaTest', 'Clerk', '', false, 'ListFormat.select', 'editor=Charts')");
+		assertFalse(chartsLink.getAttribute("class").contains("ox-selected-list-format"));
+		
+		HtmlElement iCharts = chartsLink.getHtmlElementsByTagName("i").get(0);
+		iCharts.click();		
+		assertFalse(listLink.getAttribute("class").contains("ox-selected-list-format"));
+		assertTrue(chartsLink.getAttribute("class").contains("ox-selected-list-format"));
+	}
 
 	private String getCurrentTime() {
 		return new SimpleDateFormat("HH:mm").format(new Date());
 	}
+	
 }

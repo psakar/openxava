@@ -10673,6 +10673,7 @@ OpenXavaTest/web/help/Color_en.html -text
 OpenXavaTest/web/help/Color_es.html -text
 OpenXavaTest/web/index.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/editors/actionsEditor.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/naviox/editors/forceChangePasswordDaysEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/editors/organizationUrlEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/firstSteps.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/getModulesList.jsp -text svneol=unset#text/plain

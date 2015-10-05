@@ -20,7 +20,7 @@ class CorporationEmployeeTest extends ModuleTestBase {
 	}
 	
 	void testTabEditorForModel() {
-		assertListRowCount 2
+		assertListRowCount 2 
 		setValue "chooseSegment", "low"
 		assertListRowCount 1
 		assertValueInList 0, 0, "MIGUEL"

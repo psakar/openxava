@@ -2160,6 +2160,9 @@ public class Tab implements java.io.Serializable {
 	}
 
 	public String getEditor() {
+		if (editor == null) {
+			editor = WebEditors.getEditors(getMetaTab()).iterator().next();
+		}
 		return editor;
 	}
 

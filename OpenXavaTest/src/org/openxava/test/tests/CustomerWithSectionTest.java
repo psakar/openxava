@@ -496,7 +496,7 @@ public class CustomerWithSectionTest extends CustomerTest {
 		assertFalse(getElementById("list_filter_list").isDisplayed());
 		getElementById("show_filter_list").click();
 		Thread.sleep(500); 
-		assertFalse(getElementById("show_filter_list").isDisplayed());
+		assertFalse(getElementById("show_filter_list").isDisplayed()); 
 		assertTrue(getElementById("hide_filter_list").isDisplayed());
 		assertTrue(getElementById("list_filter_list").isDisplayed());
 	}
