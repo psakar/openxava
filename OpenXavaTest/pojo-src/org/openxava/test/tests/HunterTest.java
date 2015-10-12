@@ -81,13 +81,13 @@ public class HunterTest extends ModuleTestBase {
 		
 		// Filter String
 		setConditionComparators("hounds", new String [] {"empty_comparator"});		
-		execute("List.filter", "collection=hounds");
+		// execute("List.filter", "collection=hounds");
 		assertCollectionRowCount("hounds", 0);
 		assertTrue(isNotVisibleConditionValue(0));
 		
 		// Filter Date
-		setConditionComparators("hounds", new String [] {"starts_comparator", "empty_comparator"});
-		execute("List.filter", "collection=hounds");
+		setConditionComparators("hounds", new String [] {"=", "empty_comparator"});
+		// execute("List.filter", "collection=hounds");
 		assertCollectionRowCount("hounds", 1);
 		assertTrue(isNotVisibleConditionValue(1));
 		assertFalse(isNotVisibleConditionValue(0));
@@ -108,13 +108,13 @@ public class HunterTest extends ModuleTestBase {
 		
 		// Filter String
 		setConditionComparators("hounds", new String [] {"not_empty_comparator"});		
-		execute("List.filter", "collection=hounds");
+		// execute("List.filter", "collection=hounds");
 		assertCollectionRowCount("hounds", 2);
 		assertTrue(isNotVisibleConditionValue(0));
 		
 		// Filter Date
-		setConditionComparators("hounds", new String [] {"starts_comparator", "not_empty_comparator"});
-		execute("List.filter", "collection=hounds");
+		setConditionComparators("hounds", new String [] {"=", "not_empty_comparator"});
+		// execute("List.filter", "collection=hounds");
 		assertCollectionRowCount("hounds", 1);
 		assertTrue(isNotVisibleConditionValue(1));
 		assertFalse(isNotVisibleConditionValue(0));

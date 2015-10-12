@@ -4,6 +4,7 @@
 <%@page import="org.openxava.web.Ids"%>
 <%@page import="org.openxava.model.meta.MetaProperty"%>
 <%@page import="org.openxava.tab.Tab"%>
+<%@page import="org.openxava.util.Is"%>
 
 <jsp:useBean id="style" class="org.openxava.web.style.Style" scope="request"/>
 
@@ -41,6 +42,20 @@ if (propertyKey == null) {
 	int index = Integer.parseInt(request.getParameter("index"));
 	name = Ids.decorate(request, prefix + "conditionComparator." + index);
 	script = Actions.getActionOnChangeComparator(name,idConditionValue,idConditionValueTo);
+	
+	if (org.openxava.util.XavaPreferences.getInstance().isFilterOnChange() & (isString || isDate)) {
+		String collection = request.getParameter("collection"); 
+		String collectionArgv = Is.emptyString(collection)?"":"collection="+collection;
+		script = new StringBuilder(script.replace(")\"", "); "))
+				    .append("if (this.options[this.selectedIndex].value.indexOf('empty') > -1) { ")
+				    .append("openxava.executeAction('")
+				    .append(request.getParameter("application"))	
+	 			    .append("', '")
+	 			    .append(request.getParameter("module"))
+	 			    .append("', '', false, 'List.filter','")
+	 			    .append(collectionArgv).append("'); ")		
+				    .append("}\"").toString();
+	}
 }
 else {
 	name = propertyKey;

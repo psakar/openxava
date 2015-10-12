@@ -139,23 +139,20 @@ public class MovieTest extends ModuleTestBase {
 		assertFalse(isNotVisibleConditionValue(3));
 		
 		// Filter String
-		setConditionValues("", "", "");
-		setConditionComparators("starts_comparator", "starts_comparator", "empty_comparator");
-		execute("List.filter");		
+		setConditionComparators("=", "=", "empty_comparator");
+        // execute("List.filter");		
 		assertListRowCount(1);
 		assertValueInList(0, 0, "NOVECENTO"); 
 		assertTrue(isNotVisibleConditionValue(2));
 		
-		setConditionValues("", "", "");
-		setConditionComparators("starts_comparator", "starts_comparator", "starts_comparator");
+		setConditionComparators("=", "=", "=");
 		execute("List.filter");
 		assertListRowCount(2);
 		assertFalse(isNotVisibleConditionValue(2));
 		
 		//Filter Date
-		setConditionValues("", "", "", "");
-		setConditionComparators("starts_comparator", "starts_comparator", "starts_comparator", "empty_comparator");
-		execute("List.filter");
+		setConditionComparators("=", "=", "=", "empty_comparator");
+		// execute("List.filter");
 		assertListRowCount(1);
 		assertValueInList(0, 0, "NOVECENTO"); 
 		assertTrue(isNotVisibleConditionValue(3));
@@ -167,23 +164,20 @@ public class MovieTest extends ModuleTestBase {
 		assertFalse(isNotVisibleConditionValue(3));
 		
 		// Filter String
-		setConditionValues("", "", "");
-		setConditionComparators("starts_comparator", "starts_comparator", "not_empty_comparator");
-		execute("List.filter");
+		setConditionComparators("=", "=", "not_empty_comparator");
+		// execute("List.filter");
 		assertListRowCount(1);
 		assertValueInList(0, 0, "FORREST GUMP");
 		assertTrue(isNotVisibleConditionValue(2));		
 		
-		setConditionValues("", "", "");
-		setConditionComparators("starts_comparator", "starts_comparator", "starts_comparator");
+		setConditionComparators("=", "=", "=");
 		execute("List.filter");
 		assertListRowCount(2);
 		assertFalse(isNotVisibleConditionValue(2));
 		
 		//Filter Date
-		setConditionValues("", "", "", "");
-		setConditionComparators("starts_comparator", "starts_comparator", "starts_comparator", "not_empty_comparator");
-		execute("List.filter");
+		setConditionComparators("=", "=", "=", "not_empty_comparator");
+		// execute("List.filter");
 		assertListRowCount(1);
 		assertValueInList(0, 0, "FORREST GUMP");
 		assertTrue(isNotVisibleConditionValue(3));

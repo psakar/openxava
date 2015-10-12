@@ -842,12 +842,16 @@ openxava.hideFrame = function(id) {
 
 openxava.onChangeComparator = function(id,idConditionValue,idConditionValueTo,labelFrom,labelInValues) {
 	var comparator = openxava.getFormValue(document.getElementById(id));
+	var br = $('#' + id).prev();
+	if (br.is('br')) br.remove();
+	
 	if ("range_comparator" == comparator){
 		$('#' + idConditionValue).show().next().show();
 		$('#' + idConditionValueTo).show().next().show();
 		document.getElementById(idConditionValue).placeholder = labelFrom;
 	}
 	else if ("empty_comparator" == comparator || "not_empty_comparator" == comparator) {
+		$('#' + id).before('<br/>');
 		$('#' + idConditionValue).hide().next().hide();
 		$('#' + idConditionValueTo).hide().next().hide();
 	}

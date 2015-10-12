@@ -326,7 +326,10 @@ while (it.hasNext()) {
 		+ "&index=" + iConditionValues
 		+ "&idConditionValue=" + idConditionValue
 		+ "&idConditionValueTo=" + idConditionValueTo;
+	if (isEmptyComparator) {
 %>
+<br/>
+<%  } %>
 <jsp:include page="<%=urlComparatorsCombo%>" />
 <br/> 
 <nobr>
