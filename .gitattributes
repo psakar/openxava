@@ -10801,7 +10801,6 @@ OpenXavaTest/web/xava/editors/changeImage.jsp -text
 OpenXavaTest/web/xava/editors/chartColumnNameEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/chartColumnNameNumericEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/chartDataEditor.jsp -text svneol=unset#text/plain
-OpenXavaTest/web/xava/editors/chartNameEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/chartTypeEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/chartXColumnEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/chartsEditor.jsp -text svneol=unset#text/plain
