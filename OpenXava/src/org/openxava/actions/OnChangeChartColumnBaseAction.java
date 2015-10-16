@@ -1,6 +1,3 @@
-/**
- * 
- */
 package org.openxava.actions;
 
 import javax.inject.Inject;
@@ -8,14 +5,13 @@ import javax.inject.Inject;
 import org.openxava.session.Chart;
 import org.openxava.session.ChartColumn;
 import org.openxava.tab.Tab;
-import org.openxava.web.Charts;
+
 
 /**
  * @author Federico Alcantara
  *
  */
-public abstract class OnChangeChartColumnBaseAction extends
-		OnChangeElementCollectionBaseAction {
+public abstract class OnChangeChartColumnBaseAction extends OnChangeElementCollectionBaseAction {
 	@Inject
 	private Chart chart;
 
@@ -27,7 +23,6 @@ public abstract class OnChangeChartColumnBaseAction extends
 	 */
 	@Override
 	public void execute() throws Exception {
-		getChart().setChanged(true);
 		executeOnValidValues();
 	}
 	

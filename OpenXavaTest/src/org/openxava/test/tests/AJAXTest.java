@@ -669,7 +669,7 @@ public class AJAXTest extends ModuleTestBase {
 		execute("Mode.detailAndFirst");
 		assertCollectionRowCount("fellowCarriers", 3);  
 		setValue("warehouse.number", "2");
-		assertCollectionRowCount("fellowCarriers", 0);
+		assertCollectionRowCount("fellowCarriers", 0); 
 		setValue("warehouse.number", "1");
 		assertCollectionRowCount("fellowCarriers", 3);
 		assertLoadedParts("errors, collection_fellowCarriers., " + 

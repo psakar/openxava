@@ -951,7 +951,10 @@
 		<delete file="../${project}/web/xava/editors/customReportColumnComparatorEditor.jsp"/>
 		<delete file="../${project}/web/xava/editors/customReportColumnValidValuesValueEditor.jsp"/>
 		<delete file="../${project}/web/xava/editors/customReportColumnDescriptionsListValueEditor.jsp"/>
-		<delete file="../${project}/web/xava/calculatedCollectionList.jsp"/> 
+		<delete file="../${project}/web/xava/calculatedCollectionList.jsp"/>
+		<!-- Delete unused JSPs -->
+		<delete file="../${project}/web/xava/editors/chartNameEditor.jsp"/> 
+		
 	</target>
 	
 	<target name="copyWeb">

@@ -10,8 +10,6 @@ import org.openxava.util.*;
 import org.openxava.view.*;
 
 import com.openxava.naviox.*;
-import com.openxava.naviox.model.*;
-import com.openxava.naviox.util.*;
 
 /**
  * 

@@ -549,7 +549,7 @@ public class DeliveryTest extends ModuleTestBase {
 		assertLabelInList(0, "Year of Invoice"); // We need Year to test this case, because is a numeric property of a reference in the first column
 		execute("ListFormat.select", "editor=Charts"); 
 		assertNoErrors();
-		assertExists("yColumn"); 
+		assertExists("xColumn"); 
 	}
 		
 	public void testUseListWithOtherModelAndReturnToModuleList() throws Exception {

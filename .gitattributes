@@ -5055,12 +5055,8 @@ OpenXava/src/org/openxava/actions/NewAction.java -text
 OpenXava/src/org/openxava/actions/NewTreeViewItemAction.java -text
 OpenXava/src/org/openxava/actions/OnChangeChartBaseAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/OnChangeChartColumnBaseAction.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/actions/OnChangeChartColumnDisplayedAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/OnChangeChartColumnNameAction.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/actions/OnChangeChartColumnSelectedAction.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/actions/OnChangeChartLabelColumnAction.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/actions/OnChangeChartNameAction.java -text svneol=unset#text/plain
-OpenXava/src/org/openxava/actions/OnChangeChartTypeAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/OnChangeChartXColumnAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/OnChangeElementCollectionBaseAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/OnChangeMyReportColumnBaseAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/OnChangeMyReportColumnComparatorAction.java -text svneol=unset#text/plain
@@ -5100,6 +5096,7 @@ OpenXava/src/org/openxava/actions/SearchByViewKeyAction.java -text
 OpenXava/src/org/openxava/actions/SearchDialogAction.java -text
 OpenXava/src/org/openxava/actions/SearchExecutingOnChangeAction.java -text
 OpenXava/src/org/openxava/actions/SearchReadOnlyAction.java -text
+OpenXava/src/org/openxava/actions/SelectChartTypeAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/SelectListFormatAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/SetCustomViewAction.java -text
 OpenXava/src/org/openxava/actions/SetDefaultSchemaAction.java -text
@@ -5691,8 +5688,6 @@ OpenXava/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
 OpenXava/web/WEB-INF/fonts/DejaVuSans.ttf -text
 OpenXava/web/WEB-INF/fonts/LICENSE -text
 OpenXava/web/WEB-INF/lib/antlr.jar -text
-OpenXava/web/WEB-INF/lib/asm.jar -text
-OpenXava/web/WEB-INF/lib/cglib.jar -text
 OpenXava/web/WEB-INF/lib/classmate.jar -text
 OpenXava/web/WEB-INF/lib/commons-beanutils.jar -text
 OpenXava/web/WEB-INF/lib/commons-codec.jar -text
@@ -5707,7 +5702,6 @@ OpenXava/web/WEB-INF/lib/commons-validator.jar -text
 OpenXava/web/WEB-INF/lib/dom4j.jar -text
 OpenXava/web/WEB-INF/lib/dsn.jar -text
 OpenXava/web/WEB-INF/lib/dwr.jar -text
-OpenXava/web/WEB-INF/lib/ehcache.jar -text
 OpenXava/web/WEB-INF/lib/ejb.jar -text
 OpenXava/web/WEB-INF/lib/groovy-all.jar -text
 OpenXava/web/WEB-INF/lib/hibernate-commons-annotations.jar -text
@@ -5837,7 +5831,8 @@ OpenXava/web/editors/calendar/skins/aqua/today-bg.gif -text
 OpenXava/web/editors/changeImage.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/chartColumnNameEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/chartDataEditor.jsp -text svneol=unset#text/plain
-OpenXava/web/editors/chartNameEditor.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/chartTypeEditor.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/chartXColumnEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/chartsEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/chooseFile.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/ckeditor/.htaccess -text
@@ -10606,8 +10601,6 @@ OpenXavaTest/web/WEB-INF/fonts/DejaVuSans.ttf -text
 OpenXavaTest/web/WEB-INF/fonts/LICENSE -text
 OpenXavaTest/web/WEB-INF/lib/addons.jar -text
 OpenXavaTest/web/WEB-INF/lib/antlr.jar -text
-OpenXavaTest/web/WEB-INF/lib/asm.jar -text
-OpenXavaTest/web/WEB-INF/lib/cglib.jar -text
 OpenXavaTest/web/WEB-INF/lib/classmate.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-beanutils.jar -text
 OpenXavaTest/web/WEB-INF/lib/commons-codec.jar -text
@@ -10622,7 +10615,6 @@ OpenXavaTest/web/WEB-INF/lib/commons-validator.jar -text
 OpenXavaTest/web/WEB-INF/lib/dom4j.jar -text
 OpenXavaTest/web/WEB-INF/lib/dsn.jar -text
 OpenXavaTest/web/WEB-INF/lib/dwr.jar -text
-OpenXavaTest/web/WEB-INF/lib/ehcache.jar -text
 OpenXavaTest/web/WEB-INF/lib/ejb.jar -text
 OpenXavaTest/web/WEB-INF/lib/groovy-all.jar -text
 OpenXavaTest/web/WEB-INF/lib/hibernate-commons-annotations.jar -text
@@ -10810,6 +10802,8 @@ OpenXavaTest/web/xava/editors/chartColumnNameEditor.jsp -text svneol=unset#text/
 OpenXavaTest/web/xava/editors/chartColumnNameNumericEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/chartDataEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/chartNameEditor.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/chartTypeEditor.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/chartXColumnEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/chartsEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/chooseFile.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/ckeditor/.htaccess -text

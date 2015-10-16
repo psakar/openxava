@@ -180,7 +180,9 @@ here that you want to override.
 			class="org.openxava.actions.ShareMyReportAction"/>																																										
 	</controller>
 		
-	<controller name="Chart">
+	<controller name="Chart"> 
+		<action name="selectType" hidden="true"
+			class="org.openxava.actions.SelectChartTypeAction"/>
 		<action name="removeColumn" hidden="true" in-each-row="true"
 			class="org.openxava.actions.RemoveChartColumnAction"
 			icon="delete"

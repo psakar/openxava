@@ -513,7 +513,39 @@ public class Style {
 		return "ox-selected-list-format";
 	}
 
-			
+	/**
+	 * 
+	 * @since 5.4
+	 */
+	public String getCharts() { 
+		return "ox-charts";
+	}
+	
+	/**
+	 * 
+	 * @since 5.4
+	 */
+	public String getChartXColumn() {  
+		return "ox-chart-x-column";
+	}
+
+	/**
+	 * 
+	 * @since 5.4
+	 */
+	public String getSelectedChartType() {  
+		return "ox-selected-chart-type";
+	}
+	
+	/**
+	 * 
+	 * @since 5.4
+	 */
+	public String getChartType() {  
+		return "ox-chart-type";
+	}
+
+				
 	public String getListCellSpacing() {
 		return ""; 
 	}

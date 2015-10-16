@@ -35,7 +35,6 @@ public abstract class OnChangeChartBaseAction extends OnChangePropertyBaseAction
 	@Override
 	public void execute() throws Exception {
 		if (getNewValue() != null) {
-			getChart().setChanged(true);
 			executeOnValidValues();
 			Charts.INSTANCE.updateView(getRequest(), getView(), getTab(), chart);
 		}

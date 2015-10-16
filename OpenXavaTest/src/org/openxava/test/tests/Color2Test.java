@@ -55,7 +55,7 @@ public class Color2Test extends ModuleTestBase {
 		assertValue("descriptionsListValue", "");
 		setValue("descriptionsListValue", "1:_:CAR"); 
 		execute("MyReport.saveColumn");
-		assertValueInCollection("columns", 4, 2, "CAR");
+		assertValueInCollection("columns", 4, 2, "CAR"); 
 		
 		execute("MyReport.editColumn", "row=4,viewObject=xava_view_columns");
 		assertValue("descriptionsListValue", "1:_:CAR"); 		

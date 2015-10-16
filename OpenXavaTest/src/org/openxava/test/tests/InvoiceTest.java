@@ -15,7 +15,7 @@ import java.util.StringTokenizer;
 
 import javax.rmi.PortableRemoteObject;
 
-import org.openxava.actions.OnChangeChartLabelColumnAction;
+import org.openxava.actions.*;
 import org.openxava.jpa.XPersistence;
 import org.openxava.session.Chart;
 import org.openxava.test.calculators.YearInvoiceDiscountCalculator;
@@ -30,6 +30,7 @@ import org.openxava.util.XavaPreferences;
 import org.openxava.util.XavaResources;
 import org.openxava.web.Ids;
 
+import com.gargoylesoftware.htmlunit.*;
 import com.gargoylesoftware.htmlunit.html.DomElement;
 import com.gargoylesoftware.htmlunit.html.DomNode;
 import com.gargoylesoftware.htmlunit.html.HtmlImage;
@@ -884,7 +885,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 	public void testCustomizeList() throws Exception {
 		doTestCustomizeList_addColumns();
 		tearDown(); setUp();
-		doTestCustomizeList_storePreferences();
+		doTestCustomizeList_storePreferences(); 
 	}
 	
 	private void doTestCustomizeList_addColumns() throws Exception {
@@ -1872,26 +1873,25 @@ public class InvoiceTest extends CustomizeListTestBase {
 		assertListNotEmpty();
 		execute("ListFormat.select", "editor=Charts");
 		assertNoDialog(); 
-		assertValidValues("chartType", new String[][]{
-				{"", ""},
-				{Integer.toString(Chart.ChartType.BAR.ordinal()), "Bar"},
-				{Integer.toString(Chart.ChartType.LINE.ordinal()), "Line"},
-				{Integer.toString(Chart.ChartType.PIE.ordinal()), "Pie"},
-				{Integer.toString(Chart.ChartType.DONUT.ordinal()), "Donut"},
-				{Integer.toString(Chart.ChartType.STACKED_BAR.ordinal()), "Stacked bar"},
-				{Integer.toString(Chart.ChartType.AREA.ordinal()), "Area"},
-				{Integer.toString(Chart.ChartType.STACKED_AREA.ordinal()), "Stacked area"},
-				{Integer.toString(Chart.ChartType.XY.ordinal()), "XY"},
-				{Integer.toString(Chart.ChartType.SPLINE.ordinal()), "Spline"},
-				{Integer.toString(Chart.ChartType.STEP.ordinal()), "Step"},
-				{Integer.toString(Chart.ChartType.STACKED_STEP.ordinal()), "Stacked step"}
-		});
-		assertValue("yColumn", "year");
-		assertValidValueExists("yColumn", OnChangeChartLabelColumnAction.SHOW_MORE, "[SHOW MORE...]");
+		assertChartTypeLink("BAR");
+		assertChartTypeLink("LINE");
+		assertChartTypeLink("PIE");
+		assertValue("xColumn", "year");
+		assertValidValueExists("xColumn", OnChangeChartColumnNameAction.SHOW_MORE, "[SHOW MORE...]"); 
 		assertChartDisplayed();
 
 		reload(); 
 		assertChartDisplayed();	
+	}
+
+
+	private void assertChartTypeLink(String chartType) { 
+		try {
+			getHtmlPage().getAnchorByHref("javascript:openxava.executeAction('OpenXavaTest', 'Invoice', '', false, 'Chart.selectType', 'chartType=" + chartType + "')");
+		}
+		catch (ElementNotFoundException ex) {
+			fail(chartType + " chart type link missing");  
+		}
 	}
 	
 	private void assertChartDisplayed() throws Exception {

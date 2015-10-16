@@ -32,8 +32,6 @@
 		<for-element-collections/>
 	</editor>	
 	
-	
-	
 	<editor name="TextField" url="textEditor.jsp">
 		<for-type type="java.lang.String" />
 		<list-formatter class="org.openxava.formatters.HTMLFilterListFormatter" />		
@@ -254,10 +252,6 @@
 		<for-model-property model="Chart" property="chartData" />
 	</editor>
 	
-	<editor url="chartNameEditor.jsp">
-		<for-model-property model="Chart" property="name" />
-	</editor>		
-
 	<editor url="chartColumnNameEditor.jsp" always-reload="true">
 		<for-model-property model="Chart" property="yColumn" />
 	</editor>
@@ -265,6 +259,14 @@
 	<editor url="chartColumnNameEditor.jsp" always-reload="true">
 		<for-model-property model="ChartColumn" property="name" />
 		<property name="showOnlyNumericColumns" value="true" />
-	</editor>	
+	</editor>
 	
+	<editor url="chartTypeEditor.jsp">
+		<for-model-property model="Chart" property="chartType" />
+	</editor>
+	
+	<editor url="chartXColumnEditor.jsp" always-reload="true">
+		<for-model-property model="Chart" property="xColumn" />
+	</editor>	
+		
 </editors>

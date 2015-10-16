@@ -1,6 +1,3 @@
-/**
- * 
- */
 package org.openxava.web;
 
 import java.util.ArrayList;
@@ -45,7 +42,6 @@ public enum Charts {
 	private final String KEY_CHART_TYPE = "chart_type";
 	private final String KEY_X_AXES = "x_axes";
 	private final String KEY_Y_AXES = "y_axes";
-	private final String KEY_SHARED = "shared";
 	
 	/**
 	 * Creates an empty Chart.
@@ -55,15 +51,11 @@ public enum Charts {
 	public void fillEmpty(Tab tab, Chart chart, String defaultName) {
 		String name  = defaultName != null ? defaultName : tab.getTitle();
 		name = nodeName(name, false);
-		// tmp chart.setName(name);
-		chart.setyColumn(getAxisColumns(tab));
+		chart.setxColumn(getAxisColumns(tab));
 		// Select the first column that is not the same as the label column
-		List<ChartColumn> columns = createColumns(tab, chart, true, chart.getyColumn());
+		List<ChartColumn> columns = createColumns(tab, chart, true, chart.getxColumn());
 		chart.setMetaModel(tab.getMetaTab().getMetaModel());
 		chart.setChartType(ChartType.BAR);
-		chart.setChanged(true);
-		chart.setNameEditable(true);
-		chart.setShared(false);
 		chart.setColumns(columns);
 	}
 	
@@ -74,16 +66,8 @@ public enum Charts {
 	 * @throws XavaException 
 	 */
 	private void fillFromView(View view, Tab tab, Chart chart) throws XavaException, BackingStoreException {
-		/* tmp
-		if (view.isEditable("name")) {
-			chart.setName(view.getValueString("name"));
-		} else {
-			String name = Charts.INSTANCE.getChartPreferenceName(tab, view.getValueString("name"));
-			chart.setName(name);
-		}
-		*/
 		chart.setChartType((Chart.ChartType)view.getValue("chartType"));
-		chart.setyColumn(view.getValueString("yColumn"));
+		chart.setxColumn(view.getValueString("xColumn"));
 	}
 	
 	/**
@@ -93,7 +77,7 @@ public enum Charts {
 	 * @throws BackingStoreException
 	 */
 	public void saveChart(View view, Tab tab, Chart chart) throws XavaException, BackingStoreException {
-		/* tmp
+		/* We'll fix or remove this code before v5.4
 		if (!Is.emptyString(chart.getName())) {
 			fillFromView(view, tab, chart);
 			// Makes sure to delete the correct one when changing sharing state
@@ -119,7 +103,7 @@ public enum Charts {
 	 * @throws BackingStoreException
 	 */
 	private void saveChart(Chart chart, Preferences chartPreferences) throws BackingStoreException {
-		/* tmp
+		/* We'll fix or remove this code before v5.4
 		if (!Is.emptyString(chart.getName())) {
 			String name = chart.getName().startsWith(SHARED_NAME_PREFIX)
 					? chart.getName().substring(SHARED_NAME_PREFIX.length())
@@ -149,7 +133,7 @@ public enum Charts {
 	 * @throws BackingStoreException
 	 */
 	public void loadChart(Tab tab, Chart chart) throws XavaException, BackingStoreException {
-		/* tmp
+		/* We'll fix or remove this code before v5.4
 		String nodeName = nodeName(chart.getName(), chart.getShared());
 		loadChart(tab, chart, nodeName);
 		*/
@@ -177,8 +161,6 @@ public enum Charts {
 					while (column.load(chartPreferences, index)) {
 						index++;
 					}
-					chart.setNameEditable(false);
-					chart.setChanged(false);
 				}
 			}
 		} else {
@@ -199,9 +181,7 @@ public enum Charts {
 		boolean returnValue = false;
 		try {
 			if (!Is.emptyString(chartPreferences.get(KEY_NAME, null))) {
-				// tmp chart.setName(chartPreferences.name());
-				chart.setyColumn(chartPreferences.get(KEY_X_AXES, ""));
-				chart.setShared(chartPreferences.getBoolean(KEY_SHARED, false));
+				chart.setxColumn(chartPreferences.get(KEY_X_AXES, ""));
 				chart.setChartType(Chart.ChartType.valueOf(chartPreferences.get(KEY_CHART_TYPE, "BAR")));
 				int index = 0;
 				ChartColumn column = new ChartColumn();
@@ -248,17 +228,11 @@ public enum Charts {
 			String name = view.getValueString("name");
 			view.setModel(chart);
 			try {
-				labelMetaProperty = tab.getMetaTab().getMetaModel().getMetaProperty(chart.getyColumn());
+				labelMetaProperty = tab.getMetaTab().getMetaModel().getMetaProperty(chart.getxColumn());
 			} catch (Exception e) {
 				log.debug(e.getMessage());
 			}
-			/* tmp
-			view.setEditable("name", false);
-			if (Is.emptyString(view.getValueString("name"))) {
-				view.setValue("name", name);
-			}
-			*/
-			view.setValue("yColumn", chart.getyColumn());
+			view.setValue("xColumn", chart.getxColumn());
 			view.setValue("chartType", chart.getChartType());
 			view.setValueNotifying("chartData", chart.getChartType().jsType()
 					 + CHART_DATA_SEPARATOR 
@@ -272,44 +246,12 @@ public enum Charts {
 					 + CHART_DATA_SEPARATOR
 					 + (new Date()).getTime()
 					 );
-			setActions(view, chart.isNameEditable() || getAllChartNodeNames(tab).size() == 0, chart.getShared(), chart.isChanged());
 			createTab(request, tab, chart);
 			view.refreshCollections();
 			chart.setRendered(false);
 		}
 	}
-	
-	/**
-	 * Sets the view according to the name editable value.
-	 * @param view Current view.
-	 * @param tab Associated tab.
-	 * @param editable Indicates whether or not set the name editable.
-	 * @param shared Indicates that element is shared.
-	 * @param changed Indicates if the save action should be present.
-	 */
-	public void setActions(View view, boolean editable, Boolean shared, boolean changed) {
-		view.removeActionForProperty("name", "Chart.save");
-		view.removeActionForProperty("name", "Chart.share");
-		view.removeActionForProperty("name", "Chart.makePrivate");
-		view.removeActionForProperty("name", "Chart.createNew");
-		view.removeActionForProperty("name", "Chart.remove");
-		if (changed) {
-			view.addActionForProperty("name", "Chart.save");
-		}
-		if (editable) {
-			view.setEditable("name", true);
-		} else {
-			view.setEditable("name", false);
-			view.addActionForProperty("name", "Chart.createNew");
-		}
-		view.addActionForProperty("name", "Chart.remove");
-		if (shared != null && shared) {
-			view.addActionForProperty("name", "Chart.makePrivate");
-		} else {
-			view.addActionForProperty("name", "Chart.share");			
-		}
-	}
-	
+		
 	/**
 	 * Removes a chart from the preferences.
 	 * @param tab Associated tab.
@@ -320,8 +262,6 @@ public enum Charts {
 	public void removeChart(Tab tab, String nodeName) throws BackingStoreException {
 		removeChartPreferences(tab, nodeName);
 	}
-
-	/* Preferences section */
 
 	/**
 	 * The node name for a given name.
@@ -445,13 +385,12 @@ public enum Charts {
 			column.setLabel(property.getQualifiedLabel(Locales.getCurrent()));
 			column.setNumber(property.isNumber());
 			
-			column.setDisplayed(false);
 			try {
 				if (addNumeric 
 						&& property.isNumber() 
 						&& !numericChosen
-						&& !property.getName().equals(ignore)) {
-					column.setDisplayed(true);
+						&& !property.getName().equals(ignore)) 
+				{
 					numericChosen = true;
 				}
 				columns.add(column);
@@ -486,12 +425,12 @@ public enum Charts {
 			addColumn(chartTab, comparators, values, order, column);
 		}
 		
-		if (!Is.emptyString(chart.getyColumn())) {
+		if (!Is.emptyString(chart.getxColumn())) {
 			ChartColumn column = new ChartColumn();
-			MetaProperty property = tab.getMetaTab().getMetaModel().getMetaProperty(chart.getyColumn());
+			MetaProperty property = tab.getMetaTab().getMetaModel().getMetaProperty(chart.getxColumn());
 			if (property != null) {
 				column.setChart(chart);
-				column.setName(chart.getyColumn());				
+				column.setName(chart.getxColumn());				
 				column.setLabel(property.getQualifiedLabel(Locales.getCurrent()));
 				addColumn(chartTab, comparators, values, order, column);
 			}

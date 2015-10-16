@@ -16,9 +16,8 @@ import org.openxava.model.meta.*;
  */
 
 @View(members = 
-	"chartData;" +
-	"chartType, yColumn;" +
-	"columns"
+	"chartType[chartType; columns], chartData;" + 
+	"xColumn;"  
 )	
 public class Chart implements Serializable {
 	private static final long serialVersionUID = 1L;
@@ -30,17 +29,9 @@ public class Chart implements Serializable {
 	private String chartData;
 
 	public enum ChartType {
-			BAR("bar", false),
-			LINE("line", false),
-			PIE("pie", false),
-			DONUT("donut", false),
-			STACKED_BAR("bar", true),
-			AREA("area", false),
-			STACKED_AREA("area", true),
-			XY("scatter", false),
-			SPLINE("spline", false),
-			STEP("step", false),
-			STACKED_STEP("area-step", true);
+		BAR("bar", false),		
+		LINE("line", false),
+		PIE("pie", false);
 		String jsType;
 		boolean grouped;
 		private ChartType(String jsType, boolean grouped) {
@@ -54,27 +45,21 @@ public class Chart implements Serializable {
 			return grouped;
 		}
 	};
-	@OnChange(value = OnChangeChartTypeAction.class)
+	@LabelFormat(LabelFormatType.NO_LABEL) 
 	private ChartType chartType;
 	
-	@OnChange(value = OnChangeChartLabelColumnAction.class)
-	private String yColumn;
+	@LabelFormat(LabelFormatType.NO_LABEL) 
+	@OnChange(value = OnChangeChartXColumnAction.class)
+	private String xColumn;  
 	
 	@RemoveSelectedAction("Chart.removeColumn")
-	@ListProperties("displayed, name")
+	@ListProperties("name")
 	@ElementCollection
 	private List<ChartColumn> columns;
-
-	private Boolean shared;
 	
-	private boolean changed;
-	
-	private boolean nameEditable;
-	
-	private boolean rendered;
+	private boolean rendered;  
 	
 	public Chart() {
-		this.shared = false;
 	}
 	
 	public MetaModel getMetaModel() {
@@ -101,12 +86,12 @@ public class Chart implements Serializable {
 		this.chartType = chartType;
 	}
 
-	public String getyColumn() {
-		return yColumn;
+	public String getxColumn() {
+		return xColumn;
 	}
 
-	public void setyColumn(String xAxis) {
-		this.yColumn = xAxis;
+	public void setxColumn(String xAxis) {
+		this.xColumn = xAxis;
 	}
 
 	public List<ChartColumn> getColumns() {
@@ -115,30 +100,6 @@ public class Chart implements Serializable {
 
 	public void setColumns(List<ChartColumn> columns) {
 		this.columns = columns;
-	}
-
-	public Boolean getShared() {
-		return shared;
-	}
-
-	public void setShared(Boolean shared) {
-		this.shared = shared;
-	}
-	
-	public boolean isChanged() {
-		return changed;
-	}
-
-	public void setChanged(boolean changed) {
-		this.changed = changed;
-	}
-
-	public boolean isNameEditable() {
-		return nameEditable;
-	}
-
-	public void setNameEditable(boolean editable) {
-		this.nameEditable = editable;
 	}
 
 	public boolean isRendered() {
@@ -154,8 +115,6 @@ public class Chart implements Serializable {
 		StringBuilder builder = new StringBuilder();
 		builder.append("Chart [chartType=");
 		builder.append(chartType);
-		builder.append(", shared=");
-		builder.append(shared);
 		builder.append("]");
 		return builder.toString();
 	}
