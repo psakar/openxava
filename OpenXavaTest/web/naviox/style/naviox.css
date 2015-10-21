@@ -436,6 +436,10 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus
 	-webkit-box-shadow: 0px 1px 2px #CCCCCC;
 }
 
+.ox-button-bar-button a span {
+	padding: 4px;
+}
+
 .ox-button-bar .ox-button-bar-button a:hover, 
 .ox-collection-list-actions .ox-button-bar-button a:hover, 
 .ox-subcontroller-select a, .ox-list-formats i:hover, .ox-image-link i:hover,
@@ -522,7 +526,7 @@ i {
 	box-shadow: 0px 0px 5px #CCCCCC inset;  
 }
 
-a.ox-selected-list-format, a.ox-selected-list-format:hover {
+a.ox-selected-list-format, a.ox-selected-list-format:hover { 
 	pointer-events: none;
    	cursor: default;
 }

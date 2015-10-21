@@ -12,8 +12,9 @@ chartObject = (chartObject == null || chartObject.equals(""))?"xava_chart":chart
 Chart chart = (Chart) context.get(request, chartObject);
 for (Chart.ChartType type: Chart.ChartType.values()) {
 	String selected = (type == chart.getChartType())?style.getSelectedChartType():""; 
+	String cssStyle = (type == chart.getChartType())?"pointer-events: none; cursor: default;":""; // Must be inline, in the CSS class produces an ugly trembling effect
 %>
-<xava:link action="Chart.selectType" argv='<%="chartType=" + type.name()%>' cssClass="<%=selected%>">	
+<xava:link action="Chart.selectType" argv='<%="chartType=" + type.name()%>' cssClass="<%=selected%>" cssStyle="<%=cssStyle%>"> 	
 	<i class="mdi mdi-chart-<%=type.name().toLowerCase()%>"></i>
 </xava:link>
 <%				

@@ -62,14 +62,14 @@ public class DeleteAction extends ViewDetailAction {
 	}
 
 	private Map calculateNextKey(Map keyValues){
-		// por defecto al borrar cogemos el siguiente, si no hay siguiente cogemos el anterior y si no devolvemos null
+		// By default on deleting we take the next one, if there is not next one we take the previous one, if not we return null
 		List l = Arrays.asList(getTab().getSelectedKeys());
 		int index = l.indexOf(keyValues);
-		int cantidad = l.size();
+		int count = l.size();
 		
-		if (cantidad == 1) return null;	// solo hay un elemento y lo vamos a borrar
-		else if (cantidad-1 == index) return (Map) l.get(index - 1);	// estamos en el último elemento de la lista por lo que cogemos el anterior
-		else return (Map) l.get(index + 1);	// cogemos el siguiente registro	
+		if (count == 1) return null;	// There is just one element and we're going to delete it
+		else if (count-1 == index) return (Map) l.get(index - 1);	// We are in the last element of the list so we take the previous one
+		else return (Map) l.get(index + 1);	// We take the next one	
 	}
 	
 }
