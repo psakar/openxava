@@ -8,7 +8,7 @@ import org.openxava.web.Charts;
 
 /**
  * @author Federico Alcantara
- *
+ * @author Javier Paniza
  */
 public class RemoveChartColumnAction extends RemoveSelectedInCollectionAction {
 	
@@ -24,11 +24,12 @@ public class RemoveChartColumnAction extends RemoveSelectedInCollectionAction {
 			chart.getColumns().remove(getRow());
 			Tab tab = (Tab) getContext().get(getRequest(), "xava_tab");
 			if (getView() != null && tab != null) {
-				Charts.INSTANCE.updateView(getRequest(), getView(), tab, chart);
+				Charts.updateView(getRequest(), getView(), tab, chart); 
 			}
 			if (getView() != null) {
 				getView().refreshCollections();
 			}
+			chart.save(); 
 		}
 	}
 

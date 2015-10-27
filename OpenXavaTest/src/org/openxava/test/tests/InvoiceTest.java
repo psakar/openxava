@@ -31,10 +31,7 @@ import org.openxava.util.XavaResources;
 import org.openxava.web.Ids;
 
 import com.gargoylesoftware.htmlunit.*;
-import com.gargoylesoftware.htmlunit.html.DomElement;
-import com.gargoylesoftware.htmlunit.html.DomNode;
-import com.gargoylesoftware.htmlunit.html.HtmlImage;
-import com.gargoylesoftware.htmlunit.html.HtmlSelect;
+import com.gargoylesoftware.htmlunit.html.*;
 
 
 /**
@@ -1869,7 +1866,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		assertValue("vat", svat);
 	}		
 		
-	public void testChartElements() throws Exception {
+	public void testCharts() throws Exception {
 		assertListNotEmpty();
 		execute("ListFormat.select", "editor=Charts");
 		assertNoDialog(); 
@@ -1881,17 +1878,82 @@ public class InvoiceTest extends CustomizeListTestBase {
 		assertChartDisplayed();
 
 		reload(); 
-		assertChartDisplayed();	
+		assertChartDisplayed();
+		assertSaveRestoreCharts(); 
+	}
+	
+	private void assertSaveRestoreCharts() throws Exception { 
+		assertChartTypeSelected("BAR");
+		assertCollectionRowCount("columns", 5);
+		assertValueInCollection("columns", 0, 0, "Year");
+		assertValueInCollection("columns", 1, 0, "Number");
+		assertValueInCollection("columns", 2, 0, "Amounts sum");
+		assertValueInCollection("columns", 3, 0, "V.A.T.");
+		assertValueInCollection("columns", 4, 0, "Details count");
+		assertValue("xColumn", "year");
+		
+		execute("Chart.removeColumn", "row=4,viewObject=xava_view_chartType_columns");
+		execute("Chart.selectType", "chartType=LINE");
+		setValue("xColumn", "number");
+		assertChartTypeSelected("LINE");
+		assertCollectionRowCount("columns", 4);
+		assertValueInCollection("columns", 0, 0, "Year");
+		assertValueInCollection("columns", 1, 0, "Number");
+		assertValueInCollection("columns", 2, 0, "Amounts sum");
+		assertValueInCollection("columns", 3, 0, "V.A.T.");
+		assertValue("xColumn", "number");
+		
+		resetModule();
+		execute("ListFormat.select", "editor=Charts");
+		assertChartTypeSelected("LINE");
+		assertCollectionRowCount("columns", 4);
+		assertValueInCollection("columns", 0, 0, "Year");
+		assertValueInCollection("columns", 1, 0, "Number");
+		assertValueInCollection("columns", 2, 0, "Amounts sum");
+		assertValueInCollection("columns", 3, 0, "V.A.T.");
+		assertValue("xColumn", "number");
+
+		setValueInCollection("columns", 4, "name", "detailsCount");
+		execute("Chart.selectType", "chartType=BAR");
+		setValue("xColumn", "year");
+		assertChartTypeSelected("BAR");
+		assertCollectionRowCount("columns", 5);
+		assertValueInCollection("columns", 0, 0, "Year");
+		assertValueInCollection("columns", 1, 0, "Number");
+		assertValueInCollection("columns", 2, 0, "Amounts sum");
+		assertValueInCollection("columns", 3, 0, "V.A.T.");
+		assertValueInCollection("columns", 4, 0, "Details count");
+		assertValue("xColumn", "year");
+		
+		resetModule();
+		execute("ListFormat.select", "editor=Charts");
+		assertChartTypeSelected("BAR");
+		assertCollectionRowCount("columns", 5);
+		assertValueInCollection("columns", 0, 0, "Year");
+		assertValueInCollection("columns", 1, 0, "Number");
+		assertValueInCollection("columns", 2, 0, "Amounts sum");
+		assertValueInCollection("columns", 3, 0, "V.A.T.");
+		assertValueInCollection("columns", 4, 0, "Details count");
+		assertValue("xColumn", "year");
+		
+	}
+
+	private void assertChartTypeSelected(String chartType) { 
+		assertEquals("ox-selected-chart-type", getChartTypeLink(chartType).getAttribute("class"));
 	}
 
 
 	private void assertChartTypeLink(String chartType) { 
 		try {
-			getHtmlPage().getAnchorByHref("javascript:openxava.executeAction('OpenXavaTest', 'Invoice', '', false, 'Chart.selectType', 'chartType=" + chartType + "')");
+			getChartTypeLink(chartType); 
 		}
 		catch (ElementNotFoundException ex) {
 			fail(chartType + " chart type link missing");  
 		}
+	}
+	
+	private HtmlElement getChartTypeLink(String chartType) { 
+		return getHtmlPage().getAnchorByHref("javascript:openxava.executeAction('OpenXavaTest', 'Invoice', '', false, 'Chart.selectType', 'chartType=" + chartType + "')"); 
 	}
 	
 	private void assertChartDisplayed() throws Exception {

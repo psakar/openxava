@@ -18,6 +18,8 @@ public interface IForwardAction extends IAction {
 	 * absolute URL in internet (since v4m1), if it starts with "javascript:" the
 	 * corresponding code will executed by the browser (since 4.0.1), 
 	 * otherwise it will forward to a resource inside this application. 
+	 * 
+	 * If it returns null the forwarding is not done.
 	 */
 	String getForwardURI();
 	boolean inNewWindow();

@@ -7,7 +7,6 @@ import org.openxava.tab.*;
 import org.openxava.web.*;
 
 /**
- * 
  * @author Javier Paniza
  */
 public class SelectChartTypeAction extends ViewBaseAction {
@@ -22,7 +21,9 @@ public class SelectChartTypeAction extends ViewBaseAction {
 	
 	public void execute() throws Exception {
 		chart.setChartType(Chart.ChartType.valueOf(chartType));
-		Charts.INSTANCE.updateView(getRequest(), getView(), tab, chart);
+		getView().setValue("chartType", chart.getChartType());
+		Charts.updateView(getRequest(), getView(), tab, chart); 
+		chart.save(); 
 	}
 
 	public String getChartType() {

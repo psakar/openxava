@@ -401,8 +401,7 @@ i {
 .ox-button-bar .ox-button-bar-button i, .ox-collection-list-actions i {
 	margin-left: 5px; 
 	font-size: 140%;
-	/* tmp vertical-align: baseline; */
-	vertical-align: -2px; /* tmp */
+	vertical-align: -2px; 
 }
 
 .ox-list-formats i {
@@ -429,7 +428,7 @@ i {
 }
 
 .ox-selected-list-format i, .ox-selected-list-format:hover i {
-	color: #000; /* tmp */
+	color: #000; 
 	background: white;
 	border-radius: 2px;
 	padding: 5px;
@@ -604,7 +603,7 @@ span.ox-subcontroller-select a{
 }
 
 .ox-selected-chart-type i { 
-	color: #000; /* tmp */
+	color: #000; 
 	background: white;
 	border-radius: 3px;
 	padding: 5px;

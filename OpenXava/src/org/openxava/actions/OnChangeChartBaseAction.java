@@ -1,6 +1,3 @@
-/**
- * 
- */
 package org.openxava.actions;
 
 import javax.inject.Inject;
@@ -10,11 +7,12 @@ import org.openxava.tab.Tab;
 import org.openxava.web.Charts;
 
 /**
- * Used for changes of the chart properties
+ * Used for changes of the chart properties.
  * @author Federico Alcantara
- *
+ * @author Javier Paniza
  */
 public abstract class OnChangeChartBaseAction extends OnChangePropertyBaseAction {
+	
 	@Inject
 	private Chart chart;
 	
@@ -36,7 +34,8 @@ public abstract class OnChangeChartBaseAction extends OnChangePropertyBaseAction
 	public void execute() throws Exception {
 		if (getNewValue() != null) {
 			executeOnValidValues();
-			Charts.INSTANCE.updateView(getRequest(), getView(), getTab(), chart);
+			Charts.updateView(getRequest(), getView(), getTab(), chart);
+			chart.save(); 
 		}
 	}
 	
@@ -45,4 +44,5 @@ public abstract class OnChangeChartBaseAction extends OnChangePropertyBaseAction
 	 * @throws Exception
 	 */
 	protected abstract void executeOnValidValues() throws Exception;
+
 }

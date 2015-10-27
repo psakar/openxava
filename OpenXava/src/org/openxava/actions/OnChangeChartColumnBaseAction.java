@@ -9,7 +9,7 @@ import org.openxava.tab.Tab;
 
 /**
  * @author Federico Alcantara
- *
+ * @author Javier Paniza
  */
 public abstract class OnChangeChartColumnBaseAction extends OnChangeElementCollectionBaseAction {
 	@Inject
@@ -24,6 +24,7 @@ public abstract class OnChangeChartColumnBaseAction extends OnChangeElementColle
 	@Override
 	public void execute() throws Exception {
 		executeOnValidValues();
+		chart.save(); 
 	}
 	
 	public Chart getChart() {

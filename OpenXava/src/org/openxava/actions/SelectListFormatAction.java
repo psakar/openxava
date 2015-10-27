@@ -1,11 +1,7 @@
 package org.openxava.actions;
 
-import java.util.*;
-
 import javax.inject.*;
-
 import org.openxava.session.*;
-import org.openxava.util.*;
 import org.openxava.web.*;
 
 /**
@@ -23,7 +19,9 @@ public class SelectListFormatAction extends TabBaseAction {
 		getTab().setEditor(editor);
 		getView().setModelName("Chart");
 		getView().setEditable(true);
-		loadLastNode();
+		chart = Chart.load(getTab());
+		if (chart == null) chart = Chart.create(getTab());
+		Charts.updateView(getRequest(), getView(), getTab(), chart); 
 	}
 
 	public String getEditor() {
@@ -34,21 +32,4 @@ public class SelectListFormatAction extends TabBaseAction {
 		this.editor = editor;
 	}
 		
-	protected void loadLastNode() throws Exception {
-		String nodeName = Charts.INSTANCE.getLastNodeNameUsed(getTab());
-		if (chart == null) {
-			chart = new Chart();
-		}
-		List<String> charts = Charts.INSTANCE.getAllChartNodeNames(getTab());
-		if (Is.emptyString(nodeName) || !charts.contains(nodeName)) {
-			if (!charts.isEmpty()) {
-				nodeName = charts.get(0);
-			} else {
-				nodeName = null;
-			}
-		}
-		Charts.INSTANCE.loadChart(getTab(), chart, nodeName);
-		Charts.INSTANCE.updateView(getRequest(), getView(), getTab(), chart);
-	}
-
 }

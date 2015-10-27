@@ -1310,7 +1310,7 @@ public class Tab implements java.io.Serializable {
 		return Users.getCurrentPreferences().node(getPreferencesNodeName("")); 
 	}
 	
-	private String getPreferencesNodeName(String prefix) { 
+	public String getPreferencesNodeName(String prefix) { 
 		String application = "";
 		String module = "";
 		HttpServletRequest request = getRequest() == null && getCollectionView() != null? getCollectionView().getRequest(): getRequest();
@@ -1332,10 +1332,6 @@ public class Tab implements java.io.Serializable {
 		return nodeName;
 	}
 	
-	public String friendMyReportGetPreferencesNodeName(String prefix) {
-		return getPreferencesNodeName(prefix);
-	}
-		
 	public HttpServletRequest getRequest() {
 		return request;
 	}

@@ -229,7 +229,7 @@ public class MyReport implements java.io.Serializable {
 	}
 	
 	private void setNodeName(org.openxava.tab.Tab tab) { 
-		rootNodeName = tab.friendMyReportGetPreferencesNodeName("myReport."); 
+		rootNodeName = tab.getPreferencesNodeName("myReport.");
 	}
 	
 	private Preferences getPreferences() throws BackingStoreException {
