@@ -524,6 +524,11 @@
 			<set property="name" value="amounts"/>
 			<set property="hide" value="false"/>	
 		</action>				
+
+		<action name="testChartTab" mode="list"  
+			class="org.openxava.test.actions.TestSessionAttributeAction">
+			<set property="attribute" value="xava_chartTab"/>
+		</action>						
 		
 	</controller>
 	

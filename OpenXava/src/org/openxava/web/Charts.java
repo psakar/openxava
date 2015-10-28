@@ -112,6 +112,10 @@ public class Charts {
 		request.getSession().setAttribute("xava_chartTab", chartTab); 
 	}
 	
+	public static void release(HttpServletRequest request) throws XavaException, BackingStoreException {
+		request.getSession().removeAttribute("xava_chartTab");
+	}
+	
 
 	/**
 	 * Adds a column to the given tab.

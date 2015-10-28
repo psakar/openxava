@@ -10409,6 +10409,7 @@ OpenXavaTest/src/org/openxava/test/actions/StateJPADeleteAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/StateJPASaveAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/StateJPASearchAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SyncCarriersSelectionAction.java -text svneol=unset#text/plain
+OpenXavaTest/src/org/openxava/test/actions/TestSessionAttributeAction.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/actions/TranslateAllCarrierNameAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/VerifyEditablesProductAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ViewCurrentYearInvoicesAction.java -text

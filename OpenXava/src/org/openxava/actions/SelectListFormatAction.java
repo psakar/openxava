@@ -17,11 +17,16 @@ public class SelectListFormatAction extends TabBaseAction {
 	
 	public void execute() throws Exception {
 		getTab().setEditor(editor);
-		getView().setModelName("Chart");
-		getView().setEditable(true);
-		chart = Chart.load(getTab());
-		if (chart == null) chart = Chart.create(getTab());
-		Charts.updateView(getRequest(), getView(), getTab(), chart); 
+		if ("Charts".equals(editor)) { 
+			getView().setModelName("Chart");
+			getView().setEditable(true);
+			chart = Chart.load(getTab());
+			if (chart == null) chart = Chart.create(getTab());
+			Charts.updateView(getRequest(), getView(), getTab(), chart);
+		}
+		else {
+			Charts.release(getRequest());
+		}
 	}
 
 	public String getEditor() {

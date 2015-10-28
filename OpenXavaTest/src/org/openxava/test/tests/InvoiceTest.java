@@ -1868,6 +1868,8 @@ public class InvoiceTest extends CustomizeListTestBase {
 		
 	public void testCharts() throws Exception {
 		assertListNotEmpty();
+		execute("Invoice.testChartTab");
+		assertMessage("xava_chartTab does not exist");
 		execute("ListFormat.select", "editor=Charts");
 		assertNoDialog(); 
 		assertChartTypeLink("BAR");
@@ -1879,7 +1881,13 @@ public class InvoiceTest extends CustomizeListTestBase {
 
 		reload(); 
 		assertChartDisplayed();
-		assertSaveRestoreCharts(); 
+		assertSaveRestoreCharts();
+		
+		execute("Invoice.testChartTab");
+		assertMessage("xava_chartTab exists");		
+		execute("ListFormat.select", "editor=List");
+		execute("Invoice.testChartTab");
+		assertMessage("xava_chartTab does not exist");				
 	}
 	
 	private void assertSaveRestoreCharts() throws Exception { 
