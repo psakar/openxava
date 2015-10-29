@@ -917,6 +917,7 @@ Addons/src/com/openxava/naviox/impl/Initializer.java -text svneol=unset#text/pla
 Addons/src/com/openxava/naviox/impl/MetaModuleFactory.java -text svneol=unset#text/plain
 Addons/src/com/openxava/naviox/impl/ModulesProvider.java -text svneol=unset#text/plain
 Addons/src/com/openxava/naviox/impl/SignInHelper.java -text svneol=unset#text/plain
+Addons/src/com/openxava/naviox/model/Configuration.java -text svneol=unset#text/plain
 Addons/src/com/openxava/naviox/model/SignIn.java -text svneol=unset#text/plain
 Addons/src/com/openxava/naviox/util/NaviOXPreferences.java -text svneol=unset#text/plain
 Addons/src/com/openxava/naviox/util/Organizations.java -text svneol=unset#text/plain

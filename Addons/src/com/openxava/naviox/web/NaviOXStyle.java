@@ -25,6 +25,7 @@ public class NaviOXStyle extends Style {
 		if (browser == null) return "";
 		if (browser.contains("MSIE")) return "class='ie'";
 		if (browser.contains("iPad")) return "class='ipad'";
+		if (browser.contains("Firefox")) return "class='firefox'"; 
 		return "";
 	}
 

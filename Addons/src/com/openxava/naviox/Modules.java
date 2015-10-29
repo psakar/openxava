@@ -106,7 +106,7 @@ public class Modules implements Serializable {
 	
 	public String getCurrentModuleDescription(HttpServletRequest request) { 
 		try {
-			String organization = Organizations.getCurrentName(request); 																				
+			String organization = Organizations.getCurrentName(request); 		
 			String prefix = organization == null?"":organization + " - ";																				
 			return prefix + current.getMetaApplication().getLabel() + " - " +  current.getLabel(); 
 		}
