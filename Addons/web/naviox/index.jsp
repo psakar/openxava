@@ -31,7 +31,7 @@ String oxVersion = org.openxava.controller.ModuleManager.getVersion();
 </head>
 
 <body <%=NaviOXStyle.getBodyClass(request)%>>
-	
+
 	<div id="main_navigation">
 		<jsp:include page="mainNavigation.jsp"/>
 	</div>
@@ -70,12 +70,16 @@ String oxVersion = org.openxava.controller.ModuleManager.getVersion();
 			</td>
 		</tr>
 	</table>
-	
+		
 	<script type='text/javascript' src='<%=request.getContextPath()%>/naviox/js/typewatch.js'></script>
 	<script type='text/javascript' src='<%=request.getContextPath()%>/naviox/js/naviox.js'></script>
 	
 	<script>
 	$(function() {
+		naviox.lockSessionMilliseconds = <%=com.openxava.naviox.model.Configuration.getInstance().getLockSessionMilliseconds()%>; 
+		naviox.application = "<%=app%>";
+		naviox.module = "<%=module%>";
+		naviox.locked = <%=context.get(request, "naviox_locked")%>;
 		naviox.init();
 	});
 	</script>

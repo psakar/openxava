@@ -1190,3 +1190,22 @@ div.ox-subcontroller table{
 .ox-charts .ox-element-collection select {
 	width: 120px;
 }
+
+.no-close .ui-dialog-titlebar-close { 
+	display: none; 
+}
+
+.no-close .ox-detail { 
+	margin-left: -15px;  
+}
+
+.no-close .ox-detail input { 
+	width: calc(100% - 13px);  
+}
+
+.firefox .no-close .ox-detail {
+    margin-left: -10px;
+}
+.firefox .no-close .ox-detail input {
+    width: calc(100% - 23px);
+}
