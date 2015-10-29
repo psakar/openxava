@@ -6096,6 +6096,7 @@ OpenXava/web/editors/referenceEditor.jsp -text
 OpenXava/web/editors/style/c3.css -text svneol=unset#text/plain
 OpenXava/web/editors/textAreaEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/textEditor.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/textWithSuffixEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/treeViewEditor.jsp -text
 OpenXava/web/editors/treeViewListEditor.jsp -text
 OpenXava/web/editors/validValueEditorCommon.jsp -text

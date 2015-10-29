@@ -23,6 +23,13 @@ class DWRBase {
 		if (!context.exists(application, module, "manager")) { // This user has not execute this module yet 
 			throw new SecurityException("9876");  
 		}
+		if (context.exists(application, module, "naviox_locked")) { 
+			Boolean locking = (Boolean) context.get(application, module, "naviox_locking"); 
+			if (!locking) {
+				Boolean locked = (Boolean) context.get(application, module, "naviox_locked");
+				if (locked) throw new SecurityException("3923");  				
+			}			
+		}
 	}	
 
 }

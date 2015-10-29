@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- New textWithSuffixEditor.jsp editor that allows put a suffix label after the field textbox.
 - asm.jar, cglib.jar and ehcache.jar removed from distribution.
 - Is empty and is not empty filters for list and collections.
 - Fix: setConditionComparators method did not set conditions for collections in ModuleTestBase.
