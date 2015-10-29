@@ -6,6 +6,9 @@
 
 <controllers>
 
+	<object name="naviox_locked" class="java.lang.Boolean" value="false" scope="global"/>
+	<object name="naviox_locking" class="java.lang.Boolean" value="false"/>
+
 	<controller name="SignIn">
 	
 		<action name="init" on-init="true" hidden="true"  			
@@ -13,7 +16,14 @@
 	
 		<action name="signIn"  			
 			class="com.openxava.naviox.actions.SignInAction"/>
-			
+					
+	</controller>
+
+	<controller name="SessionLocker">
+		<action name="lock" hidden="true" 			
+			class="com.openxava.naviox.actions.LockAction"/>
+		<action name="unlock" hidden="true" 			
+			class="com.openxava.naviox.actions.UnlockAction"/>
 	</controller>
 	
 	<controller name="Configuration">

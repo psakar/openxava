@@ -24,8 +24,14 @@
 		<for-model-property model="Organization" property="url" />
 	</editor>
 	
-	<editor url="../../naviox/editors/forceChangePasswordDaysEditor.jsp">
+	<editor url="textWithSuffixEditor.jsp">
+		<property name="suffix" value="days_suffix"/>
 		<for-model-property model="ConfigurationRecord" property="forceChangePasswordDays" />
 	</editor>
 	
+	<editor url="textWithSuffixEditor.jsp">
+		<property name="suffix" value="minutes_suffix"/>
+		<for-model-property model="ConfigurationRecord" property="lockSessionMinutes" />
+	</editor>
+		
 </editors>
