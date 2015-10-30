@@ -16,8 +16,8 @@ public class SelectListFormatAction extends TabBaseAction {
 	private Chart chart;
 	
 	public void execute() throws Exception {
-		getTab().setEditor(editor);
-		if ("Charts".equals(editor)) { 
+		if (editor != null) getTab().setEditor(editor);		
+		if ("Charts".equals(getTab().getEditor())) {
 			getView().setModelName("Chart");
 			getView().setEditable(true);
 			chart = Chart.load(getTab());

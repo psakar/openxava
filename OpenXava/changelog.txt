@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Split mode starts with the first object selected, unless you come from detail mode. 
 - New textWithSuffixEditor.jsp editor that allows put a suffix label after the field textbox.
 - asm.jar, cglib.jar and ehcache.jar removed from distribution.
 - Is empty and is not empty filters for list and collections.

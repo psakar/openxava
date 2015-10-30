@@ -122,6 +122,11 @@ openxava.refreshPage = function(result) {
 			dialog.dialog('option', 'height', 'auto');
 			dialog.dialog('option', 'position', { my: "center", at: "center", of: window, collision: "fit" } ); 			
 			dialog.dialog('option', 'zIndex', 99999 );
+			if (result.dialogTitle.indexOf("!x:") === 0) {
+				dialog.dialog('option', 'title', result.dialogTitle.substring(3));
+				dialog.dialog('option', 'dialogClass', 'no-close');
+				dialog.dialog('option', 'closeOnEscape', false);
+			}
 			dialog.dialog('open');
 		}
 		else if (result.resizeDialog) {
@@ -157,6 +162,7 @@ openxava.refreshPage = function(result) {
 	$('#xava_loading').hide(); 
 	$('#xava_loading2').hide();
 	document.body.style.cursor='auto';
+	if (openxava.postRefreshPage != null) openxava.postRefreshPage(); 
 }
 
 openxava.initUI = function(application, module, currentRow) {

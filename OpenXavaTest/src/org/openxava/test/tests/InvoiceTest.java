@@ -1883,11 +1883,16 @@ public class InvoiceTest extends CustomizeListTestBase {
 		assertChartDisplayed();
 		assertSaveRestoreCharts();
 		
+		execute("CRUD.new");
+		execute("Mode.list");
+		assertChartDisplayed();
+		
 		execute("Invoice.testChartTab");
 		assertMessage("xava_chartTab exists");		
 		execute("ListFormat.select", "editor=List");
 		execute("Invoice.testChartTab");
-		assertMessage("xava_chartTab does not exist");				
+		assertMessage("xava_chartTab does not exist");		
+		
 	}
 	
 	private void assertSaveRestoreCharts() throws Exception { 

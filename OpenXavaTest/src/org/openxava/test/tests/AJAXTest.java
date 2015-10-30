@@ -256,11 +256,11 @@ public class AJAXTest extends ModuleTestBase {
 		execute("Mode.split");
 		assertLoadedParts("core");
 		execute("CRUD.new");		
-		assertLoadedParts("editor_comboDeliveries," + // Because it is set editable
-				"editor_description," + // Because it is set editable
-				"editor_number," + // Because it is set editable
+		assertLoadedParts(
+				"editor_description," + // We pass from first element to new
+				"editor_number," + // We pass from first element to new
 				"list_view," + // Because CRUD.new is also a list action 
-				"errors, messages");
+				"errors, messages");		
 		execute("CRUD.new");
 		assertLoadedParts("errors, messages, list_view");
 		execute("Navigation.next");

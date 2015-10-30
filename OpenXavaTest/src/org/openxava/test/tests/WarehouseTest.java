@@ -163,7 +163,19 @@ public class WarehouseTest extends WarehouseSplitTestBase {
 		assertAction("Mode.list");
 		assertAction("Mode.split");
 		assertNoAction("List.filter"); // List is not shown
-		assertExists("zoneNumber"); // Detail is shown		
+		assertExists("zoneNumber"); // Detail is shown
+		
+		execute("Navigation.next");
+		String name = getValue("name");
+		execute("Mode.split");
+		assertValue("name", name);
+		
+		execute("Mode.list");
+		execute("ListFormat.select", "editor=Charts");
+		execute("Mode.split");
+		assertNoAction("ListFormat.select");
+		assertAction("List.filter"); // List is shown
+		assertExists("zoneNumber"); // Detail is shown
 	}
 	
 	public void testDefaultAction() throws Exception {

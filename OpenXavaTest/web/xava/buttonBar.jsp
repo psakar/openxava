@@ -16,7 +16,8 @@ manager.setSession(session);
 boolean onBottom = false;
 String mode = request.getParameter("xava_mode");
 if (mode == null) mode = manager.isSplitMode()?"detail":manager.getModeName();
-boolean headerButtonBar = !manager.isSplitMode() || mode.equals("list");  
+boolean headerButtonBar = !manager.isSplitMode() || mode.equals("list");
+boolean listFormats = !manager.isSplitMode() && mode.equals("list"); 
 
 if (manager.isButtonBarVisible()) {
 %>
@@ -67,7 +68,7 @@ if (manager.isButtonBarVisible()) {
 	<span style="float: right">
 	<span style="float: left;" class="<%=style.getListFormats()%>">
 	<%
-	if (mode.equals("list")) {
+	if (listFormats) { 	
 		String tabObject = request.getParameter("tabObject");
 		tabObject = (tabObject == null || tabObject.equals(""))?"xava_tab":tabObject;
 		org.openxava.tab.Tab tab = (org.openxava.tab.Tab) context.get(request, tabObject);

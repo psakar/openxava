@@ -14,7 +14,7 @@ import org.openxava.view.*;
  * @author Javier Paniza
  */
 
-public class GoListAction extends BaseAction implements IChangeModeAction, INavigationAction {
+public class GoListAction extends BaseAction implements IChangeModeAction, INavigationAction, IChainAction { 
 		
 	@Inject
 	private View view;
@@ -85,4 +85,9 @@ public class GoListAction extends BaseAction implements IChangeModeAction, INavi
 	public void setPreviousViews(Stack previousViews) {
 		this.previousViews = previousViews;
 	}
+
+	public String getNextAction() throws Exception { 
+		return "ListFormat.select";
+	}
+
 }

@@ -11076,6 +11076,7 @@ OpenXavaTest/web/xava/editors/regionsWithCheckBoxesEditor.jsp -text svneol=unset
 OpenXavaTest/web/xava/editors/style/c3.css -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/textAreaEditor.jsp -text
 OpenXavaTest/web/xava/editors/textEditor.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/textWithSuffixEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/treeViewEditor.jsp -text
 OpenXavaTest/web/xava/editors/treeViewListEditor.jsp -text
 OpenXavaTest/web/xava/editors/treeview/check0.gif -text

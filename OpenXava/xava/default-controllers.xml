@@ -271,12 +271,11 @@ here that you want to override.
 		<action name="initMode"
 			class="org.openxava.actions.GoSplitAction"
 			hidden="true" on-init="true"/>
-		<action name="initView"
-			class="org.openxava.actions.SetEditableAction"
-			hidden="true" on-init="true">
-			<set property="editable" value="false"/>
-			<set property="keyEditable" value="false"/>
-		</action>						
+		<action name="initView" on-init="true"
+			class="org.openxava.actions.ViewDetailAction"
+			by-default="never" hidden="true">
+			<set property="goFirst" value="true"/>
+		</action>
 	</controller>			
 			<controller name="List">
 	

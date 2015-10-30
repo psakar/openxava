@@ -82,7 +82,7 @@ public class ViewDetailAction extends TabBaseAction implements IChainAction, IMo
 			// row = previous;
 			if (previous >= 0) row = previous;
 		}		
-		if (key != null) {			
+		if (key != null) {		
 			getView().setValues(key);									
 		}	
 	}
