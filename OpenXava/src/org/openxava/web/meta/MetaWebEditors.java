@@ -279,7 +279,9 @@ public class MetaWebEditors {
 		else {
 			Collection<MetaEditor> result = new ArrayList<MetaEditor>();
 			result.add(customEditor);
-			result.addAll(editorsForTabs);
+			for (MetaEditor editor: editorsForTabs) {
+				if (!"List".equals(editor.getName())) result.add(editor); 
+			}
 			return result;
 		}
 	}	

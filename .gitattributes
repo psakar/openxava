@@ -10145,7 +10145,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/CompanyTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CompositeTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ComputerTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ConferenceTest.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/tests/CorporationEmployeeTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/CorporationEmployeeTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CorporationTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CustomerMinimumTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DatesTest.groovy -text
@@ -10466,7 +10466,7 @@ OpenXavaTest/src/org/openxava/test/tests/ColorM1Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/ColorTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ColorWithGroupsAndChangeControllersTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ConversionFactorTest.java -text
-OpenXavaTest/src/org/openxava/test/tests/CustomerCardListTest.groovy -text
+OpenXavaTest/src/org/openxava/test/tests/CustomerCardListTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerContactPersonAsAggregate3LevelsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerContactPersonTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerImageTest.java -text svneol=unset#text/plain

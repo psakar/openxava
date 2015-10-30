@@ -207,7 +207,7 @@ public class WebEditors {
 		String customEditor = metaTab.getEditor();
 		if (!Is.emptyString(customEditor)) editors.add(customEditor);
 		for (MetaEditor metaEditor: MetaWebEditors.getMetaEditorsFor(metaTab)) {
-			editors.add(metaEditor.getName()); 
+			if (Is.emptyString(customEditor) || !"List".equals(metaEditor.getName())) editors.add(metaEditor.getName()); 
 		}
 		return editors;
 	}

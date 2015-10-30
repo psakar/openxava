@@ -76,6 +76,7 @@ if (manager.isButtonBarVisible()) {
 		for (String editor: editors) {
 			String icon = editor.equals("Charts")?"chart-line":"table-large";
 			String selected = editor.equals(tab.getEditor())?style.getSelectedListFormat():"";
+			if (Is.emptyString(editor)) editor = "__NONAME__"; 
 	%>
 	<xava:link action="ListFormat.select" argv='<%="editor=" + editor%>' cssClass="<%=selected%>">	
 		<i class="mdi mdi-<%=icon%>" onclick="openxava.onSelectListFormat(event)"></i>
