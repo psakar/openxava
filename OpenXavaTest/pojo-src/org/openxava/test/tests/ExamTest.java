@@ -1,31 +1,16 @@
 package org.openxava.test.tests;
 
-import java.util.*;
-
 import org.hibernate.envers.*;
-import org.hibernate.envers.query.*;
 import org.openxava.test.model.*;
-import org.openxava.tests.*;
-import org.openxava.util.*;
-
-import static org.openxava.jpa.XPersistence.*;
 
 /**
  *
  * @author Jeromy Altuna
  */
-public class ExamTest extends ModuleTestBase {
-	
-	private AuditReader reader;
+public class ExamTest extends ExamBaseTest {
 	
 	public ExamTest(String testName) {
 		super(testName, "Exam");
-	}
-	
-	@Override
-	protected void tearDown() throws Exception {
-		super.tearDown();
-		resetAuditTables();
 	}
 	
 	public void testCreateExamWithAtLeastOneQuestion() throws Exception {
@@ -114,46 +99,16 @@ public class ExamTest extends ModuleTestBase {
 		assertRevTypeInAuditTable(RevisionType.DEL, Exam.class, rn);
 		assertRevTypeInAuditTable(RevisionType.DEL, Question.class, rn);
 	}
-	
-	private void assertValueInAuditTable(String name, String value, Class<?> clazz, Number revision) throws Exception {
-		Object object = getRevisionOfEntity(clazz, revision)[0];
-		PropertiesManager pm = new PropertiesManager(object);
-		assertEquals(value, pm.executeGet(name));
-	}
-	
-	private void assertRevTypeInAuditTable(RevisionType revType, Class<?> clazz, Number revision) throws Exception {
-		RevisionType type = (RevisionType) getRevisionOfEntity(clazz, revision)[2];
-		assertTrue(type.equals(revType));		
-	}
-	
-	private Object[] getRevisionOfEntity(Class<?> clazz, Number revision) throws Exception {
-		AuditQuery query = getAuditReader().createQuery()
-		   		           .forRevisionsOfEntity(clazz, false, true)
-		                   .add(AuditEntity.revisionNumber().eq(revision));
-		return (Object[]) query.getSingleResult();
-	}
-	
-	private Number getLastRevisionNumber() throws Exception {
-		return getAuditReader().getRevisionNumberForDate(new Date());
-	}
-	
-	private AuditReader getAuditReader() throws Exception {
-		if (reader == null) {
-			reader = AuditReaderFactory.get(getManager());
-		}
-		return reader;
+
+	@Override
+	protected String getPersistenceUnit() {
+		return "junit";
 	}
 
-	private void resetAuditTables() {
-		String[] queries = {
-			"delete from XAVATEST.EXAM_AUD", 
-			"delete from XAVATEST.QUESTION_AUD", 
-			"delete from XAVATEST.REVINFO", 
-			"alter table XAVATEST.REVINFO alter column REV restart with 1"
-		}; 		
-		for (String query : queries) {
-			getManager().createNativeQuery(query).executeUpdate();
-		}
-		commit();
+	@Override
+	protected String getDefaultSchema() {
+		if (getDataSource() == DataSource.REAL) return "XAVATEST";
+		if (getDataSource() == DataSource.SIMULATION) return "SIMULATION";
+		return null;
 	}
 }

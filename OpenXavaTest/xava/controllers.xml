@@ -1192,5 +1192,19 @@
 		<action name="searchPerson" image="search.gif" hidden="true"
 			class="org.openxava.test.actions.SearchPersonFromTeamMemberAction"/>
 	</controller>    
-    	
+    
+    <controller name="Exam">
+    	<extends controller="Typical"/>
+		<extends controller="DefaultSchema"/>
+		
+		<action name="changeToReal" on-init="true"
+			class="org.openxava.actions.SetDefaultSchemaAction">
+			<set property="newDefaultSchema" value="XAVATEST"/>
+		</action>
+		
+		<action name="changeToSimulation" 
+			class="org.openxava.actions.SetDefaultSchemaAction">
+			<set property="newDefaultSchema" value="SIMULATION"/>
+		</action>
+    </controller>	
 </controllers>

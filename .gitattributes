@@ -10157,6 +10157,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/DrivingLicenceTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ElClienteTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/EmbeddedTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/EmployeeTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/ExamBaseTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/ExamTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ExperienceTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ExperienceWithSimplestProgrammerTest.groovy -text
