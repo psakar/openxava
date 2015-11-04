@@ -22,14 +22,13 @@ public class SignInAction extends ViewBaseAction implements IForwardAction {
 		SignInHelper.init(getRequest(), getView()); 
 		String userName = getView().getValueString("user");
 		String password = getView().getValueString("password");
-		if (Is.emptyString(userName, password)) {
+		if (Is.emptyString(userName, password)) { 
 			addError("unauthorized_user"); 
 			return;
 		}		
-		if (!SignInHelper.isAuthorized(userName, password)) {
-			addError("unauthorized_user"); 
+		if (!SignInHelper.isAuthorized(userName, password, getErrors())) {
 			return;									
-		}
+		}		
 		SignInHelper.signIn(getRequest().getSession(), userName);
 		getView().reset();
 		String originalURI = getRequest().getParameter("originalURI");

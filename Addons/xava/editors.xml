@@ -33,5 +33,21 @@
 		<property name="suffix" value="minutes_suffix"/>
 		<for-model-property model="ConfigurationRecord" property="lockSessionMinutes" />
 	</editor>
+	
+	<editor url="textWithSuffixEditor.jsp">
+		<property name="suffix" value="days_suffix"/>
+		<for-model-property model="ConfigurationRecord" property="inactiveDaysBeforeDisablingUser" />
+	</editor>
+
+	<editor url="textWithSuffixEditor.jsp">
+		<property name="suffix" value="0_for_never_suffix"/>
+		<for-model-property model="ConfigurationRecord" property="loginAttemptsBeforeLocking" />
+	</editor>	
+	
+	<editor url="textWithSuffixEditor.jsp">
+		<property name="suffix" value="days_suffix"/>
+		<for-model-property model="ConfigurationRecord" property="inactiveDaysBeforeDisablingUser" />
+	</editor>
+	
 		
 </editors>
