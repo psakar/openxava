@@ -107,8 +107,8 @@ public class ExamTest extends ExamBaseTest {
 
 	@Override
 	protected String getDefaultSchema() {
-		if (getDataSource() == DataSource.REAL) return "XAVATEST";
-		if (getDataSource() == DataSource.SIMULATION) return "SIMULATION";
+		if (getDatasource() == Datasource.REAL) return "XAVATEST";
+		if (getDatasource() == Datasource.SIMULATION) return "SIMULATION";
 		return null;
 	}
 }

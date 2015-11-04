@@ -8430,9 +8430,12 @@ OpenXavaTest/data/company-b-db.lck -text
 OpenXavaTest/data/company-b-db.log -text
 OpenXavaTest/data/company-b-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-b-db.script -text
+OpenXavaTest/data/openxava-test-db-server.properties -text svneol=unset#text/plain
 OpenXavaTest/data/openxava-test-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/openxava-test-db.script -text
 OpenXavaTest/data/openxava-test-ds.xml -text svneol=unset#text/plain
+OpenXavaTest/data/simulation-db.properties -text svneol=unset#text/plain
+OpenXavaTest/data/simulation-db.script -text
 OpenXavaTest/gen-src-xava/dnas-pojo.properties -text svneol=unset#text/plain
 OpenXavaTest/gen-src-xava/packages.properties -text
 OpenXavaTest/hibernate/Family.hbm.xml -text
@@ -10158,6 +10161,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/ElClienteTest.java -text svneol=un
 OpenXavaTest/pojo-src/org/openxava/test/tests/EmbeddedTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/EmployeeTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ExamBaseTest.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/tests/ExamChangeDBTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/ExamTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ExperienceTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ExperienceWithSimplestProgrammerTest.groovy -text

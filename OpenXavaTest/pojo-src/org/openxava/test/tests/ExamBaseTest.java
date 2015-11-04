@@ -17,8 +17,8 @@ abstract public class ExamBaseTest extends ModuleTestBase {
 	
 	private String controllerName;
 	
-	private DataSource dataSource;
-	public enum DataSource { REAL, SIMULATION }
+	private Datasource datasource;
+	public enum Datasource { REAL, SIMULATION }
 	
 	public ExamBaseTest(String testName, String module) {
 		super(testName, module);
@@ -28,9 +28,9 @@ abstract public class ExamBaseTest extends ModuleTestBase {
 	protected abstract String getPersistenceUnit();
 	protected abstract String getDefaultSchema();
 	
-	public void testChangeDataSource() throws Exception {
+	public void testChangeDatasource() throws Exception {
 		// Real data source
-		setDataSource(DataSource.REAL);
+		setDatasource(Datasource.REAL);
 		assertListRowCount(0);
 		execute("CRUD.new");
 		setValue("name", "REAL");
@@ -43,7 +43,7 @@ abstract public class ExamBaseTest extends ModuleTestBase {
 		execute("Mode.list");
 		assertListRowCount(1);
 		// Change to Simulation data source
-		setDataSource(DataSource.SIMULATION);
+		setDatasource(Datasource.SIMULATION);
 		assertListRowCount(0);
 		execute("CRUD.new");
 		setValue("name", "SIMULATION");
@@ -56,7 +56,7 @@ abstract public class ExamBaseTest extends ModuleTestBase {
 		execute("Mode.list");
 		assertListRowCount(1);
 		// Change to Real data source
-		setDataSource(DataSource.REAL);
+		setDatasource(Datasource.REAL);
 		assertListRowCount(1);
 		assertValueInList(0, 0, "REAL");
 		rn = getLastRevisionNumber();
@@ -68,7 +68,7 @@ abstract public class ExamBaseTest extends ModuleTestBase {
 		assertRevTypeInAuditTable(RevisionType.DEL, Exam.class, rn);
 		assertRevTypeInAuditTable(RevisionType.DEL, Question.class, rn);
 		// Change to Simulation data source
-		setDataSource(DataSource.SIMULATION);
+		setDatasource(Datasource.SIMULATION);
 		assertListRowCount(1);
 		assertValueInList(0, 0, "SIMULATION");
 		rn = getLastRevisionNumber();
@@ -80,7 +80,8 @@ abstract public class ExamBaseTest extends ModuleTestBase {
 		rn = getLastRevisionNumber();
 		assertRevTypeInAuditTable(RevisionType.DEL, Exam.class, rn);
 		assertRevTypeInAuditTable(RevisionType.DEL, Question.class, rn);
-		setDataSource(DataSource.REAL);
+		// Change to Real data source
+		setDatasource(Datasource.REAL);
 		getLastRevisionNumber();
 	}
 	
@@ -118,11 +119,11 @@ abstract public class ExamBaseTest extends ModuleTestBase {
 		return AuditReaderFactory.get(XPersistence.getManager());
 	}
 	
-	public DataSource getDataSource() {
-		return dataSource;
+	public Datasource getDatasource() {
+		return datasource;
 	}
-	private void setDataSource(DataSource dataSource) throws Exception {
-		this.dataSource = dataSource;
-		execute(controllerName + ".changeTo" + Strings.firstUpper(dataSource.name().toLowerCase()));
+	private void setDatasource(Datasource datasource) throws Exception {
+		this.datasource = datasource;
+		execute(controllerName + ".changeTo" + Strings.firstUpper(datasource.name().toLowerCase()));
 	}
 }
