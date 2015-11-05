@@ -1208,18 +1208,4 @@
 		</action>
     </controller>
     
-    <controller name="ExamChangeDB">
-		<extends controller="Typical"/>
-		<extends controller="PersistenceUnit"/>
-		
-		<action name="changeToReal" on-init="true"
-			class="org.openxava.actions.SetPersistenceUnitAction">
-			<set property="newPersistenceUnit" value="default"/>
-		</action>
-		
-		<action name="changeToSimulation" 
-			class="org.openxava.actions.SetPersistenceUnitAction">
-			<set property="newPersistenceUnit" value="simulation"/>
-		</action>
-	</controller>	
 </controllers>

@@ -48,19 +48,16 @@ public class Module extends DWRBase {
 		result.setApplication(application); 
 		result.setModule(module);
 		try {
-			Servlets.setCharacterEncoding(request, response);
 			this.request = request;
 			this.response = response;
 			this.application = application;
 			this.module = module;
 			this.firstRequest = firstRequest==null?false:firstRequest;
-			this.baseFolder = baseFolder==null?"/xava/":"/" + baseFolder + "/"; 
-			checkSecurity(request, application, module);
+			this.baseFolder = baseFolder==null?"/xava/":"/" + baseFolder + "/";
+			initRequest(request, response, application, module); 
 			setPageReloadedLastTime(false);
-			Users.setCurrent(request);
 			this.manager = (ModuleManager) getContext(request).get(application, module, "manager");
 			restoreLastMessages();  			
-			request.setAttribute("style", Style.getInstance(request));
 			getURIAsStream("execute.jsp", values, multipleValues, selected, deselected, additionalParameters);
 			setDialogLevel(result); 
 			Map changedParts = new HashMap();

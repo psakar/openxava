@@ -954,7 +954,6 @@ Addons/web/naviox/images/right.png -text
 Addons/web/naviox/images/search.png -text
 Addons/web/naviox/index.jsp -text svneol=unset#text/plain
 Addons/web/naviox/js/naviox.js -text svneol=unset#text/plain
-Addons/web/naviox/js/typewatch.js -text svneol=unset#text/plain
 Addons/web/naviox/mainNavigation.jsp -text svneol=unset#text/plain
 Addons/web/naviox/modulesList.jsp -text svneol=unset#text/plain
 Addons/web/naviox/modulesMenu.jsp -text svneol=unset#text/plain
@@ -6093,6 +6092,7 @@ OpenXava/web/editors/notAvailableEditor.jsp -text
 OpenXava/web/editors/passwordEditor.jsp -text
 OpenXava/web/editors/radioButtonEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/referenceEditor.jsp -text
+OpenXava/web/editors/selectColumns.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/style/c3.css -text svneol=unset#text/plain
 OpenXava/web/editors/textAreaEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/textEditor.jsp -text svneol=unset#text/plain
@@ -8430,12 +8430,9 @@ OpenXavaTest/data/company-b-db.lck -text
 OpenXavaTest/data/company-b-db.log -text
 OpenXavaTest/data/company-b-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-b-db.script -text
-OpenXavaTest/data/openxava-test-db-server.properties -text svneol=unset#text/plain
 OpenXavaTest/data/openxava-test-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/openxava-test-db.script -text
 OpenXavaTest/data/openxava-test-ds.xml -text svneol=unset#text/plain
-OpenXavaTest/data/simulation-db.properties -text svneol=unset#text/plain
-OpenXavaTest/data/simulation-db.script -text
 OpenXavaTest/gen-src-xava/dnas-pojo.properties -text svneol=unset#text/plain
 OpenXavaTest/gen-src-xava/packages.properties -text
 OpenXavaTest/hibernate/Family.hbm.xml -text
@@ -10161,7 +10158,6 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/ElClienteTest.java -text svneol=un
 OpenXavaTest/pojo-src/org/openxava/test/tests/EmbeddedTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/EmployeeTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ExamBaseTest.java -text svneol=unset#text/plain
-OpenXavaTest/pojo-src/org/openxava/test/tests/ExamChangeDBTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/ExamTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ExperienceTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ExperienceWithSimplestProgrammerTest.groovy -text
@@ -10695,7 +10691,6 @@ OpenXavaTest/web/naviox/images/right.png -text
 OpenXavaTest/web/naviox/images/search.png -text
 OpenXavaTest/web/naviox/index.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/js/naviox.js -text svneol=unset#text/plain
-OpenXavaTest/web/naviox/js/typewatch.js -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/mainNavigation.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/modulesList.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/modulesMenu.jsp -text svneol=unset#text/plain
@@ -11078,6 +11073,7 @@ OpenXavaTest/web/xava/editors/radioButtonEditor.jsp -text
 OpenXavaTest/web/xava/editors/referenceEditor.jsp -text
 OpenXavaTest/web/xava/editors/regionsEditor.jsp -text
 OpenXavaTest/web/xava/editors/regionsWithCheckBoxesEditor.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/selectColumns.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/style/c3.css -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/textAreaEditor.jsp -text
 OpenXavaTest/web/xava/editors/textEditor.jsp -text svneol=unset#text/plain
@@ -11187,6 +11183,7 @@ OpenXavaTest/web/xava/js/jquery.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/js/jquery.sorttable.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/js/jquery.ui.touch-punch.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/js/openxava.js -text
+OpenXavaTest/web/xava/js/typewatch.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/list.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/messages.jsp -text
 OpenXavaTest/web/xava/module.jsp -text

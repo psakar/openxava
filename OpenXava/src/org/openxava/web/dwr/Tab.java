@@ -4,6 +4,7 @@ import javax.servlet.http.*;
 
 import org.apache.commons.logging.*;
 import org.openxava.util.*;
+import org.openxava.web.servlets.*;
 
 /**
  * For accessing to the Tab from DWR. <p>
@@ -15,16 +16,14 @@ public class Tab extends DWRBase {
 	
 	private static Log log = LogFactory.getLog(Tab.class);
 
-	public static void setFilterVisible(HttpServletRequest request, String application, String module, boolean filterVisible, String tabObject) {
-		checkSecurity(request, application, module);
-		Users.setCurrent(request);
+	public void setFilterVisible(HttpServletRequest request, HttpServletResponse response, String application, String module, boolean filterVisible, String tabObject) {
+		initRequest(request, response, application, module); 
 		org.openxava.tab.Tab tab = getTab(request, application, module, tabObject); 
 		tab.setFilterVisible(filterVisible);
 	}
 	
-	public static void removeProperty(HttpServletRequest request, String application, String module, String property, String tabObject) {  
-		checkSecurity(request, application, module);
-		Users.setCurrent(request);
+	public void removeProperty(HttpServletRequest request, HttpServletResponse response, String application, String module, String property, String tabObject) {
+		initRequest(request, response, application, module); 
 		org.openxava.tab.Tab tab = getTab(request, application, module, tabObject);
 		tab.removeProperty(property);
 	}
@@ -33,27 +32,25 @@ public class Tab extends DWRBase {
 	 * 
 	 * @since 5.2
 	 */
-	public static void moveProperty(HttpServletRequest request, String tableId, int from, int to) {
+	public void moveProperty(HttpServletRequest request, HttpServletResponse response, String tableId, int from, int to) {
 		TableId id = new TableId(tableId, 0);
 		if (!id.isValid()) {
 			log.warn(XavaResources.getString("impossible_store_column_movement"));  
 			return;			
 		}
-		checkSecurity(request, id.getApplication(), id.getModule());
-		Users.setCurrent(request);		
+		initRequest(request, response, id.getApplication(), id.getModule()); 
 		org.openxava.tab.Tab tab = getTab(request, id.getApplication(), id.getModule(), id.getTabObject());		
 		tab.moveProperty(from, to);
 	}
 	
-	public static void setColumnWidth(HttpServletRequest request, String columnId, int index, int width) {
+	public void setColumnWidth(HttpServletRequest request, HttpServletResponse response, String columnId, int index, int width) {
 		try {
 			TableId id = new TableId(columnId, 1);
 			if (!id.isValid()) {
 				log.warn(XavaResources.getString("impossible_store_column_width"));  
 				return;			
 			}
-			checkSecurity(request, id.getApplication(), id.getModule());
-			Users.setCurrent(request);
+			initRequest(request, response, id.getApplication(), id.getModule()); 
 			try {
 				org.openxava.tab.Tab tab = getTab(request, id.getApplication(), id.getModule(), id.getTabObject()); 
 				tab.setColumnWidth(index, width);
@@ -77,6 +74,18 @@ public class Tab extends DWRBase {
 		catch (Exception ex) {
 			log.warn(XavaResources.getString("impossible_store_column_width"), ex);
 		}		
+	}
+	
+	public String filterColumns(HttpServletRequest request, HttpServletResponse response, String application, String module, String searchWord) {   
+		try {
+			initRequest(request, response, application, module);
+			String prefix = Module.isPortlet()?"/WEB-INF/jsp":"";
+			return Servlets.getURIAsString(request, response, prefix + "/xava/editors/selectColumns.jsp?application=" + application + "&module=" + module + "&searchWord=" + searchWord); 
+		}
+		catch (Exception ex) {
+			log.error(XavaResources.getString("display_columns_error"), ex);  
+			return null; 
+		}
 	}
  
 	private static org.openxava.tab.Tab getTab(HttpServletRequest request, String application, String module, String tabObject) {

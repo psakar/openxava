@@ -1,6 +1,9 @@
 Change Log for OpenXava project
 ===============================
 
+- Add columns dialog has a search box to delimit the columns to add.
+- Add columns dialog is limited to 20 properties each time it's opened, with a link to load all.
+- Fix: Numbers left aligned in list and collections.
 - Split mode starts with the first object selected, unless you come from detail mode. 
 - New textWithSuffixEditor.jsp editor that allows put a suffix label after the field textbox.
 - asm.jar, cglib.jar and ehcache.jar removed from distribution.

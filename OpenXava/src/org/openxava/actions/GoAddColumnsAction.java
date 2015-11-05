@@ -19,6 +19,7 @@ public class GoAddColumnsAction extends ViewBaseAction implements ICustomViewAct
 	public void execute() throws Exception {
 		String objectName =  Is.emptyString(collection)?"xava_tab":Tab.COLLECTION_PREFIX + collection;
 		setCustomizingTab((Tab) getContext().get(getRequest(), objectName)); 
+		getCustomizingTab().setColumnsToAddUntilSecondLevel(true);  
 		setControllers("AddColumns"); 
 		showDialog(); 	
 		getView().setTitleId("choose_property_add_list_prompt"); 

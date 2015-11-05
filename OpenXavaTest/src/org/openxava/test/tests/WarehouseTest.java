@@ -1,12 +1,6 @@
 package org.openxava.test.tests;
 
-import java.text.*;
-import java.util.*;
-
-import org.openxava.hibernate.*;
-import org.openxava.model.meta.*;
 import org.openxava.util.*;
-
 import com.gargoylesoftware.htmlunit.html.*;
 
 /**

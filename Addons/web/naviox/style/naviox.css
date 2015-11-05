@@ -264,13 +264,18 @@ A#show_modules:HOVER {
 	width: 60px;
 }
 
-#search_modules { 
+#search_modules, #xava_search_columns {  
 	margin: 3px; 
 	padding: 2px;
 }
 
-#search_modules INPUT {
+#search_modules INPUT { 
 	width: 280px; 
+}
+
+#xava_search_columns_text { 
+	width: calc(100% - 15px); 
+	padding-left: 7px;
 }
 
 #modules_list_header, #modules_list_search_header { 
@@ -288,10 +293,13 @@ A#show_modules:HOVER {
 	display: none; 
 }
 
-#search_modules_text { 
+#search_modules_text, #xava_search_columns_text {  
 	background-image: url("../images/search.png");
 	background-position: right;
-	background-repeat: no-repeat;	
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
 }
 
 #modules_list .selected {
@@ -359,12 +367,6 @@ select {
 
 .ox-label, .editor {
 	margin-bottom: 5px; 
-}
-
-#search_modules_text {
-	border-radius: 15px;
-	-moz-border-radius: 15px;
-	-webkit-border-radius: 15px;
 }
 
 input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus, select:focus, textarea:focus {
@@ -709,7 +711,7 @@ input[type="button"]:active, A#show_modules.show-modules-selected {
 
 .ox-list-pair a nobr, .ox-list-odd a nobr {
 	vertical-align: middle; 
-	display: table-cell; 
+	/* display: table-cell;  Don't use. It aligns numbers at left */ 
 	height: 35px;  
 }
 

@@ -634,3 +634,19 @@ span.ox-subcontroller-select a{
 .ox-charts .ox-element-collection select {
 	width: 120px;
 }
+
+#xava_search_columns {  
+	margin-bottom: 5px;
+}
+
+#xava_search_columns_text { 
+	width: calc(100% - 10px); 
+	padding: 5px;
+	background-image: url("/html/icons/search.png");
+	background-position: calc(100% - 5px);
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	outline: 0;
+}

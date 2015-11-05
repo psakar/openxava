@@ -70,9 +70,8 @@ String oxVersion = org.openxava.controller.ModuleManager.getVersion();
 			</td>
 		</tr>
 	</table>
-		
-	<script type='text/javascript' src='<%=request.getContextPath()%>/naviox/js/typewatch.js'></script>
-	<script type='text/javascript' src='<%=request.getContextPath()%>/naviox/js/naviox.js'></script>
+
+	<script type='text/javascript' src='<%=request.getContextPath()%>/naviox/js/naviox.js?ox=<%=oxVersion%>'></script> 
 	
 	<script>
 	$(function() {

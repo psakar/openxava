@@ -939,6 +939,7 @@
 		<delete file="../${project}/web/xava/js/jquery.bgiframe.min.js"/>
 		<delete file="../${project}/web/xava/js/jquery.bgiframe.js"/> 
 		<delete file="../${project}/web/xava/style/liferay51/js/init_liferay.js"/>
+		<delete file="../${project}/web/naviox/js/typewatch.js"/> 
 		<!-- Delete JSPs moved to editors folder -->
 		<delete file="../${project}/web/xava/comparatorsBooleanCombo.jsp"/>
 		<delete file="../${project}/web/xava/comparatorsCombo.jsp"/>

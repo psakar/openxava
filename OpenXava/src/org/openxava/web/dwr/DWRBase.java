@@ -3,6 +3,9 @@ package org.openxava.web.dwr;
 import javax.servlet.http.*;
 
 import org.openxava.controller.*;
+import org.openxava.util.*;
+import org.openxava.web.servlets.*;
+import org.openxava.web.style.*;
 
 /**
  * Base class for creating DWR remote classes. <p>
@@ -13,6 +16,16 @@ class DWRBase {
 	
 	protected static ModuleContext getContext(HttpServletRequest request) {
 		return (ModuleContext) request.getSession().getAttribute("context");
+	}
+
+	/**
+	 * @since 5.4
+	 */
+	protected void initRequest(HttpServletRequest request, HttpServletResponse response, String application, String module) { 
+		Servlets.setCharacterEncoding(request, response);
+		checkSecurity(request, application, module);
+		Users.setCurrent(request);
+		request.setAttribute("style", Style.getInstance(request));
 	}
 
 	protected static void checkSecurity(HttpServletRequest request, String application, String module) {		

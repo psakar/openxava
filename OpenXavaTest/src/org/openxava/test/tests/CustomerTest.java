@@ -1,18 +1,11 @@
 package org.openxava.test.tests;
 
-import java.net.URL;
-
 import javax.persistence.NoResultException;
 
 import org.openxava.model.meta.MetaModel;
 import org.openxava.test.model.Customer;
 import org.openxava.test.model.Warehouse;
 import org.openxava.util.Is;
-import org.openxava.util.Strings;
-
-import com.gargoylesoftware.htmlunit.WebResponse;
-import com.gargoylesoftware.htmlunit.html.HtmlImage;
-import com.gargoylesoftware.htmlunit.html.HtmlPage;
 
 /**
  * 

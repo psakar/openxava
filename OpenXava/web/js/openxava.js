@@ -336,6 +336,7 @@ openxava.initLists = function(application, module) {
 	    	View.moveCollectionElement(tableId, ui.item.startPos - 1, ui.item.index() - 1);
 	    }	
 	});
+	openxava.watchColumnsSearch();  
 }
 
 openxava.setListsSize = function(application, module, type, adjustment) {
@@ -931,4 +932,25 @@ openxava.subcontroller = function(id,containerId,buttonId,imageId,aId,spanId){
 	//
 	$('#'+imageId).fadeTo("fast",0.3);
 	$('#'+buttonId).addClass('ox-subcontroller-select');
+}
+
+openxava.watchColumnsSearch = function() {  
+	jQuery( "#xava_search_columns_text" ).typeWatch({
+		callback: openxava.filterColumns,
+	    wait:500,
+	    highlight:true,
+	    captureLength:0
+	});
+	
+	$( "#xava_search_columns_text" ).keyup(function() {
+		if ($(this).val() == "") openxava.filterColumns(); 
+	});
+}
+
+openxava.filterColumns = function() {
+	Tab.filterColumns($("#xava_application").val(), $("#xava_module").val(), $("#xava_search_columns_text").val(), openxava.refreshColumnsList);
+}
+
+openxava.refreshColumnsList = function(columnsList) { 
+	$('#xava_add_columns').html(columnsList);
 }

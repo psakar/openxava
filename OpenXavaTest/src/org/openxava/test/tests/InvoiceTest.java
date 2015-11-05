@@ -13,16 +13,14 @@ import java.util.Iterator;
 import java.util.Locale;
 import java.util.StringTokenizer;
 
+import javax.persistence.*;
 import javax.rmi.PortableRemoteObject;
 
 import org.openxava.actions.*;
 import org.openxava.jpa.XPersistence;
 import org.openxava.session.Chart;
 import org.openxava.test.calculators.YearInvoiceDiscountCalculator;
-import org.openxava.test.model.Delivery;
-import org.openxava.test.model.DeliveryType;
-import org.openxava.test.model.Invoice;
-import org.openxava.test.model.Product;
+import org.openxava.test.model.*;
 import org.openxava.util.Dates;
 import org.openxava.util.Is;
 import org.openxava.util.Strings;
@@ -742,7 +740,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		assertLabelInList(7, "Importance");
 		
 		execute("List.addColumns");
-		assertCollectionRowCount("xavaPropertiesList", 21); 		
+		assertCollectionRowCount("xavaPropertiesList", 20); // The limit is 20
 		assertValueInCollection("xavaPropertiesList",  0, 0, "City of Customer");
 		assertValueInCollection("xavaPropertiesList",  1, 0, "Comment");
 		assertValueInCollection("xavaPropertiesList",  2, 0, "Considerable");		
@@ -763,7 +761,6 @@ public class InvoiceTest extends CustomizeListTestBase {
 		assertValueInCollection("xavaPropertiesList", 17, 0, "Type of Customer");
 		assertValueInCollection("xavaPropertiesList", 18, 0, "VAT %");
 		assertValueInCollection("xavaPropertiesList", 19, 0, "Web site of Customer");
-		assertValueInCollection("xavaPropertiesList", 20, 0, "Year discount");
 		
 		execute("AddColumns.showMoreColumns");		
 		assertCollectionRowCount("xavaPropertiesList", 39);
@@ -824,7 +821,51 @@ public class InvoiceTest extends CustomizeListTestBase {
 
 		// Restoring, for next time that test execute
 		removeColumn(8); 
-		assertListColumnCount(8);		
+		assertListColumnCount(8);
+
+		// Always starts with 20
+		execute("List.addColumns");
+		assertCollectionRowCount("xavaPropertiesList", 20); 
+	}
+	
+	public void testCustomizeListSearchColumns() throws Exception { 
+		execute("List.addColumns");
+		assertCollectionRowCount("xavaPropertiesList", 20); 		
+		assertValueInCollection("xavaPropertiesList",  0, 0, "City of Customer");
+		assertValueInCollection("xavaPropertiesList", 19, 0, "Web site of Customer");
+		assertAction("AddColumns.showMoreColumns");
+
+		HtmlElement searchBox = getHtmlPage().getHtmlElementById("xava_search_columns_text");
+		searchBox.type("DISCOUNT");
+		assertEquals("DISCOUNT", searchBox.getAttribute("value"));		
+		getWebClient().waitForBackgroundJavaScriptStartingBefore(10000);
+		assertCollectionRowCount("xavaPropertiesList", 4); 		
+		assertValueInCollection("xavaPropertiesList",  0, 0, "Customer discount");
+		assertValueInCollection("xavaPropertiesList",  1, 0, "Customer type discount");
+		assertValueInCollection("xavaPropertiesList", 2, 0, "Seller discount");
+		assertValueInCollection("xavaPropertiesList", 3, 0, "Year discount");
+		assertNoAction("AddColumns.showMoreColumns");		
+		
+		searchBox.type("\b\b\b\b\b\b\b\b");
+		assertEquals("", searchBox.getAttribute("value"));
+		getWebClient().waitForBackgroundJavaScriptStartingBefore(10000);
+		assertCollectionRowCount("xavaPropertiesList", 20); 		
+		assertValueInCollection("xavaPropertiesList",  0, 0, "City of Customer");
+		assertValueInCollection("xavaPropertiesList", 19, 0, "Web site of Customer");
+		assertAction("AddColumns.showMoreColumns");
+		
+		execute("AddColumns.showMoreColumns");		
+		assertCollectionRowCount("xavaPropertiesList", 39);
+		searchBox = getHtmlPage().getHtmlElementById("xava_search_columns_text");
+		searchBox.type("DISCOUNT");
+		assertEquals("DISCOUNT", searchBox.getAttribute("value"));		
+		getWebClient().waitForBackgroundJavaScriptStartingBefore(10000);
+		assertCollectionRowCount("xavaPropertiesList", 4); 		
+		assertValueInCollection("xavaPropertiesList",  0, 0, "Customer discount");
+		assertValueInCollection("xavaPropertiesList",  1, 0, "Customer type discount");
+		assertValueInCollection("xavaPropertiesList", 2, 0, "Seller discount");
+		assertValueInCollection("xavaPropertiesList", 3, 0, "Year discount");
+		assertNoAction("AddColumns.showMoreColumns");				
 	}
 	
 	public void testRemoveSeveralColumns() throws Exception { 
@@ -880,7 +921,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 	}
 	
 	public void testCustomizeList() throws Exception {
-		doTestCustomizeList_addColumns();
+		doTestCustomizeList_addColumns(); 
 		tearDown(); setUp();
 		doTestCustomizeList_storePreferences(); 
 	}
@@ -898,7 +939,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		
 		execute("List.addColumns");
 		
-		assertCollectionRowCount("xavaPropertiesList", 21); 		
+		assertCollectionRowCount("xavaPropertiesList", 20); // There are 21, but it only loads the first 20.
 		assertValueInCollection("xavaPropertiesList",  0, 0, "City of Customer");
 		assertValueInCollection("xavaPropertiesList",  1, 0, "Comment");
 		assertValueInCollection("xavaPropertiesList",  2, 0, "Considerable");		
@@ -919,9 +960,8 @@ public class InvoiceTest extends CustomizeListTestBase {
 		assertValueInCollection("xavaPropertiesList", 17, 0, "Type of Customer");
 		assertValueInCollection("xavaPropertiesList", 18, 0, "VAT %");
 		assertValueInCollection("xavaPropertiesList", 19, 0, "Web site of Customer");
-		assertValueInCollection("xavaPropertiesList", 20, 0, "Year discount");
 		checkRow("selectedProperties", "customer.name"); 
-		checkRow("selectedProperties", "yearDiscount"); 
+		checkRow("selectedProperties", "sellerDiscount"); 
 		 		
 		execute("AddColumns.addColumns");
 				
@@ -935,8 +975,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		assertLabelInList(6, "Paid");
 		assertLabelInList(7, "Importance");
 		assertLabelInList(8, "Name of Customer");
-		assertLabelInList(9, "Year discount");
-		
+		assertLabelInList(9, "Seller discount"); 
 		
 		execute("List.addColumns");
 		assertCollectionRowCount("xavaPropertiesList", 19);
@@ -953,13 +992,12 @@ public class InvoiceTest extends CustomizeListTestBase {
 		assertValueInCollection("xavaPropertiesList", 10, 0, "Product unit price sum");
 		assertValueInCollection("xavaPropertiesList", 11, 0, "Relation with seller of Customer");
 		assertValueInCollection("xavaPropertiesList", 12, 0, "Remarks of Customer");
-		assertValueInCollection("xavaPropertiesList", 13, 0, "Seller discount");
-		assertValueInCollection("xavaPropertiesList", 14, 0, "Telephone of Customer");
-		assertValueInCollection("xavaPropertiesList", 15, 0, "Total");
-		assertValueInCollection("xavaPropertiesList", 16, 0, "Type of Customer");
-		assertValueInCollection("xavaPropertiesList", 17, 0, "VAT %");
-		assertValueInCollection("xavaPropertiesList", 18, 0, "Web site of Customer");
- 
+		assertValueInCollection("xavaPropertiesList", 13, 0, "Telephone of Customer");
+		assertValueInCollection("xavaPropertiesList", 14, 0, "Total");
+		assertValueInCollection("xavaPropertiesList", 15, 0, "Type of Customer");
+		assertValueInCollection("xavaPropertiesList", 16, 0, "VAT %");
+		assertValueInCollection("xavaPropertiesList", 17, 0, "Web site of Customer");
+		assertValueInCollection("xavaPropertiesList", 18, 0, "Year discount");
 		execute("AddColumns.cancel");
 		
 		assertListColumnCount(10);
@@ -972,7 +1010,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		assertLabelInList(6, "Paid");
 		assertLabelInList(7, "Importance");
 		assertLabelInList(8, "Name of Customer");
-		assertLabelInList(9, "Year discount");
+		assertLabelInList(9, "Seller discount"); 
 		
 		// To test that detail view is not broken because of the dialog
 		execute("CRUD.new");
@@ -991,7 +1029,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		assertLabelInList(6, "Paid");
 		assertLabelInList(7, "Importance");
 		assertLabelInList(8, "Name of Customer"); 
-		assertLabelInList(9, "Year discount");
+		assertLabelInList(9, "Seller discount"); 
 				
 		
 		// Restoring, for next time that test execute
