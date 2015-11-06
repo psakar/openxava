@@ -542,7 +542,7 @@ public class DeliveryTest extends ModuleTestBase {
 			String value = getValueInList(i, "invoice.sellerDiscount");			
 			if ("0.00".equals(value)) withoutDiscount = true;
 			else if ("20.00".equals(value)) withDiscount = true;
-			else fail("Only 0.00 or 20.00 are valid values for invoice.sellerDiscount"); 
+			else fail("Only 0.00 or 20.00 are valid values for invoice.sellerDiscount");  
 		}
 		assertTrue("It's required deliveries with invoices with and without seller discount", withDiscount && withoutDiscount);
 		
@@ -555,7 +555,7 @@ public class DeliveryTest extends ModuleTestBase {
 	public void testUseListWithOtherModelAndReturnToModuleList() throws Exception {
 		execute("CRUD.new");
 		execute("Delivery.viewCurrentYearInvoices");
-		assertNoErrors();
+		assertNoErrors(); 
 		execute("Return.return");
 		assertNoErrors();
 		execute("Mode.list");
@@ -851,7 +851,7 @@ public class DeliveryTest extends ModuleTestBase {
 		assertActions(listActions); 
 		execute("List.orderBy", "property=invoice.year"); // ascending
 		execute("List.orderBy", "property=invoice.year"); // descending
-		assertNoErrors();
+		assertNoErrors(); 
 		
 		// Delete					
 		assertValueInList(0, "invoice.year", "2009"); 

@@ -311,8 +311,10 @@ while (it.hasNext()) {
 </jsp:include>
 <%
 		} else { // Not boolean
-	String idConditionValue = Ids.decorate(request, prefix + "conditionValue." + iConditionValues);
+	String idConditionValue = Ids.decorate(request, prefix + "conditionValue." + iConditionValues);	
 	String idConditionValueTo = Ids.decorate(request, prefix + "conditionValueTo." + iConditionValues);
+	boolean isEmptyComparator = "empty_comparator".equals(comparator) || "not_empty_comparator".equals(comparator);
+	String styleConditionValue =  isEmptyComparator ? "display: none;" : "display: inline;";	
 	String styleConditionValueTo = "range_comparator".equals(comparator) ? "display: inline; " : "display: none;";
 	String labelFrom = "range_comparator".equals(comparator) ? Labels.get("from") : "";
 	String labelTo = Labels.get("to");
@@ -324,11 +326,14 @@ while (it.hasNext()) {
 		+ "&index=" + iConditionValues
 		+ "&idConditionValue=" + idConditionValue
 		+ "&idConditionValueTo=" + idConditionValueTo;
+	if (isEmptyComparator) {
 %>
+<br/>
+<%  } %>
 <jsp:include page="<%=urlComparatorsCombo%>" />
 <br/> 
 <nobr>
-<input id="<%=idConditionValue%>" name="<%=idConditionValue%>" class=<%=style.getEditor()%> type="text" maxlength="<%=maxLength%>" size="<%=length%>" value="<%=value%>" placeholder="<%=labelFrom%>" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;"/><% if (isDate) { %><a href="javascript:showCalendar('<%=idConditionValue%>', '<%=org.openxava.util.Dates.dateFormatForJSCalendar(org.openxava.util.Locales.getCurrent(), isTimestamp)%>'<%=isTimestamp?", '12'":""%>)" style='position: relative; right: 25px;' tabindex="999"><img	
+<input id="<%=idConditionValue%>" name="<%=idConditionValue%>" class=<%=style.getEditor()%> type="text" maxlength="<%=maxLength%>" size="<%=length%>" value="<%=value%>" placeholder="<%=labelFrom%>" style="<%=styleConditionValue%>; width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;"/><% if (isDate) { %><a href="javascript:showCalendar('<%=idConditionValue%>', '<%=org.openxava.util.Dates.dateFormatForJSCalendar(org.openxava.util.Locales.getCurrent(), isTimestamp)%>'<%=isTimestamp?", '12'":""%>)" style="position: relative; right: 25px; <%=styleConditionValue%>" tabindex="999"><img	
 	src="<%=request.getContextPath() %>/xava/images/calendar.gif" alt="..."
 	style='vertical-align: middle;'/></a>
 <% } %>
@@ -470,7 +475,7 @@ for (int c=0; c<model.getColumnCount(); c++) {
 		<div class="<xava:id name='<%=id%>'/>_col<%=c%>" style="overflow: hidden; <%=width%>">
 			<nobr>
 			<% if (!tab.isFixedTotal(c) && XavaPreferences.getInstance().isSummationInList()) { %>
-				<xava:image action='List.removeColumnSum' argv='<%="property="+p.getQualifiedName() + collectionArgv%>' cssStyle="vertical-align: top;"/>
+				<xava:action action='List.removeColumnSum' argv='<%="property="+p.getQualifiedName() + collectionArgv%>'/>
 			<% } %>
 			<%=ftotal%>&nbsp;
 			</nobr>

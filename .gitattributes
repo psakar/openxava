@@ -1042,8 +1042,6 @@ InvoiceDemo/web/WEB-INF/fonts/DejaVuSans.ttf -text
 InvoiceDemo/web/WEB-INF/fonts/LICENSE -text
 InvoiceDemo/web/WEB-INF/lib/addons.jar -text
 InvoiceDemo/web/WEB-INF/lib/antlr.jar -text
-InvoiceDemo/web/WEB-INF/lib/asm.jar -text
-InvoiceDemo/web/WEB-INF/lib/cglib.jar -text
 InvoiceDemo/web/WEB-INF/lib/classmate.jar -text
 InvoiceDemo/web/WEB-INF/lib/commons-beanutils.jar -text
 InvoiceDemo/web/WEB-INF/lib/commons-codec.jar -text
@@ -1058,7 +1056,6 @@ InvoiceDemo/web/WEB-INF/lib/commons-validator.jar -text
 InvoiceDemo/web/WEB-INF/lib/dom4j.jar -text
 InvoiceDemo/web/WEB-INF/lib/dsn.jar -text
 InvoiceDemo/web/WEB-INF/lib/dwr.jar -text
-InvoiceDemo/web/WEB-INF/lib/ehcache.jar -text
 InvoiceDemo/web/WEB-INF/lib/ejb.jar -text
 InvoiceDemo/web/WEB-INF/lib/groovy-all.jar -text
 InvoiceDemo/web/WEB-INF/lib/hibernate-commons-annotations.jar -text
@@ -1506,7 +1503,6 @@ InvoiceDemo/web/xava/images/ascending3.gif -text
 InvoiceDemo/web/xava/images/attach.gif -text
 InvoiceDemo/web/xava/images/back.gif -text
 InvoiceDemo/web/xava/images/calendar.gif -text
-InvoiceDemo/web/xava/images/charts.png -text
 InvoiceDemo/web/xava/images/checked.gif -text
 InvoiceDemo/web/xava/images/clear-right.gif -text
 InvoiceDemo/web/xava/images/create_new.gif -text
@@ -3972,8 +3968,6 @@ MySchool/web/WEB-INF/fonts/DejaVuSans.ttf -text
 MySchool/web/WEB-INF/fonts/LICENSE -text
 MySchool/web/WEB-INF/lib/addons.jar -text
 MySchool/web/WEB-INF/lib/antlr.jar -text
-MySchool/web/WEB-INF/lib/asm.jar -text
-MySchool/web/WEB-INF/lib/cglib.jar -text
 MySchool/web/WEB-INF/lib/classmate.jar -text
 MySchool/web/WEB-INF/lib/commons-beanutils.jar -text
 MySchool/web/WEB-INF/lib/commons-codec.jar -text
@@ -3988,12 +3982,12 @@ MySchool/web/WEB-INF/lib/commons-validator.jar -text
 MySchool/web/WEB-INF/lib/dom4j.jar -text
 MySchool/web/WEB-INF/lib/dsn.jar -text
 MySchool/web/WEB-INF/lib/dwr.jar -text
-MySchool/web/WEB-INF/lib/ehcache.jar -text
 MySchool/web/WEB-INF/lib/ejb.jar -text
 MySchool/web/WEB-INF/lib/groovy-all.jar -text
 MySchool/web/WEB-INF/lib/hibernate-commons-annotations.jar -text
 MySchool/web/WEB-INF/lib/hibernate-core.jar -text
 MySchool/web/WEB-INF/lib/hibernate-entitymanager.jar -text
+MySchool/web/WEB-INF/lib/hibernate-envers.jar -text
 MySchool/web/WEB-INF/lib/hibernate-validator-annotation-processor.jar -text
 MySchool/web/WEB-INF/lib/hibernate-validator-cdi.jar -text
 MySchool/web/WEB-INF/lib/hibernate-validator.jar -text
@@ -4153,6 +4147,9 @@ MySchool/web/xava/editors/changeImage.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/chartColumnNameEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/chartDataEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/chartNameEditor.jsp -text svneol=unset#text/plain
+MySchool/web/xava/editors/chartTypeEditor.jsp -text svneol=unset#text/plain
+MySchool/web/xava/editors/chartXColumnEditor.jsp -text svneol=unset#text/plain
+MySchool/web/xava/editors/chartsEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/chooseFile.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/ckeditor/.htaccess -text
 MySchool/web/xava/editors/ckeditor/config.js -text svneol=unset#text/plain
@@ -4412,9 +4409,11 @@ MySchool/web/xava/editors/notAvailableEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/passwordEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/radioButtonEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/referenceEditor.jsp -text svneol=unset#text/plain
+MySchool/web/xava/editors/selectColumns.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/style/c3.css -text svneol=unset#text/plain
 MySchool/web/xava/editors/textAreaEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/textEditor.jsp -text svneol=unset#text/plain
+MySchool/web/xava/editors/textWithSuffixEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/treeViewEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/treeViewListEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/validValueEditorCommon.jsp -text svneol=unset#text/plain
@@ -4422,6 +4421,7 @@ MySchool/web/xava/editors/validValuesEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/webURLEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/errors.jsp -text svneol=unset#text/plain
 MySchool/web/xava/execute.jsp -text svneol=unset#text/plain
+MySchool/web/xava/fonts/materialdesignicons-webfont.woff -text
 MySchool/web/xava/frameActions.jsp -text svneol=unset#text/plain
 MySchool/web/xava/htmlTagsEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/images/add.gif -text
@@ -4433,7 +4433,6 @@ MySchool/web/xava/images/ascending3.gif -text
 MySchool/web/xava/images/attach.gif -text
 MySchool/web/xava/images/back.gif -text
 MySchool/web/xava/images/calendar.gif -text
-MySchool/web/xava/images/charts.png -text
 MySchool/web/xava/images/checked.gif -text
 MySchool/web/xava/images/clear-right.gif -text
 MySchool/web/xava/images/create_new.gif -text
@@ -4735,6 +4734,7 @@ MySchool/web/xava/style/liferay51/images/portlet/restore.png -text
 MySchool/web/xava/style/liferay51/images/progress_bar/loading_animation.gif -text
 MySchool/web/xava/style/liferay51/js/barebone_unpacked.js -text svneol=unset#text/plain
 MySchool/web/xava/style/liferay51/js/theme_display.js -text svneol=unset#text/plain
+MySchool/web/xava/style/materialdesignicons.css -text svneol=unset#text/plain
 MySchool/web/xava/style/portal.css -text svneol=unset#text/plain
 MySchool/web/xava/style/skins.css -text svneol=unset#text/plain
 MySchool/web/xava/style/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png -text
@@ -8309,7 +8309,6 @@ OpenXavaTest/build/hibernate/Comment.hbm.xml -text svneol=unset#text/plain
 OpenXavaTest/build/hibernate/ConversionFactor.hbm.xml -text svneol=unset#text/plain
 OpenXavaTest/build/hibernate/Course.hbm.xml -text svneol=unset#text/plain
 OpenXavaTest/build/hibernate/Customer.hbm.xml -text svneol=unset#text/plain
-OpenXavaTest/build/hibernate/Customer2.hbm.xml -text svneol=unset#text/plain
 OpenXavaTest/build/hibernate/CustomerContactPerson.hbm.xml -text svneol=unset#text/plain
 OpenXavaTest/build/hibernate/CustomerState.hbm.xml -text svneol=unset#text/plain
 OpenXavaTest/build/hibernate/Delivery.hbm.xml -text svneol=unset#text/plain
@@ -8342,7 +8341,6 @@ OpenXavaTest/build/hibernate/Receptionist.hbm.xml -text svneol=unset#text/plain
 OpenXavaTest/build/hibernate/Report.hbm.xml -text svneol=unset#text/plain
 OpenXavaTest/build/hibernate/School.hbm.xml -text svneol=unset#text/plain
 OpenXavaTest/build/hibernate/Seller.hbm.xml -text svneol=unset#text/plain
-OpenXavaTest/build/hibernate/Seller2.hbm.xml -text svneol=unset#text/plain
 OpenXavaTest/build/hibernate/SellerLevel.hbm.xml -text svneol=unset#text/plain
 OpenXavaTest/build/hibernate/Service.hbm.xml -text svneol=unset#text/plain
 OpenXavaTest/build/hibernate/ServiceInvoice.hbm.xml -text svneol=unset#text/plain
@@ -8435,6 +8433,143 @@ OpenXavaTest/data/openxava-test-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/openxava-test-db.script -text
 OpenXavaTest/data/openxava-test-ds.xml -text svneol=unset#text/plain
 OpenXavaTest/gen-src-xava/dnas-pojo.properties -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/AdditionalDetail.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Address.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/AverageSpeed.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Carrier.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/CharacteristicThing.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/City.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Clerk.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Color.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Comment.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ConversionFactor.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Course.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Customer.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/CustomerContactPerson.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/CustomerState.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Delivery.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/DeliveryDetail.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/DeliveryPlace.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/DeliveryType.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Detail.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Driver.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/DrivingLicence.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Family2.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/FilterBySubfamily.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Formula.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/FormulaIngredient.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IAdditionalDetail.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IAverageSpeed.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ICarrier.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ICharacteristicThing.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ICity.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IClerk.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IColor.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IComment.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IConversionFactor.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ICourse.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ICustomer.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ICustomerContactPerson.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ICustomerState.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IDelivery.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IDeliveryDetail.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IDeliveryPlace.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IDeliveryType.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IDriver.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IDrivingLicence.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IFamily2.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IFilterBySubfamily.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IFormula.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IFormulaIngredient.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IIngredient.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IInvoice.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IInvoice2.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IInvoice3.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IInvoiceDetail.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IInvoiceDetail2.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IIssue.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IIssueList.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IJourney.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IMixture.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IMonth.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IOffice.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IOffice2.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IOneLineAddress.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IOrder.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IOrderDetail.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IProduct.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IProduct2.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IProduct3.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IRanges.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IReceptionist.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IReport.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ISchool.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ISelectSchema.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ISeller.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ISellerLevel.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IService.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IServiceInvoice.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IServiceType.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IShipment.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IShipmentCharge.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ISize.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IState.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ISubfamily.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ISubfamily2.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ITask.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ITeacher.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IThing.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ITransportCharge.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ITransportCharge2.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IVehicle.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IWarehouse.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IWorker.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IYear.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Ingredient.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Invoice.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Invoice2.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Invoice3.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/InvoiceDetail.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/InvoiceDetail2.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Issue.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IssueList.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Journey.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Mixture.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Month.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Office.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Office2.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/OneLineAddress.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Order.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/OrderDetail.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Product.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Product2.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Product3.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Ranges.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Receptionist.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Report.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/School.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/SelectSchema.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Seller.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/SellerLevel.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Service.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ServiceInvoice.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ServiceType.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Shipment.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/ShipmentCharge.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Size.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/State.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Subfamily.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Subfamily2.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/SubfamilyInfo.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Task.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Teacher.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Thing.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/TransportCharge.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/TransportCharge2.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Vehicle.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Warehouse.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Worker.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/Year.java -text svneol=unset#text/plain
 OpenXavaTest/gen-src-xava/packages.properties -text
 OpenXavaTest/hibernate/Family.hbm.xml -text
 OpenXavaTest/hibernate/META-INF/persistence.xml -text

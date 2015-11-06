@@ -264,13 +264,18 @@ A#show_modules:HOVER {
 	width: 60px;
 }
 
-#search_modules { 
+#search_modules, #xava_search_columns {  
 	margin: 3px; 
 	padding: 2px;
 }
 
-#search_modules INPUT {
+#search_modules INPUT { 
 	width: 280px; 
+}
+
+#xava_search_columns_text { 
+	width: calc(100% - 15px); 
+	padding-left: 7px;
 }
 
 #modules_list_header, #modules_list_search_header { 
@@ -288,10 +293,13 @@ A#show_modules:HOVER {
 	display: none; 
 }
 
-#search_modules_text { 
+#search_modules_text, #xava_search_columns_text {  
 	background-image: url("../images/search.png");
 	background-position: right;
-	background-repeat: no-repeat;	
+	background-repeat: no-repeat;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
 }
 
 #modules_list .selected {
@@ -361,12 +369,6 @@ select {
 	margin-bottom: 5px; 
 }
 
-#search_modules_text {
-	border-radius: 15px;
-	-moz-border-radius: 15px;
-	-webkit-border-radius: 15px;
-}
-
 input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus, select:focus, textarea:focus {
 	outline: 0;
 	border-color: #56b4ef;
@@ -408,25 +410,49 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus
 	-webkit-box-shadow: 0px 2px 7px #CCCCCC;	
 }
 
-.ox-button-bar .ox-button-bar-button a, .ox-button-bar-mode-button, .ox-collection-list-actions .ox-button-bar-button a {
-	border: 1px solid #F5F5F5;
+.ox-button-bar .ox-button-bar-button a, .ox-button-bar-mode-button, 
+.ox-collection-list-actions .ox-button-bar-button a {
+	border: 1px solid transparent; 
 	padding: 6px 6px 6px 0px;
-	color: #6F6F6F;
 	font-weight: bold;
-	text-decoration: none;	
+	text-decoration: none;
 }
 
-.ox-button-bar .ox-button-bar-button a:hover, .ox-collection-list-actions .ox-button-bar-button a:hover, .ox-subcontroller-select a {  
+.ox-button-bar .ox-button-bar-button a, .ox-button-bar-mode-button, 
+.ox-collection-list-actions .ox-button-bar-button a, 
+.ox-list-formats i, .ox-image-link i, .ox-frame-title i,
+.ox-charts i { 
+	color: #6F6F6F;
+}
+
+.ox-button-bar .ox-button-bar-button a:hover, 
+.ox-collection-list-actions .ox-button-bar-button a:hover, 
+.ox-subcontroller-select a, .ox-list-formats i:hover {   
 	border-radius: 2px;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;	
 	padding: 6px 6px 6px 0px;
-	color: #191919;
 	border: 1px solid #C6C6C6;	
 	box-shadow: 0px 1px 2px #CCCCCC; 
 	-moz-box-shadow: 0px 1px 2px #CCCCCC; 
 	-webkit-box-shadow: 0px 1px 2px #CCCCCC;
 }
+
+.ox-button-bar-button a span {
+	padding: 4px;
+}
+
+.ox-button-bar .ox-button-bar-button a:hover, 
+.ox-collection-list-actions .ox-button-bar-button a:hover, 
+.ox-subcontroller-select a, .ox-list-formats i:hover, .ox-image-link i:hover,
+.ox-selected-list-format i, .ox-frame-title i:hover,
+.ox-charts i:hover {   
+	color: #191919;
+}
+
+.ox-button-bar .ox-button-bar-button a {
+	vertical-align: top; 
+} 
 
 .ox-button-bar-mode-button { 
 	border: none;
@@ -434,6 +460,82 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus
 
 .ox-button-bar a:focus { 
 	outline: none; 
+}
+
+i {
+	vertical-align: -2px;  
+}
+
+.mdi-border-color {
+	vertical-align: -4px;  
+}
+
+.ox-list-odd i, .ox-list-pair i {
+	vertical-align: -7px;
+	
+}
+
+.ox-list-odd .ox-action-link, .ox-list-pair .ox-action-link {
+	vertical-align: -5px;	
+}
+
+.ox-list-odd .ox-image-link img, .ox-list-pair .ox-image-link img {
+	vertical-align: -8px;	
+}
+
+.ox-list-odd .mdi-border-color, .ox-list-pair .mdi-border-color {
+	vertical-align: -9px;
+
+}
+
+.ox-image-link i {
+	font-size: 140%;
+	padding: 4px;
+}
+
+.ox-frame-title i {
+	font-size: 120%;
+	padding: 5px;
+	margin: -5px;
+}
+
+.ox-button-bar .ox-button-bar-button i, .ox-collection-list-actions i {
+	margin-left: 5px; 
+	font-size: 140%;
+}
+
+.ox-list-formats i {
+	margin-top: -8px;
+	margin-left: -5px;	 
+	font-size: 150%;
+	padding: 5px;
+	border: 1px solid transparent;   
+}
+
+.ox-list-formats i:hover {
+	padding: 5px;  
+}
+
+.ox-list-formats a:hover, .ox-chart-type a:hover {
+	text-decoration: none;
+}
+
+.ox-selected-list-format i, .ox-selected-list-format:hover i {
+	background: white;
+	border-radius: 2px;
+	padding: 5px;
+	border: 1px solid #C6C6C6;	
+	box-shadow: 0px 0px 5px #CCCCCC inset;  
+}
+
+a.ox-selected-list-format, a.ox-selected-list-format:hover { 
+	pointer-events: none;
+   	cursor: default;
+}
+
+.ox-total-row i {
+	font-size: 120%;
+	padding-bottom: 6px;
 }
 
 input[type="button"], .ipad input[type="button"]:hover, A#show_modules {
@@ -711,8 +813,17 @@ input[type="button"]:active, A#show_modules.show-modules-selected {
 	margin-right: 3px;
 }
 
+.ox-frame-actions a { 
+	outline: none;
+}
+
 .ox-images-gallery {
 	padding-top: 10px;
+}
+
+.ox-images-gallery .ox-frame-actions i { 
+	margin-top: -5px;
+	margin-right: -6px;
 }
 
 .ox-images-gallery .ox-frame-title {
@@ -853,9 +964,13 @@ input[type="button"]:active, A#show_modules.show-modules-selected {
     color: #5755D2 !important;
 }
 
-.ox-button-bar-button img {
-	vertical-align: bottom;
-	margin-right: 6px;
+.ox-button-bar-button span {
+	margin-right: -7px;  
+}
+
+.ox-subcontroller-button  .mdi-menu-down {
+	margin: 0px !important; 
+	margin-right: -5px !important;
 }
 
 .ox-subcontroller {
@@ -879,7 +994,7 @@ input[type="button"]:active, A#show_modules.show-modules-selected {
 	border: none;
 	float: right;
 	width: 100%;
-	margin: 0px -1px 0px 0px;
+	margin: 0px -1px 0px 0px; 
 	padding: 6px 10px 6px 10px;	  
 }
 
@@ -994,4 +1109,105 @@ div.ox-subcontroller table{
 
 .ox-help { 
 	margin-left: 5px;
+}
+
+.ox-charts {
+	width: 0px;
+}
+
+.ct-chart {
+	margin-top: -5px;
+	margin-left: -25px;
+}
+
+.ox-charts .ox-frame-title {
+	display: none;
+
+}
+
+.ox-charts .ox-frame {
+	margin-bottom: 5px;
+	margin-right: 0px;
+	padding: 10px 0px 3px 10px; 
+	border-radius: 0;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;	
+	border: none;
+	box-shadow: none; 
+	-moz-box-shadow: none; 
+	-webkit-box-shadow: none; 
+}
+
+.ox-chart-x-column select {
+	position: relative;
+	left: 758px;
+	top: -27px;
+	width: 180px; 
+}
+
+.ox-chart-type {
+	margin-left: 20px;
+}
+
+.ox-chart-type i { 
+	padding: 5px;
+	border: 1px solid transparent;
+	font-size: 200%;   
+}
+
+.ox-chart-type i:hover { 
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;	
+	padding: 5px;
+	border: 1px solid #C6C6C6;	
+	box-shadow: 0px 1px 3px #CCCCCC; 
+	-moz-box-shadow: 0px 1px 3px #CCCCCC; 
+	-webkit-box-shadow: 0px 1px 3px #CCCCCC;
+}
+
+.ox-selected-chart-type i { 
+	background: #F5F5F5;
+	background: white;
+	border-radius: 3px;
+	padding: 5px;
+	border: 1px solid #C6C6C6;	
+	box-shadow: 0px 0px 7px #CCCCCC inset;  
+}
+
+.ox-charts .ox-list-header {
+	display:none;
+}
+
+.ox-charts .ox-element-collection {
+	width: 200px;
+	margin-left: -32px;
+	margin-right: -25px;
+}
+
+.ox-charts .ox-element-collection i {
+	margin-right: -15px;
+}
+
+.ox-charts .ox-element-collection select {
+	width: 120px;
+}
+
+.no-close .ui-dialog-titlebar-close { 
+	display: none; 
+}
+
+.no-close .ox-detail { 
+	margin-left: -15px;  
+}
+
+.no-close .ox-detail input { 
+	width: calc(100% - 13px);  
+}
+
+.firefox .no-close .ox-detail {
+    margin-left: -10px;
+}
+.firefox .no-close .ox-detail input {
+    width: calc(100% - 23px);
 }

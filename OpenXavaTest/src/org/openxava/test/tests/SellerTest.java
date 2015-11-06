@@ -24,7 +24,7 @@ public class SellerTest extends CustomizeListTestBase {
 		execute("CRUD.new");
 		assertCollectionColumnCount("customers", 6);
 		removeColumn("customers", 5);
-		assertCollectionColumnCount("customers", 5);
+		assertCollectionColumnCount("customers", 5); 
 		resetModule();
 		execute("CRUD.new");
 		assertCollectionColumnCount("customers", 5);
@@ -75,7 +75,7 @@ public class SellerTest extends CustomizeListTestBase {
 		int c = getCollectionRowCount("customers");
 		boolean found = false;		
 		for (int i=0; i<c; i++) {
-			String type = getValueInCollection("customers", i, "type");			
+			String type = getValueInCollection("customers", i, "type");		
 			if ("Steady".equals(type)) {				
 				assertRowStyleInCollection("customers", i, "row-highlight"); 				
 				found = true;

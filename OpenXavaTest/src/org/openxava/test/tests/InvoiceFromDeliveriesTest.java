@@ -51,7 +51,7 @@ public class InvoiceFromDeliveriesTest extends ModuleTestBase {
 		
 		// Verifying that it is changed going to list mode and return (consulting the first)
 		execute("Mode.list");
-		assertNoErrors();
+		assertNoErrors(); 
 		
 		execute("Mode.detailAndFirst");
 		assertValue("year", invoiceYear);

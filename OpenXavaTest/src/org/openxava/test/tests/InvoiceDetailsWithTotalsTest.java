@@ -54,7 +54,7 @@ public class InvoiceDetailsWithTotalsTest extends CustomizeListTestBase {
 	public void testTotalsAndAddActionInCollectionFrame() throws Exception { 
 		execute("Mode.detailAndFirst");
 		execute("List.sumColumn", "property=quantity,collection=details");
-		assertTotalsInFrameOfCollection("details", "(2)    Delivery date: 12/15/10    Product unit price sum: 20.00    Amounts sum: 2,500.00    V.A.T.: 400.00    Total: 2,900.00    Sum of Quantity: 150", false);
+		assertTotalsInFrameOfCollection("details", "(2)    Delivery date: 12/15/10    Product unit price sum: 20.00    Amounts sum: 2,500.00    V.A.T.: 400.00    Total: 2,900.00    Sum of Quantity: 150", false); 
 		execute("List.removeColumnSum", "property=quantity,collection=details");
 		assertTotalsInFrameOfCollection("calculatedDetails", "(2)    Delivery date: 12/15/10    Product unit price sum: 20.00    Amounts sum: 2,500.00    V.A.T.: 400.00    Total: 2,900.00", true); 
 		
@@ -74,7 +74,7 @@ public class InvoiceDetailsWithTotalsTest extends CustomizeListTestBase {
 		assertTotalInCollection("details", 2, "amount", "1,403.02"); 
 		hideCollection("details");
 		HtmlElement header = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_InvoiceDetailsWithTotals__frame_detailsheader"); 
-		assertTrue(header.asText().endsWith("1,403.02"));
+		assertTrue(header.asText().endsWith("1,403.02")); 
 		showCollection("details");
 		execute("List.orderBy", "property=quantity,collection=details"); 
 		execute("Collection.edit", "row=2,viewObject=xava_view_details"); 
