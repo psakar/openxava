@@ -16,7 +16,8 @@ manager.setSession(session);
 boolean onBottom = false;
 String mode = request.getParameter("xava_mode");
 if (mode == null) mode = manager.isSplitMode()?"detail":manager.getModeName();
-boolean headerButtonBar = !manager.isSplitMode() || mode.equals("list");  
+boolean headerButtonBar = !manager.isSplitMode() || mode.equals("list");
+boolean listFormats = !manager.isSplitMode() && mode.equals("list"); 
 
 if (manager.isButtonBarVisible()) {
 %>
@@ -29,7 +30,7 @@ if (manager.isButtonBarVisible()) {
 	while (it.hasNext()) {
 		MetaAction action = (MetaAction) it.next();
 		if (action.isHidden()) continue;
-		if (action.appliesToMode(mode) && action.hasImage()) {
+		if (action.appliesToMode(mode) && (action.hasImage() || action.hasIcon())) {	
 		%>
 		<jsp:include page="barButton.jsp">
 			<jsp:param name="action" value="<%=action.getQualifiedName()%>"/>
@@ -53,6 +54,7 @@ if (manager.isButtonBarVisible()) {
 		<jsp:include page="subButton.jsp">
 			<jsp:param name="controller" value="<%=m.getControllerName()%>"/>
 			<jsp:param name="image" value="<%=m.getImage()%>"/>
+			<jsp:param name="icon" value="<%=m.getIcon()%>"/>
 		</jsp:include>
 		<%
 				}
@@ -60,9 +62,31 @@ if (manager.isButtonBarVisible()) {
 	%>
 	</span>
 	</div>
+
 	
 	<div id="<xava:id name='modes'/>">
-	<span style="float: right">	
+	<span style="float: right">
+	<span style="float: left;" class="<%=style.getListFormats()%>">
+	<%
+	if (listFormats) { 	
+		String tabObject = request.getParameter("tabObject");
+		tabObject = (tabObject == null || tabObject.equals(""))?"xava_tab":tabObject;
+		org.openxava.tab.Tab tab = (org.openxava.tab.Tab) context.get(request, tabObject);
+		Collection<String> editors = org.openxava.web.WebEditors.getEditors(tab.getMetaTab());
+		for (String editor: editors) {
+			String icon = editor.equals("Charts")?"chart-line":"table-large";
+			String selected = editor.equals(tab.getEditor())?style.getSelectedListFormat():"";
+			if (Is.emptyString(editor)) editor = "__NONAME__"; 
+	%>
+	<xava:link action="ListFormat.select" argv='<%="editor=" + editor%>' cssClass="<%=selected%>">	
+		<i class="mdi mdi-<%=icon%>" onclick="openxava.onSelectListFormat(event)"></i>
+	</xava:link>			
+	<%				
+		}
+	}	
+	%>
+	</span>
+		
 	<%
 	java.util.Stack previousViews = (java.util.Stack) context.get(request, "xava_previousViews"); 
 	if (headerButtonBar && previousViews.isEmpty()) { 

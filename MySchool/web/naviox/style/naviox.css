@@ -711,7 +711,7 @@ input[type="button"]:active, A#show_modules.show-modules-selected {
 
 .ox-list-pair a nobr, .ox-list-odd a nobr {
 	vertical-align: middle; 
-	display: table-cell; 
+	/* display: table-cell;  Don't use. It aligns numbers at left */ 
 	height: 35px;  
 }
 

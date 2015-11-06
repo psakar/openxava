@@ -1061,6 +1061,7 @@ InvoiceDemo/web/WEB-INF/lib/groovy-all.jar -text
 InvoiceDemo/web/WEB-INF/lib/hibernate-commons-annotations.jar -text
 InvoiceDemo/web/WEB-INF/lib/hibernate-core.jar -text
 InvoiceDemo/web/WEB-INF/lib/hibernate-entitymanager.jar -text
+InvoiceDemo/web/WEB-INF/lib/hibernate-envers.jar -text
 InvoiceDemo/web/WEB-INF/lib/hibernate-validator-annotation-processor.jar -text
 InvoiceDemo/web/WEB-INF/lib/hibernate-validator-cdi.jar -text
 InvoiceDemo/web/WEB-INF/lib/hibernate-validator.jar -text
@@ -1115,7 +1116,6 @@ InvoiceDemo/web/naviox/images/right.png -text
 InvoiceDemo/web/naviox/images/search.png -text
 InvoiceDemo/web/naviox/index.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/naviox/js/naviox.js -text svneol=unset#text/plain
-InvoiceDemo/web/naviox/js/typewatch.js -text svneol=unset#text/plain
 InvoiceDemo/web/naviox/mainNavigation.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/naviox/modulesList.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/naviox/modulesMenu.jsp -text svneol=unset#text/plain
@@ -1222,7 +1222,9 @@ InvoiceDemo/web/xava/editors/changeFile.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/changeImage.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/chartColumnNameEditor.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/chartDataEditor.jsp -text svneol=unset#text/plain
-InvoiceDemo/web/xava/editors/chartNameEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/chartTypeEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/chartXColumnEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/chartsEditor.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/chooseFile.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/ckeditor/.htaccess -text
 InvoiceDemo/web/xava/editors/ckeditor/config.js -text svneol=unset#text/plain
@@ -1482,9 +1484,11 @@ InvoiceDemo/web/xava/editors/notAvailableEditor.jsp -text svneol=unset#text/plai
 InvoiceDemo/web/xava/editors/passwordEditor.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/radioButtonEditor.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/referenceEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/selectColumns.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/style/c3.css -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/textAreaEditor.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/textEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/textWithSuffixEditor.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/treeViewEditor.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/treeViewListEditor.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/validValueEditorCommon.jsp -text svneol=unset#text/plain
@@ -1492,6 +1496,7 @@ InvoiceDemo/web/xava/editors/validValuesEditor.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/webURLEditor.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/errors.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/execute.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/fonts/materialdesignicons-webfont.woff -text
 InvoiceDemo/web/xava/frameActions.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/htmlTagsEditor.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/images/add.gif -text
@@ -1575,6 +1580,7 @@ InvoiceDemo/web/xava/js/jquery.js -text svneol=unset#text/plain
 InvoiceDemo/web/xava/js/jquery.sorttable.js -text svneol=unset#text/plain
 InvoiceDemo/web/xava/js/jquery.ui.touch-punch.js -text svneol=unset#text/plain
 InvoiceDemo/web/xava/js/openxava.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/js/typewatch.js -text svneol=unset#text/plain
 InvoiceDemo/web/xava/list.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/messages.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/module.jsp -text svneol=unset#text/plain
@@ -1804,6 +1810,7 @@ InvoiceDemo/web/xava/style/liferay51/images/portlet/restore.png -text
 InvoiceDemo/web/xava/style/liferay51/images/progress_bar/loading_animation.gif -text
 InvoiceDemo/web/xava/style/liferay51/js/barebone_unpacked.js -text svneol=unset#text/plain
 InvoiceDemo/web/xava/style/liferay51/js/theme_display.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/style/materialdesignicons.css -text svneol=unset#text/plain
 InvoiceDemo/web/xava/style/portal.css -text svneol=unset#text/plain
 InvoiceDemo/web/xava/style/skins.css -text svneol=unset#text/plain
 InvoiceDemo/web/xava/style/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png -text
@@ -4040,7 +4047,6 @@ MySchool/web/naviox/images/right.png -text
 MySchool/web/naviox/images/search.png -text
 MySchool/web/naviox/index.jsp -text svneol=unset#text/plain
 MySchool/web/naviox/js/naviox.js -text svneol=unset#text/plain
-MySchool/web/naviox/js/typewatch.js -text svneol=unset#text/plain
 MySchool/web/naviox/mainNavigation.jsp -text svneol=unset#text/plain
 MySchool/web/naviox/modulesList.jsp -text svneol=unset#text/plain
 MySchool/web/naviox/modulesMenu.jsp -text svneol=unset#text/plain
@@ -4146,7 +4152,6 @@ MySchool/web/xava/editors/calendar/skins/aqua/today-bg.gif -text
 MySchool/web/xava/editors/changeImage.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/chartColumnNameEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/chartDataEditor.jsp -text svneol=unset#text/plain
-MySchool/web/xava/editors/chartNameEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/chartTypeEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/chartXColumnEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/chartsEditor.jsp -text svneol=unset#text/plain
@@ -4505,6 +4510,7 @@ MySchool/web/xava/js/jquery.js -text svneol=unset#text/plain
 MySchool/web/xava/js/jquery.sorttable.js -text svneol=unset#text/plain
 MySchool/web/xava/js/jquery.ui.touch-punch.js -text svneol=unset#text/plain
 MySchool/web/xava/js/openxava.js -text svneol=unset#text/plain
+MySchool/web/xava/js/typewatch.js -text svneol=unset#text/plain
 MySchool/web/xava/list.jsp -text svneol=unset#text/plain
 MySchool/web/xava/messages.jsp -text svneol=unset#text/plain
 MySchool/web/xava/module.jsp -text svneol=unset#text/plain
