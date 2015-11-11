@@ -6634,6 +6634,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/OnChangeChartColumnSelectedAction.h
 OpenXavaDoc/web/apidocs/org/openxava/actions/OnChangeChartLabelColumnAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/OnChangeChartNameAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/OnChangeChartTypeAction.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/actions/OnChangeChartXColumnAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/OnChangeElementCollectionBaseAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/OnChangeMyReportColumnBaseAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/OnChangeMyReportColumnComparatorAction.html -text svneol=unset#text/plain
@@ -6676,6 +6677,8 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/SearchByViewKeyAction.html -text sv
 OpenXavaDoc/web/apidocs/org/openxava/actions/SearchDialogAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/SearchExecutingOnChangeAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/SearchReadOnlyAction.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/actions/SelectChartTypeAction.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/actions/SelectListFormatAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/SetCustomViewAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/SetDefaultSchemaAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/SetEditableAction.html -text svneol=unset#text/plain
@@ -6800,6 +6803,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/OnChangeChartColumnSelect
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/OnChangeChartLabelColumnAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/OnChangeChartNameAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/OnChangeChartTypeAction.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/OnChangeChartXColumnAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/OnChangeElementCollectionBaseAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/OnChangeMyReportColumnBaseAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/OnChangeMyReportColumnComparatorAction.html -text svneol=unset#text/plain
@@ -6842,6 +6846,8 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SearchByViewKeyAction.htm
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SearchDialogAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SearchExecutingOnChangeAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SearchReadOnlyAction.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SelectChartTypeAction.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SelectListFormatAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SetCustomViewAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SetDefaultSchemaAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/SetEditableAction.html -text svneol=unset#text/plain

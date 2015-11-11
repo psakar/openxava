@@ -1,6 +1,36 @@
 Change Log for OpenXava project
 ===============================
 
+OpenXava 5.4 (2015-10-9)
+--------------------------
+- New icons, now all standard OpenXava actions use Material Design Icons instead of gifs or pngs.
+- New icon property in action and subcontroller definitions to define an icon by name from Material Design Icons.
+- UI for charts simplified.
+- Charts no longer are shown in a dialog but flat in the list space.
+- Support for Image editor in @ElementCollection.
+- Added the library for auditing Hibernate Envers.
+- Add columns dialog has a search box to delimit the columns to add.
+- Add columns dialog is limited to 20 properties each time it's opened, with a link to load all.
+- "empty" and "not empty" filters for list and collections.
+- Split mode starts with the first object selected, unless you come from detail mode. 
+- New textWithSuffixEditor.jsp editor that allows put a suffix label after the field textbox.
+- CSS files in web/xava/editors/style are loaded automatically. 
+- New methods assertNoWarnings() and assertNoInfos() in ModuleTestBase.
+- New useIconsInsteadOfImages property in xava.properties to choose between new monochrome icons or old color images.
+- New resources.xml in WEB-INF for defining resource-ref elements. 
+- Automatically schema update for new projects.
+- Optimal Hibernate connection release mode for new projects.
+- start-manager-hsqldb.bat/.sh no longer need the JAVA_HOME environment variable.
+- Dropped support for Internet Explorer 9 and 10.
+- asm.jar, cglib.jar and ehcache.jar removed from distribution.
+- Servers view added in Java perspective in Eclipse initial layout.
+- Fix: Numbers left aligned in list and collections.
+- Fix: From time to time the user is not redirected to the correct current module.
+- Fix: CSS changes are not automatically refreshed on version upgrade.
+- Fix: Charts style missing inside portals.
+- Fix: Liferay navigation bar shown over dialogs.
+- Fix: setConditionComparators method did not set conditions for collections in ModuleTestBase.
+
 OpenXava 5.3.2 (2015-7-27)
 --------------------------
 - New RemoveSelectedInElementCollectionAction to refine @RemoveSelectedAction for @ElementCollection.
