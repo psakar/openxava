@@ -11,7 +11,7 @@ OpenXava 5.4 (2015-10-9)
 - Added the library for auditing Hibernate Envers.
 - Add columns dialog has a search box to delimit the columns to add.
 - Add columns dialog is limited to 20 properties each time it's opened, with a link to load all.
-- Is empty and is not empty filters for list and collections.
+- "empty" and "not empty" filters for list and collections.
 - Split mode starts with the first object selected, unless you come from detail mode. 
 - New textWithSuffixEditor.jsp editor that allows put a suffix label after the field textbox.
 - CSS files in web/xava/editors/style are loaded automatically. 
@@ -23,6 +23,7 @@ OpenXava 5.4 (2015-10-9)
 - start-manager-hsqldb.bat/.sh no longer need the JAVA_HOME environment variable.
 - Dropped support for Internet Explorer 9 and 10.
 - asm.jar, cglib.jar and ehcache.jar removed from distribution.
+- Servers view added in Java perspective in Eclipse initial layout.
 - Fix: Numbers left aligned in list and collections.
 - Fix: From time to time the user is not redirected to the correct current module.
 - Fix: CSS changes are not automatically refreshed on version upgrade.
