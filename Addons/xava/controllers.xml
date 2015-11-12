@@ -48,7 +48,7 @@
 	
 	<controller name="Role">
 		<extends controller="Typical"/>
-		<action name="addModulesRights" image="create_new.gif" hidden="true"
+		<action name="addModulesRights" icon="table-row-plus-after" hidden="true"
 			class="com.openxava.naviox.actions.GoAddModulesRightsToRoleAction"/>										
 	</controller>
 	
@@ -66,22 +66,22 @@
 			class="com.openxava.naviox.actions.SaveSubfolderAction"/>
 		<action name="moduleUp" hidden="true" 
 			class="com.openxava.naviox.actions.CallFolderMethodAction"
-			image="descending.gif">
+			icon="menu-up">
 			<set property="method" value="moduleUp"/>
 		</action>
 		<action name="moduleDown" hidden="true" 
 			class="com.openxava.naviox.actions.CallFolderMethodAction"
-			image="ascending.gif">
+			icon="menu-down">
 			<set property="method" value="moduleDown"/>
 		</action>
 		<action name="subfolderUp" hidden="true" 
 			class="com.openxava.naviox.actions.CallFolderMethodAction"
-			image="descending.gif">
+			icon="menu-up">
 			<set property="method" value="subfolderUp"/>
 		</action>
 		<action name="subfolderDown" hidden="true" 
 			class="com.openxava.naviox.actions.CallFolderMethodAction"
-			image="ascending.gif">
+			icon="menu-down">
 			<set property="method" value="subfolderDown"/>
 		</action>
 	</controller>
@@ -96,7 +96,7 @@
 	<controller name="NewOnlyInList">
 		<action  name="new" mode="list"
 			class="org.openxava.actions.NewAction"
-			image="new.gif"
+			icon="library-plus"
 			keystroke="Control N">
 			<set property="restoreModel" value="true"/>			
 		</action>
