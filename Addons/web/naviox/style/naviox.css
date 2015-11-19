@@ -359,7 +359,7 @@ input[type="text"], input[type="password"], input[type="file"] {
     height: 28px;
 }
 
-select {
+select:not([multiple]) { 
 	height: 30px;
 	padding: 5px;
 }
@@ -536,6 +536,8 @@ a.ox-selected-list-format, a.ox-selected-list-format:hover {
 .ox-total-row i {
 	font-size: 120%;
 	padding-bottom: 6px;
+	margin-right: -7px;  
+	vertical-align: middle;
 }
 
 input[type="button"], .ipad input[type="button"]:hover, A#show_modules {
@@ -703,6 +705,7 @@ input[type="button"]:active, A#show_modules.show-modules-selected {
 
 .ox-list-pair, .ox-list-odd {
 	border-bottom-color: #EBEBEB !important;
+	height: 35px; 
 }
 
 .ox-list-pair a, .ox-list-odd a {
@@ -712,7 +715,6 @@ input[type="button"]:active, A#show_modules.show-modules-selected {
 .ox-list-pair a nobr, .ox-list-odd a nobr {
 	vertical-align: middle; 
 	/* display: table-cell;  Don't use. It aligns numbers at left */ 
-	height: 35px;  
 }
 
 .ox-list-pair:hover, .ox-list-odd:hover {

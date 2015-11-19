@@ -1,6 +1,12 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Incorrect column height in list.
+- Fix: Summation bad aligned in list.
+- Fix: Incorrect column height in add columns dialog.
+- Fix: Editors of type select multiple have fixed height.
+- Fix: Spanish messages not uniform for tú/usted usage.
+
 OpenXava 5.4 (2015-10-9)
 --------------------------
 - New icons, now all standard OpenXava actions use Material Design Icons instead of gifs or pngs.
@@ -246,7 +252,7 @@ OpenXava 5.0.1 (2014-7-14)
 OpenXava 5.0 (2014-6-9)
 -----------------------
 - New look and feel.
-- Login/â€‹logout functionality.  	 
+- Login/logout functionality.  	 
 - Module navigation: Left searchable menu with all modules and top menu with recently used modules.   	 
 - Collections editable at cell mode, like a spreadsheet, available for @ElementCollection. 
 - All collection elements and the container entity are persisted at once, available for @ElementCollection.
