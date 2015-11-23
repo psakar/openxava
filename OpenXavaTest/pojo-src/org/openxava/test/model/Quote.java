@@ -4,11 +4,7 @@ import java.math.BigDecimal;
 import java.util.Collection;
 import java.util.Date;
 
-import javax.persistence.Column;
-import javax.persistence.ElementCollection;
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 
 import org.openxava.annotations.DefaultValueCalculator;
 import org.openxava.annotations.ListProperties;
@@ -52,7 +48,7 @@ public class Quote extends Identifiable {
 	@ElementCollection
 	@ListProperties("product.number, product.description, unitPrice, quantity, amount[quote.amountsSum, quote.taxes, quote.total]")
 	private Collection<QuoteDetail> details;	
-	
+		
 	public BigDecimal getAmountsSum() {
 		BigDecimal sum = new BigDecimal(0);
 		for (QuoteDetail detail: getDetails()) {

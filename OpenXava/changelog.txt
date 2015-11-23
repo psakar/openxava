@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Columns list over bottom button when there are many entries in add columns dialog inside Liferay.
+- Fix: Scrollbar disappear in adding columns dialog when clicking on "Show more...". 
 - Fix: Incorrect column height in list.
 - Fix: Summation bad aligned in list.
 - Fix: Incorrect column height in add columns dialog.

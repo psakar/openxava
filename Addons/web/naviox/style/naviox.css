@@ -264,18 +264,29 @@ A#show_modules:HOVER {
 	width: 60px;
 }
 
-#search_modules, #xava_search_columns {  
+#search_modules {  
 	margin: 3px; 
 	padding: 2px;
 }
+
 
 #search_modules INPUT { 
 	width: 280px; 
 }
 
+#xava_search_columns {  
+	margin-bottom: 5px; 
+}
+
 #xava_search_columns_text { 
-	width: calc(100% - 15px); 
+	width: calc(100% - 13px);
 	padding-left: 7px;
+}
+
+#xava_add_columns {
+	max-height: 70vh;
+	margin-bottom: 5px;	
+	overflow-y: auto;
 }
 
 #modules_list_header, #modules_list_search_header { 
