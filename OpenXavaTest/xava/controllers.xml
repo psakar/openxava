@@ -433,8 +433,7 @@
 		</action>
 		
 	</controller>
-	
-			
+				
 	<controller name="CustomerNewOnInit">
 		<action name="new" 
 			class="org.openxava.actions.NewAction"
@@ -449,7 +448,7 @@
 	<controller name="CustomerNewOnInitInherited">
 		<extends controller="CustomerNewOnInit"/>
 	</controller>
-		
+	
 	<controller name="ChangeModule">
 		<action name="goCustomer" class="org.openxava.actions.ChangeModuleAction">
 			<set property="nextModule" value="CustomerWithSection"/>
@@ -483,7 +482,10 @@
 			class="org.openxava.test.actions.ListCustomerInvoicesAction"/>
 		<action name="editDetail" hidden="true" 
 			image="edit.gif"
-			class="org.openxava.test.actions.EditInvoiceDetailAction"/>				
+			class="org.openxava.test.actions.EditInvoiceDetailAction"/>
+		<action name="editDetailWithSections" hidden="true" 
+			icon="pencil"
+			class="org.openxava.test.actions.EditInvoiceDetailWithSectionsAction"/>				
 		<action name="viewDelivery" hidden="true"
 			class="org.openxava.test.actions.ViewDeliveryFromInvoiceAction"/>
 				

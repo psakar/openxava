@@ -1,8 +1,7 @@
 package org.openxava.test.model;
 
 import java.math.BigDecimal;
-import java.util.Collection;
-import java.util.Date;
+import java.util.*;
 
 import javax.persistence.*;
 
@@ -48,7 +47,7 @@ public class Quote extends Identifiable {
 	@ElementCollection
 	@ListProperties("product.number, product.description, unitPrice, quantity, amount[quote.amountsSum, quote.taxes, quote.total]")
 	private Collection<QuoteDetail> details;	
-		
+	
 	public BigDecimal getAmountsSum() {
 		BigDecimal sum = new BigDecimal(0);
 		for (QuoteDetail detail: getDetails()) {

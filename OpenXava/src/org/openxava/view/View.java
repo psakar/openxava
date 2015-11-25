@@ -4375,7 +4375,7 @@ public class View implements java.io.Serializable {
 		return getMetaView().isFrame();
 	}
 	
-	public String getFocusPropertyId() { 		
+	public String getFocusPropertyId() {
 		try {			
 			if (!Is.emptyString(focusCurrentId)) {
 				return focusCurrentId;
@@ -4396,7 +4396,9 @@ public class View implements java.io.Serializable {
 	}
 	
 	private String calculateFocusPropertyId() throws XavaException { 
-		String prefix = Is.emptyString(getMemberName())?"":getMemberName() + ".";							
+		String prefix = getPropertyPrefix(); 
+		if (prefix == null) prefix = "";
+		
 		if (Is.emptyString(focusPropertyId)) {			
 			return getFirsEditablePropertyId(prefix);
 		}

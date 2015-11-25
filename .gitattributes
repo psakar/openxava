@@ -9955,6 +9955,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/ChooseFileAction.java -text svne
 OpenXavaTest/pojo-src/org/openxava/test/actions/CorporationEmployeeListFilterAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/CreateUsingJPAAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/EditGalleryNoDialogAction.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/EditInvoiceDetailWithSectionsAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/FailTransactionInCollectionElementAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/FamilyProductsReportAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/FilterInvoice4ByDateAction.groovy -text
@@ -10300,6 +10301,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/HunterTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/InventTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/Invoice4Test.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/InvoiceDetailTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/InvoiceDetailsWithSectionsTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/InvoiceTypicalNewOnInitTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/IssueChangeDBTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/JavaProgrammerExtendedViewsTest.java -text

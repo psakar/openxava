@@ -121,6 +121,11 @@ import org.openxava.util.*;
 		"details;" + 
 		"calculatedDetails"
 	),
+	@View(name="DetailsWithSections", members= 
+		"year, number, date, vatPercentage;" +
+		"customer;" +
+		"details;"  
+	),
 	@View(name="DetailsWithManyProperties", members= 
 		"year, number, date, vatPercentage;" +
 		"customer;" +
@@ -234,7 +239,10 @@ public class Invoice {
 		@ListProperties(forViews="DetailsWithTotals", value="deliveryDate [invoice.deliveryDate], product.description, product.unitPrice[invoice.productUnitPriceSum], quantity, amount[invoice.amountsSum, invoice.vat, invoice.total]"),
 		@ListProperties(forViews="DetailsWithManyProperties", value="serviceType, product.description, product.unitPriceInPesetas, quantity+, unitPrice+, amount, free, invoice.year+, invoice.number+, invoice.vatPercentage+, invoice.sellerDiscount") 
 	})
-	@EditAction(forViews="DEFAULT", value="Invoice.editDetail")
+	@EditActions({
+		@EditAction(forViews="DEFAULT", value="Invoice.editDetail"),
+		@EditAction(forViews="DetailsWithSections", value="Invoice.editDetailWithSections"),
+	})
 	@DetailAction(forViews="DEFAULT", value="Invoice.viewProduct")
 	@ReadOnly(forViews="OnlyReadDetails")
 	@EditOnly(forViews="OnlyEditDetails, DetailsWithTotals") 

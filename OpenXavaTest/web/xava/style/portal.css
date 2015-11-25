@@ -651,11 +651,9 @@ span.ox-subcontroller-select a{
 	outline: 0;
 }
 
-/* tmp ini */
 #xava_add_columns {
 	margin-bottom: 5px;	
 	padding: 1px;
 	max-height: 70vh;
 	overflow-y: auto;
 }
-/* tmp fin */

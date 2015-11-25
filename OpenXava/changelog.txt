@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Focus not on the first field when editing a collection item with all members inside section tabs. 
+- Fix: Scrolling in add columns dialog hides search text box.
 - Fix: Columns list over bottom button when there are many entries in add columns dialog inside Liferay.
 - Fix: Scrollbar disappear in adding columns dialog when clicking on "Show more...". 
 - Fix: Incorrect column height in list.

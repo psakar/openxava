@@ -187,7 +187,7 @@
 		<tab name="TwoSellersNumber"/>
 		<controller name="Typical"/>		
 	</module>
-		<module name="CustomerSomeMembersReadOnly" folder="invoicing.variations">			<model name="Customer"/>		<view name="SomeMembersReadOnly"/>		<controller name="Typical"/>			</module>
+		<module name="CustomerSomeMembersReadOnly" folder="invoicing.variations">			<model name="Customer"/>		<view name="SomeMembersReadOnly"/>		<controller name="Typical"/>	</module>
 	
 	<module name="CustomerRadioButton" folder="invoicing.variations">	
 		<model name="Customer"/>		
@@ -213,7 +213,7 @@
 	<module name="InvoiceNestedSections" folder="invoicing.variations">
 		<model name="Invoice"/>
 		<view name="NestedSections"/>		<controller name="InvoiceNestedSections"/>
-	</module>		<module name="InvoiceNestedSections2" folder="invoicing.variations">		<model name="Invoice"/>		<view name="NestedSections2"/>		<controller name="Typical"/>		</module>	
+	</module>	<module name="InvoiceDetailsWithSections" folder="invoicing.variations">		<model name="Invoice"/>				<view name="DetailsWithSections"/> 		<controller name="Typical"/>		</module>	<module name="InvoiceNestedSections2" folder="invoicing.variations">		<model name="Invoice"/>		<view name="NestedSections2"/>		<controller name="Typical"/>		</module>	
 	
 	<module name="InvoiceAmounts" folder="invoicing.variations">
 		<model name="Invoice"/>
