@@ -13,7 +13,7 @@ public class CarrierTest extends CarrierTestBase {
 		super(testName, "Carrier");		
 	}
 	
-	public void testConfirmActionWithApostrophe() throws Exception { // tmp ¿Fusionar?
+	public void testConfirmActionWithApostrophe() throws Exception { 
 		setLocale("it");
 		assertListRowCount(5);
 		execute("Mode.detailAndFirst");
