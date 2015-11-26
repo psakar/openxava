@@ -234,8 +234,7 @@ public class ModuleManager implements java.io.Serializable {
 			try {
 				Iterator it = getMetaControllers().iterator();
 				metaActionsOnInit = new ArrayList();
-				metaActionsOnInit.addAll(getMetaControllerMode()
-						.getMetaActionsOnInit());
+				metaActionsOnInit.addAll(getMetaControllerMode().getMetaActionsOnInit());
 				while (it.hasNext()) {
 					MetaController contr = (MetaController) it.next();
 					metaActionsOnInit.addAll(contr.getMetaActionsOnInit());

@@ -1024,8 +1024,14 @@
 	</controller>
 	
 	<controller name="ColorSub">
+	
+		<action name="init" icon="power"
+			on-init="true" on-each-request="true" 
+			before-each-request="true"  after-each-request="true"
+			class="org.openxava.test.actions.InitColorAction"/>			
+	
 		<action name="firstAction" image="report.gif"
-			class="org.openxava.test.actions.SeeDialogInColor">
+			class="org.openxava.test.actions.SeeDialogInColor"> 
 			<set value="1" property="actionNumber"/>
 		</action>
 		

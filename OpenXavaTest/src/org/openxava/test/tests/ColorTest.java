@@ -266,9 +266,15 @@ public class ColorTest extends ModuleTestBase {
 		assertValue("sample", "RED");
 	}		
 	
-	public void testMessageScapedWithQuotes() throws Exception{
+	public void testActionOnInitOnEachBeforeRequestInSubcontrollers_messageScapedWithQuotes() throws Exception{ 
+		assertMessagesCount(4);
+		assertMessage("Color initiated");
+
 		assertListNotEmpty();
 		execute("List.viewDetail", "row=0");
+		assertMessage("Color initiated");
+		assertMessagesCount(3);
+
 		execute("Color.seeMessage");
 		assertMessage("Message: A.B.C");
 	}

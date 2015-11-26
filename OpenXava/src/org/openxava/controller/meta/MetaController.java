@@ -127,7 +127,7 @@ public class MetaController extends MetaElement {
 	}
 	
 	/**
-	 * Fathers actions are included. <p> 
+	 * Actions from father and subcontrollers are included.  
 	 */
 	public Collection getMetaActionsOnInit() throws XavaException {
 		Collection result = new ArrayList();
@@ -147,6 +147,12 @@ public class MetaController extends MetaElement {
 				result.add(metaAction);
 			}
 		}
+
+		// Subcontrollers
+		for (MetaSubcontroller subcontroller: getMetaSubcontrollers()) {
+			result.addAll(subcontroller.getMetaController().getMetaActionsOnInit());
+		}
+		
 		return result;
 	}
 	public boolean hasParents() {
@@ -169,6 +175,9 @@ public class MetaController extends MetaElement {
 		return parents;
 	}
 	
+	/**
+	 * Actions from father and subcontrollers are included.  
+	 */
 	public Collection getMetaActionsOnEachRequest() throws XavaException {
 		Collection result = new ArrayList();
 
@@ -185,8 +194,17 @@ public class MetaController extends MetaElement {
 				result.add(metaAction);
 			}
 		}
+		
+		for (MetaSubcontroller subcontroller: getMetaSubcontrollers()) {
+			result.addAll(subcontroller.getMetaController().getMetaActionsOnEachRequest());
+		}
+
 		return result;
 	}
+	
+	/**
+	 * Actions from father and subcontrollers are included.  
+	 */
 	public Collection getMetaActionsAfterEachRequest() throws XavaException { 
 		Collection result = new ArrayList();
 
@@ -203,9 +221,17 @@ public class MetaController extends MetaElement {
 				result.add(metaAction);
 			}
 		}
+		
+		for (MetaSubcontroller subcontroller: getMetaSubcontrollers()) {
+			result.addAll(subcontroller.getMetaController().getMetaActionsAfterEachRequest());
+		}
+		
 		return result;
 	}
 	
+	/**
+	 * Actions from father and subcontrollers are included.  
+	 */
 	public Collection getMetaActionsBeforeEachRequest() throws XavaException { 
 		Collection result = new ArrayList();
 
@@ -222,6 +248,11 @@ public class MetaController extends MetaElement {
 				result.add(metaAction);
 			}
 		}
+		
+		for (MetaSubcontroller subcontroller: getMetaSubcontrollers()) {
+			result.addAll(subcontroller.getMetaController().getMetaActionsBeforeEachRequest());
+		}
+		
 		return result;
 	}	
 	

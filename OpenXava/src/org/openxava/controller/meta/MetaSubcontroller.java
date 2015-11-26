@@ -29,9 +29,15 @@ public class MetaSubcontroller {
 		return Is.emptyString(getMode()) || getMode().equals(mode);
 	}
 	
+	/**
+	 * @since 5.4.1
+	 */
+	public MetaController getMetaController() {  
+		return MetaControllers.getMetaController(getControllerName());
+	}
+	
 	public Collection<MetaAction> getMetaActions(){
-		MetaController mc = MetaControllers.getMetaController(getControllerName());
-		return mc.getMetaActions();
+		return getMetaController().getMetaActions(); 
 	}
 	
 	public String getImage() {
