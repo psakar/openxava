@@ -1031,20 +1031,20 @@
 			class="org.openxava.test.actions.InitColorAction"/>			
 	
 		<action name="firstAction" image="report.gif"
-			class="org.openxava.test.actions.SeeDialogInColor"> 
+			class="org.openxava.test.actions.SeeDialogInColorAction"> 
 			<set value="1" property="actionNumber"/>
 		</action>
 		
 		<action name="secondAction" 
-			class="org.openxava.test.actions.SeeDialogInColor">
+			class="org.openxava.test.actions.SeeDialogInColorAction">
 			<set value="2" property="actionNumber"/>
 		</action>
 		<action name="thirdAction" 
-			class="org.openxava.test.actions.SeeDialogInColor">
+			class="org.openxava.test.actions.SeeDialogInColorAction">
 			<set value="3" property="actionNumber"/>
 		</action>
 		<action name="fourAction" mode="detail" 
-			class="org.openxava.test.actions.SeeDialogInColor">
+			class="org.openxava.test.actions.SeeDialogInColorAction">
 			<set value="4" property="actionNumber"/>	
 		</action>
 	</controller>

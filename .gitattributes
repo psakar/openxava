@@ -10513,7 +10513,7 @@ OpenXavaTest/src/org/openxava/test/actions/SaveElementInCollectionFailingAction.
 OpenXavaTest/src/org/openxava/test/actions/SaveTaskAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SearchDeliveryAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SearchInvoiceFromDeliveryAction.java -text
-OpenXavaTest/src/org/openxava/test/actions/SeeDialogInColor.java -text svneol=unset#text/plain
+OpenXavaTest/src/org/openxava/test/actions/SeeDialogInColorAction.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/actions/SeeInitialOfProductNameInADialog.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/actions/SeeMessageAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/SeeMessageSelectedColorsAction.java -text svneol=unset#text/plain

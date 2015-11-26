@@ -99,8 +99,7 @@ abstract public class MetaElement implements java.io.Serializable {
 			if (has18nLabel()) result = getLabel(locale);
 			else result = Is.emptyString(description)?getLabel(locale):description;
 		}				
-		result = Strings.change(result, "'", "&apos;"); 
-		return result;
+		return Strings.change(result, "'", "&#145;");
 	}
 	
 	public String getDescription(ServletRequest request) {

@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Actions with confirm=true whose description contains apostrophes are not executed.
 - Fix: on-init, on-each-request, before-each-request and after-each-request do not work for actions inside subcontrollers.
 - Fix: Focus not on the first field when editing a collection item with all members inside section tabs. 
 - Fix: Scrolling in add columns dialog hides search text box.

@@ -6,7 +6,7 @@ import org.openxava.actions.*;
  * Create on 24/04/2013 (11:31:16)
  * @author Ana Andres
  */
-public class SeeDialogInColor extends ViewBaseAction{
+public class SeeDialogInColorAction extends ViewBaseAction{ 
 	private int actionNumber;
 	
 	public void execute() throws Exception {

@@ -3,8 +3,6 @@ package org.openxava.test.tests;
 import org.openxava.model.meta.*;
 import org.openxava.test.model.*;
 
-import com.gargoylesoftware.htmlunit.html.*;
-
 /**
  * @author Javier Paniza
  */
@@ -13,7 +11,16 @@ public class CarrierTest extends CarrierTestBase {
 	
 	public CarrierTest(String testName) {
 		super(testName, "Carrier");		
-	}	
+	}
+	
+	public void testConfirmActionWithApostrophe() throws Exception { // tmp ¿Fusionar?
+		setLocale("it");
+		assertListRowCount(5);
+		execute("Mode.detailAndFirst");
+		execute("CRUD.delete");
+		execute("Mode.list");
+		assertListRowCount(4);
+	}
 	
 	public void testRowActions() throws Exception {
 		execute("List.orderBy", "property=number"); 		
