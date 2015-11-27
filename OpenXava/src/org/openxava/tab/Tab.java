@@ -161,7 +161,13 @@ public class Tab implements java.io.Serializable {
 	private List getRemainingPropertiesNames() throws XavaException {
 		if (isColumnsToAddUntilSecondLevel()) {
 			List result = getMetaTab().getRemainingPropertiesNamesUntilSecondLevel();
-			columnsToAddUntilSecondLevel = getMetaTab().getRemainingPropertiesNames().size() != result.size();
+			if (result.isEmpty()) {
+				result = getMetaTab().getRemainingPropertiesNames();
+				columnsToAddUntilSecondLevel = false;
+			}
+			else {
+				columnsToAddUntilSecondLevel = getMetaTab().getRemainingPropertiesNames().size() != result.size();
+			} 
 			return result;
 		}
 		else {

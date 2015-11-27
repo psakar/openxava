@@ -10254,6 +10254,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/ApplicantTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ApplicationUserTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/AppointmentTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/ArtistTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/AsEmbed1Test.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/AsEmbedContainerTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/AuthorTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/BlogTest.java -text
