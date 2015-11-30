@@ -99,7 +99,6 @@ public class Charts {
 			if (property != null) {
 				column.setChart(chart);
 				column.setName(chart.getxColumn());				
-				column.setLabel(property.getQualifiedLabel(Locales.getCurrent()));
 				addColumn(chartTab, comparators, values, order, column);
 			}
 		}

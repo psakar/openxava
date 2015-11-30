@@ -1903,7 +1903,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		String svat = nf.format(vat);
 		assertValue("vat", svat);
 	}		
-		
+	
 	public void testCharts() throws Exception {
 		assertListNotEmpty();
 		execute("Invoice.testChartTab");

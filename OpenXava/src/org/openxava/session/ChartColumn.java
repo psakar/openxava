@@ -8,6 +8,7 @@ import javax.persistence.*;
 import org.apache.commons.logging.*;
 import org.openxava.actions.*;
 import org.openxava.annotations.*;
+import org.openxava.util.*;
 
 /**
  * @author Federico Alcantara
@@ -22,7 +23,6 @@ public class ChartColumn implements Serializable {
 	
 	private final static String COLUMN = "column";
 	private final static String NAME = "name";	
-	private final static String LABEL = "label";
 	private final static String NUMBER = "number";
 	
 	@Hidden
@@ -32,9 +32,6 @@ public class ChartColumn implements Serializable {
 	@Required
 	private String name;
 		
-	@Required @Column(length=60) 
-	private String label; 
-	
 	@Hidden
 	private boolean number;
 	
@@ -56,7 +53,6 @@ public class ChartColumn implements Serializable {
 
 	public void save(Preferences preferences, int index) { 		
 		preferences.put(COLUMN + index + "." + NAME, name);			
-		preferences.put(COLUMN + index + "." + LABEL, label);
 		preferences.put(COLUMN + index + "." + NUMBER, Boolean.toString(number));
 	}
 
@@ -64,7 +60,6 @@ public class ChartColumn implements Serializable {
 		String name = preferences.get(COLUMN + index + "." + NAME, null);
 		if (name == null) return false;
 		this.name = name;		
-		this.label = preferences.get(COLUMN + index + "." + LABEL, name);
 		String number = preferences.get(COLUMN + index + "." + NUMBER, null);
 		this.number = number == null?false:Boolean.valueOf(number);
 		return true;
@@ -74,17 +69,12 @@ public class ChartColumn implements Serializable {
 		String name = preferences.get(COLUMN + index + "." + NAME, null);
 		if (name == null) return false;
 		preferences.remove(COLUMN + index + "." + NAME);
-		preferences.remove(COLUMN + index + "." + LABEL);
 		preferences.remove(COLUMN + index + "." + NUMBER);
 		return true;
 	}
 	
 	public String getLabel() { 
-		return label;
-	}
-
-	public void setLabel(String label) {
-		this.label = label;
+		return Labels.get(name); 
 	}
 
 	public boolean isNumber() {

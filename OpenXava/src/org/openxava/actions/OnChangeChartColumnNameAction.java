@@ -36,7 +36,6 @@ public class OnChangeChartColumnNameAction extends OnChangeChartColumnBaseAction
 				getChart().getColumns().add(column);
 			}
 			column.setName(propertyName);
-			column.setLabel(Labels.get(propertyName));
 		}
 	}
 	

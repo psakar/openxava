@@ -144,7 +144,6 @@ public class Chart implements Serializable {
 			ChartColumn column = new ChartColumn();
 			column.setChart(this);			
 			column.setName(property.getQualifiedName());
-			column.setLabel(property.getQualifiedLabel(Locales.getCurrent()));
 			column.setNumber(property.isNumber());
 			
 			try {
