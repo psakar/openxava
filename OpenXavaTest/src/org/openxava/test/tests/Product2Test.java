@@ -207,7 +207,7 @@ public class Product2Test extends ModuleTestBase {
 		assertNoErrors();
 		assertNoMessages();
 		assertNoAction("Gallery.addImage");
-		assertAction("Gallery.maximizeImage");
+		assertAction("Gallery.maximizeImage"); 
 		assertNoAction("Gallery.minimizeImage");
 		assertNoAction("Gallery.removeImage");
 		assertEquals("Images count does not match", 1, getForm().getInputsByName("xava.GALLERY.images").size());

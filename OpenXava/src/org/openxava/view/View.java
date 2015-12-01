@@ -4508,8 +4508,10 @@ public class View implements java.io.Serializable {
     /**
      * Sets the focus in the provided property
      */
-    public void setFocus(String newFocusProperty) {    	
+    public void setFocus(String newFocusProperty) {  
         focusPropertyId = newFocusProperty; 
+        focusCurrentId = null; 
+        focusForward = false; 
     }
 
 	public String getEditCollectionElementAction() { 
