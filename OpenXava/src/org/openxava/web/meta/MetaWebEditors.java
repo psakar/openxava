@@ -2,6 +2,7 @@ package org.openxava.web.meta;
 
 import java.util.*;
 
+import org.apache.commons.beanutils.*;
 import org.apache.commons.collections.*;
 import org.openxava.model.meta.*;
 import org.openxava.tab.meta.*;
@@ -309,7 +310,14 @@ public class MetaWebEditors {
 		if (editorsForTabs == null) {
 			throw new XavaException("only_from_parse", "MetaWebEditors.addMetaEditorForTabs");
 		}
-		editorsForTabs.add(editor);
+		if (Is.emptyString(editor.getName())) editorsForTabs.add(editor);
+		else {
+			BeanPropertyValueEqualsPredicate predicate =
+				new BeanPropertyValueEqualsPredicate("name", editor.getName());
+			if (!CollectionUtils.exists(editorsForTabs, predicate)) {
+				editorsForTabs.add(editor);
+			}
+		}
 	}
 		
 }

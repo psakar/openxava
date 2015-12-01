@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Duplicated format list buttons in Linux/Mac running Tomcat from Eclipse.
 - Fix: Legend in charts is not translated.
 - Fix: Add columns to list can be empty and with "Show more..." in some circumstances.
 - Fix: Actions with confirm=true whose description contains apostrophes are not executed.
