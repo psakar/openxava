@@ -23,6 +23,9 @@ elementCollectionEditor.onChangeRow = function(element, rowIndex) {
 	token1 = new RegExp(", " + (rowIndex + 1) + "\\)", "g");
 	token2 = ", " + (rowIndex + 2) + ")";
 	newRowHtml = newRowHtml.replace(token1, token2);
+	token1 = new RegExp(", this, " + (rowIndex + 1) + ", ", "g");
+	token2 = ", this, " + (rowIndex + 2) + ", ";
+	newRowHtml = newRowHtml.replace(token1, token2);
 	newRow.html(newRowHtml);
 	var table = currentRow.parent().parent();	
 	elementCollectionEditor.setDefaultValues(table, rowIndex); 

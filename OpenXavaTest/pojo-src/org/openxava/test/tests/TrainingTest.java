@@ -236,7 +236,25 @@ public class TrainingTest extends ModuleTestBase {
 		assertValueInCollection("sessions", 0, "kms", "15");		
 						
 		execute("CRUD.delete");
-		assertNoErrors();		
+		assertNoErrors();
+		
+		execute("CRUD.new");		
+		setValue("description", "JUNIT TRAINING");
+		setValueInCollection("sessions", 0, "description", "ONE");
+		setValueInCollection("sessions", 0, "kms", "11");
+		setValueInCollection("sessions", 1, "description", "TWO");
+		setValueInCollection("sessions", 1, "kms", "12");		
+		setValueInCollection("sessions", 2, "description", "THREE"); 
+		setValueInCollection("sessions", 2, "kms", "13");
+		removeSessionsRow(2);
+		execute("CRUD.save");
+
+		execute("Mode.list");
+		execute("Mode.detailAndFirst");
+		assertCollectionRowCount("sessions", 2); 
+						
+		execute("CRUD.delete");
+		assertNoErrors();
 	}
 	
 	private void removeSessionsRow(int rowIndex) throws Exception { 

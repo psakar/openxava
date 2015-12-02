@@ -46,8 +46,8 @@ public class Quote extends Identifiable {
 	@javax.validation.constraints.Size(min=1, max=3)  
 	@ElementCollection
 	@ListProperties("product.number, product.description, unitPrice, quantity, amount[quote.amountsSum, quote.taxes, quote.total]")
-	private Collection<QuoteDetail> details;	
-	
+	private Collection<QuoteDetail> details;
+		
 	public BigDecimal getAmountsSum() {
 		BigDecimal sum = new BigDecimal(0);
 		for (QuoteDetail detail: getDetails()) {

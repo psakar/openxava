@@ -1039,14 +1039,17 @@
 			class="org.openxava.test.actions.SeeDialogInColorAction">
 			<set value="2" property="actionNumber"/>
 		</action>
+		
 		<action name="thirdAction" 
 			class="org.openxava.test.actions.SeeDialogInColorAction">
 			<set value="3" property="actionNumber"/>
 		</action>
+		
 		<action name="fourAction" mode="detail" 
 			class="org.openxava.test.actions.SeeDialogInColorAction">
 			<set value="4" property="actionNumber"/>	
 		</action>
+		
 	</controller>
 	
 	<controller name="ColorinColorado">  		

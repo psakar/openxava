@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: When creating a new entity with an element collection if we remove a row before saving only saves the first row.
 - Fix: View.setFocus() does not work from @OnChange actions.
 - Fix: Duplicated format list buttons in Linux/Mac running Tomcat from Eclipse.
 - Fix: Legend in charts is not translated.
