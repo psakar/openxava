@@ -243,6 +243,13 @@ public class QuoteTest extends ModuleTestBase {
 		assertTotalInCollection("details", 0, "amount", "122.00");
 		assertTotalInCollection("details", 1, "amount",  "25.62");
 		assertTotalInCollection("details", 2, "amount", "147.62");
+		
+		setValueInCollection("details", 2, "product.number", "1");
+		assertValueInCollection("details", 2, "product.description", "MULTAS DE TRAFICO");
+		assertNoErrors();
+		setValueInCollection("details", 3, "product.number", "2");
+		assertValueInCollection("details", 3, "product.description", "IBM ESERVER ISERIES 270");
+		assertNoErrors();
 	}
 					
 }
