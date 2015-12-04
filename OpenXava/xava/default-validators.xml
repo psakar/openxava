@@ -75,6 +75,11 @@
 	</default-validator>
 	
 	<default-validator>
+		<validator-class class="org.openxava.validators.EmailListValidator"/>
+		<for-stereotype stereotype="EMAIL_LIST"/>		
+	</default-validator>
+	
+	<default-validator>
 		<validator-class class="org.openxava.validators.PhoneNumberValidator"/>
 		<for-stereotype stereotype="TELEPHONE"/>
 		<for-stereotype stereotype="TELEFONO"/>

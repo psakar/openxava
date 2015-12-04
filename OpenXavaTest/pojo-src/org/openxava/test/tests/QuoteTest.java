@@ -216,7 +216,7 @@ public class QuoteTest extends ModuleTestBase {
 		assertTotalInCollection("details", 2, "amount", "88.33");		
 	}
 	
-	public void testElementCollectionGetEntity_removingRowUpdatesTotals() throws Exception {  
+	public void testElementCollectionGetEntity_removingRowUpdatesTotals_addingSeveralRowsAfterRemoving() throws Exception {  
 		execute("Mode.detailAndFirst");
 		assertValue("year", "2014"); // This one ...
 		assertValue("number", "1");  // ... has 3 details

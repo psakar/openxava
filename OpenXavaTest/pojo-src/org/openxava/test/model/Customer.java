@@ -106,7 +106,7 @@ import org.openxava.test.actions.*;
 		"	type;" + 
 		"	name, Customer.changeNameLabel();" +
 		"	photo;" +
-		"	telephone, email;" +
+		"	telephone, email, additionalEmails;" + 
 		"	website;" +		
 		"	address;" + 
 		"	city;" +
@@ -208,6 +208,9 @@ public class Customer implements IWithName {
 	
 	@Stereotype("EMAIL") @DisplaySize(30)
 	private String email;
+	
+	@Stereotype("EMAIL_LIST") @DisplaySize(50)  
+	private String additionalEmails;
 	
 	@Stereotype("WEBURL") @Column(length=100)  
 	private String website;
@@ -415,6 +418,14 @@ public class Customer implements IWithName {
 
 	public void setWebsite(String website) {
 		this.website = website;
+	}
+
+	public String getAdditionalEmails() {
+		return additionalEmails;
+	}
+
+	public void setAdditionalEmails(String additionalEmails) {
+		this.additionalEmails = additionalEmails;
 	}
 			
 }

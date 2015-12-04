@@ -112,6 +112,7 @@
 	
 	<editor name="Email" url="textEditor.jsp">
         <for-stereotype stereotype="EMAIL"/>
+        <for-stereotype stereotype="EMAIL_LIST"/>
     </editor>
     
     <editor name="WebURL" url="webURLEditor.jsp">

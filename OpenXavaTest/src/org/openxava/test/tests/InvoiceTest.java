@@ -251,6 +251,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 			{ "customer.photo", "Photo of Customer" },	
 			{ "customer.telephone", "Telephone of Customer" },
 			{ "customer.email", "eMail of Customer" },
+			{ "customer.additionalEmails", "Additional emails of Customer" }, 
 			{ "customer.website", "Web site of Customer" },
 			{ "customer.remarks", "Remarks of Customer" },
 			{ "customer.relationWithSeller", "Relation with seller of Customer" },
@@ -270,7 +271,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 			{ "considerable", "Considerable" },
 			{ "__MORE__", "[SHOW MORE...]"}
 		};		
-		assertValidValues("name", defaultColumnNames);
+		assertValidValues("name", defaultColumnNames); 
 				
 		setValue("name", "__MORE__");
 		
@@ -288,6 +289,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 			{ "customer.photo", "Photo of Customer" },	
 			{ "customer.telephone", "Telephone of Customer" },
 			{ "customer.email", "eMail of Customer" },
+			{ "customer.additionalEmails", "Additional emails of Customer" }, 
 			{ "customer.website", "Web site of Customer" },
 			{ "customer.remarks", "Remarks of Customer" },
 			{ "customer.address.street", "Street of Address of Customer" },
@@ -741,68 +743,69 @@ public class InvoiceTest extends CustomizeListTestBase {
 		
 		execute("List.addColumns");
 		assertCollectionRowCount("xavaPropertiesList", 20); // The limit is 20
-		assertValueInCollection("xavaPropertiesList",  0, 0, "City of Customer");
-		assertValueInCollection("xavaPropertiesList",  1, 0, "Comment");
-		assertValueInCollection("xavaPropertiesList",  2, 0, "Considerable");		
-		assertValueInCollection("xavaPropertiesList",  3, 0, "Customer discount");
-		assertValueInCollection("xavaPropertiesList",  4, 0, "Customer type discount");
-		assertValueInCollection("xavaPropertiesList",  5, 0, "Delivery date");
-		assertValueInCollection("xavaPropertiesList",  6, 0, "eMail of Customer");
-		assertValueInCollection("xavaPropertiesList",  7, 0, "Lokal of Customer");
-		assertValueInCollection("xavaPropertiesList",  8, 0, "Name of Customer");
-		assertValueInCollection("xavaPropertiesList",  9, 0, "Number of Customer");
-		assertValueInCollection("xavaPropertiesList", 10, 0, "Photo of Customer");
-		assertValueInCollection("xavaPropertiesList", 11, 0, "Product unit price sum");
-		assertValueInCollection("xavaPropertiesList", 12, 0, "Relation with seller of Customer");
-		assertValueInCollection("xavaPropertiesList", 13, 0, "Remarks of Customer");
-		assertValueInCollection("xavaPropertiesList", 14, 0, "Seller discount");
-		assertValueInCollection("xavaPropertiesList", 15, 0, "Telephone of Customer");
-		assertValueInCollection("xavaPropertiesList", 16, 0, "Total");
-		assertValueInCollection("xavaPropertiesList", 17, 0, "Type of Customer");
-		assertValueInCollection("xavaPropertiesList", 18, 0, "VAT %");
-		assertValueInCollection("xavaPropertiesList", 19, 0, "Web site of Customer");
+		assertValueInCollection("xavaPropertiesList",  0, 0, "Additional emails of Customer");
+		assertValueInCollection("xavaPropertiesList",  1, 0, "City of Customer"); 
+		assertValueInCollection("xavaPropertiesList",  2, 0, "Comment");
+		assertValueInCollection("xavaPropertiesList",  3, 0, "Considerable");		
+		assertValueInCollection("xavaPropertiesList",  4, 0, "Customer discount");
+		assertValueInCollection("xavaPropertiesList",  5, 0, "Customer type discount");
+		assertValueInCollection("xavaPropertiesList",  6, 0, "Delivery date");
+		assertValueInCollection("xavaPropertiesList",  7, 0, "eMail of Customer");
+		assertValueInCollection("xavaPropertiesList",  8, 0, "Lokal of Customer");
+		assertValueInCollection("xavaPropertiesList",  9, 0, "Name of Customer");
+		assertValueInCollection("xavaPropertiesList", 10, 0, "Number of Customer");
+		assertValueInCollection("xavaPropertiesList", 11, 0, "Photo of Customer");
+		assertValueInCollection("xavaPropertiesList", 12, 0, "Product unit price sum");
+		assertValueInCollection("xavaPropertiesList", 13, 0, "Relation with seller of Customer");
+		assertValueInCollection("xavaPropertiesList", 14, 0, "Remarks of Customer");
+		assertValueInCollection("xavaPropertiesList", 15, 0, "Seller discount");
+		assertValueInCollection("xavaPropertiesList", 16, 0, "Telephone of Customer");
+		assertValueInCollection("xavaPropertiesList", 17, 0, "Total");
+		assertValueInCollection("xavaPropertiesList", 18, 0, "Type of Customer");
+		assertValueInCollection("xavaPropertiesList", 19, 0, "VAT %");
 		
 		execute("AddColumns.showMoreColumns");		
-		assertCollectionRowCount("xavaPropertiesList", 39);
-		assertValueInCollection("xavaPropertiesList",  0, 0, "As string of Address of Customer");
-		assertValueInCollection("xavaPropertiesList",  1, 0, "City of Address of Customer");
-		assertValueInCollection("xavaPropertiesList",  2, 0, "City of Customer");
-		assertValueInCollection("xavaPropertiesList",  3, 0, "Comment");
-		assertValueInCollection("xavaPropertiesList",  4, 0, "Considerable");
-		assertValueInCollection("xavaPropertiesList",  5, 0, "Customer discount");
-		assertValueInCollection("xavaPropertiesList",  6, 0, "Customer type discount");
-		assertValueInCollection("xavaPropertiesList",  7, 0, "Delivery date");
-		assertValueInCollection("xavaPropertiesList",  8, 0, "Description of Level of Alternate seller of Customer");
-		assertValueInCollection("xavaPropertiesList",  9, 0, "Description of Level of Seller of Customer");
-		assertValueInCollection("xavaPropertiesList", 10, 0, "eMail of Customer");
-		assertValueInCollection("xavaPropertiesList", 11, 0, "Full name of State of Address of Customer");
-		assertValueInCollection("xavaPropertiesList", 12, 0, "Full name with formula of State of Address of Customer");
-		assertValueInCollection("xavaPropertiesList", 13, 0, "Id of Level of Alternate seller of Customer");
-		assertValueInCollection("xavaPropertiesList", 14, 0, "Id of Level of Seller of Customer");
-		assertValueInCollection("xavaPropertiesList", 15, 0, "Id of State of Address of Customer");
-		assertValueInCollection("xavaPropertiesList", 16, 0, "Lokal of Customer");
-		assertValueInCollection("xavaPropertiesList", 17, 0, "Name of Alternate seller of Customer");
-		assertValueInCollection("xavaPropertiesList", 18, 0, "Name of Customer");
-		assertValueInCollection("xavaPropertiesList", 19, 0, "Name of Seller of Customer");
-		assertValueInCollection("xavaPropertiesList", 20, 0, "Number of Alternate seller of Customer");
-		assertValueInCollection("xavaPropertiesList", 21, 0, "Number of Customer");
-		assertValueInCollection("xavaPropertiesList", 22, 0, "Number of Seller of Customer");
-		assertValueInCollection("xavaPropertiesList", 23, 0, "Photo of Customer");
-		assertValueInCollection("xavaPropertiesList", 24, 0, "Product unit price sum");
-		assertValueInCollection("xavaPropertiesList", 25, 0, "Regions of Alternate seller of Customer"); 
-		assertValueInCollection("xavaPropertiesList", 26, 0, "Regions of Seller of Customer");
-		assertValueInCollection("xavaPropertiesList", 27, 0, "Relation with seller of Customer");
-		assertValueInCollection("xavaPropertiesList", 28, 0, "Remarks of Customer");
-		assertValueInCollection("xavaPropertiesList", 29, 0, "Seller discount");
-		assertValueInCollection("xavaPropertiesList", 30, 0, "State of Address of Customer");
-		assertValueInCollection("xavaPropertiesList", 31, 0, "Street of Address of Customer");
-		assertValueInCollection("xavaPropertiesList", 32, 0, "Telephone of Customer");
-		assertValueInCollection("xavaPropertiesList", 33, 0, "Total");
-		assertValueInCollection("xavaPropertiesList", 34, 0, "Type of Customer");
-		assertValueInCollection("xavaPropertiesList", 35, 0, "VAT %");
-		assertValueInCollection("xavaPropertiesList", 36, 0, "Web site of Customer");
-		assertValueInCollection("xavaPropertiesList", 37, 0, "Year discount");
-		assertValueInCollection("xavaPropertiesList", 38, 0, "Zip code of Address of Customer");
+		assertCollectionRowCount("xavaPropertiesList", 40);
+		assertValueInCollection("xavaPropertiesList",  0, 0, "Additional emails of Customer");
+		assertValueInCollection("xavaPropertiesList",  1, 0, "As string of Address of Customer");
+		assertValueInCollection("xavaPropertiesList",  2, 0, "City of Address of Customer");
+		assertValueInCollection("xavaPropertiesList",  3, 0, "City of Customer");
+		assertValueInCollection("xavaPropertiesList",  4, 0, "Comment");
+		assertValueInCollection("xavaPropertiesList",  5, 0, "Considerable");
+		assertValueInCollection("xavaPropertiesList",  6, 0, "Customer discount");
+		assertValueInCollection("xavaPropertiesList",  7, 0, "Customer type discount");
+		assertValueInCollection("xavaPropertiesList",  8, 0, "Delivery date");
+		assertValueInCollection("xavaPropertiesList",  9, 0, "Description of Level of Alternate seller of Customer");
+		assertValueInCollection("xavaPropertiesList", 10, 0, "Description of Level of Seller of Customer");
+		assertValueInCollection("xavaPropertiesList", 11, 0, "eMail of Customer");
+		assertValueInCollection("xavaPropertiesList", 12, 0, "Full name of State of Address of Customer");
+		assertValueInCollection("xavaPropertiesList", 13, 0, "Full name with formula of State of Address of Customer");
+		assertValueInCollection("xavaPropertiesList", 14, 0, "Id of Level of Alternate seller of Customer");
+		assertValueInCollection("xavaPropertiesList", 15, 0, "Id of Level of Seller of Customer");
+		assertValueInCollection("xavaPropertiesList", 16, 0, "Id of State of Address of Customer");
+		assertValueInCollection("xavaPropertiesList", 17, 0, "Lokal of Customer");
+		assertValueInCollection("xavaPropertiesList", 18, 0, "Name of Alternate seller of Customer");
+		assertValueInCollection("xavaPropertiesList", 19, 0, "Name of Customer");
+		assertValueInCollection("xavaPropertiesList", 20, 0, "Name of Seller of Customer");
+		assertValueInCollection("xavaPropertiesList", 21, 0, "Number of Alternate seller of Customer");
+		assertValueInCollection("xavaPropertiesList", 22, 0, "Number of Customer");
+		assertValueInCollection("xavaPropertiesList", 23, 0, "Number of Seller of Customer");
+		assertValueInCollection("xavaPropertiesList", 24, 0, "Photo of Customer");
+		assertValueInCollection("xavaPropertiesList", 25, 0, "Product unit price sum");
+		assertValueInCollection("xavaPropertiesList", 26, 0, "Regions of Alternate seller of Customer"); 
+		assertValueInCollection("xavaPropertiesList", 27, 0, "Regions of Seller of Customer");
+		assertValueInCollection("xavaPropertiesList", 28, 0, "Relation with seller of Customer");
+		assertValueInCollection("xavaPropertiesList", 29, 0, "Remarks of Customer");
+		assertValueInCollection("xavaPropertiesList", 30, 0, "Seller discount");
+		assertValueInCollection("xavaPropertiesList", 31, 0, "State of Address of Customer");
+		assertValueInCollection("xavaPropertiesList", 32, 0, "Street of Address of Customer");
+		assertValueInCollection("xavaPropertiesList", 33, 0, "Telephone of Customer");
+		assertValueInCollection("xavaPropertiesList", 34, 0, "Total");
+		assertValueInCollection("xavaPropertiesList", 35, 0, "Type of Customer");
+		assertValueInCollection("xavaPropertiesList", 36, 0, "VAT %");
+		assertValueInCollection("xavaPropertiesList", 37, 0, "Web site of Customer");
+		assertValueInCollection("xavaPropertiesList", 38, 0, "Year discount");
+		assertValueInCollection("xavaPropertiesList", 39, 0, "Zip code of Address of Customer");		
 		
 		assertNoAction("AddColumns.showMoreColumns");
 		
@@ -831,8 +834,8 @@ public class InvoiceTest extends CustomizeListTestBase {
 	public void testCustomizeListSearchColumns() throws Exception { 
 		execute("List.addColumns");
 		assertCollectionRowCount("xavaPropertiesList", 20); 		
-		assertValueInCollection("xavaPropertiesList",  0, 0, "City of Customer");
-		assertValueInCollection("xavaPropertiesList", 19, 0, "Web site of Customer");
+		assertValueInCollection("xavaPropertiesList",  0, 0, "Additional emails of Customer");  
+		assertValueInCollection("xavaPropertiesList", 19, 0, "VAT %"); 
 		assertAction("AddColumns.showMoreColumns");
 
 		HtmlElement searchBox = getHtmlPage().getHtmlElementById("xava_search_columns_text");
@@ -850,12 +853,12 @@ public class InvoiceTest extends CustomizeListTestBase {
 		assertEquals("", searchBox.getAttribute("value"));
 		getWebClient().waitForBackgroundJavaScriptStartingBefore(10000);
 		assertCollectionRowCount("xavaPropertiesList", 20); 		
-		assertValueInCollection("xavaPropertiesList",  0, 0, "City of Customer");
-		assertValueInCollection("xavaPropertiesList", 19, 0, "Web site of Customer");
+		assertValueInCollection("xavaPropertiesList",  0, 0, "Additional emails of Customer"); 
+		assertValueInCollection("xavaPropertiesList", 19, 0, "VAT %"); 
 		assertAction("AddColumns.showMoreColumns");
 		
 		execute("AddColumns.showMoreColumns");		
-		assertCollectionRowCount("xavaPropertiesList", 39);
+		assertCollectionRowCount("xavaPropertiesList", 40); 
 		searchBox = getHtmlPage().getHtmlElementById("xava_search_columns_text");
 		searchBox.type("DISCOUNT");
 		assertEquals("DISCOUNT", searchBox.getAttribute("value"));		
@@ -939,27 +942,27 @@ public class InvoiceTest extends CustomizeListTestBase {
 		
 		execute("List.addColumns");
 		
-		assertCollectionRowCount("xavaPropertiesList", 20); // There are 21, but it only loads the first 20.
-		assertValueInCollection("xavaPropertiesList",  0, 0, "City of Customer");
-		assertValueInCollection("xavaPropertiesList",  1, 0, "Comment");
-		assertValueInCollection("xavaPropertiesList",  2, 0, "Considerable");		
-		assertValueInCollection("xavaPropertiesList",  3, 0, "Customer discount");
-		assertValueInCollection("xavaPropertiesList",  4, 0, "Customer type discount");
-		assertValueInCollection("xavaPropertiesList",  5, 0, "Delivery date");
-		assertValueInCollection("xavaPropertiesList",  6, 0, "eMail of Customer");
-		assertValueInCollection("xavaPropertiesList",  7, 0, "Lokal of Customer");
-		assertValueInCollection("xavaPropertiesList",  8, 0, "Name of Customer");
-		assertValueInCollection("xavaPropertiesList",  9, 0, "Number of Customer");
-		assertValueInCollection("xavaPropertiesList", 10, 0, "Photo of Customer");
-		assertValueInCollection("xavaPropertiesList", 11, 0, "Product unit price sum");
-		assertValueInCollection("xavaPropertiesList", 12, 0, "Relation with seller of Customer");
-		assertValueInCollection("xavaPropertiesList", 13, 0, "Remarks of Customer");
-		assertValueInCollection("xavaPropertiesList", 14, 0, "Seller discount");
-		assertValueInCollection("xavaPropertiesList", 15, 0, "Telephone of Customer");
-		assertValueInCollection("xavaPropertiesList", 16, 0, "Total");
-		assertValueInCollection("xavaPropertiesList", 17, 0, "Type of Customer");
-		assertValueInCollection("xavaPropertiesList", 18, 0, "VAT %");
-		assertValueInCollection("xavaPropertiesList", 19, 0, "Web site of Customer");
+		assertCollectionRowCount("xavaPropertiesList", 20); // There are 22, but it only loads the first 20.		
+		assertValueInCollection("xavaPropertiesList",  0, 0, "Additional emails of Customer");
+		assertValueInCollection("xavaPropertiesList",  1, 0, "City of Customer");
+		assertValueInCollection("xavaPropertiesList",  2, 0, "Comment");
+		assertValueInCollection("xavaPropertiesList",  3, 0, "Considerable");		
+		assertValueInCollection("xavaPropertiesList",  4, 0, "Customer discount");
+		assertValueInCollection("xavaPropertiesList",  5, 0, "Customer type discount");
+		assertValueInCollection("xavaPropertiesList",  6, 0, "Delivery date");
+		assertValueInCollection("xavaPropertiesList",  7, 0, "eMail of Customer");
+		assertValueInCollection("xavaPropertiesList",  8, 0, "Lokal of Customer");
+		assertValueInCollection("xavaPropertiesList",  9, 0, "Name of Customer");
+		assertValueInCollection("xavaPropertiesList", 10, 0, "Number of Customer");
+		assertValueInCollection("xavaPropertiesList", 11, 0, "Photo of Customer");
+		assertValueInCollection("xavaPropertiesList", 12, 0, "Product unit price sum");
+		assertValueInCollection("xavaPropertiesList", 13, 0, "Relation with seller of Customer");
+		assertValueInCollection("xavaPropertiesList", 14, 0, "Remarks of Customer");
+		assertValueInCollection("xavaPropertiesList", 15, 0, "Seller discount");
+		assertValueInCollection("xavaPropertiesList", 16, 0, "Telephone of Customer");
+		assertValueInCollection("xavaPropertiesList", 17, 0, "Total");
+		assertValueInCollection("xavaPropertiesList", 18, 0, "Type of Customer");
+		assertValueInCollection("xavaPropertiesList", 19, 0, "VAT %");
 		checkRow("selectedProperties", "customer.name"); 
 		checkRow("selectedProperties", "sellerDiscount"); 
 		 		
@@ -978,26 +981,28 @@ public class InvoiceTest extends CustomizeListTestBase {
 		assertLabelInList(9, "Seller discount"); 
 		
 		execute("List.addColumns");
-		assertCollectionRowCount("xavaPropertiesList", 19);
-		assertValueInCollection("xavaPropertiesList",  0, 0, "City of Customer");
-		assertValueInCollection("xavaPropertiesList",  1, 0, "Comment");
-		assertValueInCollection("xavaPropertiesList",  2, 0, "Considerable");		
-		assertValueInCollection("xavaPropertiesList",  3, 0, "Customer discount");
-		assertValueInCollection("xavaPropertiesList",  4, 0, "Customer type discount");
-		assertValueInCollection("xavaPropertiesList",  5, 0, "Delivery date");
-		assertValueInCollection("xavaPropertiesList",  6, 0, "eMail of Customer");
-		assertValueInCollection("xavaPropertiesList",  7, 0, "Lokal of Customer");
-		assertValueInCollection("xavaPropertiesList",  8, 0, "Number of Customer");
-		assertValueInCollection("xavaPropertiesList",  9, 0, "Photo of Customer");
-		assertValueInCollection("xavaPropertiesList", 10, 0, "Product unit price sum");
-		assertValueInCollection("xavaPropertiesList", 11, 0, "Relation with seller of Customer");
-		assertValueInCollection("xavaPropertiesList", 12, 0, "Remarks of Customer");
-		assertValueInCollection("xavaPropertiesList", 13, 0, "Telephone of Customer");
-		assertValueInCollection("xavaPropertiesList", 14, 0, "Total");
-		assertValueInCollection("xavaPropertiesList", 15, 0, "Type of Customer");
-		assertValueInCollection("xavaPropertiesList", 16, 0, "VAT %");
-		assertValueInCollection("xavaPropertiesList", 17, 0, "Web site of Customer");
-		assertValueInCollection("xavaPropertiesList", 18, 0, "Year discount");
+		assertCollectionRowCount("xavaPropertiesList", 20); 
+		assertValueInCollection("xavaPropertiesList",  0, 0, "Additional emails of Customer");
+		assertValueInCollection("xavaPropertiesList",  1, 0, "City of Customer");
+		assertValueInCollection("xavaPropertiesList",  2, 0, "Comment");
+		assertValueInCollection("xavaPropertiesList",  3, 0, "Considerable");		
+		assertValueInCollection("xavaPropertiesList",  4, 0, "Customer discount");
+		assertValueInCollection("xavaPropertiesList",  5, 0, "Customer type discount");
+		assertValueInCollection("xavaPropertiesList",  6, 0, "Delivery date");
+		assertValueInCollection("xavaPropertiesList",  7, 0, "eMail of Customer");
+		assertValueInCollection("xavaPropertiesList",  8, 0, "Lokal of Customer");
+		assertValueInCollection("xavaPropertiesList",  9, 0, "Number of Customer");
+		assertValueInCollection("xavaPropertiesList", 10, 0, "Photo of Customer");
+		assertValueInCollection("xavaPropertiesList", 11, 0, "Product unit price sum");
+		assertValueInCollection("xavaPropertiesList", 12, 0, "Relation with seller of Customer");
+		assertValueInCollection("xavaPropertiesList", 13, 0, "Remarks of Customer");
+		assertValueInCollection("xavaPropertiesList", 14, 0, "Telephone of Customer");
+		assertValueInCollection("xavaPropertiesList", 15, 0, "Total");
+		assertValueInCollection("xavaPropertiesList", 16, 0, "Type of Customer");
+		assertValueInCollection("xavaPropertiesList", 17, 0, "VAT %");
+		assertValueInCollection("xavaPropertiesList", 18, 0, "Web site of Customer");
+		assertValueInCollection("xavaPropertiesList", 19, 0, "Year discount");
+		
 		execute("AddColumns.cancel");
 		
 		assertListColumnCount(10);

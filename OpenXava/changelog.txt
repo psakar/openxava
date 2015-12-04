@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Properties with EMAIL_LIST stereotype are not validated. 
 - Fix: After removing a row from an element collection, fails on adding a second additional row to the collection.
 - Fix: When creating a new entity with an element collection if we remove a row before saving only saves the first row.
 - Fix: View.setFocus() does not work from @OnChange actions.

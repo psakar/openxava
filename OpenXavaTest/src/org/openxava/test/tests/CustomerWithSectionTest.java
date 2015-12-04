@@ -254,7 +254,7 @@ public class CustomerWithSectionTest extends CustomerTest {
 		assertNoDialog();
 	}
 	
-	public void testTELEPHONE_EMAIL_WEBURLstereotypes() throws Exception {
+	public void testTELEPHONE_EMAIL_EMAIL_LIST_WEBURLstereotypes() throws Exception { 
 		assertTrue("website column must have a clickable link", getHtml().contains("<a href=\"http://www.openxava.org\">"));
 		execute("Mode.detailAndFirst");
 		setValue("telephone", "asf");
@@ -266,15 +266,19 @@ public class CustomerWithSectionTest extends CustomerTest {
 		assertError("Web site must be a valid url");
 		setValue("telephone", "123");
 		setValue("email", "pepe@mycompany");
+		setValue("additionalEmails", "pepe@myproject.org, pepe@yahoo"); 
 		setValue("website", "www.openxava.org");
 		execute("Customer.save");
 		assertError("Telephone must be at least 8 Digits long");
 		assertError("eMail must be a valid email address");
 		assertError("Web site must be a valid url");
+		assertError("Additional emails should contain valid emails seperated by commas"); 
 		assertValue("email", "pepe@mycompany"); // not converted to uppercase
+		assertValue("additionalEmails", "pepe@myproject.org, pepe@yahoo"); // not converted to uppercase 
 		assertValue("website", "www.openxava.org"); // not converted to uppercase
 		setValue("telephone", "961112233");
 		setValue("email", "pepe@mycompany.com");
+		setValue("additionalEmails", "pepe@myproject.org, pepe@yahoo.com"); 
 		setValue("website", "http://www.openxava.org");
 		execute("Customer.save");
 		assertNoErrors();
