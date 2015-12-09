@@ -502,9 +502,9 @@ public class AnnotatedClassParser {
 		// The mapping part
 		
 		MetaModel metaModelReferenced = null;						
-		// Self reference
+		// Self reference		
 		if (ref.getReferencedModelName().equals(model.getName())) 
-			metaModelReferenced = model; 
+			metaModelReferenced = model;		 
 		// Cyclical references
 		else if (ref.getReferencedModelName().equals(ref.getMetaModel().getContainerModelName())) 
 			metaModelReferenced = ref.getMetaModel().getMetaModelContainer();

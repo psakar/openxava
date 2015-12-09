@@ -67,22 +67,19 @@ public class MetaReference extends MetaMember implements Cloneable {
 			}
 			
 			// Not qualified
-			if (getReferencedModelName().equals(getMetaModel().getName())) metaModelReferenced = getMetaModel(); 
+			if (explicitAggregate && !aggregate && getMetaModel().isAnnotatedEJB3()) { 
+				metaModelReferenced = MetaComponent.get(getReferencedModelName()).getMetaEntity();
+				if (!Is.empty(referencedModelContainerReference)) metaModelReferenced.setContainerReference(referencedModelContainerReference); 					
+			}
 			else {
-				if (explicitAggregate && !aggregate && getMetaModel().isAnnotatedEJB3()) { 
-					metaModelReferenced = MetaComponent.get(getReferencedModelName()).getMetaEntity();
-					if (!Is.empty(referencedModelContainerReference)) metaModelReferenced.setContainerReference(referencedModelContainerReference); 					
+				try {				
+					// look for local aggregate
+					metaModelReferenced = getMetaModel().getMetaComponent().getMetaAggregate(getReferencedModelName());
 				}
-				else {
-					try {				
-						// look for local aggregate
-						metaModelReferenced = getMetaModel().getMetaComponent().getMetaAggregate(getReferencedModelName());
-					}
-					catch (ElementNotFoundException ex) {
-						// look for entity (looking for component)
-						metaModelReferenced = MetaComponent.get(getReferencedModelName()).getMetaEntity();
-						if (!Is.empty(referencedModelContainerReference)) metaModelReferenced.setContainerReference(referencedModelContainerReference); 
-					}
+				catch (ElementNotFoundException ex) {
+					// look for entity (looking for component)
+					metaModelReferenced = MetaComponent.get(getReferencedModelName()).getMetaEntity();
+					if (!Is.empty(referencedModelContainerReference)) metaModelReferenced.setContainerReference(referencedModelContainerReference); 
 				}
 			}
 		}

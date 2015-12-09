@@ -10052,8 +10052,8 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Community.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Company.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Composite.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Computer.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/model/Conference.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/model/ConferenceTrack.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Conference.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/ConferenceTrack.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ConversionFactor.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Corporation.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/CorporationEmployee.java -text svneol=unset#text/plain
@@ -10272,7 +10272,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/CommunityTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CompanyTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CompositeTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ComputerTest.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/tests/ConferenceTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/ConferenceTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CorporationEmployeeTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CorporationTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CustomerMinimumTest.groovy -text
