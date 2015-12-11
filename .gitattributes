@@ -10259,7 +10259,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/AsEmbedContainerTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/AuthorTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/BlogTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/BookTest.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/tests/BuildingTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/BuildingTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CallBackLogTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CarTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/CheckTest.groovy -text

@@ -25,7 +25,7 @@ public class IssueTest extends IssueTestBase {
 		// changed to Company B
 		execute("Mode.list");
 		execute("Issue.changeToCompanyB");
-		assertValueInList(0, 0, "B0001");
+		assertValueInList(0, 0, "B0001"); 
 		execute("List.viewDetail", "row=0");
 		assertCollectionRowCount("comments", 1);
 		assertCollectionRowCount("commentsWithCondition", 1);

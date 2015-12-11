@@ -1296,6 +1296,16 @@ public class ModuleManager implements java.io.Serializable {
 		}
 		return defaultActionQualifiedName;
 	}
+	
+	/**
+	 * 
+	 * @return null if not current default action.
+	 * @since 5.4.1
+	 */
+	public MetaAction getDefaultMetaAction() { 
+		if (Is.emptyString(getDefaultActionQualifiedName())) return null;
+		return MetaControllers.getMetaAction(getDefaultActionQualifiedName());
+	}
 
 	public boolean isXavaView(HttpServletRequest request) throws XavaException {
 		// For that a upload form does not delete the view data.

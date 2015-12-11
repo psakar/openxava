@@ -20,7 +20,7 @@ public class DrinksFoodsByCountryTest extends ModuleTestBase {
 		
 		assertValue("country", String.valueOf(country.ordinal()));
 		assertValue("foods" , country.foods().toUpperCase());
-		assertValue("drinks", country.drinks().toUpperCase());	
+		assertValue("drinks", country.drinks().toUpperCase()); 	
 	}
 	
 	public void testValidValuesWithRequiredValue() throws Exception {
@@ -34,7 +34,7 @@ public class DrinksFoodsByCountryTest extends ModuleTestBase {
 	
 	public void testSelectedCountry() throws Exception {
 		for(EnumCountry country : values()) {
-			setValue("country", String.valueOf(country.ordinal()));
+			setValue("country", String.valueOf(country.ordinal())); 
 			assertValue("foods", country.foods().toUpperCase());
 			assertValue("drinks", country.drinks().toUpperCase());
 		}

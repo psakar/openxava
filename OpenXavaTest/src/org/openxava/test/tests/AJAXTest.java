@@ -151,7 +151,7 @@ public class AJAXTest extends ModuleTestBase {
 	public void testChangingSelectedElementsOfACollectionTabByCodeNoReloadCollection() throws Exception {  
 		changeModule("CarrierWithCollectionsTogether");
 		execute("Mode.detailAndFirst");
-		assertAllCollectionUnchecked("fellowCarriers");
+		assertAllCollectionUnchecked("fellowCarriers"); 
 		assertRowCollectionUnchecked("fellowCarriers", 0);
 		assertRowCollectionUnchecked("fellowCarriers", 1);
 		assertRowCollectionUnchecked("fellowCarriers", 2);

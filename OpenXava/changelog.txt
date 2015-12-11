@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Default action fired pressing ENTER ignores confirm=true and takes-long=true.
+- Fix: Searching modules do not work if you do not use exact accents.
 - Fix: ClassCastException when an entity used in a CascadeType.REMOVE or ALL collection has a reference to itself.
 - Fix: Properties with EMAIL_LIST stereotype are not validated. 
 - Fix: After removing a row from an element collection, fails on adding a second additional row to the collection.

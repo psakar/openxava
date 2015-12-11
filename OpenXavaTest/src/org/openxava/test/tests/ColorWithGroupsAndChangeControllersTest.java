@@ -17,7 +17,7 @@ public class ColorWithGroupsAndChangeControllersTest extends ModuleTestBase {
 	}
 
 	public void testViewGroupAndControllerOnChangeGroup_setFocusFromOnChangeAction() throws Exception {
-		assertValue("group", usesAnnotatedPOJO()?"":"0");
+		assertValue("group", usesAnnotatedPOJO()?"":"0"); 
 		assertNotExists("property1");
 		assertNotExists("property2");
 		assertActions(new String[] {});
