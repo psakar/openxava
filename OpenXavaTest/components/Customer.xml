@@ -24,6 +24,7 @@
 		<property name="photo" required="false" stereotype="PHOTO"/>
 		<property name="telephone" stereotype="TELEPHONE"/>        		
 		<property name="email" stereotype="EMAIL"/>
+		<property name="additionalEmails" stereotype="EMAIL_LIST" /> 
 		<property name="website" stereotype="WEBURL"/>
 		<property name="remarks"
 				stereotype="MEMO"
@@ -222,7 +223,8 @@
 			<on-change class="org.openxava.test.actions.OnChangeCustomerNameAction"/>
 		</property-view>	
 		
-		<property-view property="email" display-size="30"/>	
+		<property-view property="email" display-size="30"/>
+		<property-view property="additionalEmails" display-size="50"/> 
 		
 		<property-view property="alternateSeller.number">
 			<on-change class="org.openxava.test.actions.OnChangeVoidAction"/>
@@ -248,7 +250,7 @@
 				type; 
 				name, <action action="Customer.changeNameLabel"/>;
 				photo;
-				telephone, email;
+				telephone, email, additionalEmails;
 				website; 
 				address; 
 				city;
@@ -436,6 +438,8 @@
 			property="telephone" column="TELEPHONE"/>
 		<property-mapping
 			property="email" column="EMAIL"/>
+		<property-mapping
+			property="additionalEmails" column="ADDITIONALEMAILS"/>
 		<property-mapping
 			property="website" column="WEBSITE"/>							
 		<property-mapping

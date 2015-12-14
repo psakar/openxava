@@ -650,3 +650,10 @@ span.ox-subcontroller-select a{
 	-webkit-border-radius: 15px;
 	outline: 0;
 }
+
+#xava_add_columns {
+	margin-bottom: 5px;	
+	padding: 1px;
+	max-height: 70vh;
+	overflow-y: auto;
+}

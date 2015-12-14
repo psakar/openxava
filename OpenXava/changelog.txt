@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+OpenXava 5.4.1 (2015-12-15)
+---------------------------
 - Fix: Default action fired pressing ENTER ignores confirm=true and takes-long=true.
 - Fix: Searching modules do not work if you do not use exact accents.
 - Fix: ClassCastException when an entity used in a CascadeType.REMOVE or ALL collection has a reference to itself.
@@ -23,8 +25,8 @@ Change Log for OpenXava project
 - Fix: Editors of type select multiple have fixed height.
 - Fix: Spanish messages not uniform for tú/usted usage.
 
-OpenXava 5.4 (2015-10-9)
---------------------------
+OpenXava 5.4 (2015-11-9)
+------------------------
 - New icons, now all standard OpenXava actions use Material Design Icons instead of gifs or pngs.
 - New icon property in action and subcontroller definitions to define an icon by name from Material Design Icons.
 - UI for charts simplified.
