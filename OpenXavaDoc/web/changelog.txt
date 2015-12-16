@@ -1,8 +1,32 @@
 Change Log for OpenXava project
 ===============================
 
-OpenXava 5.4 (2015-10-9)
---------------------------
+OpenXava 5.4.1 (2015-12-15)
+---------------------------
+- Fix: Default action fired pressing ENTER ignores confirm=true and takes-long=true.
+- Fix: Searching modules does not work if you do not use exact accents.
+- Fix: ClassCastException when an entity used in a CascadeType.REMOVE or ALL collection has a reference to itself.
+- Fix: Properties with EMAIL_LIST stereotype are not validated. 
+- Fix: After removing a row from an element collection, fails on adding a second additional row to the collection.
+- Fix: When creating a new entity with an element collection if we remove a row before saving only saves the first row.
+- Fix: View.setFocus() does not work from @OnChange actions.
+- Fix: Duplicated format list buttons in Linux/Mac running Tomcat from Eclipse.
+- Fix: Legend in charts is not translated.
+- Fix: Add columns to list can be empty and with "Show more..." in some circumstances.
+- Fix: Actions with confirm=true whose description contains apostrophes are not executed.
+- Fix: on-init, on-each-request, before-each-request and after-each-request do not work for actions inside subcontrollers.
+- Fix: Focus not on the first field when editing a collection item with all members inside section tabs. 
+- Fix: Scrolling in add columns dialog hides search text box.
+- Fix: Columns list over bottom buttons when there are many entries in add columns dialog inside Liferay.
+- Fix: Scrollbar disappears in adding columns dialog when clicking on "Show more...". 
+- Fix: Incorrect row height in list.
+- Fix: Summation bad aligned in list.
+- Fix: Incorrect row height in add columns dialog.
+- Fix: Editors of type select multiple have fixed height.
+- Fix: Spanish messages not uniform for tú/usted usage.
+
+OpenXava 5.4 (2015-11-9)
+------------------------
 - New icons, now all standard OpenXava actions use Material Design Icons instead of gifs or pngs.
 - New icon property in action and subcontroller definitions to define an icon by name from Material Design Icons.
 - UI for charts simplified.
@@ -246,7 +270,7 @@ OpenXava 5.0.1 (2014-7-14)
 OpenXava 5.0 (2014-6-9)
 -----------------------
 - New look and feel.
-- Login/â€‹logout functionality.  	 
+- Login/logout functionality.  	 
 - Module navigation: Left searchable menu with all modules and top menu with recently used modules.   	 
 - Collections editable at cell mode, like a spreadsheet, available for @ElementCollection. 
 - All collection elements and the container entity are persisted at once, available for @ElementCollection.
