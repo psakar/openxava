@@ -1654,13 +1654,26 @@ public class InvoiceTest extends CustomizeListTestBase {
 	}
 	
 	
-	public void testDefaultValueCalculation() throws Exception {		
+	public void testDefaultValueCalculation_requiredIcons() throws Exception {		
 		execute("CRUD.new");
 		assertValue("year", getCurrentYear()); 		
 		assertValue("date", getCurrentDate());
 		assertValue("yearDiscount", getYearDiscount(getCurrentYear()));
 		setValue("year", "2002");
-		assertValue("yearDiscount", getYearDiscount("2002"));		
+		assertValue("yearDiscount", getYearDiscount("2002"));	
+		
+		assertRequiredIcons(); 
+	}
+	
+	private void assertRequiredIcons() { 
+		assertTrue(getIconHtml("year").contains("<i class=\"ox-required-icon mdi mdi-marker-check\""));
+		assertTrue(getIconHtml("number").contains("<i class=\"ox-required-icon mdi mdi-marker-check\""));
+		assertTrue(getIconHtml("date").contains("<i class=\"ox-required-icon mdi mdi-marker-check\""));
+		assertTrue(getIconHtml("comment").contains("<i class=\"ox-required-icon\""));
+	}
+	
+	private String getIconHtml(String property) { 
+		return getHtmlPage().getElementById("ox_OpenXavaTest_Invoice__error_image_Invoice___" + property).getPreviousSibling().asXml();
 	}
 	
 	public void testCalculatedValuesFromSubviewToUpperView() throws Exception {

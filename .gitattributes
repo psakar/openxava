@@ -6133,7 +6133,6 @@ OpenXava/web/images/descending.gif -text
 OpenXava/web/images/descending2.gif -text
 OpenXava/web/images/edit-text.gif -text
 OpenXava/web/images/edit.gif -text
-OpenXava/web/images/error.gif -text
 OpenXava/web/images/excel.gif -text
 OpenXava/web/images/filter.gif -text
 OpenXava/web/images/find.gif -text
@@ -6145,7 +6144,6 @@ OpenXava/web/images/html/skins/Jetspeed/tabmiddle.gif -text
 OpenXava/web/images/html/skins/Jetspeed/tabmiddle_low.gif -text
 OpenXava/web/images/html/skins/Jetspeed/tabright.gif -text
 OpenXava/web/images/html/skins/Jetspeed/tabright_low.gif -text
-OpenXava/web/images/key.gif -text
 OpenXava/web/images/level-down.gif -text
 OpenXava/web/images/level-left.gif -text
 OpenXava/web/images/level-right.gif -text
@@ -6172,7 +6170,6 @@ OpenXava/web/images/remove.gif -text
 OpenXava/web/images/report.gif -text
 OpenXava/web/images/reports.png -text
 OpenXava/web/images/reportsAdmin.png -text
-OpenXava/web/images/required.gif -text
 OpenXava/web/images/restore.gif -text
 OpenXava/web/images/rtf.gif -text
 OpenXava/web/images/save.gif -text
@@ -9247,6 +9244,10 @@ OpenXavaTest/i18n/portlets/InvoiceDetailsWithManyProperties_ca.properties -text 
 OpenXavaTest/i18n/portlets/InvoiceDetailsWithManyProperties_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceDetailsWithManyProperties_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceDetailsWithManyProperties_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceDetailsWithSections_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceDetailsWithSections_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceDetailsWithSections_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceDetailsWithSections_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceDetailsWithTotals_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceDetailsWithTotals_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceDetailsWithTotals_es.properties -text svneol=unset#text/plain
@@ -11251,7 +11252,6 @@ OpenXavaTest/web/xava/images/descending.gif -text
 OpenXavaTest/web/xava/images/descending2.gif -text
 OpenXavaTest/web/xava/images/edit-text.gif -text
 OpenXavaTest/web/xava/images/edit.gif -text
-OpenXavaTest/web/xava/images/error.gif -text
 OpenXavaTest/web/xava/images/excel.gif -text
 OpenXavaTest/web/xava/images/filter.gif -text
 OpenXavaTest/web/xava/images/find.gif -text
@@ -11263,7 +11263,6 @@ OpenXavaTest/web/xava/images/html/skins/Jetspeed/tabmiddle.gif -text
 OpenXavaTest/web/xava/images/html/skins/Jetspeed/tabmiddle_low.gif -text
 OpenXavaTest/web/xava/images/html/skins/Jetspeed/tabright.gif -text
 OpenXavaTest/web/xava/images/html/skins/Jetspeed/tabright_low.gif -text
-OpenXavaTest/web/xava/images/key.gif -text
 OpenXavaTest/web/xava/images/level-down.gif -text
 OpenXavaTest/web/xava/images/level-left.gif -text
 OpenXavaTest/web/xava/images/level-right.gif -text
@@ -11291,7 +11290,6 @@ OpenXavaTest/web/xava/images/remove.gif -text
 OpenXavaTest/web/xava/images/report.gif -text
 OpenXavaTest/web/xava/images/reports.png -text
 OpenXavaTest/web/xava/images/reportsAdmin.png -text
-OpenXavaTest/web/xava/images/required.gif -text
 OpenXavaTest/web/xava/images/restore.gif -text
 OpenXavaTest/web/xava/images/rtf.gif -text
 OpenXavaTest/web/xava/images/save.gif -text

@@ -36,7 +36,7 @@ public class ArtistTest extends ModuleTestBase {
 	}
 	
 	private void assertErrorImage() throws Exception {
-		assertTrue("Error image not present", getHtml().contains("/OpenXavaTest/xava/images/error.gif"));
+		assertTrue("Error image not present", getHtml().contains("<i class=\"ox-error-icon mdi mdi-alert-circle\"")); 
 	}
 	
 }

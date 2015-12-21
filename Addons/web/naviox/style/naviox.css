@@ -551,6 +551,20 @@ a.ox-selected-list-format, a.ox-selected-list-format:hover {
 	vertical-align: middle;
 }
 
+.ox-required-icon, .ox-error-icon { 
+	width: 0px; 
+	position: relative;
+	left: -2px;
+	top: -15px;
+	color: #3777D7;
+}
+
+i.ox-error-icon {
+	color: #DC4A38;
+	left: 10px;
+	font-size: 120%;
+}
+
 input[type="button"], .ipad input[type="button"]:hover, A#show_modules {
 	background: #F5F5F5;
 	border: 1px solid #C6C6C6;
@@ -1016,10 +1030,6 @@ input[type="button"]:active, A#show_modules.show-modules-selected {
 	box-shadow: none; 
 	-moz-box-shadow: none; 
 	-webkit-box-shadow: none;	
-}
-
-.ox-error-image {
-	border-left: 2px solid transparent;	
 }
 
 div.ox-subcontroller table{

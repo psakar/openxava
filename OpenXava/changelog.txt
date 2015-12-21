@@ -1,6 +1,9 @@
 Change Log for OpenXava project
 ===============================
 
+- Icons instead of images for validation error and required.
+- There is no special icon for key, just the required icon if applies.
+
 OpenXava 5.4.1 (2015-12-15)
 ---------------------------
 - Fix: Default action fired pressing ENTER ignores confirm=true and takes-long=true.

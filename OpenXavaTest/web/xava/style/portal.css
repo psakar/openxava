@@ -657,3 +657,21 @@ span.ox-subcontroller-select a{
 	max-height: 70vh;
 	overflow-y: auto;
 }
+
+.ox-required-icon, .ox-error-icon { 
+	width: 0px; 
+	position: relative;
+	left: -2px;
+	top: -10px;
+	color: #3777D7;
+}
+
+i.ox-required-icon {
+	display: inline-block;
+}
+
+i.ox-error-icon {
+	color: #DC4A38;
+	left: 10px;
+	font-size: 120%;
+}

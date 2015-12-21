@@ -356,11 +356,7 @@ public class Module extends DWRBase {
 		}
 			
 		Messages errors = (Messages) request.getAttribute("errors");
-		String errorImageClass = "";
-		if (!Is.emptyString(Style.getInstance().getErrorImage())) {
-			errorImageClass = "class='" + Style.getInstance().getErrorImage() + "' ";
-		}
-		String imageHTML = "html:<img " + errorImageClass  + "src='" + request.getContextPath() +"/xava/images/error.gif'/>";
+		String imageHTML = "html:<i class='" + Style.getInstance().getErrorIcon() + " mdi mdi-alert-circle'></i>"; // If modify this we have to change DefaultLayoutPainter too
 		if (!errors.isEmpty()) {
 			View view = getView();
 			Collection members = new HashSet();

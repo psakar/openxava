@@ -1337,13 +1337,20 @@ public class Style {
 		}
 		return returnValue.toString();
 	}
+	
+	/**
+	 * Before v5.5 it was getErrorImage(). 
+	 * @since v5.5
+	 */
+	public String getErrorIcon() {
+		return "ox-error-icon";
+	}
 
 	/**
-	 * @since 5.0.1
-	 * @return Style class for inner error image.
+	 * @since v5.5
 	 */
-	public String getErrorImage() {
-		return "ox-error-image";
+	public String getRequiredIcon() {
+		return "ox-required-icon";
 	}
 	
 	/**
