@@ -13,12 +13,10 @@ import java.util.Iterator;
 import java.util.Locale;
 import java.util.StringTokenizer;
 
-import javax.persistence.*;
 import javax.rmi.PortableRemoteObject;
 
 import org.openxava.actions.*;
 import org.openxava.jpa.XPersistence;
-import org.openxava.session.Chart;
 import org.openxava.test.calculators.YearInvoiceDiscountCalculator;
 import org.openxava.test.model.*;
 import org.openxava.util.Dates;
@@ -336,7 +334,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		setValue("name", "__MORE__");
 		setValue("name", "customer.seller.name");
 		execute("MyReport.saveColumn");
-		assertValueInCollection("columns", 8, 0, "Name of Seller of Customer");
+		assertValueInCollection("columns", 8, 0, "Name of Seller of Customer"); 
 		execute("MyReport.editColumn", "row=8,viewObject=xava_view_columns");
 		assertValue("name", "customer.seller.name");
 		assertValue("label", "Name of Seller of Customer");
@@ -731,7 +729,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 	}	
 	
 	public void testCustomizeListShowMoreColumns() throws Exception {  
-		assertListColumnCount(8);
+		assertListColumnCount(8); 
 		assertLabelInList(0, "Year");
 		assertLabelInList(1, "Number");
 		assertLabelInList(2, "Date");
@@ -872,7 +870,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 	}
 	
 	public void testRemoveSeveralColumns() throws Exception { 
-		assertListColumnCount(8);
+		assertListColumnCount(8); 
 		assertLabelInList(0, "Year");
 		assertLabelInList(1, "Number");
 		assertLabelInList(2, "Date");
@@ -1176,7 +1174,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 	}
 	
 	public void testChangeTab() throws Exception {		
-		assertListColumnCount(8);
+		assertListColumnCount(8); 
 		execute("Invoice.changeTab");
 		assertNoErrors();
 		assertListColumnCount(3);
@@ -1230,23 +1228,23 @@ public class InvoiceTest extends CustomizeListTestBase {
 		assertNoErrors();
 		assertValue("date", "04/01/2004");
 		
-		setValue("date", "4/1/35"); // If current year is 2015
+		setValue("date", "4/1/36"); // If current year is 2016
 		execute("CRUD.save");
 		assertNoErrors();
 		setValue("year", String.valueOf(getInvoice().getYear()));
 		setValue("number", String.valueOf(getInvoice().getNumber()));
 		execute("CRUD.refresh");
 		assertNoErrors();
-		assertValue("date", "04/01/2035");
+		assertValue("date", "04/01/2036");
 		
-		setValue("date", "040136"); // If current year is 2015
+		setValue("date", "040137"); // If current year is 2016
 		execute("CRUD.save");
 		assertNoErrors();
 		setValue("year", String.valueOf(getInvoice().getYear()));
 		setValue("number", String.valueOf(getInvoice().getNumber()));
 		execute("CRUD.refresh");
 		assertNoErrors();
-		assertValue("date", "04/01/1936"); 
+		assertValue("date", "04/01/1937"); 
 		
 		setValue("date", "30/2/2008");
 		execute("CRUD.save");
@@ -1937,7 +1935,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 
 		reload(); 
 		assertChartDisplayed();
-		assertSaveRestoreCharts();
+		assertSaveRestoreCharts(); 
 		
 		execute("CRUD.new");
 		execute("Mode.list");

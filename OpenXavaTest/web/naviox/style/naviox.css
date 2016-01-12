@@ -432,7 +432,8 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus
 .ox-button-bar .ox-button-bar-button a, .ox-button-bar-mode-button, 
 .ox-collection-list-actions .ox-button-bar-button a, 
 .ox-list-formats i, .ox-image-link i, .ox-frame-title i,
-.ox-charts i { 
+.ox-charts i , 
+.ox-list-header i {   
 	color: #6F6F6F;
 }
 
@@ -457,7 +458,7 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus
 .ox-collection-list-actions .ox-button-bar-button a:hover, 
 .ox-subcontroller-select a, .ox-list-formats i:hover, .ox-image-link i:hover,
 .ox-selected-list-format i, .ox-frame-title i:hover,
-.ox-charts i:hover {   
+.ox-charts i:hover {     
 	color: #191919;
 }
 
@@ -499,7 +500,7 @@ i {
 
 }
 
-.ox-image-link i {
+.ox-image-link i, .ox-list-header i { 
 	font-size: 140%;
 	padding: 4px;
 }
@@ -508,6 +509,19 @@ i {
 	font-size: 120%;
 	padding: 5px;
 	margin: -5px;
+}
+
+.ox-customize-controls i {
+	color: #6fc664;
+}
+
+.ox-customize-controls i:hover {
+	color: green;
+}
+
+.mdi-filter-remove {
+	margin-left: 1px;
+	margin-right: -1px;
 }
 
 .ox-button-bar .ox-button-bar-button i, .ox-collection-list-actions i {
@@ -527,7 +541,7 @@ i {
 	padding: 5px;  
 }
 
-.ox-list-formats a:hover, .ox-chart-type a:hover {
+.ox-list-formats a:hover, .ox-chart-type a:hover, .ox-customize-controls a, a.ox-image-link { 
 	text-decoration: none;
 }
 

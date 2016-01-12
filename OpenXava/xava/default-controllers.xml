@@ -337,7 +337,7 @@ here that you want to override.
 			class="org.openxava.actions.GoAddColumnsAction"
 			hidden="true"
 			mode="list"
-			image="add.gif"/>		
+			icon="table-column-plus-after"/>		
 
 		<action name="hideRows"
 			class="org.openxava.actions.HideRowsAction"

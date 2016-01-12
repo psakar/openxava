@@ -56,7 +56,7 @@ public class Product3Test extends ModuleTestBase {
 		String familyNumber = getValueInList(0, "number");		
 		String familyDescription = getValueInList(0, "description");		
 		execute("ReferenceSearch.choose", "row=0");
-		assertValue("family.number", familyNumber);
+		assertValue("family.number", familyNumber); 
 		assertValue("family.description", familyDescription);
 		
 		execute("CRUD.save");

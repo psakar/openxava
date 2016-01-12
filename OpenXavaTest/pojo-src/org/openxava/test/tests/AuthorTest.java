@@ -1,9 +1,5 @@
 package org.openxava.test.tests;
 
-import org.openxava.tests.ModuleTestBase; 
-
-import com.gargoylesoftware.htmlunit.html.*;
-
 /**
  * Create on 09/06/2011 (16:04:34)
  * @author Ana Andres

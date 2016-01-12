@@ -23,7 +23,7 @@ public class SellerTest extends CustomizeListTestBase {
 	public void testCollectionWithListPropertiesStoresPreferences() throws Exception {  
 		execute("CRUD.new");
 		assertCollectionColumnCount("customers", 6);
-		removeColumn("customers", 5);
+		removeColumn("customers", 5); 
 		assertCollectionColumnCount("customers", 5); 
 		resetModule();
 		execute("CRUD.new");

@@ -76,7 +76,7 @@ public class OfficeTest extends ModuleTestBase {
 		// Warehouse				
 		setValue("zoneNumber", "1");
 		execute("Reference.search", "keyProperty=xava.Office.mainWarehouse.number");
-		assertWarehouseList("1");								
+		assertWarehouseList("1"); 								
 		execute("ReferenceSearch.cancel");
 		
 		setValue("zoneNumber", "2");
@@ -129,7 +129,7 @@ public class OfficeTest extends ModuleTestBase {
 		execute("CRUD.new");
 		setValue("zoneNumber", "1"); // not key for detecting a bug that arose when this is not key
 		execute("Reference.search", "keyProperty=xava.Office.mainWarehouse.number");
-		assertWarehouseList("1");
+		assertWarehouseList("1"); 
 		setConditionValues(new String [] {"1", "2"} );
 		execute("List.filter");
 		assertNoErrors();		

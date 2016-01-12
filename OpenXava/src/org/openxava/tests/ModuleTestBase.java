@@ -1668,7 +1668,7 @@ public class ModuleTestBase extends TestCase {
 	
 	private int getColumnIncrement(HtmlTable table, int originalColumn) {
 		int increment = table.getCellAt(0, 1).asXml().contains("type=\"checkbox\"")
-				|| table.getCellAt(0, 0).asXml().contains("customize.png")?2:1;
+				|| table.getCellAt(0, 0).asXml().contains("javascript:openxava.customizeList(")?2:1;		
 		if (isElementCollection(table)) {
 			int i=1;
 			HtmlTableCell cell = table.getCellAt(0, i++);

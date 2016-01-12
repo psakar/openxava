@@ -38,7 +38,7 @@ public class IssueTest extends IssueTestBase {
 		// Searching with list
 		execute("Reference.search", "keyProperty=xava.Issue.worker.nickName");
 		assertListRowCount(1);
-		assertValueInList(0, 0, "JAVI");
+		assertValueInList(0, 0, "JAVI"); 
 		execute("ReferenceSearch.choose", "row=0");
 		assertNoErrors();
 		assertValue("worker.nickName", "JAVI");

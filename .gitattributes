@@ -6125,7 +6125,6 @@ OpenXava/web/images/calendar.gif -text
 OpenXava/web/images/checked.gif -text
 OpenXava/web/images/clear-right.gif -text
 OpenXava/web/images/create_new.gif -text
-OpenXava/web/images/customize.png -text
 OpenXava/web/images/delete.gif -text
 OpenXava/web/images/descending-white.gif -text
 OpenXava/web/images/descending-white2.gif -text
@@ -6151,7 +6150,6 @@ OpenXava/web/images/level-up.gif -text
 OpenXava/web/images/loading.gif -text
 OpenXava/web/images/maximize.gif -text
 OpenXava/web/images/minimize.gif -text
-OpenXava/web/images/move.png -text
 OpenXava/web/images/new.gif -text
 OpenXava/web/images/next.gif -text
 OpenXava/web/images/next_page.gif -text
@@ -6166,7 +6164,6 @@ OpenXava/web/images/private.png -text
 OpenXava/web/images/processing.gif -text
 OpenXava/web/images/property_no_icon.gif -text
 OpenXava/web/images/refresh.gif -text
-OpenXava/web/images/remove.gif -text
 OpenXava/web/images/report.gif -text
 OpenXava/web/images/reports.png -text
 OpenXava/web/images/reportsAdmin.png -text
@@ -6176,7 +6173,6 @@ OpenXava/web/images/save.gif -text
 OpenXava/web/images/search.gif -text
 OpenXava/web/images/shared-reports.png -text
 OpenXava/web/images/shared.png -text
-OpenXava/web/images/show-filter.gif -text
 OpenXava/web/images/sort.gif -text
 OpenXava/web/images/spacer.gif -text
 OpenXava/web/images/summation.gif -text
@@ -6227,7 +6223,6 @@ OpenXava/web/style/ipad/images/back.gif -text
 OpenXava/web/style/ipad/images/calendar.gif -text
 OpenXava/web/style/ipad/images/clear-right.gif -text
 OpenXava/web/style/ipad/images/create_new.gif -text
-OpenXava/web/style/ipad/images/customize.png -text
 OpenXava/web/style/ipad/images/delete.gif -text
 OpenXava/web/style/ipad/images/descending-white.gif -text
 OpenXava/web/style/ipad/images/descending-white2.gif -text
@@ -6265,13 +6260,11 @@ OpenXava/web/style/ipad/images/previous_page.gif -text
 OpenXava/web/style/ipad/images/previous_page_disable.gif -text
 OpenXava/web/style/ipad/images/processing.gif -text
 OpenXava/web/style/ipad/images/refresh.gif -text
-OpenXava/web/style/ipad/images/remove.gif -text
 OpenXava/web/style/ipad/images/required.gif -text
 OpenXava/web/style/ipad/images/restore.gif -text
 OpenXava/web/style/ipad/images/rtf.gif -text
 OpenXava/web/style/ipad/images/save.gif -text
 OpenXava/web/style/ipad/images/search.gif -text
-OpenXava/web/style/ipad/images/show-filter.gif -text
 OpenXava/web/style/ipad/images/sort.gif -text
 OpenXava/web/style/ipad/images/summation.gif -text
 OpenXava/web/style/ipad/images/view.gif -text
@@ -11244,7 +11237,6 @@ OpenXavaTest/web/xava/images/charts.png -text
 OpenXavaTest/web/xava/images/checked.gif -text
 OpenXavaTest/web/xava/images/clear-right.gif -text
 OpenXavaTest/web/xava/images/create_new.gif -text
-OpenXavaTest/web/xava/images/customize.png -text
 OpenXavaTest/web/xava/images/delete.gif -text
 OpenXavaTest/web/xava/images/descending-white.gif -text
 OpenXavaTest/web/xava/images/descending-white2.gif -text
@@ -11270,7 +11262,6 @@ OpenXavaTest/web/xava/images/level-up.gif -text
 OpenXavaTest/web/xava/images/loading.gif -text
 OpenXavaTest/web/xava/images/maximize.gif -text
 OpenXavaTest/web/xava/images/minimize.gif -text
-OpenXavaTest/web/xava/images/move.png -text
 OpenXavaTest/web/xava/images/new.gif -text
 OpenXavaTest/web/xava/images/next.gif -text
 OpenXavaTest/web/xava/images/next_page.gif -text
@@ -11286,7 +11277,6 @@ OpenXavaTest/web/xava/images/private.png -text
 OpenXavaTest/web/xava/images/processing.gif -text
 OpenXavaTest/web/xava/images/property_no_icon.gif -text
 OpenXavaTest/web/xava/images/refresh.gif -text
-OpenXavaTest/web/xava/images/remove.gif -text
 OpenXavaTest/web/xava/images/report.gif -text
 OpenXavaTest/web/xava/images/reports.png -text
 OpenXavaTest/web/xava/images/reportsAdmin.png -text
@@ -11296,7 +11286,6 @@ OpenXavaTest/web/xava/images/save.gif -text
 OpenXavaTest/web/xava/images/search.gif -text
 OpenXavaTest/web/xava/images/shared-reports.png -text
 OpenXavaTest/web/xava/images/shared.png -text
-OpenXavaTest/web/xava/images/show-filter.gif -text
 OpenXavaTest/web/xava/images/sort.gif -text
 OpenXavaTest/web/xava/images/spacer.gif -text
 OpenXavaTest/web/xava/images/summation.gif -text
@@ -11348,7 +11337,6 @@ OpenXavaTest/web/xava/style/ipad/images/back.gif -text
 OpenXavaTest/web/xava/style/ipad/images/calendar.gif -text
 OpenXavaTest/web/xava/style/ipad/images/clear-right.gif -text
 OpenXavaTest/web/xava/style/ipad/images/create_new.gif -text
-OpenXavaTest/web/xava/style/ipad/images/customize.png -text
 OpenXavaTest/web/xava/style/ipad/images/delete.gif -text
 OpenXavaTest/web/xava/style/ipad/images/descending-white.gif -text
 OpenXavaTest/web/xava/style/ipad/images/descending-white2.gif -text
@@ -11386,13 +11374,11 @@ OpenXavaTest/web/xava/style/ipad/images/previous_page.gif -text
 OpenXavaTest/web/xava/style/ipad/images/previous_page_disable.gif -text
 OpenXavaTest/web/xava/style/ipad/images/processing.gif -text
 OpenXavaTest/web/xava/style/ipad/images/refresh.gif -text
-OpenXavaTest/web/xava/style/ipad/images/remove.gif -text
 OpenXavaTest/web/xava/style/ipad/images/required.gif -text
 OpenXavaTest/web/xava/style/ipad/images/restore.gif -text
 OpenXavaTest/web/xava/style/ipad/images/rtf.gif -text
 OpenXavaTest/web/xava/style/ipad/images/save.gif -text
 OpenXavaTest/web/xava/style/ipad/images/search.gif -text
-OpenXavaTest/web/xava/style/ipad/images/show-filter.gif -text
 OpenXavaTest/web/xava/style/ipad/images/sort.gif -text
 OpenXavaTest/web/xava/style/ipad/images/summation.gif -text
 OpenXavaTest/web/xava/style/ipad/images/view.gif -text

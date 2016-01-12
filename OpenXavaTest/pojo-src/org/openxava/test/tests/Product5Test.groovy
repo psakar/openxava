@@ -91,7 +91,7 @@ class Product5Test extends CustomizeListTestBase {
 	void testCollectionWithLongNameStoresPreferences() { 
 		execute "CRUD.new"
 		assertCollectionColumnCount "productDetailsSupplierContactDetails", 2
-		removeColumn "productDetailsSupplierContactDetails", 1 
+		removeColumn "productDetailsSupplierContactDetails", 1  
 		assertCollectionColumnCount "productDetailsSupplierContactDetails", 1
 		
 		resetModule()

@@ -6,6 +6,7 @@ import org.openxava.test.model.*;
 import com.gargoylesoftware.htmlunit.html.*;
 
 /**
+ * 
  * @author Javier Paniza
  */
 
@@ -519,7 +520,7 @@ public class CustomerWithSectionTest extends CustomerTest {
 		return getHtmlPage().getHtmlElementById(decorateId(id));
 	}
 	
-	public void testCustomizeList() throws Exception {
+	public void testCustomizeList() throws Exception { 
 		doTestCustomizeList_moveAndRemove(); 
 		tearDown();	setUp();
 		doTestCustomizeList_generatePDF();

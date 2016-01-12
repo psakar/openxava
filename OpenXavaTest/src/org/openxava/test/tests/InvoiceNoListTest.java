@@ -24,7 +24,7 @@ public class InvoiceNoListTest extends ModuleTestBase {
 		String description = getValueInList(lastIndex, 1);		
 		execute("ReferenceSearch.choose", "row=" + lastIndex);
 		assertNoErrors();
-		assertValue("product.description", description);
+		assertValue("product.description", description); 
 	}
 								
 }

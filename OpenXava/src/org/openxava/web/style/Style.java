@@ -298,39 +298,7 @@ public class Style {
 	public String getPageNavigationImage() { 
 		return "page_navigation.gif";
 	}
-	
-	/** 
-	 * 
-	 * @since 4.9
-	 */
-	public String getShowFilterImage() { 
-		return "show-filter.gif";
-	}
-	
-	/**
-	 * 
-	 * @since 5.2
-	 */
-	public String getCustomizeListImage() {  
-		return "customize.png";
-	}
-	
-	/**
-	 * 
-	 * @since 5.2
-	 */
-	public String getRemoveColumnImage() {  
-		return "remove.gif";
-	}
-	
-	/**
-	 * 
-	 * @since 5.2
-	 */
-	public String getMoveColumnImage() {   
-		return "move.png";
-	}
-	
+		
 	/**
 	 * 
 	 * @since 5.3
@@ -338,21 +306,11 @@ public class Style {
 	public String getMoveRowImage() {    
 		return "vertical-move.png";
 	}		
-	
-	/** 
-	 * 
-	 * @since 4.9
-	 */
-	public String getHideFilterImage() { 
-		return "remove.gif";
-	}
 		
-	
 	public String getModule() {
 		return "ox-module";		
 	}
-		
-	
+			
 	/**
 	 * 
 	 * @since 4.2
@@ -376,6 +334,13 @@ public class Style {
 	
 	public String getActionImage() {
 		return "ox-image-link";
+	}
+	
+	/**
+	 * @since 5.5
+	 */
+	public String getCustomizeControls() { 
+		return "ox-customize-controls";
 	}
 		
 	public String getButtonBar() {

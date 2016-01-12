@@ -29,7 +29,7 @@ public class TransportCharge2Test extends ModuleTestBase {
 		
 		execute("ReferenceSearch.choose", "row=0");
 		assertNoErrors();
-		assertValue("delivery.invoice.year", year);
+		assertValue("delivery.invoice.year", year); 
 		assertValue("delivery.invoice.number", number);
 		assertValue("delivery.description", description); // To test if data from reference is loaded
 		

@@ -393,7 +393,7 @@ i {
 	vertical-align: middle; 
 }
 
-.ox-image-link i {
+.ox-image-link i, .ox-customize-controls i {  
 	font-size: 140%;
 	padding: 4px;
 }
@@ -415,7 +415,7 @@ i {
 	padding: 5px;  
 }
 
-.ox-list-formats a, .ox-chart-type a { 
+.ox-list-formats a, .ox-chart-type a, .ox-customize-controls a:hover, a.ox-image-link:hover {   
 	text-decoration: none;
 }
 
@@ -674,4 +674,13 @@ i.ox-error-icon {
 	color: #DC4A38;
 	left: 10px;
 	font-size: 120%;
+}
+
+.ox-customize-controls i {
+	color: black;
+}
+
+.mdi-filter-remove {
+	margin-left: 1px;
+	margin-right: -1px;
 }

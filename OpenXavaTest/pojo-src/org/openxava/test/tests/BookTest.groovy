@@ -35,7 +35,7 @@ class BookTest extends ModuleTestBase {
 		String author = getValueInList(0, 0)		
 		execute "ReferenceSearch.choose", "row=0"
 		assertNoErrors()				
-		assertValue "author.author", author
+		assertValue "author.author", author 
 	}
 	
 	// This test fails in PostgreSQL, but not in Hypersonic
