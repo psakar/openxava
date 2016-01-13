@@ -505,11 +505,27 @@ i {
 	padding: 4px;
 }
 
-.ox-frame-title i {
+/* tmp ini */
+.ox-frame-actions i {
+	font-size: 200%;
+	padding: 0;
+	margin: -5px;
+}
+
+.ox-images-gallery .ox-frame-title i { 
+	font-size: 120%;
+	padding: 5px;
+	
+}
+/* tmp fin */
+
+/* tmp
+.ox-frame-title i { 
 	font-size: 120%;
 	padding: 5px;
 	margin: -5px;
 }
+*/
 
 .ox-customize-controls i {
 	color: #6fc664;

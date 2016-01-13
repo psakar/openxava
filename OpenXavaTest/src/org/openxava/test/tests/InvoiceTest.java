@@ -1623,7 +1623,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		
 		assertNoDialog(); 
 		execute("Collection.new", "viewObject=xava_view_section1_details");
-		assertDialog(); 
+		assertDialog();  
 		setValue("serviceType", "0");
 		setValue("quantity", "20");
 		setValue("unitPrice", getProductUnitPricePlus10());
@@ -1652,7 +1652,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 	}
 	
 	
-	public void testDefaultValueCalculation_requiredIcons() throws Exception {		
+	public void testDefaultValueCalculation_requiredIcons() throws Exception { 		
 		execute("CRUD.new");
 		assertValue("year", getCurrentYear()); 		
 		assertValue("date", getCurrentDate());

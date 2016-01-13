@@ -51,11 +51,11 @@ public class NaviOXStyle extends Style {
 	public String getProcessingImage() { 
 		return "naviox/images/processing.gif"; 
 	}
-	
+
 	public String getMinimizeImage() {
-		return "naviox/images/minimize.gif"; 
+		return null;
 	}
-	
+
 	public String getMaximizeImage() {
 		return "naviox/images/maximize.gif";  
 	}
@@ -64,10 +64,9 @@ public class NaviOXStyle extends Style {
 		return getImagesFolder() +  "/delete.gif"; 
 	}
 
-
 	@Override
 	public String getRestoreImage() {
-		return "naviox/images/restore.gif";
+		return null; 
 	}
 	
 	public String getFrame() { 

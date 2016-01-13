@@ -188,7 +188,7 @@ public class Product2Test extends ModuleTestBase {
 		// Maximizing the image
 		execute("Gallery.maximizeImage", "oid="+imageOid);
 		assertNoErrors();
-		assertNoAction("Gallery.maximizeImage");
+		assertNoAction("Gallery.maximizeImage"); 
 		assertAction("Gallery.minimizeImage");
 		assertNoAction("Gallery.removeImage");		
 		

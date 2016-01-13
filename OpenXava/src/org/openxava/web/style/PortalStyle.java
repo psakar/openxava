@@ -349,8 +349,6 @@ public class PortalStyle extends Style {
 	
 	public String getSectionBarEndDecoration() {
 		return "";
-	}
+	}	
 	
-
-		
 }

@@ -910,7 +910,7 @@ public class Style {
 	 * If it starts with '/' the URI is absolute, otherwise the context path is inserted before.
 	 */
 	public String getRestoreImage() {
-		return getImagesFolder() +  "/restore.gif"; 
+		return getImagesFolder() +  "/restore.gif";
 	}
 
 	/** 

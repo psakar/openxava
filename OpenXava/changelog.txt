@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Icons instead of images for closing and opening frames.
 - Icons for customizing list are of the same color (green).
 - Icon for showing and hiding filter in list is in the same place.
 - Icons instead of images for customizing list and collections.
