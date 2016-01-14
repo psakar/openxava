@@ -432,8 +432,7 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus
 .ox-button-bar .ox-button-bar-button a, .ox-button-bar-mode-button, 
 .ox-collection-list-actions .ox-button-bar-button a, 
 .ox-list-formats i, .ox-image-link i, .ox-frame-title i,
-.ox-charts i , 
-.ox-list-header i {   
+.ox-charts i, .ox-list-header i, .ox-help i {    
 	color: #6F6F6F;
 }
 
@@ -458,7 +457,7 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus
 .ox-collection-list-actions .ox-button-bar-button a:hover, 
 .ox-subcontroller-select a, .ox-list-formats i:hover, .ox-image-link i:hover,
 .ox-selected-list-format i, .ox-frame-title i:hover,
-.ox-charts i:hover {     
+.ox-charts i:hover, .ox-help i:hover {       
 	color: #191919;
 }
 
@@ -505,7 +504,11 @@ i {
 	padding: 4px;
 }
 
-/* tmp ini */
+.ox-help i { 
+	font-size: 140%;
+	margin-top: -2px;
+}
+
 .ox-frame-actions i {
 	font-size: 200%;
 	padding: 0;
@@ -517,15 +520,6 @@ i {
 	padding: 5px;
 	
 }
-/* tmp fin */
-
-/* tmp
-.ox-frame-title i { 
-	font-size: 120%;
-	padding: 5px;
-	margin: -5px;
-}
-*/
 
 .ox-customize-controls i {
 	color: #6fc664;
@@ -557,7 +551,7 @@ i {
 	padding: 5px;  
 }
 
-.ox-list-formats a:hover, .ox-chart-type a:hover, .ox-customize-controls a, a.ox-image-link { 
+.ox-list-formats a:hover, .ox-chart-type a:hover, .ox-customize-controls a, a.ox-image-link, .ox-help a {  
 	text-decoration: none;
 }
 

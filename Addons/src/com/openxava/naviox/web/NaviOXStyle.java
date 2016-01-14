@@ -38,7 +38,7 @@ public class NaviOXStyle extends Style {
 	}
 
 	public String getHelpImage() {
-		return "xava/images/help.png";
+		return null; 
 	}
 	
 	public String getLoadingImage() {
