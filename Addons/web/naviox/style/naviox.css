@@ -826,7 +826,7 @@ input[type="button"]:active, A#show_modules.show-modules-selected {
 }
 
 #sign_in_box .ox-detail { 
-	margin: 0px 30px 0px 10px;  
+	margin: 0px 33px 0px 3px;   
 }
 
 .ox-frame, #sign_in_box { 
@@ -1098,10 +1098,6 @@ div.ox-subcontroller table{
 	padding: 20px 0px 25px 22px;  
 	margin: 30px 60px 20px 20px; 
 	background: #F1F1F1; 
-}
-
-#sign_in_box .ox-detail {
-	margin-left: -10px;	
 }
 
 #sign_in_box .small-label { 
