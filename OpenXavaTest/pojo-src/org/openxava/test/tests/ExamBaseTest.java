@@ -9,6 +9,9 @@ import org.openxava.test.model.*;
 import org.openxava.tests.*;
 import org.openxava.util.*;
 
+import com.gargoylesoftware.htmlunit.*;
+import com.gargoylesoftware.htmlunit.html.*;
+
 /**
  * 
  * @author Jeromy Altuna
@@ -85,6 +88,55 @@ abstract public class ExamBaseTest extends ModuleTestBase {
 		getLastRevisionNumber();
 	}
 	
+	public void testFileChangingDatasource() throws Exception {
+		// Real data source
+		setDatasource(Datasource.REAL);
+		assertListRowCount(0);
+		execute("CRUD.new");
+		setValue("name", "REAL");
+		attachFile("Corporation.html");
+		execute("Collection.new", "viewObject=xava_view_questioning");
+		setValue("name", "REAL QUESTION 1");
+		execute("Collection.save");
+		execute("Mode.list");
+		assertListRowCount(1);
+		// Simulation data source
+		setDatasource(Datasource.SIMULATION);
+		assertListRowCount(0);
+		execute("CRUD.new");
+		setValue("name", "SIMULATION");
+		attachFile("Customer.jrxml");
+		execute("Collection.new", "viewObject=xava_view_questioning");
+		setValue("name", "SIMULATION QUESTION 1");
+		execute("Collection.save");
+		execute("Mode.list");
+		assertListRowCount(1);
+		// Real data source
+		setDatasource(Datasource.REAL);
+		assertFilename("Corporation.html");
+		assertMimeFile("Corporation.html", "text/html");
+		execute("Mode.detailAndFirst");
+		assertFilename("Corporation.html");
+		assertMimeFile("Corporation.html", "text/html");
+		execute("AttachedFile.delete", "newFileProperty=file");
+		execute("CRUD.delete");
+		execute("Mode.list");
+		assertListRowCount(0);
+		// Simulation data source
+		setDatasource(Datasource.SIMULATION);
+		assertFilename("Customer.jrxml");
+		assertMimeFile("Customer.jrxml", "application/docbook+xml", "application/x-docbook+xml");		
+		execute("Mode.detailAndFirst");
+		assertFilename("Customer.jrxml");
+		assertMimeFile("Customer.jrxml", "application/docbook+xml", "application/x-docbook+xml");
+		execute("AttachedFile.delete", "newFileProperty=file");
+		execute("CRUD.delete");
+		execute("Mode.list");
+		assertListRowCount(0);
+		
+		setDatasource(Datasource.REAL);
+	}
+	
 	protected void assertValueInAuditTable(String name, String value, Class<?> clazz, Number revision) 
 			throws Exception 
 	{
@@ -117,6 +169,39 @@ abstract public class ExamBaseTest extends ModuleTestBase {
 		XPersistence.setPersistenceUnit(getPersistenceUnit());
 		XPersistence.setDefaultSchema(getDefaultSchema());
 		return AuditReaderFactory.get(XPersistence.getManager());
+	}
+
+	private void attachFile(String filename) throws Exception {
+		execute("AttachedFile.choose", "newFileProperty=file");
+		String filepath = System.getProperty("user.dir") + "/reports/" + filename;
+		setFileValue("newFile", filepath);
+		execute("UploadFile.uploadFile");
+	}
+	
+	private void assertFilename(String filename) throws Exception {
+		assertTrue(getFileAnchors().get(filename) != null);
+	}
+	
+	private void assertMimeFile(String filename, String... mime) throws Exception {
+		String url =  "http://" + getHost() + ":" + getPort() + 
+					              getFileAnchors().get(filename).getHrefAttribute();
+		WebResponse response = getWebClient().getPage(url).getWebResponse();
+		boolean isMime = response.getContentType().equals("application/octet-stream");
+		for (int i = 0; i < mime.length && !isMime; i++) {
+			isMime = response.getContentType().equals(mime[i]);
+		}
+		assertTrue(isMime);
+		changeModule(controllerName);
+	}
+	
+	private Map<String, HtmlAnchor> getFileAnchors() {
+		Map<String, HtmlAnchor> anchors = new HashMap<String, HtmlAnchor>();		
+		for(HtmlAnchor anchor : getHtmlPage().getAnchors()) {
+			if(anchor.getHrefAttribute().indexOf("/xava/xfile?application=") >= 0) {
+				anchors.put(anchor.getTextContent().trim(), anchor);
+			}
+		}		
+		return anchors;
 	}
 	
 	public Datasource getDatasource() {

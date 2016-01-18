@@ -8,6 +8,8 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 
 import org.apache.commons.logging.*;
+import org.openxava.controller.*;
+import org.openxava.jpa.*;
 import org.openxava.util.*;
 import org.openxava.web.editors.*;
 
@@ -28,6 +30,7 @@ public class FilesServlet extends HttpServlet {
 			String fileId = (String) request.getParameter("fileId");
 			
 			if (!Is.emptyString(fileId)) {
+				setDefaultSchema(request);
 				AttachedFile file = FilePersistorFactory.getInstance().find(fileId);
 				
 				registerMimeDetector();
@@ -68,5 +71,11 @@ public class FilesServlet extends HttpServlet {
 			MimeUtil.unregisterMimeDetector("eu.medsea.mimeutil.detector.WindowsRegistryMimeDetector");
 		else 
 			MimeUtil.unregisterMimeDetector("eu.medsea.mimeutil.detector.ExtensionMimeDetector");
+	}
+	
+	private void setDefaultSchema(HttpServletRequest request) {
+		ModuleContext context = (ModuleContext) request.getSession().getAttribute("context");
+		String defaultSchema = (String) context.get(request, "xava_defaultSchema");
+		if (!Is.emptyString(defaultSchema)) XPersistence.setDefaultSchema(defaultSchema);
 	}
 }
