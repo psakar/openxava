@@ -432,7 +432,8 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus
 .ox-button-bar .ox-button-bar-button a, .ox-button-bar-mode-button, 
 .ox-collection-list-actions .ox-button-bar-button a, 
 .ox-list-formats i, .ox-image-link i, .ox-frame-title i,
-.ox-charts i, .ox-list-header i, .ox-help i {    
+.ox-charts i, .ox-list-header i, .ox-help i,
+.ox-page-navigation-arrow i {     
 	color: #6F6F6F;
 }
 
@@ -457,7 +458,8 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus
 .ox-collection-list-actions .ox-button-bar-button a:hover, 
 .ox-subcontroller-select a, .ox-list-formats i:hover, .ox-image-link i:hover,
 .ox-selected-list-format i, .ox-frame-title i:hover,
-.ox-charts i:hover, .ox-help i:hover {       
+.ox-charts i:hover, .ox-help i:hover,
+.ox-page-navigation-arrow i:hover {        
 	color: #191919;
 }
 
@@ -805,7 +807,7 @@ input[type="button"]:active, A#show_modules.show-modules-selected {
 	width: 14px;
 }
 
-.ox-page-navigation, .ox-page-navigation-arrow a, .ox-page-navigation-arrow-disable, .ox-page-navigation-selected{
+.ox-page-navigation, .ox-page-navigation-selected{
 	padding: 7px 10px 7px 10px;
 	font-weight: bold;
 }
@@ -819,6 +821,15 @@ input[type="button"]:active, A#show_modules.show-modules-selected {
 	box-shadow: 0px 1px 2px #CCCCCC; 
 	-moz-box-shadow: 0px 1px 2px #CCCCCC; 
 	-webkit-box-shadow: 0px 1px 2px #CCCCCC;
+}
+
+.ox-page-navigation-arrow i, .ox-page-navigation-arrow-disable i {
+	font-size: 200%; 
+	vertical-align: -5px;
+}
+
+.ox-page-navigation-arrow-disable i { 
+	color: lightgrey;
 }
 
 .ox-detail {

@@ -1,6 +1,10 @@
 Change Log for OpenXava project
 ===============================
 
+- Stereotype FILE supports multischema.
+- New icon for going to first record in detail mode.
+- Icons instead of images for page navigation in lists.
+- Material Design Icons upgraded to 1.4.57.
 - Icon instead of image for help.
 - Icons instead of images for closing and opening frames.
 - Icons for customizing list are of the same color (green).

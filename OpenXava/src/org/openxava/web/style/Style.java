@@ -271,22 +271,6 @@ public class Style {
 	 * 
 	 * @since 4.2
 	 */
-	public String getPreviousPageDisableImage() { 
-		return "previous_page_disable.gif";
-	}
-	
-	/** 
-	 * 
-	 * @since 4.2
-	 */
-	public String getNextPageDisableImage() { 
-		return "next_page_disable.gif";
-	}
-	
-	/** 
-	 * 
-	 * @since 4.2
-	 */
 	public String getPageNavigationSelectedImage() { 
 		return "page_navigation_selected.gif";
 	}

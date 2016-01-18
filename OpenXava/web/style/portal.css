@@ -303,21 +303,19 @@ TD.list-title {
 	vertical-align: 3px;
 }
 
-.page-navigation-arrow {		
-	background-color: white;
+.page-navigation-arrow i { 
+	font-size: 250%; 
+	vertical-align: middle;
 }
 
-.ie7 .page-navigation-arrow {	
-	padding: 1px 4px 2px 4px; 
+.page-navigation-arrow, .page-navigation-arrow:hover {
+	background-color: transparent;
+	border: none;
+	padding: 0;
 }
 
-.page-navigation:hover {
-	border-color: highlight;
-	background-color: white;
-}
-
-.page-navigation-arrow-disable:hover { 
-	border-color: buttonshadow;	
+.page-navigation-arrow-disable i { 
+	color: lightgrey;
 }
 
 .ox-button-bar {

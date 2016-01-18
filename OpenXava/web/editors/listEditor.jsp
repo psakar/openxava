@@ -594,9 +594,9 @@ if (current > 1) {
 }
 else {
 %>
-<span class='<%=style.getFirst()%>'><span class='<%=style.getPageNavigationArrowDisable()%>'><img 
-	src='<%=request.getContextPath()%>/<%=style.getImagesFolder()%>/<%=style.getPreviousPageDisableImage()%>' 
-	border=0 align="absmiddle"/></span></span>
+<span class='<%=style.getFirst()%>'><span class='<%=style.getPageNavigationArrowDisable()%>'>
+<i class="mdi mdi-menu-left"></i>
+</span></span>
 <%	
 } 
 %>
@@ -645,9 +645,8 @@ if (!tab.isLastPage()) {
 else {
 %>
 <span class='<%=style.getLast()%>'>
-<span class='<%=style.getPageNavigationArrowDisable()%>'><img 
-	src='<%=request.getContextPath()%>/<%=style.getImagesFolder()%>/<%=style.getNextPageDisableImage()%>' 
-	border=0 align="absmiddle"/>
+<span class='<%=style.getPageNavigationArrowDisable()%>'>
+<i class="mdi mdi-menu-right"></i>
 </span>
 </span>
 <%	

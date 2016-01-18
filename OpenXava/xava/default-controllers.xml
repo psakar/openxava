@@ -298,7 +298,7 @@ here that you want to override.
 			keystroke="Control A"
 			hidden="true"
 			mode="list"
-			image="previous_page.gif"/>					
+			icon="menu-left"/>
 		
 		<action name="goPage"
 			class="org.openxava.actions.GoPageAction"
@@ -311,7 +311,7 @@ here that you want to override.
 			keystroke="Control S"
 			hidden="true"
 			mode="list"
-			image="next_page.gif"/>			
+			icon="menu-right"/>			
 				
 		<action name="orderBy"
 			class="org.openxava.actions.OrderByAction"
@@ -397,12 +397,13 @@ here that you want to override.
 			<controller name="Navigation">
 		<action name="first" mode="detail"
 			image="home.gif"
-			icon="rewind"
+			icon="skip-backward"
 			class="org.openxava.actions.ViewDetailAction"
 			by-default="never"			
 			keystroke="control alt HOME">
 			<set property="goFirst" value="true"/>
-		</action>										
+		</action>
+												
 		<action name="previous" mode="detail"
 			image="previous.gif"
 			icon="skip-previous"
