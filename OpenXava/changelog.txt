@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- Icons instead of images for date and date/time editors and list filtering.
+- Icon to throw calendar in DateTimeCalendar editor inside textfield.
 - Stereotype FILE supports multischema.
 - New icon for going to first record in detail mode.
 - Icons instead of images for page navigation in lists.

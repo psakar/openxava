@@ -21,7 +21,7 @@ public class TrainingTest extends ModuleTestBase {
 	public void testElementCollection() throws Exception { 
 		assertListRowCount(0);
 		execute("CRUD.new");
-		assertDateEditor();
+		assertDateEditor(); 
 		setValue("description", "JUNIT TRAINING");
 		assertCollectionRowCount("sessions", 0);
 		assertValueInCollection("sessions", 0, "description", "");  
@@ -266,7 +266,7 @@ public class TrainingTest extends ModuleTestBase {
 	private void assertDateEditor() throws Exception {
 		String html = getHtml();
 		assertTrue(html.contains("javascript:showCalendar('ox_OpenXavaTest_Training__sessions___0___date'"));
-		assertTrue(html.contains("/OpenXavaTest/xava/images/calendar.gif"));
+		assertTrue(html.contains("<i class=\"mdi mdi-calendar\"")); 		
 	}
 		
 }

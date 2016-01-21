@@ -303,11 +303,6 @@ TD.list-title {
 	vertical-align: 3px;
 }
 
-.page-navigation-arrow i { 
-	font-size: 250%; 
-	vertical-align: middle;
-}
-
 .page-navigation-arrow, .page-navigation-arrow:hover {
 	background-color: transparent;
 	border: none;
@@ -387,18 +382,26 @@ TD.list-title {
 	margin-right: -7px;  
 }
 
-i {
+.portlet-content i {
 	vertical-align: middle; 
+	font-size: 140%; 
+	color: #9EA8AD; 
+}
+
+.portlet-content a:hover i  {   
+	color: #346799;
+}
+
+.page-navigation-arrow i { 
+	font-size: 250%; 
 }
 
 .ox-image-link i, .ox-customize-controls i {  
-	font-size: 140%;
 	padding: 4px;
 }
 
 .ox-button-bar .ox-button-bar-button i, .ox-collection-list-actions i {
 	margin-left: 5px; 
-	font-size: 140%;
 	vertical-align: -2px; 
 }
 
@@ -415,14 +418,6 @@ i {
 
 .ox-list-formats a, .ox-chart-type a, .ox-customize-controls a:hover, a.ox-image-link:hover {   
 	text-decoration: none;
-}
-
-.ox-list-formats i, .ox-image-link i, .ox-chart-type i {  
-	color: #9EA8AD;
-}
-
-.ox-list-formats i:hover, .ox-image-link i:hover  {   
-	color: #346799;
 }
 
 .ox-selected-list-format i, .ox-selected-list-format:hover i {
@@ -661,11 +656,12 @@ span.ox-subcontroller-select a{
 	position: relative;
 	left: -2px;
 	top: -10px;
-	color: #3777D7;
 }
 
 i.ox-required-icon {
 	display: inline-block;
+	color: #3777D7; 
+	font-size: 100%; 
 }
 
 i.ox-error-icon {

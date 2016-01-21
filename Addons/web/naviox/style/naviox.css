@@ -21,6 +21,7 @@ img {
 a {
 	color: #5755D2;
 	text-decoration: none;
+	outline: none; 
 }
 
 a:hover {
@@ -92,7 +93,6 @@ a:hover {
 #main_navigation A {
 	color: #BABABA;
 	text-decoration: none;
-	outline: none;
 	padding-right: 15px;
 }
 
@@ -396,10 +396,6 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus
 	font-size: 20px;
 }
 
-#module_description a { 
-	outline: none;
-}
-
 #bookmark { 
 	margin-left: 5px;
 }
@@ -430,10 +426,7 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus
 }
 
 .ox-button-bar .ox-button-bar-button a, .ox-button-bar-mode-button, 
-.ox-collection-list-actions .ox-button-bar-button a, 
-.ox-list-formats i, .ox-image-link i, .ox-frame-title i,
-.ox-charts i, .ox-list-header i, .ox-help i,
-.ox-page-navigation-arrow i {     
+.ox-collection-list-actions .ox-button-bar-button a, i {      
 	color: #6F6F6F;
 }
 
@@ -456,10 +449,8 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus
 
 .ox-button-bar .ox-button-bar-button a:hover, 
 .ox-collection-list-actions .ox-button-bar-button a:hover, 
-.ox-subcontroller-select a, .ox-list-formats i:hover, .ox-image-link i:hover,
-.ox-selected-list-format i, .ox-frame-title i:hover,
-.ox-charts i:hover, .ox-help i:hover,
-.ox-page-navigation-arrow i:hover {        
+.ox-subcontroller-select a, 
+i:hover, .ox-button-bar a:hover i, .ox-collection-list-actions a:hover i {        
 	color: #191919;
 }
 
@@ -471,16 +462,18 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus
 	border: none;
 }
 
-.ox-button-bar a:focus { 
-	outline: none; 
-}
-
 i {
 	vertical-align: -2px;  
 }
 
 .mdi-border-color {
 	vertical-align: -4px;  
+}
+
+.mdi-calendar, .mdi-calendar-clock, .ox-element-collection .mdi-calendar, .ox-element-collection .mdi-calendar-clock { 
+	vertical-align: middle;
+	padding: 4px 4px 4px 0px;
+	margin-right: -20px;
 }
 
 .ox-list-odd i, .ox-list-pair i {
@@ -501,13 +494,15 @@ i {
 
 }
 
-.ox-image-link i, .ox-list-header i { 
+.ox-module i {
 	font-size: 140%;
+}
+
+.ox-image-link i, .ox-list-header i { 
 	padding: 4px;
 }
 
 .ox-help i { 
-	font-size: 140%;
 	margin-top: -2px;
 }
 
@@ -538,7 +533,6 @@ i {
 
 .ox-button-bar .ox-button-bar-button i, .ox-collection-list-actions i {
 	margin-left: 5px; 
-	font-size: 140%;
 }
 
 .ox-list-formats i {
@@ -582,6 +576,11 @@ a.ox-selected-list-format, a.ox-selected-list-format:hover {
 	position: relative;
 	left: -2px;
 	top: -15px;
+	color: #3777D7;
+}
+
+i.ox-required-icon  {
+	font-size: 100%;
 	color: #3777D7;
 }
 
@@ -873,10 +872,6 @@ input[type="button"]:active, A#show_modules.show-modules-selected {
 .ox-frame-actions {
 	float: left;
 	margin-right: 3px;
-}
-
-.ox-frame-actions a { 
-	outline: none;
 }
 
 .ox-images-gallery {
