@@ -481,6 +481,11 @@ i {
 	
 }
 
+.ox-list-odd .mdi-check, .ox-list-pair .mdi-check {
+	vertical-align: middle;	 
+	color: black;
+}
+
 .ox-list-odd .ox-action-link, .ox-list-pair .ox-action-link {
 	vertical-align: -5px;	
 }

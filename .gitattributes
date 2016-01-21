@@ -6120,7 +6120,6 @@ OpenXava/web/images/ascending3.gif -text
 OpenXava/web/images/attach.gif -text
 OpenXava/web/images/back.gif -text
 OpenXava/web/images/calendar.gif -text
-OpenXava/web/images/checked.gif -text
 OpenXava/web/images/clear-right.gif -text
 OpenXava/web/images/create_new.gif -text
 OpenXava/web/images/delete.gif -text
@@ -11226,7 +11225,6 @@ OpenXavaTest/web/xava/images/attach.gif -text
 OpenXavaTest/web/xava/images/back.gif -text
 OpenXavaTest/web/xava/images/calendar.gif -text
 OpenXavaTest/web/xava/images/charts.png -text
-OpenXavaTest/web/xava/images/checked.gif -text
 OpenXavaTest/web/xava/images/clear-right.gif -text
 OpenXavaTest/web/xava/images/create_new.gif -text
 OpenXavaTest/web/xava/images/delete.gif -text
