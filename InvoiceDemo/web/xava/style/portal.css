@@ -72,6 +72,13 @@ TH.list {
 	background: #cccccc;
 }
 
+.results-row .mdi-check {
+	color: green;
+	font-weight: bold;
+	font-size: 160%;
+	margin-left: -7px; 
+}
+
 .websphere-list-selected {
 	font-weight: bold;
 }
@@ -303,21 +310,14 @@ TD.list-title {
 	vertical-align: 3px;
 }
 
-.page-navigation-arrow {		
-	background-color: white;
+.page-navigation-arrow, .page-navigation-arrow:hover {
+	background-color: transparent;
+	border: none;
+	padding: 0;
 }
 
-.ie7 .page-navigation-arrow {	
-	padding: 1px 4px 2px 4px; 
-}
-
-.page-navigation:hover {
-	border-color: highlight;
-	background-color: white;
-}
-
-.page-navigation-arrow-disable:hover { 
-	border-color: buttonshadow;	
+.page-navigation-arrow-disable i { 
+	color: lightgrey;
 }
 
 .ox-button-bar {
@@ -389,18 +389,26 @@ TD.list-title {
 	margin-right: -7px;  
 }
 
-i {
+.portlet-content i {
 	vertical-align: middle; 
+	font-size: 140%; 
+	color: #9EA8AD; 
 }
 
-.ox-image-link i {
-	font-size: 140%;
+.portlet-content a:hover i  {   
+	color: #346799;
+}
+
+.page-navigation-arrow i { 
+	font-size: 250%; 
+}
+
+.ox-image-link i, .ox-customize-controls i {  
 	padding: 4px;
 }
 
 .ox-button-bar .ox-button-bar-button i, .ox-collection-list-actions i {
 	margin-left: 5px; 
-	font-size: 140%;
 	vertical-align: -2px; 
 }
 
@@ -415,16 +423,8 @@ i {
 	padding: 5px;  
 }
 
-.ox-list-formats a, .ox-chart-type a { 
+.ox-list-formats a, .ox-chart-type a, .ox-customize-controls a:hover, a.ox-image-link:hover {   
 	text-decoration: none;
-}
-
-.ox-list-formats i, .ox-image-link i, .ox-chart-type i {  
-	color: #9EA8AD;
-}
-
-.ox-list-formats i:hover, .ox-image-link i:hover  {   
-	color: #346799;
 }
 
 .ox-selected-list-format i, .ox-selected-list-format:hover i {
@@ -656,4 +656,47 @@ span.ox-subcontroller-select a{
 	padding: 1px;
 	max-height: 70vh;
 	overflow-y: auto;
+}
+
+.ox-required-icon, .ox-error-icon { 
+	width: 0px; 
+	position: relative;
+	left: -2px;
+	top: -10px;
+}
+
+i.ox-required-icon {
+	display: inline-block;
+	color: #3777D7; 
+	font-size: 100%; 
+}
+
+i.ox-error-icon {
+	color: #DC4A38;
+	left: 10px;
+	font-size: 120%;
+}
+
+.ox-customize-controls i {
+	color: black;
+}
+
+.mdi-filter-remove {
+	margin-left: 1px;
+	margin-right: -1px;
+}
+
+i.ox-sort-indicator, i.ox-sort-indicator2 {
+	color: black;
+	vertical-align: middle;
+}
+
+i.ox-sort-indicator2 {
+	font-size: 100%;
+	padding: 1px;
+}
+
+i.mdi-eraser {
+	position: relative;
+	left: 25%;
 }

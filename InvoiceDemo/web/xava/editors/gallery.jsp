@@ -23,9 +23,7 @@ long dif=System.currentTimeMillis(); // to avoid browser caching
 <%=gallery.getTitle()%>
 <%=style.getFrameTitleEndDecoration()%>
 <%=style.getFrameActionsStartDecoration()%>
-<% if (gallery.isMaximized()) { 
-	String minimizeImage=!style.getMinimizeImage().startsWith("/")?request.getContextPath() + "/" + style.getMinimizeImage():style.getMinimizeImage(); 
-%>
+<% if (gallery.isMaximized()) { %>
 <xava:action action='Gallery.minimizeImage'/>
 <% } %>
 <%=style.getFrameActionsEndDecoration()%>

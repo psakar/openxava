@@ -1495,6 +1495,56 @@ InvoiceDemo/web/xava/execute.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/fonts/materialdesignicons-webfont.woff -text
 InvoiceDemo/web/xava/frameActions.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/htmlTagsEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/images/add.gif -text
+InvoiceDemo/web/xava/images/attach.gif -text
+InvoiceDemo/web/xava/images/back.gif -text
+InvoiceDemo/web/xava/images/calendar.gif -text
+InvoiceDemo/web/xava/images/create_new.gif -text
+InvoiceDemo/web/xava/images/delete.gif -text
+InvoiceDemo/web/xava/images/edit-text.gif -text
+InvoiceDemo/web/xava/images/edit.gif -text
+InvoiceDemo/web/xava/images/excel.gif -text
+InvoiceDemo/web/xava/images/filter.gif -text
+InvoiceDemo/web/xava/images/find.gif -text
+InvoiceDemo/web/xava/images/help.png -text
+InvoiceDemo/web/xava/images/home.gif -text
+InvoiceDemo/web/xava/images/html/skins/Jetspeed/tableft.gif -text
+InvoiceDemo/web/xava/images/html/skins/Jetspeed/tableft_low.gif -text
+InvoiceDemo/web/xava/images/html/skins/Jetspeed/tabmiddle.gif -text
+InvoiceDemo/web/xava/images/html/skins/Jetspeed/tabmiddle_low.gif -text
+InvoiceDemo/web/xava/images/html/skins/Jetspeed/tabright.gif -text
+InvoiceDemo/web/xava/images/html/skins/Jetspeed/tabright_low.gif -text
+InvoiceDemo/web/xava/images/level-down.gif -text
+InvoiceDemo/web/xava/images/level-left.gif -text
+InvoiceDemo/web/xava/images/level-right.gif -text
+InvoiceDemo/web/xava/images/level-up.gif -text
+InvoiceDemo/web/xava/images/loading.gif -text
+InvoiceDemo/web/xava/images/maximize.gif -text
+InvoiceDemo/web/xava/images/minimize.gif -text
+InvoiceDemo/web/xava/images/new.gif -text
+InvoiceDemo/web/xava/images/next.gif -text
+InvoiceDemo/web/xava/images/odt.gif -text
+InvoiceDemo/web/xava/images/pdf.gif -text
+InvoiceDemo/web/xava/images/photo.gif -text
+InvoiceDemo/web/xava/images/previous.gif -text
+InvoiceDemo/web/xava/images/private.png -text
+InvoiceDemo/web/xava/images/processing.gif -text
+InvoiceDemo/web/xava/images/property_no_icon.gif -text
+InvoiceDemo/web/xava/images/refresh.gif -text
+InvoiceDemo/web/xava/images/report.gif -text
+InvoiceDemo/web/xava/images/reports.png -text
+InvoiceDemo/web/xava/images/reportsAdmin.png -text
+InvoiceDemo/web/xava/images/restore.gif -text
+InvoiceDemo/web/xava/images/rtf.gif -text
+InvoiceDemo/web/xava/images/save.gif -text
+InvoiceDemo/web/xava/images/search.gif -text
+InvoiceDemo/web/xava/images/shared-reports.png -text
+InvoiceDemo/web/xava/images/shared.png -text
+InvoiceDemo/web/xava/images/sort.gif -text
+InvoiceDemo/web/xava/images/spacer.gif -text
+InvoiceDemo/web/xava/images/summation.gif -text
+InvoiceDemo/web/xava/images/vertical-move.png -text
+InvoiceDemo/web/xava/images/view.gif -text
 InvoiceDemo/web/xava/imports.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/jasperReport.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/js/calendar.js -text svneol=unset#text/plain

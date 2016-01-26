@@ -511,24 +511,35 @@ openxava.limitLength = function(ev, max) {
 // JavaScript for collections and list
 openxava.setFilterVisible = function(application, module, id, tabObject, visible) { 
     var filter = openxava.getElementById(application, module, "list_filter_" + id); 
-    var link = openxava.getElementById(application, module, "show_filter_" + id);
+    var showLink = openxava.getElementById(application, module, "show_filter_" + id);
+    var hideLink = openxava.getElementById(application, module, "hide_filter_" + id);
     if (visible) {
     	$(filter).fadeIn();
-    	$(link).fadeOut();
+    	$(showLink).hide(); 
+    	$(hideLink).show(); 
     }
     else {
     	$(filter).fadeOut();
-    	$(link).fadeIn();    	
+    	$(hideLink).hide(); 
+    	$(showLink).show(); 
     }
 	Tab.setFilterVisible(application, module, visible, tabObject);
 }
 
 openxava.customizeList = function(application, module, id) { 	
-	var customizeControlsClass = openxava.decorateId(application, module, id);	
+	var customizeControlsClass = openxava.decorateId(application, module, "customize_" + id); 
 	$("." + customizeControlsClass).each(function() {
 		if ($(this).is(":visible")) $(this).fadeOut();
 		else $(this).fadeIn(2000);
 	});
+	var tableId = openxava.decorateId(application, module, id); 
+	var firstRow = $("#" + tableId).children().children(":first"); 
+	if (firstRow.hasClass(openxava.customizeControlsClass)) {			
+		firstRow.removeClass(openxava.customizeControlsClass); 
+	}
+	else {
+		firstRow.addClass(openxava.customizeControlsClass); 
+	}
 }
 
 openxava.removeColumn = function(application, module, columnId, tabObject) {  
