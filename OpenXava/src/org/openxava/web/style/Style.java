@@ -780,13 +780,41 @@ public class Style {
 		return "";
 	}
 	
-	public String getMessageStartDecoration () { 
+	public String getMessageStartDecoration() { 
 		return "";
 	}
 	
-	public String getMessageEndDecoration () { 
+	public String getMessageEndDecoration() { 
 		return "";
-	}	
+	}
+	
+	/**
+	 * @since 5.5
+	 */
+	public String getWarningStartDecoration() { 
+		return getMessageStartDecoration();
+	}
+	
+	/**
+	 * @since 5.5
+	 */
+	public String getWarningEndDecoration () { 
+		return getMessageEndDecoration();
+	}
+	
+	/**
+	 * @since 5.5
+	 */
+	public String getInfoStartDecoration() { 
+		return getMessageStartDecoration();
+	}
+	
+	/**
+	 * @since 5.5
+	 */
+	public String getInfoEndDecoration () { 
+		return getMessageEndDecoration();
+	}
 	
 	public String getButton() {
 		return "portlet-form-button";
