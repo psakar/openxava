@@ -1208,7 +1208,7 @@ public class ModuleManager implements java.io.Serializable {
 		return controllersNames == null ? new String[0] : controllersNames;
 	}
 
-	private MetaModule getMetaModule() throws ElementNotFoundException,
+	public MetaModule getMetaModule() throws ElementNotFoundException, 
 			XavaException {
 		if (metaModule == null) {
 			if (Is.emptyString(applicationName, moduleName)) {

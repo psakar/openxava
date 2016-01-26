@@ -22,6 +22,7 @@ import org.apache.commons.lang3.*;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.openxava.actions.IOnChangePropertyAction;
+import org.openxava.application.meta.*;
 import org.openxava.calculators.ICalculator;
 import org.openxava.calculators.IEntityCalculator;
 import org.openxava.calculators.IJDBCCalculator;
@@ -78,6 +79,7 @@ public class View implements java.io.Serializable {
 	private static Collection defaultListActionsForCollections;
 	private static Collection defaultRowActionsForCollections;
 	private static Object refiner;
+	private static Object polisher; 
 	
 	private String viewObject;  
 	private String propertyPrefix; 
@@ -203,6 +205,10 @@ public class View implements java.io.Serializable {
 	public static void setRefiner(Object newRefiner) {
 		refiner = newRefiner;
 	}
+	
+	public static void setPolisher(Object newPolisher) {
+		polisher = newPolisher;
+	}
 		
 	public View() {
 		oid = nextOid++;
@@ -242,6 +248,7 @@ public class View implements java.io.Serializable {
 			removeFirstAndLastSeparator(metaMembers);
 		}
 		removeOverlapedProperties(metaMembers);
+		polish(metaMembers); 
 		return metaMembers;	
 	}
 	
@@ -332,6 +339,17 @@ public class View implements java.io.Serializable {
 		}		
 	}
 	
+	private void polish(Collection metaMembers) { 
+		if (polisher == null) return;
+		try {
+			XObjects.execute(polisher, "refine", MetaModule.class, getModuleManager(getRequest()).getMetaModule(),
+				Collection.class, metaMembers);
+		}
+		catch (Exception ex) {
+			log.error(XavaResources.getString("refining_members_error"), ex); 
+			metaMembers.clear(); 
+		}				
+	}
 
 	public void setMetaMembers(Collection metaMembers) {			
 		if (Is.equal(this.metaMembers, metaMembers)) return;		

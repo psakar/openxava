@@ -53,7 +53,7 @@ abstract public class MetaModel extends MetaElement {
 	private Map mapMetaColections;
 	private Map mapMetaViews;
 	private Map mapMetaMethods;
-	private Collection membersNames = new ArrayList();
+	private Collection<String> membersNames = new ArrayList<String>(); 
 	private Collection calculatedPropertiesNames;
 	private MetaView metaViewByDefault;
 	private boolean pojoGenerated;
@@ -512,7 +512,7 @@ abstract public class MetaModel extends MetaElement {
 	 * Ordered as in component definition file.
 	 * @return Not null, read only and serializable
 	 */
-	public Collection getMembersNames() {
+	public Collection<String> getMembersNames() { 
 		return Collections.unmodifiableCollection(membersNames);
 		// It is not obtained from map to keep order
 	}
