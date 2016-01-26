@@ -19,6 +19,12 @@
 		<list-formatter class="com.openxava.naviox.formatters.ActionsListFormatter" />
 		<for-model-property model="ModuleRights" property="excludedActions" />
 	</editor>
+	
+	<editor url="../../naviox/editors/membersEditor.jsp" frame="true">			
+		<formatter class="com.openxava.naviox.formatters.ArrayAsStringFormatter" />
+		<list-formatter class="com.openxava.naviox.formatters.MembersListFormatter" />
+		<for-model-property model="ModuleRights" property="excludedMembers" />
+	</editor>
 
 	<editor url="../../naviox/editors/organizationUrlEditor.jsp">
 		<for-model-property model="Organization" property="url" />
