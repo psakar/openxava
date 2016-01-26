@@ -113,7 +113,7 @@ public class CarrierTest extends CarrierTestBase {
 		assertLabelInCollection("fellowCarriers", 4, "Remarks");
 						
 		removeColumn("fellowCarriers", 4); 
-		assertCollectionColumnCount("fellowCarriers", 4);
+		assertCollectionColumnCount("fellowCarriers", 4); 
 		assertLabelInCollection("fellowCarriers", 0, "Number");
 		assertLabelInCollection("fellowCarriers", 1, "Name");
 		assertLabelInCollection("fellowCarriers", 2, "Calculated");

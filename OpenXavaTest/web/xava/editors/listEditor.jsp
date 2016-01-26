@@ -190,28 +190,30 @@ while (it.hasNext()) {
 <%
 	if (tab.isOrderAscending(property.getQualifiedName())) {
 %>
-<img src="<%=request.getContextPath()%>/xava/images/<%=style.getAscendingImage()%>" border="0" align="middle"/>
+
+<i class="<%=style.getSortIndicator()%> mdi mdi-arrow-down-bold"></i>
 <%
 	}
 %>
 <%
 	if (tab.isOrderDescending(property.getQualifiedName())) {
 %>
-<img src="<%=request.getContextPath()%>/xava/images/<%=style.getDescendingImage()%>" border="0" align="middle"/>
+<i class="<%=style.getSortIndicator()%> mdi mdi-arrow-up-bold"></i>
 <%
 	}
 %>
 <%
 	if (tab.isOrderAscending2(property.getQualifiedName())) {
 %>
-<img src="<%=request.getContextPath()%>/xava/images/<%=style.getAscending2Image()%>" border="0" align="middle"/>
+<i class="<%=style.getSortIndicator2()%> mdi mdi-arrow-down-bold"></i>
+
 <%
 	}
 %>
 <%
 	if (tab.isOrderDescending2(property.getQualifiedName())) {
 %>
-<img src="<%=request.getContextPath()%>/xava/images/<%=style.getDescending2Image()%>" border="0" align="middle"/>
+<i class="<%=style.getSortIndicator2()%> mdi mdi-arrow-up-bold"></i>
 <%
 	}
 %>	
@@ -245,10 +247,9 @@ while (it.hasNext()) {
 </td> 
 <td class=<%=style.getListSubheaderCell()%> width="5"> 
 	<a title='<xava:message key="clear_condition_values"/>' href="javascript:void(0)">
-		<img 
+		<i class="mdi mdi-eraser" 
 			id="<xava:id name='<%=prefix + "xava_clear_condition"%>' />" 
-			src='<%=request.getContextPath()%>/xava/images/clear-right.gif'
-			border='0' align='middle' onclick="openxava.clearCondition('<%=request.getParameter("application")%>', '<%=request.getParameter("module")%>', '<%=prefix%>')"/>
+			onclick="openxava.clearCondition('<%=request.getParameter("application")%>', '<%=request.getParameter("module")%>', '<%=prefix%>')"></i>		
 	</a>
 </td> 
 <%

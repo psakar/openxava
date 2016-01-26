@@ -86,23 +86,6 @@ public class JetSpeed2Style extends PortalStyle {
 		return "small-label";
 	}
 	
-	public String getAscendingImage() {
-		return "ascending-white.gif";
-	}
-	
-	public String getDescendingImage() {
-		return "descending-white.gif";
-	}
-	
-	public String getAscending2Image() { 
-		return "ascending-white2.gif";
-	}
-	
-	public String getDescending2Image() { 
-		return "descending-white2.gif";
-	}
-	
-	
 	public String getSection() {
 		return "tabs";
 	}

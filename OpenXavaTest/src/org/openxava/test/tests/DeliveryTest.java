@@ -1291,7 +1291,7 @@ public class DeliveryTest extends ModuleTestBase {
 		String s = select.getAttribute("style");
 		assertFalse(s.contains("display: none") || s.contains("display:none"));
 		// clear condition
-		HtmlImage c = (HtmlImage) getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Delivery__xava_clear_condition"); 
+		HtmlElement c = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Delivery__xava_clear_condition");  
 		c.click();
 
 		select = getHtmlPage().getElementByName("ox_OpenXavaTest_Delivery__conditionValue___3");

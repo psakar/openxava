@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- Icons instead of images for sort indicators in list and collections.
+- Icon instead of image to reset filter values in list and collections.
 - Icon instead of image for boolean values in list and collections.
 - Icons instead of images for date and date/time editors and list filtering.
 - Icon to throw calendar in DateTimeCalendar editor inside textfield.

@@ -197,14 +197,6 @@ public class Liferay43Style extends PortalStyle {
 		return ""; 
 	}
 	
-	public String getAscendingImage() {
-		return "ascending.gif";
-	}
-	
-	public String getDescendingImage() {
-		return "descending.gif";
-	}
-	
 	public String getSection() {
 		return "";
 	}

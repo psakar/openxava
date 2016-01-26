@@ -685,3 +685,18 @@ i.ox-error-icon {
 	margin-left: 1px;
 	margin-right: -1px;
 }
+
+i.ox-sort-indicator, i.ox-sort-indicator2 {
+	color: black;
+	vertical-align: middle;
+}
+
+i.ox-sort-indicator2 {
+	font-size: 100%;
+	padding: 1px;
+}
+
+i.mdi-eraser {
+	position: relative;
+	left: 25%;
+}

@@ -791,22 +791,21 @@ public class Style {
 	public String getButton() {
 		return "portlet-form-button";
 	}
-	
-	public String getAscendingImage() {
-		return "ascending.gif";
+		
+	/**
+	 * @since v5.5
+	 */
+	public String getSortIndicator() { 
+		return "ox-sort-indicator";
 	}
 	
-	public String getDescendingImage() {
-		return "descending.gif";
+	/**
+	 * @since v5.5
+	 */
+	public String getSortIndicator2() { 
+		return "ox-sort-indicator2";
 	}
-	
-	public String getAscending2Image() { 
-		return "ascending2.gif";
-	}
-	
-	public String getDescending2Image() { 
-		return "descending2.gif";
-	}	
+
 	
 	public String getSection() {
 		return "ox-section";

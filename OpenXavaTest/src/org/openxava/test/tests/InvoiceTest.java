@@ -2253,7 +2253,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		String s = select.getAttribute("style");
 		assertFalse(s.contains("display: none") || s.contains("display:none"));
 		// clear condition
-		HtmlImage c = (HtmlImage) getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Invoice__xava_clear_condition"); 
+		HtmlElement c = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Invoice__xava_clear_condition"); 
 		c.click();
 		// 
 		select = getHtmlPage().getElementByName("ox_OpenXavaTest_Invoice__conditionComparator___3");

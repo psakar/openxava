@@ -1265,3 +1265,13 @@ div.ox-subcontroller table{
 .firefox .no-close .ox-detail input {
     width: calc(100% - 23px);
 }
+
+i.ox-sort-indicator, i.ox-sort-indicator2 {
+	color: black;
+	vertical-align: middle;
+}
+
+i.ox-sort-indicator2 {
+	font-size: 100%;
+	padding: 1px;
+}
