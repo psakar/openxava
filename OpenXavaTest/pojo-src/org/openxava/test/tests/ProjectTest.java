@@ -86,7 +86,7 @@ public class ProjectTest extends ModuleTestBase {
 	public void testMoveElementInCollectionWithOrderColumn() throws Exception { 
 		String [] membersElements = {"JOHN", "JUAN", "PETER"};
 		moveElementInCollectionWithOrderColumn("members", membersElements, false);	
-		assertTrue(getHtml().contains("class=\"xava_handle\"")); // To verify that ProjectReadOnlyCollectionsTest.testReadOnlyListNotSortable() is valid
+		assertTrue(getHtml().contains("class=\"xava_handle ")); // To verify that ProjectReadOnlyCollectionsTest.testReadOnlyListNotSortable() is valid
 	}
 	
 	public void testMoveElementInAggregateCollectionWithOrderColumn() throws Exception { 

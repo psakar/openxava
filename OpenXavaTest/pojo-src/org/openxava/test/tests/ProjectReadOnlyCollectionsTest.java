@@ -18,7 +18,7 @@ public class ProjectReadOnlyCollectionsTest extends ModuleTestBase {
 		assertCollectionRowCount("members", 3);
 		assertCollectionRowCount("tasks", 3);
 		assertCollectionRowCount("notes", 3);
-		assertFalse(getHtml().contains("class=\"xava_handle\""));
+		assertFalse(getHtml().contains("class=\"xava_handle ")); 
 	}
 			
 }

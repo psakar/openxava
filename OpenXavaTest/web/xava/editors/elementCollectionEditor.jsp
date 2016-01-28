@@ -130,8 +130,13 @@ for (int f=0; f < rowCount; f++) {
 	<td class="<%=cssCellClass%>" style="vertical-align: middle;text-align: center;padding-right: 2px; <%=style.getListCellStyle()%>">
 	<nobr <%=actionsStyle%>>
 	<%if (sortable) { %>
+	<%-- tmp 
 	<img class="xava_handle" align='absmiddle'  
 		src='<%=request.getContextPath()%>/<%=style.getImagesFolder()%>/<%=style.getMoveRowImage()%>' border='0' />
+	--%>
+	<%-- tmp ini --%>
+	<i class="xava_handle mdi mdi-swap-vertical"></i>
+	<%-- tmp fin --%>	
 	<%}%>
 	<%if (!Is.emptyString(removeSelectedAction)) {%>
 	<xava:action action='<%=removeSelectedAction%>' argv='<%="row=" + f + ",viewObject=" + viewName%>'/>

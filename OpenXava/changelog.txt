@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Icon instead of image for sorting rows in collections with @OrderColumn.
 - Icons instead of images for messages.
 - Icons instead of images for sort indicators in list and collections.
 - Icon instead of image to reset filter values in list and collections.

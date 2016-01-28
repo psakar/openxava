@@ -6088,7 +6088,6 @@ OpenXava/web/images/shared.png -text
 OpenXava/web/images/sort.gif -text
 OpenXava/web/images/spacer.gif -text
 OpenXava/web/images/summation.gif -text
-OpenXava/web/images/vertical-move.png -text
 OpenXava/web/images/view.gif -text
 OpenXava/web/imports.jsp -text
 OpenXava/web/jasperReport.jsp -text svneol=unset#text/plain
@@ -8312,6 +8311,8 @@ OpenXavaTest/data/company-b-db.lck -text
 OpenXavaTest/data/company-b-db.log -text
 OpenXavaTest/data/company-b-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-b-db.script -text
+OpenXavaTest/data/openxava-test-db.lck -text
+OpenXavaTest/data/openxava-test-db.log -text
 OpenXavaTest/data/openxava-test-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/openxava-test-db.script -text
 OpenXavaTest/data/openxava-test-ds.xml -text svneol=unset#text/plain
@@ -10696,6 +10697,7 @@ OpenXavaTest/web/help/Color_es.html -text
 OpenXavaTest/web/index.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/editors/actionsEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/editors/forceChangePasswordDaysEditor.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/naviox/editors/membersEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/editors/organizationUrlEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/firstSteps.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/getModulesList.jsp -text svneol=unset#text/plain
@@ -11175,7 +11177,6 @@ OpenXavaTest/web/xava/images/shared.png -text
 OpenXavaTest/web/xava/images/sort.gif -text
 OpenXavaTest/web/xava/images/spacer.gif -text
 OpenXavaTest/web/xava/images/summation.gif -text
-OpenXavaTest/web/xava/images/vertical-move.png -text
 OpenXavaTest/web/xava/images/view.gif -text
 OpenXavaTest/web/xava/imports.jsp -text
 OpenXavaTest/web/xava/jasperReport.jsp -text svneol=unset#text/plain

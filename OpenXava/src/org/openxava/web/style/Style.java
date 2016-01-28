@@ -283,14 +283,6 @@ public class Style {
 		return "page_navigation.gif";
 	}
 		
-	/**
-	 * 
-	 * @since 5.3
-	 */
-	public String getMoveRowImage() {    
-		return "vertical-move.png";
-	}		
-		
 	public String getModule() {
 		return "ox-module";		
 	}

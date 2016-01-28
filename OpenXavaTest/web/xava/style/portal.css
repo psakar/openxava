@@ -700,3 +700,8 @@ i.mdi-eraser {
 	position: relative;
 	left: 25%;
 }
+
+.results-row .mdi-swap-vertical { /* tmp */
+	color: black; 
+	font-weight: bold;
+}
