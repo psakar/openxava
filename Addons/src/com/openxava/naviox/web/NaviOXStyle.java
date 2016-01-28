@@ -55,10 +55,6 @@ public class NaviOXStyle extends Style {
 	public String getMinimizeImage() {
 		return null;
 	}
-
-	public String getMaximizeImage() {
-		return "naviox/images/maximize.gif";  
-	}
 	
 	public String getRemoveImage() {
 		return getImagesFolder() +  "/delete.gif"; 

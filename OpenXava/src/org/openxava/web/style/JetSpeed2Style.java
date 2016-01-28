@@ -114,10 +114,6 @@ public class JetSpeed2Style extends PortalStyle {
 		return "decorations/images/restore.gif";
 	}
 		
-	public String getMaximizeImage() {
-		return "decorations/images/maximized.gif";
-	}
-	
 	public String getMinimizeImage() {
 		return "decorations/images/minimized.gif";
 	}	

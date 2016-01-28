@@ -47,7 +47,7 @@ else {
 	int c = 0;
 	for (Iterator it = gallery.getImages().iterator(); it.hasNext(); ) {
 		GalleryImage image = (GalleryImage) it.next();
-		String maximizeImage=!style.getMaximizeImage().startsWith("/")?request.getContextPath() + "/" + style.getMaximizeImage():style.getMaximizeImage(); 
+		// tmp String maximizeImage=!style.getMaximizeImage().startsWith("/")?request.getContextPath() + "/" + style.getMaximizeImage():style.getMaximizeImage(); 
 		String removeImage=!style.getRemoveImage().startsWith("/")?request.getContextPath() + "/" + style.getRemoveImage():style.getRemoveImage(); 
 		if (c++ % IMAGES_BY_ROW == 0) {
 %>

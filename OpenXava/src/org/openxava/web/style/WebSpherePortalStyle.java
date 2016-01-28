@@ -154,11 +154,7 @@ public class WebSpherePortalStyle extends PortalStyle {
 	public String getRestoreImage() {
 		return "/wps/themes/html/title_alt_restore.gif";
 	}
-		
-	public String getMaximizeImage() {
-		return "/wps/themes/html/title_alt_maximize.gif";
-	}
-	
+			
 	public String getMinimizeImage() {
 		return "/wps/themes/html/title_alt_minimize.gif";
 	}	

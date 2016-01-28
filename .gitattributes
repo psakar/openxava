@@ -942,7 +942,6 @@ Addons/web/naviox/images/corner.png -text
 Addons/web/naviox/images/list-mode-screenshot_en.png -text
 Addons/web/naviox/images/list-mode-screenshot_es.png -text
 Addons/web/naviox/images/loading.gif -text
-Addons/web/naviox/images/maximize.gif -text
 Addons/web/naviox/images/modules-screenshot_en.png -text
 Addons/web/naviox/images/modules-screenshot_es.png -text
 Addons/web/naviox/images/point1.png -text
@@ -1102,7 +1101,6 @@ InvoiceDemo/web/naviox/images/corner.png -text
 InvoiceDemo/web/naviox/images/list-mode-screenshot_en.png -text
 InvoiceDemo/web/naviox/images/list-mode-screenshot_es.png -text
 InvoiceDemo/web/naviox/images/loading.gif -text
-InvoiceDemo/web/naviox/images/maximize.gif -text
 InvoiceDemo/web/naviox/images/modules-screenshot_en.png -text
 InvoiceDemo/web/naviox/images/modules-screenshot_es.png -text
 InvoiceDemo/web/naviox/images/point1.png -text
@@ -3996,7 +3994,6 @@ MySchool/web/naviox/images/corner.png -text
 MySchool/web/naviox/images/list-mode-screenshot_en.png -text
 MySchool/web/naviox/images/list-mode-screenshot_es.png -text
 MySchool/web/naviox/images/loading.gif -text
-MySchool/web/naviox/images/maximize.gif -text
 MySchool/web/naviox/images/modules-screenshot_en.png -text
 MySchool/web/naviox/images/modules-screenshot_es.png -text
 MySchool/web/naviox/images/point1.png -text
@@ -8309,6 +8306,8 @@ OpenXavaTest/data/company-b-db.lck -text
 OpenXavaTest/data/company-b-db.log -text
 OpenXavaTest/data/company-b-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-b-db.script -text
+OpenXavaTest/data/openxava-test-db.lck -text
+OpenXavaTest/data/openxava-test-db.log -text
 OpenXavaTest/data/openxava-test-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/openxava-test-db.script -text
 OpenXavaTest/data/openxava-test-ds.xml -text svneol=unset#text/plain
@@ -10703,7 +10702,6 @@ OpenXavaTest/web/naviox/images/corner.png -text
 OpenXavaTest/web/naviox/images/list-mode-screenshot_en.png -text
 OpenXavaTest/web/naviox/images/list-mode-screenshot_es.png -text
 OpenXavaTest/web/naviox/images/loading.gif -text
-OpenXavaTest/web/naviox/images/maximize.gif -text
 OpenXavaTest/web/naviox/images/modules-screenshot_en.png -text
 OpenXavaTest/web/naviox/images/modules-screenshot_es.png -text
 OpenXavaTest/web/naviox/images/point1.png -text

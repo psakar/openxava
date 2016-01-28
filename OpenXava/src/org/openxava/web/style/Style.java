@@ -915,13 +915,6 @@ public class Style {
 	public String getRestoreImage() {
 		return getImagesFolder() +  "/restore.gif";
 	}
-
-	/** 
-	 * If it starts with '/' the URI is absolute, otherwise the context path is inserted before.
-	 */	
-	public String getMaximizeImage() {
-		return getImagesFolder() +  "/maximize.gif";
-	}
 	
 	/** 
 	 * If it starts with '/' the URI is absolute, otherwise the context path is inserted before.

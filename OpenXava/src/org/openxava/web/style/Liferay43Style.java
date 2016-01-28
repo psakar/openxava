@@ -241,10 +241,6 @@ public class Liferay43Style extends PortalStyle {
 		return getLiferayImagesFolder() + "portlet/restore.png";
 	}
 	
-	public String getMaximizeImage() {
-		return getLiferayImagesFolder() + "portlet/maximize.png"; 
-	}
-	
 	public String getMinimizeImage() {
 		return getLiferayImagesFolder() + "portlet/minimize.png";
 	}	
