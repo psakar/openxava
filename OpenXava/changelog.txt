@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- Delete buttons are red only on hover.
+- Delete icons are red on hover.
 - Icon instead of image for sorting rows in collections with @OrderColumn.
 - Icons instead of images for messages.
 - Icons instead of images for sort indicators in list and collections.

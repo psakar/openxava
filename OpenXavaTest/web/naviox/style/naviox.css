@@ -476,6 +476,10 @@ i {
 	margin-right: -20px;
 }
 
+.mdi-delete:hover {
+	color: red;
+}
+
 .ox-list-odd i, .ox-list-pair i {
 	vertical-align: -7px;
 	
@@ -596,11 +600,8 @@ i.ox-error-icon {
 }
 
 input[type="button"], .ipad input[type="button"]:hover, A#show_modules {
-	background: #F5F5F5;
-	border: 1px solid #C6C6C6;
 	padding: 10px;
-	margin-right: 4px;
-	color: #6F6F6F;
+	margin-right: 4px;	
 	font-size: 12px;
 	font-weight: bold;
 	text-decoration: none;
@@ -608,9 +609,6 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules {
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	cursor: pointer;
-	box-shadow: 0px 1px 2px #CCCCCC; 
-	-moz-box-shadow: 0px 1px 2px #CCCCCC; 
-	-webkit-box-shadow: 0px 1px 2px #CCCCCC;
 }
 
 input[type="button"], .ipad input[type="button"]:hover {
@@ -673,15 +671,17 @@ input[type="button"]:active, A#show_modules.show-modules-selected {
 	-webkit-box-shadow: 0px 0px 0px blue;	
 }
 
-.ox-bottom-buttons input[id*="delete"], .ox-bottom-buttons input[id*="remove"], .ox-bottom-buttons input[id*="borrar"],
-	.ipad .ox-bottom-buttons input[id*="delete"]:hover, .ipad .ox-bottom-buttons input[id*="remove"]:hover, .ipad .ox-bottom-buttons input[id*="borrar"]:hover
-{
-	background: #DC4A38;
-	border-color: #B0281A;
-	color: white;
-	box-shadow: 0px 1px 3px red; 
-	-moz-box-shadow: 0px 1px 3px red; 
-	-webkit-box-shadow: 0px 1px 3px red;
+input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
+.ox-bottom-buttons input[id*="delete"], .ox-bottom-buttons input[id*="remove"], 
+.ox-bottom-buttons input[id*="borrar"], .ipad .ox-bottom-buttons input[id*="delete"]:hover, 
+.ipad .ox-bottom-buttons input[id*="remove"]:hover, 
+.ipad .ox-bottom-buttons input[id*="borrar"]:hover {
+	background: #F5F5F5;
+	border: 1px solid #C6C6C6;
+	color: #6F6F6F;
+	box-shadow: 0px 1px 2px #CCCCCC; 
+	-moz-box-shadow: 0px 1px 2px #CCCCCC; 
+	-webkit-box-shadow: 0px 1px 2px #CCCCCC;
 }
 
 .ipad .ox-bottom-buttons input[id*="delete"], .ipad .ox-bottom-buttons input[id*="remove"], .ipad .ox-bottom-buttons input[id*="borrar"],
