@@ -10,7 +10,7 @@ body {
 	padding: 0;
 }
 
-body, .ui-dialog {
+body, .ui-dialog, input { 
 	font-family: Arial,Helvetica,Verdana,sans-serif !important;
 }
 
@@ -344,12 +344,14 @@ A:hover .module-row, A:hover .folder-row {
 	color: white;
 }
 
-input[type="text"], input[type="password"], input[type="file"], select, textarea {
+
+input[type="text"], input[type="password"], input[type="file"], select, textarea, 
+.ui-widget input[type="text"], .ui-widget input[type="password"], .ui-widget input[type="file"], .ui-widget select, .ui-widget textarea { 
 	border-color: #CCC;
 	border-style: solid;	
 	border-width: 1px;
 	box-shadow: rgba(0, 0, 0, 0.046875) 0px 1px 3px 0px inset, rgba(255, 255, 255, 0.0742188) 0px 1px 0px 0px;
-	font-size: 13px;
+	font-size: 13px; 
 	outline-color: black;
 	outline-style: none;
 	outline-width: 0px;
@@ -503,7 +505,7 @@ i {
 
 }
 
-.ox-module i {
+.ox-module i, .ui-dialog i { 
 	font-size: 140%;
 }
 

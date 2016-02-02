@@ -89,7 +89,7 @@ public class CustomerTest extends CustomizeListTestBase {
 		assertCollectionRowCount("receptionists", 2);
 	}
 				
-	public void testObtainAggregateValues() throws Exception {
+	public void testObtainAggregateValues() throws Exception { 
 		String city = getValueInList(0, "address.city");
 		assertTrue("Value for city in first customer is required for run this test", !Is.emptyString(city));
 		execute("Mode.detailAndFirst");
@@ -169,7 +169,7 @@ public class CustomerTest extends CustomizeListTestBase {
 		assertValue("remarks", "RELATION WITH SELLER JUNIT");
 	}
 	
-	public void testFilterByValidValues() throws Exception {
+	public void testFilterByValidValues() throws Exception { 
 		int total = Customer.findAll().size();
 		int normalOnes = Customer.findNormalOnes().size();
 		int steadyOnes = Customer.findSteadyOnes().size();
@@ -490,7 +490,7 @@ public class CustomerTest extends CustomizeListTestBase {
 		assertValue("relationWithSeller", "HOLA"); // That implies that 'new' not was executed		
 	}
 		
-	public void testPropertiesOfEntityReferenceAndAggregateInList() throws Exception {
+	public void testPropertiesOfEntityReferenceAndAggregateInList() throws Exception { 
 		setConditionValues(new String [] { "JAVI", "" });
 		execute("List.filter");
 		assertListRowCount(1);

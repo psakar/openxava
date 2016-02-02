@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- "contains" instead of "starts" as default value in filters for string values in list and collections. 
+- Fix: Text field font size and family inside dialogs are not the same than in a regular view.
 - Delete buttons are red only on hover.
 - Delete icons are red on hover.
 - Icon instead of image for sorting rows in collections with @OrderColumn.

@@ -144,11 +144,11 @@ public class CarrierWithSectionsTest extends ModuleTestBase {
 		assertValidValues("comparator", numberComparators);
 		
 		setValue("name", "name");
-		assertValue("comparator", "starts_comparator"); 
+		assertValue("comparator", "contains_comparator"); 
 		String [][] stringComparators = {
+			{ "contains_comparator", "contains" },				
 			{ "starts_comparator", "starts" },
 			{ "ends_comparator", "ends" }, 
-			{ "contains_comparator", "contains" },
 			{ "not_contains_comparator", "not contains" },
 			{ "empty_comparator", "empty" },
 			{ "not_empty_comparator", "not empty" },
