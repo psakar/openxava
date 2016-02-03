@@ -11,7 +11,6 @@ import org.openxava.model.meta.*;
 import org.openxava.tab.*;
 import org.openxava.util.*;
 import org.openxava.util.meta.*;
-import org.openxava.view.meta.*;
 
 /**
  * 
@@ -30,7 +29,7 @@ public class MetaTab implements java.io.Serializable, Cloneable {
 	private MetaComponent metaComponent;
 	private List propertiesNames = null;
 	private List<String> propertiesNamesWithKeyAndHidden;
-	private List metaProperties = null;
+	private List<MetaProperty> metaProperties = null; 
 	private List metaPropertiesCalculated = null;
 	private String properties; // separated by commas, like in xml file	
 	private String select;	
@@ -49,7 +48,8 @@ public class MetaTab implements java.io.Serializable, Cloneable {
 	private String defaultPropertiesNames;
 	private String id;
 	private Collection<String> sumPropertiesNames;
-	private String editor; 
+	private String editor;
+	private Set<String> droppedMembers; 
 
 
 	
@@ -94,7 +94,7 @@ public class MetaTab implements java.io.Serializable, Cloneable {
 	/**
 	 * @return Not null, read only and of type <tt>MetaProperty</tt>.
 	 */
-	public List getMetaProperties() throws XavaException {
+	public List<MetaProperty> getMetaProperties() throws XavaException { 
 		if (metaProperties == null) {
 			metaProperties = namesToMetaProperties(getPropertiesNames());
 		}
@@ -551,7 +551,13 @@ public class MetaTab implements java.io.Serializable, Cloneable {
 		propertiesNames.remove(propertyName);
 		resetAfterAddRemoveProperty();
 	}
-
+	
+	public void dropProperty(String propertyName) { 
+		removeProperty(propertyName);
+		if (droppedMembers == null) droppedMembers = new HashSet();
+		droppedMembers.add(Strings.firstToken(propertyName, "."));
+	}
+	
 	/**
 	 * For dynamically remove properties to this tab
 	 */
@@ -584,6 +590,7 @@ public class MetaTab implements java.io.Serializable, Cloneable {
 	
 	public void restoreDefaultProperties() { 
 		setPropertiesNames(defaultPropertiesNames); 
+		removeDroppedMembers(getPropertiesNames()); 
 		resetAfterAddRemoveProperty();
 	}
 	
@@ -700,6 +707,7 @@ public class MetaTab implements java.io.Serializable, Cloneable {
 	public List getRemainingPropertiesNames() throws XavaException { 
 		List result = new ArrayList(getMetaModel().getRecursiveQualifiedPropertiesNames());
 		result.removeAll(getPropertiesNames());
+		removeDroppedMembers(result);
 		return result;
 	}
 	
@@ -709,9 +717,23 @@ public class MetaTab implements java.io.Serializable, Cloneable {
 	public List getRemainingPropertiesNamesUntilSecondLevel() throws XavaException {  
 		List result = new ArrayList(getMetaModel().getRecursiveQualifiedPropertiesNamesUntilSecondLevel());
 		result.removeAll(getPropertiesNames());
+		removeDroppedMembers(result); 
 		return result;
 	}
 
+
+	private void removeDroppedMembers(List result) { 
+		if (droppedMembers == null) return;
+		for (String droppedMember: droppedMembers) {
+			for (String member: new ArrayList<String>(result)) {
+				if (droppedMember.equals(member) || 
+					member.startsWith(droppedMember + ".")) 
+				{
+					result.remove(member);
+				}
+			}
+		}
+	}
 
 	public void addMetaRowStyle(MetaRowStyle style) {
 		if (rowStyles == null) rowStyles = new ArrayList();

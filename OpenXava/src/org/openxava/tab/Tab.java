@@ -11,7 +11,9 @@ import javax.servlet.http.*;
 
 import org.apache.commons.lang.*;
 import org.apache.commons.logging.*;
+import org.openxava.application.meta.*;
 import org.openxava.component.*;
+import org.openxava.controller.*;
 import org.openxava.converters.*;
 import org.openxava.filters.*;
 import org.openxava.mapping.*;
@@ -26,7 +28,7 @@ import org.openxava.web.*;
  * Session object to work with tabular data. <p> 
  * 
  * @author Javier Paniza
- * @author Ana AndrÃ©s
+ * @author Ana Andrés
  * @author Trifon Trifonov
  */
 
@@ -67,6 +69,8 @@ public class Tab implements java.io.Serializable {
 	private final static String PAGE_ROW_COUNT = "pageRowCount"; 
 	private final static String COLUMN_WIDTH = "columnWidth."; 
 	private final static int MAX_PAGE_ROW_COUNT = 20; 
+	
+	private static Object refiner; 
 	
 	private int pageRowCount = XavaPreferences.getInstance().getPageRowCount();
 	private Object [] titleArguments;
@@ -129,6 +133,10 @@ public class Tab implements java.io.Serializable {
 	
 	private Messages errors; 
 	
+	public static void setRefiner(Object newRefiner) {
+		refiner = newRefiner;
+	}
+	
 	public Tab() {
 	}
 	
@@ -142,7 +150,7 @@ public class Tab implements java.io.Serializable {
 	
 	public List<MetaProperty> getMetaProperties() { 
 		if (metaProperties == null) {
-			if (Is.emptyString(getModelName())) return Collections.EMPTY_LIST;				
+			if (Is.emptyString(getModelName())) return Collections.EMPTY_LIST;
 			metaProperties = getMetaTab().getMetaProperties();
 			setPropertiesLabels(metaProperties);
 		}				
@@ -417,9 +425,8 @@ public class Tab implements java.io.Serializable {
 		EntityTab tab = EntityTabFactory.createAllData(getMetaTab());
 		usesConverters = tab.usesConverters();
 		tab.search(getCondition(), getKey());		
-		return tab.getTable();					
-	}
-	
+		return tab.getTable();
+	}	
 	
 	public void setTableModel(IXTableModel tableModel) {
 		this.tableModel = tableModel;		
@@ -697,6 +704,25 @@ public class Tab implements java.io.Serializable {
 		return sb.toString();
 	}
 	
+	private void refine() { 
+		if (refiner == null) return;
+		if (request == null) return;
+		cloneMetaTab();
+		try {
+			XObjects.execute(refiner, "polish", MetaModule.class, getModuleManager(request).getMetaModule(),
+				MetaTab.class, metaTab);
+		}
+		catch (Exception ex) {
+			log.error(XavaResources.getString("refining_members_error"), ex);
+			clearProperties(); 
+		}
+	}
+	
+	private ModuleManager getModuleManager(HttpServletRequest request) throws XavaException {	
+		ModuleContext context = (ModuleContext) request.getSession().getAttribute("context");		
+		return (ModuleManager) context.get(request, "manager");		
+	}
+
 	private String decorateConditionProperty(MetaProperty metaProperty, int i) throws XavaException {
 		String property = "${" + metaProperty.getQualifiedName() + "}";
 		if ("year_comparator".equals(this.conditionComparators[i])) {
@@ -1232,7 +1258,7 @@ public class Tab implements java.io.Serializable {
 		modelName = newModelName;
 		tabName = null; 
 		reinitState();
-		loadUserPreferences();
+		// loadUserPreferences();  The preferences are loaded only in setTabName() for performance
 	}
 
 	private void reinitState() {
@@ -1591,6 +1617,7 @@ public class Tab implements java.io.Serializable {
 				propertiesNames = removeNonexistentProperties(propertiesNames); // To remove the properties of old versions of the entities 
 				setPropertiesNames(propertiesNames);
 			}			
+			refine(); 
 			sumPropertiesNames = Strings.toSetNullByPass(preferences.get(SUM_PROPERTIES_NAMES, null));
 			rowsHidden = preferences.getBoolean(ROWS_HIDDEN, rowsHidden);			
 			filterVisible = preferences.getBoolean(FILTER_VISIBLE, filterVisible);
