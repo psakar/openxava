@@ -189,6 +189,7 @@ public class View implements java.io.Serializable {
 	private Collection propertiesWithChangedActions;
 	private Object model;
 	private List sections;
+	private boolean polished = true; 
 	
 	// firstLevel is the root view that receives the request 
 	// usually match with getRoot(), but not always. For example,
@@ -248,7 +249,6 @@ public class View implements java.io.Serializable {
 			removeFirstAndLastSeparator(metaMembers);
 		}
 		removeOverlapedProperties(metaMembers);
-		polish(metaMembers); 
 		return metaMembers;	
 	}
 	
@@ -339,11 +339,14 @@ public class View implements java.io.Serializable {
 		}		
 	}
 	
-	private void polish(Collection metaMembers) { 
+	private void polish() { 
 		if (polisher == null) return;
+		if (polished) return;
+		if (!isFirstLevel()) return;
 		try {
 			XObjects.execute(polisher, "refine", MetaModule.class, getModuleManager(getRequest()).getMetaModule(),
-				Collection.class, metaMembers);
+				Collection.class, getMetaMembers(), View.class, this);
+			polished = true;
 		}
 		catch (Exception ex) {
 			log.error(XavaResources.getString("refining_members_error"), ex); 
@@ -497,14 +500,15 @@ public class View implements java.io.Serializable {
 		return result;
 	}
 
-	private boolean hasGroups() {		
+	private boolean hasGroups() {	
+		getSubviews(); // in order to start the process that create subviews and groups 
 		return groupsViews != null && !groupsViews.isEmpty();
 	}
 	
 	public void addValues(Map values) throws XavaException { 
 		addValues(values, false);
 	}
-
+ 
 	private void addValues(Map values, boolean setValuesForSubviews) throws XavaException {		
 		values = values==null?Collections.EMPTY_MAP:values; 		
 		Iterator it = values.entrySet().iterator();
@@ -2345,7 +2349,16 @@ public class View implements java.io.Serializable {
 		return !getNotEditableMembersNames().contains(name);
 	}
 	
-	public void setEditable(String name, boolean editable) throws XavaException {		
+	/**
+	 * To make an element of the user interface editable or not editable. 
+	 * <br/>
+	 * You can use it for properties, references (since v5.5) and collections (since v5.5). 
+	 * <br/>
+	 * 
+	 * @param name  Name of the property, reference or section
+	 * @param editable  true to make it editable, false to make it read only
+	 */
+	public void setEditable(String name, boolean editable) throws XavaException {
 		if (editable) getNotEditableMembersNames().remove(name);
 		else getNotEditableMembersNames().add(name);
 		
@@ -2374,16 +2387,16 @@ public class View implements java.io.Serializable {
 		for (Iterator it = getSubviews().values().iterator(); it.hasNext();) {				
 			View subview = (View) it.next();				
 			if (subview.isRepresentsCollection()) {
-				subview.setCollectionEditable(b);
-				if (!subview.collectionMembersEditables) { 
+				subview.setCollectionEditable(isMarkedAsEditable(subview.getMemberName())?b:false); 
+				if (!subview.collectionMembersEditables || !isMarkedAsEditable(subview.getMemberName())) { 
 					subview.setKeyEditable(false); 
 					subview.setEditable(false); 
-					continue;
+					return;
 				}					
 			}
 			if (subview.isRepresentsEntityReference()) {
 				subview.setEditable(false);
-				subview.setKeyEditable(b); 					
+				subview.setKeyEditable(isMarkedAsEditable(subview.getMemberName())?b:false);  
 			}
 			else {
 				subview.setEditable(b);
@@ -2392,21 +2405,7 @@ public class View implements java.io.Serializable {
 			
 		for (Iterator it = getGroupsViews().values().iterator(); it.hasNext();) {				
 			View subview = (View) it.next();
-			if (subview.isRepresentsCollection()) {
-				subview.setCollectionEditable(b);
-				if (!subview.isCollectionMembersEditables()) {
-					subview.setKeyEditable(false); 
-					subview.setEditable(false); 
-					continue;
-				}					
-			}
-			if (subview.isRepresentsEntityReference()) {				
-				subview.setKeyEditable(b); 
-				subview.setEditable(false); 					
-			}
-			else {
-				subview.setEditable(b);
-			}			
+			subview.setEditable(b); 
 		}		
 		
 		if (hasSections()) {
@@ -2454,6 +2453,7 @@ public class View implements java.io.Serializable {
 		sections = null; 
 		hiddenMembers = null; 
 		groupsViews = null;
+		polished = false;
 	}
 	
 	public void assignValuesToWebView() {
@@ -3673,6 +3673,7 @@ public class View implements java.io.Serializable {
 
 	public void setRequest(HttpServletRequest request) throws XavaException {			
 		getRoot().request = request; 
+		polish(); 
 	}
 
 	public boolean displayAsDescriptionsList(MetaReference ref) throws XavaException {		

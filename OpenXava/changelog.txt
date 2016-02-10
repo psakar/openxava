@@ -1,6 +1,9 @@
 Change Log for OpenXava project
 ===============================
 
+- New method XObjects.execute() to call dynamically methods with three arguments.
+- View.setEditable(member, state) works for references and collection in addition of plain properties.
+- Fix: If view is not initialized View.setEditable(member, state) is not propagate to groups. 
 - "contains" instead of "starts" as default value in filters for string values in list and collections. 
 - Fix: Text field font size and family inside dialogs are not the same than in a regular view.
 - Delete buttons are red only on hover.

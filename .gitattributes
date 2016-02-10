@@ -932,6 +932,7 @@ Addons/src/com/openxava/phone/web/Browsers.java -text svneol=unset#text/plain
 Addons/src/com/openxava/phone/web/PhoneServlet.java -text svneol=unset#text/plain
 Addons/web/index.jsp -text svneol=unset#text/plain
 Addons/web/naviox/editors/actionsEditor.jsp -text svneol=unset#text/plain
+Addons/web/naviox/editors/commonDefinitions.jsp -text svneol=unset#text/plain
 Addons/web/naviox/editors/membersEditor.jsp -text svneol=unset#text/plain
 Addons/web/naviox/editors/organizationUrlEditor.jsp -text svneol=unset#text/plain
 Addons/web/naviox/firstSteps.jsp -text svneol=unset#text/plain
