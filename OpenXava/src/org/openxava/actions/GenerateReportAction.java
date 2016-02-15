@@ -43,14 +43,24 @@ public class GenerateReportAction extends TabBaseAction implements IForwardActio
 	}
 		
 	public boolean inNewWindow() {
-		return true;				
+		return true; 
 	}
 
-	public String getForwardURI() {		
-		return "/xava/list." + getType() + 
-			"?application=" + getRequest().getParameter("application") +
-			"&module=" + getRequest().getParameter("module") +
-			"&time=" + System.currentTimeMillis();
+	public String getForwardURI() {
+		if (isAndroid() && "pdf".equals(getType())) {
+			return "/xava/js/pdfjs/web/viewer.html?file=/" + getRequest().getParameter("application") + "/xava/list.pdf";
+		}
+		else {
+			return "/xava/list." + getType() + 
+				"?application=" + getRequest().getParameter("application") +
+				"&module=" + getRequest().getParameter("module") +
+				"&time=" + System.currentTimeMillis();
+		}
+	}
+	
+	private boolean isAndroid() { 
+		String browser = getRequest().getHeader("user-agent");
+		return browser != null && browser.contains("Android");
 	}
 
 	public String getType() {

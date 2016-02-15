@@ -4888,6 +4888,7 @@ OpenXava/licenses/license.dom.txt -text
 OpenXava/licenses/license.sax.txt -text
 OpenXava/licenses/license.xerces.txt -text
 OpenXava/licenses/material-design-icons-license.txt -text svneol=unset#text/plain
+OpenXava/licenses/pdfjs-license.txt -text svneol=unset#text/plain
 OpenXava/licenses/tl-license.txt -text
 OpenXava/notcompile/org/openxava/converters/typeadapters/ArrayOneRowResultSetAdapter.java -text
 OpenXava/notcompile/org/openxava/converters/typeadapters/ObjectPreparedStatementAdapter.java -text
@@ -6094,6 +6095,97 @@ OpenXava/web/js/jquery.js -text svneol=unset#text/plain
 OpenXava/web/js/jquery.sorttable.js -text svneol=unset#text/plain
 OpenXava/web/js/jquery.ui.touch-punch.js -text svneol=unset#text/plain
 OpenXava/web/js/openxava.js -text svneol=unset#text/plain
+OpenXava/web/js/pdfjs/build/pdf.js -text svneol=unset#text/plain
+OpenXava/web/js/pdfjs/build/pdf.worker.js -text svneol=unset#text/plain
+OpenXava/web/js/pdfjs/web/debugger.js -text svneol=unset#text/plain
+OpenXava/web/js/pdfjs/web/images/annotation-check.svg -text
+OpenXava/web/js/pdfjs/web/images/annotation-comment.svg -text
+OpenXava/web/js/pdfjs/web/images/annotation-help.svg -text
+OpenXava/web/js/pdfjs/web/images/annotation-insert.svg -text
+OpenXava/web/js/pdfjs/web/images/annotation-key.svg -text
+OpenXava/web/js/pdfjs/web/images/annotation-newparagraph.svg -text
+OpenXava/web/js/pdfjs/web/images/annotation-noicon.svg -text
+OpenXava/web/js/pdfjs/web/images/annotation-note.svg -text
+OpenXava/web/js/pdfjs/web/images/annotation-paragraph.svg -text
+OpenXava/web/js/pdfjs/web/images/findbarButton-next-rtl.png -text
+OpenXava/web/js/pdfjs/web/images/findbarButton-next-rtl@2x.png -text
+OpenXava/web/js/pdfjs/web/images/findbarButton-next.png -text
+OpenXava/web/js/pdfjs/web/images/findbarButton-next@2x.png -text
+OpenXava/web/js/pdfjs/web/images/findbarButton-previous-rtl.png -text
+OpenXava/web/js/pdfjs/web/images/findbarButton-previous-rtl@2x.png -text
+OpenXava/web/js/pdfjs/web/images/findbarButton-previous.png -text
+OpenXava/web/js/pdfjs/web/images/findbarButton-previous@2x.png -text
+OpenXava/web/js/pdfjs/web/images/grab.cur -text
+OpenXava/web/js/pdfjs/web/images/grabbing.cur -text
+OpenXava/web/js/pdfjs/web/images/loading-icon.gif -text
+OpenXava/web/js/pdfjs/web/images/loading-small.png -text
+OpenXava/web/js/pdfjs/web/images/loading-small@2x.png -text
+OpenXava/web/js/pdfjs/web/images/secondaryToolbarButton-documentProperties.png -text
+OpenXava/web/js/pdfjs/web/images/secondaryToolbarButton-documentProperties@2x.png -text
+OpenXava/web/js/pdfjs/web/images/secondaryToolbarButton-firstPage.png -text
+OpenXava/web/js/pdfjs/web/images/secondaryToolbarButton-firstPage@2x.png -text
+OpenXava/web/js/pdfjs/web/images/secondaryToolbarButton-handTool.png -text
+OpenXava/web/js/pdfjs/web/images/secondaryToolbarButton-handTool@2x.png -text
+OpenXava/web/js/pdfjs/web/images/secondaryToolbarButton-lastPage.png -text
+OpenXava/web/js/pdfjs/web/images/secondaryToolbarButton-lastPage@2x.png -text
+OpenXava/web/js/pdfjs/web/images/secondaryToolbarButton-rotateCcw.png -text
+OpenXava/web/js/pdfjs/web/images/secondaryToolbarButton-rotateCcw@2x.png -text
+OpenXava/web/js/pdfjs/web/images/secondaryToolbarButton-rotateCw.png -text
+OpenXava/web/js/pdfjs/web/images/secondaryToolbarButton-rotateCw@2x.png -text
+OpenXava/web/js/pdfjs/web/images/shadow.png -text
+OpenXava/web/js/pdfjs/web/images/texture.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-bookmark.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-bookmark@2x.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-download.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-download@2x.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-menuArrows.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-menuArrows@2x.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-openFile.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-openFile@2x.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-pageDown-rtl.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-pageDown-rtl@2x.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-pageDown.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-pageDown@2x.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-pageUp-rtl.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-pageUp-rtl@2x.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-pageUp.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-pageUp@2x.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-presentationMode.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-presentationMode@2x.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-print.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-print@2x.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-search.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-search@2x.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-secondaryToolbarToggle-rtl.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-secondaryToolbarToggle-rtl@2x.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-secondaryToolbarToggle.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-secondaryToolbarToggle@2x.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-sidebarToggle-rtl.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-sidebarToggle-rtl@2x.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-sidebarToggle.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-sidebarToggle@2x.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-viewAttachments.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-viewAttachments@2x.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-viewOutline-rtl.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-viewOutline-rtl@2x.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-viewOutline.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-viewOutline@2x.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-viewThumbnail.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-viewThumbnail@2x.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-zoomIn.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-zoomIn@2x.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-zoomOut.png -text
+OpenXava/web/js/pdfjs/web/images/toolbarButton-zoomOut@2x.png -text
+OpenXava/web/js/pdfjs/web/images/treeitem-collapsed-rtl.png -text
+OpenXava/web/js/pdfjs/web/images/treeitem-collapsed-rtl@2x.png -text
+OpenXava/web/js/pdfjs/web/images/treeitem-collapsed.png -text
+OpenXava/web/js/pdfjs/web/images/treeitem-collapsed@2x.png -text
+OpenXava/web/js/pdfjs/web/images/treeitem-expanded.png -text
+OpenXava/web/js/pdfjs/web/images/treeitem-expanded@2x.png -text
+OpenXava/web/js/pdfjs/web/l10n.js -text svneol=unset#text/plain
+OpenXava/web/js/pdfjs/web/viewer.css -text svneol=unset#text/plain
+OpenXava/web/js/pdfjs/web/viewer.html -text svneol=unset#text/plain
+OpenXava/web/js/pdfjs/web/viewer.js -text svneol=unset#text/plain
 OpenXava/web/js/typewatch.js -text svneol=unset#text/plain
 OpenXava/web/list.jsp -text svneol=unset#text/plain
 OpenXava/web/messages.jsp -text svneol=unset#text/plain

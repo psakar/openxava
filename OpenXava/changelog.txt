@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Generating PDF in list fails with Android. 
 - New method XObjects.execute() to call dynamically methods with three arguments.
 - View.setEditable(member, state) works for references and collection in addition of plain properties.
 - Fix: If view is not initialized View.setEditable(member, state) is not propagate to groups. 

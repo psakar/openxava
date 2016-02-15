@@ -164,7 +164,7 @@ public class GenerateReportServlet extends HttpServlet {
 			}						
 			request.getParameter("application"); // for a bug in websphere 5.1 
 			request.getParameter("module"); // for a bug in websphere 5.1
-			Tab tab = (Tab) request.getSession().getAttribute("xava_reportTab");			
+			Tab tab = (Tab) request.getSession().getAttribute("xava_reportTab");
 			int [] selectedRowsNumber = (int []) request.getSession().getAttribute("xava_selectedRowsReportTab");
 			Map [] selectedKeys = (Map []) request.getSession().getAttribute("xava_selectedKeysReportTab");
 			int [] selectedRows = getSelectedRows(selectedRowsNumber, selectedKeys, tab);			
