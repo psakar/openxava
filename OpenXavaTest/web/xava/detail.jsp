@@ -44,8 +44,11 @@ boolean onlySections = view.hasSections() && view.getMetaMembers().isEmpty();
 %>
 
 <%
+/* We have to do this selectable in xava.properties
 boolean renderedView = isSection ? layoutPainterManager.renderSection(view, pageContext)
-	: layoutPainterManager.renderView(view, pageContext);	
+	: layoutPainterManager.renderView(view, pageContext);
+*/
+boolean renderedView = false;
 if (!renderedView) {
 	// Only performed if no layout painter is in effect.
 	if (!onlySections) {	// IF Not Only Sections
@@ -335,7 +338,8 @@ if (!renderedView) {
 %>
 			<%=style.getFrameHeaderStartDecoration(frameWidth)%>
 			<%=style.getFrameTitleStartDecoration()%>
-			<%=group.getLabel(request)%>
+			<% String labelId = Ids.decorate(request, "label_" + view.getPropertyPrefix() + group.getName()); %>
+			<span id="<%=labelId%>"><%=group.getLabel(request)%></span>
 			<%=style.getFrameTitleEndDecoration()%>
 			<%=style.getFrameActionsStartDecoration()%>
 <% 

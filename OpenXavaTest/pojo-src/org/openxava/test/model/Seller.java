@@ -3,7 +3,6 @@ package org.openxava.test.model;
 import java.util.*;
 
 import javax.persistence.*;
-import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 
 import org.hibernate.annotations.*;
@@ -25,6 +24,8 @@ import org.openxava.annotations.*;
 		"number; name; " +
 		"customers { customers }"
 	),
+	@View(name="Simple", members="number; name; level"),
+	@View(name="SimpleNoNumber", members="name; level"),
 	@View(name="CustomersAsAggregate", members="number; name; level; customers"),
 	@View(name="LevelNoDescriptionsList", members="number; name; level"),
 	@View(name="SearchListCondition", members="number; name;level;customers"),

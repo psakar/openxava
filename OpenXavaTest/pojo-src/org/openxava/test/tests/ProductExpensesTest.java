@@ -29,7 +29,7 @@ public class ProductExpensesTest extends ModuleTestBase {
 			{ "[.1.2009.]", "2009 1" },
 			{ "[.1.2011.]", "2011 1" }			
 		};		
-		assertValidValuesInCollection("expenses", 0, "invoice.KEY", invoiceValidValues);
+		assertValidValuesInCollection("expenses", 0, "invoice.KEY", invoiceValidValues); 
 		String [][] productValidValues = {
 			{ "", "" },
 			{ "4", "CUATRE" },

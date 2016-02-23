@@ -5675,7 +5675,7 @@ OpenXava/web/collectionList.jsp -text svneol=unset#text/plain
 OpenXava/web/core.jsp -text svneol=unset#text/plain
 OpenXava/web/detail.jsp -text svneol=unset#text/plain
 OpenXava/web/editor.jsp -text svneol=unset#text/plain
-OpenXava/web/editorIcons.jsp -text
+OpenXava/web/editorIcons.jsp -text svneol=unset#text/plain
 OpenXava/web/editorWrapper.jsp -text
 OpenXava/web/editors/actionEditor.jsp -text
 OpenXava/web/editors/addColumns.jsp -text svneol=unset#text/plain
@@ -6193,6 +6193,7 @@ OpenXava/web/module.jsp -text svneol=unset#text/plain
 OpenXava/web/portlet.jsp -text
 OpenXava/web/propertyActions.jsp -text
 OpenXava/web/reference.jsp -text svneol=unset#text/plain
+OpenXava/web/referenceActions.jsp -text svneol=unset#text/plain
 OpenXava/web/referenceEditorIcons.jsp -text
 OpenXava/web/referenceSearch.jsp -text svneol=unset#text/plain
 OpenXava/web/sections.jsp -text svneol=unset#text/plain
@@ -10590,6 +10591,8 @@ OpenXavaTest/src/org/openxava/test/tests/CustomerNewOnInitTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerRadioButtonTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerReadOnlyTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerSellerAsAggregateTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/CustomerSellerAsDescriptionsListShowingReferenceViewNoKeyTest.java -text svneol=unset#text/plain
+OpenXavaTest/src/org/openxava/test/tests/CustomerSellerAsDescriptionsListShowingReferenceViewTest.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/CustomerSimpleTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerSomeMembersReadOnlyTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerTest.java -text
@@ -10690,6 +10693,7 @@ OpenXavaTest/src/org/openxava/test/tests/TestServletTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/TransportCharge2Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/TransportChargeTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/TransportChargeTestBase.java -text
+OpenXavaTest/src/org/openxava/test/tests/TransportChargeWithDescriptionsListShowingReferenceViewTest.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/TransportChargeWithDistanceTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/VehicleTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehouseDetailListTest.java -text
@@ -10782,6 +10786,7 @@ OpenXavaTest/web/help/Color_en.html -text
 OpenXavaTest/web/help/Color_es.html -text
 OpenXavaTest/web/index.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/editors/actionsEditor.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/naviox/editors/commonDefinitions.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/editors/forceChangePasswordDaysEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/editors/membersEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/editors/organizationUrlEditor.jsp -text svneol=unset#text/plain
@@ -10825,7 +10830,7 @@ OpenXavaTest/web/xava/collectionList.jsp -text
 OpenXavaTest/web/xava/core.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/detail.jsp -text
 OpenXavaTest/web/xava/editor.jsp -text
-OpenXavaTest/web/xava/editorIcons.jsp -text
+OpenXavaTest/web/xava/editorIcons.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editorWrapper.jsp -text
 OpenXavaTest/web/xava/editors/actionEditor.jsp -text
 OpenXavaTest/web/xava/editors/addColumns.jsp -text
@@ -11271,14 +11276,106 @@ OpenXavaTest/web/xava/js/jquery-ui.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/js/jquery.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/js/jquery.sorttable.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/js/jquery.ui.touch-punch.js -text svneol=unset#text/plain
-OpenXavaTest/web/xava/js/openxava.js -text
+OpenXavaTest/web/xava/js/openxava.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/js/pdfjs/build/pdf.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/js/pdfjs/build/pdf.worker.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/js/pdfjs/web/debugger.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/js/pdfjs/web/images/annotation-check.svg -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/annotation-comment.svg -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/annotation-help.svg -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/annotation-insert.svg -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/annotation-key.svg -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/annotation-newparagraph.svg -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/annotation-noicon.svg -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/annotation-note.svg -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/annotation-paragraph.svg -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/findbarButton-next-rtl.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/findbarButton-next-rtl@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/findbarButton-next.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/findbarButton-next@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/findbarButton-previous-rtl.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/findbarButton-previous-rtl@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/findbarButton-previous.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/findbarButton-previous@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/grab.cur -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/grabbing.cur -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/loading-icon.gif -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/loading-small.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/loading-small@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/secondaryToolbarButton-documentProperties.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/secondaryToolbarButton-documentProperties@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/secondaryToolbarButton-firstPage.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/secondaryToolbarButton-firstPage@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/secondaryToolbarButton-handTool.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/secondaryToolbarButton-handTool@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/secondaryToolbarButton-lastPage.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/secondaryToolbarButton-lastPage@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/secondaryToolbarButton-rotateCcw.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/secondaryToolbarButton-rotateCcw@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/secondaryToolbarButton-rotateCw.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/secondaryToolbarButton-rotateCw@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/shadow.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/texture.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-bookmark.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-bookmark@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-download.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-download@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-menuArrows.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-menuArrows@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-openFile.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-openFile@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-pageDown-rtl.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-pageDown-rtl@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-pageDown.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-pageDown@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-pageUp-rtl.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-pageUp-rtl@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-pageUp.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-pageUp@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-presentationMode.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-presentationMode@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-print.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-print@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-search.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-search@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-secondaryToolbarToggle-rtl.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-secondaryToolbarToggle-rtl@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-secondaryToolbarToggle.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-secondaryToolbarToggle@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-sidebarToggle-rtl.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-sidebarToggle-rtl@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-sidebarToggle.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-sidebarToggle@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-viewAttachments.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-viewAttachments@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-viewOutline-rtl.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-viewOutline-rtl@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-viewOutline.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-viewOutline@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-viewThumbnail.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-viewThumbnail@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-zoomIn.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-zoomIn@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-zoomOut.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/toolbarButton-zoomOut@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/treeitem-collapsed-rtl.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/treeitem-collapsed-rtl@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/treeitem-collapsed.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/treeitem-collapsed@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/treeitem-expanded.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/images/treeitem-expanded@2x.png -text
+OpenXavaTest/web/xava/js/pdfjs/web/l10n.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/js/pdfjs/web/viewer.css -text svneol=unset#text/plain
+OpenXavaTest/web/xava/js/pdfjs/web/viewer.html -text svneol=unset#text/plain
+OpenXavaTest/web/xava/js/pdfjs/web/viewer.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/js/typewatch.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/list.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/messages.jsp -text
 OpenXavaTest/web/xava/module.jsp -text
 OpenXavaTest/web/xava/portlet.jsp -text
 OpenXavaTest/web/xava/propertyActions.jsp -text
-OpenXavaTest/web/xava/reference.jsp -text
+OpenXavaTest/web/xava/reference.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/referenceActions.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/referenceEditorIcons.jsp -text
 OpenXavaTest/web/xava/referenceSearch.jsp -text
 OpenXavaTest/web/xava/sections.jsp -text

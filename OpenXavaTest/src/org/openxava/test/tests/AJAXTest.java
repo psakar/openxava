@@ -90,7 +90,7 @@ public class AJAXTest extends ModuleTestBase {
 		changeModule("ProductExpenses");
 		execute("CRUD.new");
 		setValueInCollection("expenses", 0, "family.number", "1");
-		assertLoadedParts(
+		assertLoadedParts( 
 			"reference_editor_expenses.0.subfamily," + 
 			"errors, messages");
 	}
@@ -146,6 +146,16 @@ public class AJAXTest extends ModuleTestBase {
 				"editor_selectedIngredientSize," +
 				"errors," +
 				"messages,");
+	}
+	
+	public void testDescriptionsListWithShowReferenceView() throws Exception { 
+		changeModule("CustomerSellerAsDescriptionsListShowingReferenceView");
+		execute("Mode.detailAndFirst");
+		HtmlSelect combo = (HtmlSelect) getHtmlPage().getElementById("ox_OpenXavaTest_CustomerSellerAsDescriptionsListShowingReferenceView__seller___number");  
+		combo.setSelectedAttribute("2", true);
+		combo.blur();
+		getWebClient().waitForBackgroundJavaScriptStartingBefore(10000);
+		assertLoadedParts("editor_seller___number, editor_seller___name, errors, messages");
 	}
 	
 	public void testChangingSelectedElementsOfACollectionTabByCodeNoReloadCollection() throws Exception {  

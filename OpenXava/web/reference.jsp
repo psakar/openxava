@@ -19,14 +19,19 @@
 boolean onlyEditor = "true".equalsIgnoreCase(request.getParameter("onlyEditor"));
 boolean frame = "true".equalsIgnoreCase(request.getParameter("frame")); 
 boolean composite = "true".equalsIgnoreCase(request.getParameter("composite"));
-boolean descriptionsList = "true".equalsIgnoreCase(request.getParameter("descriptionsList")); 
+boolean descriptionsList = "true".equalsIgnoreCase(request.getParameter("descriptionsList"));
 String viewObject = request.getParameter("viewObject");
 viewObject = (viewObject == null || viewObject.equals(""))?"xava_view":viewObject;
 org.openxava.view.View view = (org.openxava.view.View) context.get(request, viewObject);
 String referenceKey = request.getParameter("referenceKey");
-MetaReference ref = (MetaReference) request.getAttribute(referenceKey); 
+MetaReference ref = (MetaReference) request.getAttribute(referenceKey);
 String labelKey = "xava_label_" + referenceKey;
-if (!descriptionsList) descriptionsList = view.displayAsDescriptionsList(ref); 
+if (!descriptionsList) descriptionsList = view.displayAsDescriptionsList(ref);
+boolean descriptionsListAndReferenceView = descriptionsList || !composite?false:view.displayAsDescriptionsListAndReferenceView(); 
+if (descriptionsListAndReferenceView) {
+	view = view.getParent(); 
+	composite = false;
+}
 %>
 
 <%@ include file="htmlTagsEditor.jsp"%>
@@ -67,16 +72,15 @@ String label = ref.getLabel(request);
 
 <% } // !onlyEditor %>
 <%
-
 Collection keys = ref.getMetaModelReferenced().getAllKeyPropertiesNames(); 
 String keyProperty = "";
 String keyProperties = "";
 String propertyKey = null;
-if (keys.size() == 1) {		
+if (keys.size() == 1) {
 	keyProperty = keys.iterator().next().toString();
 	propertyKey = Ids.decorate(request, referenceKey + "." + keyProperty);
 	if (!composite) { 
-		Map values = (Map) view.getValue(ref.getName());	
+		Map values = (Map) view.getValue(ref.getName());
 		values = values == null?java.util.Collections.EMPTY_MAP:values;
 		Object value = values.get(keyProperty);
 		String valueKey = propertyKey + ".value";
@@ -125,10 +129,11 @@ String script = throwChanged?
 <% if (!composite) { %>
 <span id="<xava:id name='<%="reference_editor_" + view.getPropertyPrefix() + ref.getName()%>'/>">
 <% } %> 
+<% boolean notCompositeEditorClosed = false; %>
 <input type="hidden" name="<%=editableKey%>" value="<%=editable%>"/>
 
 <%
-if (descriptionsList) {
+if (descriptionsList || descriptionsListAndReferenceView) { 	
 	String descriptionProperty = view.getDescriptionPropertyInDescriptionsList(ref);
 	String descriptionProperties = view.getDescriptionPropertiesInDescriptionsList(ref);
 	String parameterValuesProperties=view.getParameterValuesPropertiesInDescriptionsList(ref);
@@ -164,6 +169,25 @@ if (descriptionsList) {
 		<jsp:param name="order" value="<%=order%>"/>
 		<jsp:param name="filter" value="<%=filter%>"/>
 	</jsp:include>	
+	<%
+	if (descriptionsListAndReferenceView) { 
+	%>
+		<%@ include file="referenceActions.jsp"%>
+	<%
+		notCompositeEditorClosed = true;
+	%>
+	</span>
+	
+	<% 
+	String editorURL = "editors/" + WebEditors.getMetaEditorFor(ref, view.getViewName()).getUrl()
+		+ "?script=" + script
+		+ "&propertyKey=" + propertyKey	
+		+ "&editable=false";
+	%>
+	<jsp:include page="<%=editorURL%>" />	
+	<% 
+	} 
+	%>
 <%
 }
 else {
@@ -177,37 +201,11 @@ else {
 }
 %>
 
+<% if (!frame) { %>
+	<%@ include file="referenceActions.jsp"%>
+<% } %>
 
-
-
-<%
-String keyPropertyForAction = Ids.undecorate(propertyKey); 
-
-if (!frame && editable && view.isCreateNewForReference(ref)) { 
-%>
-<xava:action action='Reference.createNew' argv='<%="model="+ref.getReferencedModelName() + ",keyProperty=" + keyPropertyForAction%>'/>
-<%
-}
-%>
-<%
-if (!frame && editable && view.isModifyForReference(ref)) { 
-%>
-<xava:action action='Reference.modify' argv='<%="model="+ref.getReferencedModelName() + ",keyProperty=" + keyPropertyForAction%>'/>
-<%
-}
-%>
-
-
-<%
-java.util.Iterator itActions = view.getActionsNamesForReference(ref, editable).iterator();
-if (!frame) while (itActions.hasNext()) {
-	String action = (String) itActions.next();
-%>
-<xava:action action="<%=action%>"/>
-<%
-}
-%>
-<% if (!composite) { %>
+<% if (!composite && !notCompositeEditorClosed) { %> 
 </span>
 <% }
 if (!onlyEditor) {
@@ -217,5 +215,3 @@ if (!onlyEditor) {
 <%  }%>
 	<%=postEditor%>
 <%}%>
-
-

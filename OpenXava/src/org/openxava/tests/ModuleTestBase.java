@@ -1271,7 +1271,7 @@ public class ModuleTestBase extends TestCase {
 			if (!getExcludedActions().contains(actionName)) {  
 				actions.add(removeActionPrefix(input.getNameAttribute()));
 			}
-		}								
+		}						
 		return actions;				
 	}
 			

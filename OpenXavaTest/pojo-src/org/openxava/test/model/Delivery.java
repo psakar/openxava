@@ -94,6 +94,14 @@ import org.openxava.jpa.*;
 		"	details" +
 		"}"					
 	),
+	@View(name="Simple", members=
+		"invoice;" +			
+		"deliveryData ["  +
+		"	type, number;" +			
+		"	date;" +
+		"	description;" +				
+		"]"
+	),
 	@View(name="FullInvoice", members= "invoice; number; description"),
 	@View(name="Search", members= "invoice; type; number; date;	description;")
 })
@@ -129,7 +137,7 @@ public class Delivery {
 	@Id @ManyToOne(fetch=FetchType.LAZY)	
 	@JoinColumn(name="TYPE")
 	@DescriptionsLists({		
-		@DescriptionsList(forViews="DEFAULT, MoreSections, Search", order="${number} desc"),
+		@DescriptionsList(forViews="DEFAULT, MoreSections, Search, Simple", order="${number} desc"), 
 		@DescriptionsList(forViews="GroupsInSections")
 	})
 	@Action(forViews="DEFAULT, MoreSections", value="Delivery.setDefaultType")

@@ -593,7 +593,8 @@ openxava.getFormValues = function(ele) { // A refinement of dwr.util.getFormValu
 				if (ele[i].id) name = ele[i].id;
 				else name = "element" + i;
 				value = openxava.getFormValue(ele[i]);
-			}			
+			}
+			if (reply[name] != null) continue; 
 			if (value != null) { 
 				reply[name] = value;
 			}

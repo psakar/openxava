@@ -39,7 +39,7 @@ public class ServiceExpensesTest extends ModuleTestBase {
 			{ "1", "PEPE" },
 			{ "4", "PEPE" }
 		};
-		assertValidValuesInCollection("expenses", 0, "receptionist.oid", receptionistValidValues);
+		assertValidValuesInCollection("expenses", 0, "receptionist.oid", receptionistValidValues); 
 		setValueInCollection("expenses", 0, "receptionist.oid", "3");		
 		
 		assertValueInCollection("expenses", 1, "invoice.year", "");

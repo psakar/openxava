@@ -572,7 +572,7 @@ public class MetaView extends MetaElement implements Cloneable {
 			result.setMetaSearchAction(metaReferenceView.getMetaSearchAction());	
 			result.setFrame(metaReferenceView.isFrame());
 			MetaDescriptionsList metaDescriptionsList = getMetaDescriptionList(r);			
-			if (metaDescriptionsList != null) {
+			if (metaDescriptionsList != null && !metaDescriptionsList.isShowReferenceView()) { 
 				result.removeMembers();
 				Iterator itKeys = metaModelReferenced.getKeyPropertiesNames().iterator();
 				while (itKeys.hasNext()) {
@@ -594,7 +594,7 @@ public class MetaView extends MetaElement implements Cloneable {
 		metaProperties = null;				
 	}
 
-	private boolean hasMetaReferenceViewFor(MetaReference r) {				
+	private boolean hasMetaReferenceViewFor(MetaReference r) {
 		if (metaViewsReferences == null) return false;		
 		return metaViewsReferences.containsKey(r.getName());
 	}

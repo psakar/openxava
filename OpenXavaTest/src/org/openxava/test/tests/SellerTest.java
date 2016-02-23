@@ -69,7 +69,7 @@ public class SellerTest extends CustomizeListTestBase {
 	
 	public void testRowStyleInCollections() throws Exception {		
 		execute("Mode.detailAndFirst");
-		assertValue("number", "1");
+		assertValue("number", "1"); 
 		assertValue("name", "MANUEL CHAVARRI");
 				
 		int c = getCollectionRowCount("customers");
@@ -93,7 +93,7 @@ public class SellerTest extends CustomizeListTestBase {
 	public void testListFeaturesInCollection() throws Exception { 
 		// The correct elements
 		execute("List.viewDetail", "row=1");
-		assertValue("number", "2");
+		assertValue("number", "2"); 
 		assertValue("name", "JUANVI LLAVADOR");
 		assertCollectionRowCount("customers", 1);		
 		execute("Navigation.previous");
@@ -193,7 +193,7 @@ public class SellerTest extends CustomizeListTestBase {
 		
 		execute("CRUD.new");
 		assertValues("regions", emptyRegions);
-		setValue("number", "66");
+		setValue("number", "66"); 
 		setValue("name", "SELLER JUNIT 66");
 		setValue("level.id", "A");
 		setValues("regions", regions);
@@ -222,7 +222,7 @@ public class SellerTest extends CustomizeListTestBase {
 	
 	public void testCollectionOfEntityReferencesElementsNotEditables_keepsOrderAfterClosingDialog() throws Exception {
 		execute("Mode.detailAndFirst");
-		assertValue("number", "1");
+		assertValue("number", "1"); 
 		assertValueInCollection("customers", 0, "number", "1");
 		assertValueInCollection("customers", 1, "number", "2");
 		execute("List.orderBy", "property=number,collection=customers");
@@ -256,7 +256,7 @@ public class SellerTest extends CustomizeListTestBase {
 	
 	public void testEntityReferenceCollections() throws Exception { 		
 		createCustomers(); 
-		createSeller66();
+		createSeller66(); 
 		createSeller67();
 		verifySeller66();
 		deleteCustomers(); 

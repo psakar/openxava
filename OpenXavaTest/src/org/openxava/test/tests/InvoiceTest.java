@@ -1667,11 +1667,11 @@ public class InvoiceTest extends CustomizeListTestBase {
 		assertTrue(getIconHtml("year").contains("<i class=\"ox-required-icon mdi mdi-marker-check\""));
 		assertTrue(getIconHtml("number").contains("<i class=\"ox-required-icon mdi mdi-marker-check\""));
 		assertTrue(getIconHtml("date").contains("<i class=\"ox-required-icon mdi mdi-marker-check\""));
-		assertTrue(getIconHtml("comment").contains("<i class=\"ox-required-icon\""));
+		assertTrue(getIconHtml("comment").contains("<i class=\"ox-required-icon \""));
 	}
 	
 	private String getIconHtml(String property) { 
-		return getHtmlPage().getElementById("ox_OpenXavaTest_Invoice__error_image_Invoice___" + property).getPreviousSibling().asXml();
+		return getHtmlPage().getElementById("ox_OpenXavaTest_Invoice__error_image_Invoice___" + property).getParentNode().asXml(); 
 	}
 	
 	public void testCalculatedValuesFromSubviewToUpperView() throws Exception {

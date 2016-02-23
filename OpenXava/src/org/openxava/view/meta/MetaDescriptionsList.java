@@ -18,6 +18,7 @@ public class MetaDescriptionsList implements java.io.Serializable {
 	private String condition;
 	private String order;
 	private boolean orderByKey;
+	private boolean showReferenceView; 
 	private Collection dependsNames;
 	private int labelFormat = XavaPreferences.getInstance().getDefaultLabelFormat();
 	private String forTabs;
@@ -125,5 +126,13 @@ public class MetaDescriptionsList implements java.io.Serializable {
 	public void addLabelStyle(String labelStyle){
 		if (this.labelStyle == null) this.labelStyle = "";
 		this.labelStyle = this.labelStyle + " " + labelStyle;
+	}
+
+	public boolean isShowReferenceView() {
+		return showReferenceView;
+	}
+
+	public void setShowReferenceView(boolean showReferenceView) {
+		this.showReferenceView = showReferenceView;
 	}
 }

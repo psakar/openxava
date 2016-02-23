@@ -210,7 +210,7 @@ public class CarrierWithSectionsTest extends ModuleTestBase {
 		execute("MyReport.remove", "xava.keyProperty=name");
 	}
 	
-	public void testMyReportConditionAndSortFromList() throws Exception { 
+	public void testMyReportConditionAndSortFromList() throws Exception {  
 		assertListRowCount(5);
 		setConditionComparators(">");
 		setConditionValues("1");

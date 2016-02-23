@@ -377,12 +377,17 @@ public class Module extends DWRBase {
 
 	private void fillChangedPropertiesActionsAndReferencesWithNotCompositeEditor(Map result) { 		
 		View view = getView();			
-		Collection changedMembers = view.getChangedPropertiesActionsAndReferencesWithNotCompositeEditor().entrySet();		
+		Collection changedMembers = view.getChangedPropertiesActionsAndReferencesWithNotCompositeEditor().entrySet();
 		for (Iterator it = changedMembers.iterator(); it.hasNext(); ) {
 			Map.Entry en = (Map.Entry) it.next();
 			String qualifiedName = (String) en.getKey();
 			String name = qualifiedName.substring(qualifiedName.lastIndexOf('.') + 1);
 			View containerView = (View) en.getValue();
+			String referenceAsDescriptionsListParam = "";
+			if (containerView.displayAsDescriptionsListAndReferenceView() && !qualifiedName.contains(".")) {
+				containerView = containerView.getParent(); 
+				referenceAsDescriptionsListParam = "&descriptionsList=true"; 
+			}
 			MetaModel metaModel = containerView.getMetaModel();
 			boolean isReference = metaModel.containsMetaReference(name);
 			boolean isInsideElementCollection = false;
@@ -408,6 +413,7 @@ public class Module extends DWRBase {
 				request.setAttribute(referenceKey, metaReference);
 				put(result, "reference_editor_" + qualifiedName,   
 					"reference.jsp?referenceKey=" + referenceKey + 
+					referenceAsDescriptionsListParam + 
 					"&onlyEditor=true&viewObject=" + containerView.getViewObject());
 			}
 			else {

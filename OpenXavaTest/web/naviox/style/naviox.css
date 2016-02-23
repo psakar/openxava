@@ -618,7 +618,7 @@ input[type="button"], .ipad input[type="button"]:hover {
 }
 
 .ui-dialog input[type="button"], .ui-dialog .ipad input[type="button"]:hover,
-#sign_in_box input[type="button"], #sign_in_box .ipad input[type="button"]:hover
+#sign_in_box input[type="button"], #sign_in_box .ipad input[type="button"]:hover 
 {
 	margin-bottom: 0px;
 }
@@ -627,7 +627,6 @@ A#show_modules  {
 	padding: 4px;
 	margin-right: 20px;
 }
-
 
 .ipad input[type="button"], .ipad input[type="button"]:hover {
 	background: -webkit-gradient(linear, left bottom, left top, from(#F5F5F5), to(#F5F5F5));
@@ -659,7 +658,7 @@ input[type="button"]:active, A#show_modules.show-modules-selected {
 	background: -webkit-gradient(linear, left bottom, left top, from(#3777D7), to(#3777D7));
 }
 
-.ox-bottom-buttons input:nth-of-type(2):hover {
+.ox-bottom-buttons input:nth-of-type(2):hover 
 	background: blue;
 	border-color: blue;
 	box-shadow: 0px 1px 7px blue; 
@@ -676,7 +675,7 @@ input[type="button"]:active, A#show_modules.show-modules-selected {
 input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 .ox-bottom-buttons input[id*="delete"], .ox-bottom-buttons input[id*="remove"], 
 .ox-bottom-buttons input[id*="borrar"], .ipad .ox-bottom-buttons input[id*="delete"]:hover, 
-.ipad .ox-bottom-buttons input[id*="remove"]:hover, 
+.ox-bottom-buttons input[id*="remove"]:hover, 
 .ipad .ox-bottom-buttons input[id*="borrar"]:hover {
 	background: #F5F5F5;
 	border: 1px solid #C6C6C6;
@@ -689,7 +688,7 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 .ipad .ox-bottom-buttons input[id*="delete"], .ipad .ox-bottom-buttons input[id*="remove"], .ipad .ox-bottom-buttons input[id*="borrar"],
 	.ipad .ox-bottom-buttons input[id*="delete"]:hover, .ipad .ox-bottom-buttons input[id*="remove"]:hover, .ipad .ox-bottom-buttons input[id*="borrar"]:hover
 {
-	background: -webkit-gradient(linear, left bottom, left top, from(#DC4A38), to(#DC4A38));
+	 background: -webkit-gradient(linear, left bottom, left top, from(#F5F5F5), to(#F5F5F5)); 
 }
 
 .ox-bottom-buttons input[id*="delete"]:hover, .ox-bottom-buttons input[id*="remove"]:hover, .ox-bottom-buttons input[id*="borrar"]:hover {

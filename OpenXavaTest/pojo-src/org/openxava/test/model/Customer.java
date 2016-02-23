@@ -153,7 +153,11 @@ import org.openxava.test.actions.*;
 
 	@View( name="Aligned", members="#number, type, name; telephone, email, website"),
 
-	@View( name="Intermediate", members="number")
+	@View( name="Intermediate", members="number"),
+	
+	@View( name="SellerAsDescriptionsListShowingReferenceView", members= "number; name; type; seller" ),
+	
+	@View( name="SellerAsDescriptionsListShowingReferenceViewNoKey", members= "number; name; type; seller" )
 	
 })
 
@@ -228,9 +232,15 @@ public class Customer implements IWithName {
 	@ManyToOne(fetch=FetchType.LAZY) @SearchAction("MyReference.search") 
 	@ReadOnly(forViews="SomeMembersReadOnly")
 	@AsEmbedded(forViews="SellerAsAggregate, SellerAsAggregate2Levels")
-	@NoFrame(notForViews="SellerAsAggregate, Demo") 
-	@ReferenceView(forViews="SellerAsAggregate2Levels", value="LevelNoDescriptionsList")
-	private Seller seller;
+	@NoFrame(notForViews="SellerAsAggregate, Demo, SellerAsDescriptionsListShowingReferenceView, SellerAsDescriptionsListShowingReferenceViewNoKey") 
+	@ReferenceViews({
+		@ReferenceView(forViews="SellerAsAggregate2Levels", value="LevelNoDescriptionsList"),
+		@ReferenceView(forViews="SellerAsDescriptionsListShowingReferenceView", value="Simple"),
+		@ReferenceView(forViews="SellerAsDescriptionsListShowingReferenceViewNoKey", value="SimpleNoNumber"),
+	})
+	@Action(forViews="SellerAsDescriptionsListShowingReferenceView", value="Customer.hideSeller")
+	@DescriptionsList(forViews="SellerAsDescriptionsListShowingReferenceView, SellerAsDescriptionsListShowingReferenceViewNoKey", showReferenceView=true) 
+	private Seller seller; 
 	
 	@DefaultValueCalculator(
 		value=org.openxava.calculators.StringCalculator.class,

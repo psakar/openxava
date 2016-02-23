@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- @DescriptionsList(showReferenceView=true) to show a combo and a detail view at the same time for a reference.
+- Table created by default for images gallery allows big images. 
 - Fix: Generating PDF in list fails with Android. 
 - New method XObjects.execute() to call dynamically methods with three arguments.
 - View.setEditable(member, state) works for references and collection in addition of plain properties.
@@ -16,6 +18,7 @@ Change Log for OpenXava project
 - Icon instead of image for boolean values in list and collections.
 - Icons instead of images for date and date/time editors and list filtering.
 - Icon to throw calendar in DateTimeCalendar editor inside textfield.
+- Fix: Icon in date fields hides some part of the date in some browsers. 
 - Stereotype FILE supports multischema.
 - New icon for going to first record in detail mode.
 - Icons instead of images for page navigation in lists.

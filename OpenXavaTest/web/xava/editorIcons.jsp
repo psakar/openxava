@@ -3,15 +3,12 @@
 <%if (view.isEditable() || 
 		!(!view.isEditable() && !XavaPreferences.getInstance().isShowIconForViewReadOnly())
 	) { %>
-	<% if (p.isKey()) { %>
-	<img src="<%=request.getContextPath()%>/xava/images/key.gif"/>
-	<% } else if (p.isRequired()) { %>	
-	<img src="<%=request.getContextPath()%>/xava/images/required.gif"/>
-	<% } %> 
+	<i class='<%=style.getRequiredIcon()%> <%=p.isRequired()?"mdi mdi-marker-check":""%>'></i> 
 <%} %>
 
 <span id="<xava:id name='<%="error_image_" + p.getQualifiedName()%>'/>"> 
 <% if (errors.memberHas(p)) { %>
-<img src="<%=request.getContextPath()%>/xava/images/error.gif"/>
+<i class='<%=style.getErrorIcon()%> mdi mdi-alert-circle'></i> <%-- If modify this we have to change dwr.Module too --%>
 <% } %>
 </span>
+

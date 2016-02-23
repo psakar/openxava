@@ -86,6 +86,14 @@ public @interface DescriptionsList {
 	 */
 	String order() default "";
 	
+	/**
+	 * Show the descriptions list combo and a detail view of the reference at the same time.
+	 * 
+	 * The reference view is read only and its value changed when the combo is changed by the user.
+	 * 
+	 * @since 5.5
+	 */
+	boolean showReferenceView() default false;
 
 	/**
 	 * List of comma separated tab names where this annotation applies.

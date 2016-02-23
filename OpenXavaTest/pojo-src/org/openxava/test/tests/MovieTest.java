@@ -118,7 +118,7 @@ public class MovieTest extends ModuleTestBase {
 		assertListRowCount(2);
 		execute("Mode.detailAndFirst");
 		String groupName = getHtmlPage().getElementById("ox_OpenXavaTest_Movie__label_" + groupId)
-										.asText().trim();
+										.asText().trim(); 
 		assertTrue("Incorrect group name", groupName.equals(Labels.get(groupId)));		
 	}
 	

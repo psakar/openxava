@@ -5,6 +5,7 @@ import java.util.*;
 
 import javax.persistence.*;
 
+import org.codehaus.groovy.runtime.wrappers.*;
 import org.openxava.annotations.*;
 import org.openxava.jpa.*;
 
@@ -17,7 +18,10 @@ import org.openxava.jpa.*;
 
 @Entity
 @IdClass(TransportChargeKey.class)
-@View(name="WithDescriptionsList", members="delivery; amount") 
+@Views({
+	@View(name="WithDescriptionsList", members="delivery; amount"),
+	@View(name="WithDescriptionsListShowingReferenceView", members="delivery; amount")
+})
 @Tabs({
 	@Tab(properties="delivery.invoice.year, delivery.invoice.number, delivery.number, amount"),
 	@Tab(name="WithDistance", properties="delivery.invoice.year, delivery.invoice.number, delivery.number, delivery.distance, amount")
@@ -33,10 +37,19 @@ public class TransportCharge {
 		@JoinColumn(name="DELIVERY_NUMBER", referencedColumnName="NUMBER")
 	})
 	*/
-	@ReferenceView("MoreSections")
-	@DescriptionsList(forViews="WithDescriptionsList",
-		descriptionProperties="description, date", 
-		condition="${invoice.year} = 2004") 
+	@ReferenceViews({
+		@ReferenceView("MoreSections"),
+		@ReferenceView(forViews="WithDescriptionsListShowingReferenceView", value="Simple")
+	})
+	@DescriptionsLists({
+		@DescriptionsList(forViews="WithDescriptionsList",
+			descriptionProperties="description, date", 
+			condition="${invoice.year} = 2004"),
+		@DescriptionsList(forViews="WithDescriptionsListShowingReferenceView",
+			descriptionProperties="description, date", 
+			condition="${invoice.year} = 2004",
+			showReferenceView=true) 
+	})
 	private Delivery delivery;
 	
 	@Stereotype("MONEY") @Required

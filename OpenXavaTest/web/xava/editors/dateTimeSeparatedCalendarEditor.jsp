@@ -14,7 +14,8 @@ boolean editable="true".equals(request.getParameter("editable"));
 String disabled=editable?"":"disabled";
 String script = request.getParameter("script");
 boolean label = org.openxava.util.XavaPreferences.getInstance().isReadOnlyAsLabel();
-String size = style.getBrowser().contains("Chrome")?"10":"12"; 
+String browser = request.getHeader("user-agent");
+String size = browser.contains("Chrome")?"10":"12"; 
 if (editable || !label) {
 %>
 <input type="text" name="<%=propertyKey%>" id="<%=propertyKey%>" class=<%=style.getEditor()%> title="<%=p.getDescription(request)%>"
