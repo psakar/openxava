@@ -1,7 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
-- @DescriptionsList(showReferenceView=true) to show a combo and a detail view at the same time for a reference.
+- showReferenceView=true in descriptions list to show a combo and a detail view at the same time for a reference.
 - Table created by default for images gallery allows big images. 
 - Fix: Generating PDF in list fails with Android. 
 - New method XObjects.execute() to call dynamically methods with three arguments.

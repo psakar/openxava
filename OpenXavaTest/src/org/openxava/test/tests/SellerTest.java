@@ -200,7 +200,7 @@ public class SellerTest extends CustomizeListTestBase {
 		assertValues("regions", regions);
 		
 		execute("CRUD.save");
-		assertNoErrors();
+		assertNoErrors(); 
 		assertValues("regions", emptyRegions);		
 		
 		setValue("number", "66");

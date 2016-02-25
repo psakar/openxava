@@ -353,7 +353,32 @@
 				address;
 			</group>
 		</members>
-	</view>	
+	</view>
+	
+	<view name="SellerAsDescriptionsListShowingReferenceView">
+		<reference-view reference="seller" view="Simple">
+			<descriptions-list show-reference-view="true"/>
+			<action action="Customer.hideSeller"/>
+		</reference-view>	
+		<members>
+			number; 
+			name; 
+			type; 
+			seller
+		</members>
+	</view>
+	
+	<view name="SellerAsDescriptionsListShowingReferenceViewNoKey">
+		<reference-view reference="seller" view="SimpleNoNumber">
+			<descriptions-list show-reference-view="true"/>
+		</reference-view>	
+		<members>
+			number; 
+			name; 
+			type; 
+			seller
+		</members>
+	</view>				
 					 				
 	<view model="Address">
 				

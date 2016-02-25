@@ -8,7 +8,7 @@ import org.openxava.test.model.Warehouse;
 import org.openxava.util.Is;
 
 /**
- * 
+ * 13 tests fail with XML components probably because of https://sourceforge.net/p/openxava/bugs/619/
  * @author Javier Paniza
  */
 

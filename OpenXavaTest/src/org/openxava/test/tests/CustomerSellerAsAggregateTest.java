@@ -37,7 +37,7 @@ public class CustomerSellerAsAggregateTest extends ModuleTestBase {
 		execute("CRUD.refresh");
 		
 		assertValue("name", "Junit Customer 66");
-		assertValue("seller.number", "66");
+		assertValue("seller.number", "66"); 
 		assertValue("seller.name", "SELLER CREATED FROM CUSTOMER");
 		
 		// Modifiying
