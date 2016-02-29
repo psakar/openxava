@@ -44,8 +44,8 @@ boolean onlySections = view.hasSections() && view.getMetaMembers().isEmpty();
 %>
 
 <%
-/* We have to do this selectable in xava.properties
-boolean renderedView = isSection ? layoutPainterManager.renderSection(view, pageContext)
+/* We have to do this selectable in xava.properties  
+boolean renderedView = isSection ? layoutPainterManager.renderSection(view, pageContext)		
 	: layoutPainterManager.renderView(view, pageContext);
 */
 boolean renderedView = false;
@@ -82,7 +82,7 @@ if (!renderedView) {
 	</tr>
 	<tr>
 		<td>
-			<table>
+			<table border='0' cellpadding='0' cellspacing='0'>
 				<tr>
 <%
 				} // END IF Last Table Closed
@@ -133,7 +133,6 @@ if (!renderedView) {
 			<%=style.getFrameHeaderStartDecoration(frameWidth) %>
 			<%=style.getFrameTitleStartDecoration() %>
 			<span id="<%=labelKey%>"><%=label%></span>		
-			<%@ include file="editorIcons.jsp"%>
 			<%=style.getFrameTitleEndDecoration() %>	
 			<%=style.getFrameActionsStartDecoration()%>
 <% 

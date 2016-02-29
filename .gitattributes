@@ -6036,7 +6036,7 @@ OpenXava/web/errors.jsp -text
 OpenXava/web/execute.jsp -text svneol=unset#text/plain
 OpenXava/web/fonts/materialdesignicons-webfont.woff -text
 OpenXava/web/frameActions.jsp -text svneol=unset#text/plain
-OpenXava/web/htmlTagsEditor.jsp -text
+OpenXava/web/htmlTagsEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/images/add.gif -text
 OpenXava/web/images/attach.gif -text
 OpenXava/web/images/back.gif -text
@@ -6194,7 +6194,7 @@ OpenXava/web/portlet.jsp -text
 OpenXava/web/propertyActions.jsp -text
 OpenXava/web/reference.jsp -text svneol=unset#text/plain
 OpenXava/web/referenceActions.jsp -text svneol=unset#text/plain
-OpenXava/web/referenceEditorIcons.jsp -text
+OpenXava/web/referenceEditorIcons.jsp -text svneol=unset#text/plain
 OpenXava/web/referenceSearch.jsp -text svneol=unset#text/plain
 OpenXava/web/sections.jsp -text svneol=unset#text/plain
 OpenXava/web/style/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png -text
@@ -10828,8 +10828,8 @@ OpenXavaTest/web/xava/collectionFrameHeader.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/collectionFromModel.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/collectionList.jsp -text
 OpenXavaTest/web/xava/core.jsp -text svneol=unset#text/plain
-OpenXavaTest/web/xava/detail.jsp -text
-OpenXavaTest/web/xava/editor.jsp -text
+OpenXavaTest/web/xava/detail.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editorIcons.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editorWrapper.jsp -text
 OpenXavaTest/web/xava/editors/actionEditor.jsp -text
@@ -11216,7 +11216,7 @@ OpenXavaTest/web/xava/errors.jsp -text
 OpenXavaTest/web/xava/execute.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/fonts/materialdesignicons-webfont.woff -text
 OpenXavaTest/web/xava/frameActions.jsp -text
-OpenXavaTest/web/xava/htmlTagsEditor.jsp -text
+OpenXavaTest/web/xava/htmlTagsEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/images/add.gif -text
 OpenXavaTest/web/xava/images/attach.gif -text
 OpenXavaTest/web/xava/images/back.gif -text
@@ -11376,7 +11376,7 @@ OpenXavaTest/web/xava/portlet.jsp -text
 OpenXavaTest/web/xava/propertyActions.jsp -text
 OpenXavaTest/web/xava/reference.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/referenceActions.jsp -text svneol=unset#text/plain
-OpenXavaTest/web/xava/referenceEditorIcons.jsp -text
+OpenXavaTest/web/xava/referenceEditorIcons.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/referenceSearch.jsp -text
 OpenXavaTest/web/xava/sections.jsp -text
 OpenXavaTest/web/xava/severalModules.jsp -text

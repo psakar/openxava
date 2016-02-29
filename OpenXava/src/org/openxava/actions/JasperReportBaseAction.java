@@ -141,7 +141,7 @@ abstract public class JasperReportBaseAction extends ViewBaseAction implements I
 		}
 	}
 	
-	private boolean isAndroid() { 
+	private boolean isAndroid() {
 		String browser = getRequest().getHeader("user-agent");
 		return browser != null && browser.contains("Android");
 	}

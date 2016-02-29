@@ -585,8 +585,8 @@ a.ox-selected-list-format, a.ox-selected-list-format:hover {
 .ox-required-icon, .ox-error-icon { 
 	width: 0px; 
 	position: relative;
-	left: -2px;
-	top: -15px;
+	left: 0px;
+	top: -17px;
 	color: #3777D7;
 }
 

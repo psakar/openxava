@@ -57,7 +57,8 @@ if (first && !view.isAlignedByColumns()) label = org.openxava.util.Strings.chang
 </td></tr>
 <tr><td style='vertical-align: middle'>
 <% } %>
-
+<% } else { %>
+<%@ include file="editorIcons.jsp"%>
 <% } // if (!hasFrame) %>
 <span id="<xava:id name='<%="editor_" + view.getPropertyPrefix() + p.getName()%>'/>"> 
 <xava:editor property="<%=p.getName()%>" editable="<%=editable%>" throwPropertyChanged="<%=throwPropertyChanged%>"/>
