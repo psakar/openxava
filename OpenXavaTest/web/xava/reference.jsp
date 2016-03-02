@@ -53,9 +53,7 @@ String label = ref.getLabel(request);
 <% } %>
 <%=postLabel%>
 <%=preIcons%>
-<% if (labelFormat != MetaPropertyView.SMALL_LABEL) { %>
 <%@ include file="referenceEditorIcons.jsp"%>
-<% } %>
 <%=postIcons%>
 <%=preEditor%>
 <% if (labelFormat == MetaPropertyView.SMALL_LABEL) { %>
@@ -63,9 +61,6 @@ String label = ref.getLabel(request);
 <span id='<xava:id name='<%="label_" + view.getPropertyPrefix() + ref.getName()%>'/>' class="<%=style.getSmallLabel()%> <%=labelStyle %>">
 <%=label%>
 </span>
- 
-<%@ include file="referenceEditorIcons.jsp"%>
-
 </td></tr>
 <tr><td style='vertical-align: middle'>
 <% } %>

@@ -44,16 +44,13 @@ if (first && !view.isAlignedByColumns()) label = org.openxava.util.Strings.chang
 <% } %>
 <%=postLabel%>
 <%=preIcons%>
-<% if (labelFormat != MetaPropertyView.SMALL_LABEL) { %>
 <%@ include file="editorIcons.jsp"%>
-<% } %>
 <%=postIcons%>
 <%=preEditor%>
 <% if (labelFormat == MetaPropertyView.SMALL_LABEL) { 	
 %>
 <table border='0' cellpadding='0', cellspacing='0'><tr><td align='bottom'>
 <span id="<xava:id name='<%="label_" + view.getPropertyPrefix() + p.getName()%>'/>" class="<%=style.getSmallLabel()%> <%=labelStyle%>"><%=label%></span>
-<%@ include file="editorIcons.jsp"%>
 </td></tr>
 <tr><td style='vertical-align: middle'>
 <% } %>

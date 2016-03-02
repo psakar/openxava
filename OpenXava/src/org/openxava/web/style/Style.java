@@ -478,6 +478,8 @@ public class Style {
 		return "ox-selected-chart-type";
 	}
 	
+	
+	
 	/**
 	 * 
 	 * @since 5.4
@@ -732,6 +734,13 @@ public class Style {
 	
 	public String getSmallLabel() {
 		return "small-label";
+	}
+	
+	/**
+	 * @since 5.5
+	 */
+	public String getRadioButtons() { 
+		return "ox-radio-buttons";
 	}
 		
 	

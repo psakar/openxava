@@ -1,6 +1,14 @@
 Change Log for OpenXava project
 ===============================
 
+- ValidValuesRadioButton and ValidValuesVerticalRadioButton editors look improved. 
+- Fix: ValidValuesVerticalRadioButton editor does not align the first option well. 
+- Fix: Properties inside a group within a section are not cleared or saved.
+- Fix: Label style does not work.
+- Fix: referenceEditor.jsp name ignored in editors.xml.
+- Fix: Editors with frame=true composite=true do not work correctly.
+- Fix: Textfields are not aligned when there are validation errors.
+- Fix: Frames not aligned with element collections.
 - showReferenceView=true in descriptions list to show a combo and a detail view at the same time for a reference.
 - Table created by default for images gallery allows big images. 
 - Fix: Generating PDF in list fails with Android. 
@@ -237,6 +245,7 @@ OpenXava 5.1.1 (2014-11-24)
 - Fix: Totals in element collections are not recalculated after removing a row.
 - Fix: After removing a line from an element collection events and calculated properties do not work in the collection. 
 - Fix: Reloading page after removing a line from an element collection leaves a blank line.
+- Fix: Error on searching and adding references in embedded classes with sections.
 
 OpenXava 5.1 (2014-10-21)
 -------------------------

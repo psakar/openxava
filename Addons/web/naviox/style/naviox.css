@@ -368,6 +368,15 @@ input[type="text"], input[type="password"], input[type="file"] {
 	height: 20px;
 }
 
+.ox-radio-buttons {
+	margin: 10px 0px 10px 0px;
+}
+
+input[type="radio"] {
+	margin: 4px 0px 4px 10px;
+	vertical-align: middle;
+}
+
 .ox-list-subheader input[type="text"] { 
     height: 28px;
 }
