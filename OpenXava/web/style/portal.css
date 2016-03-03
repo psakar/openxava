@@ -661,8 +661,14 @@ span.ox-subcontroller-select a{
 .ox-required-icon, .ox-error-icon { 
 	width: 0px; 
 	position: relative;
-	left: -2px;
-	top: -10px;
+}
+
+.ox-required-icon { 
+	top: -12px;
+}
+
+.ox-error-icon { 
+	top: -13px;
 }
 
 i.ox-required-icon {
@@ -704,4 +710,13 @@ i.mdi-eraser {
 .results-row .mdi-swap-vertical { 
 	color: black; 
 	font-weight: bold;
+}
+
+.ox-radio-buttons {
+	margin: 3px 0px 3px 0px;
+}
+
+input[type="radio"] {
+	margin: 2px 0px 4px 10px;
+	vertical-align: middle;
 }

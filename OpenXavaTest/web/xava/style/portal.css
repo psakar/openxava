@@ -661,8 +661,14 @@ span.ox-subcontroller-select a{
 .ox-required-icon, .ox-error-icon { 
 	width: 0px; 
 	position: relative;
-	left: -2px;
-	top: -10px;
+}
+
+.ox-required-icon { 
+	top: -12px;
+}
+
+.ox-error-icon { 
+	top: -13px;
 }
 
 i.ox-required-icon {
