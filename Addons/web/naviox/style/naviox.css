@@ -418,7 +418,6 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus
 
 .ox-button-bar, .ox-collection-list-actions {
 	background: #F5F5F5;
-	padding: 10px;
 	margin-left: -1px;
 	margin-right: -1px;
 	min-height: 15px;
@@ -428,10 +427,18 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus
 	-webkit-box-shadow: 0px 2px 7px #CCCCCC;	
 }
 
+.ox-button-bar {
+	padding: 8px 10px 12px 10px;
+}
+
+.ox-collection-list-actions {
+	padding: 9px 10px 11px 10px;
+}
+
 .ox-button-bar .ox-button-bar-button a, .ox-button-bar-mode-button, 
 .ox-collection-list-actions .ox-button-bar-button a {
 	border: 1px solid transparent; 
-	padding: 6px 6px 6px 0px;
+	padding: 6px 6px 0px 0px; 
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -466,7 +473,7 @@ i:hover, .ox-button-bar a:hover i, .ox-collection-list-actions a:hover i {
 }
 
 .ox-button-bar .ox-button-bar-button a {
-	vertical-align: top; 
+	vertical-align: middle;  
 } 
 
 .ox-button-bar-mode-button { 
@@ -522,10 +529,6 @@ i {
 	padding: 4px;
 }
 
-.ox-help i { 
-	margin-top: -2px;
-}
-
 .ox-frame-actions i {
 	font-size: 200%;
 	padding: 0;
@@ -556,7 +559,7 @@ i {
 }
 
 .ox-list-formats i {
-	margin-top: -8px;
+	margin-top: -6px; 
 	margin-left: -5px;	 
 	font-size: 150%;
 	padding: 5px;
@@ -717,7 +720,7 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 
 .ox-button-bar-mode-button {
 	position: relative;
-	top: -7px;
+	top: -4px; 
 	float: left;
 }
 
