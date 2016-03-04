@@ -711,3 +711,12 @@ i.mdi-eraser {
 	color: black; 
 	font-weight: bold;
 }
+
+.ox-radio-buttons {
+	margin: 3px 0px 3px 0px;
+}
+
+input[type="radio"] {
+	margin: 2px 0px 4px 10px;
+	vertical-align: middle;
+}

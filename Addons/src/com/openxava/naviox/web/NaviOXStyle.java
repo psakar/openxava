@@ -122,12 +122,13 @@ public class NaviOXStyle extends Style {
 			r.append(" ");
 			r.append(getFrameSibling());
 		}
-		r.append("' style='margin-right:4px;");
-		if (!sibling) {
+		r.append("'"); 
+		if (width == 100) { 
+			r.append(" style='"); 
 			if (collection) r.append("width: calc(100% - 15px);");
-			else r.append("width: calc(100% - 20px);"); 
+			else r.append("width: calc(100% - 20px);");
+			r.append("'"); 
 		}
-		r.append("'");
 		r.append(getFrameSpacing());
 		r.append(">");
 		r.append("<div class='");

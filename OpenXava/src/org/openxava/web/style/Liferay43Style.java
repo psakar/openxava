@@ -154,9 +154,10 @@ public class Liferay43Style extends PortalStyle {
 	}	
 
 	public String getFrameHeaderStartDecoration(int width) { 
-		String widthAttribute = width == 0?"":"width=\"" + width+ "%\" ";				
+		String widthAttribute = width == 0?"":"width=\"" + width+ "%\" ";
+		String rightMargin = width == 100?"":"style='margin-right: 7px;'"; 
 		return "<table " + widthAttribute + "style='float:left; clear:none'><tr><td>\n" +
-			"<div class='portlet'><div class='portlet-topper' style='position: static; padding-right: 8px;'><table width='100%'><tr>"; // position: static needed for ie7 + liferay 4.3
+			"<div class='portlet' " + rightMargin +"><div class='portlet-topper' style='position: static; padding-right: 8px;'><table width='100%'><tr>"; // position: static needed for ie7 + liferay 4.3
 	}	
 	
 	public String getFrameHeaderEndDecoration() { 

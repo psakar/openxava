@@ -856,6 +856,7 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 
 .ox-frame, #sign_in_box { 
 	margin-bottom: 5px;
+	margin-right: 7px; 
 	padding: 10px 10px 3px 10px; 
 	border-radius: 7px;
 	-moz-border-radius: 7px;
