@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Better alignment for icons in button bar.
 - ValidValuesRadioButton and ValidValuesVerticalRadioButton editors look improved. 
 - Fix: ValidValuesVerticalRadioButton editor does not align the first option well. 
 - Fix: Properties inside a group within a section are not cleared or saved.
