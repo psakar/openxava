@@ -16,7 +16,7 @@
     <!-- Controller:
     <controller name="Teacher">
     	<extends controller="Typical"/>
-    	<action name="new" image="new.gif" keystroke="Control N"
+    	<action name="new" icon="library-plus" keystroke="Control N"
         	class="actions.CreateTeacher">
     	</action>
 	</controller>    

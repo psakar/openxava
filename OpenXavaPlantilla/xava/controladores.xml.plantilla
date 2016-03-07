@@ -16,7 +16,7 @@
     <!-- Controlador:
     <controlador nombre="Profesor">
         <hereda-de controlador="Typical"/>
-        <accion nombre="new" imagen="new.gif" atajo-de-teclado="Control N" 
+        <accion nombre="new" icono="library-plus" atajo-de-teclado="Control N" 
                 clase="acciones.CrearProfesor"/>        
     </controlador>
     -->
