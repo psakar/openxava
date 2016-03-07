@@ -1122,7 +1122,11 @@ div.ox-subcontroller table{
 }
 
 #sign_in_box .small-label { 
-	padding-left: 7px; 
+	padding-left: 3px; 
+}
+
+#sign_in_box .editor { 
+	margin: 2px 0px 15px 1px;
 }
 
 #first_steps {
