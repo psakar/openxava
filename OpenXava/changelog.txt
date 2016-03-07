@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Default parser now is JSP based instead of Java based.
 - Better alignment for icons in button bar.
 - ValidValuesRadioButton and ValidValuesVerticalRadioButton editors look improved. 
 - Fix: ValidValuesVerticalRadioButton editor does not align the first option well. 

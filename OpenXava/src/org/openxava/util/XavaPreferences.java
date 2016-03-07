@@ -478,12 +478,12 @@ public class XavaPreferences {
 
 	/** @since 4.5 */
 	public String getLayoutParser() {
-		return getProperties().getProperty("layoutParser", "org.openxava.web.layout.impl.DefaultLayoutParser");
+		return getProperties().getProperty("layoutParser"); 
 	}
 
 	/** @since 4.5 */
 	public String getLayoutPainter() {
-		return getProperties().getProperty("layoutPainter", "org.openxava.web.layout.impl.DefaultLayoutPainter");
+		return getProperties().getProperty("layoutPainter"); 
 	}
 
 	/** @since 4.6 */
