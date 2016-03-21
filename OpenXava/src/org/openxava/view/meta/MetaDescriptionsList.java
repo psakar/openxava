@@ -135,4 +135,5 @@ public class MetaDescriptionsList implements java.io.Serializable {
 	public void setShowReferenceView(boolean showReferenceView) {
 		this.showReferenceView = showReferenceView;
 	}
+
 }

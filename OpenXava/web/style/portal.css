@@ -509,7 +509,7 @@ a.ox-selected-list-format, a.ox-selected-list-format:hover {
 	margin-right: -5px !important;
 }
 
-div.ox-subcontroller {
+div.ox-subcontroller, .ui-autocomplete {
 	padding: 0;
 	margin: 0;
 	margin-top: 26px; 
@@ -720,3 +720,27 @@ input[type="radio"] {
 	margin: 2px 0px 4px 10px;
 	vertical-align: middle;
 }
+
+.ui-autocomplete {
+    max-height: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-color: #CCC !important; 
+ }
+ 
+.ui-autocomplete-input::-ms-clear { 
+ 	display: none; 
+ }
+ 
+ .ui-menu-item:hover, .ui-widget-content .ui-state-focus {
+ 	border-color: #DFF4FF !important; 
+ 	background: #DFF4FF !important;
+ }
+ 
+.ox-descriptions-list i {
+ 	position: relative; 
+ 	right: 28px; 
+ 	top: -1px;
+ 	margin-right: -26px; 	
+ 	padding: 5px;
+ }

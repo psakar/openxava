@@ -1087,7 +1087,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 	public void testFilterByDate() throws Exception {
 		String date = getValueInList(0, "date");		
 		String [] conditionValues = { " ", " ", date, "true" };
-		setConditionValues(conditionValues);
+		setConditionValues(conditionValues); 
 		execute("List.filter");
 		assertDateInList(date);
 		
@@ -1134,7 +1134,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		String [] paidComparators = { "=", "=", "=", "="};
 		String [] paidConditions = { "", "", "", "true"	};
 		setConditionComparators(paidComparators);
-		setConditionValues(paidConditions);
+		setConditionValues(paidConditions); 
 		// execute("List.filter"); // Not needed because filterOnChange=true 
 		assertListRowCount(paidOnes); 
 		

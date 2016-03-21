@@ -742,8 +742,15 @@ public class Style {
 	public String getRadioButtons() { 
 		return "ox-radio-buttons";
 	}
-		
 	
+	/**
+	 * @since 5.5
+	 */
+	public String getDescriptionsList() {  
+		return "ox-descriptions-list";
+	}
+
+		
 	public String getErrors() { 
 		return "ox-errors";
 	}

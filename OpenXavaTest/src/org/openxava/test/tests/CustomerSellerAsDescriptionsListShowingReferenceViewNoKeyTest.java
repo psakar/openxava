@@ -19,9 +19,13 @@ public class CustomerSellerAsDescriptionsListShowingReferenceViewNoKeyTest exten
 		assertValue("seller.name", "MANUEL CHAVARRI");
 		assertNoEditable("seller.name");
 		assertNoEditable("seller.level");
-		HtmlSelect combo = (HtmlSelect) getHtmlPage().getElementById("ox_OpenXavaTest_CustomerSellerAsDescriptionsListShowingReferenceViewNoKey__seller___number");  
-		combo.setSelectedAttribute("2", true);
-		combo.blur();
+		HtmlElement sellerEditor = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_CustomerSellerAsDescriptionsListShowingReferenceViewNoKey__reference_editor_seller");
+		HtmlElement openSellerListIcon = sellerEditor.getOneHtmlElementByAttribute("i", "class", "mdi mdi-menu-down");
+		openSellerListIcon.click();
+		HtmlElement menuItem = (HtmlElement) getHtmlPage().getElementById("ui-id-3");
+		assertEquals("ui-menu-item", menuItem.getAttribute("class"));
+		assertEquals("JUANVI LLAVADOR", menuItem.asText());
+		menuItem.click();
 		getWebClient().waitForBackgroundJavaScriptStartingBefore(10000);
 		assertValue("seller.name", "JUANVI LLAVADOR");
 		assertValue("seller.level.id", "A");

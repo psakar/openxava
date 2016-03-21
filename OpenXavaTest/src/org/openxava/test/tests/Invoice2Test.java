@@ -21,7 +21,7 @@ public class Invoice2Test extends ModuleTestBase {
 		execute("InvoiceDetail2.showProductList");
 		assertExists("familyList");
 		assertExists("productList");
-		assertValidValuesCount("productList", 1);
+		assertValidValuesCount("productList", 1); 
 		setValue("familyList", "1");
 		assertValidValuesCount("productList", 7);
 	}

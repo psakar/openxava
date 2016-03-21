@@ -6002,6 +6002,7 @@ OpenXava/web/editors/js/c3.js -text svneol=unset#text/plain
 OpenXava/web/editors/js/chartDataEditor.js -text svneol=unset#text/plain
 OpenXava/web/editors/js/ckeditor.js -text svneol=unset#text/plain
 OpenXava/web/editors/js/d3.js -text svneol=unset#text/plain
+OpenXava/web/editors/js/descriptionsEditor.js -text svneol=unset#text/plain
 OpenXava/web/editors/js/elementCollectionEditor.js -text svneol=unset#text/plain
 OpenXava/web/editors/js/htmlEditor.js -text svneol=unset#text/plain
 OpenXava/web/editors/js/jquery-ckeditor-adapter.js -text svneol=unset#text/plain
@@ -11167,7 +11168,7 @@ OpenXavaTest/web/xava/editors/dateCalendarEditor.jsp -text
 OpenXavaTest/web/xava/editors/dateTimeCombinedCalendarEditor.jsp -text
 OpenXavaTest/web/xava/editors/dateTimeSeparatedCalendarEditor.jsp -text
 OpenXavaTest/web/xava/editors/descriptionValidValuesEditor.jsp -text
-OpenXavaTest/web/xava/editors/descriptionsEditor.jsp -text
+OpenXavaTest/web/xava/editors/descriptionsEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/elementCollectionEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/gallery.jsp -text
 OpenXavaTest/web/xava/editors/galleryEditor.jsp -text svneol=unset#text/plain
@@ -11180,6 +11181,7 @@ OpenXavaTest/web/xava/editors/js/c3.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/js/chartDataEditor.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/js/ckeditor.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/js/d3.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/js/descriptionsEditor.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/js/elementCollectionEditor.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/js/htmlEditor.js -text
 OpenXavaTest/web/xava/editors/js/jquery-ckeditor-adapter.js -text svneol=unset#text/plain

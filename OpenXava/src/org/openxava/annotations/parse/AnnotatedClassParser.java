@@ -2474,7 +2474,7 @@ public class AnnotatedClassParser {
 		metaDescriptionList.setCondition(descriptionsList.condition());
 		metaDescriptionList.setOrderByKey(descriptionsList.orderByKey());
 		metaDescriptionList.setOrder(descriptionsList.order());
-		metaDescriptionList.setShowReferenceView(descriptionsList.showReferenceView()); 
+		metaDescriptionList.setShowReferenceView(descriptionsList.showReferenceView());
 		metaDescriptionList.setForTabs(descriptionsList.forTabs());
 		metaDescriptionList.setNotForTabs(descriptionsList.notForTabs());
 		return metaDescriptionList;

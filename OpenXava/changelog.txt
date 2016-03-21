@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- @DescriptionsList combos have autocomplete functionality. 
 - Icons instead of images in new created project from templates.
 - Default parser now is JSP based instead of Java based.
 - Better alignment for icons in button bar.

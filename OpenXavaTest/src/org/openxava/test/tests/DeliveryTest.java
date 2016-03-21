@@ -13,9 +13,7 @@ import org.openxava.test.model.Shipment;
 import org.openxava.tests.ModuleTestBase;
 import org.openxava.util.Is;
 
-import com.gargoylesoftware.htmlunit.html.HtmlElement;
-import com.gargoylesoftware.htmlunit.html.HtmlImage;
-import com.gargoylesoftware.htmlunit.html.HtmlSelect;
+import com.gargoylesoftware.htmlunit.html.*;
 
 /**
  * @author Javier Paniza
@@ -563,7 +561,7 @@ public class DeliveryTest extends ModuleTestBase {
 	
 	public void testCreateObjectInvalidateDescriptionsCache() throws Exception {
 		execute("CRUD.new");
-		assertNoType("66");
+		assertNoType("66"); 
 		changeModule("DeliveryType");
 		execute("CRUD.new");
 		setValue("number", "66");
@@ -1114,7 +1112,7 @@ public class DeliveryTest extends ModuleTestBase {
 		
 		// Searching with reference search button		
 		setValue("remarks", "");
-		searchInvoiceWithList("2004", "2");
+		searchInvoiceWithList("2004", "2"); 
 		assertValue("invoice.year", "2004");		
 		assertValue("invoice.number", "2"); 
 		assertValue("remarks", "No remarks");
@@ -1186,16 +1184,36 @@ public class DeliveryTest extends ModuleTestBase {
 		assertValidValues("distance", distanceValues);
 		
 		// DescriptionsList order			
-		String [] types = getKeysValidValues("type.number");		
+		String [] types = getKeysValidValues("type.number"); 	
 		int previous = Integer.MAX_VALUE;
 		for (int i=1; i<types.length; i++) { // 0 position is empty
 			int current = Integer.parseInt(types[i]);
 			assertTrue("delivery types must be in descending order by number", current < previous);
 			previous = current;
 		}
-		
+		assertOrderCorrectInAutocomplete(); 
 	}
 	
+	private void assertOrderCorrectInAutocomplete() throws Exception { 
+		HtmlElement typeList = getHtmlPage().getHtmlElementById("ui-id-1");		
+		HtmlElement typeEditor = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Delivery__reference_editor_type");
+		HtmlElement openTypeListIcon = typeEditor.getOneHtmlElementByAttribute("i", "class", "mdi mdi-menu-down");
+		openTypeListIcon.click();
+		assertEquals(6, typeList.getChildElementCount());
+		int i=0;
+		String [] expectedValues = { // In reverser order as specified in @DescriptionsList
+			"NOVO CREAD MODIFIED",
+			"ROJITO",
+			"NO DEFINIDO MODIFIED",
+			"NEGRO MODIFIED",
+			"INTERNOX MODIFIED",
+			"FACTURABLE MODIFIED"				
+		};
+		for (DomElement item: typeList.getChildElements()) {
+			assertEquals(expectedValues[i++], item.asText());
+		}
+	}
+
 	public void testViewPropertyInSectionDefaultCalcultarAndValidators() throws Exception { 
 		execute("CRUD.new");		
 		assertExists("advice");

@@ -61,7 +61,7 @@ public class Invoice2002Test extends CustomizeListTestBase {
 		String [] comparators = { "=", "=", "=", "=", "="};
 		String [] condition = { "", "", "", "", "true"	};
 		setConditionComparators(comparators);
-		setConditionValues(condition);
+		setConditionValues(condition); 
 		execute("List.filter");
 		assertNoErrors();
 	}	

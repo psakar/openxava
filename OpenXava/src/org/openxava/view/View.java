@@ -3723,7 +3723,7 @@ public class View implements java.io.Serializable {
 		if (metaDescriptionList != null) return metaDescriptionList.getDescriptionPropertiesNames();
 		return getMetaView().createMetaDescriptionList(ref).getDescriptionPropertiesNames();			
 	}
-	
+		
 	private MetaDescriptionsList getMetaDescriptionsList(MetaReference ref) {
 		MetaView view = getMetaView(ref);
 		

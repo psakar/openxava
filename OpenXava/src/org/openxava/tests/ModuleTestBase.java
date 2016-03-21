@@ -224,6 +224,19 @@ public class ModuleTestBase extends TestCase {
 			else if (input instanceof HtmlRadioButtonInput) {
 				setRadioButtonsValue(id, value);
 			}
+			else if (input instanceof HtmlHiddenInput) {
+				input.setValueAttribute(value);
+				HtmlInput autocomplete = ((HtmlInput) input.getPreviousElementSibling());
+				if (autocomplete != null && autocomplete.hasAttribute("data-values")) { // It's an autocomplete
+					autocomplete.setValueAttribute("Some things"); // A trick to avoid that JavaScript reset the real value
+					((HtmlInput) input.getNextElementSibling()).setValueAttribute("Some things"); // A trick to avoid that JavaScript reset the real value
+					String onchange = autocomplete.getOnChangeAttribute();
+					if (!Is.emptyString(onchange)) {
+						page.executeJavaScript(onchange);
+						refreshNeeded = true;
+					}
+				}
+			}
 			else {
 				input.setValueAttribute(value);				
 			}
@@ -663,6 +676,9 @@ public class ModuleTestBase extends TestCase {
 		String expectedFocusProperty = decorateId(name);			
 		HtmlElement element = page.getFocusedElement(); 
 		String focusProperty = element==null?null:element.getAttribute("name");
+		if (focusProperty != null && focusProperty.endsWith("__CONTROL__")) { 
+			focusProperty = focusProperty.replaceFirst("__CONTROL__$", "");
+		}
 		assertEquals(XavaResources.getString("focus_in_unexpected_place"), expectedFocusProperty, focusProperty);		
 	}
 	
@@ -2152,7 +2168,16 @@ public class ModuleTestBase extends TestCase {
 		assertValidValuesCount(elementCollectionPropertyName, count);		
 	}
 
-	protected void assertValidValues(String name, String [][] values) throws Exception { 
+	protected void assertValidValues(String name, String [][] values) throws Exception {
+		try {
+			assertValidValuesWithHtmlSelect(name, values);
+		}
+		catch (ElementNotFoundException ex) {
+			assertValidValuesWithUIAutocomplete(name, values);
+		}
+	}
+	
+	private void assertValidValuesWithHtmlSelect(String name, String [][] values) throws Exception {
 		Collection options = getSelectByName(decorateId(name)).getOptions();
 		assertEquals(XavaResources.getString("unexpected_valid_values", name), values.length, options.size());
 		int i=0;
@@ -2162,14 +2187,63 @@ public class ModuleTestBase extends TestCase {
 			assertEquals(XavaResources.getString("unexpected_description", name), values[i][1], option.asText());			
 		}
 	}
+
+	private void assertValidValuesWithUIAutocomplete(String name, String [][] values) throws Exception { 
+		List<KeyAndDescription> validValues = getValidValuesWithUIAutocomplete(name);
+		assertEquals(XavaResources.getString("unexpected_valid_values", name), values.length, validValues.size() + 1);
+		int i = 1;
+		for (KeyAndDescription validValue: validValues) {			
+			assertEquals(XavaResources.getString("unexpected_key", name), values[i][0], validValue.getKey());
+			assertEquals(XavaResources.getString("unexpected_description", name), values[i][1], validValue.getDescription());
+			i++;
+		}		
+	}
+	
+	private List<KeyAndDescription> getValidValuesWithUIAutocomplete(String name) throws Exception { 
+		HtmlElement textField = (HtmlElement) page.getHtmlElementById(decorateId(name)).getPreviousElementSibling();
+		String actualValues = textField.getAttribute("data-values");
+		StringTokenizer st = new StringTokenizer(actualValues, "\"");
+		st.nextToken();
+		List<KeyAndDescription> validValues = new ArrayList<KeyAndDescription>();
+		while (st.hasMoreTokens()) {			
+			String description = st.nextToken();
+			st.nextToken();
+			String key = st.nextToken();
+			st.nextToken();
+			validValues.add(new KeyAndDescription(key, description));
+		}
+		return validValues;
+	}
 	
 	protected void assertValidValuesCount(String name, int count) throws Exception {
+		try {
+			assertValidValuesCountWithHtmlSelect(name, count);
+		}
+		catch (ElementNotFoundException ex) {
+			assertValidValuesCountWithUIAutocomplete(name, count);
+		}
+	}
+	
+	private void assertValidValuesCountWithHtmlSelect(String name, int count) throws Exception { 
 		HtmlSelect select = getForm().getSelectByName(decorateId(name)); 
 		assertEquals(XavaResources.getString("unexpected_valid_values", name), count, select.getOptionSize());
 	}
 	
+	private void assertValidValuesCountWithUIAutocomplete(String name, int count) throws Exception { 
+		List validValues = getValidValuesWithUIAutocomplete(name);
+		assertEquals(XavaResources.getString("unexpected_valid_values", name), count, validValues.size() + 1 );
+	}
 	
 	protected String [] getKeysValidValues(String name) throws Exception {
+		try {
+			return getKeysValidValuesWithHtmlSelect(name);
+		}
+		catch (ElementNotFoundException ex) {
+			return getKeysValidValuesWithUIAutocomplete(name);
+		}
+	}
+	
+	private String [] getKeysValidValuesWithHtmlSelect(String name) throws Exception { 
 		Collection options = getForm().getSelectByName(decorateId(name)).getOptions(); 
 		String [] result = new String[options.size()];
 		int i=0;
@@ -2179,6 +2253,17 @@ public class ModuleTestBase extends TestCase {
 		return result;
 	}
 	
+	private String [] getKeysValidValuesWithUIAutocomplete(String name) throws Exception { 
+		List<KeyAndDescription> validValues = getValidValuesWithUIAutocomplete(name);
+		String [] keys = new String[validValues.size() + 1];
+		int i = 0;
+		keys[i++] = "";
+		for (KeyAndDescription validValue: validValues) {
+			keys[i++] = (String) validValue.getKey();
+		}
+		return keys;
+	}
+
 	protected void assertEditable(String name) throws Exception {
 		assertEditable(name, "true", XavaResources.getString("must_be_editable"));
 	}

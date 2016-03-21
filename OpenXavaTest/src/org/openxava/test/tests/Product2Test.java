@@ -6,6 +6,8 @@ import org.openxava.jpa.*;
 import org.openxava.test.model.*;
 import org.openxava.tests.*;
 
+import com.gargoylesoftware.htmlunit.html.*;
+
 
 /**
  * @author Javier Paniza
@@ -17,7 +19,7 @@ public class Product2Test extends ModuleTestBase {
 		super(testName, "Product2");		
 	}
 	
-	public void testCustomDialog() throws Exception { 
+	public void testCustomDialog() throws Exception {
 		// In detail mode
 		execute("CRUD.new");
 		assertCustomDialog(); 
@@ -43,7 +45,7 @@ public class Product2Test extends ModuleTestBase {
 		assertContentTypeForPopup("application/vnd.ms-excel"); 
 		assertDialog(); 
 		assertNoAction("Product2.reportBySubfamily");
-		assertAction("FamilyProductsReport.generateExcel");				
+		assertAction("FamilyProductsReport.generateExcel");
 	}
 	
 	private void assertCustomDialog() throws Exception { 
@@ -270,7 +272,7 @@ public class Product2Test extends ModuleTestBase {
 		assertValue("warehouse.KEY", "[.4.4.]");
 	}
 	
-	public void testFocusMoveToReferenceAsDescriptionsList() throws Exception {
+	public void testFocusMoveToReferenceAsDescriptionsList() throws Exception { 
 		execute("CRUD.new");
 		setValue("family.number", "1");
 		assertFocusOn("subfamily.number");
@@ -512,6 +514,110 @@ public class Product2Test extends ModuleTestBase {
 		execute("CRUD.save");				
 		assertError("Value for Family in Product is required");
 		assertError("Value for Subfamily in Product is required");
+	}
+	
+	public void testAutocompleteInDescriptionsList() throws Exception { 
+		getWebClient().getOptions().setCssEnabled(true);
+		execute("CRUD.new");
+		
+		HtmlElement familyList = getHtmlPage().getHtmlElementById("ui-id-1");
+		assertFalse(familyList.isDisplayed());
+		assertEquals(0, familyList.getChildElementCount());
+		
+		HtmlElement familyEditor = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Product2__reference_editor_family");
+		HtmlElement openFamilyListIcon = familyEditor.getOneHtmlElementByAttribute("i", "class", "mdi mdi-menu-down");
+		HtmlElement closeFamilyListIcon = familyEditor.getOneHtmlElementByAttribute("i", "class", "mdi mdi-menu-up");
+		assertTrue(openFamilyListIcon.isDisplayed());
+		assertFalse(closeFamilyListIcon.isDisplayed());
+		openFamilyListIcon.click();
+		assertTrue(familyList.isDisplayed());
+		assertEquals(3, familyList.getChildElementCount());
+		assertFalse(openFamilyListIcon.isDisplayed());
+		assertTrue(closeFamilyListIcon.isDisplayed());	
+		
+		closeFamilyListIcon.click();
+		assertFalse(familyList.isDisplayed());
+		assertTrue(openFamilyListIcon.isDisplayed());
+		assertFalse(closeFamilyListIcon.isDisplayed());	
+		
+		HtmlElement familyTextField = familyEditor.getOneHtmlElementByAttribute("input", "class", "xava_select editor ui-autocomplete-input");
+		assertEquals("HARDWARE", familyTextField.getAttribute("value"));
+		familyTextField.setAttribute("value", "");
+		assertEquals("", familyTextField.getAttribute("value"));
+		familyTextField.type("ware");
+		assertEquals("ware", familyTextField.getAttribute("value"));
+		Thread.sleep(500);
+		assertTrue(familyList.isDisplayed());
+		assertFalse(openFamilyListIcon.isDisplayed());
+		assertTrue(closeFamilyListIcon.isDisplayed());
+		assertEquals(2, familyList.getChildElementCount());
+		assertEquals("SOFTWARE", familyList.getFirstChild().asText());
+		assertEquals("HARDWARE", familyList.getLastChild().asText());
+		
+		((HtmlElement) familyList.getFirstChild()).click(); // SOFTWARE
+		getWebClient().waitForBackgroundJavaScriptStartingBefore(10000);
+		HtmlElement subfamilyEditor = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Product2__reference_editor_subfamily");
+		HtmlElement openSubfamilyListIcon = subfamilyEditor.getOneHtmlElementByAttribute("i", "class", "mdi mdi-menu-down");
+		openSubfamilyListIcon.click();
+		HtmlElement subfamilyList = getHtmlPage().getHtmlElementById("ui-id-9");
+		assertTrue(subfamilyList.isDisplayed());
+		assertEquals(3, subfamilyList.getChildElementCount());
+		assertEquals("DESARROLLO", subfamilyList.getFirstChild().asText());
+		assertEquals("SISTEMA", subfamilyList.getLastChild().asText());	
+		
+		((HtmlElement) subfamilyList.getFirstChild()).click(); // DESARROLLO
+		HtmlElement subfamilyTextField = subfamilyEditor.getOneHtmlElementByAttribute("input", "class", "xava_select editor ui-autocomplete-input");
+		assertEquals("DESARROLLO", subfamilyTextField.getAttribute("value"));
+
+		setValue("number", "66");
+		setValue("description", "JUNIT PRODUCT");
+		setValue("unitPrice", "66");
+		execute("CRUD.save");
+		assertNoErrors();
+		execute("Mode.list");
+		execute("List.orderBy", "property=number");
+		execute("List.orderBy", "property=number");
+		assertValueInList(0, "number", "66");
+		assertValueInList(0, "description", "JUNIT PRODUCT");
+		assertValueInList(0, "family.description", "SOFTWARE");
+		assertValueInList(0, "subfamily.description", "DESARROLLO");
+		
+		execute("Mode.detailAndFirst");
+		assertValue("number", "66");
+		assertValue("family.number", "1");
+		assertDescriptionValue("family.number", "SOFTWARE");
+		familyTextField =  getDescriptionsListTextField("family");
+		assertEquals("SOFTWARE", familyTextField.getAttribute("value"));
+		assertValue("subfamily.number", "1");
+		assertDescriptionValue("subfamily.number", "DESARROLLO");
+		subfamilyTextField = getDescriptionsListTextField("subfamily");
+		assertEquals("DESARROLLO", subfamilyTextField.getAttribute("value"));		
+		execute("CRUD.delete");
+		assertNoErrors();
+		
+		execute("CRUD.new");
+		familyTextField = getDescriptionsListTextField("family");
+		familyTextField.setAttribute("value", "");
+		familyTextField.type("ware");
+		assertEquals("ware", familyTextField.getAttribute("value"));
+		familyTextField.blur();
+		assertEquals("", familyTextField.getAttribute("value"));
+		
+		execute("CRUD.new");
+		familyList = getHtmlPage().getHtmlElementById("ui-id-27");
+		assertFalse(familyList.isDisplayed());
+		assertEquals(0, familyList.getChildElementCount());
+		familyTextField = getDescriptionsListTextField("family");
+		familyTextField.setAttribute("value", "");
+		familyTextField.type(" \b");
+		Thread.sleep(500); 
+		assertTrue(familyList.isDisplayed());
+		assertEquals(3, familyList.getChildElementCount());
+	}
+	
+	private HtmlElement getDescriptionsListTextField(String reference) {
+		HtmlElement familyEditor = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Product2__reference_editor_" + reference);
+		return  familyEditor.getOneHtmlElementByAttribute("input", "class", "xava_select editor ui-autocomplete-input");
 	}
 	
 	private void createProduct(int number, String description, int zone) throws Exception {

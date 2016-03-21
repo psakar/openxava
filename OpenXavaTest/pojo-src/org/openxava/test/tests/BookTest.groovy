@@ -42,7 +42,7 @@ class BookTest extends ModuleTestBase {
 	void testListFilterByBooleanColumnInDB() {
 		assertListRowCount 2 
 		setConditionComparators ([ "=", "=" ])
-		setConditionValues (["", "true" ])
+		setConditionValues (["", "true" ]) 
 		execute "List.filter"
 		assertListRowCount 1
 	}

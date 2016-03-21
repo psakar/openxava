@@ -346,8 +346,9 @@ A:hover .module-row, A:hover .folder-row {
 
 
 input[type="text"], input[type="password"], input[type="file"], select, textarea, 
-.ui-widget input[type="text"], .ui-widget input[type="password"], .ui-widget input[type="file"], .ui-widget select, .ui-widget textarea { 
-	border-color: #CCC;
+.ui-widget input[type="text"], .ui-widget input[type="password"], .ui-widget input[type="file"], 
+.ui-widget select, .ui-widget textarea {  
+	border-color: #CCC; 
 	border-style: solid;	
 	border-width: 1px;
 	box-shadow: rgba(0, 0, 0, 0.046875) 0px 1px 3px 0px inset, rgba(255, 255, 255, 0.0742188) 0px 1px 0px 0px;
@@ -1045,7 +1046,7 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 	margin-right: -5px !important;
 }
 
-.ox-subcontroller {
+.ox-subcontroller, .ui-autocomplete { 
 	border: 1px #cbcbcb solid;
 	padding: 5px 0px 5px 18px;
 	margin: 14px 0px 0px -4px;
@@ -1288,4 +1289,31 @@ i.ox-sort-indicator, i.ox-sort-indicator2 {
 i.ox-sort-indicator2 {
 	font-size: 100%;
 	padding: 1px;
+}
+
+.ui-autocomplete {
+    max-height: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-color: #CCC !important; 
+ }
+ 
+.ui-autocomplete-input::-ms-clear { 
+ 	display: none; 
+ }
+ 
+.ui-menu-item:hover, .ui-widget-content .ui-state-focus {
+ 	border-color: #DFF4FF !important; 
+ 	background: #DFF4FF !important;
+}
+ 
+.ox-descriptions-list i {
+ 	position: relative; 
+ 	right: 32px; 
+ 	margin-right: -20px; 	
+ 	padding: 5px;
+}
+
+.ox-element-collection .ox-descriptions-list i {
+	top: -5px;
 }
