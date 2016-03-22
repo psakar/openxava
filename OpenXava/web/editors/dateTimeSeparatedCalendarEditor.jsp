@@ -18,6 +18,7 @@ String browser = request.getHeader("user-agent");
 String size = browser.contains("Chrome")?"10":"12"; 
 if (editable || !label) {
 %>
+<span class="<%=style.getDateCalendar()%>">
 <input type="text" name="<%=propertyKey%>" id="<%=propertyKey%>" class=<%=style.getEditor()%> title="<%=p.getDescription(request)%>"
 	tabindex="1" 
 	align='<%=align%>'
@@ -32,6 +33,7 @@ if (editable || !label) {
 	value="<%=fTime%>"
 	<%=disabled%>
 	<%=script%>/>
+</span>
 <%
 } else {
 %>

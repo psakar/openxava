@@ -728,7 +728,7 @@ input[type="radio"] {
     border-color: #CCC !important; 
  }
  
-.ui-autocomplete-input::-ms-clear { 
+.ui-autocomplete-input::-ms-clear, .ox-date-calendar ::-ms-clear  {  
  	display: none; 
  }
  
@@ -743,4 +743,4 @@ input[type="radio"] {
  	top: -1px;
  	margin-right: -26px; 	
  	padding: 5px;
- }
+}

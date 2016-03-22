@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Clear button in IE is on top of calendar icon in date fields.
 - @DescriptionsList combos have autocomplete functionality. 
 - Icons instead of images in new created project from templates.
 - Default parser now is JSP based instead of Java based.

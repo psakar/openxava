@@ -184,8 +184,7 @@ if (editable) {
 		} 
 		values.append("]");
 		String browser = request.getHeader("user-agent");
-		int sizeIncrement = browser.contains("Chrome")?2:4; 
-		maxDescriptionLength += sizeIncrement;
+		maxDescriptionLength += 5;
 	%>
 	<span class="<%=style.getDescriptionsList()%>">
 	<%-- The JavaScript code depends on the order of the next elements --%>

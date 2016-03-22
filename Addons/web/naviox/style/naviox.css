@@ -429,17 +429,17 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus
 }
 
 .ox-button-bar {
-	padding: 8px 10px 12px 10px;
+	padding: 9px 10px 11px 10px; 
 }
 
 .ox-collection-list-actions {
-	padding: 9px 10px 11px 10px;
+	padding: 10px 10px 10px 10px; 
 }
 
 .ox-button-bar .ox-button-bar-button a, .ox-button-bar-mode-button, 
 .ox-collection-list-actions .ox-button-bar-button a {
 	border: 1px solid transparent; 
-	padding: 6px 6px 0px 0px; 
+	padding: 6px 6px 6px 0px;  
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -851,7 +851,7 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 }
 
 .ox-detail {
-	margin: 0px 10px 0px 7px;  
+	margin: 8px 10px 0px 7px; 
 }
 
 #sign_in_box .ox-detail { 
@@ -1298,7 +1298,7 @@ i.ox-sort-indicator2 {
     border-color: #CCC !important; 
  }
  
-.ui-autocomplete-input::-ms-clear { 
+.ui-autocomplete-input::-ms-clear, .ox-date-calendar ::-ms-clear {  
  	display: none; 
  }
  

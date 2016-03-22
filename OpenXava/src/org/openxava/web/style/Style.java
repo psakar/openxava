@@ -749,8 +749,14 @@ public class Style {
 	public String getDescriptionsList() {  
 		return "ox-descriptions-list";
 	}
-
-		
+	
+	/**
+	 * @since 5.5
+	 */
+	public String getDateCalendar() {   
+		return "ox-date-calendar";
+	}
+			
 	public String getErrors() { 
 		return "ox-errors";
 	}
