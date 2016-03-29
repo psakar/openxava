@@ -1,6 +1,9 @@
 Change Log for OpenXava project
 ===============================
 
+- Real Excel exporting by means of type=xls in GenerateReportAction or using the TypicalRealExcel controller.
+- Documentation in xava.properties for new projects improved. 
+- Documentation about module navigation improved.
 - Fix: Clear button in IE is on top of calendar icon in date fields.
 - @DescriptionsList combos have autocomplete functionality. 
 - Icons instead of images in new created project from templates.

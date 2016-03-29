@@ -36,7 +36,7 @@ public class ClerkTest extends ModuleTestBase {
 		assertNoErrors();
 	}
 	
-	public void testTimeStereotypeAndSqlTimeAndStringAsByteArrayInDB_i18nOverXmlLabeInXmlComponents() throws Exception {
+	public void testTimeStereotypeAndSqlTimeAndStringAsByteArrayInDB_i18nOverXmlLabeInXmlComponents_generateRealExcel() throws Exception {
 		assertListNotEmpty();
 		execute("Mode.detailAndFirst");
 		assertLabel("arrivalTime", "Arrival time"); // Only has sense in XML components
@@ -59,7 +59,12 @@ public class ClerkTest extends ModuleTestBase {
 		
 		// Asserting that java.sql.Time works in JasperReport
 		execute("Print.generatePdf"); 		
-		assertContentTypeForPopup("application/pdf");		
+		assertContentTypeForPopup("application/pdf");	
+		
+		// Real Excel
+		execute("TypicalRealExcel.generateExcel");
+		assertNoErrors(); 
+		assertContentTypeForPopup("application/vnd.ms-excel");				
 	}
 	
 	public void testListFormatSelectedButtonStyle() throws Exception { 

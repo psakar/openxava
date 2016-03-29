@@ -24,11 +24,17 @@
 			<set property="nextModule" value="ShowSeller"/>
 			<set property="reinit" value="true"/>
 		</action>	
-	</controller>	
+	</controller>
+	
+		
 	
 	<controller name="GalleryNoDialog">		
 		<action name="edit" image="photo.gif" hidden="true"
 			class="org.openxava.test.actions.EditGalleryNoDialogAction"/>			
+	</controller>
+	
+	<controller name="Clerk">	
+		<extends controller="TypicalRealExcel"/>
 	</controller>
 	
 	<controller name="Quote">	

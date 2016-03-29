@@ -694,7 +694,7 @@ public class CustomerWithSectionTest extends CustomerTest {
 		assertValueInList(0, 0, value);
 		
 		removeColumn(7); 
-		assertListColumnCount(7);
+		assertListColumnCount(7); 
 	}	
 	
 	public void testRowStyle() throws Exception {

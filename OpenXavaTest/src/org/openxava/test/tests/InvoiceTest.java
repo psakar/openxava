@@ -570,7 +570,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		assertEditable("year");
 	}
 	
-	public void testGenerateCustomPdfExcelRtfOdt() throws Exception {
+	public void testGenerateCustomPdfExcelRtfOdt() throws Exception { 
 		execute("Mode.detailAndFirst");
 		execute("InvoicePrint.printPdf"); 
 		assertNoErrors(); 
@@ -1064,7 +1064,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 			vat + "\";" + detailsCount + ";\"" +
 			paid + "\";\"" + importance + "\"";
 		
-		execute("Print.generateExcel");
+		execute("Print.generateExcel"); 
 		assertContentTypeForPopup("text/x-csv");
 		
 		StringTokenizer excel = new StringTokenizer(getPopupText(), "\n\r");
@@ -1077,7 +1077,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 	public void testGenerateExcelForOnlyCheckedRows() throws Exception { 
 		checkRow(0);
 		checkRow(2); // We assume that there are at least 3 invoices		
-		execute("Print.generateExcel");
+		execute("Print.generateExcel"); 
 		assertContentTypeForPopup("text/x-csv");		
 		StringTokenizer excel = new StringTokenizer(getPopupText(), "\n\r");
 		assertEquals("Must be exactly 3 (1 header + 2 detail) lines in the exported file", 

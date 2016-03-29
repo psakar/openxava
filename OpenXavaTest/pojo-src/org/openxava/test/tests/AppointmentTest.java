@@ -1,12 +1,7 @@
 package org.openxava.test.tests;
 
 import java.util.*;
-
-import org.apache.commons.lang.*;
 import org.openxava.tests.*;
-
-import com.gargoylesoftware.htmlunit.*;
-import com.gargoylesoftware.htmlunit.html.*;
 
 /**
  * 
@@ -14,8 +9,6 @@ import com.gargoylesoftware.htmlunit.html.*;
  */
 
 public class AppointmentTest extends ModuleTestBase {
-	
-	private boolean modulesLimit = true;
 	
 	public AppointmentTest(String testName) {
 		super(testName, "Appointment");		
@@ -31,7 +24,7 @@ public class AppointmentTest extends ModuleTestBase {
 		assertListRowCount(1);
 		assertValueInList(0, 0, "5/26/15 10:15 AM");
 		assertValueInList(0, 1, "ALMUERZO");		
-		execute("Print.generateExcel");
+		execute("Print.generateExcel"); 
 		assertContentTypeForPopup("text/x-csv");
 		StringTokenizer excel = new StringTokenizer(getPopupText(), "\n\r");
 		excel.nextToken(); // To skip the header

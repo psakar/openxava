@@ -113,7 +113,7 @@ here that you want to override.
 			keystroke="Control Alt X">
 			<set property="type" value="csv"/>	
 		</action>
-		
+				
 	</controller>	
 	
 	<controller name="ExtendedPrint">
@@ -179,7 +179,7 @@ here that you want to override.
 			icon="share-variant"
 			class="org.openxava.actions.ShareMyReportAction"/>																																										
 	</controller>
-		
+	
 	<controller name="Chart"> 
 		<action name="selectType" hidden="true"
 			class="org.openxava.actions.SelectChartTypeAction"/>
@@ -210,6 +210,17 @@ here that you want to override.
 			keystroke="Control N">
 			<set property="restoreModel" value="true"/>			
 		</action>		
+	</controller>
+	
+	<controller name="TypicalRealExcel">
+		<extends controller="Typical"/>
+		<action name="generateExcel" mode="list"
+            class="org.openxava.actions.GenerateReportAction"
+            image="excel.gif"
+            icon="file-excel"
+            keystroke="Control Alt X">
+            <set property="type" value="xls"/>  
+        </action>
 	</controller>	
 				
 	<controller name="DetailList">

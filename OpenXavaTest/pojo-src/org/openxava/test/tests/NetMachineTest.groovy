@@ -1,7 +1,5 @@
 package org.openxava.test.tests
 
-import java.util.*;
-
 import org.openxava.jpa.*;
 import org.openxava.test.model.*;
 import org.openxava.tests.*;
@@ -42,7 +40,7 @@ class NetMachineTest extends ModuleTestBase {
 		assertValueInList 0, 0, "WITH NULL MAC"
 		assertValueInList 0, 1, ""
 		
-		execute("Print.generateExcel");
+		execute("Print.generateExcel"); 
 		assertContentTypeForPopup("text/x-csv");
 		StringTokenizer excel = new StringTokenizer(getPopupText(), "\n\r");
 		String header = excel.nextToken(); 

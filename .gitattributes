@@ -5009,6 +5009,7 @@ OpenXava/src/org/openxava/actions/RemoveSelectedInCollectionAction.java -text
 OpenXava/src/org/openxava/actions/RemoveSelectedInElementCollectionAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveSelectedTreeViewNodeAction.java -text
 OpenXava/src/org/openxava/actions/RemoveTreeViewNodeAction.java -text
+OpenXava/src/org/openxava/actions/ReportXLSAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/ResetPreviousControllersAction.java -text
 OpenXava/src/org/openxava/actions/RestoreDefaultColumnsAction.java -text
 OpenXava/src/org/openxava/actions/ReturnAction.java -text
@@ -5448,6 +5449,11 @@ OpenXava/src/org/openxava/util/impl/ServerBean.java -text
 OpenXava/src/org/openxava/util/impl/ServerHome.java -text
 OpenXava/src/org/openxava/util/impl/ServerRemote.java -text
 OpenXava/src/org/openxava/util/impl/UserPreferences.java -text
+OpenXava/src/org/openxava/util/jxls/JxlsCell.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/util/jxls/JxlsConstants.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/util/jxls/JxlsSheet.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/util/jxls/JxlsStyle.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/util/jxls/JxlsWorkbook.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/util/meta/ElementName.java -text
 OpenXava/src/org/openxava/util/meta/MetaElement.java -text
 OpenXava/src/org/openxava/util/meta/MetaSet.java -text
@@ -5591,6 +5597,7 @@ OpenXava/src/org/openxava/web/servlets/GenerateSimpleHTMLReportServlet.java -tex
 OpenXava/src/org/openxava/web/servlets/ImagesServlet.java -text
 OpenXava/src/org/openxava/web/servlets/JasperReportServlet.java -text
 OpenXava/src/org/openxava/web/servlets/ModuleServlet.java -text
+OpenXava/src/org/openxava/web/servlets/ReportXLSServlet.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/servlets/Servlets.java -text
 OpenXava/src/org/openxava/web/style/IPadStyle.java -text
 OpenXava/src/org/openxava/web/style/JetSpeed2Style.java -text

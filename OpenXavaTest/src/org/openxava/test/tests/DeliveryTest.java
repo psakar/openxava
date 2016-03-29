@@ -1262,11 +1262,6 @@ public class DeliveryTest extends ModuleTestBase {
 		assertValue("remarks", "Hell in your eyes");	
 	}
 	
-	public void testGeneratePdf() throws Exception { 
-		execute("Print.generatePdf");		
-		assertContentTypeForPopup("application/pdf"); 
-	}
-		
 	private String getCurrentDate() {
 		DateFormat df = DateFormat.getDateInstance(DateFormat.SHORT);
 		return df.format(new java.util.Date());
