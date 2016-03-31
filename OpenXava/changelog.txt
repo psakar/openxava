@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- German translation improved.
 - Real Excel exporting by means of type=xls in GenerateReportAction or using the TypicalRealExcel controller.
 - Documentation in xava.properties for new projects improved. 
 - Documentation about module navigation improved.
