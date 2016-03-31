@@ -59,7 +59,7 @@ public class JxlsWorkbook implements JxlsConstants {
 	protected Map<String, Font> fonts = new HashMap<String, Font>();
 	protected Vector<JxlsSheet> sheets = new Vector<JxlsSheet>();
 	protected Map<String, JxlsSheet> sheetNames = new HashMap<String, JxlsSheet>();
-	
+		
 	/**
 	 * Constructs an empty JxlsWorkbook
 	 *  
@@ -79,8 +79,8 @@ public class JxlsWorkbook implements JxlsConstants {
 		if (table == null) return;
 		this.name = name;
 		JxlsStyle boldS = addStyle(TEXT).setBold();
-		JxlsStyle intS = addStyle(INTEGER);
-		JxlsStyle floatS = addStyle(FLOAT);
+		JxlsStyle intS = addStyle(INTEGER).setAlign(RIGHT);
+		JxlsStyle floatS = addStyle(FLOAT).setAlign(RIGHT);
 		JxlsStyle dateS = addStyle(DATE);
 		JxlsStyle stringS = addStyle(TEXT);
 		JxlsSheet sheet = addSheet(name);
@@ -352,6 +352,16 @@ public class JxlsWorkbook implements JxlsConstants {
 		Workbook poiWorkbook = new HSSFWorkbook();
 		if (sheets.size() == 0) (new JxlsSheet(this, "Sheet1")).createPOISheet(this, poiWorkbook);
 		for (JxlsSheet sheet: sheets) sheet.createPOISheet(this, poiWorkbook); 
+		// evaluate all formula after setting all cells
+		FormulaEvaluator poiFormulaEvaluator = poiWorkbook.getCreationHelper().createFormulaEvaluator();
+		for (int sheetNum=0; sheetNum<poiWorkbook.getNumberOfSheets(); sheetNum++) {
+		    Sheet poiSheet = poiWorkbook.getSheetAt(sheetNum);
+		    for (Row poiRow : poiSheet) {
+		        for (Cell poiCell : poiRow) {
+		            if (poiCell.getCellType() == Cell.CELL_TYPE_FORMULA) poiFormulaEvaluator.evaluateFormulaCell(poiCell);
+		        }
+		    }
+		}
 		return poiWorkbook;
 	}
 	
@@ -389,6 +399,8 @@ public class JxlsWorkbook implements JxlsConstants {
 		JxlsWorkbook wb2 = new JxlsWorkbook(new File("c:/_temp/Test.xls"));
 		wb2.write(new FileOutputStream("c:/_temp/Test2.xls"));
 	}
+
+
 }
 
 

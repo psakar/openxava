@@ -37,5 +37,5 @@ public interface JxlsConstants {
 	
 	public static final short BORDER_NONE = CellStyle.BORDER_NONE;
 	public static final short BORDER_THIN = CellStyle.BORDER_THIN;
-	public static final short THICK_BORDER = CellStyle.BORDER_THICK;	
+	public static final short BORDER_THICK = CellStyle.BORDER_THICK;	
 }
