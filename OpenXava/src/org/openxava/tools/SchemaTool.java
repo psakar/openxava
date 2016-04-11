@@ -80,7 +80,7 @@ public class SchemaTool {
 			}
 			Properties props = new Properties();
 			Map<String, Object> factoryProperties = XPersistence.getManager().getEntityManagerFactory().getProperties();
-			String dialect = (String) factoryProperties.get("hibernate.dialect");
+			String dialect = getHibernateDialectName();
 	    	props.put("hibernate.dialect", dialect);
 	    	String schema = (String) factoryProperties.get("hibernate.default_schema"); 
 	    	if (update) {
@@ -149,4 +149,15 @@ public class SchemaTool {
 		annotatedClasses.add(annotatedClass);		
 	}
 	
+	/**
+	 * Determines current connection dialect.
+	 * @return Hibernate dialect name.
+	 */
+	private String getHibernateDialectName() {
+		SessionImpl impl = (SessionImpl) XPersistence.getManager()
+				.getDelegate();
+		SessionFactoryImpl sessionFactory = (SessionFactoryImpl)impl.getSessionFactory();
+		return sessionFactory.getDialect().getClass().getName();
+	}
+
 }
