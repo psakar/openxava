@@ -4909,6 +4909,7 @@ OpenXava/src/org/openxava/actions/ChangeImageAction.java -text
 OpenXava/src/org/openxava/actions/ChangeModuleAction.java -text
 OpenXava/src/org/openxava/actions/ChangeSectionAction.java -text
 OpenXava/src/org/openxava/actions/ChooseFileAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/ChooseIconAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/ChooseReferenceAction.java -text
 OpenXava/src/org/openxava/actions/CollectionBaseAction.java -text
 OpenXava/src/org/openxava/actions/CollectionElementViewBaseAction.java -text
@@ -4934,6 +4935,7 @@ OpenXava/src/org/openxava/actions/GenerateMyReportAction.java -text svneol=unset
 OpenXava/src/org/openxava/actions/GenerateReportAction.java -text
 OpenXava/src/org/openxava/actions/GoAddColumnsAction.java -text
 OpenXava/src/org/openxava/actions/GoAddElementsToCollectionAction.java -text
+OpenXava/src/org/openxava/actions/GoChooseIconAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/GoDetailAction.java -text
 OpenXava/src/org/openxava/actions/GoListAction.java -text
 OpenXava/src/org/openxava/actions/GoNextPageAction.java -text
@@ -5002,6 +5004,7 @@ OpenXava/src/org/openxava/actions/RemoveChartColumnAction.java -text svneol=unse
 OpenXava/src/org/openxava/actions/RemoveColumnSumAction.java -text
 OpenXava/src/org/openxava/actions/RemoveElementFromCollectionAction.java -text
 OpenXava/src/org/openxava/actions/RemoveFileFromFilesetAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/RemoveIconAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveImageFromGalleryAction.java -text
 OpenXava/src/org/openxava/actions/RemoveMyReportAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveMyReportColumnAction.java -text svneol=unset#text/plain
@@ -5273,6 +5276,7 @@ OpenXava/src/org/openxava/formatters/FileListFormatter.java -text svneol=unset#t
 OpenXava/src/org/openxava/formatters/HTMLFilterListFormatter.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/formatters/IFormatter.java -text
 OpenXava/src/org/openxava/formatters/IMultipleValuesFormatter.java -text
+OpenXava/src/org/openxava/formatters/IconListFormatter.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/formatters/ImageFormatter.java -text
 OpenXava/src/org/openxava/formatters/MoneyFormatter.java -text
 OpenXava/src/org/openxava/formatters/MultipleValuesByPassFormatter.java -text
@@ -5771,6 +5775,7 @@ OpenXava/web/editors/chartTypeEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/chartXColumnEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/chartsEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/chooseFile.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/chooseIcon.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/ckeditor/.htaccess -text
 OpenXava/web/editors/ckeditor/config.js -text svneol=unset#text/plain
 OpenXava/web/editors/ckeditor/contents.css -text svneol=unset#text/plain
@@ -6002,6 +6007,7 @@ OpenXava/web/editors/elementCollectionEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/gallery.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/galleryEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/htmlEditor.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/iconEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/imageEditor.jsp -text
 OpenXava/web/editors/imageLabelEditor.jsp -text
 OpenXava/web/editors/js/autoNumeric.js -text svneol=unset#text/plain
@@ -10279,7 +10285,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/CompositeTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ComputerTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ConferenceTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CorporationEmployeeTest.java -text
-OpenXavaTest/pojo-src/org/openxava/test/tests/CorporationTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/CorporationTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CustomerMinimumTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DatesTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DealTest.groovy -text
@@ -10944,6 +10950,7 @@ OpenXavaTest/web/xava/editors/chartTypeEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/chartXColumnEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/chartsEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/chooseFile.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/chooseIcon.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/ckeditor/.htaccess -text
 OpenXavaTest/web/xava/editors/ckeditor/config.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/ckeditor/contents.css -text svneol=unset#text/plain
@@ -11180,6 +11187,7 @@ OpenXavaTest/web/xava/editors/elementCollectionEditor.jsp -text svneol=unset#tex
 OpenXavaTest/web/xava/editors/gallery.jsp -text
 OpenXavaTest/web/xava/editors/galleryEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/htmlEditor.jsp -text
+OpenXavaTest/web/xava/editors/iconEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/imageEditor.jsp -text
 OpenXavaTest/web/xava/editors/imageLabelEditor.jsp -text
 OpenXavaTest/web/xava/editors/importantEditor.jsp -text svneol=unset#text/plain

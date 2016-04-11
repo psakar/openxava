@@ -283,7 +283,7 @@ A#show_modules:HOVER {
 	padding-left: 7px;
 }
 
-#xava_add_columns {
+#xava_add_columns, .ox-icons-list { /* tmp .ox-icons-list */
 	max-height: 70vh;
 	margin-bottom: 5px;	
 	overflow-y: auto;
@@ -445,7 +445,7 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus
 }
 
 .ox-button-bar .ox-button-bar-button a, .ox-button-bar-mode-button, 
-.ox-collection-list-actions .ox-button-bar-button a, i {      
+.ox-collection-list-actions .ox-button-bar-button a, i, .ox-icon i.mdi-close-circle { /* tmp */      
 	color: #6F6F6F;
 }
 
@@ -469,7 +469,9 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus
 .ox-button-bar .ox-button-bar-button a:hover, 
 .ox-collection-list-actions .ox-button-bar-button a:hover, 
 .ox-subcontroller-select a, 
-i:hover, .ox-button-bar a:hover i, .ox-collection-list-actions a:hover i {        
+i:hover, .ox-button-bar a:hover i, .ox-collection-list-actions a:hover i,
+.ox-icon i.mdi-plus:hover, .ox-icon i.mdi-close-circle:hover /* tmp */
+ {        
 	color: #191919;
 }
 
@@ -1317,3 +1319,65 @@ i.ox-sort-indicator2 {
 .ox-element-collection .ox-descriptions-list i {
 	top: -5px;
 }
+
+/* tmp ini */
+.ox-icon i {
+	position: relative;
+	left: -14px;	
+	top: -6px;
+	color: black;
+	z-index: 10;
+	margin-right: -14px;
+}
+
+.firefox .ox-icon i {
+	left: -15px;	
+}
+
+.ie .ox-icon i {
+	left: -20px;	
+}
+
+
+
+.ox-icon i.mdi-crop-free {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	font-size: 280%;
+	color: lightgray;
+}
+
+.ox-icon i.mdi-close-circle {
+	font-size: 110%;
+	position: relative;
+	left: -9px;
+	top: -21px;
+	margin-right: -20px;
+}
+
+.ox-icon i.mdi-plus {
+	font-weight: bolder;
+	color: lightgray;
+}
+
+.ox-icons-list {
+	max-width: 750px;
+}
+
+.ox-icons-list i:hover {
+	background: #FFFFD6;
+	border: 1px solid #EBEBEB; 
+	cursor: pointer;
+}
+
+.ox-icons-list i {
+	font-size: 300%; 
+	padding: 10px;
+	border: 1px solid transparent; 
+}
+
+.ox-icon-in-list i {
+	color: black;
+}
+/* tmp fin */

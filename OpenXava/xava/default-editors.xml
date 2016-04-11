@@ -249,6 +249,12 @@
 		<for-stereotype stereotype="ARCHIVOS" />
 	</editor>
 	
+	<editor name="Icon" url="iconEditor.jsp">
+		<list-formatter class="org.openxava.formatters.IconListFormatter"/>
+		<for-stereotype stereotype="ICON" />
+		<for-stereotype stereotype="ICONO" />
+	</editor>
+	
 	<editor url="chartDataEditor.jsp">
 		<for-model-property model="Chart" property="chartData" />
 	</editor>

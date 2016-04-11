@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- New ICON stereotype to store an icon of Material Design Icon into a property of an entity. 
+- Fix: Internet Explorer CSS adjustments ignored for IE11. 
 - German translation improved.
 - Real Excel exporting by means of type=xls in GenerateReportAction or using the TypicalRealExcel controller.
 - Documentation in xava.properties for new projects improved. 

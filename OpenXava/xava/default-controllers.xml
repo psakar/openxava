@@ -33,6 +33,7 @@ here that you want to override.
 	<object name="xava_metaActionsInList" class="java.util.Collection"/>
 	<object name="xava_newFileProperty" class="java.lang.String" />
 	<object name="xava_newFilesetProperty" class="java.lang.String" />
+	<object name="xava_newIconProperty" class="java.lang.String"/> 
 		
 	<controller name="Typical">
 		<extends controller="Navigation"/>
@@ -483,6 +484,11 @@ here that you want to override.
 			class="org.openxava.actions.CancelAction"/>			
 	</controller>	
 	
+	<controller name="CloseFromCustomList"> 
+		<action name="close"
+			class="org.openxava.actions.CancelFromCustomListAction"/>
+	</controller>
+	
 	<controller name="Reference">
 		<action name="search"
 			class="org.openxava.actions.ReferenceSearchAction"
@@ -714,6 +720,13 @@ here that you want to override.
 			icon="attachment" image="attach.gif" />
 		<action name="delete" class="org.openxava.actions.DeleteFileAction" 
 			icon="delete" image="delete.gif" confirm="true" />
+	</controller>
+	
+	<controller name="Icon">
+		<action name="add" class="org.openxava.actions.GoChooseIconAction"/>
+		<action name="change" class="org.openxava.actions.GoChooseIconAction"/>
+		<action name="remove" class="org.openxava.actions.RemoveIconAction"	icon="close-circle"/>
+		<action name="choose" class="org.openxava.actions.ChooseIconAction"/>
 	</controller>
 	
 	<controller name="UploadFile">

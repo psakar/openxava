@@ -651,7 +651,7 @@ span.ox-subcontroller-select a{
 	outline: 0;
 }
 
-#xava_add_columns {
+#xava_add_columns, .ox-icons-list {  
 	margin-bottom: 5px;	
 	padding: 1px;
 	max-height: 70vh;
@@ -743,4 +743,54 @@ input[type="radio"] {
  	top: -1px;
  	margin-right: -26px; 	
  	padding: 5px;
+}
+
+.ox-icon i {
+	position: relative;
+	left: -10px;	
+	top: 0px;
+	color: black;
+	z-index: 10;
+	margin-right: -14px;
+}
+
+.ox-icon i.mdi-crop-free {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	font-size: 250%;
+	color: lightgray;
+}
+
+.ox-icon i.mdi-close-circle {
+	font-size: 110%;
+	position: relative;
+	left: -6px;
+	top: -9px;
+	margin-right: -20px;
+}
+
+.ox-icon i.mdi-plus {
+	font-weight: bolder;
+	color: lightgray;
+}
+
+.ox-icons-list {
+	max-width: 750px;
+}
+
+.ox-icons-list i:hover {
+	background: #DFF4FF;
+	border: 1px solid #EBEBEB; 
+	cursor: pointer;
+}
+
+.ox-icons-list i {
+	font-size: 300%; 
+	padding: 10px;
+	border: 1px solid transparent; 
+}
+
+.ox-icon-in-list i {
+	color: black;
 }

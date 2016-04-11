@@ -742,7 +742,35 @@ public class Style {
 	public String getRadioButtons() { 
 		return "ox-radio-buttons";
 	}
+
 	
+	/**
+	 * For icon editor.
+	 * 
+	 * @since 5.5
+	 */
+	public String getIcon() { 
+		return "ox-icon";
+	}
+	
+	/**
+	 * For icon in list as data.
+	 * 
+	 * @since 5.5
+	 */
+	public String getIconInList() {  
+		return "ox-icon-in-list";
+	}
+	
+	/**
+	 * For icons list to choose one.
+	 * 
+	 * @since 5.5
+	 */
+	public String getIconsList() {  
+		return "ox-icons-list";
+	}
+
 	/**
 	 * @since 5.5
 	 */

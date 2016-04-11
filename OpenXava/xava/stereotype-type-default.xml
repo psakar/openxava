@@ -40,5 +40,7 @@
 	<for stereotype="ARCHIVO" type="String"/>
 	<for stereotype="FILES" type="String"/>
 	<for stereotype="ARCHIVOS" type="String"/>
+	<for stereotype="ICON" type="String"/> 
+	<for stereotype="ICONO" type="String"/> 
 					
 </stereotype-type-default>
