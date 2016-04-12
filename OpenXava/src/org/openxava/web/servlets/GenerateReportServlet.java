@@ -218,7 +218,7 @@ public class GenerateReportServlet extends HttpServlet {
 			}
 			else if (uri.endsWith(".xls")) {    
                 synchronized (tab) {
-                    JxlsWorkbook wb = new JxlsWorkbook(getTableModel(request, tab, selectedRows, true, true, columnCountLimit), 
+                    JxlsWorkbook wb = new JxlsWorkbook(getTableModel(request, tab, selectedRows, true, false, columnCountLimit), 
                             getFileName(tab));
                     JxlsSheet sheet = wb.getSheet(0);
                     int lastRow = sheet.getLastRowNumber();

@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Generate schema tool fails when the dialect is not specified.
 - New ICON stereotype to store an icon of Material Design Icon into a property of an entity. 
 - Fix: Internet Explorer CSS adjustments ignored for IE11. 
 - German translation improved.
