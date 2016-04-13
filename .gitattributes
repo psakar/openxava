@@ -5621,6 +5621,7 @@ OpenXava/src/org/openxava/web/taglib/EditorTag.java -text
 OpenXava/src/org/openxava/web/taglib/IActionTag.java -text
 OpenXava/src/org/openxava/web/taglib/IdTag.java -text
 OpenXava/src/org/openxava/web/taglib/ImageTag.java -text
+OpenXava/src/org/openxava/web/taglib/LabelTag.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/taglib/LinkTag.java -text
 OpenXava/src/org/openxava/web/taglib/MessageTag.java -text
 OpenXava/web/WEB-INF/dwr.xml -text
