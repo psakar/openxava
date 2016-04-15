@@ -107,8 +107,9 @@ public class Modules implements Serializable {
 	public String getCurrentModuleDescription(HttpServletRequest request) { 
 		try {
 			String organization = Organizations.getCurrentName(request); 		
-			String prefix = organization == null?"":organization + " - ";																				
-			return prefix + current.getMetaApplication().getLabel() + " - " +  current.getLabel(); 
+			String prefix = organization == null?"":organization + " - ";
+			String application = NaviOXPreferences.getInstance().isShowApplicationName()?current.getMetaApplication().getLabel() + " - ":"";
+			return prefix + application + current.getLabel();
 		}
 		catch (Exception ex) {
 			log.warn(XavaResources.getString("module_description_problem"), ex);			

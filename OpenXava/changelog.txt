@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Property showApplicationName in naviox.properties to hide or show the application name in header.
 - New xava:label taglib to include i18n labels in custom JSPs.
 - Fix: Generate schema tool fails when the dialect is not specified.
 - New ICON stereotype to store an icon of Material Design Icon into a property of an entity. 

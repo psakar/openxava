@@ -96,5 +96,12 @@ public class NaviOXPreferences {
 	public boolean isRememberVisitedModules() { 
 		return "true".equalsIgnoreCase(getProperties().getProperty("rememberVisitedModules", "true").trim());
 	}
+	
+	/**
+	 * @since 5.5
+	 */
+	public boolean isShowApplicationName() { 
+		return "true".equalsIgnoreCase(getProperties().getProperty("showApplicationName", "true").trim());
+	}
 		
 }
