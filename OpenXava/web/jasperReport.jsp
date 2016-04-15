@@ -141,7 +141,7 @@ String reportName = Strings.change(tab.getModelName(), ".", "_");
 Collection totalProperties = tab.getTotalPropertiesNames();  		
 String language = request.getParameter("language");
 if (language == null) language = org.openxava.util.Locales.getCurrent().getDisplayLanguage();
-language = language == null?request.getLocale().getDisplayLanguage():language;
+language = language == null?XavaResources.getLocale(request).getDisplayLanguage():language;
 Locale locale = new Locale(language, "");
 String scolumnCountLimit = request.getParameter("columnCountLimit");
 Integer columnCountLimit = scolumnCountLimit == null?null:Integer.parseInt(scolumnCountLimit);

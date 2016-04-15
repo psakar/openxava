@@ -6,6 +6,7 @@ import org.openxava.model.meta.MetaCollection;
 import org.openxava.tab.Tab;
 import org.openxava.util.Is;
 import org.openxava.util.Labels;
+import org.openxava.util.Locales;
 import org.openxava.util.XavaResources;
 import org.openxava.view.meta.MetaCollectionView;
 import org.openxava.view.meta.MetaView;
@@ -46,9 +47,9 @@ public class GoAddElementsToCollectionAction extends CollectionElementViewBaseAc
 		}
 		setTab(tab);
 		currentCollectionLabel = "'" + 
-			Labels.get(getCollectionElementView().getMemberName(), getRequest().getLocale()) +
+			Labels.get(getCollectionElementView().getMemberName(), XavaResources.getLocale(getRequest())) +
 			" " + XavaResources.getString(getRequest(), "of") + " " +
-			Labels.get(getCollectionElementView().getParent().getModelName(), getRequest().getLocale()) + "'";
+			Labels.get(getCollectionElementView().getParent().getModelName(), XavaResources.getLocale(getRequest())) + "'";
 		getCollectionElementView().setTitleId("add_to_collection_prompt", currentCollectionLabel);
 		setCollectionViewObject(getViewObject());
 		showDialog(getCollectionElementView()); 		

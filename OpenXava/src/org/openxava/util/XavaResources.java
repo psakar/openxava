@@ -102,6 +102,7 @@ public class XavaResources {
 	}	
 	
 	/**
+	 * Use Locales#getCurrent(ServletRequest) instead.
 	 * Locale used to obtain resource in web application. <p>
 	 */
 	public static Locale getLocale(ServletRequest request) { 

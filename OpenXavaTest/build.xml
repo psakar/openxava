@@ -165,7 +165,7 @@
 	
 	<target name="runTests">
 		<junit fork="true"  printsummary="true">
-			<jvmarg value="-Xmx1024m"/>
+			<jvmarg value="-Xmx1024m -Duser.country=es -Duser.language=ES"/>
 			<formatter type="plain" usefile="false" />
 			<classpath>
 				<pathelement location="../OpenXava/lib/junit.jar"/>

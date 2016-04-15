@@ -387,9 +387,9 @@ public class ColorTest extends ModuleTestBase {
 	}
 	
 	public void testIgnoreAccentsForStringArgumentsInTheFilter() throws Exception{ 
-		// create record with name 'marrón'
+		// create record with name 'marrï¿½n'
 		execute("CRUD.new");
-		setValue("name", "marrón");
+		setValue("name", "marr\u00f3n");
 		execute("TypicalNotResetOnSave.save");
 		assertNoErrors();
 		
@@ -398,16 +398,16 @@ public class ColorTest extends ModuleTestBase {
 		setConditionValues("", "marron");
 		execute("List.filter");
 		assertListRowCount(1); 
-		assertValueInList(0, 1, "MARRÓN");
+		assertValueInList(0, 1, "MARR\u00d3N");
 		
-		// filter by 'marrón'
+		// filter by 'marrï¿½n'
 		setConditionValues("", "");
 		execute("List.filter");
 		assertListRowCount(10);
-		setConditionValues("", "marrón");
+		setConditionValues("", "marr\u00f3n");
 		execute("List.filter");
 		assertListRowCount(1);
-		assertValueInList(0, 1, "MARRÓN");		
+		assertValueInList(0, 1, "MARR\u00d3N");		
 		
 		// delete
 		checkAll();

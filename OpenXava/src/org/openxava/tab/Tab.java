@@ -28,7 +28,7 @@ import org.openxava.web.*;
  * Session object to work with tabular data. <p> 
  * 
  * @author Javier Paniza
- * @author Ana Andrés
+ * @author Ana Andrï¿½s
  * @author Trifon Trifonov
  */
 

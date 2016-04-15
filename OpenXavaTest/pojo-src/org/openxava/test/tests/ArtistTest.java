@@ -1,5 +1,7 @@
 package org.openxava.test.tests;
 
+import java.util.Locale;
+
 import org.openxava.tests.*;
 
 /**

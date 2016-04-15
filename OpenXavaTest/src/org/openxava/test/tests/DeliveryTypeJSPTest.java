@@ -36,8 +36,8 @@ public class DeliveryTypeJSPTest extends ModuleTestBase {
 		
 		// <xava:label/> taglib
 		String pageText = getHtmlPage().asText();
-		assertTrue(pageText.contains("Número:"));
-		assertTrue(pageText.contains("Descripción:"));
+		assertTrue(pageText.contains("N\u00famero:"));
+		assertTrue(pageText.contains("Descripci\u00f3n:"));
 	}
 			
 }
