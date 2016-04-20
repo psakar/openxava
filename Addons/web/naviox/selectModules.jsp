@@ -27,8 +27,8 @@ for (Iterator it= modulesList.iterator(); it.hasNext();) {
 	}
 	MetaModule module = (MetaModule) it.next();
 	String selected = module.getName().equals(modules.getCurrent())?"selected":"";
-	String label = module.getLabel(org.openxava.util.XavaResources.getLocale(request)); 
-	String description = module.getDescription(org.openxava.util.XavaResources.getLocale(request));
+	String label = module.getLabel(request.getLocale()); 
+	String description = module.getDescription(request.getLocale());
 	String normalizedLabel = Strings.removeAccents(label.toLowerCase()); 
 	String normalizedDescription = Strings.removeAccents(description.toLowerCase());
 	if (!Is.emptyString(searchWord) && !normalizedLabel.contains(searchWord) && !normalizedDescription.contains(searchWord)) continue;
