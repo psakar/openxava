@@ -442,6 +442,19 @@ openxava.systemError = function(result) {
 openxava.processKey = function(event) {	
 	if (!event) event = window.event;
 	
+	if (event.keyCode == 13 ) {
+		var textField = $(event.target);
+		var id = $(textField).attr("id");
+		if (/.*_conditionValue___\d+$/.test(id)) {
+			event.returnValue = false;
+			event.preventDefault();
+			var collection = id.split("_")[6];
+			openxava.executeAction(openxava.lastApplication, openxava.lastModule,
+				"", false, "List.filter", "collection=" + collection);
+		}
+		return;
+	}
+	
 	if ( !(event.keyCode >= 112 && event.keyCode <= 123 ||
 			event.ctrlKey || event.altKey || event.shiftKey) ) return;
 	
@@ -461,8 +474,7 @@ openxava.processKey = function(event) {
 		openxava.executeAction(openxava.lastApplication, openxava.lastModule,
 			action.confirmMessage, action.takesLong, action.name);  
 		return;
-	}
-		
+	}	
 }
 
 openxava.getSelectedValues = function(application, module) {  	  		
@@ -763,7 +775,7 @@ openxava.onSelectListFormat = function(event) {
 	i.parent().addClass(openxava.selectedListFormatClass);
 }
 
-openxava.clearLog = function(message) { 
+openxava.clearLog = function() { 
 	$('#xava_console').empty();
 }
 

@@ -63,7 +63,7 @@ public class ModuleTestBase extends TestCase {
 	private static int loginFormIndex = -1;
 	private static Collection excludedActions;  
 	private static Collection ignoredActions;
-	private static BrowserVersion browserVersion; 
+	private static BrowserVersion defaultBrowserVersion; 
 	
 	private String locale;
 	private MetaModule metaModule;
@@ -523,13 +523,31 @@ public class ModuleTestBase extends TestCase {
 		}
 	}
 	
-	private static BrowserVersion getBrowserVersion() throws Exception {
-		if (browserVersion == null) {
-			browserVersion = new BrowserVersion("", "", "", 0); 
-			BeanUtils.copyProperties(browserVersion, (BrowserVersion.FIREFOX_24));		
-			browserVersion.setUserAgent(browserVersion.getUserAgent() + " HtmlUnit");
+	/**
+	 * The browser emulation used for the test. <p>
+	 * 
+	 * If you overwrite this method maybe some methods of ModuleTestBase 
+	 * would not work correctly. Usually you overwrite it to test using 
+	 * directly the HtmlUnit API.<br/>
+	 * 
+	 * The use of <b>this method is discouraged</b> because binds your test
+	 * to a HTML implementation.
+	 * Before to use this method look for another more abstract method
+	 * in this class.
+	 * 
+	 * @since 5.5
+	 */
+	protected BrowserVersion getBrowserVersion() throws Exception { 
+		return getDefaultBrowserVersion();
+	}
+	
+	private static BrowserVersion getDefaultBrowserVersion() throws Exception { 
+		if (defaultBrowserVersion == null) { 
+			defaultBrowserVersion = new BrowserVersion("", "", "", 0); 
+			BeanUtils.copyProperties(defaultBrowserVersion, (BrowserVersion.FIREFOX_24));		
+			defaultBrowserVersion.setUserAgent(defaultBrowserVersion.getUserAgent() + " HtmlUnit");
 		}
-		return browserVersion;
+		return defaultBrowserVersion;
 	}
 	
 	private boolean isCoreViaAJAX() { 
@@ -2676,7 +2694,7 @@ public class ModuleTestBase extends TestCase {
 	/**
 	 * This allows you testing using HtmlUnit APIs directly. <p>
 	 * 
-	 * The use of <b>this method is discoraged</b> because binds your test
+	 * The use of <b>this method is discouraged</b> because binds your test
 	 * to a HTML implementation.
 	 * Before to use this method look for another more abstract method
 	 * in this class.
