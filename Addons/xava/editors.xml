@@ -26,11 +26,11 @@
 		<for-model-property model="ModuleRights" property="excludedMembers" />
 	</editor>
 	
-	<editor url="../../naviox/editors/membersEditor.jsp" frame="true">			
+	<editor url="../../naviox/editors/membersEditor.jsp" frame="true">		
+		<property name="excludeReadOnly" value="true"/>	
 		<formatter class="com.openxava.naviox.formatters.ArrayAsStringFormatter" />
 		<list-formatter class="com.openxava.naviox.formatters.MembersListFormatter" />
-		<for-model-property model="ModuleRights" property="readOnlyMembers" /> 
-		<property name="excludeReadOnly" value="true"/>
+		<for-model-property model="ModuleRights" property="readOnlyMembers" /> 	
 	</editor>
 
 	<editor url="../../naviox/editors/organizationUrlEditor.jsp">
