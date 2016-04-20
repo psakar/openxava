@@ -730,7 +730,7 @@ public class ModuleManager implements java.io.Serializable {
 				continue;
 			}
 
-			message = XavaResources.getString(message, attrName, metaModule != null ? metaModule.getModelName() : moduleName);
+			message = XavaResources.getString(message);
 			Object invalidValue = violation.getInvalidValue();
 			if (Is.emptyString(attrName) || domainClass == null
 					|| invalidValue == null) {
