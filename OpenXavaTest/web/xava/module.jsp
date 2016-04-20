@@ -143,7 +143,7 @@
 	<script type='text/javascript'>
 		openxava.lastApplication='<%=app%>'; 		
 		openxava.lastModule='<%=module%>'; 	
-		openxava.language='<%=XavaResources.getLocale(request).getLanguage()%>';
+		openxava.language='<%=request.getLocale().getLanguage()%>';
 	</script>	
 	<%
 		if (style.isNeededToIncludeCalendar()) {

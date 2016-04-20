@@ -147,7 +147,7 @@ if (manager.isButtonBarVisible()) {
 		}
 	}	
 
-	String language = org.openxava.util.XavaResources.getLocale(request).getLanguage();
+	String language = request.getLocale().getLanguage();
 	String href = XavaPreferences.getInstance().getHelpPrefix(); 
 	String suffix = XavaPreferences.getInstance().getHelpSuffix(); 
 	String target = XavaPreferences.getInstance().isHelpInNewWindow() ? "_blank" : "";

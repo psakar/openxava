@@ -26,7 +26,7 @@ if (editable || !label) {
 				<%=disabled%>
 				<%=script%>
 		/>
-		<%=Labels.get("regions." + i, org.openxava.util.XavaResources.getLocale(request))%>
+		<%=Labels.get("regions." + i, request.getLocale())%>
 	<%
 	}
 }

@@ -25,7 +25,7 @@ if (editable || !label) {
 	for (int i=1; i<regionsCount+1; i++) {
 		String selected = regions.contains(Integer.toString(i))?"selected":"";		
 	%>	
-	<option value="<%=i%>" <%=selected%>><%=Labels.get("regions." + i, org.openxava.util.XavaResources.getLocale(request))%></option>
+	<option value="<%=i%>" <%=selected%>><%=Labels.get("regions." + i, request.getLocale())%></option>
 	<%
 	}
 	%>
