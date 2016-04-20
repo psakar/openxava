@@ -226,8 +226,9 @@ public class ModuleTestBase extends TestCase {
 			}
 			else if (input instanceof HtmlHiddenInput) {
 				input.setValueAttribute(value);
-				HtmlInput autocomplete = ((HtmlInput) input.getPreviousElementSibling());
-				if (autocomplete != null && autocomplete.hasAttribute("data-values")) { // It's an autocomplete
+				DomElement previousElement = input.getPreviousElementSibling();
+				if (previousElement instanceof HtmlInput && previousElement.hasAttribute("data-values")) { // It's an autocomplete
+					HtmlInput autocomplete = (HtmlInput) previousElement;
 					autocomplete.setValueAttribute("Some things"); // A trick to avoid that JavaScript reset the real value
 					((HtmlInput) input.getNextElementSibling()).setValueAttribute("Some things"); // A trick to avoid that JavaScript reset the real value
 					String onchange = autocomplete.getOnChangeAttribute();
@@ -235,7 +236,7 @@ public class ModuleTestBase extends TestCase {
 						page.executeJavaScript(onchange);
 						refreshNeeded = true;
 					}
-				}
+				}				
 			}
 			else {
 				input.setValueAttribute(value);				
