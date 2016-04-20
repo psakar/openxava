@@ -3,7 +3,7 @@
 <%-- To put your own text add entries in the i18n messages files of your project --%>
 
 <%
-String language = "es".equals(org.openxava.util.XavaResources.getLocale(request).getLanguage()) || "ca".equals(org.openxava.util.XavaResources.getLocale(request).getLanguage())?"es":"en";
+String language = "es".equals(request.getLocale().getLanguage()) || "ca".equals(request.getLocale().getLanguage())?"es":"en";
 %>
 
 <div id="first_steps">
