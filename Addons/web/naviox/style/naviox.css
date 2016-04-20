@@ -573,6 +573,16 @@ i {
 	padding: 5px;  
 }
 
+.folder-name i {
+	color: #cccccc;
+	vertical-align: baseline;
+	margin-right: 3px;
+}
+
+.folder-row:hover i {
+	color: #6F6F6F;		
+} 
+
 .ox-list-formats a:hover, .ox-chart-type a:hover, .ox-customize-controls a, a.ox-image-link, .ox-help a {  
 	text-decoration: none;
 }
