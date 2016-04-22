@@ -1,39 +1,17 @@
 Change Log for OpenXava project
 ===============================
 
-- Pressing ENTER in the filter part of a collection executes the filter of the collection.
-- Property showApplicationName in naviox.properties to hide or show the application name in header.
-- New xava:label taglib to include i18n labels in custom JSPs.
-- Fix: Generate schema tool fails when the dialect is not specified.
-- New ICON stereotype to store an icon of Material Design Icon into a property of an entity. 
-- Fix: Internet Explorer CSS adjustments ignored for IE11. 
-- German translation improved.
-- Real Excel exporting by means of type=xls in GenerateReportAction or using the TypicalRealExcel controller.
-- Documentation in xava.properties for new projects improved. 
-- Documentation about module navigation improved.
-- Fix: Clear button in IE is on top of calendar icon in date fields.
-- @DescriptionsList combos have autocomplete functionality. 
-- Icons instead of images in new created project from templates.
-- Default parser now is JSP based instead of Java based.
-- Better alignment for icons in button bar.
-- ValidValuesRadioButton and ValidValuesVerticalRadioButton editors look improved. 
-- Fix: ValidValuesVerticalRadioButton editor does not align the first option well. 
-- Fix: Properties inside a group within a section are not cleared or saved.
-- Fix: Label style does not work.
-- Fix: referenceEditor.jsp name ignored in editors.xml.
-- Fix: Editors with frame=true composite=true do not work correctly.
-- Fix: Textfields are not aligned when there are validation errors.
-- Fix: Frames not aligned with element collections.
+OpenXava 5.5 (2016-4-22)
+------------------------
+- @DescriptionsList combos have autocomplete functionality.
 - showReferenceView=true in descriptions list to show a combo and a detail view at the same time for a reference.
-- Table created by default for images gallery allows big images. 
-- Fix: Generating PDF in list fails with Android. 
-- New method XObjects.execute() to call dynamically methods with three arguments.
-- View.setEditable(member, state) works for references and collection in addition of plain properties.
-- Fix: If view is not initialized View.setEditable(member, state) is not propagate to groups. 
-- "contains" instead of "starts" as default value in filters for string values in list and collections. 
-- Fix: Text field font size and family inside dialogs are not the same than in a regular view.
+- Pressing ENTER in the filter part of a collection executes the filter of the collection.
+- "contains" instead of "starts" as default value in filters for string values in list and collections.
+- Real Excel exporting by means of type=xls in GenerateReportAction or using the TypicalRealExcel controller.
+- New ICON stereotype to store an icon of Material Design Icon into a property of an entity.
 - Delete buttons are red only on hover.
 - Delete icons are red on hover.
+- There is no special icon for key, just the required icon if applies.
 - Icon instead of image for sorting rows in collections with @OrderColumn.
 - Icons instead of images for messages.
 - Icons instead of images for sort indicators in list and collections.
@@ -41,8 +19,7 @@ Change Log for OpenXava project
 - Icon instead of image for boolean values in list and collections.
 - Icons instead of images for date and date/time editors and list filtering.
 - Icon to throw calendar in DateTimeCalendar editor inside textfield.
-- Fix: Icon in date fields hides some part of the date in some browsers. 
-- Stereotype FILE supports multischema.
+- Icons instead of images in new created project from templates.
 - New icon for going to first record in detail mode.
 - Icons instead of images for page navigation in lists.
 - Material Design Icons upgraded to 1.4.57.
@@ -52,8 +29,33 @@ Change Log for OpenXava project
 - Icon for showing and hiding filter in list is in the same place.
 - Icons instead of images for customizing list and collections.
 - Icons instead of images for validation error and required.
-- There is no special icon for key, just the required icon if applies.
-
+- Better alignment for icons in button bar.
+- Property showApplicationName in naviox.properties to hide or show the application name in header.
+- New xava:label taglib to include i18n labels in custom JSPs.
+- German translation improved.
+- Documentation in xava.properties for new projects improved. 
+- Documentation about module navigation improved.
+- Default parser now is JSP based instead of Java based.
+- ValidValuesRadioButton and ValidValuesVerticalRadioButton editors look improved. 
+- Table created by default for images gallery allows big images. 
+- New method XObjects.execute() to call dynamically methods with three arguments.
+- View.setEditable(member, state) works for references and collection in addition of plain properties.
+- Stereotype FILE supports multischema.
+- Fix: Clear button in IE is on top of calendar icon in date fields.
+- Fix: Generate schema tool fails when the dialect is not specified.
+- Fix: Internet Explorer CSS adjustments ignored for IE11.
+- Fix: Icon in date fields hides some part of the date in some browsers. 
+- Fix: Text field font size and family inside dialogs are not the same than in a regular view.
+- Fix: If view is not initialized View.setEditable(member, state) is not propagate to groups. 
+- Fix: Generating PDF in list fails with Android.
+- Fix: ValidValuesVerticalRadioButton editor does not align the first option well. 
+- Fix: Properties inside a group within a section are not cleared or saved.
+- Fix: Label style does not work.
+- Fix: referenceEditor.jsp name ignored in editors.xml.
+- Fix: Editors with frame=true composite=true do not work correctly.
+- Fix: Textfields are not aligned when there are validation errors.
+- Fix: Frames not aligned with element collections.
+ 
 OpenXava 5.4.1 (2015-12-15)
 ---------------------------
 - Fix: Default action fired pressing ENTER ignores confirm=true and takes-long=true.

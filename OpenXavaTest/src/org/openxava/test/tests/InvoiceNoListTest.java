@@ -23,7 +23,7 @@ public class InvoiceNoListTest extends ModuleTestBase {
 		int lastIndex = getListRowCount() - 1;		
 		String description = getValueInList(lastIndex, 1);		
 		execute("ReferenceSearch.choose", "row=" + lastIndex);
-		assertNoErrors();
+		assertNoErrors(); 
 		assertValue("product.description", description); 
 	}
 								
