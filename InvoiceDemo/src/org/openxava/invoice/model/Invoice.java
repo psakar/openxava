@@ -13,8 +13,8 @@ import org.openxava.model.*;
 @View(members=
 	"year, number, date, vatPercentage;" +
 	"customer;" +
-	"details;" +
-	"remarks"
+	"details { details };" +
+	"remarks { remarks }"
 )
 @Tab(properties="year, number, date, customer.name, remarks")
 public class Invoice extends Identifiable {
@@ -40,7 +40,7 @@ public class Invoice extends Identifiable {
 	@ListProperties("product.number, product.description, unitPrice, quantity, amount[invoice.sum, invoice.vat, invoice.total]")
 	private List<InvoiceDetail> details;
 	
-	@Stereotype("TEXT_AREA")
+	@Stereotype("HTML_TEXT")
 	private String remarks;
 	
 	public BigDecimal getSum() {

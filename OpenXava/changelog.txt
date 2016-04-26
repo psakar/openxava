@@ -1,7 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
-OpenXava 5.5 (2016-4-22)
+OpenXava 5.5 (2016-4-26)
 ------------------------
 - @DescriptionsList combos have autocomplete functionality.
 - showReferenceView=true in descriptions list to show a combo and a detail view at the same time for a reference.
@@ -35,7 +35,7 @@ OpenXava 5.5 (2016-4-22)
 - German translation improved.
 - Documentation in xava.properties for new projects improved. 
 - Documentation about module navigation improved.
-- Default parser now is JSP based instead of Java based.
+- Default renderer now is JSP based instead of Java based.
 - ValidValuesRadioButton and ValidValuesVerticalRadioButton editors look improved. 
 - Table created by default for images gallery allows big images. 
 - New method XObjects.execute() to call dynamically methods with three arguments.

@@ -44,8 +44,9 @@ boolean onlySections = view.hasSections() && view.getMetaMembers().isEmpty();
 %>
 
 <%
-boolean renderedView = isSection ? layoutPainterManager.renderSection(view, pageContext)
-	: layoutPainterManager.renderView(view, pageContext);	
+boolean renderedView = isSection ? layoutPainterManager.renderSection(view, pageContext)		
+	: layoutPainterManager.renderView(view, pageContext);
+
 if (!renderedView) {
 	// Only performed if no layout painter is in effect.
 	if (!onlySections) {	// IF Not Only Sections
@@ -79,7 +80,7 @@ if (!renderedView) {
 	</tr>
 	<tr>
 		<td>
-			<table>
+			<table border='0' cellpadding='0' cellspacing='0'>
 				<tr>
 <%
 				} // END IF Last Table Closed
@@ -130,7 +131,6 @@ if (!renderedView) {
 			<%=style.getFrameHeaderStartDecoration(frameWidth) %>
 			<%=style.getFrameTitleStartDecoration() %>
 			<span id="<%=labelKey%>"><%=label%></span>		
-			<%@ include file="editorIcons.jsp"%>
 			<%=style.getFrameTitleEndDecoration() %>	
 			<%=style.getFrameActionsStartDecoration()%>
 <% 
@@ -335,7 +335,8 @@ if (!renderedView) {
 %>
 			<%=style.getFrameHeaderStartDecoration(frameWidth)%>
 			<%=style.getFrameTitleStartDecoration()%>
-			<%=group.getLabel(request)%>
+			<% String labelId = Ids.decorate(request, "label_" + view.getPropertyPrefix() + group.getName()); %>
+			<span id="<%=labelId%>"><%=group.getLabel(request)%></span>
 			<%=style.getFrameTitleEndDecoration()%>
 			<%=style.getFrameActionsStartDecoration()%>
 <% 

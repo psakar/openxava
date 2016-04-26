@@ -1093,6 +1093,8 @@ InvoiceDemo/web/WEB-INF/portlet.xml -text svneol=unset#text/plain
 InvoiceDemo/web/WEB-INF/web.xml -text svneol=unset#text/plain
 InvoiceDemo/web/index.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/naviox/editors/actionsEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/naviox/editors/commonDefinitions.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/naviox/editors/membersEditor.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/naviox/editors/organizationUrlEditor.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/naviox/firstSteps.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/naviox/getModulesList.jsp -text svneol=unset#text/plain
@@ -1222,6 +1224,7 @@ InvoiceDemo/web/xava/editors/chartTypeEditor.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/chartXColumnEditor.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/chartsEditor.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/chooseFile.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/chooseIcon.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/ckeditor/.htaccess -text
 InvoiceDemo/web/xava/editors/ckeditor/config.js -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/ckeditor/contents.css -text svneol=unset#text/plain
@@ -1453,6 +1456,7 @@ InvoiceDemo/web/xava/editors/elementCollectionEditor.jsp -text svneol=unset#text
 InvoiceDemo/web/xava/editors/gallery.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/galleryEditor.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/htmlEditor.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/iconEditor.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/imageEditor.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/imageLabelEditor.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/js/autoNumeric.js -text svneol=unset#text/plain
@@ -1460,6 +1464,7 @@ InvoiceDemo/web/xava/editors/js/c3.js -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/js/chartDataEditor.js -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/js/ckeditor.js -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/js/d3.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/editors/js/descriptionsEditor.js -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/js/elementCollectionEditor.js -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/js/htmlEditor.js -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/js/jquery-ckeditor-adapter.js -text svneol=unset#text/plain
@@ -1553,6 +1558,97 @@ InvoiceDemo/web/xava/js/jquery.js -text svneol=unset#text/plain
 InvoiceDemo/web/xava/js/jquery.sorttable.js -text svneol=unset#text/plain
 InvoiceDemo/web/xava/js/jquery.ui.touch-punch.js -text svneol=unset#text/plain
 InvoiceDemo/web/xava/js/openxava.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/js/pdfjs/build/pdf.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/js/pdfjs/build/pdf.worker.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/js/pdfjs/web/debugger.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/js/pdfjs/web/images/annotation-check.svg -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/annotation-comment.svg -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/annotation-help.svg -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/annotation-insert.svg -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/annotation-key.svg -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/annotation-newparagraph.svg -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/annotation-noicon.svg -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/annotation-note.svg -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/annotation-paragraph.svg -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/findbarButton-next-rtl.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/findbarButton-next-rtl@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/findbarButton-next.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/findbarButton-next@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/findbarButton-previous-rtl.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/findbarButton-previous-rtl@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/findbarButton-previous.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/findbarButton-previous@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/grab.cur -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/grabbing.cur -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/loading-icon.gif -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/loading-small.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/loading-small@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/secondaryToolbarButton-documentProperties.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/secondaryToolbarButton-documentProperties@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/secondaryToolbarButton-firstPage.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/secondaryToolbarButton-firstPage@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/secondaryToolbarButton-handTool.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/secondaryToolbarButton-handTool@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/secondaryToolbarButton-lastPage.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/secondaryToolbarButton-lastPage@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/secondaryToolbarButton-rotateCcw.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/secondaryToolbarButton-rotateCcw@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/secondaryToolbarButton-rotateCw.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/secondaryToolbarButton-rotateCw@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/shadow.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/texture.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-bookmark.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-bookmark@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-download.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-download@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-menuArrows.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-menuArrows@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-openFile.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-openFile@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-pageDown-rtl.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-pageDown-rtl@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-pageDown.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-pageDown@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-pageUp-rtl.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-pageUp-rtl@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-pageUp.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-pageUp@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-presentationMode.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-presentationMode@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-print.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-print@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-search.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-search@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-secondaryToolbarToggle-rtl.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-secondaryToolbarToggle-rtl@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-secondaryToolbarToggle.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-secondaryToolbarToggle@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-sidebarToggle-rtl.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-sidebarToggle-rtl@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-sidebarToggle.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-sidebarToggle@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-viewAttachments.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-viewAttachments@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-viewOutline-rtl.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-viewOutline-rtl@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-viewOutline.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-viewOutline@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-viewThumbnail.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-viewThumbnail@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-zoomIn.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-zoomIn@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-zoomOut.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/toolbarButton-zoomOut@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/treeitem-collapsed-rtl.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/treeitem-collapsed-rtl@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/treeitem-collapsed.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/treeitem-collapsed@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/treeitem-expanded.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/images/treeitem-expanded@2x.png -text
+InvoiceDemo/web/xava/js/pdfjs/web/l10n.js -text svneol=unset#text/plain
+InvoiceDemo/web/xava/js/pdfjs/web/viewer.css -text svneol=unset#text/plain
+InvoiceDemo/web/xava/js/pdfjs/web/viewer.html -text svneol=unset#text/plain
+InvoiceDemo/web/xava/js/pdfjs/web/viewer.js -text svneol=unset#text/plain
 InvoiceDemo/web/xava/js/typewatch.js -text svneol=unset#text/plain
 InvoiceDemo/web/xava/list.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/messages.jsp -text svneol=unset#text/plain
@@ -1560,6 +1656,7 @@ InvoiceDemo/web/xava/module.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/portlet.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/propertyActions.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/reference.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/referenceActions.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/referenceEditorIcons.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/referenceSearch.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/sections.jsp -text svneol=unset#text/plain
@@ -3986,6 +4083,8 @@ MySchool/web/WEB-INF/openxava.tld -text svneol=unset#text/plain
 MySchool/web/WEB-INF/web.xml -text svneol=unset#text/plain
 MySchool/web/index.jsp -text svneol=unset#text/plain
 MySchool/web/naviox/editors/actionsEditor.jsp -text svneol=unset#text/plain
+MySchool/web/naviox/editors/commonDefinitions.jsp -text svneol=unset#text/plain
+MySchool/web/naviox/editors/membersEditor.jsp -text svneol=unset#text/plain
 MySchool/web/naviox/editors/organizationUrlEditor.jsp -text svneol=unset#text/plain
 MySchool/web/naviox/firstSteps.jsp -text svneol=unset#text/plain
 MySchool/web/naviox/getModulesList.jsp -text svneol=unset#text/plain
@@ -4114,6 +4213,7 @@ MySchool/web/xava/editors/chartTypeEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/chartXColumnEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/chartsEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/chooseFile.jsp -text svneol=unset#text/plain
+MySchool/web/xava/editors/chooseIcon.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/ckeditor/.htaccess -text
 MySchool/web/xava/editors/ckeditor/config.js -text svneol=unset#text/plain
 MySchool/web/xava/editors/ckeditor/contents.css -text svneol=unset#text/plain
@@ -4345,6 +4445,7 @@ MySchool/web/xava/editors/elementCollectionEditor.jsp -text svneol=unset#text/pl
 MySchool/web/xava/editors/gallery.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/galleryEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/htmlEditor.jsp -text svneol=unset#text/plain
+MySchool/web/xava/editors/iconEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/imageEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/imageLabelEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/js/autoNumeric.js -text svneol=unset#text/plain
@@ -4352,6 +4453,7 @@ MySchool/web/xava/editors/js/c3.js -text svneol=unset#text/plain
 MySchool/web/xava/editors/js/chartDataEditor.js -text svneol=unset#text/plain
 MySchool/web/xava/editors/js/ckeditor.js -text svneol=unset#text/plain
 MySchool/web/xava/editors/js/d3.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/js/descriptionsEditor.js -text svneol=unset#text/plain
 MySchool/web/xava/editors/js/elementCollectionEditor.js -text svneol=unset#text/plain
 MySchool/web/xava/editors/js/htmlEditor.js -text svneol=unset#text/plain
 MySchool/web/xava/editors/js/jquery-ckeditor-adapter.js -text svneol=unset#text/plain
@@ -4445,6 +4547,97 @@ MySchool/web/xava/js/jquery.js -text svneol=unset#text/plain
 MySchool/web/xava/js/jquery.sorttable.js -text svneol=unset#text/plain
 MySchool/web/xava/js/jquery.ui.touch-punch.js -text svneol=unset#text/plain
 MySchool/web/xava/js/openxava.js -text svneol=unset#text/plain
+MySchool/web/xava/js/pdfjs/build/pdf.js -text svneol=unset#text/plain
+MySchool/web/xava/js/pdfjs/build/pdf.worker.js -text svneol=unset#text/plain
+MySchool/web/xava/js/pdfjs/web/debugger.js -text svneol=unset#text/plain
+MySchool/web/xava/js/pdfjs/web/images/annotation-check.svg -text
+MySchool/web/xava/js/pdfjs/web/images/annotation-comment.svg -text
+MySchool/web/xava/js/pdfjs/web/images/annotation-help.svg -text
+MySchool/web/xava/js/pdfjs/web/images/annotation-insert.svg -text
+MySchool/web/xava/js/pdfjs/web/images/annotation-key.svg -text
+MySchool/web/xava/js/pdfjs/web/images/annotation-newparagraph.svg -text
+MySchool/web/xava/js/pdfjs/web/images/annotation-noicon.svg -text
+MySchool/web/xava/js/pdfjs/web/images/annotation-note.svg -text
+MySchool/web/xava/js/pdfjs/web/images/annotation-paragraph.svg -text
+MySchool/web/xava/js/pdfjs/web/images/findbarButton-next-rtl.png -text
+MySchool/web/xava/js/pdfjs/web/images/findbarButton-next-rtl@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/findbarButton-next.png -text
+MySchool/web/xava/js/pdfjs/web/images/findbarButton-next@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/findbarButton-previous-rtl.png -text
+MySchool/web/xava/js/pdfjs/web/images/findbarButton-previous-rtl@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/findbarButton-previous.png -text
+MySchool/web/xava/js/pdfjs/web/images/findbarButton-previous@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/grab.cur -text
+MySchool/web/xava/js/pdfjs/web/images/grabbing.cur -text
+MySchool/web/xava/js/pdfjs/web/images/loading-icon.gif -text
+MySchool/web/xava/js/pdfjs/web/images/loading-small.png -text
+MySchool/web/xava/js/pdfjs/web/images/loading-small@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/secondaryToolbarButton-documentProperties.png -text
+MySchool/web/xava/js/pdfjs/web/images/secondaryToolbarButton-documentProperties@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/secondaryToolbarButton-firstPage.png -text
+MySchool/web/xava/js/pdfjs/web/images/secondaryToolbarButton-firstPage@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/secondaryToolbarButton-handTool.png -text
+MySchool/web/xava/js/pdfjs/web/images/secondaryToolbarButton-handTool@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/secondaryToolbarButton-lastPage.png -text
+MySchool/web/xava/js/pdfjs/web/images/secondaryToolbarButton-lastPage@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/secondaryToolbarButton-rotateCcw.png -text
+MySchool/web/xava/js/pdfjs/web/images/secondaryToolbarButton-rotateCcw@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/secondaryToolbarButton-rotateCw.png -text
+MySchool/web/xava/js/pdfjs/web/images/secondaryToolbarButton-rotateCw@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/shadow.png -text
+MySchool/web/xava/js/pdfjs/web/images/texture.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-bookmark.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-bookmark@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-download.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-download@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-menuArrows.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-menuArrows@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-openFile.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-openFile@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-pageDown-rtl.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-pageDown-rtl@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-pageDown.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-pageDown@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-pageUp-rtl.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-pageUp-rtl@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-pageUp.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-pageUp@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-presentationMode.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-presentationMode@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-print.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-print@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-search.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-search@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-secondaryToolbarToggle-rtl.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-secondaryToolbarToggle-rtl@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-secondaryToolbarToggle.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-secondaryToolbarToggle@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-sidebarToggle-rtl.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-sidebarToggle-rtl@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-sidebarToggle.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-sidebarToggle@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-viewAttachments.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-viewAttachments@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-viewOutline-rtl.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-viewOutline-rtl@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-viewOutline.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-viewOutline@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-viewThumbnail.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-viewThumbnail@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-zoomIn.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-zoomIn@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-zoomOut.png -text
+MySchool/web/xava/js/pdfjs/web/images/toolbarButton-zoomOut@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/treeitem-collapsed-rtl.png -text
+MySchool/web/xava/js/pdfjs/web/images/treeitem-collapsed-rtl@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/treeitem-collapsed.png -text
+MySchool/web/xava/js/pdfjs/web/images/treeitem-collapsed@2x.png -text
+MySchool/web/xava/js/pdfjs/web/images/treeitem-expanded.png -text
+MySchool/web/xava/js/pdfjs/web/images/treeitem-expanded@2x.png -text
+MySchool/web/xava/js/pdfjs/web/l10n.js -text svneol=unset#text/plain
+MySchool/web/xava/js/pdfjs/web/viewer.css -text svneol=unset#text/plain
+MySchool/web/xava/js/pdfjs/web/viewer.html -text svneol=unset#text/plain
+MySchool/web/xava/js/pdfjs/web/viewer.js -text svneol=unset#text/plain
 MySchool/web/xava/js/typewatch.js -text svneol=unset#text/plain
 MySchool/web/xava/list.jsp -text svneol=unset#text/plain
 MySchool/web/xava/messages.jsp -text svneol=unset#text/plain
@@ -4452,6 +4645,7 @@ MySchool/web/xava/module.jsp -text svneol=unset#text/plain
 MySchool/web/xava/portlet.jsp -text svneol=unset#text/plain
 MySchool/web/xava/propertyActions.jsp -text svneol=unset#text/plain
 MySchool/web/xava/reference.jsp -text svneol=unset#text/plain
+MySchool/web/xava/referenceActions.jsp -text svneol=unset#text/plain
 MySchool/web/xava/referenceEditorIcons.jsp -text svneol=unset#text/plain
 MySchool/web/xava/referenceSearch.jsp -text svneol=unset#text/plain
 MySchool/web/xava/sections.jsp -text svneol=unset#text/plain

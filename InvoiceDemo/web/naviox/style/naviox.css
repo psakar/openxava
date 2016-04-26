@@ -10,7 +10,7 @@ body {
 	padding: 0;
 }
 
-body, .ui-dialog {
+body, .ui-dialog, input { 
 	font-family: Arial,Helvetica,Verdana,sans-serif !important;
 }
 
@@ -283,7 +283,7 @@ A#show_modules:HOVER {
 	padding-left: 7px;
 }
 
-#xava_add_columns {
+#xava_add_columns, .ox-icons-list { 
 	max-height: 70vh;
 	margin-bottom: 5px;	
 	overflow-y: auto;
@@ -344,12 +344,15 @@ A:hover .module-row, A:hover .folder-row {
 	color: white;
 }
 
-input[type="text"], input[type="password"], input[type="file"], select, textarea {
-	border-color: #CCC;
+
+input[type="text"], input[type="password"], input[type="file"], select, textarea, 
+.ui-widget input[type="text"], .ui-widget input[type="password"], .ui-widget input[type="file"], 
+.ui-widget select, .ui-widget textarea {  
+	border-color: #CCC; 
 	border-style: solid;	
 	border-width: 1px;
 	box-shadow: rgba(0, 0, 0, 0.046875) 0px 1px 3px 0px inset, rgba(255, 255, 255, 0.0742188) 0px 1px 0px 0px;
-	font-size: 13px;
+	font-size: 13px; 
 	outline-color: black;
 	outline-style: none;
 	outline-width: 0px;
@@ -364,6 +367,15 @@ input[type="text"], input[type="password"], input[type="file"], textarea {
 
 input[type="text"], input[type="password"], input[type="file"] {
 	height: 20px;
+}
+
+.ox-radio-buttons {
+	margin: 10px 0px 10px 0px;
+}
+
+input[type="radio"] {
+	margin: 4px 0px 4px 10px;
+	vertical-align: middle;
 }
 
 .ox-list-subheader input[type="text"] { 
@@ -407,7 +419,6 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus
 
 .ox-button-bar, .ox-collection-list-actions {
 	background: #F5F5F5;
-	padding: 10px;
 	margin-left: -1px;
 	margin-right: -1px;
 	min-height: 15px;
@@ -417,16 +428,24 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus
 	-webkit-box-shadow: 0px 2px 7px #CCCCCC;	
 }
 
+.ox-button-bar {
+	padding: 9px 10px 11px 10px; 
+}
+
+.ox-collection-list-actions {
+	padding: 10px 10px 10px 10px; 
+}
+
 .ox-button-bar .ox-button-bar-button a, .ox-button-bar-mode-button, 
 .ox-collection-list-actions .ox-button-bar-button a {
 	border: 1px solid transparent; 
-	padding: 6px 6px 6px 0px;
+	padding: 6px 6px 6px 0px;  
 	font-weight: bold;
 	text-decoration: none;
 }
 
 .ox-button-bar .ox-button-bar-button a, .ox-button-bar-mode-button, 
-.ox-collection-list-actions .ox-button-bar-button a, i {      
+.ox-collection-list-actions .ox-button-bar-button a, i, .ox-icon i.mdi-close-circle {       
 	color: #6F6F6F;
 }
 
@@ -450,12 +469,14 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus
 .ox-button-bar .ox-button-bar-button a:hover, 
 .ox-collection-list-actions .ox-button-bar-button a:hover, 
 .ox-subcontroller-select a, 
-i:hover, .ox-button-bar a:hover i, .ox-collection-list-actions a:hover i {        
+i:hover, .ox-button-bar a:hover i, .ox-collection-list-actions a:hover i,
+.ox-icon i.mdi-plus:hover, .ox-icon i.mdi-close-circle:hover 
+ {        
 	color: #191919;
 }
 
 .ox-button-bar .ox-button-bar-button a {
-	vertical-align: top; 
+	vertical-align: middle;  
 } 
 
 .ox-button-bar-mode-button { 
@@ -474,6 +495,10 @@ i {
 	vertical-align: middle;
 	padding: 4px 4px 4px 0px;
 	margin-right: -20px;
+}
+
+.mdi-delete:hover {
+	color: red;
 }
 
 .ox-list-odd i, .ox-list-pair i {
@@ -499,16 +524,12 @@ i {
 
 }
 
-.ox-module i {
+.ox-module i, .ui-dialog i { 
 	font-size: 140%;
 }
 
 .ox-image-link i, .ox-list-header i { 
 	padding: 4px;
-}
-
-.ox-help i { 
-	margin-top: -2px;
 }
 
 .ox-frame-actions i {
@@ -541,7 +562,7 @@ i {
 }
 
 .ox-list-formats i {
-	margin-top: -8px;
+	margin-top: -6px; 
 	margin-left: -5px;	 
 	font-size: 150%;
 	padding: 5px;
@@ -551,6 +572,16 @@ i {
 .ox-list-formats i:hover {
 	padding: 5px;  
 }
+
+.folder-name i {
+	color: #cccccc;
+	vertical-align: baseline;
+	margin-right: 3px;
+}
+
+.folder-row:hover i {
+	color: #6F6F6F;		
+} 
 
 .ox-list-formats a:hover, .ox-chart-type a:hover, .ox-customize-controls a, a.ox-image-link, .ox-help a {  
 	text-decoration: none;
@@ -579,8 +610,8 @@ a.ox-selected-list-format, a.ox-selected-list-format:hover {
 .ox-required-icon, .ox-error-icon { 
 	width: 0px; 
 	position: relative;
-	left: -2px;
-	top: -15px;
+	left: 0px;
+	top: -17px;
 	color: #3777D7;
 }
 
@@ -596,11 +627,8 @@ i.ox-error-icon {
 }
 
 input[type="button"], .ipad input[type="button"]:hover, A#show_modules {
-	background: #F5F5F5;
-	border: 1px solid #C6C6C6;
 	padding: 10px;
-	margin-right: 4px;
-	color: #6F6F6F;
+	margin-right: 4px;	
 	font-size: 12px;
 	font-weight: bold;
 	text-decoration: none;
@@ -608,9 +636,6 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules {
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	cursor: pointer;
-	box-shadow: 0px 1px 2px #CCCCCC; 
-	-moz-box-shadow: 0px 1px 2px #CCCCCC; 
-	-webkit-box-shadow: 0px 1px 2px #CCCCCC;
 }
 
 input[type="button"], .ipad input[type="button"]:hover {
@@ -618,7 +643,7 @@ input[type="button"], .ipad input[type="button"]:hover {
 }
 
 .ui-dialog input[type="button"], .ui-dialog .ipad input[type="button"]:hover,
-#sign_in_box input[type="button"], #sign_in_box .ipad input[type="button"]:hover
+#sign_in_box input[type="button"], #sign_in_box .ipad input[type="button"]:hover 
 {
 	margin-bottom: 0px;
 }
@@ -627,7 +652,6 @@ A#show_modules  {
 	padding: 4px;
 	margin-right: 20px;
 }
-
 
 .ipad input[type="button"], .ipad input[type="button"]:hover {
 	background: -webkit-gradient(linear, left bottom, left top, from(#F5F5F5), to(#F5F5F5));
@@ -659,7 +683,7 @@ input[type="button"]:active, A#show_modules.show-modules-selected {
 	background: -webkit-gradient(linear, left bottom, left top, from(#3777D7), to(#3777D7));
 }
 
-.ox-bottom-buttons input:nth-of-type(2):hover {
+.ox-bottom-buttons input:nth-of-type(2):hover 
 	background: blue;
 	border-color: blue;
 	box-shadow: 0px 1px 7px blue; 
@@ -673,21 +697,23 @@ input[type="button"]:active, A#show_modules.show-modules-selected {
 	-webkit-box-shadow: 0px 0px 0px blue;	
 }
 
-.ox-bottom-buttons input[id*="delete"], .ox-bottom-buttons input[id*="remove"], .ox-bottom-buttons input[id*="borrar"],
-	.ipad .ox-bottom-buttons input[id*="delete"]:hover, .ipad .ox-bottom-buttons input[id*="remove"]:hover, .ipad .ox-bottom-buttons input[id*="borrar"]:hover
-{
-	background: #DC4A38;
-	border-color: #B0281A;
-	color: white;
-	box-shadow: 0px 1px 3px red; 
-	-moz-box-shadow: 0px 1px 3px red; 
-	-webkit-box-shadow: 0px 1px 3px red;
+input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
+.ox-bottom-buttons input[id*="delete"], .ox-bottom-buttons input[id*="remove"], 
+.ox-bottom-buttons input[id*="borrar"], .ipad .ox-bottom-buttons input[id*="delete"]:hover, 
+.ox-bottom-buttons input[id*="remove"]:hover, 
+.ipad .ox-bottom-buttons input[id*="borrar"]:hover {
+	background: #F5F5F5;
+	border: 1px solid #C6C6C6;
+	color: #6F6F6F;
+	box-shadow: 0px 1px 2px #CCCCCC; 
+	-moz-box-shadow: 0px 1px 2px #CCCCCC; 
+	-webkit-box-shadow: 0px 1px 2px #CCCCCC;
 }
 
 .ipad .ox-bottom-buttons input[id*="delete"], .ipad .ox-bottom-buttons input[id*="remove"], .ipad .ox-bottom-buttons input[id*="borrar"],
 	.ipad .ox-bottom-buttons input[id*="delete"]:hover, .ipad .ox-bottom-buttons input[id*="remove"]:hover, .ipad .ox-bottom-buttons input[id*="borrar"]:hover
 {
-	background: -webkit-gradient(linear, left bottom, left top, from(#DC4A38), to(#DC4A38));
+	 background: -webkit-gradient(linear, left bottom, left top, from(#F5F5F5), to(#F5F5F5)); 
 }
 
 .ox-bottom-buttons input[id*="delete"]:hover, .ox-bottom-buttons input[id*="remove"]:hover, .ox-bottom-buttons input[id*="borrar"]:hover {
@@ -707,7 +733,7 @@ input[type="button"]:active, A#show_modules.show-modules-selected {
 
 .ox-button-bar-mode-button {
 	position: relative;
-	top: -7px;
+	top: -4px; 
 	float: left;
 }
 
@@ -837,7 +863,7 @@ input[type="button"]:active, A#show_modules.show-modules-selected {
 }
 
 .ox-detail {
-	margin: 0px 10px 0px 7px;  
+	margin: 8px 10px 0px 7px; 
 }
 
 #sign_in_box .ox-detail { 
@@ -846,6 +872,7 @@ input[type="button"]:active, A#show_modules.show-modules-selected {
 
 .ox-frame, #sign_in_box { 
 	margin-bottom: 5px;
+	margin-right: 7px; 
 	padding: 10px 10px 3px 10px; 
 	border-radius: 7px;
 	-moz-border-radius: 7px;
@@ -998,26 +1025,22 @@ input[type="button"]:active, A#show_modules.show-modules-selected {
 	margin-top: 9px;
 	margin-left: 3px;
 	font-weight: bold;
-	padding: 3px 0px 3px 30px;
+	padding: 3px 0px 3px 3px; 
 }
 
-.ox-errors .ox-message-box {	
-	background: url(../../xava/style/liferay51/images/messages/error.png) no-repeat 6px 50%;
+.ox-errors .ox-message-box, .ox-errors .ox-message-box i {	
 	color: #DC4A38;
 }
 
-.ox-messages .ox-message-box {	
-	background: url(../../xava/style/liferay51/images/messages/success.png) no-repeat 6px 50%;
+.ox-messages .ox-message-box, .ox-messages .ox-message-box i {	
 	color: #6fc664;
 }
 
-.ox-infos .ox-message-box {	
-	background: url(../../xava/style/liferay51/images/messages/info.png) no-repeat 6px 50%;
+.ox-infos .ox-message-box, .ox-infos .ox-message-box i {	
 	color: #a1a4a5;
 }
 
-.ox-warnings .ox-message-box {	
-	background: url(../../xava/style/liferay51/images/messages/alert.png) no-repeat 6px 50%;
+.ox-warnings .ox-message-box, .ox-warnings .ox-message-box i {	
 	color: #f6dc5c;
 }
 
@@ -1035,7 +1058,7 @@ input[type="button"]:active, A#show_modules.show-modules-selected {
 	margin-right: -5px !important;
 }
 
-.ox-subcontroller {
+.ox-subcontroller, .ui-autocomplete { 
 	border: 1px #cbcbcb solid;
 	padding: 5px 0px 5px 18px;
 	margin: 14px 0px 0px -4px;
@@ -1112,7 +1135,11 @@ div.ox-subcontroller table{
 }
 
 #sign_in_box .small-label { 
-	padding-left: 7px; 
+	padding-left: 3px; 
+}
+
+#sign_in_box .editor { 
+	margin: 2px 0px 15px 1px;
 }
 
 #first_steps {
@@ -1274,4 +1301,91 @@ i.ox-sort-indicator, i.ox-sort-indicator2 {
 i.ox-sort-indicator2 {
 	font-size: 100%;
 	padding: 1px;
+}
+
+.ui-autocomplete {
+    max-height: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-color: #CCC !important; 
+ }
+ 
+.ui-autocomplete-input::-ms-clear, .ox-date-calendar ::-ms-clear {  
+ 	display: none; 
+ }
+ 
+.ui-menu-item:hover, .ui-widget-content .ui-state-focus {
+ 	border-color: #DFF4FF !important; 
+ 	background: #DFF4FF !important;
+}
+ 
+.ox-descriptions-list i {
+ 	position: relative; 
+ 	right: 32px; 
+ 	margin-right: -20px; 	
+ 	padding: 5px;
+}
+
+.ox-element-collection .ox-descriptions-list i {
+	top: -5px;
+}
+
+.ox-icon i {
+	position: relative;
+	left: -14px;	
+	top: -6px;
+	color: black;
+	z-index: 10;
+	margin-right: -14px;
+}
+
+.firefox .ox-icon i {
+	left: -15px;	
+}
+
+.ie .ox-icon i {
+	left: -20px;	
+}
+
+
+
+.ox-icon i.mdi-crop-free {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	font-size: 280%;
+	color: lightgray;
+}
+
+.ox-icon i.mdi-close-circle {
+	font-size: 110%;
+	position: relative;
+	left: -9px;
+	top: -21px;
+	margin-right: -20px;
+}
+
+.ox-icon i.mdi-plus {
+	font-weight: bolder;
+	color: lightgray;
+}
+
+.ox-icons-list {
+	max-width: 750px;
+}
+
+.ox-icons-list i:hover {
+	background: #FFFFD6;
+	border: 1px solid #EBEBEB; 
+	cursor: pointer;
+}
+
+.ox-icons-list i {
+	font-size: 300%; 
+	padding: 10px;
+	border: 1px solid transparent; 
+}
+
+.ox-icon-in-list i {
+	color: black;
 }
