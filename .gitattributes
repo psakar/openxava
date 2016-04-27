@@ -6740,6 +6740,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/ChangeImageAction.html -text svneol
 OpenXavaDoc/web/apidocs/org/openxava/actions/ChangeModuleAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/ChangeSectionAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/ChooseFileAction.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/actions/ChooseIconAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/ChooseReferenceAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/CollectionBaseAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/CollectionElementViewBaseAction.html -text svneol=unset#text/plain
@@ -6765,6 +6766,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/GenerateMyReportAction.html -text s
 OpenXavaDoc/web/apidocs/org/openxava/actions/GenerateReportAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/GoAddColumnsAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/GoAddElementsToCollectionAction.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/actions/GoChooseIconAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/GoDetailAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/GoListAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/GoNextPageAction.html -text svneol=unset#text/plain
@@ -6834,6 +6836,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveChartColumnAction.html -text 
 OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveColumnSumAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveElementFromCollectionAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveFileFromFilesetAction.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveIconAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveImageFromGalleryAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveMyReportAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveMyReportColumnAction.html -text svneol=unset#text/plain
@@ -6841,6 +6844,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveSelectedInCollectionAction.ht
 OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveSelectedInElementCollectionAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveSelectedTreeViewNodeAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/RemoveTreeViewNodeAction.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/actions/ReportXLSAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/ResetPreviousControllersAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/RestoreDefaultColumnsAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/ReturnAction.html -text svneol=unset#text/plain
@@ -6898,6 +6902,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ChangeImageAction.html -t
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ChangeModuleAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ChangeSectionAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ChooseFileAction.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ChooseIconAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ChooseReferenceAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/CollectionBaseAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/CollectionElementViewBaseAction.html -text svneol=unset#text/plain
@@ -6923,6 +6928,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GenerateMyReportAction.ht
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GenerateReportAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoAddColumnsAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoAddElementsToCollectionAction.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoChooseIconAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoDetailAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoListAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoNextPageAction.html -text svneol=unset#text/plain
@@ -6992,6 +6998,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveChartColumnAction.h
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveColumnSumAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveElementFromCollectionAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveFileFromFilesetAction.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveIconAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveImageFromGalleryAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveMyReportAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveMyReportColumnAction.html -text svneol=unset#text/plain
@@ -6999,6 +7006,7 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveSelectedInCollectio
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveSelectedInElementCollectionAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveSelectedTreeViewNodeAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RemoveTreeViewNodeAction.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ReportXLSAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ResetPreviousControllersAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/RestoreDefaultColumnsAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/ReturnAction.html -text svneol=unset#text/plain
@@ -7535,6 +7543,7 @@ OpenXavaDoc/web/apidocs/org/openxava/formatters/FileListFormatter.html -text svn
 OpenXavaDoc/web/apidocs/org/openxava/formatters/HTMLFilterListFormatter.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/formatters/IFormatter.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/formatters/IMultipleValuesFormatter.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/formatters/IconListFormatter.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/formatters/ImageFormatter.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/formatters/MoneyFormatter.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/formatters/MultipleValuesByPassFormatter.html -text svneol=unset#text/plain
@@ -7556,6 +7565,7 @@ OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/FileListFormatter.html
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/HTMLFilterListFormatter.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/IFormatter.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/IMultipleValuesFormatter.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/IconListFormatter.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/ImageFormatter.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/MoneyFormatter.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/formatters/class-use/MultipleValuesByPassFormatter.html -text svneol=unset#text/plain
@@ -7996,6 +8006,20 @@ OpenXavaDoc/web/apidocs/org/openxava/util/impl/package-frame.html -text svneol=u
 OpenXavaDoc/web/apidocs/org/openxava/util/impl/package-summary.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/util/impl/package-tree.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/util/impl/package-use.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/util/jxls/JxlsCell.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/util/jxls/JxlsConstants.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/util/jxls/JxlsSheet.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/util/jxls/JxlsStyle.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/util/jxls/JxlsWorkbook.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/util/jxls/class-use/JxlsCell.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/util/jxls/class-use/JxlsConstants.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/util/jxls/class-use/JxlsSheet.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/util/jxls/class-use/JxlsStyle.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/util/jxls/class-use/JxlsWorkbook.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/util/jxls/package-frame.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/util/jxls/package-summary.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/util/jxls/package-tree.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/util/jxls/package-use.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/util/meta/ElementName.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/util/meta/MetaElement.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/util/meta/MetaSet.html -text svneol=unset#text/plain
@@ -8340,6 +8364,7 @@ OpenXavaDoc/web/apidocs/org/openxava/web/servlets/GenerateSimpleHTMLReportServle
 OpenXavaDoc/web/apidocs/org/openxava/web/servlets/ImagesServlet.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/web/servlets/JasperReportServlet.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/web/servlets/ModuleServlet.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/web/servlets/ReportXLSServlet.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/web/servlets/Servlets.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/web/servlets/class-use/FilesServlet.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/web/servlets/class-use/GalleryServlet.html -text svneol=unset#text/plain
@@ -8351,6 +8376,7 @@ OpenXavaDoc/web/apidocs/org/openxava/web/servlets/class-use/GenerateSimpleHTMLRe
 OpenXavaDoc/web/apidocs/org/openxava/web/servlets/class-use/ImagesServlet.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/web/servlets/class-use/JasperReportServlet.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/web/servlets/class-use/ModuleServlet.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/web/servlets/class-use/ReportXLSServlet.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/web/servlets/class-use/Servlets.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/web/servlets/package-frame.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/web/servlets/package-summary.html -text svneol=unset#text/plain
@@ -8389,6 +8415,7 @@ OpenXavaDoc/web/apidocs/org/openxava/web/taglib/EditorTag.html -text svneol=unse
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/IActionTag.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/IdTag.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/ImageTag.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/web/taglib/LabelTag.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/LinkTag.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/MessageTag.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/ActionTag.html -text svneol=unset#text/plain
@@ -8398,6 +8425,7 @@ OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/EditorTag.html -text s
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/IActionTag.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/IdTag.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/ImageTag.html -text svneol=unset#text/plain
+OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/LabelTag.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/LinkTag.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/class-use/MessageTag.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/web/taglib/package-frame.html -text svneol=unset#text/plain

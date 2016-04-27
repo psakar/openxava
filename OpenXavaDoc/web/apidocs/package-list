@@ -37,6 +37,7 @@ org.openxava.tools
 org.openxava.types
 org.openxava.util
 org.openxava.util.impl
+org.openxava.util.jxls
 org.openxava.util.meta
 org.openxava.util.xmlparse
 org.openxava.validators
