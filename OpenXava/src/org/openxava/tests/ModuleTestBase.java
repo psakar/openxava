@@ -177,7 +177,7 @@ public class ModuleTestBase extends TestCase {
 			setValue("password", password);
 			execute("SignIn.signIn");
 			assertNoErrors();
-			selectModuleInPage(originalModule);		
+			selectModuleInPage(originalModule);	
 		}
 	}
 	

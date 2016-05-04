@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- Some new common use labels to be used in applications.
+
 OpenXava 5.5 (2016-4-26)
 ------------------------
 - @DescriptionsList combos have autocomplete functionality.
