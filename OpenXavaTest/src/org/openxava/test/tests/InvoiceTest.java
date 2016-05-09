@@ -31,7 +31,6 @@ import com.gargoylesoftware.htmlunit.html.*;
 
 
 /**
- * 
  * @author Javier Paniza
  */
 
@@ -86,7 +85,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		assertNotExists("customer.number");
 		assertExists("details");
 		
-		execute("Invoice.showCustomer");
+		execute("Invoice.showCustomer"); 
 		assertAction("Sections.change", "activeSection=0");
 		assertNoAction("Sections.change", "activeSection=1");
 		assertAction("Sections.change", "activeSection=2");

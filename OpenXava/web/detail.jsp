@@ -159,7 +159,7 @@ if (!renderedView) {
 				first = true;						
 				if (lastWasEditor && !view.isAlignedByColumns()) { // IF LastWasEditor and Not Aligned 	
 %>
-	</tr></table>			
+	</tr></table>
 <% 
 				} // END IF LastWasEditor and Not Aligned
 				lastWasEditor = false;
@@ -197,7 +197,6 @@ if (!renderedView) {
 					String propertyInReferencePrefix = propertyPrefix + ref.getName() + ".";
 					boolean withFrame = subview.isFrame() && 
 						(!view.isSection() || view.getMetaMembers().size() > 1);
-					lastWasEditor = !withFrame;
 					boolean firstForSubdetail = first || withFrame;
 					if (withFrame || (view.isSection() && view.getMembersNames().size() ==1)) { // IF MetaReference With Frame
 						if (first) { // IF First MetaReference	
@@ -206,6 +205,9 @@ if (!renderedView) {
 <%	
 						} // END IF First MetaReference
 					} // END IF MetaReference With Frame
+					else {
+						lastWasEditor = true;
+					}
 					if (withFrame) { // IF MetaReference With Frame					 					
 						String labelKey = Ids.decorate(
 							request.getParameter("application"),
@@ -359,7 +361,7 @@ if (!renderedView) {
 %>
 <% 
 	if (lastWasEditor) { // IF Last Was Editor
-		if (!(view.isRepresentsEntityReference() || view.isRepresentsAggregate()) || view.isFrame()) { // IF Not Entity or Aggregate or Frame
+		if (!view.isAlignedByColumns() && (!(view.isRepresentsEntityReference() || view.isRepresentsAggregate()) || view.isFrame())) { // IF Not Entity or Aggregate or Frame 
 %>
 </tr></table> 
 <% 
@@ -385,10 +387,18 @@ if (!renderedView) {
 %>
 
 <% 	
-	if (view.isFrame() && 
-			!(last && view.getParent() != null && !view.getParent().isFrame()) && 			  		
-			!(!lastWasProperty && view.isSection() && view.getMembersNamesWithoutSectionsAndCollections().size() == 1 
-					&& view.getParent() != null && view.getParent().isFrame())) { // IF Frame	
+	if 	(view.isFrame() &&
+			(	
+				(
+					!(last && view.getParent() != null && !view.getParent().isFrame()) && 			  		
+					!(!lastWasProperty && view.isSection() && view.getMembersNamesWithoutSectionsAndCollections().size() == 1 
+						&& view.getParent() != null && view.getParent().isFrame()) // IF Frame
+				)
+				|| 
+					view.isSection()
+			)	
+		)
+	{
 %>
 		</tr>
 	</table>

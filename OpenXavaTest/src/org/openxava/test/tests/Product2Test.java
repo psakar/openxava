@@ -63,10 +63,8 @@ public class Product2Test extends ModuleTestBase {
 		assertNoErrors(); // If it does not find the font try to set net.sf.jasperreports.awt.ignore.missing.font=true in jasperreports jar
 		assertContentTypeForPopup("application/pdf");
 		assertNoDialog();
-		/* The next lines do not work because of this bug: https://sourceforge.net/p/openxava/bugs/619/ introduced in v5.5
-		assertAction("Product2.reportBySubfamily"); 
+		assertAction("Product2.reportBySubfamily"); // As secondary effect it tests a bug when we reload a page in an aligned by column view, the buttons disappeared 
 		assertNoAction("FamilyProductsReport.generatePdf");
-		*/		
 	}
 		
 	public void testFormula() throws Exception {

@@ -33,8 +33,8 @@ import org.openxava.util.*;
 		"	customerDiscount, customerTypeDiscount, yearDiscount;" +
 		"];" +
 		"comment;" +					
-		"customer { customer }" +		
-		"details { details }" +			
+		"customer { customer }" + // We need a section with just a reference...		
+		"details { details }" +	// ...followed by a section with a collection, to a layout bug		
 		"amounts { amountsSum; vatPercentage; vat }" +
 		"deliveries { deliveries }"		
 	),

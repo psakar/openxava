@@ -93,7 +93,7 @@ import org.openxava.test.actions.*;
 		"photo;" +
 		"address;"
 	),
-	
+
 	@View( name="SimpleWithCity", extendsView="Simple", members= "; city"), 
 
 	@View( name="Simplest", members="number; name" ),

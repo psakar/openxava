@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Duplicate buttons after generating PDF or refreshing the page in a view aligned by column (with # in @View).
 - Some new common use labels to be used in applications.
 
 OpenXava 5.5 (2016-4-26)
@@ -57,6 +58,7 @@ OpenXava 5.5 (2016-4-26)
 - Fix: Editors with frame=true composite=true do not work correctly.
 - Fix: Textfields are not aligned when there are validation errors.
 - Fix: Frames not aligned with element collections.
+- Fix: Pressing enter in a filter text box in split view causes action to be triggered in detail view,.
  
 OpenXava 5.4.1 (2015-12-15)
 ---------------------------

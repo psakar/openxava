@@ -226,16 +226,16 @@ public class DeliveryTest extends ModuleTestBase {
 		assertDialog();
 		
 		setValue("year", "2002");
-		setValue("number", "1");		
+		setValue("number", "1");
 		execute("Reference.search", "keyProperty=customer.number");		
-		execute("ReferenceSearch.choose", "row=1"); 
+		execute("ReferenceSearch.choose", "row=1");
 		assertValue("customer.name", "Juanillo"); 
 		setValue("customer.number", "1");
 		assertValue("customer.name", "Javi"); 
 		execute("Sections.change", "activeSection=2");
 		setValue("vatPercentage", "16");
-		execute("NewCreation.saveNew");
-		assertError("Impossible to create: an object with that key already exists");
+		execute("NewCreation.saveNew"); 
+		assertError("Impossible to create: an object with that key already exists"); 
 		
 		setValue("year", "2009");
 		setValue("number", "66");
