@@ -118,6 +118,7 @@ public class ModuleManager implements java.io.Serializable {
 	private boolean resetFormPostNeeded = false;
 	private boolean actionsAddedOrRemoved;
 	private Collection<MetaSubcontroller> metaSubControllers;
+	private Map<String,Collection<MetaAction>> subcontrollersMetaActions; 
 
 	/**
 	 * HTML action bind to the current form.
@@ -188,6 +189,25 @@ public class ModuleManager implements java.io.Serializable {
 		return actions;
 	}
 
+	/**
+	 * @since 5.5.1
+	 */
+	public Collection<MetaAction> getSubcontrollerMetaActions(String controllerName) {
+		if (subcontrollersMetaActions == null) subcontrollersMetaActions = new HashMap<String, Collection<MetaAction>>();
+		Collection<MetaAction> result = subcontrollersMetaActions.get(controllerName);
+		if (result == null) {
+			result = new ArrayList(MetaControllers.getMetaController(controllerName).getMetaActions());
+			try {
+				refine(result);
+			} catch (Exception ex) {
+				log.error(XavaResources.getString("controller_actions_error"), ex);
+				return new ArrayList();
+			}
+			subcontrollersMetaActions.put(controllerName, result);
+		}
+		return result;
+	}
+	
 	public Collection getSubcontrollers() {
 		if (metaSubControllers == null) {
 			metaSubControllers = new ArrayList<MetaSubcontroller>();
@@ -218,7 +238,7 @@ public class ModuleManager implements java.io.Serializable {
 					metaActions.addAll(contr.getAllMetaActions());
 				}
 				removeHiddenActions();
-				refine();
+				refine(metaActions); 
 			} catch (Exception ex) {
 				metaActions = null;
 				log.error(XavaResources.getString("controller_actions_error"),
@@ -841,6 +861,7 @@ public class ModuleManager implements java.io.Serializable {
 		defaultActionQualifiedName = null;
 		this.controllersNames = names;
 		actionsChanged = true;
+		subcontrollersMetaActions = null; 
 	}
 
 	public void restorePreviousControllers() throws XavaException {
@@ -854,6 +875,7 @@ public class ModuleManager implements java.io.Serializable {
 			setControllersNames((String[]) controllers);
 		} else { // A collection of metaactions
 			this.metaActions = (Collection) controllers;
+			this.subcontrollersMetaActions = null; 
 			this.defaultActionQualifiedName = null;
 			this.actionsChanged = true;
 			this.modifiedControllers = true;
@@ -1549,6 +1571,7 @@ public class ModuleManager implements java.io.Serializable {
 		actionsChanged = true;
 		defaultActionQualifiedName = null;
 		metaActions = null;
+		subcontrollersMetaActions = null; 
 	}
 
 	private void removeFromHiddenActions(String action) {
@@ -1558,6 +1581,7 @@ public class ModuleManager implements java.io.Serializable {
 		defaultActionQualifiedName = null;
 		metaActions = null;
 		actionsChanged = true;
+		subcontrollersMetaActions = null; 
 	}
 
 	private void removeHiddenActions() {
@@ -1571,11 +1595,10 @@ public class ModuleManager implements java.io.Serializable {
 		}
 	}
 
-	private void refine() throws Exception {
-		if (refiner == null)
-			return;
+	private void refine(Collection collection) throws Exception { 
+		if (refiner == null) return;
 		XObjects.execute(refiner, "refine", MetaModule.class, getMetaModule(),
-				Collection.class, metaActions);
+			Collection.class, collection); 
 	}
 
 	public boolean isReloadAllUINeeded() {
@@ -1611,6 +1634,7 @@ public class ModuleManager implements java.io.Serializable {
 		metaActions = null;
 		defaultActionQualifiedName = null;
 		metaModule = null;
+		subcontrollersMetaActions = null; 
 		DescriptionsLists.resetDescriptionsCache(getSession());
 	}
 
