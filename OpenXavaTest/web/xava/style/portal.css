@@ -227,12 +227,13 @@ TD.list-title {
 }
 
 .liferay-xava-editor-wrapper {
-	padding-right: 4px;
+	padding-right: 12px; 
 	padding-bottom: 4px;
 }
 	
 .liferay-xava-label {
-	padding-right: 4px;
+	padding-right: 0px;
+	vertical-align: middle;
 }
 
 .liferay6-xava-label {
@@ -474,8 +475,13 @@ a.ox-selected-list-format, a.ox-selected-list-format:hover {
 
 .ox-frame-sibling {     
 	padding-left: 4px;
+	float: left;
 }
 
+.ox-frame {
+	 display: table;
+	 width: 100%;
+}
 
 .ox-frame-totals-label {
 	font-weight: normal;
@@ -665,6 +671,11 @@ span.ox-subcontroller-select a{
 
 .ox-required-icon { 
 	top: -12px;
+}
+
+.firefox .ox-layout-not-aligned-cell .ox-layout-editor-icons .ox-required-icon,
+.ie .ox-layout-not-aligned-cell .ox-layout-editor-icons .ox-required-icon {
+	left: 3px;
 }
 
 .ox-error-icon { 

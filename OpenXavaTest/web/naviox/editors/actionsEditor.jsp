@@ -19,7 +19,7 @@ java.util.Collection actions = java.util.Arrays.asList(fvalues);
 int i=0; 
 for (Object ocontroller: module.getControllersNames()) {
 	MetaController controller = MetaControllers.getMetaController((String) ocontroller);
-	for (Object oaction: controller.getAllNotHiddenMetaActions()) {
+	for (Object oaction: controller.getAllNotHiddenMetaActionsRecursive()) { 
 		MetaAction action = (MetaAction) oaction;
 		if (action.getMetaController().getName().equals("Navigation")) continue;
 		String checked = actions.contains(action.getQualifiedName())?"checked='true'":"";

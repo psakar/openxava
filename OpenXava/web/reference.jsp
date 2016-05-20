@@ -56,13 +56,13 @@ String label = ref.getLabel(request);
 <%@ include file="referenceEditorIcons.jsp"%>
 <%=postIcons%>
 <%=preEditor%>
-<% if (labelFormat == MetaPropertyView.SMALL_LABEL) { %>
-<table border='0' cellpadding='0', cellspacing='0'><tr><td align='bottom'> 
+<% 
+if (labelFormat == MetaPropertyView.SMALL_LABEL) { 
+%>
 <span id='<xava:id name='<%="label_" + view.getPropertyPrefix() + ref.getName()%>'/>' class="<%=style.getSmallLabel()%> <%=labelStyle %>">
 <%=label%>
 </span>
-</td></tr>
-<tr><td style='vertical-align: middle'>
+<br/> 
 <% } %>
 
 <% } // !onlyEditor %>
@@ -204,9 +204,6 @@ else {
 </span>
 <% }
 if (!onlyEditor) {
-	if (labelFormat == MetaPropertyView.SMALL_LABEL) { %>
-		</td></tr>
-		</table>
-<%  }%>
+%>	
 	<%=postEditor%>
 <%}%>

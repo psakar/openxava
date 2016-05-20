@@ -17,7 +17,7 @@ import org.openxava.test.actions.*;
 @Entity
 @Views({
 	@View( members= 	
-		"number;" +
+		"number;" +  
 		"type;" +
 		"name, Customer.changeNameLabel();" +
 		"photo;" +
@@ -49,7 +49,11 @@ import org.openxava.test.actions.*;
 		"alternateSeller;" +		
 		"deliveryPlaces;" +
 		"remarks" 	
-	),	
+	),
+	@View( name="GroupAndPropertySameRow", members=
+		"number [ number ] " + // Without ;
+		"name"
+	),
 	@View(name = "ThreeFramesOnSameRow", members= 	
 		"number;" +
 		"type;" +
@@ -225,7 +229,7 @@ public class Customer implements IWithName {
 	@Embedded
 	@ReferenceViews({
 		@ReferenceView(forViews="SimpleStateAsForm", value="StateAsForm"),
-		@ReferenceView(forViews="Demo", value="Demo") 
+		@ReferenceView(forViews="Demo", value="Demo")
 	})
 	private Address address;	
 	

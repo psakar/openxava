@@ -6,7 +6,6 @@ import javax.persistence.*;
 
 import org.openxava.annotations.*;
 import org.openxava.jpa.*;
-import org.openxava.test.actions.*;
 
 /**
  * 

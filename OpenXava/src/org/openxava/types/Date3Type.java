@@ -4,7 +4,6 @@ import java.io.*;
 import java.sql.*;
 
 import org.hibernate.*;
-import org.hibernate.engine.*;
 import org.hibernate.engine.spi.*;
 import org.hibernate.type.*;
 import org.hibernate.usertype.*;

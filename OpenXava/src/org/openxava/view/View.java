@@ -5758,5 +5758,5 @@ public class View implements java.io.Serializable {
 		List elements = (List) pm.executeGet(getMemberName());
 		XCollections.move(elements, from, to);
 	}
-		
+			
 }

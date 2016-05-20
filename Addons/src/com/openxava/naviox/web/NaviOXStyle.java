@@ -5,7 +5,6 @@ import javax.servlet.http.*;
 import org.openxava.web.style.*;
 
 /**
- * 
  * @author Javier Paniza
  */
 
@@ -106,13 +105,6 @@ public class NaviOXStyle extends Style {
 	
 	private String getFrameHeaderStartDecoration(int width, boolean sibling, boolean collection) { 
 		StringBuffer r = new StringBuffer();
-		r.append("<table style='float:left;'"); 
-		if (width != 0 && !collection) {		
-			r.append(" width='");
-			r.append(width);
-			r.append("%'");
-		}
-		r.append("><tr><td>");
 		r.append("<div ");
 		r.append(" class='");
 		if (!(width > 0 && width < 100)) { // For several collections in a row	
@@ -168,9 +160,8 @@ public class NaviOXStyle extends Style {
 	}
 		
 	public String getFrameContentEndDecoration() { 
-		return "\n</div></div></div></td></tr></table>";
+		return "\n</div></div></div>"; 
 	}
-	
 		
 	public String getSectionBarStartDecoration() { 
 		return "<td>";

@@ -388,8 +388,12 @@ select:not([multiple]) {
 }
 
 
-.ox-label, .editor {
-	margin-bottom: 5px; 
+.ox-label { 
+	vertical-align: middle;
+}
+
+.ox-editor-wrapper { 
+	padding: 1px 12px 4px 0px;
 }
 
 input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus, select:focus, textarea:focus {
@@ -610,10 +614,23 @@ a.ox-selected-list-format, a.ox-selected-list-format:hover {
 .ox-required-icon, .ox-error-icon { 
 	width: 0px; 
 	position: relative;
-	left: 0px;
-	top: -17px;
+	left: -1px;
+	top: -15px;  
 	color: #3777D7;
 }
+
+.firefox .ox-layout-not-aligned-cell .ox-layout-editor-icons  .ox-required-icon {
+	left: 2px;
+}
+
+.ie .ox-layout-not-aligned-cell .ox-layout-editor-icons  .ox-required-icon {
+	left: 3px;
+}
+
+.ie .ox-layout-aligned-cell .ox-layout-editor-icons  .ox-required-icon, 
+.ie .ox-layout-aligned-cell .ox-layout-editor-icons  .ox-error-icon {
+	top: -5px;
+}		
 
 i.ox-required-icon  {
 	font-size: 100%;
@@ -867,10 +884,11 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 }
 
 #sign_in_box .ox-detail { 
-	margin: 0px 33px 0px 3px;   
+	margin: 0px 20px 0px 3px;   
 }
 
-.ox-frame, #sign_in_box { 
+.ox-frame, #sign_in_box {
+	margin-top: 2px; 
 	margin-bottom: 5px;
 	margin-right: 7px; 
 	padding: 10px 10px 3px 10px; 
@@ -881,6 +899,10 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 	box-shadow: 0px 1px 3px #CCCCCC; 
 	-moz-box-shadow: 0px 1px 3px #CCCCCC; 
 	-webkit-box-shadow: 0px 1px 3px #CCCCCC;
+}
+
+.ox-frame {
+	float: left; 
 }
 
 #sign_in_box select, #sign_in_box input[type="text"], #sign_in_box input[type="password"] { 
@@ -1346,8 +1368,6 @@ i.ox-sort-indicator2 {
 .ie .ox-icon i {
 	left: -20px;	
 }
-
-
 
 .ox-icon i.mdi-crop-free {
 	position: relative;

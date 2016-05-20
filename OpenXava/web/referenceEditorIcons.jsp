@@ -7,5 +7,5 @@
 <%} %>
 
 <span id="<xava:id name='<%="error_image_" + ref.getQualifiedName()%>'/>"> 
-<i class='<%=style.getErrorIcon()%> mdi mdi-alert-circle' <%=errors.memberHas(ref)?"":"style='visibility:hidden;'"%>></i>
+	<i class='<%=style.getErrorIcon()%> mdi mdi-alert-circle' <%=errors.memberHas(ref)?"":"style='visibility:hidden;'"%>></i>
 </span>

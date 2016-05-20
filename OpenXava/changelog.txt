@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- CSS for layout instead of HTML tables.
+- Fix: Elements inside sign in box are not centered.
 - Fix: Duplicate buttons after generating PDF or refreshing the page in a view aligned by column (with # in @View).
 - Some new common use labels to be used in applications.
 

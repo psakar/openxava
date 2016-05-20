@@ -253,7 +253,7 @@ public class Style {
 	}
 
 	public String getEditorWrapper() { 
-		return "";
+		return "ox-editor-wrapper"; 
 	}
 	
 	/** 
@@ -595,13 +595,6 @@ public class Style {
 		return "ox-element-collection";
 	}
 
-	/** 
-	 * @since 4.4 
-	 */
-	public String getFrameWidth() {
-		return "width='100%'";
-	}
-	
 	public String getFrameHeaderStartDecoration() {
 		return getFrameHeaderStartDecoration(0); 
 	}
@@ -1120,7 +1113,11 @@ public class Style {
 		return browser == null?false:browser.contains("MSIE 7");
 	}
 	
-		
+	/** @since 5.5.1 */
+	protected boolean isIE() {  		
+		return browser == null?false:browser.contains("Trident") || browser.contains("MSIE");
+	}
+	
 	/**
 	 * @since 4m5
 	 */

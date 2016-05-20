@@ -6230,7 +6230,7 @@ OpenXava/web/editors/myReportNameEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/notAvailableEditor.jsp -text
 OpenXava/web/editors/passwordEditor.jsp -text
 OpenXava/web/editors/radioButtonEditor.jsp -text svneol=unset#text/plain
-OpenXava/web/editors/referenceEditor.jsp -text
+OpenXava/web/editors/referenceEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/selectColumns.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/style/c3.css -text svneol=unset#text/plain
 OpenXava/web/editors/textAreaEditor.jsp -text svneol=unset#text/plain
@@ -6471,6 +6471,7 @@ OpenXava/web/style/ipad/images/view.gif -text
 OpenXava/web/style/ipad/ipad.css -text svneol=unset#text/plain
 OpenXava/web/style/ipad/ipad.js -text
 OpenXava/web/style/jetspeed.css -text svneol=unset#application/octet-stream
+OpenXava/web/style/layout.css -text svneol=unset#text/plain
 OpenXava/web/style/liferay43/css/everything_unpacked.css -text
 OpenXava/web/style/liferay43/images/common/action.png -text
 OpenXava/web/style/liferay43/images/common/activate.png -text
@@ -9093,6 +9094,10 @@ OpenXavaTest/i18n/portlets/CustomerFramesOnSameRow_ca.properties -text svneol=un
 OpenXavaTest/i18n/portlets/CustomerFramesOnSameRow_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerFramesOnSameRow_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerFramesOnSameRow_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CustomerGroupAndPropertySameRow_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CustomerGroupAndPropertySameRow_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CustomerGroupAndPropertySameRow_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CustomerGroupAndPropertySameRow_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerInvoices_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerInvoices_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerInvoices_es.properties -text svneol=unset#text/plain
@@ -10509,6 +10514,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/ComputerTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ConferenceTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CorporationEmployeeTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CorporationTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/CustomerGroupAndPropertySameRowTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/CustomerMinimumTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DatesTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DealTest.groovy -text
@@ -11439,7 +11445,7 @@ OpenXavaTest/web/xava/editors/myReportNameEditor.jsp -text svneol=unset#text/pla
 OpenXavaTest/web/xava/editors/notAvailableEditor.jsp -text
 OpenXavaTest/web/xava/editors/passwordEditor.jsp -text
 OpenXavaTest/web/xava/editors/radioButtonEditor.jsp -text
-OpenXavaTest/web/xava/editors/referenceEditor.jsp -text
+OpenXavaTest/web/xava/editors/referenceEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/regionsEditor.jsp -text
 OpenXavaTest/web/xava/editors/regionsWithCheckBoxesEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/selectColumns.jsp -text svneol=unset#text/plain
@@ -11697,6 +11703,7 @@ OpenXavaTest/web/xava/style/ipad/images/view.gif -text
 OpenXavaTest/web/xava/style/ipad/ipad.css -text
 OpenXavaTest/web/xava/style/ipad/ipad.js -text
 OpenXavaTest/web/xava/style/jetspeed.css -text svneol=unset#application/octet-stream
+OpenXavaTest/web/xava/style/layout.css -text svneol=unset#text/plain
 OpenXavaTest/web/xava/style/liferay43/css/everything_unpacked.css -text
 OpenXavaTest/web/xava/style/liferay43/images/common/action.png -text
 OpenXavaTest/web/xava/style/liferay43/images/common/activate.png -text
