@@ -26,7 +26,7 @@ public class CustomerImageTest extends ImageTestBase {
 	public void testCancelActionAfterChangeImageAction() throws Exception {   
 		addImage();
 		assertExists("telephone");
-		assertAction("EditableOnOff.setOn"); // Fails with XML components probably because of https://sourceforge.net/p/openxava/bugs/619/
+		assertAction("EditableOnOff.setOn"); 
 		execute("Reference.createNew", "model=Seller,keyProperty=seller.number");		
 		execute("NewCreation.cancel");
 		assertExists("telephone");

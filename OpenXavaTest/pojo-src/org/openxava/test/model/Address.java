@@ -45,7 +45,7 @@ public class Address implements IWithCity {
 	private int zipCode;
 	
 	
-	@Required @Column(length=20) 
+	@Required @Column(length=20)
 	@LabelFormat(LabelFormatType.NO_LABEL)
 	@LabelFormats({ 
 		@LabelFormat(forViews="Demo", value=LabelFormatType.SMALL)

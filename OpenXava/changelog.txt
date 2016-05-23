@@ -1,6 +1,11 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Bad layout with nested @NoFrame.
+- Fix: Collection inside a section is duplicate in some cases.
+- Fix: Two groups in the same row in @View not possible.
+- Fix: @NoFrame elements not aligned with outside elements.
+- Fix: JUnit tests do not find action in some circumstances.
 - CSS for layout instead of HTML tables.
 - Fix: Elements inside sign in box are not centered.
 - Fix: Duplicate buttons after generating PDF or refreshing the page in a view aligned by column (with # in @View).

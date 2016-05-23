@@ -24,7 +24,7 @@ public class CustomerContactPersonAsAggregate3LevelsTest extends ModuleTestBase 
 		assertValueInList(0, 1, "MANAGER");
 	}
 		
-	public void testRemovingWithReferenceAsKeyAsEmbedded() throws Exception { // It fails with XML components probably because of https://sourceforge.net/p/openxava/bugs/619/ 
+	public void testRemovingWithReferenceAsKeyAsEmbedded() throws Exception {  
 		int count = getListRowCount();
 		execute("CRUD.new");
 		setValue("customer.number", "66");

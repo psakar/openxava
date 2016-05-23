@@ -34,7 +34,7 @@ public class InvoiceNoSectionsTest extends ModuleTestBase {
 		setValue("number", "9");
 		execute("Search.search");
 		// Defined by developer
-		assertCollectionRowCount("details", 2); // Fails with XML components probably because of https://sourceforge.net/p/openxava/bugs/619/
+		assertCollectionRowCount("details", 2); 
 		assertValueInCollection("details", 0, "product.unitPrice", "11.00");
 		assertValueInCollection("details", 1, "product.unitPrice", "20.00");
 		assertTotalInCollection("details", "product.unitPrice", "31.00");		
@@ -82,7 +82,7 @@ public class InvoiceNoSectionsTest extends ModuleTestBase {
 		setValue("year", "2004");
 		setValue("number", "12");
 		execute("Search.search");
-		assertCollectionRowCount("details", 2); // Fails with XML components probably because of https://sourceforge.net/p/openxava/bugs/619/
+		assertCollectionRowCount("details", 2); 
 		assertValueInCollection("details", 0, "quantity", "5");
 		assertValueInCollection("details", 0, "amount", "50.00");
 		assertValueInCollection("details", 1, "quantity", "5");

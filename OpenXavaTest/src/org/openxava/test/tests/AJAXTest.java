@@ -388,7 +388,7 @@ public class AJAXTest extends ModuleTestBase {
 		assertLoadedParts("errors, editor_seller.name, " +
 				"messages,");
 		setValue("seller.number", "1");
-		assertLoadedParts("errors, editor_seller.name, " + // Fails with XML probably because of https://sourceforge.net/p/openxava/bugs/619/
+		assertLoadedParts("errors, editor_seller.name, " + 
 			"messages,");
 		execute("Customer.changeNameLabel");		
 		assertLoadedParts("label_name, errors, messages, ");
