@@ -10547,6 +10547,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Parent.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Person.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Phone.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/PhoneNumber.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Player.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Position.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Product.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Product2.java -text
@@ -10727,6 +10728,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/OrphanageTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ParentTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/PhoneServletTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/PhoneTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/PlayerTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/PositionTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/Product4Test.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/Product5Test.groovy -text
@@ -10783,6 +10785,7 @@ OpenXavaTest/pojo-src/org/openxava/test/validators/DeliveryTypeRemoveValidator.j
 OpenXavaTest/pojo-src/org/openxava/test/validators/InvoiceDetailValidator.java -text
 OpenXavaTest/pojo-src/org/openxava/test/validators/JournalEntryValidator.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/validators/PhoneNumberValidator.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/validators/PlayerValidator.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/validators/constraints/GoodNameValidator.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/web/editors/impl/TreeViewReaderTestImpl.java -text
 OpenXavaTest/properties/BeansContext.properties -text

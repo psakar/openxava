@@ -14,7 +14,6 @@ import org.apache.commons.fileupload.*;
 import org.apache.commons.fileupload.disk.*;
 import org.apache.commons.fileupload.servlet.*;
 import org.apache.commons.logging.*;
-import org.hibernate.validator.*;
 import org.openxava.actions.*;
 import org.openxava.application.meta.*;
 import org.openxava.component.*;
@@ -683,10 +682,8 @@ public class ModuleManager implements java.io.Serializable {
 					(javax.validation.ConstraintViolationException) ex);
 		} else if (ex instanceof RollbackException) {
 			if (ex.getCause() instanceof javax.validation.ConstraintViolationException) {
-				manageConstraintViolationException(metaAction, errors,
-						messages,
-						(javax.validation.ConstraintViolationException) ex
-								.getCause());
+				manageConstraintViolationException(metaAction, errors, messages,
+						(javax.validation.ConstraintViolationException) ex.getCause());
 			} else if (ex.getCause() != null
 					&& ex.getCause().getCause() instanceof javax.validation.ConstraintViolationException) {
 				manageConstraintViolationException(metaAction, errors,
@@ -731,7 +728,7 @@ public class ModuleManager implements java.io.Serializable {
 	private void manageConstraintViolationException(MetaAction metaAction,
 			Messages errors, Messages messages,
 			javax.validation.ConstraintViolationException ex) {
-		for (javax.validation.ConstraintViolation violation : ex
+		for (javax.validation.ConstraintViolation<?> violation : ex
 				.getConstraintViolations()) {
 			String attrName = violation.getPropertyPath() == null ? null
 					: violation.getPropertyPath().toString();
@@ -744,20 +741,19 @@ public class ModuleManager implements java.io.Serializable {
 					.getConstraintDescriptor();
 			java.lang.annotation.Annotation annotation = descriptor
 					.getAnnotation();
-			if (annotation instanceof javax.validation.constraints.AssertTrue) {
+			if (annotation instanceof javax.validation.constraints.AssertTrue || 
+				annotation instanceof org.openxava.annotations.EntityValidator) 
+			{
 				Object bean = violation.getRootBean();
 				errors.add(message, bean);
 				continue;
-			}
-
-			message = XavaResources.getString(message);
+			}			
 			Object invalidValue = violation.getInvalidValue();
-			if (Is.emptyString(attrName) || domainClass == null
-					|| invalidValue == null) {
+			if (Is.emptyString(attrName) || domainClass == null	|| invalidValue == null) {
 				errors.add(message);
 			} else {
-				errors.add("invalid_state", attrName, domainClass, "'"
-						+ message + "'", invalidValue);
+				errors.add("invalid_state", attrName, domainClass, "'" +
+						   XavaResources.getString(message) + "'", invalidValue);
 			}
 		}
 		messages.removeAll();

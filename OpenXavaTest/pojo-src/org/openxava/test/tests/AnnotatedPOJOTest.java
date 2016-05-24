@@ -46,9 +46,9 @@ public class AnnotatedPOJOTest extends TestCase {
 			if (ex.getCause() instanceof ConstraintViolationException) {
 				ConstraintViolationException cex = (ConstraintViolationException) ex.getCause();
 				assertEquals("1 constraint violation expected", 1, cex.getConstraintViolations().size());
-				ConstraintViolation v = cex.getConstraintViolations().iterator().next();
+				ConstraintViolation<?> v = cex.getConstraintViolations().iterator().next();
 				assertEquals("Property", "description", v.getPropertyPath().toString());
-				assertEquals("Message text", "{required}", v.getMessage());
+				assertTrue("Message is not empty", v.getMessage().length() > 0);
 				return;								
 			}
 		}
@@ -72,9 +72,9 @@ public class AnnotatedPOJOTest extends TestCase {
 			if (ex.getCause() instanceof ConstraintViolationException) {
 				ConstraintViolationException cex = (ConstraintViolationException) ex.getCause();
 				assertEquals("1 constraint violation expected", 1, cex.getConstraintViolations().size());
-				ConstraintViolation v = cex.getConstraintViolations().iterator().next();
+				ConstraintViolation<?> v = cex.getConstraintViolations().iterator().next();
 				assertEquals("Property", "unitPrice", v.getPropertyPath().toString());
-				assertEquals("Message text", "", v.getMessage());
+				assertTrue("Message is not empty", v.getMessage().length() > 0);
 				return;								
 			}
 		}
@@ -98,9 +98,9 @@ public class AnnotatedPOJOTest extends TestCase {
 			if (ex.getCause() instanceof ConstraintViolationException) {
 				ConstraintViolationException cex = (ConstraintViolationException) ex.getCause();
 				assertEquals("1 constraint violation expected", 1, cex.getConstraintViolations().size());
-				ConstraintViolation v = cex.getConstraintViolations().iterator().next();
+				ConstraintViolation<?> v = cex.getConstraintViolations().iterator().next();
 				assertEquals("Property", "description", v.getPropertyPath().toString());
-				assertEquals("Message text", "", v.getMessage());
+				assertTrue("Message is not empty", v.getMessage().length() > 0);
 				return;								
 			}
 		}
@@ -124,9 +124,9 @@ public class AnnotatedPOJOTest extends TestCase {
 			if (ex.getCause() instanceof ConstraintViolationException) {
 				ConstraintViolationException cex = (ConstraintViolationException) ex.getCause();
 				assertEquals("1 constraint violation expected", 1, cex.getConstraintViolations().size());
-				ConstraintViolation v = cex.getConstraintViolations().iterator().next();
+				ConstraintViolation<?> v = cex.getConstraintViolations().iterator().next();
 				assertEquals("Bean", "Product", v.getRootBean().getClass().getSimpleName());
-				assertEquals("Message text", "", v.getMessage());
+				assertTrue("Message is not empty", v.getMessage().length() > 0);
 				return;								
 			}
 		}
@@ -158,7 +158,7 @@ public class AnnotatedPOJOTest extends TestCase {
 			if (ex.getCause() instanceof  javax.validation.ConstraintViolationException) {
 				javax.validation.ConstraintViolationException vex = (javax.validation.ConstraintViolationException) ex.getCause();				
 				assertEquals("1 invalid value is expected", 1, vex.getConstraintViolations().size());
-				ConstraintViolation violation = vex.getConstraintViolations().iterator().next();
+				ConstraintViolation<?> violation = vex.getConstraintViolations().iterator().next();
 				assertEquals("Bean", "Artist", violation.getRootBeanClass().getSimpleName());
 				String expectedMessage = "es".equals(Locale.getDefault().getLanguage())?"tiene que ser menor o igual que 90":"must be less than or equal to 90"; 
 				assertEquals("Message text", expectedMessage, violation.getMessage());
@@ -168,5 +168,8 @@ public class AnnotatedPOJOTest extends TestCase {
 		}
 		fail("A constraint violation exception should be thrown");
 	}
-	
+
+	public void testConstraintValidatorMessage() throws Exception {
+		
+	}
 }
