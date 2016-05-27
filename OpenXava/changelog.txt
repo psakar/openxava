@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- In the validation message values of the properties of the current entity can be used.
+- Fix: Constraint exception produces a blank message.
 - Fix: Bad layout with nested @NoFrame.
 - Fix: Collection inside a section is duplicate in some cases.
 - Fix: Two groups in the same row in @View not possible.
