@@ -349,7 +349,7 @@ public class Module extends DWRBase {
 			for (Iterator it=lastErrors.iterator(); it.hasNext(); ) {
 				String member = (String) it.next();
 				if  (view.getQualifiedNameForDisplayedPropertyOrReferenceWithNotCompositeEditor(member) != null) { 
-					put(result, "error_image_" + member, null);
+					put(result, "error_image_" + member, "html:<i class='" + Style.getInstance().getErrorIcon() + " mdi mdi-alert-circle' style='visibility:hidden;'></i>"); 
 				}				
 			}
 			getContext(request).remove(application, module, MEMBERS_WITH_ERRORS_IN_LAST_REQUEST);

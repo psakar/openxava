@@ -382,7 +382,7 @@ public class CarrierWithSectionsTest extends ModuleTestBase {
 		assertValue("comparator", "eq_comparator"); 
 		assertValue("value", "UNO");
 		execute("MyReport.saveColumn");
-		assertValueInCollection("columns", 2, 0, "Name");
+		assertValueInCollection("columns", 2, 0, "Name"); 
 		assertValueInCollection("columns", 2, 1, "=");
 		assertValueInCollection("columns", 2, 2, "UNO");		
 		execute("MyReport.generatePdf");		

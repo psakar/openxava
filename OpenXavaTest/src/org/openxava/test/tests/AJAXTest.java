@@ -794,12 +794,12 @@ public class AJAXTest extends ModuleTestBase {
 				"error_image_Product2.number, " +
 				"editor_description, " + // Needed to refresh it because a converter transforms it to uppercase
 				"messages");		
-		assertTrue("description has image error", description.asXml().indexOf("<i class=\"ox-error-icon mdi mdi-alert-circle\"") < 0); 
+		assertTrue("description has image error", description.asXml().contains("<i class=\"ox-error-icon mdi mdi-alert-circle\" style=\"visibility:hidden;\"")); 
 		
 		HtmlSpan number = (HtmlSpan) page.getElementById(decorateId("error_image_Product2.number"));
 		assertTrue("number has no image error", number.asXml().indexOf("<i class=\"ox-error-icon mdi mdi-alert-circle\"") >= 0); 
 		execute("CRUD.new");
-		assertTrue("number has image error", number.asXml().indexOf("<i class=\"ox-error-icon mdi mdi-alert-circle\"") < 0); 
+		assertTrue("number has image error", number.asXml().contains("<i class=\"ox-error-icon mdi mdi-alert-circle\" style=\"visibility:hidden;\"")); 
 		
 		// To test that Number:999 is not used as member name
 		setValue("number", "999");

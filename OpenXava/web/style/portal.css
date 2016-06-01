@@ -480,6 +480,7 @@ a.ox-selected-list-format, a.ox-selected-list-format:hover {
 
 .ox-frame {
 	 display: table;
+	 border-collapse: separate; 
 	 width: 100%;
 }
 
@@ -667,10 +668,15 @@ span.ox-subcontroller-select a{
 .ox-required-icon, .ox-error-icon { 
 	width: 0px; 
 	position: relative;
+	float: left; 
+}
+
+.ox-frame table { /* To avoid a blank line produced by the error icon where an editor with frame uses a table as external container */
+	clear: none;
 }
 
 .ox-required-icon { 
-	top: -12px;
+	top: -6px; 
 }
 
 .firefox .ox-layout-not-aligned-cell .ox-layout-editor-icons .ox-required-icon,
@@ -678,8 +684,20 @@ span.ox-subcontroller-select a{
 	left: 3px;
 }
 
+.ie .ox-layout-aligned-cell .ox-layout-editor-icons .ox-required-icon {
+	top: -20px;
+}
+
+.ie .ox-layout-aligned-cell .ox-layout-editor-icons  .ox-error-icon {
+	top: -22px;
+}
+
+.ie .ox-required-icon { 
+	top: -7px; 
+}
+
 .ox-error-icon { 
-	top: -13px;
+	top: -8px; 
 }
 
 i.ox-required-icon {
@@ -690,8 +708,18 @@ i.ox-required-icon {
 
 i.ox-error-icon {
 	color: #DC4A38;
-	left: 10px;
+	left: 13px; 
 	font-size: 120%;
+}
+
+.portlet-content-container > .ox-required-icon {
+	top: -4px;
+	left: -5px;
+}
+
+.portlet-content-container > span > .ox-error-icon {
+	top: -6px;
+	left: 9px;
 }
 
 .ox-customize-controls i {

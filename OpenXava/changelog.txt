@@ -1,6 +1,9 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Editors with frame=true adds a little space before editor.
+- Fix: Editors with frame=true adds a blank line if the editor is wrapped in a HTML table.
+- Fix: Required icon not in correct position in text areas.
 - In the validation message values of the properties of the current entity can be used.
 - Fix: Constraint exception produces a blank message.
 - Fix: Bad layout with nested @NoFrame.

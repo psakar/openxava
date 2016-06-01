@@ -393,7 +393,7 @@ select:not([multiple]) {
 }
 
 .ox-editor-wrapper { 
-	padding: 1px 12px 4px 0px;
+	padding: 1px 12px 5px 0px; 
 }
 
 input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus, select:focus, textarea:focus {
@@ -615,8 +615,8 @@ a.ox-selected-list-format, a.ox-selected-list-format:hover {
 	width: 0px; 
 	position: relative;
 	left: -1px;
-	top: -15px;  
 	color: #3777D7;
+	float: left; 
 }
 
 .firefox .ox-layout-not-aligned-cell .ox-layout-editor-icons  .ox-required-icon {
@@ -627,20 +627,35 @@ a.ox-selected-list-format, a.ox-selected-list-format:hover {
 	left: 3px;
 }
 
-.ie .ox-layout-aligned-cell .ox-layout-editor-icons  .ox-required-icon, 
+.ie .ox-layout-aligned-cell .ox-layout-editor-icons  .ox-required-icon {
+	top: -3px; 
+}		
+
 .ie .ox-layout-aligned-cell .ox-layout-editor-icons  .ox-error-icon {
-	top: -5px;
+	top: -5px; 
 }		
 
 i.ox-required-icon  {
 	font-size: 100%;
 	color: #3777D7;
+	top: -9px; 
 }
 
 i.ox-error-icon {
 	color: #DC4A38;
-	left: 10px;
+	left: 13px; 
 	font-size: 120%;
+	top: -11px; 
+}
+
+.ox-frame-content > .ox-required-icon {
+	top: -4px;
+	left: -5px;
+}
+
+.ox-frame-content > span > .ox-error-icon {
+	top: -6px;
+	left: 9px;
 }
 
 input[type="button"], .ipad input[type="button"]:hover, A#show_modules {
