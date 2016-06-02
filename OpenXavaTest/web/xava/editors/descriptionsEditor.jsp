@@ -176,9 +176,9 @@ if (editable) {
 				selectedKey = cl.getKey().toString();
 			} 		
 			values.append("{label:\"");
-			values.append(description.replaceAll("'", "&apos;"));
+			values.append(description.replaceAll("'", "&apos;").replaceAll("\"", "&Prime;")); 
 			values.append("\",value:\"");
-			values.append(cl.getKey().toString().replaceAll("'", "&apos;"));
+			values.append(cl.getKey().toString().replaceAll("'", "&apos;").replaceAll("\"", "&Prime;")); 
 			values.append("\"}");
 			if (it.hasNext()) values.append(",");
 		} 

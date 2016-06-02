@@ -515,8 +515,12 @@ public class Product2Test extends ModuleTestBase {
 	}
 	
 	public void testAutocompleteInDescriptionsList() throws Exception { 
+		createWarehouseWithQuote(); // To test a bug with quotes
+
 		getWebClient().getOptions().setCssEnabled(true);
 		execute("CRUD.new");
+		
+		getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Product2__reference_editor_warehouse"); // Warehouse combo must be to test the "quotes" bug
 		
 		HtmlElement familyList = getHtmlPage().getHtmlElementById("ui-id-1");
 		assertFalse(familyList.isDisplayed());
@@ -611,8 +615,24 @@ public class Product2Test extends ModuleTestBase {
 		Thread.sleep(500); 
 		assertTrue(familyList.isDisplayed());
 		assertEquals(3, familyList.getChildElementCount());
+		
+		removeWarehouseWithQuote(); 
 	}
 	
+	private void createWarehouseWithQuote() {
+		Warehouse warehouse = new Warehouse();
+		warehouse.setZoneNumber(10);
+		warehouse.setNumber(11);
+		warehouse.setName("ALMACEN \"EL REBOLLAR\"");
+		XPersistence.getManager().persist(warehouse);
+		XPersistence.commit();
+	}
+
+	private void removeWarehouseWithQuote() { 
+		Warehouse warehouse = Warehouse.findByZoneNumberNumber(10, 11);
+		XPersistence.getManager().remove(warehouse);
+	}
+
 	private HtmlElement getDescriptionsListTextField(String reference) {
 		HtmlElement familyEditor = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Product2__reference_editor_" + reference);
 		return  familyEditor.getOneHtmlElementByAttribute("input", "class", "xava_select editor ui-autocomplete-input");
