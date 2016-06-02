@@ -2467,7 +2467,7 @@ public class View implements java.io.Serializable {
 	}
 	
 	public void assignValuesToWebView() {
-		assignValuesToWebView("", true); 		
+		assignValuesToWebView("", true);
 	}
 		
 	private void assignValuesToWebView(String qualifier, boolean firstLevel) {		
@@ -2551,7 +2551,7 @@ public class View implements java.io.Serializable {
 				}
 				else { // References as combo (descriptions-list) and composite key
 					if (displayAsDescriptionsListAndReferenceView(ref)) {
-						View subview = getSubview(ref.getName());						
+						View subview = getSubview(ref.getName());					
 						subview.assignValuesToWebView(qualifier + ref.getName() + ".", false);
 						assignReferenceValue(qualifier, ref, value, false);
 					}
@@ -2708,7 +2708,7 @@ public class View implements java.io.Serializable {
 		Map referenceValues = new HashMap();  
 		fillReferenceValues(referenceValues, ref, value, qualifier, null); 
 		View subview = getSubview(ref.getName());
-		subview.setValues(Maps.plainToTree(referenceValues)); 
+		subview.addValues(Maps.plainToTree(referenceValues)); 
 		if (displayAsDescriptionsListAndReferenceView) { 
 			subview.oldValues = subview.values==null?null:new HashMap(subview.values);
 			subview.oldKeyEditable = subview.keyEditable; 

@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: @DescriptionList with showReferenceView=true and composite key loses not key data on action call.
 - Fix: Editors with frame=true adds a little space before editor.
 - Fix: Editors with frame=true adds a blank line if the editor is wrapped in a HTML table.
 - Fix: Required icon not in correct position in text areas.

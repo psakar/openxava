@@ -59,10 +59,14 @@ public class TransportChargeWithDescriptionsListShowingReferenceViewTest extends
 		assertValue("delivery.KEY", "[.2.2004.777.2.]");
 		assertDescriptionValue("delivery.KEY", "FOR TEST SEARCHING BY DESCRIPTION 6/23/06");
 		assertValue("delivery.invoice.year", "2004");
+		assertValue("delivery.invoice.date", "1/4/04"); 
 		assertValue("delivery.type.number", "2");
 		assertValue("delivery.date", "6/23/06");
 		assertValue("amount", "799.00");
 		assertValue("delivery.description", "FOR TEST SEARCHING BY DESCRIPTION");
+		
+		execute("Sections.change", "activeSection=1"); // To test a bug that clear the not key members 
+		assertValue("delivery.invoice.date", "1/4/04"); // on action call
 		
 		execute("CRUD.delete");
 		assertNoErrors();
