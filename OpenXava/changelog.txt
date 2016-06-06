@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Changing the schema with JPA or Hibernate inside a test has lateral effects in next tests.
 - Fix: @DescriptionsList inside a dialog is not displayed completely when opened, it is cut on dialog limit. 
 - Fix: @DescriptionsList does not close the list when you click in other place.
 - Fix: @DescriptionsList with " in the data breaks the module.

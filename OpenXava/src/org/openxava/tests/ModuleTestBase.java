@@ -85,8 +85,6 @@ public class ModuleTestBase extends TestCase {
 	static {		
 		XSystem._setLogLevelFromJavaLoggingLevelOfXavaPreferences();
 		Logger.getLogger("com.gargoylesoftware").setLevel(Level.SEVERE);
-		XHibernate.setConfigurationFile("/hibernate-junit.cfg.xml");
-		XPersistence.setPersistenceUnit("junit");
 		DataSourceConnectionProvider.setUseHibernateConnection(true);
 	}
 	
@@ -118,6 +116,10 @@ public class ModuleTestBase extends TestCase {
 	
 	protected void setUp() throws Exception {
 		locale = null;
+		XPersistence.reset(); 
+		XHibernate.reset();
+		XHibernate.setConfigurationFile("/hibernate-junit.cfg.xml");
+		XPersistence.setPersistenceUnit("junit");
 		resetModule();	
 	}
 	
