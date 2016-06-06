@@ -925,6 +925,7 @@ Addons/src/com/openxava/naviox/web/NaviOXFilter.java -text svneol=unset#text/pla
 Addons/src/com/openxava/naviox/web/NaviOXServlet.java -text svneol=unset#text/plain
 Addons/src/com/openxava/naviox/web/NaviOXStyle.java -text svneol=unset#text/plain
 Addons/src/com/openxava/naviox/web/OrganizationServlet.java -text svneol=unset#text/plain
+Addons/src/com/openxava/naviox/web/SecureRequest.java -text svneol=unset#text/plain
 Addons/src/com/openxava/naviox/web/dwr/Folders.java -text svneol=unset#text/plain
 Addons/src/com/openxava/naviox/web/dwr/Modules.java -text svneol=unset#text/plain
 Addons/src/com/openxava/naviox/web/dwr/RequestReseter.java -text svneol=unset#text/plain

@@ -17,7 +17,7 @@ public class Modules {
 	public String displayModulesList(HttpServletRequest request, HttpServletResponse response) { 
 		try {
 			RequestReseter.reset(request); 
-			return Servlets.getURIAsString(request, response, "/naviox/modulesList.jsp"); 
+			return Servlets.getURIAsString(request, response, "/naviox/modulesList.jsp");
 		}
 		catch (Exception ex) {
 			log.error(XavaResources.getString("display_modules_error"), ex); 
