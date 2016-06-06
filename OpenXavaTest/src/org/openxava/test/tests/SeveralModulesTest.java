@@ -26,7 +26,7 @@ public class SeveralModulesTest extends ModuleTestBase {
 		assertOnChangeEvent();
 		assertFocusOn("relationWithSeller");
 		assertSections();		
-		assertCollections();
+		assertCollections(); 
 		assertUploadFiles();		 				
 	}
 

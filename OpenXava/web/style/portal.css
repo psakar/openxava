@@ -764,7 +764,8 @@ input[type="radio"] {
     max-height: 350px;
     overflow-y: auto;
     overflow-x: hidden;
-    border-color: #CCC !important; 
+    border-color: #CCC !important;
+    z-index: 9999999999 !important;  
  }
  
 .ui-autocomplete-input::-ms-clear, .ox-date-calendar ::-ms-clear  {  

@@ -616,6 +616,17 @@ public class Product2Test extends ModuleTestBase {
 		assertTrue(familyList.isDisplayed());
 		assertEquals(3, familyList.getChildElementCount());
 		
+		familyEditor = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Product2__reference_editor_family");
+		openFamilyListIcon = familyEditor.getOneHtmlElementByAttribute("i", "class", "mdi mdi-menu-down");
+		closeFamilyListIcon = familyEditor.getOneHtmlElementByAttribute("i", "class", "mdi mdi-menu-up");		
+		subfamilyEditor = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Product2__reference_editor_subfamily");
+		openSubfamilyListIcon = subfamilyEditor.getOneHtmlElementByAttribute("i", "class", "mdi mdi-menu-down");
+		closeFamilyListIcon.click();
+		openFamilyListIcon.click();
+		assertTrue(familyList.isDisplayed());
+		openSubfamilyListIcon.click();
+		assertFalse(familyList.isDisplayed());
+		
 		removeWarehouseWithQuote(); 
 	}
 	

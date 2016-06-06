@@ -131,7 +131,7 @@ public class DeliveryTest extends ModuleTestBase {
 		execute("Reference.modify", "model=Carrier,keyProperty=carrier.number");
 		assertDialog();
 		assertValue("drivingLicence.KEY", "");
-		assertExists("warehouse.name"); // We are in the Carrier dialog
+		assertExists("warehouse.name"); // We are in the Carrier dialog 
 		assertNoAction("CRUD.new");
 		assertAction("Modification.update");
 		execute("Reference.modify", "model=DrivingLicence,keyProperty=drivingLicence__KEY__");

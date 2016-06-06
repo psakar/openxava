@@ -18,7 +18,6 @@ boolean rich = Is.equalAsStringIgnoreCase("true", request.getParameter("rich"));
 String cssClass = rich?"ox-ckeditor":style.getEditor(); 
 %>
 
-<table><tr><td> <%-- tmp--%>
 <textarea id="<%=propertyKey%>" name="<%=propertyKey%>" class="<%=cssClass%>"
 	tabindex="1" 
 	rows="<%=rows%>" cols="80"
@@ -28,4 +27,3 @@ String cssClass = rich?"ox-ckeditor":style.getEditor();
 <% if (!editable) { %>
 	<input type="hidden" name="<%=propertyKey%>" value="<%=fvalue%>">
 <% } %>			
-</td></tr></table> <%-- tmp --%>
