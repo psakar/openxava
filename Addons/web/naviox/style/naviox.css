@@ -619,12 +619,16 @@ a.ox-selected-list-format, a.ox-selected-list-format:hover {
 	float: left; 
 }
 
-.firefox .ox-layout-not-aligned-cell .ox-layout-editor-icons  .ox-required-icon {
+.firefox .ox-layout-not-aligned-cell .ox-layout-editor-icons  .ox-required-icon { 
 	left: 2px;
 }
 
 .ie .ox-layout-not-aligned-cell .ox-layout-editor-icons  .ox-required-icon {
 	left: 3px;
+}
+
+.ipad .ox-required-icon {
+	left: 2px;
 }
 
 .ie .ox-layout-aligned-cell .ox-layout-editor-icons  .ox-required-icon {
