@@ -813,7 +813,7 @@ public class ModuleManager implements java.io.Serializable {
 	 * This method is intended to be used after rendering the UI content, not for commit in your own logic. If
 	 * you want commit from your logic use BaseAction.commit(), XPersistence.commit() or XHibernate.commit().  
 	 */
-	public void commit() { // Usually after render page
+	public static void commit() { // Usually after render page 
 		try {
 			doCommit();
 			org.openxava.jpa.XPersistence.reset();
@@ -824,12 +824,12 @@ public class ModuleManager implements java.io.Serializable {
 		}
 	}
 
-	private void doCommit() {
+	private static void doCommit() { 
 		XPersistence.commit();
 		XHibernate.commit();
 	}
 
-	void doRollback() {
+	static void doRollback() { 
 		XPersistence.rollback();
 		XHibernate.rollback();
 	}

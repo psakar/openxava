@@ -3,6 +3,7 @@ package com.openxava.naviox.web.dwr;
 import javax.servlet.http.*;
 
 import org.apache.commons.logging.*;
+import org.openxava.controller.*;
 import org.openxava.util.*;
 import org.openxava.web.servlets.*;
 
@@ -23,6 +24,9 @@ public class Modules {
 			log.error(XavaResources.getString("display_modules_error"), ex); 
 			return null; 
 		}
+		finally {
+			ModuleManager.commit();
+		}
 	}
 	
 	public String displayAllModulesList(HttpServletRequest request, HttpServletResponse response, String searchWord) {   
@@ -33,6 +37,9 @@ public class Modules {
 		catch (Exception ex) {
 			log.error(XavaResources.getString("display_modules_error"), ex); 
 			return null; 
+		}
+		finally {
+			ModuleManager.commit();
 		}
 	}
 
@@ -45,6 +52,9 @@ public class Modules {
 		catch (Exception ex) {
 			log.error(XavaResources.getString("display_modules_error"), ex);
 			return null; 
+		}
+		finally {
+			ModuleManager.commit();
 		}
 	}
 
