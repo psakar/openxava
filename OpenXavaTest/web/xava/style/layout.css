@@ -1,5 +1,6 @@
 .ox-layout-detail {
 	display: table;
+	white-space: nowrap; 
 }
 
 .ox-layout-aligned-cell {

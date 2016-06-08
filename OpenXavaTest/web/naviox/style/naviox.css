@@ -619,12 +619,16 @@ a.ox-selected-list-format, a.ox-selected-list-format:hover {
 	float: left; 
 }
 
-.firefox .ox-layout-not-aligned-cell .ox-layout-editor-icons  .ox-required-icon {
+.firefox .ox-layout-not-aligned-cell .ox-layout-editor-icons  .ox-required-icon { 
 	left: 2px;
 }
 
 .ie .ox-layout-not-aligned-cell .ox-layout-editor-icons  .ox-required-icon {
 	left: 3px;
+}
+
+.ipad .ox-required-icon {
+	left: 2px;
 }
 
 .ie .ox-layout-aligned-cell .ox-layout-editor-icons  .ox-required-icon {
@@ -1345,7 +1349,7 @@ i.ox-sort-indicator2 {
     overflow-y: auto;
     overflow-x: hidden;
     border-color: #CCC !important;
-    z-index: 9999999999 !important; /* tmp */ 
+    z-index: 9999999999 !important;  
  }
  
 .ui-autocomplete-input::-ms-clear, .ox-date-calendar ::-ms-clear {  

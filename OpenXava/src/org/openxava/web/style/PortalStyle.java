@@ -79,7 +79,7 @@ public class PortalStyle extends Style {
 	}
 
 	public String getModule() {		
-		return "portlet-font" + getBrowserClass(); 
+		return "portlet-font";  
 	}
 	
 	/** @since 5.5.1 */

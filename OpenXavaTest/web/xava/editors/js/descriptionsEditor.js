@@ -13,6 +13,10 @@ openxava.addEditorInitFunction(function() {
 				event.preventDefault();
 				descriptionsEditor.executeOnChange($(event.target));
 			},
+			focus: function( event, ui ) {
+				$(event.target).val(ui.item.label);
+				event.preventDefault();
+			},			
 			change: function( event, ui ) {
 				if ($(event.target).val() === "") { 
 					$(event.target).next().val("");
@@ -32,27 +36,17 @@ openxava.addEditorInitFunction(function() {
 			close: function( event, ui ) {
 				$(event.target).next().next().next().next().hide();
 				$(event.target).next().next().next().show();
-			}
-			// tmp ini
-			,
+			},
 			appendTo: "body"
-			// tmp fin
-			
 		}); 	
 	});
 	
 });
 
 descriptionsEditor.open = function(id) {
-	/* tmp
-	var element = $("#" + id);
-	element.prev().autocomplete( "search", "" );
-	*/
-	// tmp ini
 	var control = $("#" + id).prev();
 	control.autocomplete( "search", "" );
 	control.focus(); 
-	// tmp fin
 }
 
 descriptionsEditor.close = function(id) {

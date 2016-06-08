@@ -7,6 +7,7 @@ import org.openxava.test.model.*;
 import org.openxava.tests.*;
 
 import com.gargoylesoftware.htmlunit.html.*;
+import com.gargoylesoftware.htmlunit.javascript.host.*;
 
 
 /**
@@ -615,7 +616,7 @@ public class Product2Test extends ModuleTestBase {
 		Thread.sleep(500); 
 		assertTrue(familyList.isDisplayed());
 		assertEquals(3, familyList.getChildElementCount());
-		
+				
 		familyEditor = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Product2__reference_editor_family");
 		openFamilyListIcon = familyEditor.getOneHtmlElementByAttribute("i", "class", "mdi mdi-menu-down");
 		closeFamilyListIcon = familyEditor.getOneHtmlElementByAttribute("i", "class", "mdi mdi-menu-up");		
@@ -626,6 +627,7 @@ public class Product2Test extends ModuleTestBase {
 		assertTrue(familyList.isDisplayed());
 		openSubfamilyListIcon.click();
 		assertFalse(familyList.isDisplayed());
+		
 		
 		removeWarehouseWithQuote(); 
 	}

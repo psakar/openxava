@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Combo handle for @DescriptionsList is displaced inside a dialog when it is narrowed.
+- Fix: Moving with the cursor in a @DescriptionsList combo shows the key in the textfield instead of description.
 - Fix: Required and error icon displaced in Android tablets and iPad.
 - Fix: Changing the schema with JPA or Hibernate inside a test has lateral effects in next tests.
 - Fix: @DescriptionsList inside a dialog is not displayed completely when opened, it is cut on dialog limit. 
