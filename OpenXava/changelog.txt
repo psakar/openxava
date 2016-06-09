@@ -1,6 +1,9 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: JxlsSheet needs setFreezePane().
+- Fix: createPOIWorkbook() can not be called twice on the same JxlsWorkbook.
+- Fix: JxlsWorkbook.getSheet() does not check if the index is valid.
 - Fix: The files welcome.jsp and firstSteps.jsp overwritten when deployWar or updateOX.
 - Fix: Controller in controladores.xml with contexto=web sometimes does not show the actions.
 - Fix: Combo handle for @DescriptionsList is displaced inside a dialog when it is narrowed.

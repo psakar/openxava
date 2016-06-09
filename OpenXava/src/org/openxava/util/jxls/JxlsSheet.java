@@ -2,7 +2,7 @@ package org.openxava.util.jxls;
 
 import java.util.*;
 
-import org.apache.poi.ss.usermodel.*; 
+import org.apache.poi.ss.usermodel.*;
 import org.openxava.util.*;
 
 /**
@@ -39,7 +39,7 @@ public class JxlsSheet implements JxlsConstants {
 	private Map<Integer, JxlsStyle> columnStyles = new HashMap<Integer, JxlsStyle>();
 	private Map<Integer, Integer> columnWidths = new HashMap<Integer, Integer>();
 	private int columnSplit = -1;
-	private int rowSplit;
+	private int rowSplit = -1;
 	private int firstRow = 0;
 	private int lastRow = 0;
 	private int firstColumn = 0;
@@ -209,7 +209,10 @@ public class JxlsSheet implements JxlsConstants {
 	public JxlsCell setValue(int column, int row, Object value, JxlsStyle style) {
 		if (value == null) return null;
 		if (value instanceof Date) return new JxlsCell(this, column, row, (Date)value, style);
-		else if (value instanceof Number) return new JxlsCell(this, column, row, ((Number)value).doubleValue(), style);
+		else if ((value instanceof Number) || int.class.equals(value.getClass()) || 
+				short.class.equals(value.getClass()) || long.class.equals(value.getClass()) || 
+				float.class.equals(value.getClass()) || double.class.equals(value.getClass())) 
+			return new JxlsCell(this, column, row, ((Number)value).doubleValue(), style);
 		else return new JxlsCell(this, column, row, value.toString(), style, false);
 	}
 

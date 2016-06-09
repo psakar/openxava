@@ -59,7 +59,9 @@ public class JxlsWorkbook implements JxlsConstants {
 	protected Map<String, Font> fonts = new HashMap<String, Font>();
 	protected Vector<JxlsSheet> sheets = new Vector<JxlsSheet>();
 	protected Map<String, JxlsSheet> sheetNames = new HashMap<String, JxlsSheet>();
-		
+	
+	protected Workbook poiWorkbook = null;
+	
 	/**
 	 * Constructs an empty JxlsWorkbook
 	 *  
@@ -327,6 +329,7 @@ public class JxlsWorkbook implements JxlsConstants {
 	 * @return the JxlsSheet
 	 */
 	public JxlsSheet getSheet(int index) {
+		if (index < 0 || index >= sheets.size()) return null;
 		return sheets.elementAt(index);
 	}
 
@@ -341,15 +344,50 @@ public class JxlsWorkbook implements JxlsConstants {
 	}
 
 	/**
+	 * Gets the list of sheets
+	 * 
+	 * @return a Vector<JxlsSheet>
+	 */
+	public Vector<JxlsSheet> getSheets() {
+		return sheets;
+	}
+
+	/**
+	 * Gets a map containing the sheets mapped by name
+	 * 
+	 * @return a Map<String, JxlsSheet>
+	 */
+	public Map<String, JxlsSheet> getSheetsMap() {
+		return sheetNames;
+	}
+
+	/**
+	 * Resets the Apache POI Workbook from the JxlsWorkbok to regenerate the Workbook on next createPOIWorkbook
+	 * 
+	 */
+	public void deletePOIWorkbook() {
+		poiWorkbook = null;
+	}
+	
+	/**
 	 * Creates an apache POI Workbook from the JxlsWorkbok
 
 	 * @return a Workbook
 	 */
 	public Workbook createPOIWorkbook() {
-		defaultStyle = addStyle(TEXT);
-		defaultDateStyle = addStyle(DATE).setAlign(RIGHT);
-		defaultFloatStyle = addStyle(FLOAT).setAlign(RIGHT);
-		Workbook poiWorkbook = new HSSFWorkbook();
+		// return the previously created poiWorkbook if it exists
+		if (poiWorkbook != null) return poiWorkbook;
+		// only add default styles if they were not created before
+		if (defaultStyle == null) { 
+			defaultStyle = addStyle(TEXT);
+			defaultDateStyle = addStyle(DATE).setAlign(RIGHT);
+			defaultFloatStyle = addStyle(FLOAT).setAlign(RIGHT);
+		}
+		// re-initialize the styles for the POI to take into account changes in styles between 2 creations
+		fonts = new HashMap<String, Font>();
+		for (String name : styles.keySet()) styles.get(name).cellStyle = null;
+		// create the workbook
+		poiWorkbook = new HSSFWorkbook();
 		if (sheets.size() == 0) (new JxlsSheet(this, "Sheet1")).createPOISheet(this, poiWorkbook);
 		for (JxlsSheet sheet: sheets) sheet.createPOISheet(this, poiWorkbook); 
 		// evaluate all formula after setting all cells
