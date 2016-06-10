@@ -48,7 +48,6 @@ public class Warehouse {
  		return (Warehouse) query.getSingleResult();
 	} 
 
-
 	public String getName() {
 		return name;
 	}

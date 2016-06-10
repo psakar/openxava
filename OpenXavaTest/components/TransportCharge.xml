@@ -26,9 +26,10 @@
 				show-reference-view="true"/>
 		</reference-view>	
 		<members>
-			delivery; 
-			amount
-		</members>	
+			delivery;
+			<section name="one">amount</section>
+			<section name="two"></section> 
+		</members>
 	</view>
 
 	<tab>

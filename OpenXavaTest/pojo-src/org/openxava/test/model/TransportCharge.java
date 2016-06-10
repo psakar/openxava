@@ -4,8 +4,6 @@ import java.math.*;
 import java.util.*;
 
 import javax.persistence.*;
-
-import org.codehaus.groovy.runtime.wrappers.*;
 import org.openxava.annotations.*;
 import org.openxava.jpa.*;
 
@@ -20,8 +18,7 @@ import org.openxava.jpa.*;
 @IdClass(TransportChargeKey.class)
 @Views({
 	@View(name="WithDescriptionsList", members="delivery; amount"),
-	// tmp @View(name="WithDescriptionsListShowingReferenceView", members="delivery; amount")
-	@View(name="WithDescriptionsListShowingReferenceView", members="delivery; one{amount}; two{}") // tmp
+	@View(name="WithDescriptionsListShowingReferenceView", members="delivery; one{amount}; two{}") 
 })
 @Tabs({
 	@Tab(properties="delivery.invoice.year, delivery.invoice.number, delivery.number, amount"),

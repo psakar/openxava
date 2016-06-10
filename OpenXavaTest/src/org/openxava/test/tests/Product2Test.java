@@ -2,6 +2,8 @@ package org.openxava.test.tests;
 
 import java.math.*;
 
+import javax.persistence.*;
+
 import org.openxava.jpa.*;
 import org.openxava.test.model.*;
 import org.openxava.tests.*;
@@ -642,7 +644,8 @@ public class Product2Test extends ModuleTestBase {
 	}
 
 	private void removeWarehouseWithQuote() { 
-		Warehouse warehouse = Warehouse.findByZoneNumberNumber(10, 11);
+ 		Query query = XPersistence.getManager().createQuery("from Warehouse as o where o.zoneNumber = 10 and number = 11"); // We don't use Warehouse.findByZoneNumberNumber(10, 11) in order to work with XML/Hibernate version 
+ 		Warehouse warehouse = (Warehouse) query.getSingleResult();
 		XPersistence.getManager().remove(warehouse);
 	}
 

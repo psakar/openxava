@@ -1,9 +1,17 @@
 Change Log for OpenXava project
 ===============================
 
-- Fix: JxlsSheet needs setFreezePane().
-- Fix: createPOIWorkbook() can not be called twice on the same JxlsWorkbook.
-- Fix: JxlsWorkbook.getSheet() does not check if the index is valid.
+OpenXava 5.5.1 (2016-6-13)
+--------------------------
+- CSS for layout instead of HTML tables.
+- In the validation message values of the properties of the current entity can be used.
+- Some new common use labels to be used in applications.
+- Fix: Bad layout with nested @NoFrame.
+- Fix: Collection inside a section is duplicate in some cases.
+- Fix: Two groups in the same row in @View not possible.
+- Fix: @NoFrame elements not aligned with outside elements.
+- Fix: Constraint exception produces a blank message.
+- Fix: Duplicate buttons after generating PDF or refreshing the page in a view aligned by column (with # in @View).
 - Fix: The files welcome.jsp and firstSteps.jsp overwritten when deployWar or updateOX.
 - Fix: Controller in controladores.xml with contexto=web sometimes does not show the actions.
 - Fix: Combo handle for @DescriptionsList is displaced inside a dialog when it is narrowed.
@@ -17,17 +25,11 @@ Change Log for OpenXava project
 - Fix: Editors with frame=true adds a little space before editor.
 - Fix: Editors with frame=true adds a blank line if the editor is wrapped in a HTML table.
 - Fix: Required icon not in correct position in text areas.
-- In the validation message values of the properties of the current entity can be used.
-- Fix: Constraint exception produces a blank message.
-- Fix: Bad layout with nested @NoFrame.
-- Fix: Collection inside a section is duplicate in some cases.
-- Fix: Two groups in the same row in @View not possible.
-- Fix: @NoFrame elements not aligned with outside elements.
+- Fix: JxlsSheet needs setFreezePane().
+- Fix: createPOIWorkbook() can not be called twice on the same JxlsWorkbook.
+- Fix: JxlsWorkbook.getSheet() does not check if the index is valid.
 - Fix: JUnit tests do not find action in some circumstances.
-- CSS for layout instead of HTML tables.
 - Fix: Elements inside sign in box are not centered.
-- Fix: Duplicate buttons after generating PDF or refreshing the page in a view aligned by column (with # in @View).
-- Some new common use labels to be used in applications.
 
 OpenXava 5.5 (2016-4-26)
 ------------------------

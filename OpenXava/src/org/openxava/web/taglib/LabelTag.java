@@ -27,7 +27,7 @@ public class LabelTag extends TagSupport {
 		try {
 			HttpServletRequest request = (HttpServletRequest) pageContext.getRequest();
 			Locale locale = XavaResources.getLocale(request);
-			pageContext.getOut().print(Labels.get(getKey(), locale)); // tmp
+			pageContext.getOut().print(Labels.get(getKey(), locale)); 
 		}
 		catch (Exception ex) {
 			log.error(ex.getMessage(), ex);
