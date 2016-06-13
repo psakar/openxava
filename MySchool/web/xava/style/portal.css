@@ -227,12 +227,13 @@ TD.list-title {
 }
 
 .liferay-xava-editor-wrapper {
-	padding-right: 4px;
-	padding-bottom: 4px;
+	padding-right: 12px; 
+	padding-bottom: 6px;
 }
 	
 .liferay-xava-label {
-	padding-right: 4px;
+	padding-right: 0px;
+	vertical-align: middle;
 }
 
 .liferay6-xava-label {
@@ -474,8 +475,14 @@ a.ox-selected-list-format, a.ox-selected-list-format:hover {
 
 .ox-frame-sibling {     
 	padding-left: 4px;
+	float: left;
 }
 
+.ox-frame {
+	 display: table;
+	 border-collapse: separate; 
+	 width: 100%;
+}
 
 .ox-frame-totals-label {
 	font-weight: normal;
@@ -661,14 +668,36 @@ span.ox-subcontroller-select a{
 .ox-required-icon, .ox-error-icon { 
 	width: 0px; 
 	position: relative;
+	float: left; 
+}
+
+.ox-frame table { /* To avoid a blank line produced by the error icon where an editor with frame uses a table as external container */
+	clear: none;
 }
 
 .ox-required-icon { 
-	top: -12px;
+	top: -6px; 
+}
+
+.firefox .ox-layout-not-aligned-cell .ox-layout-editor-icons .ox-required-icon,
+.ie .ox-layout-not-aligned-cell .ox-layout-editor-icons .ox-required-icon {
+	left: 3px;
+}
+
+.ie .ox-layout-aligned-cell .ox-layout-editor-icons .ox-required-icon {
+	top: -20px;
+}
+
+.ie .ox-layout-aligned-cell .ox-layout-editor-icons  .ox-error-icon {
+	top: -22px;
+}
+
+.ie .ox-required-icon { 
+	top: -7px; 
 }
 
 .ox-error-icon { 
-	top: -13px;
+	top: -8px; 
 }
 
 i.ox-required-icon {
@@ -679,8 +708,18 @@ i.ox-required-icon {
 
 i.ox-error-icon {
 	color: #DC4A38;
-	left: 10px;
+	left: 13px; 
 	font-size: 120%;
+}
+
+.portlet-content-container > .ox-required-icon {
+	top: -4px;
+	left: -5px;
+}
+
+.portlet-content-container > span > .ox-error-icon {
+	top: -6px;
+	left: 9px;
 }
 
 .ox-customize-controls i {
@@ -725,7 +764,8 @@ input[type="radio"] {
     max-height: 350px;
     overflow-y: auto;
     overflow-x: hidden;
-    border-color: #CCC !important; 
+    border-color: #CCC !important;
+    z-index: 9999999999 !important;  
  }
  
 .ui-autocomplete-input::-ms-clear, .ox-date-calendar ::-ms-clear  {  

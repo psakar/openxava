@@ -176,9 +176,9 @@ if (editable) {
 				selectedKey = cl.getKey().toString();
 			} 		
 			values.append("{label:\"");
-			values.append(description.replaceAll("'", "&apos;"));
+			values.append(description.replaceAll("'", "&apos;").replaceAll("\"", "&Prime;")); 
 			values.append("\",value:\"");
-			values.append(cl.getKey().toString().replaceAll("'", "&apos;"));
+			values.append(cl.getKey().toString().replaceAll("'", "&apos;").replaceAll("\"", "&Prime;")); 
 			values.append("\"}");
 			if (it.hasNext()) values.append(",");
 		} 
@@ -192,8 +192,8 @@ if (editable) {
 		data-values='<%=values%>' value="<%=selectedDescription%>"/> 
 	<input id="<%=propertyKey%>" type="hidden" name="<%=propertyKey%>" value="<%=selectedKey%>"/>
 	<input type="hidden" name="<%=propertyKey%>__DESCRIPTION__" value="<%=selectedDescription%>"/>
-	<a href="javascript:descriptionsEditor.open('<%=propertyKey%>')"><i class="mdi mdi-menu-down"></i></a> 		
-	<a href="javascript:descriptionsEditor.close('<%=propertyKey%>')" style="display: none"><i class="mdi mdi-menu-up"></i></a> 
+	<a class="ox-layout-descriptions-editor-handler" href="javascript:descriptionsEditor.open('<%=propertyKey%>')"><i class="mdi mdi-menu-down"></i></a> 		
+	<a class="ox-layout-descriptions-editor-handler" href="javascript:descriptionsEditor.close('<%=propertyKey%>')" style="display: none"><i class="mdi mdi-menu-up"></i></a>
 	</span>
 	<% 	
 } else { 
