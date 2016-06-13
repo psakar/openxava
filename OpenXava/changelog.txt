@@ -21,14 +21,14 @@ OpenXava 5.5.1 (2016-6-13)
 - Fix: @DescriptionsList inside a dialog is not displayed completely when opened, it is cut on dialog limit. 
 - Fix: @DescriptionsList does not close the list when you click in other place.
 - Fix: @DescriptionsList with " in the data breaks the module.
-- Fix: @DescriptionList with showReferenceView=true and composite key loses not key data on action call.
+- Fix: @DescriptionsList with showReferenceView=true and composite key loses non-key data on action call.
 - Fix: Editors with frame=true adds a little space before editor.
 - Fix: Editors with frame=true adds a blank line if the editor is wrapped in a HTML table.
 - Fix: Required icon not in correct position in text areas.
 - Fix: JxlsSheet needs setFreezePane().
 - Fix: createPOIWorkbook() can not be called twice on the same JxlsWorkbook.
 - Fix: JxlsWorkbook.getSheet() does not check if the index is valid.
-- Fix: JUnit tests do not find action in some circumstances.
+- Fix: JUnit tests do not find actions in some circumstances.
 - Fix: Elements inside sign in box are not centered.
 
 OpenXava 5.5 (2016-4-26)
