@@ -8447,8 +8447,7 @@ OpenXavaDoc/web/apidocs/resources/titlebar_end.gif -text
 OpenXavaDoc/web/apidocs/serialized-form.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/stylesheet.css -text svneol=unset#text/plain
 OpenXavaDoc/web/changelog.txt -text svneol=unset#text/plain
-OpenXavaDoc/wiki-HTML.zip -text
-OpenXavaDoc/wiki.tgz -text
+OpenXavaDoc/wiki.zip -text
 OpenXavaPlantilla/.classpath -text
 OpenXavaPlantilla/.project -text
 OpenXavaPlantilla/.project.template -text
