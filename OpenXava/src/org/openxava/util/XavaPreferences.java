@@ -103,6 +103,14 @@ public class XavaPreferences {
 				"smtpHostTrusted", "false").trim());
 	}	
 
+	/**
+	 * @since 5.6
+	 */	
+	public boolean isSMTPStartTLSEnable() {  
+		return "true".equalsIgnoreCase(getProperties().getProperty(
+				"smtpStartTLSEnable", "false").trim());
+	}
+
 	public String getCSVSeparator() {
 		return getProperties().getProperty("csvSeparator", ";");
 	}

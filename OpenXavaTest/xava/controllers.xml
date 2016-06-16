@@ -35,6 +35,7 @@
 	
 	<controller name="Clerk">	
 		<extends controller="TypicalRealExcel"/>
+		<action name="createMyExcel" class="org.openxava.test.actions.CreateMyExcelAction" />
 	</controller>
 	
 	<controller name="Quote">	

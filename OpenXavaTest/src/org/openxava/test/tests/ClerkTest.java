@@ -19,7 +19,7 @@ public class ClerkTest extends ModuleTestBase {
 		super(testName, "Clerk");		
 	}
 	
-	public void testTextFieldsWithQuotationMarks() throws Exception {
+	public void testTextFieldsWithQuotationMarks_generateCustomExcel() throws Exception {
 		assertListNotEmpty();
 		execute("Mode.detailAndFirst");
 		String name = getValue("name");		
@@ -34,6 +34,11 @@ public class ClerkTest extends ModuleTestBase {
 		setValue("name", name);
 		execute("CRUD.save");
 		assertNoErrors();
+		
+		// Custom Excel
+		execute("Clerk.createMyExcel");
+		assertNoErrors(); 
+		assertContentTypeForPopup("application/vnd.ms-excel");
 	}
 	
 	public void testTimeStereotypeAndSqlTimeAndStringAsByteArrayInDB_i18nOverXmlLabeInXmlComponents_generateRealExcel() throws Exception {

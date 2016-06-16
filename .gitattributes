@@ -10702,6 +10702,7 @@ OpenXavaTest/src/org/openxava/test/actions/ChangeToLowerCaseAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeViewAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeYearConditionAction.groovy -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeZoneAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/CreateMyExcelAction.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/actions/CreateNewFamilyAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/CreateNewInvoiceDetail2Action.java -text
 OpenXavaTest/src/org/openxava/test/actions/CreateNewWarehouseFromReferenceAction.java -text

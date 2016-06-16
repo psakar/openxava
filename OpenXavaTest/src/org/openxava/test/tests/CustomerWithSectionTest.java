@@ -272,7 +272,7 @@ public class CustomerWithSectionTest extends CustomerTest {
 		assertError("Telephone must be at least 8 Digits long");
 		assertError("eMail must be a valid email address");
 		assertError("Web site must be a valid url");
-		assertError("Additional emails should contain valid emails seperated by commas"); 
+		assertError("Additional emails should contain valid emails separated by commas"); 
 		assertValue("email", "pepe@mycompany"); // not converted to uppercase
 		assertValue("additionalEmails", "pepe@myproject.org, pepe@yahoo"); // not converted to uppercase 
 		assertValue("website", "www.openxava.org"); // not converted to uppercase
