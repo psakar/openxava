@@ -4,8 +4,8 @@ package org.openxava.application.meta;
 import java.util.*;
 
 import org.apache.commons.logging.*;
-import org.openxava.annotations.parse.*;
 import org.openxava.component.*;
+import org.openxava.component.parse.*;
 import org.openxava.controller.meta.*;
 import org.openxava.util.*;
 import org.openxava.util.meta.*;

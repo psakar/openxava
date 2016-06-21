@@ -5336,7 +5336,6 @@ OpenXava/src/org/openxava/annotations/ViewAction.java -text
 OpenXava/src/org/openxava/annotations/ViewActions.java -text
 OpenXava/src/org/openxava/annotations/Views.java -text
 OpenXava/src/org/openxava/annotations/XOrderBy.java -text
-OpenXava/src/org/openxava/annotations/parse/AnnotatedClassParser.java -text
 OpenXava/src/org/openxava/application/meta/MetaApplication.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/application/meta/MetaApplications.java -text
 OpenXava/src/org/openxava/application/meta/MetaModule.java -text
@@ -5388,8 +5387,10 @@ OpenXava/src/org/openxava/calculators/UUIDCalculator.java -text
 OpenXava/src/org/openxava/calculators/ZeroBigDecimalCalculator.java -text
 OpenXava/src/org/openxava/calculators/ZeroIntegerCalculator.java -text
 OpenXava/src/org/openxava/calculators/ZeroLongCalculator.java -text
-OpenXava/src/org/openxava/component/ComponentParser.java -text
 OpenXava/src/org/openxava/component/MetaComponent.java -text
+OpenXava/src/org/openxava/component/parse/AnnotatedClassParser.java -text
+OpenXava/src/org/openxava/component/parse/IComponentParser.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/component/parse/XMLComponentParser.java -text
 OpenXava/src/org/openxava/controller/Environment.java -text
 OpenXava/src/org/openxava/controller/ModuleContext.java -text
 OpenXava/src/org/openxava/controller/ModuleManager.java -text

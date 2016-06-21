@@ -5,7 +5,7 @@ import java.util.*;
 import javax.validation.*;
 
 import org.openxava.annotations.*;
-import org.openxava.annotations.parse.*;
+import org.openxava.component.parse.*;
 import org.openxava.util.*;
 import org.openxava.util.meta.*;
 import org.openxava.validators.*;

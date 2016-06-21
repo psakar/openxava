@@ -132,6 +132,17 @@ public class XavaPreferences {
 				"org.openxava.model.impl.JPAPersistenceProvider").trim();
 	}
 
+
+	/**
+	 * @since 5.6 
+	 */	
+	public String getComponentParsersClasses() { 
+		return getProperties().getProperty("componentParsersClasses",
+				"org.openxava.component.parse.XMLComponentParser,org.openxava.component.parse.AnnotatedClassParser").trim();
+	}
+
+	
+
 	public String getStyleClass() {
 		return getProperties().getProperty("styleClass",
 				"com.openxava.naviox.web.NaviOXStyle").trim();

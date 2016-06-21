@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Pluggable component parser by means of IComponentParser implementations declared in xava.properties.
 - Improvements for English, German and French translations of labels and messages.
 - New property smtpStartTLSEnable in xava.properties to configure the behavior of Emails. 
 - Servlet mapping to generate custom Excel files included by default in web.xml.

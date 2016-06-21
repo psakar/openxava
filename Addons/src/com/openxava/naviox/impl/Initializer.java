@@ -1,9 +1,7 @@
 package com.openxava.naviox.impl;
 
 import javax.servlet.*;
-
-import org.openxava.annotations.parse.*;
-
+import org.openxava.component.parse.*;
 import com.openxava.naviox.model.*;
 
 

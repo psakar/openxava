@@ -1,9 +1,9 @@
-package org.openxava.component;
+package org.openxava.component.parse;
 
 import java.util.*;
 
 import org.apache.commons.logging.*;
-import org.openxava.annotations.parse.*;
+import org.openxava.component.*;
 import org.openxava.mapping.*;
 import org.openxava.mapping.xmlparse.*;
 import org.openxava.model.meta.*;
@@ -17,42 +17,30 @@ import org.w3c.dom.*;
 /**
  * @author: Javier Paniza
  */
-class ComponentParser extends ParserBase {
+public class XMLComponentParser extends ParserBase implements IComponentParser {  
 	
-	private static Log log = LogFactory.getLog(ComponentParser.class); 
+	private static Log log = LogFactory.getLog(XMLComponentParser.class); 
 	
-	private MetaComponent component;	
+	private MetaComponent component;
+	
+	public XMLComponentParser() { 
+		super("__PARSER_LAUNCHER__");
+	}
 
-	private ComponentParser(String name) {
+	private XMLComponentParser(String name) {
 		super(name + ".xml");		
 	}
 	
-	synchronized public static MetaComponent parse(String name) throws XavaException {
-		ComponentParser parser = new ComponentParser(name);				
+	public MetaComponent parse(String name) { 
+		XMLComponentParser parser = new XMLComponentParser(name);				
 		parser.parse();				
 		MetaComponent r = parser.getComponent();
-		
-		if (r == null) {			
-			r = parseAnnotatedClass(name);			
-		}		 
-		else if (!r.getName().equals(name)) {
+		if (r != null && !r.getName().equals(name)) {
 			throw new XavaException("component_file_not_match", name, r.getName());
 		}		
 		return r;
 	}
 	
-	private static MetaComponent parseAnnotatedClass(String name) throws XavaException {
-		AnnotatedClassParser parser = new AnnotatedClassParser();		
-		try {
-			return parser.parse(name);		
-		}
-		catch (Exception ex) {
-			log.error(XavaResources.getString("annotated_class_parse_error", name, ex.getMessage()), ex); 
-			if (ex instanceof RuntimeException) throw (RuntimeException) ex;
-			else throw new RuntimeException(ex);
-		}				
-	}
-
 	private void createAggregate() throws XavaException {
 		NodeList l = getRoot().getElementsByTagName(xaggregate[lang]);
 		int c = l.getLength();

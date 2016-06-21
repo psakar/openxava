@@ -1,4 +1,4 @@
-package org.openxava.annotations.parse;
+package org.openxava.component.parse;
 
 import java.beans.BeanInfo;
 import java.beans.IntrospectionException;
@@ -143,7 +143,8 @@ import org.openxava.annotations.ViewActions;
 import org.openxava.annotations.Views;
 import org.openxava.annotations.XOrderBy;
 import org.openxava.calculators.NullCalculator;
-import org.openxava.component.MetaComponent;
+import org.openxava.component.*;
+import org.openxava.component.parse.*;
 import org.openxava.converters.typeadapters.HibernateCompositeTypeConverter;
 import org.openxava.converters.typeadapters.HibernateTypeConverter;
 import org.openxava.converters.typeadapters.OrdinalEnumIntConverter;
@@ -190,11 +191,11 @@ import org.openxava.web.layout.LayoutFactory;
 
 /**
  * Parse EJB3 Entities (POJOs with JPA annotations) into OpenXava components. <p>
- * 
+ *
  * @author Javier Paniza
  */
 
-public class AnnotatedClassParser {
+public class AnnotatedClassParser implements IComponentParser { 
 	
 	private static Log log = LogFactory.getLog(AnnotatedClassParser.class);
 	

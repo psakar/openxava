@@ -4,8 +4,8 @@ import java.util.*;
 
 import javax.persistence.*;
 
-import org.openxava.annotations.parse.*;
 import org.openxava.application.meta.*;
+import org.openxava.component.parse.*;
 import org.openxava.util.*;
 
 /**
