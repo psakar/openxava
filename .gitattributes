@@ -5522,7 +5522,6 @@ OpenXava/src/org/openxava/model/impl/MapFacadeRemote.java -text
 OpenXava/src/org/openxava/model/impl/POJOPersistenceProviderBase.java -text
 OpenXava/src/org/openxava/model/impl/POJOPropertiesContainerAdapter.java -text
 OpenXava/src/org/openxava/model/impl/PersistenceProviderException.java -text
-OpenXava/src/org/openxava/model/impl/PersistenceProviderFactory.java -text
 OpenXava/src/org/openxava/model/meta/DefaultSize.java -text
 OpenXava/src/org/openxava/model/meta/MetaAggregate.java -text
 OpenXava/src/org/openxava/model/meta/MetaAggregateForCollection.java -text
@@ -9313,6 +9312,10 @@ OpenXavaTest/i18n/portlets/FilterBySubfamilyAndYear_ca.properties -text svneol=u
 OpenXavaTest/i18n/portlets/FilterBySubfamilyAndYear_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/FilterBySubfamilyAndYear_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/FilterBySubfamilyAndYear_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/FilterBySubfamily_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/FilterBySubfamily_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/FilterBySubfamily_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/FilterBySubfamily_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Folder_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Folder_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Folder_es.properties -text svneol=unset#text/plain
@@ -9577,6 +9580,10 @@ OpenXavaTest/i18n/portlets/Mixture_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Mixture_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Mixture_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Mixture_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Month_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Month_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Month_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Month_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Moto_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Moto_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Moto_es.properties -text svneol=unset#text/plain
@@ -9621,6 +9628,10 @@ OpenXavaTest/i18n/portlets/Office_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Office_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Office_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Office_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/OneLineAddress_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/OneLineAddress_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/OneLineAddress_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/OneLineAddress_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/OnlyEditDetailsInvoice_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/OnlyEditDetailsInvoice_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/OnlyEditDetailsInvoice_es.properties -text svneol=unset#text/plain
@@ -10185,6 +10196,10 @@ OpenXavaTest/i18n/portlets/Worker_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Worker_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Worker_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Worker_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Year_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Year_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Year_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Year_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/jboss-as400.properties -text
 OpenXavaTest/jboss-hypersonic.properties -text
 OpenXavaTest/license.txt -text svneol=unset#text/plain

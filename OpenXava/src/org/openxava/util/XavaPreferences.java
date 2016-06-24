@@ -127,11 +127,10 @@ public class XavaPreferences {
 				"org.openxava.util.DefaultReportParametersProvider").trim();
 	}
 	
-	public String getPersistenceProviderClass() {
+	private String getPersistenceProviderClass() { 
 		return getProperties().getProperty("persistenceProviderClass",
 				"org.openxava.model.impl.JPAPersistenceProvider").trim();
 	}
-
 
 	/**
 	 * @since 5.6 
@@ -200,24 +199,6 @@ public class XavaPreferences {
 				"mapFacadeAutoCommit", "false").trim());
 	}
 
-	public boolean isEJB2Persistence() {
-		if (!ejb2PersistenceLoaded) {
-			ejb2PersistenceLoaded = true;
-			ejb2Persistence = getPersistenceProviderClass().toUpperCase()
-					.indexOf("EJB") >= 0;
-		}
-		return ejb2Persistence;
-	}
-
-	public boolean isJPAPersistence() {
-		if (!jpaPersistenceLoaded) {
-			jpaPersistenceLoaded = true;
-			jpaPersistence = getPersistenceProviderClass().toUpperCase()
-					.indexOf("JPA") >= 0;
-		}
-		return jpaPersistence;
-	}
-
 	public boolean isHibernatePersistence() {
 		if (!hibernatePersistenceLoaded) {
 			hibernatePersistenceLoaded = true;
@@ -226,15 +207,11 @@ public class XavaPreferences {
 		}
 		return hibernatePersistence;
 	}
+	
 
 	public boolean isDetailOnBottomInCollections() {
 		return "true".equalsIgnoreCase(getProperties().getProperty(
 				"detailOnBottomInCollections", "false").trim());
-	}
-
-	public boolean isJPACodeInPOJOs() {
-		return "true".equalsIgnoreCase(getProperties().getProperty(
-				"jpaCodeInPOJOs", Boolean.toString(isJPAPersistence())).trim());
 	}
 
 	public boolean isI18nWarnings() {

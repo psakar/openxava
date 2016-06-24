@@ -159,6 +159,7 @@ import org.openxava.mapping.ModelMapping;
 import org.openxava.mapping.PropertyMapping;
 import org.openxava.mapping.ReferenceMapping;
 import org.openxava.mapping.ReferenceMappingDetail;
+import org.openxava.model.impl.*;
 import org.openxava.model.meta.MetaAggregateForCollection;
 import org.openxava.model.meta.MetaAggregateForReference;
 import org.openxava.model.meta.MetaCalculator;
@@ -246,7 +247,7 @@ public class AnnotatedClassParser implements IComponentParser {
 			
 			// Other model level annotations
 			processAnnotations(entity, pojoClass);
-				
+			
 			return component;
 		}
 		finally {
@@ -254,6 +255,9 @@ public class AnnotatedClassParser implements IComponentParser {
 		}
 	}
 
+	public IPersistenceProvider getPersistenceProvider() { 
+		return JPAPersistenceProvider.getInstance();
+	}
 
 	private Annotation getAnnotationInHierarchy(Class pojoClass, Class annotation) {
 		if (Object.class.equals(pojoClass)) return null;
@@ -2641,14 +2645,14 @@ public class AnnotatedClassParser implements IComponentParser {
 				// When no database connection is available, no session factory can
 				// be created, but sometimes (maybe from junit test, or code generation)  
 				// it's needed to parse the entities anyways, then we'll
-				// try to obtain managed classes without hibernate								
-				if (XavaPreferences.getInstance().isJPAPersistence()) { // If we work with Hibernate + XML components it's normal not to have a persistence.xml
+				// try to obtain managed classes without hibernate		
+				if (!XavaPreferences.getInstance().isHibernatePersistence()) { // If we work with Hibernate + XML components it's normal not to have a persistence.xml 
 					// We always have to print the stack trace of ex, because the error can
 					// be other than no connection, then the developer needs info for debug
 					log.warn(XavaResources.getString("managed_classes_not_from_hibernate"), ex);
 				}
 				managedClassNames = obtainManagedClassNamesFromFileClassPath();
-				if (managedClassNames.isEmpty() && XavaPreferences.getInstance().isJPAPersistence()) { // If we work with Hibernate + XML components it's normal not to have JPA entities
+				if (managedClassNames.isEmpty() && !XavaPreferences.getInstance().isHibernatePersistence()) { // If we work with Hibernate + XML components it's normal not to have JPA entities 
 					managedClassNames = null;
 					if (ex instanceof RuntimeException) throw (RuntimeException) ex;
 					else throw new RuntimeException(ex);

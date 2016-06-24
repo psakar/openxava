@@ -12,6 +12,7 @@ import org.apache.commons.logging.*;
 import org.openxava.component.*;
 import org.openxava.mapping.*;
 import org.openxava.model.*;
+import org.openxava.model.impl.*;
 import org.openxava.util.*;
 import org.openxava.util.meta.*;
 import org.openxava.validators.meta.*;
@@ -1886,6 +1887,5 @@ abstract public class MetaModel extends MetaElement {
 	public void setContainerReference(String containerReference) {
 		this.containerReference = containerReference;
 	}
-
 	
 }

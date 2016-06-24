@@ -59,14 +59,14 @@ abstract public class ModelMapping implements java.io.Serializable {
 	public String getTable() { 
 		// Change this if by polymorphism ?		
 		if (isCodeGenerationTime()) return table;
-		if (XavaPreferences.getInstance().isJPAPersistence() && 
+		if (getMetaModel().isAnnotatedEJB3() && 
 			getSchema() == null && !Is.emptyString(XPersistence.getDefaultSchema())) {
 			return  XPersistence.getDefaultSchema() + "." + table; 
 		}
-		else if (XavaPreferences.getInstance().isHibernatePersistence() && 
+		else if (getMetaModel().isPojoGenerated() && 
 			getSchema() == null && !Is.emptyString(XHibernate.getDefaultSchema())) {
 			return  XHibernate.getDefaultSchema() + "." + table; 
-		}		
+		}				
 		return table;
 	}
 	private static boolean isCodeGenerationTime() {

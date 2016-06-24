@@ -21,6 +21,14 @@ public class JPAPersistenceProvider extends POJOPersistenceProviderBase {
 	
 	private static Log log = LogFactory.getLog(JPAPersistenceProvider.class);
 	
+	private JPAPersistenceProvider() {
+	}
+	private static JPAPersistenceProvider instance;
+	public static JPAPersistenceProvider getInstance() {
+		if (instance == null) instance = new JPAPersistenceProvider();
+		return instance;
+	}
+	
 	protected Object find(Class pojoClass, Serializable key) {
 		try {
 			flush(); 

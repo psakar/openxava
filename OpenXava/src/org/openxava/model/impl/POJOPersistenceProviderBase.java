@@ -5,7 +5,6 @@ import java.rmi.*;
 import java.util.*;
 
 import javax.ejb.*;
-import javax.persistence.*;
 
 import org.apache.commons.logging.*;
 import org.openxava.mapping.*;

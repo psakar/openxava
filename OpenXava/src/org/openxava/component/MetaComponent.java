@@ -8,6 +8,7 @@ import java.util.*;
 import org.apache.commons.logging.*;
 import org.openxava.component.parse.*;
 import org.openxava.mapping.*;
+import org.openxava.model.impl.*;
 import org.openxava.model.meta.*;
 import org.openxava.tab.meta.*;
 import org.openxava.util.*;
@@ -45,6 +46,7 @@ public class MetaComponent implements Serializable {
 	private EntityMapping entityMapping;
 	private String packageName;
 	private boolean _transient; 
+	private IPersistenceProvider persistenceProvider;  
 		
 	/**
 	 * 
@@ -71,7 +73,10 @@ public class MetaComponent implements Serializable {
 		try {
 			for (IComponentParser parser: createParsers()) {
 				MetaComponent r = parser.parse(name);
-				if (r != null) return r;
+				if (r != null) {
+					r.setPersistenceProvider(parser.getPersistenceProvider());
+					return r;
+				}
 			}
 			return null;
 		}
@@ -470,6 +475,14 @@ public class MetaComponent implements Serializable {
 
 	public void setTransient(boolean _transient) {
 		this._transient = _transient;
+	}
+
+	public IPersistenceProvider getPersistenceProvider() {
+		return persistenceProvider;
+	}
+
+	public void setPersistenceProvider(IPersistenceProvider persistenceProvider) {
+		this.persistenceProvider = persistenceProvider;
 	}
 		
 }

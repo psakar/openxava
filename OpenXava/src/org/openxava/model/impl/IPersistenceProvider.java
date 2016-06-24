@@ -20,9 +20,9 @@ import org.openxava.validators.*;
  * not mandatory. You can throw PersistenceException, JDOException, HibernateException, 
  * EJBException or whatever RuntimeException your want.<br>  
  * 
- * @author Mï¿½ Carmen Gimeno Alabau
+ * @author Mª Carmen Gimeno Alabau
  */
-public interface IPersistenceProvider {
+public interface IPersistenceProvider extends java.io.Serializable { 
 	
 	/**
 	 * Find an object by any property (or properties). <p>

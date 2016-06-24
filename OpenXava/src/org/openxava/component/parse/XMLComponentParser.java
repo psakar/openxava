@@ -6,6 +6,7 @@ import org.apache.commons.logging.*;
 import org.openxava.component.*;
 import org.openxava.mapping.*;
 import org.openxava.mapping.xmlparse.*;
+import org.openxava.model.impl.*;
 import org.openxava.model.meta.*;
 import org.openxava.model.meta.xmlparse.*;
 import org.openxava.tab.meta.xmlparse.*;
@@ -37,8 +38,12 @@ public class XMLComponentParser extends ParserBase implements IComponentParser {
 		MetaComponent r = parser.getComponent();
 		if (r != null && !r.getName().equals(name)) {
 			throw new XavaException("component_file_not_match", name, r.getName());
-		}		
+		}	
 		return r;
+	}
+	
+	public IPersistenceProvider getPersistenceProvider() { 
+		return HibernatePersistenceProvider.getInstance();
 	}
 	
 	private void createAggregate() throws XavaException {
