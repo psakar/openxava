@@ -834,3 +834,36 @@ input[type="radio"] {
 .ox-icon-in-list i {
 	color: black;
 }
+
+a.cke_button_off {
+	opacity: .4;
+}
+
+.cke_toolgroup {
+	border: 0px !important;
+	background: transparent !important;
+}
+
+a.cke_button_off, a.cke_button_disabled, .cke_button_on {
+	padding: 4px 4px 4px 4px; !important;
+}
+
+a.cke_button_off, a.cke_button_disabled {
+	border: 1px solid transparent !important;
+}
+
+
+a.cke_button_off:hover, a.cke_button_off:focus, a.cke_button_off:active {
+	opacity: .6;
+	border: 1px solid #A7CEDF !important;	
+	background: #DFF4FF !important;
+	color: #346799 !important; 
+	box-shadow: none !important;  
+
+}
+
+a.cke_button_disabled:hover, a.cke_button_disabled:focus, a.cke_button_disabled:active {
+	background: transparent !important;
+	background-image: none !important;
+	box-shadow: none !important; 
+}
