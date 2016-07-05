@@ -347,7 +347,8 @@ A:hover .module-row, A:hover .folder-row {
 
 input[type="text"], input[type="password"], input[type="file"], select, textarea, 
 .ui-widget input[type="text"], .ui-widget input[type="password"], .ui-widget input[type="file"], 
-.ui-widget select, .ui-widget textarea {  
+.ui-widget select, .ui-widget textarea,
+.cke_chrome {   
 	border-color: #CCC; 
 	border-style: solid;	
 	border-width: 1px;
@@ -1428,4 +1429,46 @@ i.ox-sort-indicator2 {
 
 .ox-icon-in-list i {
 	color: black;
+}
+
+a.cke_button_off {
+	opacity: .65;
+}
+
+.cke_toolgroup {
+	border: 0px !important;
+	background: transparent !important;
+}
+
+a.cke_button_off, a.cke_button_disabled, .cke_button_on {
+	padding: 6px 6px 6px 6px !important;
+}
+
+a.cke_button_off, a.cke_button_disabled {
+	border: 1px solid transparent !important;
+}
+
+
+a.cke_button_off:hover, a.cke_button_off:focus, a.cke_button_off:active {
+	opacity: .9;
+	background: transparent !important;
+	background-image: none !important;
+	border-radius: 2px !important;
+	border: 1px solid #C6C6C6 !important;	
+	box-shadow: 0px 1px 2px #CCCCCC !important; 
+}
+
+a.cke_button_disabled:hover, a.cke_button_disabled:focus, a.cke_button_disabled:active {
+	background: transparent !important;
+	background-image: none !important;
+	box-shadow: none !important; 
+}
+
+
+.cke_button_on, .cke_button_on:hover {
+	background: white !important;
+	border-radius: 2px !important;
+	padding: 5px !important;
+	border: 1px solid #C6C6C6 !important;	
+	box-shadow: 0px 0px 5px #CCCCCC inset !important;  
 }
