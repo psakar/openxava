@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- CKEditor look & feel adapted to NaviOX and Liferay 6.1 look & feels.
+- CKEditor upgraded to 4.5.9.
 - Each component type has its own IPersistenceProvider, there is no longer a unique IPersistenceProvider for the whole application.
 - The combination XML Components + JPA Persistence no longer supported.
 - Properties jpaCodeInPOJOs and persistenceProviderClass in xava.properties no longer have effect.
