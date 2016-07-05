@@ -4327,6 +4327,332 @@ MySchool/web/xava/editors/chartXColumnEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/chartsEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/chooseFile.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/chooseIcon.jsp -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/.htaccess -text
+MySchool/web/xava/editors/ckeditor/adapters/jquery.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/config.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/contents.css -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/af.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/ar.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/bg.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/bn.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/bs.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/ca.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/cs.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/cy.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/da.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/de-ch.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/de.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/el.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/en-au.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/en-ca.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/en-gb.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/en.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/eo.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/es.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/et.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/eu.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/fa.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/fi.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/fo.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/fr-ca.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/fr.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/gl.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/gu.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/he.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/hi.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/hr.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/hu.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/id.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/is.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/it.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/ja.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/ka.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/km.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/ko.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/ku.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/lt.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/lv.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/mk.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/mn.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/ms.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/nb.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/nl.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/no.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/pl.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/pt-br.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/pt.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/ro.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/ru.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/si.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/sk.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/sl.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/sq.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/sr-latn.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/sr.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/sv.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/th.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/tr.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/tt.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/ug.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/uk.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/vi.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/zh-cn.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/lang/zh.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/af.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/da.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/de.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/el.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/en.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/es.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/et.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/he.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/id.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/it.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/km.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/no.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/si.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/th.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/about/dialogs/about.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png -text
+MySchool/web/xava/editors/ckeditor/plugins/about/dialogs/logo_ckeditor.png -text
+MySchool/web/xava/editors/ckeditor/plugins/clipboard/dialogs/paste.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/colordialog/dialogs/colordialog.css -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/colordialog/dialogs/colordialog.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/dialog/dialogDefinition.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/div/dialogs/div.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/find/dialogs/find.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/flash/dialogs/flash.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/flash/images/placeholder.png -text
+MySchool/web/xava/editors/ckeditor/plugins/forms/dialogs/button.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/forms/dialogs/checkbox.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/forms/dialogs/form.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/forms/dialogs/hiddenfield.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/forms/dialogs/radio.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/forms/dialogs/select.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/forms/dialogs/textarea.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/forms/dialogs/textfield.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/forms/images/hiddenfield.gif -text
+MySchool/web/xava/editors/ckeditor/plugins/icons.png -text
+MySchool/web/xava/editors/ckeditor/plugins/icons_hidpi.png -text
+MySchool/web/xava/editors/ckeditor/plugins/iframe/dialogs/iframe.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/iframe/images/placeholder.png -text
+MySchool/web/xava/editors/ckeditor/plugins/image/dialogs/image.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/image/images/noimage.png -text
+MySchool/web/xava/editors/ckeditor/plugins/link/dialogs/anchor.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/link/dialogs/link.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/link/images/anchor.png -text
+MySchool/web/xava/editors/ckeditor/plugins/link/images/hidpi/anchor.png -text
+MySchool/web/xava/editors/ckeditor/plugins/liststyle/dialogs/liststyle.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png -text
+MySchool/web/xava/editors/ckeditor/plugins/magicline/images/hidpi/icon.png -text
+MySchool/web/xava/editors/ckeditor/plugins/magicline/images/icon-rtl.png -text
+MySchool/web/xava/editors/ckeditor/plugins/magicline/images/icon.png -text
+MySchool/web/xava/editors/ckeditor/plugins/pagebreak/images/pagebreak.gif -text
+MySchool/web/xava/editors/ckeditor/plugins/pastefromword/filter/default.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/preview/preview.html -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/scayt/CHANGELOG.md -text
+MySchool/web/xava/editors/ckeditor/plugins/scayt/LICENSE.md -text
+MySchool/web/xava/editors/ckeditor/plugins/scayt/README.md -text
+MySchool/web/xava/editors/ckeditor/plugins/scayt/dialogs/options.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/scayt/dialogs/toolbar.css -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/showblocks/images/block_address.png -text
+MySchool/web/xava/editors/ckeditor/plugins/showblocks/images/block_blockquote.png -text
+MySchool/web/xava/editors/ckeditor/plugins/showblocks/images/block_div.png -text
+MySchool/web/xava/editors/ckeditor/plugins/showblocks/images/block_h1.png -text
+MySchool/web/xava/editors/ckeditor/plugins/showblocks/images/block_h2.png -text
+MySchool/web/xava/editors/ckeditor/plugins/showblocks/images/block_h3.png -text
+MySchool/web/xava/editors/ckeditor/plugins/showblocks/images/block_h4.png -text
+MySchool/web/xava/editors/ckeditor/plugins/showblocks/images/block_h5.png -text
+MySchool/web/xava/editors/ckeditor/plugins/showblocks/images/block_h6.png -text
+MySchool/web/xava/editors/ckeditor/plugins/showblocks/images/block_p.png -text
+MySchool/web/xava/editors/ckeditor/plugins/showblocks/images/block_pre.png -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/dialogs/smiley.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/angel_smile.gif -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/angel_smile.png -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/angry_smile.gif -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/angry_smile.png -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/broken_heart.gif -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/broken_heart.png -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/confused_smile.gif -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/confused_smile.png -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/cry_smile.gif -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/cry_smile.png -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/devil_smile.gif -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/devil_smile.png -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/embaressed_smile.gif -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/embarrassed_smile.gif -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/embarrassed_smile.png -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/envelope.gif -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/envelope.png -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/heart.gif -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/heart.png -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/kiss.gif -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/kiss.png -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/lightbulb.gif -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/lightbulb.png -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/omg_smile.gif -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/omg_smile.png -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/regular_smile.gif -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/regular_smile.png -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/sad_smile.gif -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/sad_smile.png -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/shades_smile.gif -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/shades_smile.png -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/teeth_smile.gif -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/teeth_smile.png -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/thumbs_down.gif -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/thumbs_down.png -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/thumbs_up.gif -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/thumbs_up.png -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/tongue_smile.gif -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/tongue_smile.png -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/tounge_smile.gif -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.gif -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.png -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/wink_smile.gif -text
+MySchool/web/xava/editors/ckeditor/plugins/smiley/images/wink_smile.png -text
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/af.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/ar.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/bg.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/ca.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/cs.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/cy.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/da.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/de.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/el.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/en.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/eo.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/es.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/et.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/eu.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/fa.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/fi.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/fr.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/gl.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/he.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/hr.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/hu.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/id.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/it.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/ja.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/km.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/ko.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/ku.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/lt.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/lv.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/nb.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/nl.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/no.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/pl.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/pt.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/ru.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/si.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/sk.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/sl.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/sq.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/sv.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/th.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/tr.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/tt.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/ug.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/uk.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/vi.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/lang/zh.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/specialchar/dialogs/specialchar.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/table/dialogs/table.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/tabletools/dialogs/tableCell.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/templates/dialogs/templates.css -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/templates/dialogs/templates.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/templates/templates/default.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/templates/templates/images/template1.gif -text
+MySchool/web/xava/editors/ckeditor/plugins/templates/templates/images/template2.gif -text
+MySchool/web/xava/editors/ckeditor/plugins/templates/templates/images/template3.gif -text
+MySchool/web/xava/editors/ckeditor/plugins/wsc/LICENSE.md -text
+MySchool/web/xava/editors/ckeditor/plugins/wsc/README.md -text
+MySchool/web/xava/editors/ckeditor/plugins/wsc/dialogs/ciframe.html -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/wsc/dialogs/tmpFrameset.html -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/wsc/dialogs/wsc.css -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/wsc/dialogs/wsc.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/plugins/wsc/dialogs/wsc_ie.js -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/skins/moono/dialog.css -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/skins/moono/dialog_ie.css -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/skins/moono/dialog_ie7.css -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/skins/moono/dialog_ie8.css -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/skins/moono/dialog_iequirks.css -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/skins/moono/editor.css -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/skins/moono/editor_gecko.css -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/skins/moono/editor_ie.css -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/skins/moono/editor_ie7.css -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/skins/moono/editor_ie8.css -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/skins/moono/editor_iequirks.css -text svneol=unset#text/plain
+MySchool/web/xava/editors/ckeditor/skins/moono/icons.png -text
+MySchool/web/xava/editors/ckeditor/skins/moono/icons_hidpi.png -text
+MySchool/web/xava/editors/ckeditor/skins/moono/images/arrow.png -text
+MySchool/web/xava/editors/ckeditor/skins/moono/images/close.png -text
+MySchool/web/xava/editors/ckeditor/skins/moono/images/hidpi/close.png -text
+MySchool/web/xava/editors/ckeditor/skins/moono/images/hidpi/lock-open.png -text
+MySchool/web/xava/editors/ckeditor/skins/moono/images/hidpi/lock.png -text
+MySchool/web/xava/editors/ckeditor/skins/moono/images/hidpi/refresh.png -text
+MySchool/web/xava/editors/ckeditor/skins/moono/images/lock-open.png -text
+MySchool/web/xava/editors/ckeditor/skins/moono/images/lock.png -text
+MySchool/web/xava/editors/ckeditor/skins/moono/images/refresh.png -text
+MySchool/web/xava/editors/ckeditor/skins/moono/images/spinner.gif -text
+MySchool/web/xava/editors/ckeditor/skins/moono/readme.md -text
+MySchool/web/xava/editors/ckeditor/styles.js -text svneol=unset#text/plain
 MySchool/web/xava/editors/collectionEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/collectionTotal.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/collectionTotals.jsp -text svneol=unset#text/plain
