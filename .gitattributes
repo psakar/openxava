@@ -5736,6 +5736,7 @@ OpenXava/src/org/openxava/model/Identifiable.java -text
 OpenXava/src/org/openxava/model/MapFacade.java -text
 OpenXava/src/org/openxava/model/PersistenceFacade.java -text
 OpenXava/src/org/openxava/model/impl/HibernatePersistenceProvider.java -text
+OpenXava/src/org/openxava/model/impl/IExplicitModifyPersistenceProvider.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/model/impl/IMapFacadeImpl.java -text
 OpenXava/src/org/openxava/model/impl/IPersistenceProvider.java -text
 OpenXava/src/org/openxava/model/impl/JPAPersistenceProvider.java -text
@@ -5833,6 +5834,7 @@ OpenXava/src/org/openxava/util/Factory.java -text
 OpenXava/src/org/openxava/util/FieldComparator.java -text
 OpenXava/src/org/openxava/util/Files.java -text
 OpenXava/src/org/openxava/util/IConnectionProvider.java -text
+OpenXava/src/org/openxava/util/IConnectionRefiner.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/util/IInit.java -text
 OpenXava/src/org/openxava/util/ILiberate.java -text
 OpenXava/src/org/openxava/util/IPropertiesContainer.java -text
@@ -6738,8 +6740,10 @@ OpenXava/web/messages.jsp -text svneol=unset#text/plain
 OpenXava/web/module.jsp -text svneol=unset#text/plain
 OpenXava/web/portlet.jsp -text
 OpenXava/web/propertyActions.jsp -text
+OpenXava/web/propertyActionsExt.jsp -text svneol=unset#text/plain
 OpenXava/web/reference.jsp -text svneol=unset#text/plain
 OpenXava/web/referenceActions.jsp -text svneol=unset#text/plain
+OpenXava/web/referenceActionsExt.jsp -text svneol=unset#text/plain
 OpenXava/web/referenceEditorIcons.jsp -text svneol=unset#text/plain
 OpenXava/web/referenceSearch.jsp -text svneol=unset#text/plain
 OpenXava/web/sections.jsp -text svneol=unset#text/plain
@@ -12103,8 +12107,10 @@ OpenXavaTest/web/xava/messages.jsp -text
 OpenXavaTest/web/xava/module.jsp -text
 OpenXavaTest/web/xava/portlet.jsp -text
 OpenXavaTest/web/xava/propertyActions.jsp -text
+OpenXavaTest/web/xava/propertyActionsExt.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/reference.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/referenceActions.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/referenceActionsExt.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/referenceEditorIcons.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/referenceSearch.jsp -text
 OpenXavaTest/web/xava/sections.jsp -text

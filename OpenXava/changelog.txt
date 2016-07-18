@@ -1,6 +1,9 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Changes in custom.css lost when upgrading OpenXava version. 
+- IExplicitModifyPersistenceProvider to define persistence providers that needs an explicit command to modify data.
+- New property connectionRefinerClass in xava.properties for defining an IConnectionRefiner to refine JDBC connections.
 - CKEditor look & feel adapted to NaviOX and Liferay 6.1 look & feels.
 - CKEditor upgraded to 4.5.9.
 - Each component type has its own IPersistenceProvider, there is no longer a unique IPersistenceProvider for the whole application.

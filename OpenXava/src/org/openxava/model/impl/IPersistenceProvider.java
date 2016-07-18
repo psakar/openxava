@@ -153,4 +153,15 @@ public interface IPersistenceProvider extends java.io.Serializable {
 	 */
 	ITabProvider createTabProvider();
 	
+	/**
+	 * Model name from the model object.
+	 * 
+	 * It can be null. This value is useful when inheritance is used and the official
+	 * model name does not match the real model name, so if inheritance does not apply
+	 * it can be null.
+	 * 
+	 * @since 5.6
+	 */
+	String getModelName(Object modelObject); 
+	
 }

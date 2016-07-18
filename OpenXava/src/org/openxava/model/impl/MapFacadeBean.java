@@ -7,7 +7,6 @@ import java.util.*;
 import javax.ejb.*;
 
 import org.apache.commons.logging.*;
-import org.hibernate.Hibernate;
 import org.openxava.calculators.*;
 import org.openxava.component.*;
 import org.openxava.model.*;
@@ -877,29 +876,15 @@ public class MapFacadeBean implements IMapFacadeImpl, SessionBean {
 	public void ejbRemove() throws java.rmi.RemoteException {
 	}
 
-	private Object getReferencedObject(Object container, String memberName) throws XavaException, RemoteException {
-		try {			
-			if (container == null) return null;
-			PropertiesManager man =
-				new PropertiesManager(container);
-			Object result = man.executeGet(memberName);
-			return result;
-		} catch (PropertiesManagerException ex) {
-			log.error(ex.getMessage(), ex);
-			rollback(MetaModel.getForPOJO(container)); 
-			throw new RemoteException(XavaResources.getString("get_property_error", memberName));
-		} catch (InvocationTargetException ex) {
-			Throwable th = ex.getTargetException();
-			log.error(th.getMessage(), th);
-			rollback(MetaModel.getForPOJO(container)); 
-			throw new RemoteException(XavaResources.getString("get_property_error", memberName));
-		}
+	private Object getReferencedObject(MetaModel metaModel, Object container, String memberName) throws XavaException, RemoteException {
+		if (container == null) return null;
+		IPropertiesContainer r = getPersistenceProvider(metaModel).toPropertiesContainer(null, container);	
+		return r.executeGets(memberName).get(memberName);
 	}
 
 	public javax.ejb.SessionContext getSessionContext() {
 		return sessionContext;
 	}
-
 	
 	private Map getValues( 	
 		MetaModel metaModel,
@@ -947,7 +932,8 @@ public class MapFacadeBean implements IMapFacadeImpl, SessionBean {
 			if (modelObject == null)
 				return null;						
 			if (membersNames == null) return Collections.EMPTY_MAP;			 
-			IPropertiesContainer r = getPersistenceProvider(metaModel).toPropertiesContainer(metaModel, modelObject); 
+			IPersistenceProvider persistenceProvider = getPersistenceProvider(metaModel);  
+			IPropertiesContainer r = persistenceProvider.toPropertiesContainer(metaModel, modelObject);
 			StringBuffer names = new StringBuffer();
 			addKey(metaModel, membersNames); // always return the key althought it is not demanded						
 			addVersion(metaModel, membersNames); // always return the version property 			
@@ -979,7 +965,7 @@ public class MapFacadeBean implements IMapFacadeImpl, SessionBean {
 				}
 			}			
 			result.putAll(r.executeGets(names.toString()));
-			if (includeModelName) result.put(MapFacade.MODEL_NAME, Hibernate.getClass(modelObject).getSimpleName()); 
+			if (includeModelName) result.put(MapFacade.MODEL_NAME, persistenceProvider.getModelName(modelObject)); 
 			return result;
 		} catch (RemoteException ex) {			
 			log.error(ex.getMessage(), ex);
@@ -1074,10 +1060,10 @@ public class MapFacadeBean implements IMapFacadeImpl, SessionBean {
 	 * If <tt>memberNames</tt> is null then return a empty map.
 	 * @throws RemoteException 
 	 */
-	private Map getAssociatedEntityValues(MetaEntity metaEntity, Object modelObject, Map memberNames) throws XavaException, RemoteException {
+	private Map getAssociatedEntityValues(MetaEntity metaEntity, Object modelObject, Map memberNames) throws XavaException, FinderException, RemoteException {
 		if (memberNames == null) return Collections.EMPTY_MAP;
-		Map result = getValues(metaEntity, modelObject, memberNames);
-		return result;
+		if (modelObject instanceof Map) return getValues(metaEntity, (Map) modelObject, memberNames); // modelObject can be a Map with the key with non-POJO IPersistenceProvider 
+		return getValues(metaEntity, modelObject, memberNames);
 	}
 
 	private Map getReferenceValues(	
@@ -1087,14 +1073,18 @@ public class MapFacadeBean implements IMapFacadeImpl, SessionBean {
 		Map submembersNames) throws XavaException, RemoteException {		
 		try {								
 			MetaReference r = metaModel.getMetaReference(memberName);
-			Object object = getReferencedObject(model, memberName);
+			Object object = getReferencedObject(metaModel, model, memberName); 
 			if (r.isAggregate()) {
 				return getAggregateValues((MetaAggregate) r.getMetaModelReferenced(), object, submembersNames);
 			} 
 			else {		
-				MetaEntity metaEntityReferenced = (MetaEntity) (object==null?r.getMetaModelReferenced():MetaModel.get(Hibernate.getClass(object).getSimpleName()));
+				String referencedModel = getPersistenceProvider(metaModel).getModelName(object);
+				MetaEntity metaEntityReferenced = (MetaEntity) (referencedModel==null?r.getMetaModelReferenced():MetaModel.get(referencedModel)); 
 				return getAssociatedEntityValues(metaEntityReferenced, object, submembersNames);
 			}
+		} catch (FinderException ex) {
+			log.error(ex.getMessage(), ex);
+			throw new XavaException("get_reference_error", memberName, metaModel.getName());
 		} catch (XavaException ex) {
 			log.error(ex.getMessage(), ex);
 			throw new XavaException("get_reference_error", memberName, metaModel.getName());
@@ -1108,7 +1098,7 @@ public class MapFacadeBean implements IMapFacadeImpl, SessionBean {
 		Map memberNames) throws XavaException, RemoteException {
 		try {
 			MetaCollection c = metaModel.getMetaCollection(memberName);
-			Object object = getReferencedObject(modelObject, memberName);
+			Object object = getReferencedObject(metaModel, modelObject, memberName); 
 			return getCollectionValues( 
 					c.getMetaReference().getMetaModelReferenced(),
 					c.isAggregate(),	object, memberNames);
@@ -1371,10 +1361,15 @@ public class MapFacadeBean implements IMapFacadeImpl, SessionBean {
 			validate(metaModel, values, keyValues, null, false);
 			removeViewProperties(metaModel, values);
 			verifyVersion(metaModel, entity, values);			 			
-			IPropertiesContainer r = getPersistenceProvider(metaModel).toPropertiesContainer(metaModel, entity); 
-			Map objects = convertSubmapsInObject(metaModel, values);
-			r.executeSets(objects);
-
+			IPersistenceProvider provider = (IPersistenceProvider) getPersistenceProvider(metaModel);
+			if (provider instanceof IExplicitModifyPersistenceProvider) {
+				((IExplicitModifyPersistenceProvider) provider).modify(metaModel, keyValues, values);
+			}
+			else {
+				IPropertiesContainer r = provider.toPropertiesContainer(metaModel, entity); 
+				Map objects = convertSubmapsInObject(metaModel, values);
+				r.executeSets(objects);				
+			}
 			// Collections are not managed			
 		} 
 		catch (FinderException ex) { 

@@ -147,6 +147,10 @@ public class MetaModule extends MetaElement implements java.io.Serializable {
 	}
 	public void setFolder(String folder) {
 		this.folder = folder;
-	}	
+	}
+	
+	public String toString() { 
+		return "MetaModule: " + getMetaApplication().getName() + "/" + getName();
+	}
 
 }

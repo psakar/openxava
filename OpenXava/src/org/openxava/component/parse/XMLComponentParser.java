@@ -68,7 +68,7 @@ public class XMLComponentParser extends ParserBase implements IComponentParser {
 			AggregateMapping aggregateMapping = new AggregateMapping();
 			aggregateMapping.setModelName(aggregateName);
 			aggregateMapping.setMetaComponent(component); 
-			fillDefaultMapping(aggregateMapping, component.getMetaAggregate(aggregateName));
+			aggregateMapping.fillWithDefaultValues(); 
 			component.addAggregateMapping(aggregateMapping);
 		}		
 	}	
@@ -122,37 +122,11 @@ public class XMLComponentParser extends ParserBase implements IComponentParser {
 		else { // It's 0. Has no explicit mapping
 			EntityMapping defaultMapping = new EntityMapping();
 			defaultMapping.setMetaComponent(component); 
-			fillDefaultMapping(defaultMapping, component.getMetaEntity());
+			defaultMapping.fillWithDefaultValues(); 
 			component.setEntityMapping(defaultMapping);
 		}
 	}
 	
-	private void fillDefaultMapping(ModelMapping mapping, MetaModel metaModel) throws XavaException { 
-		mapping.setTable(metaModel.getName());
-		for (Iterator itProperties = metaModel.getMetaProperties().iterator(); itProperties.hasNext(); ) {
-			MetaProperty p = (MetaProperty) itProperties.next();
-			if (!p.isCalculated()) {
-				PropertyMapping propertyMapping = new PropertyMapping(mapping);
-				propertyMapping.setProperty(p.getName());
-				propertyMapping.setColumn(p.getName());
-				mapping.addPropertyMapping(propertyMapping);
-			}
-		}
-		for (Iterator itReferences = metaModel.getMetaReferencesToEntity().iterator(); itReferences.hasNext();) {
-			MetaReference ref = (MetaReference) itReferences.next();
-			ReferenceMapping refMapping = new ReferenceMapping();
-			refMapping.setReference(ref.getName());
-			for (Iterator itReferencedKeys = ref.getMetaModelReferenced().getAllKeyPropertiesNames().iterator(); itReferencedKeys.hasNext();) {
-				String referencedKey = (String) itReferencedKeys.next();
-				ReferenceMappingDetail detail = new ReferenceMappingDetail();
-				detail.setColumn(ref.getName() + "_" + Strings.change(referencedKey, ".", "_"));
-				detail.setReferencedModelProperty(referencedKey);
-				refMapping.addDetail(detail);
-			}
-			mapping.addReferenceMapping(refMapping);
-		}
-	}
-
 	protected void createObjects() throws XavaException {		
 		if (this.component != null) {
 			if (XavaPreferences.getInstance().isDuplicateComponentWarnings()) {

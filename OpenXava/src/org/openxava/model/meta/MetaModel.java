@@ -12,7 +12,6 @@ import org.apache.commons.logging.*;
 import org.openxava.component.*;
 import org.openxava.mapping.*;
 import org.openxava.model.*;
-import org.openxava.model.impl.*;
 import org.openxava.util.*;
 import org.openxava.util.meta.*;
 import org.openxava.validators.meta.*;
@@ -1813,7 +1812,7 @@ abstract public class MetaModel extends MetaElement {
 				pojoClass =  Class.forName(getPOJOClassName());
 			} 
 			catch (Exception ex) {
-				log.error(ex.getMessage(), ex);
+				log.error(ex.getMessage(), ex); 
 				throw new XavaException("create_class_error", getPOJOClassName());
 			}
 		}

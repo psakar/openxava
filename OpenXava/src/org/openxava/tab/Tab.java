@@ -1276,6 +1276,14 @@ public class Tab implements java.io.Serializable {
 		metaTabCloned = false; 
 	}
 	
+	/**
+	 * @since 5.6
+	 */
+	public void reloadMetaModel() { 
+		reinitState();
+	}
+
+	
 	public String getTabName() {		
 		return tabName; 		
 	}

@@ -7,6 +7,7 @@ import java.util.*;
 import javax.ejb.*;
 
 import org.apache.commons.logging.*;
+import org.hibernate.Hibernate;
 import org.openxava.mapping.*;
 import org.openxava.model.meta.*;
 import org.openxava.util.*;
@@ -345,6 +346,12 @@ abstract public class POJOPersistenceProviderBase implements IPersistenceProvide
 		}
 	}
 	
-	
+	/**
+	 * @since 5.6
+	 */
+	public String getModelName(Object modelObject) { 
+		if (modelObject == null) return null;
+		return Hibernate.getClass(modelObject).getSimpleName();
+	}
 
 }

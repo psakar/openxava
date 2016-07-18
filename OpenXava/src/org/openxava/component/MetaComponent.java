@@ -104,6 +104,14 @@ public class MetaComponent implements Serializable {
 		}
 		return parsersClasses;
 	}
+	
+	/**
+	 * @since 5.6
+	 */
+	public static void reload(String name) {  
+		components.remove(name);
+	}
+
 		
 	public static boolean exists(String name) throws XavaException {
 		try {

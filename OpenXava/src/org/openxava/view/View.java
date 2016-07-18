@@ -2430,7 +2430,7 @@ public class View implements java.io.Serializable {
 		return modelName;
 	}
 	
-	public void setModelName(String newModel) { 				
+	public void setModelName(String newModel) { 	
 		if (Is.equal(modelName, newModel)) return;		
 		modelName = newModel;
 		getRoot().reloadNeeded = true; // If the model of the view of a reference changes, the main view must be reloaded.
@@ -5757,6 +5757,14 @@ public class View implements java.io.Serializable {
 		PropertiesManager pm = new PropertiesManager(getParent().getEntity()); 
 		List elements = (List) pm.executeGet(getMemberName());
 		XCollections.move(elements, from, to);
+	}
+	
+	/**
+	 * @since 5.6
+	 */
+	public void reloadMetaModel() { 
+		getRoot().reloadNeeded = true; 
+		resetMembers();
 	}
 			
 }

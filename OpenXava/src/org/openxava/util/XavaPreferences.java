@@ -127,6 +127,17 @@ public class XavaPreferences {
 				"org.openxava.util.DefaultReportParametersProvider").trim();
 	}
 	
+	/**
+	 * Class to create an org.openxava.util.IConnectionRefiner to refine 
+	 * the JDBC connections just after get them from the data source and
+	 * before use them.
+	 * 
+	 * @since 5.6
+	 */
+	public String getConnectionRefinerClass() { 
+		return getProperties().getProperty("connectionRefinerClass","").trim();
+	}
+	
 	private String getPersistenceProviderClass() { 
 		return getProperties().getProperty("persistenceProviderClass",
 				"org.openxava.model.impl.JPAPersistenceProvider").trim();

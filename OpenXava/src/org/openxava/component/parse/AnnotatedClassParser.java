@@ -144,7 +144,6 @@ import org.openxava.annotations.Views;
 import org.openxava.annotations.XOrderBy;
 import org.openxava.calculators.NullCalculator;
 import org.openxava.component.*;
-import org.openxava.component.parse.*;
 import org.openxava.converters.typeadapters.HibernateCompositeTypeConverter;
 import org.openxava.converters.typeadapters.HibernateTypeConverter;
 import org.openxava.converters.typeadapters.OrdinalEnumIntConverter;
@@ -207,6 +206,8 @@ public class AnnotatedClassParser implements IComponentParser {
 	
 	public MetaComponent parse(String name) throws Exception {
 		if (isParsingComponent(name)) return getParsingComponent(name);
+		String className = getClassNameIfExists(name);
+		if (className == null) return null;
 		if (name.contains("_")) { 
 			log.warn(XavaResources.getString("underscore_not_allowed_for_class_name", name));
 		}
@@ -215,7 +216,6 @@ public class AnnotatedClassParser implements IComponentParser {
 		putParsingComponent(component);
 		try {			
 			MetaEntity entity = new MetaEntity();
-			String className = getClassNameFor(name);
 			entity.setPOJOClassName(className);		
 			entity.setName(name);
 			entity.setAnnotatedEJB3(true);
@@ -2580,7 +2580,13 @@ public class AnnotatedClassParser implements IComponentParser {
 		return result;
 	}
 	
-	private String getClassNameFor(String name) throws XavaException {
+	private String getClassNameFor(String name) throws XavaException { 
+		String className = getClassNameIfExists(name);
+		if (className == null) throw new XavaException("not_ejb3_entity_nor_transient_model", name);
+		return className;
+	}
+	
+	private String getClassNameIfExists(String name) throws XavaException { 
 		try {
 			// This first in order that it work fine with XML components without persistence.xml
 			String className = "org.openxava.session." + name;
@@ -2605,7 +2611,7 @@ public class AnnotatedClassParser implements IComponentParser {
 			catch (ClassNotFoundException ex) {				
 			}
 		}
-		throw new XavaException("not_ejb3_entity_nor_transient_model", name);
+		return null; 
 	}
 		
 	private static Collection<String> getManagedClassPackages() {
