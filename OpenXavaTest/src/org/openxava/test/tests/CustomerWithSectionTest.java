@@ -681,7 +681,7 @@ public class CustomerWithSectionTest extends CustomerTest {
 	}
 	
 	public void testCustomizeList_addAndResetModule() throws Exception {   
-		assertListColumnCount(7);
+		assertListColumnCount(7); 
 		String value = getValueInList(0, 0);
 		execute("List.addColumns");		
 		checkRow("selectedProperties", "number"); 		
@@ -715,7 +715,7 @@ public class CustomerWithSectionTest extends CustomerTest {
 				found_red = true;
 			}
 			else { 
-				assertNoRowStyleInList(i); 		
+				assertNoRowStyleInList(i);		
 			}						
 		}
 		if (!found) {

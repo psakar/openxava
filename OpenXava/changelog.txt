@@ -1,6 +1,11 @@
 Change Log for OpenXava project
 ===============================
 
+- New methods assertDiscussionCommentText(), assertDiscussionCommentsCount() and postDiscussionComment() in ModuleTestBase.
+- Fix: On hover style for default action button does not work.
+- Fix: Schema tool does not add schema for CREATE INDEX sentences.
+- New DISCUSSION stereotype to include a discussion thread as a property of an entity.
+- New SIMPLE_HTML_TEXT stereotype to edit rich text with a simplified user interface.
 - Fix: Changes in custom.css lost when upgrading OpenXava version. 
 - IExplicitModifyPersistenceProvider to define persistence providers that needs an explicit command to modify data.
 - New property connectionRefinerClass in xava.properties for defining an IConnectionRefiner to refine JDBC connections.

@@ -78,6 +78,7 @@ abstract public class MetaModel extends MetaElement {
 	private String pojoClassName;
 	private Collection metaReferencesToEntity;
 	private boolean annotatedEJB3;
+	private boolean xmlComponent;  
 	private String versionPropertyName; 
 	private boolean versionPropertyNameObtained = false;
 	private Collection metaReferencesKey;
@@ -1827,7 +1828,7 @@ abstract public class MetaModel extends MetaElement {
 	public void setPOJOKeyClass(Class pojoKeyClass) {
 		this.pojoKeyClass = pojoKeyClass;
 	}
-		
+			
 	public boolean isAnnotatedEJB3() {
 		return annotatedEJB3;
 	}
@@ -1885,6 +1886,16 @@ abstract public class MetaModel extends MetaElement {
 
 	public void setContainerReference(String containerReference) {
 		this.containerReference = containerReference;
+	}
+
+	/** @since 5.6 */
+	public boolean isXmlComponent() {
+		return xmlComponent;
+	}
+
+	/** @since 5.6 */
+	public void setXmlComponent(boolean xmlComponent) {
+		this.xmlComponent = xmlComponent;
 	}
 	
 }

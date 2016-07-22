@@ -41,7 +41,7 @@ public class ServiceTest extends ModuleTestBase {
 		setValue("subfamily", "1");
 		setValue("type.number", "2");
 		execute("Collection.save");		
-		assertNoErrors();
+		assertNoErrors(); 
 		
 		assertCollectionRowCount("additionalDetails", 2); 
 		execute("Collection.edit", "row=0,viewObject=xava_view_section0_additionalDetails");
@@ -103,7 +103,7 @@ public class ServiceTest extends ModuleTestBase {
 			{ "2" , "HARDWARE" },
 			{ "3" , "SERVICIOS" }
 		};
-		assertValidValues("family", familyValues);
+		assertValidValues("family", familyValues); 
 		
 		execute("Collection.new", "viewObject=xava_view_section0_additionalDetails");
 		

@@ -201,7 +201,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		execute("Gallery.close");		
 		assertDialogTitle("Modify - Product");
 		execute("Modification.update");
-		assertDialogTitle("Edit - Invoice detail");
+		assertDialogTitle("Edit - Invoice detail"); 
 		assertNoErrors();
 		execute("Collection.save");
 		assertNoDialog();
@@ -1519,7 +1519,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		execute("CRUD.new");
 		execute("Sections.change", "activeSection=1");
 		assertNoErrors();
-		assertCollectionRowCount("details", 0);
+		assertCollectionRowCount("details", 0); 
 		
 		// Verifying that line is deleted
 		setValue("year", year);

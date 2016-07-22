@@ -23,7 +23,7 @@ public class Invoice2Test extends ModuleTestBase {
 		assertExists("productList");
 		assertValidValuesCount("productList", 1); 
 		setValue("familyList", "1");
-		assertValidValuesCount("productList", 7);
+		assertValidValuesCount("productList", 7); 
 	}
 	
 	public void testTouchContainerFromCallback() throws Exception { 
@@ -98,7 +98,7 @@ public class Invoice2Test extends ModuleTestBase {
 		setValue("product.number", "1");
 		assertValue("product.description", "MULTAS DE TRAFICO");
 		execute("Collection.save");
-		assertNoErrors();
+		assertNoErrors(); 
 		assertCollectionRowCount("details", 1);
 		
 		execute("CRUD.delete");

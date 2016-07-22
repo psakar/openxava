@@ -10,7 +10,6 @@ import javax.sql.*;
 import javax.xml.parsers.*;
 
 import org.apache.commons.logging.*;
-import org.hibernate.*;
 import org.hibernate.internal.*;
 import org.openxava.component.*;
 import org.openxava.hibernate.*;
@@ -43,7 +42,7 @@ public class DataSourceConnectionProvider implements IConnectionProvider, Serial
 	public static IConnectionProvider createByComponent(String componentName) throws XavaException {
 		MetaComponent component =MetaComponent.get(componentName); 				
 		String jndi = null;		
-		if (component.getMetaEntity().isPojoGenerated()) { 
+		if (component.getMetaEntity().isXmlComponent()) { 
 			String packageName = component.getPackageNameWithSlashWithoutModel();
 			jndi = getDatasourcesJNDIByPackage().getProperty(packageName);			
 			if (Is.emptyString(jndi)) {

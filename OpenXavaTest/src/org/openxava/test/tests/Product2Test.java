@@ -74,7 +74,7 @@ public class Product2Test extends ModuleTestBase {
 		assertValueInList(0, "unitPrice", "11.00");
 		assertValueInList(0, "unitPriceWithTax", "12.76");
 		
-		assertListRowCount(7); // We rely in that there are 7 products, 
+		assertListRowCount(7); // We rely in that there are 7 products,  
 								// you can adapt this number if needed 
 		setConditionValues(new String [] {"", "", "", "", "", "12.76"});
 		execute("List.filter");
@@ -169,7 +169,7 @@ public class Product2Test extends ModuleTestBase {
 		assertValue("number", "2");
 		execute("Gallery.edit", "galleryProperty=photos");
 		assertNoErrors();
-		assertMessage("No images");
+		assertMessage("No images"); 
 		assertNoAction("Gallery.maximizeImage");
 		assertNoAction("Gallery.minimizeImage");
 		assertNoAction("Gallery.removeImage");
@@ -316,7 +316,7 @@ public class Product2Test extends ModuleTestBase {
 		setValue("warehouse.KEY", toKeyString(warehouseKeyZone2));
 		assertNotExists("zoneOne");
 		
-		createProduct(66, "JUNIT ZONE 1", 1);
+		createProduct(66, "JUNIT ZONE 1", 1); 
 		createProduct(67, "JUNIT ZONE 2", 2);
 		
 		setValue("number", "66");
@@ -419,7 +419,7 @@ public class Product2Test extends ModuleTestBase {
 		assertNoErrors();
 		assertNoEditable("unitPriceInPesetas");
 		execute("CRUD.save");				
-		assertNoErrors();
+		assertNoErrors(); 
 				
 		// Search for verify
 		setValue("number", "66");
@@ -578,7 +578,7 @@ public class Product2Test extends ModuleTestBase {
 		setValue("description", "JUNIT PRODUCT");
 		setValue("unitPrice", "66");
 		execute("CRUD.save");
-		assertNoErrors();
+		assertNoErrors(); 
 		execute("Mode.list");
 		execute("List.orderBy", "property=number");
 		execute("List.orderBy", "property=number");

@@ -71,9 +71,7 @@ if (labelFormat == MetaPropertyView.SMALL_LABEL) {
 <% } %>
 </span>
 
-<%-- tmp ini --%>
 <%@ include file="propertyActionsExt.jsp"%>
-<%-- tmp fin --%>
 
 <% if (!hasFrame) { %>
 <%=postEditor%>

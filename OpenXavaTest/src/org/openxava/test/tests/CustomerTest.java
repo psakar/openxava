@@ -489,7 +489,7 @@ public class CustomerTest extends CustomizeListTestBase {
 		assertValue("relationWithSeller", "HOLA"); // That implies that 'new' not was executed		
 	}
 		
-	public void testPropertiesOfEntityReferenceAndAggregateInList() throws Exception { 
+	public void testPropertiesOfEntityReferenceAndAggregateInList() throws Exception {  
 		setConditionValues(new String [] { "JAVI", "" });
 		execute("List.filter");
 		assertListRowCount(1);

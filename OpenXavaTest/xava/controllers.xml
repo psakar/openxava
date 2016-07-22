@@ -25,8 +25,11 @@
 			<set property="reinit" value="true"/>
 		</action>	
 	</controller>
-	
-		
+
+	<controller name="Incident">	
+		<extends controller="Typical"/>
+		<action name="disableDiscussion" class="org.openxava.test.actions.DisableDiscussionAction"/> 
+	</controller>
 	
 	<controller name="GalleryNoDialog">		
 		<action name="edit" image="photo.gif" hidden="true"

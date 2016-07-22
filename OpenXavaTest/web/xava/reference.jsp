@@ -198,9 +198,7 @@ else {
 
 <% if (!frame) { %>
 	<%@ include file="referenceActions.jsp"%>
-	<%-- tmp ini --%>
 	<%@ include file="referenceActionsExt.jsp"%>
-	<%-- tmp fin --%>
 <% } %>
 
 <% if (!composite && !notCompositeEditorClosed) { %> 

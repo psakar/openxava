@@ -5942,6 +5942,7 @@ OpenXava/src/org/openxava/web/Ids.java -text
 OpenXava/src/org/openxava/web/Lists.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/WebEditors.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/dwr/DWRBase.java -text
+OpenXava/src/org/openxava/web/dwr/Discussion.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/dwr/Module.java -text
 OpenXava/src/org/openxava/web/dwr/Result.java -text
 OpenXava/src/org/openxava/web/dwr/StrokeAction.java -text
@@ -5949,6 +5950,7 @@ OpenXava/src/org/openxava/web/dwr/Tab.java -text
 OpenXava/src/org/openxava/web/dwr/TableId.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/dwr/View.java -text
 OpenXava/src/org/openxava/web/editors/AttachedFile.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/web/editors/DiscussionComment.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/editors/FilePersistorFactory.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/editors/FileSystemPersistor.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/editors/IFilePersistor.java -text svneol=unset#text/plain
@@ -6046,7 +6048,7 @@ OpenXava/src/org/openxava/web/taglib/ImageTag.java -text
 OpenXava/src/org/openxava/web/taglib/LabelTag.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/taglib/LinkTag.java -text
 OpenXava/src/org/openxava/web/taglib/MessageTag.java -text
-OpenXava/web/WEB-INF/dwr.xml -text
+OpenXava/web/WEB-INF/dwr.xml -text svneol=unset#text/plain
 OpenXava/web/WEB-INF/fonts/DejaVuSans-Bold.ttf -text
 OpenXava/web/WEB-INF/fonts/DejaVuSans.ttf -text
 OpenXava/web/WEB-INF/fonts/LICENSE -text
@@ -6537,6 +6539,7 @@ OpenXava/web/editors/dateTimeCombinedCalendarEditor.jsp -text svneol=unset#text/
 OpenXava/web/editors/dateTimeSeparatedCalendarEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/descriptionValidValuesEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/descriptionsEditor.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/discussionEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/elementCollectionEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/gallery.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/galleryEditor.jsp -text svneol=unset#text/plain
@@ -6550,6 +6553,7 @@ OpenXava/web/editors/js/chartDataEditor.js -text svneol=unset#text/plain
 OpenXava/web/editors/js/ckeditor.js -text svneol=unset#text/plain
 OpenXava/web/editors/js/d3.js -text svneol=unset#text/plain
 OpenXava/web/editors/js/descriptionsEditor.js -text svneol=unset#text/plain
+OpenXava/web/editors/js/discussionEditor.js -text svneol=unset#text/plain
 OpenXava/web/editors/js/elementCollectionEditor.js -text svneol=unset#text/plain
 OpenXava/web/editors/js/htmlEditor.js -text svneol=unset#text/plain
 OpenXava/web/editors/js/jquery-ckeditor-adapter.js -text svneol=unset#text/plain
@@ -6572,6 +6576,7 @@ OpenXava/web/editors/radioButtonEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/referenceEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/selectColumns.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/style/c3.css -text svneol=unset#text/plain
+OpenXava/web/editors/style/discussionEditor.css -text svneol=unset#text/plain
 OpenXava/web/editors/textAreaEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/textEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/textWithSuffixEditor.jsp -text svneol=unset#text/plain
@@ -9723,6 +9728,10 @@ OpenXavaTest/i18n/portlets/Hunter_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Hunter_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Hunter_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Hunter_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Incident_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Incident_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Incident_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Incident_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/IngredientWithSections_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/IngredientWithSections_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/IngredientWithSections_es.properties -text svneol=unset#text/plain
@@ -10554,6 +10563,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/ChangeName.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ChooseFileAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/CorporationEmployeeListFilterAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/CreateUsingJPAAction.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/actions/DisableDiscussionAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/EditGalleryNoDialogAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/EditInvoiceDetailWithSectionsAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/FailTransactionInCollectionElementAction.groovy -text
@@ -10700,6 +10710,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Hobbyist.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Hound.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Human.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Hunter.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Incident.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Ingredient.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/InternetShop.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Invent.groovy -text
@@ -10901,6 +10912,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/GoToSellerJSPTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/HobbyistTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/HumanTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/HunterTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/IncidentTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/InventTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/Invoice4Test.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/InvoiceDetailTest.groovy -text
@@ -11888,6 +11900,7 @@ OpenXavaTest/web/xava/editors/dateTimeCombinedCalendarEditor.jsp -text svneol=un
 OpenXavaTest/web/xava/editors/dateTimeSeparatedCalendarEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/descriptionValidValuesEditor.jsp -text
 OpenXavaTest/web/xava/editors/descriptionsEditor.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/discussionEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/elementCollectionEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/gallery.jsp -text
 OpenXavaTest/web/xava/editors/galleryEditor.jsp -text svneol=unset#text/plain
@@ -11902,6 +11915,7 @@ OpenXavaTest/web/xava/editors/js/chartDataEditor.js -text svneol=unset#text/plai
 OpenXavaTest/web/xava/editors/js/ckeditor.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/js/d3.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/js/descriptionsEditor.js -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/js/discussionEditor.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/js/elementCollectionEditor.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/js/htmlEditor.js -text
 OpenXavaTest/web/xava/editors/js/jquery-ckeditor-adapter.js -text svneol=unset#text/plain
@@ -11926,6 +11940,7 @@ OpenXavaTest/web/xava/editors/regionsEditor.jsp -text
 OpenXavaTest/web/xava/editors/regionsWithCheckBoxesEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/selectColumns.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/style/c3.css -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/style/discussionEditor.css -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/textAreaEditor.jsp -text
 OpenXavaTest/web/xava/editors/textEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/textWithSuffixEditor.jsp -text svneol=unset#text/plain

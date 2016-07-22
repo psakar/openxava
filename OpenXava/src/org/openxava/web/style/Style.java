@@ -852,7 +852,7 @@ public class Style {
 	}
 	
 	public String getButton() {
-		return "portlet-form-button";
+		return ""; 
 	}
 		
 	/**

@@ -133,6 +133,8 @@ public class SchemaTool {
 		script = script.replaceAll("alter table ", "alter table " + schema + "."); 
 		script = script.replaceAll("\\) references ", ") references " + schema + ".");
 		script = script.replaceAll("create sequence ", "create sequence " + schema + ".");
+		script = script.replaceAll("create index ", "create index " + schema + ".");
+		script = script.replaceAll(" on ", " on " + schema + ".");
 		return script;
 	}
 

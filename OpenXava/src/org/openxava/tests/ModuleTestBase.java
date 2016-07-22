@@ -2708,4 +2708,52 @@ public class ModuleTestBase extends TestCase {
 		return page;
 	}
 
+	/**
+	 * Assert the content of a comment of DISCUSSION property as text. <p> 
+	 * 
+	 * @since 5.6
+	 */
+	protected void assertDiscussionCommentText(String name, int row, String extendedText) {  
+		int i=0;
+		for (DomElement comment: getDiscussionCommentsElement(name).getChildElements()) {
+			if (i == row) {
+				assertEquals(extendedText, comment.asText());
+				return;
+			}
+		}
+	}
+
+	/**
+	 * Assert the amount of comments in a DISCUSSION property. <p> 
+	 * 
+	 * @since 5.6
+	 */	
+	protected void assertDiscussionCommentsCount(String name, int expectedCount) { 
+		HtmlElement comments = getDiscussionCommentsElement(name);
+		assertEquals(expectedCount + 1, comments.getChildElementCount());
+		assertFalse(comments.getLastElementChild().isDisplayed());
+	}
+
+	/**
+	 * Post a new comment into a DISCUSSION property. <p> 
+	 * 
+	 * @since 5.6
+	 */		
+	protected void postDiscussionComment(String name, String commentContent) throws Exception { 
+		HtmlElement discussion = getDiscussionElement(name); 
+		HtmlElement textarea = discussion.getElementsByTagName("textarea").get(0);
+		textarea.setTextContent(commentContent);		
+		HtmlElement postButton = discussion.getOneHtmlElementByAttribute("input", "type", "button");
+		postButton.click();
+	}
+	
+	private HtmlElement getDiscussionElement(String name) {  
+		return getHtmlPage().getHtmlElementById(decorateId("editor_" + name));
+	}
+	
+	private HtmlElement getDiscussionCommentsElement(String name) {  
+		return getDiscussionElement(name).getOneHtmlElementByAttribute("div", "class", "ox-discussion");
+	}
+
+
 }

@@ -23,6 +23,7 @@ public class ModulesProvider {
 		List<MetaModule> result = new ArrayList<MetaModule>();
 		for (MetaModule module: MetaModuleFactory.createAll()) {
 			if (module.getName().equals("SignIn")) continue;
+			if (module.getName().equals("DiscussionComment")) continue;  
 			result.add(module);
 		}
 		return result;

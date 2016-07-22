@@ -37,7 +37,7 @@ public class FamilyTest extends ModuleTestBase {
 	}
 	
 	public void testCreateReadUpdateDelete() throws Exception {
-		assertListRowCount(3);
+		assertListRowCount(3); 
 		// Create
 		execute ("CRUD.new");
 		setValue("number","66");
@@ -76,7 +76,7 @@ public class FamilyTest extends ModuleTestBase {
 	
 	public void testDependOnHiddenKey() throws Exception {
 		execute("Mode.detailAndFirst");
-		assertNoErrors();
+		assertNoErrors(); 
 		
 		String [][] productsOfFamily1 = {
 				{ "", "" },				

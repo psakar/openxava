@@ -511,7 +511,7 @@ public class CarrierWithSectionsTest extends ModuleTestBase {
 		assertPopupPDFLine(4, "3 TRES");
 		assertPopupPDFLine(5, "2 DOS");
 		assertPopupPDFLine(6, "4 CUATRO");				
-		execute("ExtendedPrint.myReports");
+		execute("ExtendedPrint.myReports"); 
 		assertValue("name", "Carrier report With no CALCULATED"); 
 		String [][] customReports3 = {
 			{ "Carrier report NAME first", "Carrier report NAME first" },	
@@ -615,7 +615,7 @@ public class CarrierWithSectionsTest extends ModuleTestBase {
 	
 	public void testRemoveColumnsInMyReport() throws Exception  { 
 		execute("ExtendedPrint.myReports"); 
-		assertCollectionRowCount("columns", 3);
+		assertCollectionRowCount("columns", 3); 
 		assertValueInCollection("columns", 0, 0, "Calculated");  
 		assertValueInCollection("columns", 1, 0, "Number");
 		assertValueInCollection("columns", 2, 0, "Name");
@@ -638,7 +638,7 @@ public class CarrierWithSectionsTest extends ModuleTestBase {
 		assertValueInCollection("columns", 0, 0, "Name");
 		
 		execute("MyReport.generatePdf");
-		execute("ExtendedPrint.myReports");
+		execute("ExtendedPrint.myReports"); 
 		assertCollectionRowCount("columns", 1);
 		assertValueInCollection("columns", 0, 0, "Name");
 		execute("MyReport.remove", "xava.keyProperty=name");

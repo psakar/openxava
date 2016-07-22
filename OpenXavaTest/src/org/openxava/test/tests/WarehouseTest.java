@@ -44,7 +44,7 @@ public class WarehouseTest extends WarehouseSplitTestBase {
 
 		execute("List.orderBy", "property=zoneNumber");
 		assertValueInList(0, 0, "10"); assertValueInList(0, 1, "10");
-		assertValueInList(1, 0, "7"); assertValueInList(1, 1, "1");
+		assertValueInList(1, 0, "7"); assertValueInList(1, 1, "1"); 
 		assertValueInList(2, 0, "7"); assertValueInList(2, 1, "2");
 		assertValueInList(3, 0, "7"); assertValueInList(3, 1, "3");
 		assertValueInList(4, 0, "7"); assertValueInList(4, 1, "4");
@@ -96,7 +96,7 @@ public class WarehouseTest extends WarehouseSplitTestBase {
 		
 		execute("List.goPage", "page=6");
 		execute("List.goPage", "page=7");
-		assertListRowCount(3);
+		assertListRowCount(3); 
 		String value60 = getValueInList(0, 2);
 		String value62 = getValueInList(2, 2);
 		execute("List.goPage", "page=6");
@@ -195,7 +195,7 @@ public class WarehouseTest extends WarehouseSplitTestBase {
 	public void testPage7InList() throws Exception {
 		execute("List.goPage", "page=6");
 		execute("List.goPage", "page=7");
-		assertListRowCount(3);
+		assertListRowCount(3); 
 		execute("CRUD.new");
 		execute("Mode.list");
 		assertListRowCount(3);
@@ -270,7 +270,7 @@ public class WarehouseTest extends WarehouseSplitTestBase {
 		execute("List.goPage", "page=6");
 		assertListRowCount(10);
 		execute("List.goNextPage");
-		assertListRowCount(3); // It assumes 63 objects
+		assertListRowCount(3); // It assumes 63 objects 
 	}
 				
 	public void testNotLoseFilterOnChangeMode() throws Exception {
