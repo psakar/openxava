@@ -756,7 +756,7 @@ public class ModuleTestBase extends TestCase {
 		element = getAnchorForAction(action, arguments);
 		if (arguments == null && element == null) { // We try if it is a button
 			String moduleMarkForButton = "executeAction(\"" + application + "\", \"" + module + "\"";
-			HtmlElement inputElement = page.getHtmlElementById(decorateId(action)); 
+			HtmlElement inputElement = page.getHtmlElementById(decorateId(action));
 			if (inputElement instanceof HtmlInput) {
 				HtmlInput input = (HtmlInput) inputElement;
 				if ("button".equals(input.getTypeAttribute()) &&
@@ -771,7 +771,6 @@ public class ModuleTestBase extends TestCase {
 			if (!clicking && element instanceof HtmlAnchor) { 
 				// Because input.click() fails with HtmlUnit 2.5/2.6/2.7/2.9 in some circumstances
 				page.executeJavaScript(((HtmlAnchor)element).getHrefAttribute());
-				
 			}
 			else {
 				element.click();
