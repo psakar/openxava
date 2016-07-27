@@ -911,8 +911,10 @@ Addons/properties-templates/naviox.properties -text svneol=unset#text/plain
 Addons/src/com/openxava/naviox/Modules.java -text svneol=unset#text/plain
 Addons/src/com/openxava/naviox/actions/InitSignInAction.java -text svneol=unset#text/plain
 Addons/src/com/openxava/naviox/actions/SignInAction.java -text svneol=unset#text/plain
-Addons/src/com/openxava/naviox/impl/AdditionalModules.java -text svneol=unset#text/plain
+Addons/src/com/openxava/naviox/impl/AllModulesNamesProvider.java -text svneol=unset#text/plain
+Addons/src/com/openxava/naviox/impl/BaseAllModulesNamesProvider.java -text svneol=unset#text/plain
 Addons/src/com/openxava/naviox/impl/DB.java -text svneol=unset#text/plain
+Addons/src/com/openxava/naviox/impl/IAllModulesNamesProvider.java -text svneol=unset#text/plain
 Addons/src/com/openxava/naviox/impl/Initializer.java -text svneol=unset#text/plain
 Addons/src/com/openxava/naviox/impl/MetaModuleFactory.java -text svneol=unset#text/plain
 Addons/src/com/openxava/naviox/impl/ModulesProvider.java -text svneol=unset#text/plain
@@ -953,6 +955,7 @@ Addons/web/naviox/images/processing.gif -text
 Addons/web/naviox/images/right.png -text
 Addons/web/naviox/images/search.png -text
 Addons/web/naviox/index.jsp -text svneol=unset#text/plain
+Addons/web/naviox/indexExt.jsp -text svneol=unset#text/plain
 Addons/web/naviox/js/naviox.js -text svneol=unset#text/plain
 Addons/web/naviox/mainNavigation.jsp -text svneol=unset#text/plain
 Addons/web/naviox/modulesList.jsp -text svneol=unset#text/plain
