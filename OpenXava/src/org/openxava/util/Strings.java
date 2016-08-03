@@ -777,6 +777,27 @@ public class Strings {
 	}
 	
 	/**
+	 * Convert a string with a label natural for a human into a identifier valid to use as URL, file name, internal id, etc. <p>
+	 * 
+	 * If you send "León, España" it returns "LeonEspana". <br>
+	 * 
+	 * @since 5.6
+	 */
+	public static String naturalLabelToIdentifier(String naturalLabel) { 
+		int length = naturalLabel.length();
+		StringBuffer sb = new StringBuffer();		
+		for (int i=0; i<length; i++) {
+			char c = naturalLabel.charAt(i);
+			if (Character.isLetter(c) || Character.isDigit(c)) {
+				sb.append(c);
+			}
+		}
+		String result = removeAccents(sb.toString()); 
+		return result.replace("\u00D1", "N").replace("\u00F1", "n");
+
+	}
+	
+	/**
 	 * Change from a vowel with an accent, to vowel with no accent
 	 * 
 	 * If you send "CamiÃ³n" it returns "Camion"
