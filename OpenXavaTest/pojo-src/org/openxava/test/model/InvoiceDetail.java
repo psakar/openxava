@@ -21,7 +21,7 @@ import org.openxava.test.validators.*;
 	@View(members=
 		"serviceType;" +
 		"quantity, unitPrice, amount;" +
-		"product;" +
+		"product;"  +
 		"deliveryDate, soldBy;" +	
 		"remarks"
 	),

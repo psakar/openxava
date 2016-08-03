@@ -73,6 +73,8 @@ String oxVersion = org.openxava.controller.ModuleManager.getVersion();
 			</td>
 		</tr>
 	</table>
+	
+	<%@include file="indexExt.jsp"%>
 
 	<script type='text/javascript' src='<%=request.getContextPath()%>/naviox/js/naviox.js?ox=<%=oxVersion%>'></script> 
 	

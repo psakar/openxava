@@ -86,11 +86,24 @@ if (collection == null || collection.equals("")) {
 <% if (style.isShowModuleDescription()) { %>
 <%=manager.getModuleDescription()%>
 <% } %>
+<select onchange="openxava.executeAction('<%=request.getParameter("application")%>', '<%=request.getParameter("module")%>', '', false, 'List.filter','<%=collectionArgv%>,configurationId=' + this.value)">
+	<% String confName = tab.getConfigurationName();%>
+	<option value=""><%=confName%>&nbsp;&nbsp;&#128317;</option>
+	<% 
+	for (Tab.Configuration conf: tab.getConfigurations()) {
+		if (!confName.equals(conf.getName())) {
+	%>
+	<option value="<%=conf.getId()%>"><%=conf.getName()%></option>
+	<% 
+		}
+	} 
+	%>
+</select>
 <% 
 if (tab.isTitleVisible()) { 
 %> 
 <% if (style.isShowModuleDescription()) { %> - <% } %>
-<span id="list-title"><%=tab.getTitle()%></span>
+<span id="list-title"><%=tab.getTitle()%></span> 
 <%
 }
 %>

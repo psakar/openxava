@@ -2582,13 +2582,13 @@ public class AnnotatedClassParser implements IComponentParser {
 	
 	private String getClassNameFor(String name) throws XavaException { 
 		String className = getClassNameIfExists(name);
-		if (className == null) throw new XavaException("not_ejb3_entity_nor_transient_model", name);
+		if (className == null) throw new XavaException("not_jpa_entity_nor_transient_model", name);
 		return className;
 	}
 	
 	private String getClassNameIfExists(String name) throws XavaException { 
 		try {
-			// This first in order that it work fine with XML components without persistence.xml
+			// This first in order that works fine with XML components without persistence.xml
 			String className = "org.openxava.session." + name;
 			Class.forName(className);
 			return className;

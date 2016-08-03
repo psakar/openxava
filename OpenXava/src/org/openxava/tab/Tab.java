@@ -34,6 +34,53 @@ import org.openxava.web.*;
 
 public class Tab implements java.io.Serializable {
 	
+	public class Configuration {  
+							
+		private long id; 
+		private String name; 
+		private String [] conditionComparators;
+		private String [] conditionValues;
+		
+		public long getId() {
+			if (id == 0) {
+				if (conditionValues != null && conditionComparators != null ) {
+					for (String conditionValue: conditionValues) {
+						if (conditionValue == null) conditionValue = "__NULL__"; 
+						id += conditionValue.hashCode();
+					}
+					for (String conditionComparator: conditionComparators) {
+						if (conditionComparator == null) conditionComparator = "__NULL__";
+						id += conditionComparator.hashCode();
+					}					
+				}
+				else {
+					return "__ALL__".hashCode();
+				}
+			}
+			return id;
+		}
+		public String getName() {
+			return name;
+		}
+		public void setName(String name) {
+			this.name = name;
+		}
+		public String [] getConditionComparators() {
+			return conditionComparators;
+		}
+		public void setConditionComparators(String [] conditionComparators) {
+			this.conditionComparators = conditionComparators;
+		}
+		public String [] getConditionValues() {
+			return conditionValues;
+		}
+		public void setConditionValues(String [] conditionValues) {
+			this.conditionValues = conditionValues;
+		}
+
+	}
+	private Map<Long, Configuration> configurations = new HashMap<Long, Configuration>();    
+	
 	private static final long serialVersionUID = 1724100598886966704L;
 	private static Log log = LogFactory.getLog(Tab.class);
 
@@ -1376,7 +1423,7 @@ public class Tab implements java.io.Serializable {
 		return request;
 	}
 	
-	public boolean isTitleVisible() {
+	public boolean isTitleVisible() {  
 		return titleVisible;
 	}
 
@@ -1400,6 +1447,35 @@ public class Tab implements java.io.Serializable {
 		this.titleArguments = valores;
 	}
 	
+	public void saveConfiguration() {  
+		if (configurations.isEmpty()) {
+			Configuration allConfiguration = new Configuration();
+			allConfiguration.setName(Labels.get("all"));
+			configurations.put(allConfiguration.getId(), allConfiguration);
+		}
+		Configuration conf = new Configuration();
+		conf.setName(getConfigurationName()); 
+		conf.setConditionValues(conditionValues);
+		conf.setConditionComparators(conditionComparators);
+		configurations.put(conf.getId(), conf);
+	}
+	
+	public Collection<Configuration> getConfigurations() {  
+		return configurations.values();
+	}
+	
+	public void setConfigurationId(long configurationId) {  
+		Configuration filter = configurations.get(configurationId);
+		setConditionValuesImpl(refineConfigurationValues(filter.getConditionValues()));
+		setConditionComparatorsImpl(refineConfigurationValues(filter.getConditionComparators()));
+		conditionJustCleared = true;
+	}
+	
+	private String [] refineConfigurationValues(String [] values) { 
+		if (values == null) return new String[getMetaPropertiesNotCalculated().size()];
+		return values;
+	}
+
 	public String getTitle() throws XavaException {
 		if (title != null) 	return title; 		
 		if (getCollectionView() != null) return getCollectionTitle(); 
@@ -1409,9 +1485,40 @@ public class Tab implements java.io.Serializable {
 		String title = titleId==null?getTitleI18n(locale, modelName, tabName):Labels.get(titleId, locale);
 		if (title != null) return putTitleArguments(locale, title);		
 		String modelLabel = MetaModel.get(modelName).getLabel(locale); 
-		return XavaResources.getString(request, "report_title", modelLabel);					
+		return XavaResources.getString(request, "report_title", modelLabel);
 	}
 	
+	public String getConfigurationName() throws XavaException { 
+		setFilteredConditionValues(); 
+		String condition = getCondition();
+		if (!Is.emptyString(condition)) return translateCondition(condition);
+		return Labels.get("all");
+	}
+
+	private String translateCondition(String condition) {  
+		StringBuffer r = new StringBuffer(condition);		
+		int i = r.toString().indexOf("${");
+		int f = 0;
+		while (i >= 0) {
+			f = r.toString().indexOf("}", i + 2);
+			if (f < 0) break;
+			String property = r.substring(i + 2, f);
+			String translation = Labels.get(property); 
+			r.replace(i, f + 1, translation);
+			i = r.toString().indexOf("${");
+		}
+		String result = r.toString().replace("1=1", "");
+		result = result.replace("order by ", Labels.get("orderedBy") + " ");
+		result = result.replace(" desc", " " + Labels.get("descending"));
+		result = result.replace(" and ", " " + Labels.get("and") + " ");
+		if (conditionValues != null) for (String conditionValue: conditionValues) {
+			if (Is.emptyString(conditionValue)) continue; 
+			result = result.replaceFirst("\\?", conditionValue);
+		}
+		result = Strings.firstUpper(result.toLowerCase(Locales.getCurrent()).trim());
+		return result;
+	}
+
 	/**
 	 * Set the specific title as is. 
 	 * <p>

@@ -8,6 +8,7 @@ import org.openxava.test.model.Warehouse;
 import org.openxava.util.Is;
 
 /**
+ * 
  * @author Javier Paniza
  */
 

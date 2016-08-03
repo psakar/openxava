@@ -1,6 +1,7 @@
 package org.openxava.test.tests;
 
 /**
+ * 
  * Create on 09/06/2011 (16:04:34)
  * @author Ana Andres
  */

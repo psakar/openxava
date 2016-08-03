@@ -9,6 +9,7 @@ import org.openxava.test.model.*;
 import org.openxava.tests.*;
 
 /**
+ * 
  * @author Javier Paniza
  */
 

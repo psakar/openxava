@@ -2,6 +2,7 @@ package org.openxava.test.tests;
 
 
 /**
+ * 
  * @author Javier Paniza
  */
 

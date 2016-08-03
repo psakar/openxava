@@ -6,6 +6,7 @@ import org.openxava.test.model.*;
 import com.gargoylesoftware.htmlunit.html.*;
 
 /**
+ * 
  * @author Javier Paniza
  */
 

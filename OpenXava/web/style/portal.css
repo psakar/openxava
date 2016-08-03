@@ -867,3 +867,35 @@ a.cke_button_disabled:hover, a.cke_button_disabled:focus, a.cke_button_disabled:
 	background-image: none !important;
 	box-shadow: none !important; 
 }
+
+.list-title { 
+	padding: 0px;
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+
+.list-title select {
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: -13px;
+	padding-bottom: 0px;
+	border: 1px solid transparent;
+	box-shadow: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	cursor: pointer;
+	background: transparent;
+}
+
+.list-title select::-ms-expand{
+    display: none;
+}
+
+#list-title {
+	font-weight: bold;
+	position: relative;
+	top: -22px;
+	display: flex;
+    justify-content: center;
+    height: 0px;
+}

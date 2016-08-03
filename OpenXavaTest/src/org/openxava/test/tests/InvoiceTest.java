@@ -7,11 +7,7 @@ import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.Locale;
-import java.util.StringTokenizer;
+import java.util.*;
 
 import javax.rmi.PortableRemoteObject;
 
@@ -31,6 +27,7 @@ import com.gargoylesoftware.htmlunit.html.*;
 
 
 /**
+ * 
  * @author Javier Paniza
  */
 
@@ -48,8 +45,87 @@ public class InvoiceTest extends CustomizeListTestBase {
 	public InvoiceTest(String testName) {
 		super(testName, "Invoice");		
 	}
-
 	
+	public void testListConfigurations() throws Exception { 
+		assertListSelectedConfiguration("All");
+		assertListAllConfigurations("All");
+		assertListRowCount(9);
+		
+		setConditionValues("", "1"); // We try the second one with the first empty to test a bug
+		execute("List.filter");
+		assertListSelectedConfiguration("Number = 1");
+		assertListAllConfigurations("All", "Number = 1");
+		assertListRowCount(3);
+		
+		setConditionValues("2004", "9");
+		execute("List.filter");
+		assertListSelectedConfiguration("Year = 2004 and number = 9");
+		assertListAllConfigurations("All", "Number = 1", "Year = 2004 and number = 9");
+		assertListRowCount(1);
+		
+		selectListConfiguration("Number = 1"); 
+		assertListSelectedConfiguration("Number = 1");
+		assertListAllConfigurations("All", "Number = 1", "Year = 2004 and number = 9");
+		assertListRowCount(3);		
+		
+		selectListConfiguration("All");
+		assertListSelectedConfiguration("All");
+		assertListAllConfigurations("All", "Number = 1", "Year = 2004 and number = 9");
+		assertListRowCount(9);
+		
+		selectListConfiguration("Year = 2004 and number = 9");
+		assertListSelectedConfiguration("Year = 2004 and number = 9");
+		assertListAllConfigurations("All", "Number = 1", "Year = 2004 and number = 9");
+		assertListRowCount(1);		
+
+		setConditionValues("", "1"); // To test not duplicated in combo
+		execute("List.filter");
+		assertListSelectedConfiguration("Number = 1");
+		assertListAllConfigurations("All", "Number = 1", "Year = 2004 and number = 9");
+		assertListRowCount(3);
+		
+		setConditionValues("2004", "9"); // To test not duplicated in combo again, curiously it failed the second time
+		execute("List.filter");
+		assertListSelectedConfiguration("Year = 2004 and number = 9");
+		assertListAllConfigurations("All", "Number = 1", "Year = 2004 and number = 9");
+		assertListRowCount(1);
+	}
+
+
+	private void selectListConfiguration(String title) throws Exception {  
+		HtmlOption option =  getSelectListConfigurations().getOptionByText(title);
+		option.click();
+		getWebClient().waitForBackgroundJavaScriptStartingBefore(10000);
+	}
+
+	private void assertListSelectedConfiguration(String expectedTitle) {   
+		String title = getSelectListConfigurations().getSelectedOptions().get(0).asText();
+		assertEquals(expectedTitle, refineListConfigurationTitle(title));
+	}
+	
+	private String refineListConfigurationTitle(String title) {
+		return title.substring(0, title.length() - 4);
+	}
+	
+	private void assertListAllConfigurations(String ... expectedTitles) {   
+		List<String> titles = new ArrayList<String>();
+		for (HtmlOption option: getSelectListConfigurations().getOptions()) {
+			String title = titles.isEmpty()?refineListConfigurationTitle(option.asText()):option.asText();
+			titles.add(title);
+		}
+		Collections.sort(titles);
+		List<String> expectedTitleList = Arrays.asList(expectedTitles);
+		Collections.sort(expectedTitleList);
+		assertEquals(expectedTitleList, titles);
+	}
+	
+	private HtmlSelect getSelectListConfigurations() { 
+		HtmlBody body = (HtmlBody) getHtmlPage().getElementsByTagName("body").get(0); 
+		HtmlElement listTitle = body.getOneHtmlElementByAttribute("td", "class", "ox-list-title"); // This class depend on the style
+		return (HtmlSelect) listTitle.getFirstElementChild(); // We assume that the configuration combo is the first element
+	}
+
+
 	public void testSubcontrollerWithoutActionsInMode_subcontrollerIcon() throws Exception {
 		// subcontroller: InvoicePrint -> all actions are in mode detail
 		assertNoAction("InvoicePrint.printPdf");

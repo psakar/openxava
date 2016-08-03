@@ -11442,6 +11442,7 @@ OpenXavaTest/web/naviox/images/processing.gif -text
 OpenXavaTest/web/naviox/images/right.png -text
 OpenXavaTest/web/naviox/images/search.png -text
 OpenXavaTest/web/naviox/index.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/naviox/indexExt.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/js/naviox.js -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/mainNavigation.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/modulesList.jsp -text svneol=unset#text/plain

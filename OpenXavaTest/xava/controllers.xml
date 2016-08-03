@@ -246,7 +246,7 @@
 		<action name="save" mode="detail"
 			class="org.openxava.test.actions.SaveTaskAction"
 			image="save.gif"
-			keystroke="control alt S">			
+			keystroke="control alt S">
 			<set property="resetAfter" value="false"/>
 		</action>		
 	</controller>

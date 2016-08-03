@@ -1475,3 +1475,33 @@ a.cke_button_disabled:hover, a.cke_button_disabled:focus, a.cke_button_disabled:
 	border: 1px solid #C6C6C6 !important;	
 	box-shadow: 0px 0px 5px #CCCCCC inset !important;  
 }
+
+.ox-list-title { 
+	padding: 0px;
+	margin-bottom: 10px;
+	font-size: 17px;
+}
+
+.ox-list-title select {
+	font-size: 17px;
+	margin-top: -13px;
+	padding-bottom: 0px;
+	border: 1px solid transparent;
+	box-shadow: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	cursor: pointer;
+}
+
+.ox-list-title select::-ms-expand{
+    display: none;
+}
+
+#list-title {
+	font-weight: bold;
+	position: relative;
+	top: -22px;
+	display: flex;
+    justify-content: center;
+    height: 0px;
+}
