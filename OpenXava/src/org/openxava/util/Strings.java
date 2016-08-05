@@ -18,8 +18,7 @@ public class Strings {
 	private static Log log = LogFactory.getLog(Strings.class);
 	private final static String XSS_REGEXP_PATTERN = "(?i)<[\\s]*/?script.*?>|<[\\s]*/?embed.*?>|<[\\s]*/?object.*?>|<[\\s]*/?iframe.*?>|window.location|<[\\s]*a[\\s]*href[^>]*javascript[\\s]*:[^(^)^>]*[(][^)]*[)][^>]*>[^<]*(<[\\s]*/[\\s]*a[^>]*>)*";
 	private final static Pattern XSS_PATTERN = Pattern.compile(XSS_REGEXP_PATTERN);
-	private static Map separatorsBySpaces;
-	
+	private static Map separatorsBySpaces;	
 	
 	/**
 	 * The space, comma, dot, + and - are considered as numeric. 

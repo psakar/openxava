@@ -146,9 +146,9 @@ public class CarrierWithSectionsTest extends ModuleTestBase {
 		setValue("name", "name");
 		assertValue("comparator", "contains_comparator"); 
 		String [][] stringComparators = {
-			{ "contains_comparator", "contains" },				
-			{ "starts_comparator", "starts" },
-			{ "ends_comparator", "ends" }, 
+			{ "contains_comparator", "contains" },	
+			{ "starts_comparator", "starts with" },
+			{ "ends_comparator", "ends with" },			
 			{ "not_contains_comparator", "not contains" },
 			{ "empty_comparator", "empty" },
 			{ "not_empty_comparator", "not empty" },
@@ -161,7 +161,7 @@ public class CarrierWithSectionsTest extends ModuleTestBase {
 			{ "in_comparator", "in group" }, 
 			{ "not_in_comparator", "not in group" } 			
 		};
-		assertValidValues("comparator", stringComparators);
+		assertValidValues("comparator", stringComparators); 
 
 		setValue("name", "warehouse.zoneNumber"); 
 		assertValue("label", "Zone of Warehouse"); 
@@ -188,7 +188,7 @@ public class CarrierWithSectionsTest extends ModuleTestBase {
 		execute("MyReport.saveColumn");
 		assertCollectionRowCount("columns", 3);
 		assertValueInCollection("columns", 0, 0, "Name");
-		assertValueInCollection("columns", 0, 1, "starts"); 
+		assertValueInCollection("columns", 0, 1, "starts with"); 
 		assertValueInCollection("columns", 0, 2, "c");
 		assertValueInCollection("columns", 1, 0, "Number");
 		assertValueInCollection("columns", 1, 1, "");

@@ -188,6 +188,9 @@ import org.openxava.util.*;
 		filter=YearParameterFilter.class,
 		properties="year, number, customer.number, customer.name, amountsSum, vat, detailsCount, paid, importance",
 		baseCondition="${year} = ?"
+	),
+	@Tab(name="ManyTypes", 
+		properties="year, number, date, amountsSum, paid, customer.name, customer.type" 
 	)
 })
 

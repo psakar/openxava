@@ -11264,6 +11264,7 @@ OpenXavaTest/src/org/openxava/test/tests/InvoiceDeliveriesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoiceDetailsWithTotalsTest.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/InvoiceFromCustomersTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoiceFromDeliveriesTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/InvoiceListManyTypesTest.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/InvoiceNestedSectionsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoiceNoListTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoiceNoSectionsTest.java -text

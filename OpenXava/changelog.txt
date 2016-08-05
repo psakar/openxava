@@ -1,8 +1,10 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Labels.getQualified(String id) does not return the qualified label.
+- New method anyEqual() in Is utility class.
 - New method naturalLabelToIdentifier() in Strings utility class.
-- Remember filters done by user in list to be re-executed choosing from a combo.
+- List remembers filters done by user to be re-executed choosing from a combo.
 - New indexExt.jsp in naviox/web to add elements to the main HTML page that wrap the application.
 - New methods assertDiscussionCommentText(), assertDiscussionCommentsCount() and postDiscussionComment() in ModuleTestBase.
 - Fix: On hover style for default action button does not work.

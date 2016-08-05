@@ -1495,26 +1495,42 @@ public class Tab implements java.io.Serializable {
 		return Labels.get("all");
 	}
 
-	private String translateCondition(String condition) {  
-		StringBuffer r = new StringBuffer(condition);		
+	private String translateCondition(String condition) {
+		String result = condition + " ";
+		if (conditionValues != null) for (int i = 0; i < conditionValues.length; i++) {
+			String conditionValue = conditionValues[i];
+			if (Is.emptyString(conditionValue)) continue;
+			String conditionComparator = conditionComparators[i]; 
+			if (Is.anyEqual(conditionComparator, STARTS_COMPARATOR, CONTAINS_COMPARATOR, ENDS_COMPARATOR, NOT_CONTAINS_COMPARATOR)) { 
+				result = result.replaceFirst("\\?", XavaResources.getString(conditionComparator) + " " + conditionValue);
+			}
+			else {
+				result = result.replaceFirst("\\?", conditionValue);
+			}
+		}
+		result = result.replaceAll("\\$\\{[a-zA-Z0-9]+\\} <> true($| )", XavaResources.getString("not") + " $0");
+		result = result.replace(" = true ", " "); 
+		result = result.replace(" <> true ", " "); 
+		StringBuffer r = new StringBuffer(result);
 		int i = r.toString().indexOf("${");
 		int f = 0;
 		while (i >= 0) {
 			f = r.toString().indexOf("}", i + 2);
 			if (f < 0) break;
 			String property = r.substring(i + 2, f);
-			String translation = Labels.get(property); 
+			String translation = Labels.getQualified(property); 
 			r.replace(i, f + 1, translation);
 			i = r.toString().indexOf("${");
 		}
-		String result = r.toString().replace("1=1", "");
+		result = r.toString().replace("1=1", ""); 
+		result = result.replace("upper(", ""); 
+		result = result.replace("replace(", ""); 
+		result = result.replaceAll(", '.', '.'\\)+", "");
 		result = result.replace("order by ", Labels.get("orderedBy") + " ");
-		result = result.replace(" desc", " " + Labels.get("descending"));
+		result = result.replace(" desc ", " " + Labels.get("descending") + " "); 
 		result = result.replace(" and ", " " + Labels.get("and") + " ");
-		if (conditionValues != null) for (String conditionValue: conditionValues) {
-			if (Is.emptyString(conditionValue)) continue; 
-			result = result.replaceFirst("\\?", conditionValue);
-		}
+		result = result.replace(" not like ", " "); 
+		result = result.replace(" like ", " ");  
 		result = Strings.firstUpper(result.toLowerCase(Locales.getCurrent()).trim());
 		return result;
 	}
