@@ -1508,9 +1508,14 @@ public class Tab implements java.io.Serializable {
 				result = result.replaceFirst("\\?", conditionValue);
 			}
 		}
-		result = result.replaceAll("\\$\\{[a-zA-Z0-9]+\\} <> true($| )", XavaResources.getString("not") + " $0");
-		result = result.replace(" = true ", " "); 
-		result = result.replace(" <> true ", " "); 
+		result = result.replace("upper(", ""); 
+		result = result.replace("replace(", ""); 
+		result = result.replaceAll(", '.', '.'\\)+", "");
+		result = result.replaceAll("\\$\\{[a-zA-Z0-9\\._]+\\} <> true($| )", XavaResources.getString("not") + " $0");
+		result = result.replace(" = true ", " "); // Boolean
+		result = result.replace(" <> true ", " "); // Boolan
+		result = result.replaceAll("\\((\\$\\{[a-zA-Z0-9\\._]+\\}) is not null and \\$\\{[a-zA-Z0-9\\._]+\\} <> ''\\)", "$1 " + XavaResources.getString("not_empty_comparator")); // Is not empty 
+		result = result.replaceAll("\\((\\$\\{[a-zA-Z0-9\\._]+\\}) is null or \\$\\{[a-zA-Z0-9\\._]+\\} = ''\\)", "$1 " + XavaResources.getString("empty_comparator")); // Is empty 
 		StringBuffer r = new StringBuffer(result);
 		int i = r.toString().indexOf("${");
 		int f = 0;
@@ -1522,10 +1527,7 @@ public class Tab implements java.io.Serializable {
 			r.replace(i, f + 1, translation);
 			i = r.toString().indexOf("${");
 		}
-		result = r.toString().replace("1=1", ""); 
-		result = result.replace("upper(", ""); 
-		result = result.replace("replace(", ""); 
-		result = result.replaceAll(", '.', '.'\\)+", "");
+		result = r.toString().replace("1=1", "");
 		result = result.replace("order by ", Labels.get("orderedBy") + " ");
 		result = result.replace(" desc ", " " + Labels.get("descending") + " "); 
 		result = result.replace(" and ", " " + Labels.get("and") + " ");

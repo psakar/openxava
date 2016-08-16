@@ -190,7 +190,7 @@ import org.openxava.util.*;
 		baseCondition="${year} = ?"
 	),
 	@Tab(name="ManyTypes", 
-		properties="year, number, date, amountsSum, paid, customer.name, customer.type" 
+		properties="year, number, date, amountsSum, customer.email, paid, customer.name, customer.type" 
 	)
 })
 

@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- New method clearCondition() in ModuleTestBase to simulate clicking on the clear list condition button.
 - Fix: Labels.getQualified(String id) does not return the qualified label.
 - New method anyEqual() in Is utility class.
 - New method naturalLabelToIdentifier() in Strings utility class.

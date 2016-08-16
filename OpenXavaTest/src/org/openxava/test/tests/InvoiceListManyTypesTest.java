@@ -11,13 +11,13 @@ import com.gargoylesoftware.htmlunit.html.*;
  * @author Javier Paniza
  */
 
-public class InvoiceListManyTypesTest extends CustomizeListTestBase { 
+public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 	
 	public InvoiceListManyTypesTest(String testName) {
 		super(testName, "InvoiceListManyTypes");		
 	}
 	
-	public void testListConfigurations() throws Exception { 
+	public void testListConfigurations() throws Exception {	
 		assertListSelectedConfiguration("All");
 		assertListAllConfigurations("All");
 		assertListRowCount(9);
@@ -64,22 +64,22 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 		assertListAllConfigurations("All", "Number = 1", "Year = 2004 and number > 10");
 		assertListRowCount(2);		
 		
-		setConditionValues("", "", "", "true"); 
-		setConditionComparators("=", "=", "=", "=");
+		setConditionValues("", "", "", "", "true"); 
+		setConditionComparators("=", "=", "=", "=", "=");
 		execute("List.filter");
 		assertListSelectedConfiguration("Paid");
 		assertListAllConfigurations("All", "Number = 1", "Year = 2004 and number > 10", "Paid");
 		assertListRowCount(1);		
 
-		setConditionValues("", "", "", "true"); 
-		setConditionComparators("=", "=", "=", "<>");
+		setConditionValues("", "", "", "", "true"); 
+		setConditionComparators("=", "=", "=", "=", "<>");
 		execute("List.filter");
 		assertListSelectedConfiguration("Not paid");
 		assertListAllConfigurations("All", "Number = 1", "Year = 2004 and number > 10", "Paid", "Not paid");
 		assertListRowCount(8);		
 				
-		setConditionComparators("=", "=", "=", "<>", Tab.STARTS_COMPARATOR);
-		setConditionValues("", "", "", "true", "j"); 
+		setConditionComparators("=", "=", "=", "=", "<>", Tab.STARTS_COMPARATOR);
+		setConditionValues("", "", "", "", "true", "j"); 
 		execute("List.filter");
 		assertListSelectedConfiguration("Not paid and name of customer starts with j"); // Here the boolean is not the last one
 		assertListAllConfigurations("All", "Number = 1", "Year = 2004 and number > 10", "Paid", "Not paid", "Not paid and name of customer starts with j");
@@ -94,6 +94,32 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 		assertListSelectedConfiguration("Not paid and name of customer starts with j");
 		assertListAllConfigurations("All", "Number = 1", "Year = 2004 and number > 10", "Paid", "Not paid", "Not paid and name of customer starts with j");
 		assertListRowCount(6);
+		
+		clearCondition();
+		setConditionComparators("=", "=", "=", Tab.NOT_EMPTY_COMPARATOR, "<>"); // To test not empty combined with boolean(false value) because of a bug
+		setConditionValues("", "", "", "", "true");
+		execute("List.filter");
+		assertListSelectedConfiguration("Email of customer is not empty and not paid");
+		assertListAllConfigurations("All", "Number = 1", "Year = 2004 and number > 10", "Paid", "Not paid", 
+			"Not paid and name of customer starts with j", "Email of customer is not empty", "Email of customer is not empty and not paid");
+		assertListRowCount(5);
+		
+		clearCondition();
+		setConditionComparators("=", "=", "=", Tab.EMPTY_COMPARATOR); 
+		setConditionValues("", "", "", "");
+		execute("List.filter");
+		assertListSelectedConfiguration("Email of customer is empty");
+		assertListAllConfigurations("All", "Number = 1", "Year = 2004 and number > 10", "Paid", "Not paid", 
+			"Not paid and name of customer starts with j", "Email of customer is not empty", "Email of customer is not empty and not paid", 
+			"Email of customer is empty");
+		assertListRowCount(4);
+		
+		selectListConfiguration("Email of customer is not empty and not paid");
+		assertListSelectedConfiguration("Email of customer is not empty and not paid");
+		assertListAllConfigurations("All", "Number = 1", "Year = 2004 and number > 10", "Paid", "Not paid", 
+				"Not paid and name of customer starts with j", "Email of customer is not empty", "Email of customer is not empty and not paid", 
+				"Email of customer is empty");
+		assertListRowCount(5);
 	}
 
 

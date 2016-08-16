@@ -401,7 +401,11 @@
 		<filter class="org.openxava.test.filters.YearParameterFilter"/>
 		<properties>year, number, customer.number, customer.name, amountsSum, vat, detailsCount, paid, importance</properties>
 		<base-condition>${year} = ?</base-condition>
-	</tab>	
+	</tab>
+	
+	<tab name="ManyTypes">
+		<properties>year, number, date, amountsSum, customer.email, paid, customer.name, customer.type</properties>
+	</tab>			
 		
 	<entity-mapping table="XAVATEST@separator@INVOICE">
 		<property-mapping

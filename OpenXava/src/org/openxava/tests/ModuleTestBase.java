@@ -1131,6 +1131,12 @@ public class ModuleTestBase extends TestCase {
 		setConditionComparators(avalues);
 	}
 	
+	/**
+	 * @since 5.6
+	 */
+	protected void clearCondition() { 
+		page.executeJavaScript("openxava.clearCondition('" + application + "', '" + module + "', '')"); 
+	}
 	
 	private void setCollectionCondition(String id, String[] values) throws Exception {
 		for (int i=0; i<values.length; i++) {
