@@ -16,7 +16,15 @@
 	
 		<action name="signIn"  			
 			class="com.openxava.naviox.actions.SignInAction"/>
+		
+		<action name="signUp" 
+        	class="com.openxava.naviox.actions.GoSignUpAction"/>			
 					
+	</controller>
+	
+	<controller name="SignUp">
+    	<action name="signUp"
+        	class="com.openxava.naviox.actions.SignUpAction"/>		
 	</controller>
 
 	<controller name="SessionLocker">

@@ -105,7 +105,7 @@ public class Modules implements Serializable {
 	
 	public String getCurrentModuleDescription(HttpServletRequest request) { 
 		try {
-			String organization = Organizations.getCurrentName(request); 		
+			String organization = Organizations.getCurrentName(request); 	
 			String prefix = organization == null?"":organization + " - ";
 			String application = NaviOXPreferences.getInstance().isShowApplicationName()?current.getMetaApplication().getLabel() + " - ":"";
 			return prefix + application + current.getLabel();
@@ -205,6 +205,7 @@ public class Modules implements Serializable {
 	
 	boolean isModuleAuthorized(MetaModule module) {
 		if (module.getName().equals(FIRST_STEPS)) return true; 
+		if (module.getName().equals("SignUp")) return true; 
 		return Collections.binarySearch(getAll(), module, comparator) >= 0;
 	}
 
