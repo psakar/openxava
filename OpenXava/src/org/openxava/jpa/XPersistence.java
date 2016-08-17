@@ -96,7 +96,7 @@ public class XPersistence {
 		EntityManager s = (EntityManager) currentManager.get();
 		if (s == null || !s.isOpen()) {
 			s = openManager();
-		}				
+		}	
 		return s;
 	}
 	
