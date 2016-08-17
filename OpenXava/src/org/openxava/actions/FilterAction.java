@@ -7,7 +7,7 @@ package org.openxava.actions;
 
 public class FilterAction extends TabBaseAction {
 	
-	private long configurationId;  
+	private int configurationId;   
 	
 	public void execute() throws Exception {
 		getTab().setRowsHidden(false);
@@ -16,11 +16,11 @@ public class FilterAction extends TabBaseAction {
 		else getTab().setConfigurationId(getConfigurationId());
 	}
 
-	public long getConfigurationId() {
+	public int getConfigurationId() {
 		return configurationId;
 	}
 
-	public void setConfigurationId(long configurationId) {
+	public void setConfigurationId(int configurationId) {
 		this.configurationId = configurationId;
 	}
 

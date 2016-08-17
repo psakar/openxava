@@ -36,25 +36,29 @@ public class Tab implements java.io.Serializable {
 	
 	public class Configuration {  
 							
-		private long id; 
+		private int id;  
 		private String name; 
 		private String [] conditionComparators;
 		private String [] conditionValues;
 		
-		public long getId() {
+		public int getId() { 
 			if (id == 0) {
 				if (conditionValues != null && conditionComparators != null ) {
+					StringBuffer s = new StringBuffer();
 					for (String conditionValue: conditionValues) {
-						if (conditionValue == null) conditionValue = "__NULL__"; 
-						id += conditionValue.hashCode();
+						if (conditionValue == null) s.append("__NULL__"); 
+						else s.append(conditionValue);
+						s.append(":");
 					}
 					for (String conditionComparator: conditionComparators) {
-						if (conditionComparator == null) conditionComparator = "__NULL__";
-						id += conditionComparator.hashCode();
-					}					
+						if (conditionComparator == null) s.append("__NULL__"); 
+						else s.append(conditionComparator);
+						s.append(":");
+					}							
+					id = s.toString().hashCode();
 				}
 				else {
-					return "__ALL__".hashCode();
+					id = "__ALL__".hashCode(); 
 				}
 			}
 			return id;
@@ -79,7 +83,7 @@ public class Tab implements java.io.Serializable {
 		}
 
 	}
-	private Map<Long, Configuration> configurations = new HashMap<Long, Configuration>();    
+	private Map<Integer, Configuration> configurations = new HashMap<Integer, Configuration>();     
 	
 	private static final long serialVersionUID = 1724100598886966704L;
 	private static Log log = LogFactory.getLog(Tab.class);
@@ -121,7 +125,7 @@ public class Tab implements java.io.Serializable {
 	
 	private int pageRowCount = XavaPreferences.getInstance().getPageRowCount();
 	private Object [] titleArguments;
-	private List metaPropertiesNotCalculated;
+	private List<MetaProperty> metaPropertiesNotCalculated; 
 	private ReferenceMapping referencesCollectionMapping;
 	private Object[] baseConditionValuesForReference;
 	private String baseCondition;
@@ -258,7 +262,7 @@ public class Tab implements java.io.Serializable {
 		return result;
 	}
 	
-	public List getMetaPropertiesNotCalculated() throws XavaException {
+	public List<MetaProperty> getMetaPropertiesNotCalculated() throws XavaException { 
 		if (metaPropertiesNotCalculated == null) {
 			metaPropertiesNotCalculated = new ArrayList();
 			Iterator it = getMetaProperties().iterator();			
@@ -1464,7 +1468,7 @@ public class Tab implements java.io.Serializable {
 		return configurations.values();
 	}
 	
-	public void setConfigurationId(long configurationId) {  
+	public void setConfigurationId(int configurationId) {   
 		Configuration filter = configurations.get(configurationId);
 		setConditionValuesImpl(refineConfigurationValues(filter.getConditionValues()));
 		setConditionComparatorsImpl(refineConfigurationValues(filter.getConditionComparators()));
@@ -1497,25 +1501,31 @@ public class Tab implements java.io.Serializable {
 
 	private String translateCondition(String condition) {
 		String result = condition + " ";
-		if (conditionValues != null) for (int i = 0; i < conditionValues.length; i++) {
-			String conditionValue = conditionValues[i];
-			if (Is.emptyString(conditionValue)) continue;
-			String conditionComparator = conditionComparators[i]; 
-			if (Is.anyEqual(conditionComparator, STARTS_COMPARATOR, CONTAINS_COMPARATOR, ENDS_COMPARATOR, NOT_CONTAINS_COMPARATOR)) { 
-				result = result.replaceFirst("\\?", XavaResources.getString(conditionComparator) + " " + conditionValue);
-			}
-			else {
-				result = result.replaceFirst("\\?", conditionValue);
-			}
-		}
+		if (conditionValues != null) {
+			result = result.replaceAll("\\([\\?,*]+\\)", "(?)"); // Groups: (?,?,?) --> (?)
+			for (int i = 0; i < conditionValues.length; i++) {
+				String conditionValue = conditionValues[i];
+				if (Is.emptyString(conditionValue)) continue;
+				String conditionComparator = conditionComparators[i];
+				if (Is.anyEqual(conditionComparator, STARTS_COMPARATOR, CONTAINS_COMPARATOR, ENDS_COMPARATOR, NOT_CONTAINS_COMPARATOR)) { 
+					result = result.replaceFirst("\\?", XavaResources.getString(conditionComparator) + " " + conditionValue);
+				}
+				else if (EQ_COMPARATOR.equals(conditionComparator) && getMetaPropertiesNotCalculated().get(i).hasValidValues()) { 
+					result = result.replaceFirst("\\?", getMetaPropertiesNotCalculated().get(i).getValidValueLabel(Integer.parseInt(conditionValue)));
+				}
+				else {
+					result = result.replaceFirst("\\?", conditionValue);
+				}
+			} 
+		}		
 		result = result.replace("upper(", ""); 
 		result = result.replace("replace(", ""); 
 		result = result.replaceAll(", '.', '.'\\)+", "");
 		result = result.replaceAll("\\$\\{[a-zA-Z0-9\\._]+\\} <> true($| )", XavaResources.getString("not") + " $0");
 		result = result.replace(" = true ", " "); // Boolean
-		result = result.replace(" <> true ", " "); // Boolan
+		result = result.replace(" <> true ", " "); // Boolean
 		result = result.replaceAll("\\((\\$\\{[a-zA-Z0-9\\._]+\\}) is not null and \\$\\{[a-zA-Z0-9\\._]+\\} <> ''\\)", "$1 " + XavaResources.getString("not_empty_comparator")); // Is not empty 
-		result = result.replaceAll("\\((\\$\\{[a-zA-Z0-9\\._]+\\}) is null or \\$\\{[a-zA-Z0-9\\._]+\\} = ''\\)", "$1 " + XavaResources.getString("empty_comparator")); // Is empty 
+		result = result.replaceAll("\\((\\$\\{[a-zA-Z0-9\\._]+\\}) is null or \\$\\{[a-zA-Z0-9\\._]+\\} = ''\\)", "$1 " + XavaResources.getString("empty_comparator")); // Is empty
 		StringBuffer r = new StringBuffer(result);
 		int i = r.toString().indexOf("${");
 		int f = 0;
@@ -1533,6 +1543,8 @@ public class Tab implements java.io.Serializable {
 		result = result.replace(" and ", " " + Labels.get("and") + " ");
 		result = result.replace(" not like ", " "); 
 		result = result.replace(" like ", " ");  
+		result = result.replace(" not in(", " " + XavaResources.getString("not_in_comparator") + "("); 
+		result = result.replace(" in(", " " + XavaResources.getString("in_comparator") + "("); 
 		result = Strings.firstUpper(result.toLowerCase(Locales.getCurrent()).trim());
 		return result;
 	}

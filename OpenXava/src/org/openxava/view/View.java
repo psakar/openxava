@@ -5689,7 +5689,7 @@ public class View implements java.io.Serializable {
 	}
 	
 	/**
-	 * Add an action to the property. <p>
+	 * Remove an action to the property. <p>
 	 * 
 	 * Only the actions added with addActionForProperty() can be removed.<br> 
 	 * 
