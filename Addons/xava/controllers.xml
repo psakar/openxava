@@ -15,12 +15,16 @@
 			class="com.openxava.naviox.actions.InitSignInAction"/>
 	
 		<action name="signIn"  			
-			class="com.openxava.naviox.actions.SignInAction"/>
-		
-		<action name="signUp" 
-        	class="com.openxava.naviox.actions.GoSignUpAction"/>			
+			class="com.openxava.naviox.actions.SignInAction"/>			
 					
 	</controller>
+	
+	<controller name="GoSignUp">
+		
+		<action name="signUp"
+        	class="com.openxava.naviox.actions.GoSignUpAction"/>			
+					
+	</controller>	
 	
 	<controller name="SignUp">
     	<action name="signUp"
