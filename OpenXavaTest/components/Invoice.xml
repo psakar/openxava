@@ -404,7 +404,7 @@
 	</tab>
 	
 	<tab name="ManyTypes">
-		<properties>year, number, date, amountsSum, customer.email, paid, customer.name, customer.type</properties>
+		<properties>year, number, date, amountsSum, customer.email, paid, customer.name, customer.type, customer.seller.name</properties>
 	</tab>			
 		
 	<entity-mapping table="XAVATEST@separator@INVOICE">

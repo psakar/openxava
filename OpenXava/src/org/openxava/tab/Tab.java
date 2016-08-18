@@ -1503,6 +1503,8 @@ public class Tab implements java.io.Serializable {
 		String result = condition + " ";
 		if (conditionValues != null) {
 			result = result.replaceAll("\\([\\?,*]+\\)", "(?)"); // Groups: (?,?,?) --> (?)
+			result = result.replaceAll(
+				"year\\((\\$\\{[a-zA-Z0-9\\._]+\\})\\) = \\? and month\\(\\1\\) = \\?", "year/month($1) = ?"); // Year/month: year(${date}) = ? and month(${date}) = ? --> year/month(${date}) = ?
 			for (int i = 0; i < conditionValues.length; i++) {
 				String conditionValue = conditionValues[i];
 				if (Is.emptyString(conditionValue)) continue;
@@ -1513,6 +1515,13 @@ public class Tab implements java.io.Serializable {
 				else if (EQ_COMPARATOR.equals(conditionComparator) && getMetaPropertiesNotCalculated().get(i).hasValidValues()) { 
 					result = result.replaceFirst("\\?", getMetaPropertiesNotCalculated().get(i).getValidValueLabel(Integer.parseInt(conditionValue)));
 				}
+				else if (EQ_COMPARATOR.equals(conditionComparator) && conditionValue.contains(":_:")) { // For descriptions lists
+					String qualifiedName = getMetaPropertiesNotCalculated().get(i).getQualifiedName();
+					String rootName = Strings.noLastTokenWithoutLastDelim(qualifiedName, ".").replace(".", "\\.");
+					result = result.replaceAll("\\$\\{" + rootName + "\\.[a-zA-Z0-9_\\.]+\\}", "\\${" + rootName + "}");
+					result = result.replaceFirst("\\?", conditionValue.split(":_:")[1]);
+					result = result.replace("and ${" + rootName +  "} = ?", "");
+				}				
 				else {
 					result = result.replaceFirst("\\?", conditionValue);
 				}
@@ -1545,6 +1554,10 @@ public class Tab implements java.io.Serializable {
 		result = result.replace(" like ", " ");  
 		result = result.replace(" not in(", " " + XavaResources.getString("not_in_comparator") + "("); 
 		result = result.replace(" in(", " " + XavaResources.getString("in_comparator") + "("); 
+		result = result.replace("year/month(", " " + Labels.get("year") + "/" + Labels.get("month") + " " + XavaResources.getString("of") + " ");
+		result = result.replace("year(", " " + Labels.get("year") + " " + XavaResources.getString("of") + " ");
+		result = result.replace("month(", " " + Labels.get("month") + " " + XavaResources.getString("of") + " ");		
+		result = result.replace(") =", " =");
 		result = Strings.firstUpper(result.toLowerCase(Locales.getCurrent()).trim());
 		return result;
 	}

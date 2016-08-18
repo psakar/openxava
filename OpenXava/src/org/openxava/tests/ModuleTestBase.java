@@ -3,6 +3,7 @@ package org.openxava.tests;
 import java.io.*;
 import java.net.*;
 import java.util.*;
+import java.util.Collections;
 import java.util.logging.*;
 
 import junit.framework.*;
@@ -2760,5 +2761,46 @@ public class ModuleTestBase extends TestCase {
 		return getDiscussionElement(name).getOneHtmlElementByAttribute("div", "class", "ox-discussion");
 	}
 
+	/**
+	 * @since 5.6 
+	 */
+	protected void selectListConfiguration(String title) throws Exception {   
+		HtmlOption option =  getSelectListConfigurations().getOptionByText(title);
+		option.click();
+		getWebClient().waitForBackgroundJavaScriptStartingBefore(10000);
+	}
 
+	/**
+	 * @since 5.6 
+	 */	
+	protected void assertListSelectedConfiguration(String expectedTitle) {   
+		String title = getSelectListConfigurations().getSelectedOptions().get(0).asText();
+		assertEquals(expectedTitle, refineListConfigurationTitle(title));
+	}
+	
+	/**
+	 * @since 5.6 
+	 */	
+	protected void assertListAllConfigurations(String ... expectedTitles) { 
+		List<String> titles = new ArrayList<String>();
+		for (HtmlOption option: getSelectListConfigurations().getOptions()) {
+			String title = titles.isEmpty()?refineListConfigurationTitle(option.asText()):option.asText();
+			titles.add(title);
+		}
+		Collections.sort(titles);
+		List<String> expectedTitleList = Arrays.asList(expectedTitles);
+		Collections.sort(expectedTitleList);
+		assertEquals(expectedTitleList, titles);
+	}
+	
+	private HtmlSelect getSelectListConfigurations() { 
+		HtmlBody body = (HtmlBody) getHtmlPage().getElementsByTagName("body").get(0); 
+		HtmlElement listTitle = body.getOneHtmlElementByAttribute("td", "class", "ox-list-title"); // This class depend on the style
+		return (HtmlSelect) listTitle.getFirstElementChild(); // We assume that the configuration combo is the first element
+	}
+
+	private String refineListConfigurationTitle(String title) {
+		return title.substring(0, title.length() - 4);
+	}
+	
 }

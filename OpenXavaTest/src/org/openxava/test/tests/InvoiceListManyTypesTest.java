@@ -1,10 +1,6 @@
 package org.openxava.test.tests;
 
-import java.util.*;
-
 import org.openxava.tab.*;
-
-import com.gargoylesoftware.htmlunit.html.*;
 
 /**
  * 
@@ -17,7 +13,9 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 		super(testName, "InvoiceListManyTypes");		
 	}
 	
-	public void testListConfigurations() throws Exception {	
+	public void testListConfigurations() throws Exception {
+		// Don't separate in several test (separating in several method would be OK) 
+		// because we want test the accumulation of configuration without duplication
 		assertListSelectedConfiguration("All");
 		assertListAllConfigurations("All");
 		assertListRowCount(9);
@@ -95,6 +93,7 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 		assertListAllConfigurations("All", "Number = 1", "Year = 2004 and number > 10", "Paid", "Not paid", "Not paid and name of customer starts with j");
 		assertListRowCount(6);
 		
+		// Empty/not empty
 		clearCondition();
 		setConditionComparators("=", "=", "=", Tab.NOT_EMPTY_COMPARATOR, "<>"); // To test not empty combined with boolean(false value) because of a bug
 		setConditionValues("", "", "", "", "true");
@@ -121,6 +120,7 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 				"Email of customer is empty");
 		assertListRowCount(5);
 		
+		// Groups
 		clearCondition();
 		setConditionComparators(Tab.IN_COMPARATOR); 
 		setConditionValues("2002, 2004");
@@ -145,7 +145,8 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 			"Not paid and name of customer starts with j", "Email of customer is not empty", "Email of customer is not empty and not paid", 
 			"Email of customer is empty", "Year in group(2002, 2004)", "Year not in group(2002, 2004)");
 		assertListRowCount(6);
-		
+				
+		// Enums
 		clearCondition();
 		setConditionComparators("", "", "", "", "", "", "="); 
 		setConditionValues("", "", "", "", "", "", "1");
@@ -171,41 +172,77 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 				"Not paid and name of customer starts with j", "Email of customer is not empty", "Email of customer is not empty and not paid", 
 				"Email of customer is empty", "Year in group(2002, 2004)", "Year not in group(2002, 2004)", "Type of customer = steady",
 				"Type of customer = normal");
-		assertListRowCount(5);		
-	}
+		assertListRowCount(5);	
+		
+		// Year, month and year/month
+		clearCondition();
+		setConditionComparators("", "", Tab.YEAR_COMPARATOR); 
+		setConditionValues("", "", "2002");
+		execute("List.filter");
+		assertListSelectedConfiguration("Year of date = 2002");		
+		assertListAllConfigurations("All", "Number = 1", "Year = 2004 and number > 10", "Paid", "Not paid", 
+			"Not paid and name of customer starts with j", "Email of customer is not empty", "Email of customer is not empty and not paid", 
+			"Email of customer is empty", "Year in group(2002, 2004)", "Year not in group(2002, 2004)", "Type of customer = steady",
+			"Type of customer = normal", "Year of date = 2002");
+		assertListRowCount(1);
+		
+		setConditionComparators("", "", Tab.YEAR_MONTH_COMPARATOR); 
+		setConditionValues("", "", "2006/11");
+		execute("List.filter");
+		assertListSelectedConfiguration("Year/month of date = 2006/11");		
+		assertListAllConfigurations("All", "Number = 1", "Year = 2004 and number > 10", "Paid", "Not paid", 
+			"Not paid and name of customer starts with j", "Email of customer is not empty", "Email of customer is not empty and not paid", 
+			"Email of customer is empty", "Year in group(2002, 2004)", "Year not in group(2002, 2004)", "Type of customer = steady",
+			"Type of customer = normal", "Year of date = 2002", "Year/month of date = 2006/11");
+		assertListRowCount(2);		
 
+		setConditionComparators("", "", Tab.MONTH_COMPARATOR); 
+		setConditionValues("", "", "1");
+		execute("List.filter");
+		assertListSelectedConfiguration("Month of date = 1");		
+		assertListAllConfigurations("All", "Number = 1", "Year = 2004 and number > 10", "Paid", "Not paid", 
+			"Not paid and name of customer starts with j", "Email of customer is not empty", "Email of customer is not empty and not paid", 
+			"Email of customer is empty", "Year in group(2002, 2004)", "Year not in group(2002, 2004)", "Type of customer = steady",
+			"Type of customer = normal", "Year of date = 2002", "Year/month of date = 2006/11", "Month of date = 1");
+		assertListRowCount(3);
+		
+		selectListConfiguration("Year/month of date = 2006/11");
+		assertListSelectedConfiguration("Year/month of date = 2006/11");
+		assertListAllConfigurations("All", "Number = 1", "Year = 2004 and number > 10", "Paid", "Not paid", 
+				"Not paid and name of customer starts with j", "Email of customer is not empty", "Email of customer is not empty and not paid", 
+				"Email of customer is empty", "Year in group(2002, 2004)", "Year not in group(2002, 2004)", "Type of customer = steady",
+				"Type of customer = normal", "Year of date = 2002", "Year/month of date = 2006/11", "Month of date = 1");
+		assertListRowCount(2);
+		
+		// Descriptions list
+		clearCondition();
+		setConditionValues("", "", "", "", "", "", "", "1:_:MANUEL CHAVARRI");
+		execute("List.filter");
+		assertListSelectedConfiguration("Seller of customer = manuel chavarri");		
+		assertListAllConfigurations("All", "Number = 1", "Year = 2004 and number > 10", "Paid", "Not paid", 
+				"Not paid and name of customer starts with j", "Email of customer is not empty", "Email of customer is not empty and not paid", 
+				"Email of customer is empty", "Year in group(2002, 2004)", "Year not in group(2002, 2004)", "Type of customer = steady",
+				"Type of customer = normal", "Year of date = 2002", "Year/month of date = 2006/11", "Month of date = 1",
+				"Seller of customer = manuel chavarri");
+		assertListRowCount(7);		
 
-	private void selectListConfiguration(String title) throws Exception {  
-		HtmlOption option =  getSelectListConfigurations().getOptionByText(title);
-		option.click();
-		getWebClient().waitForBackgroundJavaScriptStartingBefore(10000);
-	}
-
-	private void assertListSelectedConfiguration(String expectedTitle) {   
-		String title = getSelectListConfigurations().getSelectedOptions().get(0).asText();
-		assertEquals(expectedTitle, refineListConfigurationTitle(title));
-	}
-	
-	private String refineListConfigurationTitle(String title) {
-		return title.substring(0, title.length() - 4);
-	}
-	
-	private void assertListAllConfigurations(String ... expectedTitles) {   
-		List<String> titles = new ArrayList<String>();
-		for (HtmlOption option: getSelectListConfigurations().getOptions()) {
-			String title = titles.isEmpty()?refineListConfigurationTitle(option.asText()):option.asText();
-			titles.add(title);
-		}
-		Collections.sort(titles);
-		List<String> expectedTitleList = Arrays.asList(expectedTitles);
-		Collections.sort(expectedTitleList);
-		assertEquals(expectedTitleList, titles);
-	}
-	
-	private HtmlSelect getSelectListConfigurations() { 
-		HtmlBody body = (HtmlBody) getHtmlPage().getElementsByTagName("body").get(0); 
-		HtmlElement listTitle = body.getOneHtmlElementByAttribute("td", "class", "ox-list-title"); // This class depend on the style
-		return (HtmlSelect) listTitle.getFirstElementChild(); // We assume that the configuration combo is the first element
+		selectListConfiguration("All");
+		assertListSelectedConfiguration("All");		
+		assertListAllConfigurations("All", "Number = 1", "Year = 2004 and number > 10", "Paid", "Not paid", 
+				"Not paid and name of customer starts with j", "Email of customer is not empty", "Email of customer is not empty and not paid", 
+				"Email of customer is empty", "Year in group(2002, 2004)", "Year not in group(2002, 2004)", "Type of customer = steady",
+				"Type of customer = normal", "Year of date = 2002", "Year/month of date = 2006/11", "Month of date = 1",
+				"Seller of customer = manuel chavarri");
+		assertListRowCount(9);
+		
+		selectListConfiguration("Seller of customer = manuel chavarri");
+		assertListSelectedConfiguration("Seller of customer = manuel chavarri");		
+		assertListAllConfigurations("All", "Number = 1", "Year = 2004 and number > 10", "Paid", "Not paid", 
+				"Not paid and name of customer starts with j", "Email of customer is not empty", "Email of customer is not empty and not paid", 
+				"Email of customer is empty", "Year in group(2002, 2004)", "Year not in group(2002, 2004)", "Type of customer = steady",
+				"Type of customer = normal", "Year of date = 2002", "Year/month of date = 2006/11", "Month of date = 1",
+				"Seller of customer = manuel chavarri");
+		assertListRowCount(7);		
 	}
 	
 }
