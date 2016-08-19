@@ -2613,7 +2613,8 @@ public class ModuleTestBase extends TestCase {
 
 	protected void setLocale(String locale) throws Exception {
 		this.locale = locale;
-		resetModule();
+		client.addRequestHeader("Accept-Language", getLocale());
+		reload();
 	}		
 	
 	/**

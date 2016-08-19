@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- ModuleTestBase.setLocale() no longer reset the module.
 - New selectListConfiguration(), assertListSelectedConfiguration() and assertListAllConfigurations() in ModuleTestBase.
 - New method clearCondition() in ModuleTestBase to simulate clicking on the clear list condition button.
 - Fix: Labels.getQualified(String id) does not return the qualified label.

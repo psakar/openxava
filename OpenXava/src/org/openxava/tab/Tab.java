@@ -37,9 +37,80 @@ public class Tab implements java.io.Serializable {
 	public class Configuration {  
 							
 		private int id;  
-		private String name; 
+		private String condition; 
 		private String [] conditionComparators;
 		private String [] conditionValues;
+		
+		private String translateCondition(String condition) { 
+			try { 
+				if (Is.empty(condition)) return Labels.get("all"); 
+				String result = condition + " ";
+				if (conditionValues != null) {
+					result = result.replaceAll("\\([\\?,*]+\\)", "(?)"); // Groups: (?,?,?) --> (?)
+					result = result.replaceAll(
+						"year\\((\\$\\{[a-zA-Z0-9\\._]+\\})\\) = \\? and month\\(\\1\\) = \\?", "year/month($1) = ?"); // Year/month: year(${date}) = ? and month(${date}) = ? --> year/month(${date}) = ?
+					for (int i = 0; i < conditionValues.length; i++) {
+						String conditionValue = conditionValues[i];
+						if (Is.emptyString(conditionValue)) continue;
+						String conditionComparator = conditionComparators[i];
+						if (Is.anyEqual(conditionComparator, STARTS_COMPARATOR, CONTAINS_COMPARATOR, ENDS_COMPARATOR, NOT_CONTAINS_COMPARATOR)) { 
+							result = result.replaceFirst("\\?", XavaResources.getString(conditionComparator) + " " + conditionValue);
+						}
+						else if (EQ_COMPARATOR.equals(conditionComparator) && getMetaPropertiesNotCalculated().get(i).hasValidValues()) { 
+							result = result.replaceFirst("\\?", getMetaPropertiesNotCalculated().get(i).getValidValueLabel(Integer.parseInt(conditionValue)));
+						}
+						else if (EQ_COMPARATOR.equals(conditionComparator) && conditionValue.contains(":_:")) { // For descriptions lists
+							String qualifiedName = getMetaPropertiesNotCalculated().get(i).getQualifiedName();
+							String rootName = Strings.noLastTokenWithoutLastDelim(qualifiedName, ".").replace(".", "\\.");
+							result = result.replaceAll("\\$\\{" + rootName + "\\.[a-zA-Z0-9_\\.]+\\}", "\\${" + rootName + "}");
+							result = result.replaceFirst("\\?", conditionValue.split(":_:")[1]);
+							result = result.replace("and ${" + rootName +  "} = ?", "");
+						}				
+						else {
+							result = result.replaceFirst("\\?", conditionValue);
+						}
+					} 
+				}	
+				result = result.replace("upper(", ""); 
+				result = result.replace("replace(", ""); 
+				result = result.replaceAll(", '.', '.'\\)+", "");
+				result = result.replaceAll("\\$\\{[a-zA-Z0-9\\._]+\\} <> true($| )", XavaResources.getString("not") + " $0");
+				result = result.replace(" = true ", " "); // Boolean
+				result = result.replace(" <> true ", " "); // Boolean
+				result = result.replaceAll("\\((\\$\\{[a-zA-Z0-9\\._]+\\}) is not null and \\$\\{[a-zA-Z0-9\\._]+\\} <> ''\\)", "$1 " + XavaResources.getString("not_empty_comparator")); // Is not empty 
+				result = result.replaceAll("\\((\\$\\{[a-zA-Z0-9\\._]+\\}) is null or \\$\\{[a-zA-Z0-9\\._]+\\} = ''\\)", "$1 " + XavaResources.getString("empty_comparator")); // Is empty
+				StringBuffer r = new StringBuffer(result);
+				int i = r.toString().indexOf("${");
+				int f = 0;
+				while (i >= 0) {
+					f = r.toString().indexOf("}", i + 2);
+					if (f < 0) break;
+					String property = r.substring(i + 2, f);
+					String translation = Labels.getQualified(property); 
+					r.replace(i, f + 1, translation);
+					i = r.toString().indexOf("${");
+				}
+				result = r.toString().replace("1=1", "");
+				result = result.replace("order by ", Labels.get("orderedBy") + " ");
+				result = result.replace(" desc ", " " + Labels.get("descending") + " "); 
+				result = result.replace(" and ", " " + Labels.get("and") + " ");
+				result = result.replace(" not like ", " "); 
+				result = result.replace(" like ", " ");  
+				result = result.replace(" not in(", " " + XavaResources.getString("not_in_comparator") + "("); 
+				result = result.replace(" in(", " " + XavaResources.getString("in_comparator") + "("); 
+				result = result.replace("year/month(", " " + Labels.get("year") + "/" + Labels.get("month") + " " + XavaResources.getString("of") + " ");
+				result = result.replace("year(", " " + Labels.get("year") + " " + XavaResources.getString("of") + " ");
+				result = result.replace("month(", " " + Labels.get("month") + " " + XavaResources.getString("of") + " ");		
+				result = result.replace(") =", " =");
+				result = Strings.firstUpper(result.toLowerCase(Locales.getCurrent()).trim());
+				return result;
+			}
+			catch (Exception ex) {
+				log.error(XavaResources.getString("list_condition_translation_error", condition), ex);
+				return condition;
+			}
+		}
+
 		
 		public int getId() { 
 			if (id == 0) {
@@ -64,10 +135,7 @@ public class Tab implements java.io.Serializable {
 			return id;
 		}
 		public String getName() {
-			return name;
-		}
-		public void setName(String name) {
-			this.name = name;
+			return translateCondition(condition); 
 		}
 		public String [] getConditionComparators() {
 			return conditionComparators;
@@ -81,9 +149,16 @@ public class Tab implements java.io.Serializable {
 		public void setConditionValues(String [] conditionValues) {
 			this.conditionValues = conditionValues;
 		}
+		public String getCondition() {
+			return condition;
+		}
+		public void setCondition(String condition) {
+			this.condition = condition;
+		}
 
 	}
-	private Map<Integer, Configuration> configurations = new HashMap<Integer, Configuration>();     
+	private Map<Integer, Configuration> configurations = new HashMap<Integer, Configuration>();
+	private Configuration configuration; 
 	
 	private static final long serialVersionUID = 1724100598886966704L;
 	private static Log log = LogFactory.getLog(Tab.class);
@@ -1454,14 +1529,14 @@ public class Tab implements java.io.Serializable {
 	public void saveConfiguration() {  
 		if (configurations.isEmpty()) {
 			Configuration allConfiguration = new Configuration();
-			allConfiguration.setName(Labels.get("all"));
 			configurations.put(allConfiguration.getId(), allConfiguration);
 		}
-		Configuration conf = new Configuration();
-		conf.setName(getConfigurationName()); 
-		conf.setConditionValues(conditionValues);
-		conf.setConditionComparators(conditionComparators);
-		configurations.put(conf.getId(), conf);
+		Configuration newConfiguration = new Configuration();
+		newConfiguration.setCondition(getCondition()); 
+		newConfiguration.setConditionValues(conditionValues);
+		newConfiguration.setConditionComparators(conditionComparators);
+		configurations.put(newConfiguration.getId(), newConfiguration);
+		configuration = newConfiguration; 
 	}
 	
 	public Collection<Configuration> getConfigurations() {  
@@ -1469,14 +1544,20 @@ public class Tab implements java.io.Serializable {
 	}
 	
 	public void setConfigurationId(int configurationId) {   
-		Configuration filter = configurations.get(configurationId);
-		setConditionValuesImpl(refineConfigurationValues(filter.getConditionValues()));
-		setConditionComparatorsImpl(refineConfigurationValues(filter.getConditionComparators()));
+		configuration = configurations.get(configurationId); 
+		setConditionValuesImpl(refineConfigurationValues(configuration.getConditionValues()));
+		setConditionComparatorsImpl(refineConfigurationValues(configuration.getConditionComparators()));
 		conditionJustCleared = true;
 	}
 	
 	private String [] refineConfigurationValues(String [] values) { 
-		if (values == null) return new String[getMetaPropertiesNotCalculated().size()];
+		if (values == null) {
+			values = new String[getMetaPropertiesNotCalculated().size()];
+			for (int i=0; i<values.length; i++) {
+				values[i] = "";
+			}
+			return values;
+		}
 		return values;
 	}
 
@@ -1492,74 +1573,9 @@ public class Tab implements java.io.Serializable {
 		return XavaResources.getString(request, "report_title", modelLabel);
 	}
 	
-	public String getConfigurationName() throws XavaException { 
-		setFilteredConditionValues(); 
-		String condition = getCondition();
-		if (!Is.emptyString(condition)) return translateCondition(condition);
+	public String getConfigurationName() throws XavaException {
+		if (configuration != null) return configuration.getName(); 
 		return Labels.get("all");
-	}
-
-	private String translateCondition(String condition) {
-		String result = condition + " ";
-		if (conditionValues != null) {
-			result = result.replaceAll("\\([\\?,*]+\\)", "(?)"); // Groups: (?,?,?) --> (?)
-			result = result.replaceAll(
-				"year\\((\\$\\{[a-zA-Z0-9\\._]+\\})\\) = \\? and month\\(\\1\\) = \\?", "year/month($1) = ?"); // Year/month: year(${date}) = ? and month(${date}) = ? --> year/month(${date}) = ?
-			for (int i = 0; i < conditionValues.length; i++) {
-				String conditionValue = conditionValues[i];
-				if (Is.emptyString(conditionValue)) continue;
-				String conditionComparator = conditionComparators[i];
-				if (Is.anyEqual(conditionComparator, STARTS_COMPARATOR, CONTAINS_COMPARATOR, ENDS_COMPARATOR, NOT_CONTAINS_COMPARATOR)) { 
-					result = result.replaceFirst("\\?", XavaResources.getString(conditionComparator) + " " + conditionValue);
-				}
-				else if (EQ_COMPARATOR.equals(conditionComparator) && getMetaPropertiesNotCalculated().get(i).hasValidValues()) { 
-					result = result.replaceFirst("\\?", getMetaPropertiesNotCalculated().get(i).getValidValueLabel(Integer.parseInt(conditionValue)));
-				}
-				else if (EQ_COMPARATOR.equals(conditionComparator) && conditionValue.contains(":_:")) { // For descriptions lists
-					String qualifiedName = getMetaPropertiesNotCalculated().get(i).getQualifiedName();
-					String rootName = Strings.noLastTokenWithoutLastDelim(qualifiedName, ".").replace(".", "\\.");
-					result = result.replaceAll("\\$\\{" + rootName + "\\.[a-zA-Z0-9_\\.]+\\}", "\\${" + rootName + "}");
-					result = result.replaceFirst("\\?", conditionValue.split(":_:")[1]);
-					result = result.replace("and ${" + rootName +  "} = ?", "");
-				}				
-				else {
-					result = result.replaceFirst("\\?", conditionValue);
-				}
-			} 
-		}		
-		result = result.replace("upper(", ""); 
-		result = result.replace("replace(", ""); 
-		result = result.replaceAll(", '.', '.'\\)+", "");
-		result = result.replaceAll("\\$\\{[a-zA-Z0-9\\._]+\\} <> true($| )", XavaResources.getString("not") + " $0");
-		result = result.replace(" = true ", " "); // Boolean
-		result = result.replace(" <> true ", " "); // Boolean
-		result = result.replaceAll("\\((\\$\\{[a-zA-Z0-9\\._]+\\}) is not null and \\$\\{[a-zA-Z0-9\\._]+\\} <> ''\\)", "$1 " + XavaResources.getString("not_empty_comparator")); // Is not empty 
-		result = result.replaceAll("\\((\\$\\{[a-zA-Z0-9\\._]+\\}) is null or \\$\\{[a-zA-Z0-9\\._]+\\} = ''\\)", "$1 " + XavaResources.getString("empty_comparator")); // Is empty
-		StringBuffer r = new StringBuffer(result);
-		int i = r.toString().indexOf("${");
-		int f = 0;
-		while (i >= 0) {
-			f = r.toString().indexOf("}", i + 2);
-			if (f < 0) break;
-			String property = r.substring(i + 2, f);
-			String translation = Labels.getQualified(property); 
-			r.replace(i, f + 1, translation);
-			i = r.toString().indexOf("${");
-		}
-		result = r.toString().replace("1=1", "");
-		result = result.replace("order by ", Labels.get("orderedBy") + " ");
-		result = result.replace(" desc ", " " + Labels.get("descending") + " "); 
-		result = result.replace(" and ", " " + Labels.get("and") + " ");
-		result = result.replace(" not like ", " "); 
-		result = result.replace(" like ", " ");  
-		result = result.replace(" not in(", " " + XavaResources.getString("not_in_comparator") + "("); 
-		result = result.replace(" in(", " " + XavaResources.getString("in_comparator") + "("); 
-		result = result.replace("year/month(", " " + Labels.get("year") + "/" + Labels.get("month") + " " + XavaResources.getString("of") + " ");
-		result = result.replace("year(", " " + Labels.get("year") + " " + XavaResources.getString("of") + " ");
-		result = result.replace("month(", " " + Labels.get("month") + " " + XavaResources.getString("of") + " ");		
-		result = result.replace(") =", " =");
-		result = Strings.firstUpper(result.toLowerCase(Locales.getCurrent()).trim());
-		return result;
 	}
 
 	/**
