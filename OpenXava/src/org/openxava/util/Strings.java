@@ -390,8 +390,8 @@ public class Strings {
    * For example, a collection of 3 elements with 3 names 
    * is converted to the string <i>Angel, Manolo, Antonia</i> <br>
    *
-   * @param collection  Collection with the elements. If null return a empty string
-   * @return Not null, including the case <tt>list == null</tt>.
+   * @param collection  Collection with the elements. If null return an empty string
+   * @return Not null, including the case <tt>collection == null</tt>.
    */
   public final static String toString(Collection collection) {
   	return toString(collection, ",");
@@ -404,9 +404,9 @@ public class Strings {
    * For example, a collection of 3 elements with this 3 names
    * is converted to a string of 3 elements with this 3 names and colon (for example).<br>
    *
-   * @param collection  A collection of objects. If null return a empty string
+   * @param collection  A collection of objects. If null return an empty string
    * @param separator  The character used as separator.
-   * @return Not null, including the case <tt>list == null</tt>.
+   * @return Not null, including the case <tt>collection == null</tt>.
    */
   public final static String toString(Collection collection, String separator) {
 		Assert.arg(separator);
@@ -421,6 +421,37 @@ public class Strings {
 		}	
 		return cad.toString();
   }
+  
+  /**
+   * Converts an array of objects in a string of comma separated elements. <p> 
+   *
+   * For example, an array of 3 elements with 3 names 
+   * is converted to the string <i>Angel, Manolo, Antonia</i> <br>
+   *
+   * @param array  Array with the elements. If null return a empty string
+   * @return Not null, including the case <tt>array == null</tt>.
+   * @since 5.6
+   */
+  public final static String toString(Object [] array) { 
+	  return toString(Arrays.asList(array));
+  }
+  
+  /**
+   * Converts an array of objects in string of elements separated by a 
+   * arbitrary character . <p> 
+   *
+   * For example, an array of 3 elements with this 3 names
+   * is converted to a string of 3 elements with this 3 names and colon (for example).<br>
+   *
+   * @param array  An array of objects. If null return an empty string
+   * @param separator  The character used as separator.
+   * @return Not null, including the case <tt>array == null</tt>.
+   * @since 5.6
+   */
+  public final static String toString(Object [] array, String separator) { 
+	  return toString(Arrays.asList(array), separator);
+  }
+
      
   /**
    * Converts a string a object of the specified type. <p>

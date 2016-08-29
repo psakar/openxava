@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- New toString(Object [] array) method in Strings utility class.
 - ModuleTestBase.setLocale() no longer reset the module.
 - New selectListConfiguration(), assertListSelectedConfiguration() and assertListAllConfigurations() in ModuleTestBase.
 - New method clearCondition() in ModuleTestBase to simulate clicking on the clear list condition button.

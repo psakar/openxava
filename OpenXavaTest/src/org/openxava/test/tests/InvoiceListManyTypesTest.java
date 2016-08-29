@@ -13,6 +13,8 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 		super(testName, "InvoiceListManyTypes");		
 	}
 	
+	
+	// Remove .openxava before execute this test
 	public void testListConfigurations() throws Exception {
 		// Don't separate in several test (separating in several method would be OK) 
 		// because we want test the accumulation of configuration without duplication
@@ -267,6 +269,24 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 			"Tipo de cliente = normal", "Año de fecha = 2002", "Año/mes de fecha = 2006/11", "Mes de fecha = 1",
 			"Comercial de cliente = manuel chavarri");
 		assertListRowCount(2);
+		
+		// Persistence
+		resetModule();
+		assertListRowCount(9);
+		assertListSelectedConfiguration("Todos");
+		assertListAllConfigurations("Todos", "Número = 1", "Año = 2004 y número > 10", "Pagada", "No pagada", 
+			"No pagada y nombre de cliente empieza por j", "Correo electrónico de cliente no está vacío", "Correo electrónico de cliente no está vacío y no pagada", 
+			"Correo electrónico de cliente está vacío", "Año en grupo(2002, 2004)", "Año no en grupo(2002, 2004)", "Tipo de cliente = fijo",
+			"Tipo de cliente = normal", "Año de fecha = 2002", "Año/mes de fecha = 2006/11", "Mes de fecha = 1",
+			"Comercial de cliente = manuel chavarri");		
+		selectListConfiguration("Año/mes de fecha = 2006/11");
+		assertListSelectedConfiguration("Año/mes de fecha = 2006/11");
+		assertListAllConfigurations("Todos", "Número = 1", "Año = 2004 y número > 10", "Pagada", "No pagada", 
+			"No pagada y nombre de cliente empieza por j", "Correo electrónico de cliente no está vacío", "Correo electrónico de cliente no está vacío y no pagada", 
+			"Correo electrónico de cliente está vacío", "Año en grupo(2002, 2004)", "Año no en grupo(2002, 2004)", "Tipo de cliente = fijo",
+			"Tipo de cliente = normal", "Año de fecha = 2002", "Año/mes de fecha = 2006/11", "Mes de fecha = 1",
+			"Comercial de cliente = manuel chavarri");
+		assertListRowCount(2);		
 	}
 	
 }

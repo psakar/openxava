@@ -10,6 +10,7 @@ import java.util.prefs.*;
 import javax.servlet.http.*;
 
 import org.apache.commons.lang.*;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.logging.*;
 import org.openxava.application.meta.*;
 import org.openxava.component.*;
@@ -194,7 +195,10 @@ public class Tab implements java.io.Serializable {
 	private final static String FILTER_VISIBLE = "filterVisible";
 	private final static String PAGE_ROW_COUNT = "pageRowCount"; 
 	private final static String COLUMN_WIDTH = "columnWidth."; 
-	private final static int MAX_PAGE_ROW_COUNT = 20; 
+	private final static int MAX_PAGE_ROW_COUNT = 20;
+	private static final String CONFIGURATION_CONDITION = "condition";
+	private static final String CONFIGURATION_CONDITION_COMPARATORS = "conditionComparators";
+	private static final String CONFIGURATION_CONDITION_VALUES = "conditionValues";
 	
 	private static Object refiner; 
 	
@@ -1476,6 +1480,10 @@ public class Tab implements java.io.Serializable {
 		return Users.getCurrentPreferences().node(getPreferencesNodeName("")); 
 	}
 	
+	private Preferences getConfigurationsPreferences() throws BackingStoreException { 
+		return Users.getCurrentPreferences().node(getPreferencesNodeName("configurations."));  
+	}
+	
 	public String getPreferencesNodeName(String prefix) { 
 		String application = "";
 		String module = "";
@@ -1537,8 +1545,23 @@ public class Tab implements java.io.Serializable {
 		newConfiguration.setConditionComparators(conditionComparators);
 		configurations.put(newConfiguration.getId(), newConfiguration);
 		configuration = newConfiguration; 
+		saveConfigurationPreferences(); 
 	}
 	
+	private void saveConfigurationPreferences() { 
+		try { 
+			Preferences configurationsPreferences = getConfigurationsPreferences();
+			Preferences configurationPreferences = configurationsPreferences.node(Integer.toString(configuration.getId()));
+			configurationPreferences.put(CONFIGURATION_CONDITION, configuration.getCondition());
+			configurationPreferences.put(CONFIGURATION_CONDITION_COMPARATORS, Strings.toString(configuration.getConditionComparators(), "|"));
+			configurationPreferences.put(CONFIGURATION_CONDITION_VALUES, Strings.toString(configuration.getConditionValues(), "|"));
+			configurationPreferences.flush();
+		}
+		catch (Exception ex) {
+			log.warn(XavaResources.getString("warning_save_preferences_tab"),ex); 
+		}		
+	}
+
 	public Collection<Configuration> getConfigurations() {  
 		return configurations.values();
 	}
@@ -1804,12 +1827,29 @@ public class Tab implements java.io.Serializable {
 					columnWidths.put(property.getQualifiedName(), value);
 				}
 			}
+			
+			loadConfigurationsPreferences ();  
 		}
 		catch (Exception ex) {
 			log.warn(XavaResources.getString("warning_load_preferences_tab"),ex);
 		}
 	}
 
+	private void loadConfigurationsPreferences () throws Exception {  
+		Preferences configurationsPreferences = getConfigurationsPreferences();
+		configurations.clear();
+		for (String confName: configurationsPreferences.childrenNames()) {
+			Preferences pref = configurationsPreferences.node(confName);
+			Configuration conf = new Configuration();
+			conf.setCondition(pref.get(CONFIGURATION_CONDITION, ""));
+			conf.setConditionComparators(StringUtils.splitPreserveAllTokens(pref.get(CONFIGURATION_CONDITION_COMPARATORS, ""), "|"));
+			conf.setConditionValues(StringUtils.splitPreserveAllTokens(pref.get(CONFIGURATION_CONDITION_VALUES, ""), "|"));
+			configurations.put(conf.getId(), conf);
+		}
+		Configuration all = new Configuration();
+		configurations.put(all.getId(), all);
+	}
+	
 	private String removeNonexistentProperties(String properties) {
 		if (propertiesExists(properties)) return properties; // It is the usual case, so we save the below code most times
 		StringBuffer sb = new StringBuffer();
