@@ -41,6 +41,10 @@ public class Tab implements java.io.Serializable {
 		private String condition; 
 		private String [] conditionComparators;
 		private String [] conditionValues;
+		private boolean descendingOrder = false;
+		private boolean descendingOrder2 = false; 
+		private String orderBy;	
+		private String orderBy2; 		
 		
 		private String translateCondition(String condition) { 
 			try { 
@@ -93,7 +97,11 @@ public class Tab implements java.io.Serializable {
 				}
 				result = r.toString().replace("1=1", "");
 				result = result.replace("order by ", Labels.get("orderedBy") + " ");
-				result = result.replace(" desc ", " " + Labels.get("descending") + " "); 
+				boolean explicitAscending = result.contains(" desc ") || result.contains(" desc,"); 
+				result = result.replace(" desc ", " " + Labels.get("descending") + " ");
+				result = result.replace(" desc,", " " + Labels.get("descending") + " " + XavaResources.getString("and"));
+				result = result.replace(" asc ", explicitAscending?" " + Labels.get("ascending") + " ":" ");
+				result = result.replace(" asc,", explicitAscending?" " + Labels.get("ascending") + " " + XavaResources.getString("and"):" " + XavaResources.getString("and"));
 				result = result.replace(" and ", " " + Labels.get("and") + " ");
 				result = result.replace(" not like ", " "); 
 				result = result.replace(" like ", " ");  
@@ -115,6 +123,7 @@ public class Tab implements java.io.Serializable {
 		
 		public int getId() { 
 			if (id == 0) {
+				String sid = "__ALL__"; 
 				if (conditionValues != null && conditionComparators != null ) {
 					StringBuffer s = new StringBuffer();
 					for (String conditionValue: conditionValues) {
@@ -127,11 +136,10 @@ public class Tab implements java.io.Serializable {
 						else s.append(conditionComparator);
 						s.append(":");
 					}							
-					id = s.toString().hashCode();
+					sid = s.toString();
 				}
-				else {
-					id = "__ALL__".hashCode(); 
-				}
+				sid = sid + ":" + (orderBy==null?"":orderBy) + ":" + descendingOrder + ":" + (orderBy2==null?"":orderBy2) + ":" + descendingOrder2;
+				id = sid.hashCode();
 			}
 			return id;
 		}
@@ -156,6 +164,44 @@ public class Tab implements java.io.Serializable {
 		public void setCondition(String condition) {
 			this.condition = condition;
 		}
+		public boolean isDescendingOrder() {
+			return descendingOrder;
+		}
+
+
+		public void setDescendingOrder(boolean descendingOrder) {
+			this.descendingOrder = descendingOrder;
+		}
+
+
+		public boolean isDescendingOrder2() {
+			return descendingOrder2;
+		}
+
+
+		public void setDescendingOrder2(boolean descendingOrder2) {
+			this.descendingOrder2 = descendingOrder2;
+		}
+
+
+		public String getOrderBy() {
+			return orderBy;
+		}
+
+
+		public void setOrderBy(String orderBy) {
+			this.orderBy = orderBy;
+		}
+
+
+		public String getOrderBy2() {
+			return orderBy2;
+		}
+
+
+		public void setOrderBy2(String orderBy2) {
+			this.orderBy2 = orderBy2;
+		}		
 
 	}
 	private Map<Integer, Configuration> configurations = new HashMap<Integer, Configuration>();
@@ -199,6 +245,10 @@ public class Tab implements java.io.Serializable {
 	private static final String CONFIGURATION_CONDITION = "condition";
 	private static final String CONFIGURATION_CONDITION_COMPARATORS = "conditionComparators";
 	private static final String CONFIGURATION_CONDITION_VALUES = "conditionValues";
+	private static final String CONFIGURATION_ORDER_BY = "orderBy";
+	private static final String CONFIGURATION_ORDER_BY2 = "orderBy2";
+	private static final String CONFIGURATION_DESCENDING_ORDER = "descendingOrder";
+	private static final String CONFIGURATION_DESCENDING_ORDER2 = "descendingOrder2";
 	
 	private static Object refiner; 
 	
@@ -762,17 +812,13 @@ public class Tab implements java.io.Serializable {
 				sb.append("${");
 				sb.append(pOrder.getQualifiedName()); 
 				sb.append('}');
-				if (descendingOrder) {
-					sb.append(" desc");
-				}
+				sb.append(descendingOrder?" desc":" asc"); 
 				if (pOrder2 != null) {
 					sb.append(", "); 
 					sb.append("${");  
 					sb.append(pOrder2.getQualifiedName());
 					sb.append('}');
-					if (descendingOrder2) {
-						sb.append(" desc");
-					}								
+					sb.append(descendingOrder2?" desc":" asc"); 
 				}
 			}				
 			else if (getMetaTab().hasDefaultOrder()) {
@@ -1543,6 +1589,10 @@ public class Tab implements java.io.Serializable {
 		newConfiguration.setCondition(getCondition()); 
 		newConfiguration.setConditionValues(conditionValues);
 		newConfiguration.setConditionComparators(conditionComparators);
+		newConfiguration.setOrderBy(orderBy);
+		newConfiguration.setDescendingOrder(descendingOrder);
+		newConfiguration.setOrderBy2(orderBy2);
+		newConfiguration.setDescendingOrder2(descendingOrder2);
 		configurations.put(newConfiguration.getId(), newConfiguration);
 		configuration = newConfiguration; 
 		saveConfigurationPreferences(); 
@@ -1555,6 +1605,10 @@ public class Tab implements java.io.Serializable {
 			configurationPreferences.put(CONFIGURATION_CONDITION, configuration.getCondition());
 			configurationPreferences.put(CONFIGURATION_CONDITION_COMPARATORS, Strings.toString(configuration.getConditionComparators(), "|"));
 			configurationPreferences.put(CONFIGURATION_CONDITION_VALUES, Strings.toString(configuration.getConditionValues(), "|"));
+			if (configuration.getOrderBy() != null ) configurationPreferences.put(CONFIGURATION_ORDER_BY, configuration.getOrderBy());
+			if (configuration.getOrderBy2() != null ) configurationPreferences.put(CONFIGURATION_ORDER_BY2, configuration.getOrderBy2());
+			configurationPreferences.putBoolean(CONFIGURATION_DESCENDING_ORDER, configuration.isDescendingOrder());
+			configurationPreferences.putBoolean(CONFIGURATION_DESCENDING_ORDER2, configuration.isDescendingOrder2());
 			configurationPreferences.flush();
 		}
 		catch (Exception ex) {
@@ -1570,6 +1624,10 @@ public class Tab implements java.io.Serializable {
 		configuration = configurations.get(configurationId); 
 		setConditionValuesImpl(refineConfigurationValues(configuration.getConditionValues()));
 		setConditionComparatorsImpl(refineConfigurationValues(configuration.getConditionComparators()));
+		orderBy = configuration.getOrderBy();
+		orderBy2 = configuration.getOrderBy2();
+		descendingOrder = configuration.isDescendingOrder();
+		descendingOrder2 = configuration.isDescendingOrder2();
 		conditionJustCleared = true;
 	}
 	
@@ -1828,7 +1886,7 @@ public class Tab implements java.io.Serializable {
 				}
 			}
 			
-			loadConfigurationsPreferences ();  
+			loadConfigurationsPreferences();  
 		}
 		catch (Exception ex) {
 			log.warn(XavaResources.getString("warning_load_preferences_tab"),ex);
@@ -1844,6 +1902,10 @@ public class Tab implements java.io.Serializable {
 			conf.setCondition(pref.get(CONFIGURATION_CONDITION, ""));
 			conf.setConditionComparators(StringUtils.splitPreserveAllTokens(pref.get(CONFIGURATION_CONDITION_COMPARATORS, ""), "|"));
 			conf.setConditionValues(StringUtils.splitPreserveAllTokens(pref.get(CONFIGURATION_CONDITION_VALUES, ""), "|"));
+			conf.setOrderBy(pref.get(CONFIGURATION_ORDER_BY, null));
+			conf.setOrderBy2(pref.get(CONFIGURATION_ORDER_BY2, null));
+			conf.setDescendingOrder(pref.getBoolean(CONFIGURATION_DESCENDING_ORDER, false));
+			conf.setDescendingOrder2(pref.getBoolean(CONFIGURATION_DESCENDING_ORDER2, false));
 			configurations.put(conf.getId(), conf);
 		}
 		Configuration all = new Configuration();

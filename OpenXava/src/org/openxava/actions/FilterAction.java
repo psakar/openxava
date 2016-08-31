@@ -5,7 +5,7 @@ package org.openxava.actions;
  * @author Javier Paniza
  */
 
-public class FilterAction extends TabBaseAction {
+public class FilterAction extends TabBaseAction { 
 	
 	private int configurationId;   
 	
