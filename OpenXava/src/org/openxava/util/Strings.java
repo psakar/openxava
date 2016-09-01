@@ -432,8 +432,8 @@ public class Strings {
    * @return Not null, including the case <tt>array == null</tt>.
    * @since 5.6
    */
-  public final static String toString(Object [] array) { 
-	  return toString(Arrays.asList(array));
+  public final static String toString(Object [] array) {
+	  return toString(array, ","); 
   }
   
   /**
@@ -448,7 +448,8 @@ public class Strings {
    * @return Not null, including the case <tt>array == null</tt>.
    * @since 5.6
    */
-  public final static String toString(Object [] array, String separator) { 
+  public final static String toString(Object [] array, String separator) {
+	  if (array == null) return ""; 
 	  return toString(Arrays.asList(array), separator);
   }
 

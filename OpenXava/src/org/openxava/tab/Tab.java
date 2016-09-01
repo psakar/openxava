@@ -35,12 +35,13 @@ import org.openxava.web.*;
 
 public class Tab implements java.io.Serializable {
 	
-	public class Configuration {  
+	public class Configuration implements java.io.Serializable {   
 							
 		private int id;  
 		private String condition; 
 		private String [] conditionComparators;
 		private String [] conditionValues;
+		private String [] conditionValuesTo;  
 		private boolean descendingOrder = false;
 		private boolean descendingOrder2 = false; 
 		private String orderBy;	
@@ -54,6 +55,7 @@ public class Tab implements java.io.Serializable {
 					result = result.replaceAll("\\([\\?,*]+\\)", "(?)"); // Groups: (?,?,?) --> (?)
 					result = result.replaceAll(
 						"year\\((\\$\\{[a-zA-Z0-9\\._]+\\})\\) = \\? and month\\(\\1\\) = \\?", "year/month($1) = ?"); // Year/month: year(${date}) = ? and month(${date}) = ? --> year/month(${date}) = ?
+					result = result.replace("between ? and  ?", "between ? and ¿"); 
 					for (int i = 0; i < conditionValues.length; i++) {
 						String conditionValue = conditionValues[i];
 						if (Is.emptyString(conditionValue)) continue;
@@ -74,8 +76,14 @@ public class Tab implements java.io.Serializable {
 						else {
 							result = result.replaceFirst("\\?", conditionValue);
 						}
-					} 
-				}	
+					}
+				}
+				if (conditionValuesTo != null) for (int i = 0; i < conditionValuesTo.length; i++) {
+					String conditionValue = conditionValuesTo[i];
+					if (Is.emptyString(conditionValue)) continue;
+					result = result.replaceFirst("¿", conditionValue);
+				}					
+				
 				result = result.replace("upper(", ""); 
 				result = result.replace("replace(", ""); 
 				result = result.replaceAll(", '.', '.'\\)+", "");
@@ -103,6 +111,7 @@ public class Tab implements java.io.Serializable {
 				result = result.replace(" asc ", explicitAscending?" " + Labels.get("ascending") + " ":" ");
 				result = result.replace(" asc,", explicitAscending?" " + Labels.get("ascending") + " " + XavaResources.getString("and"):" " + XavaResources.getString("and"));
 				result = result.replace(" and ", " " + Labels.get("and") + " ");
+				result = result.replace(" between ", " " + XavaResources.getString("between") + " "); 
 				result = result.replace(" not like ", " "); 
 				result = result.replace(" like ", " ");  
 				result = result.replace(" not in(", " " + XavaResources.getString("not_in_comparator") + "("); 
@@ -158,6 +167,12 @@ public class Tab implements java.io.Serializable {
 		public void setConditionValues(String [] conditionValues) {
 			this.conditionValues = conditionValues;
 		}
+		public String [] getConditionValuesTo() {
+			return conditionValuesTo;
+		}
+		public void setConditionValuesTo(String [] conditionValuesTo) {
+			this.conditionValuesTo = conditionValuesTo;
+		}				
 		public String getCondition() {
 			return condition;
 		}
@@ -167,43 +182,29 @@ public class Tab implements java.io.Serializable {
 		public boolean isDescendingOrder() {
 			return descendingOrder;
 		}
-
-
 		public void setDescendingOrder(boolean descendingOrder) {
 			this.descendingOrder = descendingOrder;
 		}
-
-
 		public boolean isDescendingOrder2() {
 			return descendingOrder2;
 		}
-
-
 		public void setDescendingOrder2(boolean descendingOrder2) {
 			this.descendingOrder2 = descendingOrder2;
 		}
-
-
 		public String getOrderBy() {
 			return orderBy;
 		}
-
-
 		public void setOrderBy(String orderBy) {
 			this.orderBy = orderBy;
 		}
-
-
 		public String getOrderBy2() {
 			return orderBy2;
 		}
-
-
 		public void setOrderBy2(String orderBy2) {
 			this.orderBy2 = orderBy2;
-		}		
-
+		}
 	}
+	
 	private Map<Integer, Configuration> configurations = new HashMap<Integer, Configuration>();
 	private Configuration configuration; 
 	
@@ -245,6 +246,7 @@ public class Tab implements java.io.Serializable {
 	private static final String CONFIGURATION_CONDITION = "condition";
 	private static final String CONFIGURATION_CONDITION_COMPARATORS = "conditionComparators";
 	private static final String CONFIGURATION_CONDITION_VALUES = "conditionValues";
+	private static final String CONFIGURATION_CONDITION_VALUES_TO = "conditionValuesTo"; 
 	private static final String CONFIGURATION_ORDER_BY = "orderBy";
 	private static final String CONFIGURATION_ORDER_BY2 = "orderBy2";
 	private static final String CONFIGURATION_DESCENDING_ORDER = "descendingOrder";
@@ -1588,6 +1590,7 @@ public class Tab implements java.io.Serializable {
 		Configuration newConfiguration = new Configuration();
 		newConfiguration.setCondition(getCondition()); 
 		newConfiguration.setConditionValues(conditionValues);
+		newConfiguration.setConditionValuesTo(conditionValuesTo); 
 		newConfiguration.setConditionComparators(conditionComparators);
 		newConfiguration.setOrderBy(orderBy);
 		newConfiguration.setDescendingOrder(descendingOrder);
@@ -1605,6 +1608,7 @@ public class Tab implements java.io.Serializable {
 			configurationPreferences.put(CONFIGURATION_CONDITION, configuration.getCondition());
 			configurationPreferences.put(CONFIGURATION_CONDITION_COMPARATORS, Strings.toString(configuration.getConditionComparators(), "|"));
 			configurationPreferences.put(CONFIGURATION_CONDITION_VALUES, Strings.toString(configuration.getConditionValues(), "|"));
+			configurationPreferences.put(CONFIGURATION_CONDITION_VALUES_TO, Strings.toString(configuration.getConditionValuesTo(), "|"));			
 			if (configuration.getOrderBy() != null ) configurationPreferences.put(CONFIGURATION_ORDER_BY, configuration.getOrderBy());
 			if (configuration.getOrderBy2() != null ) configurationPreferences.put(CONFIGURATION_ORDER_BY2, configuration.getOrderBy2());
 			configurationPreferences.putBoolean(CONFIGURATION_DESCENDING_ORDER, configuration.isDescendingOrder());
@@ -1623,6 +1627,7 @@ public class Tab implements java.io.Serializable {
 	public void setConfigurationId(int configurationId) {   
 		configuration = configurations.get(configurationId); 
 		setConditionValuesImpl(refineConfigurationValues(configuration.getConditionValues()));
+		setConditionValuesToImpl(refineConfigurationValues(configuration.getConditionValuesTo())); 
 		setConditionComparatorsImpl(refineConfigurationValues(configuration.getConditionComparators()));
 		orderBy = configuration.getOrderBy();
 		orderBy2 = configuration.getOrderBy2();
@@ -1902,6 +1907,7 @@ public class Tab implements java.io.Serializable {
 			conf.setCondition(pref.get(CONFIGURATION_CONDITION, ""));
 			conf.setConditionComparators(StringUtils.splitPreserveAllTokens(pref.get(CONFIGURATION_CONDITION_COMPARATORS, ""), "|"));
 			conf.setConditionValues(StringUtils.splitPreserveAllTokens(pref.get(CONFIGURATION_CONDITION_VALUES, ""), "|"));
+			conf.setConditionValuesTo(StringUtils.splitPreserveAllTokens(pref.get(CONFIGURATION_CONDITION_VALUES_TO, ""), "|")); 
 			conf.setOrderBy(pref.get(CONFIGURATION_ORDER_BY, null));
 			conf.setOrderBy2(pref.get(CONFIGURATION_ORDER_BY2, null));
 			conf.setDescendingOrder(pref.getBoolean(CONFIGURATION_DESCENDING_ORDER, false));
