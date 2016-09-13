@@ -90,17 +90,26 @@ a:hover {
 	-webkit-box-shadow: 0px 0px 7px #000;	
 }
 
-#main_navigation A {
+#main_navigation A, #main_navigation a i {
 	color: #BABABA;
+}
+
+#main_navigation A {
 	text-decoration: none;
 	padding-right: 15px;
 }
 
-#main_navigation A:hover {
+#main_navigation a i {
+	color: #BABABA;
+	font-size: 130%;
+	padding-left: 3px;
+}
+
+#main_navigation A:hover, #main_navigation A:hover i { 
 	color: white;
 }
 
-#main_navigation A.selected {
+#main_navigation A.selected, #main_navigation A.selected i { 
 	color: white;
 	font-weight: bold;
 }

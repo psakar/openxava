@@ -36,18 +36,19 @@ public class Modules implements Serializable {
 		MetaModuleFactory.setApplication(applicationName);
 		DB.init();
 		createFirstStepsModule(applicationName);
+		ModulesHelper.init(applicationName);  
 	}	
 	
 	private static void createFirstStepsModule(String applicationName) {
 		MetaApplication app = MetaApplications.getMetaApplication(applicationName);
 		MetaModule firstStepsModule = new MetaModule();
-		firstStepsModule.setName(FIRST_STEPS); 
+		firstStepsModule.setName(FIRST_STEPS);
 		firstStepsModule.setModelName("SignIn"); // The model does not matter
 		firstStepsModule.setWebViewURL("/naviox/firstSteps.jsp");
 		firstStepsModule.setModeControllerName("Void");
 		app.addMetaModule(firstStepsModule);		
 	}
-	
+		
 	public void reset() {
 		all = null;
 		topModules = null;
@@ -92,10 +93,14 @@ public class Modules implements Serializable {
 		storeTopModules();
 	}
 		
+	public boolean showsDashboardLink() { 
+		return ModulesHelper.showsDashboardLink(); 
+	}
 
-	public String getCurrent() {
+	public String getCurrent(HttpServletRequest request) { 
 		try {
-			return getPreferences().get("current", FIRST_STEPS);
+			String current = ModulesHelper.getCurrent(request);
+			return current == null?getPreferences().get("current", FIRST_STEPS):current;
 		}
 		catch (Exception ex) {
 			log.warn(XavaResources.getString("current_module_problem"), ex); 
@@ -188,7 +193,7 @@ public class Modules implements Serializable {
 					request.getRequestURI().startsWith(request.getContextPath() + "/modules/"))) return true;
 			String [] uri = request.getRequestURI().split("/");
 			if (uri.length < 4) return false;			
-			return isModuleAuthorized(MetaModuleFactory.create(uri[1], uri[3]));
+			return isModuleAuthorized(request, MetaModuleFactory.create(uri[1], uri[3])); 
 		}
 		catch (Exception ex) {			
 			log.warn(XavaResources.getString("module_not_authorized"), ex); 
@@ -204,8 +209,11 @@ public class Modules implements Serializable {
 	}
 	
 	boolean isModuleAuthorized(MetaModule module) {
-		if (module.getName().equals(FIRST_STEPS)) return true; 
-		if (module.getName().equals("SignUp")) return true; 
+		return isModuleAuthorized(null, module); 
+	}
+	
+	private boolean isModuleAuthorized(HttpServletRequest request, MetaModule module) {   
+		if (request != null && ModulesHelper.isPublic(request, module.getName())) return true; 
 		return Collections.binarySearch(getAll(), module, comparator) >= 0;
 	}
 
@@ -270,7 +278,7 @@ public class Modules implements Serializable {
 	
 	public List getAll() {
 		if (all == null) {			
-			all = ModulesProvider.getAll();
+			all = ModulesHelper.getAll();
 			Collections.sort(all, comparator);
 		}
 		return all;

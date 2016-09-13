@@ -1,17 +1,30 @@
 package com.openxava.naviox.impl;
 
 import java.util.*;
+
+import javax.servlet.http.*;
+
 import org.openxava.application.meta.*;
 import org.openxava.util.*;
+
+import com.openxava.naviox.model.*;
+import com.openxava.naviox.util.*;
 
 /**
  * 
  * @author Javier Paniza
  */
 
-public class ModulesProvider {
+public class ModulesHelper { 
 	
 	private static List<MetaModule> all;
+	
+	public static void init(String applicationName) {
+	}
+	
+	public static String getCurrent(HttpServletRequest request) {
+		return null;
+	}
 	
 	public static List<MetaModule> getAll() {
 		if (Users.getCurrent() == null) return Collections.EMPTY_LIST;
@@ -28,5 +41,14 @@ public class ModulesProvider {
 		}
 		return result;
 	}
+	
+	public static boolean isPublic(HttpServletRequest request, String moduleName) { 
+		return "FirstSteps".equals(moduleName); 
+	}
+	
+	public static boolean showsDashboardLink() { 
+		return false;
+	}	
+
 	
 }

@@ -19,16 +19,19 @@
 					
 	</controller>
 	
-	<controller name="GoSignUp">
+	<controller name="Register">
 		
 		<action name="signUp"
-        	class="com.openxava.naviox.actions.GoSignUpAction"/>			
-					
+        	class="com.openxava.naviox.actions.GoSignUpAction"/>	
+        	
+        <action name="join"
+        	class="com.openxava.naviox.actions.JoinAction"/>	
+        	
 	</controller>	
 	
 	<controller name="SignUp">
     	<action name="signUp"
-        	class="com.openxava.naviox.actions.SignUpAction"/>		
+        	class="com.openxava.naviox.actions.SignUpAction"/>							      
 	</controller>
 
 	<controller name="SessionLocker">
@@ -37,6 +40,11 @@
 		<action name="unlock" hidden="true" 			
 			class="com.openxava.naviox.actions.UnlockAction"/>
 	</controller>
+	
+	<controller name="Dashboard">	
+		<action name="goOrganization" hidden="true" icon="exit-to-app"			
+			class="com.openxava.naviox.actions.GoOrganizationAction"/>
+	</controller>	
 	
 	<controller name="Configuration">
 	

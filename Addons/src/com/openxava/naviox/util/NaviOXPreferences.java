@@ -96,15 +96,7 @@ public class NaviOXPreferences {
 	public boolean isShowOrganizationOnSignIn() { 
 		return "true".equalsIgnoreCase(getProperties().getProperty("showOrganizationOnSignIn", "true").trim());
 	}
-	
-	/**
-	 * @since 5.6
-	 */
-	public boolean isGetOrganizationFromUser() { 
-		return "true".equalsIgnoreCase(getProperties().getProperty("getOrganizationFromUser", "false").trim());
-	}
-	
-	
+		
 	/**
 	 * @since 5.3
 	 */
