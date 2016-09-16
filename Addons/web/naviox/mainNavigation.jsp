@@ -15,15 +15,15 @@
 
 <%
 String allModulesClass = modules.hasModules()?"main-navigation-left-with-all-modules":"main-navigation-left-without-all-modules";
-boolean showsDashboardLink = modules.showsDashboardLink();
+boolean showsIndexLink = modules.showsIndexLink();
 %>
 
 &nbsp; 
 <div id="main_navigation_left" class="<%=allModulesClass%>">
 <nobr>
 &nbsp; 
-<% if (Users.getCurrent() != null && showsDashboardLink) { %>
-	<a href="<%=request.getContextPath()%>/m/Dashboard" class='<%="Dashboard".equals(request.getParameter("module"))?"selected":""%>'>
+<% if (Users.getCurrent() != null && showsIndexLink) { %>
+	<a href="<%=request.getContextPath()%>/m/Index" class='<%="Index".equals(request.getParameter("module"))?"selected":""%>'>
 		<i class="mdi mdi-home"></i>
 	</a> 
 <% } %>
@@ -31,7 +31,7 @@ boolean showsDashboardLink = modules.showsDashboardLink();
 for (Iterator it= modules.getTopModules().iterator(); it.hasNext();) {
 	MetaModule module = (MetaModule) it.next();
 	if (module.getName().equals("SignIn")) continue;
-	if (showsDashboardLink && module.getName().equals("Dashboard")) continue; 
+	if (showsIndexLink && module.getName().equals("Index")) continue; 
 	String selected = module.getName().equals(request.getParameter("module"))?"selected":"";
 %>		
 	<a  href="<%=modules.getModuleURI(request, module)%>?retainOrder=true" class="<%=selected%>">

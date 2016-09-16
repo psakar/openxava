@@ -57,7 +57,8 @@ public class NaviOXFilter implements Filter {
 				String originalURI = secureRequest.getRequestURI();
 				String organization = Organizations.getCurrent(request);
 				if (organization != null) originalURI = originalURI.replace("/modules/", "/o/" + organization + "/m/");
-				RequestDispatcher dispatcher = request.getRequestDispatcher("/" + base + "/SignIn?originalURI=" + originalURI);
+				String userAccessModule = modules.getUserAccessModule(request);
+				RequestDispatcher dispatcher = request.getRequestDispatcher("/" + base + "/" + userAccessModule + "?originalURI=" + originalURI);
 				dispatcher.forward(secureRequest, response); 
 			}
 		} 

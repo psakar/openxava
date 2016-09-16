@@ -4,6 +4,7 @@ import java.io.*;
 import java.util.*;
 import java.util.prefs.*;
 
+import javax.servlet.*;
 import javax.servlet.http.*;
 
 import org.apache.commons.logging.*;
@@ -11,6 +12,7 @@ import org.openxava.application.meta.*;
 import org.openxava.util.*;
 
 import com.openxava.naviox.impl.*;
+import com.openxava.naviox.model.*;
 import com.openxava.naviox.util.*;
 
 /**
@@ -93,8 +95,8 @@ public class Modules implements Serializable {
 		storeTopModules();
 	}
 		
-	public boolean showsDashboardLink() { 
-		return ModulesHelper.showsDashboardLink(); 
+	public boolean showsIndexLink() { 
+		return ModulesHelper.showsIndexLink(); 
 	}
 
 	public String getCurrent(HttpServletRequest request) { 
@@ -282,6 +284,10 @@ public class Modules implements Serializable {
 			Collections.sort(all, comparator);
 		}
 		return all;
+	}
+
+	public String getUserAccessModule(ServletRequest request) { 
+		return ModulesHelper.getUserAccessModule(request);
 	}
 
 	private int indexOf(Collection<MetaModule> topModules, MetaModule current) { 

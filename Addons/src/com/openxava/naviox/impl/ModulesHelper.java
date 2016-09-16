@@ -2,6 +2,7 @@ package com.openxava.naviox.impl;
 
 import java.util.*;
 
+import javax.servlet.*;
 import javax.servlet.http.*;
 
 import org.openxava.application.meta.*;
@@ -26,6 +27,11 @@ public class ModulesHelper {
 		return null;
 	}
 	
+	/** @since 5.6 */
+	public static String getUserAccessModule(ServletRequest request) { 
+		return "SignIn";
+	}
+	
 	public static List<MetaModule> getAll() {
 		if (Users.getCurrent() == null) return Collections.EMPTY_LIST;
 		if (all == null) all = createAll();
@@ -46,7 +52,7 @@ public class ModulesHelper {
 		return "FirstSteps".equals(moduleName); 
 	}
 	
-	public static boolean showsDashboardLink() { 
+	public static boolean showsIndexLink() { 
 		return false;
 	}	
 
