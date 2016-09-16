@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- New booleanWithSuffixEditor.jsp editor that allows put a suffix label after the field checkbox.
 - Some new common use labels to be used in applications.
 - New toString(Object [] array) method in Strings utility class.
 - ModuleTestBase.setLocale() no longer reset the module.

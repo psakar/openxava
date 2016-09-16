@@ -6126,6 +6126,7 @@ OpenXava/web/editors/attachedFileEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/attachedFilesEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/boldLabelEditor.jsp -text
 OpenXava/web/editors/booleanEditor.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/booleanWithSuffixEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/booleanYesNoEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/calendar/calendar-blue.css -text
 OpenXava/web/editors/calendar/calendar-blue2.css -text
