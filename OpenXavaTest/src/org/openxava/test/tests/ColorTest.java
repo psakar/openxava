@@ -1,5 +1,7 @@
 package org.openxava.test.tests;
 
+import java.util.*;
+
 import javax.persistence.*;
 
 import org.apache.commons.logging.*;
@@ -476,6 +478,29 @@ public class ColorTest extends ModuleTestBase {
 		assertListRowCount(2);		
 		assertValueInList(0, 1, "ROJO");
 		assertValueInList(1, 1, "NEGRO");
+	}
+	
+	public void testSubcontrollerWithOnlyListAndWithoutActions() throws Exception{
+		changeModule("ColorWithModeListOnlyAndSubcontroller");
+		assertNoAction("Mode.detailAndFirst");
+		assertAction("ColorSub.firstAction");
+	}
+	
+	public void testActionsAndSubcontrollerInOrderByConcurrence() throws Exception{
+		String[] texts = new String[] {
+			"New", "Generate PDF", "Generate Excel", "My reports", // 'normal' actions
+			"Init", "First action from subcontroller", "Second action", "Third action",	// subcontroller actions 
+			"See message selected" // another 'normal' action
+		};
+		HtmlElement element = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Color__controllerElement");
+		List<HtmlElement> e = element.getHtmlElementsByTagName("span");
+		int x = 0;
+		for (HtmlElement h : e){
+			if (h.hasAttribute("class") && h.getAttribute("class").equals("ox-button-bar-button")){
+				assertTrue(h.asText().trim().equals(texts[x]));
+				x++;
+			}
+		}
 	}
 	
 }
