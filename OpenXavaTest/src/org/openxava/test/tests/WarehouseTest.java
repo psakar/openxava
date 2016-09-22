@@ -17,7 +17,7 @@ public class WarehouseTest extends WarehouseSplitTestBase {
 	public void testToolTip_defaultListLabels() throws Exception { 
 		assertLabelInList(0, "Zone");
 		assertLabelInList(1, "Warehouse number");
-		assertLabelInList(2, "Name");
+		assertLabelInList(2, "Name"); 
 		execute("CRUD.new");	
 		assertToolTip("number", "Id number of the warehouse");
 		assertToolTip("zoneNumber", "Zone");
@@ -84,7 +84,7 @@ public class WarehouseTest extends WarehouseSplitTestBase {
 		tearDown(); setUp();
 		assertChangeRowCount(5, 10);
 		
-		String value5 = getValueInList(5, 2);
+		String value5 = getValueInList(5, 2); 
 		String value9 = getValueInList(9, 2);
 		execute("List.goNextPage");
 				
@@ -371,7 +371,7 @@ public class WarehouseTest extends WarehouseSplitTestBase {
 
 		String zoneNumber = getValueInList(3, "zoneNumber");
 		String number = getValueInList(3, "number");
-		String name = getValueInList(3, "name");
+		String name = getValueInList(3, "name"); 
 		execute("List.viewDetail", "row=3");
 		assertNoAction("Warehouse.toLowerCase");
 		assertAction("Warehouse.changeZone");
@@ -386,7 +386,7 @@ public class WarehouseTest extends WarehouseSplitTestBase {
 		assertNoAction("Warehouse.changeZone");
 		String zoneNumber1 = getValueInList(0, "zoneNumber");
 		String number1 = getValueInList(0, "number");
-		String name1 = getValueInList(0, "name");
+		String name1 = getValueInList(0, "name"); 
 		checkRow(0);
 		execute("List.goNextPage");
 		String zoneNumber2 = getValueInList(0, "zoneNumber");

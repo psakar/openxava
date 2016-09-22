@@ -816,7 +816,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 
 		// Restoring, for next time that test execute
 		removeColumn(8); 
-		assertListColumnCount(8);
+		assertListColumnCount(8); 
 
 		// Always starts with 20
 		execute("List.addColumns");
@@ -1171,7 +1171,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		assertListColumnCount(8); 
 		execute("Invoice.changeTab");
 		assertNoErrors();
-		assertListColumnCount(3);
+		assertListColumnCount(3);  
 	}	
 	
 	public void testDateFormatter() throws Exception { 
@@ -2243,7 +2243,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 	}
 	
 	public void testBooleanComboHiddenAfterClearCondition() throws Exception{
-		HtmlSelect select = getHtmlPage().getElementByName("ox_OpenXavaTest_Invoice__conditionComparator___3");
+		HtmlSelect select = getHtmlPage().getElementByName("ox_OpenXavaTest_Invoice__conditionComparator___3"); 
 		String s = select.getAttribute("style");
 		assertFalse(s.contains("display: none") || s.contains("display:none"));
 		// clear condition

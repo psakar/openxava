@@ -35,7 +35,7 @@ public class InvoiceFromCustomersTest extends ModuleTestBase {
 		checkRow(0);
 		assertRowChecked(0);
 		execute("CustomerInvoices.return");
-		assertRowUnchecked(0);
+		assertRowUnchecked(0); 
 	}
 	
 	public void testListActionsIncludedWhenModeControllerUsed() throws Exception {

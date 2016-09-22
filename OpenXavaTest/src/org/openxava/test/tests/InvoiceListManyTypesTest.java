@@ -18,7 +18,7 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 	public void testListConfigurations() throws Exception {
 		// Don't separate in several independent tests 
 		// because we want test the accumulation of configuration without duplication
-		assertListConfigurationsBasicCases();		
+		assertListConfigurationsBasicCases();	
 		assertListConfigurationsBooleans();
 		assertListConfigurationsEmptyNotEmpty();
 		assertListConfigurationGroups();
@@ -26,10 +26,166 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 		assertListConfigurationsYearMonthYearMonth();
 		assertListConfigurationsDescriptionsLists();	
 		assertListConfigurationsOrdering();
-		assertListConfigurationsRanges(); 
+		assertListConfigurationsRanges();
+		assertListConfigurationsColumns(); 
 		assertListConfigurationsI18n();
-		assertListConfigurationsPersistence();		
+		assertListConfigurationsPersistence();
 	}
+
+	private void assertListConfigurationsColumns() throws Exception { 
+		assertListSelectedConfiguration("Number between 2 and 10");
+		assertListRowCount(3);
+		assertListColumnCount(9);
+		assertLabelInList(0, "Year");
+		assertLabelInList(1, "Number");
+		assertLabelInList(2, "Date"); 
+		assertLabelInList(8, "Name of Seller of Customer");
+		removeColumn(0);
+		assertListColumnCount(8);
+		assertLabelInList(0, "Number");
+		assertLabelInList(1, "Date"); 
+		assertLabelInList(7, "Name of Seller of Customer");
+		
+		selectListConfiguration("Number between 9 and 12");
+		assertListRowCount(4);
+		assertListColumnCount(9);
+		assertLabelInList(0, "Year");
+		assertLabelInList(1, "Number");
+		assertLabelInList(2, "Date"); 
+		assertLabelInList(8, "Name of Seller of Customer");
+		
+		selectListConfiguration("Number between 2 and 10");
+		assertListRowCount(3);
+		assertListColumnCount(8);
+		assertLabelInList(0, "Number");
+		assertLabelInList(1, "Date"); 
+		assertLabelInList(7, "Name of Seller of Customer");
+		
+		selectListConfiguration("Email of customer is not empty");
+		assertListRowCount(5);
+		assertListColumnCount(9);
+		assertLabelInList(0, "Year");
+		assertLabelInList(1, "Number");
+		assertLabelInList(2, "Date");
+		assertLabelInList(3, "Amounts sum");
+		assertLabelInList(4, "eMail of Customer");
+		assertLabelInList(5, "Paid");
+		assertLabelInList(8, "Name of Seller of Customer");
+		removeColumn(3); // A calculated property, we filter by one on right
+		assertListRowCount(5);
+		assertListColumnCount(8);
+		assertLabelInList(0, "Year");
+		assertLabelInList(1, "Number");
+		assertLabelInList(2, "Date");
+		assertLabelInList(3, "eMail of Customer");
+		assertLabelInList(4, "Paid");
+		assertLabelInList(7, "Name of Seller of Customer");
+		
+		selectListConfiguration("Number between 2 and 10");
+		assertListRowCount(3);
+		assertListColumnCount(8);
+		assertLabelInList(0, "Number");
+		assertLabelInList(1, "Date"); 
+		assertLabelInList(7, "Name of Seller of Customer");
+		
+		selectListConfiguration("Email of customer is not empty");
+		assertListRowCount(5);
+		assertListColumnCount(8);
+		assertLabelInList(0, "Year");
+		assertLabelInList(1, "Number");
+		assertLabelInList(2, "Date");
+		assertLabelInList(3, "eMail of Customer");
+		assertLabelInList(4, "Paid");
+		assertLabelInList(7, "Name of Seller of Customer");
+
+		execute("List.addColumns");
+		checkRow("selectedProperties", "customer.city"); // Read only to test a case
+		checkRow("selectedProperties", "customer.telephone" ); 
+		execute("AddColumns.addColumns");
+		assertListRowCount(5);
+		assertListColumnCount(10);
+		assertLabelInList(0, "Year");
+		assertLabelInList(1, "Number");
+		assertLabelInList(2, "Date");
+		assertLabelInList(3, "eMail of Customer");
+		assertLabelInList(4, "Paid");
+		assertLabelInList(7, "Name of Seller of Customer");		
+		assertLabelInList(8, "City of Customer");
+		assertLabelInList(9, "Telephone of Customer");
+		assertValue("conditionComparator___3", "not_empty_comparator"); 
+		assertValue("conditionValue___8", "");
+		
+		moveColumn(2, 3);
+		assertListRowCount(5);
+		assertListColumnCount(10);
+		assertLabelInList(0, "Year");
+		assertLabelInList(1, "Number");
+		assertLabelInList(2, "eMail of Customer");
+		assertLabelInList(3, "Date");
+		assertLabelInList(4, "Paid");		
+		assertLabelInList(7, "Name of Seller of Customer");		
+		assertLabelInList(8, "City of Customer");
+		assertLabelInList(9, "Telephone of Customer");
+		
+		selectListConfiguration("All"); // The columns must be the original ones, it failed
+		assertListRowCount(9);
+		assertListColumnCount(9);
+		assertLabelInList(0, "Year");
+		assertLabelInList(1, "Number");
+		assertLabelInList(2, "Date");
+		assertLabelInList(3, "Amounts sum");
+		assertLabelInList(4, "eMail of Customer");
+		assertLabelInList(8, "Name of Seller of Customer");		
+		
+		selectListConfiguration("Number between 2 and 10");
+		assertListRowCount(3);
+		assertListColumnCount(8);
+		assertLabelInList(0, "Number");
+		assertLabelInList(1, "Date"); 
+		assertLabelInList(7, "Name of Seller of Customer");
+		execute("List.addColumns");
+		execute("AddColumns.restoreDefault");
+		assertListSelectedConfiguration("Number between 2 and 10");
+		assertListRowCount(3);
+		assertListColumnCount(9);
+		assertLabelInList(0, "Year");
+		assertLabelInList(1, "Number");
+		assertLabelInList(2, "Date"); 
+		assertLabelInList(8, "Name of Seller of Customer");		
+		
+		selectListConfiguration("Email of customer is not empty");
+		assertListRowCount(5);
+		assertListColumnCount(10);
+		assertLabelInList(0, "Year");
+		assertLabelInList(1, "Number");
+		assertLabelInList(2, "eMail of Customer");
+		assertLabelInList(3, "Date");
+		assertLabelInList(4, "Paid");		
+		assertLabelInList(7, "Name of Seller of Customer");		
+		assertLabelInList(8, "City of Customer");
+		assertLabelInList(9, "Telephone of Customer");
+		assertValue("conditionComparator___2", "not_empty_comparator");
+		
+		removeColumn(1);
+		removeColumn(0);
+		assertListRowCount(5);
+		assertListColumnCount(8);
+		assertLabelInList(0, "eMail of Customer");
+		assertLabelInList(1, "Date");
+		assertLabelInList(2, "Paid");		
+		assertLabelInList(5, "Name of Seller of Customer");		
+		assertLabelInList(6, "City of Customer");
+		assertLabelInList(7, "Telephone of Customer");		
+		
+		selectListConfiguration("Number between 2 and 10");
+		assertListRowCount(3);
+		assertListColumnCount(9);
+		assertLabelInList(0, "Year");
+		assertLabelInList(1, "Number");
+		assertLabelInList(2, "Date"); 
+		assertLabelInList(8, "Name of Seller of Customer");
+	}
+
 
 	private void assertListConfigurationsRanges() throws Exception {   
 		selectListConfiguration("All");
@@ -129,6 +285,25 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 			"Ordenado por año ascendente y número descendente", "Ordenado por año descendente y número descendente",
 			"Año > 2002 ordenado por año descendente y número descendente", "Número entre 2 y 10", "Número entre 9 y 12"); 				
 		assertListRowCount(4);
+		
+		selectListConfiguration("Correo electrónico de cliente no está vacío");
+		assertListRowCount(5);
+		assertListColumnCount(8);
+		assertLabelInList(0, "Correo electrónico de Cliente");
+		assertLabelInList(1, "Fecha");
+		assertLabelInList(2, "Pagada");		
+		assertLabelInList(5, "Nombre de Comercial de Cliente");		
+		assertLabelInList(6, "Población de Cliente");
+		assertLabelInList(7, "Teléfono de Cliente");
+		assertValue("conditionComparator___0", "not_empty_comparator");
+		
+		selectListConfiguration("Número entre 2 y 10");
+		assertListRowCount(3);
+		assertListColumnCount(9);
+		assertLabelInList(0, "Año");
+		assertLabelInList(1, "Número");
+		assertLabelInList(2, "Fecha"); 
+		assertLabelInList(8, "Nombre de Comercial de Cliente");
 	}
 
 	private void assertListConfigurationsI18n() throws Exception {

@@ -27,7 +27,7 @@ public class SellerTest extends CustomizeListTestBase {
 		assertCollectionColumnCount("customers", 5); 
 		resetModule();
 		execute("CRUD.new");
-		assertCollectionColumnCount("customers", 5);
+		assertCollectionColumnCount("customers", 5); 
 		
 		execute("List.addColumns", "collection=customers");
 		execute("AddColumns.restoreDefault");

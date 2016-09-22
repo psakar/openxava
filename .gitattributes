@@ -11455,6 +11455,7 @@ OpenXavaTest/web/naviox/selectModules.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/signIn.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/signOut.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/style/naviox.css -text svneol=unset#text/plain
+OpenXavaTest/web/naviox/userJoin.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/naviox/welcome.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/phone/index.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/public/myPublicJSP.jsp -text
@@ -11482,6 +11483,7 @@ OpenXavaTest/web/xava/editors/blogCommentsEditor.jsp -text
 OpenXavaTest/web/xava/editors/blogCommentsListEditor.jsp -text
 OpenXavaTest/web/xava/editors/boldLabelEditor.jsp -text
 OpenXavaTest/web/xava/editors/booleanEditor.jsp -text
+OpenXavaTest/web/xava/editors/booleanWithSuffixEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/booleanYesNoEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/calendar/calendar-blue.css -text
 OpenXavaTest/web/xava/editors/calendar/calendar-blue2.css -text

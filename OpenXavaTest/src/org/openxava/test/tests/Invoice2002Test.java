@@ -53,7 +53,7 @@ public class Invoice2002Test extends CustomizeListTestBase {
 		assertValueInList(0, 1, "2002");
 		// Restoring
 		execute("List.addColumns");
-		execute("AddColumns.restoreDefault");
+		execute("AddColumns.restoreDefault"); 
 	}
 
 	public void testFilterWithConverterAndFilter() throws Exception {
@@ -71,7 +71,7 @@ public class Invoice2002Test extends CustomizeListTestBase {
 		assertListTitle("Invoices report of year 2,002");
 		int count = getListRowCount();
 		for (int i = 0; i < count; i++) {
-			assertValueInList(i, "year", "2002");	
+			assertValueInList(i, "year", "2002"); 	
 		}		
 	}
 	
@@ -88,7 +88,7 @@ public class Invoice2002Test extends CustomizeListTestBase {
 				return;
 			}			
 		}		
-		fail("It must to exists invoice 2002/1 for run this test");
+		fail("It must to exists invoice 2002/1 for run this test"); 
 	}	
 							
 }

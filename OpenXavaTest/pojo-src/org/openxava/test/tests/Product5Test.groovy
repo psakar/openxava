@@ -97,7 +97,7 @@ class Product5Test extends CustomizeListTestBase {
 		resetModule()
 		
 		execute "CRUD.new"
-		assertCollectionColumnCount "productDetailsSupplierContactDetails", 1
+		assertCollectionColumnCount "productDetailsSupplierContactDetails", 1 
 		execute "List.addColumns", "collection=productDetailsSupplierContactDetails"
 		execute "AddColumns.restoreDefault"
 		assertCollectionColumnCount "productDetailsSupplierContactDetails", 2 

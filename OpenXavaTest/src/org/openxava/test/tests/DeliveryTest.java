@@ -49,7 +49,7 @@ public class DeliveryTest extends ModuleTestBase {
 		super(testName, "Delivery");		
 	}
 		
-	public void testFilterDescriptionsListAndEnumLetterType_myReportConditionWithDescriptionsListAndValidValues() throws Exception {
+	public void testFilterDescriptionsListAndEnumLetterType_myReportConditionWithDescriptionsListAndValidValues() throws Exception { 
 		assertLabelInList(3, "Description of Type");
 		assertLabelInList(7, "Distance");
 		if (usesAnnotatedPOJO()) { 
@@ -103,7 +103,7 @@ public class DeliveryTest extends ModuleTestBase {
 		assertValueInCollection("columns", 7, 2, "Nachional");
 	}
 	
-	public void testFocusOnlyInEditors() throws Exception {
+	public void testFocusOnlyInEditors() throws Exception { 
 		execute("CRUD.new");
 		assertFocusOn("invoice.year");
 		getHtmlPage().tabToNextElement();
@@ -124,7 +124,7 @@ public class DeliveryTest extends ModuleTestBase {
 		assertFocusOn("customer.number");
 	}
 	
-	public void testModifyEmptyReferenceFromADialog() throws Exception { 
+	public void testModifyEmptyReferenceFromADialog() throws Exception {  
 		execute("CRUD.new");
 		setValue("deliveredBy", usesAnnotatedPOJO()?"1":"2");
 		setValue("carrier.number", "1");
@@ -142,7 +142,7 @@ public class DeliveryTest extends ModuleTestBase {
 		assertAction("Modification.update");		
 	}
 	
-	public void testSaveElementInCollectionWithUseObjectView() throws Exception {  
+	public void testSaveElementInCollectionWithUseObjectView() throws Exception {   
 		execute("CRUD.new");
 		execute("Sections.change", "activeSection=2");
 		execute("DeliveryDetail.new", "viewObject=xava_view_section2_details_details");
@@ -150,7 +150,7 @@ public class DeliveryTest extends ModuleTestBase {
 		assertNotExists("invoice.year");
 	}
 	
-	public void testSearchUsesSearchView() throws Exception { 
+	public void testSearchUsesSearchView() throws Exception {  
 		execute("CRUD.new");
 		execute("CRUD.search");
 		assertDialog();
@@ -855,7 +855,7 @@ public class DeliveryTest extends ModuleTestBase {
 		assertValueInList(0, "invoice.year", "2009"); 
 		assertValueInList(0, "invoice.number", "1");
 		assertValueInList(0, "type.number", "1");
-		assertValueInList(0, "number", "1");
+		assertValueInList(0, "number", "1"); 
 		
 		checkRow(0);
 		
@@ -1061,7 +1061,7 @@ public class DeliveryTest extends ModuleTestBase {
 			}			
 		}
 		if (!found) {
-			fail("It is necessary that exists delivery 66 in list and there are al least 11 deliveries");		
+			fail("It is necessary that exists delivery 66 in list and there are al least 11 deliveries"); 		
 		}
 				
 		execute("List.viewDetail", "row=" + i);
@@ -1241,7 +1241,7 @@ public class DeliveryTest extends ModuleTestBase {
 		values.add("Internachional");
 		boolean thereIsOne = false;
 		for (int i=0; i<quantity; i++) {
-			String value = getValueInList(i, "distance");			
+			String value = getValueInList(i, "distance"); 			
 			if (Is.emptyString(value)) continue;
 			if (values.contains(value)) {
 				thereIsOne = true;
@@ -1300,7 +1300,7 @@ public class DeliveryTest extends ModuleTestBase {
 	}
 
 	public void testDescriptionsListHiddenAfterClearCondition() throws Exception {
-		HtmlSelect select = getHtmlPage().getElementByName("ox_OpenXavaTest_Delivery__conditionValue___3");
+		HtmlSelect select = getHtmlPage().getElementByName("ox_OpenXavaTest_Delivery__conditionValue___3"); 
 		String s = select.getAttribute("style");
 		assertFalse(s.contains("display: none") || s.contains("display:none"));
 		// clear condition
