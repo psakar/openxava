@@ -1037,10 +1037,10 @@
 	</controller>
 	
 	<controller name="Color">
-		<action name="seeMessage" class="org.openxava.test.actions.SeeMessageAction" mode="detail"/>
-		<action name="seeMessageSelected" class="org.openxava.test.actions.SeeMessageSelectedColorsAction" mode="list"/>
 		<!-- With both image and icon to test a case -->
 		<subcontroller controller="ColorSub" image="options.png" icon="run"/>
+		<action name="seeMessage" class="org.openxava.test.actions.SeeMessageAction" mode="detail"/>
+		<action name="seeMessageSelected" class="org.openxava.test.actions.SeeMessageSelectedColorsAction" mode="list" icon="message-alert"/>
 	</controller>
 	
 	<controller name="ColorSub">
@@ -1070,6 +1070,10 @@
 			<set value="4" property="actionNumber"/>	
 		</action>
 		
+	</controller>
+	
+	<controller name="ColorOnlySubcontroller">
+		<subcontroller controller="ColorSub" image="options.png" icon="run"/>
 	</controller>
 	
 	<controller name="ColorinColorado">  		
