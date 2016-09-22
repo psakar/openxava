@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: show actions and subcontroller (controllers.xml) in order of appearance.
+- Fix: if the module has 'ListOnly' or 'Void' mode-controller and neither has any action but it has defined a SubController, the SubController does not displayed.
 - New method move() in XArrays utility class.
 - New booleanWithSuffixEditor.jsp editor that allows put a suffix label after the field checkbox.
 - Some new common use labels to be used in applications.

@@ -5624,6 +5624,7 @@ OpenXava/src/org/openxava/controller/ModuleContext.java -text
 OpenXava/src/org/openxava/controller/ModuleManager.java -text
 OpenXava/src/org/openxava/controller/meta/MetaAction.java -text
 OpenXava/src/org/openxava/controller/meta/MetaController.java -text
+OpenXava/src/org/openxava/controller/meta/MetaControllerElement.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/controller/meta/MetaControllers.java -text
 OpenXava/src/org/openxava/controller/meta/MetaObject.java -text
 OpenXava/src/org/openxava/controller/meta/MetaSubcontroller.java -text svneol=unset#text/plain

@@ -3,19 +3,61 @@ package org.openxava.controller.meta;
 
 import java.util.*;
 
+import org.apache.commons.logging.*;
 import org.openxava.util.*;
 import org.openxava.util.meta.*;
 
 
 public class MetaController extends MetaElement {
-
+	private static Log log = LogFactory.getLog(MetaController.class);
 	private String className; // Only for spanish/swing version
 	private Collection metaActions = new ArrayList();
 	private Collection parentsNames = new ArrayList();
 	private Collection parents = new ArrayList();
 	private Map mapMetaActions = new HashMap();
-	private Collection<MetaSubcontroller> metaSubcontrollers = new ArrayList<MetaSubcontroller>(); 
+	private Collection<MetaSubcontroller> metaSubcontrollers = new ArrayList<MetaSubcontroller>();
+	private Collection<MetaControllerElement> metaControllerElement = new ArrayList<MetaControllerElement>();	// actions and subcontroller order by occurrence
 		
+	public void addMetaControllerElement(MetaControllerElement controllerElement){
+		metaControllerElement.add(controllerElement);
+	}
+	
+	public Collection<MetaControllerElement> getMetaControllerElement(){
+		return metaControllerElement;
+	}
+	
+	private void getMetaControllerElementParents(List result, Collection<MetaController> parents){
+		for(MetaController parent : parents) {
+			if (!parent.getParents().isEmpty()) getMetaControllerElementParents(result, parent.getParents());
+			result.addAll(parent.getMetaControllerElement());
+		}
+	}
+	
+	public Collection<MetaControllerElement> getAllMetaControllerElement(){
+		List<MetaControllerElement> result = new ArrayList();
+		getMetaControllerElementParents(result, getParents());
+		
+		for (MetaControllerElement controllerElement : getMetaControllerElement()){
+			if (controllerElement instanceof MetaAction){
+				// overwritte actions
+				MetaAction metaAction = (MetaAction)controllerElement;
+				int pos = -1;
+				for (int i=0; i<result.size(); i++) {
+					if (result.get(i) instanceof MetaAction && ((MetaAction)result.get(i)).getName().equals(metaAction.getName())) {
+						pos = i;
+					}
+				}
+				if (pos < 0) result.add(metaAction);
+				else {
+					result.remove(pos);
+					result.add(pos, metaAction);
+				}
+			}
+			else result.add(controllerElement);	// MetaSubcontroller
+		}
+		return result;
+	}
+	
 	/**
 	 * Only for spanish/swing version
 	 */
