@@ -1037,7 +1037,10 @@
 	</controller>
 	
 	<controller name="Color">
-		<!-- With both image and icon to test a case -->
+		<!-- 
+		With both image and icon to test a case. 
+		Subcontroller before actions to test a case.
+		-->
 		<subcontroller controller="ColorSub" image="options.png" icon="run"/>
 		<action name="seeMessage" class="org.openxava.test.actions.SeeMessageAction" mode="detail"/>
 		<action name="seeMessageSelected" class="org.openxava.test.actions.SeeMessageSelectedColorsAction" mode="list" icon="message-alert"/>

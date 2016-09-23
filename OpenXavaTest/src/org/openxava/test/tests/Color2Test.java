@@ -61,7 +61,7 @@ public class Color2Test extends ModuleTestBase {
 		assertValue("descriptionsListValue", "1:_:CAR"); 		
 		closeDialog();
 		
-		execute("MyReport.generatePdf");		
+		execute("MyReport.generatePdf"); 
 		assertPopupPDFLinesCount(5);  
 		assertPopupPDFLine(3, "0 ROJO FF0000 RED CAR 3 PLACES");
 		

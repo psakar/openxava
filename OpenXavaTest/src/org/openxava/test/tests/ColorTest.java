@@ -480,12 +480,6 @@ public class ColorTest extends ModuleTestBase {
 		assertValueInList(1, 1, "NEGRO");
 	}
 	
-	public void testSubcontrollerWithOnlyListAndWithoutActions() throws Exception{
-		changeModule("ColorWithModeListOnlyAndSubcontroller");
-		assertNoAction("Mode.detailAndFirst");
-		assertAction("ColorSub.firstAction");
-	}
-	
 	public void testActionsAndSubcontrollerInOrderByConcurrence() throws Exception{
 		String[] texts = new String[] {
 			"New", "Generate PDF", "Generate Excel", "My reports", // 'normal' actions

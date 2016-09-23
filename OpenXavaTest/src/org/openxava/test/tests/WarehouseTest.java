@@ -82,7 +82,7 @@ public class WarehouseTest extends WarehouseSplitTestBase {
 	public void testChangePageRowCount() throws Exception { 
 		assertChangeRowCount(10, 5);		
 		tearDown(); setUp();
-		assertChangeRowCount(5, 10);
+		assertChangeRowCount(5, 10); 
 		
 		String value5 = getValueInList(5, 2); 
 		String value9 = getValueInList(9, 2);
@@ -120,7 +120,7 @@ public class WarehouseTest extends WarehouseSplitTestBase {
 		String comboRowCount = combo.getSelectedOptions().get(0).getAttribute("value");
 		assertEquals(String.valueOf(initialRowCount), comboRowCount);
 		combo.setSelectedAttribute(String.valueOf(finalRowCount), true);
-		Thread.sleep(3000);
+		getWebClient().waitForBackgroundJavaScriptStartingBefore(10000); 
 		assertListRowCount(finalRowCountWithData);
 		comboRowCount = combo.getSelectedOptions().get(0).getAttribute("value");
 		assertEquals(String.valueOf(finalRowCount), comboRowCount);

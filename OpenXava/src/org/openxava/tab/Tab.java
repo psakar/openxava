@@ -154,16 +154,9 @@ public class Tab implements java.io.Serializable {
 					String sid = "__ALL__:";  
 					if (!isAll() && conditionValues != null && conditionComparators != null) { 
 						StringBuffer s = new StringBuffer();
-						for (String conditionValue: conditionValues) { 
-							if (conditionValue == null) s.append("__NULL__"); 
-							else s.append(conditionValue);
-							s.append(":");
-						}
-						for (String conditionComparator: conditionComparators) {
-							if (conditionComparator == null) s.append("__NULL__"); 
-							else s.append(conditionComparator);
-							s.append(":");
-						}							
+						add(s, conditionValues);
+						add(s, conditionValuesTo);
+						add(s, conditionComparators);
 						sid = s.toString();
 					}
 					sid = sid + propertiesNames;  
@@ -176,6 +169,14 @@ public class Tab implements java.io.Serializable {
 				}
 			}
 			return id;
+		}
+		
+		private void add(StringBuffer s, String [] values) { 
+			for (String value: values) { 
+				if (value == null) s.append("__NULL__"); 
+				else s.append(value);
+				s.append(":");
+			}			
 		}
 		
 		public void resetId() {  

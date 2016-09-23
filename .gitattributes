@@ -11220,6 +11220,7 @@ OpenXavaTest/src/org/openxava/test/tests/Color2Test.java -text svneol=unset#text
 OpenXavaTest/src/org/openxava/test/tests/ColorM1Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/ColorTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ColorWithGroupsAndChangeControllersTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/ColorWithModeListOnlyAndSubcontrollerTest.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/ConversionFactorTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerCardListTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerContactPersonAsAggregate3LevelsTest.java -text
