@@ -213,12 +213,22 @@ public class ModuleManager implements java.io.Serializable {
 	public Collection<MetaControllerElement> getMetaControllerElement(){
 		 if (metaControllerElement == null){
 			metaControllerElement = new ArrayList<MetaControllerElement>();
-			Iterator it = getMetaControllers().iterator();
-			while(it.hasNext()){
-				MetaController mc = (MetaController) it.next();
-				metaControllerElement.addAll(mc.getAllMetaControllerElement());
+			try {
+				Iterator it = getMetaControllers().iterator();
+				while(it.hasNext()){
+					MetaController mc = (MetaController) it.next();
+					metaControllerElement.addAll(mc.getAllMetaControllerElement());
+				}
+				removeHiddenElements();
+				refine(metaControllerElement); 
+			} 
+		 	catch (Exception ex) {
+				metaActions = null;
+				metaControllerElement = null; 
+				log.error(XavaResources.getString("controller_actions_error"), 
+						ex);
+				return new ArrayList();
 			}
-			removeHiddenElements();
 		 }
 		return metaControllerElement;
 	}

@@ -123,6 +123,10 @@ public class Modules implements Serializable {
 		}
 	}
 	
+	public String getCurrentModuleName() { 
+		return current.getName();
+	}
+
 	public void bookmarkCurrentModule() { 
 		if (bookmarkModules == null) loadBookmarkModules();	
 		int idx = indexOf(bookmarkModules, current); 

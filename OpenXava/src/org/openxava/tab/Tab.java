@@ -938,13 +938,14 @@ public class Tab implements java.io.Serializable {
 		return sb.toString();
 	}
 	
-	private void refine() { 
+	private void refine() {
 		if (refiner == null) return;
 		if (request == null) return;
 		cloneMetaTab();
 		try {
 			XObjects.execute(refiner, "polish", MetaModule.class, getModuleManager(request).getMetaModule(),
 				MetaTab.class, metaTab);
+			resetAfterChangeProperties(); 
 		}
 		catch (Exception ex) {
 			log.error(XavaResources.getString("refining_members_error"), ex);
@@ -2098,7 +2099,8 @@ public class Tab implements java.io.Serializable {
 		if (configuration != null) applyConfiguration();
 		else {
 			Configuration all = new Configuration();
-			configurations.put(all.getId(), all);			
+			configurations.put(all.getId(), all);		
+			refine(); 
 		}
 	}
 	
