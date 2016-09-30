@@ -108,6 +108,30 @@ public class ApplicantTest extends ModuleTestBase {
 		assertEquals(1, StringUtils.countMatches(html, "<head>"));
 	}
 	
+	public void testListCustomizationWithTabDefaultOrder() throws Exception { 
+		assertListCustomizationWithTabDefaultOrder();
+		resetModule();
+		assertListCustomizationWithTabDefaultOrder(); // Failed the second time after reseting module
+	}
+
+	private void assertListCustomizationWithTabDefaultOrder() throws Exception { 
+		assertListColumnCount(1);
+		assertListAllConfigurations("Ordered by name");
+		execute("List.addColumns");
+		checkRow("selectedProperties", "skill.description"); 
+		execute("AddColumns.addColumns");
+		assertListColumnCount(2);
+		assertListAllConfigurations("Ordered by name");
+		
+		resetModule();
+		assertListColumnCount(2);
+		assertListAllConfigurations("Ordered by name");
+		execute("List.addColumns");
+		execute("AddColumns.restoreDefault");
+		assertListColumnCount(1);
+		assertListAllConfigurations("Ordered by name");
+	}
+	
 	protected String getModuleURL() { 
 		return modulesLimit?super.getModuleURL():"http://" + getHost() + ":" + getPort() + "/OpenXavaTest/modules/Applicant";
 	}

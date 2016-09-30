@@ -151,8 +151,8 @@ public class Tab implements java.io.Serializable {
 		public int getId() { 
 			if (id == 0) {
 				if (getCollectionView() == null) { 
-					String sid = "__ALL__:";  
-					if (!isAll() && conditionValues != null && conditionComparators != null) { 
+					String sid = "__DEFAULT__:"; 
+					if (!isDefault() && conditionValues != null && conditionComparators != null) { 
 						StringBuffer s = new StringBuffer();
 						add(s, conditionValues);
 						add(s, conditionValuesTo);
@@ -186,10 +186,10 @@ public class Tab implements java.io.Serializable {
 		public String getName() {
 			return translateCondition(condition); 
 		}
-		
-		public boolean isAll() { 
-			return Is.emptyString(getCondition());
-		}
+
+		public boolean isDefault() { 
+			return getCondition().equals(Tab.this.defaultCondition);
+		}		
 		
 		public boolean isCollection() { 
 			return getId() == COLLECTION_ID;
@@ -307,7 +307,7 @@ public class Tab implements java.io.Serializable {
 	private static final String CONFIGURATION_DESCENDING_ORDER = "descendingOrder";
 	private static final String CONFIGURATION_DESCENDING_ORDER2 = "descendingOrder2";
 	private static final String CONFIGURATION_PROPERTIES_NAMES = "propertiesNames"; 
-	private static final String CONFIGURATION_REMOVED = "removed"; 
+	private static final String CONFIGURATION_REMOVED = "removed";
 	
 	private static Object refiner; 
 	
@@ -369,7 +369,8 @@ public class Tab implements java.io.Serializable {
 	private boolean cancelSavingPreferences = false;
 	private String editor;   
 	
-	private Messages errors; 
+	private Messages errors;
+	private String defaultCondition; 
 	
 	public static void setRefiner(Object newRefiner) {
 		refiner = newRefiner;
@@ -938,7 +939,7 @@ public class Tab implements java.io.Serializable {
 		return sb.toString();
 	}
 	
-	private void refine() {
+	private void refine() { 
 		if (refiner == null) return;
 		if (request == null) return;
 		cloneMetaTab();
@@ -1640,9 +1641,8 @@ public class Tab implements java.io.Serializable {
 	}
 	
 	public void saveConfiguration() {  
-		if (configurations.isEmpty()) {
-			Configuration allConfiguration = new Configuration();
-			configurations.put(allConfiguration.getId(), allConfiguration);			
+		if (configurations.isEmpty()) {			
+			addDefaultConfiguration(); 
 		}
 		Configuration newConfiguration = new Configuration();
 		newConfiguration.setCondition(getCondition()); 
@@ -1656,9 +1656,9 @@ public class Tab implements java.io.Serializable {
 		newConfiguration.setPropertiesNames(getPropertiesNamesAsString()); 
 		configurations.put(newConfiguration.getId(), newConfiguration);
 		configuration = newConfiguration; 
-		saveConfigurationPreferences(); 
+		saveConfigurationPreferences();
 	}
-	
+		
 	private void removeConfigurationPreferences(int id) { 
 		try { 
 			Preferences configurationsPreferences = getConfigurationsPreferences();
@@ -1671,7 +1671,7 @@ public class Tab implements java.io.Serializable {
 		}		
 	}
 	
-	private void saveConfigurationPreferences() { 
+	private void saveConfigurationPreferences() {
 		try { 
 			if (cancelSavingPreferences) return; 
 			int oldId = configuration.getId();
@@ -1692,7 +1692,7 @@ public class Tab implements java.io.Serializable {
 			configurationPreferences.putBoolean(CONFIGURATION_DESCENDING_ORDER, configuration.isDescendingOrder());
 			configurationPreferences.putBoolean(CONFIGURATION_DESCENDING_ORDER2, configuration.isDescendingOrder2());
 			configurationPreferences.put(CONFIGURATION_PROPERTIES_NAMES, configuration.getPropertiesNames());
-			configurationPreferences.putBoolean(CONFIGURATION_REMOVED, false); 
+			configurationPreferences.putBoolean(CONFIGURATION_REMOVED, false);
 			configurationPreferences.flush();
 		}
 		catch (Exception ex) {
@@ -1709,8 +1709,8 @@ public class Tab implements java.io.Serializable {
 		applyConfiguration();
 	}
 
-	private void applyConfiguration() {   
-		if (configuration.getPropertiesNames() != null) {				
+	private void applyConfiguration() {
+		if (configuration.getPropertiesNames() != null) {
 			String propertiesNames = removeNonexistentProperties(configuration.getPropertiesNames()); // To remove the properties of old versions of the entities 
 			setPropertiesNames(propertiesNames);
 		}			
@@ -1854,7 +1854,7 @@ public class Tab implements java.io.Serializable {
 		saveConfigurationPreferences();
 	}
 	
-	private String [] growthWithEmptyStrings(String [] original, int size) { 
+	private String [] growWithEmptyStrings(String [] original, int size) { 
 		String [] result = new String[size];
 		int i=0;
 		if (original != null) {
@@ -1884,9 +1884,9 @@ public class Tab implements java.io.Serializable {
 		resetAfterChangeProperties();
 		if (configuration == null) saveConfiguration();
 		int size = getMetaPropertiesNotCalculated().size(); 
-		configuration.setConditionValues(growthWithEmptyStrings(configuration.getConditionValues(), size)); 
-		configuration.setConditionValuesTo(growthWithEmptyStrings(configuration.getConditionValuesTo(), size));
-		configuration.setConditionComparators(growthWithEmptyStrings(configuration.getConditionComparators(), size));
+		configuration.setConditionValues(growWithEmptyStrings(configuration.getConditionValues(), size)); 
+		configuration.setConditionValuesTo(growWithEmptyStrings(configuration.getConditionValuesTo(), size));
+		configuration.setConditionComparators(growWithEmptyStrings(configuration.getConditionComparators(), size));
 		configuration.setPropertiesNames(getPropertiesNamesAsString());
 		applyConfiguration(); 
 		saveConfigurationPreferences();
@@ -1965,14 +1965,14 @@ public class Tab implements java.io.Serializable {
 	}
 
 	public void restoreDefaultProperties() throws XavaException {
-		List<String> oldProperties = MetaMember.toQualifiedNames(getMetaPropertiesNotCalculated()); 
+		List<String> oldProperties = MetaMember.toQualifiedNames(getMetaPropertiesNotCalculated());
 		resetProperties();
 		List<String> newProperties = MetaMember.toQualifiedNames(getMetaPropertiesNotCalculated());
 		if (configuration != null) {
 			configuration.setConditionValues(restoreValues(oldProperties, newProperties, configuration.getConditionValues())); 
 			configuration.setConditionValuesTo(restoreValues(oldProperties, newProperties, configuration.getConditionValuesTo()));
 			configuration.setConditionComparators(restoreValues(oldProperties, newProperties, configuration.getConditionComparators()));
-			configuration.setPropertiesNames(getPropertiesNamesAsString());
+			configuration.setPropertiesNames(getPropertiesNamesAsString());			
 			applyConfiguration();
 			saveConfigurationPreferences();
 		} 
@@ -2011,7 +2011,7 @@ public class Tab implements java.io.Serializable {
 		conditionValuesTo = null;
 		conditionComparators = null;
 		additionalTotalsCount = -1; 
-		totalPropertiesNames = null; 
+		totalPropertiesNames = null;
 	}
 	
 	/** @since 4m5 */
@@ -2048,7 +2048,7 @@ public class Tab implements java.io.Serializable {
 		this.titleId = titleId;
 	}
 	
-	private void loadUserPreferences() { 
+	private void loadUserPreferences() {
 		try { 
 			Preferences preferences = getPreferences();			
 			sumPropertiesNames = Strings.toSetNullByPass(preferences.get(SUM_PROPERTIES_NAMES, null));
@@ -2065,6 +2065,7 @@ public class Tab implements java.io.Serializable {
 				}
 			}
 			
+			defaultCondition = getCondition(); 
 			loadConfigurationsPreferences();  
 		}
 		catch (Exception ex) {
@@ -2072,7 +2073,7 @@ public class Tab implements java.io.Serializable {
 		}
 	}
 
-	private void loadConfigurationsPreferences () throws Exception {  
+	private void loadConfigurationsPreferences() throws Exception {  
 		Preferences configurationsPreferences = getConfigurationsPreferences();
 		configurations.clear();
 		configuration = null; 
@@ -2088,22 +2089,28 @@ public class Tab implements java.io.Serializable {
 			conf.setOrderBy2(pref.get(CONFIGURATION_ORDER_BY2, null));
 			conf.setDescendingOrder(pref.getBoolean(CONFIGURATION_DESCENDING_ORDER, false));
 			conf.setDescendingOrder2(pref.getBoolean(CONFIGURATION_DESCENDING_ORDER2, false));
-			conf.setPropertiesNames(pref.get(CONFIGURATION_PROPERTIES_NAMES, null)); 
+			conf.setPropertiesNames(pref.get(CONFIGURATION_PROPERTIES_NAMES, null));
 			configurations.put(conf.getId(), conf);
 			if (conf.isCollection()) {
 				configuration = conf;
 				break;
 			}
-			if (conf.isAll()) configuration = conf;
+			if (conf.isDefault()) configuration = conf; 
 		}
 		if (configuration != null) applyConfiguration();
 		else {
-			Configuration all = new Configuration();
-			configurations.put(all.getId(), all);		
-			refine(); 
+			configuration = addDefaultConfiguration();
+			refine();
 		}
 	}
 	
+	private Configuration addDefaultConfiguration() {   
+		Configuration defautl = new Configuration();
+		defautl.setCondition(defaultCondition);
+		configurations.put(defautl.getId(), defautl);
+		return defautl;
+	}
+
 	private String removeNonexistentProperties(String properties) {
 		if (propertiesExists(properties)) return properties; // It is the usual case, so we save the below code most times
 		StringBuffer sb = new StringBuffer();
@@ -2322,9 +2329,9 @@ public class Tab implements java.io.Serializable {
 	 * 
 	 * This override the properties defined using &lt;tab&gt; or @Tab.<br>
 	 */
-	public void setPropertiesNames(String propertiesNames) throws XavaException { 
+	public void setPropertiesNames(String propertiesNames) throws XavaException {
 		cloneMetaTab();
-		getMetaTab().setPropertiesNames(propertiesNames);		
+		getMetaTab().setPropertiesNames(propertiesNames);
 		resetAfterChangeProperties();
 	}
 	
@@ -2397,6 +2404,7 @@ public class Tab implements java.io.Serializable {
 				}				
 			}
 		}	
+		condition = null; 
 	}
 	
 	private void setFilteredConditionValues() {
@@ -2504,8 +2512,8 @@ public class Tab implements java.io.Serializable {
 	 */
 	public Set<String> getSumPropertiesNames() {   
 		if (sumPropertiesNames == null) {			
-			sumPropertiesNames = new HashSet(getMetaTab().getSumPropertiesNames());			
-		}		
+			sumPropertiesNames = new HashSet(getMetaTab().getSumPropertiesNames());
+		}	
 		return sumPropertiesNames;
 	}
 

@@ -321,16 +321,16 @@ public class MetaTab implements java.io.Serializable, Cloneable {
 		StringTokenizer st = new StringTokenizer(removeTotalProperties(properties), ",;");
 		List result = new ArrayList();
 		while (st.hasMoreTokens()) {
-			String name = st.nextToken().trim();			
+			String name = st.nextToken().trim();		
 			if (name.endsWith("+")) {
 				name = name.substring(0, name.length() - 1);
-				if (sumPropertiesNames == null) sumPropertiesNames = new HashSet();
-				sumPropertiesNames.add(name);
 			}
 			result.add(name);
 		}		
 		return result;
 	}
+	
+	
 
 	private String removeTotalProperties(String properties) { 
 		if (!properties.contains("[")) return properties;
@@ -375,7 +375,7 @@ public class MetaTab implements java.io.Serializable, Cloneable {
 		this.hiddenTableColumns = null;
 		this.metaPropertiesTab = null;
 		
-		this.select = null;  
+		this.select = null;
 	}
 
 	ModelMapping getMapping() throws XavaException {		
@@ -779,7 +779,20 @@ public class MetaTab implements java.io.Serializable, Cloneable {
 	 * @since 4.3
 	 */
 	public Collection<String> getSumPropertiesNames() {
-		return sumPropertiesNames == null?Collections.EMPTY_SET:sumPropertiesNames;
+		if (sumPropertiesNames == null) {
+			if (defaultPropertiesNames == null) return Collections.EMPTY_SET;
+			StringTokenizer st = new StringTokenizer(removeTotalProperties(defaultPropertiesNames), ",;");
+			while (st.hasMoreTokens()) {
+				String name = st.nextToken().trim();			
+				if (name.endsWith("+")) {
+					name = name.substring(0, name.length() - 1);
+					if (sumPropertiesNames == null) sumPropertiesNames = new HashSet();
+					sumPropertiesNames.add(name);
+				}
+			}		
+			if (sumPropertiesNames == null) sumPropertiesNames = Collections.EMPTY_SET; 
+		}
+		return sumPropertiesNames;
 	}
 
 	public String getEditor() {

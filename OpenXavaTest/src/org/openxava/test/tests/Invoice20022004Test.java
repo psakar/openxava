@@ -15,7 +15,7 @@ public class Invoice20022004Test extends ModuleTestBase {
 		super(testName, "Invoice20022004");		
 	}
 	
-	public void testTabSetConditionValue() throws Exception {
+	public void testTabSetConditionValue() throws Exception { 
 		assertYear("2002");		
 		
 		execute("ChangeYearCondition.changeTo2004");
