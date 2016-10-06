@@ -1505,10 +1505,19 @@ a.cke_button_disabled:hover, a.cke_button_disabled:focus, a.cke_button_disabled:
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	cursor: pointer;
+	background: transparent; 
 }
 
 .ox-list-title select::-ms-expand{
     display: none;
+}
+
+.ox-list-title i { 
+	font-size: 17px;
+	margin-left: 5px;
+	margin-right: -5px;
+	padding: 1px 0px 1px 5px;
+	vertical-align:top;
 }
 
 #list-title {

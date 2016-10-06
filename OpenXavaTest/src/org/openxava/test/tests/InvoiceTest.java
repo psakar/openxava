@@ -693,7 +693,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		setValue("vatPercentage", "23");
 				
 		createOneDetail(); // Because at least one detail is required
-		setValue("paid", "true"); // assign true to checkbox
+		setValue("paid", "true"); // assign true to checkbox 
 		
 		execute("CRUD.save");
 		assertNoErrors();
@@ -1300,7 +1300,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		assertNotExists("customer.number");
 		assertNotExists("vatPercentage");
 		
-		assertCollectionRowCount("details", 0);
+		assertCollectionRowCount("details", 0); 
 
 		assertNoDialog();
 		execute("Collection.new", "viewObject=xava_view_section1_details");

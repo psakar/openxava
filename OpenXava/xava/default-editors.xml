@@ -226,6 +226,9 @@
 		<for-model-property model="MyReportColumn" property="label" /> 
 		<for-model-property model="MyReportColumn" property="value" />
 		<for-model-property model="DiscussionComment" property="userName" />
+		<!-- tmp ini -->
+		<for-model-property model="WithRequiredLongName" property="name" />
+		<!-- tmp fin -->
 	</editor>
 		
 	<editor url="myReportColumnNameEditor.jsp" always-reload="true">

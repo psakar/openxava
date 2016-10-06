@@ -374,8 +374,21 @@ here that you want to override.
 			mode="list"
 			icon="close-circle"
 			image="remove.gif"/>
+
+		<action name="changeConfigurationName"
+			class="org.openxava.actions.GoChangeListConfigurationNameAction"
+			hidden="true"
+			mode="list"
+			icon="rename-box"/>
 		
 	</controller>	
+	
+	<controller name="ChangeListConfigurationName">
+		<action name="change"
+			class="org.openxava.actions.ChangeListConfigurationNameAction"/>	
+		<action name="cancel" 
+			class="org.openxava.actions.CancelDialogAction"/>			
+	</controller>
 	
 	<controller name="ListFormat">
 		<action name="select" 

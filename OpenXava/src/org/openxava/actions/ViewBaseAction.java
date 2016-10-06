@@ -5,7 +5,9 @@ import java.util.*;
 import javax.inject.*;
 
 import org.apache.commons.logging.*;
+import org.openxava.model.*;
 import org.openxava.util.*;
+import org.openxava.validators.*;
 import org.openxava.view.*;
 
 /**
@@ -117,6 +119,14 @@ abstract public class ViewBaseAction extends BaseAction {
 			log.warn(XavaResources.getString( 
 				"use_object_previousViews_required", "returnToPreviousView()", getClass().getName())); 
 		}
+	}
+	
+	/**
+	 * @since 5.6
+	 */
+	protected void validateViewValues() { 
+		Messages errors = MapFacade.validate(getView().getModelName(), getView().getValues());
+		if (errors.contains()) throw new ValidationException(errors);
 	}
 	
 	/**

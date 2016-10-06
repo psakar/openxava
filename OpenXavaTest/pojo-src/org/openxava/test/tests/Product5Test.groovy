@@ -113,7 +113,7 @@ class Product5Test extends CustomizeListTestBase {
 		[
 			'CRUD.new', 'CRUD.deleteRow', 'CRUD.deleteSelected',
 			'Print.generatePdf', 'Print.generateExcel',
-			'List.filter', 'List.sumColumn', 'List.orderBy', 'List.hideRows',
+			'List.filter', 'List.sumColumn', 'List.orderBy', 'List.hideRows', "List.changeConfigurationName",  
 			'List.viewDetail', 
 			'Mode.detailAndFirst', 'Mode.split',
 			'ExtendedPrint.myReports',

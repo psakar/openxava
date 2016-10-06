@@ -2594,6 +2594,13 @@ public class AnnotatedClassParser implements IComponentParser {
 			return className;
 		}
 		catch (ClassNotFoundException ex) {				
+		}
+		try {
+			String className = "org.openxava.model.transients." + name;
+			Class.forName(className);
+			return className;
+		}
+		catch (ClassNotFoundException ex) {				
 		}		
 		String suffix = "." + name;
 		// If it's a managed entity

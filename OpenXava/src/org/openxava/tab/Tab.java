@@ -39,7 +39,8 @@ public class Tab implements java.io.Serializable {
 		
 		final private int COLLECTION_ID = "__COLLECTION__".hashCode();  
 							
-		private int id;  
+		private int id;
+		private String name; 
 		private String condition; 
 		private String [] conditionComparators;
 		private String [] conditionValues;
@@ -184,7 +185,16 @@ public class Tab implements java.io.Serializable {
 		}
 		
 		public String getName() {
+			if (hasCustomName()) return name; 
 			return translateCondition(condition); 
+		}
+		
+		public void setName(String newName) { 
+			name = newName;
+		}
+		
+		public boolean hasCustomName() { 
+			return !Is.emptyString(name);
 		}
 
 		public boolean isDefault() { 
@@ -308,6 +318,7 @@ public class Tab implements java.io.Serializable {
 	private static final String CONFIGURATION_DESCENDING_ORDER2 = "descendingOrder2";
 	private static final String CONFIGURATION_PROPERTIES_NAMES = "propertiesNames"; 
 	private static final String CONFIGURATION_REMOVED = "removed";
+	private static final String CONFIGURATION_NAME = "name"; 
 	
 	private static Object refiner; 
 	
@@ -1683,6 +1694,7 @@ public class Tab implements java.io.Serializable {
 			}
 			Preferences configurationsPreferences = getConfigurationsPreferences();
 			Preferences configurationPreferences = configurationsPreferences.node(Integer.toString(configuration.getId()));
+			if (configuration.hasCustomName()) configurationPreferences.put(CONFIGURATION_NAME, configuration.getName()); 
 			configurationPreferences.put(CONFIGURATION_CONDITION, configuration.getCondition());
 			configurationPreferences.put(CONFIGURATION_CONDITION_COMPARATORS, Strings.toString(configuration.getConditionComparators(), "|"));
 			configurationPreferences.put(CONFIGURATION_CONDITION_VALUES, Strings.toString(configuration.getConditionValues(), "|"));
@@ -1707,6 +1719,12 @@ public class Tab implements java.io.Serializable {
 	public void setConfigurationId(int configurationId) {   
 		configuration = configurations.get(configurationId);
 		applyConfiguration();
+	}
+	
+	public void setConfigurationName(String newName) { 
+		if (configuration == null) return;
+		configuration.setName(newName);
+		saveConfigurationPreferences();
 	}
 
 	private void applyConfiguration() {
@@ -2081,6 +2099,7 @@ public class Tab implements java.io.Serializable {
 			Preferences pref = configurationsPreferences.node(confName);
 			if (pref.getBoolean(CONFIGURATION_REMOVED, false)) continue; 
 			Configuration conf = new Configuration();
+			conf.setName(pref.get(CONFIGURATION_NAME, null)); 
 			conf.setCondition(pref.get(CONFIGURATION_CONDITION, ""));
 			conf.setConditionComparators(StringUtils.splitPreserveAllTokens(pref.get(CONFIGURATION_CONDITION_COMPARATORS, ""), "|"));
 			conf.setConditionValues(StringUtils.splitPreserveAllTokens(pref.get(CONFIGURATION_CONDITION_VALUES, ""), "|"));
@@ -2105,10 +2124,10 @@ public class Tab implements java.io.Serializable {
 	}
 	
 	private Configuration addDefaultConfiguration() {   
-		Configuration defautl = new Configuration();
-		defautl.setCondition(defaultCondition);
-		configurations.put(defautl.getId(), defautl);
-		return defautl;
+		Configuration defaultConf = new Configuration();
+		defaultConf.setCondition(defaultCondition);
+		configurations.put(defaultConf.getId(), defaultConf);
+		return defaultConf;
 	}
 
 	private String removeNonexistentProperties(String properties) {

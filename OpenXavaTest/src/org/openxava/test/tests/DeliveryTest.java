@@ -42,6 +42,7 @@ public class DeliveryTest extends ModuleTestBase {
 		"List.viewDetail",
 		"List.hideRows",
 		"List.sumColumn",
+		"List.changeConfigurationName",  
 		"ListFormat.select" 
 	};
 		
@@ -298,7 +299,7 @@ public class DeliveryTest extends ModuleTestBase {
 		execute("DeliveryDetail.removeSelected", "viewObject=xava_view_section2_details_details");
 		assertNoErrors();
 		assertMessage("Delivery detail deleted from database");
-		assertMessage("Delivery detail 13 deleted successfully"); // This message is by the override action for removeSelected 		
+		assertMessage("Delivery detail 13 deleted successfully"); // This message is by the override action for removeSelected  		
 		assertCollectionRowCount("details", 2);
 		
 		execute("DeliveryDetail.new", "viewObject=xava_view_section2_details_details");
@@ -495,7 +496,7 @@ public class DeliveryTest extends ModuleTestBase {
 		setValue("number", "66");
 		setValue("description", "JUNIT DELIVERY DETAIL");
 		execute("DeliveryDetail.save");		
-		assertNoErrors();				
+		assertNoErrors(); 				
 		assertCollectionRowCount("details", 1);
 		
 		execute("CRUD.delete");

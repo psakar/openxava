@@ -5331,6 +5331,7 @@ OpenXava/src/org/openxava/actions/CancelDialogAction.java -text
 OpenXava/src/org/openxava/actions/CancelFromCustomListAction.java -text
 OpenXava/src/org/openxava/actions/CancelInListAction.java -text
 OpenXava/src/org/openxava/actions/ChangeImageAction.java -text
+OpenXava/src/org/openxava/actions/ChangeListConfigurationNameAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/ChangeModuleAction.java -text
 OpenXava/src/org/openxava/actions/ChangeSectionAction.java -text
 OpenXava/src/org/openxava/actions/ChooseFileAction.java -text svneol=unset#text/plain
@@ -5360,6 +5361,7 @@ OpenXava/src/org/openxava/actions/GenerateMyReportAction.java -text svneol=unset
 OpenXava/src/org/openxava/actions/GenerateReportAction.java -text
 OpenXava/src/org/openxava/actions/GoAddColumnsAction.java -text
 OpenXava/src/org/openxava/actions/GoAddElementsToCollectionAction.java -text
+OpenXava/src/org/openxava/actions/GoChangeListConfigurationNameAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/GoChooseIconAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/GoDetailAction.java -text
 OpenXava/src/org/openxava/actions/GoListAction.java -text
@@ -5772,6 +5774,7 @@ OpenXava/src/org/openxava/model/meta/xmlparse/CalculatorParser.java -text
 OpenXava/src/org/openxava/model/meta/xmlparse/DefaultSizeParser.java -text
 OpenXava/src/org/openxava/model/meta/xmlparse/ModelParser.java -text
 OpenXava/src/org/openxava/model/meta/xmlparse/StereotypeTypeDefaultParser.java -text
+OpenXava/src/org/openxava/model/transients/WithRequiredLongName.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/session/Chart.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/session/ChartColumn.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/session/Gallery.java -text
@@ -9347,6 +9350,10 @@ OpenXavaTest/i18n/portlets/ColorWithGroupsAndChangeControllers_ca.properties -te
 OpenXavaTest/i18n/portlets/ColorWithGroupsAndChangeControllers_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/ColorWithGroupsAndChangeControllers_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/ColorWithGroupsAndChangeControllers_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ColorWithModeListOnlyAndSubcontroller_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ColorWithModeListOnlyAndSubcontroller_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ColorWithModeListOnlyAndSubcontroller_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ColorWithModeListOnlyAndSubcontroller_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Color_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Color_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Color_es.properties -text svneol=unset#text/plain
@@ -9855,6 +9862,10 @@ OpenXavaTest/i18n/portlets/InvoiceFromDeliveries_ca.properties -text svneol=unse
 OpenXavaTest/i18n/portlets/InvoiceFromDeliveries_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceFromDeliveries_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceFromDeliveries_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceListManyTypes_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceListManyTypes_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceListManyTypes_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceListManyTypes_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceNestedSections2_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceNestedSections2_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceNestedSections2_es.properties -text svneol=unset#text/plain

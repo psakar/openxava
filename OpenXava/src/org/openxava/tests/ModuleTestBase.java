@@ -2797,7 +2797,7 @@ public class ModuleTestBase extends TestCase {
 	private HtmlSelect getSelectListConfigurations() { 
 		HtmlBody body = (HtmlBody) getHtmlPage().getElementsByTagName("body").get(0); 
 		HtmlElement listTitle = body.getOneHtmlElementByAttribute("td", "class", "ox-list-title"); // This class depend on the style
-		return (HtmlSelect) listTitle.getFirstElementChild(); // We assume that the configuration combo is the first element
+		return (HtmlSelect) listTitle.getElementsByTagName("select").get(0); 
 	}
 
 	private String refineListConfigurationTitle(String title) {
