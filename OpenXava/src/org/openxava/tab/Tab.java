@@ -1694,15 +1694,17 @@ public class Tab implements java.io.Serializable {
 			}
 			Preferences configurationsPreferences = getConfigurationsPreferences();
 			Preferences configurationPreferences = configurationsPreferences.node(Integer.toString(configuration.getId()));
-			if (configuration.hasCustomName()) configurationPreferences.put(CONFIGURATION_NAME, configuration.getName()); 
-			configurationPreferences.put(CONFIGURATION_CONDITION, configuration.getCondition());
-			configurationPreferences.put(CONFIGURATION_CONDITION_COMPARATORS, Strings.toString(configuration.getConditionComparators(), "|"));
-			configurationPreferences.put(CONFIGURATION_CONDITION_VALUES, Strings.toString(configuration.getConditionValues(), "|"));
-			configurationPreferences.put(CONFIGURATION_CONDITION_VALUES_TO, Strings.toString(configuration.getConditionValuesTo(), "|"));			
-			if (configuration.getOrderBy() != null ) configurationPreferences.put(CONFIGURATION_ORDER_BY, configuration.getOrderBy());
-			if (configuration.getOrderBy2() != null ) configurationPreferences.put(CONFIGURATION_ORDER_BY2, configuration.getOrderBy2());
-			configurationPreferences.putBoolean(CONFIGURATION_DESCENDING_ORDER, configuration.isDescendingOrder());
-			configurationPreferences.putBoolean(CONFIGURATION_DESCENDING_ORDER2, configuration.isDescendingOrder2());
+			if (!configuration.isCollection()) { 
+				if (configuration.hasCustomName()) configurationPreferences.put(CONFIGURATION_NAME, configuration.getName()); 
+				configurationPreferences.put(CONFIGURATION_CONDITION, configuration.getCondition());
+				configurationPreferences.put(CONFIGURATION_CONDITION_COMPARATORS, Strings.toString(configuration.getConditionComparators(), "|"));
+				configurationPreferences.put(CONFIGURATION_CONDITION_VALUES, Strings.toString(configuration.getConditionValues(), "|"));
+				configurationPreferences.put(CONFIGURATION_CONDITION_VALUES_TO, Strings.toString(configuration.getConditionValuesTo(), "|"));			
+				if (configuration.getOrderBy() != null ) configurationPreferences.put(CONFIGURATION_ORDER_BY, configuration.getOrderBy());
+				if (configuration.getOrderBy2() != null ) configurationPreferences.put(CONFIGURATION_ORDER_BY2, configuration.getOrderBy2());
+				configurationPreferences.putBoolean(CONFIGURATION_DESCENDING_ORDER, configuration.isDescendingOrder());
+				configurationPreferences.putBoolean(CONFIGURATION_DESCENDING_ORDER2, configuration.isDescendingOrder2());
+			} 
 			configurationPreferences.put(CONFIGURATION_PROPERTIES_NAMES, configuration.getPropertiesNames());
 			configurationPreferences.putBoolean(CONFIGURATION_REMOVED, false);
 			configurationPreferences.flush();

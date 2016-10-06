@@ -39,7 +39,7 @@ public class CustomerRadioButtonTest extends ModuleTestBase {
 		assertValue("type", usesAnnotatedPOJO()?"1":"2"); // steady
 		
 		execute("CRUD.delete");
-		assertMessage("Customer deleted successfully");
+		assertMessage("Customer deleted successfully"); 
 	}
 		
 }

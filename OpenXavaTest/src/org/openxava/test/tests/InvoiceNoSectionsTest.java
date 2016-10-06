@@ -13,6 +13,29 @@ public class InvoiceNoSectionsTest extends ModuleTestBase {
 		super(testName, "InvoiceNoSections");		
 	}
 	
+	public void testCollectionOrderingNotStoredBetweenSessions() throws Exception { 
+		execute("Mode.detailAndFirst");
+		assertValue("year", "2002");
+		assertValue("number", "1");
+		assertCollectionRowCount("details", 2); 
+		assertValueInCollection("details", 0, "product.description", "IBM ESERVER ISERIES 270");
+		assertValueInCollection("details", 1, "product.description", "XAVA");
+		execute("List.orderBy", "property=product.description,collection=details");
+		assertValueInCollection("details", 0, "product.description", "IBM ESERVER ISERIES 270");
+		assertValueInCollection("details", 1, "product.description", "XAVA");
+		
+		resetModule();
+		execute("Mode.detailAndFirst");
+		assertValue("year", "2002");
+		assertValue("number", "1");
+		assertCollectionRowCount("details", 2); 
+		assertValueInCollection("details", 0, "product.description", "IBM ESERVER ISERIES 270");
+		assertValueInCollection("details", 1, "product.description", "XAVA");
+		execute("List.orderBy", "property=product.description,collection=details");
+		assertValueInCollection("details", 0, "product.description", "IBM ESERVER ISERIES 270");
+		assertValueInCollection("details", 1, "product.description", "XAVA");		
+	}
+	
 	public void testAddingAnElementCollectionNotResetReferenceWithCalculatedProperty() throws Exception { 
 		execute("Mode.detailAndFirst");
 		assertValue("year", "2002");
