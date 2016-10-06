@@ -112,7 +112,7 @@ public class MetaController extends MetaElement {
 	}
 
 	public boolean containsMetaAction(String actionName) {
-		return metaActions.contains(new MetaAction(actionName));
+		return mapMetaActions.containsKey(actionName); 
 	}	
 
 	// Search by name, so ignoring the controller name

@@ -27,7 +27,7 @@ public class MetaTab implements java.io.Serializable, Cloneable {
 	private Collection metaPropertiesHidden;
 	private String name;
 	private MetaComponent metaComponent;
-	private List propertiesNames = null;
+	private List<String> propertiesNames = null; 
 	private List<String> propertiesNamesWithKeyAndHidden;
 	private List<MetaProperty> metaProperties = null; 
 	private List metaPropertiesCalculated = null;
@@ -244,7 +244,7 @@ public class MetaTab implements java.io.Serializable, Cloneable {
 	/**
 	 * @return Not null, read only of type <tt>String</tt>.
 	 */
-	public List getPropertiesNames() throws XavaException {
+	public List<String> getPropertiesNames() throws XavaException { 
 		if (propertiesNames == null) {
 			if (!areAllProperties()) {
 				propertiesNames = createPropertiesNames();
@@ -559,12 +559,29 @@ public class MetaTab implements java.io.Serializable, Cloneable {
 		resetAfterAddRemoveProperty();
 	}
 	
-	public void dropProperty(String propertyName) { 
-		removeProperty(propertyName);
-		if (droppedMembers == null) droppedMembers = new HashSet();
-		droppedMembers.add(Strings.firstToken(propertyName, "."));
+	/**
+	 * @since 5.6
+	 */
+	public void dropMember(String memberName) { 
+		removeMember(memberName);
+		if (droppedMembers == null) droppedMembers = new HashSet<String>();
+		droppedMembers.add(memberName);
 	}
+
 	
+	private void removeMember(String memberName) { 
+		for (String property: new ArrayList<String>(getPropertiesNames())) {
+			if (property.equals(memberName)) {
+				removeProperty(property);
+				return;
+			}
+			if (property.startsWith(memberName + ".")) {
+				removeProperty(property);
+			}
+		}
+		
+	}
+
 	/**
 	 * For dynamically remove properties to this tab
 	 */
@@ -711,8 +728,8 @@ public class MetaTab implements java.io.Serializable, Cloneable {
 		}
 	}
 
-	public List getRemainingPropertiesNames() throws XavaException { 
-		List result = new ArrayList(getMetaModel().getRecursiveQualifiedPropertiesNames());
+	public List<String> getRemainingPropertiesNames() throws XavaException { 
+		List<String> result = new ArrayList<String>(getMetaModel().getRecursiveQualifiedPropertiesNames()); 
 		result.removeAll(getPropertiesNames());
 		removeDroppedMembers(result);
 		return result;

@@ -45,11 +45,6 @@
 			class="com.openxava.naviox.actions.UnlockAction"/>
 	</controller>
 	
-	<controller name="Index">	
-		<action name="goOrganization" hidden="true" icon="exit-to-app"			
-			class="com.openxava.naviox.actions.GoOrganizationAction"/>
-	</controller>	
-	
 	<controller name="Configuration">
 	
 		<action name="init" after-each-request="true" hidden="true"  			
@@ -135,7 +130,10 @@
 			class="com.openxava.naviox.actions.CreateNewOrganizationAction"/>
 			
 		<action name="delete" mode="detail" confirm="true"
-			class="com.openxava.naviox.actions.DeleteOrganizationAction"/>		
+			class="com.openxava.naviox.actions.DeleteOrganizationAction"/>
+		
+		<action name="go" in-each-row="true" mode="NONE" icon="exit-to-app"			
+			class="com.openxava.naviox.actions.GoOrganizationAction"/>
 						
 	</controller>
 		

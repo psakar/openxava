@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- MetaController.containsMetaAction() receives a not qualified action name as argument.
 - New method validateViewValues() in ViewBaseAction.
 - New WithRequiredLongName class for using as generic transient class for dialogs.
 - Fix: show actions and subcontroller (controllers.xml) in order of appearance.
