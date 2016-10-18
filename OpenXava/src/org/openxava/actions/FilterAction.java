@@ -12,7 +12,7 @@ public class FilterAction extends TabBaseAction {
 	public void execute() throws Exception {
 		getTab().setRowsHidden(false);
 		getTab().goPage(1);
-		if (configurationId == 0) getTab().saveConfiguration(); 
+		if (configurationId == 0) getTab().saveConfiguration();
 		else getTab().setConfigurationId(getConfigurationId());
 	}
 

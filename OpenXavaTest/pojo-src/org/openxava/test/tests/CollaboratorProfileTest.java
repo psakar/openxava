@@ -23,7 +23,7 @@ public class CollaboratorProfileTest extends ModuleTestBase {
 	
 	private void assertListConfigurationsWithCompositeKeyReferenceAsDescriptionsList() throws Exception { 
 		assertListSelectedConfiguration("Profile = profile 222");		
-		assertListAllConfigurations("All", "Profile = profile 222");
+		assertListAllConfigurations("Profile = profile 222", "All"); 
 		assertListRowCount(1);		
 
 		selectListConfiguration("All");
@@ -33,7 +33,7 @@ public class CollaboratorProfileTest extends ModuleTestBase {
 		
 		selectListConfiguration("Profile = profile 222");
 		assertListSelectedConfiguration("Profile = profile 222");		
-		assertListAllConfigurations("All", "Profile = profile 222");
+		assertListAllConfigurations("Profile = profile 222", "All"); 
 		assertListRowCount(1);		
 	}
 		

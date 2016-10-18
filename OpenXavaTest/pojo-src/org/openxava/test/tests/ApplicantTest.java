@@ -108,7 +108,7 @@ public class ApplicantTest extends ModuleTestBase {
 		assertEquals(1, StringUtils.countMatches(html, "<head>"));
 	}
 	
-	public void testListCustomizationWithTabDefaultOrder() throws Exception { 
+	public void testListCustomizationWithTabDefaultOrder() throws Exception {  
 		assertListCustomizationWithTabDefaultOrder();
 		resetModule();
 		assertListCustomizationWithTabDefaultOrder(); // Failed the second time after reseting module

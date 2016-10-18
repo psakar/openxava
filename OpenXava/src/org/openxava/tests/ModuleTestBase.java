@@ -3,7 +3,6 @@ package org.openxava.tests;
 import java.io.*;
 import java.net.*;
 import java.util.*;
-import java.util.Collections;
 import java.util.logging.*;
 
 import junit.framework.*;
@@ -2782,15 +2781,13 @@ public class ModuleTestBase extends TestCase {
 	/**
 	 * @since 5.6 
 	 */	
-	protected void assertListAllConfigurations(String ... expectedTitles) { 
+	protected void assertListAllConfigurations(String ... expectedTitles) throws Exception { 
 		List<String> titles = new ArrayList<String>();
 		for (HtmlOption option: getSelectListConfigurations().getOptions()) {
 			String title = titles.isEmpty()?refineListConfigurationTitle(option.asText()):option.asText();
 			titles.add(title);
 		}
-		Collections.sort(titles);
 		List<String> expectedTitleList = Arrays.asList(expectedTitles);
-		Collections.sort(expectedTitleList);
 		assertEquals(expectedTitleList, titles);
 	}
 	
