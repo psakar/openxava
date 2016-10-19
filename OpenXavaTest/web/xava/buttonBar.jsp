@@ -26,7 +26,7 @@ if (manager.isButtonBarVisible()) {
 	<div id="<xava:id name='controllerElement'/>">
 	<span style="float: left">
 	<%
-	Collection<MetaControllerElement> elements = manager.getMetaControllerElement();
+	Collection<MetaControllerElement> elements = manager.getMetaControllerElements(); 
 	for (MetaControllerElement element : elements){
 		if (!element.appliesToMode(mode)) continue;
 		if (element instanceof MetaAction){

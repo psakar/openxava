@@ -9,9 +9,11 @@ import java.util.prefs.*;
 
 import javax.servlet.http.*;
 
+import org.apache.commons.collections.*;
 import org.apache.commons.lang.*;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.logging.*;
+import org.hibernate.hql.internal.*;
 import org.openxava.application.meta.*;
 import org.openxava.component.*;
 import org.openxava.controller.*;
@@ -310,7 +312,8 @@ public class Tab implements java.io.Serializable {
 	 */
 	public final static String COLLECTION_PREFIX = "xava_collectionTab_";
 	public final static String TAB_RESETED_PREFIX = "xava.tab.reseted.";
-	public final static String DESCRIPTIONS_LIST_SEPARATOR = ":_:"; 
+	public final static String DESCRIPTIONS_LIST_SEPARATOR = ":_:";
+	public final static int MAX_CONFIGURATIONS_COUNT = 20; 
 	
 	public final static String STARTS_COMPARATOR = "starts_comparator";	
 	public final static String CONTAINS_COMPARATOR = "contains_comparator";
@@ -2136,6 +2139,7 @@ public class Tab implements java.io.Serializable {
 		Preferences configurationsPreferences = getConfigurationsPreferences();
 		configurations.clear();
 		configuration = null; 
+		List<Configuration> allConfs = new ArrayList<Configuration>(); 
 		for (String confName: configurationsPreferences.childrenNames()) {
 			Preferences pref = configurationsPreferences.node(confName);
 			if (pref.getBoolean(CONFIGURATION_REMOVED, false)) continue; 
@@ -2151,12 +2155,18 @@ public class Tab implements java.io.Serializable {
 			conf.setDescendingOrder2(pref.getBoolean(CONFIGURATION_DESCENDING_ORDER2, false));
 			conf.setPropertiesNames(pref.get(CONFIGURATION_PROPERTIES_NAMES, null));
 			conf.setWeight(pref.getLong(CONFIGURATION_WEIGHT, 0)); 
-			configurations.put(conf.getId(), conf);
+			allConfs.add(conf);
 			if (conf.isCollection()) {
 				configuration = conf;
 				break;
 			}
 			if (conf.isDefault()) configuration = conf; 
+		}
+		int count = 0;
+		Collections.sort(allConfs);
+		for (Configuration conf: allConfs) { // To purge and keep just the most relevant configurations
+			if (count++ < MAX_CONFIGURATIONS_COUNT) configurations.put(conf.getId(), conf);
+			else removeConfigurationPreferences(conf.getId());
 		}
 		if (configuration != null) applyConfiguration();
 		else {

@@ -41,7 +41,7 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 			"Seller of customer = manuel chavarri", "Year/month of date = 2006/11", "Month of date = 1", "Year of date = 2002", 
 			"Type of customer = steady", "Type of customer = normal", "Year in group(2002, 2004)", 
 			"Year not in group(2002, 2004)", "Email of customer is not empty and not paid", "Email of customer is empty", 
-			"Not paid and name of customer starts with j", "Paid", "Not paid", "Year = 2004 and number > 10", "Number = 1");
+			"Not paid and name of customer starts with j"); 
 		selectListConfiguration("Seller of customer = manuel chavarri");
 		execute("List.changeConfigurationName");
 		assertValue("name", "Seller of customer = manuel chavarri");
@@ -57,7 +57,7 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 			"Ordered by year ascending and number descending", "Year/month of date = 2006/11", "Month of date = 1", 
 			"Year of date = 2002", "Type of customer = steady", "Type of customer = normal", "Year in group(2002, 2004)", 
 			"Year not in group(2002, 2004)", "Email of customer is not empty and not paid", "Email of customer is empty", 
-			"Not paid and name of customer starts with j", "Paid", "Not paid", "Year = 2004 and number > 10", "Number = 1");
+			"Not paid and name of customer starts with j"); 
 		assertListRowCount(7);
 		selectListConfiguration("Email of customer is not empty");
 		execute("List.changeConfigurationName");
@@ -70,7 +70,7 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 			"Ordered by year ascending and number descending", "Year/month of date = 2006/11", "Month of date = 1", 
 			"Year of date = 2002", "Type of customer = steady", "Type of customer = normal", "Year in group(2002, 2004)", 
 			"Year not in group(2002, 2004)", "Email of customer is not empty and not paid", "Email of customer is empty", 
-			"Not paid and name of customer starts with j", "Paid", "Not paid", "Year = 2004 and number > 10", "Number = 1");
+			"Not paid and name of customer starts with j"); 
 		assertListRowCount(5);		
 		selectListConfiguration("All");
 		assertListAllConfigurations("All", "Customer with email", "Seller Manuel Chavarri", "Number between 2 and 10", 
@@ -79,7 +79,7 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 			"Ordered by year ascending and number descending", "Year/month of date = 2006/11", "Month of date = 1", 
 			"Year of date = 2002", "Type of customer = steady", "Type of customer = normal", "Year in group(2002, 2004)", 
 			"Year not in group(2002, 2004)", "Email of customer is not empty and not paid", "Email of customer is empty", 
-			"Not paid and name of customer starts with j", "Paid", "Not paid", "Year = 2004 and number > 10", "Number = 1");		
+			"Not paid and name of customer starts with j");  
 		assertListRowCount(9);
 		selectListConfiguration("Seller Manuel Chavarri");
 		assertListSelectedConfiguration("Seller Manuel Chavarri");
@@ -89,7 +89,7 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 			"Ordered by year ascending and number descending", "Year/month of date = 2006/11", "Month of date = 1", 
 			"Year of date = 2002", "Type of customer = steady", "Type of customer = normal", "Year in group(2002, 2004)", 
 			"Year not in group(2002, 2004)", "Email of customer is not empty and not paid", "Email of customer is empty", 
-			"Not paid and name of customer starts with j", "Paid", "Not paid", "Year = 2004 and number > 10", "Number = 1");		
+			"Not paid and name of customer starts with j");  
 		assertListRowCount(7);
 		
 		selectListConfiguration("Number between 2 and 10"); // Restoring
@@ -264,8 +264,7 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 			"Ordered by year ascending and number descending", "Seller of customer = manuel chavarri", "Year/month of date = 2006/11", 
 			"Month of date = 1", "Year of date = 2002", "Type of customer = steady", "Type of customer = normal", "Year in group(2002, 2004)", 
 			"Year not in group(2002, 2004)", "Email of customer is not empty and not paid", "Email of customer is empty", 
-			"Email of customer is not empty", "Not paid and name of customer starts with j", "Paid", "Not paid", 
-			"Year = 2004 and number > 10", "Number = 1");
+			"Email of customer is not empty", "Not paid and name of customer starts with j", "Paid"); 
 		assertListRowCount(3);
 		
 		setConditionValues("", "2"); // The same initial value of other one, to test a bug. 
@@ -278,8 +277,7 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 			"Seller of customer = manuel chavarri", "Year/month of date = 2006/11", "Month of date = 1", "Year of date = 2002", 
 			"Type of customer = steady", "Type of customer = normal", "Year in group(2002, 2004)", 
 			"Year not in group(2002, 2004)", "Email of customer is not empty and not paid", "Email of customer is empty", 
-			"Email of customer is not empty", "Not paid and name of customer starts with j", "Paid", "Not paid", 
-			"Year = 2004 and number > 10", "Number = 1");
+			"Email of customer is not empty", "Not paid and name of customer starts with j");  
 		assertListRowCount(5); 
 		
 		selectListConfiguration("Number between 2 and 10");
@@ -289,8 +287,7 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 			"Ordered by year ascending and number descending", "Seller of customer = manuel chavarri", "Year/month of date = 2006/11", 
 			"Month of date = 1", "Year of date = 2002", "Type of customer = steady", "Type of customer = normal", "Year in group(2002, 2004)", 
 			"Year not in group(2002, 2004)", "Email of customer is not empty and not paid", "Email of customer is empty", 
-			"Email of customer is not empty", "Not paid and name of customer starts with j", "Paid", "Not paid", 
-			"Year = 2004 and number > 10", "Number = 1");
+			"Email of customer is not empty", "Not paid and name of customer starts with j"); 
 		assertListRowCount(3);
 	}
 
@@ -304,7 +301,7 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 			"Ordenado por año descendente y número descendente", "Ordenado por año ascendente y número descendente", "Mes de fecha = 1", 
 			"Año de fecha = 2002", "Tipo de cliente = fijo", "Tipo de cliente = normal", "Año en grupo(2002, 2004)", 
 			"Año no en grupo(2002, 2004)", "Correo electrónico de cliente no está vacío y no pagada", "Correo electrónico de cliente está vacío",  
-			"No pagada y nombre de cliente empieza por j", "Pagada", "No pagada", "Año = 2004 y número > 10", "Número = 1");
+			"No pagada y nombre de cliente empieza por j");
 		selectListConfiguration("Año/mes de fecha = 2006/11"); // Not the first one, to test a case
 		assertListSelectedConfiguration("Año/mes de fecha = 2006/11");
 		assertListAllConfigurations("Año/mes de fecha = 2006/11", "Todos", "Seller Manuel Chavarri", "Customer with email",    
@@ -313,7 +310,7 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 			"Ordenado por año descendente y número descendente", "Ordenado por año ascendente y número descendente", "Mes de fecha = 1", 
 			"Año de fecha = 2002", "Tipo de cliente = fijo", "Tipo de cliente = normal", "Año en grupo(2002, 2004)", 
 			"Año no en grupo(2002, 2004)", "Correo electrónico de cliente no está vacío y no pagada", "Correo electrónico de cliente está vacío",  
-			"No pagada y nombre de cliente empieza por j", "Pagada", "No pagada", "Año = 2004 y número > 10", "Número = 1");
+			"No pagada y nombre de cliente empieza por j"); 
 		assertListRowCount(2);
 		
 		selectListConfiguration("Ordenado por año descendente y número descendente"); // With ordering
@@ -324,7 +321,7 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 			"Año > 2002 ordenado por año descendente y número descendente", "Ordenado por año ascendente y número descendente", 
 			"Mes de fecha = 1", "Año de fecha = 2002", "Tipo de cliente = fijo", "Tipo de cliente = normal", "Año en grupo(2002, 2004)", 
 			"Año no en grupo(2002, 2004)", "Correo electrónico de cliente no está vacío y no pagada", "Correo electrónico de cliente está vacío",  
-			"No pagada y nombre de cliente empieza por j", "Pagada", "No pagada", "Año = 2004 y número > 10", "Número = 1");
+			"No pagada y nombre de cliente empieza por j");
 		assertListRowCount(9);
 		assertValueInList(3, "year", "2004");
 		assertValueInList(3, "number", "12");
@@ -345,7 +342,7 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 			"Año > 2002 ordenado por año descendente y número descendente", "Ordenado por año ascendente y número descendente", 
 			"Mes de fecha = 1", "Año de fecha = 2002", "Tipo de cliente = fijo", "Tipo de cliente = normal", "Año en grupo(2002, 2004)", 
 			"Año no en grupo(2002, 2004)", "Correo electrónico de cliente no está vacío y no pagada", "Correo electrónico de cliente está vacío",  
-			"No pagada y nombre de cliente empieza por j", "Pagada", "No pagada", "Año = 2004 y número > 10", "Número = 1");
+			"No pagada y nombre de cliente empieza por j");
 		assertListRowCount(5);
 		
 		selectListConfiguration("Customer with email"); 
@@ -375,7 +372,7 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 			"Ordenado por año ascendente y número descendente", "Mes de fecha = 1", "Año de fecha = 2002", "Tipo de cliente = fijo", 
 			"Tipo de cliente = normal", "Año en grupo(2002, 2004)", "Año no en grupo(2002, 2004)", 
 			"Correo electrónico de cliente no está vacío y no pagada", "Correo electrónico de cliente está vacío",  
-			"No pagada y nombre de cliente empieza por j", "Pagada", "No pagada", "Año = 2004 y número > 10", "Número = 1");
+			"No pagada y nombre de cliente empieza por j");
 		assertListRowCount(7);
 	}
 
@@ -389,7 +386,7 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 			"Ordenado por año ascendente y número descendente", "Año/mes de fecha = 2006/11", "Mes de fecha = 1", 
 			"Año de fecha = 2002", "Tipo de cliente = fijo", "Tipo de cliente = normal", "Año en grupo(2002, 2004)", 
 			"Año no en grupo(2002, 2004)", "Correo electrónico de cliente no está vacío y no pagada", "Correo electrónico de cliente está vacío",  
-			"No pagada y nombre de cliente empieza por j", "Pagada", "No pagada", "Año = 2004 y número > 10", "Número = 1");
+			"No pagada y nombre de cliente empieza por j");
 		assertListRowCount(3); 
 		
 		selectListConfiguration("Año/mes de fecha = 2006/11");
@@ -401,7 +398,7 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 			"Ordenado por año descendente y número descendente", "Ordenado por año ascendente y número descendente", "Mes de fecha = 1", 
 			"Año de fecha = 2002", "Tipo de cliente = fijo", "Tipo de cliente = normal", "Año en grupo(2002, 2004)", 
 			"Año no en grupo(2002, 2004)", "Correo electrónico de cliente no está vacío y no pagada", "Correo electrónico de cliente está vacío",  
-			"No pagada y nombre de cliente empieza por j", "Pagada", "No pagada", "Año = 2004 y número > 10", "Número = 1");
+			"No pagada y nombre de cliente empieza por j"); 
 		assertListRowCount(2);
 	}
 
@@ -469,8 +466,7 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 			"Year/month of date = 2006/11", "Month of date = 1", "Year of date = 2002", "Type of customer = steady", 
 			"Type of customer = normal", "Year in group(2002, 2004)", "Year not in group(2002, 2004)", 
 			"Email of customer is not empty and not paid", "Email of customer is empty", 
-			"Email of customer is not empty", "Not paid and name of customer starts with j", "Paid", "Not paid", 
-			"Year = 2004 and number > 10", "Number = 1");
+			"Email of customer is not empty", "Not paid and name of customer starts with j", "Paid", "Not paid"); 
 		
 		selectListConfiguration("Ordered by number descending");
 		assertListSelectedConfiguration("Ordered by number descending");
@@ -479,8 +475,7 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 			"Ordered by number", "Seller of customer = manuel chavarri", "Year/month of date = 2006/11", "Month of date = 1", 
 			"Year of date = 2002", "Type of customer = steady", "Type of customer = normal", "Year in group(2002, 2004)", 
 			"Year not in group(2002, 2004)", "Email of customer is not empty and not paid", "Email of customer is empty", 
-			"Email of customer is not empty", "Not paid and name of customer starts with j", "Paid", "Not paid", 
-			"Year = 2004 and number > 10", "Number = 1");
+			"Email of customer is not empty", "Not paid and name of customer starts with j", "Paid", "Not paid");  
 		assertListRowCount(9);
 		assertValueInList(0, "number", "14");
 		assertValueInList(8, "number", "1");
@@ -496,8 +491,7 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 			"Ordered by year ascending and number descending", "Seller of customer = manuel chavarri", "Year/month of date = 2006/11", 
 			"Month of date = 1", "Year of date = 2002", "Type of customer = steady", "Type of customer = normal", "Year in group(2002, 2004)", 
 			"Year not in group(2002, 2004)", "Email of customer is not empty and not paid", "Email of customer is empty", 
-			"Email of customer is not empty", "Not paid and name of customer starts with j", "Paid", "Not paid", 
-			"Year = 2004 and number > 10", "Number = 1");
+			"Email of customer is not empty", "Not paid and name of customer starts with j", "Paid", "Not paid");  
 		assertListRowCount(9);
 		assertValueInList(0, "number", "1");
 		assertValueInList(8, "number", "14");		

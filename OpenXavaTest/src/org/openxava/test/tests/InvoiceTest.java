@@ -1193,7 +1193,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		setValue("number", String.valueOf(getInvoice().getNumber()));
 		execute("CRUD.refresh");
 		assertNoErrors();
-		assertValue("date", "01/01/2004");
+		assertValue("date", "01/01/2004"); 
 		
 		setValue("date", "02012004");
 		execute("CRUD.save");

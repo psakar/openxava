@@ -270,7 +270,7 @@ public class WarehouseTest extends WarehouseSplitTestBase {
 		execute("List.goPage", "page=6");
 		assertListRowCount(10);
 		execute("List.goNextPage");
-		assertListRowCount(3); // It assumes 63 objects 
+		assertListRowCount(3); // It assumes 63 objects  
 	}
 				
 	public void testNotLoseFilterOnChangeMode() throws Exception {

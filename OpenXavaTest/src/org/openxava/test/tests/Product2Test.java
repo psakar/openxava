@@ -329,7 +329,7 @@ public class Product2Test extends ModuleTestBase {
 		setValue("number", "67");		
 		execute("CRUD.refresh");		
 		assertNoErrors();		
-		assertValue("description", "JUNIT ZONE 2");
+		assertValue("description", "JUNIT ZONE 2"); 
 		assertNotExists("zoneOne");
 		
 		setValue("warehouse.KEY", "");

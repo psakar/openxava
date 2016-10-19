@@ -16,28 +16,28 @@ public class MetaController extends MetaElement {
 	private Collection parents = new ArrayList();
 	private Map mapMetaActions = new HashMap();
 	private Collection<MetaSubcontroller> metaSubcontrollers = new ArrayList<MetaSubcontroller>();
-	private Collection<MetaControllerElement> metaControllerElement = new ArrayList<MetaControllerElement>();	// actions and subcontroller order by occurrence
+	private Collection<MetaControllerElement> metaControllerElements = new ArrayList<MetaControllerElement>();	// actions and subcontroller order by occurrence
 		
 	public void addMetaControllerElement(MetaControllerElement controllerElement){
-		metaControllerElement.add(controllerElement);
+		metaControllerElements.add(controllerElement);
 	}
 	
-	public Collection<MetaControllerElement> getMetaControllerElement(){
-		return metaControllerElement;
+	public Collection<MetaControllerElement> getMetaControllerElements(){
+		return metaControllerElements;
 	}
 	
-	private void getMetaControllerElementParents(List result, Collection<MetaController> parents){
+	private void getMetaControllerElementsParents(List result, Collection<MetaController> parents){
 		for(MetaController parent : parents) {
-			if (!parent.getParents().isEmpty()) getMetaControllerElementParents(result, parent.getParents());
-			result.addAll(parent.getMetaControllerElement());
+			if (!parent.getParents().isEmpty()) getMetaControllerElementsParents(result, parent.getParents());
+			result.addAll(parent.getMetaControllerElements());
 		}
 	}
 	
-	public Collection<MetaControllerElement> getAllMetaControllerElement(){
+	public Collection<MetaControllerElement> getAllMetaControllerElements(){
 		List<MetaControllerElement> result = new ArrayList();
-		getMetaControllerElementParents(result, getParents());
+		getMetaControllerElementsParents(result, getParents());
 		
-		for (MetaControllerElement controllerElement : getMetaControllerElement()){
+		for (MetaControllerElement controllerElement : getMetaControllerElements()){
 			if (controllerElement instanceof MetaAction){
 				// overwritte actions
 				MetaAction metaAction = (MetaAction)controllerElement;

@@ -91,8 +91,10 @@ if (collection == null || collection.equals("")) {
 	<% String confName = tab.getConfigurationName();%>
 	<option value=""><%=confName%>&nbsp;&nbsp;&#9662;&nbsp;</option>
 	<% 
+	int count = 1; 
 	for (Tab.Configuration conf: tab.getConfigurations()) {
 		if (!confName.equals(conf.getName())) {
+			if (++count > Tab.MAX_CONFIGURATIONS_COUNT) break; 
 	%>
 	<option value="<%=conf.getId()%>"><%=conf.getName()%></option>
 	<% 
