@@ -201,7 +201,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		execute("Collection.save");
 		assertNoDialog();
 		
-		// Verifying the image has been aded, and removing it  
+		// Verifying the image has been added, and removing it  
 		execute("Invoice.editDetail", "row=0,viewObject=xava_view_section1_details");
 		execute("Reference.modify", "model=Product,keyProperty=product.number");
 		execute("Gallery.edit", "galleryProperty=photos");

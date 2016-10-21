@@ -31,7 +31,7 @@ class Product5Test extends CustomizeListTestBase {
 	
 	// This case can be only reproduced in custom dialog with Product5 (in other Product it works)
 	void testDialogActionsAreNotLost() {  
-		execute "ExtendedPrint.myReports"
+		execute "ExtendedPrint.myReports" 
 		assertValueInCollection "columns", 4, 0, "Unit price"
 		assertValueInCollection "columns", 4, 4, "No"
 		execute "MyReport.editColumn", "row=4,viewObject=xava_view_columns"
@@ -136,7 +136,7 @@ class Product5Test extends CustomizeListTestBase {
 		]
 		
 		// list -> detail -> list
-		assertActions(listActions)
+		assertActions(listActions) 
 		execute("Product5.goB")
 		assertAction("Product5.goA")
 		assertNoAction("Product5.goB")

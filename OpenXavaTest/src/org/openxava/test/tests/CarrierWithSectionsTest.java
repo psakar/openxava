@@ -8,7 +8,7 @@ import org.openxava.util.*;
 /**
  * Create on 07/04/2008 (12:16:03)
  * 
- * @author Ana AndrÃ©s
+ * @author Ana Andrés
  * @author Javier Paniza
  */
 public class CarrierWithSectionsTest extends ModuleTestBase {

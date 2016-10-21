@@ -36,9 +36,10 @@ here that you want to override.
 	<object name="xava_newIconProperty" class="java.lang.String"/> 
 		
 	<controller name="Typical">
+		<!-- If you modify this controller revise the other Typical controllers below -->
 		<extends controller="Navigation"/>
 		<extends controller="CRUD"/>
-		<extends controller="ExtendedPrint"/>
+		<extends controller="Print"/>
 	</controller>
 	
 	<controller name="Void"/>	
@@ -222,7 +223,13 @@ here that you want to override.
             keystroke="Control Alt X">
             <set property="type" value="xls"/>  
         </action>
-	</controller>	
+	</controller>
+	
+	<controller name="TypicalExtendedPrint">
+		<extends controller="Navigation"/>
+		<extends controller="CRUD"/>
+		<extends controller="ExtendedPrint"/>
+	</controller>
 				
 	<controller name="DetailList">
 		<action name="initList" on-init="true"

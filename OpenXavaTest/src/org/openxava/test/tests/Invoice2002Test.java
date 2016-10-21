@@ -10,7 +10,6 @@ public class Invoice2002Test extends CustomizeListTestBase {
 	private String [] listActions = {
 		"Print.generatePdf",
 		"Print.generateExcel",
-		"ExtendedPrint.myReports",
 		"CRUD.new",
 		"CRUD.deleteSelected",
 		"CRUD.deleteRow",

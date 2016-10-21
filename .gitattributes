@@ -11228,6 +11228,7 @@ OpenXavaTest/src/org/openxava/test/tests/ChangeProductsPriceTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ClerkTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CollapsedMemberTestBase.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/Color2Test.java -text svneol=unset#text/plain
+OpenXavaTest/src/org/openxava/test/tests/ColorExtendedPrintTest.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/ColorM1Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/ColorTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/ColorWithGroupsAndChangeControllersTest.java -text

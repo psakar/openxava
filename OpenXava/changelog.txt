@@ -1,6 +1,9 @@
 Change Log for OpenXava project
 ===============================
 
+
+- 'My reports' action is no longer available by default, though it is still in OpenXava.
+- New TypicalExtendedPrint controller that includes 'My report' action.
 - MetaController.containsMetaAction() receives a not qualified action name as argument.
 - New method validateViewValues() in ViewBaseAction.
 - New WithRequiredLongName class for using as generic transient class for dialogs.

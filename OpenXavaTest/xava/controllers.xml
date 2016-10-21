@@ -280,7 +280,7 @@
 	</controller>
 		
 	<controller name="Delivery">
-		<extends controller="EditableOnOff"/>
+		<extends controller="EditableOnOff"/>		
 		<action name="search" mode="detail"
 			by-default="if-possible" hidden="true"			
 			class="org.openxava.test.actions.SearchDeliveryAction"
@@ -382,7 +382,7 @@
 	</controller>
 	
 	<controller name="Product5">
-		<extends controller="Typical"/>
+		<extends controller="TypicalExtendedPrint"/>
 		<action name="goA" on-init="true" mode="list" 
 			class="org.openxava.test.actions.ChangeToButtonAOrButtonB">
 			<set value="a" property="button"/>
@@ -396,7 +396,7 @@
 	</controller>
 			 	
 	<controller name="Customer">
-		<extends controller="Typical"/>
+		<extends controller="TypicalExtendedPrint"/>
 		<extends controller="EditableOnOff"/>
 		
 		<action name="save" mode="detail"
@@ -493,7 +493,7 @@
 	</controller>	
 	
 	<controller name="Invoice">
-		<extends controller="Typical"/>
+		<extends controller="TypicalExtendedPrint"/>
 		<!-- With icon and without image to test a case -->
 		<subcontroller controller="InvoicePrint" icon="printer"/>
 		<action name="searchFromDelivery" hidden="true"
@@ -1001,7 +1001,7 @@
 			class="org.openxava.test.actions.ViewNameFellowCarriersSelectedAction"/>
 		<action name="setTypicalController" mode="list"
 			class="org.openxava.test.actions.SetControllersAction">
-			<set property="controller1" value="Typical"/>
+			<set property="controller1" value="TypicalExtendedPrint"/>
 			<set property="controller2" value="CarrierWithSections"/>
 		</action>
 		<action name="setPrintController" mode="list"
@@ -1016,9 +1016,7 @@
 		<action name="returnToPreviousControllers" mode="list"
 			class="org.openxava.test.actions.SetControllersAction">
 			<set property="controller1" value="PREVIOUS"/>
-		</action>
-		
-		
+		</action>	
 	</controller>				
 		
 	<controller name="MessagesOnEachRequest">
