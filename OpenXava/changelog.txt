@@ -1,7 +1,9 @@
 Change Log for OpenXava project
 ===============================
 
-
+- Partial query from FROM allowed in @Tab(baseCondition=) of JPA entities and base-condition of XML components. 
+- Main window is not refreshed when generating a SimpleHTMLReport.
+- New helpAvailable property in xava.properties to enable/disable the help icon in modules.
 - 'My reports' action is no longer available by default, though it is still in OpenXava.
 - New TypicalExtendedPrint controller that includes 'My report' action.
 - MetaController.containsMetaAction() receives a not qualified action name as argument.

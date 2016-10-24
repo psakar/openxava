@@ -449,6 +449,14 @@
 	<tab name="Cards" editor="CustomerCardList">
 		<properties>number, name, type, address.city, address.state.name</properties>	
 	</tab>	
+	
+	<tab name="FromAlaska">
+		<base-condition>
+			from XAVATEST@separator@Customer customer0_ inner join XAVATEST@separator@CUSTOMER_STATE states1_ 
+			on customer0_.number=states1_.CUSTOMER inner join XAVATEST@separator@State state2_ on states1_.STATE=state2_.id 
+			where state2_.id='AK'
+		</base-condition>			
+	</tab>	
 			
 	<entity-mapping table="XAVATEST@separator@CUSTOMER">
 		<property-mapping

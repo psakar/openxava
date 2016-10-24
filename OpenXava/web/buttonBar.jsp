@@ -156,7 +156,7 @@ if (manager.isButtonBarVisible()) {
 			"_" + language + 
 			suffix;
 	} 	
-	if (style.isHelpAvailable()) {
+	if (XavaPreferences.getInstance().isHelpAvailable() && style.isHelpAvailable()) { 	
 		String helpImage = null;
 		if (style.getHelpImage() != null) helpImage = !style.getHelpImage().startsWith("/")?request.getContextPath() + "/" + style.getHelpImage():style.getHelpImage();
 	%>

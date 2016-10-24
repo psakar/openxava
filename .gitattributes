@@ -11237,6 +11237,7 @@ OpenXavaTest/src/org/openxava/test/tests/ConversionFactorTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerCardListTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerContactPersonAsAggregate3LevelsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerContactPersonTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/CustomerFromAlaskaTest.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/CustomerImageTest.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/CustomerNewOnInitInheritedTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerNewOnInitTest.java -text

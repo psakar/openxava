@@ -435,6 +435,12 @@ public class XavaPreferences {
 				"helpInNewWindow", "true").trim());
 	}
 	
+	/** @since 5.6 */
+	public boolean isHelpAvailable() { 
+		return "true".equalsIgnoreCase(getProperties().getProperty(
+				"helpAvailable", "true").trim());
+	}
+	
 	/** @since 4m5 */
 	public boolean isCustomizeList(){
 		return "true".equalsIgnoreCase(getProperties().getProperty("customizeList", "true").trim());		
