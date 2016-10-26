@@ -23,7 +23,7 @@ public class CarrierWithSectionsTest extends ModuleTestBase {
 		setConditionComparators("in_comparator");
 		setConditionValues("1,3");
 		execute("List.filter");
-		assertListRowCount(2);
+		assertListRowCount(2); 
 		assertValueInList(0, 1, "1");
 		assertValueInList(1, 1, "3");		
 		

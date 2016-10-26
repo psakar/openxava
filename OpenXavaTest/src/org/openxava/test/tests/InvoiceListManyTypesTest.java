@@ -19,10 +19,10 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 		// Don't separate in several independent tests 
 		// because we want test the accumulation of configuration without duplication
 
-		assertListConfigurationsBasicCases();	
+		assertListConfigurationsBasicCases(); 	
 		assertListConfigurationsBooleans();
 		assertListConfigurationsEmptyNotEmpty();
-		assertListConfigurationGroups();
+		assertListConfigurationGroups(); 
 		assertListConfigurationsEnums();	
 		assertListConfigurationsYearMonthYearMonth();
 		assertListConfigurationsDescriptionsLists();	
@@ -573,8 +573,10 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 
 	private void assertListConfigurationsEnums() throws Exception {
 		clearCondition();
-		setConditionComparators("", "", "", "", "", "", "="); 
-		setConditionValues("", "", "", "", "", "", "1");
+		setConditionComparators("", "", "", "", "", "", "=");
+		String steady = usesAnnotatedPOJO()?"1":"2";  
+		setConditionValues("", "", "", "", "", "", steady); 
+		
 		execute("List.filter");
 		assertListSelectedConfiguration("Type of customer = steady");
 		assertListAllConfigurations("Type of customer = steady", "All", "Year in group(2002, 2004)", "Year not in group(2002, 2004)",  
@@ -582,8 +584,9 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 			"Not paid and name of customer starts with j", "Paid", "Not paid", "Year = 2004 and number > 10", "Number = 1");		
 		
 		assertListRowCount(5);
-		
-		setConditionValues("", "", "", "", "", "", "0"); 
+
+		String normal = usesAnnotatedPOJO()?"0":"1"; 
+		setConditionValues("", "", "", "", "", "", normal); 
 		execute("List.filter");
 		assertListSelectedConfiguration("Type of customer = normal");
 		assertListAllConfigurations("Type of customer = normal", "All", "Type of customer = steady", "Year in group(2002, 2004)", 

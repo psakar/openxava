@@ -452,9 +452,14 @@
 	
 	<tab name="FromAlaska">
 		<base-condition>
-			from XAVATEST@separator@Customer customer0_ inner join XAVATEST@separator@CUSTOMER_STATE states1_ 
-			on customer0_.number=states1_.CUSTOMER inner join XAVATEST@separator@State state2_ on states1_.STATE=state2_.id 
-			where state2_.id='AK'
+			from XAVATEST.CUSTOMER 
+			inner join XAVATEST.CUSTOMER_STATE states1_ 
+				on XAVATEST.CUSTOMER.NUMBER=states1_.CUSTOMER 
+			inner join XAVATEST.STATE state2_ 
+				on states1_.STATE=state2_.ID 
+			inner join XAVATEST.STATE T_address_state
+				on XAVATEST.CUSTOMER.STATE=T_address_state.ID
+			where state2_.ID='AK'		
 		</base-condition>			
 	</tab>	
 			

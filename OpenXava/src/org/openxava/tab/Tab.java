@@ -876,10 +876,13 @@ public class Tab implements java.io.Serializable {
 							comparatorsToWhere.add(this.conditionComparators[i]);
 							comparatorsToWhere.add(this.conditionComparators[i]);
 						}
-						else if (IN_COMPARATOR.equals(this.conditionComparators[i]) || NOT_IN_COMPARATOR.equals(this.conditionComparators[i])) {														
+						else if (IN_COMPARATOR.equals(this.conditionComparators[i]) || NOT_IN_COMPARATOR.equals(this.conditionComparators[i])) {
+							boolean first = true; 
 							for (Object valueIn: valuesIn) {
 								valuesToWhere.add(valueIn);
 								comparatorsToWhere.add(this.conditionComparators[i]);
+								if (!first) metaPropertiesKey.add(p);
+								else first = false;
 							}
 						}
 						else {													
@@ -1157,7 +1160,7 @@ public class Tab implements java.io.Serializable {
 		}		
 		
 		// To db format
-		if (usesConverters && key != null && metaPropertiesKey != null) {			
+		if (usesConverters && key != null && metaPropertiesKey != null) {
 			for (int i = indexIncrement; i < key.length; i++) {
 				MetaProperty p = (MetaProperty) metaPropertiesKey.get(i - indexIncrement);
 				// If has a converter, apply
