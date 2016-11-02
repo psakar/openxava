@@ -1,6 +1,50 @@
 Change Log for OpenXava project
 ===============================
 
+OpenXava 5.6 (2016-10-28)
+-------------------------
+- List remembers filters and ordering done by user to be re-executed choosing from a combo, you can rename the filter/ordering configurations produced.
+- New DISCUSSION stereotype to include a discussion thread as a property of an entity.
+- New SIMPLE_HTML_TEXT stereotype to edit rich text with a simplified user interface.
+- CKEditor look & feel adapted to NaviOX and Liferay 6.1 look & feels.
+- CKEditor upgraded to 4.5.9.
+- Partial query from FROM allowed in @Tab(baseCondition=) of JPA entities and base-condition of XML components.
+- New indexExt.jsp in naviox/web to add elements to the main HTML page that wraps the application.
+- 'My reports' action is no longer available by default, though it is still in OpenXava.
+- New TypicalExtendedPrint controller that includes 'My report' action.
+- The combination XML components + JPA persistence no longer supported. 
+- Main window is not refreshed when generating a SimpleHTMLReport.
+- New helpAvailable property in xava.properties to enable/disable the help icon in modules.
+- Eclipse workspace in distribution upgraded to Eclipse Neon, though it still works with all 4.x versions.
+- MetaController.containsMetaAction() receives a not qualified action name as argument.
+- New method validateViewValues() in ViewBaseAction.
+- New WithRequiredLongName class for using as generic transient class for dialogs.
+- New method move() in XArrays utility class.
+- New booleanWithSuffixEditor.jsp editor that allows put a suffix label after the field checkbox.
+- Some new common use labels to be used in applications.
+- New toString(Object [] array) method in Strings utility class.
+- ModuleTestBase.setLocale() no longer reset the module.
+- New methods selectListConfiguration(), assertListSelectedConfiguration() and assertListAllConfigurations() in ModuleTestBase.
+- New method clearCondition() in ModuleTestBase to simulate clicking on the clear list condition button.
+- New method anyEqual() in Is utility class.
+- New method naturalLabelToIdentifier() in Strings utility class.
+- New methods assertDiscussionCommentText(), assertDiscussionCommentsCount() and postDiscussionComment() in ModuleTestBase.
+- IExplicitModifyPersistenceProvider to define persistence providers that needs an explicit command to modify data.
+- New property connectionRefinerClass in xava.properties for defining an IConnectionRefiner to refine JDBC connections.
+- Each component type has its own IPersistenceProvider, there is no longer a unique IPersistenceProvider for the whole application.
+- Properties jpaCodeInPOJOs and persistenceProviderClass in xava.properties no longer have effect.
+- Methods isEJB2Persistence(), isJPAPersistence(), isJPACodeInPOJOs() and getPersistenceProviderClass() removed from XavaPreferences.
+- Pluggable component parser by means of IComponentParser implementations declared in xava.properties.
+- Improvements for English, German and French translations of labels and messages.
+- New property smtpStartTLSEnable in xava.properties to configure the behavior of Emails. 
+- Servlet mapping to generate custom Excel files included by default in web.xml.
+- Fix: Labels.getQualified(String id) does not return the qualified label.
+- Fix: Changes in custom.css lost when upgrading OpenXava version. 
+- Fix: On hover style for default action button does not work.
+- Fix: Schema tool does not add schema for CREATE INDEX sentences.
+- Fix: The order of subcontrollers in the user interface is not the declared one in controllers.xml.
+- Fix: In a module with 'ListOnly' or 'Void' for mode-controller with subcontrollers but no actions, the subcontrollers are not displayed.
+
 OpenXava 5.5.1 (2016-6-13)
 --------------------------
 - CSS for layout instead of HTML tables.

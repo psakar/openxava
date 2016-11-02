@@ -1,10 +1,10 @@
 org.openxava.actions
 org.openxava.annotations
-org.openxava.annotations.parse
 org.openxava.application.meta
 org.openxava.application.meta.xmlparse
 org.openxava.calculators
 org.openxava.component
+org.openxava.component.parse
 org.openxava.controller
 org.openxava.controller.meta
 org.openxava.controller.meta.xmlparse
@@ -27,6 +27,7 @@ org.openxava.model
 org.openxava.model.impl
 org.openxava.model.meta
 org.openxava.model.meta.xmlparse
+org.openxava.model.transients
 org.openxava.session
 org.openxava.tab
 org.openxava.tab.impl
