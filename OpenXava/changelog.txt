@@ -9,12 +9,13 @@ OpenXava 5.6 (2016-10-28)
 - CKEditor look & feel adapted to NaviOX and Liferay 6.1 look & feels.
 - CKEditor upgraded to 4.5.9.
 - Partial query from FROM allowed in @Tab(baseCondition=) of JPA entities and base-condition of XML components.
-- New indexExt.jsp in naviox/web to add elements to the main HTML page that wrap the application.
+- New indexExt.jsp in naviox/web to add elements to the main HTML page that wraps the application.
 - 'My reports' action is no longer available by default, though it is still in OpenXava.
 - New TypicalExtendedPrint controller that includes 'My report' action.
-- The combination XML Components + JPA Persistence no longer supported. 
+- The combination XML components + JPA persistence no longer supported. 
 - Main window is not refreshed when generating a SimpleHTMLReport.
 - New helpAvailable property in xava.properties to enable/disable the help icon in modules.
+- Eclipse workspace in distribution upgraded to Eclipse Neon, though it still works with all 4.x versions.
 - MetaController.containsMetaAction() receives a not qualified action name as argument.
 - New method validateViewValues() in ViewBaseAction.
 - New WithRequiredLongName class for using as generic transient class for dialogs.
@@ -23,7 +24,7 @@ OpenXava 5.6 (2016-10-28)
 - Some new common use labels to be used in applications.
 - New toString(Object [] array) method in Strings utility class.
 - ModuleTestBase.setLocale() no longer reset the module.
-- New selectListConfiguration(), assertListSelectedConfiguration() and assertListAllConfigurations() in ModuleTestBase.
+- New methods selectListConfiguration(), assertListSelectedConfiguration() and assertListAllConfigurations() in ModuleTestBase.
 - New method clearCondition() in ModuleTestBase to simulate clicking on the clear list condition button.
 - New method anyEqual() in Is utility class.
 - New method naturalLabelToIdentifier() in Strings utility class.
@@ -41,8 +42,8 @@ OpenXava 5.6 (2016-10-28)
 - Fix: Changes in custom.css lost when upgrading OpenXava version. 
 - Fix: On hover style for default action button does not work.
 - Fix: Schema tool does not add schema for CREATE INDEX sentences.
-- Fix: show actions and subcontroller (controllers.xml) in order of appearance.
-- Fix: if the module has 'ListOnly' or 'Void' mode-controller and neither has any action but it has defined a SubController, the SubController does not displayed.
+- Fix: The order of subcontrollers in the user interface is not the declared one in controllers.xml.
+- Fix: In a module with 'ListOnly' or 'Void' for mode-controller with subcontrollers but no actions, the subcontrollers are not displayed.
 
 OpenXava 5.5.1 (2016-6-13)
 --------------------------
