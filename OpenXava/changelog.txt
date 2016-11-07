@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- MetaComponent has a new boolean property called metaDataCached, to determine if the metadata is cached for that component.
+
 OpenXava 5.6 (2016-10-28)
 -------------------------
 - List remembers filters and ordering done by user to be re-executed choosing from a combo, you can rename the filter/ordering configurations produced.

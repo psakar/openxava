@@ -47,6 +47,7 @@ public class MetaComponent implements Serializable {
 	private String packageName;
 	private boolean _transient; 
 	private IPersistenceProvider persistenceProvider;  
+	private boolean metaDataCached = true; // tmp
 		
 	/**
 	 * 
@@ -64,7 +65,9 @@ public class MetaComponent implements Serializable {
 				throw new ElementNotFoundException("component_not_found", name);
 			}
 			r.validate();	
-			components.put(name, r); 
+			if (r.isMetaDataCached()) { // tmp
+				components.put(name, r); 
+			}
 		}
 		return r;
 	}
@@ -491,6 +494,14 @@ public class MetaComponent implements Serializable {
 
 	public void setPersistenceProvider(IPersistenceProvider persistenceProvider) {
 		this.persistenceProvider = persistenceProvider;
+	}
+
+	public boolean isMetaDataCached() {
+		return metaDataCached;
+	}
+
+	public void setMetaDataCached(boolean metaDataCached) {
+		this.metaDataCached = metaDataCached;
 	}
 		
 }
