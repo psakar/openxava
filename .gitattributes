@@ -10609,6 +10609,8 @@ OpenXavaTest/i18n/portlets/Year_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/jboss-as400.properties -text
 OpenXavaTest/jboss-hypersonic.properties -text
 OpenXavaTest/license.txt -text svneol=unset#text/plain
+OpenXavaTest/manual-tests/LayoutTest.txt -text svneol=unset#text/plain
+OpenXavaTest/manual-tests/PrettyPrintingTest.txt -text svneol=unset#text/plain
 OpenXavaTest/persistence/GalleryImage.hbm.xml -text
 OpenXavaTest/persistence/META-INF/persistence.xml -text
 OpenXavaTest/persistence/hibernate-junit.cfg.xml -text
@@ -11345,7 +11347,6 @@ OpenXavaTest/src/org/openxava/test/tests/OnlyReadDetailsInvoiceTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/OrderTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/POJOTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/PositiveValidatorTest.java -text
-OpenXavaTest/src/org/openxava/test/tests/PrettyPrintingTest.txt -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/Product2ColorWithFrameTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/Product2OnlySoftwareTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/Product2ReferenceAndStereotypeTest.java -text

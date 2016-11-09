@@ -1,7 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
-- Method reload() remove from MetaComponent. 
+- Fix: Reference with @NoFrame containing a frame element after plain properties has an ugly layout. 
+- Method reload() removed from MetaComponent. 
 - MetaComponent has a new boolean property called metaDataCached, to determine if the metadata is cached for that component.
 
 OpenXava 5.6 (2016-10-28)

@@ -89,7 +89,6 @@ import org.openxava.test.actions.*;
 		"deliveryPlaces;" +
 		"remarks" 	
 	),
-
 	@View( name="Simple", members= 	
 		"number;" +
 		"type;" +

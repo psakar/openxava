@@ -32,12 +32,17 @@ import org.openxava.util.*;
 		"discounts [" +
 		"	customerDiscount, customerTypeDiscount, yearDiscount;" +
 		"];" +
-		"comment;" +					
+		"comment;" +
 		"customer { customer }" + // We need a section with just a reference...		
-		"details { details }" +	// ...followed by a section with a collection, to a layout bug		
+		"details { details }" +	// ...followed by a section with a collection, to a layout bug
 		"amounts { amountsSum; vatPercentage; vat }" +
-		"deliveries { deliveries }"		
+		"deliveries { deliveries }"
 	),
+	@View(name="CustomerNoFrame", members= // Don't change the members, they for testing a layout bug			
+		"year, number;" + 
+		"customer;"  +
+		"details"
+	),	
 	@View(name="NoSections", members=
 		"year, number, date;" +		
 		"customer;" +		
@@ -232,6 +237,7 @@ public class Invoice {
 		@ReferenceView(forViews="NoSections", value="SimpleWithCity") 
 	})
 	@AsEmbedded(forViews="CustomerAsAggregateWithDeliveryPlaces")
+	@NoFrame(forViews="CustomerNoFrame") 
 	private Customer customer;
 	
 	@OneToMany (mappedBy="invoice", cascade=CascadeType.REMOVE)
