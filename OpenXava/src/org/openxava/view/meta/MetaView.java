@@ -584,6 +584,7 @@ public class MetaView extends MetaElement implements Cloneable {
 			result = metaModelReferenced.getMetaViewByDefault();			
 		}
 		result.setLabel(r.getLabel());
+		result.setParent(this); 
 		return result;
 	}
 	
@@ -850,6 +851,7 @@ public class MetaView extends MetaElement implements Cloneable {
 	}
 
 	public boolean isAlignedByColumns() {
+		if (!isFrame() && getParent() != null) return getParent().isAlignedByColumns();  
 		return alignedByColumns;
 	}
 

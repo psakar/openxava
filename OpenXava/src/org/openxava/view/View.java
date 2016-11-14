@@ -4794,7 +4794,7 @@ public class View implements java.io.Serializable {
 		this.saveCollectionElementAction = saveCollectionElementAction;
 	}
 	
-	public boolean isAlignedByColumns() throws XavaException {		
+	public boolean isAlignedByColumns() throws XavaException {
 		return getMetaView().isAlignedByColumns();
 	}
 	

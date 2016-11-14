@@ -20,6 +20,7 @@ import org.openxava.test.actions.*;
 @Views({
 	@View (name="KeyInGroup", members="key [zoneNumber, number]; name"),
 	@View (name="WithOnChangeZone"),
+	@View (name="Number", members="number"), 
 	@View (name="WithoutZone", members="number, name")
 })
 public class Warehouse {

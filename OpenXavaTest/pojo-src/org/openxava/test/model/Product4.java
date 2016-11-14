@@ -1,17 +1,10 @@
 package org.openxava.test.model;
 
-import java.lang.annotation.*;
 import java.math.*;
-import java.util.*;
 
 import javax.persistence.*;
-import javax.validation.*;
 import javax.validation.constraints.*;
-import javax.validation.metadata.*;
 
-import org.hibernate.validator.*;
-import org.hibernate.validator.internal.engine.path.*;
-import org.hibernate.validator.internal.metadata.descriptor.*;
 import org.openxava.annotations.*;
 import org.openxava.calculators.*;
 import org.openxava.test.calculators.*;
@@ -35,6 +28,14 @@ import org.openxava.util.*;
 		"warehouse, zoneOne;" +
 		"unitPrice, unitPriceInPesetas;"		
 	),
+	@View( name= "NoDescriptionsLists", members=
+		"number, description, photos;" +
+		"datos [#" + // Don't change this group to test a layout case
+			"family, subfamily;" +
+			"warehouse, unitPrice;" +
+		"];"	+
+		"zoneOne, unitPriceInPesetas;"		
+	),	
 	@View( name="NotAligned", members=
 		"number, description, photos;" + 
 		"family, subfamily;" +
@@ -137,7 +138,9 @@ public class Product4 {
 	@DefaultValueCalculator(value=IntegerCalculator.class, properties=
 		@PropertyValue(name="value", value="2")
 	)
-	@DescriptionsList(orderByKey=true)	
+	@DescriptionsList(notForViews="NoDescriptionsLists", orderByKey=true)
+	@ReferenceView(forViews="NoDescriptionsLists", value="Number") 
+	@NoFrame(forViews="NoDescriptionsLists") 
 	public Family2 getFamily() {
 		return family;
 	}
@@ -147,11 +150,13 @@ public class Product4 {
 	}
 
 	@ManyToOne(optional=false, fetch=FetchType.LAZY) @JoinColumn(name="SUBFAMILY") @NoCreate
-	@DescriptionsList(
-		descriptionProperties="description", // In this case descriptionProperties can be omited
+	@DescriptionsList(notForViews="NoDescriptionsLists",
+		descriptionProperties="description", // In this case descriptionProperties can be omitted
 		depends="family",
 		condition="${family.number} = ?"
-	)	
+	)
+	@ReferenceView(forViews="NoDescriptionsLists", value="Number") 
+	@NoFrame(forViews="NoDescriptionsLists") 
 	public Subfamily2 getSubfamily() {
 		return subfamily;
 	}
@@ -166,7 +171,9 @@ public class Product4 {
 		@JoinColumn(name="WAREHOUSE", referencedColumnName="NUMBER") 
 	})
 	@DefaultValueCalculator(DefaultWarehouseCalculator.class)
-	@DescriptionsList
+	@DescriptionsList(notForViews="NoDescriptionsLists")
+	@ReferenceView(forViews="NoDescriptionsLists", value="Number") 
+	@NoFrame(forViews="NoDescriptionsLists") 
 	@OnChange(org.openxava.test.actions.OnChangeWarehouseAction.class)	
 	public Warehouse getWarehouse() {
 		// In this way because the columns for warehouse can contain

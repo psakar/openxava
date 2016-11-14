@@ -1,8 +1,9 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: When a group, section or main view is aligned by column with @NoFrame references inside not aligned by column the layout is broken.
 - Some new common use labels to be used in applications.
-- Fix: Reference with @NoFrame containing a frame element after plain properties has an ugly layout. 
+- Fix: Properties placed on right of the UI when the next element has a frame, fails when @NoFrame is used. 
 - Method reload() removed from MetaComponent. 
 - MetaComponent has a new boolean property called metaDataCached, to determine if the metadata is cached for that component.
 
