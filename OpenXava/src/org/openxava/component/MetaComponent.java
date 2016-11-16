@@ -48,6 +48,7 @@ public class MetaComponent implements Serializable {
 	private boolean _transient; 
 	private IPersistenceProvider persistenceProvider;  
 	private boolean metaDataCached = true; 
+	private boolean labelForModule = false; 
 		
 	/**
 	 * 
@@ -494,6 +495,14 @@ public class MetaComponent implements Serializable {
 
 	public void setMetaDataCached(boolean metaDataCached) {
 		this.metaDataCached = metaDataCached;
+	}
+
+	public boolean isLabelForModule() {
+		return labelForModule;
+	}
+
+	public void setLabelForModule(boolean labelForModule) {
+		this.labelForModule = labelForModule;
 	}
 		
 }

@@ -525,9 +525,4 @@ public class XavaPreferences {
 		return path != null ? path : System.getProperty("user.home") + System.getProperty("file.separator") + "oxfiles";
 	}
 	
-	/** @since 5.6.1 */
-	public boolean isModuleLabelFromModel() { 
-		return "true".equalsIgnoreCase(getProperties().getProperty("moduleLabelFromModel", "false").trim());
-	}
-	
 }
