@@ -2,9 +2,9 @@ package org.openxava.application.meta;
 
 import java.util.*;
 
-
-
+import org.openxava.component.*;
 import org.openxava.controller.*;
+import org.openxava.model.meta.*;
 import org.openxava.util.*;
 import org.openxava.util.meta.*;
 
@@ -27,7 +27,6 @@ public class MetaModule extends MetaElement implements java.io.Serializable {
 	private Collection controllersNames = new ArrayList();
 	private String modeControllerName;	
 	private MetaReport metaReport;
-	
 
 	public String getModelName() {
 		return modelName;
@@ -83,14 +82,19 @@ public class MetaModule extends MetaElement implements java.io.Serializable {
 		return getMetaApplication().getId() + "." + getName();		
 	}
 	
+	private MetaModel getMetaModel() { 
+		return MetaComponent.get(getModelName()).getMetaEntity(); 
+	}
+	
 	protected String getLabel(Locale locale, String id) {
+		if (XavaPreferences.getInstance().isModuleLabelFromModel()) return getMetaModel().getLabel(); 	
 		String moduleId = id + ".module";
 		if (Labels.existsExact(moduleId, locale)) return super.getLabel(locale, moduleId); 
 		moduleId = getName() + ".module"; 
 		if (Labels.existsExact(moduleId, locale)) return super.getLabel(locale, moduleId); 		
 		return super.getLabel(locale, id);
 	}
-		
+			
 	public String getDescription(Locale locale, String id) {
 		String moduleId = id + ".module[description]";
 		if (Labels.existsExact(moduleId, locale)) return Labels.get(moduleId, locale); 
