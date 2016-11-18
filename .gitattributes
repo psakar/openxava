@@ -10975,7 +10975,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/HunterTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/IncidentTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/InventTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/Invoice4Test.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/tests/InvoiceDetailTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/InvoiceDetailTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/InvoiceDetailsWithSectionsTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/InvoiceTypicalNewOnInitTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/IssueChangeDBTest.java -text svneol=unset#text/plain

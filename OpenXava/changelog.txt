@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: When mouse hover an option of a @DescriptionsList combo and click outside the selected value is lost.
+- Fix: When mouse hover an option of a @DescriptionsList combo inside a dialog and click outside the option is shown but not selected. 
 - Fix: When a group, section or main view is aligned by column with @NoFrame references inside not aligned by column the layout is broken.
 - Some new common use labels to be used in applications.
 - Fix: Properties placed on right of the UI when the next element has a frame, fails when @NoFrame is used. 

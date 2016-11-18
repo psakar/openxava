@@ -17,7 +17,7 @@ public class IncidentTest extends ModuleTestBase {
 		super(testName, "Incident");		
 	}
 
-	public void testDiscussionEditor() throws Exception {
+	public void testDiscussionEditor() throws Exception { 
 		getWebClient().getOptions().setCssEnabled(true);
 		
 		assertListRowCount(0); 

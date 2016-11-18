@@ -606,7 +606,7 @@ public class Product2Test extends ModuleTestBase {
 		familyTextField.type("ware");
 		assertEquals("ware", familyTextField.getAttribute("value"));
 		familyTextField.blur();
-		assertEquals("", familyTextField.getAttribute("value"));
+		assertEquals("", familyTextField.getAttribute("value")); 
 		
 		execute("CRUD.new");
 		familyList = getHtmlPage().getHtmlElementById("ui-id-27");

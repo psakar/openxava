@@ -82,9 +82,21 @@ public class MetaModule extends MetaElement implements java.io.Serializable {
 		return getMetaApplication().getId() + "." + getName();		
 	}
 	
+	private String getLabelFromModel() { 
+		try {
+			String modelName = getModelName();
+			if (modelName == null) return null;
+			MetaComponent component = MetaComponent.get(modelName);
+			return component.isLabelForModule()?component.getMetaEntity().getLabel():null; 
+		}
+		catch (ElementNotFoundException ex) {
+			return null;
+		}
+	}
+	
 	protected String getLabel(Locale locale, String id) {
-		MetaComponent component = MetaComponent.get(getModelName());
-		if (component.isLabelForModule()) return component.getMetaEntity().getLabel(); 
+		String labelFromModel = getLabelFromModel();
+		if (labelFromModel != null) return labelFromModel;
 		String moduleId = id + ".module";
 		if (Labels.existsExact(moduleId, locale)) return super.getLabel(locale, moduleId); 
 		moduleId = getName() + ".module"; 

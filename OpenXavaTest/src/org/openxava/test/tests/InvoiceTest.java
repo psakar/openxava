@@ -1933,7 +1933,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		
 		execute("CRUD.new");
 		execute("Mode.list");
-		assertChartDisplayed();
+		assertChartDisplayed(); 
 		
 		execute("Invoice.testChartTab");
 		assertMessage("xava_chartTab exists");		
