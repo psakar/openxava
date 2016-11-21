@@ -3,3 +3,4 @@ Therefore, when you touch the layout code (a.k.a. JSPs) you have to test it visu
 at least the next cases:
 - InvoiceCustomerNoFrame: The properties before frames must be well aligned and on left.
 - Product4NoDescriptionsLists: Fields inside frames must be nicely aligned by column.
+- CustomerSellerAsDescriptionsListShowingReferenceViewNoFrameInSection: Members in section should have a nice layout

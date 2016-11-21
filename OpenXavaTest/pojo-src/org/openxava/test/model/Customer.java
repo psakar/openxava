@@ -16,6 +16,7 @@ import org.openxava.test.actions.*;
 
 @Entity
 @Views({
+	
 	@View( members= 	
 		"number;" +  
 		"type;" +
@@ -159,8 +160,10 @@ import org.openxava.test.actions.*;
 	@View( name="Intermediate", members="number"),
 	
 	@View( name="SellerAsDescriptionsListShowingReferenceView", members= "number; name; type; seller" ),
+		
+	@View( name="SellerAsDescriptionsListShowingReferenceViewNoKey", members= "number; name; type; seller" ),
 	
-	@View( name="SellerAsDescriptionsListShowingReferenceViewNoKey", members= "number; name; type; seller" )
+	@View( name="SellerAsDescriptionsListShowingReferenceViewNoFrameInSection", members= "number; name; type; seller { seller }" ) 
 	
 })
 
@@ -242,7 +245,11 @@ public class Customer implements IWithName {
 		@ReferenceView(forViews="SellerAsDescriptionsListShowingReferenceViewNoKey", value="SimpleNoNumber"),
 	})
 	@Action(forViews="SellerAsDescriptionsListShowingReferenceView", value="Customer.hideSeller")
-	@DescriptionsList(forViews="SellerAsDescriptionsListShowingReferenceView, SellerAsDescriptionsListShowingReferenceViewNoKey", showReferenceView=true) 
+	@DescriptionsList(
+		forViews="SellerAsDescriptionsListShowingReferenceView, "
+				+ "SellerAsDescriptionsListShowingReferenceViewNoKey, "
+				+ "SellerAsDescriptionsListShowingReferenceViewNoFrameInSection", 
+		showReferenceView=true)
 	private Seller seller; 
 	
 	@DefaultValueCalculator(
@@ -257,7 +264,7 @@ public class Customer implements IWithName {
 	@ReferenceView("DecorateName") 
 	@NoCreate(forViews="DEFAULT")
 	@ReadOnly(forViews="SomeMembersReadOnly")
-	@DescriptionsList(forViews="SomeMembersReadOnly", descriptionProperties="level.description, name")	
+	@DescriptionsList(forViews="SomeMembersReadOnly", descriptionProperties="level.description, name")
 	private Seller alternateSeller;
 		
 	@OneToMany(mappedBy="customer", cascade=CascadeType.ALL)

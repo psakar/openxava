@@ -722,7 +722,7 @@ public class MetaView extends MetaElement implements Cloneable {
 	public boolean isFrame() {
 		return frame;
 	}
-
+	
 	public void setFrame(boolean frame) {
 		this.frame = frame;
 	}

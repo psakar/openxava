@@ -1387,7 +1387,8 @@ i.ox-sort-indicator2 {
 .ox-descriptions-list i {
  	position: relative; 
  	right: 32px; 
- 	margin-right: -20px; 	
+ 	margin-right: -20px;
+ 	margin-bottom: 7px;  	
  	padding: 5px;
 }
 
