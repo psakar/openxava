@@ -218,6 +218,7 @@ public class GenerateReportServlet extends HttpServlet {
 			}
 			else if (uri.endsWith(".xls")) {    
                 synchronized (tab) {
+                	tab.setRequest(request);
                     JxlsWorkbook wb = new JxlsWorkbook(getTableModel(request, tab, selectedRows, true, false, columnCountLimit), 
                             getFileName(tab));
                     JxlsSheet sheet = wb.getSheet(0);

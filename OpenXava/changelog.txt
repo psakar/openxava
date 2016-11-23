@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: GenerateReportAction does not work for XLS and MyReports.
+- Fix: In Jxls utility classes when using some characters ( [ ] * / \ ? : ) in sheet names fail creating the POI sheet.
 - Fix: Calling an action after saving with element collection fails if an event changes the main view.
 - Improved stacktraces thrown from an editor for easier debugging.
 - Fix: @DescriptionsList combos in @ElementCollection are not well aligned. 

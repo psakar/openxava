@@ -53,11 +53,28 @@ public class JxlsSheet implements JxlsConstants {
 	
 	protected JxlsSheet(JxlsWorkbook workbook, String name, int index) {
 		if (workbook == null) return;
-		this.name = (Is.empty(name) ? "Sheet" + index : name);
 		this.workbook = workbook;
+		this.name = correctName(Is.empty(name) ? "Sheet" + (index == -1 ? workbook.sheets.size()+1 : index) : name);
 		if (index <= workbook.sheets.size()) workbook.sheets.add(this);
 		else workbook.sheets.insertElementAt(this, 0);
 		workbook.sheetNames.put(this.name, this);
+	}
+	
+	/**
+	 * Sets the name of the sheet, correcting patterns not allowed 
+	 * 
+	 * @param name		the name of the sheet to set
+	 * @return the properly formed name
+	 */
+	private String correctName(String name) {
+		 // limit the name to 31 characters
+		 if (name.length() > 31) name = name.substring(0, 31);
+		 // replace characters not allowed by space
+		 name = name.replace('[', ' ').replace(']', ' ').replace('*', ' ').replace('/', ' ').replace('\\', ' ')
+				 .replace('?', ' ').replace(':', ' ');
+		 int index = workbook.sheets.size();
+		 while (workbook.sheetNames.containsKey(name)) name = "Sheet" + (index ++);
+		 return name;
 	}
 	
 	/**
