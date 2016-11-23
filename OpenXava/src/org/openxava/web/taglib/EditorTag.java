@@ -145,8 +145,7 @@ public class EditorTag extends TagSupport {
 			}								
 		}
 		catch (Exception ex) {
-			log.error(ex.getMessage(), ex);
-			throw new JspException(XavaResources.getString("editor_tag_error", property));
+			throw new JspException(XavaResources.getString("editor_tag_error", property), ex); 
 		}	
 		return SKIP_BODY;
 	}

@@ -1388,12 +1388,25 @@ i.ox-sort-indicator2 {
  	position: relative; 
  	right: 32px; 
  	margin-right: -20px;
- 	margin-bottom: 7px;  	
  	padding: 5px;
 }
 
 .ox-element-collection .ox-descriptions-list i {
-	top: -5px;
+	top: -3px; 
+}
+
+.ox-element-collection .ox-descriptions-list input {
+ 	position: relative; 
+ 	top: 2px;
+}
+
+.firefox .ox-element-collection .ox-descriptions-list input {
+ 	top: 3px;
+}
+
+/* For @DescriptionsList(showReferenceView=true) */
+span[id*="reference_editor"] + .ox-layout-detail {
+	margin-top: 4px;
 }
 
 .ox-icon i {

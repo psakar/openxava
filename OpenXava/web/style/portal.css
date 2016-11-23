@@ -785,6 +785,15 @@ input[type="radio"] {
  	padding: 5px;
 }
 
+.ox-element-collection .ox-descriptions-list input {
+ 	position: relative; 
+ 	top: 1px;
+}
+
+span[id*="reference_editor"] + .ox-layout-detail {
+	margin-top: 4px;
+}
+
 .ox-icon i {
 	position: relative;
 	left: -10px;	

@@ -1,6 +1,9 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Calling an action after saving with element collection fails if an event changes the main view.
+- Improved stacktraces thrown from an editor for easier debugging.
+- Fix: @DescriptionsList combos in @ElementCollection are not well aligned. 
 - Fix: Reference annotated with @DescriptionsList(showReferenceView=true) and @NoFrame alone inside a section breaks the layout.
 - Fix: Ugly spacing in @DescriptionsList with showReferenceView=true. 
 - Fix: When mouse hover an option of a @DescriptionsList combo and click outside the selected value is lost.

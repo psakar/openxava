@@ -55,7 +55,7 @@ view.setViewObject(viewObject);
 String propertyPrefix = request.getParameter("propertyPrefix");
 String representsSection = request.getParameter("representsSection");
 boolean isSection = "true".equalsIgnoreCase(representsSection);
-propertyPrefix = (propertyPrefix == null)?"":propertyPrefix; 
+propertyPrefix = (propertyPrefix == null || "null".equals(propertyPrefix))?"":propertyPrefix; 
 view.setPropertyPrefix(propertyPrefix);
 boolean onlySections = view.hasSections() && view.getMetaMembers().isEmpty(); 
 %>
