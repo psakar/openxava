@@ -50,6 +50,13 @@
 		<for-stereotype stereotype="PERSON_NAME" />
 	</editor>
 	
+	<editor name="PlaceName" url="textEditor.jsp">
+		<formatter
+			class="org.openxava.test.formatters.NameFormatter">
+			<set property="firstLetterInUpperCase" value="true" />
+		</formatter>
+	</editor>	
+	
 	<editor name="CityName" url="textEditor.jsp">
 		<formatter
 			class="org.openxava.test.formatters.NameFormatter">
