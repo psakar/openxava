@@ -16,6 +16,8 @@ public class ProjectNote {
 	private String note;
 	private Date date;
 	
+	@Stereotype("WEBURL") @Column(length=100)  
+	private String docURL; 
 	
 	public String getNote() {
 		return note;
@@ -28,6 +30,12 @@ public class ProjectNote {
 	}
 	public void setDate(Date date) {
 		this.date = date;
+	}
+	public String getDocURL() {
+		return docURL;
+	}
+	public void setDocURL(String docURL) {
+		this.docURL = docURL;
 	}
 
 }

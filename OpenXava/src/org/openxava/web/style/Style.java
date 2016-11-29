@@ -725,6 +725,11 @@ public class Style {
 		return "editor";
 	}
 	
+	/** @since 5.6.1 */
+	public String getWebURL() { 
+		return "ox-web-url";
+	}
+	
 	public String getSmallLabel() {
 		return "small-label";
 	}

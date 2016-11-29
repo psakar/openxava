@@ -13,7 +13,7 @@ import org.openxava.annotations.*;
 public class ReallocationDetail {
 	
 	@Column(length=20) @Required
-	@Editor("PlaceName") 
+	@Editor("PlaceName")
 	private String place; 
 	
 	@DefaultValueCalculator( 

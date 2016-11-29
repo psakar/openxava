@@ -1,5 +1,6 @@
-package org.openxava.actions;
+package org.openxava.test.actions;
 
+import org.openxava.actions.*;
 import org.openxava.util.*;
 import org.openxava.view.*;
 

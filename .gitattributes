@@ -5385,7 +5385,6 @@ OpenXava/src/org/openxava/actions/GoNextPageAction.java -text
 OpenXava/src/org/openxava/actions/GoPageAction.java -text
 OpenXava/src/org/openxava/actions/GoPreviousPageAction.java -text
 OpenXava/src/org/openxava/actions/GoSplitAction.java -text
-OpenXava/src/org/openxava/actions/GoToURLAction.java -text
 OpenXava/src/org/openxava/actions/HideDetailElementInCollectionAction.java -text
 OpenXava/src/org/openxava/actions/HideRowsAction.java -text
 OpenXava/src/org/openxava/actions/IAction.java -text
@@ -6610,7 +6609,7 @@ OpenXava/web/editors/treeViewEditor.jsp -text
 OpenXava/web/editors/treeViewListEditor.jsp -text
 OpenXava/web/editors/validValueEditorCommon.jsp -text
 OpenXava/web/editors/validValuesEditor.jsp -text svneol=unset#text/plain
-OpenXava/web/editors/webURLEditor.jsp -text
+OpenXava/web/editors/webURLEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/errors.jsp -text
 OpenXava/web/execute.jsp -text svneol=unset#text/plain
 OpenXava/web/fonts/materialdesignicons-webfont.woff -text
@@ -11162,6 +11161,7 @@ OpenXavaTest/src/org/openxava/test/actions/GenerateDeliveryNumberPropertyAction.
 OpenXavaTest/src/org/openxava/test/actions/GetNameAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/GoAddFullAddressAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/GoFamilyProductsReportAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/GoToURLAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideActionAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideDeleteAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/HideDeliveryActionsAction.java -text
@@ -11980,6 +11980,7 @@ OpenXavaTest/web/xava/editors/comparatorsDescriptionsList.jsp -text
 OpenXavaTest/web/xava/editors/comparatorsValidValuesCombo.jsp -text
 OpenXavaTest/web/xava/editors/corporationEmployeeListEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/currentTimeMillisEditor.jsp -text
+OpenXavaTest/web/xava/editors/customWebURLEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/customerCardListEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/dateCalendarEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/dateTimeCombinedCalendarEditor.jsp -text svneol=unset#text/plain

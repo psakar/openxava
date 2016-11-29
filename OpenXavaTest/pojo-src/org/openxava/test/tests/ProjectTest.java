@@ -1,5 +1,7 @@
 package org.openxava.test.tests;
 
+import java.io.*;
+
 import org.openxava.tests.*;
 
 import com.gargoylesoftware.htmlunit.html.*;
@@ -13,6 +15,20 @@ public class ProjectTest extends ModuleTestBase {
 	
 	public ProjectTest(String testName) {
 		super(testName, "Project");		
+	}
+	
+	public void testWebURLEditor() throws Exception { 
+		execute("Mode.detailAndFirst");
+		setValueInCollection("notes", 0, 2, "www.openxava.org");
+		setValueInCollection("notes", 1, 2, "http://www.noobeek.org");
+		assertLinkOnNote(0, "OpenXava is an AJAX Java Framework for Rapid Development");
+		assertLinkOnNote(1, "Your business application made by yourself");
+	}
+
+	private void assertLinkOnNote(int idx, String expectedText) throws IOException {
+		HtmlAnchor link = (HtmlAnchor) getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Project__editor_notes___" + idx + "___docURL").getHtmlElementsByTagName("a").get(0);
+		HtmlPage page = link.click();
+		assertTrue(page.asText().contains(expectedText));
 	}
 		
 	public void testAddElementsToListWithOrderColumn() throws Exception {  
@@ -52,8 +68,8 @@ public class ProjectTest extends ModuleTestBase {
 		execute("CRUD.delete");
 		assertNoErrors();		
 	}
-	
-	public void testMoveElementAfterAddingSeveralElementsInElementCollction() throws Exception { 
+		
+	public void testMoveElementAfterAddingSeveralElementsInElementCollection() throws Exception { 
 		execute("Mode.detailAndFirst");
 		assertCollectionRowCount("notes", 3);
 		assertValueInCollection("notes", 0, 0, "WE BEGIN");

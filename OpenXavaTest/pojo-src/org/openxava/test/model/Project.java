@@ -26,7 +26,7 @@ public class Project extends Nameable {
 	
 	@ElementCollection
 	@OrderColumn
-	@ReadOnly(forViews="ReadOnlyCollections") 
+	@ReadOnly(forViews="ReadOnlyCollections")
 	private List<ProjectNote> notes; 
 
 	public List<ProjectMember> getMembers() {

@@ -1,6 +1,11 @@
 Change Log for OpenXava project
 ===============================
 
+- GoToURLAction removed, it was used only by WebURL editor that now uses a direct link.
+- Fix: ICON stereotype editor is not correctly aligned in some cases.
+- New icon for WebURL editor, now embedded inside the fields, as in the date case.
+- Fix: URLs without http:// prefix do not work in WebURL editor.
+- Fix: Icon for going to the URL is not shown in WebURL editor inside element collections.
 - Fix: @Editor in a property of an @Embeddable used in a @ElementCollection does not work if the view name of the module is no the default one.
 - Fix: GenerateReportAction does not work for XLS and MyReports.
 - Fix: In Jxls utility classes when using some characters ( [ ] * / \ ? : ) in sheet names fail creating the POI sheet.

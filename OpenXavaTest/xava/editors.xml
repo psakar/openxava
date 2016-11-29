@@ -198,6 +198,10 @@
 		<property name="reader" value="org.openxava.test.web.editors.impl.TreeViewReaderTestImpl" />
 	</editor>
 	
-	<editor name="Important" url="importantEditor.jsp"/>	
+	<editor name="Important" url="importantEditor.jsp"/>
+	
+	<editor name="CustomWebURL" url="customWebURLEditor.jsp">
+    	<list-formatter class="org.openxava.formatters.WebURLFormatter"/>
+    </editor>    
 	
 </editors>

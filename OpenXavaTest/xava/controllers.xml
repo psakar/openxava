@@ -1252,4 +1252,10 @@
 			keystroke="control alt S">			
 		</action>
 	</controller>
+	
+	<controller name="CustomWebURL">
+		<action name="go" hidden="true"
+			class="org.openxava.test.actions.GoToURLAction"/>
+	</controller>
+	
 </controllers>

@@ -646,12 +646,7 @@ here that you want to override.
 		<action name="setPersistenceUnit" before-each-request="true" hidden="true"
 			class="org.openxava.actions.SetPersistenceUnitAction"/>
 	</controller>
-	
-	
-	<controller name="WebURL">
-		<action name="go" hidden="true"
-			class="org.openxava.actions.GoToURLAction"/>
-	</controller>		
+		
 	<!-- You can add this controller to your application and you will be able to
 		switch between schemas by appending parameter `schema`.
 		Also you can switch your locale by appending the `locale` parameter.

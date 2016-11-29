@@ -510,7 +510,8 @@ i {
 	vertical-align: -4px;  
 }
 
-.mdi-calendar, .mdi-calendar-clock, .ox-element-collection .mdi-calendar, .ox-element-collection .mdi-calendar-clock { 
+.mdi-calendar, .mdi-calendar-clock, .ox-element-collection .mdi-calendar, 
+.ox-element-collection .mdi-calendar-clock, .ox-element-collection .mdi-open-in-new {  
 	vertical-align: middle;
 	padding: 4px 4px 4px 0px;
 	margin-right: -20px;
@@ -1375,7 +1376,7 @@ i.ox-sort-indicator2 {
     z-index: 9999999999 !important;  
  }
  
-.ui-autocomplete-input::-ms-clear, .ox-date-calendar ::-ms-clear {  
+.ui-autocomplete-input::-ms-clear, .ox-date-calendar ::-ms-clear, .ox-web-url ::-ms-clear {   
  	display: none; 
  }
  
@@ -1410,25 +1411,20 @@ span[id*="reference_editor"] + .ox-layout-detail {
 }
 
 .ox-icon i {
+	vertical-align: middle; 
 	position: relative;
 	left: -14px;	
-	top: -6px;
 	color: black;
 	z-index: 10;
 	margin-right: -14px;
 }
 
-.firefox .ox-icon i {
+.firefox .ox-icon i, .ie .ox-icon i { 
 	left: -15px;	
-}
-
-.ie .ox-icon i {
-	left: -20px;	
 }
 
 .ox-icon i.mdi-crop-free {
 	position: relative;
-	top: 0px;
 	left: 0px;
 	font-size: 280%;
 	color: lightgray;
@@ -1438,7 +1434,7 @@ span[id*="reference_editor"] + .ox-layout-detail {
 	font-size: 110%;
 	position: relative;
 	left: -9px;
-	top: -21px;
+	top: -14px; 
 	margin-right: -20px;
 }
 

@@ -16,7 +16,6 @@ import org.openxava.test.actions.*;
 
 @Entity
 @Views({
-	
 	@View( members= 	
 		"number;" +  
 		"type;" +
@@ -222,7 +221,8 @@ public class Customer implements IWithName {
 	@Stereotype("EMAIL_LIST") @DisplaySize(50)  
 	private String additionalEmails;
 	
-	@Stereotype("WEBURL") @Column(length=100)  
+	@Stereotype("WEBURL") @Column(length=100)
+	@Editor(forViews="WithSection", value="CustomWebURL") 
 	private String website;
 		
 	@Stereotype("MEMO") @Column(length=400)	
@@ -235,7 +235,7 @@ public class Customer implements IWithName {
 	})
 	private Address address;	
 	
-	@ManyToOne(fetch=FetchType.LAZY) @SearchAction("MyReference.search") 
+	@ManyToOne(fetch=FetchType.LAZY) @SearchAction("MyReference.search")
 	@ReadOnly(forViews="SomeMembersReadOnly")
 	@AsEmbedded(forViews="SellerAsAggregate, SellerAsAggregate2Levels")
 	@NoFrame(notForViews="SellerAsAggregate, Demo, SellerAsDescriptionsListShowingReferenceView, SellerAsDescriptionsListShowingReferenceViewNoKey") 

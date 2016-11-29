@@ -41,7 +41,7 @@ public class Product3WithDescriptionsListTest extends ModuleTestBase {
 		// Deleting
 		execute("CRUD.delete");			
 		assertMessage("Product deleted successfully");		
-		deleteFamily66();
+		deleteFamily66(); 
 	}
 
 	public void testSetToNullADescriptionsListWithHiddenKey() throws Exception {

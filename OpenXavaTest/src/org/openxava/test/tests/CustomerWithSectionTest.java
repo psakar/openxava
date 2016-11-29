@@ -200,10 +200,10 @@ public class CustomerWithSectionTest extends CustomerTest {
 	public void testForwardToAbsoluteURL() throws Exception { 
 		execute("CRUD.new");
 		assertValue("website", "");
-		execute("WebURL.go", "property=website,viewObject=xava_view_section0");
+		execute("CustomWebURL.go", "property=website,viewObject=xava_view_section0"); 
 		assertError("Empty URL, so you cannot go to it");
 		setValue("website", "http://www.example.org/"); 
-		execute("WebURL.go", "property=website,viewObject=xava_view_section0");		
+		execute("CustomWebURL.go", "property=website,viewObject=xava_view_section0");
 		assertTrue(getHtml().indexOf("This domain is established to be used for illustrative examples") >= 0);  
 		
 	}
@@ -213,7 +213,7 @@ public class CustomerWithSectionTest extends CustomerTest {
 		HtmlElement console = getHtmlPage().getHtmlElementById("xava_console"); 
 		assertTrue(!console.asText().contains("[CustomerWithSection.testForwardToJavaScript()] javascript: works"));
 		setValue("website", "javascript:openxava.log('[CustomerWithSection.testForwardToJavaScript()] javascript: works');"); 
-		execute("WebURL.go", "property=website,viewObject=xava_view_section0");		
+		execute("CustomWebURL.go", "property=website,viewObject=xava_view_section0"); 
 		assertTrue(console.asText().contains("[CustomerWithSection.testForwardToJavaScript()] javascript: works"));
 	}
 	
