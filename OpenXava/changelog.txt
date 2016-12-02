@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: After removing a row in an @ElementCollection searching a reference with a dialog changes the incorrect row.
 - Fix: @DescriptionsList annotated with @ReadOnly in a @ElementCollection can be edited.
 - Fix: View.isEditable(String member) does not work with references.
 - Fix: assertEditableInCollection() and assertNoEditableInCollection() from ModuleTestBase do not work with @DescriptionsList.

@@ -61,7 +61,10 @@ elementCollectionEditor.renumber = function(row, rowIndex) {
 	row.find('input').each(function(){	    
 	    $(this).attr('value',$(this).val());	    
 	});
-	var rowHtml = row.html().replace(token1, token2).replace(new RegExp("this, \\d+", "g"), "this, " + rowIndex); 
+	var rowHtml = row.html()
+		.replace(token1, token2)
+		.replace(new RegExp("this, \\d+", "g"), "this, " + rowIndex)
+		.replace(new RegExp("keyProperty=(.*)\\.\\d+\\.", "g"), "keyProperty=$1." + rowIndex + ".");
 	row.html(rowHtml);	
 	if ($(row).is(":visible")) { 
 		elementCollectionEditor.renumber(row.next(), rowIndex + 1);

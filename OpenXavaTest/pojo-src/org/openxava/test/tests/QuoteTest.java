@@ -217,7 +217,7 @@ public class QuoteTest extends ModuleTestBase {
 		assertTotalInCollection("details", 2, "amount", "88.33");		
 	}
 	
-	public void testElementCollectionGetEntity_removingRowUpdatesTotals_addingSeveralRowsAfterRemoving() throws Exception {  
+	public void testElementCollectionGetEntity_removingRowUpdatesTotals_addingSeveralRowsAfterRemoving_referenceSearchCorrectIndexAfterRemoving() throws Exception {  
 		execute("Mode.detailAndFirst");
 		assertValue("year", "2014"); // This one ...
 		assertValue("number", "1");  // ... has 3 details
@@ -251,6 +251,12 @@ public class QuoteTest extends ModuleTestBase {
 		setValueInCollection("details", 3, "product.number", "2");
 		assertValueInCollection("details", 3, "product.description", "IBM ESERVER ISERIES 270");
 		assertNoErrors();
+		
+		HtmlElement row1 = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Quote__details___1");
+		HtmlElement input = row1.getElementsByTagName("input").get(1);
+		assertEquals("ox_OpenXavaTest_Quote__details___1___product___number", input.getAttribute("id"));
+		HtmlElement searchActionLink = row1.getElementsByTagName("a").get(1);
+		assertEquals("javascript:openxava.executeAction('OpenXavaTest', 'Quote', '', false, 'Reference.search', 'keyProperty=details.1.product.number')", searchActionLink.getAttribute("href"));
 	}
 					
 }
