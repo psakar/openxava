@@ -16,13 +16,11 @@ import org.openxava.util.Is;
 import com.gargoylesoftware.htmlunit.html.*;
 
 /**
+ * 
  * @author Javier Paniza
+ * @author Federico Alcántara
  */
 
-/**
- * @author federico
- *
- */
 public class DeliveryTest extends ModuleTestBase {
 
 	private static Log log = LogFactory.getLog(DeliveryTest.class);
@@ -352,7 +350,7 @@ public class DeliveryTest extends ModuleTestBase {
 	}
 	
 	public void testZeroValueOnChange_accedingDescriptionsListDescriptionUsingGetEntity() throws Exception { 
-		createDeliveryType(0, "JUNIT DELIVERY TYPE 0");
+		createDeliveryType(0, "JUNIT DELIVERY TYPE 0"); 
 		execute("CRUD.new");
 		assertMessage("type=null");
 		setValue("invoice.year", "2002");

@@ -2333,15 +2333,20 @@ public class ModuleTestBase extends TestCase {
 	
 	private void assertEditableInCollection(String collection, int row, String name, String editable) throws Exception {
 		String elementCollectionPropertyName = collection + "." + row + "." + name;
-		if (hasElementByName(elementCollectionPropertyName)) {
+		MetaModel collectionModel = getMetaModel().getMetaCollection(collection).getMetaReference().getMetaModelReferenced();
+		String referenceKeySuffix = ""; 
+		if (collectionModel.containsMetaReference(name)) {
+			String referenceKey = (String) collectionModel.getMetaReference(name).getMetaModelReferenced().getKeyPropertiesNames().iterator().next();
+			referenceKeySuffix = "." + referenceKey;
+			
+		}
+		if (hasElementByName(elementCollectionPropertyName + referenceKeySuffix)) { 
 			assertEditable(elementCollectionPropertyName, editable, XavaResources.getString(editable.equals("true")?"must_be_editable":"must_not_be_editable")); 
 		}
 		else {
 			assertTrue(XavaResources.getString("must_be_editable"), editable.equals("false"));
 		}
 	}
-
-	
 	
 	protected void assertListTitle(String expectedTitle) throws Exception {
 		HtmlElement element = null;

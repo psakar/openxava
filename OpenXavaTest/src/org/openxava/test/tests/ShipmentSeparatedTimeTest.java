@@ -4,6 +4,7 @@ import org.openxava.tests.*;
 
 
 /**
+ * 
  * @author Javier Paniza
  */ 
 public class ShipmentSeparatedTimeTest extends ModuleTestBase {

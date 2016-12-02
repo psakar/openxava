@@ -1,6 +1,9 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: @DescriptionsList annotated with @ReadOnly in a @ElementCollection can be edited.
+- Fix: View.isEditable(String member) does not work with references.
+- Fix: assertEditableInCollection() and assertNoEditableInCollection() from ModuleTestBase do not work with @DescriptionsList.
 - GoToURLAction removed, it was used only by WebURL editor that now uses a direct link.
 - Fix: ICON stereotype editor is not correctly aligned in some cases.
 - New icon for WebURL editor, now embedded inside the fields, as in the date case.

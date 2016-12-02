@@ -2350,8 +2350,18 @@ public class View implements java.io.Serializable {
 				return (referencedModel instanceof MetaAggregate) ||
 					referencedModel.isKey(submember);
 			}		
-		}			
-		return isEditable(getMetaView().getMetaProperty(member));
+		}		
+		try {
+			return isEditable(getMetaView().getMetaProperty(member));
+		} 
+		catch (ElementNotFoundException ex) {
+			try {
+				return isEditable(getMetaView().getMetaModel().getMetaReference(member));
+			}
+			catch (ElementNotFoundException ex2) {
+				throw new ElementNotFoundException("member_not_found_in_view", member, getViewName(), getModelName());
+			}
+		}
 	}
 	
 	private boolean isMarkedAsEditable(String name) {
@@ -3705,7 +3715,7 @@ public class View implements java.io.Serializable {
 		return !descriptionsList.isShowReferenceView(); 
 	}
 	
-	private boolean displayAsDescriptionsListAndReferenceView(MetaReference ref) throws XavaException { 
+	public boolean displayAsDescriptionsListAndReferenceView(MetaReference ref) throws XavaException { 
 		if (isRepresentsElementCollection()) return false; 
 		MetaDescriptionsList descriptionsList = getMetaDescriptionsList(ref);
 		if (descriptionsList == null) return false;

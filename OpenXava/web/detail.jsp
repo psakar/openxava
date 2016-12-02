@@ -192,11 +192,11 @@ if (!renderedView) {
 							+ "&onlyEditor=true&frame=true&composite=false"		
 							+ "&first=" + first;				
 					} // END IF Display Reference Without Composite Editor
-					else { // IF Display Reference With Composite Editor
+					else { // IF Display Reference With Composite Editor						
 						urlReferenceEditor = "reference.jsp" // in this way because websphere 6 has problems with jsp:param
 							+ "?referenceKey=" + referenceKey
 							+ "&onlyEditor=true&frame=true&composite=true"  
-							+ "&viewObject=" + viewName					
+							+ "&refViewObject=" + viewName  
 							+ "&propertyPrefix=" + propertyInReferencePrefix 
 							+ "&first=" + firstForSubdetail;
 					} // END IF Display Reference With Composite Editor		

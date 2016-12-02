@@ -7,6 +7,7 @@ import org.openxava.test.model.*;
 import org.openxava.tests.*;
 
 /**
+ * 
  * @author Javier Paniza
  */
 
@@ -20,7 +21,7 @@ public class Product2WithFormulaAsAggregateTest extends ModuleTestBase {
 	public void testReferenceToEntityAutoOidAsAggregate() throws Exception {
 		// Creating product and its formula at once
 		execute("CRUD.new");
-		setValue("number", "66");
+		setValue("number", "66");  
 		setValue("description", "JUNIT PRODUCT 66");
 		setValue("subfamily.number", "11");
 		setValue("unitPrice", "66");

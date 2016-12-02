@@ -18,7 +18,7 @@ public class TransportChargeWithDescriptionsListShowingReferenceViewTest extends
 		execute("List.viewDetail", "row=1");
 		assertNoAction("Reference.createNew", "model=Delivery,keyProperty=delivery__KEY__");
 		assertNoAction("Reference.modify", "model=Delivery,keyProperty=delivery__KEY__");
-		assertNoEditable("delivery");
+		assertNoEditable("delivery"); 
 		assertNoEditable("delivery.invoice.year");
 		assertNoEditable("delivery.type");
 		assertNoEditable("delivery.date");
