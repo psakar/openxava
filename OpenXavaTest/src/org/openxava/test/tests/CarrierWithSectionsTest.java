@@ -307,7 +307,7 @@ public class CarrierWithSectionsTest extends ModuleTestBase {
 	public void testMyReportWithDuplicateProperties() throws Exception { 
 		execute("ExtendedPrint.myReports");
 		setValue("name", "Carriers between 2 and 4");
-		assertCollectionRowCount("columns", 3);
+		assertCollectionRowCount("columns", 3); 
 		assertValueInCollection("columns", 0, 0, "Calculated");
 		assertValueInCollection("columns", 1, 0, "Number");
 		assertValueInCollection("columns", 2, 0, "Name");
@@ -370,7 +370,7 @@ public class CarrierWithSectionsTest extends ModuleTestBase {
 	
 	public void testMyReportFilteringByExactStringAndOrdering() throws Exception {
 		execute("ExtendedPrint.myReports");
-		assertValueInCollection("columns", 2, 0, "Name");
+		assertValueInCollection("columns", 2, 0, "Name"); 
 		execute("MyReport.editColumn", "row=2,viewObject=xava_view_columns");
 		setValue("comparator", "eq_comparator"); 
 		setValue("value", "UNO");
@@ -430,7 +430,7 @@ public class CarrierWithSectionsTest extends ModuleTestBase {
 			
 	public void testStoringMyReports() throws Exception { 
 		execute("ExtendedPrint.myReports");
-		assertValue("name", "Carrier report");
+		assertValue("name", "Carrier report"); 
 		assertCollectionRowCount("columns", 3);
 		assertValueInCollection("columns", 0, 0, "Calculated");
 		assertValueInCollection("columns", 1, 0, "Number");

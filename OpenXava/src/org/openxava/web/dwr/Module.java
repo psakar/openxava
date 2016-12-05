@@ -248,7 +248,8 @@ public class Module extends DWRBase {
 			int row = (Integer) getContext(request).get(application, module, "xava_row");
 			result.setCurrentRow(row);
 		}
-		getView().resetCollectionsCache();		
+		getView().resetCollectionsCache();
+		if (result.isHideDialog()) result.setFocusPropertyId(null); // To avoid scrolling to the beginning of the page on closing a dialog, something ugly in long pages working on the bottom part.
 	}
 
 	private void setDialogLevel(Result result) {
@@ -264,7 +265,7 @@ public class Module extends DWRBase {
 		}
 		else if (manager.isHideDialog()) { 
 			result.setHideDialog(true);
-			restoreDialogTitle(result); 						
+			restoreDialogTitle(result); 			
 		}		
 		result.setResizeDialog(manager.getDialogLevel() > 0 && (getView().isReloadNeeded() || manager.isReloadViewNeeded()));		
 	}
