@@ -6589,7 +6589,7 @@ OpenXava/web/editors/labelEditor.jsp -text
 OpenXava/web/editors/liferayDocumentLibraryEditor.jsp -text
 OpenXava/web/editors/liferayUploadFile.jsp -text
 OpenXava/web/editors/listEditor.jsp -text svneol=unset#text/plain
-OpenXava/web/editors/moneyEditor.jsp -text
+OpenXava/web/editors/moneyEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/myReportColumnComparatorEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/myReportColumnDescriptionsListValueEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/myReportColumnNameEditor.jsp -text svneol=unset#text/plain
@@ -10181,6 +10181,10 @@ OpenXavaTest/i18n/portlets/Product_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Product_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Product_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Product_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ProductsEvaluation_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ProductsEvaluation_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ProductsEvaluation_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ProductsEvaluation_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/ProfileApplication_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/ProfileApplication_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/ProfileApplication_es.properties -text svneol=unset#text/plain

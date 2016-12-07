@@ -1543,3 +1543,11 @@ a.cke_button_disabled:hover, a.cke_button_disabled:focus, a.cke_button_disabled:
     justify-content: center;
     height: 0px;
 }
+
+.ox-money b {
+	position: relative;
+}
+
+.ox-money input {
+	margin-left: -20px;
+}

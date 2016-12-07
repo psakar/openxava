@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Money symbol in MONEY stereotype is not shown in @ElementCollection.
 - Fix: Closing a dialog scroll up to the beginning of the page.
 - Fix: After removing a row in an @ElementCollection searching a reference with a dialog changes the incorrect row.
 - Fix: @DescriptionsList annotated with @ReadOnly in a @ElementCollection can be edited.

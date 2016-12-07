@@ -782,6 +782,14 @@ public class Style {
 	public String getDateCalendar() {   
 		return "ox-date-calendar";
 	}
+	
+	/**
+	 * @since 5.6.1
+	 */
+	public String getMoney() {    
+		return "ox-money";
+	}
+
 			
 	public String getErrors() { 
 		return "ox-errors";
