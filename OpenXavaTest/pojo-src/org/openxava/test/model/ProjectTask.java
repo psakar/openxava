@@ -5,6 +5,7 @@ import java.util.*;
 import javax.persistence.*;
 
 import org.openxava.annotations.*;
+import org.openxava.jpa.*;
 import org.openxava.model.*;
 
 /**
@@ -24,6 +25,11 @@ public class ProjectTask extends Identifiable {
 	private Priority priority;
 	
 	private Date dueDate;
+	
+	public static long count() { 
+		Query query = XPersistence.getManager().createQuery("select count(*) from ProjectTask");
+		return (Long) query.getSingleResult();
+	}
 	
 	public Project getProject() {
 		return project;

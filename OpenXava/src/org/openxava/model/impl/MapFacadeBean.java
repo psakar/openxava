@@ -488,32 +488,30 @@ public class MapFacadeBean implements IMapFacadeImpl, SessionBean {
 	{
 		MetaCollection metaCollection = parentMetaModel.getMetaCollection(collectionName);
 		MetaModel childMetaModel = metaCollection.getMetaReference().getMetaModelReferenced();
+		String refToParent = metaCollection.getMetaReference().getRole();
+		if (!childMetaModel.containsMetaReference(refToParent) || metaCollection.isSortable()) { 
+			// If not (as in ManyToMany relationship), we update the collection in parent
+			Object parent = findEntity(parentMetaModel, keyValues);
+			Object child = findEntity(childMetaModel, collectionElementKeyValues);
+			if (metaCollection.hasInverseCollection()) {
+				Object theChild = child;
+				child = parent;
+				parent = theChild;
+				collectionName = metaCollection.getInverseCollection(); 
+			}				
+			PropertiesManager pm = new PropertiesManager(parent);				
+			Collection collection = (Collection) pm.executeGet(collectionName);
+			collection.remove(child);
+		}
 		if (metaCollection.isAggregate() || metaCollection.isOrphanRemoval()) {
 			remove(childMetaModel, collectionElementKeyValues);
+		}		
+		else if (childMetaModel.containsMetaReference(refToParent)) {
+			// If the child contains the reference to its parent we simply update this reference
+			Map nullParentKey = new HashMap();
+			nullParentKey.put(refToParent, null); 
+			setValues(childMetaModel, collectionElementKeyValues, nullParentKey);
 		}
-		else {
-			String refToParent = metaCollection.getMetaReference().getRole();
-			if (!childMetaModel.containsMetaReference(refToParent) || metaCollection.isSortable()) { 
-				// If not (as in ManyToMany relationship), we update the collection in parent
-				Object parent = findEntity(parentMetaModel, keyValues);
-				Object child = findEntity(childMetaModel, collectionElementKeyValues);
-				if (metaCollection.hasInverseCollection()) {
-					Object theChild = child;
-					child = parent;
-					parent = theChild;
-					collectionName = metaCollection.getInverseCollection(); 
-				}				
-				PropertiesManager pm = new PropertiesManager(parent);				
-				Collection collection = (Collection) pm.executeGet(collectionName);
-				collection.remove(child);
-			}					
-			if (childMetaModel.containsMetaReference(refToParent)) {
-				// If the child contains the reference to its parent we simply update this reference
-				Map nullParentKey = new HashMap();
-				nullParentKey.put(refToParent, null); 
-				setValues(childMetaModel, collectionElementKeyValues, nullParentKey);
-			}
-		}												
 		if (metaCollection.hasPostRemoveCalculators()) {
 			executePostremoveCollectionElement(parentMetaModel, keyValues, metaCollection);			
 		}						

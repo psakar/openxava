@@ -2,6 +2,8 @@ package org.openxava.test.tests;
 
 import java.io.*;
 
+import org.openxava.jpa.*;
+import org.openxava.test.model.*;
 import org.openxava.tests.*;
 
 import com.gargoylesoftware.htmlunit.html.*;
@@ -31,7 +33,10 @@ public class ProjectTest extends ModuleTestBase {
 		assertTrue(page.asText().contains(expectedText));
 	}
 		
-	public void testAddElementsToListWithOrderColumn() throws Exception {  
+	public void testAddElementsToListWithOrderColumn_removeElementFromListWithOrder() throws Exception {  
+		long initialTasksCount = ProjectTask.count(); 
+		XPersistence.commit();
+		
 		execute("CRUD.new");
 		setValue("name", "JUNIT PROJECT");
 		
@@ -64,9 +69,13 @@ public class ProjectTest extends ModuleTestBase {
 		assertValueInCollection("tasks", 0, 0, "THE JUNIT TASK");
 		assertValueInCollection("tasks", 0, 1, "HIGH");
 		assertValueInCollection("tasks", 0, 2, "3/20/15");
+		
+		execute("Collection.removeSelected", "row=0,viewObject=xava_view_tasks");
+		assertCollectionRowCount("tasks", 0);
+		assertEquals(initialTasksCount, ProjectTask.count());
 				
 		execute("CRUD.delete");
-		assertNoErrors();		
+		assertNoErrors();
 	}
 		
 	public void testMoveElementAfterAddingSeveralElementsInElementCollection() throws Exception { 
