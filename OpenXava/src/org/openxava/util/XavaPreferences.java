@@ -435,6 +435,12 @@ public class XavaPreferences {
 				"helpInNewWindow", "true").trim());
 	}
 	
+	/** @since 5.6.1 */
+	public boolean isDivForEachEditor() { 
+		return "true".equalsIgnoreCase(getProperties().getProperty(
+				"divForEachEditor", "false").trim());
+	}
+	
 	/** @since 5.6 */
 	public boolean isHelpAvailable() { 
 		return "true".equalsIgnoreCase(getProperties().getProperty(
