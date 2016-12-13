@@ -4,6 +4,7 @@ import java.awt.event.*;
 import java.io.*;
 import java.net.*;
 import java.util.*;
+import java.util.Collections;
 
 import javax.servlet.http.*;
 import javax.swing.*;
@@ -135,10 +136,16 @@ public class Module extends DWRBase {
 		// Http session is used instead of ox context because context may not exist at this moment
 		return request.getSession().getAttribute(PAGE_RELOADED_LAST_TIME) != null;
 	}
-	
-	public Map getStrokeActions(HttpServletRequest request, HttpServletResponse response, String application, String module) throws Exception { 
-		this.manager = (ModuleManager) getContext(request).get(application, module, "manager");
-		return getStrokeActions();
+	 
+	public Map getStrokeActions(HttpServletRequest request, HttpServletResponse response, String application, String module) { 
+		try {
+			this.manager = (ModuleManager) getContext(request).get(application, module, "manager");
+			return getStrokeActions();		
+		}
+		catch (Exception ex) {
+			log.warn(XavaResources.getString("stroke_actions_errors"), ex); 
+			return Collections.EMPTY_MAP;
+		}
 	}
 
 	private Map getStrokeActions() {  

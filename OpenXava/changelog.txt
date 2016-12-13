@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Current user lost in jUnit tests under certain circumstances.
 - Fix: Editors are cut when their columns are resized in @ElementCollection inside Liferay. 
 - New method toList(Iterable it) in XCollections utility class.
 - Fix: Impossible to delete elements from @OrderColumn collections.
