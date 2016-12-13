@@ -227,7 +227,7 @@ public class SellerTest extends CustomizeListTestBase {
 		assertValueInCollection("customers", 1, "number", "2");
 		execute("List.orderBy", "property=number,collection=customers");
 		execute("List.orderBy", "property=number,collection=customers");
-		assertValueInCollection("customers", 0, "number", "2");
+		assertValueInCollection("customers", 0, "number", "2"); 
 		assertValueInCollection("customers", 1, "number", "1");
 
 		execute("Collection.view", "row=1,viewObject=xava_view_customers");

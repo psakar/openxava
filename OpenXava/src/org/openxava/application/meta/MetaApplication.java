@@ -96,7 +96,7 @@ public class MetaApplication extends MetaElement implements java.io.Serializable
 				if (!metaModules.containsKey(modelName) && generateDefaultModules) {
 					createDefaultModule(modelName);
 				}			
-			}							
+			}		
 		}
 		catch (Exception ex) {
 			log.error(ex);

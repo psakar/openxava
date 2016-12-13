@@ -82,7 +82,7 @@ public class MetaModule extends MetaElement implements java.io.Serializable {
 		return getMetaApplication().getId() + "." + getName();		
 	}
 	
-	private String getLabelFromModel() { 
+	private String getLabelFromModel() {
 		try {
 			String modelName = getModelName();
 			if (modelName == null) return null;

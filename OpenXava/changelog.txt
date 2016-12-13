@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Editors are cut when their columns are resized in @ElementCollection inside Liferay. 
 - New method toList(Iterable it) in XCollections utility class.
 - Fix: Impossible to delete elements from @OrderColumn collections.
 - Fix: Money symbol in MONEY stereotype is not shown in @ElementCollection.

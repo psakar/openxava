@@ -2,6 +2,7 @@
 
 <%@ page import="java.util.Iterator" %>
 <%@ page import="org.openxava.view.View" %>
+<%@ page import="org.openxava.util.XavaPreferences" %>
 <%@ page import="org.openxava.view.meta.MetaGroup" %>
 <%@ page import="org.openxava.view.meta.PropertiesSeparator" %>
 <%@ page import="org.openxava.model.meta.MetaProperty" %>
@@ -39,10 +40,12 @@ private String closeDivForFrame(View view) {
 }
 
 private String openDiv(View view) {
+	if (XavaPreferences.getInstance().isDivForEachEditor()) return ""; 
 	return view.isFrame()?"<div class='ox-layout-detail'>":""; 
 }
 
 private String closeDiv(View view) {
+	if (XavaPreferences.getInstance().isDivForEachEditor()) return ""; 
 	return view.isFrame()?"</div>":"";
 }
 %>
@@ -179,7 +182,8 @@ if (!renderedView) {
 							"&closed=" + view.isFrameClosed(frameId); 		
 %>
 		<jsp:include page='<%=frameActionsURL%>'/>
-		<%=style.getFrameActionsEndDecoration()%> 					 					
+		<%=style.getFrameActionsEndDecoration()%> 		
+		<%@ include file="referenceFrameHeaderExt.jsp"%>				 					
 		<%=style.getFrameHeaderEndDecoration() %>
 		<%=style.getFrameContentStartDecoration(frameId + "content", view.isFrameClosed(frameId)) %>						
 <%		

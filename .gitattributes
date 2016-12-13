@@ -12224,6 +12224,7 @@ OpenXavaTest/web/xava/reference.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/referenceActions.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/referenceActionsExt.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/referenceEditorIcons.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/referenceFrameHeaderExt.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/referenceSearch.jsp -text
 OpenXavaTest/web/xava/sections.jsp -text
 OpenXavaTest/web/xava/severalModules.jsp -text

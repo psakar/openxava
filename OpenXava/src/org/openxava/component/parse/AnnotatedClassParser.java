@@ -2646,7 +2646,7 @@ public class AnnotatedClassParser implements IComponentParser {
 	 * Only for using from MetaApplication class. <p>
 	 */
 	public static Collection<String> friendMetaApplicationGetManagedClassNames() { 
-		return obtainManagedClassNamesFromFileClassPath();
+		return managedClassNames = obtainManagedClassNamesFromFileClassPath(); // If we change this test if generatePortlets works with the database running
 	}
 	
 	public static Collection<String> getManagedClassNames() {

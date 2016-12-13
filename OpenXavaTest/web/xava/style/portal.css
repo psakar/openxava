@@ -555,6 +555,13 @@ span.ox-subcontroller-select a{
 	border: 1px solid #A7CEDF !important;
 }
 
+.ox-element-collection .form-text { 
+	width: 100%; 
+	box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+}
+
 .ox-charts {
 	width: 0px;
 }
@@ -918,10 +925,9 @@ a.cke_button_disabled:hover, a.cke_button_disabled:focus, a.cke_button_disabled:
 }
 
 .ox-money b {
+	width: 0px; 
 	position: relative;
-	left: 3px;
-}
-
-.ox-money input {
-	margin-left: -13px;
+	left: 5px;
+	top: 5px;
+	float: left; 
 }

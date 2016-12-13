@@ -1545,9 +1545,13 @@ a.cke_button_disabled:hover, a.cke_button_disabled:focus, a.cke_button_disabled:
 }
 
 .ox-money b {
+	width: 0px; 
 	position: relative;
+	left: 5px;
+	top: 9px;
+	float: left; 
 }
 
-.ox-money input {
-	margin-left: -20px;
+.firefox .ox-money b, .ie .ox-money b {
+	top: 8px;
 }
