@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Combo for @DescriptionsList does not open for third line in @ElementCollection.  
 - Fix: Current user lost in jUnit tests under certain circumstances.
 - Fix: Editors are cut when their columns are resized in @ElementCollection inside Liferay. 
 - New method toList(Iterable it) in XCollections utility class.
