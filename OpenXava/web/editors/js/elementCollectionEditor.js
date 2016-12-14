@@ -33,6 +33,7 @@ elementCollectionEditor.onChangeRow = function(element, rowIndex) {
 	$(nextRow).after(newRow);
 	currentRow.children().first().find("nobr").css('visibility', 'visible');
 	currentRow.addClass("xava_sortable_element_row"); 
+	openxava.initEditors(); 
 }
 
 elementCollectionEditor.setDefaultValues = function(table, rowIndex) {

@@ -2,6 +2,8 @@ package org.openxava.test.tests;
 
 import org.openxava.tests.*;
 
+import com.gargoylesoftware.htmlunit.html.*;
+
 /**
  *  
  * @author Javier Paniza
@@ -92,6 +94,24 @@ public class ServiceExpensesTest extends ModuleTestBase {
 		assertNoErrors();
 		setValueInCollection("expenses", 0, "invoice.number", "15"); // It does not exist
 		assertErrorsCount(1);
+	}
+	
+	public void testAdding3RowsWithDescriptionsListAndTextFieldInElementCollection() throws Exception { 
+		getWebClient().getOptions().setCssEnabled(true);
+		execute("CRUD.new");
+		assertComboOpens(0, 1);
+		setValueInCollection("expenses", 0, 0, "2016");
+		assertComboOpens(1, 2);
+		setValueInCollection("expenses", 1, 0, "2016");
+		assertComboOpens(2, 7); 
+	}
+
+	private void assertComboOpens(int row, int uiId) throws Exception {
+		HtmlElement editor = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_ServiceExpenses__reference_editor_expenses___" + row + "___receptionist");
+		HtmlElement handler = editor.getElementsByTagName("i").get(0);
+		assertTrue(!getHtmlPage().getHtmlElementById("ui-id-" + uiId).isDisplayed());
+		handler.click();
+		assertTrue(getHtmlPage().getHtmlElementById("ui-id-" + uiId).isDisplayed());		
 	}
 			
 }
