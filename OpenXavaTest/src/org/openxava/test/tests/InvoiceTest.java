@@ -692,7 +692,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		execute("Sections.change", "activeSection=2");
 		setValue("vatPercentage", "23");
 				
-		createOneDetail(); // Because at least one detail is required
+		createOneDetail(); // Because at least one detail is required 
 		setValue("paid", "true"); // assign true to checkbox 
 		
 		execute("CRUD.save");

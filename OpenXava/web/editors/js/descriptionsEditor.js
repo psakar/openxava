@@ -60,6 +60,7 @@ descriptionsEditor.close = function(id) {
 }
 
 descriptionsEditor.executeOnChange = function(element) {
+	$(element).parent().trigger("change"); 
 	var onchange = element.attr("onchange");
 	if (typeof onchange == 'undefined') return;
 	eval(onchange);
