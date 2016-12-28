@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: NullPointerException with JDBCTabProvider when the keys contains null.
 - Fix: Impossible to add new lines in an @ElementCollection with only @DescriptionsLists.
 - Fix: Combo for @DescriptionsList does not open for third line in @ElementCollection.  
 - Fix: Current user lost in jUnit tests under certain circumstances.
