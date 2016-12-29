@@ -880,14 +880,16 @@ public class ModuleTestBase extends TestCase {
 		return getFormValues(decorateId(name));
 	}	
 	
-	protected String getLabel(String name) throws Exception {
-		HtmlElement element = page.getHtmlElementById(decorateId("label_" + name)); 
-		if (element == null) {
-			fail(XavaResources.getString("label_not_found_in_ui", name));
+	protected String getLabel(String name) throws Exception { 
+		try {
+			return getElementById("label_" + name).asText().trim(); 
 		}
-		return element.asText().trim();
+		catch (ElementNotFoundException ex) {		
+			return getElementById("frame_" + name + "header").getParentNode()
+					.asText().replaceFirst("\\([0-9]+\\)$", "").trim();
+		}
 	}
-		
+	
 	/**
 	 * In case we does not work with main view.
 	 * 
