@@ -10662,6 +10662,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/GoProposeNameAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/InvoiceReportAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/LoginAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/MovieReportAction.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/NewWarehouse2Action.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/NewWarehouseAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeArtistNameAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/OnChangeCustomerNameAction.java -text
@@ -11424,6 +11425,7 @@ OpenXavaTest/src/org/openxava/test/tests/VehicleTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehouseDetailListTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehouseDetailOnlyTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehouseListOnlyTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/WarehouseSpecialNew2Test.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/WarehouseSpecialNewTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehouseSplitTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehouseSplitTestBase.java -text

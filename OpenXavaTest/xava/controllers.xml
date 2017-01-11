@@ -708,6 +708,17 @@
 		</action>
 	</controller>
 	
+	<controller name="WarehouseSpecialNew2">
+		<extends controller="WarehouseSpecialNew"/>
+		<action name="new"  
+			class="org.openxava.test.actions.NewWarehouse2Action"
+			image="new.gif"
+			icon="library-plus"
+			keystroke="Control N">
+			<set property="restoreModel" value="true"/>			
+		</action>
+	</controller>
+	
 	<controller name="MyReference">
 	
 		<!-- Only icon without image to test a case -->
@@ -1071,6 +1082,13 @@
 			<set value="4" property="actionNumber"/>	
 		</action>
 		
+	</controller>
+	
+	<controller name="TeamMemberSub" icon="exclamation">
+		<action name="viewNames" class="org.openxava.test.actions.ViewNamesOrRolesNamesFromTeamMember" icon="message-outline"/>
+		<action name="viewRoles" class="org.openxava.test.actions.ViewNamesOrRolesNamesFromTeamMember" icon="message">
+			<set value="true" property="roles"/>
+		</action>
 	</controller>
 	
 	<controller name="ColorOnlySubcontroller">
