@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: controllers do not overwritte repeat actions
 - Fix: assertLabel()/getLabel() of ModuleTestBase do no work with members with frame.
 - Fix: NullPointerException with JDBCTabProvider when the keys contains null.
 - Fix: Impossible to add new lines in an @ElementCollection with only @DescriptionsLists.

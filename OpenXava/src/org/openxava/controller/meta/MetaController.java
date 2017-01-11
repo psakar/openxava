@@ -17,7 +17,7 @@ public class MetaController extends MetaElement {
 	private Map mapMetaActions = new HashMap();
 	private Collection<MetaSubcontroller> metaSubcontrollers = new ArrayList<MetaSubcontroller>();
 	private Collection<MetaControllerElement> metaControllerElements = new ArrayList<MetaControllerElement>();	// actions and subcontroller order by occurrence
-		
+	
 	public void addMetaControllerElement(MetaControllerElement controllerElement){
 		metaControllerElements.add(controllerElement);
 	}
@@ -26,36 +26,39 @@ public class MetaController extends MetaElement {
 		return metaControllerElements;
 	}
 	
-	private void getMetaControllerElementsParents(List result, Collection<MetaController> parents){
-		for(MetaController parent : parents) {
-			if (!parent.getParents().isEmpty()) getMetaControllerElementsParents(result, parent.getParents());
-			result.addAll(parent.getMetaControllerElements());
-		}
+	private void addMetaControllerElementOverWritteActions(List result, Collection<MetaControllerElement> elements){
+	    for (MetaControllerElement controllerElement : elements){
+	        if (controllerElement instanceof MetaAction){
+	            // overwritte actions
+	            MetaAction metaAction = (MetaAction)controllerElement;
+	            int pos = -1;
+	            for (int i=0; i<result.size(); i++) {
+	                if (result.get(i) instanceof MetaAction && ((MetaAction)result.get(i)).getName().equals(metaAction.getName())) {
+	                    pos = i;
+	                }
+	            }
+	            if (pos < 0) result.add(metaAction);
+	            else {
+	                result.remove(pos);
+	                result.add(pos, metaAction);
+	            }
+	        }
+	        else result.add(controllerElement); // MetaSubcontroller
+	    }
 	}
-	
+
+	private void getMetaControllerElementParents(List result, Collection<MetaController> parents){
+	    for(MetaController parent : parents) {
+	        if (!parent.getParents().isEmpty()) getMetaControllerElementParents(result, parent.getParents());
+	        addMetaControllerElementOverWritteActions(result, parent.getMetaControllerElements());
+	    }
+	}
+
 	public Collection<MetaControllerElement> getAllMetaControllerElements(){
-		List<MetaControllerElement> result = new ArrayList();
-		getMetaControllerElementsParents(result, getParents());
-		
-		for (MetaControllerElement controllerElement : getMetaControllerElements()){
-			if (controllerElement instanceof MetaAction){
-				// overwritte actions
-				MetaAction metaAction = (MetaAction)controllerElement;
-				int pos = -1;
-				for (int i=0; i<result.size(); i++) {
-					if (result.get(i) instanceof MetaAction && ((MetaAction)result.get(i)).getName().equals(metaAction.getName())) {
-						pos = i;
-					}
-				}
-				if (pos < 0) result.add(metaAction);
-				else {
-					result.remove(pos);
-					result.add(pos, metaAction);
-				}
-			}
-			else result.add(controllerElement);	// MetaSubcontroller
-		}
-		return result;
+	    List<MetaControllerElement> result = new ArrayList();
+	    getMetaControllerElementParents(result, getParents());
+	    addMetaControllerElementOverWritteActions(result, getMetaControllerElements());
+	    return result;
 	}
 	
 	/**
