@@ -1910,6 +1910,7 @@ public class View implements java.io.Serializable {
 	 */
 	public boolean isCollectionFromModel() throws XavaException {  
 		assertRepresentsCollection("isCollectionFromModel()");
+		if (!getMetaCollection().getMetaModel().isPOJOAvailable()) return false;
 		return getMetaCollection().hasCalculator() || getMetaCollection().isSortable(); 
 	}
 	
@@ -3640,6 +3641,11 @@ public class View implements java.io.Serializable {
 
 	public boolean isRepresentsCollection() {		
 		return representsCollection;
+	}
+	
+	/** @since 5.6.1 */
+	public boolean isRepresentsSortableCollection() { 
+		return isRepresentsCollection() && getMetaCollection().isSortable();
 	}
 
 	public void setRepresentsCollection(boolean b) {		
@@ -5764,10 +5770,8 @@ public class View implements java.io.Serializable {
 	}
 
 	public void moveCollectionElement(int from, int to) throws Exception {
-		assertRepresentsCollection("moveCollectionElement()");		
-		PropertiesManager pm = new PropertiesManager(getParent().getEntity()); 
-		List elements = (List) pm.executeGet(getMemberName());
-		XCollections.move(elements, from, to);
+		MapFacade.moveCollectionElement(getParent().getModelName(), getParent().getKeyValues(), 
+			getMemberName(), from, to);
 	}
 	
 	/**

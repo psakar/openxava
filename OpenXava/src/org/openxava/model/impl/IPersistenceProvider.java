@@ -57,6 +57,24 @@ public interface IPersistenceProvider extends java.io.Serializable {
 	 */
 	Object create(MetaModel metaModel, Map values) throws DuplicateKeyException, CreateException, ValidationException, XavaException;
 	
+	/** 
+	 * Move an element in a collection. <p>
+	 * 
+	 * The collection must be sortable, in JPA it means to be a List with @OrderColumn.
+	 * 
+	 * @param metaModel  of the entity that contains the collection. Not null.
+	 * @param keyValues  Key value of the container of the collection. Not null. 
+	 * @param collectionName  Collection name of the container collection of element to move. Not null.
+	 * @param from  Original position of the element in the collection. Zero based.
+	 * @param to  Position in the collection where the element will be moved. Zero based.
+	 * @exception ObjectNotFoundException  If object with this key does not exist 
+	 * @exception FinderException  Logic problem on find.	
+	 * @exception XavaException  Any problem related to OpenXava. Rollback transaction.
+	 * @since 5.6.1
+	 */	
+	void moveCollectionElement(MetaModel metaModel, Map keyValues, String collectionName, int from, int to)   
+			throws FinderException, XavaException;
+
 	/**
 	 * Create an aggregate (saving it in database) from the data passed in map format. <p>
 	 * 

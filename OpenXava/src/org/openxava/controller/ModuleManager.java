@@ -824,12 +824,19 @@ public class ModuleManager implements java.io.Serializable {
 	/**
 	 * Init JPA and Hibernate in order to process the current request.
 	 */
-	public void resetPersistence() throws Exception { 
+	public void resetPersistence() { 
 		org.openxava.hibernate.XHibernate.setCmt(false);
 		org.openxava.jpa.XPersistence.reset();
 		org.openxava.hibernate.XHibernate.reset();
 		if (reseter != null) {
-			XObjects.execute(reseter, "reset", HttpSession.class, session);
+			try {
+				XObjects.execute(reseter, "reset", HttpSession.class, session);
+			}
+			catch (Exception ex) {
+				log.error(XavaResources.getString("reset_persistence_error"), ex);
+				throw new XavaException("reset_persistence_error");
+			}
+			
 		}
 	}
 

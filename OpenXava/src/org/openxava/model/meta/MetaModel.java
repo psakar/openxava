@@ -1799,8 +1799,16 @@ abstract public class MetaModel extends MetaElement {
 		return getMetaComponent().getPackageName() + ".I" + getName();
 	}
 	
+	/**
+	 * @since 5.6.1
+	 */
+	public boolean isPOJOAvailable() {
+		return getPOJOClassName() != null;
+	}
+	
 	public String getPOJOClassName()  throws XavaException {
 		if (pojoClassName != null) return pojoClassName; 
+		if (getMetaComponent().getPackageName() == null) return null; 
 		return getMetaComponent().getPackageName() + "." + getName();
 	}
 	public void setPOJOClassName(String pojoClassName)  throws XavaException {

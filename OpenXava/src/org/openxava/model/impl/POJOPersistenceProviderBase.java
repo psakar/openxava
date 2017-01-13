@@ -129,6 +129,19 @@ abstract public class POJOPersistenceProviderBase implements IPersistenceProvide
 		}
 	}
 	
+	public void moveCollectionElement(MetaModel metaModel, Map keyValues, String collectionName, int from, int to) throws FinderException, XavaException {
+		try {
+			Object container = find(metaModel, keyValues);
+			PropertiesManager pm = new PropertiesManager(container); 
+			List elements = (List) pm.executeGet(collectionName);
+			XCollections.move(elements, from, to);
+		}
+		catch (Exception ex) {
+			log.error(XavaResources.getString("move_collection_element_error", collectionName), ex); 
+			throw new XavaException("move_collection_element_error", collectionName); 
+		}
+	}
+	
 	public IPropertiesContainer toPropertiesContainer(MetaModel metaModel,
 			Object o) throws XavaException {
 		return new POJOPropertiesContainerAdapter(o);

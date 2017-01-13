@@ -489,7 +489,7 @@ public class MapFacadeBean implements IMapFacadeImpl, SessionBean {
 		MetaCollection metaCollection = parentMetaModel.getMetaCollection(collectionName);
 		MetaModel childMetaModel = metaCollection.getMetaReference().getMetaModelReferenced();
 		String refToParent = metaCollection.getMetaReference().getRole();
-		if (!childMetaModel.containsMetaReference(refToParent) || metaCollection.isSortable()) { 
+		if ((!childMetaModel.containsMetaReference(refToParent) || metaCollection.isSortable()) && parentMetaModel.isPOJOAvailable()) { 
 			// If not (as in ManyToMany relationship), we update the collection in parent
 			Object parent = findEntity(parentMetaModel, keyValues);
 			Object child = findEntity(childMetaModel, collectionElementKeyValues);
@@ -551,7 +551,7 @@ public class MapFacadeBean implements IMapFacadeImpl, SessionBean {
 		MetaCollection metaCollection = parentMetaModel.getMetaCollection(collectionName);		
 		String refToParent = metaCollection.getMetaReference().getRole();
 		MetaModel childMetaModel = metaCollection.getMetaReference().getMetaModelReferenced();
-		if (!childMetaModel.containsMetaReference(refToParent) || metaCollection.isSortable()) {
+		if ((!childMetaModel.containsMetaReference(refToParent) || metaCollection.isSortable()) && parentMetaModel.isPOJOAvailable()) { 
 			// If not (as in ManyToMany relationship), we update the collection in parent
 			Object parent = findEntity(parentMetaModel, keyValues);			
 			Object child = findEntity(childMetaModel, collectionElementKeyValues);
@@ -570,6 +570,27 @@ public class MapFacadeBean implements IMapFacadeImpl, SessionBean {
 			setValues(childMetaModel, collectionElementKeyValues, parentKey);	
 		}
 	}
+	
+	public void moveCollectionElement(UserInfo userInfo, String modelName, Map keyValues, String collectionName, int from, int to)   
+		throws FinderException, XavaException, RemoteException 
+	{
+		Users.setCurrentUserInfo(userInfo);
+		keyValues = Maps.recursiveClone(keyValues); 
+		MetaModel metaModel = getMetaModel(modelName); 
+		try {		
+			beginTransaction(metaModel);
+			getPersistenceProvider(metaModel).moveCollectionElement(metaModel, keyValues, collectionName, from, to);
+			commitTransaction(metaModel);			
+		} 
+		catch (RuntimeException ex) { 
+			rollback(metaModel); 
+			throw ex;
+		}
+		catch (Exception ex) {
+			rollback(metaModel); 
+			throw new RemoteException(ex.getMessage());
+		}						
+	}	
 		
 	private Messages validate(MetaModel metaModel, Map values, boolean creating) throws ObjectNotFoundException, XavaException, RemoteException { 
 		Messages validationErrors = new Messages(); 				
@@ -665,7 +686,7 @@ public class MapFacadeBean implements IMapFacadeImpl, SessionBean {
 				getValues(					 
 					metaModel,
 					findEntity(metaModel, keyValues), 
-					membersNames); 						
+					membersNames); 	
 			return result;
 		} catch (XavaException ex) {
 			log.error(ex.getMessage(), ex);

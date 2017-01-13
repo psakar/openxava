@@ -27,6 +27,8 @@ class DWRBase {
 		checkSecurity(request, application, module);
 		Users.setCurrent(request);
 		request.setAttribute("style", Style.getInstance(request));
+		ModuleManager manager = (ModuleManager) getContext(request).get(application, module, "manager");
+		manager.resetPersistence();
 	}
 	
 	protected void cleanRequest() { 
