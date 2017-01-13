@@ -53,7 +53,7 @@ public class InvoiceFromCustomersTest extends ModuleTestBase {
 				
 		// Go to another module
 		execute("Invoice.listOfCustomer", "row=0");
-		assertNoAction("Invoice.listOfCustomer");
+		assertNoAction("Invoice.listOfCustomer"); 
 		assertAction("CustomerInvoices.return");				
 		assertInvoices();
 		// The next two lines because the last action was from the initial module

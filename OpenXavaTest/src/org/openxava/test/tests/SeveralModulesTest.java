@@ -21,12 +21,12 @@ public class SeveralModulesTest extends ModuleTestBase {
 		super(testName, "Carrier"); // getModuleURL() is override, so we do not go to Carrier module
 	}
 		
-	public void testSeveralModulesInSamePage() throws Exception { 
+	public void testSeveralModulesInSamePage() throws Exception {
 		assertActions();	
 		assertOnChangeEvent();
 		assertFocusOn("relationWithSeller");
 		assertSections();		
-		assertCollections(); 
+		assertCollections();
 		assertUploadFiles();		 				
 	}
 

@@ -118,6 +118,7 @@ public class Module extends DWRBase {
 		}		
 		finally {			
 			if (manager != null) manager.commit(); // If hibernate, jpa, etc is used to render some value here is commit
+			cleanRequest();   
 		}
 	}
 	
@@ -137,14 +138,18 @@ public class Module extends DWRBase {
 		return request.getSession().getAttribute(PAGE_RELOADED_LAST_TIME) != null;
 	}
 	 
-	public Map getStrokeActions(HttpServletRequest request, HttpServletResponse response, String application, String module) { 
+	public Map getStrokeActions(HttpServletRequest request, HttpServletResponse response, String application, String module) {
 		try {
+			ModuleContext.setCurrentWindowId(request); 
 			this.manager = (ModuleManager) getContext(request).get(application, module, "manager");
 			return getStrokeActions();		
 		}
 		catch (Exception ex) {
 			log.warn(XavaResources.getString("stroke_actions_errors"), ex); 
 			return Collections.EMPTY_MAP;
+		}
+		finally {
+			cleanRequest(); 
 		}
 	}
 
@@ -200,7 +205,7 @@ public class Module extends DWRBase {
 	}	
 	
 	public void requestMultipart(HttpServletRequest request, HttpServletResponse response, String application, String module) throws Exception {
-		request(request, response, application, module, null, null, null, null, null, false, null);   		
+		request(request, response, application, module, null, null, null, null, null, false, null);
 		memorizeLastMessages();
 		manager.setResetFormPostNeeded(true);
 	}

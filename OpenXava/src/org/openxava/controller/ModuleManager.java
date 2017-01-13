@@ -1580,6 +1580,7 @@ public class ModuleManager implements java.io.Serializable {
 
 	private void setFormUpload(boolean b) {
 		formUpload = b;
+		if (formUpload) getContext().dontGenerateNewWindowIdNextTime(); 
 	}
 
 	public String getNextModule() {

@@ -1,7 +1,10 @@
 Change Log for OpenXava project
 ===============================
 
-- Fix: controllers do not overwritte repeat actions
+- Each browser tab has its own independent session state by module.  
+- Fix: Opening the same module in several browser tabs produces unpredictable behavior.
+- New method Servlets.getCookie() to get a cookie from the request.
+- Fix: Controllers do not overwrite repeated actions.
 - Fix: assertLabel()/getLabel() of ModuleTestBase do no work with members with frame.
 - Fix: NullPointerException with JDBCTabProvider when the keys contains null.
 - Fix: Impossible to add new lines in an @ElementCollection with only @DescriptionsLists.

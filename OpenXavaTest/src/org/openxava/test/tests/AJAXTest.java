@@ -282,7 +282,7 @@ public class AJAXTest extends ModuleTestBase {
 				// "editor_comboDeliveries," + // Only with XML components, because in XML is a view property, and in JPA is a transient property  
 				"editor_number," +  
 				"errors, messages");
-		assertListRowCount(6); 
+		assertListRowCount(6);
 		execute("CRUD.new");
 		setValue("number", "66");
 		setValue("description", "JUNIT DELIVERY TYPE");

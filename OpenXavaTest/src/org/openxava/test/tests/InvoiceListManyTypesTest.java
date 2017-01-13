@@ -24,12 +24,12 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 		assertListConfigurationsEmptyNotEmpty();
 		assertListConfigurationGroups(); 
 		assertListConfigurationsEnums();	
-		assertListConfigurationsYearMonthYearMonth();
+		assertListConfigurationsYearMonthYearMonth(); 
 		assertListConfigurationsDescriptionsLists();	
 		assertListConfigurationsOrdering();
 		assertListConfigurationsRanges();
 		assertListConfigurationsColumns(); 
-		assertListConfigurationsChangeName();
+		assertListConfigurationsChangeName(); 
 		assertListConfigurationsI18n();
 		assertListConfigurationsPersistence(); 
 	}

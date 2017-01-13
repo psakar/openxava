@@ -67,7 +67,7 @@ public class DeliveryTest extends ModuleTestBase {
 		assertValueInList(1, 2, "1");
 		
 		execute("ExtendedPrint.myReports");
-		assertValueInCollection("columns", 3, 0, "Description of Type");
+		assertValueInCollection("columns", 3, 0, "Description of Type"); 
 		assertValueInCollection("columns", 3, 1, "=");
 		assertValueInCollection("columns", 3, 2, "FACTURABLE MODIFIED");
 		execute("MyReport.editColumn", "row=3,viewObject=xava_view_columns");
@@ -568,7 +568,7 @@ public class DeliveryTest extends ModuleTestBase {
 		execute("CRUD.save");
 		assertNoErrors();
 		changeModule("Delivery");
-		assertType("66");
+		assertType("66"); 
 		changeModule("DeliveryType");
 		setValue("number", "66");
 		execute("CRUD.refresh");
@@ -698,7 +698,7 @@ public class DeliveryTest extends ModuleTestBase {
 		assertActions(initialActions);  
 		
 		execute("Delivery.hideActions");
-		assertActions(minimumActions);
+		assertActions(minimumActions); 
 		
 		execute("Reference.createNew", "model=DeliveryType,keyProperty=xava.Delivery.type.number");
 		assertActions(creatingNewActions);
@@ -984,7 +984,7 @@ public class DeliveryTest extends ModuleTestBase {
 		setValue("type.number", "1");
 		setValue("number", "61");
 		execute("CRUD.refresh");		
-		assertValue("description", "JUNIT WITHOUT DELIVEREDBY");		
+		assertValue("description", "JUNIT WITHOUT DELIVEREDBY"); 
 		assertNotExists("carrier.number");
 		assertNotExists("employee");
 						
@@ -1021,7 +1021,7 @@ public class DeliveryTest extends ModuleTestBase {
 		setValue("date", "2/22/97");
 		setValue("description", "JUNIT");
 		execute("CRUD.save");
-		assertNoErrors();  
+		assertNoErrors(); 
 		assertValue("invoice.year", "");
 		assertValue("invoice.number", "");						
 		assertValue("type.number", "");	
@@ -1123,7 +1123,7 @@ public class DeliveryTest extends ModuleTestBase {
 		assertValue("remarks", "First invoice of year");
 		setValue("remarks", "");
 		
-		searchInvoiceWithList("2004", "2");
+		searchInvoiceWithList("2004", "2"); 
 		assertValue("invoice.year", "2004"); 		
 		assertValue("invoice.number", "2"); 
 		assertValue("remarks", "No remarks");							
@@ -1148,7 +1148,7 @@ public class DeliveryTest extends ModuleTestBase {
 		execute("Remarks.hideRemarks");
 		assertNotExists("remarks");
 		execute("Remarks.showRemarks");
-		assertExists("remarks");
+		assertExists("remarks"); 
 		
 		execute("Remarks.hideRemarks");
 		assertNoErrors();

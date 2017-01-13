@@ -18,7 +18,7 @@ public class SelectSchemaTest extends ModuleTestBase {
 		// setValue("schema", "1"); // For XML components 
 		setValue("schema", String.valueOf(SelectSchema.Schema.COMPANYA.ordinal())); // For annotated POJOs
 		execute("SelectSchema.set"); 
-		assertNoErrors();
+		assertNoErrors(); 
 		
 		// Color: access to detail mode
 		changeModule("Color");

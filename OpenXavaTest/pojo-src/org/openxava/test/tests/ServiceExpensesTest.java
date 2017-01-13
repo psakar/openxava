@@ -49,7 +49,7 @@ public class ServiceExpensesTest extends ModuleTestBase {
 		assertValueInCollection("expenses", 1, "invoice.amount", "");
 		execute("Reference.search", "keyProperty=expenses.1.invoice.number");
 		execute("ReferenceSearch.choose", "row=0");
-		assertValueInCollection("expenses", 1, "invoice.year", "2007");
+		assertValueInCollection("expenses", 1, "invoice.year", "2007"); 
 		assertValueInCollection("expenses", 1, "invoice.number", "1");
 		assertValueInCollection("expenses", 1, "invoice.amount", "790.00");
 

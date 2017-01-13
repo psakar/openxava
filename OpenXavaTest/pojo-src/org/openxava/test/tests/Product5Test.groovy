@@ -37,7 +37,7 @@ class Product5Test extends CustomizeListTestBase {
 		execute "MyReport.editColumn", "row=4,viewObject=xava_view_columns"
 		setValue "sum", "true"
 		execute "MyReport.saveColumn"
-		assertValueInCollection("columns", 4, 4, "Yes");
+		assertValueInCollection("columns", 4, 4, "Yes"); 
 		assertAction "MyReport.generatePdf"
 	}
 	
@@ -145,7 +145,7 @@ class Product5Test extends CustomizeListTestBase {
 		assertActions(detailActions)
 		
 		execute("Mode.list")
-		assertAction("Product5.goA")
+		assertAction("Product5.goA") 
 		assertNoAction("Product5.goB")
 		assertAction("CRUD.new")
 		

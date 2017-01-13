@@ -2,6 +2,7 @@ if (openxava == null) var openxava = {};
 openxava.deselected = [];
 
 openxava.init = function(application, module) {
+	openxava.initWindowId(); 
 	document.onkeydown = openxava.processKey;
 	openxava.initUI(application, module);	
 	openxava.editorsInitFunctionsClosed = true; 
@@ -182,6 +183,14 @@ openxava.initStrokeActions = function(application, module) {
 
 openxava.initBeforeShowDialog = function() { 
 	$("#xava_add_columns").css("max-height", $(window).height() * 0.7); 
+}
+
+openxava.initWindowId = function() { 
+	$(window).bind('beforeunload',function(){
+		document.cookie = "XAVA_WINDOW_ID=" + $("#xava_window_id").val(); 
+	});		
+	document.cookie="XAVA_WINDOW_ID=";   
+	dwr.engine.setHeaders({ xava_window_id: $("#xava_window_id").val() }); 
 }
 
 openxava.selectRows = function(application, module, selectedRows) { 

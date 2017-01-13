@@ -4,13 +4,15 @@ import org.openxava.model.meta.*;
 import org.openxava.test.model.*;
 
 /**
+ * 
  * @author Javier Paniza
  */
 
 public class CarrierTest extends CarrierTestBase {
 	
+	
 	public CarrierTest(String testName) {
-		super(testName, "Carrier");		
+		super(testName, "Carrier");
 	}
 	
 	public void testConfirmActionWithApostrophe() throws Exception { 
@@ -380,7 +382,7 @@ public class CarrierTest extends CarrierTestBase {
 		assertValue("number", "2");
 		assertValue("name", "DOS");
 		execute("Navigation.next");
-		assertValue("number", "3");
+		assertValue("number", "3"); 
 		assertValue("name", "TRES");
 		assertNoErrors();		
 		execute("CRUD.delete");		
@@ -505,6 +507,5 @@ public class CarrierTest extends CarrierTestBase {
 		int carrierCount = Carrier.findAll().size(); 
 		assertEquals("Carriers count",c,carrierCount);
 	}
-	
-	
+		
 }

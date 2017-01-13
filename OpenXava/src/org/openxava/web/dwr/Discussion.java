@@ -24,6 +24,7 @@ public class Discussion extends DWRBase {
 		}
 		finally {
 			XPersistence.commit();
+			cleanRequest(); 
 		}
 	}
 

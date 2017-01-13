@@ -10964,7 +10964,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/BuildingTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CallBackLogTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CarTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/CheckTest.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/tests/CityTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/CityTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CollaboratorProfileTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/ColorinColoradoTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CommentTest.groovy -text
@@ -11554,6 +11554,7 @@ OpenXavaTest/web/xava/bottomButtons.jsp -text
 OpenXavaTest/web/xava/buttonBar.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/collection.jsp -text
 OpenXavaTest/web/xava/collectionFrameHeader.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/collectionFrameHeaderExt.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/collectionFromModel.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/collectionList.jsp -text
 OpenXavaTest/web/xava/core.jsp -text svneol=unset#text/plain
