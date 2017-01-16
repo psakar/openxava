@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Some new common use labels to be used in applications.
 - New method moveCollectionElement() in MapFacade to move collection elements programmatically.
 - Each browser tab has its own independent session state by module.  
 - Fix: Opening the same module in several browser tabs produces unpredictable behavior.
