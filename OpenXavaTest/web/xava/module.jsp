@@ -83,6 +83,7 @@
 	String version = org.openxava.controller.ModuleManager.getVersion();
 	String realPath = request.getSession().getServletContext()
 			.getRealPath("/");			
+	manager.resetPersistence(); 
 %>
 <jsp:include page="execute.jsp"/>
 <%

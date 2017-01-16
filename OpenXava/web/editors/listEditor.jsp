@@ -74,7 +74,7 @@ boolean resizeColumns = style.allowsResizeColumns() && tab.isResizeColumns();
 String browser = request.getHeader("user-agent");
 boolean scrollSupported = !(browser != null && (browser.indexOf("MSIE 6") >= 0 || browser.indexOf("MSIE 7") >= 0));
 String styleOverflow = org.openxava.web.Lists.getOverflow(browser, tab.getMetaProperties());
-boolean sortable = view.isRepresentsSortableCollection();
+boolean sortable = !Is.emptyString(collection) && view.isRepresentsSortableCollection();  
 boolean simple = sortable;
 if (simple) filter = false; 
 %>
