@@ -1779,7 +1779,8 @@ public class Tab implements java.io.Serializable {
 	private void applyConfiguration() {
 		if (configuration.getPropertiesNames() != null) {
 			String propertiesNames = removeNonexistentProperties(configuration.getPropertiesNames()); // To remove the properties of old versions of the entities 
-			setPropertiesNames(propertiesNames);
+			if (Is.emptyString(propertiesNames)) resetProperties();
+			else setPropertiesNames(propertiesNames);
 		}			
 		else {
 			resetProperties();  
