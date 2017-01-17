@@ -71,13 +71,7 @@ public class NaviOXStyle extends Style {
 	public String getModuleSpacing() {
 		return "";		
 	}
-	
-	
-	
-	public String getFrameHeaderStartDecoration(int width) {
-		return getFrameHeaderStartDecoration(width, false);  		
-	}
-	
+		
 	/**
 	 * @since 5.1.1
 	 */
@@ -92,34 +86,17 @@ public class NaviOXStyle extends Style {
 		return -40;		
 	}
 
-	/**
-	 * @since 5.1.1
-	 */		
-	public String getCollectionFrameHeaderStartDecoration(int width) { 
-		return getFrameHeaderStartDecoration(width, false, true);  		
-	}
-	
-	public String getFrameHeaderStartDecoration(int width, boolean sibling) { 
-		return getFrameHeaderStartDecoration(width, sibling, false);
-	}
-	
-	private String getFrameHeaderStartDecoration(int width, boolean sibling, boolean collection) { 
+	public String getFrameHeaderStartDecoration(int width) {  
 		StringBuffer r = new StringBuffer();
 		r.append("<div ");
 		r.append(" class='");
-		if (!(width > 0 && width < 100)) { // For several collections in a row	
-			r.append(getFrame());
-		}
-		if (sibling) {
-			r.append(" ");
-			r.append(getFrameSibling());
-		}
+		r.append(getFrame());
 		r.append("'"); 
 		if (width == 100) { 
-			r.append(" style='"); 
-			if (collection) r.append("width: calc(100% - 15px);");
-			else r.append("width: calc(100% - 20px);");
-			r.append("'"); 
+			r.append(" style='width: calc(100% - 15px);'");			
+		}
+		else if (width == 50) { // Two collections in a row
+			r.append(" style='overflow: auto; display: block; width: calc(50% - 29px);'"); 
 		}
 		r.append(getFrameSpacing());
 		r.append(">");
@@ -129,6 +106,7 @@ public class NaviOXStyle extends Style {
 		r.append("\n");						
 		return r.toString();
 	}
+
 		
 	public String getFrameTitleStartDecoration() {
 		StringBuffer r = new StringBuffer();

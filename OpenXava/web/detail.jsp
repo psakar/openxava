@@ -219,18 +219,12 @@ if (!renderedView) {
 				MetaCollection collection = (MetaCollection) m;			
 				boolean withFrame = !view.isSection() || view.getMetaMembers().size() > 1;
 				boolean variousCollectionInLine = view.isVariousCollectionsInSameLine((MetaMember) m);
-				boolean firstCollectionInLine = view.isFirstInLine((MetaMember) m);
-				String styleCollectionTogether = 
-					!variousCollectionInLine ? "" : 
-					(firstCollectionInLine ? "float: left; " : "float: right; ") + 
-					"overflow: auto; display: block ; border: 1px solid black; width: 49%; ";
 %>
 			<%=closeDivForFrame(view)%> 
-			<div style="<%=styleCollectionTogether %>">
-<%			
+<%					
 				if (withFrame) { // IF MetaCollection With Frame
 %>	
-				<%=style.getFrameHeaderStartDecoration(frameWidth)%>
+				<%=style.getFrameHeaderStartDecoration(variousCollectionInLine?50:frameWidth)%>
 				<%=style.getFrameTitleStartDecoration()%>
 				<%=collection.getLabel(request) %>
 <% 
@@ -273,7 +267,6 @@ if (!renderedView) {
 <%
 				} // END IF MetaCollection With Frame
 %>
-			</div>
 			<%=openDivForFrame(view)%> 
 <%
 			} else if (m instanceof MetaGroup) { // IF MetaGroup

@@ -931,3 +931,9 @@ a.cke_button_disabled:hover, a.cke_button_disabled:focus, a.cke_button_disabled:
 	top: 5px;
 	float: left; 
 }
+
+.ox-two-collections-in-a-row {
+	overflow: auto; 
+	display: block; 
+	width: calc(50% - 16px);
+}

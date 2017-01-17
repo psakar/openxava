@@ -602,7 +602,9 @@ public class Style {
 	/**
 	 * 
 	 * @since 5.1.1
+	 * @deprecated Only used by the old Java renderer 
 	 */
+	@Deprecated 
 	public String getCollectionFrameHeaderStartDecoration(int width) { 
 		return getFrameHeaderStartDecoration(width, false);  		
 	}
@@ -1341,7 +1343,9 @@ public class Style {
 	 * @param sibling If true this frame is a sibling (to the right) frame.
 	 * @return String representing the decoration of the frame.
 	 * @since 5.0
+	 * @deprecated Only used by the old Java renderer 
 	 */
+	@Deprecated 
 	public String getFrameHeaderStartDecoration(int width, boolean sibling) {
 		StringBuffer returnValue = new StringBuffer(getFrameHeaderStartDecoration(width));
 		// This is a heuristic approach to have subclasses of Style working without changes, 

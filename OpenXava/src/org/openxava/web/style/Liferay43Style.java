@@ -155,7 +155,18 @@ public class Liferay43Style extends PortalStyle {
 
 	public String getFrameHeaderStartDecoration(int width) {
 		String rightMargin = width == 100?"":"style='margin-right: 7px;'";
-		String frameClass = width == 100?"ox-frame":"ox-frame-sibling";
+		String frameClass = null; 
+		switch (width) {
+			case 0:
+				frameClass = "ox-frame-sibling";
+				break;
+			case 50:
+				frameClass = "ox-frame-sibling ox-two-collections-in-a-row";
+				break;
+			default: // 100	
+				frameClass = "ox-frame";				
+		}
+		
 		return "<div class='portlet " + frameClass + "' " + rightMargin +"><div class='portlet-topper' style='position: static; padding-right: 8px;'><table width='100%'><tr>"; // position: static needed for ie7 + liferay 4.3
 	}	
 	

@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Two collections in the same row are wrapped by a very ugly frame inside and outside Liferay.
 - Some new common use labels to be used in applications.
 - New method moveCollectionElement() in MapFacade to move collection elements programmatically.
 - Each browser tab has its own independent session state by module.  
