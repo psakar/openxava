@@ -440,7 +440,7 @@ public class View implements java.io.Serializable {
 		return getValues(all, false); 
 	}
 	
-	private Map getValues(boolean all, boolean onlyKeyFromSubviews) throws XavaException {		
+	private Map getValues(boolean all, boolean onlyKeyFromSubviews) throws XavaException {	
 		Map hiddenKeyAndVersion = null;  
 		if (values == null) {
 			values = new HashMap();  
@@ -3062,7 +3062,7 @@ public class View implements java.io.Serializable {
 	 * from persistent storage and fill the view. 
 	 */
 	public void findObject() throws Exception {		
-		findObject(null); 
+		findObject(null);
 	}
 
 	/**
@@ -3220,7 +3220,7 @@ public class View implements java.io.Serializable {
 	 * POJO associated to the current view. <p>
 	 */
 	private Object getPOJO() throws Exception {
-		if (isKeyEditable()) {		
+		if (isKeyEditable()) {
 			return getTransientPOJO();
 		}
 		else {
@@ -3231,7 +3231,7 @@ public class View implements java.io.Serializable {
 	}
 	
 	private Object getTransientPOJO() throws Exception {
-		Map values = getParentIfSectionOrGroup().getAllValues();
+		Map values = getParentIfSectionOrGroup().getValues(); 
 		Object pojo = getMetaModel().toPOJO(values);
 		loadPOJOReferences(pojo, values);
 		return pojo;

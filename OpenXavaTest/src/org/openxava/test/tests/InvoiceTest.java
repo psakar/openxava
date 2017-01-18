@@ -574,7 +574,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		execute("InvoicePrint.printExcel"); 
 		assertNoErrors(); 
 		assertMessage("The print was successful");
-		assertContentTypeForPopup("application/vnd.ms-excel");		
+		assertContentTypeForPopup("application/vnd.ms-excel"); 		
 		
 		execute("InvoicePrint.printRtf"); 
 		assertNoErrors(); 

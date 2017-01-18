@@ -428,7 +428,7 @@ public class CarrierTest extends CarrierTestBase {
 		assertValueInCollection("fellowCarriers", 2, "number", "4"); 
 		setConditionValues("fellowCarriers", new String [] { "3"});
 		execute("List.filter", "collection=fellowCarriers");
-		assertCollectionRowCount("fellowCarriers", 1);
+		assertCollectionRowCount("fellowCarriers", 1); 
 		assertValueInCollection("fellowCarriers", 0, "number", "3");		
 	}
 	

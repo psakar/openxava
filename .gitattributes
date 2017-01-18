@@ -10714,6 +10714,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Address.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Applicant.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ApplicationUser.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Appointment.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/model/Article.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Artist.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AsEmbed1.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/AsEmbed2.groovy -text
@@ -10841,6 +10842,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/OrderIssue.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Orphan.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Orphanage.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Parent.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/PerishableArticle.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Person.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Phone.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/PhoneNumber.java -text
@@ -10918,6 +10920,8 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Teacher.java -text svneol=unset#te
 OpenXavaTest/pojo-src/org/openxava/test/model/Team.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/TeamMember.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Thing.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Ticket.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/model/TicketLine.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/ToDoComponent.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ToDoComponentTask.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/ToDoList.java -text
@@ -11056,6 +11060,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/SummerCourseTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SuperheroeTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/SupervillainTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TeamTest.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/tests/TicketTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/ToDoListTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TotoTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/TrainingTest.java -text svneol=unset#text/plain
