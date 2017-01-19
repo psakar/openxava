@@ -18,8 +18,7 @@ public class SellerTest extends CustomizeListTestBase {
 	public SellerTest(String testName) {
 		super(testName, "Seller");		
 	}
-	
-
+		
 	public void testCollectionWithListPropertiesStoresPreferences() throws Exception {  
 		execute("CRUD.new");
 		assertCollectionColumnCount("customers", 6);
@@ -31,7 +30,7 @@ public class SellerTest extends CustomizeListTestBase {
 		
 		execute("List.addColumns", "collection=customers");
 		execute("AddColumns.restoreDefault");
-		assertCollectionColumnCount("customers", 6);
+		assertCollectionColumnCount("customers", 6);		
 	}
 	
 	public void testCollectionNotCorruptListInSplitMode() throws Exception { 
@@ -246,7 +245,13 @@ public class SellerTest extends CustomizeListTestBase {
 		assertAction("AddColumns.addColumns");
 	}
 	
-	public void testOnChangeListDescriptionReferenceWithStringSingleKey() throws Exception {
+	public void testOnChangeListDescriptionReferenceWithStringSingleKey_justCreatedObjectPresentWhenNavigating() throws Exception {
+		assertListRowCount(3); 
+		assertOnChangeListDescriptionReferenceWithStringSingleKey();
+		assertJustCreatedObjectPresentWhenNavigating();
+	}
+	
+	private void assertOnChangeListDescriptionReferenceWithStringSingleKey() throws Exception { 
 		execute("CRUD.new");
 		setValue("level.id", "A"); 
 		assertNoErrors();
@@ -254,6 +259,31 @@ public class SellerTest extends CustomizeListTestBase {
 		assertNoErrors();
 	}
 	
+	private void assertJustCreatedObjectPresentWhenNavigating() throws Exception { 
+		setValue("number", "66");
+		setValue("name", "SELLER JUNIT 66");
+		execute("CRUD.save");
+		
+		execute("Navigation.first");
+		assertValue("number", "1");
+		assertValue("name", "MANUEL CHAVARRI");
+		
+		execute("Navigation.next");
+		assertValue("number", "2");
+		assertValue("name", "JUANVI LLAVADOR");
+		
+		execute("Navigation.next");
+		assertValue("number", "3");
+		assertValue("name", "ELISEO FERNANDEZ");
+	
+		execute("Navigation.next");
+		assertValue("number", "66");
+		assertValue("name", "SELLER JUNIT 66");
+
+		execute("CRUD.delete");
+		assertMessage("Seller deleted successfully");		 
+	}
+
 	public void testEntityReferenceCollections() throws Exception { 		
 		createCustomers(); 
 		createSeller66(); 

@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Newly created entity is not available when navigating with left/right arrows. 
 - Fix: Dialogs with collections with many properties are bigger than screen.
 - Fix: Searching a reference produces a dialog bigger that the page if there are many properties in the list.
 - Fix: Calculated properties with @Depends do not work when in the same view of a polymorphic reference.
@@ -174,7 +175,8 @@ OpenXava 5.5 (2016-4-26)
 - Fix: Editors with frame=true composite=true do not work correctly.
 - Fix: Textfields are not aligned when there are validation errors.
 - Fix: Frames not aligned with element collections.
-- Fix: Pressing enter in a filter text box in split view causes action to be triggered in detail view,.
+- Fix: Pressing enter in a filter text box in split view causes action to be triggered in detail view.
+- Fix: @SearchAction without image or icon does not shown the link, just is missing.
  
 OpenXava 5.4.1 (2015-12-15)
 ---------------------------
