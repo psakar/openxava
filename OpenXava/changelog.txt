@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Dialogs with collections with many properties are bigger than screen.
+- Fix: Searching a reference produces a dialog bigger that the page if there are many properties in the list.
 - Fix: Calculated properties with @Depends do not work when in the same view of a polymorphic reference.
 - Two collections in the same row are wrapped by a very ugly frame inside and outside Liferay.
 - Some new common use labels to be used in applications.

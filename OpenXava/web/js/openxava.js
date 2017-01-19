@@ -119,7 +119,9 @@ openxava.refreshPage = function(result) {
 			dialog.attr("module", result.module);
 			dialog.dialog('option', 'title', result.dialogTitle);
 			dialog.dialog('option', 'width', 'auto');
-			dialog.dialog('option', 'width', dialog.parent().width());
+			var maxWidth = $(window).width() * 0.95; 
+			var width = dialog.parent().width();
+			dialog.dialog('option', 'width', Math.min(width, maxWidth));
 			dialog.dialog('option', 'height', 'auto');
 			dialog.dialog('option', 'position', { my: "center", at: "center", of: window, collision: "fit" } ); 			
 			dialog.dialog('option', 'zIndex', 99999 );
