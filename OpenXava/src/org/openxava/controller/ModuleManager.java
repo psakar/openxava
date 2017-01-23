@@ -75,7 +75,7 @@ public class ModuleManager implements java.io.Serializable {
 	}
 
 	private static String DEFAULT_MODE = IChangeModeAction.LIST;
-	private static final String[] MODIFIED_CONTROLLERS = { "__MODIFIED_CONTROLLER__ " };
+	private static final String[] MODIFIED_CONTROLLERS = { "__MODIFIED_CONTROLLER__" }; 
 	private static final String XAVA_META_ACTIONS_IN_LIST = "xava_metaActionsInList";
 
 	private String user;
@@ -329,8 +329,7 @@ public class ModuleManager implements java.io.Serializable {
 			metaControllers = new ArrayList();
 			String[] names = getControllersNames();
 			for (int i = 0; i < names.length; i++) {
-				metaControllers
-						.add(MetaControllers.getMetaController(names[i]));
+				metaControllers.add(MetaControllers.getMetaController(names[i]));
 			}
 		}
 		return metaControllers;
@@ -403,10 +402,6 @@ public class ModuleManager implements java.io.Serializable {
 									.getMetaAction(xavaAction);
 							long ini = System.currentTimeMillis();
 							executeAction(a, errors, messages, av, request);
-							if (modifiedControllers) {
-								this.controllersNames = MODIFIED_CONTROLLERS;
-							}
-							modifiedControllers = false;
 							long time = System.currentTimeMillis() - ini;
 							log.debug("Execute " + xavaAction + "=" + time
 									+ " ms");
@@ -932,7 +927,7 @@ public class ModuleManager implements java.io.Serializable {
 			previousControllers.push(this.controllersNames);
 		}
 	}
-
+	
 	private Stack getPreviousControllers() {
 		Stack previousControllers = (Stack) getObjectFromContext("xava_previousControllers");
 		return previousControllers;

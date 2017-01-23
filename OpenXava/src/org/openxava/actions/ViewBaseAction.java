@@ -168,8 +168,8 @@ abstract public class ViewBaseAction extends BaseAction {
 	
 	
 	protected void setControllers(String... controllers) {
-		if (dialogShown) getManager().restorePreviousControllers(); 
-		super.setControllers(controllers);
+		if (dialogShown) getManager().setControllersNames(controllers);
+		else super.setControllers(controllers);		
 		hasNextControllers = controllers != null; 
 	}
 	

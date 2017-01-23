@@ -10904,6 +10904,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Skill.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/SlotMachine.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/SlotMachineAccount.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/SlotMachineConcept.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/model/SocialNetwork.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/State.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/StreetShop.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Studio.java -text
@@ -11058,6 +11059,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/ServiceExpensesTest.java -text svn
 OpenXavaTest/pojo-src/org/openxava/test/tests/ShopTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SkillTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/SlotMachineTest.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/tests/SocialNetworkTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/StudioTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SummerCourseTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SuperheroeTest.java -text svneol=unset#text/plain
