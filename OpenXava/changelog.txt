@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Customization icons in several lines with Liferay 6.1.
 - Fix: Using setControllers() inside an action to show a dialog with several levels removes the actions on come back.
 - Fix: Closing the dialog to add a new element in ManyToMany collections remove the action of current dialog.
 - Fix: Second nested dialog for adding a new ManyToMany element does not show its actions.

@@ -937,3 +937,7 @@ a.cke_button_disabled:hover, a.cke_button_disabled:focus, a.cke_button_disabled:
 	display: block; 
 	width: calc(50% - 16px);
 }
+
+.results-header span {
+	display: initial;
+}
