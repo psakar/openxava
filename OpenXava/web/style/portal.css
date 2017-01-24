@@ -222,6 +222,12 @@ TD.list-title {
 	display: inline;
 }
 
+.results-header .mdi-close-circle {
+	position: absolute;
+	right: 0px;
+	padding-right: 10px;
+}
+
 .liferay-xava-cell-wrapper {
 	border: 1px solid #CCCCCC;
 }

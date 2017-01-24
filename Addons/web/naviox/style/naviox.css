@@ -830,6 +830,14 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 	text-align: left;
 }
 
+.ox-list-header .mdi-close-circle {
+	position: absolute;
+	right: 0px;
+	padding-right: 10px;
+	background: white;
+	background:linear-gradient(to left, white, white, white, transparent);
+}
+
 .ox-list-subheader td { 
 	text-align: center;
 }
