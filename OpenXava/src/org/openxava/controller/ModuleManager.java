@@ -738,7 +738,7 @@ public class ModuleManager implements java.io.Serializable {
 			doRollback();
 		}
 	}
-
+	
 	private void manageHibernateConstraintViolationlException(
 			MetaAction metaAction, Messages errors, Messages messages,
 			org.hibernate.exception.ConstraintViolationException ex) {
@@ -900,6 +900,7 @@ public class ModuleManager implements java.io.Serializable {
 		if (controllers instanceof String[]) { // The list of controllers
 			setControllersNames((String[]) controllers);
 		} else { // A collection of metaactions
+			setControllersNames(MODIFIED_CONTROLLERS); 
 			this.metaActions = (Collection) controllers;
 			this.subcontrollersMetaActions = null; 
 			this.defaultActionQualifiedName = null;

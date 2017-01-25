@@ -421,7 +421,7 @@ here that you want to override.
 			<use-object name="xava_customizingTab" action-property="tab"/>			
 		</action>			
 		<action name="cancel" 
-			class="org.openxava.actions.CancelFromCustomListAction"/>		
+			class="org.openxava.actions.CancelAction"/>
 		<action name="showMoreColumns" class="org.openxava.actions.ShowMoreColumnsAction" hidden="true"/>
 		<action name="addColumn" mode="NONE"
 			class="org.openxava.actions.AddColumnsAction"/>							

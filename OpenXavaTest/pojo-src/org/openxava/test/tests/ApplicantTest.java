@@ -22,6 +22,16 @@ public class ApplicantTest extends ModuleTestBase {
 		super(testName, "Applicant");		
 	}
 	
+	public void testCancelAddColumnsFromSearhReference() throws Exception { 
+		execute("CRUD.new");
+		execute("Reference.search", "keyProperty=skill.description");
+		assertValueInList(0, 0, "PROGRAMMING");
+		execute("List.addColumns");
+		execute("AddColumns.cancel");
+		assertNoAction("AddColumns.cancel");
+		assertValueInList(0, 0, "PROGRAMMING");
+	}
+	
 	public void testGetEntityWithEmptyReferences_duplicateActionsNotAdded() throws Exception {  		
 		assertListRowCount(1);
 		execute("CRUD.new");
