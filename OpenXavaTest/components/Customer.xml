@@ -230,6 +230,8 @@
 			<on-change class="org.openxava.test.actions.OnChangeVoidAction"/>
 		</property-view>
 
+		<property-view property="website" editor="CustomWebURL"/>
+		
 		<reference-view reference="seller" frame="false">
 			<search-action action="MyReference.search"/>
 		</reference-view>			

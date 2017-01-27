@@ -717,7 +717,7 @@ public class CustomerWithSectionTest extends CustomerTest {
 				found_red = true;
 			}
 			else { 
-				assertNoRowStyleInList(i);		
+				assertNoRowStyleInList(i);	
 			}						
 		}
 		if (!found) {

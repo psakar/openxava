@@ -669,7 +669,7 @@
 	</controller>
 						 				
 	<controller name="Warehouse">
-		<extends controller="Typical"/>
+		<extends controller="Typical"/>		
 		<extends controller="HidingActions"/> 
 		
 		<action name="showListTitle" hidden="true" on-init="true"
