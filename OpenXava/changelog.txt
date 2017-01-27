@@ -24,7 +24,7 @@ OpenXava 5.6.1 (2017-1-27)
 - Fix: @DescriptionsList annotated with @ReadOnly in a @ElementCollection can be edited.
 - Fix: Pressing Cancel when adding columns to the list used for search a reference fails.
 - Fix: Remove column icon is not shown when the column is too narrow.
-- Fix: Customization icons in several lines with Liferay 6.1.
+- Fix: Customization icons for list columns in several lines with Liferay 6.1.
 - Fix: Using setControllers() inside an action to show a dialog with several levels removes the actions on come back.
 - Fix: Closing the dialog to add a new element in ManyToMany collections removes the actions of current dialog.
 - Fix: Second nested dialog for adding a new ManyToMany element does not show its actions.
