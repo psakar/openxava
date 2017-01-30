@@ -7154,7 +7154,6 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/GoNextPageAction.html -text svneol=
 OpenXavaDoc/web/apidocs/org/openxava/actions/GoPageAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/GoPreviousPageAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/GoSplitAction.html -text svneol=unset#text/plain
-OpenXavaDoc/web/apidocs/org/openxava/actions/GoToURLAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/HideDetailElementInCollectionAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/HideRowsAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/IAction.html -text svneol=unset#text/plain
@@ -7318,7 +7317,6 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoNextPageAction.html -te
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoPageAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoPreviousPageAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoSplitAction.html -text svneol=unset#text/plain
-OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoToURLAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/HideDetailElementInCollectionAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/HideRowsAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/IAction.html -text svneol=unset#text/plain
