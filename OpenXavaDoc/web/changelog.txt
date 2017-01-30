@@ -1,6 +1,60 @@
 Change Log for OpenXava project
 ===============================
 
+OpenXava 5.6.1 (2017-1-27)
+--------------------------
+- Each browser tab has its own independent session state by module.
+- New icon for WebURL editor, now embedded inside the fields, as in the date case.
+- New method moveCollectionElement() in MapFacade to move collection elements programmatically.
+- New method Servlets.getCookie() to get a cookie from the request.
+- New method toList(Iterable it) in XCollections utility class.
+- Some new common use labels to be used in applications.
+- GoToURLAction removed, it was used only by WebURL editor that now uses a direct link.
+- Improved stacktraces thrown from an editor for easier debugging.
+- Method reload() removed from MetaComponent. 
+- MetaComponent has a new boolean property called metaDataCached, to determine if the metadata is cached for that component.
+- Fix: Opening the same module in several browser tabs produces unpredictable behavior.
+- Fix: Closing a dialog scroll up to the beginning of the page.
+- Fix: Controllers do not overwrite repeated actions.
+- Fix: Impossible to add new lines in an @ElementCollection with only @DescriptionsLists.
+- Fix: Combo for @DescriptionsList does not open for third line in @ElementCollection.  
+- Fix: Impossible to delete elements from @OrderColumn collections.
+- Fix: Money symbol in MONEY stereotype is not shown in @ElementCollection.
+- Fix: After removing a row in an @ElementCollection searching a reference with a dialog changes the incorrect row.
+- Fix: @DescriptionsList annotated with @ReadOnly in a @ElementCollection can be edited.
+- Fix: Pressing Cancel when adding columns to the list used for search a reference fails.
+- Fix: Remove column icon is not shown when the column is too narrow.
+- Fix: Customization icons for list columns in several lines with Liferay 6.1.
+- Fix: Using setControllers() inside an action to show a dialog with several levels removes the actions on come back.
+- Fix: Closing the dialog to add a new element in ManyToMany collections removes the actions of current dialog.
+- Fix: Second nested dialog for adding a new ManyToMany element does not show its actions.
+- Fix: @Required in enum for @ElementCollection gives incorrect validation errors on save.
+- Fix: Newly created entity is not available when navigating with left/right arrows. 
+- Fix: Dialogs with collections with many properties are bigger than screen.
+- Fix: Searching a reference produces a dialog bigger that the page if there are many properties in the list.
+- Fix: Calculated properties with @Depends do not work when in the same view of a polymorphic reference.
+- Fix: Two collections in the same row are wrapped by a very ugly frame inside and outside Liferay.
+- Fix: @DescriptionsList combos in @ElementCollection are not well aligned. 
+- Fix: Reference annotated with @DescriptionsList(showReferenceView=true) and @NoFrame alone inside a section breaks the layout.
+- Fix: Ugly spacing in @DescriptionsList with showReferenceView=true. 
+- Fix: When mouse hover an option of a @DescriptionsList combo and click outside the selected value is lost.
+- Fix: When mouse hover an option of a @DescriptionsList combo inside a dialog and click outside the option is shown but not selected. 
+- Fix: When a group, section or main view is aligned by column with @NoFrame references inside not aligned by column the layout is broken.
+- Fix: @Editor in a property of an @Embeddable used in a @ElementCollection does not work if the view name of the module is no the default one.
+- Fix: Calling an action after saving with element collection fails if an event changes the main view.
+- Fix: Properties placed on right of the UI when the next element has a frame, fails when @NoFrame is used. 
+- Fix: assertLabel()/getLabel() of ModuleTestBase do no work with members with frame.
+- Fix: NullPointerException with JDBCTabProvider when the keys contains null.
+- Fix: Current user lost in jUnit tests under certain circumstances.
+- Fix: Editors are cut when their columns are resized in @ElementCollection inside Liferay. 
+- Fix: View.isEditable(String member) does not work with references.
+- Fix: assertEditableInCollection() and assertNoEditableInCollection() from ModuleTestBase do not work with @DescriptionsList.
+- Fix: ICON stereotype editor is not correctly aligned in some cases.
+- Fix: URLs without http:// prefix do not work in WebURL editor.
+- Fix: Icon for going to the URL is not shown in WebURL editor inside element collections.
+- Fix: GenerateReportAction does not work for XLS and MyReports.
+- Fix: In Jxls utility classes when using some characters ( [ ] * / \ ? : ) in sheet names fail creating the POI sheet.
+
 OpenXava 5.6 (2016-10-28)
 -------------------------
 - List remembers filters and ordering done by user to be re-executed choosing from a combo, you can rename the filter/ordering configurations produced.
@@ -129,7 +183,8 @@ OpenXava 5.5 (2016-4-26)
 - Fix: Editors with frame=true composite=true do not work correctly.
 - Fix: Textfields are not aligned when there are validation errors.
 - Fix: Frames not aligned with element collections.
-- Fix: Pressing enter in a filter text box in split view causes action to be triggered in detail view,.
+- Fix: Pressing enter in a filter text box in split view causes action to be triggered in detail view.
+- Fix: @SearchAction without image or icon does not shown the link, just is missing.
  
 OpenXava 5.4.1 (2015-12-15)
 ---------------------------
