@@ -10978,6 +10978,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/BookTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/BuildingTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CallBackLogTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CarTest.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/tests/CarrierURLTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/CheckTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CityTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CollaboratorProfileTest.java -text svneol=unset#text/plain
@@ -11122,41 +11123,7 @@ OpenXavaTest/reports/Images.jrxml -text
 OpenXavaTest/reports/Invoice.jrxml -text
 OpenXavaTest/reports/InvoiceNoVAT.jrxml -text
 OpenXavaTest/reports/Products.jrxml -text
-OpenXavaTest/selenium-tests/CarrierComplexSimpleTopPosition.case -text
-OpenXavaTest/selenium-tests/CarrierIconAlignment.case -text
-OpenXavaTest/selenium-tests/CarrierWithTwoCollectionsTogether.case -text
-OpenXavaTest/selenium-tests/CarrierWithTwoSections.case -text
-OpenXavaTest/selenium-tests/ColorLabelStyle.case -text
-OpenXavaTest/selenium-tests/ColorNotAlignedByColumn -text
-OpenXavaTest/selenium-tests/Customer-twoFrames.case -text
-OpenXavaTest/selenium-tests/CustomerAlignment.case -text
-OpenXavaTest/selenium-tests/CustomerDemoSmallLabel.case -text
-OpenXavaTest/selenium-tests/CustomerNotAligned_FALSE_state.case -text
-OpenXavaTest/selenium-tests/CustomerSmallLabel.case -text
-OpenXavaTest/selenium-tests/DeliveryGroupAndReference.case -text
-OpenXavaTest/selenium-tests/FurnitureSetWithRequiredDescriptionsList.case -text
-OpenXavaTest/selenium-tests/InvoiceAmounts.case -text
-OpenXavaTest/selenium-tests/InvoiceAmountsInSection.case -text
-OpenXavaTest/selenium-tests/InvoiceAmountsNotAligned.case -text
-OpenXavaTest/selenium-tests/InvoiceAmountsNotAlignedInSection.case -text
-OpenXavaTest/selenium-tests/InvoiceDetailsWithTotals.case -text
-OpenXavaTest/selenium-tests/OxExtensions.case -text
-OpenXavaTest/selenium-tests/Product4.case -text
-OpenXavaTest/selenium-tests/Product4NotAligned.case -text
-OpenXavaTest/selenium-tests/Product5FamilyFromSubfamily.case -text
-OpenXavaTest/selenium-tests/README.txt -text
-OpenXavaTest/selenium-tests/Renderer.suite -text
-OpenXavaTest/selenium-tests/VehicleTooMuchSpace.case -text
-OpenXavaTest/selenium-tests/aligned-by-column-tests/Aligned.suite -text
-OpenXavaTest/selenium-tests/aligned-by-column-tests/CustomerAligned.case -text
-OpenXavaTest/selenium-tests/aligned-by-column-tests/CustomerNotAligned_TRUE_state.case -text
-OpenXavaTest/selenium-tests/aligned-by-column-tests/EndOfTest.case -text
-OpenXavaTest/selenium-tests/aligned-by-column-tests/Readme.case -text
-OpenXavaTest/selenium-tests/charts/InvoiceChartTest.case -text
-OpenXavaTest/selenium-tests/liferay/LR-Login.case -text
-OpenXavaTest/selenium-tests/liferay/Portal.suite -text
-OpenXavaTest/selenium-tests/liferay/liferay-test-menu.lar -text
-OpenXavaTest/selenium-tests/ox-extensions.js -text svneol=unset#text/plain
+OpenXavaTest/selenium-tests/Permalink.html -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/actions/ActivateDeactivateSectionAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/AddActionsAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/AddFullAddressAction.java -text

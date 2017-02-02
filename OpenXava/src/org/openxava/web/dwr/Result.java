@@ -29,6 +29,7 @@ public class Result {
 	private int dialogLevel; 
 	private String viewMember;
 	private int currentRow = -1;  
+	private String urlParam;    
 	
 	public Result() {
 	}
@@ -189,5 +190,12 @@ public class Result {
 		this.resizeDialog = resizeDialog;
 	}
 
+	public String getUrlParam() {
+		return urlParam;
+	}
+
+	public void setUrlParam(String urlParam) {
+		this.urlParam = urlParam;
+	}
 	
 }

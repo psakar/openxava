@@ -20,6 +20,7 @@ import org.openxava.component.*;
 import org.openxava.controller.meta.*;
 import org.openxava.hibernate.*;
 import org.openxava.jpa.*;
+import org.openxava.model.meta.*;
 import org.openxava.util.*;
 import org.openxava.validators.ValidationException;
 import org.openxava.view.*;
@@ -119,6 +120,7 @@ public class ModuleManager implements java.io.Serializable {
 	private Collection<MetaSubcontroller> metaSubControllers;
 	private Map<String,Collection<MetaAction>> subcontrollersMetaActions;
 	private Collection<MetaControllerElement> metaControllerElements;
+	private Set<String> actionsForPermalink; 
 
 	/**
 	 * HTML action bind to the current form.
@@ -675,7 +677,7 @@ public class ModuleManager implements java.io.Serializable {
 			manageException(metaAction, errors, messages, ex);
 		}
 	}
-
+	
 	/**
 	 * 
 	 * @since 4.2.2
@@ -1416,9 +1418,20 @@ public class ModuleManager implements java.io.Serializable {
 			moduleInitiated = true;
 			executeInitAction(request, errors, messages);
 			reloadAllUINeeded = true;
+			actionsForPermalink = toQualifiedNames(getMetaActions(), getMetaActionsMode());  
 		} else {
 			reloadAllUINeeded = false;
 		}		
+	}
+
+	private Set<String> toQualifiedNames(Collection<MetaAction> ... metaActions) { 
+		Set<String> result = new HashSet<String>();
+		for (Collection<MetaAction> metaActionsGroup: metaActions) {
+			for (MetaAction action: metaActionsGroup) {
+				result.add(action.getQualifiedName());
+			}
+		}
+		return result;
 	}
 
 	public void executeBeforeEachRequestActions(HttpServletRequest request,
@@ -1429,6 +1442,43 @@ public class ModuleManager implements java.io.Serializable {
 			defaultActionQualifiedName = null;
 		}
 	}
+	
+	public void executeBeforeLoadPage(HttpServletRequest request, Messages errors, Messages messages) {  
+		try {			
+			String detailId =  request.getParameter("detail");
+			if (!Is.emptyString(detailId)) {
+				Collection metaKeys = getView().getMetaModel().getMetaPropertiesKey();
+				if (metaKeys.size() != 1) return;
+				MetaProperty metaKey = (MetaProperty) metaKeys.iterator().next();
+				getView().setValue(metaKey.getName(), metaKey.parse(detailId));
+				if (!isDetailMode()) setModeName(IChangeModeAction.DETAIL);
+				String searchAction =  getEnvironment().getValue("XAVA_SEARCH_ACTION");
+				MetaAction searchMetaAction = MetaControllers.getMetaAction(searchAction);
+				executeAction(searchMetaAction, errors, messages, request); 
+			}			
+			else {
+				String action =  request.getParameter("action");
+				if (!Is.emptyString(action)) {
+					if (actionsForPermalink.contains(action)) {
+						MetaAction metaAction = MetaControllers.getMetaAction(action);
+						executeAction(metaAction, errors, messages, request);
+					}
+					else {
+						errors.add("action_not_available", "'" + action + "'");
+					}
+				}	
+			}
+		}
+		catch (Exception ex) {
+			errors.add("onload_page_error");
+			log.error(XavaResources.getString("onload_page_error"), ex);
+		}
+	}	
+	
+	private View getView() { 
+		return (View) getContext().get(getApplicationName(), getModuleName(), "xava_view");
+	}
+
 
 	public boolean hasInitForwardActions() {
 		Iterator it = IteratorUtils.chainedIterator(new Iterator[] {
@@ -1724,6 +1774,17 @@ public class ModuleManager implements java.io.Serializable {
 		dialogLevel--;
 		if (dialogLevel < 0)
 			dialogLevel = 0;
+	}
+	
+	/**
+	 * 
+	 * @since 5.7
+	 */
+	public String getPermanlinkAction() {  
+		if (lastExecutedMetaAction == null) return null;
+		String lastAction = lastExecutedMetaAction.getQualifiedName();
+		if (actionsForPermalink.contains(lastAction)) return lastAction;
+		return null;
 	}
 
 	public MetaAction getLastExecutedMetaAction() {

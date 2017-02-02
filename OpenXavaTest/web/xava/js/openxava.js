@@ -165,6 +165,7 @@ openxava.refreshPage = function(result) {
 	$('#xava_loading').hide(); 
 	$('#xava_loading2').hide();
 	document.body.style.cursor='auto';
+	openxava.setUrlParam(result);
 	if (openxava.postRefreshPage != null) openxava.postRefreshPage(); 
 }
 
@@ -415,6 +416,18 @@ openxava.getDialog = function(application, module) {
 		openxava.dialogs[dialogId] = dialog;		
 	}
 	return dialog;
+}
+
+openxava.setUrlParam = function(result) { 
+	if (result.urlParam !== null) {
+		var url = window.location.href;
+		var indexParams = url.indexOf('?');
+		if (indexParams >= 0) url = url.substring(0, indexParams);
+		history.replaceState(null, null, url + "?" + result.urlParam);
+	}
+	else {
+		history.replaceState(null, null, window.location.pathname);
+	}
 }
 
 openxava.setRequesting = function(application, module) {

@@ -97,6 +97,7 @@ public class Module extends DWRBase {
 			result.setViewMember(getView().getMemberName());
 			result.setStrokeActions(getStrokeActions());
 			result.setSelectedRows(getSelectedRows());
+			result.setUrlParam(getUrlParam());
 			return result;
 		}
 		catch (SecurityException ex) {
@@ -122,6 +123,23 @@ public class Module extends DWRBase {
 		}
 	}
 	
+	
+	private String getUrlParam() { 
+		// If we change this we should execute the Permanlink Selenium test
+		Map key = getView().getKeyValuesWithValue();
+		if (key.size() == 1) {
+			String id = key.values().iterator().next().toString();
+			return "detail=" + id; 				
+		}
+		else if (key.isEmpty()) {
+			String action = manager.getPermanlinkAction();
+			if (action != null) {
+				return "action=" + action; 
+			}
+		}
+		return null;
+	}
+
 	private Map getSelectedRows() { 
 		Map<String, int[]> result = getView().getChangedCollectionsSelectedRows();
 		return result.isEmpty()?null:result;

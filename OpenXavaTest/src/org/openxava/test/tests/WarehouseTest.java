@@ -427,7 +427,7 @@ public class WarehouseTest extends WarehouseSplitTestBase {
 		assertValue("number", number1);
 		assertValue("name", name1);
 		execute("Navigation.previous");
-		assertError("We already are at the beginning of the list");
+		assertError("We already are at the beginning of the list"); 
 		execute("Navigation.next");
 		assertValue("zoneNumber", zoneNumber2);
 		assertValue("number", number2);

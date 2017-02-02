@@ -41,6 +41,8 @@
 	request.setAttribute("style", org.openxava.web.style.Style.getInstance(request));
 %>
 
+<jsp:useBean id="errors" class="org.openxava.util.Messages" scope="request"/>
+<jsp:useBean id="messages" class="org.openxava.util.Messages" scope="request"/>
 <jsp:useBean id="context" class="org.openxava.controller.ModuleContext" scope="session"/>
 <jsp:useBean id="style" class="org.openxava.web.style.Style" scope="request"/>
 <%
@@ -218,7 +220,8 @@ if (manager.isResetFormPostNeeded()) {
 		<input name="module" type="hidden" value="<%=request.getParameter("module")%>"/>
 		<% } %>
 	</form>
-<% } else  { %>	
+<% } else  { %>
+	<% manager.executeBeforeLoadPage(request, errors, messages);  %>
 	<input id="xava_last_module_change" type="hidden" value=""/>
 	<input id="xava_window_id" type="hidden" value="<%=windowId%>"/>	
 	<input id="<xava:id name='loading'/>" type="hidden" value="<%=coreViaAJAX%>"/>
