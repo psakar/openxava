@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- Formatter for HTML_TEXT in list mode, now uses the plain text until 200 characters. 
+- Library jsoup to manage HTML included. 
 - It's possible to go directly to the detail of an entity with ?detail=entityId in the module URL.
 - It's possible going to a module executing an action adding ?action=Controller.action in the URL.
 - When the user navigate among records or execute actions the browser URL is modified to be a valid permanlink.

@@ -12,7 +12,7 @@ public class CustomerNewOnInitInheritedTest extends ModuleTestBase {
 		super(testName, "CustomerNewOnInitInherited");		
 	}
 	
-	public void testNewOnInit() throws Exception {
+	public void testNewOnInit() throws Exception { 
 		assertNoErrors();
 		assertAction("Mode.list");
 		assertNoAction("Mode.detailAndFirst");

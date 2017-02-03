@@ -24,8 +24,6 @@ public class FormulaTest extends ModuleTestBase {
 		super(testName, "Formula");		
 	}
 	
-	
-	
 	public void testOnSelectElementActionAndSelectedAndSelectedAllAndPaging() throws Exception{
 		setConditionValues("L'AJUNTAMENT");
 		execute("List.filter");
@@ -260,7 +258,9 @@ public class FormulaTest extends ModuleTestBase {
 		assertValidValues("accentuate.oid", cafeConLeche); 
 	}
 	
-	public void testHtmlTextStereotype() throws Exception {		
+	public void testHtmlTextStereotype() throws Exception {
+		assertValueInList(0, 0, "HTML TEST");
+		assertValueInList(0, 1, "Esto es una prueba de HTML Dex oscuro negro y trágico rojo, de muerte y dolor Y largo, verde y marrón como los ojitos del mundo.");
 		execute("Mode.detailAndFirst");
 		assertValue("name", "HTML TEST");
 		execute("Sections.change", "activeSection=1");

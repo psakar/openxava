@@ -5722,6 +5722,7 @@ OpenXava/src/org/openxava/formatters/DateTimeCombinedFormatter.java -text
 OpenXava/src/org/openxava/formatters/DateTimeSeparatedFormatter.java -text
 OpenXava/src/org/openxava/formatters/FileListFormatter.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/formatters/HTMLFilterListFormatter.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/formatters/HtmlTextListFormatter.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/formatters/IFormatter.java -text
 OpenXava/src/org/openxava/formatters/IMultipleValuesFormatter.java -text
 OpenXava/src/org/openxava/formatters/IconListFormatter.java -text svneol=unset#text/plain
@@ -6114,6 +6115,7 @@ OpenXava/web/WEB-INF/lib/javax.inject.jar -text
 OpenXava/web/WEB-INF/lib/jboss-logging-annotations.jar -text
 OpenXava/web/WEB-INF/lib/jboss-logging.jar -text
 OpenXava/web/WEB-INF/lib/jpa.jar -text
+OpenXava/web/WEB-INF/lib/jsoup.jar -text
 OpenXava/web/WEB-INF/lib/jstl.jar -text
 OpenXava/web/WEB-INF/lib/jta.jar -text
 OpenXava/web/WEB-INF/lib/mailapi.jar -text
@@ -11466,6 +11468,7 @@ OpenXavaTest/web/WEB-INF/lib/javax.inject.jar -text
 OpenXavaTest/web/WEB-INF/lib/jboss-logging-annotations.jar -text
 OpenXavaTest/web/WEB-INF/lib/jboss-logging.jar -text
 OpenXavaTest/web/WEB-INF/lib/jpa.jar -text
+OpenXavaTest/web/WEB-INF/lib/jsoup.jar -text
 OpenXavaTest/web/WEB-INF/lib/jstl.jar -text
 OpenXavaTest/web/WEB-INF/lib/jta.jar -text
 OpenXavaTest/web/WEB-INF/lib/mailapi.jar -text

@@ -124,7 +124,7 @@ public class ShipmentTest extends ModuleTestBase {
 		// Delete
 		execute("CRUD.delete");											
 		assertNoErrors();
-		assertMessage("Shipment deleted successfully");		
+		assertMessage("Shipment deleted successfully");	
 	}
 	
 	public void testDeleteSelectedOnesWithConverterInKey() throws Exception { 
