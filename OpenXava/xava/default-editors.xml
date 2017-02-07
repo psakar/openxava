@@ -12,11 +12,13 @@
 
 <editors>
   
-	<editor name="List" url="listEditor.jsp">
+	<editor name="List" url="listEditor.jsp" icon="table-large">
 		<for-tabs/>
 	</editor>
 	
-	<editor name="Charts" url="chartsEditor.jsp">
+	<editor name="Charts" url="chartsEditor.jsp" icon="chart-line" 
+		init-action="Chart.init" 
+		release-action="Chart.release">
 		<for-tabs/>
 	</editor>
 		
@@ -36,7 +38,7 @@
 		<for-type type="java.lang.String" />
 		<list-formatter class="org.openxava.formatters.HTMLFilterListFormatter" />		
 	</editor>	
-	
+
 
 	<editor name="NumericField" url="textEditor.jsp">
 		<for-type type="java.math.BigDecimal" />

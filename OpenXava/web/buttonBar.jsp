@@ -67,12 +67,12 @@ if (manager.isButtonBarVisible()) {
 		org.openxava.tab.Tab tab = (org.openxava.tab.Tab) context.get(request, tabObject);
 		Collection<String> editors = org.openxava.web.WebEditors.getEditors(tab.getMetaTab());
 		for (String editor: editors) {
-			String icon = editor.equals("Charts")?"chart-line":"table-large";
+			String icon = org.openxava.web.WebEditors.getIcon(editor); 
 			String selected = editor.equals(tab.getEditor())?style.getSelectedListFormat():"";
 			if (Is.emptyString(editor)) editor = "__NONAME__"; 
 	%>
-	<xava:link action="ListFormat.select" argv='<%="editor=" + editor%>' cssClass="<%=selected%>">	
-		<i class="mdi mdi-<%=icon%>" onclick="openxava.onSelectListFormat(event)"></i>
+	<xava:link action="ListFormat.select" argv='<%="editor=" + editor%>' cssClass="<%=selected%>">
+		<i class="mdi mdi-<%=icon%>" onclick="openxava.onSelectListFormat(event)" title="<%=org.openxava.util.Labels.get(editor)%>"></i>
 	</xava:link>			
 	<%				
 		}

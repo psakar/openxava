@@ -223,8 +223,13 @@ public class WebEditors {
 			}
 		}
 		return getUrl(metaTab);
-	}	
+	}
 	
+	public static String getIcon(String editor) throws ElementNotFoundException, XavaException { 
+		if (Is.emptyString(editor)) return "view-list"; // A good default because icon is only used for list, by now. If we remove this line test with a editor for tabs with no name
+		return MetaWebEditors.getMetaEditorByName(editor).getIcon();
+	}	
+		
 	public static MetaEditor getMetaEditorFor(MetaMember m, String viewName) throws ElementNotFoundException, XavaException {
 		if (m.getMetaModel() != null) {
 			try {				

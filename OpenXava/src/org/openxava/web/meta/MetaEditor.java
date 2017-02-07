@@ -36,6 +36,9 @@ public class MetaEditor {
 	private String listFormatterClassName;
 	private Collection listFormatterMetaSet;
 	private IFormatter listFormatter; 
+	private String icon; 
+	private String initAction; 
+	private String releaseAction; 
 
 	public void _addListFormatterMetaSet(MetaSet metaSet) {
 		if (listFormatterMetaSet == null) listFormatterMetaSet = new ArrayList();
@@ -247,6 +250,30 @@ public class MetaEditor {
 
 	public void setListFormatterClassName(String listFormatterClassName) {
 		this.listFormatterClassName = listFormatterClassName;
+	}
+
+	public String getIcon() {
+		return icon;
+	}
+
+	public void setIcon(String icon) {
+		this.icon = icon;
+	}
+
+	public String getInitAction() {
+		return initAction;
+	}
+
+	public void setInitAction(String initAction) {
+		this.initAction = initAction;
+	}
+
+	public String getReleaseAction() {
+		return releaseAction;
+	}
+
+	public void setReleaseAction(String releaseAction) {
+		this.releaseAction = releaseAction;
 	}
 
 }

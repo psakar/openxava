@@ -451,6 +451,16 @@ public class ModuleManager implements java.io.Serializable {
 			executingAction = false;
 		}
 	}
+	
+	/**
+	 * @since 5.7 
+	 */
+	public void executeAction(String qualifiedActionName, Messages errors, 
+			Messages messages, HttpServletRequest request) {
+		MetaAction metaAction = MetaControllers.getMetaAction(qualifiedActionName);
+		executeAction(metaAction, errors, messages, null, request);
+	}
+
 
 	public void executeAction(IAction action, Messages errors,
 			Messages messages, HttpServletRequest request) {

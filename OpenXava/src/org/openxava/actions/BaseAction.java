@@ -254,6 +254,17 @@ abstract public class BaseAction implements IAction, IRequestAction, IModuleCont
 	protected void rollback() { 		
 		XPersistence.rollback();
 		XHibernate.rollback();		
-	}	
+	}
+	
+	/**
+	 * Execute an action, you can call it several times, for several actions.
+	 * 
+	 * It does not throw exceptions but accumulate the errors in getErrors(). Also it can modify getMessages().
+	 * 
+	 * @since 5.7
+	 */
+	protected void executeAction(String qualifiedActionName) { 
+		getManager().executeAction(qualifiedActionName, getErrors(), getMessages(), getRequest()); 
+	}
 	       
 }

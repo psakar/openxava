@@ -5414,6 +5414,7 @@ OpenXava/src/org/openxava/actions/IRemoteAction.java -text
 OpenXava/src/org/openxava/actions/IRequestAction.java -text
 OpenXava/src/org/openxava/actions/IShowActionAction.java -text
 OpenXava/src/org/openxava/actions/IShowActionsAction.java -text
+OpenXava/src/org/openxava/actions/InitChartAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/InitListAction.java -text
 OpenXava/src/org/openxava/actions/JasperConcatReportBaseAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/JasperMultipleReportBaseAction.java -text svneol=unset#text/plain
@@ -5446,6 +5447,7 @@ OpenXava/src/org/openxava/actions/OpenSearchDialogAction.java -text
 OpenXava/src/org/openxava/actions/OrderByAction.java -text
 OpenXava/src/org/openxava/actions/ReferenceBaseAction.java -text
 OpenXava/src/org/openxava/actions/ReferenceSearchAction.java -text
+OpenXava/src/org/openxava/actions/ReleaseChartAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveChartColumnAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveColumnSumAction.java -text
 OpenXava/src/org/openxava/actions/RemoveElementFromCollectionAction.java -text

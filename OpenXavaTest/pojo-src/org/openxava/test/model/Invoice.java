@@ -27,7 +27,7 @@ import org.openxava.util.*;
 @Entity
 @IdClass(InvoiceKey.class)
 @Views({
-	@View(members=			
+	@View(members=
 		"year, number, date, paid, detailsCount;" + // detailsCount is useful for testing READ COMMITED (with HSQLDB 2)
 		"discounts [" +
 		"	customerDiscount, customerTypeDiscount, yearDiscount;" +

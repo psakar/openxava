@@ -1915,6 +1915,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 	}		
 	
 	public void testCharts() throws Exception {
+		assertChartIcons(); 
 		assertListNotEmpty();
 		execute("Invoice.testChartTab");
 		assertMessage("xava_chartTab does not exist");
@@ -1943,6 +1944,12 @@ public class InvoiceTest extends CustomizeListTestBase {
 		
 	}
 	
+	private void assertChartIcons() { 
+		HtmlElement buttonBar = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Invoice__button_bar");
+		HtmlElement icon = buttonBar.getOneHtmlElementByAttribute("i", "class", "mdi mdi-chart-line"); 
+		assertEquals("Charts", icon.getAttribute("title")); 
+	}
+
 	private void assertSaveRestoreCharts() throws Exception { 
 		assertChartTypeSelected("BAR");
 		assertCollectionRowCount("columns", 5);

@@ -183,6 +183,10 @@ here that you want to override.
 	</controller>
 	
 	<controller name="Chart"> 
+		<action name="init" hidden="true"
+			class="org.openxava.actions.InitChartAction"/>
+		<action name="release" hidden="true"
+			class="org.openxava.actions.ReleaseChartAction"/>			
 		<action name="selectType" hidden="true"
 			class="org.openxava.actions.SelectChartTypeAction"/>
 		<action name="removeColumn" hidden="true" in-each-row="true"

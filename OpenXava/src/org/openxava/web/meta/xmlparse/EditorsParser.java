@@ -55,6 +55,15 @@ public class EditorsParser extends ParserBase {
 		}
 		editor.setDependsStereotypes(dependsStereotypes);
 		editor.setDependsProperties(dependsProperties);
+		editor.setIcon(el.getAttribute(xicon[lang])); 
+		editor.setInitAction(el.getAttribute(xinit_action[lang])); 
+		editor.setReleaseAction(el.getAttribute(xrelease_action[lang])); 
+		if (Is.emptyString(editor.getName()) && !Is.emptyString(editor.getInitAction())) {
+			throw new XavaException("init_action_not_for_noname_editor"); 
+		}
+		if (Is.emptyString(editor.getName()) && !Is.emptyString(editor.getReleaseAction())) {
+			throw new XavaException("release_action_not_for_noname_editor"); 
+		}		
 		fillProperties(editor, el);				
 		editor.setFormatterClassName(getFormatterClass(el, editor));
 		editor.setFormatterFromType(getFormatterFromType(el));

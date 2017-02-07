@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- New method executeAction() in BaseAction to execute actions from an action.
 - Formatter for HTML_TEXT in list mode, now uses the plain text until 200 characters. 
 - Library jsoup to manage HTML included. 
 - It's possible to go directly to the detail of an entity with ?detail=entityId in the module URL.
