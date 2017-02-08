@@ -165,8 +165,8 @@ openxava.refreshPage = function(result) {
 	$('#xava_loading').hide(); 
 	$('#xava_loading2').hide();
 	document.body.style.cursor='auto';
-	openxava.setUrlParam(result);
 	if (openxava.postRefreshPage != null) openxava.postRefreshPage(); 
+	openxava.setUrlParam(result);	
 }
 
 openxava.initUI = function(application, module, currentRow) {
@@ -427,7 +427,7 @@ openxava.setUrlParam = function(result) {
 	}
 	else {
 		history.replaceState(null, null, window.location.pathname);
-	}
+	}	
 }
 
 openxava.setRequesting = function(application, module) {
