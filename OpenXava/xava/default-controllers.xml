@@ -253,9 +253,6 @@ here that you want to override.
 	</controller>	
 	
 	<controller name="Mode">
-		<action name="initList" on-init="true"
-			class="org.openxava.actions.InitListAction"
-			hidden="true"/>
 		<action name="detailAndFirst"
 			class="org.openxava.actions.GoDetailAction"
 			keystroke="F8">
@@ -275,7 +272,10 @@ here that you want to override.
 			hidden="true" on-init="true">
 			<set property="editable" value="false"/>
 			<set property="keyEditable" value="false"/>
-		</action>															
+		</action>
+		<action name="initList" on-init="true"
+			class="org.openxava.actions.InitListAction"
+			hidden="true"/>			
 	</controller>
 	
 	<controller name="ListOnly">

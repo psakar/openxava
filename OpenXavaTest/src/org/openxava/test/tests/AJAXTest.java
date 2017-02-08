@@ -31,6 +31,7 @@ public class AJAXTest extends ModuleTestBase {
 		changeModule("Carrier");
 		execute("ListFormat.select", "editor=Charts");
 		assertLoadedParts("view, errors, messages");
+		execute("ListFormat.select", "editor=List"); 
 	}
 	
 	public void testElementCollections() throws Exception { 
@@ -668,7 +669,7 @@ public class AJAXTest extends ModuleTestBase {
 	public void testFirstDetailActionExecutingLoadAllButOnlyFirstTime() throws Exception {
 		changeModule("Carrier"); 		
 		execute("CRUD.new");
-		assertLoadedParts("core, ");
+		assertLoadedParts("core, "); 
 		execute("CRUD.new");
 		assertLoadedParts("errors, messages");
 		execute("Mode.list");
@@ -821,7 +822,7 @@ public class AJAXTest extends ModuleTestBase {
 	public void testShowDialog() throws Exception { 
 		changeModule("Carrier");
 		execute("CRUD.new");
-		execute("Reference.createNew", "model=Warehouse,keyProperty=xava.Carrier.warehouse.number");
+		execute("Reference.createNew", "model=Warehouse,keyProperty=xava.Carrier.warehouse.number"); 
 		assertLoadedParts("dialog1");
 		execute("NewCreation.saveNew");
 		assertLoadedParts("errors, error_image_Warehouse.zoneNumber, " +

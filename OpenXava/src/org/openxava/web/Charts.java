@@ -14,7 +14,6 @@ import org.openxava.session.Chart;
 import org.openxava.session.ChartColumn;
 import org.openxava.tab.Tab;
 import org.openxava.util.Is;
-import org.openxava.util.Locales;
 import org.openxava.util.XavaException;
 import org.openxava.view.View;
 

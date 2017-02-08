@@ -339,18 +339,19 @@ public class Tab implements java.io.Serializable {
 	private final static String PAGE_ROW_COUNT = "pageRowCount"; 
 	private final static String COLUMN_WIDTH = "columnWidth."; 
 	private final static int MAX_PAGE_ROW_COUNT = 20;
-	private static final String CONFIGURATION_CONDITION = "condition";
-	private static final String CONFIGURATION_CONDITION_COMPARATORS = "conditionComparators";
-	private static final String CONFIGURATION_CONDITION_VALUES = "conditionValues";
-	private static final String CONFIGURATION_CONDITION_VALUES_TO = "conditionValuesTo"; 
-	private static final String CONFIGURATION_ORDER_BY = "orderBy";
-	private static final String CONFIGURATION_ORDER_BY2 = "orderBy2";
-	private static final String CONFIGURATION_DESCENDING_ORDER = "descendingOrder";
-	private static final String CONFIGURATION_DESCENDING_ORDER2 = "descendingOrder2";
-	private static final String CONFIGURATION_PROPERTIES_NAMES = "propertiesNames"; 
-	private static final String CONFIGURATION_REMOVED = "removed";
-	private static final String CONFIGURATION_NAME = "name";
-	private static final String CONFIGURATION_WEIGHT = "weight"; 
+	private final static String EDITOR = "editor"; 
+	private final static String CONFIGURATION_CONDITION = "condition";
+	private final static String CONFIGURATION_CONDITION_COMPARATORS = "conditionComparators";
+	private final static String CONFIGURATION_CONDITION_VALUES = "conditionValues";
+	private final static String CONFIGURATION_CONDITION_VALUES_TO = "conditionValuesTo"; 
+	private final static String CONFIGURATION_ORDER_BY = "orderBy";
+	private final static String CONFIGURATION_ORDER_BY2 = "orderBy2";
+	private final static String CONFIGURATION_DESCENDING_ORDER = "descendingOrder";
+	private final static String CONFIGURATION_DESCENDING_ORDER2 = "descendingOrder2";
+	private final static String CONFIGURATION_PROPERTIES_NAMES = "propertiesNames"; 
+	private final static String CONFIGURATION_REMOVED = "removed";
+	private final static String CONFIGURATION_NAME = "name";
+	private final static String CONFIGURATION_WEIGHT = "weight"; 
 	
 	private static Object refiner; 
 	
@@ -2132,6 +2133,7 @@ public class Tab implements java.io.Serializable {
 				}
 			}			
 			defaultCondition = getCondition();
+			editor = preferences.get(EDITOR, null); 
 			loadConfigurationsPreferences();
 		}
 		catch (Exception ex) {
@@ -2223,6 +2225,7 @@ public class Tab implements java.io.Serializable {
 				preferences.putBoolean(ROWS_HIDDEN, rowsHidden); 
 				preferences.putBoolean(FILTER_VISIBLE, filterVisible); 
 				preferences.putInt(PAGE_ROW_COUNT, pageRowCount);  
+				preferences.put(EDITOR, editor); 
 				if (columnWidths != null) { 
 					for (Map.Entry<String, Integer> columnWidth: columnWidths.entrySet()) {
 						preferences.putInt(
@@ -2743,6 +2746,7 @@ public class Tab implements java.io.Serializable {
 
 	public void setEditor(String editor) {
 		this.editor = editor;
+		saveUserPreferences();
 	}
 
 }

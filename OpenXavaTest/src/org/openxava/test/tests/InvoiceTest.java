@@ -1972,7 +1972,6 @@ public class InvoiceTest extends CustomizeListTestBase {
 		assertValue("xColumn", "number");
 		
 		resetModule();
-		execute("ListFormat.select", "editor=Charts");
 		assertChartTypeSelected("LINE");
 		assertCollectionRowCount("columns", 4);
 		assertValueInCollection("columns", 0, 0, "Year");
@@ -1994,7 +1993,6 @@ public class InvoiceTest extends CustomizeListTestBase {
 		assertValue("xColumn", "year");
 		
 		resetModule();
-		execute("ListFormat.select", "editor=Charts");
 		assertChartTypeSelected("BAR");
 		assertCollectionRowCount("columns", 5);
 		assertValueInCollection("columns", 0, 0, "Year");

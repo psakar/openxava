@@ -42,7 +42,7 @@ public class GenerateReportServlet extends HttpServlet {
 		private boolean withValidValues = false;
 		private Locale locale;
 		private boolean labelAsHeader = false;
-		private HttpServletRequest request;
+		private transient HttpServletRequest request;  
 		private boolean format = false;	// format or no the values. If format = true, all values to the report are String
 		private Integer columnCountLimit; 
 		

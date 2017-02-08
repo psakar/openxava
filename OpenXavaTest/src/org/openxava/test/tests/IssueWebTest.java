@@ -19,7 +19,7 @@ public class IssueWebTest extends ModuleTestBase {
 		// let's add schema parameter for companyA
 		newParameters="&schema=companya"; 
 		resetModule();
-		assertListRowCount(2);
+		assertListRowCount(2); 
 		// let's add schema parameter for companyB
 		newParameters="&schema=companyb";
 		resetModule();
@@ -49,7 +49,7 @@ public class IssueWebTest extends ModuleTestBase {
 		newParameters="&schema=companya&user=THE_USER&locale=en";
 		resetModule();
 		execute("Mode.detailAndFirst");
-		assertValueIgnoringCase("description", "THE_USER");
+		assertValueIgnoringCase("description", "THE_USER"); 
 		newParameters="&schema=companya&user=OTHER_USER&locale=en";
 		resetModule();
 		execute("Mode.detailAndFirst");

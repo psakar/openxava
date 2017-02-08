@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- The last list format (chart or list) is remember between sessions by user.
 - New method executeAction() in BaseAction to execute actions from an action.
 - Formatter for HTML_TEXT in list mode, now uses the plain text until 200 characters. 
 - Library jsoup to manage HTML included. 

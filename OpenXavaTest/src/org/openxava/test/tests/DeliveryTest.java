@@ -547,6 +547,7 @@ public class DeliveryTest extends ModuleTestBase {
 		execute("ListFormat.select", "editor=Charts"); 
 		assertNoErrors();
 		assertExists("xColumn"); 
+		execute("ListFormat.select", "editor=List"); 
 	}
 		
 	public void testUseListWithOtherModelAndReturnToModuleList() throws Exception {

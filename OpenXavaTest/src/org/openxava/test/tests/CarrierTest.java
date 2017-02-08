@@ -23,8 +23,8 @@ public class CarrierTest extends CarrierTestBase {
 		execute("Mode.list");
 		assertListRowCount(4);
 	}
-	
-	public void testRowActions() throws Exception {
+		
+	public void testRowActions() throws Exception {		
 		execute("List.orderBy", "property=number"); 		
 		assertListRowCount(5);
 		execute("CRUD.deleteRow", "row=2");
@@ -216,7 +216,8 @@ public class CarrierTest extends CarrierTestBase {
 		assertRowUnchecked(3);
 	}
 	
-	public void testActionOfCalculatedPropertyAlwaysPresent_referenceKeyEditableWhenInGroup_iconsImagesInViewAction() throws Exception {
+	public void testActionOfCalculatedPropertyAlwaysPresent_referenceKeyEditableWhenInGroup_iconsImagesInViewAction_newFromChartsWithCalculatedCollection() throws Exception {  
+		execute("ListFormat.select", "editor=Charts"); 
 		execute("CRUD.new");		
 		assertAction("Carrier.translateName");
 		assertExists("calculated");
@@ -226,9 +227,11 @@ public class CarrierTest extends CarrierTestBase {
 		assertEditable("warehouse.number");
 		assertNoEditable("warehouse.name");
 		
-		assertIconsImagesInViewAction(); 
+		assertIconsImagesInViewAction();
+		execute("Mode.list");
+		execute("ListFormat.select", "editor=List");
 	}
-	
+		
 	public void testFilterIgnoringCase() throws Exception {
 		assertListRowCount(5);
 		String [] condition = { "", "cinco" };

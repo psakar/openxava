@@ -30,6 +30,7 @@ viewObject = (viewObject == null || viewObject.equals(""))?"xava_view":viewObjec
 org.openxava.view.View view = (org.openxava.view.View) context.get(request, viewObject);
 
 org.openxava.tab.Tab tab = (org.openxava.tab.Tab) session.getAttribute("xava_chartTab");
+tab.setRequest(request); 
 
 String chartObject = request.getParameter("chartObject");
 chartObject = (chartObject == null || chartObject.equals(""))?"xava_chart":chartObject;

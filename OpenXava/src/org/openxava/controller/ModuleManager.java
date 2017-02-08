@@ -1457,6 +1457,7 @@ public class ModuleManager implements java.io.Serializable {
 		try {			
 			String detailId =  request.getParameter("detail");
 			if (!Is.emptyString(detailId)) {
+				getView().setModelName(getMetaModule().getModelName()); 
 				Collection metaKeys = getView().getMetaModel().getMetaPropertiesKey();
 				if (metaKeys.size() != 1) return;
 				MetaProperty metaKey = (MetaProperty) metaKeys.iterator().next();

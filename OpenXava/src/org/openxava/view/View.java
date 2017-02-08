@@ -2446,6 +2446,7 @@ public class View implements java.io.Serializable {
 		modelName = newModel;
 		getRoot().reloadNeeded = true; // If the model of the view of a reference changes, the main view must be reloaded.
 		resetMembers();		
+		if (model != null && !model.getClass().getSimpleName().equals(modelName)) model = null; 
 	}
 	
 	private void resetMembers() {
@@ -2474,7 +2475,7 @@ public class View implements java.io.Serializable {
 		sections = null; 
 		hiddenMembers = null; 
 		groupsViews = null;
-		polished = false;
+		polished = false; 
 	}
 	
 	public void assignValuesToWebView() {

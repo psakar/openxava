@@ -7,13 +7,14 @@ import org.openxava.tab.*;
 /**
  * @author Javier Paniza
  */
-public class InitListAction extends TabBaseAction {
+public class InitListAction extends TabBaseAction { 
 	
 	@Inject
 	private Tab mainTab;
 
 	public void execute() throws Exception {
 		setMainTab(getTab());
+		executeAction("ListFormat.select"); 
 	}
 
 	public Tab getMainTab() {
