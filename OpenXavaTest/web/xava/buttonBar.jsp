@@ -66,8 +66,9 @@ if (manager.isButtonBarVisible()) {
 		tabObject = (tabObject == null || tabObject.equals(""))?"xava_tab":tabObject;
 		org.openxava.tab.Tab tab = (org.openxava.tab.Tab) context.get(request, tabObject);
 		Collection<String> editors = org.openxava.web.WebEditors.getEditors(tab.getMetaTab());
-		for (String editor: editors) {
-			String icon = org.openxava.web.WebEditors.getIcon(editor); 
+		if (editors.size() > 1) for (String editor: editors) {
+			String icon = org.openxava.web.WebEditors.getIcon(editor);
+			if (icon == null) continue; 
 			String selected = editor.equals(tab.getEditor())?style.getSelectedListFormat():"";
 			if (Is.emptyString(editor)) editor = "__NONAME__"; 
 	%>

@@ -183,6 +183,12 @@ import org.openxava.test.actions.*;
 	@Tab ( name ="Cards", editor="CustomerCardList", 
 		properties="number, name, type, address.city, address.state.name"
 	),
+	@Tab ( name ="WithCards", editors ="List, Charts, CustomerCardList, NotExist", 
+		properties="number, name, type, address.city, address.state.name"
+	),
+	@Tab ( name ="OnlyCards", editors ="CustomerCardList", 
+		properties="number, name, type, address.city, address.state.name"
+	),
 	@Tab( name="Demo", 
 		properties="name, type, seller.name"
 	),

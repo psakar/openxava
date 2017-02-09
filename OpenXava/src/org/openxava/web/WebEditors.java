@@ -203,6 +203,12 @@ public class WebEditors {
 	}
 	
 	public static Collection<String> getEditors(MetaTab metaTab) throws ElementNotFoundException, XavaException { 
+		if (!Is.emptyString(metaTab.getEditors())) {
+			if (!Is.emptyString(metaTab.getEditor())) {
+				log.warn(XavaResources.getString("editors_over_editor", metaTab.getEditor(), metaTab.getName(), metaTab.getModelName()));
+			}
+			return Strings.toCollection(metaTab.getEditors());
+		}
 		Collection<String> editors = new ArrayList<String>();
 		String customEditor = metaTab.getEditor();
 		if (!Is.emptyString(customEditor)) editors.add(customEditor);
@@ -225,9 +231,19 @@ public class WebEditors {
 		return getUrl(metaTab);
 	}
 	
+	/**
+	 * 
+	 * @return Null if the editor does not exists. A default value if exists but has not icon or the param is null or empty.  
+	 */
 	public static String getIcon(String editor) throws ElementNotFoundException, XavaException { 
 		if (Is.emptyString(editor)) return "view-list"; // A good default because icon is only used for list, by now. If we remove this line test with a editor for tabs with no name
-		return MetaWebEditors.getMetaEditorByName(editor).getIcon();
+		MetaEditor metaEditor = MetaWebEditors.getMetaEditorByName(editor);
+		if (metaEditor == null) {
+			log.warn(XavaResources.getString("editor_not_exist", editor)); 
+			return null;
+		}
+		String result = metaEditor.getIcon(); 		
+		return Is.emptyString(result)?"view-list":result; 
 	}	
 		
 	public static MetaEditor getMetaEditorFor(MetaMember m, String viewName) throws ElementNotFoundException, XavaException {

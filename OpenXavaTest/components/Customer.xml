@@ -452,6 +452,14 @@
 		<properties>number, name, type, address.city, address.state.name</properties>	
 	</tab>	
 	
+	<tab name="WithCards" editor="List, Charts, CustomerCardList, NotExist">
+		<properties>number, name, type, address.city, address.state.name</properties>	
+	</tab>
+	
+	<tab name="OnlyCards" editor="CustomerCardList">
+		<properties>number, name, type, address.city, address.state.name</properties>	
+	</tab>		
+	
 	<tab name="FromAlaska">
 		<base-condition>
 			from XAVATEST.CUSTOMER 

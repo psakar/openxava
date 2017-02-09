@@ -14,6 +14,9 @@
  enmarcable (true|false) "false"
  recargar-siempre (true|false) "false"
  compuesto (true|false) "false" 
+ icon CDATA #IMPLIED
+ accion-iniciar CDATA #IMPLIED
+ accion-liberar CDATA #IMPLIED 
 >
 
 <!ELEMENT propiedad EMPTY>

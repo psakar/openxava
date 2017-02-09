@@ -11303,6 +11303,7 @@ OpenXavaTest/src/org/openxava/test/tests/CustomerFromAlaskaTest.java -text svneo
 OpenXavaTest/src/org/openxava/test/tests/CustomerImageTest.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/CustomerNewOnInitInheritedTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerNewOnInitTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/CustomerOnlyCardListTest.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/CustomerRadioButtonTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerReadOnlyTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerSellerAsAggregateTest.java -text
@@ -11313,6 +11314,7 @@ OpenXavaTest/src/org/openxava/test/tests/CustomerSomeMembersReadOnlyTest.java -t
 OpenXavaTest/src/org/openxava/test/tests/CustomerTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerTwoSellersInListTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomerTwoSellersNumberInListTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/CustomerWithCardListTest.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/CustomerWithSectionTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/CustomizeListTestBase.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/DeliveryGroupsInSectionsTest.java -text

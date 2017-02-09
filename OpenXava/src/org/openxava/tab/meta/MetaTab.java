@@ -49,6 +49,7 @@ public class MetaTab implements java.io.Serializable, Cloneable {
 	private String id;
 	private Collection<String> sumPropertiesNames;
 	private String editor;
+	private String editors;  
 	private Set<String> droppedMembers; 
 
 
@@ -825,6 +826,14 @@ public class MetaTab implements java.io.Serializable, Cloneable {
 
 	public void setEditor(String editor) {
 		this.editor = editor;
+	}
+
+	public String getEditors() {
+		return editors;
+	}
+
+	public void setEditors(String editors) {
+		this.editors = editors;
 	}
 		
 }

@@ -208,5 +208,6 @@ public class XmlElementsNames {
 	protected final static String [] xcollapsed = { "collapsed", "plegada"}; 
 	protected final static String [] xshow_reference_view = { "show-reference-view", "mostrar-vista-referencia"};
 	protected final static String [] xinit_action = { "init-action", "accion-iniciar"}; 
-	protected final static String [] xrelease_action = { "release-action", "accion-liberar"}; 
+	protected final static String [] xrelease_action = { "release-action", "accion-liberar"};
+	protected final static String [] xeditors = { "editors", "editores" };
 }
