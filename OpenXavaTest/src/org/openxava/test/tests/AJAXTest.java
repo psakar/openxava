@@ -30,7 +30,7 @@ public class AJAXTest extends ModuleTestBase {
 	public void testListFormats() throws Exception { 
 		changeModule("Carrier");
 		execute("ListFormat.select", "editor=Charts");
-		assertLoadedParts("view, errors, messages");
+		assertLoadedParts("bottom_buttons, button_bar, view, errors, messages"); 
 		execute("ListFormat.select", "editor=List"); 
 	}
 	

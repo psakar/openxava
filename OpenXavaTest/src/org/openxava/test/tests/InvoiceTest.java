@@ -1919,7 +1919,9 @@ public class InvoiceTest extends CustomizeListTestBase {
 		assertListNotEmpty();
 		execute("Invoice.testChartTab");
 		assertMessage("xava_chartTab does not exist");
+		assertAction("CRUD.deleteSelected"); 
 		execute("ListFormat.select", "editor=Charts");
+		assertNoAction("CRUD.deleteSelected"); 
 		assertNoDialog(); 
 		assertChartTypeLink("BAR");
 		assertChartTypeLink("LINE");
@@ -1938,7 +1940,9 @@ public class InvoiceTest extends CustomizeListTestBase {
 		
 		execute("Invoice.testChartTab");
 		assertMessage("xava_chartTab exists");		
+		assertNoAction("CRUD.deleteSelected"); 
 		execute("ListFormat.select", "editor=List");
+		assertAction("CRUD.deleteSelected"); 
 		execute("Invoice.testChartTab");
 		assertMessage("xava_chartTab does not exist");		
 		

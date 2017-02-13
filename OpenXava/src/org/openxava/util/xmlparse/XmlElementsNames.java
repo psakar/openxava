@@ -210,4 +210,6 @@ public class XmlElementsNames {
 	protected final static String [] xinit_action = { "init-action", "accion-iniciar"}; 
 	protected final static String [] xrelease_action = { "release-action", "accion-liberar"};
 	protected final static String [] xeditors = { "editors", "editores" };
+	protected final static String [] xselectable_items = { "selectable-items", "elementos-seleccionables" }; 
+	protected final static String [] xprocess_selected_items = { "process-selected-items", "procesar-elementos-seleccionados" }; 
 }

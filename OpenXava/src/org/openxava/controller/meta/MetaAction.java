@@ -43,6 +43,7 @@ public class MetaAction extends MetaControllerElement implements Cloneable {
 	private boolean beforeEachRequest;
 	private boolean afterEachRequest; 
 	private boolean inEachRow; 
+	private boolean processSelectedItems;  
 	
 	public MetaAction() {
 	}
@@ -322,6 +323,14 @@ public class MetaAction extends MetaControllerElement implements Cloneable {
 
 	public void setAfterEachRequest(boolean afterEachRequest) {
 		this.afterEachRequest = afterEachRequest;
+	}
+
+	public boolean isProcessSelectedItems() {
+		return processSelectedItems;
+	}
+
+	public void setProcessSelectedItems(boolean processSelectedItems) {
+		this.processSelectedItems = processSelectedItems;
 	}
 
 }

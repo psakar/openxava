@@ -39,6 +39,7 @@ public class MetaEditor {
 	private String icon; 
 	private String initAction; 
 	private String releaseAction; 
+	private boolean selectableItems;  
 
 	public void _addListFormatterMetaSet(MetaSet metaSet) {
 		if (listFormatterMetaSet == null) listFormatterMetaSet = new ArrayList();
@@ -274,6 +275,14 @@ public class MetaEditor {
 
 	public void setReleaseAction(String releaseAction) {
 		this.releaseAction = releaseAction;
+	}
+
+	public boolean isSelectableItems() {
+		return selectableItems;
+	}
+
+	public void setSelectableItems(boolean selectableItems) {
+		this.selectableItems = selectableItems;
 	}
 
 }

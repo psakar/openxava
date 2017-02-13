@@ -27,6 +27,7 @@ public class SelectListFormatAction extends TabBaseAction {
 		}
 		if (editor != null) getTab().setEditor(editor);		
 		if ("__NONAME__".equals(editor)) getTab().setEditor("");
+		getManager().setActionsChanged(true); 
 	}
 
 	public String getEditor() {

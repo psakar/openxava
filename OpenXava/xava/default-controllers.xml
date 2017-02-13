@@ -88,8 +88,9 @@ here that you want to override.
 			class="org.openxava.actions.SearchReadOnlyAction"/>
 						
 		<action name="deleteSelected" mode="list" confirm="true"
+			process-selected-items="true" 
 			class="org.openxava.actions.DeleteSelectedAction"
-			keystroke="Control D"/>
+			keystroke="Control D"/>		
 		
 		<action name="deleteRow" mode="NONE" confirm="true"
 			class="org.openxava.actions.DeleteSelectedAction"

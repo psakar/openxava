@@ -16,11 +16,13 @@
 		<for-tabs/>
 	</editor>
 	
-	<editor name="Charts" url="chartsEditor.jsp" icon="chart-line" 
+	<editor name="Charts" url="chartsEditor.jsp"
+		selectable-items="false" 
+		icon="chart-line" 
 		init-action="Chart.init" 
 		release-action="Chart.release">
 		<for-tabs/>
-	</editor>
+	</editor>	
 		
 	<editor name="Reference" url="referenceEditor.jsp" frame="true" composite="true">
 		<for-references/>

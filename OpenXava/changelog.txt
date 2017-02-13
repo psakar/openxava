@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- New attribute selectable-items in editor of editors.xml for list editors that allows selecting items.
+- New attribute process-selected-items in action of controllers.xml to hide the action when selecting item is not available. 
 - New attribute editors in @Tab to define a group of editors to be used for list formats.
 - Fix: Clicking New from Charts with calculated collections breaks the module.
 - The last list format (chart or list) is remember between sessions by user.

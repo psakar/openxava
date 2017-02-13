@@ -21,10 +21,12 @@ import org.openxava.controller.meta.*;
 import org.openxava.hibernate.*;
 import org.openxava.jpa.*;
 import org.openxava.model.meta.*;
+import org.openxava.tab.*;
 import org.openxava.util.*;
 import org.openxava.validators.ValidationException;
 import org.openxava.view.*;
 import org.openxava.web.*;
+import org.openxava.web.meta.*;
 import org.openxava.web.style.*;
 
 /**
@@ -221,7 +223,6 @@ public class ModuleManager implements java.io.Serializable {
 					MetaController mc = (MetaController) it.next();
 					metaControllerElements.addAll(mc.getAllMetaControllerElements());
 				}
-				removeHiddenElements();
 				refine(metaControllerElements); 
 			} 
 		 	catch (Exception ex) {
@@ -247,6 +248,18 @@ public class ModuleManager implements java.io.Serializable {
 		return metaSubControllers;
 	}
 	
+	private boolean appliesToListEditor(MetaAction action) { 
+		if (!isListMode()) return true;
+		if (!action.isProcessSelectedItems()) return true;
+		if (getTab().getModelName() == null) return true;
+		MetaEditor metaEditor = MetaWebEditors.getMetaEditorByName(getTab().getEditor()); 
+		if (metaEditor == null) {
+			log.warn(XavaResources.getString("editor_not_exist", getTab().getEditor()));
+			return true; 
+		}
+		return metaEditor.isSelectableItems();
+	}
+	
 	public Collection<MetaAction> getMetaActions() {
 		if (metaActions == null) {
 			Collection<MetaAction> ma = (Collection<MetaAction>) getContext()
@@ -264,7 +277,6 @@ public class ModuleManager implements java.io.Serializable {
 					MetaController contr = (MetaController) it.next();
 					metaActions.addAll(contr.getAllMetaActions());
 				}
-				removeHiddenActions();
 				refine(metaActions); 
 			} catch (Exception ex) {
 				metaActions = null;
@@ -555,7 +567,7 @@ public class ModuleManager implements java.io.Serializable {
 					memorizePreviousMode();
 					setModeName(nextMode);
 				}
-				if (isListMode() && isActionsAddedOrRemoved()) {
+				if (isListMode() && actionsAddedOrRemoved) { 
 					updateXavaMetaActionsInList();
 				}
 			}
@@ -1339,10 +1351,8 @@ public class ModuleManager implements java.io.Serializable {
 			int max = -1;
 			while (it.hasNext()) {
 				MetaAction a = (MetaAction) it.next();
-				if (a.isHidden())
-					continue;
-				if (!a.appliesToMode(getModeName()))
-					continue;
+				if (!actionApplies(a)) continue; 
+				if (!a.appliesToMode(getModeName())) continue;
 				if (a.getByDefault() > max) {
 					max = a.getByDefault();
 					defaultActionQualifiedName = a.getQualifiedName();
@@ -1489,7 +1499,10 @@ public class ModuleManager implements java.io.Serializable {
 	private View getView() { 
 		return (View) getContext().get(getApplicationName(), getModuleName(), "xava_view");
 	}
-
+	
+	private Tab getTab() {  
+		return (Tab) getContext().get(getApplicationName(), getModuleName(), "xava_tab");
+	}
 
 	public boolean hasInitForwardActions() {
 		Iterator it = IteratorUtils.chainedIterator(new Iterator[] {
@@ -1676,31 +1689,11 @@ public class ModuleManager implements java.io.Serializable {
 		subcontrollersMetaActions = null;
 		metaControllerElements = null; 
 	}
-
-	private void removeHiddenElements(){	
-		if (hiddenActions == null) return;
-		for (Iterator<MetaControllerElement> it = metaControllerElements.iterator(); it.hasNext();){
-			MetaControllerElement element = it.next();
-			if (element instanceof MetaAction){
-				MetaAction action = (MetaAction)element;
-				if (hiddenActions.contains(action.getQualifiedName())){
-					it.remove();
-				}
-			}
-		}
+	
+	public boolean actionApplies(MetaAction action) { 
+		return !action.isHidden() && (hiddenActions == null || !hiddenActions.contains(action.getQualifiedName())) && appliesToListEditor(action);
 	}
 	
-	private void removeHiddenActions() {
-		if (hiddenActions == null)
-			return;
-		for (Iterator it = metaActions.iterator(); it.hasNext();) {
-			MetaAction action = (MetaAction) it.next();
-			if (hiddenActions.contains(action.getQualifiedName())) {
-				it.remove();
-			}
-		}
-	}
-
 	private void refine(Collection collection) throws Exception { 
 		if (refiner == null) return;
 		XObjects.execute(refiner, "refine", MetaModule.class, getMetaModule(),
@@ -1717,6 +1710,11 @@ public class ModuleManager implements java.io.Serializable {
 	 */
 	public boolean isActionsChanged() {
 		return actionsChanged;
+	}
+	
+	/** @since 5.7 */
+	public void setActionsChanged(boolean actionsChanged) { 
+		this.actionsChanged = actionsChanged; 
 	}
 
 	public boolean isReloadViewNeeded() {
@@ -1812,14 +1810,6 @@ public class ModuleManager implements java.io.Serializable {
 
 	public boolean isResetFormPostNeeded() {
 		return resetFormPostNeeded;
-	}
-
-	public boolean isActionsAddedOrRemoved() {
-		return actionsAddedOrRemoved;
-	}
-
-	public void setActionsAddedOrRemoved(boolean actionsAddedOrRemoved) {
-		this.actionsAddedOrRemoved = actionsAddedOrRemoved;
 	}
 
 }

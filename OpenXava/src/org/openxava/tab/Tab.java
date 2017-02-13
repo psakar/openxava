@@ -562,7 +562,7 @@ public class Tab implements java.io.Serializable {
 		
 	public MetaTab getMetaTab() throws XavaException  { 
 		if (metaTab == null) {				
-			try {				
+			try {			
 				metaTab = MetaComponent.get(getModelName()).getMetaTab(getTabName());
 			}
 			catch (ElementNotFoundException ex) {

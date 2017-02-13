@@ -31,7 +31,7 @@ if (manager.isButtonBarVisible()) {
 		if (!element.appliesToMode(mode)) continue;
 		if (element instanceof MetaAction){
 			MetaAction action = (MetaAction) element;
-			if (action.isHidden()) continue;
+			if (!manager.actionApplies(action)) continue; 
 			if (action.hasImage() || action.hasIcon()) {	
 			%>
 			<jsp:include page="barButton.jsp">

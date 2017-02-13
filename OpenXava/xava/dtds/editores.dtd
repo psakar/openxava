@@ -17,6 +17,7 @@
  icon CDATA #IMPLIED
  accion-iniciar CDATA #IMPLIED
  accion-liberar CDATA #IMPLIED 
+ elementos-seleccionables (true|false) "true"
 >
 
 <!ELEMENT propiedad EMPTY>

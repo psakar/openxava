@@ -106,9 +106,9 @@ public class FamilyWithInheritanceControllerTest extends ModuleTestBase {
 		execute("HideShowCRUDActions.hideDelete");
 		assertActions(actionsWithoutDelete);
 		execute("HideShowCRUDActions.showDelete");
-		assertActions(detailActions);	
+		assertActions(detailActions);
 		execute("HideShowCRUDActions.hideSaveDelete");
-		assertActions(actionsWithoutSaveDelete);
+		assertActions(actionsWithoutSaveDelete);  
 		execute("HideShowCRUDActions.showSaveDelete");
 		assertActions(detailActions);
 	}

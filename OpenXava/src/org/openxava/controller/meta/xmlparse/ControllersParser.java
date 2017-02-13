@@ -119,6 +119,7 @@ public class ControllersParser extends ParserBase {
 		result.setTakesLong(getAttributeBoolean(el, xtakes_long[lang]));
 		result.setConfirm(getAttributeBoolean(el, xconfirm[lang]));
 		result.setInEachRow(getAttributeBoolean(el, xin_each_row[lang]));
+		result.setProcessSelectedItems(getAttributeBoolean(el, xprocess_selected_items[lang])); 
 		fillSet(el, result);		
 		fillUseObject(el, result);
 		return result;
