@@ -28,5 +28,9 @@
 		<for-model model="Invent"/>
 		
 	</tab>
+	
+	<tab editors="List">		
+		<for-model model="Formula"/>
+	</tab>	
 		
 </tabs-default-values>

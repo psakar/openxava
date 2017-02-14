@@ -792,7 +792,8 @@ public class MetaTab implements java.io.Serializable, Cloneable {
 			if (t.getMetaRowStyles() != null && getMetaRowStyles() == null) setMetaRowStyles(t.getMetaRowStyles());
 			if (t.properties != null && properties == null) properties = t.properties;
 			if (!Is.emptyString(t.getBaseCondition()) && Is.emptyString(getBaseCondition())) setBaseCondition(t.getBaseCondition());
-			if (!Is.emptyString(t.getDefaultOrder()) & Is.emptyString(getDefaultOrder())) setDefaultOrder(t.getDefaultOrder());			
+			if (!Is.emptyString(t.getDefaultOrder()) & Is.emptyString(getDefaultOrder())) setDefaultOrder(t.getDefaultOrder());		
+			if (!Is.emptyString(t.getEditors()) && Is.emptyString(getEditors())) setEditors(t.getEditors());
 		}
 	}
 

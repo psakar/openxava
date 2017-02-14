@@ -1,6 +1,9 @@
 Change Log for OpenXava project
 ===============================
 
+- It's possible to remove Charts from all the modules of the application, using editors of tab in tabs-default-values.xml. 
+- New attribute editors in tab of tabs-default-values.xml to set the default editors (Charts, List, etc) for lists.
+- Delete selected action not available for Charts.
 - New attribute selectable-items in editor of editors.xml for list editors that allows selecting items.
 - New attribute process-selected-items in action of controllers.xml to hide the action when selecting item is not available. 
 - New attribute editors in @Tab to define a group of editors to be used for list formats.

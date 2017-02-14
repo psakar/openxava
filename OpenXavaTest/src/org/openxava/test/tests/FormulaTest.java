@@ -258,7 +258,10 @@ public class FormulaTest extends ModuleTestBase {
 		assertValidValues("accentuate.oid", cafeConLeche); 
 	}
 	
-	public void testHtmlTextStereotype() throws Exception {
+	public void testHtmlTextStereotype_editorsInTabDefaulValuest() throws Exception {
+		assertNoAction("ListFormat.select", "editor=Charts");
+		assertNoAction("ListFormat.select", "editor=List");
+
 		assertValueInList(0, 0, "HTML TEST");
 		assertValueInList(0, 1, "Esto es una prueba de HTML Dex oscuro negro y trágico rojo, de muerte y dolor Y largo, verde y marrón como los ojitos del mundo.");
 		execute("Mode.detailAndFirst");
