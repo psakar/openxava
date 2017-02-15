@@ -260,5 +260,25 @@ public class Maps {
 			}
 		}
 	}
+	
+	/**
+	 * Converts the objects sent into a map. <p>
+	 * 
+	 * Useful to initialize maps:
+	 * <pre>
+	 * Map<String, Integer> scores = Maps.toMap("Manolo", 7, "Angela", 10);
+	 * </pre>
+	 * 
+	 * @param Vararg with key, value, key, value, etc
+	 * @since 5.7
+	 */
+	
+	public static Map toMap(Object ... values) { 
+		Map map = new HashMap();
+		for (int i=0; i<values.length; i += 2) {
+			map.put(values[i], values[i + 1]);
+		}
+		return map;
+	}
 		
 }
