@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Editors for list formats defining several <for-tabs/> editors in editors.xml.
 - New method toMap() in Maps utility to create a Map from a varargs of objects.
 - It's possible to remove Charts from all the modules of the application, using editors of tab in tabs-default-values.xml. 
 - New attribute editors in tab of tabs-default-values.xml to set the default editors (Charts, List, etc) for lists.
