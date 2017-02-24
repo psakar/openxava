@@ -2722,18 +2722,49 @@ public class ModuleTestBase extends TestCase {
 	}
 
 	/**
-	 * Assert the content of a comment of DISCUSSION property as text. <p> 
+	 * Assert the content of a comment of DISCUSSION property as text,
+	 * including header data like user and date. <p> 
 	 * 
 	 * @since 5.6
 	 */
-	protected void assertDiscussionCommentText(String name, int row, String extendedText) {  
+	protected void assertDiscussionCommentText(String name, int row, String extendedText) {
+		assertEquals(extendedText, getDiscussionCommentText(name, row));
+	}
+	
+	/**
+	 * Get the content of a comment of DISCUSSION property as text,
+	 * including header data like user and date. <p> 
+	 * 
+	 * @since 5.7
+	 */
+	protected String getDiscussionCommentText(String name, int row) { 
 		int i=0;
 		for (DomElement comment: getDiscussionCommentsElement(name).getChildElements()) {
-			if (i == row) {
-				assertEquals(extendedText, comment.asText());
-				return;
+			if (i++ == row) {
+				return comment.asText();
 			}
 		}
+		throw new IndexOutOfBoundsException(XavaResources.getString("not_discussion_comment_at", row)); 
+	}
+	
+	/**
+	 * Get the content of a comment of DISCUSSION property as text,
+	 * just the content of the comment excluding header data.<p> 
+	 * 
+	 * @since 5.7
+	 */
+	protected String getDiscussionCommentContentText(String name, int row) {  
+		return getDiscussionCommentText(name, row).split("\r\n", 2)[1];
+	}
+	
+	/**
+	 * Assert the content of a comment of DISCUSSION property as text,
+	 * just the content of the comment excluding header data. <p> 
+	 * 
+	 * @since 5.7
+	 */
+	protected void assertDiscussionCommentContentText(String name, int row, String expectedText) {  
+		assertEquals(expectedText, getDiscussionCommentContentText(name, row));
 	}
 
 	/**

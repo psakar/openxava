@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- New methods getDiscussionCommentText(), getDiscussionCommentContentText() and assertDiscussionCommentContentText() in ModuleTestBase.
+- Fix: ModuleTestBase.assertDiscussionCommentText() only works for row 0.
 - Editors for list formats defining several <for-tabs/> editors in editors.xml.
 - New method toMap() in Maps utility to create a Map from a varargs of objects.
 - It's possible to remove Charts from all the modules of the application, using editors of tab in tabs-default-values.xml. 
