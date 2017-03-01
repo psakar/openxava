@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Logging of time of each AJAX request, in debug level.
 - New methods getDiscussionCommentText(), getDiscussionCommentContentText() and assertDiscussionCommentContentText() in ModuleTestBase.
 - Fix: ModuleTestBase.assertDiscussionCommentText() only works for row 0.
 - Editors for list formats defining several <for-tabs/> editors in editors.xml.

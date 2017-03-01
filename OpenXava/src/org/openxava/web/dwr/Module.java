@@ -45,6 +45,7 @@ public class Module extends DWRBase {
 	private String baseFolder = null;
 	
 	public Result request(HttpServletRequest request, HttpServletResponse response, String application, String module, String additionalParameters, Map values, Map multipleValues, String [] selected, String [] deselected, Boolean firstRequest, String baseFolder) throws Exception {
+		long ini = System.currentTimeMillis(); 
 		Result result = new Result(); 
 		result.setApplication(application); 
 		result.setModule(module);
@@ -120,6 +121,8 @@ public class Module extends DWRBase {
 		finally {			
 			if (manager != null) manager.commit(); // If hibernate, jpa, etc is used to render some value here is commit
 			cleanRequest();   
+			long time = System.currentTimeMillis() - ini; 
+			log.debug(XavaResources.getString("request_time") + "=" + time + " ms"); 
 		}
 	}
 	
