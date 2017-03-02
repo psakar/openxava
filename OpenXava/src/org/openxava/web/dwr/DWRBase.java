@@ -29,10 +29,12 @@ class DWRBase {
 		request.setAttribute("style", Style.getInstance(request));
 		ModuleManager manager = (ModuleManager) getContext(request).get(application, module, "manager");
 		manager.resetPersistence();
+		SessionData.setCurrent(request); 
 	}
 	
 	protected void cleanRequest() { 
 		ModuleContext.cleanCurrentWindowId(); 
+		SessionData.clean(); 
 	}
 
 	protected static void checkSecurity(HttpServletRequest request, String application, String module) {
