@@ -134,8 +134,20 @@ public class MetaProperty extends MetaMember implements Cloneable {
 	}
 	
 	public String getQualifiedLabel(Locale locale) throws XavaException {
-		if (!Is.emptyString(label)) return label; 
-		String labelId = getId();
+		String labelId = getId(); 
+		boolean tabReferenceLabel = isTabReferenceLabel(labelId);
+		if (!Is.emptyString(label) && !tabReferenceLabel) return label;
+		String qualifiedName = getQualifiedName();
+		if (tabReferenceLabel && (
+				labelId.endsWith(".name") || labelId.endsWith(".nombre") ||
+				labelId.endsWith(".description") || labelId.endsWith(".descripcion") ||
+				labelId.endsWith(".title") || labelId.endsWith(".titulo") 
+			)
+		) 
+		{
+			labelId = Strings.noLastTokenWithoutLastDelim(labelId, ".");
+			qualifiedName = Strings.noLastTokenWithoutLastDelim(qualifiedName, ".");
+		}
 		if (Labels.existsExact(labelId, locale)) {
 			return getLabel(locale);
 		}
@@ -144,17 +156,26 @@ public class MetaProperty extends MetaMember implements Cloneable {
 			if (Labels.existsExact(genericIdForTab, locale)) {
 				return getLabel(locale, genericIdForTab);
 			}
-			return Labels.getQualified(getMetaModel().getName() + "." + getQualifiedName(), locale);
+			return Labels.getQualified(getMetaModel().getName() + "." + qualifiedName, locale);
 		}
-		return Labels.getQualified(getQualifiedName(), locale);
+		return Labels.getQualified(qualifiedName, locale);
+	}
+
+	private boolean isTabReferenceLabel(String labelId) {
+		String [] tokens = labelId.split("\\.");
+		if (!isTabLabel(tokens)) return false;
+		return tokens.length > 4;
 	}
 	
 	private boolean isTabLabel(String labelId) {  
-		String [] tokens = labelId.split("\\.");		
+		return isTabLabel(labelId.split("\\."));		
+	}
+	
+	private boolean isTabLabel(String [] tokens) {  
 		if (tokens.length < 2) return false;
 		return "tab".equals(tokens[1]) || "tabs".equals(tokens[1]);
 	}
-	
+
 	public String getQualifiedLabel(ServletRequest request) throws XavaException { 
 		return getQualifiedLabel(getLocale(request));
 	}	

@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Labels for properties of references in list use the reference label if the property is name, description or title.
 - SessionData class to access session data from any part of your application: actions, calculators, validators, even from entities.
 - Logging of time of each AJAX request, in debug level.
 - New methods getDiscussionCommentText(), getDiscussionCommentContentText() and assertDiscussionCommentContentText() in ModuleTestBase.
