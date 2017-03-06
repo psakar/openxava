@@ -113,7 +113,8 @@ if (!renderedView) {
 						"&closed=" + view.isFrameClosed(frameId); 
 %>
 			<jsp:include page='<%=frameActionsURL%>'/>
-			<%=style.getFrameActionsEndDecoration()%> 					 					
+			<%=style.getFrameActionsEndDecoration()%> 				
+			<%@ include file="propertyActionsExt.jsp"%>					
 			<%=style.getFrameHeaderEndDecoration() %>
 			<%=style.getFrameContentStartDecoration(frameId + "content", view.isFrameClosed(frameId))%>
 <%	
