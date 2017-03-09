@@ -444,7 +444,7 @@ public class Tab implements java.io.Serializable {
 		if (labels == null) return;
 		for (MetaProperty p: metaProperties) {
 			if (labels.containsKey(p.getQualifiedName())) {
-				p.setLabel(labels.get(p.getQualifiedName()));				
+				p.setQualifiedLabel(labels.get(p.getQualifiedName())); 
 			}
 		}
 	}
@@ -2224,8 +2224,9 @@ public class Tab implements java.io.Serializable {
 				preferences.put(SUM_PROPERTIES_NAMES, Strings.toString(getSumPropertiesNames()));
 				preferences.putBoolean(ROWS_HIDDEN, rowsHidden); 
 				preferences.putBoolean(FILTER_VISIBLE, filterVisible); 
-				preferences.putInt(PAGE_ROW_COUNT, pageRowCount);  
-				preferences.put(EDITOR, editor); 
+				preferences.putInt(PAGE_ROW_COUNT, pageRowCount);
+				if (editor == null) preferences.remove(EDITOR);
+				else preferences.put(EDITOR, editor);
 				if (columnWidths != null) { 
 					for (Map.Entry<String, Integer> columnWidth: columnWidths.entrySet()) {
 						preferences.putInt(

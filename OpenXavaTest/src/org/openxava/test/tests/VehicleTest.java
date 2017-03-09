@@ -23,7 +23,7 @@ public class VehicleTest extends ModuleTestBase {
 		assertListNotEmpty();
 		execute("List.viewDetail", "row=0");
 		setValue("state.id", "AZ");
-		setValue("city.KEY", "[.1.AZ.]");
+		setValue("city.KEY", "[.1.AZ.]"); 
 		execute("CRUD.save");
 		assertMessage("Vehicle modified successfully");
 		assertNoErrors();

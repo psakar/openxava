@@ -15,7 +15,7 @@ public class Color2Test extends ModuleTestBase {
 	
 	public void testDescriptionsListInMyReport() throws Exception { 
 		execute("ExtendedPrint.myReports");
-		assertValueInCollection("columns", 4, 0, "Name of Used to");
+		assertValueInCollection("columns", 4, 0, "Used to"); 
 		execute("MyReport.editColumn", "row=4,viewObject=xava_view_columns");
 		assertNotExists("comparator");
 		assertNotExists("value");
@@ -66,7 +66,7 @@ public class Color2Test extends ModuleTestBase {
 		assertPopupPDFLine(3, "0 ROJO FF0000 RED CAR 3 PLACES");
 		
 		execute("ExtendedPrint.myReports");
-		assertValueInCollection("columns", 4, 0, "Name of Used to");
+		assertValueInCollection("columns", 4, 0, "Used to"); 
 		assertValueInCollection("columns", 4, 2, "CAR");
 		execute("MyReport.editColumn", "row=4,viewObject=xava_view_columns");
 		assertValue("descriptionsListValue", "1:_:CAR"); 		
@@ -76,7 +76,7 @@ public class Color2Test extends ModuleTestBase {
 	}
 	
 	public void testFilterDescriptionsList_keyReferenceWithSameNameThatPropertyFather() throws Exception{ 
-		assertLabelInList(4, "Name of Used to");
+		assertLabelInList(4, "Used to"); 
 		String [][] validValues = {
 			{ "", "" },
 			{ "2:_:LAMPPOST", "LAMPPOST" },

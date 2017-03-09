@@ -18,7 +18,7 @@ class CustomerMinimumTest extends ModuleTestBase {
 		setValue "number", "66"		
 		setValue "name", "JUNIT TEST"
 		execute "CRUD.save"
-		assertNoErrors();
+		assertNoErrors(); 
 		
 		changeModule "CustomerSimple"
 		execute "CRUD.new"

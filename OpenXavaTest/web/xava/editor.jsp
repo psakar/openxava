@@ -73,9 +73,8 @@ if (labelFormat == MetaPropertyView.SMALL_LABEL) {
 <% } %>
 </span>
 
-<%@ include file="propertyActionsExt.jsp"%>
-
 <% if (!hasFrame) { %>
+<%@ include file="propertyActionsExt.jsp"%> 
 <%=postEditor%>
 <% if (labelFormat == MetaPropertyView.SMALL_LABEL) { %>
 <% } %>

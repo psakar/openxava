@@ -55,7 +55,7 @@ public class AddElementsToCollectionAction extends SaveElementInCollectionAction
 		if (failed > 0) addError("elements_not_added_to_collection", new Integer(failed), currentCollectionLabel);
 		getView().setKeyEditable(false); // To mark as saved
 		getTab().deselectAll();
-		resetDescriptionsCache(); 		
+		resetDescriptionsCache();
 		closeDialog(); 
 	}
 

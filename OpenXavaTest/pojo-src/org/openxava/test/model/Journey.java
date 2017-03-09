@@ -25,7 +25,7 @@ public class Journey {
 		
 	@Column(length=40)
 	private String description;	
-
+	
 	public String getOid() {
 		return oid;
 	}

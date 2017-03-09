@@ -23,6 +23,10 @@
 		release-action="Chart.release">
 		<for-tabs/>
 	</editor>	
+	
+	<editor name="Cards" url="cardsEditor.jsp" icon="view-module" selectable-items="false">
+		<for-tabs/>
+	</editor>	
 		
 	<editor name="Reference" url="referenceEditor.jsp" frame="true" composite="true">
 		<for-references/>

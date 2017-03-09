@@ -5422,6 +5422,7 @@ OpenXava/src/org/openxava/actions/JasperReportBaseAction.java -text
 OpenXava/src/org/openxava/actions/LoadImageAction.java -text
 OpenXava/src/org/openxava/actions/LoadImageIntoGalleryAction.java -text
 OpenXava/src/org/openxava/actions/LoadLiferayDocumentAction.java -text
+OpenXava/src/org/openxava/actions/LoadMoreCardsAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/MaximizeImageAction.java -text
 OpenXava/src/org/openxava/actions/MinimizeImageAction.java -text
 OpenXava/src/org/openxava/actions/ModifyFromReferenceAction.java -text
@@ -5983,6 +5984,8 @@ OpenXava/src/org/openxava/web/dwr/TableId.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/dwr/View.java -text
 OpenXava/src/org/openxava/web/dwr/ViewBase.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/editors/AttachedFile.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/web/editors/Card.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/web/editors/CardIterator.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/editors/DiscussionComment.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/editors/FilePersistorFactory.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/editors/FileSystemPersistor.java -text svneol=unset#text/plain
@@ -6229,6 +6232,7 @@ OpenXava/web/editors/calendar/skins/aqua/status-bg.gif -text
 OpenXava/web/editors/calendar/skins/aqua/theme.css -text svneol=unset#text/plain
 OpenXava/web/editors/calendar/skins/aqua/title-bg.gif -text
 OpenXava/web/editors/calendar/skins/aqua/today-bg.gif -text
+OpenXava/web/editors/cardsEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/changeImage.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/chartColumnNameEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/chartDataEditor.jsp -text svneol=unset#text/plain
@@ -9225,6 +9229,10 @@ OpenXavaTest/i18n/portlets/Appointment_ca.properties -text svneol=unset#text/pla
 OpenXavaTest/i18n/portlets/Appointment_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Appointment_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Appointment_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Article_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Article_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Article_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Article_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Artist_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Artist_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Artist_es.properties -text svneol=unset#text/plain
@@ -9537,6 +9545,10 @@ OpenXavaTest/i18n/portlets/CustomerNotAligned_ca.properties -text svneol=unset#t
 OpenXavaTest/i18n/portlets/CustomerNotAligned_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerNotAligned_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerNotAligned_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CustomerOnlyCardList_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CustomerOnlyCardList_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CustomerOnlyCardList_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CustomerOnlyCardList_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerRadioButton_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerRadioButton_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerRadioButton_es.properties -text svneol=unset#text/plain
@@ -9581,6 +9593,10 @@ OpenXavaTest/i18n/portlets/CustomerTwoSellersNumberInList_ca.properties -text sv
 OpenXavaTest/i18n/portlets/CustomerTwoSellersNumberInList_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerTwoSellersNumberInList_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerTwoSellersNumberInList_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CustomerWithCardList_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CustomerWithCardList_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CustomerWithCardList_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/CustomerWithCardList_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerWithSection_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerWithSection_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/CustomerWithSection_es.properties -text svneol=unset#text/plain
@@ -10097,6 +10113,10 @@ OpenXavaTest/i18n/portlets/Parent_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Parent_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Parent_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Parent_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/PerishableArticle_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/PerishableArticle_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/PerishableArticle_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/PerishableArticle_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Phone_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Phone_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Phone_es.properties -text svneol=unset#text/plain
@@ -10337,6 +10357,10 @@ OpenXavaTest/i18n/portlets/Seller_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Seller_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Seller_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Seller_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ServiceExpenses2_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ServiceExpenses2_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ServiceExpenses2_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/ServiceExpenses2_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/ServiceExpenses_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/ServiceExpenses_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/ServiceExpenses_es.properties -text svneol=unset#text/plain
@@ -10393,6 +10417,10 @@ OpenXavaTest/i18n/portlets/SlotMachine_ca.properties -text svneol=unset#text/pla
 OpenXavaTest/i18n/portlets/SlotMachine_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/SlotMachine_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/SlotMachine_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/SocialNetwork_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/SocialNetwork_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/SocialNetwork_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/SocialNetwork_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/StateHibernate_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/StateHibernate_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/StateHibernate_es.properties -text svneol=unset#text/plain
@@ -10469,6 +10497,14 @@ OpenXavaTest/i18n/portlets/Thing_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Thing_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Thing_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Thing_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TicketLine_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TicketLine_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TicketLine_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/TicketLine_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Ticket_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Ticket_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Ticket_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Ticket_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/ToDoComponentTask_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/ToDoComponentTask_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/ToDoComponentTask_es.properties -text svneol=unset#text/plain
@@ -10650,6 +10686,7 @@ OpenXavaTest/jboss-hypersonic.properties -text
 OpenXavaTest/license.txt -text svneol=unset#text/plain
 OpenXavaTest/manual-tests/LayoutTest.txt -text svneol=unset#text/plain
 OpenXavaTest/manual-tests/PrettyPrintingTest.txt -text svneol=unset#text/plain
+OpenXavaTest/manual-tests/ScrollingTest.txt -text svneol=unset#text/plain
 OpenXavaTest/persistence/GalleryImage.hbm.xml -text
 OpenXavaTest/persistence/META-INF/persistence.xml -text
 OpenXavaTest/persistence/hibernate-junit.cfg.xml -text
@@ -11638,6 +11675,7 @@ OpenXavaTest/web/xava/editors/calendar/skins/aqua/status-bg.gif -text
 OpenXavaTest/web/xava/editors/calendar/skins/aqua/theme.css -text
 OpenXavaTest/web/xava/editors/calendar/skins/aqua/title-bg.gif -text
 OpenXavaTest/web/xava/editors/calendar/skins/aqua/today-bg.gif -text
+OpenXavaTest/web/xava/editors/cardsEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/carriersNamesEditor.jsp -text
 OpenXavaTest/web/xava/editors/changeFile.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/changeImage.jsp -text

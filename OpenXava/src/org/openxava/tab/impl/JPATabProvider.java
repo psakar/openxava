@@ -136,9 +136,16 @@ public class JPATabProvider extends TabProviderBase {
 			return new DataChunk(Collections.EMPTY_LIST, true, getCurrent()); // Empty
 		}		
 		try {
+			// If you change this code verify that Cards editor do the minimum amount of SELECTs on scroll loading, 
+			// testing edge cases, such as 119, 120 and 121 if chunk size is 120 
 			List data = nextBlock();			
 			setCurrent(getCurrent() + data.size());			
-			setEOF(data.size() != getChunkSize());
+			setEOF(data.size() <= getChunkSize());
+			if (!isEOF()) {
+				// We remove the one we add to know if EOF
+				data.remove(data.size() - 1);
+				setCurrent(getCurrent() - 1);
+			}
 			return new DataChunk(data, isEOF(), getCurrent());
 		}
 		catch (Exception ex) {
@@ -165,7 +172,7 @@ public class JPATabProvider extends TabProviderBase {
 		}
 		log.debug(message);
 		
-		query.setMaxResults(getChunkSize()); 
+		query.setMaxResults(getChunkSize()==Integer.MAX_VALUE?Integer.MAX_VALUE:getChunkSize() + 1); // One more to know if EOF
 		query.setFirstResult(getCurrent());
 		return query.getResultList();						
 	}

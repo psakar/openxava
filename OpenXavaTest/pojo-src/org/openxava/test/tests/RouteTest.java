@@ -50,7 +50,7 @@ public class RouteTest extends ModuleTestBase {
 			{ "7", "SIETE" },
 			{ "3", "XAVA" }
 		};		
-		assertValidValuesInCollection("visits", 1, "product.number", productValidValues);
+		assertValidValuesInCollection("visits", 1, "product.number", productValidValues); 
 		setValueInCollection("visits", 1, "product.number", "3");
 		assertValueInCollection("visits", 1, "description", "PRODUCT: 3");
 		

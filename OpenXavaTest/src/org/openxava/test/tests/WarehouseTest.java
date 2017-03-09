@@ -15,7 +15,7 @@ public class WarehouseTest extends WarehouseSplitTestBase {
 	}
 	
 	public void testToolTip_defaultListLabels() throws Exception { 
-		assertLabelInList(0, "Zone");
+		assertLabelInList(0, "Zone"); 
 		assertLabelInList(1, "Warehouse number");
 		assertLabelInList(2, "Name"); 
 		execute("CRUD.new");	
@@ -29,7 +29,7 @@ public class WarehouseTest extends WarehouseSplitTestBase {
 	}
 	
 	public void testSortByTwoColumns() throws Exception {
-		execute("List.orderBy", "property=number");
+		execute("List.orderBy", "property=number"); 
 		execute("List.orderBy", "property=zoneNumber");
 		assertValueInList(0, 0, "1"); assertValueInList(0, 1, "1");
 		assertValueInList(1, 0, "1"); assertValueInList(1, 1, "2");
@@ -80,7 +80,7 @@ public class WarehouseTest extends WarehouseSplitTestBase {
 	}
 	
 	public void testChangePageRowCount() throws Exception { 
-		assertChangeRowCount(10, 5);		
+		assertChangeRowCount(10, 5); 		
 		tearDown(); setUp();
 		assertChangeRowCount(5, 10); 
 		
@@ -94,7 +94,6 @@ public class WarehouseTest extends WarehouseSplitTestBase {
 		
 		assertChangeRowCount(5, 10);
 		
-		execute("List.goPage", "page=6");
 		execute("List.goPage", "page=7");
 		assertListRowCount(3); 
 		String value60 = getValueInList(0, 2);
@@ -192,15 +191,6 @@ public class WarehouseTest extends WarehouseSplitTestBase {
 		assertValue("name", warehouseName);
 	}
 	
-	public void testPage7InList() throws Exception {
-		execute("List.goPage", "page=6");
-		execute("List.goPage", "page=7");
-		assertListRowCount(3); 
-		execute("CRUD.new");
-		execute("Mode.list");
-		assertListRowCount(3);
-	}
-	
 	public void testChangePageRowCountInTab_listTitle() throws Exception {
 		assertListTitle("Warehouse report"); 
 		assertListRowCount(10);
@@ -264,15 +254,7 @@ public class WarehouseTest extends WarehouseSplitTestBase {
 		assertError("Object of type Warehouse does not exists with key Warehouse number:666, Zone:66");
 		assertErrorsCount(1);		
 	}
-		
-	public void testNavigateInListWithALotOfObjects() throws Exception { 
-		assertListRowCount(10);
-		execute("List.goPage", "page=6");
-		assertListRowCount(10);
-		execute("List.goNextPage");
-		assertListRowCount(3); // It assumes 63 objects  
-	}
-				
+	
 	public void testNotLoseFilterOnChangeMode() throws Exception {
 		assertListRowCount(10);
 		setConditionValues(new String [] {"1"} );

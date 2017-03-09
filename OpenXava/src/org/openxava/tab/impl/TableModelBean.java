@@ -322,4 +322,14 @@ public class TableModelBean implements IXTableModel, java.io.Serializable {
 		}
 	}
 
+	/** @since 5.7 */
+	public int getChunkSize() { 
+		return entityTab.getChunkSize();
+	}
+
+	/** @since 5.7 */
+	public boolean isAllLoaded() { 
+		return allLoaded;
+	}
+	
 }

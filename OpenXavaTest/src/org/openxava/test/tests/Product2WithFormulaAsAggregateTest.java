@@ -28,7 +28,7 @@ public class Product2WithFormulaAsAggregateTest extends ModuleTestBase {
 		setValue("formula.name", "JUNIT FORMULA FROM PRODUCT");
 		
 		execute("CRUD.save");
-		assertNoErrors();
+		assertNoErrors(); 
 		
 		// Searching to verify
 		assertValue("description", "");

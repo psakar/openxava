@@ -7,13 +7,13 @@
 	<entity>
 	
 		<property name="oid" key="true" hidden="true" type="String">
-			<default-value-calculator class="org.openxava.calculators.UUIDCalculator"/>
+			<default-value-calculator class="org.openxava.calculators.UUIDCalculator" on-create="true"/> 
 		</property>
 		
 		<property name="name" type="String" size="20"/>
 		<reference name="averageSpeed"/>				
 		<property name="description" type="String" size="40"/>
-	
+			
 	</entity>
 	
 	<entity-mapping table="XAVATEST@separator@JOURNEY">

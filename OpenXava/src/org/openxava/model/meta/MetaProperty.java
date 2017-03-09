@@ -63,6 +63,7 @@ public class MetaProperty extends MetaMember implements Cloneable {
 	private String requiredMessage = "required";
 	
 	private String label;
+	private String qualifiedLabel;   
 	
 	public void setLabel(String newLabel) {
 		super.setLabel(newLabel);
@@ -134,9 +135,13 @@ public class MetaProperty extends MetaMember implements Cloneable {
 	}
 	
 	public String getQualifiedLabel(Locale locale) throws XavaException {
-		String labelId = getId(); 
+		if (!Is.emptyString(qualifiedLabel)) return qualifiedLabel; 
+		String labelId = getId();
 		boolean tabReferenceLabel = isTabReferenceLabel(labelId);
 		if (!Is.emptyString(label) && !tabReferenceLabel) return label;
+		if (Labels.existsExact(labelId, locale)) {
+			return getLabel(locale);
+		}
 		String qualifiedName = getQualifiedName();
 		if (tabReferenceLabel && (
 				labelId.endsWith(".name") || labelId.endsWith(".nombre") ||
@@ -147,9 +152,6 @@ public class MetaProperty extends MetaMember implements Cloneable {
 		{
 			labelId = Strings.noLastTokenWithoutLastDelim(labelId, ".");
 			qualifiedName = Strings.noLastTokenWithoutLastDelim(qualifiedName, ".");
-		}
-		if (Labels.existsExact(labelId, locale)) {
-			return getLabel(locale);
 		}
 		if (isTabLabel(labelId)) {
 			String genericIdForTab = "*" + Strings.noFirstToken(labelId, ".");
@@ -162,16 +164,15 @@ public class MetaProperty extends MetaMember implements Cloneable {
 	}
 
 	private boolean isTabReferenceLabel(String labelId) {
-		String [] tokens = labelId.split("\\.");
-		if (!isTabLabel(tokens)) return false;
-		return tokens.length > 4;
+		if (!isTabLabel(labelId)) return false;
+		int idx = labelId.indexOf(".properties.");
+		if (idx < 0) return false;
+		String property = labelId.substring(idx + ".properties.".length());
+		return property.split("\\.").length > 1;
 	}
 	
-	private boolean isTabLabel(String labelId) {  
-		return isTabLabel(labelId.split("\\."));		
-	}
-	
-	private boolean isTabLabel(String [] tokens) {  
+	private boolean isTabLabel(String labelId) {   
+		String [] tokens = labelId.split("\\.");		
 		if (tokens.length < 2) return false;
 		return "tab".equals(tokens[1]) || "tabs".equals(tokens[1]);
 	}
@@ -1158,6 +1159,14 @@ public class MetaProperty extends MetaMember implements Cloneable {
 	}
 	public void setRequiredMessage(String requiredMessage) {
 		this.requiredMessage = requiredMessage;
+	}
+
+	public String getQualifiedLabel() {
+		return qualifiedLabel;
+	}
+
+	public void setQualifiedLabel(String qualifiedLabel) {
+		this.qualifiedLabel = qualifiedLabel;
 	}
 	
 }

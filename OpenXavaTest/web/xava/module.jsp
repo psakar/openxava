@@ -85,7 +85,8 @@
 	String version = org.openxava.controller.ModuleManager.getVersion();
 	String realPath = request.getSession().getServletContext()
 			.getRealPath("/");			
-	manager.resetPersistence(); 
+	manager.resetPersistence();
+	org.openxava.util.SessionData.setCurrent(request); 
 %>
 <jsp:include page="execute.jsp"/>
 <%
@@ -320,4 +321,5 @@ document.additionalParameters="<%=getAdditionalParameters(request)%>";
 <% }
 manager.commit();
 context.cleanCurrentWindowId(); 
+org.openxava.util.SessionData.clean(); 
 %>

@@ -104,14 +104,14 @@ public class CarrierTest extends CarrierTestBase {
 		assertLabelInCollection("fellowCarriers", 1, "Name");
 		assertLabelInCollection("fellowCarriers", 2, "Calculated");
 		assertLabelInCollection("fellowCarriers", 3, "Remarks");				
-		assertLabelInCollection("fellowCarriers", 4, "Name of Warehouse");
+		assertLabelInCollection("fellowCarriers", 4, "Warehouse"); // This is "Name of Warehouse" with label optimized 
 		 		
 		// Other customizations
 		moveColumn("fellowCarriers", 3, 4); 
 		assertLabelInCollection("fellowCarriers", 0, "Number");
 		assertLabelInCollection("fellowCarriers", 1, "Name");
 		assertLabelInCollection("fellowCarriers", 2, "Calculated");
-		assertLabelInCollection("fellowCarriers", 3, "Name of Warehouse");
+		assertLabelInCollection("fellowCarriers", 3, "Warehouse"); // This is "Name of Warehouse" with label optimized
 		assertLabelInCollection("fellowCarriers", 4, "Remarks");
 						
 		removeColumn("fellowCarriers", 4); 
@@ -119,7 +119,7 @@ public class CarrierTest extends CarrierTestBase {
 		assertLabelInCollection("fellowCarriers", 0, "Number");
 		assertLabelInCollection("fellowCarriers", 1, "Name");
 		assertLabelInCollection("fellowCarriers", 2, "Calculated");
-		assertLabelInCollection("fellowCarriers", 3, "Name of Warehouse");
+		assertLabelInCollection("fellowCarriers", 3, "Warehouse"); // This is "Name of Warehouse" with label optimized
 		
 		// Adding clicking in row
 		execute("List.addColumns", "collection=fellowCarriers");
@@ -128,7 +128,7 @@ public class CarrierTest extends CarrierTestBase {
 		assertLabelInCollection("fellowCarriers", 0, "Number");
 		assertLabelInCollection("fellowCarriers", 1, "Name");
 		assertLabelInCollection("fellowCarriers", 2, "Calculated");
-		assertLabelInCollection("fellowCarriers", 3, "Name of Warehouse");
+		assertLabelInCollection("fellowCarriers", 3, "Warehouse"); // This is "Name of Warehouse" with label optimized
 		assertLabelInCollection("fellowCarriers", 4, "Warehouse number");
 		
 		// Restoring		

@@ -487,8 +487,49 @@ public class Style {
 	public String getChartType() {  
 		return "ox-chart-type";
 	}
+	
+	/**
+	 * @since 5.7
+	 */
+	public String getCards() {
+		return "ox-cards";
+	}
 
-				
+	/**
+	 * @since 5.7
+	 */
+	public String getCard() {
+		return "ox-card";
+	}
+	
+	/**
+	 * @since 5.7
+	 */
+	public String getCardHeader() {
+		return "ox-card-header";
+	}
+
+	/**
+	 * @since 5.7
+	 */
+	public String getCardSubheader() {
+		return "ox-card-subheader";
+	}
+	
+	/**
+	 * @since 5.7
+	 */
+	public String getCardContent() {
+		return "ox-card-content";
+	}
+		
+	/**
+	 * @since 5.7
+	 */
+	public String getNoObjects() {
+		return "ox-no-objects";
+	}
+			
 	public String getListCellSpacing() {
 		return ""; 
 	}

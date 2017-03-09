@@ -27,7 +27,7 @@ public class DriverTest extends ModuleTestBase {
 	
 	public void testNavigationBySelected() throws Exception {
 		changeModule("DriverWithTabName");
-		assertLabelInList(0, "Name");
+		assertLabelInList(0, "Name"); 
 		assertValueInList(0, 0, "ALONSO");
 		assertValueInList(2, 0, "LORENZO");
 		checkRow(0);

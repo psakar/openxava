@@ -4,6 +4,9 @@ import org.openxava.test.model.*;
 import org.openxava.tests.*;
 import org.openxava.util.*;
 
+import com.gargoylesoftware.htmlunit.*;
+import com.gargoylesoftware.htmlunit.html.*;
+
 /**
  * 
  * @author Javier Paniza
@@ -105,7 +108,51 @@ public class ProductTest extends ModuleTestBase {
 		
 		assertPopupPDFLinesCount(11); // There are 7 products, but now without the summation
 	}
-			
+	
+	public void testCards() throws Exception { 
+		execute("ListFormat.select", "editor=Cards");
+		assertListRowCount(7);
+		assertValueInList(2, "XAVA\r\n3\r\nUnit price: 0.00, Unit price in pesetas: 0");
+		
+		assertFalse(getHtml().contains("There are no records"));
+		assertTrue(getHtmlPage().getElementById("xava_loading_more_elements") == null);
+		
+		// To test if the click works, specially that the javascript is well formed including the correct row an so,
+		// for a regular test using execute("List.viewDetail", "row=2") is the way to go
+		HtmlElement body = (HtmlElement) getHtmlPage().getElementsByTagName("body").get(0);
+		HtmlElement card = body.getElementsByAttribute("div", "class", "ox-card").get(2);
+		assertEquals("XAVA\r\n3\r\nUnit price: 0.00, Unit price in pesetas: 0", card.asText());
+		assertNoAction("CRUD.save");
+		String onClick = card.getOnClickAttribute();
+		assertTrue(onClick.startsWith("if (!getSelection().toString()) ")); // getSelection() does not work in HtmlUnit
+		onClick = onClick.replace("if (!getSelection().toString()) ", "");	// so we remove it				 
+		getHtmlPage().executeJavaScript(onClick);
+		getWebClient().waitForBackgroundJavaScriptStartingBefore(10000);
+		assertAction("CRUD.save");
+		assertValue("number", "3");
+		assertValue("description", "XAVA");
+		
+		execute("Mode.list");
+		execute("ListFormat.select", "editor=List");
+		assertListRowCount(7);
+		setConditionValues("66");
+		execute("List.filter");
+		assertListRowCount(0);
+		execute("ListFormat.select", "editor=Cards");
+		assertListRowCount(0);
+		assertTrue(getHtml().contains("There are no records"));
+		
+		execute("ListFormat.select", "editor=List");
+		assertListRowCount(0);
+		setConditionValues("1");
+		execute("List.filter");
+		assertListRowCount(1);
+		execute("ListFormat.select", "editor=Cards");
+		assertListRowCount(1); // This was 2 because a bug, it shown "Loading..."
+		
+		execute("ListFormat.select", "editor=List");
+	}
+		
 	public void testFiltersInDescriptionsEditor() throws Exception {
 		execute("CRUD.new");
 		execute("Product.setLimitZoneTo1"); 

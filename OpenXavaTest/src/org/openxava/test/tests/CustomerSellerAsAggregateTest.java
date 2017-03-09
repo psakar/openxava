@@ -45,7 +45,7 @@ public class CustomerSellerAsAggregateTest extends ModuleTestBase {
 		setValue("seller.name", "SELLER MODIFIED FROM CUSTOMER");
 		
 		execute("CRUD.save");
-		assertNoErrors();
+		assertNoErrors(); 
 		
 		// Searching to verify
 		assertValue("name", "");

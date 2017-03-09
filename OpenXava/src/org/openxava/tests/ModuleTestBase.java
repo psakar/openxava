@@ -18,6 +18,7 @@ import org.openxava.hibernate.*;
 import org.openxava.jpa.*;
 import org.openxava.model.meta.*;
 import org.openxava.tab.*;
+import org.openxava.tab.impl.*;
 import org.openxava.tab.meta.*;
 import org.openxava.util.*;
 import org.openxava.view.meta.*;
@@ -1377,14 +1378,25 @@ public class ModuleTestBase extends TestCase {
 		return getTableCellInList(row, column).asText().trim();
 	}
 	
-	private HtmlTable getTable(String id, String errorId) { 
+	/**
+	 * @since 5.7 
+	 */
+	protected String getValueInList(int row) throws Exception { 
+		return getElementInList(row).asText().trim();
+	}
+	
+	private HtmlElement getListElement(String id, String errorId) {  
 		try {
-			return (HtmlTable) getElementById(id);
+			return getElementById(id);
 		}
 		catch (com.gargoylesoftware.htmlunit.ElementNotFoundException ex) {
 			fail(XavaResources.getString(errorId, id));
 			return null;
 		}		
+	}
+	
+	private HtmlTable getTable(String id, String errorId) { 
+		return (HtmlTable) getListElement(id, errorId); 
 	}
 		
 	private HtmlTableCell getTableCellInList(int row, int column) throws Exception {
@@ -1393,8 +1405,21 @@ public class ModuleTestBase extends TestCase {
 		return table.getCellAt(row+2, column+columnIncrement);
 	}
 	
+	private HtmlElement getElementInList(int index) throws Exception { 
+		HtmlElement list = getListElement("list", "list_not_displayed");
+		return getChild(list, index);
+	}
+	
 	private HtmlTableRow getTableRow(String tableId, int row) throws Exception {
 		return getTable(tableId, "collection_not_displayed").getRow(row+2);
+	}
+	
+	private HtmlElement getChild(HtmlElement parent, int index) {
+		int i=0;
+		for (DomElement element: parent.getChildElements()) {
+			if (i++ == index) return (HtmlElement) element;
+		}
+		throw new IndexOutOfBoundsException(XavaResources.getString("elements_out_of_bounds", index, i - 1)); 
 	}
 		
 	protected String getValueInCollection(String collection, int row, String name) throws Exception {
@@ -1541,7 +1566,20 @@ public class ModuleTestBase extends TestCase {
 	 * Exclude heading and footing, and the not displayed data (maybe in cache).
 	 */
 	protected int getListRowCount() throws Exception {
-		HtmlTable table = getTable("list", XavaResources.getString("list_not_displayed"));
+		HtmlElement listElement = getListElement("list", XavaResources.getString("list_not_displayed"));
+		if (listElement instanceof HtmlTable) return getListTableRowCount((HtmlTable) listElement);
+		else return getListDivRowCount((HtmlDivision) listElement);
+	}
+	
+	
+	private int getListDivRowCount(HtmlDivision div) { 
+		int elementCount = div.getChildElementCount();
+		if (elementCount == 1) return div.asXml().contains(Style.getInstance().getNoObjects())?0:1;
+		if (elementCount > EntityTab.DEFAULT_CHUNK_SIZE && div.asXml().contains("xava_loading_more_elements")) return elementCount - 2; 
+		return elementCount;
+	}
+
+	private int getListTableRowCount(HtmlTable table) throws Exception { 
 		if (table.getRowCount() > 2 && "nodata".equals(table.getRow(2).getId())) { 
 			return 0;
 		}						
@@ -1549,6 +1587,7 @@ public class ModuleTestBase extends TestCase {
 		if (collectionHasFilterHeader(table)) increment++; // The filter
 		return table.getRowCount() - increment;
 	}
+
 	
 	protected int getListColumnCount() throws Exception {
 		return getListColumnCount("list", XavaResources.getString("list_not_displayed"));
@@ -1617,6 +1656,11 @@ public class ModuleTestBase extends TestCase {
 		
 	protected void assertValueInList(int row, String name, String value) throws Exception {
 		assertEquals(XavaResources.getString("unexpected_value_in_list", name, new Integer(row)), value, getValueInList(row, name));
+	}
+	
+	/** @since 5.7 */
+	protected void assertValueInList(int row, String value) throws Exception { 
+		assertEquals(XavaResources.getString("unexpected_value_in_list", "", new Integer(row)), value, getValueInList(row));
 	}
 	
 	protected void assertValueInList(int row, int column, String value) throws Exception {

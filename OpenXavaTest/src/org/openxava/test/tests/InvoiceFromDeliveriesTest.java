@@ -22,7 +22,7 @@ public class InvoiceFromDeliveriesTest extends ModuleTestBase {
 		assertLabelInList(0, "Year of Invoice"); // It also tests the qualified label for references in list
 		assertLabelInList(1, "Number of Invoice");
 		assertLabelInList(2, "Number of Type");
-		assertLabelInList(3, "Description of Type");
+		assertLabelInList(3, "Type"); 
 		assertLabelInList(4, "Number");
 		assertLabelInList(5, "Date");
 		assertLabelInList(6, "Description");

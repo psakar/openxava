@@ -25,9 +25,10 @@ at least the next cases:
 - Product:			
 		Generate PDF: Correct height for header (1 line).
 		My reports with a label long enough to produce a 2 lines header: Correct height for header (2 lines)
-- Color2:
-		My reports in English with "Name of Used to" for usedTo.name and "Description of Characteristic thing"
-			for characteristicThing.description, selecting the color with code 0: 
+- Color2: 
+		My reports in English put the label "Name of Used to" for usedTo.name and "Description of Characteristic thing"
+			for characteristicThing.description. 
+			Selecting the color with code 0: 
 			The most right column inside the margin.
 - Tax:
 		Generate PDF in Spanish: Correct height for header  

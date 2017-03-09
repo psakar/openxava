@@ -27,7 +27,7 @@ public class DeliveryRemarks2002Test extends ModuleTestBase {
 		String header = excel.nextToken();
 		assertEquals("header", "Year;Number;Remarks", header);		
 		String line1 = excel.nextToken();
-		assertEquals("line1", expectedLine, line1);
+		assertEquals("line1", expectedLine, line1); 
 		assertTrue("Only one line must have generated", !excel.hasMoreTokens());
 	}
 

@@ -66,7 +66,7 @@ public class CustomerWithSectionTest extends CustomerTest {
 		assertValueInCollection("columns", 6, 0, "Web site");
 		
 		execute("MyReport.generatePdf");						 
-		assertPopupPDFLine(2, "My name Type Seller City of Address My seller level State of Address Web site");
+		assertPopupPDFLine(2, "My name Type Seller City of Address My seller level State of Address Web site"); 
 		assertLabelInList(0, "Name"); // The list labels are not affected
 		
 		execute("ExtendedPrint.myReports");

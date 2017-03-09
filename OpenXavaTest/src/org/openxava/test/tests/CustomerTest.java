@@ -48,7 +48,7 @@ public class CustomerTest extends CustomizeListTestBase {
 	
 	public void testDescriptionsListInListForSecondLevelReferences() throws Exception { 
 		assertListRowCount(5); 
-		assertLabelInList(4, "Seller level");
+		assertLabelInList(4, "Seller level"); 
 		setConditionValues("", "", "", "", "A");
 		execute("List.filter");
 		assertListRowCount(3);
@@ -663,7 +663,7 @@ public class CustomerTest extends CustomizeListTestBase {
 		execute("List.filter");
 		execute("List.viewDetail", "row=0");
 		
-		assertLabelInCollection("deliveryPlaces", 3, "Name of Preferred warehouse"); 
+		assertLabelInCollection("deliveryPlaces", 3, "Preferred warehouse"); 
 		assertValueInCollection("deliveryPlaces", 0, 3, "CENTRAL VALENCIA");
 		setConditionValues("deliveryPlaces", new String[] { "", "", "", "[.1.2.]" } );
 		// execute("List.filter", "collection=deliveryPlaces"); // Not needed because filterOnChange=true

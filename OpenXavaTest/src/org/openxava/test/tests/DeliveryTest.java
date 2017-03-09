@@ -49,7 +49,7 @@ public class DeliveryTest extends ModuleTestBase {
 	}
 		
 	public void testFilterDescriptionsListAndEnumLetterType_myReportConditionWithDescriptionsListAndValidValues() throws Exception { 
-		assertLabelInList(3, "Description of Type");
+		assertLabelInList(3, "Type"); 
 		assertLabelInList(7, "Distance");
 		if (usesAnnotatedPOJO()) { 
 			setConditionValues(new String[] { "", "", "", "1", "", "", "", "1"} );	// For annotated POJOs
@@ -67,7 +67,7 @@ public class DeliveryTest extends ModuleTestBase {
 		assertValueInList(1, 2, "1");
 		
 		execute("ExtendedPrint.myReports");
-		assertValueInCollection("columns", 3, 0, "Description of Type"); 
+		assertValueInCollection("columns", 3, 0, "Type"); 
 		assertValueInCollection("columns", 3, 1, "=");
 		assertValueInCollection("columns", 3, 2, "FACTURABLE MODIFIED");
 		execute("MyReport.editColumn", "row=3,viewObject=xava_view_columns");
@@ -80,7 +80,7 @@ public class DeliveryTest extends ModuleTestBase {
 		assertExists("order");
 		assertDescriptionValue("descriptionsListValue", "FACTURABLE MODIFIED");
 		execute("MyReport.saveColumn");
-		assertValueInCollection("columns", 3, 0, "Description of Type");
+		assertValueInCollection("columns", 3, 0, "Type"); 
 		assertValueInCollection("columns", 3, 1, "=");
 		assertValueInCollection("columns", 3, 2, "FACTURABLE MODIFIED");
 		

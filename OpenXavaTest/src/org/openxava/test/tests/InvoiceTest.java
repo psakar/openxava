@@ -969,7 +969,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		assertLabelInList(5, "Details count");
 		assertLabelInList(6, "Paid");
 		assertLabelInList(7, "Importance");
-		assertLabelInList(8, "Name of Customer");
+		assertLabelInList(8, "Customer"); 
 		assertLabelInList(9, "Seller discount"); 
 		
 		execute("List.addColumns");
@@ -1006,7 +1006,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		assertLabelInList(5, "Details count");
 		assertLabelInList(6, "Paid");
 		assertLabelInList(7, "Importance");
-		assertLabelInList(8, "Name of Customer");
+		assertLabelInList(8, "Customer"); 
 		assertLabelInList(9, "Seller discount"); 
 		
 		// To test that detail view is not broken because of the dialog
@@ -1025,7 +1025,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		assertLabelInList(5, "Details count");
 		assertLabelInList(6, "Paid");
 		assertLabelInList(7, "Importance");
-		assertLabelInList(8, "Name of Customer"); 
+		assertLabelInList(8, "Customer"); 
 		assertLabelInList(9, "Seller discount"); 
 				
 		
@@ -1063,7 +1063,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		
 		StringTokenizer excel = new StringTokenizer(getPopupText(), "\n\r");
 		String header = excel.nextToken();
-		assertEquals("header", "Year;Number;Date;Amounts sum;V.A.T.;Details count;Paid;Importance", header);		
+		assertEquals("header", "Year;Number;Date;Amounts sum;V.A.T.;Details count;Paid;Importance", header); 		
 		String line1 = excel.nextToken();
 		assertEquals("line1", expectedLine, line1);		
 	}

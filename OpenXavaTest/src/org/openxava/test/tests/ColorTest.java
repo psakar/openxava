@@ -295,7 +295,7 @@ public class ColorTest extends ModuleTestBase {
 		}
 		
 		// Color: 'usedTo' without descriptionsList and 'characteristicThing' without descriptionsList
-		assertLabelInList(4, "Name of Used to");
+		assertLabelInList(4, "Used to");  
 		assertLabelInList(5, "Characteristic thing"); 
 		assertValueInList(0, 4, "CAR");
 		assertValueInList(0, 5, "3 PLACES");
@@ -306,7 +306,7 @@ public class ColorTest extends ModuleTestBase {
 		
 		// Color2: 'usedTo' with descriptionsList and 'characteristicThing' with descriptionsList and condition
 		changeModule("Color2");
-		assertLabelInList(4, "Name of Used to");
+		assertLabelInList(4, "Used to"); 
 		assertLabelInList(5, "Characteristic thing"); 
 		assertValueInList(0, 4, "CAR");
 		assertValueInList(0, 5, "3 PLACES");
@@ -370,7 +370,7 @@ public class ColorTest extends ModuleTestBase {
 		execute("CRUD.new");
 		assertNoErrors();
 		assertExists("anotherCT.number");
-		assertValidValuesCount("anotherCT.number", 3); 
+		assertValidValuesCount("anotherCT.number", 3);  
 		String [][] validValues = { 
 			{ "", "" },
 			{ "0", "3 PLACES" },
@@ -387,7 +387,7 @@ public class ColorTest extends ModuleTestBase {
 			{ "[.          .VERDE     .]", "----------&-----VERDE:complicated" },
 			{ "[.ROJO      .          .]", "------ROJO&----------:simple" }
 		};
-		assertValidValues("mixture.KEY", validValues);
+		assertValidValues("mixture.KEY", validValues); 
 		
 		setValue("mixture.KEY", "[.          .VERDE     .]");
 		execute("TypicalNotResetOnSave.save");

@@ -395,6 +395,10 @@ here that you want to override.
 		
 	</controller>	
 	
+	<controller name="Cards"> 
+		<action name="loadMoreCards" class="org.openxava.actions.LoadMoreCardsAction"/>
+	</controller>
+	
 	<controller name="ChangeListConfigurationName">
 		<action name="change"
 			class="org.openxava.actions.ChangeListConfigurationNameAction"/>	
