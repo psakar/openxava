@@ -35,7 +35,7 @@ class BookTest extends ModuleTestBase {
 		assertListNotEmpty()
 		String author = getValueInList(0, 0)		
 		execute "ReferenceSearch.choose", "row=0"
-		assertNoErrors()				
+		assertNoErrors() 				
 		assertValue "author.author", author 
 	}
 	

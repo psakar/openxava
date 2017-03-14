@@ -93,7 +93,7 @@ public class ServiceExpensesTest extends ModuleTestBase {
 		setValueInCollection("expenses", 0, "invoice.year", "2015");
 		assertNoErrors();
 		setValueInCollection("expenses", 0, "invoice.number", "15"); // It does not exist
-		assertErrorsCount(1);
+		assertErrorsCount(1); 
 	}
 	
 	public void testAdding3RowsWithDescriptionsListAndTextFieldInElementCollection() throws Exception { 

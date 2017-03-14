@@ -5,8 +5,6 @@ import java.util.*;
 
 import javax.persistence.Query;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 import org.openxava.jpa.XPersistence;
 import org.openxava.test.model.DeliveryType;
 import org.openxava.test.model.Shipment;
@@ -16,14 +14,11 @@ import org.openxava.util.Is;
 import com.gargoylesoftware.htmlunit.html.*;
 
 /**
- * 
  * @author Javier Paniza
  * @author Federico Alcántara
  */
 
 public class DeliveryTest extends ModuleTestBase {
-
-	private static Log log = LogFactory.getLog(DeliveryTest.class);
 	
 	private String [] listActions = {
 		"Print.generatePdf",
@@ -889,7 +884,7 @@ public class DeliveryTest extends ModuleTestBase {
 		// The reference datas are deleted in screen
 		assertValue("invoice.year", "");
 		assertValue("invoice.number","");
-		assertValue("invoice.date", "");
+		assertValue("invoice.date", ""); 
 		assertValue("invoice.yearDiscount", "");		
 	}
 	

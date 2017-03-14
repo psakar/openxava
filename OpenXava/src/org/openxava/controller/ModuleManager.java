@@ -686,7 +686,9 @@ public class ModuleManager implements java.io.Serializable {
 						moduleName, "xava_view");
 				reloadViewNeeded = currentView != previousView;
 			}
-			lastExecutedMetaAction = metaAction;
+			if (metaAction != null && !metaAction.isAfterEachRequest()) {   
+				lastExecutedMetaAction = metaAction;
+			}
 			if (!(metaAction == null && executingAction)) { // For avoiding
 															// commit on
 															// OnChange actions

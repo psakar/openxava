@@ -11024,7 +11024,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/CarrierURLTest.java -text svneol=u
 OpenXavaTest/pojo-src/org/openxava/test/tests/CheckTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CityTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CollaboratorProfileTest.java -text svneol=unset#text/plain
-OpenXavaTest/pojo-src/org/openxava/test/tests/ColorinColoradoTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/ColorinColoradoTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CommentTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CommunityEditableMembersTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/CommunityTest.java -text
@@ -11166,6 +11166,7 @@ OpenXavaTest/reports/Invoice.jrxml -text
 OpenXavaTest/reports/InvoiceNoVAT.jrxml -text
 OpenXavaTest/reports/Products.jrxml -text
 OpenXavaTest/selenium-tests/Permalink.html -text svneol=unset#text/plain
+OpenXavaTest/selenium-tests/PermalinkExcludesAfterEachRequestActions.html -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/actions/ActivateDeactivateSectionAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/AddActionsAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/AddFullAddressAction.java -text
