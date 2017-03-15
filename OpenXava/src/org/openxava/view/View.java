@@ -2406,16 +2406,19 @@ public class View implements java.io.Serializable {
 		editable = b;
 			
 		for (Iterator it = getSubviews().values().iterator(); it.hasNext();) {				
-			View subview = (View) it.next();				
+			View subview = (View) it.next();
 			if (subview.isRepresentsCollection()) {
 				subview.setCollectionEditable(isMarkedAsEditable(subview.getMemberName())?b:false); 
-				if (!subview.collectionMembersEditables || !isMarkedAsEditable(subview.getMemberName())) { 
+				if (!subview.collectionMembersEditables || !isMarkedAsEditable(subview.getMemberName())) {
 					subview.setKeyEditable(false); 
 					subview.setEditable(false); 
-					return;
-				}					
+				}	
+				else {
+					subview.setKeyEditable(!subview.isRepresentsEntityReference());
+					subview.setEditable(b);					
+				}
 			}
-			if (subview.isRepresentsEntityReference()) {
+			else if (subview.isRepresentsEntityReference()) {
 				subview.setEditable(false);
 				subview.setKeyEditable(isMarkedAsEditable(subview.getMemberName())?b:false);  
 			}
@@ -4598,7 +4601,7 @@ public class View implements java.io.Serializable {
 
 	public String getEditCollectionElementAction() { 
 		if (editCollectionElementAction != null) return editCollectionElementAction;
-		return isRepresentsEntityReference()?COLLECTION_VIEW_ACTION:COLLECTION_EDIT_ACTION;
+		return COLLECTION_EDIT_ACTION; 
 	}
 	
 	public String getViewCollectionElementAction() {		

@@ -41,7 +41,7 @@ public class AJAXTest extends ModuleTestBase {
 		assertValue("year", "2014"); // This one ...
 		assertValue("number", "1");  // ... has 3 details
 		setValueInCollection("details", 0, "quantity", "61");		
-		assertLoadedParts(
+		assertLoadedParts( 
 			"editor_details.0.amount," +
 			"collection_total_0_4_details.," +
 			"collection_total_1_4_details.," +
@@ -690,7 +690,7 @@ public class AJAXTest extends ModuleTestBase {
 		assertLoadedParts("errors, collection_fellowCarriers., " + 
 				"frame_fellowCarriersheader, " + 
 				"messages, editor_warehouse.name, ");
-		execute("Collection.view", "row=0,viewObject=xava_view_fellowCarriersCalculated");
+		execute("Collection.edit", "row=0,viewObject=xava_view_fellowCarriersCalculated");  
 		assertLoadedParts("dialog1");
 		closeDialog();
 		assertLoadedParts("core");

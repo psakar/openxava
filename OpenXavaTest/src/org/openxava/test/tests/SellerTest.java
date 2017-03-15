@@ -18,6 +18,39 @@ public class SellerTest extends CustomizeListTestBase {
 	public SellerTest(String testName) {
 		super(testName, "Seller");		
 	}
+	
+	public void testEditAndRemoveElementInEntityCollection() throws Exception { 
+		execute("List.viewDetail", "row=2");
+		assertValue("name", "ELISEO FERNANDEZ");
+		assertCollectionRowCount("customers", 0);
+		
+		execute("Collection.add", "viewObject=xava_view_customers");
+		assertValueInList(2, 0, "Carmelo");
+		execute("AddToCollection.add", "row=2");
+		assertCollectionRowCount("customers", 1);
+		assertValueInCollection("customers", 0, 1, "Carmelo");
+		
+		execute("Collection.edit", "row=0,viewObject=xava_view_customers");
+		assertValue("number", "3");
+		assertValue("name", "Carmelo");
+		assertNoEditable("number");
+		assertEditable("name");
+		setValue("name", "Carmela");
+		execute("Collection.save");
+		assertCollectionRowCount("customers", 1);
+		assertValueInCollection("customers", 0, 1, "Carmela");
+		
+		execute("Collection.edit", "row=0,viewObject=xava_view_customers");
+		assertValue("name", "Carmela");
+		setValue("name", "Carmelo");
+		execute("Collection.save");
+		assertValueInCollection("customers", 0, 1, "Carmelo");
+		
+		execute("Collection.edit", "row=0,viewObject=xava_view_customers");
+		assertValue("name", "Carmelo");
+		execute("Collection.remove");
+		assertCollectionRowCount("customers", 0);		
+	}
 		
 	public void testCollectionWithListPropertiesStoresPreferences() throws Exception {  
 		execute("CRUD.new");
@@ -153,19 +186,12 @@ public class SellerTest extends CustomizeListTestBase {
 		assertValueInCollection("customers", 0, "number", "1");
 	}
 	
-	public void testMembersOfReferenceToEntityNotEditable() throws Exception {
-		execute("Mode.detailAndFirst");
-		execute("Collection.view", "row=0,viewObject=xava_view_customers"); 
-		assertNoEditable("number"); 
-		assertNoEditable("name");
-	}
-	
 	public void testOverwriteCollectionControllers_defaultListActionsForCollections_tabActionsForCollections() throws Exception { 
 		execute("CRUD.new");
 		setValue("number", "1");
 		execute("CRUD.refresh");
 		assertValue("name", "MANUEL CHAVARRI");
-		execute("Collection.view", "row=0,viewObject=xava_view_customers");
+		execute("Collection.edit", "row=0,viewObject=xava_view_customers"); 
 		execute("Collection.hideDetail");
 		assertMessage("Detail is hidden");
 		
@@ -219,7 +245,7 @@ public class SellerTest extends CustomizeListTestBase {
 		assertMessage("Seller deleted successfully");
 	}
 	
-	public void testCollectionOfEntityReferencesElementsNotEditables_keepsOrderAfterClosingDialog() throws Exception {
+	public void testKeepsOrderAfterClosingDialog() throws Exception {
 		execute("Mode.detailAndFirst");
 		assertValue("number", "1"); 
 		assertValueInCollection("customers", 0, "number", "1");
@@ -229,10 +255,7 @@ public class SellerTest extends CustomizeListTestBase {
 		assertValueInCollection("customers", 0, "number", "2"); 
 		assertValueInCollection("customers", 1, "number", "1");
 
-		execute("Collection.view", "row=1,viewObject=xava_view_customers");
-		assertNoEditable("number");
-		assertNoEditable("name");
-		assertNoAction("Collection.new"); // of deliveryPlaces
+		execute("Collection.edit", "row=1,viewObject=xava_view_customers"); 
 		
 		assertDialog();
 		closeDialog();

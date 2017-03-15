@@ -42,7 +42,7 @@ public class QuoteTest extends ModuleTestBase {
 		assertValueInCollection("details", 0, "unitPrice", "11.00");		
 		setValueInCollection("details", 0, "unitPrice", "100");
 		setValueInCollection("details", 0, "quantity", "2");
-		assertValueInCollection("details", 0, "amount", "200.00");
+		assertValueInCollection("details", 0, "amount", "200.00"); 
 		
 		assertTotalInCollection("details", 0, "amount", "200.00");
 		assertTotalInCollection("details", 1, "amount",  "42.00");
@@ -180,7 +180,7 @@ public class QuoteTest extends ModuleTestBase {
 		setValueInCollection("details", 0, "product.number", "1");
 		assertValueInCollection("details", 0, "unitPrice", "11.00");		
 		setValueInCollection("details", 0, "quantity", "2");
-		assertValueInCollection("details", 0, "amount", "22.00");
+		assertValueInCollection("details", 0, "amount", "22.00"); 
 		
 		assertTotalInCollection("details", 0, "amount", "22.00");
 		assertTotalInCollection("details", 1, "amount",  "4.62");
@@ -240,7 +240,7 @@ public class QuoteTest extends ModuleTestBase {
 		assertTotalInCollection("details", 2, "amount", "123.42");		
 		
 		setValueInCollection("details", 1, "quantity", "5");
-		assertValueInCollection("details", 1, "amount", "100.00");
+		assertValueInCollection("details", 1, "amount", "100.00"); 
 		assertTotalInCollection("details", 0, "amount", "122.00");
 		assertTotalInCollection("details", 1, "amount",  "25.62");
 		assertTotalInCollection("details", 2, "amount", "147.62");

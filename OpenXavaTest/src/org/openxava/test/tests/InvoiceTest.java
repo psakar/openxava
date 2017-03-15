@@ -1308,7 +1308,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		setValue("serviceType", usesAnnotatedPOJO()?"":"0");
 		setValue("quantity", "20");
 		setValue("unitPrice", getProductUnitPrice());		
-		assertValue("amount", getProductUnitPriceMultiplyBy("20"));
+		assertValue("amount", getProductUnitPriceMultiplyBy("20")); 
 		setValue("product.number", getProductNumber());
 		assertValue("product.description", getProductDescription());
 		assertValue("deliveryDate", getCurrentDate()); 
@@ -1576,7 +1576,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		setValue("serviceType", "0");
 		setValue("quantity", "20");
 		setValue("unitPrice", getProductUnitPrice());
-		assertValue("amount", getProductUnitPriceMultiplyBy("20"));
+		assertValue("amount", getProductUnitPriceMultiplyBy("20")); 
 		setValue("product.number", getProductNumber());
 		assertValue("product.description", getProductDescription());				
 		setValue("deliveryDate", "03/18/04");
@@ -1621,7 +1621,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		setValue("serviceType", "0");
 		setValue("quantity", "20");
 		setValue("unitPrice", getProductUnitPricePlus10());
-		assertValue("amount", "600.00");
+		assertValue("amount", "600.00"); 
 		assertValue("product.number", "");
 		assertValue("product.description", ""); 
 		setValue("deliveryDate", "03/18/04");

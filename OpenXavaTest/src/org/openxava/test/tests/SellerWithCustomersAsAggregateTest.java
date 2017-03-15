@@ -24,7 +24,7 @@ public class SellerWithCustomersAsAggregateTest extends ModuleTestBase {
 						
 		assertCustomerNotExists(66); 
 		execute("Collection.new", "viewObject=xava_view_customers");
-		assertEditable("number");
+		assertEditable("number"); 
 		assertEditable("name");
 		assertValue("number", ""); // Test if clear the fields
 		assertValue("type", usesAnnotatedPOJO()?"2":"3"); // Test if execute default value calculators

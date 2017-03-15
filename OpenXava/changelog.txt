@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- It's possible to modify elements in a regular @OneToMany collection.  
 - Cards format for list available in all modules by default.
 - Fix: List customization not saved in some cases.
 - Chunk size to get data from database for list mode now is 120 records, it was 50.

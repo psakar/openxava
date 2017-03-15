@@ -55,7 +55,7 @@ public class OrderTest extends ModuleTestBase {
 		assertValue("product.description", "MULTAS DE TRAFICO");
 		assertValue("product.unitPrice", "11.00");
 		setValue("quantity", "10");
-		assertValue("amount", "110.00");
+		assertValue("amount", "110.00"); 
 		execute("Collection.save");
 		assertNoErrors();
 		assertCollectionRowCount("details", 1);

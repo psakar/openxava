@@ -55,7 +55,7 @@ public class SearchByViewKeyAction extends ViewBaseAction {
 				getView().clear(); 
 				values = MapFacade.getValues(getModelName(), keys, getMemberNames());				
 			}
-			
+		
 			getView().setEditable(true);	
 			getView().setKeyEditable(false);			
 			setValuesToView(values); 		
@@ -67,7 +67,7 @@ public class SearchByViewKeyAction extends ViewBaseAction {
 		catch (Exception ex) {
 			log.error(ex.getMessage(),ex);
 			addError("system_error");			
-		}			
+		}
 	}
 	
 	/**

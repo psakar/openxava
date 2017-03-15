@@ -70,7 +70,7 @@ public class AuthorTest extends CustomizeListTestBase {
 		execute("Author.showSelectedAuthors", "viewObject=xava_view_humans");
 		assertMessage("PEPE, MALE");
 		
-		execute("Collection.view", "row=0,viewObject=xava_view_humans");
+		execute("Collection.edit", "row=0,viewObject=xava_view_humans"); 
 		assertNoErrors();
 		assertDialog();
 	}

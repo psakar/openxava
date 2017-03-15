@@ -18,7 +18,7 @@ public class SocialNetworkTest extends ModuleTestBase {
 	public void testManyToManyNewFromACollection_restoringControllersWhenSetControllersInDialog() throws Exception {
 		execute("Mode.detailAndFirst");
 		assertValue("name", "LA RED");
-		execute("Collection.view", "row=0,viewObject=xava_view_communities");
+		execute("Collection.edit", "row=0,viewObject=xava_view_communities"); 
 		assertValue("name", "PROGRAMMERS");
 		execute("ManyToMany.new", "viewObject=xava_view_members");
 		assertAction("ManyToManyNewElement.save"); // Testing a bug here

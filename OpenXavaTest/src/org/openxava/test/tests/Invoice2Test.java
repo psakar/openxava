@@ -40,7 +40,7 @@ public class Invoice2Test extends ModuleTestBase {
 		assertNotExists("details.invoice.year"); 
 		setValue("quantity", "7");
 		setValue("unitPrice", "8");
-		assertValue("amount", "56.00");
+		assertValue("amount", "56.00"); 
 		setValue("product.number", "1");
 		assertValue("product.description", "MULTAS DE TRAFICO");
 		execute("Collection.save");
@@ -96,7 +96,7 @@ public class Invoice2Test extends ModuleTestBase {
 		setValue("quantity", "7");
 		setValue("unitPrice", "8");
 		assertValue("amount", "56.00");
-		setValue("product.number", "1");
+		setValue("product.number", "1"); 
 		assertValue("product.description", "MULTAS DE TRAFICO");
 		execute("Collection.save");
 		assertNoErrors(); 
