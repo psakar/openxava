@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: SchemaTool fails with entities with @Table(schema=).
+- Some new common use labels to be used in applications.
 - It's possible to modify elements in a regular @OneToMany collection.  
 - Cards format for list available in all modules by default.
 - Fix: List customization not saved in some cases.
