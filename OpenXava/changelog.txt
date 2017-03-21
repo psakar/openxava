@@ -1,6 +1,6 @@
 Change Log for OpenXava project
 ===============================
-
+- You can define 'subcontroller' in a collection using @ListSubcontroller 
 - Fix: SchemaTool fails with entities with @Table(schema=).
 - Some new common use labels to be used in applications.
 - It's possible to modify elements in a regular @OneToMany collection.  

@@ -42,6 +42,8 @@ public class ControllersParser extends ParserBase {
 		if (!isContextComun(context) && !context.equals(this.context)) return null;		
 		result.setLabel(el.getAttribute(xlabel[lang]));
 		result.setClassName(el.getAttribute(xclass[lang]));
+		result.setImage(el.getAttribute(ximage[lang]));
+		result.setIcon(el.getAttribute(xicon[lang]));
 		fillControllerElements(el, result);
 		fillExtends(el, result);		
 		fillActions(el, result);

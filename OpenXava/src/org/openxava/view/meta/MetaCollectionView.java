@@ -1,11 +1,11 @@
 package org.openxava.view.meta;
 
-import java.io.Serializable;
+import java.io.*;
 import java.util.*;
 
-import org.openxava.annotations.Tree;
-import org.openxava.tab.meta.MetaRowStyle;
-import org.openxava.util.Is;
+import org.openxava.annotations.*;
+import org.openxava.tab.meta.*;
+import org.openxava.util.*;
 
 
 /**
@@ -22,6 +22,7 @@ public class MetaCollectionView extends MetaMemberView implements Serializable {
 	private String removeSelectedActionName;
 	private Collection actionsDetailNames;
 	private Collection actionsListNames;
+	private Collection subcontrollersListNames;
 	private Collection actionsRowNames;  
 	private List propertiesListNames;
 	private String collectionName;
@@ -36,8 +37,7 @@ public class MetaCollectionView extends MetaMemberView implements Serializable {
 	private Collection rowStyles; 
 	private String onSelectElementActionName;
 	private Tree path;
-	private Map<String, List<String>> totalProperties; 
-
+	private Map<String, List<String>> totalProperties;
 	
 	public void addActionDetailName(String actionName) {
 		if (actionsDetailNames == null) actionsDetailNames = new ArrayList();
@@ -47,6 +47,11 @@ public class MetaCollectionView extends MetaMemberView implements Serializable {
 	public void addActionListName(String actionName) {
 		if (actionsListNames == null) actionsListNames = new ArrayList();
 		actionsListNames.add(actionName);		
+	}
+	
+	public void addSubcontrollerListName(String subcontroller){
+		if (subcontrollersListNames == null) subcontrollersListNames = new ArrayList();
+		subcontrollersListNames.add(subcontroller);
 	}
 	
 	public void addActionRowName(String actionName) { 
@@ -168,6 +173,10 @@ public class MetaCollectionView extends MetaMemberView implements Serializable {
 		return actionsListNames==null?Collections.EMPTY_LIST:actionsListNames;
 	}
 	
+	public Collection getSubcontrollersListNames() {		
+		return subcontrollersListNames==null?Collections.EMPTY_LIST:subcontrollersListNames;
+	}
+	
 	public Collection getActionsRowNames() { 		
 		return actionsRowNames==null?Collections.EMPTY_LIST:actionsRowNames;
 	}
@@ -266,5 +275,4 @@ public class MetaCollectionView extends MetaMemberView implements Serializable {
 	public Tree getPath() {
 		return path;
 	}
-
 }

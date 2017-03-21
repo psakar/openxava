@@ -17,6 +17,7 @@ public class MetaController extends MetaElement {
 	private Map mapMetaActions = new HashMap();
 	private Collection<MetaSubcontroller> metaSubcontrollers = new ArrayList<MetaSubcontroller>();
 	private Collection<MetaControllerElement> metaControllerElements = new ArrayList<MetaControllerElement>();	// actions and subcontroller order by occurrence
+	private String icon, image; // for when the controller is used as a subcontroller
 	
 	public void addMetaControllerElement(MetaControllerElement controllerElement){
 		metaControllerElements.add(controllerElement);
@@ -316,8 +317,23 @@ public class MetaController extends MetaElement {
 		}
 		
 		return result;
-	}	
-	
+	}
+
+	public String getIcon() {
+		return icon;
+	}
+
+	public void setIcon(String icon) {
+		this.icon = icon;
+	}
+
+	public String getImage() {
+		return image;
+	}
+
+	public void setImage(String image) {
+		this.image = image;
+	}
 }
 
 

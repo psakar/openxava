@@ -5538,6 +5538,8 @@ OpenXava/src/org/openxava/annotations/LabelStyles.java -text
 OpenXava/src/org/openxava/annotations/ListAction.java -text
 OpenXava/src/org/openxava/annotations/ListActions.java -text
 OpenXava/src/org/openxava/annotations/ListProperties.java -text
+OpenXava/src/org/openxava/annotations/ListSubcontroller.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/annotations/ListSubcontrollers.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/annotations/ListsProperties.java -text
 OpenXava/src/org/openxava/annotations/NewAction.java -text
 OpenXava/src/org/openxava/annotations/NewActions.java -text

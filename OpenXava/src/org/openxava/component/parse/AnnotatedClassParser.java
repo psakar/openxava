@@ -1,191 +1,42 @@
 package org.openxava.component.parse;
 
-import java.beans.BeanInfo;
-import java.beans.IntrospectionException;
-import java.beans.Introspector;
-import java.beans.PropertyDescriptor;
-import java.io.File;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.AnnotatedElement;
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
+import java.beans.*;
+import java.io.*;
+import java.lang.annotation.*;
+import java.lang.reflect.*;
 import java.lang.reflect.ParameterizedType;
-import java.math.BigDecimal;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Enumeration;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.StringTokenizer;
+import java.math.*;
+import java.net.*;
+import java.util.*;
 
-import javax.persistence.AttributeOverride;
-import javax.persistence.AttributeOverrides;
+import javax.persistence.*;
 import javax.persistence.CascadeType;
-import javax.persistence.Column;
-import javax.persistence.DiscriminatorColumn;
-import javax.persistence.DiscriminatorType;
-import javax.persistence.DiscriminatorValue;
-import javax.persistence.ElementCollection;
-import javax.persistence.Embeddable;
-import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
-import javax.persistence.EntityManager;
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.IdClass;
-import javax.persistence.JoinColumn;
-import javax.persistence.JoinColumns;
-import javax.persistence.ManyToMany;
-import javax.persistence.ManyToOne;
-import javax.persistence.MappedSuperclass;
-import javax.persistence.OneToMany;
-import javax.persistence.OneToOne;
 import javax.persistence.OrderBy;
-import javax.persistence.OrderColumn;
-import javax.persistence.PrimaryKeyJoinColumn;
-import javax.persistence.PrimaryKeyJoinColumns;
 import javax.persistence.Table;
-import javax.persistence.metamodel.ManagedType;
+import javax.persistence.metamodel.*;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
-import org.hibernate.annotations.Columns;
-import org.hibernate.annotations.Formula;
+import org.apache.commons.logging.*;
+import org.hibernate.annotations.*;
 import org.hibernate.annotations.Parameter;
 import org.hibernate.annotations.Type;
-import org.hibernate.usertype.CompositeUserType;
-import org.openxava.annotations.Action;
-import org.openxava.annotations.Actions;
-import org.openxava.annotations.AsEmbedded;
-import org.openxava.annotations.Collapsed;
-import org.openxava.annotations.CollectionView;
-import org.openxava.annotations.CollectionViews;
-import org.openxava.annotations.Condition;
-import org.openxava.annotations.DefaultValueCalculator;
-import org.openxava.annotations.Depends;
-import org.openxava.annotations.DescriptionsList;
-import org.openxava.annotations.DescriptionsLists;
-import org.openxava.annotations.DetailAction;
-import org.openxava.annotations.DetailActions;
-import org.openxava.annotations.DisplaySize;
-import org.openxava.annotations.DisplaySizes;
-import org.openxava.annotations.EditAction;
-import org.openxava.annotations.EditActions;
-import org.openxava.annotations.EditOnly;
-import org.openxava.annotations.Editor;
-import org.openxava.annotations.Editors;
-import org.openxava.annotations.EntityValidator;
-import org.openxava.annotations.EntityValidators;
-import org.openxava.annotations.Hidden;
-import org.openxava.annotations.HideDetailAction;
-import org.openxava.annotations.HideDetailActions;
-import org.openxava.annotations.LabelFormat;
-import org.openxava.annotations.LabelFormats;
-import org.openxava.annotations.LabelStyle;
-import org.openxava.annotations.LabelStyles;
-import org.openxava.annotations.ListAction;
-import org.openxava.annotations.ListActions;
-import org.openxava.annotations.ListProperties;
-import org.openxava.annotations.ListsProperties;
-import org.openxava.annotations.NewAction;
-import org.openxava.annotations.NewActions;
-import org.openxava.annotations.NoCreate;
-import org.openxava.annotations.NoFrame;
-import org.openxava.annotations.NoModify;
-import org.openxava.annotations.NoSearch;
-import org.openxava.annotations.OnChange;
-import org.openxava.annotations.OnChangeSearch;
-import org.openxava.annotations.OnChangeSearchs;
-import org.openxava.annotations.OnChanges;
-import org.openxava.annotations.OnSelectElementAction;
-import org.openxava.annotations.OnSelectElementActions;
-import org.openxava.annotations.PropertyValidator;
-import org.openxava.annotations.PropertyValidators;
-import org.openxava.annotations.PropertyValue;
-import org.openxava.annotations.ReadOnly;
-import org.openxava.annotations.ReferenceView;
-import org.openxava.annotations.ReferenceViews;
-import org.openxava.annotations.RemoveAction;
-import org.openxava.annotations.RemoveActions;
-import org.openxava.annotations.RemoveSelectedAction;
-import org.openxava.annotations.RemoveSelectedActions;
-import org.openxava.annotations.RemoveValidator;
-import org.openxava.annotations.RemoveValidators;
-import org.openxava.annotations.Required;
-import org.openxava.annotations.RowAction;
-import org.openxava.annotations.RowActions;
-import org.openxava.annotations.RowStyle;
-import org.openxava.annotations.RowStyles;
-import org.openxava.annotations.SaveAction;
-import org.openxava.annotations.SaveActions;
-import org.openxava.annotations.SearchAction;
-import org.openxava.annotations.SearchActions;
-import org.openxava.annotations.SearchKey;
-import org.openxava.annotations.SearchListCondition;
-import org.openxava.annotations.SearchListConditions;
-import org.openxava.annotations.Stereotype;
-import org.openxava.annotations.Tab;
-import org.openxava.annotations.Tabs;
-import org.openxava.annotations.Tree;
-import org.openxava.annotations.Trees;
-import org.openxava.annotations.View;
-import org.openxava.annotations.ViewAction;
-import org.openxava.annotations.ViewActions;
-import org.openxava.annotations.Views;
-import org.openxava.annotations.XOrderBy;
-import org.openxava.calculators.NullCalculator;
+import org.hibernate.usertype.*;
+import org.openxava.annotations.*;
+import org.openxava.calculators.*;
 import org.openxava.component.*;
-import org.openxava.converters.typeadapters.HibernateCompositeTypeConverter;
-import org.openxava.converters.typeadapters.HibernateTypeConverter;
-import org.openxava.converters.typeadapters.OrdinalEnumIntConverter;
-import org.openxava.converters.typeadapters.StringEnumIntConverter;
-import org.openxava.filters.VoidFilter;
-import org.openxava.filters.meta.MetaFilter;
-import org.openxava.jpa.XPersistence;
-import org.openxava.mapping.AggregateMapping;
-import org.openxava.mapping.CmpField;
-import org.openxava.mapping.EntityMapping;
-import org.openxava.mapping.ModelMapping;
-import org.openxava.mapping.PropertyMapping;
-import org.openxava.mapping.ReferenceMapping;
-import org.openxava.mapping.ReferenceMappingDetail;
+import org.openxava.converters.typeadapters.*;
+import org.openxava.filters.*;
+import org.openxava.filters.meta.*;
+import org.openxava.jpa.*;
+import org.openxava.mapping.*;
 import org.openxava.model.impl.*;
-import org.openxava.model.meta.MetaAggregateForCollection;
-import org.openxava.model.meta.MetaAggregateForReference;
-import org.openxava.model.meta.MetaCalculator;
-import org.openxava.model.meta.MetaCollection;
-import org.openxava.model.meta.MetaEntity;
-import org.openxava.model.meta.MetaModel;
-import org.openxava.model.meta.MetaProperty;
-import org.openxava.model.meta.MetaReference;
-import org.openxava.tab.meta.MetaRowStyle;
-import org.openxava.tab.meta.MetaTab;
-import org.openxava.util.ElementNotFoundException;
-import org.openxava.util.Is;
-import org.openxava.util.Strings;
-import org.openxava.util.XCollections;
-import org.openxava.util.XavaException;
-import org.openxava.util.XavaPreferences;
-import org.openxava.util.XavaResources;
-import org.openxava.util.meta.MetaSet;
-import org.openxava.validators.meta.MetaValidator;
-import org.openxava.view.meta.MetaCollectionView;
-import org.openxava.view.meta.MetaDescriptionsList;
-import org.openxava.view.meta.MetaMemberView;
-import org.openxava.view.meta.MetaPropertyView;
-import org.openxava.view.meta.MetaReferenceView;
-import org.openxava.view.meta.MetaSearchAction;
-import org.openxava.view.meta.MetaView;
-import org.openxava.web.layout.LayoutFactory;
+import org.openxava.model.meta.*;
+import org.openxava.tab.meta.*;
+import org.openxava.util.*;
+import org.openxava.util.meta.*;
+import org.openxava.validators.meta.*;
+import org.openxava.view.meta.*;
+import org.openxava.web.layout.*;
 
 
 
@@ -1237,6 +1088,12 @@ public class AnnotatedClassParser implements IComponentParser {
 		if (element.isAnnotationPresent(ListActions.class)) {
 			notApply(property.getName(), ListActions.class, "collections");
 		}				
+		if (element.isAnnotationPresent(ListSubcontroller.class)) {
+			notApply(property.getName(), ListSubcontroller.class, "collections");
+		}
+		if (element.isAnnotationPresent(ListSubcontrollers.class)) {
+			notApply(property.getName(), ListSubcontrollers.class, "collections");
+		}
 		if (element.isAnnotationPresent(RowAction.class)) {
 			notApply(property.getName(), RowAction.class, "collections");
 		}
@@ -1509,6 +1366,24 @@ public class AnnotatedClassParser implements IComponentParser {
 				for (ListAction action: actions) {				
 					if (isForView(metaView, action.forViews(), action.notForViews())) {
 						collectionView.addActionListName(action.value());
+						mustAddMetaView = true;
+					}
+				}				
+			}
+
+			// ListSubcontroller
+			if (element.isAnnotationPresent(ListSubcontroller.class)) {
+				ListSubcontroller subcontroller = element.getAnnotation(ListSubcontroller.class);
+				if (isForView(metaView, subcontroller.forViews(), subcontroller.notForViews())) {
+					collectionView.addSubcontrollerListName(subcontroller.value());
+					mustAddMetaView = true;				
+				}
+			}
+			if (element.isAnnotationPresent(ListSubcontrollers.class)) {
+				ListSubcontroller [] subcontrollers = element.getAnnotation(ListSubcontrollers.class).value();
+				for (ListSubcontroller subcontroller: subcontrollers) {				
+					if (isForView(metaView, subcontroller.forViews(), subcontroller.notForViews())) {
+						collectionView.addSubcontrollerListName(subcontroller.value());
 						mustAddMetaView = true;
 					}
 				}				
@@ -1852,7 +1727,8 @@ public class AnnotatedClassParser implements IComponentParser {
 				SaveAction.class, SaveActions.class, 
 				HideDetailAction.class, HideDetailActions.class, 
 				RemoveAction.class, RemoveActions.class, 
-				ListAction.class, ListActions.class, 
+				ListAction.class, ListActions.class,
+				ListSubcontroller.class, ListSubcontrollers.class,
 				RowAction.class, RowActions.class, 
 				DetailAction.class, DetailActions.class, 
 				OnSelectElementAction.class, OnSelectElementActions.class, 
@@ -2324,6 +2200,12 @@ public class AnnotatedClassParser implements IComponentParser {
 		if (element.isAnnotationPresent(ListActions.class)) {
 			notApply(ref.getName(), ListActions.class, "collections");
 		}		
+		if (element.isAnnotationPresent(ListSubcontroller.class)) {
+			notApply(ref.getName(), ListSubcontroller.class, "collections");
+		}
+		if (element.isAnnotationPresent(ListSubcontrollers.class)) {
+			notApply(ref.getName(), ListSubcontrollers.class, "collections");
+		}		
 		if (element.isAnnotationPresent(RowAction.class)) {
 			notApply(ref.getName(), RowAction.class, "collections");
 		}
@@ -2414,7 +2296,6 @@ public class AnnotatedClassParser implements IComponentParser {
 		if (element.isAnnotationPresent(OnSelectElementActions.class)) {
 			notApply(ref.getName(), OnSelectElementActions.class, "collections");
 		}		
-		
 		if (element.isAnnotationPresent(Tree.class)) {
 			notApply(ref.getName(), Tree.class, "collections");
 		}
