@@ -5,8 +5,6 @@ import java.net.*;
 import java.util.*;
 import java.util.logging.*;
 
-import junit.framework.*;
-
 import org.apache.commons.beanutils.*;
 import org.apache.commons.logging.*;
 import org.apache.pdfbox.pdmodel.*;
@@ -29,6 +27,8 @@ import org.xml.sax.*;
 import com.gargoylesoftware.htmlunit.*;
 import com.gargoylesoftware.htmlunit.ElementNotFoundException;
 import com.gargoylesoftware.htmlunit.html.*;
+
+import junit.framework.*;
 
 
 /**
@@ -2240,6 +2240,41 @@ public class ModuleTestBase extends TestCase {
 		assertValidValuesCount(elementCollectionPropertyName, count);		
 	}
 
+	protected void assertValidValueNotExists(String name, String key) throws Exception {
+		try {
+			assertValidValueNotExistsWithHtmlSelect(name, key);
+		}
+		catch (ElementNotFoundException ex) {
+			assertValidValueNotExistsWithUIAutocomplete(name, key);
+		}
+	}
+	
+	private void assertValidValueNotExistsWithUIAutocomplete(String name, String key) throws Exception {
+		List<KeyAndDescription> validValues = getValidValuesWithUIAutocomplete(name);
+		if (validValues.size() > 0){
+			int i = 0;
+			for (KeyAndDescription validValue: validValues) {
+				if (key.equals((String) validValue.getKey())){
+					fail(XavaResources.getString("option_found", name, key));
+				}
+			}
+		}
+	}
+	
+	private void assertValidValueNotExistsWithHtmlSelect(String name, String key) {
+		Collection options = getSelectByName(decorateId(name)).getOptions();
+		if (options.size() > 0){
+			int i=0;
+			for (Iterator it = options.iterator(); it.hasNext(); i++) {
+				HtmlOption option = (HtmlOption) it.next();
+				if (option.getValueAttribute().equals(key)) {
+					fail(XavaResources.getString("option_found", name, key));
+					break;
+				}
+			}
+		}
+	}
+	
 	protected void assertValidValues(String name, String [][] values) throws Exception {
 		try {
 			assertValidValuesWithHtmlSelect(name, values);
