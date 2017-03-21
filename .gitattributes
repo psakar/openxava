@@ -9050,6 +9050,7 @@ OpenXavaTest/data/company-b-db.lck -text
 OpenXavaTest/data/company-b-db.log -text
 OpenXavaTest/data/company-b-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-b-db.script -text
+OpenXavaTest/data/openxava-test-db.lck -text
 OpenXavaTest/data/openxava-test-db.lobs -text
 OpenXavaTest/data/openxava-test-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/openxava-test-db.script -text
@@ -10745,6 +10746,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/ShowSelectedAuthorsAction.groovy
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowSellerAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/TranslateCarrierNameAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ViewNameFellowCarriersSelectedAction.java -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/ViewNamesOrRolesNamesFromTeamMember.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/annotations/GoodName.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/base/AbstractToto.java -text
 OpenXavaTest/pojo-src/org/openxava/test/calculators/DefaultInvoiceCalculator.java -text svneol=unset#text/plain

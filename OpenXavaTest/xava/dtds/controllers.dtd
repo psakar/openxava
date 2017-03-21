@@ -63,5 +63,7 @@
 <!ATTLIST controller
  name CDATA #REQUIRED
  label CDATA #IMPLIED
+ image CDATA #IMPLIED
+ icon CDATA #IMPLIED
 >
 <!ELEMENT controllers (env-var*, object*, controller+)>

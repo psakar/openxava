@@ -1,3 +1,4 @@
+<%@page import="org.openxava.controller.meta.MetaController"%>
 <%@ include file="../imports.jsp"%>
 
 <jsp:useBean id="context" class="org.openxava.controller.ModuleContext" scope="session"/>
@@ -46,7 +47,7 @@ String propertyPrefix = propertyPrefixAccumulated == null?collectionName + ".":p
 <% if (XavaPreferences.getInstance().isDetailOnBottomInCollections()) { %>
 <tr><td>
 <% try { %>
-	<% if (!Is.emptyString(listEditor)) { %> 		
+	<% if (!Is.emptyString(listEditor)) { %>
 		<jsp:include page="<%=listEditor%>">
 			<jsp:param name="rowAction" value="<%=lineAction%>"/>	
 			<jsp:param name="viewObject" value="<%=viewName%>"/>
@@ -98,7 +99,8 @@ if (view.displayDetailInCollection(collectionName)) {
 %>
 <%
 	Iterator itListActions = subview.getActionsNamesList().iterator();
-while (itListActions.hasNext()) {
+
+	while (itListActions.hasNext()) {
 %>
 <jsp:include page="../barButton.jsp">
 	<jsp:param name="action" value="<%=itListActions.next().toString()%>"/>
@@ -106,8 +108,22 @@ while (itListActions.hasNext()) {
 </jsp:include>
 <%
 	} // while list actions
-%>
 
+
+// tmp >>
+	Collection<String> listSubcontrollers = subview.getSubcontrollersNamesList();
+	for(String listSubcontroller : listSubcontrollers){
+		%>
+		<jsp:include page="../subButton.jsp">
+			<jsp:param name="controller" value="<%=listSubcontroller%>"/>
+			<jsp:param name="argv" value='<%="viewObject="+viewName%>'/>
+		</jsp:include>
+		<%
+	}
+// tmp <<
+
+
+%>
 
 </td></tr>
 <%

@@ -80,7 +80,6 @@ if (simple) filter = false;
 %>
 
 <input type="hidden" name="xava_list<%=tab.getTabName()%>_filter_visible"/>
-
 <%
 if (collection == null || collection.equals("")) { 	
 %>

@@ -1,7 +1,6 @@
 <jsp:useBean id="context" class="org.openxava.controller.ModuleContext" scope="session"/>
 
 <%@ page import="org.openxava.web.WebEditors" %>
-
 <%
 String tabObject = request.getParameter("tabObject");
 tabObject = (tabObject == null || tabObject.equals(""))?"xava_tab":tabObject;

@@ -978,12 +978,9 @@ openxava.subcontroller = function(id,containerId,buttonId,imageId,aId,spanId){
 	}
 	// display and position the menu 
 	$('#'+id).css('display','inline');
-	var a = $('#'+aId);
-	var h = $('#'+buttonId).height();	
-	var f = a.position();
 	$('#'+id).css({ 
-		'top': f.top + h,
-		'left': f.left
+		'top': $('#'+aId).position().top + $('#'+buttonId).outerHeight(true),
+		'left': $('#'+aId).position().left
 	});
 	//
 	$('#'+imageId).fadeTo("fast",0.3);
