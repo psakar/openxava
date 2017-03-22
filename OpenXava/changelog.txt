@@ -1,5 +1,11 @@
 Change Log for OpenXava project
 ===============================
+
+- Japanese translation of labels and messages.
+- It's possible to create new elements from a regular @OneToMany collection even if it has no cascade REMOVE.
+- @NewAction no longer define the action for adding new elements from existing one, now it's only to create new elements.
+- New @AddAction annotation allowed for collections, to define the action to add elements from existing ones. 
+- New <add-action/> element in <collection-view/> for XML components.
 - New method assertValidValueNotExists() in ModuleTestBase.
 - You can define 'subcontroller' in a collection using @ListSubcontroller. 
 - Fix: SchemaTool fails with entities with @Table(schema=).

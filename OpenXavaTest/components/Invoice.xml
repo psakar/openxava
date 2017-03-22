@@ -308,6 +308,12 @@
 			deliveries
 		</members>						
 	</view>
+	
+	<view name="AddDeliveries" extends="Deliveries">
+		<collection-view collection="deliveries" view="InInvoice">
+			<add-action action="Invoice.addDelivery"/>
+		</collection-view>
+	</view>	
 	 
 	<view name="Amounts">
 		<members>

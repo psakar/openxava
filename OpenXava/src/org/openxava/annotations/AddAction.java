@@ -3,25 +3,26 @@ package org.openxava.annotations;
 import java.lang.annotation.*;
 
 /**
- * Allows to define a subcontroller in a collection.<p> 
+ * Allows you to define your custom action to start
+ * adding new elements to a collection choosing from existing ones. <p>
  * 
  * Applies to @OneToMany/@ManyToMany collections. <p>
  * 
- * The collection will be display a 'menu' with the controller actions.<br>
+ * This is the action executed on click in 'Add' link.<br>
  * Example:
  * <pre>
- * &nbsp;@OneToMany(mappedBy="team", cascade=CascadeType.ALL)
- * &nbsp;@ListSubcontroller("MyControllerName")
- * &nbsp;private Collection<TeamMember> members;		
+ * &nbsp;@OneToMany (mappedBy="invoice")
+ * &nbsp;@AddAction("Invoice.addDeliveries")
+ * &nbsp;private Collection<Delivery> deliveries;	
  * </pre>
- *
+ * 
  * @since 5.7
- * @author Ana Andres
+ * @author Javier Paniza
  */
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ ElementType.FIELD, ElementType.METHOD })
-public @interface ListSubcontroller {
+public @interface AddAction {
 
 	/**
 	 * List of comma separated view names where this annotation applies. <p>
@@ -31,7 +32,7 @@ public @interface ListSubcontroller {
 	 * apply to all views.<br>
 	 * You can use the string "DEFAULT" for referencing to the default
 	 * view (the view with no name).
-	 */		
+	 */	
 	String forViews() default "";
 	
 	/**
@@ -42,13 +43,12 @@ public @interface ListSubcontroller {
 	 * apply to all views.<br>
 	 * You can use the string "DEFAULT" for referencing to the default
 	 * view (the view with no name).
-	 */ 		
+	 */ 	
 	String notForViews() default "";
-
+	
 	/**
-	 * You have to write the controller name that has all the actions that you want displaying <p>
-	 * 
-	 * This controller must be registered in controllers.xml.
+	 * You have to write the action identifier that is the controller
+	 * name and the action name. This action must be registered in controllers.xml
 	 */	
 	String value();
 	

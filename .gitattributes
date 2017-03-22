@@ -5266,6 +5266,7 @@ OpenXava/i18n/Labels_es.properties -text
 OpenXava/i18n/Labels_fr.properties -text
 OpenXava/i18n/Labels_in.properties -text
 OpenXava/i18n/Labels_it.properties -text
+OpenXava/i18n/Labels_ja.properties -text svneol=unset#text/plain
 OpenXava/i18n/Labels_pl.properties -text
 OpenXava/i18n/Labels_ru.properties -text svneol=unset#text/plain
 OpenXava/i18n/Labels_sr.properties -text
@@ -5279,6 +5280,7 @@ OpenXava/i18n/Messages_es.properties -text svneol=unset#text/plain
 OpenXava/i18n/Messages_fr.properties -text
 OpenXava/i18n/Messages_in.properties -text
 OpenXava/i18n/Messages_it.properties -text
+OpenXava/i18n/Messages_ja.properties -text svneol=unset#text/plain
 OpenXava/i18n/Messages_pl.properties -text
 OpenXava/i18n/Messages_ru.properties -text svneol=unset#text/plain
 OpenXava/i18n/Messages_sr.properties -text
@@ -5507,6 +5509,8 @@ OpenXava/src/org/openxava/actions/ViewDetailAction.java -text
 OpenXava/src/org/openxava/actions/ViewElementInCollectionAction.java -text
 OpenXava/src/org/openxava/annotations/Action.java -text
 OpenXava/src/org/openxava/annotations/Actions.java -text
+OpenXava/src/org/openxava/annotations/AddAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/annotations/AddActions.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/annotations/AsEmbedded.java -text
 OpenXava/src/org/openxava/annotations/Collapsed.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/annotations/CollectionView.java -text
@@ -11202,6 +11206,7 @@ OpenXavaTest/src/org/openxava/test/actions/EditInvoiceDetailAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/GenerateDeliveryNumberAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/GenerateDeliveryNumberPropertyAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/GetNameAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/GoAddDeliveryFromInvoiceAction.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/actions/GoAddFullAddressAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/GoFamilyProductsReportAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/GoToURLAction.java -text
@@ -11384,6 +11389,7 @@ OpenXavaTest/src/org/openxava/test/tests/Invoice2NoModifyDetailsTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/Invoice2Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/Invoice3Test.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoiceActiveYearTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/InvoiceAddDeliveriesTest.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/InvoiceCustomerAsAggregateTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoiceDeliveriesTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/InvoiceDetailsWithTotalsTest.java -text svneol=unset#text/plain

@@ -88,6 +88,7 @@ import org.openxava.util.*;
 		"year, number, date;" +
 		"deliveries;"
 	),
+	@View(name="AddDeliveries", extendsView="Deliveries"), 	
 	@View(name="Amounts", members=
 		"year, number;" +
 		"amounts [#" + 		
@@ -264,6 +265,7 @@ public class Invoice {
 	@CollectionView(forViews="DEFAULT, Deliveries", value="InInvoice")
 	@ReadOnly(forViews="DEFAULT, Deliveries")
 	@ViewAction(forViews="Deliveries", value="Invoice.viewDelivery")
+	@AddAction(forViews="AddDeliveries", value="Invoice.addDelivery") 
 	private Collection<Delivery> deliveries;
 	
 	@Stereotype("MONEY")

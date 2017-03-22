@@ -20,6 +20,7 @@ public class EditElementInCollectionAction extends CollectionElementViewBaseActi
 	
 	public void execute() throws Exception {
 		getCollectionElementView().clear(); 
+		getCollectionElementView().setKeyEditable(false); 
 		getCollectionElementView().setCollectionDetailVisible(true);
 		Collection elements;
 		Map keys = null;

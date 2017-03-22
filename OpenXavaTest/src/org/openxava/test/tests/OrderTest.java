@@ -43,12 +43,13 @@ public class OrderTest extends ModuleTestBase {
 		assertNoAction("ReferenceSearch.choose");		
 	}
 	
-	public void testCalculatedPropertiesFromCollection_generatedValueOnPersistRefreshedInView_rowAction() throws Exception {
+	public void testCalculatedPropertiesFromCollection_generatedValueOnPersistRefreshedInView_rowAction_noAddActionInCascadeCollections() throws Exception { 
 		String nextNumber = getNextNumber();
 		execute("CRUD.new");
 		assertValue("number", "");
 		setValue("customer.number", "1");
 		assertValue("customer.name", "Javi");
+		assertNoAction("Collection.add"); 
 		assertCollectionRowCount("details", 0);
 		execute("Collection.new", "viewObject=xava_view_details");
 		setValue("product.number", "1"); 

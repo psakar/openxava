@@ -1448,6 +1448,28 @@ public class AnnotatedClassParser implements IComponentParser {
 				}				
 			}
 			
+			if (element.isAnnotationPresent(AddAction.class)) {
+				AddAction action = element.getAnnotation(AddAction.class);
+				if (isForView(metaView, action.forViews(), action.notForViews())) {
+					collectionView.setAddActionName(action.value());
+					mustAddMetaView = true;				
+				}
+			}
+			if (element.isAnnotationPresent(AddActions.class)) { 
+				AddAction [] actions = element.getAnnotation(AddActions.class).value();
+				for (AddAction action: actions) {				
+					if (isForView(metaView, action.forViews(), action.notForViews())) {
+						if (Is.emptyString(collectionView.getAddActionName())) {
+							collectionView.setAddActionName(action.value());
+							mustAddMetaView = true;				
+						}
+						else {
+							duplicateAnnotationForView(collection.getName(), AddAction.class, metaView.getName());
+						}
+					}
+				}				
+			}			
+			
 			// SaveAction
 			if (element.isAnnotationPresent(SaveAction.class)) {
 				SaveAction action = element.getAnnotation(SaveAction.class);
@@ -1723,7 +1745,8 @@ public class AnnotatedClassParser implements IComponentParser {
 				RowStyle.class, RowStyles.class, 
 				EditAction.class, EditActions.class, 
 				ViewAction.class, ViewActions.class, 
-				NewAction.class, NewActions.class, 
+				NewAction.class, NewActions.class,
+				AddAction.class, AddActions.class, 
 				SaveAction.class, SaveActions.class, 
 				HideDetailAction.class, HideDetailActions.class, 
 				RemoveAction.class, RemoveActions.class, 

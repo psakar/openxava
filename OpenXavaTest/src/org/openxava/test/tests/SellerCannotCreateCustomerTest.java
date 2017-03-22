@@ -16,7 +16,7 @@ public class SellerCannotCreateCustomerTest extends ModuleTestBase {
 
 	public void testNotCreateNewReferenceFromCollection() throws Exception {		
 		execute("CRUD.new");
-		assertNoAction("Collection.add");
+		assertNoAction("Collection.add");  
 	}
 	
 }

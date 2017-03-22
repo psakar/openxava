@@ -19,9 +19,7 @@ public class CreateNewElementInCollectionAction extends CollectionElementViewBas
 	
 	@SuppressWarnings("unchecked")
 	public void execute() throws Exception {				
-		if (getCollectionElementView().isRepresentsAggregate()) {		
-			getCollectionElementView().reset();						
-		}
+		getCollectionElementView().reset();						
 		getCollectionElementView().setCollectionDetailVisible(true); 
 		getCollectionElementView().setCollectionEditingRow(-1);
 		showDialog(getCollectionElementView());				
@@ -35,6 +33,8 @@ public class CreateNewElementInCollectionAction extends CollectionElementViewBas
 			if(XavaPreferences.getInstance().isSaveAndStayForCollections()){
 				addActions("Collection.saveAndStay");
 			}
+			
+			getCollectionElementView().setKeyEditable(true); 
 		} 		
 		Iterator itDetailActions = getCollectionElementView().getActionsNamesDetail().iterator();		
 		while (itDetailActions.hasNext()) {			

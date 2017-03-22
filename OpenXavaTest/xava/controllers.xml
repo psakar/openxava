@@ -30,7 +30,7 @@
 		<extends controller="Typical"/>
 		<action name="disableDiscussion" class="org.openxava.test.actions.DisableDiscussionAction"/> 
 	</controller>
-	
+		
 	<controller name="GalleryNoDialog">		
 		<action name="edit" image="photo.gif" hidden="true"
 			class="org.openxava.test.actions.EditGalleryNoDialogAction"/>			
@@ -508,7 +508,9 @@
 			class="org.openxava.test.actions.EditInvoiceDetailWithSectionsAction"/>				
 		<action name="viewDelivery" hidden="true"
 			class="org.openxava.test.actions.ViewDeliveryFromInvoiceAction"/>
-				
+		<action name="addDelivery" image="create_new.gif"
+			icon="table-row-plus-after" hidden="true"
+			class="org.openxava.test.actions.GoAddDeliveryFromInvoiceAction"/>
 		<action name="viewProduct" hidden="true"
 			class="org.openxava.test.actions.ViewProductFromInvoiceDetailAction"/>
 		 

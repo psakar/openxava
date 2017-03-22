@@ -1,30 +1,64 @@
 package org.openxava.view;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.Collections;
-import java.util.prefs.*;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.StringTokenizer;
+import java.util.prefs.BackingStoreException;
+import java.util.prefs.Preferences;
 
-import javax.ejb.*;
-import javax.servlet.http.*;
+import javax.ejb.FinderException;
+import javax.ejb.ObjectNotFoundException;
+import javax.servlet.http.HttpServletRequest;
 
 import org.apache.commons.lang3.*;
-import org.apache.commons.logging.*;
-import org.openxava.actions.*;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.openxava.actions.IOnChangePropertyAction;
 import org.openxava.application.meta.*;
-import org.openxava.calculators.*;
-import org.openxava.component.*;
-import org.openxava.controller.*;
-import org.openxava.controller.meta.*;
-import org.openxava.filters.*;
-import org.openxava.mapping.*;
-import org.openxava.model.*;
-import org.openxava.model.meta.*;
-import org.openxava.tab.*;
+import org.openxava.calculators.ICalculator;
+import org.openxava.calculators.IEntityCalculator;
+import org.openxava.calculators.IJDBCCalculator;
+import org.openxava.calculators.IModelCalculator;
+import org.openxava.calculators.IOptionalCalculator;
+import org.openxava.component.MetaComponent;
+import org.openxava.controller.ModuleContext;
+import org.openxava.controller.ModuleManager;
+import org.openxava.controller.meta.MetaAction;
+import org.openxava.controller.meta.MetaController;
+import org.openxava.controller.meta.MetaControllers;
+import org.openxava.filters.CollectionInViewFilter;
+import org.openxava.filters.CollectionWithConditionInViewFilter;
+import org.openxava.mapping.ModelMapping;
+import org.openxava.model.MapFacade;
+import org.openxava.model.PersistenceFacade;
+import org.openxava.model.meta.MetaAggregate;
+import org.openxava.model.meta.MetaCalculator;
+import org.openxava.model.meta.MetaCollection;
+import org.openxava.model.meta.MetaEntity;
+import org.openxava.model.meta.MetaMember;
+import org.openxava.model.meta.MetaModel;
+import org.openxava.model.meta.MetaProperty;
+import org.openxava.model.meta.MetaReference;
+import org.openxava.tab.Tab;
 import org.openxava.util.*;
 import org.openxava.util.meta.*;
-import org.openxava.view.meta.*;
+import org.openxava.view.meta.MetaCollectionView;
+import org.openxava.view.meta.MetaDescriptionsList;
+import org.openxava.view.meta.MetaGroup;
+import org.openxava.view.meta.MetaReferenceView;
+import org.openxava.view.meta.MetaView;
+import org.openxava.view.meta.MetaViewAction;
+import org.openxava.view.meta.PropertiesSeparator;
 import org.openxava.web.*;
-import org.openxava.web.meta.*;
+import org.openxava.web.meta.MetaEditor;
 
 /**
  * Session object to manage a view based in maps,
@@ -52,13 +86,14 @@ public class View implements java.io.Serializable {
 	private Map objects = null; 	
 	private String editCollectionElementAction;
 	private String viewCollectionElementAction;
+	private String addCollectionElementAction;  
 	private String newCollectionElementAction;
 	private String saveCollectionElementAction;
 	private String hideCollectionElementAction;
 	private String removeCollectionElementAction;
 	private String removeSelectedCollectionElementsAction;
 	private String onSelectCollectionElementAction; 
-	
+	private Collection subcontrollersNamesList; 
 	private boolean focusForward;
 	private String focusPropertyId;
 	private String focusCurrentId; 
@@ -114,7 +149,6 @@ public class View implements java.io.Serializable {
 	private boolean collectionEditableFixed;
 	private Collection actionsNamesDetail;
 	private Collection actionsNamesList;
-	private Collection subcontrollersNamesList;
 	private Collection actionsNamesRow; 
 	private int [] listSelected;
 	private boolean readOnly; // Always not editable, marked from xml
@@ -898,11 +932,13 @@ public class View implements java.io.Serializable {
 				}
 				newView.setViewCollectionElementAction(metaCollectionView.getViewActionName());
 				
-				if (!metaCollectionView.isCreateReference()) {
+				if (!metaCollectionView.isCreateReference()) { 
 					newView.setNewCollectionElementAction("");
+					newView.setAddCollectionElementAction("");
 				}
 				else {
 					newView.setNewCollectionElementAction(metaCollectionView.getNewActionName());
+					newView.setAddCollectionElementAction(metaCollectionView.getAddActionName()); 
 				}
 				newView.setSaveCollectionElementAction(metaCollectionView.getSaveActionName());
 				newView.setHideCollectionElementAction(metaCollectionView.getHideActionName());
@@ -930,11 +966,6 @@ public class View implements java.io.Serializable {
 					Collection actions = new ArrayList(actionsListNames);
 					actions.addAll(newView.getDefaultListActionsForCollections());
 					newView.setActionsNamesList(actions);
-				}
-				Collection subcontrollerListNames = metaCollectionView.getSubcontrollersListNames();
-				if (!subcontrollerListNames.isEmpty()) {					
-					Collection subcontroller = new ArrayList(subcontrollerListNames);
-					newView.setSubcontrollersNamesList(subcontroller);
 				}
 				Collection actionsRowNames = metaCollectionView.getActionsRowNames();
 				if (!actionsRowNames.isEmpty()) {					
@@ -2735,7 +2766,7 @@ public class View implements java.io.Serializable {
 			if (getMetaView().hasOnChangeAction(p.getName())) return true;			
 			if (isLastSearchKey(p)) return true; 			
 			if (!isSubview()) return false;							
-			return isRepresentsEntityReference() && getLastPropertyKeyName().equals(p.getName());
+			return isRepresentsEntityReference() && !isRepresentsCollection() && getLastPropertyKeyName().equals(p.getName()); 
 		}
 		catch (Exception ex) {
 			log.warn(XavaResources.getString("property_changed_not_know_warning", p.getName()), ex);
@@ -3928,6 +3959,7 @@ public class View implements java.io.Serializable {
 	
 	private boolean isLastSearchKey(MetaProperty p, boolean editable, boolean keyEditable) throws XavaException {		
 		if (!isRepresentsEntityReference()) return false;
+		if (isRepresentsCollection()) return false; 
 		if (displayAsDescriptionsList()) return false; 
 		if (hasSearchMemberKeys())	return isLastPropertyMarkedAsSearchKey(p); // explicit search key
 		return 
@@ -4336,7 +4368,7 @@ public class View implements java.io.Serializable {
 	}
 	
 	public Collection getSubcontrollersNamesList(){
-		return subcontrollersNamesList==null?Collections.EMPTY_LIST:subcontrollersNamesList;
+		return subcontrollersNamesList==null?Collections.EMPTY_LIST:subcontrollersNamesList; 
 	}
 	
 	public boolean hasListActions() {				
@@ -4760,11 +4792,17 @@ public class View implements java.io.Serializable {
 	public void setHideCollectionElementAction(String hideCollectionElementAction) {		
 		this.hideCollectionElementAction = hideCollectionElementAction;
 	}
+	
+	public String getAddCollectionElementAction() { 		
+		if (!Is.emptyString(addCollectionElementAction)) return addCollectionElementAction;
+		if (addCollectionElementAction != null) return "";		
+		return "Collection.add";
+	}
 
 	public String getNewCollectionElementAction() {		
 		if (!Is.emptyString(newCollectionElementAction)) return newCollectionElementAction;
 		if (newCollectionElementAction != null) return "";		
-		return isRepresentsEntityReference()?"Collection.add":"Collection.new";
+		return "Collection.new"; 
 	}
 
 	public void setNewCollectionElementAction(String newCollectionElementAction) {		
@@ -5766,6 +5804,10 @@ public class View implements java.io.Serializable {
 	public void reloadMetaModel() { 
 		getRoot().reloadNeeded = true; 
 		resetMembers();
+	}
+
+	public void setAddCollectionElementAction(String addCollectionElementAction) {
+		this.addCollectionElementAction = addCollectionElementAction;
 	}
 			
 }

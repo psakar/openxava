@@ -19,37 +19,41 @@ public class SellerTest extends CustomizeListTestBase {
 		super(testName, "Seller");		
 	}
 	
-	public void testEditAndRemoveElementInEntityCollection() throws Exception { 
+	public void testEditCreateAndRemoveElementInEntityCollection() throws Exception {
 		execute("List.viewDetail", "row=2");
 		assertValue("name", "ELISEO FERNANDEZ");
 		assertCollectionRowCount("customers", 0);
-		
-		execute("Collection.add", "viewObject=xava_view_customers");
-		assertValueInList(2, 0, "Carmelo");
-		execute("AddToCollection.add", "row=2");
+				
+		execute("Collection.new", "viewObject=xava_view_customers");
+		assertEditable("number");
+		assertEditable("name");
+		setValue("number", "66");
+		setValue("name", "Junit Customer");
+		setValue("address.street", "JUNIT STREET");
+		setValue("address.zipCode", "44666");
+		setValue("address.city", "JUNIT CITY");
+		setValue("address.state.id", "CA");
+		execute("Collection.save");
 		assertCollectionRowCount("customers", 1);
-		assertValueInCollection("customers", 0, 1, "Carmelo");
+		assertValueInCollection("customers", 0, 1, "Junit Customer");		
 		
 		execute("Collection.edit", "row=0,viewObject=xava_view_customers");
-		assertValue("number", "3");
-		assertValue("name", "Carmelo");
+		assertValue("number", "66");
+		assertValue("name", "Junit Customer");
 		assertNoEditable("number");
 		assertEditable("name");
-		setValue("name", "Carmela");
+		setValue("name", "Cliente Junit");
 		execute("Collection.save");
 		assertCollectionRowCount("customers", 1);
-		assertValueInCollection("customers", 0, 1, "Carmela");
+		assertValueInCollection("customers", 0, 1, "Cliente Junit");
 		
 		execute("Collection.edit", "row=0,viewObject=xava_view_customers");
-		assertValue("name", "Carmela");
-		setValue("name", "Carmelo");
-		execute("Collection.save");
-		assertValueInCollection("customers", 0, 1, "Carmelo");
-		
-		execute("Collection.edit", "row=0,viewObject=xava_view_customers");
-		assertValue("name", "Carmelo");
+		assertValue("name", "Cliente Junit");
 		execute("Collection.remove");
-		assertCollectionRowCount("customers", 0);		
+		assertCollectionRowCount("customers", 0);
+		
+		Customer junitCustomer = XPersistence.getManager().find(Customer.class, 66);
+		XPersistence.getManager().remove(junitCustomer);
 	}
 		
 	public void testCollectionWithListPropertiesStoresPreferences() throws Exception {  
