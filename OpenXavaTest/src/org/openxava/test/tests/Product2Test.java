@@ -551,8 +551,8 @@ public class Product2Test extends ModuleTestBase {
 		assertEquals("", familyTextField.getAttribute("value"));
 		familyTextField.type("ware");
 		assertEquals("ware", familyTextField.getAttribute("value"));
-		Thread.sleep(500);
-		assertTrue(familyList.isDisplayed());
+		Thread.sleep(600);
+		assertTrue(familyList.isDisplayed()); 
 		assertFalse(openFamilyListIcon.isDisplayed());
 		assertTrue(closeFamilyListIcon.isDisplayed());
 		assertEquals(2, familyList.getChildElementCount());
