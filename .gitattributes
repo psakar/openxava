@@ -9054,7 +9054,6 @@ OpenXavaTest/data/company-b-db.lck -text
 OpenXavaTest/data/company-b-db.log -text
 OpenXavaTest/data/company-b-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-b-db.script -text
-OpenXavaTest/data/openxava-test-db.lck -text
 OpenXavaTest/data/openxava-test-db.lobs -text
 OpenXavaTest/data/openxava-test-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/openxava-test-db.script -text
