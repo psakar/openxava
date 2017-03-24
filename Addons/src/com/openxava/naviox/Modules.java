@@ -208,6 +208,27 @@ public class Modules implements Serializable {
 			
 	}
 	
+	/**
+	 * @since 5.7
+	 */
+	public boolean isModuleAuthorized(String module) { 	
+		return isModuleAuthorized(null, module); 			
+	}
+	
+	/**
+	 * @since 5.7
+	 */
+	public boolean isModuleAuthorized(HttpServletRequest request, String module) {
+		try {		
+			return isModuleAuthorized(request, MetaModuleFactory.create(module)); 
+		}
+		catch (Exception ex) {			
+			log.warn(XavaResources.getString("module_not_authorized"), ex); 
+			return false;
+		}
+			
+	}
+	
 	public String getModuleURI(HttpServletRequest request, MetaModule module) { 
 		String organization = Organizations.getCurrent(request); 
 		String prefix = organization == null?"":"/o/" + organization;

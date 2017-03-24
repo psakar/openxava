@@ -40,6 +40,7 @@
  cuesta (true|false) "false" 
  confirmar (true|false) "false"
  en-cada-fila (true|false) "false"
+ procesar-elementos-seleccionados (true|false) "false"
 >
 
 <!ELEMENT usa-objeto EMPTY>
@@ -63,6 +64,8 @@
 <!ATTLIST controlador
  nombre CDATA #REQUIRED
  etiqueta CDATA #IMPLIED
+ imagen CDATA #IMPLIED
+ icono CDATA #IMPLIED
  clase CDATA #IMPLIED
  contexto (comun|swing|web) "comun"
 >
