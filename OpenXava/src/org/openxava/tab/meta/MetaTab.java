@@ -340,20 +340,48 @@ public class MetaTab implements java.io.Serializable, Cloneable {
 	
 	private List createAllPropertiesNames() throws XavaException {
 		List result = new ArrayList();
-		// First the properties from a possible @EmbeddedId
-		for (Iterator itRef = getMetaModel().getMetaReferencesKey().iterator(); itRef.hasNext(); ) {
-			MetaReference ref = (MetaReference) itRef.next();
-			if (ref.isAggregate()) {
-				for (Iterator itKey = ref.getMetaModelReferenced().getPropertiesNamesWithoutHiddenNorTransient().iterator(); itKey.hasNext(); ) {
-					result.add(ref.getName() + "." + itKey.next());
+		for (String member: getMetaModel().getMembersNames()) {
+			if (getMetaModel().isHiddenKey(member)) continue;
+			if (getMetaModel().containsMetaProperty(member)) {
+				MetaProperty property = getMetaModel().getMetaProperty(member);
+				if (property.isHidden() || property.isTransient() || property.getSize() == 32) continue; // We assume it is an oid
+				result.add(member);
+			}
+			else if ((getMetaModel().containsMetaReference(member))) {
+				if (member.contains("_")) continue; // For references inside aggregates
+				MetaReference ref = getMetaModel().getMetaReference(member);
+				if (ref.getMetaCollectionFromReferencedModel() != null && representCollection()) continue; 
+				
+				MetaModel refModel = ref.getMetaModelReferenced();
+				for (String key: refModel.getKeyPropertiesNames()) {
+					if (!refModel.isHiddenKey(key)) {
+						result.add(member + "." + key); 
+					}
+				}
+				boolean added = addPropertyIfExists(result, refModel, member, "name", "nombre", "description", "descripcion", "title", "titulo");
+				if (!added) {
+					for (String property: refModel.getPropertiesNamesWithoutHiddenNorTransient()) {
+						if (refModel.isKeyOrSearchKey(property)) continue;
+						result.add(member + "." + property);
+						break;
+					}
 				}
 			}
 		}
-		// Now the plain properties
-		result.addAll(getMetaModel().getPropertiesNamesWithoutHiddenNorTransient());
 		return result;
 	}
 	
+	private boolean addPropertyIfExists(Collection result, MetaModel metaModel, String member, String ... properties) {
+		boolean added = false;
+		for (String property: properties) {
+			if (metaModel.containsMetaProperty(property)) {
+				result.add(member + "." + property);
+				added = true;
+			}
+		}
+		return added;
+	}
+
 	public void setDefaultPropertiesNames(String properties) {
 		this.defaultPropertiesNames = properties;
 		if (areAllProperties()) setPropertiesNames(properties); 

@@ -15,7 +15,7 @@ import org.openxava.util.*;
  */
 
 @Entity
-@Tab(defaultOrder="${description} asc")	// failed to change default schema in as400
+@Tab(defaultOrder="${description} asc", properties="id, description") // failed to change default schema in as400 
 @View(name="IssueWeb", members="id, description")
 public class Issue {
 	

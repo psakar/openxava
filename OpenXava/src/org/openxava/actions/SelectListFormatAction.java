@@ -19,7 +19,7 @@ public class SelectListFormatAction extends TabBaseAction {
 			}
 		}
 		String editorToInit = editor==null?getTab().getEditor():editor;
-		if (!"__NONAME__".equals(editorToInit)) {
+		if (!"__NONAME__".equals(editorToInit) && !Is.emptyString(editorToInit)) { 
 			String initAction = MetaWebEditors.getMetaEditorByName(editorToInit).getInitAction();
 			if (!Is.emptyString(initAction)) { 
 				executeAction(initAction); 

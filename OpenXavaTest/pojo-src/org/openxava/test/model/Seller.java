@@ -33,7 +33,7 @@ import org.openxava.annotations.*;
 	@View(name="SearchListConditionBlank", members="number; name;level;customers")
 })
 @Tabs({
-	@Tab(filter=org.openxava.test.filters.NumbersToLettersFilter.class),
+	@Tab(filter=org.openxava.test.filters.NumbersToLettersFilter.class, properties="number, name, regions"), 
 	@Tab(name="Other", filter=org.openxava.test.filters.NumbersToLettersFilter.class)
 })
 

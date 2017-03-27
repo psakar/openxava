@@ -11,6 +11,7 @@ import org.openxava.annotations.*;
  */
 
 @Entity
+// DO NOT ADD @Tab we use this class to test default properties without @Tab
 public class AverageSpeed {
 	
 	@Id @GeneratedValue(generator="system-uuid") @Hidden 

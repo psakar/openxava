@@ -15,8 +15,8 @@ public class ParentTest extends ModuleTestBase {
 
 	@Override
 	public void setUp() throws Exception {
-		removeEntities();
 		super.setUp();
+		removeEntities();
 	}
 	
 	@Override

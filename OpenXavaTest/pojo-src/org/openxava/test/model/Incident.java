@@ -12,6 +12,7 @@ import org.openxava.web.editors.*;
  */
 
 @Entity
+// DO NOT ADD @Tab we use this class to test default properties without @Tab
 public class Incident extends Identifiable {
 	
 	@Column(length=50) @Required

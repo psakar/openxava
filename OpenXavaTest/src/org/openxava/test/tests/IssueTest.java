@@ -72,7 +72,7 @@ public class IssueTest extends IssueTestBase {
 		String expectedLine = "\"ABCDE\";\"UNO;\"\"DOS\"\";TRES\"";
 		StringTokenizer excel = new StringTokenizer(getPopupText(), "\n\r");
 		String header = excel.nextToken();
-		assertEquals("header", "Id;Description", header);		
+		assertEquals("header", "Id;Description", header); 		
 		String line1 = excel.nextToken();
 		assertEquals("line1", expectedLine, line1);
 		assertTrue("Only one line must have generated", !excel.hasMoreTokens());

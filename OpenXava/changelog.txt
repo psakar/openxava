@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Better default values for list and collection properties when @Tab and @ListProperties are omitted.
 - Japanese translation of labels and messages.
 - It's possible to create new elements from a regular @OneToMany collection even if it has no cascade REMOVE.
 - @NewAction no longer define the action for adding new elements from existing one, now it's only to create new elements.

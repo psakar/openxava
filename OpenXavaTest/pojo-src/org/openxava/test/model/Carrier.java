@@ -87,6 +87,7 @@ public class Carrier {
 		"NOT (${number} = ${this.number})"		
 	)
 	@OrderBy("number") 
+	@ListProperties("number, name, remarks, calculated") 
 	@Editor(forViews="FellowsNames", value="CarriersNames")
 	public Collection<Carrier> getFellowCarriers() { 
 		// At the moment you must write a code that returns the same result

@@ -10,7 +10,7 @@ import org.openxava.model.*;
  * @author Javier Paniza 
  */
 @Entity
-@Tab(defaultOrder="${name} asc")
+@Tab(properties="name", defaultOrder="${name} asc") 
 public class Applicant extends Identifiable {
 	
 	@Column(length=40) @Required

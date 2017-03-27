@@ -38,7 +38,7 @@ abstract public class MetaModel extends MetaElement {
 	private List metaCalculatorsPostLoad;
 	private List metaCalculatorsPostModify;
 	private List metaCalculatorsPreRemove;
-	private List propertiesNamesWithoutHiddenNorHidden;
+	private List<String> propertiesNamesWithoutHiddenNorTransient;  
 	private String containerReference; 
 	private String containerModelName;
 	private MetaModel metaModelContainer;
@@ -58,7 +58,7 @@ abstract public class MetaModel extends MetaElement {
 	private MetaView metaViewByDefault;
 	private boolean pojoGenerated;
 	private Collection keyReferencesNames; 
-	private Collection keyPropertiesNames; 
+	private Collection<String> keyPropertiesNames; 
 	
 	private Collection metaPropertiesWithDefaultValueCalculator;
 	private List propertiesNames;
@@ -644,7 +644,7 @@ abstract public class MetaModel extends MetaElement {
 	 * 
 	 * @return Collection of <tt>String</tt>, not null and read only 
 	 */
-	public Collection getKeyPropertiesNames() throws XavaException {
+	public Collection<String> getKeyPropertiesNames() throws XavaException { 
 		if (keyPropertiesNames == null) {
 			Iterator it = getMembersNames().iterator(); // memberNames to keep order		
 			ArrayList result = new ArrayList();
@@ -717,9 +717,9 @@ abstract public class MetaModel extends MetaElement {
 	 * 
 	 * @return Collection of <tt>String</tt>, not null and read only
 	 */
-	public List getPropertiesNamesWithoutHiddenNorTransient() throws XavaException {
+	public List<String> getPropertiesNamesWithoutHiddenNorTransient() throws XavaException { 
 		// We get it from memberNames to keep order
-		if (propertiesNamesWithoutHiddenNorHidden == null) {
+		if (propertiesNamesWithoutHiddenNorTransient == null) {
 			List result = new ArrayList();
 			Iterator it = getMembersNames().iterator();
 			while (it.hasNext()) {
@@ -729,12 +729,11 @@ abstract public class MetaModel extends MetaElement {
 					result.add(name);  
 				}									
 			}		
-			propertiesNamesWithoutHiddenNorHidden = Collections.unmodifiableList(result);
+			propertiesNamesWithoutHiddenNorTransient = Collections.unmodifiableList(result);
 		}
-		return propertiesNamesWithoutHiddenNorHidden;
+		return propertiesNamesWithoutHiddenNorTransient;
 	}
-	
-	
+		
 	/**
 	 * @return Collection of <tt>MetaProperty</tt>, not null and read only
 	 */

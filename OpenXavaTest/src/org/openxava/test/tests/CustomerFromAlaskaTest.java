@@ -12,7 +12,7 @@ public class CustomerFromAlaskaTest extends ImageTestBase {
 				
 	public void testBaseConditionStartedByFrom() throws Exception { 
 		assertListRowCount(1);
-		assertValueInList(0, "number", "43");
+		assertValueInList(0, "number", "43"); 
 		assertValueInList(0, "name", "Gonzalo Gonzalez");
 	}
 			

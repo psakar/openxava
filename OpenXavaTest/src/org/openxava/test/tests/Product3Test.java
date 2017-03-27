@@ -43,7 +43,7 @@ public class Product3Test extends ModuleTestBase {
 		assertValue("comments", "");
 		execute("Reference.search", "keyProperty=xava.Product3.family.number");
 		execute("ReferenceSearch.choose", "row=0"); 
-		assertValue("comments", "Family changed");		
+		assertValue("comments", "Family changed"); 		
 	}
 	
 	public void testReferenceWithHiddenKey_defaultValueCalculatorWithJDBC() throws Exception { 

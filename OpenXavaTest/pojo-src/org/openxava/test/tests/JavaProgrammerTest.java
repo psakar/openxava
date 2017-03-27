@@ -36,11 +36,13 @@ public class JavaProgrammerTest extends ModuleTestBase {
 	}
 	
 	public void test2LevelsInheritedEntityWithBaseConditionList() throws Exception {
-		assertListColumnCount(4);
+		assertListColumnCount(6);  
 		assertLabelInList(0, "Name");
 		assertLabelInList(1, "Sex");
-		assertLabelInList(2, "Main language");
-		assertLabelInList(3, "Favourite framework");
+		assertLabelInList(2, "Author of Favorite author");
+		assertLabelInList(3, "Biography of Favorite author");
+		assertLabelInList(4, "Main language");
+		assertLabelInList(5, "Favourite framework");
 		assertListRowCount(1);
 		assertValueInList(0, 0, "JAVI");  				
 	}

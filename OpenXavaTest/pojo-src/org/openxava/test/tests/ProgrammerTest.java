@@ -33,10 +33,13 @@ public class ProgrammerTest extends ModuleTestBase {
 	}
 	
 	public void testInheritedEntityWithChildrenList() throws Exception {
-		assertListColumnCount(3);
+		assertListColumnCount(5);  
 		assertLabelInList(0, "Name");
 		assertLabelInList(1, "Sex");
-		assertLabelInList(2, "Main language");
+		assertLabelInList(2, "Author of Favorite author");
+		assertLabelInList(3, "Biography of Favorite author");
+		assertLabelInList(4, "Main language");
+		
 		assertListRowCount(3);
 		assertValueInList(0, 0, "JAVI"); 
 		assertValueInList(1, 0, "JUANJO"); 				

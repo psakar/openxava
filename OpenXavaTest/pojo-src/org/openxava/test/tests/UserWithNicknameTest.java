@@ -67,7 +67,7 @@ public class UserWithNicknameTest extends ModuleTestBase {
 		execute("CRUD.delete");
 		assertNoErrors();
 		removeNicknames();
-		removeFiles();		
+		removeFiles(); 	
 	}	
 
 	public void testStoreFrameStatusWithTooLongName() throws Exception { 

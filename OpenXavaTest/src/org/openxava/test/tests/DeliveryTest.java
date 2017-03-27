@@ -570,7 +570,7 @@ public class DeliveryTest extends ModuleTestBase {
 		execute("CRUD.refresh");
 		assertNoErrors();
 		execute("CRUD.delete");		
-		assertMessage("Delivery type deleted successfully");
+		assertMessage("Delivery type deleted successfully"); 
 		changeModule("Delivery");
 		assertNoType("66");
 	}

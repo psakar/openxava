@@ -18,12 +18,13 @@ class OrphanageTest extends ModuleTestBase {
 	
 	void testGeneratePDFForACollectionInsideAGroup_dateFormatUsesClientLocale() {
 		execute "Mode.detailAndFirst"
+		assertCollectionColumnCount "orphans", 1 
 		execute "Print.generatePdf", "viewObject=xava_view_orphanage_orphans"; 
 		assertNoErrors()
 		assertContentTypeForPopup "application/pdf"
 		assertPopupPDFLinesCount(6);
 		assertPopupPDFLine 1, "Orphans of Orphanage: EL INTERNADO"
-		assertPopupPDFLine 2, "Name"
+		assertPopupPDFLine 2, "Name" 
 		assertPopupPDFLine 3, "JUAN"
 		assertPopupPDFLine 4, "ANTONIO"
 		

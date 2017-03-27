@@ -3,7 +3,7 @@ package org.openxava.test.tests;
 import org.openxava.tests.*;
 
 /**
- * 
+ *
  * @author Javier Paniza
  */
 
@@ -33,12 +33,12 @@ class Product5Test extends CustomizeListTestBase {
 	// This case can be only reproduced in custom dialog with Product5 (in other Product it works)
 	void testDialogActionsAreNotLost() {  
 		execute "ExtendedPrint.myReports" 
-		assertValueInCollection "columns", 4, 0, "Unit price"
-		assertValueInCollection "columns", 4, 4, "No"
-		execute "MyReport.editColumn", "row=4,viewObject=xava_view_columns"
+		assertValueInCollection "columns", 11, 0, "Unit price"
+		assertValueInCollection "columns", 11, 4, "No"
+		execute "MyReport.editColumn", "row=11,viewObject=xava_view_columns"
 		setValue "sum", "true"
 		execute "MyReport.saveColumn"
-		assertValueInCollection("columns", 4, 4, "Yes"); 
+		assertValueInCollection("columns", 11, 4, "Yes"); 
 		assertAction "MyReport.generatePdf"
 	}
 	

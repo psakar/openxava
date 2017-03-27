@@ -18,6 +18,7 @@ import org.openxava.annotations.*;
 @AuditOverrides({
 	@AuditOverride(forClass=Nameable.class, name="name", isAudited=true)
 })
+@Tab(properties="name, file") 
 public class Exam extends Nameable {
 	
 	@Column(length=32) @Stereotype("FILE") @NotAudited

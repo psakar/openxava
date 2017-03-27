@@ -1,8 +1,6 @@
 package org.openxava.test.tests;
 
 import org.openxava.tests.*;
-import org.openxava.util.*;
-
 
 
 /**
@@ -16,7 +14,14 @@ public class AverageSpeedTest extends ModuleTestBase {
 		super(testName, "AverageSpeed");		
 	}
 	
-	public void testSearchingInAReferenceByANonIdDoesNotUseLike() throws Exception {		
+	
+	public void testDefaultPropertiesForListWithoutTab_searchingInAReferenceByANonIdDoesNotUseLike() throws Exception {
+		assertListColumnCount(4);
+		assertLabelInList(0, "Number of Driver");
+		assertLabelInList(1, "Driver");
+		assertLabelInList(2, "Code of Vehicle");
+		assertLabelInList(3, "Speed");
+		
 		execute("CRUD.new"); 
 		assertEditable("vehicle.code"); 
 		setValue("vehicle.code", "VLV40");

@@ -119,7 +119,7 @@ public class ApplicantTest extends ModuleTestBase {
 	}
 	
 	public void testListCustomizationWithTabDefaultOrder() throws Exception {  
-		assertListCustomizationWithTabDefaultOrder();
+		assertListCustomizationWithTabDefaultOrder(); 
 		resetModule();
 		assertListCustomizationWithTabDefaultOrder(); // Failed the second time after reseting module
 	}

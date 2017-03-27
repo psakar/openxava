@@ -88,7 +88,7 @@ abstract public class ExamBaseTest extends ModuleTestBase {
 		getLastRevisionNumber();
 	}
 	
-	public void testFileChangingDatasource() throws Exception {
+	public void testFileChangingDatasource() throws Exception { 
 		// Real data source
 		setDatasource(Datasource.REAL);
 		assertListRowCount(0);

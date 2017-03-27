@@ -193,6 +193,7 @@ import org.openxava.test.actions.*;
 		properties="name, type, seller.name"
 	),
 	@Tab(name="FromAlaska",  
+		properties="number, name", 
 		baseCondition="from Customer e, in (e.states) s where s.id = 'AK'")
 })
 public class Customer implements IWithName {

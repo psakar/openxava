@@ -20,7 +20,7 @@ public class Warehouse2Test extends ModuleTestBase {
 		// List mode
 		assertLabelInList(0, "Zone of Key");
 		assertLabelInList(1, "Number of Key");
-		assertLabelInList(2, "Name");
+		assertLabelInList(2, "Name"); 
 		assertListNotEmpty();
 		String zoneNumber = getValueInList(0, 0);
 		String number = getValueInList(0, 1);

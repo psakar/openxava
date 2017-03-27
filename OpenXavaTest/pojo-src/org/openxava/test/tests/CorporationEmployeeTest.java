@@ -20,13 +20,14 @@ public class CorporationEmployeeTest extends ModuleTestBase {
 	}
 	
 	public void testTabEditorForModel() throws Exception {
+		assertNoErrors(); // To test a bug on init
 		assertListRowCount(2); 
 		setValue("chooseSegment", "low");
 		assertListRowCount(1);
-		assertValueInList(0, 0, "MIGUEL");
+		assertValueInList(0, 1, "MIGUEL"); 
 		setValue("chooseSegment", "high");
 		assertListRowCount(1);
-		assertValueInList(0, 0, "ANA");
+		assertValueInList(0, 1, "ANA"); 
 		
 		assertAction("ListFormat.select", "editor=Charts");
 		assertAction("ListFormat.select", "editor=__NONAME__");

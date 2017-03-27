@@ -55,7 +55,7 @@ public class CarrierTest extends CarrierTestBase {
 		assertLabelInList(2, "Name");
 		execute("Mode.detailAndFirst");
 				
-		assertCollectionColumnCount("fellowCarriers", 4);
+		assertCollectionColumnCount("fellowCarriers", 4); 
 		assertLabelInCollection("fellowCarriers", 0, "Number");
 		assertLabelInCollection("fellowCarriers", 1, "Name");		
 		assertLabelInCollection("fellowCarriers", 2, "Remarks");

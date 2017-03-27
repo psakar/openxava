@@ -16,9 +16,11 @@ public class IncidentTest extends ModuleTestBase {
 	public IncidentTest(String testName) {
 		super(testName, "Incident");		
 	}
-
-	public void testDiscussionEditor() throws Exception { 
+	
+	public void testDiscussionEditor_defaultPropertiesForListWithoutTab() throws Exception { 
 		getWebClient().getOptions().setCssEnabled(true);
+		
+		assertDefaultPropertiesForListWithoutTab(); 
 		
 		assertListRowCount(0); 
 		
@@ -74,6 +76,14 @@ public class IncidentTest extends ModuleTestBase {
 		execute("CRUD.delete");
 		assertNoErrors();
 	}
+	
+	private void assertDefaultPropertiesForListWithoutTab() throws Exception {  
+		assertListColumnCount(2);
+		assertLabelInList(0, "Title");
+		assertLabelInList(1, "Description");
+		// Discussion is not shown
+	}
+
 	
 	private String getCurrentTime() { 
 		return DateFormat.getDateTimeInstance(DateFormat.SHORT, DateFormat.SHORT, new Locale(getLocale())).format(new java.util.Date());

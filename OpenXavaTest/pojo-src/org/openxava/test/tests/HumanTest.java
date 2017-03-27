@@ -71,9 +71,11 @@ public class HumanTest extends ModuleTestBase {
 	}
 	
 	public void testBaseEntityWithChildrenList_polymorphicView() throws Exception {
-		assertListColumnCount(2);
+		assertListColumnCount(4); 
 		assertLabelInList(0, "Name");
 		assertLabelInList(1, "Sex");
+		assertLabelInList(2, "Author of Favorite author");
+		assertLabelInList(3, "Biography of Favorite author");		
 		
 		assertListRowCount(6);
 		assertValueInList(0, 0, "PEPE");

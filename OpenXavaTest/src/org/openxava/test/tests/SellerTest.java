@@ -72,7 +72,7 @@ public class SellerTest extends CustomizeListTestBase {
 	
 	public void testCollectionNotCorruptListInSplitMode() throws Exception { 
 		execute("Mode.split");
-		assertListColumnCount(3);
+		assertListColumnCount(3); 
 		assertValueInList(0, 0, "1"); 
 		assertValueInList(0, 1, "MANUEL CHAVARRI");
 		execute("List.viewDetail", "row=2");
