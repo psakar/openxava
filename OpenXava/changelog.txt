@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- New method waitAJAX() in ModuleTestBase to wait until the current AJAX request is done.
 - Better default values for list and collection properties when @Tab and @ListProperties are omitted.
 - Japanese translation of labels and messages.
 - It's possible to create new elements from a regular @OneToMany collection even if it has no cascade REMOVE.

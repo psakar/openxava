@@ -659,6 +659,17 @@ public class ModuleTestBase extends TestCase {
 		restorePage(); 		
 	}
 	
+	/** 
+	 * Wait until the current AJAX request is done and update the page if needed. <p>
+	 * 
+	 * Usually is only needed to call this method when you use directly HtmlUnit APIs.
+	 * @since 5.7
+	 */
+	protected void waitAJAX() throws Exception { 
+		resetForm();
+		restorePage();
+	}
+	
 	private void throwChangeOfLastNotNotifiedProperty() throws Exception {		
 		if (lastNotNotifiedPropertyName != null) {
 			setFormValueNoRefresh(lastNotNotifiedPropertyName, lastNotNotifiedPropertyValue);
