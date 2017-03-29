@@ -95,18 +95,29 @@ a:hover {
 	padding-right: 15px;
 }
 
-#main_navigation a i {
+#organizations_link_place {
+	width: 25px;
+	display: inline-block;
+}
+
+#organizations_link {
+	position: absolute;
+	top: -3px;
+	left: 0px;
+}
+
+#organizations_link i {
 	color: #BABABA;
-	font-size: 130%;
-	padding-left: 3px;
+	font-size: 170%;
+	padding: 0px 3px 0px 3px;
 }
 
-#main_navigation A:hover, #main_navigation A:hover i { 
-	color: white;
-}
-
+#main_navigation A:hover, #main_navigation A:hover i,
 #main_navigation A.selected, #main_navigation A.selected i { 
 	color: white;
+}
+
+#main_navigation A.selected { 
 	font-weight: bold;
 }
 
@@ -1546,11 +1557,8 @@ a.cke_button_disabled:hover, a.cke_button_disabled:focus, a.cke_button_disabled:
 	top: 8px;
 }
 
-.ie .ox-cards {
-	width: 100vw;
-}
-
 .ox-cards {
+	width: 100vw;  
 	display: inline-flex;
 	flex-wrap: wrap;
 	padding: 0px 5px 3px 5px;

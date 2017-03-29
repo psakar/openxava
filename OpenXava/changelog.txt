@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Added font size and format to SIMPLE_HTML_TEXT and removing some rarely used options to keep it simple.
 - New method waitAJAX() in ModuleTestBase to wait until the current AJAX request is done.
 - Better default values for list and collection properties when @Tab and @ListProperties are omitted.
 - Japanese translation of labels and messages.
