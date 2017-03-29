@@ -2469,10 +2469,7 @@ public class ModuleTestBase extends TestCase {
 		assertTrue(XavaResources.getString("minimum_1_elements_in_collection", collection), getCollectionRowCount(collection) > 0);
 	}
 	
-	/**
-	 * @since 5.3
-	 */
-	protected void assertValidValueExists(String name, String key, String description) {
+	private void assertValidValueExistsWithHtmlSelect(String name, String key, String description) {
 		Collection options = getSelectByName(decorateId(name)).getOptions();
 		assertTrue(XavaResources.getString("unexpected_valid_values", name), options.size() > 0);
 		int i=0;
@@ -2488,7 +2485,29 @@ public class ModuleTestBase extends TestCase {
 		if (!found) {
 			fail(XavaResources.getString("option_not_found", name, key));
 		}
-		
+	}
+	
+	private void assertValidValueExistsWithUIAutocomplete(String name, String key, String description) throws Exception {
+		List<KeyAndDescription> validValues = getValidValuesWithUIAutocomplete(name);
+		assertTrue(XavaResources.getString("unexpected_valid_values", name), validValues.size() > 0);
+		int i = 0;
+		boolean found = false;
+		for (KeyAndDescription validValue: validValues) {
+			if (key.equals((String) validValue.getKey())){
+				found = true;
+				assertEquals(XavaResources.getString("unexpected_description", name), description, (String) validValue.getDescription());
+			}
+		}
+		if (!found) fail(XavaResources.getString("option_not_found", name, key));
+	}
+	
+	protected void assertValidValueExists(String name, String key, String description) throws Exception {
+		try {
+			assertValidValueExistsWithHtmlSelect(name, key, description);
+		}
+		catch (ElementNotFoundException ex) {
+			assertValidValueExistsWithUIAutocomplete(name, key, description);
+		}
 	}
 		
 	protected static String getPort() { 
