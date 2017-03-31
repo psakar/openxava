@@ -6,6 +6,8 @@ import org.openxava.tests.*;
 
 import com.gargoylesoftware.htmlunit.html.*;
 
+import static org.openxava.util.Strings.multiline;
+
 /**
  * 
  * @author Javier Paniza
@@ -32,7 +34,7 @@ public class IncidentTest extends ModuleTestBase {
 		postDiscussionComment("discussion", "Hi, it's me");
 		String timeFirstPost = getCurrentTime();
 		assertDiscussionCommentsCount("discussion", 1);
-		assertDiscussionCommentText("discussion", 0, getFormattedDiscussionComment("admin - Now", "Hi, it's me"));
+		assertDiscussionCommentText("discussion", 0, multiline("admin - Now", "Hi, it's me"));
 		
 		execute("CRUD.save");
 		assertValue("title", "");
@@ -53,7 +55,7 @@ public class IncidentTest extends ModuleTestBase {
 		assertValue("description", "This is the big jUnit discussion");
 
 		assertDiscussionCommentsCount("discussion", 1);
-		assertDiscussionCommentText("discussion", 0, getFormattedDiscussionComment("admin - " + timeFirstPost, "Hi, it's me"));
+		assertDiscussionCommentText("discussion", 0, multiline("admin - " + timeFirstPost, "Hi, it's me"));
 		postDiscussionComment("discussion", "Soy Juan"); 
 		String timeSecondPost = getCurrentTime();
 		
@@ -63,8 +65,8 @@ public class IncidentTest extends ModuleTestBase {
 		assertValue("title", "THE JUNIT DISCUSSION");
 		assertValue("description", "This is the big jUnit discussion");
 		assertDiscussionCommentsCount("discussion", 2);
-		assertDiscussionCommentText("discussion", 0, getFormattedDiscussionComment("admin - " + timeFirstPost, "Hi, it's me"));
-		assertDiscussionCommentText("discussion", 1, getFormattedDiscussionComment("juan - " + timeSecondPost, "Soy Juan"));
+		assertDiscussionCommentText("discussion", 0, multiline("admin - " + timeFirstPost, "Hi, it's me"));
+		assertDiscussionCommentText("discussion", 1, multiline("juan - " + timeSecondPost, "Soy Juan"));
 
 		assertEquals(1, discussion.getElementsByTagName("textarea").size());
 		assertEquals(1, discussion.getElementsByAttribute("input", "type", "button").size());	
@@ -89,7 +91,4 @@ public class IncidentTest extends ModuleTestBase {
 		return DateFormat.getDateTimeInstance(DateFormat.SHORT, DateFormat.SHORT, new Locale(getLocale())).format(new java.util.Date());
 	}
 	
-	private String getFormattedDiscussionComment(String head, String content) {
-		return String.format("%s%n%s", head, content);
-	}
 }

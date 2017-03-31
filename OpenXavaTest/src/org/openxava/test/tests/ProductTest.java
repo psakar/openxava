@@ -4,8 +4,9 @@ import org.openxava.test.model.*;
 import org.openxava.tests.*;
 import org.openxava.util.*;
 
-import com.gargoylesoftware.htmlunit.*;
 import com.gargoylesoftware.htmlunit.html.*;
+
+import static org.openxava.util.Strings.multiline;
 
 /**
  * 
@@ -112,7 +113,7 @@ public class ProductTest extends ModuleTestBase {
 	public void testCards() throws Exception { 
 		execute("ListFormat.select", "editor=Cards");
 		assertListRowCount(7);
-		assertValueInList(2, "XAVA\r\n3\r\nUnit price: 0.00, Unit price in pesetas: 0");
+		assertValueInList(2, multiline("XAVA", "3", "Unit price: 0.00, Unit price in pesetas: 0"));
 		
 		assertFalse(getHtml().contains("There are no records"));
 		assertTrue(getHtmlPage().getElementById("xava_loading_more_elements") == null);
@@ -121,7 +122,7 @@ public class ProductTest extends ModuleTestBase {
 		// for a regular test using execute("List.viewDetail", "row=2") is the way to go
 		HtmlElement body = (HtmlElement) getHtmlPage().getElementsByTagName("body").get(0);
 		HtmlElement card = body.getElementsByAttribute("div", "class", "ox-card").get(2);
-		assertEquals("XAVA\r\n3\r\nUnit price: 0.00, Unit price in pesetas: 0", card.asText());
+		assertEquals(multiline("XAVA", "3", "Unit price: 0.00, Unit price in pesetas: 0"), card.asText());
 		assertNoAction("CRUD.save");
 		String onClick = card.getOnClickAttribute();
 		assertTrue(onClick.startsWith("if (!getSelection().toString()) ")); // getSelection() does not work in HtmlUnit
