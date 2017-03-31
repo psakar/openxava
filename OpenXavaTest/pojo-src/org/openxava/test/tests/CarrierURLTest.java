@@ -33,7 +33,7 @@ public class CarrierURLTest extends ModuleTestBase {
 		moduleURI = "/m/Carrier?action=CRUD.create";
 		resetModule();
 		assertError("Action CRUD.create not available");
-		execute("ListFormat.select", "editor=List"); 
+		execute("ListFormat.select", "editor=List");
 	}
 		
 	protected String getModuleURL() { 

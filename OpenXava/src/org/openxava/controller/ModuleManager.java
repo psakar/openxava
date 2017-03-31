@@ -1487,7 +1487,9 @@ public class ModuleManager implements java.io.Serializable {
 						executeAction(metaAction, errors, messages, request);
 					}
 					else {
-						errors.add("action_not_available", "'" + action + "'");
+						if (!"SignIn".equals(getModuleName())) { 
+							errors.add("action_not_available", "'" + action + "'");
+						}
 					}
 				}	
 			}

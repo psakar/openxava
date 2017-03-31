@@ -2501,6 +2501,9 @@ public class ModuleTestBase extends TestCase {
 		if (!found) fail(XavaResources.getString("option_not_found", name, key));
 	}
 	
+	/**
+	 * @since 5.3
+	 */
 	protected void assertValidValueExists(String name, String key, String description) throws Exception {
 		try {
 			assertValidValueExistsWithHtmlSelect(name, key, description);

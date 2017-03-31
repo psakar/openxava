@@ -1,6 +1,9 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Error "Action ... not available" on refresh after session lost.
+- Fix: Permanlink does not work if the user is not already logged. 
+- New multiline() method in Strings to create platform independent multiline string. 
 - Default size for stereotypes IMAGES_GALLERY, GALERIA_IMAGENES, FILES and ARCHIVOS.
 - Added font size and format to SIMPLE_HTML_TEXT and removing some rarely used options to keep it simple.
 - New method waitAJAX() in ModuleTestBase to wait until the current AJAX request is done.
