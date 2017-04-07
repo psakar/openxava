@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: "Yes" is shown besides the check symbol in list for boolean values with column resizing disable. 
 - Fix: Error "Action ... not available" on refresh after session lost.
 - Fix: Permanlink does not work if the user is not already logged. 
 - New multiline() method in Strings to create platform independent multiline string. 

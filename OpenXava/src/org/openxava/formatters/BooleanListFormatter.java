@@ -29,7 +29,7 @@ public class BooleanListFormatter implements IFormatter {
 		}
 		String yes = Labels.get("yes", Locales.getCurrent());		
 		String no = Labels.get("no", Locales.getCurrent()); 
-		return r?"<div style='display: inline-block; width: 100%; text-align: center;'><i class='mdi mdi-check'></i><span style='display: none;'></div>" + yes + "</span>":"<span style='display: none;'>" + no + "</span>";
+		return r?"<div style='display: inline-block; width: calc(100% - 10px); text-align: center;'><i class='mdi mdi-check'></i><span style='display: none;'>" + yes + "</span></div>":"<span style='display: none;'>" + no + "</span>";
 	}
 	
 	public Object parse(HttpServletRequest request, String string) {
