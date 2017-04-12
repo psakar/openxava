@@ -117,5 +117,13 @@ public class NaviOXPreferences {
 	public boolean isShowApplicationName() { 
 		return "true".equalsIgnoreCase(getProperties().getProperty("showApplicationName", "true").trim());
 	}
+	
+	/**
+	 * @since 5.7
+	 */
+	public boolean isUpdateNaviOXTablesInOrganizationsOnStartup() { 
+		return "true".equalsIgnoreCase(getProperties().getProperty("updateNaviOXTablesInOrganizationsOnStartup", "true").trim());
+	}
+
 		
 }
