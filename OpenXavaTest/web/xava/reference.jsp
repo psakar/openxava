@@ -15,10 +15,6 @@
 <jsp:useBean id="context" class="org.openxava.controller.ModuleContext" scope="session"/>
 <jsp:useBean id="style" class="org.openxava.web.style.Style" scope="request"/>
 
-<% if (XavaPreferences.getInstance().isDivForEachEditor()) { %>
-<div>  
-<% } %>
-
 <%
 boolean onlyEditor = "true".equalsIgnoreCase(request.getParameter("onlyEditor"));
 boolean frame = "true".equalsIgnoreCase(request.getParameter("frame")); 
@@ -49,6 +45,11 @@ String labelStyle = view.getLabelStyleForReference(ref);
 if (Is.empty(labelStyle)) labelStyle = XavaPreferences.getInstance().getDefaultLabelStyle();
 String label = ref.getLabel(request);
 %>
+
+<% if (view.isFlowLayout()) { %> 
+<div class='<%=frame?"ox-flow-layout":""%>'>
+<% } %>
+
 <% if (!onlyEditor) { %>
 <%=preLabel%>
 <% if (labelFormat == MetaPropertyView.NORMAL_LABEL) { %>
@@ -216,7 +217,7 @@ if (!onlyEditor) {
 	<%=postEditor%>
 <%}%>
 
-<% if (XavaPreferences.getInstance().isDivForEachEditor()) { %>
+<% if (view.isFlowLayout()) { %> 
 </div>  
 <% } %>
 

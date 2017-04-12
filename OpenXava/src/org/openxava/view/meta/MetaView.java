@@ -31,7 +31,7 @@ import org.openxava.util.meta.MetaElement;
 public class MetaView extends MetaElement implements Cloneable {
 	private static Log log = LogFactory.getLog(MetaView.class);
 	
-	// WARNING!: If you add properties you must see if is needed to make a clon of they
+	// WARNING!: If you add properties you must see if is needed to make a clon of them
 	
 	private final static String NAME_SEPARATOR = "\n";
 		
@@ -809,6 +809,13 @@ public class MetaView extends MetaElement implements Cloneable {
 		return metaPropertyView.getLabelFormat();
 	}
 	
+	/** @since 5.7 */
+	public int getLabelFormatFor(MetaMember m) { 
+		if (m instanceof MetaProperty) return getLabelFormatForProperty((MetaProperty) m);
+		if (m instanceof MetaReference) return getLabelFormatForReference((MetaReference) m);
+		return XavaPreferences.getInstance().getDefaultLabelFormat();
+	}	
+	
 	// @Trifon
 	public int getDisplaySizeForProperty(MetaProperty p) throws XavaException {
 		MetaPropertyView metaPropertyView = getMetaPropertyViewFor(p.getName());
@@ -905,5 +912,6 @@ public class MetaView extends MetaElement implements Cloneable {
 		MetaDescriptionsList descriptionsList = metaReferenceView.getMetaDescriptionsList(); 
 		if (descriptionsList == null) return "";  
 		return descriptionsList.getLabelStyle();		
-	}	
+	}
+
 }

@@ -132,7 +132,7 @@ public class NaviOXStyle extends Style {
 		r.append("' ");
 		if (closed) r.append("style='display: none;'");
 		r.append("><div class='");
-		r.append(getFrameContent());		
+		r.append(getFrameContent());	
 		r.append("'>\n");
 		return r.toString();
 	}

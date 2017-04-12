@@ -435,16 +435,17 @@ public class XavaPreferences {
 				"helpInNewWindow", "true").trim());
 	}
 	
-	/** @since 5.6.1 */
-	public boolean isDivForEachEditor() { 
-		return "true".equalsIgnoreCase(getProperties().getProperty(
-				"divForEachEditor", "false").trim());
-	}
 	
 	/** @since 5.6 */
 	public boolean isHelpAvailable() { 
 		return "true".equalsIgnoreCase(getProperties().getProperty(
 				"helpAvailable", "true").trim());
+	}
+	
+	/** @since 5.7 */
+	public boolean isFlowLayout() {  
+		return "true".equalsIgnoreCase(getProperties().getProperty(
+				"flowLayout", "false").trim());
 	}
 	
 	/** @since 4m5 */

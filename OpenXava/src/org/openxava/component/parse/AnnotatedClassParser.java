@@ -854,7 +854,7 @@ public class AnnotatedClassParser implements IComponentParser {
 
 		// size
 		if (element.isAnnotationPresent(javax.validation.constraints.Max.class)) {
-			javax.validation.constraints.Max max = element.getAnnotation(javax.validation.constraints.Max.class);			
+			javax.validation.constraints.Max max = element.getAnnotation(javax.validation.constraints.Max.class);
 			property.setSize((int) (Math.log10(max.value()) + 1));
 		}
 		else if (element.isAnnotationPresent(javax.validation.constraints.DecimalMax.class)) {

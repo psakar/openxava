@@ -248,7 +248,8 @@ A#show_modules:HOVER {
 
 .module-row, .folder-row { 	
 	border-top: 1px solid #CCCCCC;
-	padding: 10px;	
+	padding: 10px;
+	background-color: white; 	
 }
 
 .folder-name { 
@@ -683,6 +684,14 @@ i.ox-error-icon {
 	left: 9px;
 }
 
+.ox-flow-layout .ox-required-icon {
+	margin-left: 3px;
+}
+
+.ie .ox-flow-layout .ox-required-icon, .firefox .ox-flow-layout .ox-required-icon {
+	margin-left: 0px;
+}
+
 input[type="button"], .ipad input[type="button"]:hover, A#show_modules, .ox-card { 
 	padding: 10px;
 	margin-right: 4px;	
@@ -927,6 +936,28 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 	margin: 8px 10px 0px 7px; 
 }
 
+.ox-flow-layout {
+	margin-left: 0px;
+}
+
+.ox-frame .ox-flow-layout > div {
+	margin-left: -10px;
+}
+
+.ox-frame .ox-flow-layout > div.ox-frame {
+	margin-left: 1px;
+	margin-right: -3px;
+}
+
+.ox-detail.ox-flow-layout, .ox-active-section > .ox-flow-layout { 
+	width: calc(100vw - 15px);
+	margin-top: -3px; 
+}
+
+.ox-flow-layout .ox-frame {
+	margin-left: 11px;
+}
+
 #sign_in_box .ox-detail { 
 	margin: 0px 20px 0px 3px;   
 }
@@ -988,10 +1019,14 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 	margin-left: 3px;
 }
 
+.ox-sections { 
+	width: 100%;
+}
+
 .ox-section { 
-	padding: 0px 10px 0px 10px;
+	padding: 0px 10px 0px 17px; 
 	height: 30px; 
-	margin: 0px -11px 10px -11px;
+	margin: 0px -13px 10px -11px; 
 	box-shadow: 0px 3px 4px #CCCCCC;  
 	-moz-box-shadow: 0px 3px 4px #CCCCCC; 
 	-webkit-box-shadow: 0px 3px 4px #CCCCCC;

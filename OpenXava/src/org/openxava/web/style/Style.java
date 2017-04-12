@@ -738,11 +738,10 @@ public class Style {
 		r.append("' ");
 		if (closed) r.append("style='display: none;'");
 		r.append("><td class='");
-		r.append(getFrameContent());		
+		r.append(getFrameContent());
 		r.append("'>\n");
 		return r.toString();
-	}
-	
+	}	
 	
 	public String getFrameContentEndDecoration() { 
 		return "\n</td></tr></table>";
@@ -923,6 +922,14 @@ public class Style {
 	 */
 	public String getSortIndicator2() { 
 		return "ox-sort-indicator2";
+	}
+	
+
+	/**
+	 * @since v5.7
+	 */
+	public String getSections() { 
+		return "ox-sections";
 	}
 
 	

@@ -1,5 +1,7 @@
 package org.openxava.web.style;
 
+import org.openxava.util.*;
+
 /**
  * For Liferay 4.3, 4.4 and 5.0. <p>
  * 
@@ -137,10 +139,9 @@ public class Liferay43Style extends PortalStyle {
 	
 	public String getFrameContentStartDecoration(String id, boolean closed) {
 		String closedStyle = closed?"style='display: none;'":"";
-		return "<div id='" + id + "' " + closedStyle + " class='portlet-content'><div class='portlet-content-container'>\n";			
+		return "<div id='" + id + "' " + closedStyle + " class='portlet-content'><div class='portlet-content-container'>\n";
 	}	
-	
-	
+		
 	public String getFrameContentEndDecoration() { 		
 		return "\n</div></div></div>"; 
 	}

@@ -36,7 +36,7 @@ import org.openxava.test.validators.*;
 })
 @Views({
 	@View( members=
-		"#number, description;" + // Don't remove #, it's needed to test some bugs
+		"#number, description;" + // Don't remove #, it's needed to test some bugs	
 		"color, photos;" +
 		"family, subfamily;" +
 		"warehouse, zoneOne;" +

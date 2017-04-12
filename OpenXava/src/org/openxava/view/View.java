@@ -10,6 +10,7 @@ import javax.servlet.http.*;
 import org.apache.commons.lang3.*;
 import org.apache.commons.logging.*;
 import org.openxava.actions.*;
+import org.openxava.annotations.LabelFormatType;
 import org.openxava.application.meta.*;
 import org.openxava.calculators.*;
 import org.openxava.component.*;
@@ -4406,12 +4407,19 @@ public class View implements java.io.Serializable {
 	}	
 	
 	
-	public int getLabelFormatForProperty(MetaProperty p) throws XavaException {		
+	public int getLabelFormatForProperty(MetaProperty p) throws XavaException {
+		if (isFlowLayout()) return LabelFormatType.SMALL.ordinal(); 
 		return getMetaView().getLabelFormatForProperty(p);
 	}
 	
-	public int getLabelFormatForReference(MetaReference ref) throws XavaException {		
+	public int getLabelFormatForReference(MetaReference ref) throws XavaException {
+		if (isFlowLayout()) return LabelFormatType.SMALL.ordinal(); 
 		return getMetaView().getLabelFormatForReference(ref);
+	}
+	
+	public boolean isFlowLayout() { 
+		if ("SignIn".equals(getModelName())) return false; // A little ad hoc, but was the simplest way at the moment
+		return XavaPreferences.getInstance().isFlowLayout(); 
 	}
 	
 	// @Trifon
@@ -4623,7 +4631,8 @@ public class View implements java.io.Serializable {
 		this.readOnly = onlyRead;
 	}
 	
-	public String getLabelFor(MetaMember p) throws XavaException {		
+	public String getLabelFor(MetaMember p) throws XavaException {	
+		if (getMetaView().getLabelFormatFor(p) == LabelFormatType.NO_LABEL.ordinal()) return "";
 		if (getLabels() != null) {
 			String idLabel = (String) getLabels().get(p.getName());
 			if (idLabel != null) { 
@@ -4806,7 +4815,9 @@ public class View implements java.io.Serializable {
 		this.saveCollectionElementAction = saveCollectionElementAction;
 	}
 	
+	/** @since 5.7 */
 	public boolean isAlignedByColumns() throws XavaException {
+		if (isFlowLayout()) return false; 
 		return getMetaView().isAlignedByColumns();
 	}
 	

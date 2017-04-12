@@ -30,7 +30,7 @@ import org.openxava.jpa.*;
 )
 @Views({
 	@View(members=
-		"invoice;" +	
+		"invoice;" +
 		"deliveryData [" +
 		"	type, number;" +			
 		"	date;" +

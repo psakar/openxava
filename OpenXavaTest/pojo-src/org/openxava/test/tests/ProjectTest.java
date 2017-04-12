@@ -22,9 +22,9 @@ public class ProjectTest extends ModuleTestBase {
 	public void testWebURLEditor() throws Exception { 
 		execute("Mode.detailAndFirst");
 		setValueInCollection("notes", 0, 2, "www.openxava.org");
-		setValueInCollection("notes", 1, 2, "http://www.noobeek.org");
+		setValueInCollection("notes", 1, 2, "http://www.example.com"); 
 		assertLinkOnNote(0, "OpenXava is an AJAX Java Framework for Rapid Development");
-		assertLinkOnNote(1, "Your business application made by yourself");
+		assertLinkOnNote(1, "This domain is established to be used for illustrative examples in documents"); 
 	}
 
 	private void assertLinkOnNote(int idx, String expectedText) throws IOException {

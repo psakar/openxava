@@ -184,6 +184,10 @@ TD.list-title {
 	color: black;
 }
 
+.ox-sections { 
+	width: 100%;
+}
+
 .section {
 	border-collapse: collapse;
 	padding: 0 0 0 0;
@@ -745,6 +749,10 @@ i.ox-error-icon {
 .portlet-content-container > span > .ox-error-icon {
 	top: -6px;
 	left: 9px;
+}
+
+.ox-flow-layout .ox-required-icon {
+	margin-left: 3px;
 }
 
 .ox-customize-controls i {
