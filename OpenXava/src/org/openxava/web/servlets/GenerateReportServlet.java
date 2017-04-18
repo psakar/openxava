@@ -160,6 +160,7 @@ public class GenerateReportServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {		
 		try {				
 			Locales.setCurrent(request); 
+			SessionData.setCurrent(request); 
 			if (Users.getCurrent() == null) { // for a bug in websphere portal 5.1 with Domino LDAP
 				Users.setCurrent((String)request.getSession().getAttribute("xava.user"));
 			}						
@@ -244,6 +245,7 @@ public class GenerateReportServlet extends HttpServlet {
 		}		
 		finally {
 			request.getSession().removeAttribute("xava_reportTab");
+			SessionData.clean();
 		}
 	}
 
