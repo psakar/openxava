@@ -37,6 +37,18 @@
     	<action name="signUp"
         	class="com.openxava.naviox.actions.SignUpAction"/>							      
 	</controller>
+	
+	<controller name="RecoverPassword">
+    	<action name="recoverPassword"
+        	class="com.openxava.naviox.actions.RecoverPasswordAction"/>			
+	</controller>
+	
+	<controller name="RestorePassword">
+		<action name="init" on-each-request="true" hidden="true"
+			class="com.openxava.naviox.actions.InitRestorePasswordAction"/>
+    	<action name="setPassword"
+        	class="com.openxava.naviox.actions.RestorePasswordAction"/>        					      	
+	</controller>	
 
 	<controller name="SessionLocker">
 		<action name="lock" hidden="true" 			
@@ -110,6 +122,13 @@
 			class="com.openxava.naviox.actions.InitChangePasswordAction"/>
 		<action name="changePassword" 
 			class="com.openxava.naviox.actions.ChangePasswordAction"/>			
+	</controller>
+	
+	<controller name="MyPersonalData">
+		<action name="init" on-init="true"  hidden="true"  			
+			class="com.openxava.naviox.actions.InitMyPersonalDataAction"/>
+		<action name="save" 
+			class="com.openxava.naviox.actions.SaveMyPersonalDataAction"/>			
 	</controller>
 	
 	<controller name="NewOnlyInList">
