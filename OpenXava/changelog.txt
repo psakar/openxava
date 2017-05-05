@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Mail API available for using in your project.
 - Responsive layout with flowLayout=true in xava.properties.
 - Fix: "Yes" is shown besides the check symbol in list for boolean values with column resizing disable. 
 - Fix: Error "Action ... not available" on refresh after session lost.
