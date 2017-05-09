@@ -7,7 +7,7 @@ import java.lang.annotation.*;
  * 
  * Applies to properties.<p>
  * 
- * The expression can contain +, -, *, (), numeric values and other properties names of 
+ * The expression can contain +, -, *, (), numeric values and properties names of 
  * the same entity. For example:
  * 
  * <pre>
@@ -18,7 +18,7 @@ import java.lang.annotation.*;
  * You can note as <code>worker.hourPrice</code> can be used to get value from references.<p>
  * 
  * The calculation is executed and displayed when the user changes any value of the properties 
- * used in the expression in the UI, however the value is not saved until the user click on save button.<p> 
+ * used in the expression in the UI, however the value is not saved until the user clicks on save button.<p> 
  * 
  * @since 5.7
  * @author Javier Paniza
