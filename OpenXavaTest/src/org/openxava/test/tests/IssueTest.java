@@ -89,7 +89,7 @@ public class IssueTest extends IssueTestBase {
 		setValue("id", "JUNIT");
 		setValue("description", "JUNIT ISSUE");
 		setValue("worker.nickName", "JAVI");
-		assertValue("worker.fullName", "FRANCISCO JAVIER PANIZA LUCAS");
+		assertValue("worker.fullName", "FRANCISCO JAVIER PANIZA LUCAS"); 
 		assertCollectionRowCount("comments", 0);
 		execute("Collection.new", "viewObject=xava_view_comments");
 		setValue("comment", "Created from a JUNIT test");

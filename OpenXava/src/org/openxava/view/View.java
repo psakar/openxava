@@ -3327,7 +3327,7 @@ public class View implements java.io.Serializable {
 		}	
 	}
 	
-	private Collection getMetaPropertiesQualified() throws XavaException {		
+	private Collection<MetaProperty> getMetaPropertiesQualified() throws XavaException { 		
 		if (metaPropertiesQualified == null) {
 			metaPropertiesQualified = new ArrayList();
 			fillMetaPropertiesQualified(this, metaPropertiesQualified, null); 
@@ -3987,7 +3987,7 @@ public class View implements java.io.Serializable {
 			membersNamesWithoutSectionsAndCollections = null;
 			membersNamesWithHidden = null;
 			membersNamesInGroup = null;
-			metaPropertiesQualified = null;						 
+			metaPropertiesQualified = null;
 			reloadNeeded = true;			
 			updateHiddenSections(); 
 			getRoot().reloadNeeded = true; 
@@ -5791,5 +5791,18 @@ public class View implements java.io.Serializable {
 	public void setAddCollectionElementAction(String addCollectionElementAction) {
 		this.addCollectionElementAction = addCollectionElementAction;
 	}
-			
+	
+	public boolean isPropertyUsedInCalculation(String qualifiedName) {  
+		return !Is.emptyString(getDependentCalculationPropertyNameFor(qualifiedName));
+	}
+	
+	public String getDependentCalculationPropertyNameFor(String qualifiedName) { 
+		for (MetaProperty property: getMetaPropertiesQualified()) {
+			if (property.usesForCalculation(qualifiedName)) {
+				return property.getName(); 
+			}
+		}		
+		return null;
+	}
+	
 }

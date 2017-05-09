@@ -2,6 +2,8 @@ package org.openxava.web.dwr;
 
 import java.util.*;
 
+import org.apache.commons.lang.*;
+
 /**
  * 
  * @author Javier Paniza
@@ -29,15 +31,16 @@ public class Result {
 	private int dialogLevel; 
 	private String viewMember;
 	private int currentRow = -1;  
-	private String urlParam;    
+	private String urlParam;  
+	private String [] propertiesUsedInCalculations; 
 	
 	public Result() {
 	}
 	
 	public Result(Map changedParts) {
 		this.changedParts = changedParts;
-	}		
-	
+	}
+		
 	public Map getStrokeActions() {
 		return strokeActions == null?Collections.EMPTY_MAP:strokeActions;
 	}
@@ -196,6 +199,14 @@ public class Result {
 
 	public void setUrlParam(String urlParam) {
 		this.urlParam = urlParam;
+	}
+
+	public String [] getPropertiesUsedInCalculations() {
+		return propertiesUsedInCalculations;
+	}
+
+	public void setPropertiesUsedInCalculations(String [] propertiesUsedInCalculations) {
+		this.propertiesUsedInCalculations = propertiesUsedInCalculations;
 	}
 	
 }

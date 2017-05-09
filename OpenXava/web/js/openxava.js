@@ -162,6 +162,7 @@ openxava.refreshPage = function(result) {
 	openxava.hasOnSelectAll(result.application, result.module);
 	openxava.showMessages(result); 
 	openxava.resetRequesting(result);
+	openxava.propertiesUsedInCalculationsChange(result); 
 	$('#xava_loading').hide(); 
 	$('#xava_loading2').hide();
 	document.body.style.cursor='auto';
@@ -215,6 +216,14 @@ openxava.selectRows = function(application, module, selectedRows) {
 
 openxava.setStrokeActions = function(strokeActions) { 
 	openxava.strokeActions = strokeActions;
+}
+
+openxava.propertiesUsedInCalculationsChange = function(result) { 
+	if (result.propertiesUsedInCalculations != null) {
+		for (var i=0; i<result.propertiesUsedInCalculations.length; i++) {
+			$('#' + openxava.decorateId(result.application, result.module, result.propertiesUsedInCalculations[i])).change();
+		}
+	}	
 }
 
 openxava.showMessages = function(result) { 
@@ -625,11 +634,7 @@ openxava.getFormValues = function(ele) { // A refinement of dwr.util.getFormValu
 				name = ele[i].name;
 				value = openxava.getFormValue(ele[i]);
 			}
-			else {
-				if (ele[i].id) name = ele[i].id;
-				else name = "element" + i;
-				value = openxava.getFormValue(ele[i]);
-			}
+			else continue; 
 			if (reply[name] != null) continue; 
 			if (value != null) { 
 				reply[name] = value;
@@ -696,6 +701,24 @@ openxava.throwPropertyChanged = function(application, module, property) {
 	form[openxava.decorateId(application, module, "xava_previous_focus")].value=property;
 	form[openxava.decorateId(application, module, "xava_changed_property")].value=property;
 	setTimeout ('openxava.requestOnChange("' + application + '", "' + module + '")', 100);	
+}
+
+openxava.calculate = function(application, module, propertyId, scale) {
+	var calculation = $('#' + propertyId + "_CALCULATION_").val();
+	var value = eval(calculation).toFixed(scale).replace(".", openxava.decimalSeparator);
+	$('#' + propertyId).val(value);
+}
+
+openxava.getNumber = function(application, module, property) { 
+	var val = $('#' + openxava.decorateId(application, module, property)).val();
+	if (val == '') return 0; 	
+	return openxava.parseFloat(val); 
+}
+
+openxava.parseFloat = function(value) {
+	value = value.replace(new RegExp("\\" + openxava.groupingSeparator, 'g'), "");
+	value = value.replace(openxava.decimalSeparator, ".");
+	return parseFloat(value); 
 }
 
 openxava.requestOnChange = function(application, module) {

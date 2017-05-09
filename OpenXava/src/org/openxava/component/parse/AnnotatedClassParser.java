@@ -963,6 +963,12 @@ public class AnnotatedClassParser implements IComponentParser {
 				addPropertyValidator(property, validator);				
 			}
 		}		
+		
+		// calculation
+		if (element.isAnnotationPresent(Calculation.class)) {			
+			Calculation calculation = element.getAnnotation(Calculation.class);
+			property.setCalculation(calculation.value());
+		}		
 						
 		// for View
 		for (Object oMetaView: property.getMetaModel().getMetaViews()) {

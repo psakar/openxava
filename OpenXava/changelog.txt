@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- @Calculation to declare an arithmetic expression for a property.
+- <calculation/> in <property/> of XML components to declare an arithmetic expression.  
 - Mail API available for using in your project.
 - Responsive layout with flowLayout=true in xava.properties.
 - Fix: "Yes" is shown besides the check symbol in list for boolean values with column resizing disable. 

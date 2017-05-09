@@ -1,5 +1,7 @@
 package org.openxava.test.model;
 
+import java.math.*;
+
 import javax.persistence.*;
 
 import org.openxava.annotations.*;
@@ -20,6 +22,8 @@ public class Worker {
 	
 	@Column(length=40) @Required
 	private String fullName;
+	
+	private BigDecimal hourPrice; 
 
 	public Integer getId() {
 		return id;
@@ -43,6 +47,14 @@ public class Worker {
 
 	public void setFullName(String fullName) {
 		this.fullName = fullName;
+	}
+
+	public BigDecimal getHourPrice() {
+		return hourPrice;
+	}
+
+	public void setHourPrice(BigDecimal hourPrice) {
+		this.hourPrice = hourPrice;
 	}
 	
 	

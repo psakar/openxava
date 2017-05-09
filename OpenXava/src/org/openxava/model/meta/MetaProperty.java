@@ -61,9 +61,10 @@ public class MetaProperty extends MetaMember implements Cloneable {
 	private DateFormat timeFormat = new SimpleDateFormat("HH:mm"); // 24 hours for all locales
 	private boolean _transient;
 	private String requiredMessage = "required";
-	
 	private String label;
-	private String qualifiedLabel;   
+	private String qualifiedLabel;
+	private String calculation; 
+	private Set<String> propertiesNamesUsedForCalculation; 
 	
 	public void setLabel(String newLabel) {
 		super.setLabel(newLabel);
@@ -1111,6 +1112,24 @@ public class MetaProperty extends MetaMember implements Cloneable {
 		metaValidators.add(metaValidator);		
 	}
 	
+	public boolean usesForCalculation(String qualifiedPropertyName) { 
+		if (!hasCalculation()) return false;
+		return getPropertiesNamesUsedForCalculation().contains(qualifiedPropertyName);
+	}
+	
+	public Set<String> getPropertiesNamesUsedForCalculation() { 
+		if (propertiesNamesUsedForCalculation == null) {
+			propertiesNamesUsedForCalculation = new HashSet<String>();
+		    String [] properties = calculation.split("[\\*()/+\\- ]");
+		    for (String property: properties) {
+		    	if (!Is.emptyString(property) && !Strings.isNumeric(property)) {
+		    		propertiesNamesUsedForCalculation.add(property);
+		    	}
+		    }
+		}
+		return propertiesNamesUsedForCalculation;
+	}
+	
 	public String toString() {		
 		return "MetaProperty:" + getId();
 	}
@@ -1168,5 +1187,19 @@ public class MetaProperty extends MetaMember implements Cloneable {
 	public void setQualifiedLabel(String qualifiedLabel) {
 		this.qualifiedLabel = qualifiedLabel;
 	}
+
+	public String getCalculation() {
+		return calculation;
+	}
+
+	public void setCalculation(String calculation) {
+		this.calculation = calculation;
+	}
+	
+	public boolean hasCalculation() { // tmp
+		return !Is.emptyString(calculation);
+	}
+
+
 	
 }

@@ -66,7 +66,7 @@ abstract public class MetaModel extends MetaElement {
 	
 	private Collection metaFinders;
 
-	private Collection metaPropertiesPersistents;
+	private Collection<MetaProperty> metaPropertiesPersistents; // tmp <MetaProperty>
 
 	private Collection persistentPropertiesNames;
 	private Collection interfaces;
@@ -920,7 +920,7 @@ abstract public class MetaModel extends MetaElement {
 	/**
 	 * Ordered as in component definition.
 	 */
-	public Collection getMetaPropertiesPersistents() throws XavaException {
+	public Collection<MetaProperty> getMetaPropertiesPersistents() throws XavaException { 
 		if (metaPropertiesPersistents == null) {
 			Iterator it = getMembersNames().iterator(); // memberNames to keep order
 			ArrayList result = new ArrayList();			

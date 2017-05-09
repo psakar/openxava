@@ -45,7 +45,7 @@ public class Module extends DWRBase {
 	private String baseFolder = null;
 	
 	public Result request(HttpServletRequest request, HttpServletResponse response, String application, String module, String additionalParameters, Map values, Map multipleValues, String [] selected, String [] deselected, Boolean firstRequest, String baseFolder) throws Exception {
-		long ini = System.currentTimeMillis(); 
+		long ini = System.currentTimeMillis();
 		Result result = new Result(); 
 		result.setApplication(application); 
 		result.setModule(module);
@@ -257,12 +257,18 @@ public class Module extends DWRBase {
 			}			
 		}
 				
-		for (Iterator it = getChangedParts(values).entrySet().iterator(); it.hasNext(); ) {
+		Collection<String> propertiesUsedInCalculations = new ArrayList<String>();  
+		for (Iterator it = getChangedParts(values, propertiesUsedInCalculations).entrySet().iterator(); it.hasNext(); ) { 
 			Map.Entry changedPart = (Map.Entry) it.next();
 			changedParts.put(changedPart.getKey(),
 				getURIAsString((String) changedPart.getValue(), values, multipleValues, selected, deselected, additionalParameters)	
 			);
 		}
+		
+		if (!propertiesUsedInCalculations.isEmpty()) {
+			result.setPropertiesUsedInCalculations(XCollections.toStringArray(propertiesUsedInCalculations));  
+		}
+		
 		// We tried the errors again because errors could be produced and added when rendering JSPs
 		Messages errors = (Messages) request.getAttribute("errors");
 		if (errors.contains() && changedParts.get("errors") == null) {
@@ -321,7 +327,7 @@ public class Module extends DWRBase {
 		getView().putObject("xava.dialogTitle", result.getDialogTitle());
 	}
 
-	private Map getChangedParts(Map values) { 
+	private Map getChangedParts(Map values, Collection<String> propertiesUsedInCalculations) { 
 		Map result = new HashMap();
 		if (values == null || manager.isReloadAllUINeeded() || manager.isFormUpload()) {
 			put(result, "core", "core.jsp");
@@ -349,7 +355,7 @@ public class Module extends DWRBase {
 				put(result, "view", manager.getViewURL());
 			}
 			else {
-				fillChangedPropertiesActionsAndReferencesWithNotCompositeEditor(result);
+				fillChangedPropertiesActionsAndReferencesWithNotCompositeEditor(result, propertiesUsedInCalculations); 
 				fillChangedCollections(result);
 				fillChangedCollectionsTotals(result); 
 				fillChangedSections(result);
@@ -409,7 +415,7 @@ public class Module extends DWRBase {
 		}
 	}
 
-	private void fillChangedPropertiesActionsAndReferencesWithNotCompositeEditor(Map result) { 		
+	private void fillChangedPropertiesActionsAndReferencesWithNotCompositeEditor(Map result, Collection<String> propertiesUsedInCalculations) { 
 		View view = getView();			
 		Collection changedMembers = view.getChangedPropertiesActionsAndReferencesWithNotCompositeEditor().entrySet();
 		for (Iterator it = changedMembers.iterator(); it.hasNext(); ) {
@@ -469,6 +475,7 @@ public class Module extends DWRBase {
 						"&viewObject=" + containerView.getViewObject() +
 						"&lastSearchKey=" + containerView.isLastSearchKey(name));
 				}
+				if (containerView.getRoot().isPropertyUsedInCalculation(qualifiedName)) propertiesUsedInCalculations.add(qualifiedName);
 			}
 		}
 	}

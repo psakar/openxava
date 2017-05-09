@@ -88,6 +88,19 @@ public class EditorTag extends TagSupport {
 				")\""  
 			:
 			"";
+			
+			View rootView = view.getRoot();
+			if (rootView.isPropertyUsedInCalculation(propertyPrefix + property)) { 
+				String calculatedProperty = rootView.getDependentCalculationPropertyNameFor(propertyPrefix + property);
+				String calculatedPropertyKey = Ids.decorate(application, module, calculatedProperty);
+				MetaProperty calculatedMetaProperty = rootView.getMetaProperty(calculatedProperty);
+				script = " onchange=\"openxava.calculate(" +
+					"'" + application + "'," +
+					"'" + module + "'," +
+					"'" + calculatedPropertyKey + "'," +
+					"'" + calculatedMetaProperty.getScale() + "'" + 
+					")\"";
+			}
 
 			script = script + scriptFocus;
 
@@ -125,6 +138,14 @@ public class EditorTag extends TagSupport {
 			pageContext.getOut().print("' value='");
 			pageContext.getOut().print(editable);
 			pageContext.getOut().println("'/>");
+			if (metaProperty.hasCalculation()) { 
+				String calculationKey = propertyKey + "_CALCULATION_";  
+				pageContext.getOut().print("<input type='hidden' id='"); 
+				pageContext.getOut().print(calculationKey);
+				pageContext.getOut().print("' value=\"");
+				pageContext.getOut().print(toJavaScriptExpression(metaProperty));
+				pageContext.getOut().println("\"/>");
+			}			
 			if (org.openxava.web.WebEditors.hasMultipleValuesFormatter(metaProperty, viewName)) { 
 				pageContext.getOut().print("<input type='hidden' name='");
 				pageContext.getOut().print(Ids.decorate(application, module, "xava_multiple"));
@@ -152,6 +173,18 @@ public class EditorTag extends TagSupport {
 		return SKIP_BODY;
 	}
 	
+	private String toJavaScriptExpression(MetaProperty metaProperty) { 
+		StringBuffer expression = new StringBuffer();
+	    for (String property: metaProperty.getPropertiesNamesUsedForCalculation()) {
+    		expression.append("var ");
+    		expression.append(property.replace(".", "_"));
+    		expression.append("=openxava.getNumber(application,module,'");
+    		expression.append(property);
+    		expression.append("');");
+	    }
+	    expression.append(metaProperty.getCalculation().replaceAll("([a-zA-Z_][a-zA-Z\\d_]*)\\.([a-zA-Z_][a-zA-Z\\d_]*)", "$1_$2"));
+		return expression.toString();
+	}
 
 	public String getProperty() {
 		return property;

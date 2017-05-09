@@ -38,12 +38,12 @@ public class MetaView extends MetaElement implements Cloneable {
 	private boolean section = false;
 	private MetaView parent; // in section case
 	private String parentName = null; // at momment for use in section
-	private Collection allMetaMembers;
+	private Collection<MetaMember> allMetaMembers; 
 	private Map<String, MetaGroup> metaGroups; 
 	private Map metaProperties;
 	private Collection propertiesNamesThrowOnChange;	
 	private List<MetaView> sections = null; 
-	private Collection metaMembers; // Of MetaMember
+	private Collection<MetaMember> metaMembers; 
 	private Collection _membersNames = new ArrayList(); // Of String
 	private Map metaViewsReferences;
 	private Map metaViewsProperties;
@@ -150,7 +150,7 @@ public class MetaView extends MetaElement implements Cloneable {
 	}
 
 	// Including members inside sections
-	private Collection getAllMetaMembers() throws XavaException { 
+	private Collection<MetaMember> getAllMetaMembers() throws XavaException {  
 		if (!hasSections()) return getMetaMembers();
 		if (allMetaMembers == null) {		
 			allMetaMembers = new ArrayList();

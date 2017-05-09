@@ -5512,6 +5512,7 @@ OpenXava/src/org/openxava/annotations/Actions.java -text
 OpenXava/src/org/openxava/annotations/AddAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/annotations/AddActions.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/annotations/AsEmbedded.java -text
+OpenXava/src/org/openxava/annotations/Calculation.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/annotations/Collapsed.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/annotations/CollectionView.java -text
 OpenXava/src/org/openxava/annotations/CollectionViews.java -text
@@ -9043,9 +9044,10 @@ OpenXavaTest/components/TransportCharge2.xml -text
 OpenXavaTest/components/Vehicle.xml -text
 OpenXavaTest/components/Warehouse.xml -text
 OpenXavaTest/components/Worker.xml -text
+OpenXavaTest/components/WorkerInvoice.xml -text svneol=unset#text/plain
 OpenXavaTest/components/Year.xml -text
 OpenXavaTest/components/dtds/component.dtd -text svneol=unset#text/plain
-OpenXavaTest/components/dtds/componente.dtd -text
+OpenXavaTest/components/dtds/componente.dtd -text svneol=unset#text/plain
 OpenXavaTest/data/company-a-db.lck -text
 OpenXavaTest/data/company-a-db.log -text
 OpenXavaTest/data/company-a-db.properties -text svneol=unset#text/plain
@@ -11011,6 +11013,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Warehouse.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Warehouse2.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Warehouse2Key.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/WarehouseKey.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/WorkInvoice.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/WorkOrder.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/WorkOrderKey.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/WorkOrderRequisition.groovy -text
@@ -11473,6 +11476,7 @@ OpenXavaTest/src/org/openxava/test/tests/WarehouseSpecialNewTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehouseSplitTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehouseSplitTestBase.java -text
 OpenXavaTest/src/org/openxava/test/tests/WarehouseTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/WorkInvoiceTest.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/util/MyReportParametersProvider.groovy -text
 OpenXavaTest/src/org/openxava/test/validators/CheapProductValidator.java -text
 OpenXavaTest/src/org/openxava/test/validators/DeliveryValidator.java -text

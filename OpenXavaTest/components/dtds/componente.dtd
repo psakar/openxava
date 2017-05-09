@@ -203,7 +203,7 @@
  clase CDATA #REQUIRED
 >
 
-<!ELEMENT propiedad (valores-posibles?,(calculador|calculador-valor-defecto)?,validador*)>
+<!ELEMENT propiedad (valores-posibles?,(calculador|calculador-valor-defecto|calculo)?,validador*)>
 <!ATTLIST propiedad
  nombre CDATA #REQUIRED
  etiqueta CDATA #IMPLIED
@@ -267,6 +267,10 @@
 <!ATTLIST calculador-valor-defecto
  clase CDATA #REQUIRED
  al-crear (true|false) "false"
+>
+
+<!ELEMENT calculo
+   (#PCDATA)
 >
 
 <!ELEMENT calculador-poscrear (poner*)>

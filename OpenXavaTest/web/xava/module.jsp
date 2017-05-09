@@ -299,8 +299,10 @@ if (manager.isResetFormPostNeeded()) {
 		openxava.listAdjustment = <%=style.getListAdjustment()%>;
 		openxava.collectionAdjustment = <%=style.getCollectionAdjustment()%>;
 		openxava.closeDialogOnEscape = <%=browser != null && browser.indexOf("Firefox") >= 0 ? "false":"true"%>;		  
-		openxava.calendarAlign = '<%=browser != null && browser.indexOf("MSIE 6") >= 0 ? "tr"
-					: "Br"%>';
+		openxava.calendarAlign = '<%=browser != null && browser.indexOf("MSIE 6") >= 0 ? "tr":"Br"%>';
+		<% java.text.DecimalFormatSymbols symbols = java.text.DecimalFormatSymbols.getInstance(Locales.getCurrent()); %>
+		openxava.decimalSeparator = '<%=symbols.getDecimalSeparator()%>';
+		openxava.groupingSeparator = '<%=symbols.getGroupingSeparator()%>';
 		openxava.setHtml = <%=style.getSetHtmlFunction()%>;			
 		<%String initThemeScript = style.getInitThemeScript();
 			if (initThemeScript != null) {%>

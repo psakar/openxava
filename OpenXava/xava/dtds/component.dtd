@@ -199,7 +199,7 @@
  class CDATA #REQUIRED
 >
 
-<!ELEMENT property (valid-values?,(calculator|default-value-calculator)?,validator*)>
+<!ELEMENT property (valid-values?,(calculator|default-value-calculator|calculation)?,validator*)>
 <!ATTLIST property
  name CDATA #REQUIRED
  label CDATA #IMPLIED
@@ -264,6 +264,10 @@
 <!ATTLIST default-value-calculator
  class CDATA #REQUIRED
  on-create (true|false) "false"
+>
+
+<!ELEMENT calculation
+   (#PCDATA)
 >
 
 <!ELEMENT postcreate-calculator (set*)>
