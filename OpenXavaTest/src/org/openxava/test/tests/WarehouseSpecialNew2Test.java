@@ -16,7 +16,7 @@ public class WarehouseSpecialNew2Test extends ModuleTestBase {
 		// test overwrite actions when a controllers extends another that extends another and both have the same action: before it showed WarehouseSpecialNew2.new and CRUD.new
 		assertActions(new String[] {
 			"Print.generatePdf", 
-			"List.filter", "List.goNextPage", "List.sumColumn", "List.orderBy", "List.changeConfigurationName", "List.hideRows", "List.viewDetail", "List.goPage",  
+			"List.filter", "List.goNextPage", "List.sumColumn", "List.orderBy", "List.changeConfiguration", "List.hideRows", "List.viewDetail", "List.goPage", 
 			"CRUD.deleteRow", "CRUD.deleteSelected", 
 			"Mode.detailAndFirst", "Mode.split",  
 			"ListFormat.select",  "Print.generateExcel",  

@@ -20,7 +20,7 @@ public class Invoice2002Test extends CustomizeListTestBase {
 		"List.viewDetail",
 		"List.hideRows",
 		"List.sumColumn",
-		"List.changeConfigurationName", 
+		"List.changeConfiguration", 
 		"ListFormat.select", 
 		"Invoice2002.changeListTitle"
 	};

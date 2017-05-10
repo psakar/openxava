@@ -5383,7 +5383,7 @@ OpenXava/src/org/openxava/actions/GenerateMyReportAction.java -text svneol=unset
 OpenXava/src/org/openxava/actions/GenerateReportAction.java -text
 OpenXava/src/org/openxava/actions/GoAddColumnsAction.java -text
 OpenXava/src/org/openxava/actions/GoAddElementsToCollectionAction.java -text
-OpenXava/src/org/openxava/actions/GoChangeListConfigurationNameAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/GoChangeListConfigurationAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/GoChooseIconAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/GoDetailAction.java -text
 OpenXava/src/org/openxava/actions/GoListAction.java -text
@@ -5457,6 +5457,7 @@ OpenXava/src/org/openxava/actions/RemoveElementFromCollectionAction.java -text
 OpenXava/src/org/openxava/actions/RemoveFileFromFilesetAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveIconAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveImageFromGalleryAction.java -text
+OpenXava/src/org/openxava/actions/RemoveListConfigurationAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveMyReportAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveMyReportColumnAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveSelectedInCollectionAction.java -text

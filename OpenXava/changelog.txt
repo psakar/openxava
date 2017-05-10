@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- The user can remove any query from the combo of recent queries in list mode.
 - @Calculation to declare an arithmetic expression for a property.
 - <calculation/> in <property/> of XML components to declare an arithmetic expression.  
 - Mail API available for using in your project.

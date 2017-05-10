@@ -48,7 +48,7 @@ public class ProductTest extends ModuleTestBase {
 		"List.viewDetail",
 		"List.hideRows",
 		"List.sumColumn",
-		"List.changeConfigurationName",  
+		"List.changeConfiguration",  
 		"ListFormat.select", 
 	};
 		

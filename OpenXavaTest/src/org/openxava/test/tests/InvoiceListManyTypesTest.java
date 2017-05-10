@@ -32,6 +32,7 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 		assertListConfigurationsChangeName(); 
 		assertListConfigurationsI18n();
 		assertListConfigurationsPersistence(); 
+		assertListConfigurationsRemove(); 
 	}
 
 	private void assertListConfigurationsChangeName() throws Exception { 
@@ -43,13 +44,13 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 			"Year not in group(2002, 2004)", "Email of customer is not empty and not paid", "Email of customer is empty", 
 			"Not paid and name of customer starts with j"); 
 		selectListConfiguration("Seller of customer = manuel chavarri");
-		execute("List.changeConfigurationName");
+		execute("List.changeConfiguration"); 
 		assertValue("name", "Seller of customer = manuel chavarri");
 		setValue("name", "");
-		execute("ChangeListConfigurationName.change");
+		execute("ChangeListConfiguration.change"); 
 		assertError("Value for Name is required");
 		setValue("name", "Seller Manuel Chavarri");
-		execute("ChangeListConfigurationName.change");
+		execute("ChangeListConfiguration.change"); 
 		assertListSelectedConfiguration("Seller Manuel Chavarri");
 		assertListAllConfigurations("Seller Manuel Chavarri", "All", "Number between 2 and 10", "Email of customer is not empty", 
 			"Number between 2 and 12", "Ordered by number", "Ordered by number descending", 
@@ -60,9 +61,9 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 			"Not paid and name of customer starts with j"); 
 		assertListRowCount(7);
 		selectListConfiguration("Email of customer is not empty");
-		execute("List.changeConfigurationName");
+		execute("List.changeConfiguration"); 
 		setValue("name", "Customer with email");
-		execute("ChangeListConfigurationName.change");
+		execute("ChangeListConfiguration.change"); 
 		assertListSelectedConfiguration("Customer with email");
 		assertListAllConfigurations("Customer with email", "All", "Seller Manuel Chavarri", "Number between 2 and 10", 
 			"Number between 2 and 12", "Ordered by number", "Ordered by number descending", 
@@ -374,6 +375,21 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 			"Correo electrónico de cliente no está vacío y no pagada", "Correo electrónico de cliente está vacío",  
 			"No pagada y nombre de cliente empieza por j");
 		assertListRowCount(7);
+	}
+	
+	private void assertListConfigurationsRemove() throws Exception { 
+		execute("List.changeConfiguration");
+		assertValue("name", "Seller Manuel Chavarri");
+		execute("ChangeListConfiguration.remove");
+		assertMessage("Consulta quitada");
+		assertListAllConfigurations("Todos", "Customer with email", "Número entre 2 y 10",  
+			"Número entre 2 y 12", "Ordenado por año descendente y número descendente", "Año/mes de fecha = 2006/11",  
+			"Ordenado por número", "Ordenado por número descendente", "Año > 2002 ordenado por año descendente y número descendente", 
+			"Ordenado por año ascendente y número descendente", "Mes de fecha = 1", "Año de fecha = 2002", "Tipo de cliente = fijo", 
+			"Tipo de cliente = normal", "Año en grupo(2002, 2004)", "Año no en grupo(2002, 2004)", 
+			"Correo electrónico de cliente no está vacío y no pagada", "Correo electrónico de cliente está vacío",  
+			"No pagada y nombre de cliente empieza por j");
+		assertListRowCount(9);		
 	}
 
 	private void assertListConfigurationsI18n() throws Exception {

@@ -89,7 +89,7 @@ if (collection == null || collection.equals("")) {
 <% if (style.isShowModuleDescription()) { %>
 <%=manager.getModuleDescription()%>
 <% } %>
-<xava:action action="List.changeConfigurationName"/>
+<xava:action action="List.changeConfiguration"/>
 <select onchange="openxava.executeAction('<%=request.getParameter("application")%>', '<%=request.getParameter("module")%>', '', false, 'List.filter','<%=collectionArgv%>,configurationId=' + this.value)">
 	<% String confName = tab.getConfigurationName();%>
 	<option value=""><%=confName%>&nbsp;&nbsp;&#9662;&nbsp;</option>

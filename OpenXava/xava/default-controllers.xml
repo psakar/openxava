@@ -387,11 +387,11 @@ here that you want to override.
 			icon="close-circle"
 			image="remove.gif"/>
 
-		<action name="changeConfigurationName"
-			class="org.openxava.actions.GoChangeListConfigurationNameAction"
+		<action name="changeConfiguration"
+			class="org.openxava.actions.GoChangeListConfigurationAction"
 			hidden="true"
 			mode="list"
-			icon="rename-box"/>
+			icon="rename-box"/>		 
 		
 	</controller>	
 	
@@ -399,12 +399,14 @@ here that you want to override.
 		<action name="loadMoreCards" class="org.openxava.actions.LoadMoreCardsAction"/>
 	</controller>
 	
-	<controller name="ChangeListConfigurationName">
+	<controller name="ChangeListConfiguration">
 		<action name="change"
-			class="org.openxava.actions.ChangeListConfigurationNameAction"/>	
+			class="org.openxava.actions.ChangeListConfigurationNameAction"/>
+		<action name="remove"
+			class="org.openxava.actions.RemoveListConfigurationAction"/>				
 		<action name="cancel" 
 			class="org.openxava.actions.CancelDialogAction"/>			
-	</controller>
+	</controller>	
 	
 	<controller name="ListFormat">
 		<action name="select" 

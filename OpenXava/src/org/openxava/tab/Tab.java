@@ -1776,6 +1776,16 @@ public class Tab implements java.io.Serializable {
 		configuration.setName(newName);
 		saveConfigurationPreferences();
 	}
+	
+	/**
+	 * @since 5.7
+	 */
+	public void removeConfiguration() throws Exception {  
+		getConfigurationsPreferences().node(Integer.toString(configuration.getId())).removeNode();		
+		loadConfigurationsPreferences();
+		applyConfiguration();
+	}
+
 
 	private void applyConfiguration() {
 		if (configuration.getPropertiesNames() != null) {
@@ -2749,5 +2759,6 @@ public class Tab implements java.io.Serializable {
 		this.editor = editor;
 		saveUserPreferences();
 	}
+
 
 }
