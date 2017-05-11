@@ -131,6 +131,11 @@
 			class="com.openxava.naviox.actions.SaveMyPersonalDataAction"/>			
 	</controller>
 	
+	<controller name="WarnNoEmail">
+		<action name="warnNoEamil" on-each-request="true"  hidden="true"  			
+			class="com.openxava.naviox.actions.WarnNoEmailAction"/>
+	</controller>
+	
 	<controller name="NewOnlyInList">
 		<action  name="new" mode="list"
 			class="org.openxava.actions.NewAction"

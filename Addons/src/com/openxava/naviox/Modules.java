@@ -12,7 +12,6 @@ import org.openxava.application.meta.*;
 import org.openxava.util.*;
 
 import com.openxava.naviox.impl.*;
-import com.openxava.naviox.model.*;
 import com.openxava.naviox.util.*;
 
 /**
