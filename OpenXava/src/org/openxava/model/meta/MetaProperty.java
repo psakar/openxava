@@ -1196,7 +1196,10 @@ public class MetaProperty extends MetaMember implements Cloneable {
 		this.calculation = calculation;
 	}
 	
-	public boolean hasCalculation() { // tmp
+	/**
+	 * @since 5.7
+	 */
+	public boolean hasCalculation() { 
 		return !Is.emptyString(calculation);
 	}
 

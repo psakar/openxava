@@ -99,6 +99,7 @@ public class Module extends DWRBase {
 			result.setStrokeActions(getStrokeActions());
 			result.setSelectedRows(getSelectedRows());
 			result.setUrlParam(getUrlParam());
+			result.setViewSimple(getView().isSimple()); 
 			return result;
 		}
 		catch (SecurityException ex) {

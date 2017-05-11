@@ -125,7 +125,7 @@ public class Product {
 	}
 	
 	public BigDecimal getPrice(String country, BigDecimal tariff) throws ProductException, PriceException {	
-		if ("EspaÃ±a".equals(country) || "Guatemala".equals(country)) {
+		if ("España".equals(country) || "Guatemala".equals(country)) {
 			return getUnitPrice().add(tariff);   
 		}
 		else {

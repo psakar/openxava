@@ -183,7 +183,7 @@ public class View implements java.io.Serializable {
 		oid = nextOid++;
 	}
 	
-	public Collection getMetaMembers() throws XavaException {		
+	public Collection<MetaMember> getMetaMembers() throws XavaException { 
 		if (metaMembers == null) {
 			metaMembers = createMetaMembers(false);
 		}		
@@ -3409,9 +3409,7 @@ public class View implements java.io.Serializable {
 		return null;
 	}
 	
-	
-
-	public List getMetaProperties() throws XavaException {		
+	public List<MetaProperty> getMetaProperties() throws XavaException { 		
 		if (metaProperties == null) {
 			Iterator it = getMetaMembers().iterator();
 			metaProperties = new ArrayList();
@@ -4415,6 +4413,35 @@ public class View implements java.io.Serializable {
 	public int getLabelFormatForReference(MetaReference ref) throws XavaException {
 		if (isFlowLayout()) return LabelFormatType.SMALL.ordinal(); 
 		return getMetaView().getLabelFormatForReference(ref);
+	}
+	
+	/**
+	 * To determine what type of layout to do with flowLayout activated.
+	 * 
+	 * @since 5.7
+	 */
+	public boolean isSimple() {  
+		if (hasSections()) return false;
+		int c = 0; 
+		for (MetaMember member: getMetaMembers()) {
+			if (member instanceof PropertiesSeparator) continue;
+			if (member.isHidden()) continue;
+			if (member instanceof MetaProperty) {
+				MetaEditor editor = WebEditors.getMetaEditorFor(member, getViewName());
+				if (editor.isFrame() || editor.isComposite()) return false;
+				c++;
+			}
+			else if (member instanceof MetaReference) {
+				if (!displayAsDescriptionsList((MetaReference) member)) {
+					MetaEditor editor = WebEditors.getMetaEditorFor(member, getViewName());
+					if (editor.isFrame() || editor.isComposite()) return false;
+				}
+				c++;
+			}
+			else return false;
+			if (c > 8) return false;
+		}
+		return true;
 	}
 	
 	public boolean isFlowLayout() { 

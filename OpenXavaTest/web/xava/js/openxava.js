@@ -144,7 +144,7 @@ openxava.refreshPage = function(result) {
 			openxava.setFocus(result.application, result.module);
 		}	
 		openxava.selectRows(result.application, result.module, result.selectedRows);
-		openxava.initUI(result.application, result.module, result.currentRow);
+		openxava.initUI(result.application, result.module, result.currentRow, result.viewSimple); 
 	}		
 	document.getElementById('xava_processing_layer').style.display='none';
 	var form = openxava.getForm(result.application, result.module);	
@@ -170,7 +170,7 @@ openxava.refreshPage = function(result) {
 	openxava.setUrlParam(result);	
 }
 
-openxava.initUI = function(application, module, currentRow) {
+openxava.initUI = function(application, module, currentRow, viewSimple) { 
 	if (openxava.initTheme != null) openxava.initTheme();
 	openxava.clearLists(application, module); 
 	openxava.initLists(application, module);
@@ -179,6 +179,8 @@ openxava.initUI = function(application, module, currentRow) {
 	}
 	openxava.initSelectedRows();
 	openxava.initCurrentRow(application, module, currentRow);
+	if (viewSimple) $('#' + openxava.decorateId(application, module, 'view')).addClass("ox-simple-layout");
+	else $('#' + openxava.decorateId(application, module, 'view')).removeClass("ox-simple-layout");
 }
 
 openxava.initStrokeActions = function(application, module) { 

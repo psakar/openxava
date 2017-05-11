@@ -1,8 +1,5 @@
 package org.openxava.test.tests;
 
-import com.gargoylesoftware.htmlunit.*;
-import com.gargoylesoftware.htmlunit.html.*;
-
 /**
  * 
  * @author Javier Paniza
@@ -23,7 +20,7 @@ public class CustomerImageTest extends ImageTestBase {
 		addImage();		
 		execute("ImageEditor.deleteImage", "newImageProperty=photo");
 		assertNoErrors();		
-		assertNoImage("photo");
+		assertNoImage("photo"); 
 	}
 	
 	public void testCancelActionAfterChangeImageAction() throws Exception {   

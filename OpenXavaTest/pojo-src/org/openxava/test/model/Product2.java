@@ -71,7 +71,38 @@ import org.openxava.test.validators.*;
 		"unitPrice, unitPriceInPesetas;" 
 	),
 	@View(name="SimpleWithFamily", members="number, description, unitPrice; family"),
-	@View(name="OnlySoftware")
+	@View(name="OnlySoftware"),
+	@View( name = "Simple8", members=
+		"number, description;" + 	
+		"color, photos;" +
+		"family, subfamily;" +
+		"warehouse, unitPrice"
+	),
+	@View( name = "NotSimple9", members=
+		"number, description;" + 	
+		"color, photos;" +
+		"family, subfamily;" +
+		"warehouse, unitPrice, unitPriceInPesetas;"
+	),
+	@View( name = "NotSimpleReference", members=
+		"number, description;" + 	
+		"color, photos;" +
+		"family, subfamily;" 
+	),	
+	@View( name = "NotSimpleGroup", members=
+		"number, description;" + 	
+		"color, photos;" +
+		"families [ family, subfamily; ]" 
+	),	
+	@View( name = "NotSimpleSection", members=
+		"number, description;" + 	
+		"colores { color, photos; }" +
+		"families { family, subfamily; }" 
+	),	
+	@View( name = "NotSimpleFramedEditor", members=
+		"number, color, photos;" +
+		"description" 
+	),	
 })
 @Tab(properties="number, description, family.description, subfamily.description, unitPrice, unitPriceWithTax") 
 
@@ -89,6 +120,7 @@ public class Product2 {
 			@PropertyValue(name="string", value="COCHE")
 		)		
 	})
+	@Editor(forViews="NotSimpleFramedEditor", value="TextArea")
 	private String description;
 	
 	@Stereotype("IMAGES_GALLERY")
@@ -102,7 +134,7 @@ public class Product2 {
 	@DefaultValueCalculator(value=IntegerCalculator.class, properties=
 		@PropertyValue(name="value", value="2")
 	)	
-	@DescriptionsList(orderByKey=true, notForViews="SimpleWithFamily") 
+	@DescriptionsList(orderByKey=true, notForViews="SimpleWithFamily, NotSimpleReference")   
 	private Family2 family;	
 	
 	@ManyToOne(optional=false, fetch=FetchType.LAZY) @JoinColumn(name="SUBFAMILY") @NoCreate

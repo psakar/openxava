@@ -32,7 +32,8 @@ public class Result {
 	private String viewMember;
 	private int currentRow = -1;  
 	private String urlParam;  
-	private String [] propertiesUsedInCalculations; 
+	private String [] propertiesUsedInCalculations;
+	private boolean viewSimple; 
 	
 	public Result() {
 	}
@@ -207,6 +208,14 @@ public class Result {
 
 	public void setPropertiesUsedInCalculations(String [] propertiesUsedInCalculations) {
 		this.propertiesUsedInCalculations = propertiesUsedInCalculations;
+	}
+
+	public boolean isViewSimple() {
+		return viewSimple;
+	}
+
+	public void setViewSimple(boolean viewSimple) {
+		this.viewSimple = viewSimple;
 	}
 	
 }
