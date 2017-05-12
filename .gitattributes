@@ -8985,6 +8985,7 @@ OpenXavaTest/build/hibernate/TransportCharge.hbm.xml -text svneol=unset#text/pla
 OpenXavaTest/build/hibernate/TransportCharge2.hbm.xml -text svneol=unset#text/plain
 OpenXavaTest/build/hibernate/Vehicle.hbm.xml -text svneol=unset#text/plain
 OpenXavaTest/build/hibernate/Warehouse.hbm.xml -text svneol=unset#text/plain
+OpenXavaTest/build/hibernate/WorkInvoice.hbm.xml -text svneol=unset#text/plain
 OpenXavaTest/build/hibernate/Worker.hbm.xml -text svneol=unset#text/plain
 OpenXavaTest/build/j2ee/META-INF/application-websphere.xml -text
 OpenXavaTest/build/j2ee/META-INF/application.xml -text
@@ -9044,8 +9045,8 @@ OpenXavaTest/components/TransportCharge.xml -text
 OpenXavaTest/components/TransportCharge2.xml -text
 OpenXavaTest/components/Vehicle.xml -text
 OpenXavaTest/components/Warehouse.xml -text
+OpenXavaTest/components/WorkInvoice.xml -text svneol=unset#text/plain
 OpenXavaTest/components/Worker.xml -text
-OpenXavaTest/components/WorkerInvoice.xml -text svneol=unset#text/plain
 OpenXavaTest/components/Year.xml -text
 OpenXavaTest/components/dtds/component.dtd -text svneol=unset#text/plain
 OpenXavaTest/components/dtds/componente.dtd -text svneol=unset#text/plain
@@ -9152,6 +9153,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/ITransportCharge.java -text sv
 OpenXavaTest/gen-src-xava/org/openxava/test/model/ITransportCharge2.java -text svneol=unset#text/plain
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IVehicle.java -text svneol=unset#text/plain
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IWarehouse.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/IWorkInvoice.java -text svneol=unset#text/plain
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IWorker.java -text svneol=unset#text/plain
 OpenXavaTest/gen-src-xava/org/openxava/test/model/IYear.java -text svneol=unset#text/plain
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Ingredient.java -text svneol=unset#text/plain
@@ -9197,6 +9199,7 @@ OpenXavaTest/gen-src-xava/org/openxava/test/model/TransportCharge.java -text svn
 OpenXavaTest/gen-src-xava/org/openxava/test/model/TransportCharge2.java -text svneol=unset#text/plain
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Vehicle.java -text svneol=unset#text/plain
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Warehouse.java -text svneol=unset#text/plain
+OpenXavaTest/gen-src-xava/org/openxava/test/model/WorkInvoice.java -text svneol=unset#text/plain
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Worker.java -text svneol=unset#text/plain
 OpenXavaTest/gen-src-xava/org/openxava/test/model/Year.java -text svneol=unset#text/plain
 OpenXavaTest/gen-src-xava/packages.properties -text

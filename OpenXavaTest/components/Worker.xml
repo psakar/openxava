@@ -16,7 +16,7 @@ default schema behaviour
 			size="40" required="true"/>		
 		<property name="fullName" type="String" 
 			size="40" required="true"/>
-		<property name="hourPrice" type="BigDecimal"/>
+		<property name="hourPrice" type="java.math.BigDecimal"/>
 	</entity>
 	
 	<entity-mapping table="WORKER">

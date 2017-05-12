@@ -452,15 +452,16 @@
 		<properties>number, name, type, address.city, address.state.name</properties>	
 	</tab>	
 	
-	<tab name="WithCards" editor="List, Charts, CustomerCardList, NotExist">
+	<tab name="WithCards" editors="List, Charts, CustomerCardList, NotExist">
 		<properties>number, name, type, address.city, address.state.name</properties>	
 	</tab>
 	
-	<tab name="OnlyCards" editor="CustomerCardList">
+	<tab name="OnlyCards" editors="CustomerCardList">
 		<properties>number, name, type, address.city, address.state.name</properties>	
 	</tab>		
 	
 	<tab name="FromAlaska">
+		<properties>number, name</properties>
 		<base-condition>
 			from XAVATEST.CUSTOMER 
 			inner join XAVATEST.CUSTOMER_STATE states1_ 

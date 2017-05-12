@@ -9,7 +9,7 @@ at least the next cases:
 		Generate PDF: Correct height for header (1 line).
 		My reports with long label for name: The label fill all the space, only 1 line for header.
 		My reports with long label for name moving name to second position: 
-		The label fill all the space, only 1 line for header and all the properties are shown.
+			The label fill all the space, only 1 line for header and all the properties are shown.
 - Customer:		
 		Generate PDF: Correct height for header (1 line) and the most right column inside the margin.
 		My reports with a label long enough to produce a 3 lines header:

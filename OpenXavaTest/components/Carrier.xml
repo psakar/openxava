@@ -74,6 +74,7 @@
 		</reference-view>
 		
 		<collection-view collection="fellowCarriers" view="Simple" edit-only="true">
+			<list-properties>number, name, remarks, calculated</list-properties>
 			<list-action action="Carrier.translateName"/>
 			<list-action action="Carrier.allToEnglish"/> 
 		</collection-view>		

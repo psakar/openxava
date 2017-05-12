@@ -16,7 +16,7 @@ public class CustomerOnlyCardListTest extends ModuleTestBase {
 	public void testCustomEditorsForTabWithOneEditorNotShowFormatButton() throws Exception {		
 		assertTrue(getHtml().contains("Gonzalo Gonzalez(43)"));
 		
-		assertNoAction("ListFormat.select", "editor=Charts");
+		assertNoAction("ListFormat.select", "editor=Charts"); 
 		assertNoAction("ListFormat.select", "editor=CustomerCardList");
 		assertNoAction("ListFormat.select", "editor=List");
 	}	

@@ -1,56 +1,58 @@
 Change Log for OpenXava project
 ===============================
 
-- The user can remove any query from the combo of recent queries in list mode.
-- @Calculation to declare an arithmetic expression for a property.
-- <calculation/> in <property/> of XML components to declare an arithmetic expression.  
-- Mail API available for using in your project.
-- Responsive layout with flowLayout=true in xava.properties.
-- Fix: "Yes" is shown besides the check symbol in list for boolean values with column resizing disable. 
-- Fix: Error "Action ... not available" on refresh after session lost.
-- Fix: Permanlink does not work if the user is not already logged. 
-- New multiline() method in Strings to create platform independent multiline string. 
-- Default size for stereotypes IMAGES_GALLERY, GALERIA_IMAGENES, FILES and ARCHIVOS.
-- Added font size and format to SIMPLE_HTML_TEXT and removing some rarely used options to keep it simple.
-- New method waitAJAX() in ModuleTestBase to wait until the current AJAX request is done.
-- Better default values for list and collection properties when @Tab and @ListProperties are omitted.
-- Japanese translation of labels and messages.
-- It's possible to create new elements from a regular @OneToMany collection even if it has no cascade REMOVE.
-- @NewAction no longer define the action for adding new elements from existing one, now it's only to create new elements.
-- New @AddAction annotation allowed for collections, to define the action to add elements from existing ones. 
-- New <add-action/> element in <collection-view/> for XML components.
-- New method assertValidValueNotExists() in ModuleTestBase.
-- You can define 'subcontroller' in a collection using @ListSubcontroller. 
-- Fix: SchemaTool fails with entities with @Table(schema=).
-- Some new common use labels to be used in applications.
-- It's possible to modify elements in a regular @OneToMany collection.  
-- Cards format for list available in all modules by default.
-- Fix: List customization not saved in some cases.
-- Chunk size to get data from database for list mode now is 120 records, it was 50.
-- New get/assertValueInList() methods without column param in ModuleTestBase to work with values of list elements in columnless formats. 
-- Rounded corners changed by squared corners in all the UI.
-- Labels for properties of references in list use the reference label if the property is name, description or title.
-- SessionData class to access session data from any part of your application: actions, calculators, validators, even from entities.
-- Logging of time of each AJAX request, in debug level.
-- New methods getDiscussionCommentText(), getDiscussionCommentContentText() and assertDiscussionCommentContentText() in ModuleTestBase.
-- Fix: ModuleTestBase.assertDiscussionCommentText() only works for row 0.
-- More intuitive messages in English.
-- Editors for list formats defining several <for-tabs/> editors in editors.xml.
-- New method toMap() in Maps utility to create a Map from a varargs of objects.
-- It's possible to remove Charts from all the modules of the application, using editors of tab in tabs-default-values.xml. 
-- New attribute editors in tab of tabs-default-values.xml to set the default editors (Charts, List, etc) for lists.
-- Delete selected action not available for Charts.
-- New attribute selectable-items in editor of editors.xml for list editors that allows selecting items.
-- New attribute process-selected-items in action of controllers.xml to hide the action when selecting item is not available. 
-- New attribute editors in @Tab to define a group of editors to be used for list formats.
-- Fix: Clicking New from Charts with calculated collections breaks the module.
-- The last list format (chart or list) is remembered between sessions by user.
-- New method executeAction() in BaseAction to execute actions from an action.
-- Formatter for HTML_TEXT in list mode, now uses the plain text until 200 characters. 
-- Library jsoup to manage HTML included. 
+OpenXava 5.7 (2017-5-15)
+------------------------
 - It's possible to go directly to the detail of an entity with ?detail=entityId in the module URL.
 - It's possible going to a module executing an action adding ?action=Controller.action in the URL.
 - When the user navigates among records or executes actions the browser URL is modified to be a valid permalink.
+- Cards format for list available in all modules by default.
+- New attribute editors in @Tab to define a group of editors to be used for list formats.
+- Editors for list formats defining several <for-tabs/> editors in editors.xml.
+- New attribute editors in tab of tabs-default-values.xml to set the default editors (Charts, List, etc) for lists.
+- Responsive layout with flowLayout=true in xava.properties.
+- @Calculation to declare an arithmetic expression for a property.
+- <calculation/> in <property/> of XML components to declare an arithmetic expression.
+- It's possible to create new elements from a regular @OneToMany collection even if it has no cascade REMOVE.
+- It's possible to modify elements in a regular @OneToMany collection.
+- You can define 'subcontroller' in a collection using @ListSubcontroller.
+- Rounded corners changed by squared corners in all the UI.
+- The last list format (chart or list) is remembered between sessions by user.
+- The user can remove any query from the combo of recent queries in list mode.
+- It's possible to remove Charts from all the modules of the application, using editors of tab in tabs-default-values.xml.
+- Better default values for list and collection properties when @Tab and @ListProperties are omitted.
+- Added font size and format to SIMPLE_HTML_TEXT and removing some rarely used options to keep it simple.
+- Labels for properties of references in list use the reference label if the property is name, description or title.
+- Delete selected action not available for Charts.
+- Formatter for HTML_TEXT in list mode, now uses the plain text until 200 characters.
+- New method executeAction() in BaseAction to execute actions from an action.
+- New attribute selectable-items in editor of editors.xml for list editors that allows selecting items.
+- New attribute process-selected-items in action of controllers.xml to hide the action when selecting item is not available. 
+- @NewAction no longer define the action for adding new elements from existing one, now it's only to create new elements.  
+- New @AddAction annotation allowed for collections, to define the action to add elements from existing ones.
+- New <add-action/> element in <collection-view/> for XML components.
+- Chunk size to get data from database for list mode now is 120 records, it was 50. 
+- Japanese translation of labels and messages.
+- Mail API available for using in your project.
+- New multiline() method in Strings to create platform independent multiline string. 
+- Default size for stereotypes IMAGES_GALLERY, GALERIA_IMAGENES, FILES and ARCHIVOS.
+- New method waitAJAX() in ModuleTestBase to wait until the current AJAX request is done.
+- New method assertValidValueNotExists() in ModuleTestBase.
+- Some new common use labels to be used in applications.
+- New get/assertValueInList() methods without column param in ModuleTestBase to work with values of list elements in columnless formats. 
+- SessionData class to access session data from any part of your application: actions, calculators, validators, even from entities.
+- Logging of time of each AJAX request, in debug level.
+- New methods getDiscussionCommentText(), getDiscussionCommentContentText() and assertDiscussionCommentContentText() in ModuleTestBase.
+- More intuitive messages in English.
+- New method toMap() in Maps utility to create a Map from a varargs of objects.
+- Library jsoup to manage HTML included. 
+- Fix: Clicking New from Charts with calculated collections breaks the module.
+- Fix: SchemaTool fails with entities with @Table(schema=).
+- Fix: "Yes" is shown besides the check symbol in list for boolean values with column resizing disable. 
+- Fix: Error "Action ... not available" on refresh after session lost.
+- Fix: Permanlink does not work if the user is not already logged. 
+- Fix: List customization not saved in some cases.
+- Fix: ModuleTestBase.assertDiscussionCommentText() only works for row 0.
 
 OpenXava 5.6.1 (2017-1-27)
 --------------------------

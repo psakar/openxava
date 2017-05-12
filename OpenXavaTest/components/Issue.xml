@@ -39,6 +39,7 @@ default schema behaviour
 	</view>
 	
 	<tab>
+		<properties>id, description</properties>
 		<default-order>${description}</default-order>
 	</tab>
 	

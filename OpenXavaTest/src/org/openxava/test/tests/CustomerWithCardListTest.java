@@ -15,7 +15,7 @@ public class CustomerWithCardListTest extends ModuleTestBase {
 
 	public void testCustomEditorsForTab() throws Exception {
 		assertAction("List.filter");
-		assertAction("ListFormat.select", "editor=List");
+		assertAction("ListFormat.select", "editor=List"); 
 		assertAction("ListFormat.select", "editor=Charts");
 		assertAction("ListFormat.select", "editor=CustomerCardList");
 		assertNoAction("ListFormat.select", "editor=NotExist");

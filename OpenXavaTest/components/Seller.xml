@@ -112,6 +112,7 @@
 
 	<tab>
 		<filter class="org.openxava.test.filters.NumbersToLettersFilter"/>
+		<properties>number, name, regions</properties>		
 	</tab>
 	
 	<tab name="Other">

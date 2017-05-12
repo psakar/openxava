@@ -213,7 +213,7 @@ public class SellerTest extends CustomizeListTestBase {
 		// Arrays in list
 		assertValueInList(0, 0, "1"); 
 		assertValueInList(0, 1, "MANUEL CHAVARRI");
-		assertValueInList(0, 2, "1/3"); // This is a String []
+		assertValueInList(0, 2, "1/3"); // This is a String [] 
 		
 		// Multiple values formatters
 		String [] emptyRegions = {};
