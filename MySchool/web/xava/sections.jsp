@@ -56,7 +56,7 @@ int activeSection = view.getActiveSection();
 	
 	</td></tr>
 	
-	<tr><td class="<%=style.getActiveSection()%>">
+	<tr><td class="<%=style.getActiveSection()%> <%=view.isFlowLayout()?"ox-flow-layout":""%>">
 		<%
 			String viewName = viewObject + "_section" + activeSection;
 			context.put(request, viewName, view.getSectionView(activeSection));

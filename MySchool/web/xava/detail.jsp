@@ -40,12 +40,12 @@ private String closeDivForFrame(View view) {
 }
 
 private String openDiv(View view) {
-	if (XavaPreferences.getInstance().isDivForEachEditor()) return ""; 
+	if (view.isFlowLayout()) return ""; 
 	return view.isFrame()?"<div class='ox-layout-detail'>":""; 
 }
 
 private String closeDiv(View view) {
-	if (XavaPreferences.getInstance().isDivForEachEditor()) return ""; 
+	if (view.isFlowLayout()) return ""; 
 	return view.isFrame()?"</div>":"";
 }
 %>
@@ -113,7 +113,8 @@ if (!renderedView) {
 						"&closed=" + view.isFrameClosed(frameId); 
 %>
 			<jsp:include page='<%=frameActionsURL%>'/>
-			<%=style.getFrameActionsEndDecoration()%> 					 					
+			<%=style.getFrameActionsEndDecoration()%> 				
+			<%@ include file="propertyActionsExt.jsp"%>					
 			<%=style.getFrameHeaderEndDecoration() %>
 			<%=style.getFrameContentStartDecoration(frameId + "content", view.isFrameClosed(frameId))%>
 <%	
@@ -291,9 +292,15 @@ if (!renderedView) {
 			<%=style.getFrameActionsEndDecoration()%> 					 			
 			<%=style.getFrameHeaderEndDecoration()%>
 			<%=style.getFrameContentStartDecoration(frameId + "content", view.isFrameClosed(frameId)) %>
+			<% if (view.isFlowLayout()) { %> 
+			<div class='ox-flow-layout'>
+			<% } %>
 			<jsp:include page="detail.jsp">
 				<jsp:param name="viewObject" value="<%=viewName%>" />
 			</jsp:include>
+			<% if (view.isFlowLayout()) { %> 
+			</div>
+			<% } %>
 			<%=style.getFrameContentEndDecoration() %>
 			<%=openDivForFrame(view)%> 
 <%
@@ -312,7 +319,7 @@ if (!renderedView) {
 <%
 if (view.hasSections()) { // IF Has Sections
 %>
-<div id="<xava:id name='<%="sections_" + viewObject%>'/>"> 
+<div id="<xava:id name='<%="sections_" + viewObject%>'/>" class="<%=style.getSections()%>">
 	<jsp:include page="sections.jsp"/>
 </div>	
 <% 

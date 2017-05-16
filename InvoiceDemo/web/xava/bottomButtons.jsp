@@ -24,7 +24,7 @@ if (manager.isDetailMode()) {
 java.util.Iterator it = manager.getMetaActions().iterator();
 while (it.hasNext()) {
 	MetaAction action = (MetaAction) it.next();
-	if (action.isHidden()) continue;
+	if (!manager.actionApplies(action)) continue; 
 	if (action.getQualifiedName().equals(defaultAction)) continue;
 	if (action.appliesToMode(mode) && (!buttonBar || !(action.hasImage() ||  action.hasIcon()))) { 	
 	%>

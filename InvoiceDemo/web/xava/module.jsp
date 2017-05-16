@@ -41,6 +41,8 @@
 	request.setAttribute("style", org.openxava.web.style.Style.getInstance(request));
 %>
 
+<jsp:useBean id="errors" class="org.openxava.util.Messages" scope="request"/>
+<jsp:useBean id="messages" class="org.openxava.util.Messages" scope="request"/>
 <jsp:useBean id="context" class="org.openxava.controller.ModuleContext" scope="session"/>
 <jsp:useBean id="style" class="org.openxava.web.style.Style" scope="request"/>
 <%
@@ -83,7 +85,8 @@
 	String version = org.openxava.controller.ModuleManager.getVersion();
 	String realPath = request.getSession().getServletContext()
 			.getRealPath("/");			
-	manager.resetPersistence(); 
+	manager.resetPersistence();
+	org.openxava.util.SessionData.setCurrent(request); 
 %>
 <jsp:include page="execute.jsp"/>
 <%
@@ -218,7 +221,8 @@ if (manager.isResetFormPostNeeded()) {
 		<input name="module" type="hidden" value="<%=request.getParameter("module")%>"/>
 		<% } %>
 	</form>
-<% } else  { %>	
+<% } else  { %>
+	<% manager.executeBeforeLoadPage(request, errors, messages);  %>
 	<input id="xava_last_module_change" type="hidden" value=""/>
 	<input id="xava_window_id" type="hidden" value="<%=windowId%>"/>	
 	<input id="<xava:id name='loading'/>" type="hidden" value="<%=coreViaAJAX%>"/>
@@ -295,8 +299,10 @@ if (manager.isResetFormPostNeeded()) {
 		openxava.listAdjustment = <%=style.getListAdjustment()%>;
 		openxava.collectionAdjustment = <%=style.getCollectionAdjustment()%>;
 		openxava.closeDialogOnEscape = <%=browser != null && browser.indexOf("Firefox") >= 0 ? "false":"true"%>;		  
-		openxava.calendarAlign = '<%=browser != null && browser.indexOf("MSIE 6") >= 0 ? "tr"
-					: "Br"%>';
+		openxava.calendarAlign = '<%=browser != null && browser.indexOf("MSIE 6") >= 0 ? "tr":"Br"%>';
+		<% java.text.DecimalFormatSymbols symbols = java.text.DecimalFormatSymbols.getInstance(Locales.getCurrent()); %>
+		openxava.decimalSeparator = '<%=symbols.getDecimalSeparator()%>';
+		openxava.groupingSeparator = '<%=symbols.getGroupingSeparator()%>';
 		openxava.setHtml = <%=style.getSetHtmlFunction()%>;			
 		<%String initThemeScript = style.getInitThemeScript();
 			if (initThemeScript != null) {%>
@@ -317,4 +323,5 @@ document.additionalParameters="<%=getAdditionalParameters(request)%>";
 <% }
 manager.commit();
 context.cleanCurrentWindowId(); 
+org.openxava.util.SessionData.clean(); 
 %>

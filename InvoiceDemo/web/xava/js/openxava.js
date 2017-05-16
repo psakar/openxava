@@ -144,7 +144,7 @@ openxava.refreshPage = function(result) {
 			openxava.setFocus(result.application, result.module);
 		}	
 		openxava.selectRows(result.application, result.module, result.selectedRows);
-		openxava.initUI(result.application, result.module, result.currentRow);
+		openxava.initUI(result.application, result.module, result.currentRow, result.viewSimple); 
 	}		
 	document.getElementById('xava_processing_layer').style.display='none';
 	var form = openxava.getForm(result.application, result.module);	
@@ -162,13 +162,15 @@ openxava.refreshPage = function(result) {
 	openxava.hasOnSelectAll(result.application, result.module);
 	openxava.showMessages(result); 
 	openxava.resetRequesting(result);
+	openxava.propertiesUsedInCalculationsChange(result); 
 	$('#xava_loading').hide(); 
 	$('#xava_loading2').hide();
 	document.body.style.cursor='auto';
 	if (openxava.postRefreshPage != null) openxava.postRefreshPage(); 
+	openxava.setUrlParam(result);	
 }
 
-openxava.initUI = function(application, module, currentRow) {
+openxava.initUI = function(application, module, currentRow, viewSimple) { 
 	if (openxava.initTheme != null) openxava.initTheme();
 	openxava.clearLists(application, module); 
 	openxava.initLists(application, module);
@@ -177,6 +179,8 @@ openxava.initUI = function(application, module, currentRow) {
 	}
 	openxava.initSelectedRows();
 	openxava.initCurrentRow(application, module, currentRow);
+	if (viewSimple) $('#' + openxava.decorateId(application, module, 'view')).addClass("ox-simple-layout");
+	else $('#' + openxava.decorateId(application, module, 'view')).removeClass("ox-simple-layout");
 }
 
 openxava.initStrokeActions = function(application, module) { 
@@ -214,6 +218,14 @@ openxava.selectRows = function(application, module, selectedRows) {
 
 openxava.setStrokeActions = function(strokeActions) { 
 	openxava.strokeActions = strokeActions;
+}
+
+openxava.propertiesUsedInCalculationsChange = function(result) { 
+	if (result.propertiesUsedInCalculations != null) {
+		for (var i=0; i<result.propertiesUsedInCalculations.length; i++) {
+			$('#' + openxava.decorateId(result.application, result.module, result.propertiesUsedInCalculations[i])).change();
+		}
+	}	
 }
 
 openxava.showMessages = function(result) { 
@@ -417,6 +429,18 @@ openxava.getDialog = function(application, module) {
 	return dialog;
 }
 
+openxava.setUrlParam = function(result) { 
+	if (result.urlParam !== null) {
+		var url = window.location.href;
+		var indexParams = url.indexOf('?');
+		if (indexParams >= 0) url = url.substring(0, indexParams);
+		history.replaceState(null, null, url + "?" + result.urlParam);
+	}
+	else {
+		history.replaceState(null, null, window.location.pathname);
+	}	
+}
+
 openxava.setRequesting = function(application, module) {
 	if (openxava.requesting == null) openxava.requesting = { };
 	openxava.requesting[application + "::" + module] = true;
@@ -612,11 +636,7 @@ openxava.getFormValues = function(ele) { // A refinement of dwr.util.getFormValu
 				name = ele[i].name;
 				value = openxava.getFormValue(ele[i]);
 			}
-			else {
-				if (ele[i].id) name = ele[i].id;
-				else name = "element" + i;
-				value = openxava.getFormValue(ele[i]);
-			}
+			else continue; 
 			if (reply[name] != null) continue; 
 			if (value != null) { 
 				reply[name] = value;
@@ -683,6 +703,24 @@ openxava.throwPropertyChanged = function(application, module, property) {
 	form[openxava.decorateId(application, module, "xava_previous_focus")].value=property;
 	form[openxava.decorateId(application, module, "xava_changed_property")].value=property;
 	setTimeout ('openxava.requestOnChange("' + application + '", "' + module + '")', 100);	
+}
+
+openxava.calculate = function(application, module, propertyId, scale) {
+	var calculation = $('#' + propertyId + "_CALCULATION_").val();
+	var value = eval(calculation).toFixed(scale).replace(".", openxava.decimalSeparator);
+	$('#' + propertyId).val(value);
+}
+
+openxava.getNumber = function(application, module, property) { 
+	var val = $('#' + openxava.decorateId(application, module, property)).val();
+	if (val == '') return 0; 	
+	return openxava.parseFloat(val); 
+}
+
+openxava.parseFloat = function(value) {
+	value = value.replace(new RegExp("\\" + openxava.groupingSeparator, 'g'), "");
+	value = value.replace(openxava.decimalSeparator, ".");
+	return parseFloat(value); 
 }
 
 openxava.requestOnChange = function(application, module) {
@@ -965,12 +1003,9 @@ openxava.subcontroller = function(id,containerId,buttonId,imageId,aId,spanId){
 	}
 	// display and position the menu 
 	$('#'+id).css('display','inline');
-	var a = $('#'+aId);
-	var h = $('#'+buttonId).height();	
-	var f = a.position();
 	$('#'+id).css({ 
-		'top': f.top + h,
-		'left': f.left
+		'top': $('#'+aId).position().top + $('#'+buttonId).outerHeight(true),
+		'left': $('#'+aId).position().left
 	});
 	//
 	$('#'+imageId).fadeTo("fast",0.3);

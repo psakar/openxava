@@ -32,12 +32,8 @@ a:hover {
 	padding: 5px;	
 	border: none;
 	background: white;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
-	-moz-border-bottom-left-radius: 5px;
-	-moz-border-bottom-right-radius: 5px;
-	-webkit-border-bottom-left-radius: 5px;
-	-webkit-border-bottom-right-radius: 5px;		  
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
 	color: black; 
 	font-weight: bold; 
 	box-shadow: 0px 0px 7px #000;
@@ -99,18 +95,29 @@ a:hover {
 	padding-right: 15px;
 }
 
-#main_navigation a i {
+#organizations_link_place {
+	width: 25px;
+	display: inline-block;
+}
+
+#organizations_link {
+	position: absolute;
+	top: -3px;
+	left: 0px;
+}
+
+#organizations_link i {
 	color: #BABABA;
-	font-size: 130%;
-	padding-left: 3px;
+	font-size: 170%;
+	padding: 0px 3px 0px 3px;
 }
 
-#main_navigation A:hover, #main_navigation A:hover i { 
-	color: white;
-}
-
+#main_navigation A:hover, #main_navigation A:hover i,
 #main_navigation A.selected, #main_navigation A.selected i { 
 	color: white;
+}
+
+#main_navigation A.selected { 
 	font-weight: bold;
 }
 
@@ -208,10 +215,8 @@ A#show_modules:HOVER {
 	padding: 0px;
 	border-color: #CCCCCC; 	
 	border-style: solid;
-	border-radius: 10px;
+	border-radius: 2px; 
 	border-width: thick;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
 	box-shadow: 0px 0px 7px #000; 
 	-moz-box-shadow: 0px 0px 7px #000; 
 	-webkit-box-shadow: 0px 0px 7px #000;	
@@ -243,7 +248,8 @@ A#show_modules:HOVER {
 
 .module-row, .folder-row { 	
 	border-top: 1px solid #CCCCCC;
-	padding: 10px;	
+	padding: 10px;
+	background-color: white; 	
 }
 
 .folder-name { 
@@ -678,15 +684,21 @@ i.ox-error-icon {
 	left: 9px;
 }
 
-input[type="button"], .ipad input[type="button"]:hover, A#show_modules {
+.ox-flow-layout .ox-required-icon {
+	margin-left: 3px;
+}
+
+.ie .ox-flow-layout .ox-required-icon, .firefox .ox-flow-layout .ox-required-icon {
+	margin-left: 0px;
+}
+
+input[type="button"], .ipad input[type="button"]:hover, A#show_modules, .ox-card { 
 	padding: 10px;
 	margin-right: 4px;	
 	font-size: 12px;
 	font-weight: bold;
 	text-decoration: none;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
+	border-radius: 2px; 
 	cursor: pointer;
 }
 
@@ -705,11 +717,11 @@ A#show_modules  {
 	margin-right: 20px;
 }
 
-.ipad input[type="button"], .ipad input[type="button"]:hover {
+.ipad input[type="button"], .ipad input[type="button"]:hover, .ipad .ox-card { 
 	background: -webkit-gradient(linear, left bottom, left top, from(#F5F5F5), to(#F5F5F5));
 }
 
-input[type="button"]:hover {
+input[type="button"]:hover, .ox-card:hover { 
 	color: #191919;
 	box-shadow: 2px 2px 5px #CCCCCC; 
 	-moz-box-shadow: 2px 2px 5px #CCCCCC; 
@@ -756,7 +768,7 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 .ox-bottom-buttons input[id*="delete"], .ox-bottom-buttons input[id*="remove"], 
 .ox-bottom-buttons input[id*="borrar"], .ipad .ox-bottom-buttons input[id*="delete"]:hover, 
 .ox-bottom-buttons input[id*="remove"]:hover, 
-.ipad .ox-bottom-buttons input[id*="borrar"]:hover {
+.ipad .ox-bottom-buttons input[id*="borrar"]:hover, .ox-card { 
 	background: #F5F5F5;
 	border: 1px solid #C6C6C6;
 	color: #6F6F6F;
@@ -798,12 +810,8 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 }
 
 .ox-active .ox-button-bar-mode-button, .ox-active .ox-section-tab {
-	border-top-left-radius: 5px;
-	-moz-border-top-left-radius: 5px;
-	-webkit-border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-	-moz-border-top-right-radius: 5px;
-	-webkit-border-top-right-radius: 5px;	
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;	
 	border-style: none;
 	height: 28px;
 	background: white;
@@ -907,9 +915,7 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 }
 
 .ox-page-navigation-selected {
-	border-radius: 4px;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;	
+	border-radius: 2px; 
 	color: #191919;
 	border: 1px solid #C6C6C6;	
 	box-shadow: 0px 1px 2px #CCCCCC; 
@@ -930,18 +936,46 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 	margin: 8px 10px 0px 7px; 
 }
 
+.ox-flow-layout {
+	margin-left: 0px;
+}
+
+.ox-frame .ox-flow-layout > div {
+	margin-left: -10px;
+}
+
+.ox-frame .ox-flow-layout > div.ox-frame {
+	margin-left: 1px;
+	margin-right: -3px;
+}
+
+.ox-detail.ox-flow-layout, .ox-active-section > .ox-flow-layout { 
+	width: calc(100vw - 15px);
+	margin-top: -3px; 
+}
+
+.ox-flow-layout .ox-frame {
+	margin-left: 11px;
+}
+
 #sign_in_box .ox-detail { 
 	margin: 0px 20px 0px 3px;   
+}
+
+#sign_in_box .ox-message-box { 
+	margin-left: 9px;   
+}
+
+#sign_in_box .ox-message-box i { 
+	display: none;   
 }
 
 .ox-frame, #sign_in_box {
 	margin-top: 2px; 
 	margin-bottom: 5px;
 	margin-right: 7px; 
-	padding: 10px 10px 3px 10px; 
-	border-radius: 7px;
-	-moz-border-radius: 7px;
-	-webkit-border-radius: 7px;	
+	padding: 10px 10px 3px 10px;
+	border-radius: 2px; 
 	border: 1px solid #C6C6C6;	
 	box-shadow: 0px 1px 3px #CCCCCC; 
 	-moz-box-shadow: 0px 1px 3px #CCCCCC; 
@@ -993,10 +1027,14 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 	margin-left: 3px;
 }
 
+.ox-sections { 
+	width: 100%;
+}
+
 .ox-section { 
-	padding: 0px 10px 0px 10px;
+	padding: 0px 10px 0px 17px; 
 	height: 30px; 
-	margin: 0px -11px 10px -11px;
+	margin: 0px -13px 10px -11px; 
 	box-shadow: 0px 3px 4px #CCCCCC;  
 	-moz-box-shadow: 0px 3px 4px #CCCCCC; 
 	-webkit-box-shadow: 0px 3px 4px #CCCCCC;
@@ -1083,9 +1121,7 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 	box-shadow: 0px 0px 40px #000; 
 	-moz-box-shadow: 0px 0px 40px #000; 
 	-webkit-box-shadow: 0px 0px 40px #000;
-	border-radius: 7px !important;
-	-moz-border-radius: 7px !important;
-	-webkit-border-radius: 7px !important;
+	border-radius: 2px !important; 
 	font-size: 1em !important; 				
 }
 
@@ -1142,8 +1178,8 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 	box-shadow: 0px 2px 7px #CCCCCC; 
 	-moz-box-shadow: 0px 2px 7px #CCCCCC; 
 	-webkit-box-shadow: 0px 2px 7px #CCCCCC;
-	border-bottom-left-radius: 7px;
-	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
 	border-top-left-radius: 2px;
 	border-top-right-radius: 2px;	
 }
@@ -1562,4 +1598,47 @@ a.cke_button_disabled:hover, a.cke_button_disabled:focus, a.cke_button_disabled:
 
 .firefox .ox-money b, .ie .ox-money b {
 	top: 8px;
+}
+
+.ox-cards {
+	width: 100vw; 
+	display: inline-flex;
+	flex-wrap: wrap;
+	padding: 0px 5px 3px 5px;
+}
+
+.ox-card {
+	flex: 0 1 330px;
+	margin: 6px;
+	padding: 10px 10px 5px 10px;
+	background: white;
+}
+
+.ox-card-header {
+	float: left;
+	font-size: larger;
+	font-weight: bold;
+}
+
+.ox-card-subheader {
+	float: right;
+}
+
+.ox-card-content {
+	font-weight: normal;
+	margin: 20px 0px 3px 0px;
+}
+
+#xava_loading_more_elements {
+	min-height: 20px;
+}
+
+#xava_loading_more_elements img {
+	vertical-align: bottom;
+}
+
+.ox-no-objects {
+	margin: 10px;
+	font-size: larger;
+	font-weight: bold;
 }

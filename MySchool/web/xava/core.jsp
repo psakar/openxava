@@ -76,8 +76,13 @@ with Firefox 3 and Liferay 5.1.1, 5.1.2 and 5.2.2 produces a JavaScript error.
 			<jsp:include page="messages.jsp"/>
 		</div>            
     <% } %>
-    
-		<div id='<xava:id name="view"/>' <%=manager.isListMode()?"":("class='" + style.getDetail() + "'")%> style='padding-top: 2px;'>
+
+		<%-- tmp     
+    	<div id='<xava:id name="view"/>' <%=manager.isListMode()?"":("class='" + style.getDetail() + (view.isFlowLayout()?" ox-flow-layout":"") +  "'")%> style='padding-top: 2px;'>
+    	--%>
+    	<%-- tmp ini --%>
+    	<div id='<xava:id name="view"/>' <%=manager.isListMode()?"":("class='" + style.getDetail() + (view.isSimple()?" ox-simple-layout":"") + (view.isFlowLayout()?" ox-flow-layout":"") +  "'")%> style='padding-top: 2px;'>
+    	<%-- tmp fin --%>
 			<jsp:include page='<%=manager.getViewURL()%>'/>		
 		</div>    	
 	

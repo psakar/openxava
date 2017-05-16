@@ -31,7 +31,7 @@ if (manager.isButtonBarVisible()) {
 		if (!element.appliesToMode(mode)) continue;
 		if (element instanceof MetaAction){
 			MetaAction action = (MetaAction) element;
-			if (action.isHidden()) continue;
+			if (!manager.actionApplies(action)) continue; 
 			if (action.hasImage() || action.hasIcon()) {	
 			%>
 			<jsp:include page="barButton.jsp">
@@ -66,13 +66,14 @@ if (manager.isButtonBarVisible()) {
 		tabObject = (tabObject == null || tabObject.equals(""))?"xava_tab":tabObject;
 		org.openxava.tab.Tab tab = (org.openxava.tab.Tab) context.get(request, tabObject);
 		Collection<String> editors = org.openxava.web.WebEditors.getEditors(tab.getMetaTab());
-		for (String editor: editors) {
-			String icon = editor.equals("Charts")?"chart-line":"table-large";
+		if (editors.size() > 1) for (String editor: editors) {
+			String icon = org.openxava.web.WebEditors.getIcon(editor);
+			if (icon == null) continue; 
 			String selected = editor.equals(tab.getEditor())?style.getSelectedListFormat():"";
 			if (Is.emptyString(editor)) editor = "__NONAME__"; 
 	%>
-	<xava:link action="ListFormat.select" argv='<%="editor=" + editor%>' cssClass="<%=selected%>">	
-		<i class="mdi mdi-<%=icon%>" onclick="openxava.onSelectListFormat(event)"></i>
+	<xava:link action="ListFormat.select" argv='<%="editor=" + editor%>' cssClass="<%=selected%>">
+		<i class="mdi mdi-<%=icon%>" onclick="openxava.onSelectListFormat(event)" title="<%=org.openxava.util.Labels.get(editor)%>"></i>
 	</xava:link>			
 	<%				
 		}

@@ -13,9 +13,8 @@
 <%@ page import="org.openxava.web.Ids" %>
 <%@ page import="org.openxava.web.Collections" %>
 
-
 <%
-	String collectionName = request.getParameter("collectionName");
+String collectionName = request.getParameter("collectionName");
 String viewObject = request.getParameter("viewObject");
 View view = (View) context.get(request, viewObject);
 View collectionView = view.getSubview(collectionName);

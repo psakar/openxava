@@ -1,7 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
-OpenXava 5.7 (2017-5-15)
+OpenXava 5.7 (2017-5-16)
 ------------------------
 - It's possible to go directly to the detail of an entity with ?detail=entityId in the module URL.
 - It's possible going to a module executing an action adding ?action=Controller.action in the URL.

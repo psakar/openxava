@@ -1079,6 +1079,7 @@ InvoiceDemo/web/WEB-INF/lib/javax.inject.jar -text
 InvoiceDemo/web/WEB-INF/lib/jboss-logging-annotations.jar -text
 InvoiceDemo/web/WEB-INF/lib/jboss-logging.jar -text
 InvoiceDemo/web/WEB-INF/lib/jpa.jar -text
+InvoiceDemo/web/WEB-INF/lib/jsoup.jar -text
 InvoiceDemo/web/WEB-INF/lib/jstl.jar -text
 InvoiceDemo/web/WEB-INF/lib/jta.jar -text
 InvoiceDemo/web/WEB-INF/lib/mailapi.jar -text
@@ -1226,6 +1227,7 @@ InvoiceDemo/web/xava/editors/calendar/skins/aqua/status-bg.gif -text
 InvoiceDemo/web/xava/editors/calendar/skins/aqua/theme.css -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/calendar/skins/aqua/title-bg.gif -text
 InvoiceDemo/web/xava/editors/calendar/skins/aqua/today-bg.gif -text
+InvoiceDemo/web/xava/editors/cardsEditor.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/changeFile.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/changeImage.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/editors/chartColumnNameEditor.jsp -text svneol=unset#text/plain
@@ -4194,6 +4196,7 @@ MySchool/web/WEB-INF/lib/javax.inject.jar -text
 MySchool/web/WEB-INF/lib/jboss-logging-annotations.jar -text
 MySchool/web/WEB-INF/lib/jboss-logging.jar -text
 MySchool/web/WEB-INF/lib/jpa.jar -text
+MySchool/web/WEB-INF/lib/jsoup.jar -text
 MySchool/web/WEB-INF/lib/jstl.jar -text
 MySchool/web/WEB-INF/lib/jta.jar -text
 MySchool/web/WEB-INF/lib/mailapi.jar -text
@@ -4339,6 +4342,7 @@ MySchool/web/xava/editors/calendar/skins/aqua/status-bg.gif -text
 MySchool/web/xava/editors/calendar/skins/aqua/theme.css -text svneol=unset#text/plain
 MySchool/web/xava/editors/calendar/skins/aqua/title-bg.gif -text
 MySchool/web/xava/editors/calendar/skins/aqua/today-bg.gif -text
+MySchool/web/xava/editors/cardsEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/changeImage.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/chartColumnNameEditor.jsp -text svneol=unset#text/plain
 MySchool/web/xava/editors/chartDataEditor.jsp -text svneol=unset#text/plain

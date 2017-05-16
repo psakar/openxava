@@ -184,6 +184,10 @@ TD.list-title {
 	color: black;
 }
 
+.ox-sections { 
+	width: 100%;
+}
+
 .section {
 	border-collapse: collapse;
 	padding: 0 0 0 0;
@@ -338,7 +342,7 @@ TD.list-title {
 	width: 100%;
 }
 
-.ox-button-bar .ox-button-bar-button a, .ox-button-bar-mode-button {
+.ox-button-bar .ox-button-bar-button a, .ox-button-bar-mode-button, .ox-card { 
 	background: url() no-repeat 5px 50%; 	
 	border: 1px solid #F6F8FB;
 	color: #9EA8AD;
@@ -351,7 +355,7 @@ TD.list-title {
 }
 
 .ox-button-bar .ox-button-bar-button a:hover, 
-.ox-button-bar-mode-button:hover, .ox-list-formats i:hover, .ox-chart-type i:hover {  
+.ox-button-bar-mode-button:hover, .ox-list-formats i:hover, .ox-chart-type i:hover, .ox-card:hover {   
 	border: 1px solid #A7CEDF;	
 	background-color: #DFF4FF;
 	color: #346799; 
@@ -434,7 +438,7 @@ TD.list-title {
 	text-decoration: none;
 }
 
-.ox-selected-list-format i, .ox-selected-list-format:hover i {
+.ox-selected-list-format i, .ox-selected-list-format:hover i, .ox-card { 
 	color: #000; 
 	background: white;
 	border-radius: 2px;
@@ -522,6 +526,18 @@ a.ox-selected-list-format, a.ox-selected-list-format:hover {
 	margin-right: -5px !important;
 }
 
+.firefox div.ox-subcontroller, .ui-autocomplete {
+	padding: 0;
+	margin: 0;
+	margin-top: 14px; 
+	position: absolute; 
+	clear: both; 
+	background-color: rgb(246, 248, 251); 
+	display: none; 
+	z-index: 999;
+	box-shadow: 0px 3px 3px #DDDDDD;
+}
+
 div.ox-subcontroller, .ui-autocomplete {
 	padding: 0;
 	margin: 0;
@@ -542,12 +558,12 @@ div.ox-subcontroller table{
 }
 
 div.ox-subcontroller table tr td{
-	float: right;
+	float: inherit;
 	width: 97%;	
 	text-align: left;
 	background-color: rgb(246, 248, 251);
 	z-index: 999; 
-	padding: 4px 4px 4px 4px;
+	padding: 4px;
 }
 
 div.ox-subcontroller table tr td a{
@@ -733,6 +749,10 @@ i.ox-error-icon {
 .portlet-content-container > span > .ox-error-icon {
 	top: -6px;
 	left: 9px;
+}
+
+.ox-flow-layout .ox-required-icon {
+	margin-left: 3px;
 }
 
 .ox-customize-controls i {
@@ -946,4 +966,56 @@ a.cke_button_disabled:hover, a.cke_button_disabled:focus, a.cke_button_disabled:
 
 .results-header span {
 	display: initial;
+}
+
+.ie .ox-cards {
+	width: 100vw;
+}
+
+.ox-cards {
+	display: inline-flex;
+	flex-wrap: wrap;
+	padding: 0px 5px 3px 5px;
+}
+
+.ox-card, .ox-card:hover {
+	color:  #9EA8AD;
+	flex: 0 1 330px;
+	margin: 6px;
+	padding: 8px 10px 5px 10px;
+}
+
+.ox-card:hover, .ox-card:hover .ox-card-header {
+	cursor: pointer;
+	color: #346799;
+}
+
+.ox-card-header {
+	color: black;
+	float: left;
+	font-size: larger;
+	font-weight: bold;
+}
+
+.ox-card-subheader {
+	float: right;
+}
+
+.ox-card-content {
+	font-weight: normal;
+	margin: 20px 0px 3px 0px;
+}
+
+#xava_loading_more_elements {
+	min-height: 20px;
+}
+
+#xava_loading_more_elements img {
+	vertical-align: bottom;
+}
+
+.ox-no-objects {
+	margin: 10px;
+	font-size: larger;
+	font-weight: bold;
 }

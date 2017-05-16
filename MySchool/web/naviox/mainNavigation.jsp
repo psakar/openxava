@@ -23,8 +23,9 @@ boolean showsIndexLink = modules.showsIndexLink();
 <nobr>
 &nbsp; 
 <% if (Users.getCurrent() != null && showsIndexLink) { %>
-	<a href="<%=request.getContextPath()%>/m/Index" class='<%="Index".equals(request.getParameter("module"))?"selected":""%>'>
-		<i class="mdi mdi-home"></i>
+	<div id="organizations_link_place"></div>	
+	<a id="organizations_link" href="<%=request.getContextPath()%>/m/Index" class='<%="Index".equals(request.getParameter("module"))?"selected":""%>'>
+		<i class="mdi mdi-apps"></i>
 	</a> 
 <% } %>
 <% 

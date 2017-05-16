@@ -423,7 +423,7 @@
 			class="org.openxava.test.actions.SeeInitialOfProductNameInADialog"/>
 	</controller>
 			 	
-	<controller name="Customer">
+	<controller name="Customer"> 
 		<extends controller="TypicalExtendedPrint"/>
 		<extends controller="EditableOnOff"/>
 		
@@ -433,7 +433,7 @@
 			by-default="if-possible"
 			keystroke="F3">			
 			<set property="resetAfter" value="false"/>
-		</action>				
+		</action>
 
 		<action name="hideSeller" mode="detail" 
 			class="org.openxava.test.actions.HideShowAction">								

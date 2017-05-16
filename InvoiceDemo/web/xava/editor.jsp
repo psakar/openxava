@@ -9,9 +9,6 @@
 <%@ page import="org.openxava.model.meta.MetaProperty" %>
 <%@ page import="org.openxava.view.meta.MetaPropertyView" %>
 
-<% if (XavaPreferences.getInstance().isDivForEachEditor()) { %>
-<div>  
-<% } %>
 
 <%
 String viewObject = request.getParameter("viewObject");
@@ -31,6 +28,11 @@ String labelStyle = view.getLabelStyleForProperty(p);
 if (Is.empty(labelStyle)) labelStyle = XavaPreferences.getInstance().getDefaultLabelStyle();
 String label = view.getLabelFor(p);
 %>
+
+<% if (view.isFlowLayout()) { %> 
+<div>  
+<% } %>
+
 <%@ include file="htmlTagsEditor.jsp"%>
 <%  
 if (first && !view.isAlignedByColumns()) label = org.openxava.util.Strings.change(label, " ", "&nbsp;");
@@ -73,16 +75,14 @@ if (labelFormat == MetaPropertyView.SMALL_LABEL) {
 <% } %>
 </span>
 
-<%@ include file="propertyActionsExt.jsp"%>
-
 <% if (!hasFrame) { %>
+<%@ include file="propertyActionsExt.jsp"%> 
 <%=postEditor%>
 <% if (labelFormat == MetaPropertyView.SMALL_LABEL) { %>
 <% } %>
 
 <% } // if (!hasFrame) %>
 
-<% if (XavaPreferences.getInstance().isDivForEachEditor()) { %>
+<% if (view.isFlowLayout()) { %> 
 </div>  
 <% } %>
-
