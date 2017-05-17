@@ -50,7 +50,6 @@ OpenXava 5.7 (2017-5-16)
 - Fix: SchemaTool fails with entities with @Table(schema=).
 - Fix: "Yes" is shown besides the check symbol in list for boolean values with column resizing disable. 
 - Fix: Error "Action ... not available" on refresh after session lost.
-- Fix: Permanlink does not work if the user is not already logged. 
 - Fix: List customization not saved in some cases.
 - Fix: ModuleTestBase.assertDiscussionCommentText() only works for row 0.
 
