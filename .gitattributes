@@ -7168,7 +7168,6 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/GenerateReportAction.html -text svn
 OpenXavaDoc/web/apidocs/org/openxava/actions/GoAddColumnsAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/GoAddElementsToCollectionAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/GoChangeListConfigurationAction.html -text svneol=unset#text/plain
-OpenXavaDoc/web/apidocs/org/openxava/actions/GoChangeListConfigurationNameAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/GoChooseIconAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/GoDetailAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/GoListAction.html -text svneol=unset#text/plain
@@ -7336,7 +7335,6 @@ OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GenerateReportAction.html
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoAddColumnsAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoAddElementsToCollectionAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoChangeListConfigurationAction.html -text svneol=unset#text/plain
-OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoChangeListConfigurationNameAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoChooseIconAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoDetailAction.html -text svneol=unset#text/plain
 OpenXavaDoc/web/apidocs/org/openxava/actions/class-use/GoListAction.html -text svneol=unset#text/plain
