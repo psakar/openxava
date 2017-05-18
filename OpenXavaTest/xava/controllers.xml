@@ -364,6 +364,8 @@
 	
 	<controller name="Product2SeveralViews">
 		<extends controller="Typical"/>
+		<action name="goDetail" hidden="true" on-init="true"
+			class="org.openxava.actions.NewAction"/>
 		<action name="changeToSimple8" mode="detail"
 			class="org.openxava.test.actions.ChangeViewAction">
 			<set property="newView" value="Simple8"/>			

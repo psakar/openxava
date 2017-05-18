@@ -14,7 +14,6 @@ public class Product2SeveralViewsTest extends ModuleTestBase {
 	}
 		
 	public void testSimpleView() throws Exception {  
-		execute("CRUD.new");
 		assertSimpleView();
 		
 		execute("Product2SeveralViews.changeToNotSimple9");

@@ -179,8 +179,14 @@ openxava.initUI = function(application, module, currentRow, viewSimple) {
 	}
 	openxava.initSelectedRows();
 	openxava.initCurrentRow(application, module, currentRow);
-	if (viewSimple) $('#' + openxava.decorateId(application, module, 'view')).addClass("ox-simple-layout");
-	else $('#' + openxava.decorateId(application, module, 'view')).removeClass("ox-simple-layout");
+	openxava.initViewSimple(application, module, viewSimple); 
+}
+
+openxava.initViewSimple = function(application, module, viewSimple) { 
+	if (typeof viewSimple != "undefined") {
+		if (viewSimple) $('#' + openxava.decorateId(application, module, 'view')).addClass("ox-simple-layout");
+		else $('#' + openxava.decorateId(application, module, 'view')).removeClass("ox-simple-layout");
+	}	
 }
 
 openxava.initStrokeActions = function(application, module) { 

@@ -1,6 +1,9 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Flow layout does not select correct format (vertical or left to right) on first page load.
+- Fix: Textfields too separated from label in views with few fields.
+
 OpenXava 5.7 (2017-5-16)
 ------------------------
 - It's possible to go directly to the detail of an entity with ?detail=entityId in the module URL.
