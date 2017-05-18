@@ -297,10 +297,11 @@ while (it.hasNext()) {
 		String valueTo= conditionValuesTo==null?"":conditionValuesTo[iConditionValues];
 		String comparator = conditionComparators==null?"":Strings.change(conditionComparators[iConditionValues], "=", Tab.EQ_COMPARATOR);
 		int columnWidth = tab.getColumnWidth(columnIndex);
-		String width = columnWidth<0 || !resizeColumns?"":"width: " + columnWidth + "px";
+		String width = columnWidth<0 || !resizeColumns?"":"width: " + columnWidth + "px;";
+		String paddingRight = resizeColumns?"padding-right: 12px;":"padding-right: 2px;"; 
 %>
 <td class="<%=style.getListSubheaderCell()%>" align="left">
-<div class="<xava:id name='<%=id%>'/>_col<%=columnIndex%>" style="overflow: hidden; <%=width%>; padding-right: 12px;">
+<div class="<xava:id name='<%=id%>'/>_col<%=columnIndex%>" style="overflow: hidden; <%=width%> <%=paddingRight%>">
 <% 		
 		if (isValidValues) {
 %>
