@@ -1466,4 +1466,11 @@ public class Style {
 	public String getAttachedFile() {
 		return "ox-attached-file";
 	}
+	
+	/**
+	 * @since 5.7
+	 */
+	public String getResizeColumns() { 
+		return "ox-resize-columns";
+	}
 }

@@ -226,8 +226,11 @@ TD.list-title {
 	display: inline;
 }
 
-.results-header .mdi-close-circle {
+.ox-resize-columns .results-header .mdi-close-circle {
 	position: absolute;
+}
+
+.results-header .mdi-close-circle {
 	right: 0px;
 	padding-right: 10px;
 }

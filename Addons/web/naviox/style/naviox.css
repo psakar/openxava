@@ -838,8 +838,11 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 	text-align: left;
 }
 
-.ox-list-header .mdi-close-circle {
+.ox-resize-columns .ox-list-header .mdi-close-circle {
 	position: absolute;
+}
+
+.ox-list-header .mdi-close-circle {
 	right: 0px;
 	padding-right: 10px;
 	background: white;
