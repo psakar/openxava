@@ -126,8 +126,9 @@ if (tab.isTitleVisible()) {
 <%
 } 
 %>
-<% if (resizeColumns && scrollSupported) { %>
-<div class="<xava:id name='<%=scrollId%>'/> <%=style.getResizeColumns()%>" style="<%=styleOverflow%>">
+<% if (scrollSupported) { %>
+<%String resizeColumnClass = resizeColumns?style.getResizeColumns():""; %>
+<div class="<xava:id name='<%=scrollId%>'/> <%=resizeColumnClass%>" style="<%=styleOverflow%>">
 <% } %> 
 <table id="<xava:id name='<%=id%>'/>" class="xava_sortable_column <%=style.getList()%>" <%=style.getListCellSpacing()%> style="<%=style.getListStyle()%>">
 <% if (sortable) { %><tbody class="xava_sortable_row"><% } %> 
@@ -156,7 +157,7 @@ if (tab.isTitleVisible()) {
 		}
 	} 
 	%>
-</nobr>
+</nobr> 
 </th>
 <th class="<%=style.getListHeaderCell()%>" width="5">
 	<%
@@ -186,7 +187,7 @@ while (it.hasNext()) {
 	String width = columnWidth<0 || !resizeColumns?"":"width: " + columnWidth + "px";
 %>
 <th class="<%=style.getListHeaderCell()%>" style="<%=align%>; padding-right: 0px" data-property="<%=property.getQualifiedName()%>">
-<nobr>
+<% if (resizeColumns) { %> <nobr> <% } %> 
 <div id="<xava:id name='<%=id%>'/>_col<%=columnIndex%>" class="<%=((resizeColumns)?("xava_resizable"):("")) %>" style="overflow: hidden; <%=width%>" >
 <%
 	if (tab.isCustomizeAllowed()) {
@@ -253,7 +254,7 @@ while (it.hasNext()) {
 	}
 %>
 </div> 
-</nobr>
+<% if (resizeColumns) { %> </nobr> <% } %>
 </th>
 <%
 	columnIndex++;
@@ -415,7 +416,7 @@ for (int f=tab.getInitialIndex(); f<model.getRowCount() && f < finalIndex; f++) 
 %>
 <tr id="<%=prefixIdRow%><%=f%>" class="<%=cssClass%>" <%=events%> style="<%=rowStyle%>">
 	<td class="<%=cssCellClass%>" style="vertical-align: middle;text-align: center; <%=style.getListCellStyle()%>">
-	<%if (resizeColumns) {%><nobr><%}%> 
+	<nobr> 
 	<%if (sortable) { %>
 	<i class="xava_handle mdi mdi-swap-vertical"></i>	
 	<%}%>	
@@ -438,7 +439,7 @@ for (int f=tab.getInitialIndex(); f<model.getRowCount() && f < finalIndex; f++) 
 		selectedRowStyle, rowStyle, 
 		onSelectCollectionElementMetaAction, tabObject);
 %>
-	<%if (resizeColumns) {%></nobr><%}%> 
+	</nobr> 
 	</td>
 	<td class="<%=cssCellClass%>" style="<%=style.getListCellStyle()%>">
 	<INPUT type="<%=singleSelection?"RADIO":"CHECKBOX"%>" name="<xava:id name='xava_selected'/>" value="<%=prefix + "selected"%>:<%=f%>" <%=checked%> <%=actionOnClick%>/>
@@ -602,7 +603,7 @@ if (lastRow != null) {
 %>
 <% if (sortable) { %></tbody><% } %> 
 </table>
-<% if (resizeColumns && scrollSupported) { %>
+<% if (scrollSupported) { %>
 </div> 
 <% } %>
 

@@ -840,11 +840,8 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 
 .ox-resize-columns .ox-list-header .mdi-close-circle {
 	position: absolute;
-}
-
-.ox-list-header .mdi-close-circle {
-	right: 0px;
-	padding-right: 10px;
+	right: 0px; 	
+	padding-right: 10px; 
 	background: white;
 	background:linear-gradient(to left, white, white, white, transparent);
 }

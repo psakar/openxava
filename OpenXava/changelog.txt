@@ -2,6 +2,8 @@ Change Log for OpenXava project
 ===============================
 
 
+- Fix: If the list has many columns without column resizing the icons for edit and delete are one below other.
+- Fix: In lists with many columns the detail/list/both links are outside of viewport without column resizing.
 - Fix: Impossible to remove columns in list without column resizing, the x is missing.
 - Fix: Comparator combo and filter value textfield do not fit all the available space without column resizing.
 - Fix: Flow layout does not select correct format (vertical or left to right) on first page load.
