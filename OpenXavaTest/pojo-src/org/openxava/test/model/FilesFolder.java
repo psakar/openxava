@@ -19,6 +19,7 @@ public class FilesFolder extends Nameable {
     @OneToMany(cascade=CascadeType.ALL, mappedBy="parent")
     private Collection<FilesFolder> subfolders;
 
+    // Without @CollectionView to test a case
     @OneToMany(mappedBy="folder")
     private Collection<File> files;
 	

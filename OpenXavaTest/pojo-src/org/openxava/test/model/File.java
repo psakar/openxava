@@ -8,6 +8,7 @@ import javax.persistence.*;
  */
 
 @Entity
+// Without @View to test a case 
 public class File extends Nameable {
 	
 	@ManyToOne

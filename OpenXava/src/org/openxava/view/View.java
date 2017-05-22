@@ -209,7 +209,7 @@ public class View implements java.io.Serializable {
 	private Collection createMetaMembers(boolean hiddenIncluded) throws XavaException {
 		if (getModelName() == null) return Collections.EMPTY_LIST; 		
 		Collection metaMembers = new ArrayList(getMetaView().getMetaMembers());
-		if (isRepresentsAggregate()) { 			
+		if (isRepresentsCollection()) {     
 			metaMembers = extractAggregateRecursiveReference(metaMembers);					
 		}				
 		extractRecursiveReference(metaMembers); 

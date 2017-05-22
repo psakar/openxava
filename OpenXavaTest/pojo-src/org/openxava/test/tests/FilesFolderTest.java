@@ -45,7 +45,14 @@ public class FilesFolderTest extends ModuleTestBase {
 		assertValue("parent.id", "");
 		assertDescriptionValue("parent.id", "");
 		setValue("parent.id", "ff8080824b4ebd51014b4eca87ad0004"); // The parent id
-		execute("CRUD.save");		
+		execute("CRUD.save");			
+	}
+	
+	public void testParentNotIncludedInViewCreatingNewFromOneToManyNotCascadeCollection() throws Exception { 
+		execute("CRUD.new");
+		execute("Collection.new", "viewObject=xava_view_files");
+		assertExists("name");
+		assertNotExists("folder.name");
 	}
 	
 }
