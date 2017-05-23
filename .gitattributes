@@ -11137,6 +11137,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/Product4Test.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/Product5Test.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ProductExpenses2Test.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/ProductExpensesTest.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/tests/ProductRichDescriptionPhotosTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/ProductsEvaluationTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/ProgrammerTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ProjectReadOnlyCollectionsTest.java -text svneol=unset#text/plain

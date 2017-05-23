@@ -56,7 +56,8 @@ import org.openxava.test.validators.*;
 		"}"		
 	),
 	@View( name="Simple", members = "number, description, unitPrice" ),
-	@View( name="EditPrice", members = "number, description, unitPrice")	
+	@View( name="EditPrice", members = "number, description, unitPrice"),
+	@View( name="RichDescriptionPhotos", members = "number; description; photos;" ) 
 })
 
 @Tab(properties = "number, description, unitPrice, unitPriceInPesetas") 
@@ -79,6 +80,7 @@ public class Product {
 		)
 	})
 	@ReadOnly(forViews="EditPrice")
+	@Editor(forViews="RichDescriptionPhotos", value="HtmlText") 
 	private String description;
 
 	@Stereotype("IMAGES_GALLERY")

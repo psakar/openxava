@@ -477,7 +477,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		assertPopupPDFLinesCount(5);  
 		assertTrue(getPopupPDFLine(3).startsWith("2004 2"));		
 		
-		execute("ExtendedPrint.myReports");
+		execute("ExtendedPrint.myReports"); 
 		execute("MyReport.remove", "xava.keyProperty=name"); 
 	}
 	
