@@ -162,7 +162,7 @@ import org.openxava.test.actions.*;
 		
 	@View( name="SellerAsDescriptionsListShowingReferenceViewNoKey", members= "number; name; type; seller" ),
 	
-	@View( name="SellerAsDescriptionsListShowingReferenceViewNoFrameInSection", members= "number; name; type; seller { seller }" ) 
+	@View( name="SellerAsDescriptionsListShowingReferenceViewNoFrameInSection", members= "number; name; type; seller { seller }" )
 	
 })
 
@@ -249,7 +249,7 @@ public class Customer implements IWithName {
 	@ReferenceViews({
 		@ReferenceView(forViews="SellerAsAggregate2Levels", value="LevelNoDescriptionsList"),
 		@ReferenceView(forViews="SellerAsDescriptionsListShowingReferenceView", value="Simple"),
-		@ReferenceView(forViews="SellerAsDescriptionsListShowingReferenceViewNoKey", value="SimpleNoNumber"),
+		@ReferenceView(forViews="SellerAsDescriptionsListShowingReferenceViewNoKey", value="SimpleNoNumber") 		
 	})
 	@Action(forViews="SellerAsDescriptionsListShowingReferenceView", value="Customer.hideSeller")
 	@DescriptionsList(

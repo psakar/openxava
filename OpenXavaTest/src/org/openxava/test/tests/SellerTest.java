@@ -5,6 +5,8 @@ import java.rmi.*;
 import org.openxava.jpa.*;
 import org.openxava.test.model.*;
 
+import com.gargoylesoftware.htmlunit.html.*;
+
 /**
  * 
  * @author Javier Paniza
@@ -320,6 +322,17 @@ public class SellerTest extends CustomizeListTestBase {
 		deleteSeller("66");
 		deleteSeller("67");					
 	}
+	
+	public void testOpenFirstDescriptionsListInADialogWithOnChangeNotThrowEvent() throws Exception { 
+		execute("ShowSellerDialog.showSellerDialog");
+		assertNoMessages();
+		HtmlElement editor = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Seller__reference_editor_level");
+		HtmlElement handler = editor.getElementsByTagName("i").get(0);
+		handler.click();
+		waitAJAX();
+		assertNoMessages();
+	}
+
 	
 	/* Since v2.2 this does not apply. See at testEntityReferenceCollections to
 	 * see the current entity collection behaviour

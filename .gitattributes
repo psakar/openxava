@@ -10787,6 +10787,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/ShowGoCustomerInvoicesDialogActi
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowQuoteProducsAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowSelectedAuthorsAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowSellerAction.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/ShowSellerDialogAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/TranslateCarrierNameAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ViewNameFellowCarriersSelectedAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ViewNamesOrRolesNamesFromTeamMember.java -text svneol=unset#text/plain

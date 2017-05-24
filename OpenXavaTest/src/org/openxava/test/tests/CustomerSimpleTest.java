@@ -2,6 +2,8 @@ package org.openxava.test.tests;
 
 import org.openxava.tests.*;
 
+import com.gargoylesoftware.htmlunit.html.*;
+
 /**
  * @author Javier Paniza
  */
@@ -24,5 +26,5 @@ public class CustomerSimpleTest extends ModuleTestBase {
 		execute("Mode.detailAndFirst");
 		assertValue("name", "Xavi"); 
 	}
-		
+			
 }

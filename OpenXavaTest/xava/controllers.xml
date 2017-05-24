@@ -26,6 +26,11 @@
 		</action>	
 	</controller>
 
+	<controller name="ShowSellerDialog">
+		<action name="showSellerDialog"  
+			class="org.openxava.test.actions.ShowSellerDialogAction"/>
+	</controller>
+
 	<controller name="Incident">	
 		<extends controller="Typical"/>
 		<action name="disableDiscussion" class="org.openxava.test.actions.DisableDiscussionAction"/> 

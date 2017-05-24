@@ -37,7 +37,7 @@ public class DeliveryPlace {
 	private String address;
 	
 	@DescriptionsList
-	@OnChange(OnChangePreferredWarehouseAction.class)
+	@OnChange(OnChangePreferredWarehouseAction.class) 
 	@ManyToOne(fetch=FetchType.LAZY) 
 	@JoinColumns ({
 		@JoinColumn(name="WAREHOUSE_ZONE", referencedColumnName="zone"),
