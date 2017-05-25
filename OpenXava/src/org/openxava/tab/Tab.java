@@ -55,7 +55,8 @@ public class Tab implements java.io.Serializable {
 		private transient List<MetaProperty> metaPropertiesNotCalculated;
 		private long weight; // To sort: Default, with name ordered by last used (new or existing), without name ordered by last used (new or existing) 
 		
-		private String translateCondition(String condition) { 
+		private String translateCondition(String condition) {
+			// IF YOU CHANGE THIS CODE TEST IT WITH ignoreAccentsForStringArgumentsInConditions true and false
 			try { 
 				if (Is.empty(condition)) return Labels.get("all"); 
 				String result = condition + " ";
@@ -95,6 +96,7 @@ public class Tab implements java.io.Serializable {
 				result = result.replace("upper(", ""); 
 				result = result.replace("replace(", "");
 				result = result.replace("translate(", ""); 
+				result = result.replace("})", "}"); 
 				result = result.replace(",'aeiouAEIOU','\u00E1\u00E9\u00ED\u00F3\u00FA\u00C1\u00C9\u00CD\u00D3\u00DA'))", ""); 
 				result = result.replaceAll(", '.', '.'\\)+", "");
 				result = result.replaceAll("\\$\\{[a-zA-Z0-9\\._]+\\} <> true($| )", XavaResources.getString("not") + " $0");
