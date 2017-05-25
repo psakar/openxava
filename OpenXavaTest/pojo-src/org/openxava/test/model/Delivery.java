@@ -44,7 +44,7 @@ import org.openxava.jpa.*;
 		"		carrier;" +
 		"		employee;" +			
 		"	]" +
-		"]" +
+		"]"  +
 		"comments { advice, shortcut; remarks }" +						
 		"incidents { incidents }" +
 		"details {" +
