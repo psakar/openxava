@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Frames truncated in dialog with flow layout.
 - Fix: Queries names in list have some incorrect ) when ignoreAccentsForStringArgumentsInConditions=false.
 - Fix: Opening the first combo in a dialog with a @OnChange throws the onchange event closing the combo on click. 
 - Fix: Images gallery shows the content of the HTML_TEXT stereotype if the property is called "description".
