@@ -950,8 +950,9 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 }
 
 .ox-detail.ox-flow-layout, .ox-active-section > .ox-flow-layout { 
-	width: calc(100vw - 15px);
+	width: calc(100vw - 33px); 
 	margin-top: -3px; 
+	overflow-x: hidden; 
 }
 
 .ui-dialog .ox-detail.ox-flow-layout, .ui-dialog .ox-active-section > .ox-flow-layout { 
@@ -1102,16 +1103,13 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 	margin-right: 17px;
 }
 
-.ox-view { 
-	padding-right: 7px;
-}
-
 .ui-dialog .ox-bottom-buttons {
 	margin-left: 1px; /* To adjust list and collections width */
 }
 
 .ui-dialog .ox-view {
 	overflow-x: hidden; /* To avoid scrollbar in list inside dialog  */
+	padding-right: 7px; 
 }
 
 .ui-dialog .ox-view { 	
@@ -1614,7 +1612,7 @@ a.cke_button_disabled:hover, a.cke_button_disabled:focus, a.cke_button_disabled:
 }
 
 .ox-cards {
-	width: 100vw; 
+	width: calc(100vw - 20px); 
 	display: inline-flex;
 	flex-wrap: wrap;
 	padding: 0px 5px 3px 5px;
