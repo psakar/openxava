@@ -1,6 +1,9 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: When scrolling in a touch screen @OrderColumn rows move inadvertently.
+- Fix: Impossible to select text in @OrderColumn applications.
+- Fix: Mode tabs too close to right when cards list format is used.
 - Fix: Horizontal scrollbar with flow layout.
 - Fix: Horizontal scrollbar with cards list format.
 - Fix: Frames truncated in dialog with flow layout.
