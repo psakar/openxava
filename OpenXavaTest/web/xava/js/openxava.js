@@ -356,7 +356,8 @@ openxava.initLists = function(application, module) {
 	    }
 	});
 	$('.xava_sortable_row').sortable({ 
-		items: '>:gt(0)', 
+		items: '>:gt(0)',
+		handle: ".xava_handle", 
 	    start: function( event, ui ) {	    	
 	    	ui.item.startPos = ui.item.index(); 
 	    },		
