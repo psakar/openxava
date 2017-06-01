@@ -65,6 +65,7 @@
 					"org.openxava.controller.ModuleManager");
 
 	manager.setSession(session);
+	managerHome.setSession(session); 
 	manager.setApplicationName(request.getParameter("application"));
 
 	manager.setModuleName(module); // In order to show the correct description in head

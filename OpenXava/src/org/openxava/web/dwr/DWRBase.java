@@ -28,6 +28,7 @@ class DWRBase {
 		Users.setCurrent(request);
 		request.setAttribute("style", Style.getInstance(request));
 		ModuleManager manager = (ModuleManager) getContext(request).get(application, module, "manager");
+		manager.setSession(request.getSession()); 
 		manager.resetPersistence();
 		SessionData.setCurrent(request); 
 	}
