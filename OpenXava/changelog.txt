@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: SchemaTool does not work with PostgreSQL when we use @Index in @Table.
 - Fix: When scrolling in a touch screen @OrderColumn rows move inadvertently.
 - Fix: Impossible to select text in @OrderColumn applications.
 - Fix: Mode tabs too close to right when cards list format is used.

@@ -86,7 +86,7 @@ public class SchemaTool {
 	    	String schema = (String) factoryProperties.get("hibernate.default_schema"); 
 	    	java.sql.Connection connection = ((SessionImpl) XPersistence.getManager().getDelegate()).connection(); 
 	    	DatabaseMetadata metadata = new DatabaseMetadata(connection, Dialect.getDialect(props), cfg); 
-	    	boolean supportsSchemasInIndexDefinitions = connection.getMetaData().supportsSchemasInIndexDefinitions();
+	    	boolean supportsSchemasInIndexDefinitions = supportsSchemasInIndexDefinitions(connection); 
 	    	XPersistence.commit();
 	    	if (update) { 
 		    	List<SchemaUpdateScript> scripts = cfg.generateSchemaUpdateScriptList(Dialect.getDialect(props), metadata);
@@ -131,6 +131,12 @@ public class SchemaTool {
 		}		
 	}
 	
+	private boolean supportsSchemasInIndexDefinitions(Connection connection) throws SQLException {
+		DatabaseMetaData metaData = connection.getMetaData();
+		if ("PostgreSQL".equals(metaData.getDatabaseProductName())) return false;
+		return metaData.supportsSchemasInIndexDefinitions();
+	}
+
 	private static String addSchema(String schema, String script, boolean supportsSchemasInIndexDefinitions) {
 		if (Is.emptyString(schema)) return script;
 		if (script.contains(".")) return script; 
