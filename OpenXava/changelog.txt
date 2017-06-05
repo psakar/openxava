@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- New method resetEntityManagerFactory() in XPersistence.
 - Fix: SchemaTool does not work with PostgreSQL when we use @Index in @Table.
 - Fix: When scrolling in a touch screen @OrderColumn rows move inadvertently.
 - Fix: Impossible to select text in @OrderColumn applications.
