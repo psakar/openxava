@@ -56,7 +56,7 @@ public class Module extends DWRBase {
 			this.module = module;
 			this.firstRequest = firstRequest==null?false:firstRequest;
 			this.baseFolder = baseFolder==null?"/xava/":"/" + baseFolder + "/";
-			initRequest(request, response, application, module); 
+			initRequest(request, response, application, module);
 			setPageReloadedLastTime(false);
 			this.manager = (ModuleManager) getContext(request).get(application, module, "manager");
 			restoreLastMessages();  			
@@ -168,7 +168,7 @@ public class Module extends DWRBase {
 		}
 		catch (Exception ex) {
 			log.warn(XavaResources.getString("stroke_actions_errors"), ex); 
-			return Collections.EMPTY_MAP;
+			return null; // Maybe the session has been invalidated and it's needed to reload the page
 		}
 		finally {
 			cleanRequest(); 
