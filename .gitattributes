@@ -6802,6 +6802,7 @@ OpenXava/web/reference.jsp -text svneol=unset#text/plain
 OpenXava/web/referenceActions.jsp -text svneol=unset#text/plain
 OpenXava/web/referenceActionsExt.jsp -text svneol=unset#text/plain
 OpenXava/web/referenceEditorIcons.jsp -text svneol=unset#text/plain
+OpenXava/web/referenceFrameHeader.jsp -text svneol=unset#text/plain
 OpenXava/web/referenceFrameHeaderExt.jsp -text svneol=unset#text/plain
 OpenXava/web/referenceSearch.jsp -text svneol=unset#text/plain
 OpenXava/web/sections.jsp -text svneol=unset#text/plain
@@ -9959,6 +9960,10 @@ OpenXavaTest/i18n/portlets/InvoiceCustomerNoFrame_ca.properties -text svneol=uns
 OpenXavaTest/i18n/portlets/InvoiceCustomerNoFrame_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceCustomerNoFrame_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceCustomerNoFrame_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceCustomerOnlyAddress_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceCustomerOnlyAddress_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceCustomerOnlyAddress_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/InvoiceCustomerOnlyAddress_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceDeliveries_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceDeliveries_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/InvoiceDeliveries_es.properties -text svneol=unset#text/plain
@@ -11123,6 +11128,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/HunterTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/IncidentTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/InventTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/Invoice4Test.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/InvoiceCustomerOnlyAddressTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/InvoiceDetailTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/InvoiceDetailsWithSectionsTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/InvoiceTypicalNewOnInitTest.groovy -text
@@ -12326,6 +12332,7 @@ OpenXavaTest/web/xava/reference.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/referenceActions.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/referenceActionsExt.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/referenceEditorIcons.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/referenceFrameHeader.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/referenceFrameHeaderExt.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/referenceSearch.jsp -text
 OpenXavaTest/web/xava/sections.jsp -text

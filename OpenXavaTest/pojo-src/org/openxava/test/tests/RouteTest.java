@@ -37,7 +37,7 @@ public class RouteTest extends ModuleTestBase {
 		assertValueInCollection("visits", 1, "description", "KM: 12, CUSTOMER: 1 JAVI");
 		execute("Reference.search", "keyProperty=visits.0.customer.number");
 		execute("ReferenceSearch.choose", "row=1"); 
-		assertValueInCollection("visits", 0, "customer.name", "Juanillo");
+		assertValueInCollection("visits", 0, "customer.name", "Juanillo"); 
 		assertValueInCollection("visits", 0, "description", "KM: 13, CUSTOMER: 2 JUANILLO");		
 		
 		String [][] productValidValues = {

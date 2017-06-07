@@ -3,6 +3,8 @@ package org.openxava.test.tests;
 import org.openxava.model.meta.*;
 import org.openxava.test.model.*;
 
+import com.gargoylesoftware.htmlunit.html.*;
+
 /**
  * 
  * @author Javier Paniza
@@ -227,7 +229,7 @@ public class CarrierTest extends CarrierTestBase {
 		assertEditable("warehouse.number");
 		assertNoEditable("warehouse.name");
 		
-		assertIconsImagesInViewAction();
+		assertIconsImagesInViewAction(); 
 		execute("Mode.list");
 		execute("ListFormat.select", "editor=List");
 	}
@@ -500,10 +502,12 @@ public class CarrierTest extends CarrierTestBase {
 	}
 	
 	private void assertIconsImagesInViewAction() { 
-		String actionsXml = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Carrier__property_actions_warehouse___number").asXml();
+		HtmlElement frameHeader = (HtmlElement) getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Carrier__label_warehouse").getParentNode().getParentNode();
+		assertEquals("ox-frame-title", frameHeader.getAttribute("class"));
+		String actionsXml = frameHeader.asXml();
 		assertTrue(actionsXml.contains("<i class=\"mdi mdi-magnify"));
 		assertTrue(actionsXml.contains("<i class=\"mdi mdi-library-plus"));
-		assertTrue(actionsXml.contains("images/create_new.gif"));		
+		assertTrue(actionsXml.contains("images/create_new.gif"));
 	}
 	
 	private void assertCarriersCount(int c) throws Exception {

@@ -158,7 +158,8 @@ public class ProjectTest extends ModuleTestBase {
 		// This method does not work for all "from, to" combinations, at least with HtmlUnit 2.15
 		HtmlTable table = getHtmlPage().getHtmlElementById(decorateId(collection));
 		HtmlElement fromRow = table.getRow(from + 1);
-		fromRow.mouseDown(); 
+		HtmlElement fromHandler = fromRow.getElementsByAttribute("i", "class", "xava_handle mdi mdi-swap-vertical ui-sortable-handle").get(0);
+		fromHandler.mouseDown();
 		HtmlElement toRow = table.getRow(to + 1);
 		if (classRequired) assertTrue(toRow.getAttribute("class").contains("xava_sortable_element_row"));
 		toRow.mouseMove();

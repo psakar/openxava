@@ -2,8 +2,6 @@ package org.openxava.test.tests;
 
 import org.openxava.tests.*;
 
-import com.gargoylesoftware.htmlunit.html.*;
-
 /**
  * @author Javier Paniza
  */
@@ -17,7 +15,7 @@ public class CustomerSimpleTest extends ModuleTestBase {
 	
 	public void testSearchReferenceInsideAggregate() throws Exception {
 		execute("CRUD.new");
-		execute("Reference.search", "keyProperty=xava.Customer.address.state.id");
+		execute("Reference.search", "keyProperty=xava.Customer.address.state.id"); 
 		assertNoErrors();
 	}
 	

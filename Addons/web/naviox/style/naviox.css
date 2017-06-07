@@ -558,6 +558,11 @@ i {
 	padding: 4px;
 }
 
+.ox-frame-title .ox-image-link i {
+	margin-top: -8px;
+	margin-bottom: -8px;
+}
+
 .ox-frame-actions i {
 	font-size: 200%;
 	padding: 0;

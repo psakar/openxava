@@ -73,7 +73,8 @@ public class View implements java.io.Serializable {
 	private boolean searchingObject;
 	private Collection membersNamesWithoutSections;
 	private Collection membersNamesWithoutSectionsAndCollections; 
-	private View parent;	
+	private View parent;
+	private View realParent; 
 	private List<MetaProperty> metaPropertiesList;
 	private boolean knowIfDisplayDetailInCollection;
 	private boolean displayDetailInCollection;
@@ -660,6 +661,9 @@ public class View implements java.io.Serializable {
 		while (it.hasNext()) {
 			String property = (String) it.next();
 			if (property.equals(getLastPropertyKeyName())) {
+				key = property;
+			}
+			else if (Is.emptyString(getLastPropertyKeyName()) && getMetaModel().isKey(property)) {
 				key = property;
 			}
 			else {
@@ -2891,7 +2895,7 @@ public class View implements java.io.Serializable {
 				catch (ElementNotFoundException ex) {
 					// try to obtain from model in case it is an hidden key
 					changedProperty = getMetaModel().getMetaProperty(name);					
-					if (!(changedProperty.isKey() && (changedProperty.isHidden() || displayAsDescriptionsListAndReferenceView()))) throw ex; 
+					if (!changedProperty.isKey()) throw ex; 
 				}	
 				propertyChanged(changedProperty, name);
 				if (getParent() != null) {					
@@ -2943,7 +2947,7 @@ public class View implements java.io.Serializable {
 			if (hasToSearchOnChangeIfSubview && isSubview() && isRepresentsEntityReference() && !isGroup() && !displayAsDescriptionsList() && 
 					( 	
 					(getLastPropertyKeyName().equals(changedProperty.getName()) && getMetaPropertiesIncludingGroups().contains(changedProperty)) || // Visible keys
-					(!hasKeyProperties() && changedProperty.isKey() && (changedProperty.isHidden() || displayAsDescriptionsListAndReferenceView()) && changedProperty.getMetaModel() == getMetaModel()) || // hidden keys or key inside a @DescriptionsList with showReferenceViw=true 
+					(!hasKeyProperties() && changedProperty.isKey() && changedProperty.getMetaModel() == getMetaModel()) || // hidden keys or key inside a @DescriptionsList with showReferenceViw=true 
 					(isFirstPropertyAndViewHasNoKeys(changedProperty) && isKeyEditable()) || // A searching value that is not key 
 					(hasSearchMemberKeys() && isLastPropertyMarkedAsSearch(changedPropertyQualifiedName))  // Explicit search key
 					)
@@ -3950,6 +3954,12 @@ public class View implements java.io.Serializable {
 		}
 		return "";
 	}
+	
+	/** @since 5.7.1 */
+	public String getSearchKeyName() { 
+		String searchKeyName = getLastSearchKeyName();
+		return Is.emptyString(searchKeyName)?getMetaModel().getAllMetaPropertiesKey().get(0).getName():searchKeyName;
+	}
 		
 	public boolean isHidden(String name) {				
 		return hiddenMembers != null && hiddenMembers.contains(name);
@@ -4012,12 +4022,17 @@ public class View implements java.io.Serializable {
 		
 	}
 		
-	public View getParent() { 		
+	public View getParent() { 	
 		if (parent != null && (parent.isSection() || parent.isGroup())) { 
 			View result = parent.getParent();
+			realParent = parent;
 			parent = result;
 		}
 		return parent;
+	}
+	
+	private View getRealParent() {  
+		return realParent == null?parent:realParent;
 	}
 	
 	public View getRoot() { 		
@@ -4070,6 +4085,14 @@ public class View implements java.io.Serializable {
 			return false;  
 		}
 		
+	}
+	
+	public boolean displayWithFrame() { 
+		View parent = getRealParent();
+		if (parent == null) return false;
+		if (isGroup()) return parent.displayWithFrame();
+		return 	isFrame() && 
+				(!parent.isSection() || parent.getMetaMembers().size() > 1);
 	}
 	
 	private boolean displayReferenceWithNotCompositeEditor() {  

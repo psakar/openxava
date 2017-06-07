@@ -66,7 +66,7 @@ abstract public class MetaModel extends MetaElement {
 	
 	private Collection metaFinders;
 
-	private Collection<MetaProperty> metaPropertiesPersistents; // tmp <MetaProperty>
+	private Collection<MetaProperty> metaPropertiesPersistents; 
 
 	private Collection persistentPropertiesNames;
 	private Collection interfaces;
@@ -83,6 +83,7 @@ abstract public class MetaModel extends MetaElement {
 	private boolean versionPropertyNameObtained = false;
 	private Collection metaReferencesKey;
 	private Collection metaReferencesKeyAndSearchKey;
+	private List<MetaProperty> allMetaPropertiesKey; 
 	
 	private interface IKeyTester { 
 		boolean isKey(MetaProperty property);
@@ -737,7 +738,7 @@ abstract public class MetaModel extends MetaElement {
 	/**
 	 * @return Collection of <tt>MetaProperty</tt>, not null and read only
 	 */
-	public Collection getMetaPropertiesKey() throws XavaException {
+	public Collection<MetaProperty> getMetaPropertiesKey() throws XavaException { 
 		Iterator it = getMembersNames().iterator(); // memberNames to keep order		
 		ArrayList result = new ArrayList();
 		while (it.hasNext()) {
@@ -782,21 +783,24 @@ abstract public class MetaModel extends MetaElement {
 	 * 
 	 * @return Collection of <tt>MetaProperty</tt>, not null and read only
 	 */
-	public Collection getAllMetaPropertiesKey() throws XavaException {				
-		ArrayList result = new ArrayList(getMetaPropertiesKey());
-		Iterator itRef = getMetaReferencesKey().iterator();
-		while (itRef.hasNext()) {
-			MetaReference ref = (MetaReference) itRef.next();
-			Iterator itProperties = ref.getMetaModelReferenced().getAllMetaPropertiesKey().iterator();
-			while (itProperties.hasNext()) {
-				MetaProperty original = (MetaProperty) itProperties.next();
-				original.getMapping(); // Thus the clon will have the mapping
-				MetaProperty p = original.cloneMetaProperty();
-				p.setName(ref.getName() + "." + p.getName());
-				result.add(p);
+	public List<MetaProperty> getAllMetaPropertiesKey() throws XavaException { 
+		if (allMetaPropertiesKey == null) {
+			ArrayList result = new ArrayList(getMetaPropertiesKey());
+			Iterator itRef = getMetaReferencesKey().iterator();
+			while (itRef.hasNext()) {
+				MetaReference ref = (MetaReference) itRef.next();
+				Iterator itProperties = ref.getMetaModelReferenced().getAllMetaPropertiesKey().iterator();
+				while (itProperties.hasNext()) {
+					MetaProperty original = (MetaProperty) itProperties.next();
+					original.getMapping(); // Thus the clon will have the mapping
+					MetaProperty p = original.cloneMetaProperty();
+					p.setName(ref.getName() + "." + p.getName());
+					result.add(p);
+				}
 			}
+			allMetaPropertiesKey = Collections.unmodifiableList(result); 
 		}
-		return Collections.unmodifiableCollection(result);
+		return allMetaPropertiesKey;
 	}
 	
 	

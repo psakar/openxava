@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- Reference actions are shown in the reference frame, instead of next to the key field.
+- Fix: Impossible to search a reference if its view has no at least a plain field.
 - New method resetEntityManagerFactory() in XPersistence.
 - Fix: SchemaTool does not work with PostgreSQL when we use @Index in @Table.
 - Fix: When scrolling in a touch screen @OrderColumn rows move inadvertently.

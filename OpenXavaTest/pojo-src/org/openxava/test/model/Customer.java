@@ -28,10 +28,10 @@ import org.openxava.test.actions.*;
 		"seller [" +  
 		"	seller; " +
 		"	relationWithSeller;" +
-		"]" +		
-		"alternateSeller;" +		
+		"]" +
+		"alternateSeller;"  +		
 		"deliveryPlaces;" +
-		"remarks"
+		"remarks" 
 	),
 	@View(name = "FramesOnSameRow", members= 	
 		"number;" +
@@ -89,7 +89,7 @@ import org.openxava.test.actions.*;
 		"deliveryPlaces;" +
 		"remarks" 	
 	),
-	@View( name="Simple", members= 	
+	@View( name="Simple", members=
 		"number;" +
 		"type;" +
 		"name, Customer.changeNameLabel(ALWAYS);" +		
@@ -162,7 +162,9 @@ import org.openxava.test.actions.*;
 		
 	@View( name="SellerAsDescriptionsListShowingReferenceViewNoKey", members= "number; name; type; seller" ),
 	
-	@View( name="SellerAsDescriptionsListShowingReferenceViewNoFrameInSection", members= "number; name; type; seller { seller }" )
+	@View( name="SellerAsDescriptionsListShowingReferenceViewNoFrameInSection", members= "number; name; type; seller { seller }" ),
+	
+	@View( name="OnlyAddress", members= "address" ) // Don't add more members 
 	
 })
 

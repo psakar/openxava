@@ -36,7 +36,7 @@ public class TeamTest extends ModuleTestBase {
 	public void testSearchingWithInheritanceFromAEntityCollectionElement() throws Exception {  		
 		execute("CRUD.new");
 		execute("Collection.new", "viewObject=xava_view_members");
-		execute("Team.searchPerson", "keyProperty=person.name");
+		execute("Team.searchPerson", "keyProperty=person.name"); 
 		assertListRowCount(3);
 		execute("ReferenceSearch.choose", "row=0"); 
 		assertValue("person.name", "JAVI"); // Must be JAVI because he's a JavaProgrammer, we need that to reproduce a bug

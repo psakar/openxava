@@ -22,7 +22,7 @@ public class InvoiceNestedSectionsTest extends ModuleTestBase {
 		assertTrue(linkXml.contains("images/report.gif"));
 
 		execute("Sections.change", "activeSection=1");		
-		assertCollectionNotEmpty("details");
+		assertCollectionNotEmpty("details"); 
 		execute("Print.generatePdf", "viewObject=xava_view_section1_section0_details"); 
 		assertNoErrors();
 		assertContentTypeForPopup("application/pdf");		

@@ -603,7 +603,7 @@ public class CustomerTest extends CustomizeListTestBase {
 		assertMessage("Customer deleted successfully");
 	}
 
-	public void testSetEditableOfReferences_notOnChangeActionsOfReferences() throws Exception {
+	public void testSetEditableOfReferences_notOnChangeActionsOfReferences() throws Exception { 
 		execute("Mode.detailAndFirst");
 		assertNoMessage("OnChangeVoidAction executed"); 
 		assertEditable("address.street");
@@ -616,7 +616,7 @@ public class CustomerTest extends CustomizeListTestBase {
 		assertNoEditable("address.street");
 		assertNoEditable("seller.number");
 		assertNoEditable("seller.name");
-		assertNoAction("Reference.search");
+		assertNoAction("Reference.search"); 
 		assertNoAction("Reference.createNew");
 		
 		execute("EditableOnOff.setOn");

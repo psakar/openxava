@@ -21,7 +21,7 @@ public class Product3WithDescriptionsListTest extends ModuleTestBase {
 		execute("CRUD.new");		
 		setValue("number", "66");
 		setValue("description", "JUNIT PRODUCT");
-		execute("Reference.createNew", "model=Family,keyProperty=xava.Product3.family.oid");
+		execute("Reference.createNew", "model=Family,keyProperty=xava.Product3.family.oid"); 
 		setValue("Family", "number", "66");
 		setValue("Family", "description", "Family 66");
 		execute("NewCreation.saveNew");

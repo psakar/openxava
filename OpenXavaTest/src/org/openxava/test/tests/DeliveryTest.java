@@ -14,6 +14,7 @@ import org.openxava.util.Is;
 import com.gargoylesoftware.htmlunit.html.*;
 
 /**
+ *  
  * @author Javier Paniza
  * @author Federico Alcántara
  */
@@ -240,7 +241,7 @@ public class DeliveryTest extends ModuleTestBase {
 		setValue("unitPrice", "1");
 		setValue("product.number", "1");
 		execute("Collection.save");	
-		assertNoErrors();
+		assertNoErrors(); 
 		assertMessage("Invoice detail created successfully");
 		assertMessage("Invoice created successfully"); 
 		assertNoErrors();		

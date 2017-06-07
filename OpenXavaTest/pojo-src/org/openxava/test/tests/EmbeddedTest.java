@@ -26,7 +26,7 @@ public class EmbeddedTest extends ModuleTestBase {
 	public void testSearch() throws Exception {
 		execute("CRUD.new");
 		HtmlElement element = getSearchElement();
-		String keyProperty = extractKeyProperty(element);
+		String keyProperty = extractKeyProperty(element); 
 		execute("Reference.search", "keyProperty=" + keyProperty);
 		assertNoErrors();
 		execute("ReferenceSearch.cancel");

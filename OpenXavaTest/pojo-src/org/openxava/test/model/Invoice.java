@@ -143,8 +143,10 @@ import org.openxava.util.*;
 			"discounts [customerDiscount, customerTypeDiscount, yearDiscount];" +
 			"values [amountsSum, vatPercentage, vat];" +
 		"}"			
+	),
+	@View(name="CustomerOnlyAddress", members= 
+		"year, number; customer"
 	)
-
 })
 
 @Tabs({
@@ -235,7 +237,8 @@ public class Invoice {
 	@ReferenceViews({
 		@ReferenceView(forViews="CustomerAsAggregateWithDeliveryPlaces", value="SimpleWithDeliveryPlaces"),
 		@ReferenceView(forViews="DetailsWithTotals", value="Simplest"),
-		@ReferenceView(forViews="NoSections", value="SimpleWithCity") 
+		@ReferenceView(forViews="NoSections", value="SimpleWithCity"),
+		@ReferenceView(forViews="CustomerOnlyAddress", value="OnlyAddress") 
 	})
 	@AsEmbedded(forViews="CustomerAsAggregateWithDeliveryPlaces")
 	@NoFrame(forViews="CustomerNoFrame") 

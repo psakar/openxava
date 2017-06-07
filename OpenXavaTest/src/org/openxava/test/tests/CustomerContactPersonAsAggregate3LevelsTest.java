@@ -17,7 +17,7 @@ public class CustomerContactPersonAsAggregate3LevelsTest extends ModuleTestBase 
 	public void testAsAggregate3Levels() throws Exception {
 		execute("CRUD.new");
 		execute("Reference.search", "keyProperty=xava.CustomerContactPerson.customer.seller.level.id");
-		assertListColumnCount(2);
+		assertListColumnCount(2); 
 		assertLabelInList(0, "Id"); 
 		assertLabelInList(1, "Description");
 		assertValueInList(0, 0, "A");

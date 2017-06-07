@@ -791,7 +791,7 @@ public class ModuleTestBase extends TestCase {
 		}
 		else {
 			if (isReferenceActionWithObsoleteStyle(action, arguments)) {		
-				log.warn(XavaResources.getString("keyProperty_obsolete_style"));
+				log.warn(XavaResources.getString("keyProperty_obsolete_style")); 
 				execute(action, refineArgumentsForReferenceActionWithObsoleteStyle(arguments));
 				return;
 			}
@@ -839,16 +839,16 @@ public class ModuleTestBase extends TestCase {
 		}
 	}
 
-	private String refineArgumentsForReferenceActionWithObsoleteStyle(String arguments) {
+	private String refineArgumentsForReferenceActionWithObsoleteStyle(String arguments) { 
 		int idx1 = arguments.indexOf("keyProperty=xava.");
 		int idx2 = arguments.indexOf(".", idx1 + 17);		
 		return arguments.substring(0, idx1 + 12) + arguments.substring(idx2 + 1);
 	}
-
-	private boolean isReferenceActionWithObsoleteStyle(String action, String arguments) { 
+	
+	private boolean isReferenceActionWithObsoleteStyle(String action, String arguments) {  
 		return action.startsWith("Reference.") && arguments.indexOf("keyProperty=xava.") >= 0;
 	}
-
+	
 	protected void executeDefaultAction() throws Exception {
  		HtmlButton button = getForm().getButtonByName("xava.DEFAULT_ACTION");
  		page = (HtmlPage) button.click();

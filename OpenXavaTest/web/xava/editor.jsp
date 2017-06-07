@@ -65,15 +65,17 @@ if (labelFormat == MetaPropertyView.SMALL_LABEL) {
 <xava:editor property="<%=p.getName()%>" editable="<%=editable%>" throwPropertyChanged="<%=throwPropertyChanged%>"/>
 </span>
 
-<span id="<xava:id name='<%="property_actions_" + view.getPropertyPrefix() + p.getName()%>'/>">
-<% if (view.propertyHasActions(p)) { %>
-<jsp:include page="propertyActions.jsp">
-	<jsp:param name="propertyName" value="<%=p.getName()%>"/>
-	<jsp:param name="lastSearchKey" value="<%=lastSearchKey%>"/>
-	<jsp:param name="editable" value="<%=editable%>"/>
-</jsp:include>
-<% } %>
-</span>
+<% if (!(lastSearchKey && view.displayWithFrame())) { %> 
+	<span id="<xava:id name='<%="property_actions_" + view.getPropertyPrefix() + p.getName()%>'/>">
+		<% if (view.propertyHasActions(p)) { %>
+			<jsp:include page="propertyActions.jsp">
+				<jsp:param name="propertyName" value="<%=p.getName()%>"/>
+				<jsp:param name="lastSearchKey" value="<%=lastSearchKey%>"/>
+				<jsp:param name="editable" value="<%=editable%>"/>
+			</jsp:include>
+		<% } %>
+	</span>
+<% } %> 
 
 <% if (!hasFrame) { %>
 <%@ include file="propertyActionsExt.jsp"%> 

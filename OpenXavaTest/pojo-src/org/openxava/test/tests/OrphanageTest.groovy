@@ -7,6 +7,7 @@ import org.openxava.test.model.*;
 import org.openxava.util.*;
 
 /**
+ * 
  * @author Javier Paniza
  */
 
