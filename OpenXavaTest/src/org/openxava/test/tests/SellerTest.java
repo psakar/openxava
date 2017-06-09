@@ -269,12 +269,12 @@ public class SellerTest extends CustomizeListTestBase {
 		assertValueInCollection("customers", 1, "number", "1");
 	}
 	
-	public void testCustomizeListSupportsRecursiveReferences() throws Exception {
+	public void testCustomizeListSupportsRecursiveReferences() throws Exception { 
 		execute("List.addColumns");
 		assertAction("AddColumns.addColumns");
 	}
 	
-	public void testOnChangeListDescriptionReferenceWithStringSingleKey_justCreatedObjectPresentWhenNavigating() throws Exception {
+	public void testOnChangeListDescriptionReferenceWithStringSingleKey_justCreatedObjectPresentWhenNavigating() throws Exception { 
 		assertListRowCount(3); 
 		assertOnChangeListDescriptionReferenceWithStringSingleKey();
 		assertJustCreatedObjectPresentWhenNavigating();

@@ -223,7 +223,8 @@ openxava.selectRows = function(application, module, selectedRows) {
 }
 
 openxava.setStrokeActions = function(strokeActions) { 
-	openxava.strokeActions = strokeActions;
+	if (strokeActions == null) window.location.reload(); 
+	else openxava.strokeActions = strokeActions;
 }
 
 openxava.propertiesUsedInCalculationsChange = function(result) { 

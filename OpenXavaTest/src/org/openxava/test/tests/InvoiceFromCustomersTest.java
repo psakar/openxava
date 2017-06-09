@@ -22,8 +22,13 @@ public class InvoiceFromCustomersTest extends ModuleTestBase {
 		super(testName, "InvoiceFromCustomers");		
 	}
 	
-	public void testGenerateExcelInASecondModule() throws Exception{
+	public void testGenerateExcelInASecondModule_baseConditionAndDefaultOrderExcludedFromListConfigurationName() throws Exception{ 
 		execute("Invoice.listOfCustomer", "row=0");
+		assertListSelectedConfiguration("All");  
+		setConditionValues("2011");
+		execute("List.filter");
+		assertListSelectedConfiguration("Year = 2011");
+		assertListRowCount(1);
 		execute("Print.generateExcel");
 		assertAction("Print.generateExcel");
 	}

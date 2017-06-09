@@ -126,20 +126,20 @@ public class ApplicantTest extends ModuleTestBase {
 
 	private void assertListCustomizationWithTabDefaultOrder() throws Exception { 
 		assertListColumnCount(1);
-		assertListAllConfigurations("Ordered by name");
+		assertListAllConfigurations("All"); 
 		execute("List.addColumns");
 		checkRow("selectedProperties", "skill.description"); 
 		execute("AddColumns.addColumns");
 		assertListColumnCount(2);
-		assertListAllConfigurations("Ordered by name");
+		assertListAllConfigurations("All"); 
 		
 		resetModule();
 		assertListColumnCount(2);
-		assertListAllConfigurations("Ordered by name");
+		assertListAllConfigurations("All");  
 		execute("List.addColumns");
 		execute("AddColumns.restoreDefault");
 		assertListColumnCount(1);
-		assertListAllConfigurations("Ordered by name");
+		assertListAllConfigurations("All"); 
 	}
 	
 	protected String getModuleURL() { 

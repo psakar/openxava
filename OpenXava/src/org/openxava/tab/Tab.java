@@ -58,7 +58,8 @@ public class Tab implements java.io.Serializable {
 		private String translateCondition(String condition) {
 			// IF YOU CHANGE THIS CODE TEST IT WITH ignoreAccentsForStringArgumentsInConditions true and false
 			try { 
-				if (Is.empty(condition)) return Labels.get("all"); 
+				condition = removeBaseConditionAndDefaultOrder(condition); 
+				if (Is.empty(condition) || condition.trim().equals("1=1")) return Labels.get("all"); 
 				String result = condition + " ";
 				if (conditionValues != null) {
 					result = result.replaceAll("\\([\\?,*]+\\)", "(?)"); // Groups: (?,?,?) --> (?)
@@ -141,6 +142,19 @@ public class Tab implements java.io.Serializable {
 			}
 		}
 				
+		private String removeBaseConditionAndDefaultOrder(String condition) { 
+			if (condition == null) return null;
+			if (getBaseCondition() != null) {
+				if (condition.startsWith(getBaseCondition())) condition = condition.substring(getBaseCondition().length());
+				if (condition.startsWith(" and ")) condition = condition.substring(5);
+			}
+			if (!Is.emptyString(getMetaTab().getDefaultOrder())) {
+				int idx = condition.indexOf(" order by " + getMetaTab().getDefaultOrder());
+				if (idx >= 0) condition = condition.substring(0, idx);					
+			}
+			return condition;
+		}
+
 		private List<MetaProperty> getMetaPropertiesNotCalculated() { 
 			if (metaPropertiesNotCalculated == null) {
 				metaPropertiesNotCalculated = new ArrayList<MetaProperty>();
