@@ -87,6 +87,11 @@
 		<extends controller="Typical"/>		
 		<action name="showCreate" mode="detail" 
 			class="org.openxava.test.actions.ShowCreateAction"/>
+		<action name="saveNotRefresh" mode="detail"
+			class="org.openxava.actions.SaveAction">			
+			<set property="resetAfter" value="false"/>
+			<set property="refreshAfter" value="false"/>
+		</action>
 	</controller>			
 	
 	<controller name="JPACRUD">	

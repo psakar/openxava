@@ -18,6 +18,11 @@ public class Applicant extends Identifiable {
 	
 	@ManyToOne(fetch=FetchType.LAZY)
 	private Skill skill;
+	
+	@PrePersist
+	private void prePersist() { 
+		name = name + " CREATED";
+	}
 
 	public String getName() {
 		return name;

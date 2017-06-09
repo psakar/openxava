@@ -44,7 +44,7 @@ public class ApplicantTest extends ModuleTestBase {
 		assertNoErrors();
 		execute("Mode.list");
 		assertListRowCount(2);
-		assertValueInList(1, 0, "JUNIT APPLICANT"); 
+		assertValueInList(1, 0, "JUNIT APPLICANT CREATED"); // The CREATED is for a @PrePersist needed for the test testPolymorphicReferenceFromBaseClass_savingTwiceWithNoRefreshAfterAndHiddenKey()
 		execute("CRUD.deleteRow", "row=1");
 		assertListRowCount(1);
 	}
@@ -104,13 +104,28 @@ public class ApplicantTest extends ModuleTestBase {
 		assertEquals(expectedDescription, moduleDescription.asText());
 	}
 
-	public void testPolymorphicReferenceFromBaseClass() throws Exception { 
+	public void testPolymorphicReferenceFromBaseClass_savingTwiceWithNoRefreshAfterAndHiddenKey() throws Exception { 
+		// Polymorphic reference from base class
 		execute("Mode.detailAndFirst");
 		assertNoErrors();
 		assertValue("name", "JUANILLO"); 
 		assertValue("skill.description", "PROGRAMMING");
 		assertValue("skill.language", "JAVA");
 		assertValue("platform", "MULTIPLATFORM");		 
+		
+		// Saving twice with no refresh after and hidden key
+		execute("CRUD.new");
+		setValue("name", "PEPITO");
+		execute("Applicant.saveNotRefresh");
+		assertNoErrors();
+		assertMessage("Applicant created successfully");
+		assertValue("name", "PEPITO"); // Without CREATED suffix, so not refresh
+		execute("Applicant.saveNotRefresh");
+		assertNoErrors();
+		assertMessage("Applicant modified successfully");
+		assertValue("name", "PEPITO");	
+		execute("CRUD.delete");
+		assertNoErrors();		
 	}
 	
 	public void testHtmlHeadNotDuplicated() throws Exception {

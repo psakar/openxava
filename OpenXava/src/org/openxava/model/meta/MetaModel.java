@@ -1869,6 +1869,17 @@ abstract public class MetaModel extends MetaElement {
 	public boolean hasVersionProperty() throws XavaException { 
 		return getVersionPropertyName() != null;
 	}
+	
+	/**
+	 * 
+	 * @sincd 5.7.1
+	 */
+	public boolean hasHiddenKey() { 
+		for (MetaProperty p: getMetaPropertiesKey()) {
+			if (p.isHidden()) return true;
+		}
+		return false;
+	}
 
 
 	public static boolean someModelHasDefaultCalculatorOnCreate() {		

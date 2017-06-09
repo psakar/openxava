@@ -23,15 +23,20 @@ public class SaveAction extends TabBaseAction {
 			Map values = null;			
 			if (getView().isKeyEditable()) {
 				// Create			
-				if (isResetAfter() || !isRefreshAfter()) {
+				if (isResetAfter() || (!isRefreshAfter() && !getView().getMetaModel().hasHiddenKey())) { 
 					MapFacade.create(getModelName(), getValuesToSave());
 					addMessage("entity_created", getModelName());
 				}
 				else {								
 					Map keyValues = MapFacade.createReturningKey(getModelName(), getValuesToSave());					
 					addMessage("entity_created", getModelName());
-					getView().clear(); 
-					values = MapFacade.getValues(getModelName(), keyValues, getView().getMembersNamesWithHidden());
+					if (isRefreshAfter()) {  
+						getView().clear(); 
+						values = MapFacade.getValues(getModelName(), keyValues, getView().getMembersNamesWithHidden());
+					}
+					else {
+						getView().addValues(keyValues);
+					}
 				}
 				getTab().reset(); 
 			}

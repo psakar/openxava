@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Saving with resetAfter=false and refreshAfter=false fails on creating with hidden key when saving a second time.  
 - Fix: Base condition and default order is shown in query name making it large and cumbersome.
 - Reference actions are shown in the reference frame, instead of next to the key field.
 - Fix: Impossible to search a reference if its view has no at least a plain field.
