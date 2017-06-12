@@ -12,7 +12,7 @@ public class CustomerSomeMembersReadOnlyTest extends ModuleTestBase {
 		super(testName, "CustomerSomeMembersReadOnly");
 	}
 	
-	public void testReadOnly() throws Exception {
+	public void testReadOnly() throws Exception { 
 		execute("CRUD.new");
 		assertEditable("type");
 		assertNoEditable("name");
@@ -20,7 +20,7 @@ public class CustomerSomeMembersReadOnlyTest extends ModuleTestBase {
 		assertNoEditable("alternateSeller");
 	}
 	
-	public void test2LevelsReferenceInDescriptionsList() throws Exception {
+	public void test2LevelsReferenceInDescriptionsList() throws Exception { 
 		execute("Mode.detailAndFirst");
 		assertValue("number", "1");
 		assertDescriptionValue("alternateSeller.number", "MANAGER JUANVI LLAVADOR");

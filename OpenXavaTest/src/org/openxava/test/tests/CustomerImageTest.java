@@ -1,5 +1,7 @@
 package org.openxava.test.tests;
 
+import com.gargoylesoftware.htmlunit.html.*;
+
 /**
  * 
  * @author Javier Paniza

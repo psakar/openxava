@@ -13,7 +13,7 @@ public class CustomerOnlyCardListTest extends ModuleTestBase {
 		super(testName, "CustomerOnlyCardList");				
 	}
 
-	public void testCustomEditorsForTabWithOneEditorNotShowFormatButton() throws Exception {		
+	public void testCustomEditorsForTabWithOneEditorNotShowFormatButton() throws Exception { 	
 		assertTrue(getHtml().contains("Gonzalo Gonzalez(43)"));
 		
 		assertNoAction("ListFormat.select", "editor=Charts"); 

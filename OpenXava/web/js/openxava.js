@@ -622,7 +622,10 @@ openxava.executeAction = function(application, module, confirmMessage, takesLong
 	form[openxava.decorateId(application, module, "xava_action_range")].value=range;
 	form[openxava.decorateId(application, module, "xava_action_already_processed")].value=alreadyProcessed + "_";
 	if (openxava.isSubmitNeeded(form)) { 
-		form.submit();
+		if (!openxava.submitting) {  
+			openxava.submitting = true;  
+			form.submit(); 
+		} 
 	} 
 	else {					
 		openxava.ajaxRequest(application, module);

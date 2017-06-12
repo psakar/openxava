@@ -223,7 +223,7 @@ public class DeliveryTest extends ModuleTestBase {
 		setValue("year", "2002");
 		setValue("number", "1");
 		execute("Reference.search", "keyProperty=customer.number");		
-		execute("ReferenceSearch.choose", "row=1");
+		execute("ReferenceSearch.choose", "row=1"); 
 		assertValue("customer.name", "Juanillo"); 
 		setValue("customer.number", "1");
 		assertValue("customer.name", "Javi"); 

@@ -19,7 +19,7 @@ public class VehicleTest extends ModuleTestBase {
 	 * This test does not work with XML components:
 	 * https://sourceforge.net/tracker/?func=detail&aid=3504256&group_id=123187&atid=695743
 	 */
-	public void testStateAndCity() throws Exception{
+	public void testStateAndCity() throws Exception { 
 		assertListNotEmpty();
 		execute("List.viewDetail", "row=0");
 		setValue("state.id", "AZ");
