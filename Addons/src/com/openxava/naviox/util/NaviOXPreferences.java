@@ -90,6 +90,18 @@ public class NaviOXPreferences {
 		return getProperties().getProperty("createSchema." + database, getCreateSchema()).trim();
 	}
 	
+	private String getDropSchema() { 
+		return getProperties().getProperty("dropSchema", "DROP SCHEMA ${schema} CASCADE").trim();
+	}
+	
+	/**
+	 * @since 5.7.1
+	 */
+	public String getDropSchema(String database) { 
+		return getProperties().getProperty("dropSchema." + database, getDropSchema()).trim();
+	}
+
+	
 	/**
 	 * @since 5.6
 	 */
