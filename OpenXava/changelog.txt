@@ -1,12 +1,14 @@
 Change Log for OpenXava project
 ===============================
 
+OpenXava 5.7.1 (2017-6-13)
+--------------------------
+- Reference actions are shown in the reference frame, instead of next to the key field.
+- New method resetEntityManagerFactory() in XPersistence.
+- Fix: Base condition and default order is shown in query name making it large and cumbersome.
 - Fix: Double click in an upload file action executes the action twice producing error.
 - Fix: Saving with resetAfter=false and refreshAfter=false fails on creating with hidden key when saving a second time.  
-- Fix: Base condition and default order is shown in query name making it large and cumbersome.
-- Reference actions are shown in the reference frame, instead of next to the key field.
 - Fix: Impossible to search a reference if its view has no at least a plain field.
-- New method resetEntityManagerFactory() in XPersistence.
 - Fix: SchemaTool does not work with PostgreSQL when we use @Index in @Table.
 - Fix: When scrolling in a touch screen @OrderColumn rows move inadvertently.
 - Fix: Impossible to select text in @OrderColumn collections.
