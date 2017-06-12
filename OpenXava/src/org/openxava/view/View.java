@@ -312,7 +312,7 @@ public class View implements java.io.Serializable {
 	private void polish() { 
 		if (polisher == null) return;
 		if (polished) return;
-		if (!isFirstLevel()) return;
+		if (!isFirstLevel() && !(isGroup() || isSection())) return;
 		try {
 			XObjects.execute(polisher, "refine", MetaModule.class, getModuleManager(getRequest()).getMetaModule(),
 				Collection.class, getMetaMembers(), View.class, this);
@@ -321,7 +321,23 @@ public class View implements java.io.Serializable {
 		catch (Exception ex) {
 			log.error(XavaResources.getString("refining_members_error"), ex); 
 			metaMembers.clear(); 
-		}				
+		}		
+
+		if (hasGroups()) {
+			Iterator itSubviews = getGroupsViews().values().iterator();
+			while (itSubviews.hasNext()) {
+				View subview = (View) itSubviews.next();
+				subview.polish();
+			}
+		}		
+					
+		if (hasSections()) {
+			int count = getSections().size();
+			for (int i = 0; i < count; i++) {
+				getSectionView(i).polish();
+			}	
+		}
+
 	}
 
 	public void setMetaMembers(Collection metaMembers) {			

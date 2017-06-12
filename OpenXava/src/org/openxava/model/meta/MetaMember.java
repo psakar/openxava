@@ -35,7 +35,7 @@ abstract public class MetaMember extends MetaElement implements Comparable {
 	public int compareTo(Object o) { 	
 		return getName().compareTo(((MetaMember) o).getName());
 	}
-
+	
 	public MetaModel getMetaModel() {		
 		return metaModel;
 	}

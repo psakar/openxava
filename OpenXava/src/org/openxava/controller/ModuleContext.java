@@ -246,7 +246,7 @@ public class ModuleContext implements java.io.Serializable {
 			}
 			request.setAttribute("xava.new.window.id", windowId);	
 		}
-		windowIdForNextTime = null; 
+		windowIdForNextTime = null;
 		return windowId;
 	}
 	
