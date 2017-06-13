@@ -179,8 +179,14 @@ openxava.initUI = function(application, module, currentRow, viewSimple) {
 	}
 	openxava.initSelectedRows();
 	openxava.initCurrentRow(application, module, currentRow);
-	if (viewSimple) $('#' + openxava.decorateId(application, module, 'view')).addClass("ox-simple-layout");
-	else $('#' + openxava.decorateId(application, module, 'view')).removeClass("ox-simple-layout");
+	openxava.initViewSimple(application, module, viewSimple); 
+}
+
+openxava.initViewSimple = function(application, module, viewSimple) { 
+	if (typeof viewSimple != "undefined") {
+		if (viewSimple) $('#' + openxava.decorateId(application, module, 'view')).addClass("ox-simple-layout");
+		else $('#' + openxava.decorateId(application, module, 'view')).removeClass("ox-simple-layout");
+	}	
 }
 
 openxava.initStrokeActions = function(application, module) { 
@@ -217,7 +223,8 @@ openxava.selectRows = function(application, module, selectedRows) {
 }
 
 openxava.setStrokeActions = function(strokeActions) { 
-	openxava.strokeActions = strokeActions;
+	if (strokeActions == null) window.location.reload(); 
+	else openxava.strokeActions = strokeActions;
 }
 
 openxava.propertiesUsedInCalculationsChange = function(result) { 
@@ -350,7 +357,8 @@ openxava.initLists = function(application, module) {
 	    }
 	});
 	$('.xava_sortable_row').sortable({ 
-		items: '>:gt(0)', 
+		items: '>:gt(0)',
+		handle: ".xava_handle", 
 	    start: function( event, ui ) {	    	
 	    	ui.item.startPos = ui.item.index(); 
 	    },		
@@ -614,7 +622,10 @@ openxava.executeAction = function(application, module, confirmMessage, takesLong
 	form[openxava.decorateId(application, module, "xava_action_range")].value=range;
 	form[openxava.decorateId(application, module, "xava_action_already_processed")].value=alreadyProcessed + "_";
 	if (openxava.isSubmitNeeded(form)) { 
-		form.submit();
+		if (!openxava.submitting) {  
+			openxava.submitting = true;  
+			form.submit(); 
+		} 
 	} 
 	else {					
 		openxava.ajaxRequest(application, module);

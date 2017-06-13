@@ -64,6 +64,13 @@
 		 <members>number; name; level</members>
 	</view>
 	
+	<view name="SimpleLevelFirst">
+		<reference-view reference="level">
+			<descriptions-list/>
+		</reference-view>
+		 <members>level; number; name</members>
+	</view>
+	
 	<view name="SimpleNoNumber">
 		<reference-view reference="level">
 			<descriptions-list/>

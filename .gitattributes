@@ -1786,6 +1786,7 @@ InvoiceDemo/web/xava/reference.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/referenceActions.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/referenceActionsExt.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/referenceEditorIcons.jsp -text svneol=unset#text/plain
+InvoiceDemo/web/xava/referenceFrameHeader.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/referenceFrameHeaderExt.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/referenceSearch.jsp -text svneol=unset#text/plain
 InvoiceDemo/web/xava/sections.jsp -text svneol=unset#text/plain
@@ -4900,6 +4901,7 @@ MySchool/web/xava/reference.jsp -text svneol=unset#text/plain
 MySchool/web/xava/referenceActions.jsp -text svneol=unset#text/plain
 MySchool/web/xava/referenceActionsExt.jsp -text svneol=unset#text/plain
 MySchool/web/xava/referenceEditorIcons.jsp -text svneol=unset#text/plain
+MySchool/web/xava/referenceFrameHeader.jsp -text svneol=unset#text/plain
 MySchool/web/xava/referenceFrameHeaderExt.jsp -text svneol=unset#text/plain
 MySchool/web/xava/referenceSearch.jsp -text svneol=unset#text/plain
 MySchool/web/xava/sections.jsp -text svneol=unset#text/plain
@@ -10804,7 +10806,6 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/ShowGoCustomerInvoicesDialogActi
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowQuoteProducsAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowSelectedAuthorsAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowSellerAction.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/actions/ShowSellerDialogAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/TranslateCarrierNameAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ViewNameFellowCarriersSelectedAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ViewNamesOrRolesNamesFromTeamMember.java -text svneol=unset#text/plain
@@ -11340,6 +11341,7 @@ OpenXavaTest/src/org/openxava/test/actions/ShowMessageAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ShowProductListAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ShowPropertyValueAction.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/actions/ShowSaveDeleteAction.java -text
+OpenXavaTest/src/org/openxava/test/actions/ShowSellerDialogAction.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/actions/StateHibernateDeleteAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/StateHibernateSaveAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/StateHibernateSearchAction.java -text

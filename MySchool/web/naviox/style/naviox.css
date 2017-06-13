@@ -558,6 +558,11 @@ i {
 	padding: 4px;
 }
 
+.ox-frame-title .ox-image-link i {
+	margin-top: -8px;
+	margin-bottom: -8px;
+}
+
 .ox-frame-actions i {
 	font-size: 200%;
 	padding: 0;
@@ -838,10 +843,10 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 	text-align: left;
 }
 
-.ox-list-header .mdi-close-circle {
+.ox-resize-columns .ox-list-header .mdi-close-circle {
 	position: absolute;
-	right: 0px;
-	padding-right: 10px;
+	right: 0px; 	
+	padding-right: 10px; 
 	background: white;
 	background:linear-gradient(to left, white, white, white, transparent);
 }
@@ -950,12 +955,18 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 }
 
 .ox-detail.ox-flow-layout, .ox-active-section > .ox-flow-layout { 
-	width: calc(100vw - 15px);
+	width: calc(100vw - 33px); 
 	margin-top: -3px; 
+	overflow-x: hidden; 
 }
 
-.ox-flow-layout .ox-frame {
+.ui-dialog .ox-detail.ox-flow-layout, .ui-dialog .ox-active-section > .ox-flow-layout { 
+	width: 90vw;
+}
+
+.ox-flow-layout .ox-frame { 
 	margin-left: 11px;
+	
 }
 
 #sign_in_box .ox-detail { 
@@ -1034,10 +1045,15 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 .ox-section { 
 	padding: 0px 10px 0px 17px; 
 	height: 30px; 
-	margin: 0px -13px 10px -11px; 
+	margin: 0px -10px 10px -11px;  
 	box-shadow: 0px 3px 4px #CCCCCC;  
 	-moz-box-shadow: 0px 3px 4px #CCCCCC; 
 	-webkit-box-shadow: 0px 3px 4px #CCCCCC;
+}
+
+.ox-flow-layout .ox-section {
+	margin-left: 0px;
+	margin-right: -20px;
 }
 
 .ox-section-tab {	
@@ -1093,12 +1109,12 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 }
 
 .ui-dialog .ox-bottom-buttons {
-	margin-right: 0px;
 	margin-left: 1px; /* To adjust list and collections width */
 }
 
 .ui-dialog .ox-view {
 	overflow-x: hidden; /* To avoid scrollbar in list inside dialog  */
+	padding-right: 7px; 
 }
 
 .ui-dialog .ox-view { 	
@@ -1601,7 +1617,7 @@ a.cke_button_disabled:hover, a.cke_button_disabled:focus, a.cke_button_disabled:
 }
 
 .ox-cards {
-	width: 100vw; 
+	width: calc(100vw - 20px); 
 	display: inline-flex;
 	flex-wrap: wrap;
 	padding: 0px 5px 3px 5px;

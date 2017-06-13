@@ -33,7 +33,7 @@
 	min-width: 340px;
 }
 
-.ox-simple-layout > div {
+.ox-simple-layout.ox-flow-layout > div { 
 	min-width: 100%;
 }
 

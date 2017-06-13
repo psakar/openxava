@@ -326,7 +326,7 @@ public class SellerTest extends CustomizeListTestBase {
 	public void testOpenFirstDescriptionsListInADialogWithOnChangeNotThrowEvent() throws Exception { 
 		execute("ShowSellerDialog.showSellerDialog");
 		assertNoMessages();
-		HtmlElement editor = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Seller__reference_editor_level");
+		HtmlElement editor = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Seller__reference_editor_level"); 
 		HtmlElement handler = editor.getElementsByTagName("i").get(0);
 		handler.click();
 		waitAJAX();
