@@ -1,6 +1,32 @@
 Change Log for OpenXava project
 ===============================
 
+OpenXava 5.7.1 (2017-6-13)
+--------------------------
+- Reference actions are shown in the reference frame, instead of next to the key field.
+- New method resetEntityManagerFactory() in XPersistence.
+- Fix: Base condition and default order is shown in query name making it large and cumbersome.
+- Fix: Double click in an upload file action executes the action twice producing error.
+- Fix: Saving with resetAfter=false and refreshAfter=false fails on creating with hidden key when saving a second time.  
+- Fix: Impossible to search a reference if its view has no at least a plain field.
+- Fix: SchemaTool does not work with PostgreSQL when we use @Index in @Table.
+- Fix: When scrolling in a touch screen @OrderColumn rows move inadvertently.
+- Fix: Impossible to select text in @OrderColumn collections.
+- Fix: Mode tabs too close to right when cards list format is used.
+- Fix: Horizontal scrollbar with flow layout.
+- Fix: Horizontal scrollbar with cards list format.
+- Fix: Frames truncated in dialog with flow layout.
+- Fix: Queries names in list have some incorrect ) when ignoreAccentsForStringArgumentsInConditions=false.
+- Fix: Opening the first combo in a dialog with a @OnChange throws the onchange event closing the combo on click. 
+- Fix: Images gallery shows the content of the HTML_TEXT stereotype if the property is called "description".
+- Fix: The reference to parent is shown creating a new element from an entity collection without @CollectionView/@View.
+- Fix: If the list has many columns without column resizing the icons for edit and delete are one below other.
+- Fix: In lists with many columns the detail/list/both links are outside of viewport without column resizing.
+- Fix: Impossible to remove columns in list without column resizing, the x is missing.
+- Fix: Comparator combo and filter value textfield do not fit all the available space without column resizing.
+- Fix: Flow layout does not select correct format (vertical or left to right) on first page load.
+- Fix: Textfields too separated from label in views with few fields.
+
 OpenXava 5.7 (2017-5-16)
 ------------------------
 - It's possible to go directly to the detail of an entity with ?detail=entityId in the module URL.
@@ -50,7 +76,6 @@ OpenXava 5.7 (2017-5-16)
 - Fix: SchemaTool fails with entities with @Table(schema=).
 - Fix: "Yes" is shown besides the check symbol in list for boolean values with column resizing disable. 
 - Fix: Error "Action ... not available" on refresh after session lost.
-- Fix: Permanlink does not work if the user is not already logged. 
 - Fix: List customization not saved in some cases.
 - Fix: ModuleTestBase.assertDiscussionCommentText() only works for row 0.
 
