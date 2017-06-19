@@ -17,7 +17,10 @@ abstract public class MetaMember extends MetaElement implements Comparable {
 	private String label;
 	
 	public String getLabel(Locale locale) {
-		return Is.emptyString(label) || Labels.exists(getLabelId(), locale)?super.getLabel(locale):label;
+		if (Is.emptyString(label)) return super.getLabel(locale);
+		String labelId = Strings.naturalLabelToIdentifier(label);
+		if (Labels.exists(labelId, locale)) return super.getLabel(locale, labelId);
+		return label;
 	}
 		
 	public void setLabel(String newLabel) {

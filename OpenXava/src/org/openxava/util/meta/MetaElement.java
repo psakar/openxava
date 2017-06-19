@@ -54,7 +54,8 @@ abstract public class MetaElement implements java.io.Serializable {
 	protected String getLabel(Locale locale, String id) {
 		if (id == null) return "";
 		if (Is.emptyString(label)) label = Strings.javaIdentifierToNaturalLabel(getName());	
-		return Labels.get(id, locale, label).trim();	
+		String result = Labels.get(id, locale, label).trim();
+		return result;
 	}
 	
 		

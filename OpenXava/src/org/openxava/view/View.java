@@ -4709,7 +4709,7 @@ public class View implements java.io.Serializable {
 			int idx = p.getId().lastIndexOf('.');
 			if (idx < 0) idx = 0; 
 			String id = p.getId().substring(0, idx) + "." + getMemberName() + p.getId().substring(idx);
-			if (Labels.existsExact(id, Locales.getCurrent())) {								
+			if (Labels.existsExact(id, Locales.getCurrent())) {
 				return Labels.get(id, Locales.getCurrent());
 			}
 			id = getMemberName() + p.getId().substring(idx);
