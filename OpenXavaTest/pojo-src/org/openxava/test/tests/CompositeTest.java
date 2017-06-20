@@ -12,9 +12,7 @@ public class CompositeTest extends ModuleTestBase {
 		super(testName, "Composite");		
 	}
 	
-	public void testSelfReferenceCollectionWithCascadeRemove() throws Exception { 
-		assertListRowCount(0); 
-		execute("CRUD.new");
+	public void testSelfReferenceCollectionWithCascadeRemove() throws Exception {
 		setValue("name", "SER VIVO"); 
 		assertNoErrors();
 		assertCollectionRowCount("children", 0);

@@ -108,7 +108,7 @@ public class TransportChargeTest extends TransportChargeTestBase {
 	public void testKeyNestedReferencesInList() throws Exception {
 		deleteAll();
 		createSome();
-		execute("List.filter"); // For refresh
+		resetModule(); 
 		execute("List.orderBy", "property=amount");
 		
 		assertListRowCount(2);

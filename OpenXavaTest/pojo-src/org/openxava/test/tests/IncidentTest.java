@@ -22,6 +22,7 @@ public class IncidentTest extends ModuleTestBase {
 	public void testDiscussionEditor_defaultPropertiesForListWithoutTab() throws Exception { 
 		getWebClient().getOptions().setCssEnabled(true);
 		
+		execute("Mode.list"); 
 		assertDefaultPropertiesForListWithoutTab(); 
 		
 		assertListRowCount(0); 

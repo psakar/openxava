@@ -15,8 +15,9 @@ public class WorkInvoiceTest extends ModuleTestBase {
 		super(testName, "WorkInvoice");		
 	}
 	
-	public void testCalculation() throws Exception { 
-		assertCalculation(".", ",");
+	public void testCalculation() throws Exception {
+		execute("Mode.list"); 
+		assertCalculation(".", ","); 
 		setLocale("es");
 		execute("Mode.list");
 		assertCalculation(",", ".");

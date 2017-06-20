@@ -30,7 +30,7 @@ public class Invoice2002Test extends CustomizeListTestBase {
 	}
 	
 	public void testGeneratePdfWithFilter() throws Exception {
-		execute("Print.generatePdf");		
+		execute("Print.generatePdf"); 		
 		assertContentTypeForPopup("application/pdf"); 		
 	}
 	
@@ -40,13 +40,13 @@ public class Invoice2002Test extends CustomizeListTestBase {
 	}	
 	
 	public void testChangeTabTitle() throws Exception {
-		assertListTitle("Invoices report of year 2,002");
+		assertListTitle("Invoices report of year 2,002"); 
 		execute("Invoice2002.changeListTitle");
 		assertListTitle("The little invoices of 2002");
 	}
 	
 	public void testCustomizeListWithFilterAndBaseCondition() throws Exception {
-		assertValueInList(0, 0, "2002");
+		assertValueInList(0, 0, "2002"); 
 		moveColumn(0, 1); 
 		assertValueInList(0, 1, "2002"); 	
 		execute("List.filter");
@@ -62,7 +62,7 @@ public class Invoice2002Test extends CustomizeListTestBase {
 		String [] condition = { "", "", "", "", "true"	};
 		setConditionComparators(comparators);
 		setConditionValues(condition); 
-		execute("List.filter");
+		execute("List.filter"); 
 		assertNoErrors();
 	}	
 	

@@ -803,6 +803,10 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 	-webkit-box-shadow: 0px 0px 0px red;	
 }
 
+.ox-button-bar a[id*="delete"]:hover i {
+  color: red;
+}
+
 .ox-button-bar-mode-button {
 	position: relative;
 	top: -4px; 

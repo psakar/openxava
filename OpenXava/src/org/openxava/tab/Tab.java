@@ -766,6 +766,8 @@ public class Tab implements java.io.Serializable {
 			firstCondition = false;			
 		}		
 		
+		setFilteredConditionValues(); 
+		
 		if (!(conditionValues == null || conditionValues.length == 0)) {
 			MetaProperty pOrder = null;
 			MetaProperty pOrder2 = null;

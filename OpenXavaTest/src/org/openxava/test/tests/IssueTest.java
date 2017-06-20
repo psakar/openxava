@@ -16,7 +16,7 @@ public class IssueTest extends IssueTestBase {
 
 	public void testCollectionWithConditionAndChangedSchema() throws Exception{
 		// Company A
-		assertValueInList(0, 0, "A0001");
+		assertValueInList(0, 0, "A0001"); 
 		execute("List.viewDetail", "row=0");
 		assertCollectionRowCount("comments", 1); 
 		assertCollectionRowCount("commentsWithCondition", 1);

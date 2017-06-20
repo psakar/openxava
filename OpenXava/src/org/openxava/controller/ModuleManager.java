@@ -294,11 +294,11 @@ public class ModuleManager implements java.io.Serializable {
 			try {
 				Iterator it = getMetaControllers().iterator();
 				metaActionsOnInit = new ArrayList();
-				metaActionsOnInit.addAll(getMetaControllerMode().getMetaActionsOnInit());
 				while (it.hasNext()) {
 					MetaController contr = (MetaController) it.next();
 					metaActionsOnInit.addAll(contr.getMetaActionsOnInit());
 				}
+				metaActionsOnInit.addAll(getMetaControllerMode().getMetaActionsOnInit()); 
 			} catch (Exception ex) {
 				log.error(
 						XavaResources.getString("controller_init_action_error"),
@@ -308,7 +308,7 @@ public class ModuleManager implements java.io.Serializable {
 		}
 		return metaActionsOnInit;
 	}
-
+	
 	public Collection getMetaActionsMode() {
 		try {
 			return getMetaControllerMode().getAllNotHiddenMetaActions();
@@ -1421,8 +1421,7 @@ public class ModuleManager implements java.io.Serializable {
 		reloadViewNeeded = false;
 	}
 
-	public void initModule(HttpServletRequest request, Messages errors,
-			Messages messages) {
+	public void initModule(HttpServletRequest request, Messages errors,	Messages messages) {
 		if (!Is.equal(Users.getCurrent(), user)) {
 			user = Users.getCurrent();
 			moduleInitiated = false;
@@ -1445,7 +1444,7 @@ public class ModuleManager implements java.io.Serializable {
 			reloadAllUINeeded = false;
 		}		
 	}
-
+	
 	private Set<String> toQualifiedNames(Collection<MetaAction> ... metaActions) { 
 		Set<String> result = new HashSet<String>();
 		for (Collection<MetaAction> metaActionsGroup: metaActions) {
@@ -1575,7 +1574,7 @@ public class ModuleManager implements java.io.Serializable {
 			executeAction(a, errors, messages, request);
 		}
 	}
-
+	
 	private Collection getMetaActionsOnEachRequest() {
 		if (metaActionsOnEachRequest == null) {
 			try {

@@ -213,5 +213,5 @@ public class XmlElementsNames {
 	protected final static String [] xselectable_items = { "selectable-items", "elementos-seleccionables" }; 
 	protected final static String [] xprocess_selected_items = { "process-selected-items", "procesar-elementos-seleccionados" };
 	protected final static String [] xadd_action = { "add-action", "accion-anadir" }; 
-	protected final static String [] xcalculation = { "calculation", "calculo" }; 
+	protected final static String [] xcalculation = { "calculation", "calculo" };
 }

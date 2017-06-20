@@ -12,7 +12,7 @@ String mode = request.getParameter("xava_mode");
 if (mode == null) mode = manager.isSplitMode()?"detail":manager.getModeName(); 
 
 String defaultAction = null; 
-if (manager.isDetailMode()) { 
+if (org.openxava.util.XavaPreferences.getInstance().isShowDefaultActionInBottom() && manager.isDetailMode()) { 	
 	defaultAction = manager.getDefaultActionQualifiedName();
 %>
 <xava:button action="<%=defaultAction%>"/>

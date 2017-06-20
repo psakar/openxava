@@ -430,7 +430,7 @@ public class ColorTest extends ModuleTestBase {
 	
 	public void testActionsAndSubcontrollerInOrderByConcurrence() throws Exception{
 		String[] texts = new String[] {
-			"New", "Generate PDF", "Generate Excel", // 'normal' actions
+			"New", "Delete selected rows", "Generate PDF", "Generate Excel", // 'normal' actions 	
 			"Init", "First action from subcontroller", "Second action", "Third action",	// subcontroller actions 
 			"See message selected" // another 'normal' action
 		};
@@ -439,7 +439,7 @@ public class ColorTest extends ModuleTestBase {
 		int x = 0;
 		for (HtmlElement h : e){
 			if (h.hasAttribute("class") && h.getAttribute("class").equals("ox-button-bar-button")){
-				assertTrue(h.asText().trim().equals(texts[x]));
+				assertTrue(h.asText().trim().equals(texts[x])); 
 				x++;
 			}
 		}

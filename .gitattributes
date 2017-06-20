@@ -11105,7 +11105,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/CustomerGroupAndPropertySameRowTes
 OpenXavaTest/pojo-src/org/openxava/test/tests/CustomerMinimumTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DatesTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DealTest.groovy -text
-OpenXavaTest/pojo-src/org/openxava/test/tests/DebtTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/DebtTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/DeliveryFullInvoiceTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/DrinksFoodsByCountryTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/DrivingLicenceTest.java -text
@@ -11144,7 +11144,9 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/MotorVehicleDriver2Test.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/MotorVehicleDriverTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/MotorVehicleTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/MovieTest.java -text svneol=unset#text/plain
-OpenXavaTest/pojo-src/org/openxava/test/tests/NetMachineTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/NetMachineTest.java -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/NetMachineWithNewTest.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/tests/NetMachineWithoutNewTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/OrderIssueTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/OrphanageTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ParentTest.java -text
@@ -11255,7 +11257,7 @@ OpenXavaTest/src/org/openxava/test/actions/ChangeProductPriceAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeToButtonAOrButtonB.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/actions/ChangeToLowerCaseAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeViewAction.java -text
-OpenXavaTest/src/org/openxava/test/actions/ChangeYearConditionAction.groovy -text
+OpenXavaTest/src/org/openxava/test/actions/ChangeYearConditionAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/ChangeZoneAction.java -text
 OpenXavaTest/src/org/openxava/test/actions/CreateMyExcelAction.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/actions/CreateNewFamilyAction.java -text

@@ -4,7 +4,6 @@ import org.hibernate.envers.*;
 import org.openxava.test.model.*;
 
 /**
- *
  * @author Jeromy Altuna
  */
 public class ExamTest extends ExamBaseTest {
@@ -14,6 +13,7 @@ public class ExamTest extends ExamBaseTest {
 	}
 	
 	public void testCreateExamWithAtLeastOneQuestion() throws Exception {
+		execute("Mode.list"); 
 		assertListRowCount(0);
 		execute("CRUD.new");
 		setValue("name", "ADMISSION");
@@ -35,8 +35,6 @@ public class ExamTest extends ExamBaseTest {
 	}
 	
 	public void testRemoveElementsFromQuestioningAndLeaveAtLeastOneQuestion() throws Exception {
-		assertListRowCount(0);
-		execute("CRUD.new");
 		setValue("name", "ADMISSION");
 		execute("Collection.new", "viewObject=xava_view_questioning");
 		for (int i = 1; i <= 3; i++){
@@ -73,7 +71,6 @@ public class ExamTest extends ExamBaseTest {
 	}
 	
 	public void testAudit() throws Exception {
-		execute("CRUD.new");
 		setValue("name", "ADMISSION");
 		execute("Collection.new", "viewObject=xava_view_questioning");
 		setValue("name", "QUESTION 1");

@@ -31,7 +31,8 @@ public class OfficeTest extends ModuleTestBase {
 	
 	public void testMoreThanOneReferenceWithoutValue() throws Exception {
 		// for test sql inner join behaviour
-		deleteAllOffices();
+		execute("Mode.list"); 
+		deleteAllOffices(); 
 		// Create offices for test
 		execute("CRUD.new");
 		setValue("zoneNumber", "1"); // not key for detecting a bug that arose when this is not key 

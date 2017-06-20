@@ -399,7 +399,7 @@ public class CarrierWithSectionsTest extends ModuleTestBase {
 		execute("MyReport.editColumn", "row=1,viewObject=xava_view_columns");
 		setValue("order", "1"); // DESCENDING
 		execute("MyReport.saveColumn");
-		assertValueInCollection("columns", 1, 0, "Number");
+		assertValueInCollection("columns", 1, 0, "Number"); 
 		assertValueInCollection("columns", 1, 1, ""); 
 		assertValueInCollection("columns", 1, 2, "");
 		assertValueInCollection("columns", 1, 3, "Descending");

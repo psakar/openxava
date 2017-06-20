@@ -63,6 +63,14 @@ public class XavaPreferences {
 		return "true".equalsIgnoreCase(getProperties().getProperty(
 				"readOnlyAsLabel", "false").trim());
 	}
+	
+	/**
+	 * @since 5.8
+	 */
+	public boolean isShowDefaultActionInBottom() { 
+		return "true".equalsIgnoreCase(getProperties().getProperty(
+				"showDefaultActionInBottom", "true").trim());
+	}
 
 	public boolean isTabAsEJB() {
 		return "true".equalsIgnoreCase(getProperties().getProperty("tabAsEJB",

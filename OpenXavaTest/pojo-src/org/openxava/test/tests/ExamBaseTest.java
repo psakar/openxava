@@ -34,6 +34,7 @@ abstract public class ExamBaseTest extends ModuleTestBase {
 	public void testChangeDatasource() throws Exception {
 		// Real data source
 		setDatasource(Datasource.REAL);
+		execute("Mode.list"); 
 		assertListRowCount(0);
 		execute("CRUD.new");
 		setValue("name", "REAL");
@@ -91,6 +92,7 @@ abstract public class ExamBaseTest extends ModuleTestBase {
 	public void testFileChangingDatasource() throws Exception { 
 		// Real data source
 		setDatasource(Datasource.REAL);
+		execute("Mode.list"); 
 		assertListRowCount(0);
 		execute("CRUD.new");
 		setValue("name", "REAL");

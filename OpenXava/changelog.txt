@@ -1,6 +1,11 @@
 Change Log for OpenXava project
 ===============================
 
+- New showDefaultActionInBottom property in xava.properties to show/hide the default action on bottom.
+- Delete icon in top bar is red on hover.
+- If a module has no rows it starts in detail mode executing new action.
+- Action for deleting rows in list mode now is on top bar and it has icon.
+
 OpenXava 5.7.1 (2017-6-13)
 --------------------------
 - Reference actions are shown in the reference frame, instead of next to the key field.

@@ -9,6 +9,7 @@ import com.gargoylesoftware.htmlunit.html.*;
 
 
 /**
+ * 
  * @author Javier Paniza
  */
 
@@ -19,8 +20,6 @@ public class TrainingTest extends ModuleTestBase {
 	}
 	
 	public void testElementCollection() throws Exception { 
-		assertListRowCount(0);
-		execute("CRUD.new");
 		assertDateEditor(); 
 		setValue("description", "JUNIT TRAINING");
 		assertCollectionRowCount("sessions", 0);
@@ -129,8 +128,6 @@ public class TrainingTest extends ModuleTestBase {
 	
 	public void testRemoveRowInElementCollection() throws Exception { 
 		getWebClient().getOptions().setCssEnabled(true); 
-		assertListRowCount(0); 
-		execute("CRUD.new");		
 		setValue("description", "JUNIT TRAINING");
 		HtmlElement row = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Training__sessions___0"); 
 		HtmlElement removeLink = row.getElementsByTagName("a").get(0);

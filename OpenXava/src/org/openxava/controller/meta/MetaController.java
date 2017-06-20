@@ -218,6 +218,7 @@ public class MetaController extends MetaElement {
 		
 		return result;
 	}
+		
 	public boolean hasParents() {
 		return parentsNames != null;		 	
 	}		

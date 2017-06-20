@@ -15,8 +15,6 @@ public class SummerCourseTest extends ModuleTestBase {
 	}
 	
 	public void testRemovingAChildClassWithCompositeKey() throws Exception {
-		assertListRowCount(0);
-		execute("CRUD.new");
 		setValue("year", "2009");
 		setValue("description", "CURSO DE VERANO");
 		execute("CRUD.save");

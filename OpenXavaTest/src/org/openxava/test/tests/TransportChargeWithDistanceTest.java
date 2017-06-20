@@ -15,7 +15,7 @@ public class TransportChargeWithDistanceTest extends TransportChargeTestBase {
 	public void testValidValueInSecondLevelInList() throws Exception {
 		deleteAll();
 		createSome();
-		execute("List.filter");
+		resetModule(); 
 		assertListRowCount(2);
 	}
 	

@@ -1318,4 +1318,32 @@
 			class="org.openxava.test.actions.GoToURLAction"/>
 	</controller>
 	
+	<controller name="NetMachineWithNew">
+		<extends controller="Navigation"/>
+		<extends controller="Print"/>
+		
+		<action  name="new" 
+			class="org.openxava.actions.NewAction"
+			image="new.gif"
+			icon="library-plus"
+			keystroke="Control N">
+			<set property="restoreModel" value="true"/>			
+		</action>
+		
+	</controller>
+	
+	<controller name="NetMachineWithoutNew">
+		<extends controller="Navigation"/>
+		<extends controller="Print"/>
+		
+		<action  name="nuovo" 
+			class="org.openxava.actions.NewAction"
+			image="new.gif"
+			icon="library-plus"
+			keystroke="Control N">
+			<set property="restoreModel" value="true"/>			
+		</action>
+		
+	</controller>
+	
 </controllers>

@@ -24,6 +24,7 @@ public class UserWithNicknameTest extends ModuleTestBase {
 	}
 	
 	public void testUniqueConstraintsMessages() throws Exception {
+		execute("Mode.list"); 
 		assertListRowCount(0);
 		execute("CRUD.new");
 		setValue("name", "TIGRAN PETROSIAN");
@@ -55,8 +56,6 @@ public class UserWithNicknameTest extends ModuleTestBase {
 	}
 	
 	public void testAttachFilesFromEmbeddableClass() throws Exception {
-		assertListRowCount(0);
-		execute("CRUD.new");
 		setValue("name", "ANATOLY KARPOV");
 		setValue("nickname.nickname", "POSITIONAL GAMER II");
 		execute("CRUD.save");
@@ -70,9 +69,7 @@ public class UserWithNicknameTest extends ModuleTestBase {
 		removeFiles(); 	
 	}	
 
-	public void testStoreFrameStatusWithTooLongName() throws Exception { 
-		assertListRowCount(0);
-		execute("CRUD.new");		
+	public void testStoreFrameStatusWithTooLongName() throws Exception {
 		//Open frame		
 		assertEquals(false, isClosedFrameInHtml());
 		assertEquals(false, isClosedFrameInPreferences());		

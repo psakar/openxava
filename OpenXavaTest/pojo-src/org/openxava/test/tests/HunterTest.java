@@ -12,7 +12,7 @@ import org.openxava.tests.ModuleTestBase;
 import com.gargoylesoftware.htmlunit.html.*;
 
 /**
- *
+ * 
  * @author Jeromy Altuna
  */
 public class HunterTest extends ModuleTestBase {
@@ -24,6 +24,7 @@ public class HunterTest extends ModuleTestBase {
 	public void testCreateHunterWithAtLeastOneHound() throws Exception {
 		createHounds();
 		
+		execute("Mode.list"); 
 		assertListRowCount(0);
 		execute("CRUD.new");
 		setValue("name", "HUNTER 1");
@@ -48,7 +49,6 @@ public class HunterTest extends ModuleTestBase {
 	public void testAddMaximumFourHounds() throws Exception {
 		createHounds();
 		
-		execute("CRUD.new");
 		setValue("name", "HUNTER 1");
 		execute("Collection.add", "viewObject=xava_view_hounds");
 		checkAll();
@@ -73,7 +73,7 @@ public class HunterTest extends ModuleTestBase {
 	public void testFilterEmptyValuesInCollection() throws Exception {
 		createHunter();
 		
-		reload();
+		resetModule(); 
 		assertListRowCount(1);
 		execute("List.viewDetail", "row=0");
 		assertFalse(isNotVisibleConditionValue(0));
@@ -100,7 +100,7 @@ public class HunterTest extends ModuleTestBase {
 	public void testFilterNotEmptyValuesInCollection() throws Exception {
 		createHunter();
 		
-		reload();
+		resetModule(); 
 		assertListRowCount(1);
 		execute("List.viewDetail", "row=0");
 		assertFalse(isNotVisibleConditionValue(0));

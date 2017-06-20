@@ -13,7 +13,7 @@ public class TransportChargeWithDescriptionsListShowingReferenceViewTest extends
 	public void testCompositeKeyDescriptionsListWithShowReferenceView() throws Exception { 
 		deleteAll();
 		createSome();
-		execute("List.filter"); // For refresh
+		resetModule(); // For refresh 
 		assertValueInList(1, 0, "2004"); 
 		execute("List.viewDetail", "row=1");
 		assertNoAction("Reference.createNew", "model=Delivery,keyProperty=delivery__KEY__");
