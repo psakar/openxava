@@ -1582,6 +1582,7 @@ public class Tab implements java.io.Serializable {
 	 */
 	public void reloadMetaModel() { 
 		reinitState();
+		if (configuration != null) applyConfiguration(); 
 	}
 
 	
