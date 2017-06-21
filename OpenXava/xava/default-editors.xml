@@ -267,6 +267,15 @@
 		<for-stereotype stereotype="ARCHIVOS" />
 	</editor>
 	
+	<editor name="Attachments" url="attachmentsEditor.jsp">	    
+		<property name="accept" value=""/><!-- Types of files that the editor accept. 
+	    	 								   Example: file_extension|image/*|audio/*|video/*|media_type (Look at http://www.iana.org/assignments/media-types/media-types.xhtml)
+	    	                                   Do not validate on server -->		 	    
+		<property name="chunkSize" value="10240"/>	<!--The size, in bytes, of the chunks of the file sent to the server-->	
+		<for-stereotype stereotype="ATTACHMENTS" />
+		<for-stereotype stereotype="ADJUNTOS" />		
+	</editor>
+	
 	<editor name="Discussion" url="discussionEditor.jsp" frame="true">
 		<for-stereotype stereotype="DISCUSSION" />
 		<for-stereotype stereotype="DISCUSION" />

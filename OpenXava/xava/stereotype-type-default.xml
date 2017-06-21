@@ -44,4 +44,6 @@
 	<for stereotype="ICONO" type="String"/>
 	<for stereotype="DISCUSSION" type="String"/>
 	<for stereotype="DISCUSION" type="String"/> 
+	<for stereotype="ATTACHMENTS" type="String"/>
+	<for stereotype="ADJUNTOS" type="String"/>
 </stereotype-type-default>

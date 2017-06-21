@@ -35,6 +35,6 @@ persistence.xml.
 		
 		<!-- In order to use State EJB3 entity with Hibernate API  -->
 		<mapping class="org.openxava.test.model.State"/>		
-										
+				<mapping class="org.openxava.web.editors.Attachment"/>								
 	</session-factory>
 	</hibernate-configuration>

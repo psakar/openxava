@@ -25,6 +25,6 @@ persistence.xml.
 		
 		<!-- GalleryImage is needed only if you uses IMAGES_GALLERY/GALERIA_IMAGENES stereotype -->
 		<mapping resource="GalleryImage.hbm.xml"/>
-		
+				<mapping class="org.openxava.web.editors.Attachment"/>
 	</session-factory>
 	</hibernate-configuration>

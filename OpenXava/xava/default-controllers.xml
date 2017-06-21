@@ -774,4 +774,10 @@ here that you want to override.
 		<action name="cancel" class="org.openxava.actions.CancelAction" />
 	</controller>
 	
+	<controller name="Attachments">
+		<action name="removeAll" class="org.openxava.actions.RemoveAllAttachmentsAction" 
+			icon="delete" confirm="true" />
+		<action name="remove" class="org.openxava.actions.RemoveAttachmentAction" />  
+	</controller>
+	
 </controllers>

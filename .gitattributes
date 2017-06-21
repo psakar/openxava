@@ -5457,6 +5457,8 @@ OpenXava/src/org/openxava/actions/OrderByAction.java -text
 OpenXava/src/org/openxava/actions/ReferenceBaseAction.java -text
 OpenXava/src/org/openxava/actions/ReferenceSearchAction.java -text
 OpenXava/src/org/openxava/actions/ReleaseChartAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/RemoveAllAttachmentsAction.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/actions/RemoveAttachmentAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveChartColumnAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/RemoveColumnSumAction.java -text
 OpenXava/src/org/openxava/actions/RemoveElementFromCollectionAction.java -text
@@ -5988,6 +5990,7 @@ OpenXava/src/org/openxava/web/EditorsJS.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/Ids.java -text
 OpenXava/src/org/openxava/web/Lists.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/WebEditors.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/web/dwr/Attachments.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/dwr/DWRBase.java -text
 OpenXava/src/org/openxava/web/dwr/Discussion.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/dwr/Module.java -text
@@ -5998,6 +6001,7 @@ OpenXava/src/org/openxava/web/dwr/TableId.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/dwr/View.java -text
 OpenXava/src/org/openxava/web/dwr/ViewBase.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/editors/AttachedFile.java -text svneol=unset#text/plain
+OpenXava/src/org/openxava/web/editors/Attachment.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/editors/Card.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/editors/CardIterator.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/editors/DiscussionComment.java -text svneol=unset#text/plain
@@ -6066,6 +6070,7 @@ OpenXava/src/org/openxava/web/meta/MetaWebEditors.java -text
 OpenXava/src/org/openxava/web/meta/xmlparse/EditorsParser.java -text
 OpenXava/src/org/openxava/web/portlets/HtmlPortlet.java -text
 OpenXava/src/org/openxava/web/portlets/XavaPortlet.java -text
+OpenXava/src/org/openxava/web/servlets/AttachmentsServlet.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/servlets/FilesServlet.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/servlets/GalleryServlet.java -text
 OpenXava/src/org/openxava/web/servlets/GenerateConcatReportServlet.java -text svneol=unset#text/plain
@@ -6171,6 +6176,7 @@ OpenXava/web/editors/addFiles.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/addImages.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/attachedFileEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/attachedFilesEditor.jsp -text svneol=unset#text/plain
+OpenXava/web/editors/attachmentsEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/boldLabelEditor.jsp -text
 OpenXava/web/editors/booleanEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/booleanWithSuffixEditor.jsp -text svneol=unset#text/plain
@@ -6601,6 +6607,7 @@ OpenXava/web/editors/htmlEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/iconEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/imageEditor.jsp -text
 OpenXava/web/editors/imageLabelEditor.jsp -text
+OpenXava/web/editors/js/attachmentsEditor.js -text svneol=unset#text/plain
 OpenXava/web/editors/js/autoNumeric.js -text svneol=unset#text/plain
 OpenXava/web/editors/js/c3.js -text svneol=unset#text/plain
 OpenXava/web/editors/js/chartDataEditor.js -text svneol=unset#text/plain
@@ -9085,11 +9092,9 @@ OpenXavaTest/components/Year.xml -text
 OpenXavaTest/components/dtds/component.dtd -text svneol=unset#text/plain
 OpenXavaTest/components/dtds/componente.dtd -text svneol=unset#text/plain
 OpenXavaTest/data/company-a-db.lck -text
-OpenXavaTest/data/company-a-db.log -text
 OpenXavaTest/data/company-a-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-a-db.script -text
 OpenXavaTest/data/company-b-db.lck -text
-OpenXavaTest/data/company-b-db.log -text
 OpenXavaTest/data/company-b-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-b-db.script -text
 OpenXavaTest/data/openxava-test-db.lobs -text
@@ -10994,6 +10999,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Reallocation.java -text svneol=uns
 OpenXavaTest/pojo-src/org/openxava/test/model/ReallocationDetail.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Receptionist.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Report.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/Repository.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Route.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/SalesRepresentative.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/School.java -text svneol=unset#text/plain
@@ -11170,6 +11176,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/QuoteTest.java -text svneol=unset#
 OpenXavaTest/pojo-src/org/openxava/test/tests/ReallocationDetailsEditOnlyTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/ReallocationDetailsReadOnlyTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/ReallocationTest.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/tests/RepositoryTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/RouteTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/SalesRepresentativePersonOnlyNamesTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/SalesRepresentativeTest.java -text
@@ -11676,6 +11683,7 @@ OpenXavaTest/web/xava/editors/addFiles.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/addImages.jsp -text
 OpenXavaTest/web/xava/editors/attachedFileEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/attachedFilesEditor.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/attachmentsEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/blogCommentsEditor.jsp -text
 OpenXavaTest/web/xava/editors/blogCommentsListEditor.jsp -text
 OpenXavaTest/web/xava/editors/boldLabelEditor.jsp -text
@@ -12118,6 +12126,7 @@ OpenXavaTest/web/xava/editors/iconEditor.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/imageEditor.jsp -text
 OpenXavaTest/web/xava/editors/imageLabelEditor.jsp -text
 OpenXavaTest/web/xava/editors/importantEditor.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/editors/js/attachmentsEditor.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/js/autoNumeric.js -text
 OpenXavaTest/web/xava/editors/js/c3.js -text svneol=unset#text/plain
 OpenXavaTest/web/xava/editors/js/chartDataEditor.js -text svneol=unset#text/plain

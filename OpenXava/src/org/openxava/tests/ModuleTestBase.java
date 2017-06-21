@@ -27,6 +27,7 @@ import org.xml.sax.*;
 import com.gargoylesoftware.htmlunit.*;
 import com.gargoylesoftware.htmlunit.ElementNotFoundException;
 import com.gargoylesoftware.htmlunit.html.*;
+import com.gargoylesoftware.htmlunit.javascript.host.html.HTMLDivElement;
 
 import junit.framework.*;
 
@@ -2951,4 +2952,41 @@ public class ModuleTestBase extends TestCase {
 		return title.substring(0, title.length() - 4);
 	}
 	
+	/**
+	 * Assert the amount of attachments. <p> 
+	 * 
+	 * @param name of the ATTACHMENTS property
+	 * @param expectedCount the amount of attachments expected
+	 * 
+	 * @since 5.8
+	 */
+	protected void assertAttachmentsCount(String name, int expectedCount) {
+		HtmlElement holder = getAttachmentsHolderElement(name);
+		assertEquals(expectedCount, holder.getByXPath("a[@class='ox-attachment-item' and not(@style='display: none')]").size());		
+	}
+	
+	/**
+	 * Assert the name of the attachment. <p> 
+	 * 
+	 * @param name of the ATTACHMENTS property
+	 * @param expectedName expected name of the attachment
+	 * 
+	 * @since 5.8
+	 */
+	@SuppressWarnings("unchecked")
+	protected void assertExistsAttachmentName(String name, String expectedName) {
+		boolean exists = false;
+		HtmlElement holder = getAttachmentsHolderElement(name);		
+		
+		for (HtmlAnchor anchor : 
+			 (List<HtmlAnchor>) holder.getByXPath("a[@class='ox-attachment-item' and not(@style='display: none')]")) {
+			if (exists = anchor.getTextContent().trim().equals(expectedName)) break;
+		}
+		assertTrue(exists);
+	}
+	
+	private HtmlElement getAttachmentsHolderElement(String name) {
+		HtmlElement attachmentsEditor = getHtmlPage().getHtmlElementById(decorateId("editor_" + name));
+		return attachmentsEditor.getOneHtmlElementByAttribute("div", "class", "ox-attachments");
+	}
 }
