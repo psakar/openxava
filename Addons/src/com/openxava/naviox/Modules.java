@@ -123,7 +123,7 @@ public class Modules implements Serializable {
 	}
 	
 	public String getCurrentModuleName() { 
-		return current.getName();
+		return current == null?null:current.getName(); 
 	}
 
 	public void bookmarkCurrentModule() { 
