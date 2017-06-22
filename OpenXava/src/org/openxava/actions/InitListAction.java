@@ -16,7 +16,8 @@ public class InitListAction extends TabBaseAction {
 	public void execute() throws Exception {
 		setMainTab(getTab());
 		executeAction("ListFormat.select");
-		if (getTab().getTableModel().getRowCount() == 0) {
+		
+		if (getTab().getTableModel().getRowCount() == 0 || getTab().getTableModel().getColumnCount() == 0) { 
 			String newAction = getNewAction();
 			if (newAction != null) {
 				executeAction(newAction);
