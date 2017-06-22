@@ -162,8 +162,10 @@ public class Module extends DWRBase {
 	 
 	public Map getStrokeActions(HttpServletRequest request, HttpServletResponse response, String application, String module) {
 		try {
-			ModuleContext.setCurrentWindowId(request); 
-			this.manager = (ModuleManager) getContext(request).get(application, module, "manager");
+			ModuleContext.setCurrentWindowId(request);
+			ModuleContext context = getContext(request);
+			if (context == null) return Collections.EMPTY_MAP;
+			this.manager = (ModuleManager) context.get(application, module, "manager");
 			return getStrokeActions();		
 		}
 		catch (Exception ex) {
