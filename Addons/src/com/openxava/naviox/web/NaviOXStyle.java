@@ -5,6 +5,7 @@ import javax.servlet.http.*;
 import org.openxava.web.style.*;
 
 /**
+ * 
  * @author Javier Paniza
  */
 
@@ -86,11 +87,15 @@ public class NaviOXStyle extends Style {
 		return -40;		
 	}
 
-	public String getFrameHeaderStartDecoration(int width) {  
+	public String getFrameHeaderStartDecoration(int width, boolean collection) {   
 		StringBuffer r = new StringBuffer();
 		r.append("<div ");
 		r.append(" class='");
 		r.append(getFrame());
+		if (collection) {
+			r.append(' ');
+			r.append(getCollection());
+		}
 		r.append("'"); 
 		if (width == 100) { 
 			r.append(" style='width: calc(100% - 15px);'");			
@@ -106,7 +111,6 @@ public class NaviOXStyle extends Style {
 		r.append("\n");						
 		return r.toString();
 	}
-
 		
 	public String getFrameTitleStartDecoration() {
 		StringBuffer r = new StringBuffer();

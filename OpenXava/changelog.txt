@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- Fix: Bar button in collections with flowLayout=true goes outside of the frame.
+- New look of bar button for module and collection.
 - New showDefaultActionInBottom property in xava.properties to show/hide the default action on bottom.
 - Delete icon in top bar is red on hover.
 - If a module has no rows it starts in detail mode executing new action.

@@ -9092,9 +9092,11 @@ OpenXavaTest/components/Year.xml -text
 OpenXavaTest/components/dtds/component.dtd -text svneol=unset#text/plain
 OpenXavaTest/components/dtds/componente.dtd -text svneol=unset#text/plain
 OpenXavaTest/data/company-a-db.lck -text
+OpenXavaTest/data/company-a-db.log -text
 OpenXavaTest/data/company-a-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-a-db.script -text
 OpenXavaTest/data/company-b-db.lck -text
+OpenXavaTest/data/company-b-db.log -text
 OpenXavaTest/data/company-b-db.properties -text svneol=unset#text/plain
 OpenXavaTest/data/company-b-db.script -text
 OpenXavaTest/data/openxava-test-db.lobs -text
@@ -10112,6 +10114,14 @@ OpenXavaTest/i18n/portlets/Movie_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Movie_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Movie_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Movie_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/NetMachineWithNew_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/NetMachineWithNew_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/NetMachineWithNew_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/NetMachineWithNew_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/NetMachineWithoutNew_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/NetMachineWithoutNew_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/NetMachineWithoutNew_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/NetMachineWithoutNew_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/NetMachine_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/NetMachine_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/NetMachine_es.properties -text svneol=unset#text/plain
@@ -10364,6 +10374,10 @@ OpenXavaTest/i18n/portlets/Report_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Report_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Report_es.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Report_fr.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Repository_ca.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Repository_en.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Repository_es.properties -text svneol=unset#text/plain
+OpenXavaTest/i18n/portlets/Repository_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Route_ca.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Route_en.properties -text svneol=unset#text/plain
 OpenXavaTest/i18n/portlets/Route_es.properties -text svneol=unset#text/plain

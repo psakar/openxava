@@ -227,11 +227,11 @@ if (!renderedView) {
 				boolean withFrame = !view.isSection() || view.getMetaMembers().size() > 1;
 				boolean variousCollectionInLine = view.isVariousCollectionsInSameLine((MetaMember) m);
 %>
-			<%=closeDivForFrame(view)%> 
-<%					
+			<%=closeDivForFrame(view)%>
+<%	
 				if (withFrame) { // IF MetaCollection With Frame
 %>	
-				<%=style.getFrameHeaderStartDecoration(variousCollectionInLine?50:frameWidth)%>
+				<%=style.getCollectionFrameHeaderStartDecoration(variousCollectionInLine?50:frameWidth)%>
 				<%=style.getFrameTitleStartDecoration()%>
 				<%=collection.getLabel(request) %>
 <% 

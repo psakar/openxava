@@ -2960,7 +2960,7 @@ public class ModuleTestBase extends TestCase {
 	 * 
 	 * @since 5.8
 	 */
-	protected void assertAttachmentsCount(String name, int expectedCount) {
+	protected void assertAttachmentsCount(String name, int expectedCount) { 
 		HtmlElement holder = getAttachmentsHolderElement(name);
 		assertEquals(expectedCount, holder.getByXPath("a[@class='ox-attachment-item' and not(@style='display: none')]").size());		
 	}
@@ -2974,7 +2974,7 @@ public class ModuleTestBase extends TestCase {
 	 * @since 5.8
 	 */
 	@SuppressWarnings("unchecked")
-	protected void assertExistsAttachmentName(String name, String expectedName) {
+	protected void assertExistsAttachmentName(String name, String expectedName) { 
 		boolean exists = false;
 		HtmlElement holder = getAttachmentsHolderElement(name);		
 		

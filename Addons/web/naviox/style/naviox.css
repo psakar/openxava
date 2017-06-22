@@ -448,9 +448,7 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="file"]:focus
 	margin-right: -1px;
 	min-height: 15px;
 	border-top: 1px solid #CCCCCC;
-	box-shadow: 0px 2px 7px #CCCCCC; 
-	-moz-box-shadow: 0px 2px 7px #CCCCCC; 
-	-webkit-box-shadow: 0px 2px 7px #CCCCCC;	
+	border-bottom: 1px solid #CCCCCC;
 }
 
 .ox-button-bar {
@@ -1077,11 +1075,6 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 }
 
 
-.ox-collection-list-actions {
-	border-left: 1px solid #CCCCCC;
-	border-right: 1px solid #CCCCCC;
-}
-
 .ox-total-capable-cell { 
 	text-align: right;
 }
@@ -1663,6 +1656,12 @@ a.cke_button_disabled:hover, a.cke_button_disabled:focus, a.cke_button_disabled:
 	font-weight: bold;
 }
 
+.ox-collection .ox-frame-content {
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+
 .ox-attachments, .ox-attachments-actions {
 	display: table-cell;	
 	height: 40px;
@@ -1687,62 +1686,4 @@ a.cke_button_disabled:hover, a.cke_button_disabled:focus, a.cke_button_disabled:
 	position: absolute;
 	right: 0;
 	top: 0;
-}
-
-.ox-attachment-loader {
-	animation: spin 2s linear infinite;
-	-webkit-animation: spin 2s linear infinite;
-	border: 3px solid #F5F5F5;
-	border-radius: 50%;
-	border-top: 3px solid #CCCCCC;
-	display: inline-block;
-	height: 10px;
-	width: 10px;		
-}
-
-@keyframes spin {
-  0% { 
-  	transform: rotate(0deg); 
-  }
-  100% { 
-  	transform: rotate(360deg); 
-  }
-}
-
-@-webkit-keyframes spin {
-  0% { 
-  	-webkit-transform: rotate(0deg); 
-  }
-  100% { 
-  	-webkit-transform: rotate(360deg); 
-  }
-}
-
-a.ox-attachment-item {
-	position: relative;
-}
-
-a.ox-attachment-item::before {
-	background: #F5F5F5;
-	bottom: 9999px;
-	color: #000;
-	content: attr(data-attachment);
-	font-size: 10px;
-	font-weight: bold;
-	height: 24px;
-	left: 50%;
-	line-height: 24px;
-	opacity: 0;
-	padding: 0px, 7px;
-	position: absolute;
-	transition: opacity 0.4s ease-out; 
-	-webkit-transition: opacity 0.4s ease-out;
-	-o-transition: opacity 0.4s ease-out;
-	white-space: nowrap;	
-	z-index: 999;	
-}
-
-a.ox-attachment-item:hover::before {
-	top: -25px;
-	opacity: 0.5;
 }

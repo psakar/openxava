@@ -418,7 +418,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		assertValueInCollection("columns", 2, 2, "2004");
 		
 		execute("MyReport.generatePdf");				
-		assertPopupPDFLinesCount(6);  
+		assertPopupPDFLinesCount(6);   
 		assertTrue(getPopupPDFLine(3).startsWith("2004 2"));
 		assertTrue(getPopupPDFLine(4).startsWith("2004 9"));
 

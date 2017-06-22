@@ -643,20 +643,25 @@ public class Style {
 	/**
 	 * 
 	 * @since 5.1.1
-	 * @deprecated Only used by the old Java renderer 
 	 */
-	@Deprecated 
 	public String getCollectionFrameHeaderStartDecoration(int width) { 
-		return getFrameHeaderStartDecoration(width, false);  		
+		return getFrameHeaderStartDecoration(width, true);  
+	}
+	
+	public String getFrameHeaderStartDecoration(int width) {
+		return getFrameHeaderStartDecoration(width, false);
 	}
 
-
-	public String getFrameHeaderStartDecoration(int width) {  
+	public String getFrameHeaderStartDecoration(int width, boolean collection) {   
 		StringBuffer r = new StringBuffer();
 		r.append("<table ");
 		r.append(" class='");
 		if (width != 0) { // For several collections in the same row 
 			r.append(getFrame());
+		}
+		if (collection) {
+			r.append(' ');
+			r.append(getCollection());
 		}
 		r.append("' style='float:left;margin-right:4px;");
 		if (width != 0) {
@@ -1010,6 +1015,13 @@ public class Style {
 	public String getSectionTabEndDecoration() {
 		return "</span></span>";
 	}
+	
+	/**
+	 * @since 5.8 
+	 */
+	public String getCollection() {  
+		return "ox-collection"; 
+	}	
 	
 	public String getCollectionListActions() { 
 		return "ox-collection-list-actions"; 
@@ -1384,31 +1396,6 @@ public class Style {
 	 */
 	public int getPropertyLeftMargin() {
 		return 8;
-	}
-	
-	/**
-	 * @param width Width of the table container.
-	 * @param sibling If true this frame is a sibling (to the right) frame.
-	 * @return String representing the decoration of the frame.
-	 * @since 5.0
-	 * @deprecated Only used by the old Java renderer 
-	 */
-	@Deprecated 
-	public String getFrameHeaderStartDecoration(int width, boolean sibling) {
-		StringBuffer returnValue = new StringBuffer(getFrameHeaderStartDecoration(width));
-		// This is a heuristic approach to have subclasses of Style working without changes, 
-		// but it should be implemented in the subclass itself.
-		// The implementation should take into consideration the state of the sibling parameter.
-		if (sibling) {
-			if (!replacedFrameHeaderClass(returnValue, "'")) {
-				if (!replacedFrameHeaderClass(returnValue, "'", " ")) {
-					if (!replacedFrameHeaderClass(returnValue, "\"")) {
-						replacedFrameHeaderClass(returnValue, "\"", " ");
-					}
-				}
-			}
-		}
-		return returnValue.toString();
 	}
 	
 	/**
