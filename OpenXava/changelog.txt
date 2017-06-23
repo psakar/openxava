@@ -2,8 +2,8 @@ Change Log for OpenXava project
 ===============================
 
 - Fix: Changing the browser URL from an application to another the first action does not work.
-- Fix: Bar button in collections with flowLayout=true goes outside of the frame.
-- New look of bar button for module and collection.
+- Fix: Buttons bar in collections with flowLayout=true goes outside of the frame.
+- New look of buttons bar for module and collection.
 - New showDefaultActionInBottom property in xava.properties to show/hide the default action on bottom.
 - Delete icon in top bar is red on hover.
 - If a module has no rows it starts in detail mode executing new action.
@@ -14,7 +14,7 @@ OpenXava 5.7.1 (2017-6-13)
 - Reference actions are shown in the reference frame, instead of next to the key field.
 - New method resetEntityManagerFactory() in XPersistence.
 - Fix: Base condition and default order is shown in query name making it large and cumbersome.
-- Fix: Double click in an upload file action executes the action twice producing error.
+- Fix: Double click on an upload file action executes the action twice producing error.
 - Fix: Saving with resetAfter=false and refreshAfter=false fails on creating with hidden key when saving a second time.  
 - Fix: Impossible to search a reference if its view has no at least a plain field.
 - Fix: SchemaTool does not work with PostgreSQL when we use @Index in @Table.
