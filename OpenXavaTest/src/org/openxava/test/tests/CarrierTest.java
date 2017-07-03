@@ -312,13 +312,17 @@ public class CarrierTest extends CarrierTestBase {
 	
 	public void testGoListModeWithoutRecords() throws Exception {
 		execute("Mode.detailAndFirst");
-		assertNoErrors();		
+		assertNoErrors();
+		assertValue("number", "1");
+		assertValue("name", "UNO");
 		
 		deleteCarriers();
 		
 		execute("Mode.list");				
 		execute("Mode.detailAndFirst");
-		assertError("Impossible to go to detail mode, there are no elements in list");		
+		assertNoErrors();
+		assertValue("number", "");
+		assertValue("name", "");
 	}
 
 	

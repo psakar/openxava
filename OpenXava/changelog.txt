@@ -1,12 +1,14 @@
 Change Log for OpenXava project
 ===============================
 
+- Clicking in detail mode when the list has no rows executes New action.
+- New method getQualifiedActionIfAvailable() in BaseAction.
 - Fix: Changing the browser URL from an application to another the first action does not work.
 - Fix: Buttons bar in collections with flowLayout=true goes outside of the frame.
 - New look of buttons bar for module and collection.
 - New showDefaultActionInBottom property in xava.properties to show/hide the default action on bottom.
 - Delete icon in top bar is red on hover.
-- If a module has no rows it starts in detail mode executing new action.
+- If a module has no rows it starts in detail mode executing New action.
 - Action for deleting rows in list mode now is on top bar and it has icon.
 
 OpenXava 5.7.1 (2017-6-13)

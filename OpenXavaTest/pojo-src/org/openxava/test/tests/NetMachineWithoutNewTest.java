@@ -12,7 +12,13 @@ public class NetMachineWithoutNewTest extends ModuleTestBase {
 		super(testName, "NetMachineWithoutNew");
 	}
 	
-	public void testNoRecordsWithoutNewStartsInList() throws Exception {
+	public void testNoRecordsWithoutNewStartsInList_goDetailWithNoRecordsAndNoNewAction() throws Exception {
+		assertListRowCount(0);
+		assertNotExists("name");
+		assertNotExists("mac");
+		
+		execute("Mode.detailAndFirst");
+		assertError("Impossible to go to detail mode, there are no elements in list");
 		assertListRowCount(0);
 		assertNotExists("name");
 		assertNotExists("mac");
