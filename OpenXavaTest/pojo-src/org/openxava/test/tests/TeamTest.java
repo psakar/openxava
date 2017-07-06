@@ -43,5 +43,35 @@ public class TeamTest extends ModuleTestBase {
 		execute("Team.searchPerson", "keyProperty=person.name");
 		assertListRowCount(3);
 	}
-		
+	
+	public void testForwardInNewWindow() throws Exception {
+		execute("Team.goMyPublicJSPInNewWindow");
+		assertPopupCount(1);
+		assertTrue(getPopupText().contains("The uri of this JSP"));
+	}
+	
+	public void testForwardInNewWindowCalculated() throws Exception {
+		execute("Team.goMyPublicJSPInNewWindowCalculated");
+		assertPopupCount(1);
+		assertTrue(getPopupText().contains("The uri of this JSP"));
+	}
+	
+	public void testForwardInSameWindow() throws Exception {
+		execute("Team.goMyPublicJSPInSameWindow");
+		assertPopupCount(0);
+		assertTrue(getHtmlPage().asText().contains("The uri of this JSP"));
+	}
+	
+	public void testForwardInSameWindowCalculated() throws Exception {
+		execute("Team.goMyPublicJSPInSameWindowCalculated");
+		assertPopupCount(0);
+		assertTrue(getHtmlPage().asText().contains("The uri of this JSP"));
+	}
+	
+	public void testForwardToNullInNewWindow() throws Exception {
+		execute("Team.goNoWhereInNewWindow");
+		assertPopupCount(0);
+		assertAction("Team.goNoWhereInNewWindow");
+	}
+			
 }

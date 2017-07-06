@@ -10793,6 +10793,11 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/FilterInvoice4ByDateAction.groov
 OpenXavaTest/pojo-src/org/openxava/test/actions/GoChangeName.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/GoDescriptionAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/GoLoginAction.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/GoMyPublicJSPInNewWindowAction.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/actions/GoMyPublicJSPInNewWindowCalculatedAction.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/actions/GoMyPublicJSPInSameWindowAction.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/actions/GoMyPublicJSPInSameWindowCalculatedAction.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/actions/GoNoWhereInNewWindowAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/GoProposeNameAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/InvoiceReportAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/LoginAction.groovy -text

@@ -333,4 +333,20 @@ public class MetaAction extends MetaControllerElement implements Cloneable {
 		this.processSelectedItems = processSelectedItems;
 	}
 
+	/**
+	 * @since 5.8
+	 */
+	public boolean inNewWindow() { 
+		try {
+			Object action = Class.forName(getClassName()).newInstance();
+			if (action instanceof IForwardAction) {
+				return ((IForwardAction) action).inNewWindow();
+			}
+			return false;
+		}
+		catch (Exception ex) {
+			return false;
+		}
+	}
+
 }

@@ -666,7 +666,7 @@ public class ModuleTestBase extends TestCase {
 	 * Usually is only needed to call this method when you use directly HtmlUnit APIs.
 	 * @since 5.7
 	 */
-	protected void waitAJAX() throws Exception { 
+	protected void waitAJAX() throws Exception {
 		resetForm();
 		restorePage();
 	}
@@ -744,8 +744,8 @@ public class ModuleTestBase extends TestCase {
 			if (arguments != null) { // 'List.viewDetail', 'row=0'				
 				if (
 					(
-						anchor.getHrefAttribute().endsWith("'" + action + "', '" + arguments + "')") ||
-						anchor.getHrefAttribute().endsWith("'" + action + "', '," + arguments + "')")
+						anchor.getHrefAttribute().contains("'" + action + "', '" + arguments + "'") ||
+						anchor.getHrefAttribute().contains("'" + action + "', '," + arguments + "'")							
 					)
 					&& anchor.getHrefAttribute().indexOf(moduleMarkForAnchor) >= 0)  			
 				{				
@@ -2631,7 +2631,9 @@ public class ModuleTestBase extends TestCase {
 	}
 	
 	private void setNewModuleIfChanged() throws Exception {		
-		String lastModuleChange = ((HtmlInput) page.getElementById("xava_last_module_change")).getValueAttribute();
+		HtmlInput lastModuleChangeInput = (HtmlInput) page.getElementById("xava_last_module_change"); 
+		if (lastModuleChangeInput == null) return;
+		String lastModuleChange = lastModuleChangeInput.getValueAttribute();
 		if (Is.emptyString(lastModuleChange)) return;
 		String [] modules = lastModuleChange.split("::"); 
 		if (!module.equals(modules[0])) return;

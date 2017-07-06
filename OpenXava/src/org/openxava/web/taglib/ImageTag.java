@@ -71,11 +71,21 @@ public class ImageTag extends TagSupport implements IActionTag {
 			pageContext.getOut().print(metaAction.isTakesLong());
 			pageContext.getOut().print(", '");
 			pageContext.getOut().print(getAction());
+			pageContext.getOut().print("'"); 
 			if (!Is.emptyString(getArgv())) {
-				pageContext.getOut().print("', '");
-				pageContext.getOut().print(getArgv());				
+				pageContext.getOut().print(", '"); 
+				pageContext.getOut().print(getArgv());
+				pageContext.getOut().print("'"); 
 			}
-			pageContext.getOut().print("')\">");
+			if (metaAction.inNewWindow()) {
+				if (Is.emptyString(getArgv())) {
+					pageContext.getOut().print(", undefined, undefined, undefined, true");
+				}
+				else {
+					pageContext.getOut().print(", undefined, undefined, true");
+				}
+			}
+			pageContext.getOut().print(")\">");
 			if (metaAction.hasIcon() && (style.isUseIconsInsteadOfImages() || !metaAction.hasImage())) {  
 				pageContext.getOut().print("<i class='mdi mdi-");
 				pageContext.getOut().print(metaAction.getIcon());

@@ -78,6 +78,15 @@ public class LinkTag extends TagSupport implements IActionTag {
 				pageContext.getOut().print(getArgv());
 				pageContext.getOut().print("'");
 			}
+			if (metaAction.inNewWindow()) {
+				if (Is.emptyString(getArgv())) {
+					pageContext.getOut().print(", undefined, undefined, undefined, true");
+				}
+				else {
+					pageContext.getOut().print(", undefined, undefined, true");
+				}
+			}
+
 			pageContext.getOut().print(")\">");
 
 		}

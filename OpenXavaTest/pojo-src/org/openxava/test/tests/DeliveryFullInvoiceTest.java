@@ -18,7 +18,7 @@ public class DeliveryFullInvoiceTest extends ModuleTestBase {
 		setValue("invoice.number", "1");
 		execute("Sections.change", "activeSection=1,viewObject=xava_view_invoice");
 		assertCollectionRowCount("invoice.details", 2);
-		execute("Print.generatePdf", "viewObject=xava_view_invoice_section1_details");
+		execute("Print.generatePdf", "viewObject=xava_view_invoice_section1_details"); 
 		assertContentTypeForPopup("application/pdf");
 	}
 	

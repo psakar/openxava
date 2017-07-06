@@ -286,7 +286,7 @@ public class CustomerTest extends CustomizeListTestBase {
 		setValue("relationWithSeller", "A RELATION");
 		setValue("alternateSeller.number", "2");		
 		execute("Customer.save");  		
-		assertNoErrors();
+		assertNoErrors(); 
 
 		assertNoEditable("number");
 		assertEditable("type");		
@@ -451,7 +451,7 @@ public class CustomerTest extends CustomizeListTestBase {
 		setValue("address.city", "POBLE JUNIT PER A J");
 		setValue("address.state.id", "NY");
 		execute("Customer.save");		
-		assertNoErrors();
+		assertNoErrors(); 
 		
 		// Verifying that it is in the list althought it has not seller
 		execute("Mode.list");
@@ -603,7 +603,7 @@ public class CustomerTest extends CustomizeListTestBase {
 		assertMessage("Customer deleted successfully");
 	}
 
-	public void testSetEditableOfReferences_notOnChangeActionsOfReferences() throws Exception { 
+	public void testSetEditableOfReferences_notOnChangeActionsOfReferences() throws Exception {  
 		execute("Mode.detailAndFirst");
 		assertNoMessage("OnChangeVoidAction executed"); 
 		assertEditable("address.street");

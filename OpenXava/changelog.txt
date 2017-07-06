@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- Generate PDF works even if the browser does not allows popups, this applies to most IForwadAction too.
+- Fix: ModuleTestBase.waitAJAX() fails when navigating from a non-openxava page.
 - Clicking in detail mode when the list has no rows executes New action.
 - New method getQualifiedActionIfAvailable() in BaseAction.
 - Fix: Changing the browser URL from an application to another the first action does not work.

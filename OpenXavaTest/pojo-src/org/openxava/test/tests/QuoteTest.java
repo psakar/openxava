@@ -42,7 +42,7 @@ public class QuoteTest extends ModuleTestBase {
 		assertValueInCollection("details", 0, "unitPrice", "11.00");		
 		setValueInCollection("details", 0, "unitPrice", "100");
 		setValueInCollection("details", 0, "quantity", "2");
-		assertValueInCollection("details", 0, "amount", "200.00"); 
+		assertValueInCollection("details", 0, "amount", "200.00");  
 		
 		assertTotalInCollection("details", 0, "amount", "200.00");
 		assertTotalInCollection("details", 1, "amount",  "42.00");

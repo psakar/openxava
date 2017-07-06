@@ -1287,6 +1287,11 @@
 		<extends controller="Typical" />
 		<action name="searchPerson" image="search.gif" hidden="true"
 			class="org.openxava.test.actions.SearchPersonFromTeamMemberAction"/>
+		<action name="goMyPublicJSPInNewWindow" class="org.openxava.test.actions.GoMyPublicJSPInNewWindowAction" mode="list"/>
+		<action name="goMyPublicJSPInNewWindowCalculated" class="org.openxava.test.actions.GoMyPublicJSPInNewWindowCalculatedAction" mode="list"/>
+		<action name="goMyPublicJSPInSameWindow" class="org.openxava.test.actions.GoMyPublicJSPInSameWindowAction" mode="list"/>
+		<action name="goMyPublicJSPInSameWindowCalculated" class="org.openxava.test.actions.GoMyPublicJSPInSameWindowCalculatedAction" mode="list"/>
+		<action name="goNoWhereInNewWindow" class="org.openxava.test.actions.GoNoWhereInNewWindowAction" mode="list"/>
 	</controller>    
     
     <controller name="Exam">
