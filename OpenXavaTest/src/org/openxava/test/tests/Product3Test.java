@@ -20,7 +20,7 @@ public class Product3Test extends ModuleTestBase {
 		setValue("number", "");
 		String description = getValue("description");
 		assertTrue("description must be empty", Is.emptyString(description));
-		execute("CRUD.search");
+		execute("SearchForCRUD.search"); 
 		setValue("family.number", "1");
 		execute("Search.search"); 
 		// We assume that exists products of family 1

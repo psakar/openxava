@@ -59,7 +59,7 @@
 	</controller>
 
 	<controller name="Author">	
-		<extends controller="Typical"/>		
+		<extends controller="TypicalWithSearch"/> 		
 		<action name="showAllAuthors" hidden="true"
 			class="org.openxava.test.actions.ShowAllAuthorsAction" />
 		<action name="showSelectedAuthors" hidden="true"
@@ -534,6 +534,7 @@
 	
 	<controller name="Invoice">
 		<extends controller="TypicalExtendedPrint"/>
+		<extends controller="SearchForCRUD"/> 
 		<!-- With icon and without image to test a case -->
 		<subcontroller controller="InvoicePrint" icon="printer"/>
 		<action name="searchFromDelivery" hidden="true"

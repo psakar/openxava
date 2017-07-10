@@ -66,12 +66,6 @@ here that you want to override.
 			icon="delete"
 			keystroke="Control D"/>
 		
-		<action name="search" mode="detail" 			 
-			class="org.openxava.actions.OpenSearchDialogAction" 
-			image="find.gif"
-			icon="magnify" 
-			keystroke="control B"/> 
-		
 		<action name="refresh" mode="detail"			
 			class="org.openxava.actions.SearchAction"
 			image="refresh.gif"
@@ -236,6 +230,19 @@ here that you want to override.
 		<extends controller="Navigation"/>
 		<extends controller="CRUD"/>
 		<extends controller="ExtendedPrint"/>
+	</controller>
+	
+	<controller name="TypicalWithSearch"> 
+		<extends controller="Typical"/>
+		<extends controller="SearchForCRUD"/>
+	</controller>
+	
+	<controller name="SearchForCRUD"> 
+		<action name="search" mode="detail" 			 
+			class="org.openxava.actions.OpenSearchDialogAction" 
+			image="find.gif"
+			icon="magnify" 
+			keystroke="control B"/>
 	</controller>
 				
 	<controller name="DetailList">

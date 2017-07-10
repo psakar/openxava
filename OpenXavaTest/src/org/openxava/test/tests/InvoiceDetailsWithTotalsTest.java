@@ -67,10 +67,9 @@ public class InvoiceDetailsWithTotalsTest extends CustomizeListTestBase {
 		
 	public void testFrameTotalsUpdated() throws Exception {  
 		execute("CRUD.new");
-		execute("CRUD.search");
 		setValue("year", "2004");
 		setValue("number", "10");
-		execute("Search.search");
+		execute("CRUD.refresh"); 
 		assertTotalInCollection("details", 2, "amount", "1,403.02"); 
 		hideCollection("details");
 		HtmlElement header = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_InvoiceDetailsWithTotals__frame_detailsheader"); 

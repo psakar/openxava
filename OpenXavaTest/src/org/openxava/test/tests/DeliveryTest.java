@@ -147,7 +147,7 @@ public class DeliveryTest extends ModuleTestBase {
 	
 	public void testSearchUsesSearchView() throws Exception {  
 		execute("CRUD.new");
-		execute("CRUD.search");
+		execute("SearchForCRUD.search"); 
 		assertDialog();
 		assertNotExists("advice");
 		assertNotExists("vehicle");
@@ -400,7 +400,7 @@ public class DeliveryTest extends ModuleTestBase {
 		execute("CRUD.new");
 		assertValue("number", "");
 		assertValue("description", "");
-		execute("CRUD.search");
+		execute("SearchForCRUD.search"); 
 		setValue("description", "%SEARCHING");
 		execute("Search.search");
 		assertNoErrors();
@@ -411,7 +411,7 @@ public class DeliveryTest extends ModuleTestBase {
 		execute("CRUD.new");
 		assertValue("number", "");
 		assertValue("description", "");
-		execute("CRUD.search");
+		execute("SearchForCRUD.search"); 
 		setValue("description", "DEL");
 		execute("Search.search");
 		assertNoErrors();
@@ -644,8 +644,8 @@ public class DeliveryTest extends ModuleTestBase {
 			"CRUD.new",
 			"CRUD.save",
 			"CRUD.delete",
-			"CRUD.search",						
 			"CRUD.refresh",
+			"SearchForCRUD.search", 
 			"Mode.list",
 			"Mode.split",
 			"Reference.search",
@@ -672,7 +672,6 @@ public class DeliveryTest extends ModuleTestBase {
 			"CRUD.new",
 			"CRUD.save",
 			"CRUD.delete",
-			"CRUD.search",
 			"CRUD.refresh",
 			"Mode.list",
 			"Mode.split",

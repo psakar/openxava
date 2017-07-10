@@ -46,7 +46,7 @@ public class AuthorTest extends CustomizeListTestBase {
 		execute("Navigation.next");
 		assertMessage("Showing author MIGUEL DE CERVANTES");
 		assertValue("author", "MIGUEL DE CERVANTES");
-		execute("CRUD.search");
+		execute("SearchForCRUD.search");  
 		setValue("author", "JAVIER PANIZA");
 		execute("Search.search");
 		assertMessage("Showing author JAVIER PANIZA");

@@ -525,7 +525,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		execute("CRUD.new");		
 		assertValue("comment", "");
 		assertNoDialog();
-		execute("CRUD.search");
+		execute("SearchForCRUD.search"); 
 		assertDialog();
 		assertNotExists("paid");
 		assertNotExists("customerDiscount");
@@ -1705,8 +1705,8 @@ public class InvoiceTest extends CustomizeListTestBase {
 			"CRUD.new",
 			"CRUD.save",
 			"CRUD.delete",
-			"CRUD.search",
 			"CRUD.refresh",
+			"SearchForCRUD.search", 
 			"InvoicePrint.printPdf",
 			"InvoicePrint.print2Pdfs",
 			"InvoicePrint.printInvoiceAndCustomer",
@@ -1747,8 +1747,8 @@ public class InvoiceTest extends CustomizeListTestBase {
 			"CRUD.new",
 			"CRUD.save",
 			"CRUD.delete",
-			"CRUD.search",
 			"CRUD.refresh",
+			"SearchForCRUD.search", 
 			"InvoicePrint.printPdf",
 			"InvoicePrint.print2Pdfs",
 			"InvoicePrint.printInvoiceAndCustomer",

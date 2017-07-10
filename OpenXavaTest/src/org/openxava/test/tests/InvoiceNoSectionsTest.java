@@ -52,10 +52,9 @@ public class InvoiceNoSectionsTest extends ModuleTestBase {
 	
 	public void testSumInCollection() throws Exception { 
 		execute("CRUD.new");
-		execute("CRUD.search");
 		setValue("year", "2004");
 		setValue("number", "9");
-		execute("Search.search");
+		execute("CRUD.refresh"); 
 		// Defined by developer
 		assertCollectionRowCount("details", 2); 
 		assertValueInCollection("details", 0, "product.unitPrice", "11.00");
@@ -75,10 +74,9 @@ public class InvoiceNoSectionsTest extends ModuleTestBase {
 		// Stores preferences
 		resetModule();
 		execute("CRUD.new");
-		execute("CRUD.search");
 		setValue("year", "2004");
 		setValue("number", "9");
-		execute("Search.search");
+		execute("CRUD.refresh"); 
 		assertTotalInCollection("details", "product.unitPrice", ""); 
 		assertTotalInCollection("details", "quantity", "8");
 		
@@ -90,10 +88,9 @@ public class InvoiceNoSectionsTest extends ModuleTestBase {
 		
 		resetModule();
 		execute("CRUD.new");
-		execute("CRUD.search");
 		setValue("year", "2004");
 		setValue("number", "9");
-		execute("Search.search");
+		execute("CRUD.refresh"); 
 		assertTotalInCollection("details", "product.unitPrice", "31.00"); 
 		assertTotalInCollection("details", "quantity", "");
 	}
@@ -101,10 +98,9 @@ public class InvoiceNoSectionsTest extends ModuleTestBase {
 	public void testCalculatedPropertyDependingOnCollectionAndOtherProperties() throws Exception { 
 		// Initial values
 		execute("CRUD.new");
-		execute("CRUD.search");
 		setValue("year", "2004");
 		setValue("number", "12");
-		execute("Search.search");
+		execute("CRUD.refresh"); 
 		assertCollectionRowCount("details", 2); 
 		assertValueInCollection("details", 0, "quantity", "5");
 		assertValueInCollection("details", 0, "amount", "50.00");

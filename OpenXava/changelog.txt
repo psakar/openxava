@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- Search action in detail mode is no longer included by default.
+- New controllers TypicalWithSearch and SearchForCRUD to use the classic search action.
 - Generate PDF works even if the browser does not allows popups, this applies to most IForwadAction too.
 - Fix: ModuleTestBase.waitAJAX() fails when navigating from a non-openxava page.
 - Clicking in detail mode when the list has no rows executes New action.

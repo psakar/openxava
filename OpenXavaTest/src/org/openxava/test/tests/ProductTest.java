@@ -22,7 +22,6 @@ public class ProductTest extends ModuleTestBase {
 		"CRUD.new",
 		"CRUD.save",
 		"CRUD.delete",
-		"CRUD.search",
 		"CRUD.refresh",
 		"EditableOnOff.setOn",
 		"EditableOnOff.setOff",
