@@ -20,7 +20,7 @@ import org.openxava.web.*;
 public class CardIterator implements Iterator<Card>, Iterable<Card> {
 	
 	private View view;
-	private HttpServletRequest request;
+	private transient HttpServletRequest request; 
 	private Messages errors;
 	private Tab tab;
 	private TableModel table; 

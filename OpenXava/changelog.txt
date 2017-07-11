@@ -1,6 +1,9 @@
 Change Log for OpenXava project
 ===============================
 
+- Material Design Icons upgraded to 1.9.32.
+- Fix: Error in JavaScript console of browser trying to loading an inexistent font file.
+- Reduced the amount of serialization errors on stopping the application server.
 - Search action in detail mode is no longer included by default.
 - New controllers TypicalWithSearch and SearchForCRUD to use the classic search action.
 - Generate PDF works even if the browser does not allows popups, this applies to most IForwadAction too.
