@@ -10799,6 +10799,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/GoMyPublicJSPInSameWindowAction.
 OpenXavaTest/pojo-src/org/openxava/test/actions/GoMyPublicJSPInSameWindowCalculatedAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/GoNoWhereInNewWindowAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/GoProposeNameAction.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/HideButtonsAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/InvoiceReportAction.java -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/LoginAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/MovieReportAction.groovy -text
@@ -10826,6 +10827,7 @@ OpenXavaTest/pojo-src/org/openxava/test/actions/SaveElementInCollectionAbortingT
 OpenXavaTest/pojo-src/org/openxava/test/actions/SearchAuthorAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/SearchPersonFromTeamMemberAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowAllAuthorsAction.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/actions/ShowButtonsAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowCreateAction.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowGoCustomerInvoicesDialogAction.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/actions/ShowQuoteProducsAction.java -text svneol=unset#text/plain

@@ -14,6 +14,7 @@ import org.openxava.model.*;
 public class Applicant extends Identifiable {
 	
 	@Column(length=40) @Required
+	@Action("Applicant.showButtons") 
 	private String name;
 	
 	@ManyToOne(fetch=FetchType.LAZY)

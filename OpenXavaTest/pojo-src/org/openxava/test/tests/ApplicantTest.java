@@ -21,7 +21,7 @@ public class ApplicantTest extends ModuleTestBase {
 	public ApplicantTest(String testName) {
 		super(testName, "Applicant");		
 	}
-	
+		
 	public void testCancelAddColumnsFromSearhReference() throws Exception { 
 		execute("CRUD.new");
 		execute("Reference.search", "keyProperty=skill.description");
@@ -54,7 +54,7 @@ public class ApplicantTest extends ModuleTestBase {
 		assertEquals(expectedCount, getHtmlPage().getElementsByName(inputName).size());		
 	}
 	
-	public void assertHelp() throws Exception { 
+	private void assertHelp() throws Exception { 
 		try {
 			getHtmlPage().getAnchorByHref("http://openxava.wikispaces.com/help_en");
 		}
@@ -104,7 +104,7 @@ public class ApplicantTest extends ModuleTestBase {
 		assertEquals(expectedDescription, moduleDescription.asText());
 	}
 
-	public void testPolymorphicReferenceFromBaseClass_savingTwiceWithNoRefreshAfterAndHiddenKey() throws Exception { 
+	public void testPolymorphicReferenceFromBaseClass_savingTwiceWithNoRefreshAfterAndHiddenKey_showHideButtons() throws Exception {  
 		// Polymorphic reference from base class
 		execute("Mode.detailAndFirst");
 		assertNoErrors();
@@ -126,6 +126,15 @@ public class ApplicantTest extends ModuleTestBase {
 		assertValue("name", "PEPITO");	
 		execute("CRUD.delete");
 		assertNoErrors();		
+		
+		// Show/hide buttons
+		assertAction("Applicant.hideButtons");
+		execute("Applicant.hideButtons");
+		assertNoAction("CRUD.new");
+		assertNoAction("Applicant.hideButtons");
+		execute("Applicant.showButtons", "xava.keyProperty=name");
+		assertAction("CRUD.new");
+		assertAction("Applicant.hideButtons");
 	}
 	
 	public void testHtmlHeadNotDuplicated() throws Exception {

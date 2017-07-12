@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- New methods showButtons() and hideButtons() in ModuleManager to show/hide the button bars from UI.
 - Material Design Icons upgraded to 1.9.32.
 - Fix: Error in JavaScript console of browser trying to loading an inexistent font file.
 - Reduced the amount of serialization errors on stopping the application server.

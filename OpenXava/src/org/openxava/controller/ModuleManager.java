@@ -122,7 +122,8 @@ public class ModuleManager implements java.io.Serializable {
 	private Collection<MetaSubcontroller> metaSubControllers;
 	private Map<String,Collection<MetaAction>> subcontrollersMetaActions;
 	private Collection<MetaControllerElement> metaControllerElements;
-	private Set<String> actionsForPermalink; 
+	private Set<String> actionsForPermalink;
+	private boolean buttonsVisible = true;  
 
 	/**
 	 * HTML action bind to the current form.
@@ -1642,6 +1643,7 @@ public class ModuleManager implements java.io.Serializable {
 	}
 
 	public boolean isButtonBarVisible() {
+		if (!buttonsVisible) return false;  
 		if (!getMetaActionsMode().isEmpty())
 			return true;
 		Iterator it = getMetaActions().iterator();
@@ -1652,6 +1654,33 @@ public class ModuleManager implements java.io.Serializable {
 		}
 		if (!getSubcontrollers().isEmpty()) return true;
 		return false;
+	}
+	
+	/** 
+	 * @since 5.8
+	 */
+	public boolean isBottomButtonsVisible() { 
+		return buttonsVisible;
+	}
+	
+	/**
+	 * Shows the top button bar and the buttons on bottom if they are hidden. 
+	 * 
+	 * @since 5.8
+	 */
+	public void showButtons() { 
+		buttonsVisible = true;
+		reloadAllUINeeded = true; 
+	}
+
+	/**
+	 * Hides the top button bar and the buttons on bottom. 
+	 * 
+	 * @since 5.8
+	 */	
+	public void hideButtons() { 
+		buttonsVisible = false;
+		reloadAllUINeeded = true; 
 	}
 
 	public boolean isFormUpload() {

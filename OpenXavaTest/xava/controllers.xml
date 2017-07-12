@@ -92,6 +92,10 @@
 			<set property="resetAfter" value="false"/>
 			<set property="refreshAfter" value="false"/>
 		</action>
+		<action name="hideButtons"  
+			class="org.openxava.test.actions.HideButtonsAction"/>
+		<action name="showButtons" hidden="true" 
+			class="org.openxava.test.actions.ShowButtonsAction"/>			
 	</controller>			
 	
 	<controller name="JPACRUD">	
