@@ -7069,6 +7069,7 @@ OpenXava/web/style/yahoo-treeview/treeview-sprite.gif -text
 OpenXava/web/style/yahoo-treeview/treeview.css -text
 OpenXava/web/style/yahoo.css -text svneol=unset#application/octet-stream
 OpenXava/web/subButton.jsp -text svneol=unset#text/plain
+OpenXava/web/viewExt.jsp -text svneol=unset#text/plain
 OpenXava/xava/default-controllers.xml -text svneol=unset#text/plain
 OpenXava/xava/default-converters.xml -text
 OpenXava/xava/default-editors.xml -text

@@ -960,10 +960,10 @@
 	
 	<target name="copyWeb">
 		<copy todir="../${project}/web/xava" overwrite="true" >
-			<fileset dir="../OpenXava/web" excludes="WEB-INF/**,style/custom.css,propertyActionsExt.jsp,referenceActionsExt.jsp,referenceFrameHeaderExt.jsp,collectionFrameHeaderExt.jsp"/>
+			<fileset dir="../OpenXava/web" excludes="WEB-INF/**,style/custom.css,propertyActionsExt.jsp,referenceActionsExt.jsp,referenceFrameHeaderExt.jsp,collectionFrameHeaderExt.jsp,viewExt.jsp"/>
 		</copy>
 		<copy todir="../${project}/web/xava">
-			<fileset dir="../OpenXava/web" includes="style/custom.css,propertyActionsExt.jsp,referenceActionsExt.jsp,referenceFrameHeaderExt.jsp,collectionFrameHeaderExt.jsp">
+			<fileset dir="../OpenXava/web" includes="style/custom.css,propertyActionsExt.jsp,referenceActionsExt.jsp,referenceFrameHeaderExt.jsp,collectionFrameHeaderExt.jsp,viewExt.jsp">
 				<present present="srconly" targetdir="../${project}/web/xava" />
 			</fileset>
 		</copy>				
