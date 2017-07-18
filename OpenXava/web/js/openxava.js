@@ -192,7 +192,24 @@ openxava.initUI = function(application, module, currentRow, viewSimple) {
 	}
 	openxava.initSelectedRows();
 	openxava.initCurrentRow(application, module, currentRow);
-	openxava.initViewSimple(application, module, viewSimple); 
+	openxava.initViewSimple(application, module, viewSimple);
+	openxava.initTooltips(); 
+}
+
+openxava.initTooltips = function() { 
+	$(".xava_editor").tooltip({
+		position: {
+			my: "left+3 center", at: "right center", 
+	        using: function( position, feedback ) {
+			$( this ).css( position );
+			$( "<div>" )
+				.addClass( "arrow" )
+				.addClass( feedback.vertical )
+				.addClass( feedback.horizontal )
+				.appendTo( this );
+	        }
+		}
+	});	
 }
 
 openxava.initViewSimple = function(application, module, viewSimple) { 

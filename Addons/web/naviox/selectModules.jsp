@@ -17,7 +17,7 @@ boolean bookmarkModules = false;
 <%@ include file="getModulesList.jsp" %> 
 <%
 String smodulesLimit = request.getParameter("modulesLimit");
-int modulesLimit = smodulesLimit == null?15:Integer.parseInt(smodulesLimit);
+int modulesLimit = smodulesLimit == null?20:Integer.parseInt(smodulesLimit); 
 int counter = 0; 
 boolean loadMore = false;
 for (Iterator it= modulesList.iterator(); it.hasNext();) {

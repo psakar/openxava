@@ -6094,6 +6094,7 @@ OpenXava/src/org/openxava/web/style/WebSpherePortal6Style.java -text
 OpenXava/src/org/openxava/web/style/WebSpherePortal8Style.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/style/WebSpherePortalStyle.java -text
 OpenXava/src/org/openxava/web/taglib/ActionTag.java -text
+OpenXava/src/org/openxava/web/taglib/ActionTagBase.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/web/taglib/ButtonTag.java -text
 OpenXava/src/org/openxava/web/taglib/DescriptionsListTag.java -text
 OpenXava/src/org/openxava/web/taglib/EditorTag.java -text
@@ -11104,7 +11105,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Year.java -text
 OpenXavaTest/pojo-src/org/openxava/test/portlets/VersionPortlet.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/AnnotatedPOJOTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/ApplicantTest.java -text
-OpenXavaTest/pojo-src/org/openxava/test/tests/ApplicationUserTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/ApplicationUserTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/AppointmentTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/ArtistTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/AsEmbed1Test.java -text svneol=unset#text/plain

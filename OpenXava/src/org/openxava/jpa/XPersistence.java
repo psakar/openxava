@@ -197,6 +197,7 @@ public class XPersistence {
 				entityManagerFactory = Persistence.createEntityManagerFactory(getPersistenceUnit(), properties);
 			}
 			catch (NoSuchFieldError ex) {
+				ex.printStackTrace(); // tmp
 				log.error(XavaResources.getString("incorrect_openxava_upgrade")); 
 				throw ex;
 			}

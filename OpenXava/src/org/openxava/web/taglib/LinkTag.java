@@ -2,7 +2,6 @@ package org.openxava.web.taglib;
 
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
-import javax.servlet.jsp.tagext.*;
 
 import org.apache.commons.logging.*;
 import org.openxava.controller.meta.*;
@@ -14,12 +13,10 @@ import org.openxava.web.*;
  * @author Javier Paniza
  */
 
-public class LinkTag extends TagSupport implements IActionTag {
+public class LinkTag extends ActionTagBase implements IActionTag {  
 
 	private static Log log = LogFactory.getLog(LinkTag.class);
 	
-	private String action;
-	private String argv;
 	private String cssClass;
 	private String cssStyle;
 	private boolean hasBody;
@@ -57,7 +54,7 @@ public class LinkTag extends TagSupport implements IActionTag {
 				pageContext.getOut().print("'");	
 			}
 			pageContext.getOut().print(" title='");
-			pageContext.getOut().print(metaAction.getKeystroke() + " - " +  metaAction.getDescription(request));
+			pageContext.getOut().print(getTooltip(metaAction)); 
 			pageContext.getOut().print("'");			
 			pageContext.getOut().print(" href=\"javascript:openxava.executeAction(");
 			pageContext.getOut().print("'");				
@@ -118,22 +115,6 @@ public class LinkTag extends TagSupport implements IActionTag {
 			throw new JspException(XavaResources.getString("link_tag_error", getAction()));
 		}
 		return super.doEndTag();
-	}
-
-	public String getAction() {
-		return action;
-	}
-
-	public void setAction(String string) {
-		action = string;
-	}
-
-	public String getArgv() {
-		return argv;
-	}
-
-	public void setArgv(String string) {
-		argv = string;		
 	}
 
 	public String getCssClass() {

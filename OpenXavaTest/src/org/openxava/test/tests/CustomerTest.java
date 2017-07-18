@@ -576,7 +576,7 @@ public class CustomerTest extends CustomizeListTestBase {
 				
 		// Search
 		execute("CRUD.new"); 
-		assertCollectionRowCount("deliveryPlaces", 0);
+		assertCollectionRowCount("deliveryPlaces", 0); 
 		setValue("number", "66");
 		execute("CRUD.refresh");
 		

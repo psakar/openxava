@@ -373,7 +373,7 @@ input[type="text"], input[type="password"], input[type="file"], select, textarea
 	border-style: solid;	
 	border-width: 1px;
 	box-shadow: rgba(0, 0, 0, 0.046875) 0px 1px 3px 0px inset, rgba(255, 255, 255, 0.0742188) 0px 1px 0px 0px;
-	font-size: 13px; 
+	font-size: 14px;  
 	outline-color: black;
 	outline-style: none;
 	outline-width: 0px;
@@ -546,6 +546,12 @@ i {
 .ox-list-odd .mdi-border-color, .ox-list-pair .mdi-border-color {
 	vertical-align: -9px;
 
+}
+
+.ox-list-pair div, .ox-list-odd div {
+	font-size: 14px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 
 .ox-module i, .ui-dialog i { 
@@ -1686,4 +1692,53 @@ a.cke_button_disabled:hover, a.cke_button_disabled:focus, a.cke_button_disabled:
 	position: absolute;
 	right: 0;
 	top: 0;
+}
+
+.ui-tooltip, .arrow:after {
+	background: black !important;
+	border: 1px solid white;
+}
+
+.ui-tooltip {
+	padding: 10px 20px;
+	color: white !important;
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 14px;
+	box-shadow: 0 0 7px black;
+}
+
+.arrow {
+	width: 23px;
+	height: 26px;
+	overflow: hidden;
+	position: absolute;
+	left: 0px;
+	margin-left: -33px;
+	bottom: calc(30% - 5px);
+}
+
+.arrow.top {
+	top: 16px;
+	bottom: auto;
+}
+
+.arrow.left {
+	left: 10px;
+}
+
+.arrow:after {
+	content: "";
+	position: absolute;
+	left: 20px;
+	top: -2px;
+	width: 25px;
+	height: 25px;
+	box-shadow: 6px 5px 9px -9px black;
+	transform: rotate(135deg);
+}
+
+.arrow.top:after {
+	bottom: 20px;
+	top: auto;
 }

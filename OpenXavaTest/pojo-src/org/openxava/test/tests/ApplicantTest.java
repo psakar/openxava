@@ -67,15 +67,15 @@ public class ApplicantTest extends ModuleTestBase {
 		modulesLimit = false;
 		resetModule();
 		
-		assertModulesCount(15);
+		assertModulesCount(20); 
 		assertTrue(AbstractWall.class.isAnnotationPresent(MappedSuperclass.class)); // This should be the first one, but as it's MappedSupperclass in not shown
-		assertFirstModuleInMenu("Academic year", "Academic year"); // Not in i18n, to test a case
+		assertFirstModuleInMenu("Academic year", ""); // Not in i18n, to test a case 
 
 		HtmlElement searchBox = getHtmlPage().getHtmlElementById("search_modules_text");
 		searchBox.type("INVOICE");
 		assertEquals("INVOICE", searchBox.getAttribute("value"));		
 		getWebClient().waitForBackgroundJavaScriptStartingBefore(10000);
-		assertModulesCount(15);
+		assertModulesCount(20); 
 		assertFirstModuleInMenu("Current year invoices", "Current year invoices management"); 
 		
 		HtmlAnchor loadMoreModules = (HtmlAnchor) getHtmlPage().getHtmlElementById("more_modules").getParentNode();
@@ -86,7 +86,7 @@ public class ApplicantTest extends ModuleTestBase {
 		searchBox.type(" \b");
 		assertEquals("", searchBox.getAttribute("value"));
 		getWebClient().waitForBackgroundJavaScriptStartingBefore(10000);
-		assertModulesCount(15);
+		assertModulesCount(20); 
 		
 		loadMoreModules = (HtmlAnchor) getHtmlPage().getHtmlElementById("more_modules").getParentNode();
 		loadMoreModules.click();

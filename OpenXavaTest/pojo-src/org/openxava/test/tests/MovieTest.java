@@ -92,7 +92,7 @@ public class MovieTest extends ModuleTestBase {
 		
 		//Adding one file
 		execute("AttachedFiles.add", "newFilesetProperty=scripts");
-		assertDialogTitle("Add files");
+		assertDialogTitle("Add files"); 
 		String filepath  = System.getProperty("user.dir") + "/reports/Corporation.html";
 		setFileValue("newFile", filepath);
 		execute("UploadFileIntoFileset.uploadFile");

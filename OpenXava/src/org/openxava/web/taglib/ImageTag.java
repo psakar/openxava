@@ -2,7 +2,6 @@ package org.openxava.web.taglib;
 
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
-import javax.servlet.jsp.tagext.*;
 
 import org.apache.commons.logging.*;
 import org.openxava.controller.meta.*;
@@ -15,12 +14,10 @@ import org.openxava.web.style.*;
  * @author Javier Paniza
  */
 
-public class ImageTag extends TagSupport implements IActionTag {
+public class ImageTag extends ActionTagBase { 
 	
 	private static Log log = LogFactory.getLog(ImageTag.class);
 	
-	private String action;
-	private String argv;
 	private String cssClass;
 	private String cssStyle;
 	
@@ -55,7 +52,7 @@ public class ImageTag extends TagSupport implements IActionTag {
 				pageContext.getOut().print("'");	
 			}			
 			pageContext.getOut().print(" title='");
-			pageContext.getOut().print(metaAction.getKeystroke() + " - " +  metaAction.getDescription(request));
+			pageContext.getOut().print(getTooltip(metaAction)); 
 			pageContext.getOut().print("'");
 			pageContext.getOut().print(" href=\"javascript:openxava.executeAction(");
 			pageContext.getOut().print("'");				
@@ -108,21 +105,10 @@ public class ImageTag extends TagSupport implements IActionTag {
 		}
 		return SKIP_BODY;
 	}
-
-	public String getAction() {
-		return action;
-	}
-
-	public void setAction(String string) {
-		action = string;
-	}
-
-	public String getArgv() {
-		return argv;
-	}
-
-	public void setArgv(String string) {
-		argv = string;
+	
+	protected String getActionDescription(MetaAction metaAction) { 
+		String description = metaAction.getDescription();
+		return Is.emptyString(description)?metaAction.getLabel():description;
 	}
 
 	public void setCssClass(String cssClass) {

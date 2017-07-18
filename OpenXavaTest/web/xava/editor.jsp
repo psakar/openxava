@@ -61,7 +61,7 @@ if (labelFormat == MetaPropertyView.SMALL_LABEL) {
 <% } else { %>
 <%@ include file="editorIcons.jsp"%>
 <% } // if (!hasFrame) %>
-<span id="<xava:id name='<%="editor_" + view.getPropertyPrefix() + p.getName()%>'/>"> 
+<span id="<xava:id name='<%="editor_" + view.getPropertyPrefix() + p.getName()%>'/>" class="xava_editor"> 
 <xava:editor property="<%=p.getName()%>" editable="<%=editable%>" throwPropertyChanged="<%=throwPropertyChanged%>"/>
 </span>
 

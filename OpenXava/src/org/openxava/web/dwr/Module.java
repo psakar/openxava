@@ -316,7 +316,7 @@ public class Module extends DWRBase {
 		result.setDialogTitle((String) getView().getObject("xava.dialogTitle"));
 	}
 
-	private void setDialogTitle(Result result) {				
+	private void setDialogTitle(Result result) {
 		if (!Is.emptyString(getView().getTitle())) {
 			result.setDialogTitle(getView().getTitle());
 		}
@@ -324,8 +324,12 @@ public class Module extends DWRBase {
 			MetaAction lastAction = manager.getLastExecutedMetaAction();
 			String model = Labels.get(getView().getModelName());
 			if (lastAction == null) result.setDialogTitle(model);
-			else if (Is.emptyString(model)) result.setDialogTitle(lastAction.getDescription()); 
-			else result.setDialogTitle(lastAction.getDescription() + " - " + model);
+			else {
+				String actionTitle = lastAction.getDescription();
+				if (Is.emptyString(actionTitle)) actionTitle = lastAction.getLabel();
+				if (Is.emptyString(model)) result.setDialogTitle(actionTitle); 
+				else result.setDialogTitle(actionTitle + " - " + model);
+			}
 		}		
 		getView().putObject("xava.dialogTitle", result.getDialogTitle());
 	}

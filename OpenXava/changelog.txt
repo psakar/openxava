@@ -1,6 +1,11 @@
 Change Log for OpenXava project
 ===============================
 
+- New striking tooltip for editors activable just with the focus. 
+- Tooltip is omitted if matches with label for actions and editors.
+- Module description in menu of modules is omitted if matches with module name. 
+- Font size for list and editors changed.
+- Number of modules shown in the menu in the first load is 20, before it was 15.
 - New methods showButtons() and hideButtons() in ModuleManager to show/hide the button bars from UI.
 - Material Design Icons upgraded to 1.9.32.
 - Fix: Error in JavaScript console of browser trying to loading an inexistent font file.

@@ -20,7 +20,7 @@ public class WarehouseTest extends WarehouseSplitTestBase {
 		assertLabelInList(2, "Name"); 
 		execute("CRUD.new");	
 		assertToolTip("number", "Id number of the warehouse");
-		assertToolTip("zoneNumber", "Zone");
+		assertToolTip("zoneNumber", ""); 
 	}
 
 	private void assertToolTip(String property, String value) {

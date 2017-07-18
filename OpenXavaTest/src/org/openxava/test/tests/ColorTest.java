@@ -206,7 +206,8 @@ public class ColorTest extends ModuleTestBase {
 		assertValue("name", "ROJO");
 	}
 	
-	public void testKeysWithZeroValue() throws Exception {
+	public void testKeysWithZeroValue_actionsTooltips() throws Exception { 
+		assertLinkTooltip("Color.seeMessageSelected", ""); 
 		assertValueInList(0, "number", "0");
 		assertValueInList(0, "name", "ROJO");
 		execute("Mode.detailAndFirst");
@@ -214,8 +215,13 @@ public class ColorTest extends ModuleTestBase {
 		assertValue("number", "0");
 		assertValue("name", "ROJO");
 		assertValue("sample", "RED");
+
+		assertLinkTooltip("CRUD.new", "control N - Create a new entity");
+		assertLinkTooltip("Reference.createNew", "Add");
+		assertInputTooltip("TypicalNotResetOnSave.save", "F3 - Save the current entity");
+		assertInputTooltip("Color.seeMessage", "");
 	}		
-	
+		
 	public void testActionOnInitOnEachBeforeRequestInSubcontrollers_messageScapedWithQuotes() throws Exception{ 
 		assertMessagesCount(4); 
 		assertMessage("Color initiated");
@@ -326,7 +332,7 @@ public class ColorTest extends ModuleTestBase {
 	public void testShowActionOnlyInEachRow() throws Exception{
 		// confirmMessage with row
 		String html = getHtml();
-		assertTrue(html.contains("Delete record on row 2: Are you sure?"));
+		assertTrue(html.contains("Delete record on row 2: Are you sure?")); 
 		
 		// action with mode=NONE: it display only in each row
 		assertAction("CRUD.deleteRow");
@@ -443,6 +449,27 @@ public class ColorTest extends ModuleTestBase {
 				x++;
 			}
 		}
+	}
+	
+	private void assertLinkTooltip(String action, String tooltip) { 
+		for (HtmlElement el: getHtmlPage().getBody().getHtmlElementsByTagName("a")) {
+			HtmlAnchor link = (HtmlAnchor) el;
+			if (link.getHrefAttribute().contains("'" + action + "'")) {
+				assertEquals(tooltip, link.getAttribute("title"));
+				return;
+			}
+		}
+		fail(action + " not found"); 
+	}
+	
+	private void assertInputTooltip(String action, String tooltip) { 
+		for (HtmlElement input: getHtmlPage().getBody().getHtmlElementsByTagName("input")) {
+			if (input.getAttribute("onclick").contains("\"" + action + "\"")) {
+				assertEquals(tooltip, input.getAttribute("title"));
+				return;
+			}
+		}
+		fail(action + " not found"); 
 	}
 	
 }

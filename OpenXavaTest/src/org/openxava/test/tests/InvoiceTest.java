@@ -176,7 +176,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		execute("Mode.detailAndFirst");
 		execute("Sections.change", "activeSection=1");
 		execute("Invoice.editDetail", "row=0,viewObject=xava_view_section1_details");
-		assertDialogTitle("Edit - Invoice detail");
+		assertDialogTitle("Edit - Invoice detail"); 
 		execute("Reference.modify", "model=Product,keyProperty=product.number");
 		assertDialogTitle("Modify - Product");
 		execute("Gallery.edit", "galleryProperty=photos");

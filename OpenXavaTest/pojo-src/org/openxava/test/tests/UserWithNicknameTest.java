@@ -62,7 +62,7 @@ public class UserWithNicknameTest extends ModuleTestBase {
 		assertMessage("User with nickname created successfully");
 		execute("Mode.list");
 		execute("Mode.detailAndFirst");
-		attachFiles();				
+		attachFiles();			
 		execute("CRUD.delete");
 		assertNoErrors();
 		removeNicknames();
@@ -71,7 +71,7 @@ public class UserWithNicknameTest extends ModuleTestBase {
 
 	public void testStoreFrameStatusWithTooLongName() throws Exception {
 		//Open frame		
-		assertEquals(false, isClosedFrameInHtml());
+		assertEquals(false, isClosedFrameInHtml()); 
 		assertEquals(false, isClosedFrameInPreferences());		
 		closeFrame(); 
 		//Closed frame

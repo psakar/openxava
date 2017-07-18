@@ -247,6 +247,7 @@ public class MetaAction extends MetaControllerElement implements Cloneable {
 	public String getConfirmMessage(Locale locale, String... argv) {
 		if (!isConfirm()) return "";
 		String description = getDescription(locale);
+		if (Is.emptyString(description)) description = getLabel(locale); 
 		if (argv != null && argv.length > 0) return XavaResources.getString(locale, "are_you_sure_row_action", description, argv[0]);
 		if (Is.emptyString(description)) return XavaResources.getString(locale, "are_you_sure"); 
 		return XavaResources.getString(locale, "are_you_sure_action", description);

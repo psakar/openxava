@@ -5650,7 +5650,7 @@ public class View implements java.io.Serializable {
 	/**
 	 * @since 4m1
 	 */	
-	public String getTitle() { 
+	public String getTitle() {
 		if (title == null) {
 			if (titleId == null) title="";
 			else {
