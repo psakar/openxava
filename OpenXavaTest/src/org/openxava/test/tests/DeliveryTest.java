@@ -643,7 +643,6 @@ public class DeliveryTest extends ModuleTestBase {
 			"Navigation.next",
 			"CRUD.new",
 			"CRUD.save",
-			"CRUD.delete",
 			"CRUD.refresh",
 			"SearchForCRUD.search", 
 			"Mode.list",
@@ -671,7 +670,6 @@ public class DeliveryTest extends ModuleTestBase {
 		String [] minimumActions = {
 			"CRUD.new",
 			"CRUD.save",
-			"CRUD.delete",
 			"CRUD.refresh",
 			"Mode.list",
 			"Mode.split",

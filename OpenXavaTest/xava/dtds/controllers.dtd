@@ -40,6 +40,7 @@
  confirm (true|false) "false"
  in-each-row (true|false) "false"
  process-selected-items (true|false) "false"
+ available-on-new (true|false) "true"
 >
 
 <!ELEMENT use-object EMPTY>

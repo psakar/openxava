@@ -27,7 +27,6 @@ public class OnlyEditDetailsInvoiceTest extends ModuleTestBase {
 			"Navigation.next",
 			"CRUD.new",
 			"CRUD.save",
-			"CRUD.delete",
 			"CRUD.refresh",
 			"Mode.list",
 			"Mode.split",

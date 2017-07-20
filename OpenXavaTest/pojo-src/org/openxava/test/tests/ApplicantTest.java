@@ -37,7 +37,7 @@ public class ApplicantTest extends ModuleTestBase {
 		execute("CRUD.new");
 		assertNoAction("JPACRUD.create");
 		execute("Applicant.showCreate");
-		assertAction("JPACRUD.create");
+		assertAction("JPACRUD.create"); 
 		assertActionsCount("JPACRUD.create", 1);
 		setValue("name", "JUNIT APPLICANT");
 		execute("JPACRUD.create");

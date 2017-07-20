@@ -60,17 +60,18 @@ here that you want to override.
 			icon="content-save"
 			keystroke="Control S"/>	
 		
-		<action name="delete" mode="detail" confirm="true"
-			class="org.openxava.actions.DeleteAction"
-			image="delete.gif"
-			icon="delete"
-			keystroke="Control D"/>
-		
 		<action name="refresh" mode="detail"			
 			class="org.openxava.actions.SearchAction"
 			image="refresh.gif"
 			icon="refresh"
-			keystroke="control B"/>											
+			keystroke="control B"/>
+		
+		<action name="delete" mode="detail" confirm="true"
+			class="org.openxava.actions.DeleteAction"
+			image="delete.gif"
+			icon="delete"
+			available-on-new="false"
+			keystroke="Control D"/>		
 		
 		<action name="searchByViewKey" hidden="true"			
 			class="org.openxava.actions.SearchByViewKeyAction"/>
@@ -92,8 +93,8 @@ here that you want to override.
 			class="org.openxava.actions.DeleteSelectedAction"
 			image="delete.gif"
 			icon="delete"
-			in-each-row="true"/>					
-		
+			in-each-row="true"/>	
+			
 	</controller>
 		<controller name="Print">
 								

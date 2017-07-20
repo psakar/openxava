@@ -1704,7 +1704,6 @@ public class InvoiceTest extends CustomizeListTestBase {
 			"Navigation.next",
 			"CRUD.new",
 			"CRUD.save",
-			"CRUD.delete",
 			"CRUD.refresh",
 			"SearchForCRUD.search", 
 			"InvoicePrint.printPdf",

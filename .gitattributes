@@ -12627,6 +12627,7 @@ OpenXavaTest/web/xava/style/yahoo-treeview/treeview-sprite.gif -text
 OpenXavaTest/web/xava/style/yahoo-treeview/treeview.css -text
 OpenXavaTest/web/xava/style/yahoo.css -text svneol=unset#application/octet-stream
 OpenXavaTest/web/xava/subButton.jsp -text svneol=unset#text/plain
+OpenXavaTest/web/xava/viewExt.jsp -text svneol=unset#text/plain
 OpenXavaTest/websphere-as400.properties -text
 OpenXavaTest/xava/application.xml -text
 OpenXavaTest/xava/code-generators.xml -text

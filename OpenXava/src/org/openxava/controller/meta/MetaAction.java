@@ -43,7 +43,8 @@ public class MetaAction extends MetaControllerElement implements Cloneable {
 	private boolean beforeEachRequest;
 	private boolean afterEachRequest; 
 	private boolean inEachRow; 
-	private boolean processSelectedItems;  
+	private boolean processSelectedItems;
+	private boolean availableOnNew; 
 	
 	public MetaAction() {
 	}
@@ -348,6 +349,14 @@ public class MetaAction extends MetaControllerElement implements Cloneable {
 		catch (Exception ex) {
 			return false;
 		}
+	}
+
+	public boolean isAvailableOnNew() {
+		return availableOnNew;
+	}
+
+	public void setAvailableOnNew(boolean availableOnNew) {
+		this.availableOnNew = availableOnNew;
 	}
 
 }

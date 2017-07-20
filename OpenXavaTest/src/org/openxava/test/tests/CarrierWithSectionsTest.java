@@ -732,7 +732,7 @@ public class CarrierWithSectionsTest extends ModuleTestBase {
 		execute("CarrierWithSections.setPrintController");
 		assertActions(printActions);
 		execute("CarrierWithSections.returnToPreviousControllers");
-		assertActions(typicalActions);
+		assertActions(typicalActions); 
 		execute("CarrierWithSections.returnToPreviousControllers");
 		assertActions(defaultActions);
 		

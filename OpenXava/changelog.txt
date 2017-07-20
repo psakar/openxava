@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- New attribute available-on-new for action in controllers.xml to exclude actions when creating a new element.
+- Delete action in detail mode is not present if there is not an entity selected.
 - New striking tooltip for editors activable just with the focus. 
 - Tooltip is omitted if matches with label for actions and editors.
 - Module description in menu of modules is omitted if matches with module name. 

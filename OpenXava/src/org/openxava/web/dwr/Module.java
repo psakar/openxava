@@ -340,6 +340,7 @@ public class Module extends DWRBase {
 			put(result, "core", "core.jsp");
 		}
 		else {			
+			manager.isActionsChanged();
 			if (manager.isActionsChanged()) {									
 				if (manager.getDialogLevel() > 0) { 
 					put(result, "bottom_buttons", "bottomButtons.jsp?buttonBar=false");					

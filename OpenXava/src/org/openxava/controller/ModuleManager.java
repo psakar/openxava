@@ -123,7 +123,8 @@ public class ModuleManager implements java.io.Serializable {
 	private Map<String,Collection<MetaAction>> subcontrollersMetaActions;
 	private Collection<MetaControllerElement> metaControllerElements;
 	private Set<String> actionsForPermalink;
-	private boolean buttonsVisible = true;  
+	private boolean buttonsVisible = true;
+	private boolean viewKeyEditable;   
 
 	/**
 	 * HTML action bind to the current form.
@@ -156,8 +157,8 @@ public class ModuleManager implements java.io.Serializable {
 	/**
 	 * @since 4.8
 	 */
-	public void addSimpleMetaAction(MetaAction action) {
-		if (getMetaActions().contains(action)) return; 
+	public void addSimpleMetaAction(MetaAction action) { 
+		if (getMetaActions().contains(action)) return;
 		getMetaActions().add(action);
 		getMetaControllerElements().add(action);
 		defaultActionQualifiedName = null;
@@ -1444,6 +1445,7 @@ public class ModuleManager implements java.io.Serializable {
 		} else {
 			reloadAllUINeeded = false;
 		}		
+		viewKeyEditable = getView().isKeyEditable(); 
 	}
 	
 	private Set<String> toQualifiedNames(Collection<MetaAction> ... metaActions) { 
@@ -1715,17 +1717,26 @@ public class ModuleManager implements java.io.Serializable {
 		if (hiddenActions == null)
 			return;
 		hiddenActions.remove(action);
+		actionsChanged = true;
 		defaultActionQualifiedName = null;
 		metaActions = null;
-		actionsChanged = true;
 		subcontrollersMetaActions = null;
-		metaControllerElements = null; 
+		metaControllerElements = null;
 	}
 	
 	public boolean actionApplies(MetaAction action) { 
-		return !action.isHidden() && (hiddenActions == null || !hiddenActions.contains(action.getQualifiedName())) && appliesToListEditor(action);
+		return !action.isHidden() && 
+			(hiddenActions == null || !hiddenActions.contains(action.getQualifiedName())) && 
+			appliesToListEditor(action) && 
+			appliesToDetailState(action);
 	}
 	
+	private boolean appliesToDetailState(MetaAction action) { 
+		if (isListMode()) return true;
+		if (action.isAvailableOnNew()) return true;
+		return !getView().isKeyEditable();
+	}
+
 	private void refine(Collection collection) throws Exception { 
 		if (refiner == null) return;
 		XObjects.execute(refiner, "refine", MetaModule.class, getMetaModule(),
@@ -1741,7 +1752,17 @@ public class ModuleManager implements java.io.Serializable {
 	 * <p>
 	 */
 	public boolean isActionsChanged() {
-		return actionsChanged;
+		if (actionsChanged) return true;
+		if (isListMode()) return false;
+		if (viewKeyEditable == getView().isKeyEditable()) return false;
+		return isAnyNotAvailableAction();
+	}
+	
+	private boolean isAnyNotAvailableAction() { 
+		for (MetaAction action: getMetaActions()) {
+			if (action.isAvailableOnNew()) return true;
+		}
+		return false;
 	}
 	
 	/** @since 5.7 */

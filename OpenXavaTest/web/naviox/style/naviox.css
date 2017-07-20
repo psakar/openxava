@@ -730,8 +730,11 @@ A#show_modules  {
 	background: -webkit-gradient(linear, left bottom, left top, from(#F5F5F5), to(#F5F5F5));
 }
 
-input[type="button"]:hover, .ox-card:hover { 
+input[type="button"]:hover, .ox-card:hover, .ox-card:hover i { 
 	color: #191919;
+}
+
+input[type="button"]:hover, .ox-card:hover { 
 	box-shadow: 2px 2px 5px #CCCCCC; 
 	-moz-box-shadow: 2px 2px 5px #CCCCCC; 
 	-webkit-box-shadow: 2px 2px 5px #CCCCCC;

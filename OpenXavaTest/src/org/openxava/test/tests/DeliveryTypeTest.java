@@ -93,7 +93,7 @@ public class DeliveryTypeTest extends ModuleTestBase {
 	
 	private void actionInCorrectBar() { 
 		String topBarText = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_DeliveryType__button_bar").asText();
-		assertTrue(topBarText.contains("Save Delete"));
+		assertTrue(topBarText.contains("Save Refresh")); 
 		assertTrue(topBarText.contains("Save not reset Save not refresh"));
 		assertFalse(topBarText.contains("Assert combo deliveries"));
 		

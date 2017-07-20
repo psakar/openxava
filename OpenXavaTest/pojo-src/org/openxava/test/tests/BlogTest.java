@@ -29,7 +29,7 @@ public class BlogTest extends ModuleTestBase {
 	public void testSetControllersAndRemoveActionsInTheSameAction() throws Exception {
 		execute("Blog.login");
 		assertDialog();
-		assertAction("Login.login");
+		assertAction("Login.login"); 
 		assertAction("Dialog.cancel");
 		assertNoAction("BlogLogin.notWanted");
 	}

@@ -15,7 +15,24 @@ import static org.openxava.util.Strings.multiline;
 
 public class ProductTest extends ModuleTestBase { 
 	
-	private String [] detailActions = {
+	private String [] newActions = {
+		"Navigation.previous",
+		"Navigation.first",
+		"Navigation.next",
+		"CRUD.new",
+		"CRUD.save",
+		"CRUD.refresh",
+		"EditableOnOff.setOn",
+		"EditableOnOff.setOff",
+		"Mode.list",
+		"Mode.split",
+		"Product.setLimitZoneTo1",
+		"Product.setLimitZoneTo0",
+		"Product.changeProductPrice",
+		"Gallery.edit"
+	};
+	
+	private String [] editActions = { 
 		"Navigation.previous",
 		"Navigation.first",
 		"Navigation.next",
@@ -180,7 +197,7 @@ public class ProductTest extends ModuleTestBase {
 		assertActions(listActions);
 		
 		execute("CRUD.new");
-		assertActions(detailActions);
+		assertActions(newActions);
 
 		// Verifying initial status		
 		String [][] familyValues = {
@@ -252,7 +269,7 @@ public class ProductTest extends ModuleTestBase {
 		
 		// Create
 		execute("CRUD.new");
-		assertActions(detailActions);
+		assertActions(newActions);
 		setValue("number", "66");
 		setValue("description", "TEST PRODUCT");
 		setValue("familyNumber", "1");
@@ -283,7 +300,7 @@ public class ProductTest extends ModuleTestBase {
 		assertActions(listActions);
 		
 		execute("CRUD.new");
-		assertActions(detailActions);
+		assertActions(newActions);
 		
 		// Change value
 		setValue("unitPrice", "100");
@@ -293,7 +310,7 @@ public class ProductTest extends ModuleTestBase {
 	public void testCalculatedDefaultValueDependent() throws Exception { 
 		assertActions(listActions);				
 		execute("CRUD.new");
-		assertActions(detailActions);	
+		assertActions(newActions);	
 		assertValue("familyNumber", "");
 		assertValue("unitPrice", "");
 		assertValue("unitPriceInPesetas", "");	
@@ -311,7 +328,7 @@ public class ProductTest extends ModuleTestBase {
 		assertActions(listActions);
 		
 		execute("CRUD.new");
-		assertActions(detailActions);
+		assertActions(newActions);
 		setValue("number", "1");
 		execute("CRUD.refresh");
 						
@@ -323,7 +340,7 @@ public class ProductTest extends ModuleTestBase {
 	public void testPropertyValidator_SomesAndCustomized() throws Exception {
 		assertActions(listActions);		
 		execute("CRUD.new");
-		assertActions(detailActions);
+		assertActions(newActions);
 		
 		setValue("number", "66");
 		setValue("description", "UNA MOTO RAPIDA");
@@ -343,7 +360,7 @@ public class ProductTest extends ModuleTestBase {
 	public void testEntityValidator() throws Exception {
 		assertActions(listActions);		
 		execute("CRUD.new");
-		assertActions(detailActions);
+		assertActions(newActions);
 		
 		setValue("number", "66");
 		setValue("description", "UN PRODUCTO CARO");
@@ -364,7 +381,7 @@ public class ProductTest extends ModuleTestBase {
 	public void testEntityValidatorOnlyOnCreate() throws Exception {		
 		assertActions(listActions);		
 		execute("CRUD.new");
-		assertActions(detailActions);
+		assertActions(newActions);
 		
 		setValue("number", "66");
 		setValue("description", "CUATRE CON PRECIO PROHIBIDO"); // CUATRE is forbidden
@@ -397,7 +414,7 @@ public class ProductTest extends ModuleTestBase {
 	public void testValidationWithValidatorsChanged() throws Exception {
 		assertActions(listActions);				
 		execute("CRUD.new");
-		assertActions(detailActions);
+		assertActions(newActions);
 		execute("CRUD.save");		
 		// Since validator for FAMILY and SUBFAMILY has set to NOT_NEGATIVE
 		// it does not fail validation although required is true
@@ -418,14 +435,14 @@ public class ProductTest extends ModuleTestBase {
 		execute("Mode.detailAndFirst");
 		assertNoEditable("number");
 		assertEditable("description");		
-		assertActions(detailActions);
+		assertActions(editActions); 
 		execute("Product.changeProductPrice");		
 		assertActions(changeProductPriceActions);
 		assertNoEditable("unitPrice"); 		
 		execute("Mode.list");
 		assertActions(listActions);
 		execute("Mode.detailAndFirst");
-		assertActions(detailActions);
+		assertActions(editActions); 
 		assertNoEditable("number");
 		assertEditable("unitPrice");		
 	}

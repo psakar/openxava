@@ -272,6 +272,7 @@ public class AJAXTest extends ModuleTestBase {
 		assertLoadedParts("core");
 		execute("CRUD.new");		
 		assertLoadedParts(
+				"button_bar, bottom_buttons, list_button_bar, list_bottom_buttons," + // Because Delete action is removed because of New 
 				"editor_description," + // We pass from first element to new
 				"editor_number," + // We pass from first element to new
 				"list_view," + // Because CRUD.new is also a list action 
@@ -279,7 +280,9 @@ public class AJAXTest extends ModuleTestBase {
 		execute("CRUD.new");
 		assertLoadedParts("errors, messages, list_view");
 		execute("Navigation.next");
-		assertLoadedParts("editor_description," + // list_view is not loaded: Good! 
+		assertLoadedParts(
+				"button_bar, bottom_buttons, list_button_bar, list_bottom_buttons," + // Because Delete action comes back 
+				"editor_description," + // list_view is not loaded: Good! 
 				// "editor_comboDeliveries," + // Only with XML components, because in XML is a view property, and in JPA is a transient property     
 				"editor_number," +  
 				"errors, messages");
@@ -290,6 +293,7 @@ public class AJAXTest extends ModuleTestBase {
 		execute("DeliveryType.saveNotReset");
 		assertListRowCount(7);
 		assertLoadedParts("editor_description," +
+				"button_bar, bottom_buttons, list_button_bar, list_bottom_buttons," + // Because we passed from New to Edit so Delete action comes back 
 				// "editor_comboDeliveries," + // Only with XML components      
 				"list_view," + // Because DeliveryType.saveNotReset changes data that can be in the list
 				"editor_number," +  
@@ -394,7 +398,9 @@ public class AJAXTest extends ModuleTestBase {
 		execute("Customer.changeNameLabel");		
 		assertLoadedParts("label_name, errors, messages, ");
 		execute("CRUD.new");
-		assertLoadedParts("errors, editor_seller.name, " +
+		assertLoadedParts("errors," +
+				"button_bar, bottom_buttons," + // Because Refresh is removed 
+				"editor_seller.name, " +
 				"editor_number, " +
 				"editor_type," + 
 				"editor_alternateSeller.number, " +
@@ -409,11 +415,14 @@ public class AJAXTest extends ModuleTestBase {
 				"reference_editor_address.state, " +
 				"editor_seller.number, " +
 				"collection_deliveryPlaces., " +
-				"frame_deliveryPlacesheader, " + 
+				"frame_deliveryPlacesheader, " +
+				
 				"messages,");
 		setValue("number", "4"); 
 		execute("CRUD.refresh");
-		assertLoadedParts("errors, editor_number, " +
+		assertLoadedParts("errors," +
+				"button_bar, bottom_buttons," + // Because Refresh comes back 
+				"editor_number, " +
 				"editor_type, " + 
 				"editor_address.asString, " + 
 				"editor_address.city, " +
