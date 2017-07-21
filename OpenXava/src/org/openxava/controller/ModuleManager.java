@@ -1662,6 +1662,7 @@ public class ModuleManager implements java.io.Serializable {
 	 * @since 5.8
 	 */
 	public boolean isBottomButtonsVisible() { 
+		if (getDialogLevel() > 0) return true; 
 		return buttonsVisible;
 	}
 	
@@ -1671,6 +1672,7 @@ public class ModuleManager implements java.io.Serializable {
 	 * @since 5.8
 	 */
 	public void showButtons() { 
+		if (buttonsVisible) return; 
 		buttonsVisible = true;
 		reloadAllUINeeded = true; 
 	}
@@ -1681,6 +1683,7 @@ public class ModuleManager implements java.io.Serializable {
 	 * @since 5.8
 	 */	
 	public void hideButtons() { 
+		if (!buttonsVisible) return; 
 		buttonsVisible = false;
 		reloadAllUINeeded = true; 
 	}

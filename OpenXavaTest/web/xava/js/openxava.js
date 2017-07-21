@@ -148,12 +148,12 @@ openxava.refreshPage = function(result) {
 			dialog.dialog('option', 'width', dialog.parent().width());
 			dialog.dialog('open');					
 		}
+		openxava.selectRows(result.application, result.module, result.selectedRows);
+		openxava.initUI(result.application, result.module, result.currentRow, result.viewSimple);
 		if (result.focusPropertyId != null) { 
 			openxava.getElementById(result.application, result.module, "xava_focus_property_id").value = result.focusPropertyId;
 			openxava.setFocus(result.application, result.module);
-		}	
-		openxava.selectRows(result.application, result.module, result.selectedRows);
-		openxava.initUI(result.application, result.module, result.currentRow, result.viewSimple); 
+		}			
 	}		
 	if (openxava.newWindow != null) {
 		openxava.newWindow.close();

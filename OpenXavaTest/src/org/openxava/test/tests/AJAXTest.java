@@ -575,6 +575,14 @@ public class AJAXTest extends ModuleTestBase {
 		assertLoadedPart("reference_editor_color");		
 	}
 	
+	public void testShowHideButtons() throws Exception {  
+		if (!usesAnnotatedPOJO()) return;
+		changeModule("Applicant");
+		execute("CRUD.new");
+		execute("Applicant.showButtons", "xava.keyProperty=name");
+		assertLoadedParts("errors, messages");
+	}
+	
 	public void testEditorForCollection() throws Exception {
 		if (!usesAnnotatedPOJO()) return;
 		changeModule("Blog");

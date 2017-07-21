@@ -132,6 +132,9 @@ public class ApplicantTest extends ModuleTestBase {
 		execute("Applicant.hideButtons");
 		assertNoAction("CRUD.new");
 		assertNoAction("Applicant.hideButtons");
+		execute("Reference.createNew", "model=ProgrammingSkill,keyProperty=skill.description");
+		assertAction("NewCreation.saveNew");
+		execute("NewCreation.cancel");
 		execute("Applicant.showButtons", "xava.keyProperty=name");
 		assertAction("CRUD.new");
 		assertAction("Applicant.hideButtons");
