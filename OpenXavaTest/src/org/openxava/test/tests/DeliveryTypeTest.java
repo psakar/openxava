@@ -77,6 +77,63 @@ public class DeliveryTypeTest extends ModuleTestBase {
 		assertMessage("Delivery type deleted successfully");				 						
 	}
 	
+	public void testSaveNotResetOnCreateOnModify() throws Exception {  
+		execute("CRUD.new");
+		setValue("number", "66");
+		setValue("description", "JUNIT"); 
+		execute("DeliveryType.saveResetOnCreateNotRefreshAfter");
+		assertNoErrors();
+		assertMessage("Delivery type created successfully");
+		assertValue("number", "");
+		assertValue("description", "");
+		
+		setValue("number", "66");
+		execute("CRUD.refresh");
+		assertValue("number", "66");
+		assertValue("description", "JUNIT CREATED");
+		setValue("description", "JUNIT");
+		execute("DeliveryType.saveResetOnCreateNotRefreshAfter");
+		assertNoErrors();
+		assertMessage("Delivery type modified successfully");
+		assertValue("number", "66");
+		assertValue("description", "JUNIT");
+		
+		execute("DeliveryType.saveResetOnCreate");
+		assertNoErrors();
+		assertMessage("Delivery type modified successfully");
+		assertValue("number", "66");
+		assertValue("description", "JUNIT MODIFIED");
+		
+		setValue("description", "JUNIT 2");
+		execute("DeliveryType.saveResetOnModify");
+		assertNoErrors();
+		assertMessage("Delivery type modified successfully");
+		assertValue("number", "");
+		assertValue("description", "");
+		
+		setValue("number", "66");
+		execute("CRUD.refresh");
+		assertValue("number", "66");
+		assertValue("description", "JUNIT 2 MODIFIED");
+		
+		execute("CRUD.delete");		
+		assertNoErrors();
+		assertMessage("Delivery type deleted successfully");
+		
+		execute("CRUD.new");
+		setValue("number", "66");
+		setValue("description", "JUNIT");
+		execute("DeliveryType.saveResetOnModify");
+		assertNoErrors();
+		assertMessage("Delivery type created successfully");
+		assertValue("number", "66");
+		assertValue("description", "JUNIT CREATED");
+		
+		execute("CRUD.delete");		
+		assertNoErrors();
+		assertMessage("Delivery type deleted successfully");
+	}
+	
 	private void assertIconAndImage() { 
 		String saveLinkXml = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_DeliveryType__CRUD___save").asXml();
 		assertTrue(saveLinkXml.contains("<i class="));

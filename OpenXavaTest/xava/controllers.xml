@@ -282,6 +282,28 @@
 			<set property="resetAfter" value="false"/>
 			<set property="refreshAfter" value="false"/>
 		</action>		
+		<action name="saveResetOnCreateNotRefreshAfter" mode="detail"
+			class="org.openxava.actions.SaveAction"
+			icon="floppy"
+			keystroke="control alt S">						
+			<set property="resetAfterOnCreate" value="true"/>
+			<set property="resetAfterOnModify" value="false"/>
+			<set property="refreshAfter" value="false"/>
+		</action>
+		<action name="saveResetOnCreate" mode="detail"
+			class="org.openxava.actions.SaveAction"
+			icon="floppy"
+			keystroke="control alt S">						
+			<set property="resetAfterOnCreate" value="true"/>
+			<set property="resetAfterOnModify" value="false"/>
+		</action>		
+		<action name="saveResetOnModify" mode="detail"
+			class="org.openxava.actions.SaveAction"
+			icon="floppy"
+			keystroke="control alt S">						
+			<set property="resetAfterOnCreate" value="false"/>
+			<set property="resetAfterOnModify" value="true"/>
+		</action>
 		<action name="assertComboDeliveries" mode="detail"
 			class="org.openxava.test.actions.AssertComboDeliveriesAction"/>			
 	</controller>
