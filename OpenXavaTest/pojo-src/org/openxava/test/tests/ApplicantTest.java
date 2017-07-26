@@ -140,9 +140,15 @@ public class ApplicantTest extends ModuleTestBase {
 		assertAction("Applicant.hideButtons");
 	}
 	
-	public void testHtmlHeadNotDuplicated() throws Exception {
+	public void testHtmlHeadNotDuplicated_excludedActionsInControllers() throws Exception { 
 		String html = getHtmlPage().getWebResponse().getContentAsString();
 		assertEquals(1, StringUtils.countMatches(html, "<head>"));
+		execute("CRUD.new"); 
+		assertAction("Navigation.previous");
+		assertAction("Navigation.next");
+		assertAction("CRUD.refresh");
+		assertNoAction("Navigation.first");
+		assertNoAction("CRUD.save");
 	}
 	
 	public void testListCustomizationWithTabDefaultOrder() throws Exception {  
@@ -150,7 +156,7 @@ public class ApplicantTest extends ModuleTestBase {
 		resetModule();
 		assertListCustomizationWithTabDefaultOrder(); // Failed the second time after reseting module
 	}
-
+	
 	private void assertListCustomizationWithTabDefaultOrder() throws Exception { 
 		assertListColumnCount(1);
 		assertListAllConfigurations("All"); 

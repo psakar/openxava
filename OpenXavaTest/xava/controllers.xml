@@ -58,8 +58,8 @@
 			hidden="true"/>
 	</controller>
 
-	<controller name="Author">	
-		<extends controller="TypicalWithSearch"/> 		
+	<controller name="Author">
+		<extends controller="TypicalWithSearch"/>
 		<action name="showAllAuthors" hidden="true"
 			class="org.openxava.test.actions.ShowAllAuthorsAction" />
 		<action name="showSelectedAuthors" hidden="true"
@@ -84,7 +84,7 @@
 	</controller>
 	
 	<controller name="Applicant">	
-		<extends controller="Typical"/>		
+		<extends controller="Typical" excluded-actions="first, save"/>
 		<action name="showCreate" mode="detail" 
 			class="org.openxava.test.actions.ShowCreateAction"/>
 		<action name="saveNotRefresh" mode="detail"

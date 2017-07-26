@@ -74,8 +74,7 @@ public class AuthorTest extends CustomizeListTestBase {
 		assertNoErrors();
 		assertDialog();
 	}
- 
-	
+	 
 	public void testCustomMessageWithBeanValidationJSR303() throws Exception {
 		execute("CRUD.new");
 		setValue("author", "PEPE");

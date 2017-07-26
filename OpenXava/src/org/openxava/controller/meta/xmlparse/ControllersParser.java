@@ -191,7 +191,7 @@ public class ControllersParser extends ParserBase {
 		int c = l.getLength();
 		for (int i = 0; i < c; i++) {
 			Element elDepends = (Element) l.item(i);			
-			container.addParentName(elDepends.getAttribute(xcontroller[lang]));
+			container.addParent(elDepends.getAttribute(xcontroller[lang]), elDepends.getAttribute(xexcluded_actions[lang]));
 		}
 	}
 
