@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- New property showModulesMenuWhenNotLogged in xava.properties to hide Start button to guest users.
 - In controllers inheritance you can exclude actions from parent controller with new excluded-actions attribute.
 - New resetAfterOnCreate/Modify in SaveAction to define the behavior after saving separately for create and modify.
 - New attribute available-on-new for action in controllers.xml to exclude actions when creating a new element.
