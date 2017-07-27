@@ -66,7 +66,7 @@ public class Modules implements Serializable {
 	}
 	
 	public boolean hasModules() { 
-		return !getAll().isEmpty();
+		return (NaviOXPreferences.getInstance().isShowModulesMenuWhenNotLogged() || Users.getCurrent() !=null) && !getAll().isEmpty(); 
 	}
 	
 	private MetaModule createWelcomeModule(MetaApplication app) {

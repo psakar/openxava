@@ -132,7 +132,7 @@
 	</controller>
 	
 	<controller name="WarnNoEmail">
-		<action name="warnNoEamil" on-each-request="true"  hidden="true"  			
+		<action name="warnNoEmail" after-each-request="true" hidden="true"
 			class="com.openxava.naviox.actions.WarnNoEmailAction"/>
 	</controller>
 	

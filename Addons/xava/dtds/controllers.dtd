@@ -40,6 +40,7 @@
  confirm (true|false) "false"
  in-each-row (true|false) "false"
  process-selected-items (true|false) "false"
+ available-on-new (true|false) "true"
 >
 
 <!ELEMENT use-object EMPTY>
@@ -57,6 +58,7 @@
 <!ELEMENT extends EMPTY>
 <!ATTLIST extends
  controller CDATA #REQUIRED
+ excluded-actions CDATA #IMPLIED
 >
 
 <!ELEMENT controller (extends*, (action|subcontroller)*)>

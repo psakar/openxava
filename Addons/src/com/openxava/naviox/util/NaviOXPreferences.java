@@ -137,5 +137,11 @@ public class NaviOXPreferences {
 		return "true".equalsIgnoreCase(getProperties().getProperty("updateNaviOXTablesInOrganizationsOnStartup", "true").trim());
 	}
 
+	/**
+	 * @since 5.8
+	 */
+	public boolean isShowModulesMenuWhenNotLogged() { 
+		return "true".equalsIgnoreCase(getProperties().getProperty("showModulesMenuWhenNotLogged", "true").trim());
+	}
 		
 }
