@@ -193,7 +193,15 @@ openxava.initUI = function(application, module, currentRow, viewSimple) {
 	openxava.initSelectedRows();
 	openxava.initCurrentRow(application, module, currentRow);
 	openxava.initViewSimple(application, module, viewSimple);
-	openxava.initTooltips(); 
+	openxava.initTooltips();
+	openxava.initPlaceholder();
+}
+
+openxava.initPlaceholder = function(){
+	$(".xava_editor[data-placeholder]").each(function() {
+		jQuery.support.placeholder = true;	// necessary for ie 
+		$(this).find("input:visible:first").attr("placeholder", $(this).data("placeholder"));
+	});
 }
 
 openxava.initTooltips = function() { 
