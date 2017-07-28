@@ -23,6 +23,12 @@ public class ColorTest extends ModuleTestBase {
 		super(testName, "Color");		
 	}
 	
+	public void testPlaceHolder() throws Exception{
+		execute("CRUD.new");
+		String placeholder = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Color__number").getAttribute("placeholder");
+		assertTrue("Your num.".equals(placeholder));
+	}
+	
 	public void testSubcontrollerOnChangeControllers() throws Exception{
 		assertAction("ColorSub.firstAction");
 		execute("List.addColumns");
