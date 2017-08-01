@@ -78,13 +78,23 @@ public class MapFacadeBean implements IMapFacadeImpl, SessionBean {
 		}
 		HibernateValidatorInhibitor.setInhibited(false); 
 	}
-
+	
 	private void beginTransaction(MetaModel metaModel) {
 		HibernateValidatorInhibitor.setInhibited(true); 
 		if (XavaPreferences.getInstance().isMapFacadeAutoCommit()) {
 			getPersistenceProvider(metaModel).begin();  
 		}		
 	}	
+	
+	private void beginTransactionForAddCollectionElement(MetaModel metaModel) {
+		HibernateValidatorInhibitor.setInhibited(true);
+		getPersistenceProvider(metaModel).begin();
+	}
+	
+	private void commitTransactionForAddCollectionElement(MetaModel metaModel) {
+		getPersistenceProvider(metaModel).commit();
+		HibernateValidatorInhibitor.setInhibited(false);		
+	}
 	
 	public Map getValues(
 			UserInfo userInfo, 
@@ -525,9 +535,9 @@ public class MapFacadeBean implements IMapFacadeImpl, SessionBean {
 		collectionElementKeyValues = Maps.recursiveClone(collectionElementKeyValues);
 		MetaModel metaModel = getMetaModel(modelName); 
 		try {		
-			beginTransaction(metaModel);
+			beginTransactionForAddCollectionElement(metaModel);
 			addCollectionElement(metaModel, keyValues, collectionName, collectionElementKeyValues);
-			commitTransaction(metaModel);			
+			commitTransactionForAddCollectionElement(metaModel);		
 		} 
 		catch (FinderException ex) {
 			throw ex;

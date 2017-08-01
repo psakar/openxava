@@ -11171,7 +11171,7 @@ OpenXavaTest/pojo-src/org/openxava/test/tests/JournalTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/LoginTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/MotoTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/MotorVehicleDriver2Test.java -text
-OpenXavaTest/pojo-src/org/openxava/test/tests/MotorVehicleDriverTest.groovy -text
+OpenXavaTest/pojo-src/org/openxava/test/tests/MotorVehicleDriverTest.java -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/MotorVehicleTest.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/tests/MovieTest.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/tests/NetMachineTest.java -text
