@@ -10771,6 +10771,7 @@ OpenXavaTest/i18n/portlets/Year_fr.properties -text svneol=unset#text/plain
 OpenXavaTest/jboss-as400.properties -text
 OpenXavaTest/jboss-hypersonic.properties -text
 OpenXavaTest/license.txt -text svneol=unset#text/plain
+OpenXavaTest/manual-tests/DiscussionTest.txt -text svneol=unset#text/plain
 OpenXavaTest/manual-tests/LayoutTest.txt -text svneol=unset#text/plain
 OpenXavaTest/manual-tests/PrettyPrintingTest.txt -text svneol=unset#text/plain
 OpenXavaTest/manual-tests/ScrollingTest.txt -text svneol=unset#text/plain

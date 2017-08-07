@@ -70,7 +70,7 @@ public class IncidentTest extends ModuleTestBase {
 		assertDiscussionCommentText("discussion", 1, multiline("juan - " + timeSecondPost, "Soy Juan"));
 
 		assertEquals(1, discussion.getElementsByTagName("textarea").size());
-		assertEquals(1, discussion.getElementsByAttribute("input", "type", "button").size());	
+		assertEquals(2, discussion.getElementsByAttribute("input", "type", "button").size());	
 		execute("Incident.disableDiscussion");
 		discussion = getHtmlPage().getHtmlElementById("ox_OpenXavaTest_Incident__editor_discussion");
 		assertEquals(0, discussion.getElementsByTagName("textarea").size());

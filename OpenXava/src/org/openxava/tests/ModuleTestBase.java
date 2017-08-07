@@ -2906,7 +2906,7 @@ public class ModuleTestBase extends TestCase {
 		postButton.click();
 	}
 	
-	private HtmlElement getDiscussionElement(String name) {  
+	private HtmlElement getDiscussionElement(String name) {   
 		return getHtmlPage().getHtmlElementById(decorateId("editor_" + name));
 	}
 	

@@ -58,6 +58,7 @@
 <!ELEMENT extends EMPTY>
 <!ATTLIST extends
  controller CDATA #REQUIRED
+ excluded-actions CDATA #IMPLIED
 >
 
 <!ELEMENT controller (extends*, (action|subcontroller)*)>

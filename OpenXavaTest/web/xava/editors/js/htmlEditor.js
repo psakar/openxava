@@ -1,7 +1,8 @@
 openxava.addEditorInitFunction(function() {
 	var config = { 
 		language: openxava.language,
-		uiColor: '#F5F5F5'
+		uiColor: '#F5F5F5',
+		title: false 
 	};
 	$('.ox-ckeditor').ckeditor(config);
 	
@@ -24,9 +25,28 @@ openxava.addEditorInitFunction(function() {
 			{ name: 'about', groups: [ 'about' ] }
 		],
 		disableNativeSpellChecker: false,
+		title: false, /* tmp */  
 		removeButtons: 'Save,Templates,Cut,NewPage,Preview,Print,Copy,Paste,PasteText,PasteFromWord,Find,Replace,SelectAll,Form,Checkbox,Radio,TextField,Textarea,Select,Button,ImageButton,HiddenField,CreateDiv,Language,Anchor,Flash,PageBreak,Iframe,ShowBlocks,About,Undo,Redo,Subscript,Superscript,BidiLtr,BidiRtl,SpecialChar,Styles,Font,Scayt,Underline,Strike,BGColor,HorizontalRule' 
 	};
 	$('.ox-simple-ckeditor').ckeditor(simpleConfig);
+	
+	$('.xava-new-comment').each( function () {
+		 
+		 CKEDITOR.instances[this.id].on( 'focus', function( e ) {			
+			var id = "#" + $(e.editor.element).attr("id") + "_buttons";
+			$(id + " input").fadeIn();
+			$('.ox-bottom-buttons').fadeOut();
+		 });
+		 
+		 CKEDITOR.instances[this.id].on( 'blur', function( e ) {
+			var id = "#" + $(e.editor.element).attr("id") + "_buttons";
+			$(id + " input").fadeOut();
+			$('.ox-bottom-buttons').fadeIn();
+			e.editor.setData('');
+		 })
+		 
+	 });
+
 });
 
 

@@ -1,7 +1,11 @@
 Change Log for OpenXava project
 ===============================
 
-- Placeholder attribute for editors availabe
+- Fix: Validation error adding entities to a collection rollbacks all the entities added even the good ones.
+- When Discussion editor has the focus the Add comment button is shown and the Save button for module is hidden.
+- Rename button of Discussion editor from Post to Add comment, moreover it is hidden on start. 
+- Fix: Useless tooltip on HtmlText and Discussion editors. 
+- Placeholders for fields using [placeholder] suffix in i18n label files.
 - New property showModulesMenuWhenNotLogged in xava.properties to hide Start button to guest users.
 - In controllers inheritance you can exclude actions from parent controller with new excluded-actions attribute.
 - New resetAfterOnCreate/Modify in SaveAction to define the behavior after saving separately for create and modify.

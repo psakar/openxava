@@ -59,6 +59,7 @@
 <!ELEMENT hereda-de EMPTY>
 <!ATTLIST hereda-de
  controlador CDATA #REQUIRED
+ acciones-excluidas CDATA #IMPLIED
 >
 
 <!ELEMENT controlador (hereda-de*, (accion|subcontrolador)*)>
