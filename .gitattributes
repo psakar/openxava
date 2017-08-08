@@ -10775,6 +10775,7 @@ OpenXavaTest/manual-tests/DiscussionTest.txt -text svneol=unset#text/plain
 OpenXavaTest/manual-tests/LayoutTest.txt -text svneol=unset#text/plain
 OpenXavaTest/manual-tests/PrettyPrintingTest.txt -text svneol=unset#text/plain
 OpenXavaTest/manual-tests/ScrollingTest.txt -text svneol=unset#text/plain
+OpenXavaTest/manual-tests/TooltipTest.txt -text svneol=unset#text/plain
 OpenXavaTest/persistence/GalleryImage.hbm.xml -text
 OpenXavaTest/persistence/META-INF/persistence.xml -text
 OpenXavaTest/persistence/hibernate-junit.cfg.xml -text

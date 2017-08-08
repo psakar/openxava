@@ -205,7 +205,7 @@ openxava.initPlaceholder = function(){
 }
 
 openxava.initTooltips = function() { 
-	$(".xava_editor").tooltip({
+	$(".xava_editor").find("input").tooltip({ 
 		position: {
 			my: "left+3 center", at: "right center", 
 	        using: function( position, feedback ) {
