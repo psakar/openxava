@@ -197,14 +197,7 @@ public class Liferay43Style extends PortalStyle {
 	public String getSmallLabel() {
 		return "''";
 	}
-	
-	/**
-	 * For messages and errors
-	 */
-	public String getMessagesWrapper() { 
-		return "";
-	}
-	
+		
 	public String getButton() {
 		return ""; 
 	}

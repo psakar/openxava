@@ -145,6 +145,29 @@ TD.frame {
 	font-size: 10pt;
 }
 
+.ox-messages-wrapper, .ox-errors-wrapper {
+	position: fixed;
+	top: 32px;
+	z-index: 9999999;
+}
+
+.ox-messages-wrapper {
+	left: 32px;
+}
+
+.ox-errors-wrapper {
+	right: 32px;
+}
+
+.portlet-msg-error .mdi-close, .portlet-msg-alert .mdi-close,
+.portlet-msg-success .mdi-close, .portlet-msg-info .mdi-close
+{
+	color: black;
+	font-weight: bold;
+	float: right;
+	margin-left: 10px;
+}
+
 #xava_processing_layer {
 	position:absolute;
 	right: calc(50% - 120px);

@@ -499,12 +499,6 @@ public class XavaPreferences {
 	}
 	
 	/** @since 4.5 */
-	public boolean isMessagesOnTop() { 
-		return "true".equalsIgnoreCase(getProperties().getProperty(
-				"messagesOnTop", "true").trim());
-	}
-
-	/** @since 4.5 */
 	public String getLayoutParser() {
 		return getProperties().getProperty("layoutParser"); 
 	}

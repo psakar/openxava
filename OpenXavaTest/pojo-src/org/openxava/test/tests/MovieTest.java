@@ -35,7 +35,7 @@ public class MovieTest extends ModuleTestBase {
 	public void testClickOnFileInListMode() throws Exception {
 		assertListRowCount(2);
 		WebResponse response = getWebClient().getPage(
-				    getUrlToFile("Forrest Gump Trailer.webm")).getWebResponse();
+				    getUrlToFile("Forrest Gump Trailer.webm")).getWebResponse(); 
 		assertTrue(response.getContentType().equals("video/webm") || 
 				   response.getContentType().equals(MIME_UNKNOWN));
 	}
@@ -45,7 +45,7 @@ public class MovieTest extends ModuleTestBase {
 		execute("Mode.detailAndFirst");
 		assertValue("title", "FORREST GUMP");
 		WebResponse response = getWebClient().getPage(
-				    getUrlToFile("Forrest Gump Trailer.webm")).getWebResponse();
+				    getUrlToFile("Forrest Gump Trailer.webm")).getWebResponse(); 
 		assertTrue(response.getContentType().equals("video/webm") || 
 				   response.getContentType().equals(MIME_UNKNOWN));
 	}

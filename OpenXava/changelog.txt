@@ -1,6 +1,11 @@
 Change Log for OpenXava project
 ===============================
 
+- New look for messages.
+- Messages can be closed by the user.
+- Messages placed in a fix part of the screen, even if you scroll the page.
+- Property messagesOnTop removed from xava.properties, now you can use CSS to place the messages.
+- 'Sign in' link not shown when the user is in 'Sign in' page. 
 - Fix: Validation error adding entities to a collection rollbacks all the entities added even the good ones.
 - When Discussion editor has the focus the Add comment button is shown and the Save button for module is hidden.
 - Rename button of Discussion editor from Post to Add comment, moreover it is hidden on start. 

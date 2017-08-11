@@ -869,10 +869,19 @@ public class Style {
 	}
 	
 	/**
-	 * For messages and errors
+	 * For messages
 	 */
 	public String getMessagesWrapper() { 
-		return "";
+		return "ox-messages-wrapper";
+	}
+
+	/**
+	 * For errors
+	 * 
+	 * @since 5.8
+	 */
+	public String getErrorsWrapper() {  
+		return "ox-errors-wrapper";
 	}
 	
 	public String getMessageStartDecoration() { 

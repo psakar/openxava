@@ -154,7 +154,7 @@ public class NaviOXStyle extends Style {
 	}
 
 	public String getErrorStartDecoration () {  
-		return "<div class='ox-message-box'><i class='mdi mdi-close-octagon'></i>"; 
+		return "<div class='ox-message-box'>"; 
 	}
 	
 	public String getErrorEndDecoration () { 
@@ -162,7 +162,7 @@ public class NaviOXStyle extends Style {
 	}
 	
 	public String getMessageStartDecoration () {  
-		return "<div class='ox-message-box'><i class='mdi mdi-checkbox-marked-circle'></i>"; 
+		return "<div class='ox-message-box'>"; 
 	}
 		
 	public String getMessageEndDecoration () { 
@@ -173,14 +173,14 @@ public class NaviOXStyle extends Style {
 	 * @since 5.5
 	 */
 	public String getWarningStartDecoration() { 
-		return "<div class='ox-message-box'><i class='mdi mdi-alert'></i>";
+		return "<div class='ox-message-box'>"; 
 	}
 
 	/**
 	 * @since 5.5
 	 */
 	public String getInfoStartDecoration() { 
-		return "<div class='ox-message-box'><i class='mdi mdi-information'></i>";
+		return "<div class='ox-message-box'>"; 
 	}	
 
 }

@@ -992,7 +992,7 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 	display: none;   
 }
 
-.ox-frame, #sign_in_box {
+.ox-frame, #sign_in_box { 
 	margin-top: 2px; 
 	margin-bottom: 5px;
 	margin-right: 7px; 
@@ -1152,27 +1152,54 @@ input[type="button"], .ipad input[type="button"]:hover, A#show_modules,
 	background: white !important;
 }
 
+.ox-messages-wrapper, .ox-errors-wrapper {
+	position: fixed;
+	top: 32px;
+	z-index: 9999999;
+}
+
+.ox-messages-wrapper {
+	left: 32px;
+}
+
+.ox-errors-wrapper {
+	right: 32px;
+}
+
 .ox-message-box {
-	margin-top: 9px;
-	margin-left: 3px;
 	font-weight: bold;
-	padding: 3px 0px 3px 3px; 
+	color: white;
+	padding: 15px;
+	border: 0px;
+	margin-bottom: 12px;
+	border-radius: 2px;	
+	box-shadow: 0px 0px 7px #000; 
 }
 
-.ox-errors .ox-message-box, .ox-errors .ox-message-box i {	
-	color: #DC4A38;
+.ox-message-box .mdi-close {
+	color: lightgray;
+	float: right;
+	margin-left: 10px;
 }
 
-.ox-messages .ox-message-box, .ox-messages .ox-message-box i {	
-	color: #6fc664;
+.ox-message-box .mdi-close:hover {
+	color: white;
 }
 
-.ox-infos .ox-message-box, .ox-infos .ox-message-box i {	
-	color: #a1a4a5;
+.ox-errors .ox-message-box {	
+	background: #DC4A38;
 }
 
-.ox-warnings .ox-message-box, .ox-warnings .ox-message-box i {	
-	color: #f6dc5c;
+.ox-messages .ox-message-box {	
+	background: #6fc664;
+}
+
+.ox-infos .ox-message-box {	
+	background: #a1a4a5;
+}
+
+.ox-warnings .ox-message-box {	
+	background: #f6dc5c;
 }
 
 .ox-action-link {

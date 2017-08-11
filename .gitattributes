@@ -6647,7 +6647,7 @@ OpenXava/web/editors/treeViewListEditor.jsp -text
 OpenXava/web/editors/validValueEditorCommon.jsp -text
 OpenXava/web/editors/validValuesEditor.jsp -text svneol=unset#text/plain
 OpenXava/web/editors/webURLEditor.jsp -text svneol=unset#text/plain
-OpenXava/web/errors.jsp -text
+OpenXava/web/errors.jsp -text svneol=unset#text/plain
 OpenXava/web/execute.jsp -text svneol=unset#text/plain
 OpenXava/web/fonts/materialdesignicons-webfont.woff -text
 OpenXava/web/frameActions.jsp -text svneol=unset#text/plain
