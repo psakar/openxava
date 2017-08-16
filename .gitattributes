@@ -10844,6 +10844,7 @@ OpenXavaTest/pojo-src/org/openxava/test/annotations/GoodName.java -text svneol=u
 OpenXavaTest/pojo-src/org/openxava/test/base/AbstractToto.java -text
 OpenXavaTest/pojo-src/org/openxava/test/calculators/DefaultInvoiceCalculator.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/calculators/EnumCountryCalculator.java -text svneol=unset#text/plain
+OpenXavaTest/pojo-src/org/openxava/test/calculators/NextNumberForHunterAndHound.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/calculators/UnitPriceCalculator.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/domain/Moto.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/filters/InventFilter.groovy -text
@@ -10945,6 +10946,7 @@ OpenXavaTest/pojo-src/org/openxava/test/model/Hobbyist.groovy -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Hound.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Human.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/Hunter.java -text
+OpenXavaTest/pojo-src/org/openxava/test/model/HunterAndHound.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Incident.java -text svneol=unset#text/plain
 OpenXavaTest/pojo-src/org/openxava/test/model/Ingredient.java -text
 OpenXavaTest/pojo-src/org/openxava/test/model/InternetShop.groovy -text

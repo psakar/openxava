@@ -5,6 +5,10 @@ import java.util.*;
 import javax.ejb.*;
 import javax.inject.*;
 
+import javax.validation.ConstraintViolation;
+import javax.validation.ConstraintViolationException;
+import javax.validation.metadata.ConstraintDescriptor;
+
 import org.apache.commons.logging.*;
 import org.openxava.tab.*;
 import org.openxava.util.*;
@@ -83,22 +87,28 @@ public class AddElementsToCollectionAction extends SaveElementInCollectionAction
 	private void addValidationMessage(Exception ex) { 
 		if (ex instanceof ValidationException) {		
 			addErrors(((ValidationException)ex).getErrors());
+		}  
+		else if(ex instanceof ConstraintViolationException){
+			addConstraintViolationErrors((ConstraintViolationException) ex);					
+		} 
+		else if (ex instanceof javax.validation.ValidationException) {
+			addError(ex.getMessage());
 		}
-		else if(ex instanceof javax.validation.ConstraintViolationException){
-			Set<javax.validation.ConstraintViolation<?>> violations = 
-					((javax.validation.ConstraintViolationException) ex).getConstraintViolations();
-			for(javax.validation.ConstraintViolation<?> violation : violations){
-				String message = violation.getMessage();
-				if (message.startsWith("{") && message.endsWith("}")) {			
-					message = message.substring(1, message.length() - 1); 							
-				}				
-				javax.validation.metadata.ConstraintDescriptor<?> descriptor = violation.getConstraintDescriptor(); 
-				java.lang.annotation.Annotation annotation = descriptor.getAnnotation();
-				if(annotation instanceof javax.validation.constraints.AssertTrue){							
-					Object bean = violation.getRootBean();				
-					addError(message, bean);					
-				}
-			}					
+	}
+
+	private void addConstraintViolationErrors(ConstraintViolationException ex) {
+		Set<ConstraintViolation<?>> violations = ex.getConstraintViolations();
+		for (ConstraintViolation<?> violation : violations) {
+			String message = violation.getMessage();
+			if (message.startsWith("{") && message.endsWith("}")) {			
+				message = message.substring(1, message.length() - 1); 							
+			}				
+			ConstraintDescriptor<?> descriptor = violation.getConstraintDescriptor(); 
+			java.lang.annotation.Annotation annotation = descriptor.getAnnotation();
+			if(annotation instanceof javax.validation.constraints.AssertTrue) {							
+				Object bean = violation.getRootBean();				
+				addError(message, bean);					
+			}
 		}
 	}
 	

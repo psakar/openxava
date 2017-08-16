@@ -4,33 +4,48 @@ import java.util.*;
 
 import javax.persistence.*;
 
+import org.openxava.annotations.DefaultValueCalculator;
+import org.openxava.annotations.ReferenceView;
+import org.openxava.annotations.View;
+import org.openxava.annotations.Views;
+import org.openxava.calculators.CurrentDateCalculator;
+import org.openxava.util.Dates;
+import org.openxava.util.XavaResources;
+
 /**
  * To test @javax.validation.constraints.Size with min and max elements on a 
- * Collection of entities  not embeddable.
+ * Collection of entities not embeddable.
  * 	
  * @author Jeromy Altuna
  */
 @Entity
-public class Hound extends Nameable {
+@Views({
+	@View(extendsView="super.DEFAULT", 
+		members="birth; hunter { hunter }"
+	)
+})
+public class Hound extends HunterAndHound {
 	
+	@DefaultValueCalculator(CurrentDateCalculator.class)
 	private Date birth;
 	
-	public Hound() { 
-		super(); 
-	}
-	
-	public Hound(String name) {
-		this();
-		setName(name);
-	}
-	
-	public Hound(String name, Date birth) {
-		this(name);
-		setBirth(birth);
-	}
-	
 	@ManyToOne
+	@ReferenceView("NoHounds")
 	private Hunter hunter;
+	
+	@PreUpdate
+	private void validate() throws Exception {
+		if (hunter != null && !hasTraining()) {
+			throw new javax.validation.ValidationException(
+				XavaResources.getString("untrained_hound", getName())
+			);
+		}
+	}
+	
+	public boolean hasTraining() {
+		if (birth == null) return true;
+		return Dates.dateDistance(new Date(), birth).years >= 2;
+	}
 
 	public Hunter getHunter() {
 		return hunter;

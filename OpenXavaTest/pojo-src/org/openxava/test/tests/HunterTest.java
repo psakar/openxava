@@ -1,12 +1,5 @@
 package org.openxava.test.tests;
 
-import static org.openxava.jpa.XPersistence.*;
-
-import java.util.*;
-
-import javax.persistence.*;
-
-import org.openxava.test.model.*;
 import org.openxava.tests.ModuleTestBase;
 
 import com.gargoylesoftware.htmlunit.html.*;
@@ -21,63 +14,46 @@ public class HunterTest extends ModuleTestBase {
 		super(testName, "Hunter");
 	}
 	
-	public void testCreateHunterWithAtLeastOneHound() throws Exception {
-		createHounds();
-		
-		execute("Mode.list"); 
-		assertListRowCount(0);
-		execute("CRUD.new");
-		setValue("name", "HUNTER 1");
-		execute("CRUD.save");
-		assertError("It's required at least 1 element in Hounds of Hunter");
-		execute("Collection.add", "viewObject=xava_view_hounds");
-		execute("AddToCollection.add", "row=0");
-		assertMessagesCount(2);
-		assertMessage("Hunter created successfully");
-		assertMessage("1 element(s) added to Hounds of Hunter");
-		execute("Mode.list");
+	public void testHunterWithAtLeastOneHound() throws Exception {
 		assertListRowCount(1);
 		execute("Mode.detailAndFirst");
-		assertValue("name", "HUNTER 1");
-		assertValueInCollection("hounds", 0, "name", "HOUND 1");
-		
-		removeHounds();
-		execute("CRUD.delete");
-		assertNoError("Hunter deleted successfully");
+		assertValue("name", "DE ALFORJA");
+		assertCollectionRowCount("hounds", 1);
+		execute("Collection.removeSelected", 
+			"row=0,viewObject=xava_view_section0_hounds");
+		assertError("It's required at least 1 element in Hounds of Hunter");
+		assertValueInCollection("hounds", 0, "name", "LEBRERO");		
 	}
-		
-	public void testAddMaximumFourHounds() throws Exception {
-		createHounds();
-		
-		setValue("name", "HUNTER 1");
-		execute("Collection.add", "viewObject=xava_view_hounds");
+	
+	public void testAddMaximumTwoHounds() throws Exception {
+		execute("Mode.detailAndFirst");
+		assertValue("name", "DE ALFORJA");
+		execute("Collection.add", "viewObject=xava_view_section0_hounds");
 		checkAll();
 		execute("AddToCollection.add");
-		assertError("More than 4 items in Hounds of Hunter are not allowed");
-		uncheckRow(1);
-		uncheckRow(3);
-		execute("AddToCollection.add");
-		assertMessage("Hunter created successfully");
-		assertMessage("4 element(s) added to Hounds of Hunter");
-		execute("Collection.add", "viewObject=xava_view_hounds");
+		assertError("More than 2 items in Hounds of Hunter are not allowed");
+		uncheckAll();		
 		execute("AddToCollection.add", "row=1");
-		assertError("More than 4 items in Hounds of Hunter are not allowed");
+		assertMessage("1 element(s) added to Hounds of Hunter");
+		execute("Collection.add", "viewObject=xava_view_section0_hounds");
+		execute("AddToCollection.add", "row=3");
+		assertError("More than 2 items in Hounds of Hunter are not allowed");
 		execute("AddToCollection.cancel");
-		assertCollectionRowCount("hounds", 4);
+		assertCollectionRowCount("hounds", 2);
 		
-		removeHounds();		
-		execute("CRUD.delete");
+		execute("Collection.removeSelected", 
+			"row=1,viewObject=xava_view_section0_hounds");
 		assertNoErrors();
 	}
 	
 	public void testFilterEmptyValuesInCollection() throws Exception {
-		createHunter();
-		
-		resetModule(); 
-		assertListRowCount(1);
 		execute("List.viewDetail", "row=0");
+		execute("Collection.add", "viewObject=xava_view_section0_hounds");
+		execute("AddToCollection.add", "row=1");
+		assertCollectionRowCount("hounds", 2);
+		
 		assertFalse(isNotVisibleConditionValue(0));
-		assertFalse(isNotVisibleConditionValue(1));
+		assertFalse(isNotVisibleConditionValue(2));
 		
 		// Filter String
 		setConditionComparators("hounds", new String [] {"empty_comparator"});		
@@ -86,25 +62,27 @@ public class HunterTest extends ModuleTestBase {
 		assertTrue(isNotVisibleConditionValue(0));
 		
 		// Filter Date
-		setConditionComparators("hounds", new String [] {"=", "empty_comparator"});
+		setConditionComparators("hounds", new String [] {"=", "=", "empty_comparator"});
 		// execute("List.filter", "collection=hounds");
 		assertCollectionRowCount("hounds", 1);
-		assertTrue(isNotVisibleConditionValue(1));
+		assertTrue(isNotVisibleConditionValue(2));
 		assertFalse(isNotVisibleConditionValue(0));
 		
-		removeHounds();
-		execute("CRUD.delete");
+		setConditionComparators("hounds", new String [] {"=", "=", "="});
+		execute("List.filter", "collection=hounds");
+		execute("Collection.removeSelected", 
+			"row=1,viewObject=xava_view_section0_hounds");
 		assertNoErrors();
 	}
 	
 	public void testFilterNotEmptyValuesInCollection() throws Exception {
-		createHunter();
-		
-		resetModule(); 
-		assertListRowCount(1);
 		execute("List.viewDetail", "row=0");
+		execute("Collection.add", "viewObject=xava_view_section0_hounds");
+		execute("AddToCollection.add", "row=1");
+		assertCollectionRowCount("hounds", 2);
+		
 		assertFalse(isNotVisibleConditionValue(0));
-		assertFalse(isNotVisibleConditionValue(1));
+		assertFalse(isNotVisibleConditionValue(2));
 		
 		// Filter String
 		setConditionComparators("hounds", new String [] {"not_empty_comparator"});		
@@ -113,41 +91,27 @@ public class HunterTest extends ModuleTestBase {
 		assertTrue(isNotVisibleConditionValue(0));
 		
 		// Filter Date
-		setConditionComparators("hounds", new String [] {"=", "not_empty_comparator"});
+		setConditionComparators("hounds", new String [] {"=", "=", "not_empty_comparator"});
 		// execute("List.filter", "collection=hounds");
 		assertCollectionRowCount("hounds", 1);
-		assertTrue(isNotVisibleConditionValue(1));
+		assertTrue(isNotVisibleConditionValue(2));
 		assertFalse(isNotVisibleConditionValue(0));
 		
-		removeHounds();
-		execute("CRUD.delete");
+		setConditionComparators("hounds", new String [] {"=", "=", "="});
+		execute("List.filter", "collection=hounds");
+		execute("Collection.removeSelected", 
+			"row=1,viewObject=xava_view_section0_hounds");
 		assertNoErrors();
 	}
 	
-	private void createHounds() {
-		for (int i = 1; i < 7; i++) {
-			getManager().persist(new Hound("HOUND " + i));
-		}
-		commit();
-	}
-	
-	private void createHunter() {
-		Hound hound1 = new Hound("HOUND 1", new Date());
-		Hound hound2 = new Hound("HOUND 2");
-		getManager().persist(hound1);
-		getManager().persist(hound2);
-		
-		Hunter hunter = new Hunter("HUNTER");
-		hunter.addHound(hound1);
-		hunter.addHound(hound2);
-		getManager().persist(hunter);
-		
-		commit();
-	}
-	
-	private void removeHounds(){
-		Query query = getManager().createQuery("Delete from Hound");
-		query.executeUpdate();		
+	public void testAddUntrainedHound_validationJPACallback() throws Exception {
+		execute("List.viewDetail", "row=0");
+		execute("Collection.add", "viewObject=xava_view_section0_hounds");
+		execute("AddToCollection.add", "row=2");
+		assertErrorsCount(2);
+		assertError("Untrained OTTERHOUND, less than 2 years old");
+		execute("AddToCollection.cancel");
+		assertCollectionRowCount("hounds", 1);
 	}
 	
 	private boolean isNotVisibleConditionValue(int index) {
