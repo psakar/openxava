@@ -30,6 +30,7 @@ public class CustomerTest extends CustomizeListTestBase {
 		"List.viewDetail",
 		"List.hideRows",
 		"List.changeConfiguration", 
+		"List.changeColumnName", 
 		"ListFormat.select", 
 		"Customer.hideSellerInList",
 		"Customer.showSellerInList"

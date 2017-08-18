@@ -8,7 +8,7 @@ import org.openxava.test.model.*;
 import com.gargoylesoftware.htmlunit.html.*;
 
 /**
- * 
+ * tmp ¿Añadir aquí uno para cambiar nombre de columna en colección?
  * @author Javier Paniza
  */
 

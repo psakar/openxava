@@ -9,11 +9,9 @@ import java.util.prefs.*;
 
 import javax.servlet.http.*;
 
-import org.apache.commons.collections.*;
 import org.apache.commons.lang.*;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.logging.*;
-import org.hibernate.hql.internal.*;
 import org.openxava.application.meta.*;
 import org.openxava.component.*;
 import org.openxava.controller.*;
@@ -353,7 +351,8 @@ public class Tab implements java.io.Serializable {
 	private final static String ROWS_HIDDEN = "rowsHidden";
 	private final static String FILTER_VISIBLE = "filterVisible";
 	private final static String PAGE_ROW_COUNT = "pageRowCount"; 
-	private final static String COLUMN_WIDTH = "columnWidth."; 
+	private final static String COLUMN_WIDTH = "columnWidth.";
+	private final static String COLUMN_LABEL = "columnLabel."; 
 	private final static int MAX_PAGE_ROW_COUNT = 20;
 	private final static String EDITOR = "editor"; 
 	private final static String CONFIGURATION_CONDITION = "condition";
@@ -2000,6 +1999,7 @@ public class Tab implements java.io.Serializable {
 	public void setLabel(String propertyName, String label) { 
 		if (labels == null) labels = new HashMap<String, String>();
 		labels.put(propertyName, label); 
+		saveUserPreferences(); 
 		resetAfterChangeProperties(); 
 	}
 	
@@ -2152,15 +2152,9 @@ public class Tab implements java.io.Serializable {
 			sumPropertiesNames = Strings.toSetNullByPass(preferences.get(SUM_PROPERTIES_NAMES, null));
 			rowsHidden = preferences.getBoolean(ROWS_HIDDEN, rowsHidden);			
 			filterVisible = preferences.getBoolean(FILTER_VISIBLE, filterVisible);
-			pageRowCount = Math.min(preferences.getInt(PAGE_ROW_COUNT, pageRowCount), 20); 			
-			if (columnWidths != null) columnWidths.clear();
-			for (MetaProperty property: getMetaProperties()) {
-				int value = preferences.getInt(COLUMN_WIDTH + property.getQualifiedName(), -1);
-				if (value >= 0) {
-					if (columnWidths == null) columnWidths = new HashMap<String, Integer>();
-					columnWidths.put(property.getQualifiedName(), value);
-				}
-			}			
+			pageRowCount = Math.min(preferences.getInt(PAGE_ROW_COUNT, pageRowCount), 20);
+			columnWidths = loadMapFromPreferences(preferences, columnWidths, COLUMN_WIDTH, true);
+			labels = loadMapFromPreferences(preferences, labels, COLUMN_LABEL, false);
 			defaultCondition = getCondition();
 			editor = preferences.get(EDITOR, null); 
 			loadConfigurationsPreferences();
@@ -2168,6 +2162,18 @@ public class Tab implements java.io.Serializable {
 		catch (Exception ex) {
 			log.warn(XavaResources.getString("warning_load_preferences_tab"),ex);
 		}
+	}
+	
+	private Map loadMapFromPreferences(Preferences preferences, Map map, String prefix, boolean toInt) { 
+		if (map!= null) map.clear();
+		for (MetaProperty property: getMetaProperties()) {
+			String value = preferences.get(prefix + property.getQualifiedName(), null);
+			if (value != null) {
+				if (map == null) map = new HashMap();
+				map.put(property.getQualifiedName(), toInt?Integer.parseInt(value):value);
+			}
+		}		
+		return map;
 	}
 
 	private void loadConfigurationsPreferences() throws Exception {  
@@ -2256,20 +2262,25 @@ public class Tab implements java.io.Serializable {
 				preferences.putInt(PAGE_ROW_COUNT, pageRowCount);
 				if (editor == null) preferences.remove(EDITOR);
 				else preferences.put(EDITOR, editor);
-				if (columnWidths != null) { 
-					for (Map.Entry<String, Integer> columnWidth: columnWidths.entrySet()) {
-						preferences.putInt(
-							COLUMN_WIDTH + columnWidth.getKey(),
-							columnWidth.getValue()
-						);
-					}
-				}
+				saveMapInPreferences(preferences, columnWidths, COLUMN_WIDTH);
+				saveMapInPreferences(preferences, labels, COLUMN_LABEL);
 				preferences.flush();
 			}
 			catch (Exception ex) {
 				log.warn(XavaResources.getString("warning_save_preferences_tab"),ex);
 			}
 		}
+	}
+	
+	private void saveMapInPreferences(Preferences preferences, Map map, String prefix) { 
+		if (map != null) { 
+			for (Map.Entry<String, Object> entry: ((Map<String, Object>) map).entrySet()) {
+				preferences.put(
+					prefix + entry.getKey(),
+					entry.getValue().toString()
+				);
+			}
+		}				
 	}
 	
 	private void removeUserPreferences() { 		

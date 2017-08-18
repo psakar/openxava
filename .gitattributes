@@ -5358,6 +5358,7 @@ OpenXava/src/org/openxava/actions/CancelAction.java -text
 OpenXava/src/org/openxava/actions/CancelDialogAction.java -text
 OpenXava/src/org/openxava/actions/CancelFromCustomListAction.java -text
 OpenXava/src/org/openxava/actions/CancelInListAction.java -text
+OpenXava/src/org/openxava/actions/ChangeColumnNameAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/ChangeImageAction.java -text
 OpenXava/src/org/openxava/actions/ChangeListConfigurationNameAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/ChangeModuleAction.java -text
@@ -5389,6 +5390,7 @@ OpenXava/src/org/openxava/actions/GenerateMyReportAction.java -text svneol=unset
 OpenXava/src/org/openxava/actions/GenerateReportAction.java -text
 OpenXava/src/org/openxava/actions/GoAddColumnsAction.java -text
 OpenXava/src/org/openxava/actions/GoAddElementsToCollectionAction.java -text
+OpenXava/src/org/openxava/actions/GoChangeColumnNameAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/GoChangeListConfigurationAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/GoChooseIconAction.java -text svneol=unset#text/plain
 OpenXava/src/org/openxava/actions/GoDetailAction.java -text

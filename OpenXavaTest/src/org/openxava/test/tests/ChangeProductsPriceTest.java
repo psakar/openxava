@@ -26,7 +26,8 @@ public class ChangeProductsPriceTest extends ModuleTestBase {
 		"List.viewDetail",
 		"List.hideRows",
 		"List.sumColumn",
-		"List.changeConfiguration", 
+		"List.changeConfiguration",
+		"List.changeColumnName", 
 		"ListFormat.select"
 	};
 
@@ -37,7 +38,7 @@ public class ChangeProductsPriceTest extends ModuleTestBase {
 	
 
 	public void testActionOnInitAndViewSetEditable() throws Exception {
-		assertActions(listActions);
+		assertActions(listActions); 
 		
 		execute("Mode.detailAndFirst");
 		assertActions(detailActions);

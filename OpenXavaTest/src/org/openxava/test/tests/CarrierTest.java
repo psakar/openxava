@@ -123,12 +123,20 @@ public class CarrierTest extends CarrierTestBase {
 		assertLabelInCollection("fellowCarriers", 2, "Calculated");
 		assertLabelInCollection("fellowCarriers", 3, "Warehouse"); // This is "Name of Warehouse" with label optimized
 		
+		// Changing column name
+		execute("List.changeColumnName", "property=name,collection=fellowCarriers");
+		assertDialog();
+		assertValue("name", "Name");
+		setValue("name", "Carrier");
+		execute("ChangeColumnName.change");
+		assertLabelInCollection("fellowCarriers", 1, "Carrier");
+		
 		// Adding clicking in row
 		execute("List.addColumns", "collection=fellowCarriers");
 		execute("AddColumns.addColumn", "property=warehouse.number");
 		assertCollectionColumnCount("fellowCarriers", 5);
 		assertLabelInCollection("fellowCarriers", 0, "Number");
-		assertLabelInCollection("fellowCarriers", 1, "Name");
+		assertLabelInCollection("fellowCarriers", 1, "Carrier"); 
 		assertLabelInCollection("fellowCarriers", 2, "Calculated");
 		assertLabelInCollection("fellowCarriers", 3, "Warehouse"); // This is "Name of Warehouse" with label optimized
 		assertLabelInCollection("fellowCarriers", 4, "Warehouse number");
@@ -138,9 +146,15 @@ public class CarrierTest extends CarrierTestBase {
 		execute("AddColumns.restoreDefault");
 		assertCollectionColumnCount("fellowCarriers", 4);
 		assertLabelInCollection("fellowCarriers", 0, "Number");
-		assertLabelInCollection("fellowCarriers", 1, "Name");
+		assertLabelInCollection("fellowCarriers", 1, "Carrier"); 
 		assertLabelInCollection("fellowCarriers", 2, "Remarks");
 		assertLabelInCollection("fellowCarriers", 3, "Calculated");
+		
+		execute("List.changeColumnName", "property=name,collection=fellowCarriers");
+		assertValue("name", "Carrier");
+		setValue("name", "Name");
+		execute("ChangeColumnName.change");
+		assertLabelInCollection("fellowCarriers", 1, "Name");		
 		
 		// Cancel in AddColumns returns to detail (not list mode)
 		execute("List.addColumns", "collection=fellowCarriers");

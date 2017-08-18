@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- The user can rename the columns in list and collections for him.
+- Some new common use labels to be used in applications.
 - New look for messages.
 - Messages can be closed by the user.
 - Messages placed in a fix part of the screen, even if you scroll the page.

@@ -32,6 +32,7 @@ public class OnlyEditDetailsInvoiceTest extends ModuleTestBase {
 			"Mode.split",
 			"List.filter", 
 			"List.orderBy", 
+			"List.changeColumnName", 
 			"Print.generatePdf", // the DefaultListActionsForCollections (as ListActions) 
 			"Print.generateExcel" // are alwasy present
 		};		
@@ -57,6 +58,7 @@ public class OnlyEditDetailsInvoiceTest extends ModuleTestBase {
 			"List.filter", 
 			"List.orderBy", 
 			"List.sumColumn",
+			"List.changeColumnName", 
 			"Print.generatePdf", // the DefaultListActionsForCollections (as ListActions) 
 			"Print.generateExcel" // are alwasy present			
 		};		

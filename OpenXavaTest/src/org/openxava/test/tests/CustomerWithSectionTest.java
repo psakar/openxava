@@ -26,7 +26,8 @@ public class CustomerWithSectionTest extends CustomerTest {
 		"List.viewDetail",
 		"List.customize", // It does not exist since 5.2, we put here to verify that ModuleTestBase ignore it 
 		"List.hideRows",
-		"List.changeConfiguration", 
+		"List.changeConfiguration",
+		"List.changeColumnName", 
 		"ListFormat.select",
 		"Customer.hideSellerInList",
 		"Customer.showSellerInList"

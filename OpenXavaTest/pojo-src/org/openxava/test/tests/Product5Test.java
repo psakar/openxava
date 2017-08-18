@@ -112,7 +112,7 @@ public class Product5Test extends CustomizeListTestBase {
 			"CRUD.new", "CRUD.deleteRow", "CRUD.deleteSelected",
 			"Print.generatePdf", "Print.generateExcel",
 			"List.filter", "List.sumColumn", "List.orderBy", "List.hideRows", "List.changeConfiguration", 
-			"List.viewDetail", 
+			"List.viewDetail", "List.changeColumnName",  
 			"Mode.detailAndFirst", "Mode.split",
 			"ExtendedPrint.myReports",
 			"ListFormat.select",
@@ -122,7 +122,7 @@ public class Product5Test extends CustomizeListTestBase {
 			"Navigation.previous", "Navigation.first", "Navigation.next",
 			"CRUD.delete", "CRUD.new", "CRUD.refresh", "CRUD.save", 
 			"Mode.list", "Mode.split",
-			"GalleryNoDialog.edit", "List.filter", "Print.generatePdf", 
+			"GalleryNoDialog.edit", "List.filter", "List.changeColumnName", "Print.generatePdf",  
 			"Collection.removeSelected", "List.orderBy", "Collection.new", 
 			"Reference.createNew", "Reference.modify", "Print.generateExcel", 
 			"Product5.seeInitial"

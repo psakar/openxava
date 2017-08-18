@@ -20,7 +20,8 @@ public class Invoice2002Test extends CustomizeListTestBase {
 		"List.viewDetail",
 		"List.hideRows",
 		"List.sumColumn",
-		"List.changeConfiguration", 
+		"List.changeConfiguration",
+		"List.changeColumnName", 
 		"ListFormat.select", 
 		"Invoice2002.changeListTitle"
 	};
@@ -47,7 +48,7 @@ public class Invoice2002Test extends CustomizeListTestBase {
 	
 	public void testCustomizeListWithFilterAndBaseCondition() throws Exception {
 		assertValueInList(0, 0, "2002"); 
-		moveColumn(0, 1); 
+		moveColumn(0, 1);
 		assertValueInList(0, 1, "2002"); 	
 		execute("List.filter");
 		assertValueInList(0, 1, "2002");
@@ -67,7 +68,7 @@ public class Invoice2002Test extends CustomizeListTestBase {
 	}	
 	
 	public void testOnInitAction_IRequestFilter_BaseContextFilter() throws Exception {
-		assertActions(listActions);		
+		assertActions(listActions);	
 		assertListTitle("Invoices report of year 2,002");
 		int count = getListRowCount();
 		for (int i = 0; i < count; i++) {

@@ -23,7 +23,8 @@ public class FamilyTest extends ModuleTestBase {
 		"List.viewDetail",
 		"List.hideRows",
 		"List.sumColumn",
-		"List.changeConfiguration", 
+		"List.changeConfiguration",
+		"List.changeColumnName", 
 		"ListFormat.select" 
 	};
 

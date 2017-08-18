@@ -1012,6 +1012,15 @@ public class InvoiceTest extends CustomizeListTestBase {
 		// To test that detail view is not broken because of the dialog
 		execute("CRUD.new");
 		assertExists("year");
+		
+		execute("Mode.list");
+		assertLabelInList(5, "Details count");
+		execute("List.changeColumnName", "property=detailsCount");
+		assertDialog();
+		assertValue("name", "Details count");
+		setValue("name", "Number of lines");
+		execute("ChangeColumnName.change");
+		assertLabelInList(5, "Number of lines");
 	}
 	
 	private void doTestCustomizeList_storePreferences() throws Exception {
@@ -1022,7 +1031,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 		assertLabelInList(2, "Date");
 		assertLabelInList(3, "Amounts sum");
 		assertLabelInList(4, "V.A.T.");
-		assertLabelInList(5, "Details count");
+		assertLabelInList(5, "Number of lines"); 
 		assertLabelInList(6, "Paid");
 		assertLabelInList(7, "Importance");
 		assertLabelInList(8, "Customer"); 
@@ -1031,7 +1040,12 @@ public class InvoiceTest extends CustomizeListTestBase {
 		
 		// Restoring, for next time that test execute
 		removeColumn(9); 
-		removeColumn(8); 		
+		removeColumn(8);
+		
+		execute("List.changeColumnName", "property=detailsCount");
+		assertValue("name", "Number of lines");
+		setValue("name", "Details count");
+		execute("ChangeColumnName.change");
 		
 		assertListColumnCount(8);
 		assertLabelInList(0, "Year");
@@ -1769,6 +1783,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 			"List.filter", 
 			"List.orderBy", 
 			"List.sumColumn",
+			"List.changeColumnName", 
 			"InvoicePrint.printPdfNewAfter", 
 			"Invoice.hideCustomer",
 			"Invoice.showCustomer",

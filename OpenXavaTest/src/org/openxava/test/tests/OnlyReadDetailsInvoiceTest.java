@@ -8,7 +8,7 @@ import org.openxava.util.*;
 
 
 /**
- * 
+ *  
  * @author Javier Paniza
  */
 
@@ -30,7 +30,8 @@ public class OnlyReadDetailsInvoiceTest extends ModuleTestBase {
 			"Mode.list",
 			"Mode.split",
 			"List.filter", 
-			"List.orderBy", 		
+			"List.orderBy",
+			"List.changeColumnName", 
 			"Print.generatePdf", // the DefaultListActionsForCollections (as ListActions) 
 			"Print.generateExcel" // are alwasy present						
 		};		
@@ -56,6 +57,7 @@ public class OnlyReadDetailsInvoiceTest extends ModuleTestBase {
 			"List.filter", 
 			"List.orderBy", 
 			"List.sumColumn",
+			"List.changeColumnName", 
 			"Print.generatePdf", // the DefaultListActionsForCollections (as ListActions) 
 			"Print.generateExcel" // are always present						
 		};		

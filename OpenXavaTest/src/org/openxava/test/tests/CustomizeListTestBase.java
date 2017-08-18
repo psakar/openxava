@@ -41,7 +41,7 @@ abstract public class CustomizeListTestBase extends ModuleTestBase {
 		HtmlElement handle = fromCol.getElementsByAttribute("i", "class", "xava_handle mdi mdi-cursor-move ui-sortable-handle").get(0); 
 		handle.mouseDown();
 		HtmlElement toCol = table.getRow(0).getCell(to + 2);
-		HtmlElement elementTo = toCol.getElementsByAttribute("i", "class", "mdi mdi-close-circle").get(0); 
+		HtmlElement elementTo = toCol.getElementsByAttribute("i", "class", "mdi mdi-rename-box").get(0); 
 		elementTo.mouseMove();
 		elementTo.mouseUp();
 		Thread.sleep(500);		
