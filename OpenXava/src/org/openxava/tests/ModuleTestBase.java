@@ -27,7 +27,6 @@ import org.xml.sax.*;
 import com.gargoylesoftware.htmlunit.*;
 import com.gargoylesoftware.htmlunit.ElementNotFoundException;
 import com.gargoylesoftware.htmlunit.html.*;
-import com.gargoylesoftware.htmlunit.javascript.host.html.HTMLDivElement;
 
 import junit.framework.*;
 
@@ -482,7 +481,7 @@ public class ModuleTestBase extends TestCase {
 	/**
 	 * User logout. <p>
 	 * 
-	 * At the moment only works against Liferay and JetSpeed2.
+	 * At the moment only works against Liferay, JetSpeed2 and NaviOX.
 	 */
 	protected void logout() throws Exception {
 		if (isLiferayEnabled()) {
@@ -495,7 +494,7 @@ public class ModuleTestBase extends TestCase {
 		}
 		else {
 			// NaviOX, the built-in login mechanism of OpenXava
-			page = getHtmlPage().getAnchorByHref("/" + application + "/naviox/signOut.jsp").click();
+			page = ((HtmlAnchor)getHtmlPage().getByXPath("//a[contains(@href, '/" + application + "/naviox/signOut.jsp')]").get(0)).click();
 		}
 	}
 	
