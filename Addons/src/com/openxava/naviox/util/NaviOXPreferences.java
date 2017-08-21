@@ -22,7 +22,8 @@ public class NaviOXPreferences {
 	private final static String PROPERTIES_FILE = "naviox.properties";
 	private static Log log = LogFactory.getLog(NaviOXPreferences.class);
 	private static NaviOXPreferences instance;
-	private boolean testingAutologin = false; 
+	private boolean testingAutologin = false;
+	private boolean testingNotShowOrganizationOnSignIn = false;
 	private Properties properties;
 
 	private NaviOXPreferences() {
@@ -42,7 +43,15 @@ public class NaviOXPreferences {
 	public static void stopTestingAutologin() { 
 		getInstance().testingAutologin = false;
 	}
-
+	
+	public static void startTestingNotShowOrganizationOnSignIn() {
+		getInstance().testingNotShowOrganizationOnSignIn = true;
+	}
+	
+	public static void stopTestingNotShowOrganizationOnSignIn() {
+		getInstance().testingNotShowOrganizationOnSignIn = false;
+	}
+	
 	private Properties getProperties() {
 		if (properties == null) {
 			PropertiesReader reader = new PropertiesReader(
@@ -106,6 +115,7 @@ public class NaviOXPreferences {
 	 * @since 5.6
 	 */
 	public boolean isShowOrganizationOnSignIn() { 
+		if (testingNotShowOrganizationOnSignIn) return false; // Only for testing purposes
 		return "true".equalsIgnoreCase(getProperties().getProperty("showOrganizationOnSignIn", "true").trim());
 	}
 		
