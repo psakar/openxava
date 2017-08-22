@@ -1308,13 +1308,13 @@ div.ox-subcontroller table{
 	font-size: 18px;
 }
 
-.screenshot img {
+.screenshot img, .video iframe { 
 	box-shadow: 0 0 7px black;
 	-moz-box-shadow: 0 0 7px #000;
 	-webkit-box-shadow: 0 0 7px black;
 }
 
-.screenshot {
+.screenshot, .video { 
 	text-align: center;
 }
 
