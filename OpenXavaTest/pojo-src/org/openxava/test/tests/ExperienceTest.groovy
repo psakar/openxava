@@ -33,13 +33,11 @@ class ExperienceTest extends ModuleTestBase {
 		assertValue "programmer.name", "JAVI" 
 		execute "Reference.search", "keyProperty=programmer.name"
 		assertListRowCount 3
-		execute "List.orderBy", "property=name"
 		assertValueInList 2, 0, "JUANJO"
 		execute "ReferenceSearch.choose", "row=2"
 		assertValue "programmer.name", "JUANJO"
 		execute "TypicalNotResetOnSave.save"
 		assertNoErrors()
-		
 	}
 	
 	void testNavigatingForObjectsWithPolymorphicReference() { 

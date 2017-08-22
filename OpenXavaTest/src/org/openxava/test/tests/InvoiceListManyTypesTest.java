@@ -14,7 +14,6 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 	}
 	
 	
-	// Remove .openxava before execute this test
 	public void testListConfigurations() throws Exception {
 		// Don't separate in several independent tests 
 		// because we want test the accumulation of configuration without duplication
@@ -294,16 +293,6 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 
 	private void assertListConfigurationsPersistence() throws Exception {
 		resetModule();
-		assertListRowCount(9);
-		assertListSelectedConfiguration("Todos");
-		assertListAllConfigurations("Todos", "Seller Manuel Chavarri", "Customer with email", "Año/mes de fecha = 2006/11",  
-			"Número entre 2 y 10", "Número entre 2 y 12", "Ordenado por número", 
-			"Ordenado por número descendente", "Año > 2002 ordenado por año descendente y número descendente", 
-			"Ordenado por año descendente y número descendente", "Ordenado por año ascendente y número descendente", "Mes de fecha = 1", 
-			"Año de fecha = 2002", "Tipo de cliente = fijo", "Tipo de cliente = normal", "Año en grupo(2002, 2004)", 
-			"Año no en grupo(2002, 2004)", "Correo electrónico de cliente no está vacío y no pagada", "Correo electrónico de cliente está vacío",  
-			"No pagada y nombre de cliente empieza por j");
-		selectListConfiguration("Año/mes de fecha = 2006/11"); // Not the first one, to test a case
 		assertListSelectedConfiguration("Año/mes de fecha = 2006/11");
 		assertListAllConfigurations("Año/mes de fecha = 2006/11", "Todos", "Seller Manuel Chavarri", "Customer with email",    
 			"Número entre 2 y 10", "Número entre 2 y 12", "Ordenado por número", 
@@ -314,7 +303,7 @@ public class InvoiceListManyTypesTest extends CustomizeListTestBase {
 			"No pagada y nombre de cliente empieza por j"); 
 		assertListRowCount(2);
 		
-		selectListConfiguration("Ordenado por año descendente y número descendente"); // With ordering
+		selectListConfiguration("Ordenado por año descendente y número descendente"); // With ordering, also not the first one, to test a case
 		assertListSelectedConfiguration("Ordenado por año descendente y número descendente");
 		assertListAllConfigurations("Ordenado por año descendente y número descendente", "Todos", 
 			"Seller Manuel Chavarri", "Customer with email", "Año/mes de fecha = 2006/11", "Número entre 2 y 10",  

@@ -1,6 +1,8 @@
 Change Log for OpenXava project
 ===============================
 
+- Lists remember the last filtering and ordering by user between sessions. 
+- ModuleTestBase removes user preferences before executing each test.
 - The user can rename the columns in list and collections for him.
 - Some new common use labels to be used in applications.
 - New look for messages.

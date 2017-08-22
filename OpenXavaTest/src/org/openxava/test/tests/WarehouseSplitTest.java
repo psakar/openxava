@@ -24,7 +24,7 @@ public class WarehouseSplitTest extends WarehouseSplitTestBase {
 	
 	public void testCheckedRows() throws Exception {
 		checkRow(1);
-		checkRow(3);
+		checkRow(3); 
 		execute("List.filter");
 		assertRowsChecked(1, 3);;		
 		uncheckRow(1);

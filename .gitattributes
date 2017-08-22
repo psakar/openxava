@@ -6817,6 +6817,7 @@ OpenXava/web/referenceEditorIcons.jsp -text svneol=unset#text/plain
 OpenXava/web/referenceFrameHeader.jsp -text svneol=unset#text/plain
 OpenXava/web/referenceFrameHeaderExt.jsp -text svneol=unset#text/plain
 OpenXava/web/referenceSearch.jsp -text svneol=unset#text/plain
+OpenXava/web/resetPreferences.jsp -text svneol=unset#text/plain
 OpenXava/web/sections.jsp -text svneol=unset#text/plain
 OpenXava/web/style/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png -text
 OpenXava/web/style/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png -text
@@ -12378,6 +12379,7 @@ OpenXavaTest/web/xava/referenceEditorIcons.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/referenceFrameHeader.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/referenceFrameHeaderExt.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/referenceSearch.jsp -text
+OpenXavaTest/web/xava/resetPreferences.jsp -text svneol=unset#text/plain
 OpenXavaTest/web/xava/sections.jsp -text
 OpenXavaTest/web/xava/severalModules.jsp -text
 OpenXavaTest/web/xava/style/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png -text

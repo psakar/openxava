@@ -249,14 +249,14 @@ public class ProductTest extends ModuleTestBase {
 		assertDescriptionValue("subfamilyNumber", subfamily);		
 	}
 	
-	public void testNavigationWithDepedentsStereotypes() throws Exception {
+	public void testNavigationWithDepedentsStereotypes() throws Exception { 
 		assertActions(listActions);
 		execute("Mode.detailAndFirst");
 		assertValue("number", "1");
 		assertValue("familyNumber", "1");
 		assertValue("subfamilyNumber", "2");		
 		execute("Navigation.next");		
-		assertValue("number", "2");
+		assertValue("number", "2"); 
 		assertValue("familyNumber", "2");
 		assertValue("subfamilyNumber", "11");		
 		execute("Navigation.next");
@@ -405,9 +405,9 @@ public class ProductTest extends ModuleTestBase {
 	}
 	
 
-	public void testCalculatedInListMode() throws Exception {	 	
+	public void testCalculatedInListMode() throws Exception { 	 	
 		assertActions(listActions);
-		assertValueInList(1, "number", "2");
+		assertValueInList(1, "number", "2"); 
 		assertValueInList(1, "unitPrice", "20.00"); 
 		assertValueInList(1, "unitPriceInPesetas", "3,328");			
 	}

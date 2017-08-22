@@ -77,7 +77,7 @@ public class HumanTest extends ModuleTestBase {
 		assertLabelInList(2, "Author of Favorite author");
 		assertLabelInList(3, "Biography of Favorite author");		
 		
-		assertListRowCount(6);
+		assertListRowCount(6); 
 		assertValueInList(0, 0, "PEPE");
 		assertValueInList(1, 0, "JUANA");
 		assertValueInList(2, 0, "JAVI");

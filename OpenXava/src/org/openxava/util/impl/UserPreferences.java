@@ -1,9 +1,12 @@
 package org.openxava.util.impl;
 
 import java.io.*;
+
 import java.util.*;
 import java.util.prefs.*;
 
+import org.apache.commons.io.*;
+import org.apache.commons.logging.*;
 import org.openxava.util.*;
 
 /**
@@ -18,7 +21,8 @@ import org.openxava.util.*;
  */
 
 public class UserPreferences extends AbstractPreferences {
-	
+
+	private static Log log = LogFactory.getLog(UserPreferences.class); 
 	private final static String ANONIMOUS = "__ANONIMOUS__";
 	private static Map preferencesByUser; 
 	private String userName;
@@ -44,7 +48,20 @@ public class UserPreferences extends AbstractPreferences {
 		}		
 		return preferences;
 	}
-		
+	
+	/**
+	 * @since 5.8
+	 */
+	public static void removeAll() throws BackingStoreException { 
+		try {
+			FileUtils.deleteDirectory(new File(getBaseDir()));
+		}
+		catch (Exception ex) {
+			log.error(XavaResources.getString("remove_all_user_preferences_error"), ex);
+			throw new BackingStoreException(XavaResources.getString("remove_all_user_preferences_error")); 
+		}
+		preferencesByUser = null;		
+	}
 
 	protected AbstractPreferences childSpi(String name) {
 		if (children == null) children = new HashMap();
@@ -152,7 +169,7 @@ public class UserPreferences extends AbstractPreferences {
 		}		
 	}
 		
-	private String getBaseDir() {		
+	private static String getBaseDir() { 
 		return System.getProperty("user.home") + "/.openxava/";
 	}	
 

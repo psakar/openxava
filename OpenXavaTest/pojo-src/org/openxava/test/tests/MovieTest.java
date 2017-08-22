@@ -160,7 +160,7 @@ public class MovieTest extends ModuleTestBase {
 	}
 	
 	public void testFilterNotEmptyValues() throws Exception {
-		assertListRowCount(2);
+		assertListRowCount(2); 
 		assertFalse(isNotVisibleConditionValue(2));
 		assertFalse(isNotVisibleConditionValue(3));
 		

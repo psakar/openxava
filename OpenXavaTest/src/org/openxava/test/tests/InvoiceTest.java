@@ -917,7 +917,7 @@ public class InvoiceTest extends CustomizeListTestBase {
 	
 	public void testCustomizeList() throws Exception {
 		doTestCustomizeList_addColumns(); 
-		tearDown(); setUp();
+		resetModule(); 
 		doTestCustomizeList_storePreferences(); 
 	}
 	

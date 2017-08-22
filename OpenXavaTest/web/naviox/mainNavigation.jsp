@@ -6,6 +6,7 @@
 <%@page import="org.openxava.util.Is"%>
 <%@page import="com.openxava.naviox.Modules"%>
 <%@page import="com.openxava.naviox.util.NaviOXPreferences"%>
+<%@page import="com.openxava.naviox.util.Organizations"%>
 
 <jsp:useBean id="modules" class="com.openxava.naviox.Modules" scope="session"/>
 
@@ -58,16 +59,18 @@ if (Is.emptyString(NaviOXPreferences.getInstance().getAutologinUser())) {
 	boolean showSignIn = userName == null && !currentModule.equals("SignIn");
 	
 	if (showSignIn) {
+		String selected = "SignIn".equals(currentModule)?"selected":"";
 %>
-<% String selected = "SignIn".equals(currentModule)?"selected":""; %>
 <a href="<%=request.getContextPath()%>/m/SignIn" class="sign-in <%=selected%>">
 		<xava:message key="signin"/>
 </a>
 <%
 	}
 	if (userName != null) {
+		String organization = Organizations.getCurrent(request);
+		if (organization == null) organization = "";
 %>
-<a  href="<%=request.getContextPath()%>/naviox/signOut.jsp" class="sign-in"><xava:message key="signout"/> (<%=userName%>)</a>
+<a  href="<%=request.getContextPath()%>/naviox/signOut.jsp?organization=<%=organization%>" class="sign-in"><xava:message key="signout"/> (<%=userName%>)</a>
 <%
 	}
 } 

@@ -524,9 +524,9 @@ public class CustomerWithSectionTest extends CustomerTest {
 	
 	public void testCustomizeList() throws Exception { 
 		doTestCustomizeList_moveAndRemove(); 
-		tearDown();	setUp();
-		doTestCustomizeList_generatePDF(); 
-		tearDown();	setUp();
+		resetModule(); 
+		doTestCustomizeList_generatePDF();
+		resetModule(); 
 		doTestRestoreColumns_addRemoveTabColumnsDynamically();
 	}
 	

@@ -352,9 +352,11 @@ public class Tab implements java.io.Serializable {
 	private final static String FILTER_VISIBLE = "filterVisible";
 	private final static String PAGE_ROW_COUNT = "pageRowCount"; 
 	private final static String COLUMN_WIDTH = "columnWidth.";
-	private final static String COLUMN_LABEL = "columnLabel."; 
+	private final static String COLUMN_LABEL = "columnLabel.";
 	private final static int MAX_PAGE_ROW_COUNT = 20;
 	private final static String EDITOR = "editor"; 
+	private final static String CURRENT_CONFIGURATION_ID = "id"; 
+	private final static String CURRENT_CONFIGURATION_NODE = "current"; 
 	private final static String CONFIGURATION_CONDITION = "condition";
 	private final static String CONFIGURATION_CONDITION_COMPARATORS = "conditionComparators";
 	private final static String CONFIGURATION_CONDITION_VALUES = "conditionValues";
@@ -1770,6 +1772,9 @@ public class Tab implements java.io.Serializable {
 			else configurationPreferences.put(CONFIGURATION_PROPERTIES_NAMES, configuration.getPropertiesNames());
 			configurationPreferences.putBoolean(CONFIGURATION_REMOVED, false);
 			configurationPreferences.flush();
+			Preferences currentConfigurationPreferences = configurationsPreferences.node(CURRENT_CONFIGURATION_NODE);
+			currentConfigurationPreferences.putInt(CURRENT_CONFIGURATION_ID, configuration.getId());
+			currentConfigurationPreferences.flush();
 		}
 		catch (Exception ex) {
 			log.warn(XavaResources.getString("warning_save_preferences_tab"),ex); 
@@ -2156,8 +2161,8 @@ public class Tab implements java.io.Serializable {
 			columnWidths = loadMapFromPreferences(preferences, columnWidths, COLUMN_WIDTH, true);
 			labels = loadMapFromPreferences(preferences, labels, COLUMN_LABEL, false);
 			defaultCondition = getCondition();
-			editor = preferences.get(EDITOR, null); 
-			loadConfigurationsPreferences();
+			editor = preferences.get(EDITOR, null);
+			loadConfigurationsPreferences(); 
 		}
 		catch (Exception ex) {
 			log.warn(XavaResources.getString("warning_load_preferences_tab"),ex);
@@ -2180,8 +2185,12 @@ public class Tab implements java.io.Serializable {
 		Preferences configurationsPreferences = getConfigurationsPreferences();
 		configurations.clear();
 		configuration = null; 
-		List<Configuration> allConfs = new ArrayList<Configuration>(); 
+		Preferences currentConfigurationPreferences = configurationsPreferences.node(CURRENT_CONFIGURATION_NODE);
+		int currentConfigurationId = currentConfigurationPreferences.getInt(CURRENT_CONFIGURATION_ID, 0);
+		List<Configuration> allConfs = new ArrayList<Configuration>();
+		Configuration defaultConf = null;
 		for (String confName: configurationsPreferences.childrenNames()) {
+			if (confName.equals(CURRENT_CONFIGURATION_NODE)) continue; 
 			Preferences pref = configurationsPreferences.node(confName);
 			if (pref.getBoolean(CONFIGURATION_REMOVED, false)) continue; 
 			Configuration conf = new Configuration();
@@ -2201,8 +2210,14 @@ public class Tab implements java.io.Serializable {
 				configuration = conf;
 				break;
 			}
-			if (conf.isDefault()) configuration = conf; 
+			if (configuration == null) {
+				if (currentConfigurationId != 0 && conf.getId() == currentConfigurationId) configuration = conf; 
+			}
+			if (defaultConf == null) {
+				if (conf.isDefault()) defaultConf = conf;
+			}
 		}
+		if (configuration == null && defaultConf != null) configuration = defaultConf;
 		int count = 0;
 		Collections.sort(allConfs);
 		for (Configuration conf: allConfs) { // To purge and keep just the most relevant configurations

@@ -44,7 +44,7 @@ public class AuthorTest extends CustomizeListTestBase {
 		assertMessage("Showing author JAVIER PANIZA");
 		assertValue("author", "JAVIER PANIZA");
 		execute("Navigation.next");
-		assertMessage("Showing author MIGUEL DE CERVANTES");
+		assertMessage("Showing author MIGUEL DE CERVANTES"); 
 		assertValue("author", "MIGUEL DE CERVANTES");
 		execute("SearchForCRUD.search");  
 		setValue("author", "JAVIER PANIZA");
@@ -60,7 +60,7 @@ public class AuthorTest extends CustomizeListTestBase {
 
 	public void testCollectionViewWithGroup_getMapValuesFromList() throws Exception {
 		assertLabelInList(0, "Author");
-		assertValueInList(1, 0, "MIGUEL DE CERVANTES");
+		assertValueInList(1, 0, "MIGUEL DE CERVANTES"); 
 		execute("List.viewDetail", "row=1");
 		assertCollectionRowCount("humans", 1);
 

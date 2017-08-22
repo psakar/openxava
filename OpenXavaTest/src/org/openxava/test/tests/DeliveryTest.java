@@ -538,7 +538,7 @@ public class DeliveryTest extends ModuleTestBase {
 			else if ("20.00".equals(value)) withDiscount = true;
 			else fail("Only 0.00 or 20.00 are valid values for invoice.sellerDiscount");  
 		}
-		assertTrue("It's required deliveries with invoices with and without seller discount", withDiscount && withoutDiscount);
+		assertTrue("It's required deliveries with invoices with and without seller discount", withDiscount && withoutDiscount); 
 		
 		assertLabelInList(0, "Year of Invoice"); // We need Year to test this case, because is a numeric property of a reference in the first column
 		execute("ListFormat.select", "editor=Charts"); 

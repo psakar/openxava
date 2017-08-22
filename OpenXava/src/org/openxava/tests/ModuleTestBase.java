@@ -4,6 +4,7 @@ import java.io.*;
 import java.net.*;
 import java.util.*;
 import java.util.logging.*;
+import java.util.prefs.*;
 
 import org.apache.commons.beanutils.*;
 import org.apache.commons.logging.*;
@@ -19,6 +20,7 @@ import org.openxava.tab.*;
 import org.openxava.tab.impl.*;
 import org.openxava.tab.meta.*;
 import org.openxava.util.*;
+import org.openxava.util.impl.*;
 import org.openxava.view.meta.*;
 import org.openxava.web.*;
 import org.openxava.web.style.*;
@@ -64,7 +66,8 @@ public class ModuleTestBase extends TestCase {
 	private static int loginFormIndex = -1;
 	private static Collection excludedActions;  
 	private static Collection ignoredActions;
-	private static BrowserVersion defaultBrowserVersion; 
+	private static BrowserVersion defaultBrowserVersion;
+	private static WebClient utilClient; 
 	
 	private String locale;
 	private MetaModule metaModule;
@@ -121,7 +124,19 @@ public class ModuleTestBase extends TestCase {
 		XHibernate.reset();
 		XHibernate.setConfigurationFile("/hibernate-junit.cfg.xml");
 		XPersistence.setPersistenceUnit("junit");
+		resetPreferences();
 		resetModule();	
+	}
+	
+	private void resetPreferences() throws Exception {
+		getUtilClient().getPage("http://" + getHost() + ":" + getPort() + "/" + application + "/xava/resetPreferences.jsp?zxy=HOljkso83");
+	}
+	
+	private static WebClient getUtilClient() throws Exception { 
+		if (utilClient == null) {
+			utilClient = new WebClient(getDefaultBrowserVersion());
+		}
+		return utilClient;
 	}
 	
 	protected void tearDown() throws Exception {
