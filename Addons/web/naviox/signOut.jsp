@@ -4,13 +4,13 @@
 
 <%
 StringBuilder base = new StringBuilder("..");
-if (!"".equals(request.getParameter("organization"))
+if (!Configuration.getInstance().isSharedUsersBetweenOrganizations() 
 		&&
-	(!NaviOXPreferences.getInstance().isShowOrganizationOnSignIn()
-		||
-	 Configuration.getInstance().isSharedUsersBetweenOrganizations())) 
+	!NaviOXPreferences.getInstance().isShowOrganizationOnSignIn()
+		&&
+	!"".equals(request.getParameter("organization")))
 {
-	base.append("/o/").append(request.getParameter("organization"));				
+	base.append("/o/").append(request.getParameter("organization"));
 }
 session.invalidate();
 %>
