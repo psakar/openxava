@@ -20,5 +20,8 @@ public class Configuration {
 	public int getLockSessionMilliseconds() { 
 		return 0; 
 	}	
-
+	
+	public boolean isSharedUsersBetweenOrganizations() {
+		return true;
+	}
 }
