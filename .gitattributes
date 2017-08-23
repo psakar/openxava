@@ -11510,6 +11510,7 @@ OpenXavaTest/src/org/openxava/test/tests/IssueTestBase.java -text svneol=unset#t
 OpenXavaTest/src/org/openxava/test/tests/IssueWebTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/JPATest.java -text
 OpenXavaTest/src/org/openxava/test/tests/JourneyTest.java -text
+OpenXavaTest/src/org/openxava/test/tests/LabelsTest.java -text svneol=unset#text/plain
 OpenXavaTest/src/org/openxava/test/tests/MapFacadeTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/NotAllActionsInDetailsInvoiceTest.java -text
 OpenXavaTest/src/org/openxava/test/tests/NotZeroValidatorTest.java -text

@@ -1,6 +1,7 @@
 Change Log for OpenXava project
 ===============================
 
+- New method put() in Labels to add new labels in runtime.
 - Lists remember the last filtering and ordering by user between sessions. 
 - ModuleTestBase removes user preferences before executing each test.
 - The user can rename the columns in list and collections for him.
