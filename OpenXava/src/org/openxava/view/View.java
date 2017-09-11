@@ -7,6 +7,7 @@ import java.util.prefs.*;
 import javax.ejb.*;
 import javax.servlet.http.*;
 
+import org.apache.commons.collections.*;
 import org.apache.commons.lang3.*;
 import org.apache.commons.logging.*;
 import org.openxava.actions.*;
@@ -4372,12 +4373,20 @@ public class View implements java.io.Serializable {
 		return MetaControllers.getMetaAction((String) qualifiedAction).isInEachRow();
 	}
 		
-	public Collection getActionsNamesList() {		
-		return actionsNamesList==null?getDefaultListActionsForCollections():actionsNamesList;
+	public Collection getActionsNamesList() {	
+		Collection<String> result;
+		if (actionsNamesList == null) result = new ArrayList(getDefaultListActionsForCollections());
+		else result = new ArrayList(actionsNamesList);		
+		refine(result);
+		return result;
 	}
 	
 	public Collection getSubcontrollersNamesList(){
-		return subcontrollersNamesList==null?Collections.EMPTY_LIST:subcontrollersNamesList; 
+		Collection<String> result;
+		if (subcontrollersNamesList == null) return Collections.EMPTY_LIST;
+		else result = new ArrayList<String>(subcontrollersNamesList); 
+		refine(result);
+		return result;
 	}
 	
 	public boolean hasListActions() {				
@@ -4406,8 +4415,12 @@ public class View implements java.io.Serializable {
 		refreshCollection();
 	}	
 	
-	public Collection getActionsNamesRow() { 
-		return actionsNamesRow==null?getDefaultRowActionsForCollections():actionsNamesRow;
+	public Collection getActionsNamesRow() {
+		Collection<String> result;
+		if (actionsNamesRow == null) result = new ArrayList<String>(getDefaultRowActionsForCollections());
+		else result = new ArrayList<String>(actionsNamesRow);
+		refine(result);
+		return result;
 	}
 			                                                                                                                                                                                                                                                                                                                                                                                                                   
 	public Collection getActionsNamesForProperty(MetaProperty p, boolean editable) throws XavaException {		
@@ -4658,9 +4671,9 @@ public class View implements java.io.Serializable {
         focusForward = false; 
     }
 
-	public String getEditCollectionElementAction() { 
-		if (editCollectionElementAction != null) return editCollectionElementAction;
-		return COLLECTION_EDIT_ACTION; 
+	public String getEditCollectionElementAction() {
+		String action = getCollectionAction(editCollectionElementAction, COLLECTION_EDIT_ACTION);
+		return action.equals("") ? getViewCollectionElementAction() : action;  
 	}
 	
 	public String getViewCollectionElementAction() {		
@@ -4831,24 +4844,20 @@ public class View implements java.io.Serializable {
 	}
 
 
-	public String getHideCollectionElementAction() { 		
-		return hideCollectionElementAction == null?"Collection.hideDetail":hideCollectionElementAction;		
+	public String getHideCollectionElementAction() {
+		return getCollectionAction(hideCollectionElementAction, "Collection.hideDetail");
 	}
 
 	public void setHideCollectionElementAction(String hideCollectionElementAction) {		
 		this.hideCollectionElementAction = hideCollectionElementAction;
 	}
 	
-	public String getAddCollectionElementAction() { 		
-		if (!Is.emptyString(addCollectionElementAction)) return addCollectionElementAction;
-		if (addCollectionElementAction != null) return "";		
-		return "Collection.add";
+	public String getAddCollectionElementAction() {
+		return getCollectionAction(addCollectionElementAction, "Collection.add");		
 	}
 
-	public String getNewCollectionElementAction() {		
-		if (!Is.emptyString(newCollectionElementAction)) return newCollectionElementAction;
-		if (newCollectionElementAction != null) return "";		
-		return "Collection.new"; 
+	public String getNewCollectionElementAction() {
+		return getCollectionAction(newCollectionElementAction, "Collection.new");		
 	}
 
 	public void setNewCollectionElementAction(String newCollectionElementAction) {		
@@ -4856,7 +4865,7 @@ public class View implements java.io.Serializable {
 	}
 
 	public String getRemoveCollectionElementAction() {
-		return removeCollectionElementAction == null?"Collection.remove":removeCollectionElementAction; 
+		return getCollectionAction(removeCollectionElementAction, "Collection.remove");
 	}
 
 	public void setRemoveCollectionElementAction(
@@ -4864,8 +4873,9 @@ public class View implements java.io.Serializable {
 		this.removeCollectionElementAction = removeCollectionElementAction;
 	}
 	
-	public String getRemoveSelectedCollectionElementsAction() {				
-		return removeSelectedCollectionElementsAction == null && !isRepresentsElementCollection()?"Collection.removeSelected":removeSelectedCollectionElementsAction;  
+	public String getRemoveSelectedCollectionElementsAction() {	
+		return getCollectionAction(removeSelectedCollectionElementsAction, 
+				                   isRepresentsElementCollection()?removeSelectedCollectionElementsAction:"Collection.removeSelected");
 	}
 
 	public void setRemoveSelectedCollectionElementsAction(
@@ -4873,8 +4883,8 @@ public class View implements java.io.Serializable {
 		this.removeSelectedCollectionElementsAction = removeSelectedCollectionElementAction;
 	}
 	
-	public String getSaveCollectionElementAction() {		
-		return saveCollectionElementAction == null?"Collection.save":saveCollectionElementAction;
+	public String getSaveCollectionElementAction() {
+		return getCollectionAction(saveCollectionElementAction, "Collection.save");
 	}
 
 	public void setSaveCollectionElementAction(String saveCollectionElementAction) {
@@ -5564,7 +5574,7 @@ public class View implements java.io.Serializable {
 	}
 	
 	public String getOnSelectCollectionElementAction() { 
-		return onSelectCollectionElementAction;
+		return getCollectionAction(onSelectCollectionElementAction, "");
 	}
 
 	public void setOnSelectCollectionElementAction(String onSelectCollectionElementAction) {
@@ -5871,4 +5881,39 @@ public class View implements java.io.Serializable {
 		return null;
 	}
 	
+	private String getCollectionAction(String action, String defaultAction) {
+		List<String> result = new ArrayList<String>(1);
+		if (action != null) result.add(action);
+		else result.add(defaultAction);
+		
+		refine(result);
+		return result.isEmpty() ? "" : result.get(0);
+	}
+	
+	private void refine(Collection<String> collection) {
+		if (refiner == null) return;
+		
+		final String prefix = getMemberName() + ":";
+		CollectionUtils.transform(collection, new Transformer() {			
+			@Override
+			public Object transform(Object obj) {
+				return  prefix + obj.toString();
+			}
+		});
+		
+		try { 
+			XObjects.execute(refiner, "refineForCollections", 
+				         MetaModule.class, getModuleManager(getRequest()).getMetaModule(),
+					     Collection.class, collection);
+		} catch(Exception ex) {
+			log.error(XavaResources.getString("controller_actions_error"), ex);			
+		}
+		
+		CollectionUtils.transform(collection, new Transformer() {			
+			@Override
+			public Object transform(Object obj) {				
+				return Strings.change(obj.toString(), prefix, "");
+			}
+		});		
+	}	
 }

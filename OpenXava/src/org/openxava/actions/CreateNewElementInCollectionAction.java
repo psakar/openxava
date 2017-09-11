@@ -28,9 +28,10 @@ public class CreateNewElementInCollectionAction extends CollectionElementViewBas
 		{ 
 			// The Collection.saveAndStay will function as trapper for the save action,
 			// and will prevent the dialog to close while clearing the form and filling with default values.
-			addActions(getCollectionElementView().getSaveCollectionElementAction());
+			String saveAction = getCollectionElementView().getSaveCollectionElementAction(); 
+			addActions(saveAction);
 			
-			if(XavaPreferences.getInstance().isSaveAndStayForCollections()){
+			if(XavaPreferences.getInstance().isSaveAndStayForCollections() && !saveAction.equals("")){
 				addActions("Collection.saveAndStay");
 			}
 			

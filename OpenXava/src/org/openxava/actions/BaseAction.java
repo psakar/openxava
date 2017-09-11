@@ -185,6 +185,7 @@ abstract public class BaseAction implements IAction, IRequestAction, IModuleCont
 	 */		
 	protected void removeActions(String ... qualifiedActions) { 
 		for (String qualifiedAction: qualifiedActions) {
+			if (Is.emptyString(qualifiedAction)) continue;
 			if(getManager().isShowDialog()){
 				getManager().removeMetaAction(MetaControllers.getMetaAction(qualifiedAction));
 			}
