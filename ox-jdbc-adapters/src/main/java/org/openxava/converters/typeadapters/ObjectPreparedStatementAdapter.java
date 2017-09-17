@@ -109,6 +109,46 @@ public class ObjectPreparedStatementAdapter implements PreparedStatement {
 		object = x;
 	}
 
+	public void setAsciiStream(int parameterIndex, InputStream x, long length) throws SQLException {
+
+	}
+
+	public void setBinaryStream(int parameterIndex, InputStream x, long length) throws SQLException {
+
+	}
+
+	public void setCharacterStream(int parameterIndex, Reader reader, long length) throws SQLException {
+
+	}
+
+	public void setAsciiStream(int parameterIndex, InputStream x) throws SQLException {
+
+	}
+
+	public void setBinaryStream(int parameterIndex, InputStream x) throws SQLException {
+
+	}
+
+	public void setCharacterStream(int parameterIndex, Reader reader) throws SQLException {
+
+	}
+
+	public void setNCharacterStream(int parameterIndex, Reader value) throws SQLException {
+
+	}
+
+	public void setClob(int parameterIndex, Reader reader) throws SQLException {
+
+	}
+
+	public void setBlob(int parameterIndex, InputStream inputStream) throws SQLException {
+
+	}
+
+	public void setNClob(int parameterIndex, Reader reader) throws SQLException {
+
+	}
+
 	public void setObject(int parameterIndex, Object x, int targetSqlType) throws SQLException {
 		object = x;
 	}
@@ -169,6 +209,38 @@ public class ObjectPreparedStatementAdapter implements PreparedStatement {
 
 	public ParameterMetaData getParameterMetaData() throws SQLException {	
 		return null;
+	}
+
+	public void setRowId(int parameterIndex, RowId x) throws SQLException {
+
+	}
+
+	public void setNString(int parameterIndex, String value) throws SQLException {
+
+	}
+
+	public void setNCharacterStream(int parameterIndex, Reader value, long length) throws SQLException {
+
+	}
+
+	public void setNClob(int parameterIndex, NClob value) throws SQLException {
+
+	}
+
+	public void setClob(int parameterIndex, Reader reader, long length) throws SQLException {
+
+	}
+
+	public void setBlob(int parameterIndex, InputStream inputStream, long length) throws SQLException {
+
+	}
+
+	public void setNClob(int parameterIndex, Reader reader, long length) throws SQLException {
+
+	}
+
+	public void setSQLXML(int parameterIndex, SQLXML xmlObject) throws SQLException {
+
 	}
 
 	public ResultSet executeQuery(String sql) throws SQLException {		
@@ -307,4 +379,31 @@ public class ObjectPreparedStatementAdapter implements PreparedStatement {
 		return 0;
 	}
 
+	public boolean isClosed() throws SQLException {
+		return false;
+	}
+
+	public void setPoolable(boolean poolable) throws SQLException {
+
+	}
+
+	public boolean isPoolable() throws SQLException {
+		return false;
+	}
+
+	public void closeOnCompletion() throws SQLException {
+
+	}
+
+	public boolean isCloseOnCompletion() throws SQLException {
+		return false;
+	}
+
+	public <T> T unwrap(Class<T> iface) throws SQLException {
+		return null;
+	}
+
+	public boolean isWrapperFor(Class<?> iface) throws SQLException {
+		return false;
+	}
 }
