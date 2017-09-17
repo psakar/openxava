@@ -1,0 +1,7 @@
+1) create maven project to create org.openxava.ox-jdbc-adapters.jar 
+contains only OpenXava/notcompile
+
+2) create maven project to create openxava.jar
+
+3) create maven project MySchool
+
