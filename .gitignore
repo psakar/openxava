@@ -1,2 +1,8 @@
 OpenXava/bin
 /OpenXava/lib/*
+
+# maven files
+target
+
+# IntelliJ Idea
+*.iml
