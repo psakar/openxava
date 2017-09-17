@@ -36,7 +36,6 @@
 	<property name="portlets.default.locale" value="en"/>
 	<property name="hibernate.properties" value=""/>
 	<property name="compile.src.path" value="../${project}/src"/>
-	<property name="ivy.settings.file" value="${basedir}/ivy-settings.xml" />
 
 	<!-- Set up java.class.path -->
 	<path id="project.class.path">
@@ -56,12 +55,12 @@
 	</path>
 	<taskdef resource="org/apache/ivy/ant/antlib.xml"
 		 uri="antlib:org.apache.ivy.ant" classpathref="ivy.lib.path"/>
-	<target name="resolveDependencies" description="--> retreive dependencies with ivy">
-		<ivy:settings file="${ivy.settings.file}" />
+	<target name="resolveDependenciesLib" description="--> retrieve dependencies with ivy - OpenXava/lib">
+		<ivy:settings file="${basedir}/ivy-settings.xml"/>
 <!--
 		<ivy:retrieve pattern="${ivy.lib.dir}/[artifact]-[revision](-[classifier]).[ext]"/>
 -->
-		<ivy:retrieve pattern="${ivy.lib.dir}/[artifact](-[classifier]).[ext]"/>
+		<ivy:retrieve pattern="${basedir}/lib/[artifact](-[classifier]).[ext]" file="ivy.xml"/>
 <!--
 		<ivy:report todir="${dist.dir}/ivy-report" graph="false"/>
 -->
@@ -71,7 +70,22 @@
 		<ivy:cachepath pathid="test.path"    conf="test"/>
 	</target>
 
-	<target name="init" depends="resolveDependencies">
+	<target name="resolveDependenciesWebLib" description="--> retrieve dependencies with ivy - OpenXava/web/WEB-INF/lib">
+		<ivy:settings file="${basedir}/ivy-settings.xml" />
+		<!--
+				<ivy:retrieve pattern="${ivy.lib.dir}/[artifact]-[revision](-[classifier]).[ext]"/>
+		-->
+		<ivy:retrieve pattern="${basedir}/web/WEB-INF/lib/[artifact](-[classifier]).[ext]" file="ivy-web-libs.xml"/>
+		<!--
+				<ivy:report todir="${dist.dir}/ivy-report" graph="false"/>
+		-->
+
+		<ivy:cachepath pathid="compile.path" conf="compile"/>
+		<ivy:cachepath pathid="runtime.path" conf="runtime"/>
+		<ivy:cachepath pathid="test.path"    conf="test"/>
+	</target>
+
+	<target name="init" depends="resolveDependenciesLib, resolveDependenciesWebLib">
 		<tstamp/>
 		<available file="../${project.name}/filtered-files" type="dir"
 			property="classic-xml"/>
