@@ -1,0 +1,13 @@
+<ivysettings>
+    <settings defaultResolver="default"/>
+    <property name="local-maven2-dir" value="${user.home}/.m2/repository/" />
+    <resolvers>
+        <chain name="default">
+		<filesystem name="local-maven-2" m2compatible="true">
+			<artifact pattern="${local-maven2-dir}/[organisation]/[module]/[revision]/[module]-[revision].[ext]" />
+			<ivy pattern="${local-maven2-dir}/[organisation]/[module]/[revision]/[module]-[revision].pom" />
+	        </filesystem>
+            <ibiblio name="central" m2compatible="true"/>
+        </chain>
+    </resolvers>
+</ivysettings>
