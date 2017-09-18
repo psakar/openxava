@@ -1,7 +1,17 @@
-1) create maven project to create org.openxava.ox-jdbc-adapters.jar 
-contains only OpenXava/notcompile
+Test maven project MySchool
 
-2) create maven project to create openxava.jar
+References
+http://openxava.wikispaces.com/maven-setup_en
+https://sourceforge.net/p/openxava/feature-requests/88/
 
-3) create maven project MySchool
+http://openxava.wikispaces.com/quick-start_en#Quick start-Execute the example application
 
+http://minuteproject.blogspot.cz/2012/02/adding-spring-security-to-openxava.html
+
+
+Git delete jars
+
+https://rtyley.github.io/bfg-repo-cleaner/
+
+https://stackoverflow.com/questions/4565057/prune-binary-data-from-a-git-repository-after-the-fact
+https://stackoverflow.com/questions/15759198/removing-unwanted-files-from-history-including-all-refs-with-filter-branch/15924054#15924054
