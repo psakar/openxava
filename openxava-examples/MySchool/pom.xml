@@ -31,6 +31,17 @@
 		</dependency>
 		<dependency>
 			<groupId>org.openxava</groupId>
+			<artifactId>openxava-addons</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml</groupId>
+			<artifactId>classmate</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.openxava</groupId>
 			<artifactId>openxava-test</artifactId>
 			<version>${project.version}</version>
 			<scope>test</scope>
@@ -67,6 +78,43 @@
 					<execution>
 						<goals>
 							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<!--
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>3.0.2</version>
+				<executions>
+				<execution>
+					<id>extract-addons-web-assets</id>
+					<phase>generate-sources</phase>
+					<goals>
+						<goal>copy-resources</goal>
+					</goals>
+				</execution>
+				</executions>
+			</plugin>
+			-->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-remote-resources-plugin</artifactId>
+				<version>1.5</version>
+				<configuration>
+					<resourceBundles>
+						<resourceBundle>org.openxava:openxava-addons:${project.version}:jar:web-assets</resourceBundle>
+					</resourceBundles>
+					<outputDirectory>${project.build.directory}/${project.name}-${project.version}</outputDirectory>
+					<excludes>
+						<exclude>META-INF</exclude>
+					</excludes>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>process</goal>
 						</goals>
 					</execution>
 				</executions>

@@ -17,9 +17,9 @@
 		<module>ox-jdbc-adapters</module>
 		<module>openxava</module>
 		<module>openxava-test</module>
+		<module>openxava-addons</module>
 		<module>openxava-examples</module>
 		<!--
-		<module>openxava-addons</module>
 		<module>testing</module>
 		<module>testing-addons</module>
 		<module>archetype</module>
