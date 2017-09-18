@@ -16,6 +16,7 @@
 		<module>openxava-parent-pom</module>
 		<module>ox-jdbc-adapters</module>
 		<module>openxava</module>
+		<module>openxava-test</module>
 		<!--
 		<module>openxava-addons</module>
 		<module>testing</module>
