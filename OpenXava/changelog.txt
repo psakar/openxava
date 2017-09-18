@@ -330,7 +330,7 @@ OpenXava 5.4.1 (2015-12-15)
 - Fix: Summation bad aligned in list.
 - Fix: Incorrect row height in add columns dialog.
 - Fix: Editors of type select multiple have fixed height.
-- Fix: Spanish messages not uniform for t�/usted usage.
+- Fix: Spanish messages not uniform for tú/usted usage.
 - Fix: @NoFrame references show the frame after choose a value searching in a polymorphic resultset.
 
 OpenXava 5.4 (2015-11-9)
@@ -1226,7 +1226,7 @@ OpenXava 4m6 (2010-11-10)
 - @OneToMany(orphanRemoval=true) supported: if  an element is removed from a collection the element is deleted from database. 
 - New showLabelsForToolBarActions property in xava.properties.
 - New possible value "almost-never" for by-default attribute of <action/> inside controllers.xml.
-- New 'ignoreAccentsForStringArgumentsInConditions' in xava.properties. It finds records whether you're looking for 'camión' or 'camion',...
+- New 'ignoreAccentsForStringArgumentsInConditions' in xava.properties. It finds records whether you're looking for 'camiÃ³n' or 'camion',...
 - New setModuleDescription() method in ModuleManager that changes the portlet title.
 - Emails: Sending attachments added.
 - Help icon obtained from container portal.
