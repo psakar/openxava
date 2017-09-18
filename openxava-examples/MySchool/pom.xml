@@ -12,7 +12,7 @@
 	<packaging>war</packaging>
 
 	<properties>
-		<defaultLanguageCode>${user.language}</defaultLanguageCode>
+		<defaultLanguageCode>en</defaultLanguageCode>
 	</properties>
 
 	<name>OpenXava Example WAR My School</name>
@@ -38,7 +38,7 @@
 	<build>
 		<resources>
 			<resource>
-				<directory>src/main/properties</directory>
+				<directory>src/main/i18n</directory>
 				<filtering>true</filtering>
 			</resource>
 			<resource>
@@ -46,7 +46,11 @@
 				<filtering>true</filtering>
 			</resource>
 			<resource>
-				<directory>src/main/i18n</directory>
+				<directory>src/main/properties</directory>
+				<filtering>true</filtering>
+			</resource>
+			<resource>
+				<directory>src/main/xava</directory>
 				<filtering>true</filtering>
 			</resource>
 		</resources>
