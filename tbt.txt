@@ -1,6 +1,57 @@
-Test maven project MySchool
+Convert all files to UTF-8
+--------------------------
+https://www.tecmint.com/convert-files-to-utf-8-encoding-in-linux/
+
+Generate web.xml
+----------------
+Currently I added file MySchool/src/main/webapp/WEB-INF/web.xml manually
+This file should be generated - see OpenXava/build.xml target createWebXml
+
+check / implement other targets
+-------------------------------
+ - copyWeb
+ - installAddons
+ - filter
+ - createEditorsJS
+
+ 
+
+Document how to change tomcat installation 
+------------------------------------------
+1. Edit $CATALINA_HOME/conf/context.xml and add
+    <Resource name="jdbc/MySchoolDS" auth="Container" type="javax.sql.DataSource"
+	      maxActive="20" maxIdle="5" maxWait="10000"
+	      username="sa" password="" driverClassName="org.hsqldb.jdbcDriver"
+	      url="jdbc:hsqldb:file:../data/my-school-db"/>
+    <!-- FIXME uncomment after data are copied
+    <Resource name="jdbc/OpenXavaTestDS" auth="Container" type="javax.sql.DataSource"
+	      maxActive="20" maxIdle="5" maxWait="10000"
+	      username="sa" password="" driverClassName="org.hsqldb.jdbcDriver"
+	      url="jdbc:hsqldb:hsql://localhost:1555"/>
+        
+    <Resource name="jdbc/InvoiceDemoDS" auth="Container" type="javax.sql.DataSource"
+	      maxActive="20" maxIdle="5" maxWait="10000"
+	      username="sa" password="" driverClassName="org.hsqldb.jdbcDriver"
+	      url="jdbc:hsqldb:file:../data/invoice-demo-db"/>
+    -->
+
+2. Copy hsqldb.jar to $CATALINA_HOME/lib/
+ wget http://central.maven.org/maven2/org/hsqldb/hsqldb/2.3.2/hsqldb-2.3.2.jar -O 2.3.2 -O $CATALINA_HOME/lib/hsqldb.jar
+
+3. Copy data
+ mkdir -p $CATALINA_HOME/data
+ cp openxava-examples/MySchool/data/* $CATALINA_HOME/data/
+ #FIXME OpenXavaTest
+ #FIXME InvoiceDemo
+
+
+Create script / ant task to customize tomcat installation
+---------------------------------------------------------
+FIXME
+
 
 References
+----------
 http://openxava.wikispaces.com/maven-setup_en
 https://sourceforge.net/p/openxava/feature-requests/88/
 
