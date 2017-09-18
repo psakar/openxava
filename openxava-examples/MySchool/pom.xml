@@ -15,7 +15,8 @@
 		<defaultLanguageCode>en</defaultLanguageCode>
 	</properties>
 
-	<name>OpenXava Example WAR My School</name>
+	<name>MySchool</name>
+	<description>OpenXava Example WAR My School</description>
 	<dependencies>
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -101,25 +102,31 @@
 				</executions>
 			</plugin>
 			<plugin>
-				<artifactId>maven-resources-plugin</artifactId>
-				<version>3.0.2</version>
+				<groupId>com.coderplus.maven.plugins</groupId>
+				<artifactId>copy-rename-maven-plugin</artifactId>
+				<version>1.0</version>
 				<executions>
+					<!-- copy Labels_{LANG}.properties to Labels.properties and Messages_{LANG}.properties to Messages.properties -->
 					<execution>
-						<phase>validate</phase>
+						<id>copy-default-labels</id>
+						<phase>generate-sources</phase>
 						<goals>
-							<goal>copy-resources</goal>
+							<goal>copy</goal>
 						</goals>
 						<configuration>
-							<outputDirectory>${basedir}/target/extra-resources</outputDirectory>
-							<resources>
-								<resource>
-									<directory>src/main/i18n</directory>
-									<filtering>true</filtering>
-									<includes>
-										<include></include>
-									</includes>
-								</resource>
-							</resources>
+							<sourceFile>src/main/i18n/${project.name}-Labels_${defaultLanguageCode}.properties</sourceFile>
+							<destinationFile>target/classes/${project.name}-Labels.properties</destinationFile>
+						</configuration>
+					</execution>
+					<execution>
+						<id>copy-default-messages</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>copy</goal>
+						</goals>
+						<configuration>
+							<sourceFile>src/main/i18n/${project.name}-Messages_${defaultLanguageCode}.properties</sourceFile>
+							<destinationFile>target/classes/${project.name}-Messages.properties</destinationFile>
 						</configuration>
 					</execution>
 				</executions>
