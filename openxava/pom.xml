@@ -604,15 +604,15 @@
 	<build>
 		<resources>
 			<resource>
+				<directory>src/main/i18n</directory>
+				<filtering>true</filtering>
+			</resource>
+			<resource>
 				<directory>src/main/properties</directory>
 				<filtering>true</filtering>
 			</resource>
 			<resource>
 				<directory>src/main/xava</directory>
-				<filtering>true</filtering>
-			</resource>
-			<resource>
-				<directory>src/main/i18n</directory>
 				<filtering>true</filtering>
 			</resource>
 		</resources>
